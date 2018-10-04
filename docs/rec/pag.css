@@ -1,0 +1,12 @@
+div.pag {
+    font-family: monospace;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 0.7em;
+    margin-right: -1mm;
+}
+div.pag span {
+    font-size: 0.6em;
+}
