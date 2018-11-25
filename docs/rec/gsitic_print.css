@@ -2,6 +2,7 @@ h1 {
     border-radius: 6px;
     padding: 10px;
     border: 2px solid black;
+    font-size: 1.7em;
 }
 .bio {
     display: none;

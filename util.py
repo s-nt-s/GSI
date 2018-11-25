@@ -7,7 +7,7 @@ from weasyprint import CSS, HTML
 re_head = re.compile(r"<(h[1-6])>\s*(.*?)\s*</\1>", re.MULTILINE)
 
 
-def get_tpt(title, rec=None, css_screen=None, css_print=None):
+def get_tpt(title, rec=None, css_screen=None, css_print=None, extra=None):
     html = '''
     <!DOCTYPE html>
     <html>
@@ -17,13 +17,14 @@ def get_tpt(title, rec=None, css_screen=None, css_print=None):
             <link rel="stylesheet" type="text/css" media="screen" href="{}"/>
             <link rel="stylesheet" type="text/css" media="print" href="print.css" />
             <link rel="stylesheet" type="text/css" media="print" href="{}" />
+            {}
         </head>
         <body>
             <div class="content">
             </div>
         </body>
     </html>
-    '''.format(title, css_screen, css_print)
+    '''.format(title, css_screen, css_print, (extra or ""))
     soup = bs4.BeautifulSoup(html, 'lxml')
     for style in soup.findAll("link"):
         if style.attrs["href"] == "None":

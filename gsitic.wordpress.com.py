@@ -45,13 +45,19 @@ for i, url, title in bloques:
     if len(temas) == 0:
         continue
 
+    extra = '''
+			<meta content="gsitic.wordpress.com" name="DC.creator" />
+			<meta name="ebook-meta" content='-s "gsitic.wordpress.com" -i %s' />
+    ''' % i
+        
     print ("Creando HTML del bloque " + str(i) + " ...", end="\r")
     soup = get_tpt("B%s %s" % (i, title), rec="../rec/",
-                   css_screen="gsitic.css", css_print="gsitic_print.css")
+                   css_screen="gsitic.css", css_print="gsitic_print.css", extra=extra)
     div = soup.find("div")
 
     for a in temas:
-        graby = get_graby(a.attrs["href"])
+        url_tema = a.attrs["href"]
+        graby = get_graby(url_tema)
         #h2 = soup.new_tag("h2")
         #h2.string = graby['title']
         # div.append(h2)
@@ -65,12 +71,21 @@ for i, url, title in bloques:
         for bio in bios:
             bio.name = "strong"
 
+        if url_tema == "https://gsitic.wordpress.com/2018/02/11/biv9-administracion-de-redes-locales-gestion-de-usuarios-gestion-de-dispositivos-monitorizacion-y-control-de-trafico-gestion-snmp-gestion-de-incidencias/":
+            tema.find("h1").name="h2"
+
         hss = []
         for hi in range(1, 7):
             hs = tema.findAll("h" + str(hi))
             if len(hs) > 0:
                 hss.append(hs)
-        hi = 1
+        '''
+        if len(hss)>0 and len(hss[0])==1:
+            hss[0][0].extract()
+            del hss[0]
+        '''
+                
+        hi = 2
         for hs in hss:
             for h in hs:
                 h.name = "h" + str(hi)
@@ -89,9 +104,27 @@ for i, url, title in bloques:
         for hr in tema.findAll("hr"):
             hr.extract()
 
-        div.append(tema)
-        tema.unwrap()
+        for n in tema.findAll(["div", "p"]):
+            if not n.find("img"):
+                txt = n.get_text().strip()
+                if len(txt)==0:
+                    n.extract()
+            if "id" in n.attrs:
+                del n.attrs["id"]
 
+        for img in tema.findAll("img"):
+            src = img.attrs["src"]
+            img.attrs.clear()
+            img.attrs["src"]=src
+
+        
+        h1 = soup.new_tag("h1")
+        h1.string = a.get_text()
+        div.append(h1)
+        div.append(tema)
+        tema.attrs.clear()
+        tema.name="article"
+    
     html = get_html(soup)
     out = salida + "bloque_" + str(i)
     with open(out + ".html", "w") as file:
