@@ -46,14 +46,14 @@ div.alert {
     padding-bottom: 10px;
     text-align: right;
 }
-nav a {
+div.alert a {
     color: white;
     font-weight: bold;
 }
-nav a:hover, nav a:focus {
+div.alert a:hover, div.alert a:focus {
     color: white;
     font-weight: bold;
 }
-nav a.home {
+div.alert a.home {
     float: left
 }
