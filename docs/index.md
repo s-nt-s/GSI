@@ -2,7 +2,7 @@
 title: Recursos
 ---
 <div class="alert">
-Página en construcción, código fuente en [GitHub](https://github.com/s-nt-s/GSI)
+Página en construcción, código fuente en <a href="https://github.com/s-nt-s/GSI">GitHub</a>
 </div>
 
 El objetivo de este proyecto es transformar recursos externos (generalmente webs)
