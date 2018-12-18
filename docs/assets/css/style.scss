@@ -1,0 +1,60 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header, footer {
+  display: none !important;
+}
+
+section {
+  width: unset !important;
+  float: unset !important;
+  border: unset !important;
+  border-width: unset !important;
+  padding: unset !important;
+  margin: unset !important;
+}
+
+#productos td.precio {
+  text-align: right;
+}
+#productos td.precio span.ceros {
+  opacity:0;
+}
+#productos th.precio {
+  width: 4em;
+}
+#productos span[title] {
+    cursor: help;
+}
+a:hover, a:focus {
+    font-weight: unset;
+}
+body {
+    padding-top: 0px;
+}
+
+nav {
+    display: block;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+}
+nav a:hover, nav a:focus {
+    color: white;
+    font-weight: bold;
+}
+nav a.home {
+    float: left
+}
