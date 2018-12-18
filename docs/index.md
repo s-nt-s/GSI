@@ -32,8 +32,8 @@ Los `PDF` están, obviamente, maqueados como me gusta a mi, es decir, para
 ir a una copistería, pedir que te los impriman en [formato folleto](http://weston.canncentral.org/images/PrintLayout2.gif)
 y le pasen la guillotina por el medio, de manera que al final tienes un
 libro de tamaño `A5`. Igualmente veras que solo están numeradas las páginas
-impares pues como la idea es imprimir a doble cara con numerar un lado del
-folio es más que suficiente, y de hecho hace más fácil reordenar las hojas
+impares pues como la idea es imprimir a doble cara con señalar un lado del
+folio es suficiente, y de hecho hace más fácil reordenar las hojas
 si un día hay un accidente que las descoloca.
 
 Si no te gusta así, recuerda que el [código fuente](https://github.com/s-nt-s/GSI) 
