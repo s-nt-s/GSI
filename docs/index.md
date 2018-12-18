@@ -11,9 +11,9 @@ relativos a las oposiciones GSI para su fácil impresión o consulta offline.
 ¿Por qué?
 
 * Porque, aunque parezca mentira en nuestro gremio, a veces es mejor usar papel...
-* pero tampoco me quiero llevar medio amazonas por delante, así que no vale imprimirlo de cualquier manera,
-* porque así también lo tengo en epub para cuando quiero repasar en el metro,
-* y porque generando versiones estáticas y usando `git diff` veo todos los cambios que hizo el autor original y evito perderme las actualizaciones o ampliaciones
+* pero tampoco me quiero llevar medio amazonas por delante, así que no vale imprimirlo de cualquier manera.
+* Porque así también lo tengo en epub para cuando quiero repasar en el metro.
+* Y porque generando versiones estáticas y usando `git diff` veo todos los cambios que hizo el autor original y evito perderme las actualizaciones o ampliaciones
 
 Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](https://github.com/s-nt-s/GSI/issues)
 
