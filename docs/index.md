@@ -17,7 +17,7 @@ relativos a las oposiciones GSI para su fácil impresión o consulta offline.
 
 Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](https://github.com/s-nt-s/GSI/issues)
 
-Por ahora tenemos:
+**Por ahora tenemos**:
 
 * Indice del temario: [HTML](temario.html), [PDF](temario.pdf), [BOE fuente](http://boe.es/diario_boe/txt.php?id=BOE-A-2018-1169)
 * Apuntes de [gsitic.wordpress.com](https://gsitic.wordpress.com) (el bloque 2 esta casi completo pero los otros están más o menos a la mitad):
