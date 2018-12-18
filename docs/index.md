@@ -35,5 +35,5 @@ impares pues como la idea es imprimir a doble cara con numerar un lado del
 folio es más que suficiente, y de hecho hace más fácil reordenar las hojas
 si un día hay un accidente que las descoloca.
 
-Si no te gusta así, recuerda que el [código fuente](https://github.com/s-nt-s/GSI)
+Si no te gusta así, recuerda que el [código fuente](https://github.com/s-nt-s/GSI) 
 esta disponible y que con pequeños cambios puedes generar un `PDF` a tu gusto.
