@@ -26,6 +26,7 @@ Por ahora tenemos:
   * Bloque 4: [HTML](gsitic.wordpress.com/bloque_4.html), [PDF](gsitic.wordpress.com/bloque_4.pdf), [EPUB](gsitic.wordpress.com/bloque_4.epub)
 
 <hr/>
+<hr/>
 
 Los `PDF` están, obviamente, maqueados como me gusta a mi, es decir, para
 ir a una copistería, pedir que te los impriman en [formato folleto](http://weston.canncentral.org/images/PrintLayout2.gif)
