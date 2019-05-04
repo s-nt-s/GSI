@@ -34,13 +34,14 @@ def get_graby(url):
         return None
     return r.json()
 
+
 for i, url, title in bloques:
     graby = get_graby(url)
     bloque = bs4.BeautifulSoup(graby['html'], "lxml")
     temas = bloque.findAll("a")
     total = len(bloque.findAll("li"))
     porcentaje = int((len(temas) / total) * 100)
-    print ("El bloque %s esta al %s%%" % (i, porcentaje))
+    print("El bloque %s esta al %s%%" % (i, porcentaje))
 
     if len(temas) == 0:
         continue
@@ -49,8 +50,8 @@ for i, url, title in bloques:
 			<meta content="gsitic.wordpress.com" name="DC.creator" />
 			<meta name="ebook-meta" content='-s "gsitic.wordpress.com" -i %s' />
     ''' % i
-        
-    print ("Creando HTML del bloque " + str(i) + " ...", end="\r")
+
+    print("Creando HTML del bloque " + str(i) + " ...", end="\r")
     soup = get_tpt("B%s %s" % (i, title), rec="../rec/",
                    css_screen="gsitic.css", css_print="gsitic_print.css", extra=extra)
     div = soup.find("div")
@@ -72,7 +73,7 @@ for i, url, title in bloques:
             bio.name = "strong"
 
         if url_tema == "https://gsitic.wordpress.com/2018/02/11/biv9-administracion-de-redes-locales-gestion-de-usuarios-gestion-de-dispositivos-monitorizacion-y-control-de-trafico-gestion-snmp-gestion-de-incidencias/":
-            tema.find("h1").name="h2"
+            tema.find("h1").name = "h2"
 
         hss = []
         for hi in range(1, 7):
@@ -84,7 +85,7 @@ for i, url, title in bloques:
             hss[0][0].extract()
             del hss[0]
         '''
-                
+
         hi = 2
         for hs in hss:
             for h in hs:
@@ -107,7 +108,7 @@ for i, url, title in bloques:
         for n in tema.findAll(["div", "p"]):
             if not n.find("img"):
                 txt = n.get_text().strip()
-                if len(txt)==0:
+                if len(txt) == 0:
                     n.extract()
             if "id" in n.attrs:
                 del n.attrs["id"]
@@ -115,18 +116,17 @@ for i, url, title in bloques:
         for img in tema.findAll("img"):
             src = img.attrs["src"]
             img.attrs.clear()
-            img.attrs["src"]=src
+            img.attrs["src"] = src
 
-        
         h1 = soup.new_tag("h1")
         h1.string = a.get_text()
         div.append(h1)
         div.append(tema)
         tema.attrs.clear()
-        tema.name="article"
-    
+        tema.name = "article"
+
     html = get_html(soup)
     out = salida + "bloque_" + str(i)
     with open(out + ".html", "w") as file:
         file.write(html)
-    print ("Creando HTML del bloque " + str(i) + " 100%")
+    print("Creando HTML del bloque " + str(i) + " 100%")

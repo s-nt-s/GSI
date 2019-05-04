@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import re
-from urllib.parse import urljoin, urlparse
 
 import bs4
 import requests
@@ -88,6 +87,7 @@ def get_h(soup, level, txt):
     h = soup.new_tag("h" + str(level))
     h.string = txt
     return h
+
 
 indice = get_tpt("Temario GSI", rec="rec/",
                  css_screen="temario.css",  css_print="temario_print.css")

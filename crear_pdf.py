@@ -9,6 +9,7 @@ from util import html_to_pdf
 
 num = re.compile(r"_(\d+).html")
 
+
 def get_codigo(fname):
     if fname == "temario.html":
         return "GSI"
@@ -18,7 +19,7 @@ def get_codigo(fname):
     else:
         codigo = fname[0:2].upper()
     return codigo
-    
+
 
 files = sys.argv[1:] or sorted(iglob("./**/*.html", recursive=True))
 for h in files:
