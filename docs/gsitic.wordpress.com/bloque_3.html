@@ -16336,6 +16336,1103 @@ Si TS(T) &lt;= TSW(Objeto):
      </li>
     </ul>
    </article>
+   <h1>La calidad del software y su medida. Modelos, métricas,normas y estándares.</h1>
+   <article>
+    <h2>Introducción a la Calidad del Software</h2>
+    <h3>Introducción</h3>
+    <p>
+     La
+     <strong>
+      Calidad del Software
+     </strong>
+     es “
+     <em>
+      la concordancia con los requerimientos funcionales y de rendimiento explícitamente establecidos con los estándares de desarrollo documentados y con las características implícitas que se esperan de todo software desarrollado profesionalmente
+     </em>
+     “. La Calidad del Software (CS) es una disciplina más dentro de la Ingeniería del Software. El principal instrumento para garantizar la calidad de las aplicaciones sigue siendo el Plan de Calidad, el cual se basa en normas o estándares genéricos y en procedimientos particulares. Los procedimientos pueden variar en cada organización, pero lo importante es que estén escritos, personalizados, adaptados a los procesos de la organización y que sean cumplidos.
+    </p>
+    <p>
+     Se puede decir que los requisitos del software son la base de las medidas de calidad y que la falta de concordancia con los requisitos es una falta de calidad. Los estándares o metodologías definen un conjunto de criterios de desarrollo que guían la forma en que se aplica la Ingeniería del Software. Si no se sigue ninguna metodología siempre habrá falta de calidad. Todas las metodologías y herramientas tienen un único fin, producir software de alta calidad.
+    </p>
+    <p>
+     A la hora de definir la calidad del software se debe diferenciar entre la calidad del Producto de software y la calidad del Proceso de desarrollo. No obstante, las metas que se establezcan para la calidad del producto van a determinar las metas a establecer para la calidad del proceso de desarrollo, ya que la calidad del producto va a estar en función de la calidad del proceso de desarrollo. Sin un buen proceso de desarrollo es casi imposible obtener un buen producto.
+    </p>
+    <p>
+     La calidad el producto de software se diferencia de la calidad de otros productos de fabricación industrial, ya que el software tiene ciertas características especiales:
+    </p>
+    <ol>
+     <li>
+      El software es un producto mental, no restringido por las leyes de la Física o por los límites de los procesos de fabricación.
+     </li>
+     <li>
+      Se desarrolla, no se fabrica. El coste está fundamentalmente en el proceso de diseño, no en la producción. Y los errores se introducen también en el diseño, no en la producción.
+     </li>
+     <li>
+      El software no se deteriora con el tiempo. No es susceptible a los efectos del entorno, y su curva de fallos es muy diferente a la del hardware. Todos los problemas que surjan durante el mantenimiento estaban desde el principio, y afectan a todas las copias del mismo; no se generan nuevos errores.
+     </li>
+     <li>
+      Es artesanal en gran medida. El software, en su mayoría, se construye a medida, en vez de ser construido ensamblando componentes existentes y ya probados, lo que dificulta aún más el control de su calidad.
+     </li>
+     <li>
+      El mantenimiento del software es mucho más complejo que el mantenimiento del hardware. Cuando un componente de hardware se deteriora se sustituye por una pieza de repuesto, pero cada fallo en el software implica un error en el diseño o en el proceso mediante el cual se tradujo el diseño en código de máquina ejecutable.
+     </li>
+     <li>
+      Es engañosamente fácil realizar cambios sobre un software, pero los efectos de estos cambios se pueden  propagar de forma explosiva e incontrolada.
+     </li>
+     <li>
+      El software con errores no se rechaza. Se asume que es inevitable que el software presente errores.
+     </li>
+    </ol>
+    <p>
+     Es importante destacar que la calidad del software debe ser considerada en todos sus estados de evolución (especificaciones, diseño, código, etc). No basta con tener en cuenta la calidad del producto una vez finalizado, cuando los problemas de mala calidad ya no tienen solución o la solución es muy costosa.
+    </p>
+    <p>
+     La problemática general a la que se enfrenta el software es:
+    </p>
+    <ol>
+     <li>
+      Aumento constante del tamaño y complejidad de los programas.
+     </li>
+     <li>
+      Carácter dinámico e iterativo a lo largo de su ciclo de vida, es decir que los programas de software a lo largo de su vida cambian o evolucionan de una versión a otra para mejorar las prestaciones con respecto a las anteriores.
+     </li>
+     <li>
+      Dificultad de conseguir productos totalmente depurados, ya que en ningún caso un programa será perfecto.
+     </li>
+     <li>
+      Se dedican elevados recursos monetarios a su mantenimiento, debido a la dificultad que los proyectos de software entrañan y a la no normalización a la hora de realizar los proyectos.
+     </li>
+     <li>
+      No suelen estar terminados en los plazos previstos, ni con los costes estipulados, ni cumpliendo los niveles deseables de los requisitos especificados por el usuario.
+     </li>
+     <li>
+      Incrementos constantes de los costes de desarrollo debido entre otros, a los bajos niveles de productividad.
+     </li>
+     <li>
+      Los clientes tienen una alta dependencia de sus proveedores por ser en muchos casos aplicaciones a “medida”.
+     </li>
+     <li>
+      Procesos artesanales de producción con escasez de herramientas.
+     </li>
+     <li>
+      Insuficientes procedimientos normalizados para estipular y evaluar la calidad, costes y productividad.
+     </li>
+    </ol>
+    <p>
+     Uno de los principales problemas a los que nos enfrentamos a la hora de hablar de la calidad del software es el siguiente: ¿Es realmente posible encontrar un conjunto de propiedades en un software que nos den una indicación de su calidad? Para dar respuesta a esta pregunta aparecen los
+     <strong>
+      Modelos de Calidad
+     </strong>
+     . En los Modelos de Calidad, la calidad se define de forma jerárquica y tienen como objetivo resolver la complejidad mediante la descomposición.
+    </p>
+    <p>
+     La Calidad del Software debe implementarse en todo el ciclo de vida del mismo. Las distintas actividades para la implantación del control de calidad en el desarrollo de software son:
+    </p>
+    <ol>
+     <li>
+      Aplicación y metodología y técnicas de desarrollo.
+     </li>
+     <li>
+      Reutilización de procesos de revisión formales.
+     </li>
+     <li>
+      Prueba del software.
+     </li>
+     <li>
+      Ajustes a los estándares de desarrollo.
+     </li>
+     <li>
+      Control de cambios, mediciones y recopilación de información.
+     </li>
+     <li>
+      Gestión de informes sobre el control de calidad.
+     </li>
+    </ol>
+    <p>
+     La Calidad del Software es el conjunto de cualidades que lo caracterizan y que determinan su utilidad y existencia, la cual plantea un adecuado balanceo de eficiencia, confiabilidad, facilidad de mantenimiento, portabilidad, facilidad de uso, seguridad e integridad.
+    </p>
+    <p>
+     La implantación de un Modelo o Estándar requiere de una Gestión de la Calidad del Software. La Calidad se logra a través de la
+     <strong>
+      Gestión de la Calidad
+     </strong>
+     , la cual, según ISO 9000:2000, consiste en la realización de actividades coordinadas que permiten dirigir y controlar una organización en lo relativo a la calidad.
+    </p>
+    <h3>Gestión de la Calidad del Software</h3>
+    <p>
+     La Gestión de la Calidad del Software es una actividad esencial en cualquier empresa de software para asegurar la calidad de sus productos, y la competitividad frente a la oferta del mercado. Es un conjunto de actividades de la función general de la Dirección que determina la calidad, los objetivos y las responsabilidades. Se basa en la determinación y aplicación de las políticas de calidad de la empresa (objetivos y directrices generales). La Gestión o Administración de la Calidad se aplica normalmente a nivel empresa. También puede haber una gestión de la calidad dentro de la gestión de cada proyecto.
+    </p>
+    <p>
+     El propósito de la Administración de la Calidad del Software es, en primer lugar, entender las expectativas del cliente en términos de calidad y poner en práctica un plan proactivo para satisfacer esas expectativas. Dado que la calidad está definida por el cliente, podría parecer que es completamente subjetiva. De cualquier forma, hay muchas cosas acerca de la calidad que pueden hacerse objetivamente. Esto requiere examinar cada una de las características individuales del software y determinar una o más métricas que pueden recolectarse para reflejar dichas características. Por ejemplo, una característica de calidad puede ser que la solución tenga la menor cantidad de errores. Esta característica puede medirse contando los errores y defectos de la solución.
+    </p>
+    <p>
+     La Administración de la Calidad no es un evento, es un proceso y una forma de pensamiento. Un producto de software consistente, de alta calidad no puede producirse a partir de un proceso malo. Existe la necesidad de un ciclo constante de medir la calidad, actualizar el proceso, medir otra vez, actualizar, etc. Para hacer que la administración de calidad del software funcione, es vital recolectar métricas. Si no se capturan métricas será difícil mejorar los procesos a partir de una iniciativa de administración de calidad. Uno de los propósitos de la administración de la calidad del software es encontrar errores y defectos en el proyecto tan pronto como sea posible. Entonces, un buen proceso de administración de calidad tomará más esfuerzo y costo. De cualquier manera, habrá una gran recompensa al tiempo que el proyecto avanza.
+    </p>
+    <p>
+     Por ejemplo, es mucho más fácil arreglar un problema con los requerimientos de negocio durante la fase de análisis que tener que arreglar problemas durante las pruebas. En otras palabras, el equipo de proyecto debe intentar mantener una alta calidad durante el proceso de desarrollo de los productos de software, en vez de esperar arreglar problemas durante las pruebas cercanas al final del proyecto (o en el peor de los casos, cuando el cliente encuentra el problema después que el proyecto se completó).
+    </p>
+    <p>
+     Desde el punto de vista de la calidad, la Gestión de la Calidad del Software está formada por 4 partes, las cuales son:
+    </p>
+    <ol>
+     <li>
+      <strong>
+       Planificación
+      </strong>
+      de la Calidad del Software.
+     </li>
+     <li>
+      <strong>
+       Control
+      </strong>
+      de la Calidad del Software.
+     </li>
+     <li>
+      <strong>
+       Aseguramiento
+      </strong>
+      de la Calidad del Software.
+     </li>
+     <li>
+      <strong>
+       Mejora
+      </strong>
+      de la Calidad del Software.
+     </li>
+    </ol>
+    <h4>Planificación de la Calidad del Software</h4>
+    <p>
+     Según la Norma ISO 9000:2000, la planificación de la calidad es la parte de la gestión de la calidad enfocada al establecimiento de los objetivos de la calidad y a la especificación de los procesos operativos necesarios y de los recursos relacionados para cumplir los objetivos de calidad.
+    </p>
+    <p>
+     La Planificación de la Calidad del Software es la parte de la Gestión de la Calidad encargada de realizar el proceso administrativo de desarrollar y mantener una relación entre los objetivos y recursos de la organización; y las oportunidades cambiantes del mercado. El objetivo es modelar y remodelar los negocios y productos de la empresa, de manera que se combinen para producir un desarrollo y utilidades satisfactorias.
+    </p>
+    <p>
+     Los aspectos a considerar en la Planificación de la Calidad del Software son:
+    </p>
+    <ul>
+     <li>
+      Modelos/Estándar de Calidad del Software a utilizar.
+     </li>
+     <li>
+      Costos de la Calidad del Software.
+     </li>
+     <li>
+      Recursos humanos y materiales necesarios.
+     </li>
+    </ul>
+    <p>
+     Los factores que determinan el Modelo o Estándar de Calidad de Software a elegir son:
+    </p>
+    <ol>
+     <li>
+      La complejidad del proceso de diseño.
+     </li>
+     <li>
+      La madurez del diseño.
+     </li>
+     <li>
+      La complejidad del proceso de producción.
+     </li>
+     <li>
+      Las características del producto o servicio.
+     </li>
+     <li>
+      La seguridad del producto o servicio.
+     </li>
+     <li>
+      Económico.
+     </li>
+    </ol>
+    <p>
+     Según la Norma ISO/IEC 90003:2004 se puede decir que: “La planificación de la calidad facilita el modo de adaptar la planificación del sistema de gestión de la calidad a un proyecto especifico, producto o contrato. La planificación de la calidad puede incluir referencias genéricas y/o
+     <em>
+      proyecto/producto/contrato
+     </em>
+     específico de procedimientos, como apropiados. La planificación de la calidad debería ser revisada de nuevo junto con el progreso del diseño y desarrollo, y los elementos, en cada fase, deberían ser completamente definidos al comienzo de dicha fase.”.
+    </p>
+    <p>
+     La planificación de la calidad del software a nivel de proyectos debería considerar lo siguiente:
+    </p>
+    <ol>
+     <li>
+      Inclusión de los planes de desarrollo.
+     </li>
+     <li>
+      Los requisitos de calidad relacionados con los productos y/o procesos.
+     </li>
+     <li>
+      Los sistemas de gestión de la calidad adaptando y/o identificando los procesos e instrucciones específicos, apropiados para el ámbito del manual de calidad y algunas exclusiones expuestas.
+     </li>
+     <li>
+      Los procesos de proyectos-específicos e instrucciones, tales como, especificación de pruebas del software detallando los planes, diseños, casos de pruebas y procesos para la unidad, integración, sistemas y pruebas de aceptación.
+     </li>
+     <li>
+      Los métodos, modelos, herramientas, convenios de lenguajes de programación, bibliotecas,  marcos de trabajo y otros componentes reutilizables para ser usados en los proyectos.
+     </li>
+     <li>
+      Los criterios para el comienzo y el final de cada fase o etapa del proyecto.
+     </li>
+     <li>
+      Los tipos de análisis y otras verificaciones y actividades de validación para ser llevadas a cabo.
+     </li>
+     <li>
+      Los procesos de gestión de la configuración para ser llevados a cabo.
+     </li>
+     <li>
+      Las actividades de seguimiento y las medidas para ser llevadas a cabo.
+     </li>
+     <li>
+      Las personas responsables de aprobar de procesos de salida para su uso posterior.
+     </li>
+     <li>
+      La formación necesaria para el uso de herramientas y técnicas, y la organización de la formación previa a la habilidad necesaria.
+     </li>
+     <li>
+      Los registros para ser mantenidos.
+     </li>
+     <li>
+      La gestión de cambios, como por ejemplo, para recursos, escalas de tiempo y cambios de contrato.
+     </li>
+    </ol>
+    <p>
+     La planificación de la calidad, sin embargo, abreviada es particularmente útil para limitar los objetivos de calidad para los software siendo designados para un propósito limitado.
+    </p>
+    <p>
+     Según Humphrey (1989) un plan de calidad puede tener la siguiente estructura:
+    </p>
+    <ol>
+     <li>
+      Introducción al Producto: una descripción del producto, su objetivo en el mercado y expectativas de calidad del producto.
+     </li>
+     <li>
+      Planes del producto: Fechas críticas respecto de la liberación del producto y responsabilidades del producto respecto de su distribución y servicio.
+     </li>
+     <li>
+      Descripción del proceso: Procesos de desarrollo y servicios que serían usados en el desarrollo y en la administración.
+     </li>
+     <li>
+      Objetivos de Calidad: Objetivos y planes de calidad del producto, los cuales incluyen la identificación de los atributos de calidad del producto.
+     </li>
+     <li>
+      Manejo del riesgo: principales riesgos que pueden afectar la calidad del producto.
+     </li>
+    </ol>
+    <p>
+     Esta información puede ser presentada en diferentes documentos.
+    </p>
+    <p>
+     El plan de calidad define los atributos de calidad más importantes del producto a ser desarrollado y define el proceso de evaluación de la calidad.
+    </p>
+    <p>
+     En la Planificación de la Calidad del Software se debe determinar:
+    </p>
+    <ol>
+     <li>
+      Rol de la Planificación.
+     </li>
+     <li>
+      Requerimientos de la Calidad del Software.
+     </li>
+     <li>
+      Preparación de un Plan de Calidad del Software.
+     </li>
+     <li>
+      Implementación de un Plan de Calidad del Software.
+     </li>
+     <li>
+      Preparar un Manual de Calidad.
+     </li>
+    </ol>
+    <h4>Control de la Calidad del Software</h4>
+    <p>
+     Según la Norma ISO 9000:2000, el control de la calidad es la parte de la gestión de la calidad orientada al cumplimiento de los requisitos de la calidad.
+    </p>
+    <p>
+     El Control de la Calidad del Software son las técnicas y actividades de carácter operativo, utilizadas para satisfacer los requisitos relativos a la calidad, centradas en 2 objetivos fundamentales:
+    </p>
+    <ol>
+     <li>
+      Mantener bajo control un proceso.
+     </li>
+     <li>
+      Eliminar las causas de los defectos en las diferentes fases del ciclo de vida.
+     </li>
+    </ol>
+    <p>
+     Está formado por actividades que permiten evaluar la calidad de los productos de software desarrollados. El aspecto a considerar en el Control de la Calidad del Software es la “Prueba del Software”.
+    </p>
+    <p>
+     Las
+     <strong>
+      Pruebas de Software
+     </strong>
+     presentan una interesante anomalía para el Ingeniero del Software. Durante las fases anteriores de definición y de desarrollo, el Ingeniero intenta construir el software partiendo de un concepto abstracto y llegando a una implementación tangible. Luego, llegan las pruebas. El Ingeniero crea una serie de casos de prueba que intentar “demoler” el software construido. De hecho, las pruebas son uno de los pasos de la Ingeniería del Software que se puede ver como destructivo en lugar de constructivo.
+    </p>
+    <p>
+     Las Etapas del Desarrollo de Software son:
+    </p>
+    <ul>
+     <li>
+      Análisis
+     </li>
+     <li>
+      Diseño
+     </li>
+     <li>
+      Implementación
+     </li>
+     <li>
+      Pruebas
+     </li>
+     <li>
+      Mantenimiento
+     </li>
+    </ul>
+    <p>
+     La prueba es el proceso de ejecutar un programa con intención de encontrar defectos. Es un proceso destructivo que determina el diseño de los casos de prueba y la asignación de responsabilidades.
+    </p>
+    <p>
+     La prueba exitosa es aquella que descubre defectos. El “caso de prueba bueno” es aquel que tiene alta probabilidad de detectar un defecto aún no descubierto. El “caso de prueba exitoso” es aquel que detecta un defecto aún no descubierto.
+    </p>
+    <p>
+     La prueba no es:
+    </p>
+    <ol>
+     <li>
+      Demostración que no hay errores.
+     </li>
+     <li>
+      Demostración que el software desempeña correctamente sus funciones.
+     </li>
+     <li>
+      Establecimiento de confianza que un programa hace lo que debe hacer.
+     </li>
+    </ol>
+    <p>
+     La prueba demuestra hasta qué punto las funciones del software parecen funcionar de acuerdo con las especificaciones y parecen alcanzarse los requisitos de rendimiento. Además, los datos que se van recogiendo a medida que se lleva a cabo la prueba proporcionan una buena indicación de la confiabilidad del software e indican la calidad del software como un todo. Pero, la prueba no puede asegurar la ausencia de defectos; sólo puede demostrar que existen defectos en el software.
+    </p>
+    <p>
+     La prueba del software es un concepto más amplio que, a menudo, es conocido como verificación y validación (V&amp;V):
+    </p>
+    <ul>
+     <li>
+      La
+      <strong>
+       verificación
+      </strong>
+      se refiere al conjunto de actividades que aseguran que el software implementa correctamente una función específica. Su pregunta asociada es:  ¿estamos construyendo el producto correctamente?
+     </li>
+     <li>
+      La
+      <strong>
+       validación
+      </strong>
+      se refiere a un conjunto diferente de actividades que aseguran que el software construido se ajusta a los requisitos del cliente. Su pregunta asociada es: ¿estamos construyendo el producto correcto?. La validación del software se consigue mediante una serie de pruebas de caja negra que demuestran la conformidad respecto de los requisitos del cliente. Un plan de prueba traza las clases de pruebas que se han de llevar a cabo, y un procedimiento de prueba define los casos de prueba específicos en un intento por descubrir errores de acuerdo con los requisitos.
+     </li>
+    </ul>
+    <p>
+     Los principios básicos de la pruebas de software son:
+    </p>
+    <ol>
+     <li>
+      A todas las pruebas se les debería poder hacer un seguimiento hasta los requisitos del cliente.
+     </li>
+     <li>
+      Las pruebas deberían planificarse mucho antes que empiecen.
+     </li>
+     <li>
+      Las pruebas deberían empezar por “lo pequeño” y progresar hacia “lo grande”.
+     </li>
+     <li>
+      Para ser más eficaces, las pruebas deberían ser realizadas por un equipo independiente.
+     </li>
+    </ol>
+    <p>
+     Una estrategia de prueba de software integra las técnicas de diseño de casos de prueba en una serie de pasos bien planificados que dan como resultado una correcta construcción del software. La estrategia proporciona un mapa que describe los pasos que hay que llevar a cabo como parte de la prueba, cuándo se deben planificar y realizar esos pasos, y cuánto esfuerzo, tiempo y recursos se van a requerir. Cualquier estrategia de prueba debe incorporar la planificación de la prueba, el diseño de casos de prueba, la ejecución de las pruebas; y la agrupación y evaluación de los datos resultantes.
+    </p>
+    <p>
+     Las características generales de las estrategias de prueba de software son las siguientes:
+    </p>
+    <ol>
+     <li>
+      La prueba comienza en el nivel módulo y trabaja “hacia fuera”, hacia la integración de todo el sistema basado en computadora.
+     </li>
+     <li>
+      Diferentes técnicas de prueba son apropiadas en diferentes momentos.
+     </li>
+     <li>
+      La prueba la realiza el que desarrolla el software y un grupo de prueba independiente.
+     </li>
+     <li>
+      La prueba y la depuración son actividades, pero la depuración se puede incluir en cualquier estrategia de prueba.
+     </li>
+    </ol>
+    <p>
+     Para implementar con éxito una estrategia de prueba de software, se debe:
+    </p>
+    <ol>
+     <li>
+      Especificar los requisitos del producto de manera cuantificable antes que comiencen las pruebas.
+     </li>
+     <li>
+      Especificar los objetivos de prueba de manera explícita.
+     </li>
+     <li>
+      Desarrollar un plan de prueba de haga hincapié en la prueba de ciclo rápido.
+     </li>
+     <li>
+      Construir un software robusto diseñado para probarse a sí mismo.
+     </li>
+     <li>
+      Usar revisiones de técnicas formales efectivas como filtro antes de la prueba.
+     </li>
+     <li>
+      Realizar revisiones técnicas formales para evaluar la estructura de la prueba y los propios casos de prueba.
+     </li>
+     <li>
+      Desarrollar un enfoque de mejora continua al proceso de prueba.
+     </li>
+    </ol>
+    <p>
+     Existen 2 enfoques de estrategia de prueba de software: uno tradicional y otro relacionado al ambiente Cliente/Servidor.
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Estrategia Tradicional
+      </strong>
+     </li>
+    </ul>
+    <p>
+     Una estrategia Tradicional de prueba del software debe incluir pruebas de bajo nivel que verifiquen que todos los pequeños segmentos de código fuente se han implementado correctamente, así como pruebas de alto nivel que validen las principales funciones del sistema frente a los requisitos del cliente. Una estrategia proporciona un conjunto de hitos. Debido a que los pasos de la estrategia de prueba se dan cuando aumenta la presión de los plazos fijados, se debe poder medir el progreso y los problemas deben aparecer lo antes posible.
+    </p>
+    <p>
+     Inicialmente, la prueba se centra en cada módulo individualmente, asegurando que funciona adecuadamente como una unidad. La
+     <strong>
+      prueba de unidad
+     </strong>
+     hace un uso intensivo de las técnicas de prueba de caja blanca, ejercitando caminos específicos de la estructura de control del módulo para asegurar un alcance completo y una detección máxima de errores. La prueba de unidad centra el proceso de verificación en la menor unidad del diseño del software: el componente de software o módulo. Se prueba la interfaz del módulo para asegurar que la información fluye de forma adecuada hacia y desde la unidad de programa que está siendo probada. Se examinan las estructuras de datos locales para asegurar que los datos que se mantienen temporalmente conservan su integridad durante todos los pasos de ejecución del algoritmo. Se prueban las condiciones límite para asegurar que el módulo funciona correctamente en los límites establecidos. Se ejercitan todos los caminos independientes de la estructura de control con el el fin de asegurar que todas las sentencias del módulo se ejecutan por lo menos una vez. Y, finalmente, se prueban todos los caminos de manejo de errores. Antes de iniciar cualquier otra prueba es preciso probar el flujo de datos de la interfaz del módulo. Si los datos no entran correctamente, todas las demás pruebas no tienen sentido. Además de las estructuras de datos locales, durante la prueba de unidad se debe comprobar el impacto de los datos globales sobre el módulo.
+    </p>
+    <p>
+     A continuación, se deben ensamblar o integrar los módulos para formar el paquete de software completo. La
+     <strong>
+      prueba de integración
+     </strong>
+     es una técnica sistemática que permite construir la estructura del programa mientras que, al mismo tiempo, se llevan a cabo pruebas para detectar errores asociados con la interacción. El objetivo es juntar los módulos probados mediante la prueba de unidad y construir una estructura de programa que esté de acuerdo con lo que dicta el diseño. Se combinan todos las módulo por anticipado. Se prueba todo el programa en conjunto. Se encuentra un gran conjunto de errores. La corrección se hace difícil, ya que es complicado aislar las causas al tener el programa entero en toda su extensión. Una vez que se corrigen esos errores aparecen otros nuevos y el proceso continúa en lo que parece ser un ciclo sin fin.
+    </p>
+    <p>
+     Después que el software se ha integrado, se dirigen un conjunto de pruebas de alto nivel. Se deben comprobar los criterios de validación establecidos durante el análisis de requisitos. La
+     <strong>
+      prueba de validación
+     </strong>
+     proporciona una seguridad final que el software satisface todos los requisitos funcionales, de comportamiento y de rendimiento. Durante la validación se usan exclusivamente técnicas de prueba de caja negra.
+    </p>
+    <p>
+     El software, una vez validado, se debe combinar con otros elementos del sistema. La
+     <strong>
+      prueba del sistema
+     </strong>
+     verifica que cada elemento se ajusta de forma adecuada y que se alcanza la funcionalidad y el rendimiento del sistema total. La prueba del sistema está constituida por una serie de pruebas diferentes cuyo propósito primordial es ejercitar profundamente el sistema basado en computadora. Aunque cada prueba tiene un propósito diferente, todas trabajan para verificar que se ha integrado adecuadamente todos los elementos del sistema y que realizan las funciones apropiadas.
+    </p>
+    <p>
+     La
+     <strong>
+      prueba de regresión
+     </strong>
+     es volver a ejecutar un subconjunto de pruebas que se han llevado a cabo anteriormente para asegurarse que los cambios no han propagado efectos colaterales no deseados. Este tipo de prueba es la actividad que ayuda a asegurar que los cambios no introduzcan un comportamiento no deseado o errores adicionales. A medida que progresa la prueba de regresión, el número de pruebas de regresión puede crecer demasiado. Por lo tanto, el conjunto de pruebas de regresión debería diseñarse para incluir sólo aquellas pruebas que traten una o más clases de errores en cada una de las funciones principales del programa. No es práctico ni eficiente volver a ejecutar cada prueba de cada función del problema después de un cambio.
+    </p>
+    <p>
+     Cuando se construye un software a medida para un cliente, se llevan a cabo una serie de pruebas de aceptación para permitir que el cliente valide todos los requisitos. Estas pruebas las realiza el usuario final en lugar del responsable del desarrollo de sistema. Una prueba de aceptación puede ir desde un informal paso de prueba hasta la ejecución sistemática de una serie de pruebas bien planificadas.
+    </p>
+    <p>
+     La
+     <strong>
+      prueba alfa
+     </strong>
+     la realiza el cliente en el lugar del área de desarrollo. Se usa el software de forma natural con el desarrollador como observador del usuario y registrando los errores y los problemas de uso. Las pruebas alfa se realizan en un entorno controlado.
+    </p>
+    <p>
+     La
+     <strong>
+      prueba beta
+     </strong>
+     la realiza el usuario final del software en los lugares de trabajo de los clientes. La prueba beta es una aplicación en vivo del software en su entorno que no puede ser controlado por el desarrollador. El cliente registra todos los problemas que encuentra durante la prueba beta e informa a intervalos regulares al desarrollador. Como resultado de los problemas informados durante la prueba beta, el desarrollador del software realiza modificaciones y prepara una versión del producto de software para toda clase de clientes.
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Estrategia Cliente/Servidor
+      </strong>
+     </li>
+    </ul>
+    <p>
+     La naturaleza distribuida de los sistemas Cliente/Servidor (C/S) plantea un conjunto de problemas específicos en la prueba del software, entre los cuales se pueden mencionar:
+    </p>
+    <ol>
+     <li>
+      Consideraciones del GUI de cliente.
+     </li>
+     <li>
+      Consideraciones del entorno destino y de la diversidad de plataformas.
+     </li>
+     <li>
+      Consideraciones de bases de datos distribuidas.
+     </li>
+     <li>
+      Consideraciones de procesamiento distribuido.
+     </li>
+     <li>
+      Entornos destino que no son robustos.
+     </li>
+     <li>
+      Relaciones de rendimiento no lineales.
+     </li>
+    </ol>
+    <p>
+     En general, las pruebas de software C/S se producen en 3 niveles:
+    </p>
+    <ol>
+     <li>
+      Aplicaciones de cliente individuales: se prueban de modo desconectado (no se consideran el funcionamiento del servidor y de la red subyacente).
+     </li>
+     <li>
+      Aplicaciones de software de cliente y del servidor asociado: se prueban, pero no se ejercitan específicamente las operaciones de red.
+     </li>
+     <li>
+      Se prueba la arquitectura completa de C/S, incluyendo el rendimiento y funcionamiento de la red.
+     </li>
+    </ol>
+    <p>
+     Los enfoques de pruebas para aplicaciones C/S son:
+    </p>
+    <ol>
+     <li>
+      Pruebas de función de aplicación: Se prueba la funcionalidad de las aplicaciones cliente utilizando métodos. La aplicación se prueba en solitario en un intento de descubrir errores en su funcionamiento.
+     </li>
+     <li>
+      Pruebas de servidor: Se prueban la coordinación y las funciones de gestión de datos del servidor. Se considera el rendimiento del servidor (tiempo de respuesta y traspaso de datos en general).
+     </li>
+     <li>
+      Pruebas de bases de datos: Se prueba la precisión e integridad de los datos almacenados en el servidor. Se examinan las transacciones enviadas por las aplicaciones cliente para asegurar que los datos se almacenen, actualicen y recuperen adecuadamente. También se prueba el archivo de datos.
+     </li>
+     <li>
+      Pruebas de transacciones: Se crea una serie de pruebas adecuadas para comprobar que todas las clases de transacciones se procesen de acuerdo con los requisitos. Las transacciones hacen hincapié en la corrección de procesamiento y en los temas de rendimiento (tiempo de procesamiento de transacciones y comprobación de volúmenes de transacciones).
+     </li>
+     <li>
+      Pruebas de comunicaciones a través de la red: Estas prueban verifican que la comunicación entre los nodos de la red se produzca correctamente, y que el paso de mensajes, las transacciones y el tráfico de red tengan lugar sin errores. También se pueden efectuar pruebas de seguridad de red como parte de esta actividad de prueba.
+     </li>
+    </ol>
+    <p>
+     Para llevar a cabo estos enfoques de prueba, se recomienda el desarrollo de perfiles operativos derivados de escenarios C/S. Un perfil operativo indica la forma en que los distintos tipos de usuarios interactúan con el sistema C/S. Esto proporciona un patrón de uso que se puede aplicar cuando se diseñan y ejecutan las pruebas.
+    </p>
+    <p>
+     La estrategia para probar una arquitectura C/S comienza por comprobar una única aplicación de cliente. La integración de los clientes, del servidor y de la red se irá probando progresivamente. Finalmente, se prueba todo el sistema como entidad operativa. La integración de módulos en el desarrollo C/S puede tener algunos aspectos ascendentes o descendentes, pero la integración en proyectos C/S tiene más hacia el desarrollo paralelo y hacia la integración de módulos en todos los niveles de diseño.
+    </p>
+    <p>
+     La naturaleza multiplataforma en red de los sistemas C/S requiere que se preste más atención a la prueba de configuraciones y a la prueba de compatibilidades. La doctrina de prueba de configuraciones impone la prueba del sistema en todos los entornos conocidos de hardware y software en los cuales vaya a funcionar. La prueba de compatibilidad asegura una interfaz funcionalmente consistente entre plataformas de software y hardware.
+    </p>
+    <p>
+     Respecto de la organización de las pruebas del software, se puede decir que en cualquier proyecto de software existe un conflicto de intereses inherente que aparece cuando comienza la prueba. Se pide a la gente que ha construido el software que lo pruebe. Esto parece totalmente inofensivo; después de todo, ¿quién podría conocer mejor un programa que los que lo han desarrollado? El que desarrolla el software siempre es responsable de probar los módulos del programa, asegurándose que cada uno lleva a cabo la función para la que fue diseñada. En muchos casos se encargará de la prueba de integración, el paso de las pruebas que lleva a la construcción (y prueba) de la estructura total del sistema.
+    </p>
+    <p>
+     Las consideraciones para generar un plan de pruebas son:
+    </p>
+    <ol>
+     <li>
+      Métodos de prueba.
+     </li>
+     <li>
+      Infraestructura (para desarrollo de software de prueba y ejecución de las pruebas).
+     </li>
+     <li>
+      Automatización de las pruebas.
+     </li>
+     <li>
+      Software de apoyo.
+     </li>
+     <li>
+      Administración de la configuración.
+     </li>
+     <li>
+      Riesgos.
+     </li>
+    </ol>
+    <p>
+     Se requiere un plan global y uno detallado para cada actividad de prueba (pruebas unitarias, de integración, de facilidad de uso, funcionales, de sistema y de aceptación).
+    </p>
+    <p>
+     El formato del plan de pruebas es:
+    </p>
+    <ol>
+     <li>
+      Propósito: Prescribir el ámbito, enfoque, recursos y plazos de las actividades de prueba.
+     </li>
+     <li>
+      Esquema: Identificador, Introducción, Items de prueba, Características a ser probadas, Características a no ser probadas, Enfoque, Criterios de aprobación por Item, Criterios de suspensión y requerimientos de continuación, Entrega de la prueba, Tareas de la prueba, Necesidades ambientales, Necesidades de personal y entrenamiento, Calendario, Riesgos y Contingencias, Aprobaciones.
+     </li>
+     <li>
+      Especificación de Prueba (complemento): Especificación de arquitectura de prueba, Implementación de las pruebas, Especificación de diseño de pruebas, Especificación de caso de prueba, Especificación de procedimiento de prueba, Ejecución de las pruebas, Evaluación de las pruebas.
+     </li>
+    </ol>
+    <p>
+     El
+     <strong>
+      diseño de casos de prueba
+     </strong>
+     para el software o para otros productos de ingeniería puede requerir tanto esfuerzo como el propio diseño inicial del producto. Sin embargo, los Ingenieros de Software tratan las pruebas como algo sin importancia, desarrollando casos de prueba que “parezcan adecuados”, pero que tienen poca garantía de ser completos. Se deben diseñar pruebas que tengan la mayor probabilidad de encontrar el mayor número de errores con la mínima cantidad de esfuerzo y tiempo posible. Cualquier producto de ingeniería puede probarse de una de estas 2 formas:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Prueba de caja negra
+      </strong>
+      :
+      <br/>
+      Cuando se considera el software de computadora, la prueba de caja negra se refiere a las pruebas que se llevan a cabo sobre la interfaz del software. Los casos de prueba pretenden demostrar que las funciones del software son operativas, que la entrada se acepta de forma adecuada y que se produce un resultado correcto, así como que la integridad de la información externa se mantiene. Este tipo de prueba examina algunos aspectos del modelo fundamental del sistema sin tener mucho encuentra la estructura lógica interna del software. Los métodos de prueba de la caja negra se centran en los requisitos funcionales de software. La prueba de la caja negra permite al Ingeniero del Software obtener conjuntos de condicionales de entrada que ejerciten completamente todos los requisitos funcionales de un programa. La prueba de la caja negra no es una alternativa a las técnicas de prueba de la caja blanca. La prueba de la caja negra intenta encontrar errores de las siguientes categorías:
+      <br/>
+      1) Funciones incorrectas o ausentes.
+      <br/>
+      2) Errores de interfaz.
+      <br/>
+      3) Errores en estructuras de datos o en acceso a bases de datos externas.
+      <br/>
+      4) Errores de rendimiento.
+      <br/>
+      5) Errores de inicialización y terminación.
+     </li>
+    </ul>
+    <ul>
+     <li>
+      <strong>
+       Prueba de caja blanca
+      </strong>
+      <br/>
+      La prueba de caja blanca del software se basa en el minucioso examen de los detalles procedimentales. Se comprueban los caminos lógicos del software proponiendo casos de prueba que ejerciten conjuntos específicos de condiciones y/o bucles. Se puede examinar el estado del programa en varios puntos para determinar si el estado real coincide con el esperado o mencionado. Para este tipo de prueba, se deben definir todos los caminos lógicos y desarrollar casos de prueba que ejerciten la lógica del programa. La prueba de caja blanca no se debe desechar como impracticable. Se pueden elegir y ejercitar una serie de caminos lógicos importantes. Se pueden comprobar las estructuras de datos para verificar su validez. Se pueden combinar los atributos de la prueba de caja blanca y de caja negra, para llegar a un método que valide la interfaz del software y asegure el correcto funcionamiento interno del software. La prueba de caja blanca, denominada prueba de caja de cristal, es un método de diseño de casos de prueba que usa la estructura de control del diseño procedimental para obtener los casos de prueba.
+     </li>
+    </ul>
+    <p>
+     Una “buena prueba” tiene los siguientes atributos:
+    </p>
+    <ol>
+     <li>
+      Una alta probabilidad de encontrar un error – Para alcanzar este objetivo, el responsable de la prueba debe entender el software e intentar desarrollar una imagen mental de cómo podría fallar el software.
+     </li>
+     <li>
+      No debe ser redundante – El tiempo y los recursos para las pruebas son limitados. No hay motivo para realizar una prueba que tiene el mismo propósito que otra. Todas las pruebas deberían tener un propósito diferente.
+     </li>
+     <li>
+      Debería ser la mejor de la cosecha – En un grupo de pruebas que tienen un propósito similar, las limitaciones de tiempo y recursos pueden abogar por la ejecución de sólo un subconjunto de estas pruebas. En tales casos, se debería emplear la prueba que tenga la más alta probabilidad de descubrir una clase entera de errores.
+     </li>
+     <li>
+      No debería ser ni demasiado sencilla ni demasiado compleja – Es posible combinar una serie de pruebas en un caso de prueba, los posibles efectos secundarios de este enfoque puede enmascarar errores. En general, cada prueba debería realizarse separadamente.
+     </li>
+    </ol>
+    <p>
+     El uso de herramientas de prueba puede hacer la prueba más fácil, efectiva y productiva.
+    </p>
+    <p>
+     Existen distintos tipos de herramientas por actividad:
+    </p>
+    <ol>
+     <li>
+      Para revisiones e inspecciones: Análisis de complejidad, comprensión de código, análisis sintáctico y semántico.
+     </li>
+     <li>
+      Para planificación de pruebas: Modelos (templates) para documentación de planes de prueba, estimación de esfuerzo y calendarización de pruebas, analizador de complejidad.
+     </li>
+     <li>
+      Para diseño y desarrollo de pruebas: Generador de casos de prueba, diseño de prueba basado en requerimientos, captura y análisis de cobertura.
+     </li>
+     <li>
+      Para ejecución de pruebas: Captura, análisis de cobertura, pruebas de memoria, administración de los casos de prueba, simuladores y rendimiento.
+     </li>
+     <li>
+      Para soporte: Administración de problemas, administración de la configuración.
+     </li>
+    </ol>
+    <h4>Aseguramiento de la Calidad del Software</h4>
+    <p>
+     Según la Norma ISO 9000:2000, el aseguramiento de la calidad es la parte de la gestión de la calidad orientada a proporcionar confianza en que se cumplirán los requisitos de calidad.
+    </p>
+    <p>
+     El Aseguramiento de Calidad del Software es el conjunto de actividades planificadas y sistemáticas necesarias para aportar la confianza que el software satisfará los requisitos dados de calidad. Este aseguramiento se diseña para cada aplicación antes de comenzar a desarrollarla y no después. El aseguramiento de la calidad del software engloba:
+    </p>
+    <ol>
+     <li>
+      Un enfoque de gestión de calidad.
+     </li>
+     <li>
+      Métodos y herramientas de Ingeniería del Software.
+     </li>
+     <li>
+      Revisiones técnicas formales aplicables en el proceso de software.
+     </li>
+     <li>
+      Una estrategia de prueba multiescala.
+     </li>
+     <li>
+      Procedimientos para ajustarse a los estándares de desarrollo del software.
+     </li>
+     <li>
+      Mecanismos de medición y de generación de informes.
+     </li>
+    </ol>
+    <p>
+     Las revisiones del software son un “filtro” para el proceso de Ingeniería del Software. Esto es, las revisiones se aplican a varios momentos del desarrollo del software y sirven para detectar errores y defectos que pueden ser eliminados. Las revisiones del software sirven para “purificar” las actividades de la Ingeniería del Software que suceden como resultado del análisis, diseño y codificación.
+    </p>
+    <p>
+     La revisión técnica formal (RTF), a veces llamada inspección, es el filtro más efectivo desde el punto de vista del aseguramiento de la calidad y es un medio efectivo para mejorar la calidad del software.
+    </p>
+    <p>
+     El defecto se define como una anomalía del producto. Dentro del contexto del proceso del software, los términos defecto y fallo son sinónimos. Ambos implican un problema de calidad que es descubierto después de entregar el software a los usuarios finales.
+    </p>
+    <p>
+     El objetivo principal delas RTF es encontrar errores durante el proceso, de forma que se conviertan en defectos después de la entrega del software. El beneficio de estas RTF es el descubrimiento de errores al principio para que no se propaguen al paso siguiente del proceso de software.
+    </p>
+    <p>
+     Los objetivos de la RTF son:
+    </p>
+    <ol>
+     <li>
+      Descubrir errores en la función, la lógica o la implementación de cualquier representación del software.
+     </li>
+     <li>
+      Verificar que el software bajo revisión alcanza sus requisitos.
+     </li>
+     <li>
+      Garantizar que el software ha sido representado de acuerdo con ciertos estándares predefinidos.
+     </li>
+     <li>
+      Conseguir un software desarrollado en forma uniforme.
+     </li>
+     <li>
+      Hacer que los proyectos sean más manejables.
+     </li>
+    </ol>
+    <p>
+     El aseguramiento de calidad se refiere a validar los procesos usados para crear los productos. Es una herramienta especialmente útil para administradores y patrocinadores, ya que permite discutir los procesos usados para crear los productos para determinar si son razonables. Este aseguramiento tiene asociado 2 constitutivos diferentes: los Ingenieros de Software que realizan el trabajo técnico y un grupo de SQA (Software Quality Assurance) que tiene la responsabilidad de la planificación de aseguramiento de la calidad, supervisión, mantenimiento de registros, análisis e informes.
+    </p>
+    <p>
+     Las Actividades del SQA son:
+    </p>
+    <ol>
+     <li>
+      Establecimiento de un plan de SQA para un proyecto.
+     </li>
+     <li>
+      Participación en el desarrollo de la descripción del proceso de software del proyecto.
+     </li>
+     <li>
+      Revisión de las actividades de Ingeniería del Software para verificar su ajuste al proceso de software definido.
+     </li>
+     <li>
+      Auditoría de los productos de software designados para verificar el ajuste con los definidos como parte del proceso del software.
+     </li>
+     <li>
+      Asegurar que las desviaciones del trabajo y los productos del software se documentan y se manejan de acuerdo con un procedimiento establecido.
+     </li>
+     <li>
+      Registrar lo que no se ajuste a los requisitos e informar a sus superiores.
+     </li>
+    </ol>
+    <p>
+     Además de estas actividades, el grupo de SQA coordina el control y la gestión de cambios y; ayuda a recopilar y analizar las
+     <strong>
+      métricas del software
+     </strong>
+     .
+    </p>
+    <p>
+     Las métricas son escalas de unidades sobre las cuales puede medirse un atributo cuantificable. Cuando se habla de software nos referimos a la disciplina de recopilar y analizar datos basándonos en mediciones reales de software, así como a las escalas de medición. Los atributos son características observables del producto o del proceso de software, que proporciona alguna información útil sobre el estado del producto o sobre el progreso del proyecto. El término producto se utiliza para referirse a las especificaciones, a los diseños y a los listados del código. Los valores de las métricas no se obtienen sólo por mediciones. Algunos valores de métricas se derivan de los requisitos del cliente o de los usuarios y, por lo tanto, actúan como restricciones dentro del proyecto.
+    </p>
+    <p>
+     Los principios básicos de la medición son:
+    </p>
+    <ol>
+     <li>
+      Los objetivos de la medición deberían establecerse antes de empezar la recopilación de datos.
+     </li>
+     <li>
+      Todas las técnicas sobre métricas deberían definirse sin ambigüedades.
+     </li>
+     <li>
+      Las métricas deberían obtenerse basándose en una teoría válida para el dominio de aplicación.
+     </li>
+     <li>
+      Hay que hacer las métricas a medida para acomodar mejor los productos y procesos específicos.
+     </li>
+     <li>
+      Siempre que sea posible, la recopilación de datos y el análisis debería automatizarse.
+     </li>
+     <li>
+      Se deberían aplicar técnicas estadísticas válidas para establecer las relaciones entre los atributos internos del producto y las características externas de la calidad.
+     </li>
+    </ol>
+    <p>
+     Las Razones que justifican la Medición del Software son:
+    </p>
+    <ol>
+     <li>
+      Para indicar la calidad del producto.
+     </li>
+     <li>
+      Para evaluar la productividad de la gente que desarrolla el producto.
+     </li>
+     <li>
+      Para evaluar los beneficios (en términos de productividad y calidad) derivados del uso de nuevos métodos y herramientas de Ingeniería de Software.
+     </li>
+     <li>
+      Para establecer una línea base de estimación.
+     </li>
+     <li>
+      Para ayudar a justificar el uso de nuevas herramientas o formación adicional.
+     </li>
+    </ol>
+    <p>
+     Las actividades del proceso de medición son:
+    </p>
+    <ol>
+     <li>
+      Formulación: Obtención de medidas y métricas apropiadas para la representación del software.
+     </li>
+     <li>
+      Colección: Mecanismo empleado para acumular datos necesarios para obtener las métricas formuladas.
+     </li>
+     <li>
+      Análisis: Cálculo de las métricas y aplicación de herramientas matemáticas.
+     </li>
+     <li>
+      Interpretación: La evaluación de los resultados de las métricas en un esfuerzo por conseguir una visión interna de la calidad de la presentación.
+     </li>
+     <li>
+      Retroalimentación: Recomendaciones obtenidas de la interpretación de métricas y técnicas transmitidas al equipo de desarrollo de software.
+     </li>
+    </ol>
+    <p>
+     Los sistemas métricos necesitan tres tipos de valores:
+    </p>
+    <ol>
+     <li>
+      Objetivos: Se basan habitualmente en consideraciones comerciales.
+     </li>
+     <li>
+      Predicciones: Indican la viabilidad de los objetivos. Se basan en las características del producto con el que tratamos.
+     </li>
+     <li>
+      Valores Reales: Pueden ser comparados con los objetivos para supervisar la progresión del proyecto. Son mediciones discretas de los atributos del software. Es preferible utilizar mediciones objetivas basadas en reglas. Algunas mediciones se basan en estimaciones donde un valor más que medirse se evalúa.
+     </li>
+    </ol>
+    <p>
+     Las medidas de Calidad del Software deben comenzar desde la especificación y terminar con la implementación, implantación y mantenimiento o post-implantación. Debe aplicarse a lo largo de todo el proceso de Ingeniería de Software. Básicamente, la medición es una fase normal de cualquier actividad industrial. Sin mediciones es imposible perseguir objetivos comerciales normales de una manera racional.
+    </p>
+    <p>
+     Existen métricas a nivel Proyecto, Proceso y Producto respectivamente.
+    </p>
+    <p>
+     <strong>
+      Métricas de Proyecto
+     </strong>
+    </p>
+    <p>
+     Las métricas de Proyecto se consolidan para crear métricas de proceso que sean públicas para toda la organización del software. El uso de métricas para el Proyecto tiene 2 aspectos fundamentales:
+    </p>
+    <ol>
+     <li>
+      Minimizar la planificación del desarrollo haciendo los ajustes necesarios que eviten retrasos y reducir problemas/riesgos potenciales.
+     </li>
+     <li>
+      Evaluar la calidad de los productos en el momento actual y cuando sea necesario, modificando el enfoque técnico que mejore la calidad.
+     </li>
+    </ol>
+    <p>
+     Los indicadores de proyecto permiten al gestor de proyectos de software:
+    </p>
+    <ol>
+     <li>
+      Evaluar el estado del proyecto.
+     </li>
+     <li>
+      Seguir la pista de los riesgos potenciales.
+     </li>
+     <li>
+      Detectar las  áreas de problemas antes de que se conviertan en “críticas”.
+     </li>
+     <li>
+      Ajustar el flujo y las tareas del trabajo.
+     </li>
+     <li>
+      Evaluar la habilidad del equipo del proyecto en controlar la calidad de los productos de trabajo del software.
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Métricas de Proceso
+     </strong>
+    </p>
+    <p>
+     Las métricas del Proceso se recopilan de todos los proyectos y durante un largo período de tiempo. Su intento es proporcionar indicadores que lleven a mejorar los procesos de software a largo plazo. Se tendrán métricas asociadas a cada proceso del software (p.e. métricas de implementación). Estos indicadores de proceso permiten que una organización de Ingeniería de Software pueda tener una visión más profunda de la eficacia de un proceso ya existente y permiten que los gestores evalúen lo que funciona y lo que no.
+    </p>
+    <p>
+     En realidad, las medidas que recopila un equipo de proyecto y las convierte en métricas para utilizarse durante un proyecto, también pueden trasmitirse a los que tienen la responsabilidad de mejorar el proceso de software. Por esta razón, se utilizan muchas de las mismas métricas tanto en el dominio del proceso como en el del proyecto.
+    </p>
+    <p>
+     La única forma racional de mejorar cualquier proceso es medir atributos del proceso, desarrollar un juego de métricas significativas según estos atributos y utilizar las métricas para proporcionar indicadores que conducirán a una estrategia de mejora.
+    </p>
+    <p>
+     Las métricas del proceso se caracterizan por:
+    </p>
+    <ol>
+     <li>
+      El control y ejecución del proyecto.
+     </li>
+     <li>
+      Medición de tiempos del análisis, diseño, implementación, implantación y post-implantación.
+     </li>
+     <li>
+      Medición de las pruebas (errores, cubrimiento, resultado en número de defectos y número de éxito).
+     </li>
+     <li>
+      Medición de la transformación o evolución del producto.
+     </li>
+    </ol>
+    <p>
+     <strong>
+      Métricas de Producto
+     </strong>
+    </p>
+    <p>
+     Las métricas de Producto son privadas para un individuo y a menudo se combinan para desarrollar métricas del proyecto que sean públicas para un equipo de software. Están enfocadas a predecir y controlar:
+    </p>
+    <ol>
+     <li>
+      El tamaño (líneas de código, bytes de código, operadores y operandos).
+     </li>
+     <li>
+      La estructura (control de flujo, relación entre componentes, cohesión y acoplamiento).
+     </li>
+     <li>
+      La complejidad (combinación de tamaño y estructura).
+     </li>
+     <li>
+      Los índices para controlar la documentación.
+     </li>
+     <li>
+      La calidad (independencia, completo, entendible, aumentado).
+     </li>
+     <li>
+      La estabilidad (los cambios aumentan el número de fallas, los cambios se pueden dar por definición de requerimientos o por cambios del entorno).
+     </li>
+    </ol>
+    <p>
+     Las métricas del software deberían tener las siguientes características:
+    </p>
+    <ol>
+     <li>
+      Simple y fácil de calcular.
+     </li>
+     <li>
+      Empírica e intuitivamente persuasiva: Debe satisfacer las nociones intuitivas del desarrollador sobre el atributo del producto en evaluación.
+     </li>
+     <li>
+      Consistente y objetiva: Presentar resultados sin ambigüedad.
+     </li>
+     <li>
+      Consistente en el empleo de unidades y tamaños: Deben emplearse medidas que no conduzcan a extrañas combinaciones de unidades.
+     </li>
+     <li>
+      Independiente del lenguaje de programación.
+     </li>
+     <li>
+      Mecanismo para retroalimentación de calidad: Debe proporcionar información para obtener un producto final de mayor calidad.
+     </li>
+    </ol>
+    <p>
+     Las métricas a recabar dependen de los objetivos del negocio en particular. Los desarrolladores tienen a la vez objetivos comunes como, respetar el presupuesto y respetar los plazos, minimizar las tasas de defectos antes y después de la entrega del producto e intentar mejorar la calidad y la productividad. Las métricas deben ayudar a la evaluación de las representaciones del modelo lógico y físico, deben tener la capacidad de intuir sobre la complejidad del diseño y construcción; y deben ayudar en el diseño de casos de prueba.
+    </p>
+    <h4>Mejora en la Calidad del Software</h4>
+    <p>
+     Según la Norma ISO 9000:2000, la mejora de la calidad es la parte de la gestión de la calidad orientada a aumentar la capacidad de cumplir con los requisitos de la calidad. Los requisitos pueden estar relacionados con cualquier aspecto tal como la eficacia, la eficiencia o la trazabilidad.
+    </p>
+    <p>
+     La Mejora de la Calidad del Software es la parte de la Gestión de la Calidad que contribuye, por medio de las mediciones, a los análisis de los datos y auditorias, a efectuar mejoras en la calidad del software.
+    </p>
+    <p>
+     Una Auditoria de Calidad tiene como objetivo mostrar la situación real para aportar confianza y destacar las áreas que pueden afectar adversamente esa confianza. Otro objetivo consiste en suministrar una evaluación objetiva de los productos y procesos para corroborar la conformidad con los estándares, las guías, las especificaciones y los procedimientos.
+    </p>
+    <p>
+     Las razones para realizar una auditoria son:
+    </p>
+    <ol>
+     <li>
+      Establecer el estado del proyecto.
+     </li>
+     <li>
+      Verificar la capacidad de realizar o continuar un trabajo específico.
+     </li>
+     <li>
+      Verificar qué elementos aplicables del programa o Plan de Aseguramiento de la Calidad han sido desarrollados y documentados.
+     </li>
+     <li>
+      Verificar la adherencia de esos elementos con el programa o Plan de Aseguramiento de la Calidad.
+     </li>
+    </ol>
+    <p>
+     El propósito y la actividad de la auditoria es recoger, examinar y analizar la información necesaria para tomar las decisiones de aprobación. La auditoria es realizada de acuerdo con los planes y procedimientos documentados. El plan de auditoria establece un procedimiento para dirigir la auditoria y para las acciones de seguimiento sobre las recomendaciones de la auditoria. Al realizar la auditoria, el personal de la misma evalúa los elementos del software y los procesos para contrastarlos con los objetivos y criterios de las auditorias, tales como contratos, requerimientos, planes, especificaciones o procedimientos, guías y estándares.
+    </p>
+    <p>
+     Los resultados de la auditoria son documentados y remitidos al director de la organización auditada, a la entidad auditora, y cualquier organización externa identificada en el plan de auditoria. El informe incluye la lista de elementos no conformes u otros aspectos para las posteriores revisiones y acciones. Cuando se realiza el plan de auditoria, las recomendaciones son informadas e incluidas en los resultados de la auditoria.
+    </p>
+    <p>
+     La auditoria puede traer como consecuencia la Certificación. Dicho Proceso de Certificación comienza con la emisión de una Solicitud de Certificación y culmina con la Concesión del Certificado. Un sistema de certificación de calidad permite una valoración independiente que debe demostrar que la organización es capaz de desarrollar productos y servicios de calidad.
+    </p>
+    <p>
+     En un software se tienen las siguientes visiones de la calidad:
+    </p>
+    <ol>
+     <li>
+      Necesaria o Requerida: La que quiere el cliente.
+     </li>
+     <li>
+      Programada o Especificada: La que se ha especificado explícitamente y se intenta conseguir.
+     </li>
+     <li>
+      Realizada: La que se ha conseguido.
+     </li>
+    </ol>
+    <p>
+     El objetivo es conseguir que las tres visiones coincidan. A la intersección entre la calidad Requerida y la calidad Realizada se le llama Calidad Percibida, y es la única que el cliente valora. Toda aquella calidad que se realiza pero no se necesita es un gasto inútil de tiempo y dinero.
+    </p>
+    <p>
+     La calidad, como sistema de gestión de una organización, necesita definir estos procesos y medirlos, para poder gestionarlos, es decir, para tener la capacidad de proponer mejoras y reconocerlas.
+    </p>
+    <p>
+     Para implementar un programa de mejoras es necesario definir procesos, decidir qué se quiere mejorar, definir qué medidas serán necesarias recoger, cómo y dónde tomarlas, gestionarlas mediante herramientas, utilizarlas para la toma de decisiones y reconocer las mejoras. Cuando el proceso a mejorar es el de desarrollo del software, es importante definir qué objetivos se quieren alcanzar, para reducir el número de medidas y, en consecuencia, el coste de recopilarlas y el impacto sobre la actividad de producción de software.
+    </p>
+    <p>
+     La calidad ha dejado de ser un tópico y es necesario que forme parte de los productos o servicios que comercializamos para nuestros clientes. El cliente es el mejor auditor de la calidad, él exige el nivel que está dispuesto a pagar por ella, pero no más. Por tanto, debemos de cuantificar cuál es el nivel de calidad que nos exige para poder planificar la calidad de los productos que se generen a lo largo de la producción del producto o servicio final. Al analizar las necesidades de nuestros clientes, deberemos tener en cuenta la previsible evolución de sus necesidades y tendencias en cuanto a características. Deberemos tener en cuenta la evolución tecnológica del entorno del producción de nuestros productos para suministrarlos con el nivel tecnológico adecuado. No debemos olvidar el nivel de calidad de nuestros competidores, debiendo elaborar productos cuyas características y funcionalidades sean competitivas con las de nuestros competidores.
+    </p>
+    <p>
+     La Calidad del Software es resultado del movimiento global dentro del proceso de mejoramiento continuo de los modelos y/o estándares de producción en todos los sectores industriales, en particular, cuando éste se concentra en la producción de sistemas de información y software especializado.
+    </p>
+    <h4>Calidad de los Datos</h4>
+    <p>
+     Dado que la calidad tiene componentes objetivos y subjetivos es necesario catalogar los requisitos de calidad de datos de los usuarios según unas determinadas dimensiones de calidad. Se intenta definir el concepto de calidad de datos y catalogar las dimensiones de calidad en función de unos determinados criterios, como pueden ser el ciclo de vida de los datos o los tipos de investigación realizadas o simplemente la forma en la que se usan los datos. Pero todos están de acuerdo en que la calidad de datos es un concepto multidimensional que comprende distintos aspectos según las necesidades de los consumidores de datos o de los diseñadores de sistemas, y que se justifica por el hecho de la concepción de calidad que aporta ISO.
+    </p>
+    <p>
+     Algunas de las dimensiones de calidad de datos más importantes son:
+    </p>
+    <p>
+     <img src="https://gsitic.files.wordpress.com/2019/05/dimensionescalidad1.png?w=825"/>
+     <img src="https://gsitic.files.wordpress.com/2019/05/dimensionescalidad2.png?w=825"/>
+    </p>
+    <p>
+     Metodología para la Medición de la Calidad de los Datos
+    </p>
+    <p>
+     Existe una metodología para la medición de la calidad de los datos guardados en un almacén de datos. Se parte de la idea de almacenar información referente a la calidad de los datos en el mismo almacén de datos, dicha metodología propone una serie de pasos bien estructurados y definidos que, partiendo de los requisitos de calidad de datos de los usuarios, trata de identificar las dimensiones de calidad de datos de los usuarios, trata de identificar las dimensiones de calidad que mejor describen esos requisitos, para después obtener métricas a partir de ese conjunto de dimensiones; después se realiza el proceso de medición propiamente dicho, que consiste en generar un valor numérico como resultado de un juicio de un determinado valor del dato con respecto a la dimensión elegida; posteriormente los resultados se guardan en el mismo almacén de datos, para después analizar los resultados. La forma de guardar los datos depende fuertemente del modelo de datos elegido para el almacén de datos.
+    </p>
+   </article>
    <h1>Minería de datos. Aplicación a la resolución de problemas de gestión. Tecnología y algoritmos. Procesamiento analítico en línea (OLAP). Big data. Bases de datos NoSQL.</h1>
    <article>
     <h2>La minería de datos: Data Mining</h2>
