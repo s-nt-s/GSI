@@ -19,7 +19,9 @@ Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](http
 
 **Por ahora tenemos**:
 
-* Indice del temario: [HTML](temario.html), [PDF](temario.pdf), [BOE fuente](http://boe.es/diario_boe/txt.php?id=BOE-A-2018-1169)
+* Indice del temario:
+  * acceso libre [HTML](temario_libre.html), [PDF](temario_libre.pdf), [BOE-A-2018-1169 Anexo IX](http://boe.es/diario_boe/txt.php?id=BOE-A-2018-1169)
+  * acceso interno [HTML](temario_interna.html), [PDF](temario_interna.pdf), [BOE-A-2018-1169 Anexo X](http://boe.es/diario_boe/txt.php?id=BOE-A-2018-1169)
 * Apuntes de [gsitic.wordpress.com](https://gsitic.wordpress.com) (el bloque 2 esta casi completo pero los otros están más o menos a la mitad):
   * Bloque 2: [HTML](gsitic.wordpress.com/bloque_2.html), [PDF](gsitic.wordpress.com/bloque_2.pdf), [EPUB](gsitic.wordpress.com/bloque_2.epub)
   * Bloque 3: [HTML](gsitic.wordpress.com/bloque_3.html), [PDF](gsitic.wordpress.com/bloque_3.pdf), [EPUB](gsitic.wordpress.com/bloque_3.epub)
@@ -36,5 +38,5 @@ impares pues como la idea es imprimir a doble cara con señalar un lado del
 folio es suficiente, y de hecho hace más fácil reordenar las hojas
 si un día hay un accidente que las descoloca.
 
-Si no te gusta así, recuerda que el [código fuente](https://github.com/s-nt-s/GSI) 
+Si no te gusta así, recuerda que el [código fuente](https://github.com/s-nt-s/GSI)
 esta disponible y que con pequeños cambios puedes generar un `PDF` a tu gusto.

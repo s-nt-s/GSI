@@ -12,7 +12,8 @@ from util import get_html, get_tpt, html_to_pdf
 sp = re.compile("\s+")
 
 BOE = "https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062"
-ANX = "IX"
+ANX_LIBRE = "IX"
+ANX_INTERNA = "X"
 salida = "docs/"
 
 re_anexo = re.compile(r"^ANEXO ([XVICMDL]+)$")
@@ -38,7 +39,9 @@ class TBloque:
         self.temas = []
 
     def add(self, tema):
-        self.temas.append(TTema(tema))
+        n = tema.split(".")[0]
+        if n.strip().isdigit():
+            self.temas.append(TTema(tema))
 
 
 def get_soup(url):
@@ -47,7 +50,7 @@ def get_soup(url):
     return soup
 
 
-def get_bloques(url):
+def get_bloques(url, get_anexo):
     temario = []
     ps = get_soup(BOE).findAll(["p", "h1", "h2", "h3", "h4", "h5", "h6"])
 
@@ -61,7 +64,7 @@ def get_bloques(url):
         if anexo:
             if flag > 0:
                 return temario
-            if anexo.group(1) == ANX:
+            if anexo.group(1) == get_anexo:
                 flag = 1
             continue
 
@@ -89,18 +92,30 @@ def get_h(soup, level, txt):
     return h
 
 
-indice = get_tpt("Temario GSI", rec="rec/",
-                 css_screen="temario.css",  css_print="temario_print.css")
+def save(anexo):
+    title = "Temario GSI"
+    file = "temario_%s.html"
+    if anexo == ANX_LIBRE:
+        title = title + " (libre)"
+        file = file % "libre"
+    elif anexo == ANX_INTERNA:
+        title = title + " (iterna)"
+        file = file % "iterna"
+    indice = get_tpt(title, rec="rec/",
+                     css_screen="temario.css",  css_print="temario_print.css")
 
-for blq in get_bloques(BOE):
-    indice.body.div.append(get_h(indice, 1, blq.titulo))
-    ol = indice.new_tag("ol")
-    indice.body.div.append(ol)
-    for tema in blq.temas:
-        li = indice.new_tag("li")
-        li.string = tema.titulo
-        ol.append(li)
+    for blq in get_bloques(BOE, get_anexo=anexo):
+        indice.body.div.append(get_h(indice, 1, blq.titulo))
+        ol = indice.new_tag("ol")
+        indice.body.div.append(ol)
+        for tema in blq.temas:
+            li = indice.new_tag("li")
+            li.string = tema.titulo
+            ol.append(li)
 
-html = get_html(indice)
-with open(salida + "temario.html", "w") as file:
-    file.write(html)
+    html = get_html(indice)
+    with open(salida + file, "w") as file:
+        file.write(html)
+
+save(ANX_LIBRE)
+save(ANX_INTERNA)

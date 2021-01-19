@@ -11,7 +11,7 @@ num = re.compile(r"_(\d+).html")
 
 
 def get_codigo(fname):
-    if fname == "temario.html":
+    if fname.startswith("temario"):
         return "GSI"
     m = num.search(fname)
     if m:
