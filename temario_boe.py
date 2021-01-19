@@ -99,8 +99,8 @@ def save(anexo):
         title = title + " (libre)"
         file = file % "libre"
     elif anexo == ANX_INTERNA:
-        title = title + " (iterna)"
-        file = file % "iterna"
+        title = title + " (interna)"
+        file = file % "interna"
     indice = get_tpt(title, rec="rec/",
                      css_screen="temario.css",  css_print="temario_print.css")
 
