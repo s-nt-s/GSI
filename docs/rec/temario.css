@@ -51,3 +51,10 @@ body > div.content > *:last-child {
 li {
   margin-bottom: 1em;
 }
+div.fromboe {
+    display: block;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}

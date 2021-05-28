@@ -6,6 +6,7 @@ import re
 import bs4
 import requests
 import roman
+from textwrap import dedent
 
 from util import get_html, get_tpt, html_to_pdf
 
@@ -103,7 +104,6 @@ def save(anexo):
         file = file % "interna"
     indice = get_tpt(title, rec="rec/",
                      css_screen="temario.css",  css_print="temario_print.css")
-
     for blq in get_bloques(BOE, get_anexo=anexo):
         indice.body.div.append(get_h(indice, 1, blq.titulo))
         ol = indice.new_tag("ol")
@@ -114,6 +114,12 @@ def save(anexo):
             ol.append(li)
 
     html = get_html(indice)
+    html = html.replace("<body>", dedent("""
+        <body>
+            <div class="fromboe">
+            <a href="{url}" target="_blank">{boe}</a> - Anexo {anexo}
+            </div>
+    """).format(url=BOE, boe=BOE.split("=")[-1], anexo=anexo).strip()+"\n")
     with open(salida + file, "w") as file:
         file.write(html)
 

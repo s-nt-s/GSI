@@ -1,5 +1,5 @@
-@page  
-{ 
+@page
+{
     size: auto;
     margin: 5mm 5mm 5mm 5mm;
 }
@@ -20,4 +20,7 @@ div.pag {
 }
 div.pag span {
     font-size: 0.6em;
+}
+div.fromboe {
+  display: none;
 }
