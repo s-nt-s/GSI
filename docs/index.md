@@ -20,7 +20,7 @@ Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](http
 **Por ahora tenemos**:
 
 * Indice del temario:
-  * acceso libre:&nbsp;&nbsp; [HTML](temario_libre.html), [PDF](temario_libre.pdf), [BOE-A-2021-8892 Anexo XII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
+  * acceso libre:&nbsp;&nbsp;&nbsp; [HTML](temario_libre.html), [PDF](temario_libre.pdf), [BOE-A-2021-8892 Anexo XII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
   * acceso interno: [HTML](temario_interna.html), [PDF](temario_interna.pdf), [BOE-A-2021-8892 Anexo XIII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
 * Apuntes de [gsitic.wordpress.com](https://gsitic.wordpress.com) (el bloque 2 esta casi completo pero los otros están más o menos a la mitad):
   * Bloque 2: [HTML](gsitic.wordpress.com/bloque_2.html), [PDF](gsitic.wordpress.com/bloque_2.pdf), [EPUB](gsitic.wordpress.com/bloque_2.epub)
