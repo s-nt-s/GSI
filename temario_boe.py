@@ -11,13 +11,13 @@ from util import get_html, get_tpt, html_to_pdf
 
 sp = re.compile("\s+")
 
-BOE = "https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062"
-ANX_LIBRE = "IX"
-ANX_INTERNA = "X"
+BOE = "https://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892"
+ANX_LIBRE = "XII"
+ANX_INTERNA = "XIII"
 salida = "docs/"
 
 re_anexo = re.compile(r"^ANEXO ([XVICMDL]+)$")
-re_bloque = re.compile(r"^Bloque ([XVICMDL]+)\. (.+)$")
+re_bloque = re.compile(r"^([XVICMDL]+)\. (.+)$")
 re_tema = re.compile(r"^(\d+)\. (.+)$")
 
 
