@@ -93,3 +93,12 @@ def html_to_pdf(fuente, codigo):
             page_body.children += get_footer(styles, codigo, p)
 
     html.write_pdf(fuente[:-5] + ".pdf")
+
+def clean_url(url):
+    spl = url.split("://", 1)
+    if len(spl)==2:
+        url = spl[1]
+    if url.lower().startswith("www") and "." in url[4:6]:
+        url = url.split(".", 1)[1]
+    url = url.rsplit("/")
+    return url

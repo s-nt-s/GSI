@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from core.web import Web, FF
-from core.util import read
+from core.util import read, clean_url
 from time import sleep
 from munch import Munch
 import re
@@ -67,17 +67,33 @@ def get_bloques():
                 t=Munch(
                     tema=i+1,
                     titulo=txt,
-                    url=href
+                    url=href,
+                    feedback=set()
                 )
                 b.temas.append(t)
+                w.get(href)
+                revs = [a.attrs["href"] for a in w.soup.findAll("a", text="Revisión")]
+                for rev in revs:
+                    w.get(rev)
+                    for a in w.soup.select("feedback a"):
+                        t.feedback.add(a.attrs["href"])
             yield b
 
 
+feedback=set()
 MD=[]
 for b in get_bloques():
     MD.append("\n{bloque}. [{titulo}]({url})".format(**dict(b)))
     for t in b.temas:
         MD.append("    {tema}. [{titulo}]({url})".format(**dict(t)))
+        feedback = feedback.union(t.feedback)
+
+feedback=sorted(feedback)
+if feedback:
+    MD.append("\nURLs referenciadas en las soluciones de los tests:\n")
+    for a in feedback:
+        MD.append("* [{}]({})".format(clean_url(a), a))
+
 
 MD="\n".join(MD).strip()
 MD='''
