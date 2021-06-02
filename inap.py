@@ -27,6 +27,7 @@ f.close()
 w.get(cfg.curso)
 
 CURSO = re_sp.sub(" ", w.soup.find("h1").get_text()).strip().capitalize()
+CURSO = CURSO.replace(".- oep", " - OEP")
 CODIGO = re_sp.sub(" ", w.soup.select("li.breadcrumb-item a")[-1].get_text()).strip()
 
 
