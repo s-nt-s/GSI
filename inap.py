@@ -92,7 +92,10 @@ feedback=sorted(feedback)
 if feedback:
     MD.append("\nURLs referenciadas en las soluciones de algunos de los tests:\n")
     for a in feedback:
-        MD.append("* [{}]({})".format(clean_url(a), a))
+        if "_" in a:
+            MD.append('* <a href="{1}">{0}</a>'.format(clean_url(a), a))
+        else:
+            MD.append("* [{}]({})".format(clean_url(a), a))
 
 
 MD="\n".join(MD).strip()
