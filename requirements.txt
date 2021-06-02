@@ -1,6 +1,6 @@
 beautifulsoup4==4.9.3
 lxml==4.6.3
-requests==2.18.4
+requests==2.20.0
 roman==3.0
 selenium==3.141.0
 WeasyPrint==0.42.3
