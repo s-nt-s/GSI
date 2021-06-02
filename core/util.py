@@ -6,6 +6,7 @@ import yaml
 
 import bs4
 from weasyprint import CSS, HTML
+from urllib.parse import urlparse
 
 re_head = re.compile(r"<(h[1-6])>\s*(.*?)\s*</\1>", re.MULTILINE)
 
@@ -102,3 +103,19 @@ def clean_url(url):
         url = url.split(".", 1)[1]
     url = url.rstrip("/")
     return url
+
+
+def url_key(url):
+    p = urlparse(url)
+    dom = p.netloc
+    if dom.lower().startswith("www") and "." in url[4:6]:
+        dom = dom.split(".", 1)[1]
+    r = (
+        tuple(reversed(dom.split("."))),
+        p.path,
+        p.query,
+        p.fragment,
+        p.scheme,
+        clean_url(url)
+    )
+    return r

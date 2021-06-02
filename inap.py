@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from core.web import Web, FF
-from core.util import read, clean_url
+from core.util import read, clean_url, url_key
 from time import sleep
 from munch import Munch
 import re
@@ -91,7 +91,7 @@ for b in get_bloques():
         MD.append("    {tema}. [{titulo}]({url}) <small>[{done}]</small>".format(**dict(t)))
         feedback = feedback.union(t.feedback)
 
-feedback=sorted(feedback, key=lambda a:clean_url(a))
+feedback=sorted(feedback, key=url_key)
 if feedback:
     MD.append("\nURLs referenciadas en las soluciones de algunos de los tests:\n")
     for a in feedback:
