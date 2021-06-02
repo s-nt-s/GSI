@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 import re
+from textwrap import dedent
 
 import bs4
 import requests
 import roman
-from textwrap import dedent
 
-from util import get_html, get_tpt, html_to_pdf
+from core.util import get_html, get_tpt, html_to_pdf
 
 sp = re.compile("\s+")
 
@@ -122,6 +122,7 @@ def save(anexo):
     """).format(url=BOE, boe=BOE.split("=")[-1], anexo=anexo).strip()+"\n")
     with open(salida + file, "w") as file:
         file.write(html)
+
 
 save(ANX_LIBRE)
 save(ANX_INTERNA)

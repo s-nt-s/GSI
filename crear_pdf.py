@@ -5,7 +5,7 @@ import re
 import sys
 from glob import iglob
 
-from util import html_to_pdf
+from core.util import html_to_pdf
 
 num = re.compile(r"_(\d+).html")
 

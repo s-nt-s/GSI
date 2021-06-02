@@ -26,6 +26,7 @@ Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](http
   * Bloque 2: [HTML](gsitic.wordpress.com/bloque_2.html), [PDF](gsitic.wordpress.com/bloque_2.pdf), [EPUB](gsitic.wordpress.com/bloque_2.epub)
   * Bloque 3: [HTML](gsitic.wordpress.com/bloque_3.html), [PDF](gsitic.wordpress.com/bloque_3.pdf), [EPUB](gsitic.wordpress.com/bloque_3.epub)
   * Bloque 4: [HTML](gsitic.wordpress.com/bloque_4.html), [PDF](gsitic.wordpress.com/bloque_4.pdf), [EPUB](gsitic.wordpress.com/bloque_4.epub)
+* Acceso rápido al curso [FSAP20000600000](FSAP20000600000.html)
 
 <hr/>
 <hr/>

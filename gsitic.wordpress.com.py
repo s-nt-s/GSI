@@ -7,7 +7,7 @@ import bs4
 import requests
 from weasyprint import CSS, HTML
 
-from util import get_html, get_tpt, html_to_pdf
+from core.util import get_html, get_tpt, html_to_pdf
 
 salida = "docs/gsitic.wordpress.com/"
 GRABY_ENDPOINT = os.environ['GRABY_ENDPOINT']
@@ -21,11 +21,6 @@ bloques = (
 )
 
 heads = ["h1", "h2", "h3", "h4", "h5", "h6"]
-
-
-def get_soup(url):
-    r = requests.get(url)
-    return bs4.BeautifulSoup(r.content, "lxml")
 
 
 def get_graby(url):

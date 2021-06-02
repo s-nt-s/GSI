@@ -1,10 +1,23 @@
 import os
 import re
+from munch import Munch
+import yaml
+
 
 import bs4
 from weasyprint import CSS, HTML
 
 re_head = re.compile(r"<(h[1-6])>\s*(.*?)\s*</\1>", re.MULTILINE)
+
+def read(file):
+    ext = file.rsplit(".")[-1].lower()
+    if ext in ("yml", "yaml"):
+        with open(file, "r") as f:
+            yml = yaml.load(f, Loader=yaml.FullLoader)
+            return Munch.fromDict(yml)
+
+    with open(file, "r") as f:
+        return f.read()
 
 
 def get_tpt(title, rec=None, css_screen=None, css_print=None, extra=None):
