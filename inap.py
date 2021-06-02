@@ -68,11 +68,13 @@ def get_bloques():
                     tema=i+1,
                     titulo=txt,
                     url=href,
-                    feedback=set()
+                    feedback=set(),
+                    done=0
                 )
                 b.temas.append(t)
                 w.get(href)
                 revs = [a.attrs["href"] for a in w.soup.findAll("a", text="Revisión")]
+                t.done = len(revs)
                 for rev in revs:
                     w.get(rev)
                     for a in w.soup.select("div.feedback a"):
@@ -85,7 +87,7 @@ MD=[]
 for b in get_bloques():
     MD.append("\n{bloque}. [{titulo}]({url})".format(**dict(b)))
     for t in b.temas:
-        MD.append("    {tema}. [{titulo}]({url})".format(**dict(t)))
+        MD.append("    {tema}. [{titulo}]({url}) <small>[{done}]</small>".format(**dict(t)))
         feedback = feedback.union(t.feedback)
 
 feedback=sorted(feedback)
