@@ -85,7 +85,7 @@ MD='''
 title: {cod} {cur}
 ---
 <div class="alert">
-{cod} [{cur}]({url})
+{cod} <a href="{url}">{cur}</a>
 </div>
 
 '''.lstrip().format(cod=CODIGO, cur=CURSO, url=cfg.curso)+MD
