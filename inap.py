@@ -75,7 +75,7 @@ def get_bloques():
                 revs = [a.attrs["href"] for a in w.soup.findAll("a", text="Revisión")]
                 for rev in revs:
                     w.get(rev)
-                    for a in w.soup.select("feedback a"):
+                    for a in w.soup.select("div.feedback a"):
                         t.feedback.add(a.attrs["href"])
             yield b
 
@@ -90,7 +90,7 @@ for b in get_bloques():
 
 feedback=sorted(feedback)
 if feedback:
-    MD.append("\nURLs referenciadas en las soluciones de los tests:\n")
+    MD.append("\nURLs referenciadas en las soluciones de algunos de los tests:\n")
     for a in feedback:
         MD.append("* [{}]({})".format(clean_url(a), a))
 

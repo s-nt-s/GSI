@@ -100,5 +100,5 @@ def clean_url(url):
         url = spl[1]
     if url.lower().startswith("www") and "." in url[4:6]:
         url = url.split(".", 1)[1]
-    url = url.rsplit("/")
+    url = url.rstrip("/")
     return url
