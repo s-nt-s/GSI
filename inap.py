@@ -91,7 +91,7 @@ for b in get_bloques():
         MD.append("    {tema}. [{titulo}]({url}) <small>[{done}]</small>".format(**dict(t)))
         feedback = feedback.union(t.feedback)
 
-feedback=sorted(feedback)
+feedback=sorted(feedback, key=lambda a:clean_url(a))
 if feedback:
     MD.append("\nURLs referenciadas en las soluciones de algunos de los tests:\n")
     for a in feedback:
