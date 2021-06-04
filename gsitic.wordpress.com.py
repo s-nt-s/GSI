@@ -48,7 +48,7 @@ for i, url, title in bloques:
 
     print("Creando HTML del bloque " + str(i) + " ...", end="\r")
     soup = get_tpt("B%s %s" % (i, title), rec="../rec/",
-                   css_screen="gsitic.css", css_print="gsitic_print.css", extra=extra)
+                   css_screen="gsitic.css", css_print="gsitic_print.css", head=extra)
     div = soup.find("div")
 
     for a in temas:

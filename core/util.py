@@ -1,9 +1,9 @@
-import os
 import re
 from munch import Munch
 import yaml
 from os import makedirs
-from os.path import basename
+from os.path import basename, dirname
+from markdown import markdown
 
 
 import bs4
@@ -18,35 +18,61 @@ def read(file):
         with open(file, "r") as f:
             yml = yaml.load(f, Loader=yaml.FullLoader)
             return Munch.fromDict(yml)
+    if ext in ("md", ):
+        md=Munch(
+            meta=None,
+            md=None,
+            html=None
+        )
+        with open(file, "r") as f:
+            for l in f.readlines():
+                sl = l.strip()
+                if md.md is not None:
+                    md.md.append(l)
+                    continue
+                if sl == '---':
+                    if md.meta is None:
+                        md.meta = []
+                    else:
+                        md.md = []
+                    continue
+                md.meta.append(l)
+        md.meta = "".join(md.meta)
+        md.md = "".join(md.md)
+        md.html = markdown(md.md)
+        md.meta = yaml.safe_load(md.meta)
+        md.meta = Munch.fromDict(md.meta)
+        return md
 
     with open(file, "r") as f:
         return f.read()
 
 def write(file, text):
-    dir = basename(file)
+    dir = dirname(file)
     makedirs(dir, exist_ok=True)
     with open(file, "w") as f:
         f.write(text)
 
 
-def get_tpt(title, rec=None, css_screen=None, css_print=None, extra=None):
+def get_tpt(title, rec=None, css_screen=None, css_print=None, head=None, content=None):
     html = '''
     <!DOCTYPE html>
     <html>
         <head>
-            <title>{}</title>
+            <title>{title}</title>
             <meta charset="utf-8"/>
-            <link rel="stylesheet" type="text/css" media="screen" href="{}"/>
+            <link rel="stylesheet" type="text/css" media="screen" href="{css_screen}"/>
             <link rel="stylesheet" type="text/css" media="print" href="print.css" />
-            <link rel="stylesheet" type="text/css" media="print" href="{}" />
-            {}
+            <link rel="stylesheet" type="text/css" media="print" href="{css_print}" />
+            {head}
         </head>
         <body>
             <div class="content">
+            {content}
             </div>
         </body>
     </html>
-    '''.format(title, css_screen, css_print, (extra or ""))
+    '''.format(title=title, css_screen=css_screen, css_print=css_print, head=(head or ""), content=(content or ""))
     soup = bs4.BeautifulSoup(html, 'lxml')
     for style in soup.findAll("link"):
         if style.attrs["href"] == "None":
@@ -69,13 +95,19 @@ def get_html(soup):
 
 
 def get_css_print(fuente):
-    dirname = os.path.dirname(fuente)
+    dir = dirname(fuente)
     styles = []
     with open(fuente, "r") as f:
         soup = bs4.BeautifulSoup(f.read(), 'lxml')
         for link in soup.findAll("link"):
             if link.attrs.get("media", None) == "print":
-                css = dirname + "/" + link.attrs["href"]
+                css = dir + "/" + link.attrs["href"]
+                text = map(lambda x:x.strip(), read(css).strip().split("\n"))
+                text = list(filter(lambda x:len(x)>0, text))
+                while len(text) and text[0].startswith('@import "'):
+                    ln = text.pop(0)
+                    ln = ln.split('"')[1]
+                    styles.append(dirname(css)+"/"+ln)
                 styles.append(css)
     return styles
 
@@ -91,6 +123,15 @@ def get_footer(styles, codigo, page):
 
 
 def html_to_pdf(fuente, codigo):
+    delFuente = False
+    if fuente.endswith(".md"):
+        MD=read(fuente)
+        soup = get_tpt(MD.meta.title, content=MD.html)
+        #soup.find("link").attrs["href"]=dirname(fuente)+"/print.css"
+        fuente = fuente.rsplit(".", 1)[0] + ".html"
+        with open(fuente, "w") as f:
+            f.write(str(soup))
+
     styles = get_css_print(fuente)
 
     html = HTML(fuente).render(stylesheets=styles)
@@ -102,6 +143,9 @@ def html_to_pdf(fuente, codigo):
             page_body.children += get_footer(styles, codigo, p)
 
     html.write_pdf(fuente[:-5] + ".pdf")
+
+    if delFuente:
+        os.remove(fuente)
 
 def clean_url(url):
     spl = url.split("://", 1)
