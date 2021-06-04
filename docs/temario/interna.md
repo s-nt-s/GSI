@@ -3,7 +3,7 @@ title: Temario GSI (interna)
 css: [main.css]
 ---
 <div class="alert">
-<a href="https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062" target="_blank">BOE-A-2019-9062</a> - Anexo X
+<a href="https://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892" target="_blank">BOE-A-2021-8892</a> - Anexo XIII
 </div>
 
 # Administración electrónica y políticas públicas de igualdad, dependencia y transparencia
@@ -19,8 +19,9 @@ css: [main.css]
 
 1. Tecnologías actuales de ordenadores: de los dispositivos móviles a los superordenadores y arquitecturas escalables y de altas prestaciones. Computación en la nube. Base tecnológica. Componentes, funcionalidades y capacidades.
 2. Conceptos de sistemas operativos: características, evolución y tendencias. Estructura, componentes y funciones. Sistemas operativos multiprocesador.
-3. Características técnicas de los lenguajes y paradigmas actuales de programación.
+3. Características técnicas de los lenguajes y paradigmas actuales de programación. Herramientas de trabajo colaborativo y redes sociales.
 4. El modelo TCP/IP y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO: arquitectura, capas, interfaces, protocolos, direccionamiento y encaminamiento.
+5. Arquitectura y soluciones basadas en contenedores y microservicios. Despliegue, monitorización y escalado.
 
 # Desarrollo de sistemas
 
@@ -28,26 +29,25 @@ css: [main.css]
 2. Gestión del proceso de desarrollo: objetivos, actores y actividades. Técnicas y prácticas de gestión de proyectos.
 3. Planificación del desarrollo. Técnicas de planificación. Metodologías de desarrollo. La metodología Métrica.
 4. Estrategias de determinación de requerimientos: entrevistas, derivación de sistemas existentes, análisis y prototipos. La especificación de requisitos de software.
-5. Análisis estructurado. Diagramas de flujo de datos. Diagramas de estructura. Diccionario de datos. Flujogramas.
-6. Modelización conceptual. El modelo Entidad/Relación extendido (E/R): elementos. Reglas de modelización. Validación y construcción de modelos de datos.
-7. Diseño de bases de datos. La arquitectura ANSI/SPARC. El modelo lógico relacional. Normalización. Diseño lógico. Diseño físico. Problemas de concurrencia de acceso. Mecanismos de resolución de conflictos.
-8. Tipos abstractos de datos y estructuras de datos. Grafos. Tipos de algoritmos: ordenación y búsqueda. Estrategias de diseño de algoritmos. Organizaciones de ficheros.
-9. Diseño de programas. Diseño estructurado. Análisis de transformación y de transacción. Cohesión y acoplamiento.
-10. Construcción del sistema. Entornos de construcción y generación de código. Preparación de la instalación. Estándares de documentación. Manuales de usuario y manuales técnicos. Formación de usuarios y personal técnico: métodos y materiales.
-11. Pruebas. Planificación y documentación. Utilización de datos de prueba. Pruebas de software, hardware, procedimientos y datos.
-12. Instalación y cambio. Estrategias de sustitución. Recepción e instalación. Evaluación post-implementación. Mantenimiento.
-13. Análisis y diseño orientado a objetos. Elementos. El proceso unificado de software. El lenguaje de modelado unificado (UML). Patrones de diseño.
-14. La arquitectura Java EE. Características de funcionamiento. Elementos constitutivos. Productos y herramientas. Persistencia. Seguridad.
-15. La plataforma.NET. Modelo de programación. Servicios. Herramientas. Persistencia. Seguridad.
-16. Aplicaciones web. Diseño web multiplataforma/multidispositivo. Desarrollo web front-end y en servidor. Componentes de tecnologías de programación. Servicios web: estándares, protocolos asociados, interoperabilidad y seguridad. Internalización y localización.
-17. La calidad del software y su medida. Modelos, métricas, normas y estándares.
-18. Accesibilidad, diseño universal y usabilidad. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Experiencia de Usuario o UX. La Guía de comunicación digital de la Administración del Estado.
-19. Minería de datos. Aplicación a la resolución de problemas de gestión. Tecnología y algoritmos. Procesamiento analítico en línea (OLAP). Big data. Bases de Datos NoSQL.
+5. Modelización conceptual. El modelo Entidad/Relación extendido (E/R): elementos. Reglas de modelización. Validación y construcción de modelos de datos.
+6. Diseño de bases de datos. La arquitectura ANSI/SPARC. El modelo lógico relacional. Normalización. Diseño lógico. Diseño físico. Problemas de concurrencia de acceso. Mecanismos de resolución de conflictos.
+7. Tipos abstractos de datos y estructuras de datos. Grafos. Tipos de algoritmos: ordenación y búsqueda. Estrategias de diseño de algoritmos. Organizaciones de ficheros.
+8. Análisis y diseño estructurado. Diagramas de flujo de datos. Diagramas de estructura. Análisis de transformación y de transacción. Cohesión y acoplamiento.
+9. Construcción del sistema. Entornos de construcción y generación de código. Despliegue de aplicaciones e integración continua. Dev-Ops. Estándares de documentación. Manuales de usuario y manuales técnicos. Formación de usuarios y personal técnico: métodos y materiales.
+10. Pruebas. Planificación y documentación. Utilización de datos de prueba. Pruebas de software, hardware, procedimientos y datos.
+11. Instalación y cambio. Estrategias de sustitución. Recepción e instalación. Evaluación post-implementación. Mantenimiento.
+12. Análisis y diseño orientado a objetos. Elementos. El proceso unificado de software. El lenguaje de modelado unificado (UML). Patrones de diseño.
+13. La arquitectura Java EE/Jakarta EE. Características de funcionamiento. Elementos constitutivos. Productos y herramientas. Persistencia. Seguridad.
+14. La plataforma.NET. Modelo de programación. Servicios. Herramientas. Persistencia. Seguridad.
+15. Aplicaciones web. Diseño web multiplataforma/multidispositivo. Desarrollo web front-end y en servidor. Componentes de tecnologías de programación. Servicios web: estándares, protocolos asociados, interoperabilidad y seguridad. Internalización y localización.
+16. La calidad del software y su medida. Modelos, métricas, normas y estándares.
+17. Accesibilidad, diseño universal y usabilidad. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Experiencia de Usuario o UX. La Guía de comunicación digital de la Administración del Estado.
+18. Minería de datos. Aplicación a la resolución de problemas de gestión. Tecnología y algoritmos. Procesamiento analítico en línea (OLAP). Big data. Entornos Hadoop o similares. Bases de Datos NoSQL.
 
 # Sistemas y comunicaciones
 
-1. Administración del sistema operativo y software de base. Funciones y responsabilidades.
-2. Administración de sistemas de gestión de bases de datos. Funciones. Responsabilidades. Administración de datos.
+1. Administración del sistema operativo y software de base.
+2. Administración de sistemas de gestión de bases de datos. Administración de datos.
 3. Prácticas de mantenimiento de equipos e instalaciones. Tipos de mantenimiento. Políticas, sistemas y procedimientos de backup y su recuperación: sistemas físicos y virtuales. Monitorización y gestión de capacidad.
 4. Gestión de la configuración. Gestión de librerías de programas y de medios magnéticos. Control de cambios y de versiones. Los lenguajes de control de trabajos. Las técnicas y herramientas de operación automática.
 5. Control de la ejecución de los trabajos. Evaluación del rendimiento. Planificación de la capacidad. Análisis de la carga. Herramientas y técnicas utilizables.
@@ -55,13 +55,12 @@ css: [main.css]
 7. Medios de transmisión guiados y no guiados (inalámbricos). Cables metálicos. Cable coaxial. Fibra óptica. Tipología de redes de cable. Sistemas de transmisión por satélite.
 8. Redes locales. Tipología. Técnica de transmisión. Métodos de acceso. Dispositivos de interconexión.
 9. Administración de redes locales. Gestión de usuarios. Gestión de dispositivos. Monitorización y control de tráfico. Gestión SNMP. Gestión de incidencias.
-10. Principales protocolos de la arquitectura de comunicaciones TCP/IP.
-11. Planificación física de un centro de tratamiento de la información. Vulnerabilidad, riesgo y protección. Dimensionamiento de equipos. Factores a considerar. Virtualización de plataforma y de recursos. Virtualización de puestos de trabajo.
-12. Redes conmutadas y de difusión. Conmutación de circuitos y de paquetes. Integración voz-datos. Protocolos de encaminamiento. Ethernet conmutada. MPLS. Calidad de servicio (QOS).
-13. La seguridad en redes. Seguridad perimetral. Control de accesos. Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital. Redes privadas virtuales. Seguridad en el puesto del usuario.
-14. La red Internet: arquitectura de red. Principios de funcionamiento. Servicios: evolución, estado actual y perspectivas de futuro. La web 2.0. La web semántica. Internet de las Cosas (IoT).
-15. Tecnología XDSL y telecomunicaciones por cable: concepto, características y normativa reguladora.
-16. Redes de nueva generación y servicios convergentes (NGN/IMS). VoIP, ToIP y comunicaciones unificadas. Convergencia telefonía fija-telefonía móvil.
-17. Sistemas de comunicaciones móviles. Generaciones. Telefonía sin hilos y DECT. Paging. Radiotelefonía privada. Sistemas celulares. Trunking. Soluciones de gestión de dispositivos móviles (MDM).
-18. Redes inalámbricas. Protocolos. Características funcionales y técnicas. Sistemas de expansión del espectro. Sistemas de acceso. Modos de operación. Seguridad. Normativa reguladora.
-19. IP móvil y PLC (Power Line Comunications). Características técnicas. Modos de operación. Seguridad. Normativa reguladora. Ventajas e inconvenientes. Televisión digital. Servicios de televisión (IPTV y OTT). Radiodifusión sonora digital.
+10. Planificación física de un centro de tratamiento de la información. Vulnerabilidad, riesgo y protección. Dimensionamiento de equipos. Factores a considerar. Virtualización de plataforma y de recursos. Virtualización de puestos de trabajo.
+11. Redes conmutadas y de difusión. Conmutación de circuitos y de paquetes. Integración voz-datos. Protocolos de encaminamiento. Ethernet conmutada. MPLS. Calidad de servicio (QOS).
+12. La seguridad en redes. Seguridad perimetral. Control de accesos. Técnicas criptográficas y protocolos seguros. Mecanismos de firma digital. Redes privadas virtuales. Seguridad en el puesto del usuario.
+13. La red Internet: arquitectura de red. Principios de funcionamiento. Servicios: evolución, estado actual y perspectivas de futuro. La web 2.0. La web semántica. Internet de las Cosas (IoT).
+14. Tecnología XDSL y telecomunicaciones por cable: concepto, características y normativa reguladora.
+15. Redes de nueva generación y servicios convergentes (NGN/IMS). VoIP, ToIP y comunicaciones unificadas. Convergencia telefonía fija-telefonía móvil.
+16. Sistemas de comunicaciones móviles. Generaciones. Telefonía sin hilos y DECT. Paging. Sistemas celulares. Trunking. Soluciones de gestión de dispositivos móviles (MDM).
+17. Redes inalámbricas. Protocolos. Características funcionales y técnicas. Sistemas de expansión del espectro. Sistemas de acceso. Modos de operación. Seguridad. Normativa reguladora.
+18. Sistemas de videoconferencia. Protocolos. Dimensionamiento y calidad de servicio en las comunicaciones y acondicionamiento de salas y equipos.
