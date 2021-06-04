@@ -16,18 +16,6 @@ section {
   margin: unset !important;
 }
 
-#productos td.precio {
-  text-align: right;
-}
-#productos td.precio span.ceros {
-  opacity:0;
-}
-#productos th.precio {
-  width: 4em;
-}
-#productos span[title] {
-    cursor: help;
-}
 a:hover, a:focus {
     font-weight: unset;
 }

@@ -1,0 +1,23 @@
+body {
+  counter-reset: bloque;
+}
+h1 {
+  counter-reset: capitulo;
+}
+h2 {
+  counter-reset: apartado;
+}
+
+h1:before {
+  counter-increment: bloque;
+  content: "Bloque " counter(bloque) ". ";
+}
+
+h2:before {
+  counter-increment: capitulo;
+  content: counter(capitulo) ". "
+}
+h3:before {
+  counter-increment: apartado;
+  content: counter(capitulo) "." counter(apartado) " ";
+}
