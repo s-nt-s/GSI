@@ -125,6 +125,7 @@ def get_footer(styles, codigo, page):
 def html_to_pdf(fuente, codigo):
     delFuente = False
     if fuente.endswith(".md"):
+        delFuente = True
         MD=read(fuente)
         soup = get_tpt(MD.meta.title, content=MD.html)
         #soup.find("link").attrs["href"]=dirname(fuente)+"/print.css"
