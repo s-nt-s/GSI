@@ -105,6 +105,7 @@ def save(anexo):
     MD=[dedent('''
     ---
     title: {title}
+    css: [main.css]
     ---
     <div class="alert">
     <a href="{url}" target="_blank">{boe}</a> - Anexo {anexo}

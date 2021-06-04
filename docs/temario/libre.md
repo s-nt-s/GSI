@@ -1,5 +1,6 @@
 ---
 title: Temario GSI (libre)
+css: [main.css]
 ---
 <div class="alert">
 <a href="https://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892" target="_blank">BOE-A-2021-8892</a> - Anexo XII
