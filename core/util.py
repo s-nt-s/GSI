@@ -99,7 +99,7 @@ def clean_url(url):
     spl = url.split("://", 1)
     if len(spl)==2:
         url = spl[1]
-    if url.lower().startswith("www") and "." in url[4:6]:
+    if url.lower().startswith("www") and "." in url[3:5]:
         url = url.split(".", 1)[1]
     url = url.rstrip("/")
     return url
