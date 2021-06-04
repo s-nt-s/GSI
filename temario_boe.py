@@ -8,7 +8,7 @@ import bs4
 import requests
 import roman
 
-from core.util import get_html, get_tpt, html_to_pdf
+from core.util import get_html, get_tpt, html_to_pdf, write
 
 sp = re.compile("\s+")
 
@@ -95,33 +95,28 @@ def get_h(soup, level, txt):
 
 def save(anexo):
     title = "Temario GSI"
-    file = "temario_%s.html"
+    file = "temario/%s.md"
     if anexo == ANX_LIBRE:
         title = title + " (libre)"
         file = file % "libre"
     elif anexo == ANX_INTERNA:
         title = title + " (interna)"
         file = file % "interna"
-    indice = get_tpt(title, rec="rec/",
-                     css_screen="temario.css",  css_print="temario_print.css")
+    MD=[dedent('''
+    ---
+    title: {title}
+    ---
+    <div class="alert">
+    <a href="{url}" target="_blank">{boe}</a> - Anexo {anexo}
+    </div>
+    '''.format(title=title, url=BOE, boe=BOE.split("=")[-1], anexo=anexo)).strip()
+    ]
     for blq in get_bloques(BOE, get_anexo=anexo):
-        indice.body.div.append(get_h(indice, 1, blq.titulo))
-        ol = indice.new_tag("ol")
-        indice.body.div.append(ol)
-        for tema in blq.temas:
-            li = indice.new_tag("li")
-            li.string = tema.titulo
-            ol.append(li)
+        MD.append("\n# "+blq.titulo+"\n")
+        for i, tema in enumerate(blq.temas):
+            MD.append("{}. {}".format(i+1, tema.titulo))
 
-    html = get_html(indice)
-    html = html.replace("<body>", dedent("""
-        <body>
-            <div class="fromboe">
-            <a href="{url}" target="_blank">{boe}</a> - Anexo {anexo}
-            </div>
-    """).format(url=BOE, boe=BOE.split("=")[-1], anexo=anexo).strip()+"\n")
-    with open(salida + file, "w") as file:
-        file.write(html)
+    write(salida + file, "\n".join(MD))
 
 
 save(ANX_LIBRE)

@@ -2,6 +2,8 @@ import os
 import re
 from munch import Munch
 import yaml
+from os import makedirs
+from os.path import basename
 
 
 import bs4
@@ -19,6 +21,12 @@ def read(file):
 
     with open(file, "r") as f:
         return f.read()
+
+def write(file, text):
+    dir = basename(file)
+    makedirs(dir, exist_ok=True)
+    with open(file, "w") as f:
+        f.write(text)
 
 
 def get_tpt(title, rec=None, css_screen=None, css_print=None, extra=None):
