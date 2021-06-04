@@ -4,6 +4,7 @@ import yaml
 from os import makedirs
 from os.path import basename, dirname
 from markdown import markdown
+from os import remove
 
 
 import bs4
@@ -102,12 +103,14 @@ def get_css_print(fuente):
         for link in soup.findAll("link"):
             if link.attrs.get("media", None) == "print":
                 css = dir + "/" + link.attrs["href"]
+                '''
                 text = map(lambda x:x.strip(), read(css).strip().split("\n"))
                 text = list(filter(lambda x:len(x)>0, text))
                 while len(text) and text[0].startswith('@import "'):
                     ln = text.pop(0)
                     ln = ln.split('"')[1]
                     styles.append(dirname(css)+"/"+ln)
+                '''
                 styles.append(css)
     return styles
 
@@ -145,7 +148,7 @@ def html_to_pdf(fuente, codigo):
     html.write_pdf(fuente[:-5] + ".pdf")
 
     if delFuente:
-        os.remove(fuente)
+        remove(fuente)
 
 def clean_url(url):
     spl = url.split("://", 1)
