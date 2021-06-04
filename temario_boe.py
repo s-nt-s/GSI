@@ -115,7 +115,7 @@ def save(anexo):
     for blq in get_bloques(BOE, get_anexo=anexo):
         MD.append("\n# "+blq.titulo+"\n")
         for i, tema in enumerate(blq.temas):
-            MD.append("0. {1}".format(i+1, tema.titulo))
+            MD.append("{0}. {1}".format(i+1, tema.titulo))
 
     write(salida + file, "\n".join(MD))
 
