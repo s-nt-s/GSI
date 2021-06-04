@@ -128,7 +128,6 @@ def html_to_pdf(fuente, codigo):
         delFuente = True
         MD=read(fuente)
         soup = get_tpt(MD.meta.title, content=MD.html)
-        #soup.find("link").attrs["href"]=dirname(fuente)+"/print.css"
         fuente = fuente.rsplit(".", 1)[0] + ".html"
         with open(fuente, "w") as f:
             f.write(str(soup))
