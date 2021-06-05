@@ -39,8 +39,10 @@ title: Examenes de convocatorias anteriores
     * [Ejercicio 3](http://sede.inap.gob.es/documents/59312/1763823/2019-12-21_Ejercicio_4_154AB89SD658.pdf/e6cb06dd-ff4f-dc6b-d2a7-dffd0b7db2bd)
 * CSSTIC [2019 - interna](https://sede.inap.gob.es/csstic-2019-promocion-interna)
     * [Ejercicio 1](https://sede.inap.gob.es/documents/59312/1863988/Plantilla+Definitiva+Respuestas+Primer+Ejercicio+Ordinario+2019_.pdf/3cb1db5f-a78b-b0ac-caa3-a6cbcf18542f) + [solucion](https://sede.inap.gob.es/documents/59312/1863988/PlantillaCorrectoraDefinitiva_Examen+Extraordinario+2019.pdf/4d5354b5-3d3d-0dc2-324c-226c268a77e5)
+    * [Ejercicio 2](https://sede.inap.gob.es/documents/59312/1863988/CSSTIAE+-+Tercer+Ej+-+Enunciado_154AB89SD658.pdf/3275d6f0-2f38-d991-f8cc-c0513cdf0089)
 * CSSTIC [2019 - libre](https://sede.inap.gob.es/csstic-2019-ingreso-libre)
     * [Ejercicio 1](https://sede.inap.gob.es/documents/59312/1863992/Plantilla+Definitiva+Respuestas+Primer+Ejercicio+Ordinario+2019_.pdf/13a25068-7a54-67b9-fc4a-ad05f4acd51a) + [solucion](https://sede.inap.gob.es/documents/59312/1863992/PlantillaCorrectoraDefinitiva_Examen+Extraordinario+2019.pdf/1e40f204-6efb-77a7-64c7-07f21d79516f)
+    * [Ejercicio 2](https://sede.inap.gob.es/documents/59312/1863992/CSSTIAE+-+Tercer+Ej+-+Enunciado_154AB89SD658.pdf/2ed378ff-becb-b856-d64c-be7e3af3a5d9)
 
 # [GSI Cuerpo de Gestión de Sistemas e Informática de la Administración del Estado](https://sede.inap.gob.es/gsi)
 
@@ -87,8 +89,7 @@ title: Examenes de convocatorias anteriores
 * TAI [2014 - interna](https://sede.inap.gob.es/tai-2014-promocion-interna)
     * [Ejercicio 1](https://sede.inap.gob.es/documents/59312/1763136/Examen%2520TAI-PI%25202014.pdf/e1988412-4b83-fcc9-343b-1b9da8a3c37e) + [solucion](https://sede.inap.gob.es/documents/59312/1763136/Plantilla_definitiva%2520TAI-PI%25202014.pdf/106d31ea-c5d9-72a1-81ca-35f49b496712)
 * TAI [2015 - interna](https://sede.inap.gob.es/tai-2015-promocion-interna)
-    * [Ejercicio 1](https://sede.inap.gob.es/documents/59312/1751002/Examen%2520TAI-PI%2520OEP%25202015.pdf/cbf7b050-ce54-2453-840d-a9d69a6b27ec)
-    * [Ejercicio 2 + solución](https://sede.inap.gob.es/documents/59312/1751002/Plantilla_definitiva_TAI-PI.pdf/50c915f8-3ab4-7aea-e421-17444b1688f6)
+    * [Ejercicio 1](https://sede.inap.gob.es/documents/59312/1751002/Examen%2520TAI-PI%2520OEP%25202015.pdf/cbf7b050-ce54-2453-840d-a9d69a6b27ec) + [solucion](https://sede.inap.gob.es/documents/59312/1751002/Plantilla_definitiva_TAI-PI.pdf/50c915f8-3ab4-7aea-e421-17444b1688f6)
 * TAI [2015 - libre](https://sede.inap.gob.es/tai-2015-ingreso-libre)
     * [Ejercicio 1 + solución](https://sede.inap.gob.es/documents/59312/1781726/Plant_def_TAI_L_%25201_ejer_154AB89SD658.pdf/95daefd5-7bc8-51f2-7058-c1b97d854af0)
     * [Ejercicio 2](https://sede.inap.gob.es/documents/59312/1781726/TAI-LI_2%25c2%25baEJ.pdf/cb48d6aa-b40f-4e75-1d80-92773e59de59) + [solucion](https://sede.inap.gob.es/documents/59312/1781726/PLANT-DEF-TAI-L-2-EJER_154AB89SD658.pdf/61a9afcf-2552-4f6d-7fc2-609df1c2d6d1)
