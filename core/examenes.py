@@ -80,7 +80,7 @@ class CrawlExamenes:
                 exa.append(Munch(
                     ejercicio=i,
                     url=url,
-                    test=("cuestionario" in txt) or grupo=="TAI",
+                    test=("cuestionario" in txt) or grupo=="C1",
                     solucion=None,
                 ))
             elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
