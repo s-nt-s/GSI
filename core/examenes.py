@@ -105,11 +105,11 @@ class CrawlExamenes:
         <div class="alert">
             <a href="{inap}" target="_blank">Convocatorias</a>
         </div>
-        '''.format(inap=self.root))+"\n"]
+        '''.format(inap=self.root)).strip()+"\n\n"]
         for grupo, data in self.get_opos().items():
             MD.append("\n# [{codigo} {titulo}]({url})\n".format(**dict(data)))
             for conv in sorted(data.convocatorias, key=lambda x:(x.year, x.ingreso)):
-                MD.append("* [{year} - {ingreso}]({url})".format(**dict(conv)))
+                MD.append("* {grupo} [{year} - {ingreso}]({url})".format(grupo=data.codigo, **dict(conv)))
                 for exa in sorted(conv.examenes, key=lambda x:x.ejercicio):
                     MD.append("    * [Ejercicio {ejercicio}]({url})".format(**dict(exa)))
                     if exa.solucion and exa.solucion != exa.url:
