@@ -111,9 +111,12 @@ class CrawlExamenes:
             for conv in sorted(data.convocatorias, key=lambda x:(x.year, x.ingreso)):
                 MD.append("* {grupo} [{year} - {ingreso}]({url})".format(grupo=data.codigo, **dict(conv)))
                 for exa in sorted(conv.examenes, key=lambda x:x.ejercicio):
-                    MD.append("    * [Ejercicio {ejercicio}]({url})".format(**dict(exa)))
-                    if exa.solucion and exa.solucion != exa.url:
-                        MD[-1] = MD[-1] + " + [solucion]({})".format(exa.solucion)
+                    if exa.solucion is None:
+                        MD.append("    * [Ejercicio {ejercicio}]({url})".format(**dict(exa)))
+                    elif exa.solucion == exa.url:
+                        MD.append("    * [Ejercicio {ejercicio} + solución]({url})".format(**dict(exa)))
+                    else:
+                        MD.append("    * [Ejercicio {ejercicio}]({url}) + [solucion]({solucion})".format(**dict(exa)))
 
         write(self.salida+"examenes.md", "\n".join(MD))
 
