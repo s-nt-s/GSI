@@ -44,12 +44,12 @@ class CrawlExamenes:
                     grupo=grupo,
                     titulo=titulo,
                     url=url,
-                    convocatorias=self.get_convocatorias(url)
+                    convocatorias=self.get_convocatorias(grupo, url)
                 )
         opos={k:v for k,v in sorted(opos.items(), key=lambda x:x[0])}
         return opos
 
-    def get_convocatorias(self, url):
+    def get_convocatorias(self, grupo, url):
         conv = []
         self.w.get(url)
         links = list(self.w.soup.select("div.journal-content-article a"))
@@ -63,11 +63,11 @@ class CrawlExamenes:
                 year=int(year),
                 ingreso=ingreso,
                 url=url,
-                examenes=self.get_examenes(url)
+                examenes=self.get_examenes(grupo, url)
             ))
         return conv
 
-    def get_examenes(self, url):
+    def get_examenes(self, grupo, url):
         exa = []
         self.w.get(url)
         links = list(self.w.soup.select("div.journal-content-article a"))
@@ -80,7 +80,7 @@ class CrawlExamenes:
                 exa.append(Munch(
                     ejercicio=i,
                     url=url,
-                    test=("cuestionario" in txt),
+                    test=("cuestionario" in txt) or grupo=="TAI",
                     solucion=None,
                 ))
             elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
