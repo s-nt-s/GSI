@@ -75,7 +75,7 @@ class CrawlExamenes:
         for a in links:
             url = a.attrs["href"].strip()
             txt = get_text(a).lower()
-            if txt in ("cuestionario", "enunciado del ejercicio"):
+            if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único"):
                 i = i +1
                 exa.append(Munch(
                     ejercicio=i,
@@ -83,7 +83,7 @@ class CrawlExamenes:
                     test=(txt == "cuestionario"),
                     solucion=None,
                 ))
-            elif txt in ("plantilla definitiva de respuestas", ):
+            elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
                 if len(exa)==0 or not exa[-1].test:
                     i = i +1
                     exa.append(Munch(
@@ -111,9 +111,9 @@ class CrawlExamenes:
             for conv in sorted(data.convocatorias, key=lambda x:(x.year, x.ingreso)):
                 MD.append("* [{year} - {ingreso}]({url})".format(**dict(conv)))
                 for exa in sorted(conv.examenes, key=lambda x:x.ejercicio):
-                    MD.append("    * [Ejerecicio {ejercicio}]({url})".format(**dict(exa)))
+                    MD.append("    * [Ejercicio {ejercicio}]({url})".format(**dict(exa)))
                     if exa.solucion and exa.solucion != exa.url:
-                        MD[-1] == MD[-1] + " + [solucion]({})".format(exa.solucion)
+                        MD[-1] = MD[-1] + " + [solucion]({})".format(exa.solucion)
 
         write(self.salida+"examenes.md", "\n".join(MD))
 
