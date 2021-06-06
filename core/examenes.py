@@ -83,6 +83,23 @@ class CrawlExamenes:
                     test=("cuestionario" in txt) or grupo=="C1" or i == 1,
                     solucion=None,
                 ))
+            elif txt in ("modelo a", "modelo b"):
+                li = a.find_parent("li").find_parent("li")
+                li = get_text(li)
+                li = li.lower()
+                if li.startswith("plantillas definitivas de respuestas"):
+                    if txt == "modelo a":
+                        i = i +1
+                        exa.append(Munch(
+                            ejercicio=i,
+                            url=None,
+                            test=True,
+                            solucion=None,
+                            modelo=Munch(a=url)
+                        ))
+                    else:
+                        b = txt.split()[1]
+                        exa[-1].modelo[b] = url
             elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
                 if len(exa)==0 or not exa[-1].test:
                     i = i +1
@@ -111,6 +128,10 @@ class CrawlExamenes:
             for conv in sorted(data.convocatorias, key=lambda x:(x.year, x.ingreso)):
                 MD.append("* {grupo} [{year} - {ingreso}]({url})".format(grupo=data.codigo, **dict(conv)))
                 for exa in sorted(conv.examenes, key=lambda x:x.ejercicio):
+                    if exa.get("modelo") is not None:
+                        modelos = ", ".join(("[modelo {} + solución]({})".format(k.upper(), v) for k,v in sorted(exa.modelo.items())))
+                        MD.append("    * Ejercicio {ejercicio}: ".format(**dict(exa))+modelos)
+                        continue
                     if exa.solucion is None:
                         MD.append("    * [Ejercicio {ejercicio}]({url})".format(**dict(exa)))
                     elif exa.solucion == exa.url:
