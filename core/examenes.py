@@ -75,7 +75,7 @@ class CrawlExamenes:
         for a in links:
             url = a.attrs["href"].strip()
             txt = get_text(a).lower().rstrip(".")
-            if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "Enunciado del cuarto ejercicio y anexos"):
+            if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "enunciado del cuarto ejercicio y anexos"):
                 i = i +1
                 exa.append(Munch(
                     ejercicio=i,
