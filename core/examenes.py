@@ -98,6 +98,7 @@ class CrawlExamenes:
                             modelo=Munch(a=url)
                         ))
                     else:
+                        i = i +1
                         b = txt.split()[1]
                         exa[-1].modelo[b] = url
             elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
