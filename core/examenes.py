@@ -75,12 +75,12 @@ class CrawlExamenes:
         for a in links:
             url = a.attrs["href"].strip()
             txt = get_text(a).lower().rstrip(".")
-            if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio"):
+            if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "Enunciado del cuarto ejercicio y anexos"):
                 i = i +1
                 exa.append(Munch(
                     ejercicio=i,
                     url=url,
-                    test=("cuestionario" in txt) or grupo=="C1",
+                    test=("cuestionario" in txt) or grupo=="C1" or i == 1,
                     solucion=None,
                 ))
             elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
