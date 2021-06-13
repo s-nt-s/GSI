@@ -144,7 +144,7 @@ class CrawlExamenes:
                 echo "[KO] $1 $2"
             fi
         }
-        function merge() {
+        function mrg() {
             pdfunite "$1" "$2" "$3" 2>/dev/null
             if [ $? -eq 0 ]; then
                 rm "$1"
@@ -170,24 +170,24 @@ class CrawlExamenes:
                 MD.append("* {grupo} [{year} - {ingreso}]({url})".format(grupo=data.codigo, **dict(conv)))
                 for exa in conv.examenes:
                     mam_fl="{grupo}/{year}-{tipo}{ejercicio}".format(grupo=data.grupo, ejercicio=exa.ejercicio, **dict(conv))
-                    dwn_sh="dwn '"+mam_fl
+                    dwn_sh="dwn "+mam_fl
                     if exa.get("modelo") is not None:
                         modelos = ", ".join(("[modelo {} + solución]({})".format(k.upper(), v) for k,v in sorted(exa.modelo.items())))
                         MD.append("    * Ejercicio {ejercicio}: ".format(**dict(exa))+modelos)
                         for m, u in sorted(exa.modelo.items()):
-                            SH.append(dwn_sh+"_{modelo}.pdf' '{url}'".format(url=u, modelo=m))
+                            SH.append(dwn_sh+"_{modelo}.pdf '{url}'".format(url=u, modelo=m))
                         continue
                     if exa.solucion is None:
                         MD.append("    * [Ejercicio {ejercicio}]({url})".format(**dict(exa)))
-                        SH.append(dwn_sh+".pdf' '{url}'".format(**dict(exa)))
+                        SH.append(dwn_sh+".pdf '{url}'".format(**dict(exa)))
                     elif exa.solucion == exa.url:
                         MD.append("    * [Ejercicio {ejercicio} + solución]({url})".format(**dict(exa)))
-                        SH.append(dwn_sh+".pdf' '{url}'".format(**dict(exa)))
+                        SH.append(dwn_sh+".pdf '{url}'".format(**dict(exa)))
                     else:
                         MD.append("    * [Ejercicio {ejercicio}]({url}) + [solución]({solucion})".format(**dict(exa)))
-                        SH.append(dwn_sh+"P.pdf' '{url}'".format(**dict(exa)))
-                        SH.append(dwn_sh+"R.pdf' '{solucion}'".format(**dict(exa)))
-                        SH.append("merge {fl}P.pdf {fl}R.pdf {fl}.pdf".format(fl=mam_fl))
+                        SH.append(dwn_sh+"P.pdf '{url}'".format(**dict(exa)))
+                        SH.append(dwn_sh+"R.pdf '{solucion}'".format(**dict(exa)))
+                        SH.append("mrg {fl}P.pdf {fl}R.pdf {fl}.pdf".format(fl=mam_fl))
 
         MD.append("\n[Script para descargar](examenes.sh)")
         write(self.salida+"examenes.md", "\n".join(MD))
