@@ -112,3 +112,5 @@ title: Examenes de convocatorias anteriores
     * [Ejercicio 2](https://sede.inap.gob.es/documents/59312/1790179/CUESTIONARIO__SEGUNDO_EJERCICIO_TAILI_%2520OEP_2018_154AB89SD658.pdf/a1909d6d-18d0-9b4b-d2ad-ebb02bd7ed8c) + [solución](https://sede.inap.gob.es/documents/59312/1790179/2jer_Plantilla_definitiva%2520TAILI_OEP2018__154AB89SD658.pdf/005c1328-6fb4-3a56-81db-acaa79c356d3)
 * TAI [2019 - interna](https://sede.inap.gob.es/tai-2019-promocion-interna)
 * TAI [2019 - libre](https://sede.inap.gob.es/tai-2019-ingreso-libre)
+
+[Script para descargar](examenes.sh)
