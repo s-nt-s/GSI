@@ -16,6 +16,18 @@ function mrg() {
         echo "[OK] $3 = $(basename $1) + $(basename $2)"
     fi
 }
+function dup() {
+    OT=$(echo "$1" | sed 's|-L|-I|')
+    if [ -f "$OT" ]; then
+        cmp "$1" "$OT" > /dev/null
+        if [ $? -eq 0 ]; then
+            FL=$(echo "$1" | sed 's|-L|-|')
+            mv "$1" "$FL"
+            rm "$OT"
+            echo "[MV] ${FL#*/} = $(basename $1) = $(basename $OT)"
+        fi
+    fi
+}
 mkdir -p examenes
 cd examenes
 
@@ -139,3 +151,8 @@ mrg C1/2018-L1P.pdf C1/2018-L1R.pdf C1/2018-L1.pdf
 dwn C1/2018-L2P.pdf 'https://sede.inap.gob.es/documents/59312/1790179/CUESTIONARIO__SEGUNDO_EJERCICIO_TAILI_%2520OEP_2018_154AB89SD658.pdf/a1909d6d-18d0-9b4b-d2ad-ebb02bd7ed8c'
 dwn C1/2018-L2R.pdf 'https://sede.inap.gob.es/documents/59312/1790179/2jer_Plantilla_definitiva%2520TAILI_OEP2018__154AB89SD658.pdf/005c1328-6fb4-3a56-81db-acaa79c356d3'
 mrg C1/2018-L2P.pdf C1/2018-L2R.pdf C1/2018-L2.pdf
+
+find . -name '*-L*.pdf' -type f -print0 |
+while IFS= read -r -d '' FL; do
+  dup "$FL"
+done

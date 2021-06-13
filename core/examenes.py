@@ -152,6 +152,18 @@ class CrawlExamenes:
                 echo "[OK] $3 = $(basename $1) + $(basename $2)"
             fi
         }
+        function dup() {
+            OT=$(echo "$1" | sed 's|-L|-I|')
+            if [ -f "$OT" ]; then
+                cmp "$1" "$OT" > /dev/null
+                if [ $? -eq 0 ]; then
+                    FL=$(echo "$1" | sed 's|-L|-|')
+                    mv "$1" "$FL"
+                    rm "$OT"
+                    echo "[MV] ${FL#*/} = $(basename $1) = $(basename $OT)"
+                fi
+            fi
+        }
         mkdir -p examenes
         cd examenes
         ''').strip()]
@@ -188,7 +200,12 @@ class CrawlExamenes:
                         SH.append(dwn_sh+"P.pdf '{url}'".format(**dict(exa)))
                         SH.append(dwn_sh+"R.pdf '{solucion}'".format(**dict(exa)))
                         SH.append("mrg {fl}P.pdf {fl}R.pdf {fl}.pdf".format(fl=mam_fl))
-
+        SH.append(dedent('''
+            find . -name '*-L*.pdf' -type f -print0 |
+            while IFS= read -r -d '' FL; do
+              dup "$FL"
+            done
+        '''))
         MD.append("\n[Script para descargar](examenes.sh)")
         write(self.salida+"examenes.md", "\n".join(MD))
         write(self.salida+"examenes.sh", "\n".join(SH))
