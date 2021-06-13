@@ -149,7 +149,7 @@ class CrawlExamenes:
             if [ $? -eq 0 ]; then
                 rm "$1"
                 rm "$2"
-                echo "[OK] $3 = $(basename $1) + $(basename $1)"
+                echo "[OK] $3 = $(basename $1) + $(basename $2)"
             fi
         }
         mkdir -p examenes
