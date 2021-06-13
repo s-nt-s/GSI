@@ -5,6 +5,7 @@ from munch import Munch
 import json
 from textwrap import dedent
 from .util import write
+from .j2 import Jnj2
 
 import urllib3
 urllib3.disable_warnings()
@@ -28,6 +29,7 @@ class CrawlExamenes:
         self.w = Web(verify=False)
         self.root = root
         self.salida = salida
+        self.opos = self.get_opos()
 
     def get_opos(self):
         opos = {}
@@ -39,8 +41,9 @@ class CrawlExamenes:
             grupo = OPOS.get(key)
             if grupo:
                 url = a.attrs["href"]
+                codigo=url.rsplit("/", 1)[-1].upper()
                 opos[grupo]=Munch(
-                    codigo=url.rsplit("/", 1)[-1].upper(),
+                    codigo=codigo,
                     grupo=grupo,
                     titulo=titulo,
                     url=url,
@@ -65,6 +68,7 @@ class CrawlExamenes:
                 url=url,
                 examenes=self.get_examenes(grupo, url)
             ))
+        conv = sorted(conv, key=lambda x:(x.year, x.ingreso))
         return conv
 
     def get_examenes(self, grupo, url):
@@ -124,7 +128,7 @@ class CrawlExamenes:
                     ))
                 else:
                     exa[-1].solucion = url
-
+        exa = sorted(exa, key=lambda x:x.ejercicio)
         return exa
 
     def save(self):
@@ -135,12 +139,12 @@ class CrawlExamenes:
         <div class="alert">
             <a href="{inap}" target="_blank">Convocatorias</a>
         </div>
-        '''.format(inap=self.root)).strip()+"\n\n"]
+        '''.format(inap=self.root)).strip()]
         for grupo, data in self.get_opos().items():
             MD.append("\n# [{codigo} {titulo}]({url})\n".format(**dict(data)))
-            for conv in sorted(data.convocatorias, key=lambda x:(x.year, x.ingreso)):
+            for conv in data.convocatorias:
                 MD.append("* {grupo} [{year} - {ingreso}]({url})".format(grupo=data.codigo, **dict(conv)))
-                for exa in sorted(conv.examenes, key=lambda x:x.ejercicio):
+                for exa in conv.examenes:
                     if exa.get("modelo") is not None:
                         modelos = ", ".join(("[modelo {} + solución]({})".format(k.upper(), v) for k,v in sorted(exa.modelo.items())))
                         MD.append("    * Ejercicio {ejercicio}: ".format(**dict(exa))+modelos)
@@ -150,11 +154,12 @@ class CrawlExamenes:
                     elif exa.solucion == exa.url:
                         MD.append("    * [Ejercicio {ejercicio} + solución]({url})".format(**dict(exa)))
                     else:
-                        MD.append("    * [Ejercicio {ejercicio}]({url}) + [solucion]({solucion})".format(**dict(exa)))
+                        MD.append("    * [Ejercicio {ejercicio}]({url}) + [solución]({solucion})".format(**dict(exa)))
 
         write(self.salida+"examenes.md", "\n".join(MD))
 
 if __name__ == "__main__":
     c = CrawlExamenes()
     c.save()
-    #print(json.dumps(c.get_opos(), indent=2))
+    #j = Jnj2("template/", "docs/")
+    #j.save("examenes.md", data=c)
