@@ -70,17 +70,32 @@ class CrawlExamenes:
     def get_examenes(self, grupo, url):
         exa = []
         self.w.get(url)
+        url_ej={}
+        lst_ej=None
+        for n in self.w.soup.select("div.journal-content-article *"):
+            if n.name == "a":
+                if lst_ej is not None:
+                    url_ej[n.attrs["href"]] = lst_ej
+                continue
+            txt = get_text(n)
+            txt = txt.lower().strip(".")
+            txt = txt.split()
+            if len(txt)==2:
+                if txt[1]=="ejercicio":
+                    lst_ej = [None, 'primer', 'segundo', 'tercer', 'cuarto'].index(txt[0])
+                    continue
+                if txt[0]=="ejercicio" and txt[1] in ("único", "ùnico"):
+                    lst_ej = 1
+                    continue
         links = list(self.w.soup.select("div.journal-content-article a"))
-        i = 0
         for a in links:
             url = a.attrs["href"].strip()
             txt = get_text(a).lower().rstrip(".")
             if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "enunciado del cuarto ejercicio y anexos"):
-                i = i +1
                 exa.append(Munch(
-                    ejercicio=i,
+                    ejercicio=url_ej[url],
                     url=url,
-                    test=("cuestionario" in txt) or grupo=="C1" or i == 1,
+                    test=("cuestionario" in txt) or grupo=="C1" or url_ej[url] == 1,
                     solucion=None,
                 ))
             elif txt in ("modelo a", "modelo b"):
@@ -89,23 +104,20 @@ class CrawlExamenes:
                 li = li.lower()
                 if li.startswith("plantillas definitivas de respuestas"):
                     if txt == "modelo a":
-                        i = i +1
                         exa.append(Munch(
-                            ejercicio=i,
+                            ejercicio=url_ej[url],
                             url=None,
                             test=True,
                             solucion=None,
                             modelo=Munch(a=url)
                         ))
                     else:
-                        i = i +1
                         b = txt.split()[1]
                         exa[-1].modelo[b] = url
             elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
                 if len(exa)==0 or not exa[-1].test:
-                    i = i +1
                     exa.append(Munch(
-                        ejercicio=i,
+                        ejercicio=url_ej[url],
                         url=url,
                         test=True,
                         solucion=url,
