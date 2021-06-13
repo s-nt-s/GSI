@@ -14,6 +14,8 @@ re_sp = re.compile(r"\s+")
 re_conv = re.compile(r"^.*/([^\-/]+)-([12]\d{3})-[^\-/]+-(libre|interna)$")
 
 def get_text(n):
+    if n is None:
+        return None
     txt = n.get_text()
     txt = re_sp.sub(" ", txt)
     return txt.strip()
@@ -120,7 +122,18 @@ class CrawlExamenes:
                         b = txt.split()[1]
                         exa[-1].modelo[b] = url
             elif txt in ("plantilla definitiva de respuestas", "plantilla definitiva"):
-                if len(exa)==0 or not exa[-1].test:
+                li = a.find_parent("li")
+                li = get_text(li)
+                if li and "examen extraordinario" in li:
+                    if len(exa)>0 and exa[-1].ejercicio==url_ej[url]:
+                        exa[-1].ejercicio += 0.1
+                    exa.append(Munch(
+                        ejercicio=url_ej[url]+0.2,
+                        url=url,
+                        test=True,
+                        solucion=url,
+                    ))
+                elif len(exa)==0 or not exa[-1].test:
                     exa.append(Munch(
                         ejercicio=url_ej[url],
                         url=url,
@@ -145,19 +158,25 @@ class CrawlExamenes:
             fi
         }
         function mrg() {
-            pdfunite "$1" "$2" "$3" 2>/dev/null
-            if [ $? -eq 0 ]; then
-                rm "$1"
-                rm "$2"
-                echo "[OK] $3 = $(basename $1) + $(basename $2)"
+            PR=$(echo "$1" | sed 's|R|P|')
+            if [ -f "$PR" ]; then
+                TD=$(echo "$1" | sed 's|R||')
+                if [ ! -f "$TD" ]; then
+                    pdfunite "$PR" "$1" "$TD" 2>/dev/null
+                    if [ $? -eq 0 ]; then
+                        rm "$1"
+                        rm "$PR"
+                        echo "[MV] ${TD#*/} = $(basename $1) + $(basename $PR)"
+                    fi
+                fi
             fi
         }
         function dup() {
-            OT=$(echo "$1" | sed 's|-L|-I|')
+            OT=$(echo "$1" | sed 's|L|I|')
             if [ -f "$OT" ]; then
                 cmp "$1" "$OT" > /dev/null
                 if [ $? -eq 0 ]; then
-                    FL=$(echo "$1" | sed 's|-L|-|')
+                    FL=$(echo "$1" | sed 's|L||')
                     mv "$1" "$FL"
                     rm "$OT"
                     echo "[MV] ${FL#*/} = $(basename $1) = $(basename $OT)"
@@ -181,7 +200,7 @@ class CrawlExamenes:
             for conv in data.convocatorias:
                 MD.append("* {grupo} [{year} - {ingreso}]({url})".format(grupo=data.codigo, **dict(conv)))
                 for exa in conv.examenes:
-                    mam_fl="{grupo}/{year}-{tipo}{ejercicio}".format(grupo=data.grupo, ejercicio=exa.ejercicio, **dict(conv))
+                    mam_fl="{grupo}/{year}-{ejercicio}{tipo}".format(grupo=data.grupo, ejercicio=exa.ejercicio, **dict(conv))
                     dwn_sh="dwn "+mam_fl
                     if exa.get("modelo") is not None:
                         modelos = ", ".join(("[modelo {} + solución]({})".format(k.upper(), v) for k,v in sorted(exa.modelo.items())))
@@ -199,11 +218,14 @@ class CrawlExamenes:
                         MD.append("    * [Ejercicio {ejercicio}]({url}) + [solución]({solucion})".format(**dict(exa)))
                         SH.append(dwn_sh+"P.pdf '{url}'".format(**dict(exa)))
                         SH.append(dwn_sh+"R.pdf '{solucion}'".format(**dict(exa)))
-                        SH.append("mrg {fl}P.pdf {fl}R.pdf {fl}.pdf".format(fl=mam_fl))
         SH.append(dedent('''
-            find . -name '*-L*.pdf' -type f -print0 |
+            find . -name '*L*' -type f -print0 |
             while IFS= read -r -d '' FL; do
               dup "$FL"
+            done
+            find . -name '*R*' -type f -print0 |
+            while IFS= read -r -d '' FL; do
+              mrg "$FL"
             done
         '''))
         MD.append("\n[Script para descargar](examenes.sh)")
