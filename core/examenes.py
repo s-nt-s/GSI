@@ -68,13 +68,13 @@ class CrawlExamenes:
                 year=int(year),
                 ingreso=ingreso,
                 url=url,
-                examenes=self.get_examenes(grupo, url),
+                examenes=self.get_examenes(grupo, ingreso, url),
                 tipo=ingreso[0].upper()
             ))
         conv = sorted(conv, key=lambda x:(x.year, x.ingreso))
         return conv
 
-    def get_examenes(self, grupo, url):
+    def get_examenes(self, grupo, ingreso, url):
         exa = []
         self.w.get(url)
         url_ej={}
@@ -98,11 +98,20 @@ class CrawlExamenes:
         for a in links:
             url = a.attrs["href"].strip()
             txt = get_text(a).lower().rstrip(".")
+            tipo = None
+            ejercicio = url_ej[url]
+            if ("cuestionario" in txt) or grupo=="C1" or ejercicio == 1:
+                tipo = "test"
+            elif grupo == "A2":
+                if ((ejercicio==2 and ingreso="interna") or (ejercicio==3 and ingreso="libre")):
+                    tipo = "supuesto"
+            elif grupo == "A1":
+                pass
             if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "enunciado del cuarto ejercicio y anexos"):
                 exa.append(Munch(
-                    ejercicio=url_ej[url],
+                    ejercicio=ejercicio,
                     url=url,
-                    test=("cuestionario" in txt) or grupo=="C1" or url_ej[url] == 1,
+                    tipo=tipo,
                     solucion=None,
                 ))
             elif txt in ("modelo a", "modelo b"):
@@ -112,9 +121,9 @@ class CrawlExamenes:
                 if li.startswith("plantillas definitivas de respuestas"):
                     if txt == "modelo a":
                         exa.append(Munch(
-                            ejercicio=url_ej[url],
+                            ejercicio=ejercicio,
                             url=None,
-                            test=True,
+                            tipo="test",
                             solucion=None,
                             modelo=Munch(a=url)
                         ))
@@ -128,16 +137,16 @@ class CrawlExamenes:
                     if len(exa)>0 and exa[-1].ejercicio==url_ej[url]:
                         exa[-1].ejercicio += 0.1
                     exa.append(Munch(
-                        ejercicio=url_ej[url]+0.2,
+                        ejercicio=ejercicio+0.2,
                         url=url,
-                        test=True,
+                        tipo="test",
                         solucion=url,
                     ))
-                elif len(exa)==0 or not exa[-1].test:
+                elif len(exa)==0 or not exa[-1].tipo=="test":
                     exa.append(Munch(
                         ejercicio=url_ej[url],
                         url=url,
-                        test=True,
+                        tipo="test",
                         solucion=url,
                     ))
                 else:

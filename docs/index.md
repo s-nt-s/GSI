@@ -20,13 +20,14 @@ Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](http
 **Por ahora tenemos**:
 
 * Indice del temario:
-  * acceso libre: [HTML](temario/libre.html), [PDF](temario/libre.pdf), [BOE-A-2021-8892 Anexo XII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
-  * acceso interno: [HTML](temario/interna.html), [PDF](temario/interna.pdf), [BOE-A-2021-8892 Anexo XIII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
+  * acceso libre: [HTML](temario/libre), [PDF](temario/libre.pdf), [BOE-A-2021-8892 Anexo XII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
+  * acceso interno: [HTML](temario/interna), [PDF](temario/interna.pdf), [BOE-A-2021-8892 Anexo XIII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
 * Apuntes de [gsitic.wordpress.com](https://gsitic.wordpress.com) (el bloque 2 esta casi completo pero los otros están más o menos a la mitad):
-  * Bloque 2: [HTML](gsitic.wordpress.com/bloque_2.html), [PDF](gsitic.wordpress.com/bloque_2.pdf), [EPUB](gsitic.wordpress.com/bloque_2.epub)
-  * Bloque 3: [HTML](gsitic.wordpress.com/bloque_3.html), [PDF](gsitic.wordpress.com/bloque_3.pdf), [EPUB](gsitic.wordpress.com/bloque_3.epub)
-  * Bloque 4: [HTML](gsitic.wordpress.com/bloque_4.html), [PDF](gsitic.wordpress.com/bloque_4.pdf), [EPUB](gsitic.wordpress.com/bloque_4.epub)
-* Acceso rápido al curso [FSAP20000600000](FSAP20000600000.html)
+  * Bloque 2: [HTML](gsitic.wordpress.com/bloque_2), [PDF](gsitic.wordpress.com/bloque_2.pdf), [EPUB](gsitic.wordpress.com/bloque_2.epub)
+  * Bloque 3: [HTML](gsitic.wordpress.com/bloque_3), [PDF](gsitic.wordpress.com/bloque_3.pdf), [EPUB](gsitic.wordpress.com/bloque_3.epub)
+  * Bloque 4: [HTML](gsitic.wordpress.com/bloque_4), [PDF](gsitic.wordpress.com/bloque_4.pdf), [EPUB](gsitic.wordpress.com/bloque_4.epub)
+* Listado de [exámenes de años anteriores](examenes)
+* Acceso rápido al curso [FSAP20000600000](FSAP20000600000)
 
 <hr/>
 <hr/>
