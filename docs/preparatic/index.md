@@ -9,7 +9,7 @@ A la hora de utilizar los [pack de Preparatic27](http://www.preparatic.org/categ
 para preparar la [oposición de acceso interno a GSI](../temario/interna) nos interesa:
 
 * Pack 1: corresponde al supuesto practico de CSSTIC:
-    * [Pack 1](http://www.preparatic.org/2020/11/14/disponible-el-pack-1-de-preparatic26/): Apuntes para preparar el examen  ([ver contenido](tree/pack1.audio.txt))
+    * [Pack 1](http://www.preparatic.org/2020/11/14/disponible-el-pack-1-de-preparatic26/): Apuntes para preparar el examen  ([ver contenido](tree/pack1.txt))
     * [Audioapuntes](http://www.preparatic.org/2019/05/21/audioapuntes-para-el-pack1-del-preparatic26/): Versión en audio de los apuntes Preparatic26 ([ver contenido](tree/pack1.audio.txt))
 * Pack 3: corresponde al test de CSSTIC
     * [Materiales](http://www.preparatic.org/2021/03/25/disponibles-los-materiales-del-pack3-preparatic27/): Apuntes para preparar el examen ([ver contenido](tree/pack3.materiales.txt))

@@ -63,7 +63,6 @@ Pack3_Material.zip
 │   ├── 02.- Diseño de red
 │   │   ├── DISEÑO_DE_RED Mayo 2017.pdf
 │   │   ├── Material adicional
-│   │   │   ├── desktop.ini
 │   │   │   ├── Plan Direccionamiento Interconexion Redes Abril2016.pdf
 │   │   │   └── PreparaTIC26_20190713_Servicio NubeSARA.pdf
 │   │   └── RED.pdf
@@ -162,7 +161,6 @@ Pack3_Material.zip
 │   │   │   ├── 405-algoritmos_y_parametros_de_firma_electronica-feb12.pdf
 │   │   │   ├── Cambios asociados al reglamento eiDAS.pdf
 │   │   │   ├── Clave Identificacion-abril-2018.pdf
-│   │   │   ├── desktop.ini
 │   │   │   ├── Documento de integracion para SP 1-1-.pdf
 │   │   │   ├── PAe - Nodo eIDAS.pdf
 │   │   │   └── Perfiles_de_certificados AGE.pdf
@@ -199,7 +197,6 @@ Pack3_Material.zip
 │   │   ├── Leyes 39 y 40 2015.pdf
 │   │   ├── Material adicional
 │   │   │   ├── BOE-029_Codigo_de_Administracion_Electronica-5-7-2019.pdf
-│   │   │   ├── desktop.ini
 │   │   │   └── Nota-tecnica-gobernanza-04-2018.pdf
 │   │   └── Material Sesión Preparatic27 - SERVICIOS COMUNES
 │   │       ├── 9ª sesión PreparaTIC27 — SERVICIOS COMUNES + IDENTIFICACION y FIRMA - YouTube.URL
@@ -530,8 +527,7 @@ Pack3_Material.zip
 │   │   │   ├── INTELIGENCIA ARTIFICIAL - Preparación 3er ejercicio.pdf
 │   │   │   └── Video Youtube - 7ª sesión PreparaTIC27 — 🤖INTELIGENCIA ARTIFICIAL -.URL
 │   │   └── Preparatic27 IA_ENIA.pdf
-│   ├── 24.-Licenciamiento Software
-│   │   ├── ENI_Guia_reutilizacion_activos_v1-0.pdf
-│   │   └── EUPL 1-2.txt
-│   └── desktop.ini
+│   └── 24.-Licenciamiento Software
+│       ├── ENI_Guia_reutilizacion_activos_v1-0.pdf
+│       └── EUPL 1-2.txt
 └── Control de cambios Preparatic27.xlsx

@@ -23,41 +23,31 @@ Pack3 casos practicos.zip
 ├── Simulacros preparatic
 │   ├── Preparatic XIX
 │   │   ├── 2010_enunciado_inventado_1.pdf
-│   │   ├── 2010_enunciado_inventado_2.pdf
-│   │   └── desktop.ini
+│   │   └── 2010_enunciado_inventado_2.pdf
 │   ├── Preparatic XX
 │   │   ├── Caso_Practico_4_Ejercicio_Preparatic_XX.pdf
-│   │   ├── desktop.ini
 │   │   └── Simulacro_4_Ej_Preparatic_XX_eITV.pdf
 │   ├── Preparatic XXI
-│   │   ├── desktop.ini
 │   │   ├── ICT
-│   │   │   ├── desktop.ini
 │   │   │   ├── EnunciadoSimulacroPreparatic.pdf
 │   │   │   ├── Presentacion Preparatic ICT.pdf
 │   │   │   ├── Solución_Casos de Uso.rar
 │   │   │   └── Solución Simulacro.pdf
 │   │   └── Proyecto SCAN
-│   │       ├── desktop.ini
 │   │       ├── Digitalización de documentos.pdf
 │   │       ├── Documentos de referencia mencionados
 │   │       │   ├── AEPD-GUIA-SEGURIDAD.pdf
-│   │       │   ├── desktop.ini
 │   │       │   ├── ENI-EMGDE.pdf
 │   │       │   ├── STIC-803-ENS-valoracion.pdf
 │   │       │   └── STIC-804-ENS-implantacion.pdf
 │   │       └── Proyecto SCAN.pdf
 │   ├── Preparatic XXII
-│   │   ├── desktop.ini
 │   │   ├── Sesión solución examen TIC A1 2013
-│   │   │   ├── 20150314-PresentacionPreparatic-Final.pdf
-│   │   │   └── desktop.ini
+│   │   │   └── 20150314-PresentacionPreparatic-Final.pdf
 │   │   ├── Simulacro DGOJ
-│   │   │   ├── desktop.ini
 │   │   │   ├── Presentacion-plan-de-sistemas (Solución).pdf
 │   │   │   └── S14.01 Enunciado Simulacro cuarto.pdf
 │   │   └── Simulacro Notifica
-│   │       ├── desktop.ini
 │   │       ├── Enunciado_Notifica.pdf
 │   │       └── Presentación Notifica (Solución).pptx
 │   ├── Preparatic XXIII
@@ -78,11 +68,10 @@ Pack3 casos practicos.zip
 │   │   │   ├── CSSTIAE cuarto ej Conv2016.pdf
 │   │   │   ├── Enlace video.url
 │   │   │   └── Preparatic25_sesion7_20180609-Examen2016.pdf
-│   │   ├── Caso 2
-│   │   │   ├── Enlace video.url
-│   │   │   ├── Preparatic25_sesion8_20180707-Turespaña_Solucion.pdf
-│   │   │   └── Preparatic25-Sesion8-CasoPreparaticTurespaña2018.pdf
-│   │   └── desktop.ini
+│   │   └── Caso 2
+│   │       ├── Enlace video.url
+│   │       ├── Preparatic25_sesion8_20180707-Turespaña_Solucion.pdf
+│   │       └── Preparatic25-Sesion8-CasoPreparaticTurespaña2018.pdf
 │   └── Preparatic XXVI
 │       ├── Caso 1
 │       │   ├── CSSTIAE tercer ej Conv2017.pdf
@@ -93,7 +82,6 @@ Pack3 casos practicos.zip
 ├── Volcados preparatic anteriores
 │   ├── Convocatorias anteriores a 2016
 │   │   ├── 2007 volcados aprobados
-│   │   │   ├── desktop.ini
 │   │   │   ├── soluciones.html
 │   │   │   ├── Volcado1.pdf
 │   │   │   ├── Volcado2.pdf
@@ -103,7 +91,6 @@ Pack3 casos practicos.zip
 │   │   │   ├── Volcado6.pdf
 │   │   │   └── Volcado7.pdf
 │   │   ├── 2008 volcados aprobados
-│   │   │   ├── desktop.ini
 │   │   │   ├── nota.txt
 │   │   │   ├── Volcado_10 - ultimo tercio.pdf
 │   │   │   ├── Volcado2 Plantilla+Volcado+Notas - ultimo tercio(1).pdf
@@ -115,7 +102,6 @@ Pack3 casos practicos.zip
 │   │   │   ├── Volcado8 - ultimo tercio.pdf
 │   │   │   └── Volcado9 - primer tercio.pdf
 │   │   ├── 2009 volcados aprobados
-│   │   │   ├── desktop.ini
 │   │   │   ├── Volcado10_2009_Nota_entre_35_y_40_Con_documentacion_postexamen_y_resumen_de_la_defensa.pdf
 │   │   │   ├── Volcado11_2009_Nota_entre_30_y_35.pdf
 │   │   │   ├── Volcado1_2009_Nota_superior_a_40_Correccion1_Preparatic.pdf
@@ -145,75 +131,56 @@ Pack3 casos practicos.zip
 │   │   │   ├── 2010_Volcado_6.pdf
 │   │   │   ├── 2010_Volcado_8.pdf
 │   │   │   ├── 2010_Volcado_9.pdf
-│   │   │   ├── desktop.ini
 │   │   │   └── Nota aclaratoria sobre volcados 2010.pdf
-│   │   ├── desktop.ini
 │   │   ├── Preparatic XXI
-│   │   │   ├── desktop.ini
 │   │   │   ├── Volcado 1
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Revision 1.pdf
 │   │   │   │   ├── Revision 2.pdf
 │   │   │   │   └── Volcado.pdf
 │   │   │   ├── Volcado 10
-│   │   │   │   ├── desktop.ini
 │   │   │   │   └── Volcado10.pdf
 │   │   │   ├── Volcado 11
-│   │   │   │   ├── desktop.ini
 │   │   │   │   └── Volcado11.pdf
 │   │   │   ├── Volcado 12
-│   │   │   │   ├── desktop.ini
 │   │   │   │   └── Volcado12.pdf
 │   │   │   ├── Volcado 13
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Revision1.pdf
 │   │   │   │   └── Volcado13.pdf
 │   │   │   ├── Volcado 14
-│   │   │   │   ├── desktop.ini
 │   │   │   │   └── Volcado.pdf
 │   │   │   ├── Volcado 15
-│   │   │   │   ├── desktop.ini
 │   │   │   │   └── Volcado 15.pdf
 │   │   │   ├── Volcado 2
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Revisión 1.pdf
 │   │   │   │   ├── Revisión 2.pdf
 │   │   │   │   └── Volcado.pdf
 │   │   │   ├── Volcado 3
 │   │   │   │   ├── Arq Física.jpg
 │   │   │   │   ├── Arq Lógica.jpg
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Diagrama de casos de uso.jpg
 │   │   │   │   ├── Diagrama de Clases-2.jpg
 │   │   │   │   ├── GANTT.jpg
 │   │   │   │   └── Volcado RRSS.pdf
 │   │   │   ├── Volcado 4
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Volcado 4.pdf
 │   │   │   │   ├── Volcado 4_Revisión1.pdf
 │   │   │   │   └── Volcado 4_Revisión2.pdf
 │   │   │   ├── Volcado 5
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Volcado5.pdf
 │   │   │   │   ├── Volcado5 Revisión1.pdf
 │   │   │   │   └── Volcado5 Revisión2.pdf
 │   │   │   ├── Volcado 6
-│   │   │   │   ├── desktop.ini
 │   │   │   │   └── Volcado 6.pdf
 │   │   │   ├── Volcado 7
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Volcado 7.pdf
 │   │   │   │   ├── Volcado 7-Revisión 1.pdf
 │   │   │   │   └── Volcado 7-Revisión 2.pdf
 │   │   │   ├── Volcado 8
-│   │   │   │   ├── desktop.ini
 │   │   │   │   └── Volcado_cuarto_ejercicio.pdf
 │   │   │   └── Volcado 9
-│   │   │       ├── desktop.ini
 │   │   │       └── Volcado.pdf
 │   │   ├── Preparatic XXII
 │   │   │   ├── 25-34
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Volcado1.pdf
 │   │   │   │   ├── Volcado2 - rev1.pdf
 │   │   │   │   ├── Volcado2 - rev2.pdf
@@ -223,7 +190,6 @@ Pack3 casos practicos.zip
 │   │   │   │   ├── Volcado5.pdf
 │   │   │   │   └── Volcado6 - Corrección1.pdf
 │   │   │   ├── 34-38
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Volcado1 - Correción1.pdf
 │   │   │   │   ├── Volcado1 - Correción2.pdf
 │   │   │   │   ├── Volcado2 - Corrección1.pdf
@@ -237,7 +203,6 @@ Pack3 casos practicos.zip
 │   │   │   │   ├── Volcado6 -rev1.pdf
 │   │   │   │   └── Volcado6 -rev2.pdf
 │   │   │   ├── 38-50
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Volcado1.pdf
 │   │   │   │   ├── Volcado2 - rev1.pdf
 │   │   │   │   ├── Volcado2 - rev2.pdf
@@ -250,12 +215,9 @@ Pack3 casos practicos.zip
 │   │   │   │   ├── Volcado7 - Rev1.pdf
 │   │   │   │   └── Volcado7 - Rev2.pdf
 │   │   │   ├── AVISO.pdf
-│   │   │   ├── desktop.ini
 │   │   │   └── Preguntas generales.pdf
 │   │   ├── Preparatic XXIII
-│   │   │   ├── desktop.ini
 │   │   │   ├── Documentos Ejemplo Preparación Defensa
-│   │   │   │   ├── desktop.ini
 │   │   │   │   ├── Documento Ejemplo Preparación Defensa del Volcado7(1).xlsx
 │   │   │   │   ├── Documento Ejemplo Preparación Defensa del Volcado7.xlsx
 │   │   │   │   ├── Documento Ejemplo Preparación Defensa del Volcado8.pdf
@@ -274,7 +236,6 @@ Pack3 casos practicos.zip
 │   │   │   ├── Volcado08_revision_1.pdf
 │   │   │   └── Volcado08_revision_2.pdf
 │   │   └── Preparatic XXIV
-│   │       ├── desktop.ini
 │   │       ├── Nota 25-28.99
 │   │       │   ├── CuartoEjConv2015 25-28.99 (1)(1).pdf
 │   │       │   ├── CuartoEjConv2015 25-28.99 (1)(2).pdf
@@ -293,8 +254,7 @@ Pack3 casos practicos.zip
 │   │       │   ├── CuartoEjConv2015 25-28.99 (7).rar
 │   │       │   ├── CuartoEjConv2015 25-28.99 (8).rar
 │   │       │   ├── desktop(1).ini
-│   │       │   ├── desktop(2).ini
-│   │       │   └── desktop.ini
+│   │       │   └── desktop(2).ini
 │   │       ├── Nota 29-32.99
 │   │       │   ├── CuartoEjConv2015 29-32.99 (1)(1).pdf
 │   │       │   ├── CuartoEjConv2015 29-32.99 (1)(2).pdf
@@ -311,8 +271,7 @@ Pack3 casos practicos.zip
 │   │       │   ├── CuartoEjConv2015 29-32.99 (7).rar
 │   │       │   ├── CuartoEjConv2015 29-32.99 (8).rar
 │   │       │   ├── desktop(1).ini
-│   │       │   ├── desktop(2).ini
-│   │       │   └── desktop.ini
+│   │       │   └── desktop(2).ini
 │   │       └── Nota 33-50
 │   │           ├── CuartoEjConv2015 33-50 (10).rar
 │   │           ├── CuartoEjConv2015 33-50 (1).pdf
@@ -323,8 +282,7 @@ Pack3 casos practicos.zip
 │   │           ├── CuartoEjConv2015 33-50 (7).rar
 │   │           ├── CuartoEjConv2015 33-50 (8).rar
 │   │           ├── CuartoEjConv2015 33-50 (9).pdf
-│   │           ├── CuartoEjConv2015 33-50 (9).rar
-│   │           └── desktop.ini
+│   │           └── CuartoEjConv2015 33-50 (9).rar
 │   ├── Volcados conv2016 Preparatic XXV
 │   │   ├── 25-34
 │   │   │   ├── volcado10_original.pdf

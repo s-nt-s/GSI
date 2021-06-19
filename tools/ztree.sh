@@ -30,6 +30,7 @@ for ZP in "$@";do
       touch "$FL"
     fi
   done
+  find . -type f -name desktop.ini -delete
   find . -type d -empty -delete
   if [ $(ls -A . | wc -l) -eq 1 ]; then
     cd *
