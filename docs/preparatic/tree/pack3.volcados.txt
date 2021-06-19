@@ -422,4 +422,3 @@ Pack3 casos practicos.zip
     │   ├── Volcado 5 revisado.pdf
     │   └── Volcado 6 sin revisar.pdf
     └── ClasificacionVolcados.xlsx
-
