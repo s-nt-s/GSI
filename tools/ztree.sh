@@ -13,16 +13,16 @@ function lszip() {
 
 for ZP in "$@";do
   if [ -z "$ZP" ] || [ ! -f "$ZP" ]; then
-    echo "Ha de pasar un fichero zip como parámetro"
+    echo "Ha de pasar un fichero zip/7z como parámetro" >> /dev/stderr
     exit 1
   fi
   if [[ $ZP != *.zip ]] && [[ $ZP != *.7z ]]; then
-    echo "Ha de pasar un fichero zip como parámetro"
+    echo "$ZP no es un tipo de fichero admitido" >> /dev/stderr
     exit 1
   fi
 
   ZP=$(realpath "$ZP")
-  cd $(mktemp -d)
+  pushd $(mktemp -d) > /dev/null
   lszip "$ZP" | while IFS= read FL; do
     if [[ $FL == */ ]]; then
       mkdir -p "$FL"
@@ -36,4 +36,5 @@ for ZP in "$@";do
   fi
   echo $(basename "$ZP")
   tree  | head -n-1
+  popd > /dev/null
 done
