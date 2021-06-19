@@ -28,6 +28,7 @@ Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](http
   * Bloque 4: [HTML](gsitic.wordpress.com/bloque_4), [PDF](gsitic.wordpress.com/bloque_4.pdf), [EPUB](gsitic.wordpress.com/bloque_4.epub)
 * Listado de [exámenes de años anteriores](examenes)
 * Acceso rápido al curso [FSAP20000600000](FSAP20000600000)
+* [Correlación de materiales preparatic27 con el temario de acceso interno](preparatic)
 
 <hr/>
 <hr/>
