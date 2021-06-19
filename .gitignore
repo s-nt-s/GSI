@@ -1,5 +1,6 @@
 config/inap.yml
 notas.txt
+runtree.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

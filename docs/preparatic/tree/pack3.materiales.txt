@@ -1,0 +1,538 @@
+Pack3_Material.zip
+.
+├── 01 - Aspectos Generales
+│   ├── Defensa cuarto examen Julio2019.pdf
+│   ├── Planteamiento cuarto examen Julio2019.pdf
+│   └── Presentacion Sesion4 Preparatic26.pdf
+├── 02.- Arquitectura Lógica
+│   ├── 01.- Diagramas
+│   │   ├── Aspectos sobre las Guías.pdf
+│   │   ├── Diagrama de Casos de uso.pdf
+│   │   ├── Diagrama de Clases.pdf
+│   │   ├── Diagrama de Colaboración.pdf
+│   │   ├── Diagrama de Componentes.pdf
+│   │   ├── Diagrama de Despliegue 2.pdf
+│   │   ├── Diagrama de Despliegue.pdf
+│   │   ├── Diagrama de Estructura de Datos.pdf
+│   │   ├── Diagrama de Flujo de Datos.pdf
+│   │   ├── Diagrama de Paquetes.pdf
+│   │   ├── Diagrama de Secuencia.pdf
+│   │   ├── Diagrama de Transición de Estados.pdf
+│   │   ├── Diagrama Entidad-Relación.pdf
+│   │   └── Material adicional
+│   │       ├── Examenes Ingenieria del Software IS.pdf
+│   │       └── Métrica-Técnicas y Prácticas.pdf
+│   ├── 02.- Actores Interfaces
+│   │   └── Guía para identificar actores.pdf
+│   ├── 03.- Integrar componentes
+│   │   ├── Integración de componentes Mayo2017.pdf
+│   │   └── Preparatic27 Integración de componentes.pdf
+│   ├── 04.- Plataformas
+│   │   ├── Angular-junio2018.pdf
+│   │   └── Preparatic27 Plataformas Habituales.pdf
+│   ├── 05.- Módulo sw
+│   │   ├── 0.Modulos SW habituales Mayo2017.pdf
+│   │   ├── 1.Gestores de contenidos Mayo2017.pdf
+│   │   ├── 2.Gestores de portales Mayo2017.pdf
+│   │   ├── 3.Gestores documentales Mayo2017.pdf
+│   │   ├── 4.Sistemas workflow mayo 2017.pdf
+│   │   ├── 5.Herramientas BI.pdf
+│   │   ├── 6.Herramientas ESB.pdf
+│   │   ├── 7.Herramientas varias.pdf
+│   │   └── Material adicional
+│   │       ├── DataIntegrationTools2018.PNG
+│   │       ├── Diseño implantacion gestor documental.pdf
+│   │       ├── EnterpriseIntegrationPlatformAaS2018.PNG
+│   │       ├── EntrepiseContentMagGartner2018.png
+│   │       ├── Gestion_Accesibilidad_en_Gestores_de_Contenido_v3_0.pdf
+│   │       ├── Guia_de_Adaptacion_a_WCAG_2_1_v1_0.pdf
+│   │       ├── Guia_rapida_WCAG2_1.pdf
+│   │       ├── PFC_GestorContenidos.pdf
+│   │       ├── UNE-EN_301549_2019-OAW.pdf
+│   │       └── WebContentMgGartner2018.jpg
+│   └── 06.- Microservicios
+│       ├── Material Sesión Preparatic 27 Youtube
+│       │   ├── 6ª sesión PreparaTIC27 — 🌍 MICROSERVICIOS - YouTube.URL
+│       │   └── PTIC27-S06-20210123_Aplicaciones basadas en microservicios_v1.0.pdf
+│       └── Preparatic27 Microservicios.pdf
+├── 03.- Arquitectura Física
+│   ├── 01.- Arquitectura de sistemas
+│   │   ├── ArquitecturaJulio2019.pdf
+│   │   ├── Arquitectura Mayo 2017.pdf
+│   │   └── Preparatic27_Arquitectura_Sistemas_Marzo2021.pdf
+│   ├── 02.- Diseño de red
+│   │   ├── DISEÑO_DE_RED Mayo 2017.pdf
+│   │   ├── Material adicional
+│   │   │   ├── desktop.ini
+│   │   │   ├── Plan Direccionamiento Interconexion Redes Abril2016.pdf
+│   │   │   └── PreparaTIC26_20190713_Servicio NubeSARA.pdf
+│   │   └── RED.pdf
+│   └── 03.- Dimensionamiento
+│       └── Consejos sobre dimensionamiento.pdf
+├── 04.- Transversal
+│   ├── 01.- Servicios Comunes y Compartidos
+│   │   ├── Aplicaciones reutilizables Mayo2018.pdf
+│   │   ├── Material adicional
+│   │   │   ├── 20151002-Declaracion-servicios-compartidos.pdf
+│   │   │   ├── Catalogo-servicios-administracion-digital-version-2018.pdf
+│   │   │   ├── Catalogo Servicios de Verificacion y consulta de Datos SCSP.pdf
+│   │   │   ├── Manuales servicios comunes y compartidos
+│   │   │   │   ├── ACCEDA
+│   │   │   │   │   ├── ACCEDA FAQ V 0-1.pdf
+│   │   │   │   │   └── Presentacion ACCEDA.pdf
+│   │   │   │   ├── APODERA (REA-AGE)
+│   │   │   │   │   ├── APODERA -REA-AGE- v1.pdf
+│   │   │   │   │   └── FAQ-REA-Apodera.pdf
+│   │   │   │   ├── ARCHIVE
+│   │   │   │   │   └── ARCHIVE-presentacion ejecutiva.pptx
+│   │   │   │   ├── ARCHIVO ELECTRαNICO
+│   │   │   │   │   └── 2017-12_nota_tecnica_OBSAE_Archivo_electronico.pdf
+│   │   │   │   ├── AUTENTICA
+│   │   │   │   │   ├── 2018-02-nota-tecnica-AUTENTICA.pdf
+│   │   │   │   │   └── AutenticA-CNIS2018vf.pptx
+│   │   │   │   ├── CL@VE
+│   │   │   │   │   ├── Clave-Niveles de Seguridad-v2-0.pdf
+│   │   │   │   │   └── Cl-ve Identificacion.pdf
+│   │   │   │   ├── DIR3
+│   │   │   │   │   ├── DIR3-EST-11003-documento-vision-v4-0.pdf
+│   │   │   │   │   └── DIR3-EST-13124-presentacion-ejecutiva .pdf
+│   │   │   │   ├── DIRe
+│   │   │   │   │   ├── DIRe CT FaceB2B Nov-17.pptx
+│   │   │   │   │   └── DIRe - FAQs .pdf
+│   │   │   │   ├── EGEO
+│   │   │   │   │   ├── 2016-04-nota-tecnica-OBSAE-EGEO-Georeferenciacion.pdf
+│   │   │   │   │   ├── EGEO-Presentacion-v3 nov2016.pdf
+│   │   │   │   │   ├── Folleto-EGEO.PDF
+│   │   │   │   │   └── -Que es EGEO-.pdf
+│   │   │   │   ├── FIRe
+│   │   │   │   │   └── FIRe.pdf
+│   │   │   │   ├── GEISER
+│   │   │   │   │   ├── GEISER guía funcional sept2015.pdf
+│   │   │   │   │   └── GEISER_Presentacion Ejecutiva.ppsx
+│   │   │   │   ├── HABILITA
+│   │   │   │   │   └── Presentacion HABILITA-abril-2018.pptx
+│   │   │   │   ├── INSIDE
+│   │   │   │   │   └── INSIDE-presentacion ejecutiva.pdf
+│   │   │   │   ├── NOTIFICA
+│   │   │   │   │   └── Notifica.pdf
+│   │   │   │   ├── ORVE
+│   │   │   │   │   └── ORVE-difusion.ppsx
+│   │   │   │   ├── PLATA
+│   │   │   │   │   └── QueEsPLATA-v2-2.pptx
+│   │   │   │   ├── PORTAFIRMAS
+│   │   │   │   │   └── Portafirmas-AGE.pptx
+│   │   │   │   ├── REPRESENTA
+│   │   │   │   │   └── REPRESENTA-presentacion-ejecutiva-v2-4 .pdf
+│   │   │   │   ├── SERVICIO UNIFICADO TELECOMUNICACIONES
+│   │   │   │   │   └── 2016-01-nota-tecnica-OBSAE-comunicaciones.pdf
+│   │   │   │   ├── SIA
+│   │   │   │   │   └── SIA.pdf
+│   │   │   │   ├── SIM
+│   │   │   │   │   └── SIM-Plataforma de mensajeria.pptx
+│   │   │   │   └── SIR
+│   │   │   │       ├── Guia Funcional para las Oficinas de Registros SIR.pdf
+│   │   │   │       └── Presentacion Plataforma SIR.ppsx
+│   │   │   ├── Soluciones-SGAD-2018.ods
+│   │   │   └── Soluciones-SGAD-2018.xlsx
+│   │   ├── Preparatic27_Guia_aplicacion_Servicios_Red_SARA.pdf
+│   │   └── Servicios Compartidos_2016.pdf
+│   ├── 02.- Movilidad
+│   │   ├── BYOD Mayo2017.pdf
+│   │   ├── Desarrollo aplicaciones híbridas.pdf
+│   │   ├── Desarrollo aplicaciones nativas Mayo2017.pdf
+│   │   ├── Desarrollo aplicaciones web.pdf
+│   │   ├── Material adicional
+│   │   │   ├── 201301_BYOD_aslan_v2 0.pdf
+│   │   │   ├── 2013_0304-articulo-byod-para-boletic-fc3a9lix-serrano-final.pdf
+│   │   │   ├── 20130429_aplicaciones_hibridas.pdf
+│   │   │   ├── 457-Gestion_dispositivos_moviles_MDM-nov13.pdf
+│   │   │   ├── 827-Gestion_dispositivos_moviles_ENS-mar14.pdf
+│   │   │   ├── Agile_doc_TemasAnv.pdf
+│   │   │   ├── Desarrolloaplicaciones.pdf
+│   │   │   ├── Desarrollo_de_aplicaciones_móviles.pdf
+│   │   │   ├── jugarridocoTFC0113memoria.pdf
+│   │   │   └── Preparatic27 PAe - Aplicación móvil _Cliente @firma móvil_.pdf
+│   │   ├── Preparatic27 Real Decreto Ley 292020.pdf
+│   │   └── Teletrabajo.pdf
+│   ├── 03.- Identificación y Autenticación
+│   │   ├── Autenticacion_Identificacion Mayo2017.pdf
+│   │   ├── Identificación y firma Nacho Alamillo.pdf
+│   │   ├── Ley 6_2020 de servicios de confianza.pdf
+│   │   ├── Material adicional
+│   │   │   ├── 405-algoritmos_y_parametros_de_firma_electronica-feb12.pdf
+│   │   │   ├── Cambios asociados al reglamento eiDAS.pdf
+│   │   │   ├── Clave Identificacion-abril-2018.pdf
+│   │   │   ├── desktop.ini
+│   │   │   ├── Documento de integracion para SP 1-1-.pdf
+│   │   │   ├── PAe - Nodo eIDAS.pdf
+│   │   │   └── Perfiles_de_certificados AGE.pdf
+│   │   ├── PAe - CL@VE_ nodo eidas sustituye a STORK.pdf
+│   │   ├── Preparatic27 NOVEDADES IDENTIFICACIαN Y AUTENTICACIαN.pdf
+│   │   └── Resolución firma electrónica no criptográfica.pdf
+│   ├── 04.- Redes Sociales
+│   │   ├── Gestión de RRSS en las AAPP-act2018.pdf
+│   │   └── Material adicional
+│   │       ├── Casos de éxito de RRSS en las AAPP.pdf
+│   │       ├── GUIA COMUNICACION EN REDES SOCIALES V3def.pdf
+│   │       ├── Guia-de-Comuincacion-Digital_2014-06-26_.pdf
+│   │       ├── Guía Redes Sociales para Ayuntamientos.pdf
+│   │       ├── Implantación de un Social Media Plan en la AP.pdf
+│   │       └── Plan Social Media del INAP.pdf
+│   ├── 05.- Cloud computing
+│   │   ├── Material adicional
+│   │   │   ├── 823-Cloud_Computing_ENS.pdf
+│   │   │   ├── CISPE-Buying-Cloud-Services-ES.pdf
+│   │   │   ├── CONVENIO NUBE PN FIRMADO.pdf
+│   │   │   ├── FAQ-CloudComputing.pdf
+│   │   │   ├── Guia_acerca_del_Escudo_de_Privacidad.pdf
+│   │   │   ├── guia-cloud-clientes-2018.pdf
+│   │   │   ├── PAe - Soluciones en Cloud.pdf
+│   │   │   └── wellarchitected-security-pillar.pdf
+│   │   └── Preparatic27 Cloud Computing.pdf
+│   └── 06.- Estructuras Orgánicas Ministeriales Feb 2020
+│       └── BOE-A-2020-410-consolidado.pdf
+├── 05.- Aplicar Legislación
+│   ├── 01.- eAdministración
+│   │   ├── Actualizacion de la ley 39 por la LOPDGDD-Julio2019.pdf
+│   │   ├── Artículos principales Leyes39-40 y solucion TIC.pdf
+│   │   ├── DiccionarioAE.pdf
+│   │   ├── Leyes 39 y 40 2015.pdf
+│   │   ├── Material adicional
+│   │   │   ├── BOE-029_Codigo_de_Administracion_Electronica-5-7-2019.pdf
+│   │   │   ├── desktop.ini
+│   │   │   └── Nota-tecnica-gobernanza-04-2018.pdf
+│   │   └── Material Sesión Preparatic27 - SERVICIOS COMUNES
+│   │       ├── 9ª sesión PreparaTIC27 — SERVICIOS COMUNES + IDENTIFICACION y FIRMA - YouTube.URL
+│   │       ├── Identificación y firma 2021-03-06.pdf
+│   │       └── SERVICIOS COMUNES -- 2021-03-06-Jornada PREPARATIC-r1.pdf
+│   ├── 02.- ENS y Ciberseguridad
+│   │   ├── Apuntes Ciberseguridad Julio2019.pdf
+│   │   ├── Guía aplicación ENS Julio2019.pdf
+│   │   ├── Material adicional
+│   │   │   ├── Ciberseguridad
+│   │   │   │   ├── 2016-01_nota_tecnica_servicio_unificado_telecomunicaciones.pdf
+│   │   │   │   ├── 2018-01_nota_tecnica_SOC.pdf
+│   │   │   │   ├── CCN-CERT_IA1319 Informe Amenazas y Tendencias Resumen Ejecutivo.pdf
+│   │   │   │   ├── decalogodeciberseguridad-vweb.pdf
+│   │   │   │   └── SIC128-SOC-AGE.pdf
+│   │   │   └── ENS
+│   │   │       ├── 801_ENS-responsabilidades-marzo 2019.pdf
+│   │   │       ├── 802-Auditoria_ENS-abr17.pdf
+│   │   │       ├── 802-Auditoria_ENS-jun10.pdf
+│   │   │       ├── 803_ENS-valoracion_ene-11.pdf
+│   │   │       ├── 803_ENS-valoracion_mayo_2020.pdf
+│   │   │       ├── 804_medidas_de_implantacion_del_ens-jun-17.pdf
+│   │   │       ├── 804_medidas_de_implantacion_del_ens.pdf
+│   │   │       ├── 805-ENS_politica-sep11.pdf
+│   │   │       ├── 806_ENS-adecuacion_junio_2020.pdf
+│   │   │       ├── 807-Criptologia_de_empleo_ENS-abr15.pdf
+│   │   │       ├── 807-Criptologia_de_empleo_ENS-abr17.pdf
+│   │   │       ├── 808-Verificacion_del_cumplimiento_medidas_ENS-jun-2017.pdf
+│   │   │       ├── 808-Verificacion_del_cumplimiento_medidas_ENS-sep11.pdf
+│   │   │       ├── 809 Declaración y Certificación Conformidad ENS-junio 2019.pdf
+│   │   │       ├── 811-Interconexion_en_el_ENS-nov12.pdf
+│   │   │       ├── 811-Interconexion_en_el_ENS-oct-17.pdf
+│   │   │       ├── 812-Entornos_y_aplicaciones_web-oct11.pdf
+│   │   │       ├── 813-Componentes_Certificados_en_el_ENS-feb12 - CommonCriteria.pdf
+│   │   │       ├── 815_Metricas_e_indicadores_en_el_ENS-feb14.pdf
+│   │   │       ├── 815_Metricas_e_indicadores_en_el_ENS-mar14.pdf
+│   │   │       ├── 821 Guía CCN-STIC ENS Normas de Seguridad.pdf
+│   │   │       ├── CCN-CERT_BP_14_Declaración de Aplicacibilidad ENS-junio2019.pdf
+│   │   │       ├── CCN-STIC-105-Catalogo de productos.pdf
+│   │   │       ├── CCN-STIC-105 Catálogo Productos STIC.pdf
+│   │   │       ├── CCN-STIC-140_Taxonomia_de_referencia_productos_seguridad_tic.pdf
+│   │   │       ├── CCN-STIC-812-Seguridad en Aplicaciones y Servicios Web.pdf
+│   │   │       ├── CCN-STIC-817_Gestion_de_Ciberincidentes_ENS-junio 2018.pdf
+│   │   │       ├── CCN-STIC 819 Medidas Compensatorias-Octubre 2018.pdf
+│   │   │       ├── CCN-STIC-820-Denegación de servicio.pdf
+│   │   │       ├── CCN-STIC-824_ENS-informe INES-octubre 2018.pdf
+│   │   │       ├── CCN-STIC 882_Guía de Análisis de Riesgos para Entidades Locales-junio 2019.pdf
+│   │   │       ├── ENS_consolidado.pdf
+│   │   │       ├── ENS_faqs-julio2019.pdf
+│   │   │       ├── ENS_faqs nov2012.pdf
+│   │   │       ├── ENS_Progreso_de_la_implantacion-Instrucciones.pdf
+│   │   │       ├── Indice de Series.pdf
+│   │   │       ├── ITS Auditoría Seguridad SI.pdf
+│   │   │       ├── ITS Conformidad ENS.pdf
+│   │   │       ├── ITS Informe Estado Seguridad.pdf
+│   │   │       ├── ITS Notificación Incidentes Seguridad.pdf
+│   │   │       └── Resumen Medidas ENS.xlsx
+│   │   ├── Material Sesión Preparatic27 Youtube
+│   │   │   ├── 8ª sesión PreparaTIC27 — 🐱‍🏍CIBERSEGURIDAD y CICLO VIDA SOFTWARE - YouTube.URL
+│   │   │   └── Sesión 08 - Ciberseguridad_Novedades_20feb2021.pdf
+│   │   ├── Preparatic27 Resumen_aplicacion_ENS.pdf
+│   │   └── SOC-AGE-Junio2018.pdf
+│   ├── 03.- ENI
+│   │   ├── Apuntes ENI Julio2019.pdf
+│   │   ├── ENI-Aspectos relevantes Mayo2017.pdf
+│   │   ├── Material adicional
+│   │   │   ├── 20130517_ENI_Ejemplo_eEMGDE_2.pdf
+│   │   │   ├── 2018_ENI_Preguntas_frecuentes.pdf
+│   │   │   ├── eEMC - Esquema de Metadatos Comunes-v1-0.pdf
+│   │   │   ├── Esquema_Metadatos_e-EMGDE_2016.pdf
+│   │   │   ├── FAQ-REA-Apodera.pdf
+│   │   │   ├── FAQs LEY 39-2015 LEY 40-2015-v2017.pdf
+│   │   │   ├── Guia_adecuacion_al_ENI.pdf
+│   │   │   ├── Guia_auditoria_ENI_PDF_1ed_2016.pdf
+│   │   │   ├── Guia_NTI_politica_firma_electr_PDF_2ed_2017.pdf
+│   │   │   ├── NTI Catálogo de Estándares_Guia.pdf
+│   │   │   ├── NTI Catálogo de Estándares.pdf
+│   │   │   ├── NTI Copiado Auténtico_Guia Ed2016.pdf
+│   │   │   ├── NTI Copiado Auténtico.pdf
+│   │   │   ├── NTI Digitalización_Guia Ed2016.pdf
+│   │   │   ├── NTI Digitalización.pdf
+│   │   │   ├── NTI Documento Electrónico_Guia Ed2016.pdf
+│   │   │   ├── NTI Documento Electrónico.pdf
+│   │   │   ├── NTI Expediente Electrónico_Guia Ed2016.pdf
+│   │   │   ├── NTI Expediente Electrónico.pdf
+│   │   │   ├── NTI Modelo Datos Intercambio_Argumentario ORVESIR.pdf
+│   │   │   ├── NTI Modelo Datos Intercambio_Guia.pdf
+│   │   │   ├── NTI Modelo Datos Intercambio.pdf
+│   │   │   ├── NTI Modelo Datos Intercambio_RecomendacionesORVE.pdf
+│   │   │   ├── NTI Modelos de Datos_Guia.pdf
+│   │   │   ├── NTI Modelos de Datos.pdf
+│   │   │   ├── NTI Política de Firma oct2016.pdf
+│   │   │   ├── NTI Política Gestión Documentos_Guia Ed2016.pdf
+│   │   │   ├── NTI Política Gestión Documentos_Modelo EELL Ed2016.pdf
+│   │   │   ├── NTI Política Gestión Documentos_Modelo.pdf
+│   │   │   ├── NTI Política Gestión Documentos.pdf
+│   │   │   ├── NTI Protocolos de Intermediación- Catalogo Servicios -SCSP.pdf
+│   │   │   ├── NTI Protocolos de Intermediación.pdf
+│   │   │   ├── NTI Requisitos Conexión_Guia.pdf
+│   │   │   ├── NTI Requisitos conexión.pdf
+│   │   │   ├── NTI Requisitos conexión_PlanDireccionamiento.pdf
+│   │   │   ├── NTI Reutilización_CatalogacionDatosAbiertos.pdf
+│   │   │   ├── NTI Reutilización_Guia Ed2016.pdf
+│   │   │   ├── NTI Reutilización informe-herramientas-publicacion.pdf
+│   │   │   ├── NTI Reutilización.pdf
+│   │   │   ├── Reutilizacion CTT ENI_Guia_reutilizacion_activos_v1-0.pdf
+│   │   │   └── Reutilizacion CTT Guia_prestacion_aplicaciones_modo_servicio_PDF_2016.pdf
+│   │   ├── NTI Copiado auténtico Mayo2017.pdf
+│   │   ├── NTI Digitalización de documentos.pdf
+│   │   ├── NTI Documento electrónico Mayo2017.pdf
+│   │   ├── NTI Expediente Electrónico Mayo2017.pdf
+│   │   ├── NTI Relación de modelos de datos.pdf
+│   │   ├── NTI Requisitos de conexión.pdf
+│   │   └── NTI Reutilización.pdf
+│   ├── 04.- Proteccion de datos
+│   │   ├── Material adicional
+│   │   │   ├── Diptico_CLOUD_AEPD.pdf
+│   │   │   ├── GUIA_SEGURIDAD_2010.pdf
+│   │   │   ├── LO-3-2018-LOPDGDD-BOE-A-2018-16673-consolidado.pdf
+│   │   │   ├── Novedades LOPD ciudadanos.pdf
+│   │   │   ├── Novedades LOPD sector privado.pdf
+│   │   │   ├── Novedades LOPD sector público.pdf
+│   │   │   ├── Privacidad en Redes Sociales.pdf
+│   │   │   ├── Reglamento UE Protección de Datos.pdf
+│   │   │   ├── RGPD - AEPD - Adaptacion_RGPD_AAPP.pdf
+│   │   │   ├── RGPD - AEPD - Adaptacion_RGPD_sector_privado.pdf
+│   │   │   ├── RGPD - AEPD - AnalisisDeRiesgosRGPD.pdf
+│   │   │   ├── RGPD - AEPD - clausulas-contratos-encargado-tratamiento.pdf
+│   │   │   ├── RGPD - AEPD - Derechos_ciudadanos.pdf
+│   │   │   ├── RGPD - AEPD - Directrices contratos.pdf
+│   │   │   ├── RGPD - AEPD - Funciones_DPD_en_AAPP.pdf
+│   │   │   ├── RGPD - AEPD - guia-brechas-seguridad.pdf
+│   │   │   ├── RGPD - AEPD - Guia_EvaluacionesImpacto.pdf
+│   │   │   ├── RGPD - AEPD - guia-listado-de-cumplimiento-del-rgpd.pdf
+│   │   │   ├── RGPD - AEPD - Guia_rgpd.pdf
+│   │   │   ├── RGPD - AEPD - Impacto_RGPD_en_AALL.pdf
+│   │   │   ├── RGPD - AEPD - Impacto_RGPD_en_AAPP.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - 01.Andres_Calvo.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - 02.Rafael_Garcia_Gozalo.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - 03.Pedro_Colmenares.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - 06.Preguntas_conjuntas_ponentes.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - 20171013_wp250_enpdf.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - 20171025_wp251_enpdf.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - ESQUEMA_AEPD_DPD.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - JPH_-_CODIGOS_CONDUCTA_-_CERTIFICACIONES_-_TRANSFERENCIAS_INTERNACIONALES_8SAA.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - JRN_-_SUPERVISION_Y_REGIMEN_SANCIONADOR_8SAA.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - PRINCIPIOS_Y_DERECHOS_8SAA.pdf
+│   │   │   ├── RGPD - AEPD - Jornadas - RGG_-_OBLIGACIONES_DE_RESPONSABLES_Y_ENCARGADOS_8SAA.pdf
+│   │   │   ├── RGPD - AEPD - Modelo clausula informativa.pdf
+│   │   │   ├── RGPD - AEPD - Orientaciones_y_garantias_Anonimizacion.pdf
+│   │   │   ├── RGPD-AEPD-Registro_de_Actividades.pdf
+│   │   │   ├── RGPD - AEPD - UE - wp242rev01_annex_es.pdf
+│   │   │   ├── RGPD - AEPD - UE - wp242rev01_es.pdf
+│   │   │   ├── RGPD - AEPD - UE - wp243_annex_en_40856.pdf
+│   │   │   ├── RGPD - AEPD - UE - wp243rev01_es.pdf
+│   │   │   ├── RGPD - AEPD - UE - wp244rev01_annex_es.pdf
+│   │   │   ├── RGPD - AEPD - UE - wp244rev01_es.pdf
+│   │   │   └── RGPD - AEPD - UE - wp248_rev.01_es.pdf
+│   │   └── Protección de datos -Julio2019.pdf
+│   └── 05.- Transparencia y RISP
+│       ├── Apuntes RISP-Julio2019.pdf
+│       ├── Ley de Transparencia  Mayo2017.pdf
+│       └── Material Adicional
+│           ├── 100 Preguntas_sobre_Transparencia.pdf
+│           ├── 2019-06-Nota-tecnica-OBSAE-nueva-directiva-RISP.pdf
+│           ├── AEMET_Plan_RISP.pdf
+│           ├── GU╓A RISP datos-gob-es.pdf
+│           ├── Guía de derecho de acceso .pdf
+│           ├── L00056-00079-Directiva-UE-2019-1024-RISP.pdf
+│           ├── Orientaciones_proteccion_datos_Reutilizacion.pdf
+│           └── unidad_imprimible herramientas-curso RISP Aporta.pdf
+├── 06.- Gestión de Proyectos
+│   ├── 01.- Metodologías y Ciclos de Vida
+│   │   ├── Guía aplicación MCV Metodologías Mayo2017.pdf
+│   │   └── Scrum y kanban Mayo2017.pdf
+│   ├── 02.- Estimación y Planificación
+│   │   ├── EjemploPracticoEstimaciónPuntosFunción-Jun2018.pdf
+│   │   ├── Planificación_2016.pdf
+│   │   └── Preparatic27_Estimacion_de_esfuerzo_Marzo2021.pdf
+│   ├── 03.- Presupuestación y Contratación
+│   │   ├── Material Adicional
+│   │   │   ├── Buenas prácticas cesión ilegal trabajadores.pdf
+│   │   │   ├── Cuadro-por-procedimientos-e-importes-enero-2021.pdf
+│   │   │   ├── Documento licitacion tipo AM 26-2015.doc
+│   │   │   ├── INSTRUCCIONES PARA LICITACIONES AM 26-2015.pdf
+│   │   │   ├── Ley 9-2017-ContratosSP.pdf
+│   │   │   ├── Orden EHA-1049-2008 de declaración de bienes y servicios de contratacion centralizada.pdf
+│   │   │   ├── Orden HAC-1272-2019 nuevos umbrales contratos SARA.pdf
+│   │   │   └── Real Decreto-ley 36-2020 medidas urgentes para la modernización de la AP y para la ejecución del PRTyR.pdf
+│   │   ├── PreparaTIC27. Contratación pública. Marzo 2021.pdf
+│   │   └── Presupuestación Mayo2017.pdf
+│   └── 04.-Calidad del Proyecto
+│       ├── Calidad del Proyecto_2016.pdf
+│       ├── CalidadScrum-Mayo2018.pdf
+│       └── Material Adicional
+│           └── Interfaz Calidad Métrica.pdf
+├── 07.- Otras Preguntas
+│   ├── 01.- Plan de sistemas
+│   │   ├── Material Adicional
+│   │   │   ├── 20151002-Plan-transformacion-digital-age-oopp.pdf
+│   │   │   └── PSI Métrica v3.pdf
+│   │   └── Plan de Sistemas_2016.pdf
+│   ├── 02.- Plan de Implantación
+│   │   ├── Material Adicional
+│   │   │   └── METRICA_V3_Implantacion_y_Aceptacion_del_Sistema-2.pdf
+│   │   └── Plan de Implantación_2016.pdf
+│   ├── 03.- Plan de Seguridad
+│   │   ├── Material Adicional
+│   │   │   ├── ControlesISO27002-2013.pdf
+│   │   │   └── Seguridad de la Información.pdf
+│   │   └── Plan de Seguridad_2016.pdf
+│   ├── 04.- Soporte CAU
+│   │   ├── Material Adicional
+│   │   │   └── Ejemplo Pliego CAU.PDF
+│   │   └── Soporte CAU_2016.pdf
+│   ├── 05.- Informes para el Ministro
+│   │   └── Informes para el Ministro_2016.pdf
+│   ├── 06.- Plan de Formación
+│   │   └── Plan de formación_2016.pdf
+│   ├── 07.- Análisis de Riesgos
+│   │   ├── Análisis de riesgos_2016.pdf
+│   │   ├── Ejemplo
+│   │   │   └── MAGERIT_-_Analisis_de_riesgos_en_la_AEMET.pdf
+│   │   └── Material Adicional
+│   │       ├── Libro-II-Catalogo-de-Elementos.pdf
+│   │       ├── Libro-III-Guia-de-Tecnicas.pdf
+│   │       └── Libro-I-Metodo.pdf
+│   ├── 08.- Análisis DAFO
+│   │   ├── Análisis DAFO_2016.pdf
+│   │   └── Material Sesión Preparatic27 DAFOs y CUADROS MANDO
+│   │       ├── 5ª sesión PreparaTIC27 — DAFO y Cuadros de Mando - YouTube.URL
+│   │       └── Preparatic27_Sesión5_parte2_DAFO y CUADROS MANDO.pdf
+│   ├── 09.- Factores Críticos de Éxito
+│   │   └── Factores críticos de éxito_2016.pdf
+│   ├── 10.- Plan de Auditoría
+│   │   ├── Material Adicional
+│   │   │   ├── 802-Auditoria_ENS-jun10.pdf
+│   │   │   ├── auditoria_informatica.pdf
+│   │   │   ├── Controles Auditoría ENS CCN-STIC 808.pdf
+│   │   │   └── ITS_AuditoriaSeguridad.pdf
+│   │   └── Plan de Auditoría_2016.pdf
+│   ├── 11.- Plan de Mantenimiento
+│   │   ├── Material Adicional
+│   │   │   └── METRICA_V3_Mantenimiento_de_Sistemas_de_Informacion-3.pdf
+│   │   └── Plan de Mantenimiento_2016.pdf
+│   ├── 12.- Indicadores y Cuadro de Mando
+│   │   ├── Ejemplos
+│   │   │   ├── Cuadro de Mando oficina atención ciudadana.pdf
+│   │   │   └── Cuadro Mando Ministerio.pdf
+│   │   ├── Indicadores y Cuadro de Mando Mayo2017.pdf
+│   │   └── Material Adicional
+│   │       ├── El modelo multidimensional.pdf
+│   │       └── Guia para Implantacion de Indicadores UNE66175.pdf
+│   ├── 13.- Carta Servicios-e
+│   │   ├── Carta de servicios-e mayo 2017.pdf
+│   │   ├── Ejemplos
+│   │   │   ├── Carta Servicios-e Guardia Civil Mayo2017.pdf
+│   │   │   └── Carta Servicios-e Tesoro Publico.pdf
+│   │   └── Material Adicional
+│   │       └── Guia AEVAL.pdf
+│   ├── 14.- Plan Recuperación Desastres
+│   │   ├── Material Adicional
+│   │   │   └── De la A a la Z_DRP.pdf
+│   │   └── Plan de Recuperación ante Desastres_2016.pdf
+│   ├── 15.- Comunicación y Difusión
+│   │   ├── Material Adicional
+│   │   │   └── Guia-de-Comuincacion-Digital_2014-06-26_.pdf
+│   │   └── Plan de comunicación y difusión_2016.pdf
+│   ├── 16.- Plan Gestión Configuración
+│   │   ├── Material Adicional
+│   │   │   ├── Interfaz GConfiguracion Metrica.pdf
+│   │   │   └── Transicion del servicio.pdf
+│   │   └── Plan de Gestión de la configuración_2016.pdf
+│   ├── 17.- Pliego P.Técnicas
+│   │   ├── Ejemplos
+│   │   │   ├── PPT1.pdf
+│   │   │   ├── PPT2.pdf
+│   │   │   ├── PPT3.pdf
+│   │   │   ├── PPT4.pdf
+│   │   │   ├── PPT5.pdf
+│   │   │   ├── Preparatic27_Instrucc SEAP-SEPG Gestión contrataciones servicios evitar CIT.pdf
+│   │   │   ├── Preparatic27_MITMA_Memoria_AWS.pdf
+│   │   │   ├── Preparatic27_MITMA_PCAP_AWS.pdf
+│   │   │   ├── Preparatic27_MITMA_PPT_AWS.pdf
+│   │   │   ├── Preparatic27_PCAP-AWS-Agricultura.pdf
+│   │   │   ├── Preparatic27_PPT AWS-Agricultura.pdf
+│   │   │   ├── Preparatic27_PPT_Servicios Administracion Sistemas y Aseguramiento Calidad.pdf
+│   │   │   ├── Preparatic27_PPT_Servicios Mantenimiento Aplicaciones.pdf
+│   │   │   ├── Preparatic27_PPT_Soporte Funcional Aplicaciones y Soporte Técnico Usuarios.pdf
+│   │   │   └── Preparatic27_PPT_Soporte Seguridad Informatica.pdf
+│   │   └── Pliego de P. Técnicas Mayo2017.pdf
+│   ├── 18.- Alternativas hw y sw
+│   │   └── Alternativas Hw Sw_2016.pdf
+│   ├── 19.- VoIP
+│   │   └── VoIP y ToIP Mayo2017.pdf
+│   ├── 20.- Estrategia TIC
+│   │   ├── material adicional
+│   │   │   └── Directrices_PADTD.pdf
+│   │   ├── Preparatic27 Agenda_Digital_2025.pdf
+│   │   ├── Preparatic27 Estrategia_Impulso_5G.pdf
+│   │   ├── Preparatic27 PlanCompetenciasDigitales.pdf
+│   │   ├── Preparatic27 PlanConectividad.pdf
+│   │   ├── Preparatic27 PlanDigitalizacionAdministraciones.pdf
+│   │   └── Preparatic27 PlanDigitalizacionPYME.pdf
+│   ├── 21.-Testing e integracion continua
+│   │   ├── Integración continua Mayo2017.pdf
+│   │   ├── material adicional
+│   │   │   ├── git_manual.pdf
+│   │   │   ├── jenkins_tutorial.pdf
+│   │   │   ├── JUnit. Manual de Usuario v2.0.pdf
+│   │   │   ├── maven_tutorial.pdf
+│   │   │   └── Selenium.pdf
+│   │   ├── material Sesión Preparatic27 Youtube
+│   │   │   ├── 8ª sesión PreparaTIC27 — CICLO VIDA SOFTWARE - YouTube.URL
+│   │   │   └── Sesion 08 - Cómo poner software de calidad en manos del usuario de forma rápida.pdf
+│   │   ├── Preparatic27_IntegraciónContinua_Marzo2021.pdf
+│   │   └── Testing Mayo2017.pdf
+│   ├── 22.- Buscadores y web semántica
+│   │   └── Buscadores y web semantica Mayo2017.pdf
+│   ├── 23.- Big Data, IA y Machine Learning
+│   │   ├── Big Data Mayo 2017.pdf
+│   │   ├── MachineLearning-Jun2018.pdf
+│   │   ├── material adicional
+│   │   │   ├── ENIA.pdf
+│   │   │   ├── ENIAResumen.pdf
+│   │   │   └── mono3_emilio_garcia.pdf
+│   │   ├── Material Sesion Preparatic27 Youtube
+│   │   │   ├── INTELIGENCIA ARTIFICIAL - Preparación 3er ejercicio.pdf
+│   │   │   └── Video Youtube - 7ª sesión PreparaTIC27 — 🤖INTELIGENCIA ARTIFICIAL -.URL
+│   │   └── Preparatic27 IA_ENIA.pdf
+│   ├── 24.-Licenciamiento Software
+│   │   ├── ENI_Guia_reutilizacion_activos_v1-0.pdf
+│   │   └── EUPL 1-2.txt
+│   └── desktop.ini
+└── Control de cambios Preparatic27.xlsx
+
