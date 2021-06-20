@@ -2,7 +2,8 @@
 title: Preparatic27
 ---
 <div class="alert">
-<a href="http://www.preparatic.org/">Preparatic27</a>
+<a href="http://www.preparatic.org/" target="_blank">Preparatic27</a> -
+<a href="https://boe.es/diario_boe/txt.php?id=BOE-A-2020-8872" target="_blank">BOE-A-2020-8872</a> - Anexo II
 </div>
 
 A la hora de utilizar los [pack de Preparatic27](http://www.preparatic.org/category/material_pack/)
