@@ -2,13 +2,18 @@
 
 function lszip() {
   if [[ $1 == *.zip ]]; then
-    unzip -O IBM437 -l "$1" | tail -n+4 | head -n-2 | \
+    unzip -O IBM860 -l "$1" | tail -n+4 | head -n-2 | \
     sed 's|^\s*[0-9][0-9]*\s\s*[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]\s\s*||'
   elif [[ $1 == *.7z ]]; then
     7z l -ba -slt "$1" | \
     awk '$1=="Path" && $2=="=" {fl=substr($0,8)} $1=="Attributes" && $2=="=" {if ($3=="D") {fl=fl "/"} print fl}' | \
     sort
   fi
+}
+function rnm() {
+  OLD="$1"
+  NEW="$2"
+  find . -name "*${OLD}*" -exec rename "s|${OLD}|${NEW}|g" "{}" \;
 }
 
 for ZP in "$@";do
@@ -30,6 +35,9 @@ for ZP in "$@";do
       touch "$FL"
     fi
   done
+  rnm "╜" "ó"
+  rnm "α" "Ó"
+  rnm "╡" "Á"
   find . -type f -name desktop.ini -delete
   find . -type d -empty -delete
   if [ $(ls -A . | wc -l) -eq 1 ]; then

@@ -16,7 +16,7 @@ para preparar la [oposición de acceso interno a GSI](../temario/interna) nos in
     * [Materiales](http://www.preparatic.org/2021/03/25/disponibles-los-materiales-del-pack3-preparatic27/): Apuntes para preparar el examen ([ver contenido](tree/pack3.materiales.txt))
     * [Volcados](http://www.preparatic.org/2021/01/24/disponible-volcados-pack3-de-preparatic27/): Exámenes solucionados ([ver contenido](tree/pack3.volcados.txt))
 
-# Correspondencia [Preparatic27](http://www.preparatic.org/category/material_pack/) [temario GSI interna](../temario/interna)
+# [Preparatic27](http://www.preparatic.org/category/material_pack/) <=> [Temario GSI interna](../temario/interna)
 
 * B1 T1:
     * Pack1 - 051 Agenda digital Mercado unico digital

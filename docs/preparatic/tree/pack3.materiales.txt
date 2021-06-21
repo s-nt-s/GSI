@@ -84,7 +84,7 @@ Pack3_Material.zip
 │   │   │   │   │   └── FAQ-REA-Apodera.pdf
 │   │   │   │   ├── ARCHIVE
 │   │   │   │   │   └── ARCHIVE-presentacion ejecutiva.pptx
-│   │   │   │   ├── ARCHIVO ELECTRαNICO
+│   │   │   │   ├── ARCHIVO ELECTRÓNICO
 │   │   │   │   │   └── 2017-12_nota_tecnica_OBSAE_Archivo_electronico.pdf
 │   │   │   │   ├── AUTENTICA
 │   │   │   │   │   ├── 2018-02-nota-tecnica-AUTENTICA.pdf
@@ -165,7 +165,7 @@ Pack3_Material.zip
 │   │   │   ├── PAe - Nodo eIDAS.pdf
 │   │   │   └── Perfiles_de_certificados AGE.pdf
 │   │   ├── PAe - CL@VE_ nodo eidas sustituye a STORK.pdf
-│   │   ├── Preparatic27 NOVEDADES IDENTIFICACIαN Y AUTENTICACIαN.pdf
+│   │   ├── Preparatic27 NOVEDADES IDENTIFICACIÓN Y AUTENTICACIÓN.pdf
 │   │   └── Resolución firma electrónica no criptográfica.pdf
 │   ├── 04.- Redes Sociales
 │   │   ├── Gestión de RRSS en las AAPP-act2018.pdf

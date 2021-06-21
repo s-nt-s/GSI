@@ -177,7 +177,7 @@ Pack_1_PreparaTIC27.zip
 │   │   └── PreparaTIC_27_011 - Resumen.pdf
 │   ├── Doc Adicional
 │   │   ├── Aclaraciones menor cuantía
-│   │   │   └── INSTRUCCIαN 1-2019 sobre CONTRATOS MENORES.pdf
+│   │   │   └── INSTRUCCIÓN 1-2019 sobre CONTRATOS MENORES.pdf
 │   │   ├── Antigua Ley de Contratos
 │   │   │   ├── RD 773_2015.pdf
 │   │   │   └── RDL 3_2011.pdf
@@ -208,8 +208,8 @@ Pack_1_PreparaTIC27.zip
 │   │   │       │   ├── Contratación VI.mm
 │   │   │       │   └── Contratación V.mm
 │   │   │       └── Esquema 2
-│   │   │           ├── Tema 10a CONTRATACIαN I.mm
-│   │   │           └── Tema 10b CONTRATACIαN I.mm
+│   │   │           ├── Tema 10a CONTRATACIÓN I.mm
+│   │   │           └── Tema 10b CONTRATACIÓN I.mm
 │   │   ├── Infografía facturación.jpg
 │   │   └── Nueva Ley (Ley 9_2017)
 │   │       ├── Infografía consultas preliminares del mercado.pdf
@@ -382,11 +382,11 @@ Pack_1_PreparaTIC27.zip
 │   │   └── objetivos_estrategias_y_actuaciones_gobierno_abierto.pdf
 │   ├── Esquemas
 │   │   ├── FREEMIND
-│   │   │   ├── GESTIαN PΘB (MANAGEMENT).mm
+│   │   │   ├── GESTIÓN PΘB (MANAGEMENT).mm
 │   │   │   ├── GOB ABIERTO.mm
 │   │   │   └── La gestión pública.mm
 │   │   └── PDF
-│   │       ├── GESTIαN PΘB (MANAGEMENT).pdf
+│   │       ├── GESTIÓN PΘB (MANAGEMENT).pdf
 │   │       ├── GOB ABIERTO.pdf
 │   │       └── La gestión pública.pdf
 │   └── PreparaTIC_27_023 - Cambios.txt
@@ -498,9 +498,9 @@ Pack_1_PreparaTIC27.zip
 │   │   └── PreparaTIC26_033 Resumen.pdf
 │   └── Esquemas
 │       ├── FREEMIND
-│       │   └── T29 HERRAMIENTAS DIRECCIαN TIC.mm
+│       │   └── T29 HERRAMIENTAS DIRECCIÓN TIC.mm
 │       └── PDF
-│           └── T29 HERRAMIENTAS DIRECCIαN TIC.pdf
+│           └── T29 HERRAMIENTAS DIRECCIÓN TIC.pdf
 ├── 034 Centro SI
 │   ├── Contenidos
 │   │   └── Preparatic26_034 Resumen Centro SI.pdf
@@ -661,7 +661,7 @@ Pack_1_PreparaTIC27.zip
 │   │   │   ├── Intermediacion de datos.mm
 │   │   │   ├── Modelos de datos.mm
 │   │   │   ├── NTIs.mm
-│   │   │   ├── Politica de firma electr╜nica.mm
+│   │   │   ├── Politica de firma electrónica.mm
 │   │   │   ├── Politica de Gestion de Documentos Electronicos.mm
 │   │   │   └── Reutilizacion.mm
 │   │   └── PDF
@@ -672,7 +672,7 @@ Pack_1_PreparaTIC27.zip
 │   │       ├── Expediente electronico.pdf
 │   │       ├── Intermediacion de datos.pdf
 │   │       ├── Modelos de datos.pdf
-│   │       ├── Politica de firma electr╜nica.pdf
+│   │       ├── Politica de firma electrónica.pdf
 │   │       ├── Politica de Gestion de Documentos Electronicos.pdf
 │   │       └── Reutilizacion.pdf
 │   └── PreparaTIC_27_046 Cambios.txt
@@ -788,8 +788,8 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── IntroMainframes.pdf
 │   │   ├── Sistemas Distribuidos.pdf
 │   │   ├── The Open Grid Service Architecture (OGSA).pptx
-│   │   ├── Xunta_A1_T_57_ VIRTUALIZACIαN DE SERVIDORES_58.pdf
-│   │   ├── Xunta_A2_T_46_ ADMINISTRACIαN Y GESTIαN DE SISTEMAS Y ALMACEN_37.pdf
+│   │   ├── Xunta_A1_T_57_ VIRTUALIZACIÓN DE SERVIDORES_58.pdf
+│   │   ├── Xunta_A2_T_46_ ADMINISTRACIÓN Y GESTIÓN DE SISTEMAS Y ALMACEN_37.pdf
 │   │   ├── XVII_Formas_de_paralelismo.pdf
 │   │   ├── XVII_Grid_computing.pdf
 │   │   ├── XVII_Grid_computing_un_nuevo_paradigma.pdf
@@ -813,7 +813,7 @@ Pack_1_PreparaTIC27.zip
 │   │   │   ├── 610-seguridad_Red_Hat_Linux_7-dic06.pdf
 │   │   │   └── CLARA-herramienta.pdf
 │   │   ├── Xunta_A1_T_52_ EQUIPAMIENTO HARDWARE_53.pdf
-│   │   └── Xunta_A2_T_19_ DEFINICIαN Y ESTRUCTURAS DE LOS SISTEMAS DE IN_11.pdf
+│   │   └── Xunta_A2_T_19_ DEFINICIÓN Y ESTRUCTURAS DE LOS SISTEMAS DE IN_11.pdf
 │   └── PreparaTIC_27_053 Cambios.txt
 ├── 054 Dispositivos personales
 │   ├── Contenidos
@@ -911,8 +911,8 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── Estructura_y_funciones_de_los_sistemas_operativos.pdf
 │   │   ├── Historia_tipos_y_conceptos.pdf
 │   │   ├── SSOO_Procesos_administracion_ES_seguridad.pdf
-│   │   ├── Xunta_A1_T_53_ CONCEPTO, EVOLUCIαN Y TENDENCIAS DE LOS S_O__54.pdf
-│   │   └── Xunta_A2_T_44_ CONCEPTO, EVOLUCIαN Y TENDENCIAS DE LOS S_O_ _35.pdf
+│   │   ├── Xunta_A1_T_53_ CONCEPTO, EVOLUCIÓN Y TENDENCIAS DE LOS S_O__54.pdf
+│   │   └── Xunta_A2_T_44_ CONCEPTO, EVOLUCIÓN Y TENDENCIAS DE LOS S_O_ _35.pdf
 │   ├── Esquemas
 │   │   └── PDF
 │   │       └── T56-Esquema-Resumen SSOO.pdf
@@ -927,8 +927,8 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── Evolution_of_the_UNIX_time-sharing_system.DOC.pdf
 │   │   ├── Seguridad_en_UNIX_y_redes.pdf
 │   │   ├── UNIX-Linux.pdf
-│   │   ├── Xunta_A1_T_53_ CONCEPTO, EVOLUCIαN Y TENDENCIAS DE LOS S_O__54.PDF
-│   │   └── Xunta_A2_T_44_ CONCEPTO, EVOLUCIαN Y TENDENCIAS DE LOS S_O_ _35.PDF
+│   │   ├── Xunta_A1_T_53_ CONCEPTO, EVOLUCIÓN Y TENDENCIAS DE LOS S_O__54.PDF
+│   │   └── Xunta_A2_T_44_ CONCEPTO, EVOLUCIÓN Y TENDENCIAS DE LOS S_O_ _35.PDF
 │   ├── Esquemas
 │   │   ├── FREEMIND
 │   │   │   ├── Linux.mm
@@ -1159,7 +1159,7 @@ Pack_1_PreparaTIC27.zip
 │   │   │   ├── BOE-LISIGE.pdf
 │   │   │   ├── BOE-Sistema Cartográfico Nacional.pdf
 │   │   │   └── Directiva INSPIRE.pdf
-│   │   ├── Xunta_A1_T_26_ SISTEMAS DE INFORMACIαN GEOGR╡FICA_27.pdf
+│   │   ├── Xunta_A1_T_26_ SISTEMAS DE INFORMACIÓN GEOGRÁFICA_27.pdf
 │   │   └── XuntaA2_T_22_extracto.pdf
 │   ├── Esquemas
 │   │   └── 074 - GIS - Esquemas (2016).pdf
@@ -1503,7 +1503,7 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── UML Overview.pdf
 │   │   ├── UML.pdf
 │   │   ├── UML Tutorial.pdf
-│   │   └── Xunta_A2_T_32_ AN╡LISES ESTRUCTURADA_24.pdf
+│   │   └── Xunta_A2_T_32_ ANÁLISES ESTRUCTURADA_24.pdf
 │   └── Esquemas
 │       ├── PDF
 │       │   └── PreparaTIC_27_091 - Esquema.pdf
@@ -1621,7 +1621,7 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── PreparaTIC_27_098 - Resumen.pdf
 │   │   └── PreparaTIC_27_098-Resumen.pdf
 │   ├── Doc Adicional
-│   │   ├── 2016- BlogJ.GARZAS vocalTribunalConv2016 ESTIMACIαN.docx
+│   │   ├── 2016- BlogJ.GARZAS vocalTribunalConv2016 ESTIMACIÓN.docx
 │   │   ├── examen-con-ejemplo-estimacion-casos-uso.pptx
 │   │   ├── XVII_Calculo programacion Sw.pdf
 │   │   ├── XVII_COCOMO II (1).pdf
@@ -1883,7 +1883,7 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── Freemind
 │   │   │   ├── 802.11.png
 │   │   │   ├── IEEE 802.11.mm
-│   │   │   └── T113 REDES INAL╡MBRICAS.mm
+│   │   │   └── T113 REDES INALÁMBRICAS.mm
 │   │   └── PDF
 │   │       └── 113.WIRELESS -incompleto.pdf
 │   └── PreparaTIC_27_113 - Cambios.txt
@@ -2029,10 +2029,10 @@ Pack_1_PreparaTIC27.zip
 │   │   │   ├── UMTS.mm
 │   │   │   └── Wimax.mm
 │   │   ├── Freemind 2016
-│   │   │   └── COMS MαVILES 2016.mm
+│   │   │   └── COMS MÓVILES 2016.mm
 │   │   ├── Leeme.txt
 │   │   ├── PDF
-│   │   │   └── COMS MαVILES 2016.pdf
+│   │   │   └── COMS MÓVILES 2016.pdf
 │   │   └── Simple Mind
 │   │       └── Comunicaciones Móviles.smmx
 │   └── PreparaTIC_27_122 - Cambios.txt
