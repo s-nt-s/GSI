@@ -1375,7 +1375,7 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── PreparaTIC_27_085 - Resumen express.pdf
 │   │   └── PreparaTIC_27_085 - Resumen.pdf
 │   ├── Doc adicional
-│   │   ├── Xunta_A1_T_33_ INGENIERÍ\201A DELSOFTWARE_34.pdf
+│   │   ├── Xunta_A1_T_33_ INGENIERÍA DELSOFTWARE_34.pdf
 │   │   └── Xunta_A2_T_31_ INGENIERÍA DEL SOFTWARE_23.pdf
 │   ├── Esquemas
 │   │   ├── FREEMIND
@@ -1384,10 +1384,10 @@ Pack_1_PreparaTIC27.zip
 │   │   └── PDF
 │   │       ├── El ciclo de vida de los sistemas de informacion.pdf
 │   │       ├── Ingenieria del Software.pdf
-│   │       ├── Ingeniería del SW. Introducció\201n (I).pdf
-│   │       ├── MCV de los Sistemas de Informació\201n (III).pdf
-│   │       ├── MCV de los Sistemas de Informació\201n (II).pdf
-│   │       └── MCV de los Sistemas de Informació\201n (IV).pdf
+│   │       ├── Ingeniería del SW. Introducción (I).pdf
+│   │       ├── MCV de los Sistemas de Información (III).pdf
+│   │       ├── MCV de los Sistemas de Información (II).pdf
+│   │       └── MCV de los Sistemas de Información (IV).pdf
 │   └── PreparaTIC_27_085 - Cambios.txt
 ├── 086 Planificación estrategica
 │   ├── cambios.txt
