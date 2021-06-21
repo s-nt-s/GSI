@@ -1376,7 +1376,7 @@ Pack_1_PreparaTIC27.zip
 │   │   └── PreparaTIC_27_085 - Resumen.pdf
 │   ├── Doc adicional
 │   │   ├── Xunta_A1_T_33_ INGENIERÍ\201A DELSOFTWARE_34.pdf
-│   │   └── Xunta_A2_T_31_ INGENIER╓A DEL SOFTWARE_23.pdf
+│   │   └── Xunta_A2_T_31_ INGENIERÍA DEL SOFTWARE_23.pdf
 │   ├── Esquemas
 │   │   ├── FREEMIND
 │   │   │   ├── Ciclos de vida.mm
@@ -1418,7 +1418,7 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── METRICA_V3_Tecnicas.pdf
 │   │   ├── scrum_manager.pdf
 │   │   ├── Scrum Training Manual.pdf
-│   │   ├── Xunta_A1_T_35_ INGENIER╓A DE REQUISITOS__36.pdf
+│   │   ├── Xunta_A1_T_35_ INGENIERÍA DE REQUISITOS__36.pdf
 │   │   └── XVIII_metodologias_agiles.pdf
 │   ├── Esquemas
 │   │   ├── FREEMIND
@@ -1848,7 +1848,7 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── ENLACES ΘTILES PARA EL TEMA 112.pdf
 │   │   ├── MPLS,VPLS,GMPLS.pdf
 │   │   ├── SDH Universidad Navarra.pdf
-│   │   ├── Xunta_A1_T_48_ TECNOLOG╓AS DE TRANSPORTE_49.pdf
+│   │   ├── Xunta_A1_T_48_ TECNOLOGÍAS DE TRANSPORTE_49.pdf
 │   │   ├── Xunta_A2_T_40_ REDES LAN, MAN Y WAN_32.pdf
 │   │   ├── XVII_ATM_Fundamentals(c).pdf
 │   │   └── XVII_ATM Pocket Guide.PDF

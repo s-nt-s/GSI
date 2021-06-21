@@ -52,7 +52,7 @@ Pack3 casos practicos.zip
 │   │       └── Presentación Notifica (Solución).pptx
 │   ├── Preparatic XXIII
 │   │   ├── 20160625_Resolución_Cuarto_Ejercicio_2015.ppt
-│   │   ├── 20160625 V╓DEO SESIÓN.url
+│   │   ├── 20160625 VÍDEO SESIÓN.url
 │   │   ├── 20160709 Enunciado Simulacro.pdf
 │   │   └── 20160709 Solución Simulacro.pdf
 │   ├── Preparatic XXIV
