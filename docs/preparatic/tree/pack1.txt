@@ -1,5 +1,4 @@
 Pack_1_PreparaTIC27.zip
-.
 ├── 001 La Constitución (I)
 │   ├── Contenidos
 │   │   ├── PreparaTIC_25_001 - Resumen express.pdf

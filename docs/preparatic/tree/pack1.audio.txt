@@ -1,5 +1,4 @@
 Audioapuntes_Pack1_01.7z
-.
 ├── 001 Constitucion I
 │   └── Aspectos importantes
 │       ├── 01 Autoria.mp3
@@ -720,7 +719,6 @@ Audioapuntes_Pack1_01.7z
         └── 09. contenido 5.mp3
 
 Audioapuntes_Pack1_02.7z
-.
 ├── 027 Protección de datos
 │   ├── Resumen
 │   │   ├── 1-Autoría PreparaTIC26.mp3
@@ -1282,7 +1280,6 @@ Audioapuntes_Pack1_02.7z
     └── 10. Contenido 6.mp3
 
 Audioapuntes_Pack1_03.7z
-.
 ├── 070 Inteligencia Artificial
 │   ├── 01. Preparatic26.mp3
 │   ├── 02. Fecha 170419.mp3

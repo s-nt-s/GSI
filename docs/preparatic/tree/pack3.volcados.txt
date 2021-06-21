@@ -1,5 +1,4 @@
 Pack3 casos practicos.zip
-.
 ├── Enunciados
 │   ├── anteriores al 2010
 │   │   ├── CSSTIAE cuarto ej Conv2004.pdf

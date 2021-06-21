@@ -13,7 +13,7 @@ function lszip() {
 function rnm() {
   OLD="$1"
   NEW="$2"
-  find . -name "*${OLD}*" -exec rename "s|${OLD}|${NEW}|g" "{}" \;
+  find . -name "*${OLD}*" -exec rename "s|${OLD}|${NEW}|g" "{}" +
 }
 
 for ZP in "$@";do
@@ -46,6 +46,6 @@ for ZP in "$@";do
     cd *
   fi
   echo $(basename "$ZP")
-  tree  | head -n-1
+  tree  | head -n-1 | tail -n+2
   popd > /dev/null
 done

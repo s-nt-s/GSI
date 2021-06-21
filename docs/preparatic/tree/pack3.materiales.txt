@@ -1,5 +1,4 @@
 Pack3_Material.zip
-.
 ├── 01 - Aspectos Generales
 │   ├── Defensa cuarto examen Julio2019.pdf
 │   ├── Planteamiento cuarto examen Julio2019.pdf
