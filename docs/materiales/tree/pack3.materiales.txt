@@ -357,7 +357,7 @@ Pack3_Material.zip
 │   │   └── Protección de datos -Julio2019.pdf
 │   └── 05.- Transparencia y RISP
 │       ├── Apuntes RISP-Julio2019.pdf
-│       ├── Ley de Transparencia  Mayo2017.pdf
+│       ├── Ley de Transparencia Mayo2017.pdf
 │       └── Material Adicional
 │           ├── 100 Preguntas_sobre_Transparencia.pdf
 │           ├── 2019-06-Nota-tecnica-OBSAE-nueva-directiva-RISP.pdf

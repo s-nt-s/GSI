@@ -399,7 +399,7 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── XXVI Ley 53_84 Incompatibilidades.pdf
 │   │   ├── XXVI RD 33_86 Regimen Disciplinario.pdf
 │   │   └── XXVI RD 364_95 Ingreso Funcion Publica.pdf
-│   └── PreparaTIC_27_024  Cambios.txt.docx
+│   └── PreparaTIC_27_024 Cambios.txt.docx
 ├── 025 Gobierno Abierto y Transparencia
 │   ├── Contenidos
 │   │   ├── PreparaTIC_27_025 - Resumen express.pdf
@@ -973,7 +973,7 @@ Pack_1_PreparaTIC27.zip
 │   └── info.txt
 ├── 063 SGBD
 │   ├── Contenidos
-│   │   └── PreparaTic_25_063  Resumen SGBD.pdf
+│   │   └── PreparaTic_25_063 Resumen SGBD.pdf
 │   ├── Doc adicional
 │   │   └── UOC-Curso BBDD.pdf
 │   └── PreparaTIC_27_063 Cambios.txt
@@ -981,7 +981,7 @@ Pack_1_PreparaTIC27.zip
 │   ├── cambios.txt
 │   ├── Contenidos
 │   │   └── PreparaTic_27_064 resumen modelo relacional.pdf
-│   └── Doc  adicional
+│   └── Doc adicional
 │       └── Tipos de JOINS.png
 ├── 065 Arquitectura de desarrollo en la web
 │   ├── Contenidos
@@ -1604,8 +1604,8 @@ Pack_1_PreparaTIC27.zip
 ├── 097 Metricas y evaluacion de la calidad del software
 │   ├── Cambios.txt
 │   ├── Contenidos
-│   │   ├── PreparaTIC26_097  - Resumen express.pdf
-│   │   └── PreparaTIC26_097  - Resumen.pdf
+│   │   ├── PreparaTIC26_097 - Resumen express.pdf
+│   │   └── PreparaTIC26_097 - Resumen.pdf
 │   ├── Doc adicional
 │   │   ├── 2016- BlogJ.GARZAS vocalTribunalConv2016 CALIDAD.docx
 │   │   ├── 2016- Metricas sw.ppt
@@ -1727,7 +1727,7 @@ Pack_1_PreparaTIC27.zip
 │   │       ├── Gestión documental 2013.pdf
 │   │       └── Gestión documental 2016.pdf
 │   └── PreparaTIC_27_103 - Cambios.txt
-├── 104  SRI y Conservación Información
+├── 104 SRI y Conservación Información
 │   ├── Contenidos
 │   │   └── PreparaTIC26_104-SRI-Conservacion informacion.pdf
 │   ├── Doc adicional

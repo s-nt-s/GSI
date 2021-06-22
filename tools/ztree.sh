@@ -40,6 +40,7 @@ for ZP in "$@";do
   rnm "╡" "Á"
   rnm "╓" "Í"
   rnm $'\302\201' ""
+  find . -name "*  *" -exec rename "s|\s\s\s*| |g" "{}" +
   find . -type f -name desktop.ini -delete
   find . -type d -empty -delete
   if [ $(ls -A . | wc -l) -eq 1 ]; then
