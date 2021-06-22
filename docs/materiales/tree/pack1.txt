@@ -1069,7 +1069,7 @@ Pack_1_PreparaTIC27.zip
 │           ├── CRM I Tema 72 (III).pdf
 │           ├── ERP (II).pdf
 │           └── Sistemas CRM y ERP Tema 72 (I).pdf
-├── 073 - E-learning
+├── 073 E-learning
 │   ├── Contenidos
 │   │   ├── PreparaTIC_27_073 Resumen express.pdf
 │   │   └── PreparaTIC_27_073 Resumen.pdf
@@ -1431,23 +1431,23 @@ Pack_1_PreparaTIC27.zip
 │   ├── Contenidos
 │   │   └── PreparaTIC_27_092 - Resumen.pdf
 │   ├── Doc adicional
-│   │   ├── Diseño de aplicaciones en capas.pdf
+│   │   ├── Diseño de aplicaciones en capas.pdf
 │   │   ├── FundamentosDiseno.pdf
-│   │   ├── PatronesDeDiseño.pdf
+│   │   ├── PatronesDeDiseño.pdf
 │   │   ├── Principiosdeldisenodelsoftware-1pp.pdf
 │   │   ├── Programación Orientada a Aspectos.pdf
 │   │   └── Programación por capas.pdf
 │   └── Esquemas
 │       ├── FREEMIND
-│       │   ├── Diseño estructurado.mm
-│       │   ├── Diseño orientado a objetos.mm
+│       │   ├── Diseño estructurado.mm
+│       │   ├── Diseño orientado a objetos.mm
 │       │   ├── DSI.png
 │       │   └── UML_diagrams_overview.jpg
 │       └── PDF
-│           ├── Diseño estructurado Freemind.pdf
-│           ├── Diseño orientado a objetos Freemind.pdf
-│           └── El diseño estructurado. El diseño OO.pdf
-├── 093. Prototipos. Diseño de Interfaces
+│           ├── Diseño estructurado Freemind.pdf
+│           ├── Diseño orientado a objetos Freemind.pdf
+│           └── El diseño estructurado. El diseño OO.pdf
+├── 093 Prototipos. Diseño de Interfaces
 │   └── Contenidos
 │       └── PreparaTIC26_093 Resumen.pdf
 ├── 094 Metrica V3
@@ -1489,7 +1489,7 @@ Pack_1_PreparaTIC27.zip
 │       └── Pdf
 │           ├── Metrica v3 esquema(1).pdf
 │           └── Metrica v3 esquema(2).pdf
-├── 095. Pruebas y garantía de calidad en desarrollo SW
+├── 095 Pruebas y garantía de calidad en desarrollo SW
 │   ├── Contenidos
 │   │   ├── EstrategiasPruebasSW.pdf
 │   │   ├── HerramientasPruebasSW.pdf
@@ -1827,7 +1827,7 @@ Pack_1_PreparaTIC27.zip
 │       ├── REDES VLAN.pdf
 │       ├── SNMP.pdf
 │       └── Top 16 best network monitoring tools for 2017 _.pdf
-├── 118. Redes Intranet y Extranet
+├── 118 Redes Intranet y Extranet
 │   ├── Doc adicional
 │   │   ├── El standard TIA 942 -vds-11-4.pdf
 │   │   ├── estandaresdatacenter.pdf
@@ -1869,7 +1869,7 @@ Pack_1_PreparaTIC27.zip
 │       │   └── PreparaTIC_27_120 - Esquema.pdf
 │       └── XMIND
 │           └── PreparaTIC_27_120 - Esquema.xmind
-├── 121. Correo electrónico. Servicios de directorio
+├── 121 Correo electrónico. Servicios de directorio
 │   ├── Doc adicional
 │   │   ├── Xunta_A1_T_50_ PROTOCOLO TCP_IP_51.pdf
 │   │   ├── Xunta_A1_T_54_ SERVIDORES DE MENSAJERÍA_55.pdf
@@ -1879,14 +1879,14 @@ Pack_1_PreparaTIC27.zip
 │   │   └── XVII_Seguridad_en_correo_electronico.pdf
 │   └── Esquemas
 │       ├── FreeMind
-│       │   └── Correo electrónico.mm
+│       │   └── Correo electrónico.mm
 │       ├── Mind Manager
 │       │   ├── Correo Electronico Tema 121 (II).mmap
 │       │   └── Correo Electronico Tema 121 (I).mmap
 │       └── PDF
-│           ├── 121. Correo electrónico.pdf
-│           ├── Correo Electrónico Tema 121 (II).pdf
-│           ├── Correo Electrónico Tema 121 (I).pdf
+│           ├── 121. Correo electrónico.pdf
+│           ├── Correo Electrónico Tema 121 (II).pdf
+│           ├── Correo Electrónico Tema 121 (I).pdf
 │           ├── T121 (III).pdf
 │           └── T121 (IV).pdf
 ├── 122 Comunicaciones moviles
@@ -2063,7 +2063,7 @@ Pack_1_PreparaTIC27.zip
 │       ├── innovate_visual_collab_architecture_vid_wp_es-xl.pdf
 │       ├── Introducción-H.323.pdf
 │       └── Videoconferencia - PreparaTIC XX.pdf
-├── 130. Acceso remoto a sistemas corporativos
+├── 130 Acceso remoto a sistemas corporativos
 │   ├── Doc adicional
 │   │   ├── Documento de integracion con Cl@ve para Proveedores de servicio.pdf
 │   │   ├── Guia-del-proyecto-STORK.pdf

@@ -1,7 +1,7 @@
 function rnm() {
   OLD="$1"
   NEW="$2"
-  find . -name "*${OLD}*" -exec rename "s|${OLD}|${NEW}|g" "{}" +
+  find . -name "*${OLD}*" -execdir rename "s|${OLD}|${NEW}|g" "{}" +
 }
 
 function cln() {
@@ -11,6 +11,7 @@ function cln() {
   if [ -d Pack_1_PreparaTIC27/Pack_1_PreparaTIC27 ]; then
     rm -R Pack_1_PreparaTIC27/Pack_1_PreparaTIC27
   fi
+  find . -type d -regextype posix-egrep -regex '.*/[0-9]+\s*[\.\-]+\s*[^/0-9][^/]*' -execdir rename 's/([0-9][0-9]*)([ \.\-][ \.\-]*)(.*)/$1 $3/' "{}" +
 
   rnm "╜" "ó"
   rnm "α" "Ó"
@@ -22,8 +23,8 @@ function cln() {
   rnm "ó" "ó"
 
   rnm $'\302\201' ""
-  find . -name "*  *" -exec rename "s|\s\s\s*| |g" "{}" +
-  find . -type d -name "*_" -exec rename "s|__*$||g" "{}" +
+  find . -name "*  *" -execdir rename "s|\s\s\s*| |g" "{}" +
+  find . -type d -name "*_" -execdir rename "s|__*$||g" "{}" +
 }
 
 function lszip() {

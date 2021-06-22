@@ -1039,7 +1039,7 @@ Audioapuntes_Pack1_02.7z
 │       ├── 3-Repaso express.mp3
 │       ├── 4-Seguridad de Sistemas-2-ENS.mp3
 │       └── 5-Contenido.mp3
-├── 049. Servicios Comunes
+├── 049 Servicios Comunes
 │   ├── 01. Autoría.mp3
 │   ├── 02. Fecha.mp3
 │   ├── 03. Tipo documento y resumen.mp3
@@ -1062,7 +1062,7 @@ Audioapuntes_Pack1_02.7z
 │   ├── 20. Inside.mp3
 │   ├── 21. archive.mp3
 │   └── 22. notifica.mp3
-├── 050. Organismos normalizacion
+├── 050 Organismos normalizacion
 │   ├── 01. Autoría.mp3
 │   ├── 02. Fecha.mp3
 │   ├── 03. Tipo de apuntes y tema.mp3

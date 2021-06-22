@@ -1,10 +1,10 @@
 Pack3_Material.zip
-├── 01 - Aspectos Generales
+├── 01 Aspectos Generales
 │   ├── Defensa cuarto examen Julio2019.pdf
 │   ├── Planteamiento cuarto examen Julio2019.pdf
 │   └── Presentacion Sesion4 Preparatic26.pdf
-├── 02.- Arquitectura Lógica
-│   ├── 01.- Diagramas
+├── 02 Arquitectura Lógica
+│   ├── 01 Diagramas
 │   │   ├── Aspectos sobre las Guías.pdf
 │   │   ├── Diagrama de Casos de uso.pdf
 │   │   ├── Diagrama de Clases.pdf
@@ -21,15 +21,15 @@ Pack3_Material.zip
 │   │   └── Material adicional
 │   │       ├── Examenes Ingenieria del Software IS.pdf
 │   │       └── Métrica-Técnicas y Prácticas.pdf
-│   ├── 02.- Actores Interfaces
+│   ├── 02 Actores Interfaces
 │   │   └── Guía para identificar actores.pdf
-│   ├── 03.- Integrar componentes
+│   ├── 03 Integrar componentes
 │   │   ├── Integración de componentes Mayo2017.pdf
 │   │   └── Preparatic27 Integración de componentes.pdf
-│   ├── 04.- Plataformas
+│   ├── 04 Plataformas
 │   │   ├── Angular-junio2018.pdf
 │   │   └── Preparatic27 Plataformas Habituales.pdf
-│   ├── 05.- Módulo sw
+│   ├── 05 Módulo sw
 │   │   ├── 0.Modulos SW habituales Mayo2017.pdf
 │   │   ├── 1.Gestores de contenidos Mayo2017.pdf
 │   │   ├── 2.Gestores de portales Mayo2017.pdf
@@ -49,26 +49,26 @@ Pack3_Material.zip
 │   │       ├── PFC_GestorContenidos.pdf
 │   │       ├── UNE-EN_301549_2019-OAW.pdf
 │   │       └── WebContentMgGartner2018.jpg
-│   └── 06.- Microservicios
+│   └── 06 Microservicios
 │       ├── Material Sesión Preparatic 27 Youtube
 │       │   ├── 6ª sesión PreparaTIC27 — 🌍 MICROSERVICIOS - YouTube.URL
 │       │   └── PTIC27-S06-20210123_Aplicaciones basadas en microservicios_v1.0.pdf
 │       └── Preparatic27 Microservicios.pdf
-├── 03.- Arquitectura Física
-│   ├── 01.- Arquitectura de sistemas
+├── 03 Arquitectura Física
+│   ├── 01 Arquitectura de sistemas
 │   │   ├── ArquitecturaJulio2019.pdf
 │   │   ├── Arquitectura Mayo 2017.pdf
 │   │   └── Preparatic27_Arquitectura_Sistemas_Marzo2021.pdf
-│   ├── 02.- Diseño de red
+│   ├── 02 Diseño de red
 │   │   ├── DISEÑO_DE_RED Mayo 2017.pdf
 │   │   ├── Material adicional
 │   │   │   ├── Plan Direccionamiento Interconexion Redes Abril2016.pdf
 │   │   │   └── PreparaTIC26_20190713_Servicio NubeSARA.pdf
 │   │   └── RED.pdf
-│   └── 03.- Dimensionamiento
+│   └── 03 Dimensionamiento
 │       └── Consejos sobre dimensionamiento.pdf
-├── 04.- Transversal
-│   ├── 01.- Servicios Comunes y Compartidos
+├── 04 Transversal
+│   ├── 01 Servicios Comunes y Compartidos
 │   │   ├── Aplicaciones reutilizables Mayo2018.pdf
 │   │   ├── Material adicional
 │   │   │   ├── 20151002-Declaracion-servicios-compartidos.pdf
@@ -134,7 +134,7 @@ Pack3_Material.zip
 │   │   │   └── Soluciones-SGAD-2018.xlsx
 │   │   ├── Preparatic27_Guia_aplicacion_Servicios_Red_SARA.pdf
 │   │   └── Servicios Compartidos_2016.pdf
-│   ├── 02.- Movilidad
+│   ├── 02 Movilidad
 │   │   ├── BYOD Mayo2017.pdf
 │   │   ├── Desarrollo aplicaciones híbridas.pdf
 │   │   ├── Desarrollo aplicaciones nativas Mayo2017.pdf
@@ -152,7 +152,7 @@ Pack3_Material.zip
 │   │   │   └── Preparatic27 PAe - Aplicación móvil _Cliente @firma móvil_.pdf
 │   │   ├── Preparatic27 Real Decreto Ley 292020.pdf
 │   │   └── Teletrabajo.pdf
-│   ├── 03.- Identificación y Autenticación
+│   ├── 03 Identificación y Autenticación
 │   │   ├── Autenticacion_Identificacion Mayo2017.pdf
 │   │   ├── Identificación y firma Nacho Alamillo.pdf
 │   │   ├── Ley 6_2020 de servicios de confianza.pdf
@@ -166,7 +166,7 @@ Pack3_Material.zip
 │   │   ├── PAe - CL@VE_ nodo eidas sustituye a STORK.pdf
 │   │   ├── Preparatic27 NOVEDADES IDENTIFICACIÓN Y AUTENTICACIÓN.pdf
 │   │   └── Resolución firma electrónica no criptográfica.pdf
-│   ├── 04.- Redes Sociales
+│   ├── 04 Redes Sociales
 │   │   ├── Gestión de RRSS en las AAPP-act2018.pdf
 │   │   └── Material adicional
 │   │       ├── Casos de éxito de RRSS en las AAPP.pdf
@@ -175,7 +175,7 @@ Pack3_Material.zip
 │   │       ├── Guía Redes Sociales para Ayuntamientos.pdf
 │   │       ├── Implantación de un Social Media Plan en la AP.pdf
 │   │       └── Plan Social Media del INAP.pdf
-│   ├── 05.- Cloud computing
+│   ├── 05 Cloud computing
 │   │   ├── Material adicional
 │   │   │   ├── 823-Cloud_Computing_ENS.pdf
 │   │   │   ├── CISPE-Buying-Cloud-Services-ES.pdf
@@ -186,10 +186,10 @@ Pack3_Material.zip
 │   │   │   ├── PAe - Soluciones en Cloud.pdf
 │   │   │   └── wellarchitected-security-pillar.pdf
 │   │   └── Preparatic27 Cloud Computing.pdf
-│   └── 06.- Estructuras Orgánicas Ministeriales Feb 2020
+│   └── 06 Estructuras Orgánicas Ministeriales Feb 2020
 │       └── BOE-A-2020-410-consolidado.pdf
-├── 05.- Aplicar Legislación
-│   ├── 01.- eAdministración
+├── 05 Aplicar Legislación
+│   ├── 01 eAdministración
 │   │   ├── Actualizacion de la ley 39 por la LOPDGDD-Julio2019.pdf
 │   │   ├── Artículos principales Leyes39-40 y solucion TIC.pdf
 │   │   ├── DiccionarioAE.pdf
@@ -201,7 +201,7 @@ Pack3_Material.zip
 │   │       ├── 9ª sesión PreparaTIC27 — SERVICIOS COMUNES + IDENTIFICACION y FIRMA - YouTube.URL
 │   │       ├── Identificación y firma 2021-03-06.pdf
 │   │       └── SERVICIOS COMUNES -- 2021-03-06-Jornada PREPARATIC-r1.pdf
-│   ├── 02.- ENS y Ciberseguridad
+│   ├── 02 ENS y Ciberseguridad
 │   │   ├── Apuntes Ciberseguridad Julio2019.pdf
 │   │   ├── Guía aplicación ENS Julio2019.pdf
 │   │   ├── Material adicional
@@ -258,7 +258,7 @@ Pack3_Material.zip
 │   │   │   └── Sesión 08 - Ciberseguridad_Novedades_20feb2021.pdf
 │   │   ├── Preparatic27 Resumen_aplicacion_ENS.pdf
 │   │   └── SOC-AGE-Junio2018.pdf
-│   ├── 03.- ENI
+│   ├── 03 ENI
 │   │   ├── Apuntes ENI Julio2019.pdf
 │   │   ├── ENI-Aspectos relevantes Mayo2017.pdf
 │   │   ├── Material adicional
@@ -310,7 +310,7 @@ Pack3_Material.zip
 │   │   ├── NTI Relación de modelos de datos.pdf
 │   │   ├── NTI Requisitos de conexión.pdf
 │   │   └── NTI Reutilización.pdf
-│   ├── 04.- Proteccion de datos
+│   ├── 04 Proteccion de datos
 │   │   ├── Material adicional
 │   │   │   ├── Diptico_CLOUD_AEPD.pdf
 │   │   │   ├── GUIA_SEGURIDAD_2010.pdf
@@ -355,7 +355,7 @@ Pack3_Material.zip
 │   │   │   ├── RGPD - AEPD - UE - wp244rev01_es.pdf
 │   │   │   └── RGPD - AEPD - UE - wp248_rev.01_es.pdf
 │   │   └── Protección de datos -Julio2019.pdf
-│   └── 05.- Transparencia y RISP
+│   └── 05 Transparencia y RISP
 │       ├── Apuntes RISP-Julio2019.pdf
 │       ├── Ley de Transparencia Mayo2017.pdf
 │       └── Material Adicional
@@ -367,15 +367,15 @@ Pack3_Material.zip
 │           ├── L00056-00079-Directiva-UE-2019-1024-RISP.pdf
 │           ├── Orientaciones_proteccion_datos_Reutilizacion.pdf
 │           └── unidad_imprimible herramientas-curso RISP Aporta.pdf
-├── 06.- Gestión de Proyectos
-│   ├── 01.- Metodologías y Ciclos de Vida
+├── 06 Gestión de Proyectos
+│   ├── 01 Metodologías y Ciclos de Vida
 │   │   ├── Guía aplicación MCV Metodologías Mayo2017.pdf
 │   │   └── Scrum y kanban Mayo2017.pdf
-│   ├── 02.- Estimación y Planificación
+│   ├── 02 Estimación y Planificación
 │   │   ├── EjemploPracticoEstimaciónPuntosFunción-Jun2018.pdf
 │   │   ├── Planificación_2016.pdf
 │   │   └── Preparatic27_Estimacion_de_esfuerzo_Marzo2021.pdf
-│   ├── 03.- Presupuestación y Contratación
+│   ├── 03 Presupuestación y Contratación
 │   │   ├── Material Adicional
 │   │   │   ├── Buenas prácticas cesión ilegal trabajadores.pdf
 │   │   │   ├── Cuadro-por-procedimientos-e-importes-enero-2021.pdf
@@ -387,35 +387,35 @@ Pack3_Material.zip
 │   │   │   └── Real Decreto-ley 36-2020 medidas urgentes para la modernización de la AP y para la ejecución del PRTyR.pdf
 │   │   ├── PreparaTIC27. Contratación pública. Marzo 2021.pdf
 │   │   └── Presupuestación Mayo2017.pdf
-│   └── 04.-Calidad del Proyecto
+│   └── 04 Calidad del Proyecto
 │       ├── Calidad del Proyecto_2016.pdf
 │       ├── CalidadScrum-Mayo2018.pdf
 │       └── Material Adicional
 │           └── Interfaz Calidad Métrica.pdf
-├── 07.- Otras Preguntas
-│   ├── 01.- Plan de sistemas
+├── 07 Otras Preguntas
+│   ├── 01 Plan de sistemas
 │   │   ├── Material Adicional
 │   │   │   ├── 20151002-Plan-transformacion-digital-age-oopp.pdf
 │   │   │   └── PSI Métrica v3.pdf
 │   │   └── Plan de Sistemas_2016.pdf
-│   ├── 02.- Plan de Implantación
+│   ├── 02 Plan de Implantación
 │   │   ├── Material Adicional
 │   │   │   └── METRICA_V3_Implantacion_y_Aceptacion_del_Sistema-2.pdf
 │   │   └── Plan de Implantación_2016.pdf
-│   ├── 03.- Plan de Seguridad
+│   ├── 03 Plan de Seguridad
 │   │   ├── Material Adicional
 │   │   │   ├── ControlesISO27002-2013.pdf
 │   │   │   └── Seguridad de la Información.pdf
 │   │   └── Plan de Seguridad_2016.pdf
-│   ├── 04.- Soporte CAU
+│   ├── 04 Soporte CAU
 │   │   ├── Material Adicional
 │   │   │   └── Ejemplo Pliego CAU.PDF
 │   │   └── Soporte CAU_2016.pdf
-│   ├── 05.- Informes para el Ministro
+│   ├── 05 Informes para el Ministro
 │   │   └── Informes para el Ministro_2016.pdf
-│   ├── 06.- Plan de Formación
+│   ├── 06 Plan de Formación
 │   │   └── Plan de formación_2016.pdf
-│   ├── 07.- Análisis de Riesgos
+│   ├── 07 Análisis de Riesgos
 │   │   ├── Análisis de riesgos_2016.pdf
 │   │   ├── Ejemplo
 │   │   │   └── MAGERIT_-_Analisis_de_riesgos_en_la_AEMET.pdf
@@ -423,25 +423,25 @@ Pack3_Material.zip
 │   │       ├── Libro-II-Catalogo-de-Elementos.pdf
 │   │       ├── Libro-III-Guia-de-Tecnicas.pdf
 │   │       └── Libro-I-Metodo.pdf
-│   ├── 08.- Análisis DAFO
+│   ├── 08 Análisis DAFO
 │   │   ├── Análisis DAFO_2016.pdf
 │   │   └── Material Sesión Preparatic27 DAFOs y CUADROS MANDO
 │   │       ├── 5ª sesión PreparaTIC27 — DAFO y Cuadros de Mando - YouTube.URL
 │   │       └── Preparatic27_Sesión5_parte2_DAFO y CUADROS MANDO.pdf
-│   ├── 09.- Factores Críticos de Éxito
+│   ├── 09 Factores Críticos de Éxito
 │   │   └── Factores críticos de éxito_2016.pdf
-│   ├── 10.- Plan de Auditoría
+│   ├── 10 Plan de Auditoría
 │   │   ├── Material Adicional
 │   │   │   ├── 802-Auditoria_ENS-jun10.pdf
 │   │   │   ├── auditoria_informatica.pdf
 │   │   │   ├── Controles Auditoría ENS CCN-STIC 808.pdf
 │   │   │   └── ITS_AuditoriaSeguridad.pdf
 │   │   └── Plan de Auditoría_2016.pdf
-│   ├── 11.- Plan de Mantenimiento
+│   ├── 11 Plan de Mantenimiento
 │   │   ├── Material Adicional
 │   │   │   └── METRICA_V3_Mantenimiento_de_Sistemas_de_Informacion-3.pdf
 │   │   └── Plan de Mantenimiento_2016.pdf
-│   ├── 12.- Indicadores y Cuadro de Mando
+│   ├── 12 Indicadores y Cuadro de Mando
 │   │   ├── Ejemplos
 │   │   │   ├── Cuadro de Mando oficina atención ciudadana.pdf
 │   │   │   └── Cuadro Mando Ministerio.pdf
@@ -449,27 +449,27 @@ Pack3_Material.zip
 │   │   └── Material Adicional
 │   │       ├── El modelo multidimensional.pdf
 │   │       └── Guia para Implantacion de Indicadores UNE66175.pdf
-│   ├── 13.- Carta Servicios-e
+│   ├── 13 Carta Servicios-e
 │   │   ├── Carta de servicios-e mayo 2017.pdf
 │   │   ├── Ejemplos
 │   │   │   ├── Carta Servicios-e Guardia Civil Mayo2017.pdf
 │   │   │   └── Carta Servicios-e Tesoro Publico.pdf
 │   │   └── Material Adicional
 │   │       └── Guia AEVAL.pdf
-│   ├── 14.- Plan Recuperación Desastres
+│   ├── 14 Plan Recuperación Desastres
 │   │   ├── Material Adicional
 │   │   │   └── De la A a la Z_DRP.pdf
 │   │   └── Plan de Recuperación ante Desastres_2016.pdf
-│   ├── 15.- Comunicación y Difusión
+│   ├── 15 Comunicación y Difusión
 │   │   ├── Material Adicional
 │   │   │   └── Guia-de-Comuincacion-Digital_2014-06-26_.pdf
 │   │   └── Plan de comunicación y difusión_2016.pdf
-│   ├── 16.- Plan Gestión Configuración
+│   ├── 16 Plan Gestión Configuración
 │   │   ├── Material Adicional
 │   │   │   ├── Interfaz GConfiguracion Metrica.pdf
 │   │   │   └── Transicion del servicio.pdf
 │   │   └── Plan de Gestión de la configuración_2016.pdf
-│   ├── 17.- Pliego P.Técnicas
+│   ├── 17 Pliego P.Técnicas
 │   │   ├── Ejemplos
 │   │   │   ├── PPT1.pdf
 │   │   │   ├── PPT2.pdf
@@ -487,11 +487,11 @@ Pack3_Material.zip
 │   │   │   ├── Preparatic27_PPT_Soporte Funcional Aplicaciones y Soporte Técnico Usuarios.pdf
 │   │   │   └── Preparatic27_PPT_Soporte Seguridad Informatica.pdf
 │   │   └── Pliego de P. Técnicas Mayo2017.pdf
-│   ├── 18.- Alternativas hw y sw
+│   ├── 18 Alternativas hw y sw
 │   │   └── Alternativas Hw Sw_2016.pdf
-│   ├── 19.- VoIP
+│   ├── 19 VoIP
 │   │   └── VoIP y ToIP Mayo2017.pdf
-│   ├── 20.- Estrategia TIC
+│   ├── 20 Estrategia TIC
 │   │   ├── material adicional
 │   │   │   └── Directrices_PADTD.pdf
 │   │   ├── Preparatic27 Agenda_Digital_2025.pdf
@@ -500,7 +500,7 @@ Pack3_Material.zip
 │   │   ├── Preparatic27 PlanConectividad.pdf
 │   │   ├── Preparatic27 PlanDigitalizacionAdministraciones.pdf
 │   │   └── Preparatic27 PlanDigitalizacionPYME.pdf
-│   ├── 21.-Testing e integracion continua
+│   ├── 21 Testing e integracion continua
 │   │   ├── Integración continua Mayo2017.pdf
 │   │   ├── material adicional
 │   │   │   ├── git_manual.pdf
@@ -513,9 +513,9 @@ Pack3_Material.zip
 │   │   │   └── Sesion 08 - Cómo poner software de calidad en manos del usuario de forma rápida.pdf
 │   │   ├── Preparatic27_IntegraciónContinua_Marzo2021.pdf
 │   │   └── Testing Mayo2017.pdf
-│   ├── 22.- Buscadores y web semántica
+│   ├── 22 Buscadores y web semántica
 │   │   └── Buscadores y web semantica Mayo2017.pdf
-│   ├── 23.- Big Data, IA y Machine Learning
+│   ├── 23 Big Data, IA y Machine Learning
 │   │   ├── Big Data Mayo 2017.pdf
 │   │   ├── MachineLearning-Jun2018.pdf
 │   │   ├── material adicional
@@ -526,7 +526,7 @@ Pack3_Material.zip
 │   │   │   ├── INTELIGENCIA ARTIFICIAL - Preparación 3er ejercicio.pdf
 │   │   │   └── Video Youtube - 7ª sesión PreparaTIC27 — 🤖INTELIGENCIA ARTIFICIAL -.URL
 │   │   └── Preparatic27 IA_ENIA.pdf
-│   └── 24.-Licenciamiento Software
+│   └── 24 Licenciamiento Software
 │       ├── ENI_Guia_reutilizacion_activos_v1-0.pdf
 │       └── EUPL 1-2.txt
 └── Control de cambios Preparatic27.xlsx
