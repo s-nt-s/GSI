@@ -75,7 +75,7 @@ Pack3 casos practicos.zip
 │       ├── Caso 1
 │       │   ├── CSSTIAE tercer ej Conv2017.pdf
 │       │   └── Preparatic26_6aSesion_20190727.pdf
-│       └── Caso 2_
+│       └── Caso 2
 │           ├── Simulacro Preparatic 2019. España vacía.pdf
 │           └── Simulacro Tercer Ejercicio_Final - entera.pdf
 ├── Volcados preparatic anteriores

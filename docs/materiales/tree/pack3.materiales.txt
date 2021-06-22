@@ -523,7 +523,7 @@ Pack3_Material.zip
 │   │   │   ├── ENIAResumen.pdf
 │   │   │   └── mono3_emilio_garcia.pdf
 │   │   ├── Material Sesion Preparatic27 Youtube
-│   │   │   ├── INTELIGENCIA ARTIFICIAL - Preparación 3er ejercicio.pdf
+│   │   │   ├── INTELIGENCIA ARTIFICIAL - Preparación 3er ejercicio.pdf
 │   │   │   └── Video Youtube - 7ª sesión PreparaTIC27 — 🤖INTELIGENCIA ARTIFICIAL -.URL
 │   │   └── Preparatic27 IA_ENIA.pdf
 │   └── 24.-Licenciamiento Software

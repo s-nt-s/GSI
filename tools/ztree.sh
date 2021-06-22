@@ -1,20 +1,26 @@
 #!/bin/bash
 
-function lszip() {
-  if [[ $1 == *.zip ]]; then
-    unzip -O IBM860 -l "$1" | tail -n+4 | head -n-2 | \
-    sed 's|^\s*[0-9][0-9]*\s\s*[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]\s\s*||'
-  elif [[ $1 == *.7z ]]; then
-    7z l -ba -slt "$1" | \
-    awk '$1=="Path" && $2=="=" {fl=substr($0,8)} $1=="Attributes" && $2=="=" {if ($3=="D") {fl=fl "/"} print fl}' | \
-    sort
-  fi
-}
-function rnm() {
-  OLD="$1"
-  NEW="$2"
-  find . -name "*${OLD}*" -exec rename "s|${OLD}|${NEW}|g" "{}" +
-}
+OUTFILE="$1"
+shift
+echo "" > "$OUTFILE"
+if [ $? -ne 0 ]; then
+  echo "No hay permisos para escribir en $OUTFILE"
+  exit 1
+fi
+OUTFILE=$(realpath "$OUTFILE")
+source "$(dirname "$0")/func.sh"
+
+if [[ $OUTFILE == *.html ]]; then
+  echo '
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>'"$@"'</title>
+</head>
+<body>
+' >> "$OUTFILE"
+fi
 
 for ZP in "$@";do
   if [ -z "$ZP" ] || [ ! -f "$ZP" ]; then
@@ -35,18 +41,32 @@ for ZP in "$@";do
       touch "$FL"
     fi
   done
-  rnm "╜" "ó"
-  rnm "α" "Ó"
-  rnm "╡" "Á"
-  rnm "╓" "Í"
-  rnm $'\302\201' ""
-  find . -name "*  *" -exec rename "s|\s\s\s*| |g" "{}" +
-  find . -type f -name desktop.ini -delete
-  find . -type d -empty -delete
+
+  cln
+  MAINDIR=""
   if [ $(ls -A . | wc -l) -eq 1 ]; then
     cd *
+    MAINDIR="$(basename $(pwd))"
   fi
-  echo $(basename "$ZP")
-  tree  | head -n-1 | tail -n+2
+  BZP=$(basename "$ZP")
+  if [[ $OUTFILE == *.txt ]]; then
+    echo $BZP >> "$OUTFILE"
+    tree  | head -n-1 | tail -n+2 >> "$OUTFILE"
+  elif [[ $OUTFILE == *.html ]]; then
+    #echo "<h1>$BZP</h1>" >> "$OUTFILE"
+    echo "<pre><code>" >> "$OUTFILE"
+    tree -H . -C | grep '<a .*href="' | \
+    sed "s|href=\"\.\">.</a><br>|href=\".\">$BZP</a><br>|" | \
+    sed -e "s|&nbsp;| |g" -e "s|<br>||g" -e "s|^\s*||g" | \
+    sed -e "s|<a |<span |g" -e "s|</a>|</span>|g" | \
+    sed -E 's|href="\./?|title="|g' | \
+    sed -e "s|title=\"\"|title=\"${MAINDIR}\"|g" -e 's|/"|"|g' >> "$OUTFILE"
+  fi
   popd > /dev/null
 done
+
+if [[ $OUTFILE == *.html ]]; then
+  echo "</code></pre></body></html>" >> "$OUTFILE"
+fi
+
+sed -i -e '/./,$!d' -e :a -e '/^\n*$/{$d;N;ba' -e '}' "$OUTFILE"
