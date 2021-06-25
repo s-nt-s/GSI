@@ -20,8 +20,8 @@ Si quieres proponer algún otro recurso, por favor hazlo dejando un [issue](http
 **Por ahora tenemos**:
 
 * Indice del temario:
-  * acceso libre: [HTML](temario/libre), [PDF](temario/libre.pdf), [BOE-A-2021-8892 Anexo XII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
-  * acceso interno: [HTML](temario/interna), [PDF](temario/interna.pdf), [BOE-A-2021-8892 Anexo XIII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
+  * acceso libre: [HTML](temario/libre), [PDF](temario/libre.pdf), [BOE-A-2021-8892 Anexo XII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892) (280 plazas, [1374 inscritos](https://administracion.gob.es/pag_Home/empleoPublico/Ofertas-empleo-publico/Cuerpos_Generales2021.html#-7a52b33e42ed))
+  * acceso interno: [HTML](temario/interna), [PDF](temario/interna.pdf), [BOE-A-2021-8892 Anexo XIII](http://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892) (200 plazas, [279 inscritos](https://administracion.gob.es/pag_Home/empleoPublico/Ofertas-empleo-publico/Cuerpos_Generales2021.html#-7a52b33e42ed))
 * Apuntes de [gsitic.wordpress.com](https://gsitic.wordpress.com) (el bloque 2 esta casi completo pero los otros están más o menos a la mitad):
   * Bloque 2: [HTML](gsitic.wordpress.com/bloque_2), [PDF](gsitic.wordpress.com/bloque_2.pdf), [EPUB](gsitic.wordpress.com/bloque_2.epub)
   * Bloque 3: [HTML](gsitic.wordpress.com/bloque_3), [PDF](gsitic.wordpress.com/bloque_3.pdf), [EPUB](gsitic.wordpress.com/bloque_3.epub)
