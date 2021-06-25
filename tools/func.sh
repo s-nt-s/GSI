@@ -5,13 +5,16 @@ function rnm() {
 }
 
 function cln() {
-  find . -type f -iname "*preparatic*cambios*" -delete
-  find . -type f -iname "*cambios*.txt" -delete
-  find . -type f -name desktop.ini -delete
-  find . -type d -empty -delete
   if [ -d Pack_1_PreparaTIC27/Pack_1_PreparaTIC27 ]; then
     rm -R Pack_1_PreparaTIC27/Pack_1_PreparaTIC27
   fi
+  find . -type f -iname "*preparatic*cambios*" -delete
+  find . -type f -iname "*cambios*.txt" -delete
+  find . -type f -name desktop.ini -delete
+  if [ "$1" == "HARD" ]; then
+    find . -type d -execdir fdupes -dN "{}" \;
+  fi
+  find . -type d -empty -delete
   find . -type d -regextype posix-egrep -regex '.*/[0-9]+\s*[\.\-]+\s*[^/0-9][^/]*' \
          -execdir rename 's/([0-9][0-9]*)([ \.\-][ \.\-]*)(.*)/$1 $3/' "{}" +
 

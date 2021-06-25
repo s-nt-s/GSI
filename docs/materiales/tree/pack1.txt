@@ -1530,8 +1530,7 @@ Pack_1_PreparaTIC27.zip
 │           └── CALIDAD 2016.pdf
 ├── 098 Estimación SW
 │   ├── Contenidos
-│   │   ├── PreparaTIC_27_098 - Resumen.pdf
-│   │   └── PreparaTIC_27_098-Resumen.pdf
+│   │   └── PreparaTIC_27_098 - Resumen.pdf
 │   └── Doc Adicional
 │       ├── 2016- BlogJ.GARZAS vocalTribunalConv2016 ESTIMACIÓN.docx
 │       ├── examen-con-ejemplo-estimacion-casos-uso.pptx
@@ -1765,16 +1764,13 @@ Pack_1_PreparaTIC27.zip
 │   │   ├── 802.11ax white paper.pdf
 │   │   ├── bluetooth-5-faq.pdf
 │   │   ├── evolucion_802.11.pdf
-│   │   ├── Introducción a las redes de area corporal (BAN). Norma 802.15.6(1).pdf
 │   │   ├── Introducción a las redes de area corporal (BAN). Norma 802.15.6.pdf
 │   │   ├── Introducción a NFC. Tema 113.pdf
 │   │   ├── Norma 802.15.7 (LIFI).pdf
 │   │   ├── PreparaTIC XXV Acceso al medio CSMA-CA. Breve descripción. Tema 113.pdf
-│   │   ├── PreparaTIC XXV Resumen 802.11 2018 (WiFi). Tema 113.pdf
 │   │   ├── Preparatic XXV Resumen Bluetooth 2018. Tema 113.pdf
 │   │   ├── PreparaTIC XXV Resumen WiMAX 2018. Tema 113.pdf
 │   │   ├── Resumen normas familia 802.15 (WPAN).pdf
-│   │   ├── Síntesis de normas 802.11(1).pdf
 │   │   ├── Síntesis de normas 802.11.pdf
 │   │   ├── Tema 113 PreparaTIC XXV. Resumen WiFi 802.11 2018.pdf
 │   │   └── White paper 802.11ad.pdf

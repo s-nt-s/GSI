@@ -33,29 +33,34 @@ for ZP in "$@";do
   fi
 
   ZP=$(realpath "$ZP")
-  pushd $(mktemp -d) > /dev/null
-  lszip "$ZP" | while IFS= read FL; do
-    if [[ $FL == */ ]]; then
-      mkdir -p "$FL"
-    else
-      touch "$FL"
-    fi
-  done
+  UNZP="${ZP%.*}"
+  if [ -d "$UNZP" ]; then
+    pushd "$UNZP" > /dev/null
+  else
+    pushd $(mktemp -d) > /dev/null
+    lszip "$ZP" | while IFS= read FL; do
+      if [[ $FL == */ ]]; then
+        mkdir -p "$FL"
+      else
+        touch "$FL"
+      fi
+    done
 
-  cln
-  MAINDIR=""
-  if [ $(ls -A . | wc -l) -eq 1 ]; then
-    cd *
-    MAINDIR="$(basename $(pwd))"
+    cln
+    MAINDIR=""
+    if [ $(ls -A . | wc -l) -eq 1 ]; then
+      cd *
+      MAINDIR="$(basename $(pwd))"
+    fi
   fi
   BZP=$(basename "$ZP")
   if [[ $OUTFILE == *.txt ]]; then
     echo $BZP >> "$OUTFILE"
-    tree  | head -n-1 | tail -n+2 >> "$OUTFILE"
+    tree -I '000 Resumenes' | head -n-1 | tail -n+2 >> "$OUTFILE"
   elif [[ $OUTFILE == *.html ]]; then
     #echo "<h1>$BZP</h1>" >> "$OUTFILE"
     echo "<pre><code>" >> "$OUTFILE"
-    tree -H . -C | grep '<a .*href="' | \
+    tree -I '000 Resumenes' -H . -C | grep '<a .*href="' | \
     sed "s|href=\"\.\">.</a><br>|href=\".\">$BZP</a><br>|" | \
     sed -e "s|&nbsp;| |g" -e "s|<br>||g" -e "s|^\s*||g" | \
     sed -e "s|<a |<span |g" -e "s|</a>|</span>|g" | \
