@@ -173,14 +173,12 @@ FAVICON_FILES = [i.split("/",1)[-1] for i in myglob("content/extra/favicon/*.",
 
 STATIC_PATHS = [
     'images',
-    'extra/robots.txt',
-    'extra/CNAME'
+    'extra/robots.txt'
 ] + FAVICON_FILES + CONTENT_FILES
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/CNAME': {'path': 'CNAME'}
+    'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 for f in FAVICON_FILES:
     EXTRA_PATH_METADATA[f]={'path':os.path.basename(f)}
