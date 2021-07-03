@@ -46,7 +46,7 @@ AUTHOR = 's-nt-s'
 SITENAME = 'Apuntes GSI'
 SITEURL = 'https://s-nt-s.github.io/GSI'
 GITHUB_URL = 'https://github.com/s-nt-s/GSI'
-SOURCE_URL = GITHUB_URL+'/tree/main'
+SOURCE_URL = GITHUB_URL+'/tree/master'
 MAPA_URL = 'mapa'
 
 SITEURL = os.environ.get('URL', SITEURL)
