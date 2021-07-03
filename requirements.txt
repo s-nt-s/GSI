@@ -3,5 +3,5 @@ joblib==0.13.2
 lxml==4.6.2
 Markdown==3.0.1
 pelican==4.0.1
-PyYAML==5.1
+PyYAML==5.4
 requests==2.20.0
