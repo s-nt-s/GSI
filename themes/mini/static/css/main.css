@@ -1,0 +1,119 @@
+@import url("pygment.css");
+
+body {
+  font-family: arial,sans serif;
+  font-size: 11pt;
+  margin: 0;
+}
+main {
+  margin: 8px;
+}
+header, footer {
+  padding: 1em;
+  clear: both;
+  margin: 0px;
+  color: #fff !important;
+  background-color: #3a3a3a !important;
+}
+footer {
+  margin-top: 16px !important;
+}
+footer p:first-child {
+	margin-top: 0;
+}
+footer p:last-child {
+	margin-bottom: 0;
+}
+header p:first-child {
+  margin-bottom: 0;
+}
+header p:last-child {
+  margin-bottom: 0;
+}
+header a, footer a {
+  color: inherit;
+}
+
+nav.breadcrumb ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav.breadcrumb li {
+  display: inline;
+}
+
+nav.breadcrumb li + li::before {
+  margin: 0 0.25em;
+  content: '»';
+}
+
+nav.breadcrumb [aria-current="page"] {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+  padding: 10px;
+}
+
+
+table {
+	margin-top: 14px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+thead {
+	background-color: lightblue;
+}
+td, th {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+table tbody tr:nth-child(even) {
+	background-color: #ddd;
+}
+td > p, th > p {
+	margin-top:7px;
+	margin-bottom:7px;
+}
+td > p:first-child, th > p:first-child  {
+	margin-top:0;
+}
+td > p:last-child, td > p:last-child {
+	margin-bottom:0;
+}
+tr > td:first-child {
+	white-space: nowrap;
+}
+.rg {
+  text-align: right;
+}
+label:not(.free), span.label {
+	display: inline-block;
+	min-width: 7em;
+}
+select, input[type=number] {
+	width: 6em;
+}
+input[type=number] {
+	text-align: right;
+}
+.dosDecimales span.nm.dc0:after {
+  content: ",00"
+}
+.dosDecimales span.nm.dc1:after {
+  content: "0"
+}
+.dosEnteros span.en1:before {
+  content: " "
+}

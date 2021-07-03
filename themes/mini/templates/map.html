@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% if page %}
+{% if page.title == 'HOME' %}
+{{ SITENAME }}
+{% else %}
+{{ page.title }}
+{% endif %}
+{% else %}
+{{ SITENAME }} - Mapa
+{% endif %}
+{% endblock %}
+
+{% block header %}
+{% if page %}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+  <li><a href="{{ SITEURL }}/">{{ SITENAME }}</a></li>
+  <li>{{ page.title }}</li>
+  </ol>
+</nav>
+{%if page.summary %}{{page.summary}}{%endif%}
+{% endif %}
+{%endblock%}
+
+{% block content %}
+{% if page %}
+<section id="content" class="body">
+    {{ page.content }}
+</section>
+{% endif %}
+
+
+<section id="content">
+  <h1 style="position: absolute;left:-999999px">{{SITENAME}}</h1>
+  {#
+  {% if pages|length %}
+  <h2>Páginas</h2>
+  <ul>
+  {% for page in pages %}
+      <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+  #}
+  <h2>Categorías</h2>
+  <ul>
+  {% for tag, articles in categories|sort %}
+      <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+  {% endfor %}
+  </ul>
+  {% if tags|length %}
+  <h2>Etiquetas</h2>
+  <ul>
+  {% for tag, articles in tags|sort %}
+      {% set total = articles|count %}
+      {% if total > 1 %}
+      <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ total }})</li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+
+{% endblock %}

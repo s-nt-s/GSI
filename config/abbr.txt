@@ -1,0 +1,120 @@
+r'[eE]IDAS'
+Sistema europeo de reconocimiento de identidades electrónicas
+
+Reglamento (UE) 2016/679, de 27 de abril
+https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807
+Protección de datos
+
+ENS
+Esquema Nacional de Seguridad
+
+ENI
+Esquema Nacional de Interoperabilidad
+
+CCN
+Centro Criptológico Nacional
+
+STIC
+Servicio de las Tecnologías de la Información y de las Comunicaciones
+
+r'Ley 19/2013,?( de 9 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
+Ley de Transparencia
+
+UITS
+Unidades de Información y Transparencia
+
+r'Ley Orgánica 3/2007,?( de 22 de marzo)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115
+Igualdad de entre mujeres y hombres
+
+r'Ley Orgánica 1/2004,?( de 28 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760
+Violencia de género
+
+UML
+Lenguaje de modelado unificado
+
+OLAP
+Procesamiento analítico en línea
+
+SAN
+Red de área de almacenamiento
+
+NAS
+Almacenamiento conectado en red
+
+DAS
+Almacenamiento de conexión directa
+
+SNMP
+Protocolo simple de administración de red
+
+UX
+Experiencia de Usuario
+
+MPLS
+Conmutación de etiquetas multiprotocolo​
+
+QOS
+Calidad de servicio
+
+IoT
+Internet de las Cosas
+
+r'[xX]DSL'
+x - línea de abonado digital (DSL)
+
+NGN
+Redes de nueva generación
+
+IMS
+IP Multimedia Subsystem
+
+VoIP
+Voz sobre protocolo de internet
+
+ToIP
+Voz sobre protocolo de internet
+
+DECT
+Telecomunicaciones Inalámbricas Mejoradas Digitalmente
+
+MDM
+Gestión de dispositivos móviles
+
+r'[Mm]odelo TCP/IP'
+https://es.wikipedia.org/wiki/Modelo_TCP/IP
+Modelo TCP/IP
+
+r'([Aa]rquitectura )?ANSI/SPARC'
+https://es.wikipedia.org/wiki/Arquitectura_ANSI-SPARC
+Arquitectura ANSI-SPARC
+
+SGML
+Lenguaje de marcado generalizado estándar
+
+MAGERIT
+https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html
+Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información
+
+IVR
+Respuesta de voz interactiva
+
+CRM
+Gestión o Administración de Relaciones con el Cliente
+
+Trunking
+https://es.wikipedia.org/wiki/Trunking
+
+OLTP
+Procesamiento de Transacciones En Línea
+
+SEO
+Posicionamiento en buscadores
+
+ODBC
+Open DataBase Connectivity
+
+JDBC
+Java Database Connectivity

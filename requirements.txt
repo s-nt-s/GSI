@@ -1,6 +1,7 @@
-beautifulsoup4==4.9.3
-lxml==4.6.3
+beautifulsoup4==4.7.1
+joblib==0.13.2
+lxml==4.6.2
+Markdown==3.0.1
+pelican==4.0.1
+PyYAML==5.1
 requests==2.20.0
-roman==3.0
-selenium==3.141.0
-WeasyPrint==0.42.3

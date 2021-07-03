@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block header %}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+  <li><a href="{{ SITEURL }}/">{{ SITENAME }}</a></li>
+  <li>{{ page.title }}</li>
+  </ol>
+</nav>
+{%if page.summary %}{{page.summary}}{%endif%}
+{%endblock%}
+
+{% block content %}
+<section id="content" class="body">
+    {{ page.content }}
+</section>
+{% endblock %}

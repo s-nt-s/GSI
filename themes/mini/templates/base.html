@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  {% set page_or_article = (page or article) %}
+  {% if page_or_article and page_or_article.meta %}
+  {% for key, value in page_or_article.meta.items() %}
+    <meta content="{{value}}" name="{{key}}"/>
+  {% endfor %}
+  {% endif %}
+  <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/print.css" media="print" />
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/custom.css" />
+  {% if FEED_ALL_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+  {% endif %}
+  {% if FEED_ALL_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+  {% endif %}
+</head>
+
+{% set body_class = "" %}
+{% if page_or_article %}
+{% set body_class = page_or_article.body_class %}
+{% endif %}
+{%set CURRENT_URL = SITEURL + "/" + output_file | replace("/index.html", "") %}
+<body id="index" class="home {{body_class}}">
+  <header id="banner" class="body">
+    {% block header %}
+    {%endblock%}
+  </header>
+  <main>
+  {% block content %}
+  {% endblock %}
+  </main>
+  <footer id="extras" class="body">
+    <p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a>
+      sobre
+      {% if page_or_article %}
+          {% set source = page_or_article.source_path[LEN_CUR_DIR:] %}
+          su código <a href="{{ SOURCE_URL }}/{{ source }}">Markdown</a> o
+      {% endif %}
+      {% set source =  self._TemplateReference__context.name %}
+      su <a href="{{ SOURCE_URL }}/{{ THEME[LEN_CUR_DIR:] }}/templates/{{source}}">template</a>.
+    <p>
+    <p>Tambien puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="{{GITHUB_URL}}/issues">issue</a>.</p>
+    {% if page_or_article and page_or_article.summary and "propiedad de" in page_or_article.summary %}
+    {{ page_or_article.summary }}
+    {%else%}
+    <p>
+      <a class="logo" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" style="vertical-align: top;">
+        <img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+      Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+    {%endif%}
+  </footer>
+</body>
+</html>

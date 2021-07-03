@@ -8,6 +8,12 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 OUTFILE=$(realpath "$OUTFILE")
+if [ ! -f "$1" ]; then
+  TITLE="$1"
+  shift
+else
+  TITLE="$@"
+fi
 source "$(dirname "$0")/func.sh"
 
 if [[ $OUTFILE == *.html ]]; then
@@ -16,11 +22,28 @@ if [[ $OUTFILE == *.html ]]; then
 <html>
 <head>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <title>'"$@"'</title>
+ <title>'"$TITLE"'</title>
 </head>
 <body>
 ' >> "$OUTFILE"
+elif [[ $OUTFILE == *.md ]]; then
+  echo '
+---
+title: '"$TITLE"'
+---' >> "$OUTFILE"
 fi
+
+ctn=0
+if [ "$#" -gt 1 ]; then
+  for ZP in "$@";do
+    ctn=$((ctn+1))
+    BZP=$(basename "$ZP")
+    echo "* [$BZP](#z${ctn})" >> "$OUTFILE"
+  done
+  echo "" >> "$OUTFILE"
+fi
+ctn=0
+
 
 for ZP in "$@";do
   if [ -z "$ZP" ] || [ ! -f "$ZP" ]; then
@@ -57,6 +80,20 @@ for ZP in "$@";do
   if [[ $OUTFILE == *.txt ]]; then
     echo $BZP >> "$OUTFILE"
     tree -I '000 Resumenes' | head -n-1 | tail -n+2 >> "$OUTFILE"
+  elif [[ $OUTFILE == *.md ]]; then
+    echo "" >> "$OUTFILE"
+    if [ "$#" -eq 1 ]; then
+      echo "# $BZP" >> "$OUTFILE"
+    else
+      ctn=$((ctn+1))
+      echo "# $BZP {#z${ctn}}" >> "$OUTFILE"
+    fi
+    echo "" >> "$OUTFILE"
+    echo "<pre><code>" >> "$OUTFILE"
+    #echo '```' >> "$OUTFILE"
+    tree -I '000 Resumenes' | head -n-1 | tail -n+2 >> "$OUTFILE"
+    #echo '```' >> "$OUTFILE"
+    echo "</code></pre>" >> "$OUTFILE"
   elif [[ $OUTFILE == *.html ]]; then
     #echo "<h1>$BZP</h1>" >> "$OUTFILE"
     echo "<pre><code>" >> "$OUTFILE"

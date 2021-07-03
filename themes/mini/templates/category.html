@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block title %}{{ SITENAME }} - {{ category }}{% endblock %}
+
+{% block header %}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+  <li><a href="{{ SITEURL }}/">{{ SITENAME }}</a></li>
+  <li>{{ category }}</li>
+  </ol>
+</nav>
+{%endblock%}
