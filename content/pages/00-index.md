@@ -1,6 +1,8 @@
+---
 Title: HOME
 Status: published
 template: map
+---
 
 El objetivo de este proyecto es recolectar y generar materiales para preparar las
 [oposiciones GSI](https://www.inap.es/cuerpo-de-gestion-de-sistemas-e-informatica-de-la-administracion-del-estado),
