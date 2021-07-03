@@ -1,6 +1,6 @@
 beautifulsoup4==4.7.1
 joblib==0.13.2
-lxml==4.6.2
+lxml==4.6.3
 Markdown==3.0.1
 pelican==4.0.1
 PyYAML==5.4
