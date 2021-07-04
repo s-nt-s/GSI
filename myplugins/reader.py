@@ -71,7 +71,7 @@ class MyReader(MarkReader):
                 metadata['version'][t.upper()]=filebase+t
 
         html = bs4.BeautifulSoup(output, "lxml")
-        content = metadata['title'] + "\n" + html.get_text()
+        content = str(metadata['title']) + "\n" + html.get_text()
         tags = get_tags(content)
         remove_tags = set()
         for t in metadata.get("tags", []):

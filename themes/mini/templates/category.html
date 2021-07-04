@@ -9,3 +9,9 @@
   </ol>
 </nav>
 {%endblock%}
+
+{% block beforecontent %}
+{% if category.description %}
+{{category.description}}
+{% endif %}
+{%endblock%}

@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.append('.')
 
-from myplugins import reader, replacements, mod_html, set_count, mod_content
+from myplugins import reader, replacements, mod_html, set_count, mod_content, category_meta
 from myplugins.jinja_filters import JINJA_FILTERS
 
 sys.path.append('.')
@@ -151,9 +151,11 @@ def PAGE_SAVE_AS(metadata):
 ARTICLE_LANG_SAVE_AS=ARTICLE_SAVE_AS
 ARTICLE_LANG_URL=ARTICLE_URL
 
-USE_FOLDER_AS_CATEGORY = True
+#USE_FOLDER_AS_CATEGORY = True
 #FILENAME_METADATA = '(?P<slug>.*)'
 FILENAME_METADATA = '([^-]+-)?(?P<slug>.*)'
+PATH_METADATA = '[^\/]+/(?P<category>[^/]+).*/([^-]+-)?(?P<slug>[^\.-]+)\.[^\.]+'
+
 ARTICLE_ORDER_BY = 'source_path'
 PAGE_ORDER_BY = 'source_path'
 
@@ -190,4 +192,4 @@ THEME = cur_dir + '/themes/notmyidea-custom'
 THEME = cur_dir + '/themes/mini'
 
 REPLACEMENTS_CONFIG = cur_dir + "/config/replacements.yml"
-PLUGINS = [reader, replacements, mod_html, set_count, mod_content]
+PLUGINS = [reader, replacements, mod_html, set_count, mod_content, category_meta]
