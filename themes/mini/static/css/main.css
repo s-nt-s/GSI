@@ -6,15 +6,22 @@ body {
   margin: 0;
 }
 main {
-  margin: 8px;
+  margin: 0;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 header, footer {
+  margin: 0;
   padding: 1em;
   clear: both;
-  margin: 0px;
   color: #fff !important;
   background-color: #3a3a3a !important;
 }
+body > * {
+  max-width: 1000px;
+  margin: auto;
+}
+
 footer {
   margin-top: 16px !important;
 }
@@ -94,26 +101,4 @@ td > p:last-child, td > p:last-child {
 }
 tr > td:first-child {
 	white-space: nowrap;
-}
-.rg {
-  text-align: right;
-}
-label:not(.free), span.label {
-	display: inline-block;
-	min-width: 7em;
-}
-select, input[type=number] {
-	width: 6em;
-}
-input[type=number] {
-	text-align: right;
-}
-.dosDecimales span.nm.dc0:after {
-  content: ",00"
-}
-.dosDecimales span.nm.dc1:after {
-  content: "0"
-}
-.dosEnteros span.en1:before {
-  content: " "
 }
