@@ -7,7 +7,7 @@ title: Equivalencia Packs - GSI
 * `Pack1` hace referencia [al Pack1](http://www.preparatic.org/2020/11/14/disponible-el-pack-1-de-preparatic26/) de Preparatic27 ([ver contenido](tree/pack1.txt)).<br/>
 Muchos de ellos tienen [una versión en audio](http://www.preparatic.org/2019/05/21/audioapuntes-para-el-pack1-del-preparatic26/) en Preparatic26 ([ver contenido](tree/pack1.audio.txt)).
 * `Pack3` hace referencia a [los materiales del Pack1](http://www.preparatic.org/2021/03/25/disponibles-los-materiales-del-pack3-preparatic27/) de Preparatic27 ([ver contenido](tree/pack3.materiales.txt)).<br/>
-Tambien puede interesar [los volcados](http://www.preparatic.org/2021/01/24/disponible-volcados-pack3-de-preparatic27/) de dicho pack ([ver contenido](tree/pack3.volcados.txt)).
+También puede interesar [los volcados](http://www.preparatic.org/2021/01/24/disponible-volcados-pack3-de-preparatic27/) de dicho pack ([ver contenido](tree/pack3.volcados.txt)).
 
 Nota: Los contenidos de [Preparatic27](http://www.preparatic.org/) corresponden al [temario CSSTIC (BOE-A-2020-8872 - Anexo II)](https://boe.es/diario_boe/txt.php?id=BOE-A-2020-8872)
 

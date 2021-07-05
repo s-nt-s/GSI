@@ -5,6 +5,21 @@ from pelican import signals
 from pathlib import Path
 from munch import DefaultMunch, Munch
 import re
+from urllib.parse import urlparse
+from textwrap import dedent
+import bs4
+import requests
+import re
+
+re_sp = re.compile(r"\s+")
+
+def readyaml(file):
+    with open(file, 'r') as stream:
+        r = yaml.load_all(stream, Loader=yaml.FullLoader)
+        r = list(r)
+        if len(r)==1:
+            return r[0]
+        return r
 
 def readlines(file):
     last_line = None
@@ -16,6 +31,22 @@ def readlines(file):
             last_line = l
     if last_line not in ("", None):
         yield ""
+
+def get_soup(url):
+    r = requests.get(url)
+    soup = bs4.BeautifulSoup(r.content, "lxml")
+    return soup
+
+def get_title(url):
+    dom = urlparse(url).netloc
+    if dom == "dpej.rae.es":
+        soup = get_soup(url)
+        title = soup.select_one("span.field-name-field-definicion")
+        if title:
+            title = re_sp.sub(" ",title.get_text()).strip()
+            if title:
+                return title
+
 
 def readabbr(file):
     r = []
@@ -33,14 +64,27 @@ def readabbr(file):
             abbr.url = l
             continue
         abbr.title = l
+    chg = False
     for abbr in r:
         if abbr.url:
+            if abbr.title is None:
+                abbr.title = get_title(abbr.url)
+                chg = chg or (abbr.title is not None)
             if abbr.title:
                 abbr.new_text = '[\\1]({url} "{title}")'.format(**dict(abbr))+'{: .abbr}'
             else:
                 abbr.new_text = '[\\1]({url})'.format(**dict(abbr))
         else:
             abbr.new_text = '<abbr title="{title}">\\1</abbr>'.format(**dict(abbr))
+    if chg is True:
+        with open(file, "w") as f:
+            for a in r:
+                f.write(a.text+"\n")
+                if a.url:
+                    f.write(a.url+"\n")
+                if a.title:
+                    f.write(a.title+"\n")
+                f.write("\n")
     return r
 
 class Replace:
@@ -48,12 +92,34 @@ class Replace:
         self.replacements = replacements
         self.delimiter = delimiter
         self.abbr = abbr
+        self.re_az = re.compile(r"\w")
         for abbr in self.abbr:
             if abbr.re is None:
-                if len(abbr.text)>3 and abbr.text[0:2] in ("r'", 'r"'):
-                    abbr.re = re.compile(r"\b("+abbr.text[2:-1]+r")\b")
-                else:
-                    abbr.re = re.compile(r"\b(" + re.escape(abbr.text)+ r")\b")
+                abbr.re = self.get_re(abbr.text)
+
+    def get_limits(self, text):
+        a, z = ("(", ")")
+        aux = str(text)
+        for i in "([])?":
+            aux = aux.replace(i, "")
+        if self.re_az.match(aux[0]):
+            a = r"\b"+a
+        if self.re_az.match(aux[-1]):
+            z = z+r"\b"
+        return a, z
+
+    def get_re(self, text):
+        if len(text)>3 and text[0:2] in ("r'", 'r"'):
+            text = text[2:-1]
+            a, z = self.get_limits(text)
+            return re.compile(a+text+z)
+        a, z = self.get_limits(text)
+        if len(text)>5 and text.upper()!=text:
+            lw = text[0].lower()
+            up = text[0].upper()
+            if lw != up:
+                re.compile(a+r"["+lw+up+r"]"+ re.escape(text[1:])+ z)
+        return re.compile(a + re.escape(text)+ z)
 
     def rpl(self, txt):
         fake_sep = "@#~½$"
@@ -97,8 +163,7 @@ class ExReplace(Extension):
 def process_settings(pelican_object):
     config_file = Path(pelican_object.settings['REPLACEMENTS_CONFIG'])
     relativeURL = pelican_object.settings.get("RELATIVE_URLS", False)
-    with open(config_file, 'r') as stream:
-        replacements = yaml.load(stream, Loader=yaml.FullLoader)
+    replacements = readyaml(config_file)
     if 'PELICAN_SETTINGS' in replacements:
         pSettings = replacements['PELICAN_SETTINGS']
         del replacements['PELICAN_SETTINGS']

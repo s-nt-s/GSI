@@ -4,3 +4,32 @@ body.packtree h1 {
 body.packtree pre {
   margin-top: 0;
 }
+
+fieldset.firma_ades {
+  width: 0;
+}
+fieldset.firma_ades legend {
+  margin: 0 0 0 auto;
+  font-weight: bold;
+}
+fieldset.firma_ades p {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0px;
+}
+fieldset.firma_ades div {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto 7em;
+}
+/*
+fieldset.firma_ades fieldset.firma_ades_leaf {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 6em 6em 6em 6em 6em;
+}
+*/
+fieldset.firma_ades_leaf p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

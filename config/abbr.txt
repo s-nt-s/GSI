@@ -297,3 +297,7 @@ Llibrería para la integración de una aplicación con los servicios WS de @Firm
 FIRe
 https://administracionelectronica.gob.es/ctt/fire
 Solución que simplifica el uso y realización de firmas electrónicas de usuario
+
+VALIDe
+https://administracionelectronica.gob.es/ctt/valide
+Servicio de Validación de Firmas y Certificados Online
