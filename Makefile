@@ -67,7 +67,13 @@ help:
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-run: clean html serve
+undraft:
+	find $(INPUTDIR) -name "*.md" -exec sed 's/^Status: draft$$/fakeStatus: draft/i' -i "{}" +
+
+redraft:
+	find $(INPUTDIR) -name "*.md" -exec sed 's/^fakeStatus: draft$$/Status: draft/i' -i "{}" +
+
+run: clean undraft html redraft serve
 
 validate:
 	html5validator --root $(OUTPUTDIR)
