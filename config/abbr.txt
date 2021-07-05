@@ -6,6 +6,10 @@ r'[Rr]eglamento UE 910/2014'
 https://boe.es/buscar/doc.php?id=DOUE-L-2014-81822
 Identificación electrónica y servicios de confianza
 
+Decisión de ejecución UE 910/2014
+https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv%3AOJ.L_.2015.235.01.0037.01.SPA
+Formatos de firmas electrónicas avanzadas y sellos avanzados que deben reconocer el sector público
+
 r'[Ll]ey 19/2013(, de 9 de diciembre)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
 Ley de Transparencia
@@ -22,7 +26,7 @@ r'[sS]sello( electrónica)? avanzado'
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-avanzado
 Sello electrónico que cumple los siguientes requisitos: a) estar vinculado al creador del sello de manera única; b) permitir la identificación del creador del sello; c) haber sido creado utilizando datos con un alto nivel de confianza, bajo su control exclusivo, y estar vinculado con los datos a que se refiere de modo tal que cualquier modificación ulterior de los mismos sea detectable.
 
-r'[sS]sello( electrónica)? cualificado'
+r'[sS]ello( electrónica)? cualificado'
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-cualificado
 Sello electrónico avanzado que se crea mediante un dispositivo cualificado de creación de sellos electrónicos y que se basa en un certificado cualificado de sello electrónico.
 
@@ -42,6 +46,9 @@ r'[Ff]irma( electrónica)? reconocida'
 https://dpej.rae.es/lema/firma-electr%C3%B3nica-reconocida
 Firma electrónica avanzada basada en un certificado reconocido y generada mediante un dispositivo seguro de creación de firma.
 
+r'[cC]ertificado( electrónico)? reconocido( electrónico)?'
+https://dpej.rae.es/lema/certificado-electr%C3%B3nico-reconocido
+Documento firmado electrónicamente por un prestador de servicios de certificación que vincula unos datos de verificación de firma a un firmante y confirma su identidad.
 
 r'[eE]IDAS'
 Sistema europeo de reconocimiento de identidades electrónicas
@@ -202,6 +209,10 @@ Privacy Enhanced Mail
 r'(notación )?DN'
 Nombre distinguido (usado en LDAP y X.509)
 
+LDAP
+https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios
+Protocolo ligero de acceso a directorios
+
 OCSP
 https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol
 Protocolo de comprobación del Estado de un Certificado En línea
@@ -255,3 +266,34 @@ Contenedores de firmas asociadas
 r'PSCs?'
 https://es.wikipedia.org/wiki/Prestador_de_servicios_de_certificaci%C3%B3n
 Prestador de servicios de certificación
+
+TSL
+https://sede.serviciosmin.gob.es/prestadores/paginas/inicio.aspx
+Lista de confianza de prestadores cualificados de servicios electrónicos de confianza
+
+EEMM
+Estado miembro
+
+Cl@ve
+https://clave.gob.es/clave_Home/clave/queEs.html
+Sistema orientado a unificar y simplificar el acceso electrónico de los ciudadanos a los servicios públicos
+
+r'@[Ff]irma'
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Servicios_Comunes_Firma_Electronica/FAQ-AFIRMA.html
+Solución tecnológica en la que se basa la Plataforma de validación y firma electrónica
+
+TS@
+https://administracionelectronica.gob.es/ctt/tsa
+Plataforma de Sellado de Tiempo TS@
+
+Autofirma
+https://firmaelectronica.gob.es/Home/Descargas.html
+Aplicación de firma electrónica
+
+Integr@
+https://administracionelectronica.gob.es/ctt/integra
+Llibrería para la integración de una aplicación con los servicios WS de @Firma
+
+FIRe
+https://administracionelectronica.gob.es/ctt/fire
+Solución que simplifica el uso y realización de firmas electrónicas de usuario
