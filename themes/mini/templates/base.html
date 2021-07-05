@@ -51,6 +51,9 @@
       {% if page_or_article %}
           {% set source = page_or_article.source_path[LEN_CUR_DIR:] %}
           su código <a href="{{ SOURCE_URL }}/{{ source }}">Markdown</a> o
+      {% elif category and category.source_path %}
+          {% set source = category.source_path[LEN_CUR_DIR:] %}
+          su código <a href="{{ SOURCE_URL }}/{{ source }}">Markdown</a> o
       {% endif %}
       {% set source =  self._TemplateReference__context.name %}
       su <a href="{{ SOURCE_URL }}/{{ THEME[LEN_CUR_DIR:] }}/templates/{{source}}">template</a>.

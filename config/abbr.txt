@@ -118,3 +118,83 @@ Open DataBase Connectivity
 
 JDBC
 Java Database Connectivity
+
+PKI
+Infraestructura de clave pública
+
+r'Ley 39/2015,?( de 1 de octubre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
+Procedimiento Administrativo Común de las Administraciones Públicas
+
+ITU-T
+https://es.wikipedia.org/wiki/Sector_de_Normalizaci%C3%B3n_de_las_Telecomunicaciones_de_la_UIT
+Comité Consultivo Internacional Telegráfico y Telefónico
+
+r'(rfc|RFC) *(\d+)'
+https://www.ietf.org/rfc/rfc\3.txt
+
+r'CRLs?'
+https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados
+Listas de revocación de certificados
+
+r'(AC|CA)s?'
+https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n
+Autoridad de certificación
+
+VA
+https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n
+Autoridad de Validación
+
+RA
+https://es.wikipedia.org/wiki/Autoridad_de_registro
+Autoridad de Registro
+
+IETF
+Grupo de Trabajo de Ingeniería de Internet
+
+PKIX
+https://es.wikipedia.org/wiki/X.509
+También conocido como X.509
+
+X.509
+https://es.wikipedia.org/wiki/X.509
+También conocido como PKIX
+
+ASN.1
+https://es.wikipedia.org/wiki/ASN.1
+Notación sintáctica abstracta 1
+
+DER
+Reglas de Codificación Distinguidas
+
+PEM
+Privacy Enhanced Mail
+
+r'(notación )?DN'
+Nombre distinguido (usado en LDAP y X.509)
+
+OCSP
+https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol
+Protocolo de comprobación del Estado de un Certificado En línea
+
+SAN
+https://en.wikipedia.org/wiki/Subject_Alternative_Name
+Subject Alternative Name
+
+r'Key ?Usage'
+https://ldapwiki.com/wiki/KeyUsage
+
+CDP
+Punto de distribución de CRL
+
+PKCS
+https://es.wikipedia.org/wiki/PKCS
+Estándar de criptografía de clave pública
+
+CMS
+https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax
+Cryptographic Message Syntax
+
+CAdES
+https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)
+Firmas Electrónicas Avanzadas CMS

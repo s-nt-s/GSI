@@ -43,6 +43,7 @@ def make_category(article, slug):
     # Description from article text.
     # XXX Relative URLs in the article content may not be handled correctly.
     setattr(category, 'description', article.content)
+    setattr(category, 'source_path', article.source_path)
 
     # Metadata, to the extent that this makes sense.
     for k, v in article.metadata.items():

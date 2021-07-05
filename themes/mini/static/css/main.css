@@ -47,6 +47,12 @@ nav.breadcrumb ol {
   list-style: none;
 }
 
+main ul, main ol {
+  padding-left: 30px;
+  margin-left: 0;
+}
+
+
 nav.breadcrumb li {
   display: inline;
 }
@@ -101,4 +107,10 @@ td > p:last-child, td > p:last-child {
 }
 tr > td:first-child {
 	white-space: nowrap;
+}
+
+h1 { font-size: 2em }
+a.abbr {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }

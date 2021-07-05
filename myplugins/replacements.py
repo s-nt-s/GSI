@@ -36,7 +36,7 @@ def readabbr(file):
     for abbr in r:
         if abbr.url:
             if abbr.title:
-                abbr.new_text = '[\\1]({url} "{title}")'.format(**dict(abbr))
+                abbr.new_text = '[\\1]({url} "{title}")'.format(**dict(abbr))+'{: .abbr}'
             else:
                 abbr.new_text = '[\\1]({url})'.format(**dict(abbr))
         else:
@@ -56,10 +56,17 @@ class Replace:
                     abbr.re = re.compile(r"\b(" + re.escape(abbr.text)+ r")\b")
 
     def rpl(self, txt):
+        fake_sep = "@#~½$"
+        def fake_sub(r, n, x):
+            x = r.sub(n, x.group(0))
+            x = fake_sep.join(list(x))
+            return x
         for key, value in self.replacements.items():
             txt = txt.replace(self.delimiter + key + self.delimiter, value)
         for abbr in self.abbr:
-            txt = abbr.re.sub(abbr.new_text, txt)
+            #txt = abbr.re.sub(abbr.new_text, txt)
+            txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
+        txt = txt.replace(fake_sep, "")
         return txt
 
 
@@ -71,6 +78,8 @@ class MkReplace(Preprocessor):
     def run(self, lines):
         for i, line in enumerate(lines):
             if line.strip() and not line.startswith("wzxhzdk"):
+                if line == "---":
+                    break
                 lines[i]=self.replace.rpl(line)
         return lines
 
