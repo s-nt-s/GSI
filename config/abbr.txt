@@ -1,9 +1,50 @@
-r'[eE]IDAS'
-Sistema europeo de reconocimiento de identidades electrónicas
-
-Reglamento (UE) 2016/679, de 27 de abril
+r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
 https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807
 Protección de datos
+
+r'[Rr]eglamento UE 910/2014'
+https://boe.es/buscar/doc.php?id=DOUE-L-2014-81822
+Identificación electrónica y servicios de confianza
+
+r'[Ll]ey 19/2013(, de 9 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
+Ley de Transparencia
+
+r'[Ll]ey [Oo]rgánica 3/2007(, de 22 de marzo)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115
+Igualdad de entre mujeres y hombres
+
+r'[Ll]ey [Oo]rgánica 1/2004(, de 28 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760
+Violencia de género
+
+r'[sS]sello( electrónica)? avanzado'
+https://dpej.rae.es/lema/sello-electr%C3%B3nico-avanzado
+Sello electrónico que cumple los siguientes requisitos: a) estar vinculado al creador del sello de manera única; b) permitir la identificación del creador del sello; c) haber sido creado utilizando datos con un alto nivel de confianza, bajo su control exclusivo, y estar vinculado con los datos a que se refiere de modo tal que cualquier modificación ulterior de los mismos sea detectable.
+
+r'[sS]sello( electrónica)? cualificado'
+https://dpej.rae.es/lema/sello-electr%C3%B3nico-cualificado
+Sello electrónico avanzado que se crea mediante un dispositivo cualificado de creación de sellos electrónicos y que se basa en un certificado cualificado de sello electrónico.
+
+r'[sS]ello( electrónica)? de tiempo( electrónico)?'
+https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo
+Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.
+
+sello electrónico
+https://dpej.rae.es/lema/sello-electr%C3%B3nico
+Datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.
+
+r'[Ff]irma( electrónica)? avanzada'
+https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada
+Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.
+
+r'[Ff]irma( electrónica)? reconocida'
+https://dpej.rae.es/lema/firma-electr%C3%B3nica-reconocida
+Firma electrónica avanzada basada en un certificado reconocido y generada mediante un dispositivo seguro de creación de firma.
+
+
+r'[eE]IDAS'
+Sistema europeo de reconocimiento de identidades electrónicas
 
 ENS
 Esquema Nacional de Seguridad
@@ -17,20 +58,8 @@ Centro Criptológico Nacional
 STIC
 Servicio de las Tecnologías de la Información y de las Comunicaciones
 
-r'Ley 19/2013,?( de 9 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
-Ley de Transparencia
-
 UITS
 Unidades de Información y Transparencia
-
-r'Ley Orgánica 3/2007,?( de 22 de marzo)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115
-Igualdad de entre mujeres y hombres
-
-r'Ley Orgánica 1/2004,?( de 28 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760
-Violencia de género
 
 UML
 Lenguaje de modelado unificado
@@ -198,3 +227,31 @@ Cryptographic Message Syntax
 CAdES
 https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)
 Firmas Electrónicas Avanzadas CMS
+
+r'(XMLDsig|DSig XML|XML-Sig)'
+https://es.wikipedia.org/wiki/Firma_XML
+Firma XML
+
+XAdES
+https://es.wikipedia.org/wiki/Xades
+Firma electrónica avanzada XML
+
+AdES
+https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_avanzada
+Firma electrónica avanzada
+
+PAdES
+https://es.wikipedia.org/wiki/PAdES
+Firmas Electrónicas Avanzadas de PDF
+
+S/MIME
+https://es.wikipedia.org/wiki/S/MIME
+Extensiones de Correo de Internet de Propósitos Múltiples / Seguro
+
+ASiC
+https://es.wikipedia.org/wiki/Contenedores_de_firmas_asociadas
+Contenedores de firmas asociadas
+
+r'PSCs?'
+https://es.wikipedia.org/wiki/Prestador_de_servicios_de_certificaci%C3%B3n
+Prestador de servicios de certificación
