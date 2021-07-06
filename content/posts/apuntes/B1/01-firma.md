@@ -33,122 +33,11 @@ el certificado que se usó para el sello de tiempo.
 un sitio web y lo vincula a la persona física o jurídica a quien se
 ha expedido el certificado
 
-# Conceptos eIDAS
-
-Del cumplimiento del **eIDAS** (reglamento UE 910/2014) se derivan las siguientes
-definiciones:
-
-**Firma avanzada**: firma electrónica que cumple los requisitos:
-
-* estar vinculada al firmante de manera única
-* permitir la identificación del firmante
-* haber sido creada utilizando datos de creación de la firma electrónica que el firmante puede utilizar,
-con un alto nivel de confianza, bajo su control exclusivo
-* estar vinculada con los datos firmados por la misma de modo tal que cualquier modificación ulterior
-de los mismos sea detectable
-
-**Firma electrónica cualificada**: firma electrónica avanzada que se crea
-mediante un dispositivo cualificado de creación de firmas electrónicas
-y que se basa en un certificado cualificado de firma electrónica.
-A efectos jurídicos este tipo de firma:
-
-* tendrá un efecto equivalente al de una firma manuscrita
-* y si además esta basada en un certificado cualificado emitido en un estado
-miembro será reconocida como una firma electrónica cualificada
-en todos los demás Estados miembros.
-
-**Dispositivo cualificado de creación de firma electrónica**:
-dispositivo de creación de firmas electrónicas que cumple los requisitos:
-
-* estar garantizada razonablemente la confidencialidad de los datos de creación
-de firma electrónica utilizados para la creación de firmas electrónicas
-* los datos de creación de firma electrónica utilizados para la creación de
-firma electrónica solo puedan aparecer una vez en la práctica
-* existe la seguridad razonable de que los datos de creación de firma electrónica utilizados para la
-creación de firma electrónica no pueden ser hallados por deducción y de que la firma está protegida
-con seguridad contra la falsificación mediante la tecnología disponible en el momento
-* los datos de creación de la firma electrónica utilizados para la creación de firma electrónica puedan
-ser protegidos por el firmante legítimo de forma fiable frente a su utilización por otros
-
-**Certificado cualificado de firma electrónica**: certificado de firma electrónica
-que ha sido expedido por un prestador cualificado de servicios de confianza
-y que cumple, entre otros, los requisitos siguientes:
-
-* Indicar si ha sido expedido como certificado cualificado
-* Indicar si los datos de validación se encuentran en un dispositivo cualificado
-de firma.
-* Contener el nombre del firmante o, en su caso, un seudónimo claramente establecido como tal
-
-**Sello cualificado de tiempo electrónico**:
-Sello electrónico avanzado que cumple con los siguientes requisitos:
-
-* Vincular la fecha y hora con los datos de forma que se elimine
-la posibilidad de modificar los datos sin que se detecte.
-* Basarse en una fuente de información temporal vinculada al Tiempo Universal Coordinado.
-* Haber sido firmada mediante el uso de firma electrónica avanzada o sellada
-con un sello electrónico avanzado del prestador cualificado de servicios de
-confianza o por cualquier método equivalente.
-
-Un **certificado cualificado de sello electrónico** debe contener al menos,
-el nombre del creador y, cuando proceda, su número de registro oficial.
-
-**Certificado cualificado de autenticación de sitio web**: Certificado de
-autenticación de sitio web que cumple con los siguientes requisitos:
-
-* se expide a una persona física o jurídica, identificada en el propio certificado
-* deberá aparecer al menos su ciudad y estado
-* contiene el/los nombre/s de dominio explotados por la persona física o
-jurídica a la que se expida el certificado
-
-**Lista de servicios de confianza TSL**: Lista de prestadores de
-servicios de certificación que expiden certificados cualificados.
-Cada EEMM de la UE debe publicar y mantener su lista de Confianza de sus PSC
-supervisados y acreditados.
-
-Los tipos de firma exigidos por el sector público son, de menor a mayor
-nivel de garantía:
-
-1. firma electrónica avanzada
-2. firma electrónica avanzada basada en un certificado cualificada de firma electrónica
-3. firma electrónica cualificada
-
-Siendo normalmente exigido el nivel 1 o 2, y siempre aceptándose cualquier
-certificado de nivel superior al exigido pero nunca exigiendo una firma
-superior a la cualificada.
-
-En la decisión de ejecución UE 910/2014 se establece que los formatos de firmas
-electrónicas avanzadas y sellos avanzados que deben reconocer el sector público
-son XAdES, CAdES o PAdES en niveles de conformidad B, T o LT (XL), y los
-contenedores ASiC.
-
-Adicionalmente, los sistemas de **clave concertada** se aceptan como sistema de
-identificación en el Art. 9 de la Ley 39/2015 y se basan en el registro previo del usuario,
-durante el cual se acuerda una clave a usar con el proveedor y que garantiza la
-identidad del usuario, sin ser necesario un certificado electrónico.  
-Un ejemplo sería Cl@ve Permanente o cualquier otro sistema de usuario-contraseña.
-
-En la resolución de 14 de julio de 2017 de la SGAD se establece que el uso de
-firma electrónica no criptográfica ha de garantizar igualmente la autenticidad,
-integridad y no repudio cumpliendo lo siguiente:
-
-* Utilizar un sello electrónico cualificado del organismo que incluya un sello
-de tiempo
-* Garantizar la autenticidad del firmante vía Cl@ve
-* Recoger evidencias para la verificación de identidad. Dichas evidencias también
-han de sellarse
-* Devolver un justificante CSV verificable en sede
-* Incluir un campo check para que el interesado exprese consentimiento y voluntad
-de firma
-
-# Ampliación de conceptos tecnológicos
-
-## Clave pública/privada y tercero de confianza
+## Clave pública/privada (PKI) y tercero de confianza
 
 * **Clave privada**: Parte que se utiliza para firmar y no se debe compartir
 * **Clave pública**: Parte que se comparte para que el receptor pueda desencriptar
 y verificar que el emisor posee la clave privada.
-* **Tercero de confianza**: Actor externo que acredita que la clave realmente
-es de quien dice ser.
 
 Pasos para realizar una firma y verificarla en el receptor:
 
@@ -159,6 +48,20 @@ Pasos para realizar una firma y verificarla en el receptor:
 5. Se utiliza la clave pública del emisor para desencriptar la firma
 6. Se compara el hash calculado con el desencriptado,
 si coinciden se ha mantenido la integridad y se garantiza el no repudio
+
+**Tercero de confianza**: Actor externo que, aportando su firma, acredita que
+la clave realmente es de quien dice ser. Puede implementarse de dos maneras:
+
+* Redes de confianza: la confianza se asigna de manera descentralizada, siendo
+los propios usuarios los que firmar los certificados de otros usuarios.
+* Autoridades de certificación centralizadas (organizadas de forma jerárquica)
+que gestionan certificados **X.509** firmados por ellos mismos.
+Este modelo se compone de:
+    * Autoridades de certificación (CA): expide, gestiona y revoca los certificados
+    * Autoridad de registro (RA): Auxilia a la CA en el proceso de Verificación
+    de identidad del titular que solicita un certificado a la CA.
+    * Autoridad de validación (VA): Valida el estado de los certificados mediante CLR u OCSP
+    * [Servicio de directorio](https://es.wikipedia.org/wiki/Servicio_de_directorio): empleado por las CAs para almacenamiento y distribución de certificados y CRLs
 
 ## Certificado digital
 
@@ -301,7 +204,121 @@ Esto implementa la *firma longeva*.
   <p>Secuencia de sellados de tiempo</p>
 </div></fieldset>
 
-# Servicios comunes para firma electrónica
+# Regulación y Administración Pública
+
+## Conceptos eIDAS
+
+Del cumplimiento del **eIDAS** (reglamento UE 910/2014) se derivan las siguientes
+definiciones:
+
+**Firma avanzada**: firma electrónica que cumple los requisitos:
+
+* estar vinculada al firmante de manera única
+* permitir la identificación del firmante
+* haber sido creada utilizando datos de creación de la firma electrónica que el firmante puede utilizar,
+con un alto nivel de confianza, bajo su control exclusivo
+* estar vinculada con los datos firmados por la misma de modo tal que cualquier modificación ulterior
+de los mismos sea detectable
+
+**Firma electrónica cualificada**: firma electrónica avanzada que se crea
+mediante un dispositivo cualificado de creación de firmas electrónicas
+y que se basa en un certificado cualificado de firma electrónica.
+A efectos jurídicos este tipo de firma:
+
+* tendrá un efecto equivalente al de una firma manuscrita
+* y si además esta basada en un certificado cualificado emitido en un estado
+miembro será reconocida como una firma electrónica cualificada
+en todos los demás Estados miembros.
+
+**Dispositivo cualificado de creación de firma electrónica**:
+dispositivo de creación de firmas electrónicas que cumple los requisitos:
+
+* estar garantizada razonablemente la confidencialidad de los datos de creación
+de firma electrónica utilizados para la creación de firmas electrónicas
+* los datos de creación de firma electrónica utilizados para la creación de
+firma electrónica solo puedan aparecer una vez en la práctica
+* existe la seguridad razonable de que los datos de creación de firma electrónica utilizados para la
+creación de firma electrónica no pueden ser hallados por deducción y de que la firma está protegida
+con seguridad contra la falsificación mediante la tecnología disponible en el momento
+* los datos de creación de la firma electrónica utilizados para la creación de firma electrónica puedan
+ser protegidos por el firmante legítimo de forma fiable frente a su utilización por otros
+
+**Certificado cualificado de firma electrónica**: certificado de firma electrónica
+que ha sido expedido por un prestador cualificado de servicios de confianza
+y que cumple, entre otros, los requisitos siguientes:
+
+* Indicar si ha sido expedido como certificado cualificado
+* Indicar si los datos de validación se encuentran en un dispositivo cualificado
+de firma.
+* Contener el nombre del firmante o, en su caso, un seudónimo claramente establecido como tal
+
+**Sello cualificado de tiempo electrónico**:
+Sello electrónico avanzado que cumple con los siguientes requisitos:
+
+* Vincular la fecha y hora con los datos de forma que se elimine
+la posibilidad de modificar los datos sin que se detecte.
+* Basarse en una fuente de información temporal vinculada al Tiempo Universal Coordinado.
+* Haber sido firmada mediante el uso de firma electrónica avanzada o sellada
+con un sello electrónico avanzado del prestador cualificado de servicios de
+confianza o por cualquier método equivalente.
+
+Un **certificado cualificado de sello electrónico** debe contener al menos,
+el nombre del creador y, cuando proceda, su número de registro oficial.
+
+**Certificado cualificado de autenticación de sitio web**: Certificado de
+autenticación de sitio web que cumple con los siguientes requisitos:
+
+* se expide a una persona física o jurídica, identificada en el propio certificado
+* deberá aparecer al menos su ciudad y estado
+* contiene el/los nombre/s de dominio explotados por la persona física o
+jurídica a la que se expida el certificado
+
+**Lista de servicios de confianza TSL**: Lista de TSPs que expiden certificados cualificados.
+Cada EEMM de la UE debe publicar y mantener su lista de Confianza de sus PSC
+supervisados y acreditados. Ejemplos del sector público:
+
+* CA de confianza: Ministerio del Interior DGP
+* VA de confianza: FNMT
+* RA de confianza: AEAT, DGP, SegSoc, SocEst Correos y Telégrafos
+
+## Regulación
+
+Los tipos de firma exigidos por el sector público son, de menor a mayor
+nivel de garantía:
+
+1. firma electrónica avanzada
+2. firma electrónica avanzada basada en un certificado cualificada de firma electrónica
+3. firma electrónica cualificada
+
+Siendo normalmente exigido el nivel 1 o 2, y siempre aceptándose cualquier
+certificado de nivel superior al exigido pero nunca exigiendo una firma
+superior a la cualificada.
+
+En la decisión de ejecución UE 910/2014 se establece que **los formatos** de firmas
+electrónicas avanzadas y sellos avanzados **que deben reconocer el sector público**
+son XAdES, CAdES o PAdES en niveles de conformidad B, T o LT (XL), y los
+contenedores ASiC.
+
+Adicionalmente, los sistemas de **clave concertada** se aceptan como sistema de
+identificación en el Art. 9 de la Ley 39/2015 y se basan en el registro previo del usuario,
+durante el cual se acuerda una clave a usar con el proveedor y que garantiza la
+identidad del usuario, sin ser necesario un certificado electrónico.  
+Un ejemplo sería Cl@ve Permanente o cualquier otro sistema de usuario-contraseña.
+
+En la resolución de 14 de julio de 2017 de la SGAD se establece que el uso de
+firma electrónica no criptográfica ha de garantizar igualmente la autenticidad,
+integridad y no repudio cumpliendo lo siguiente:
+
+* Utilizar un sello electrónico cualificado del organismo que incluya un sello
+de tiempo
+* Garantizar la autenticidad del firmante vía Cl@ve
+* Recoger evidencias para la verificación de identidad. Dichas evidencias también
+han de sellarse
+* Devolver un justificante CSV verificable en sede
+* Incluir un campo check para que el interesado exprese consentimiento y voluntad
+de firma
+
+## Servicios comunes para firma electrónica
 
 **Suite @firma**, la cual se copone de:
 
@@ -328,9 +345,11 @@ la nube.
 Bibliografía:
 
 * PreparaTic27 - Pack1/080
+* PreparaTic27 - Pack1/081
 * [www.uv.es - Introducción a los certificados digitales](https://www.uv.es/sto/articulos/BEI-2003-11/certificados_digitales.html)
 * [mozilla.org - OCSP Stapling in Firefox](https://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox/)
 * [wikipedia.org - OCSP stapling](https://en.wikipedia.org/wiki/OCSP_stapling)
 * [blog.signaturit.com - Firma electrónica avanzada, simple o cualificada, ¿sabes distinguirlas?](https://blog.signaturit.com/es/firma-electronica-simple-vs-avanzada)
 * [mineco.gob.es - FAQ Reglamento (UE) Nº 910/2014 y eIDAS](https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/preguntas-frecuentes.aspx)
 * [Cl@ve - definiciones](https://clave.gob.es/clave_Home/dnin/definiciones.html)
+* [serviciosmin.gob.es - Prestadores de servicios electrónicos de confianza](https://sede.serviciosmin.gob.es/es-es/firmaelectronica/paginas/Prestadores-de-servicios-electronicos-de-confianza.aspx)

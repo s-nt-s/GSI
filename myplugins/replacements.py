@@ -37,8 +37,16 @@ def get_soup(url):
     soup = bs4.BeautifulSoup(r.content, "lxml")
     return soup
 
-def get_title(url):
+def get_dom(url):
     dom = urlparse(url).netloc
+    if dom.endswith(".wikipedia.org"):
+        return "wikipedia"
+    if dom.startswith("www."):
+        dom = dom[4:]
+    return dom
+
+def get_title(url):
+    dom = get_dom(url)
     if dom == "dpej.rae.es":
         soup = get_soup(url)
         title = soup.select_one("span.field-name-field-definicion")
@@ -67,13 +75,15 @@ def readabbr(file):
     chg = False
     for abbr in r:
         if abbr.url:
+            dom = get_dom(abbr.url)
+            dom = dom.replace(".","_")
             if abbr.title is None:
                 abbr.title = get_title(abbr.url)
                 chg = chg or (abbr.title is not None)
             if abbr.title:
-                abbr.new_text = '[\\1]({url} "{title}")'.format(**dict(abbr))+'{: .abbr}'
+                abbr.new_text = '[\\1]({url} "{title}")'.format(**dict(abbr))+'{: .abbr .'+dom+'}'
             else:
-                abbr.new_text = '[\\1]({url})'.format(**dict(abbr))
+                abbr.new_text = '[\\1]({url})'.format(**dict(abbr))+'{: .'+dom+'}'
         else:
             abbr.new_text = '<abbr title="{title}">\\1</abbr>'.format(**dict(abbr))
     if chg is True:

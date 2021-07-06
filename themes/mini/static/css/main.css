@@ -110,7 +110,7 @@ tr > td:first-child {
 }
 
 h1 { font-size: 2em }
-a.abbr {
+a.abbr, a.wikipedia {
     text-decoration-line: underline;
     text-decoration-style: dotted;
 }

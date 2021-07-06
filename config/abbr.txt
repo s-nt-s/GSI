@@ -156,6 +156,7 @@ JDBC
 Java Database Connectivity
 
 PKI
+https://es.wikipedia.org/wiki/Infraestructura_de_clave_p%C3%BAblica
 Infraestructura de clave pública
 
 r'Ley 39/2015,?( de 1 de octubre)?'
@@ -313,3 +314,33 @@ Secretaría General de Administración Digital
 CSV
 https://es.wikipedia.org/wiki/C%C3%B3digo_Seguro_de_Verificaci%C3%B3n
 Código Seguro de Verificación
+
+r'TSPs?'
+https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza
+Prestador de servicios de confianza
+
+FNMT
+https://es.wikipedia.org/wiki/F%C3%A1brica_Nacional_de_Moneda_y_Timbre
+Fábrica Nacional de Moneda y Timbre
+
+DGP
+https://es.wikipedia.org/wiki/Direcci%C3%B3n_General_de_la_Polic%C3%ADa
+Dirección General de la Policía
+
+AEAT
+https://es.wikipedia.org/wiki/Agencia_Estatal_de_Administraci%C3%B3n_Tributaria
+Agencia Estatal de Administración Tributaria
+
+SocEst Correos y Telégrafos
+https://es.wikipedia.org/wiki/Correos_(Espa%C3%B1a)
+Sociedad Estatal Correos y Telégrafos
+
+SocEst
+Sociedad Estatal
+
+SegSoc
+https://es.wikipedia.org/wiki/Seguridad_social
+Seguridad Social
+
+firma electrónica cualificada
+https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_cualificada
