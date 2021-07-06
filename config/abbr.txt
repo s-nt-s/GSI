@@ -301,3 +301,15 @@ Solución que simplifica el uso y realización de firmas electrónicas de usuari
 VALIDe
 https://administracionelectronica.gob.es/ctt/valide
 Servicio de Validación de Firmas y Certificados Online
+
+Resolución de 14 de julio de 2017
+https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-8393
+Condiciones de uso de firma electrónica no criptográfica (SGAD)
+
+SGAD
+https://es.wikipedia.org/wiki/Secretar%C3%ADa_General_de_Administraci%C3%B3n_Digital
+Secretaría General de Administración Digital
+
+CSV
+https://es.wikipedia.org/wiki/C%C3%B3digo_Seguro_de_Verificaci%C3%B3n
+Código Seguro de Verificación

@@ -127,6 +127,19 @@ durante el cual se acuerda una clave a usar con el proveedor y que garantiza la
 identidad del usuario, sin ser necesario un certificado electrónico.  
 Un ejemplo sería Cl@ve Permanente o cualquier otro sistema de usuario-contraseña.
 
+En la resolución de 14 de julio de 2017 de la SGAD se establece que el uso de
+firma electrónica no criptográfica ha de garantizar igualmente la autenticidad,
+integridad y no repudio cumpliendo lo siguiente:
+
+* Utilizar un sello electrónico cualificado del organismo que incluya un sello
+de tiempo
+* Garantizar la autenticidad del firmante vía Cl@ve
+* Recoger evidencias para la verificación de identidad. Dichas evidencias también
+han de sellarse
+* Devolver un justificante CSV verificable en sede
+* Incluir un campo check para que el interesado exprese consentimiento y voluntad
+de firma
+
 # Ampliación de conceptos tecnológicos
 
 ## Clave pública/privada y tercero de confianza
@@ -320,3 +333,4 @@ Bibliografía:
 * [wikipedia.org - OCSP stapling](https://en.wikipedia.org/wiki/OCSP_stapling)
 * [blog.signaturit.com - Firma electrónica avanzada, simple o cualificada, ¿sabes distinguirlas?](https://blog.signaturit.com/es/firma-electronica-simple-vs-avanzada)
 * [mineco.gob.es - FAQ Reglamento (UE) Nº 910/2014 y eIDAS](https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/preguntas-frecuentes.aspx)
+* [Cl@ve - definiciones](https://clave.gob.es/clave_Home/dnin/definiciones.html)

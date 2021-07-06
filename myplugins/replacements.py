@@ -93,6 +93,7 @@ class Replace:
         self.delimiter = delimiter
         self.abbr = abbr
         self.re_az = re.compile(r"\w")
+        self.re_scape = re.compile(r"(\[[^\[\]]*\]\([^\(\)]+\))")
         for abbr in self.abbr:
             if abbr.re is None:
                 abbr.re = self.get_re(abbr.text)
@@ -118,17 +119,21 @@ class Replace:
             lw = text[0].lower()
             up = text[0].upper()
             if lw != up:
-                re.compile(a+r"["+lw+up+r"]"+ re.escape(text[1:])+ z)
+                return re.compile(a+r"["+lw+up+r"]"+ re.escape(text[1:])+ z)
         return re.compile(a + re.escape(text)+ z)
 
     def rpl(self, txt):
         fake_sep = "@#~½$"
         def fake_sub(r, n, x):
-            x = r.sub(n, x.group(0))
-            x = fake_sep.join(list(x))
+            if n is None:
+                x = fake_sep.join(list(x.group(0)))
+            else:
+                x = r.sub(n, x.group(0))
+                x = fake_sep.join(list(x))
             return x
         for key, value in self.replacements.items():
             txt = txt.replace(self.delimiter + key + self.delimiter, value)
+        txt = self.re_scape.sub(lambda x:fake_sub(self.re_scape, None, x), txt)
         for abbr in self.abbr:
             #txt = abbr.re.sub(abbr.new_text, txt)
             txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
