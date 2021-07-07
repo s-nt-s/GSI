@@ -73,6 +73,7 @@ undraft:
 redraft:
 	find $(INPUTDIR) -name "*.md" -exec sed 's/^fakeStatus: draft$$/Status: draft/i' -i "{}" +
 
+build: clean undraft html redraft
 run: clean undraft html redraft serve
 
 validate:
