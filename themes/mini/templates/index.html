@@ -4,7 +4,7 @@
     <ol id="posts-list" class="hfeed">
     {% for article in articles_page.object_list %}
         <li>
-          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
         </li>
     {% endfor %}
     </ol>
