@@ -1,11 +1,30 @@
 from os import walk
-from os.path import join
-from urllib.parse import urlparse
+from os.path import join, relpath
+from urllib.parse import urlparse, urljoin
 
 import bs4
 from joblib import Parallel, delayed
 from pelican import signals
 
+import posixpath
+
+def relurl(base, target):
+    fake_root = "http://fakeroot.com/"
+    s_base = urljoin(fake_root, base)
+    s_targ = urljoin(fake_root, target)
+    p_base = urlparse(s_base)
+    p_targ = urlparse(s_targ)
+    p_root = urlparse(fake_root)
+    if p_base.netloc != p_targ.netloc:
+        return None
+    if p_base.netloc != p_root.netloc:
+        return None
+    base_dir = '.'+posixpath.dirname(p_base.path)
+    targ_pat = '.'+p_targ.path
+    relpath = posixpath.relpath(target, start=base_dir)
+    if relpath == target:
+        return None
+    return relpath
 
 def get_href(html, *tags):
     if len(tags)==0:
@@ -47,21 +66,14 @@ def move_script(html):
         ok = True
     return ok
 
-def rm_domain(html, SITEURL, DOMAIN):
-    if DOMAIN is None:
-        return False
+def rel_url(html, rel_file):
     ok = False
     for a, attr, href in get_href(html):
         slp = href.split("://", 1)
         if len(slp)==2 and slp[0].lower() in ("http", "https"):
-            a_dom = urlparse(href).netloc
-            if a_dom == DOMAIN:
-                slp = slp[1].split("/", 1)
-                if len(slp)==2:
-                    path = slp[1].rstrip("/")
-                else:
-                    path = ""
-                a.attrs[attr] = "/" + path
+            new_url = relurl(rel_file, href)
+            if new_url is not None:
+                a.attrs[attr] = new_url
                 ok = True
     return ok
 
@@ -74,6 +86,7 @@ def fix_href(html):
     return ok
 
 def mod_html(pelican_object, filename):
+    rel_file = relpath(filename, pelican_object.settings['OUTPUT_PATH'])
     SITEURL = pelican_object.settings.get('SITEURL', None)
     DOMAIN = urlparse(SITEURL).netloc if SITEURL else None
 
@@ -84,7 +97,7 @@ def mod_html(pelican_object, filename):
         move_script(html),
         fix_href(html),
         set_target(html, SITEURL, DOMAIN),
-        rm_domain(html, SITEURL, DOMAIN)
+        rel_url(html, rel_file)
     )
 
     if ok:
