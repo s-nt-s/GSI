@@ -418,3 +418,7 @@ Institución que ostenta el poder ejecutivo y la iniciativa legislativa
 r'[nN]odos? eIDAS'
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Identidad_y_firmaelectronica/Nodo-eIDAS.html
 Permite el reconocimiento mutuo de identidades electrónicas en Europa
+
+keyCertSign
+https://ldapwiki.com/wiki/KeyCertSign
+Este certificado puede usarse para verificar firmas
