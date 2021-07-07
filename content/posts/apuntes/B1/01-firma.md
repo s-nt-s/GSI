@@ -34,8 +34,9 @@ ha expedido el certificado
 
 **Servicio de confianza**: servicio electrónico, prestado habitualmente a cambio
 de remuneración, consistente en creación, verificación y/o validación de
-firmas electrónicas, sellos electrónicos, sellos de tiempo electrónicos, servicios de entrega electrónica certificada, certificados para la autenticación de sitios web y/o certificados relativos
-a estos servicios.<br/>
+firmas electrónicas, sellos electrónicos, sellos de tiempo electrónicos,
+servicios de entrega electrónica certificada, certificados para la autenticación
+de sitios web y/o certificados relativos a estos servicios.<br/>
 Las personas físicas o jurídicas que prestan estos servicios son TSP.
 
 ## Clave pública/privada (PKI) y tercero de confianza
