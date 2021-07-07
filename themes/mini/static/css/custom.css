@@ -33,3 +33,11 @@ fieldset.firma_ades_leaf p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+fieldset.nivel_conformidad_eidas {
+  border-color: blue;
+  border-style: solid;
+}
+fieldset.nivel_conformidad_eidas > legend {
+  border-color: blue;
+  border-style: solid;
+}

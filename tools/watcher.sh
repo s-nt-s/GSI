@@ -3,7 +3,7 @@
 cd "$(dirname "$0")/../"
 TEMP="$(mktemp -d)/"
 
-inotifywait -q -m -e modify -r content |
+inotifywait -q -m -e modify -r content config themes/mini myplugins |
 while read -r dir event file; do
   file="${dir}${file}"
   if [ -f "$file" ]; then

@@ -22,7 +22,7 @@ r'[Ll]ey [Oo]rgánica 1/2004(, de 28 de diciembre)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760
 Violencia de género
 
-r'[sS]sello( electrónica)? avanzado'
+r'[sS]ello( electrónica)? avanzado'
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-avanzado
 Sello electrónico que cumple los siguientes requisitos: a) estar vinculado al creador del sello de manera única; b) permitir la identificación del creador del sello; c) haber sido creado utilizando datos con un alto nivel de confianza, bajo su control exclusivo, y estar vinculado con los datos a que se refiere de modo tal que cualquier modificación ulterior de los mismos sea detectable.
 
@@ -51,6 +51,7 @@ https://dpej.rae.es/lema/certificado-electr%C3%B3nico-reconocido
 Documento firmado electrónicamente por un prestador de servicios de certificación que vincula unos datos de verificación de firma a un firmante y confirma su identidad.
 
 r'[eE]IDAS'
+https://es.wikipedia.org/wiki/EIDAS
 Sistema europeo de reconocimiento de identidades electrónicas
 
 ENS
@@ -119,13 +120,24 @@ Telecomunicaciones Inalámbricas Mejoradas Digitalmente
 MDM
 Gestión de dispositivos móviles
 
-r'[Mm]odelo TCP/IP'
+r'([Mm]odelo )?TCP/IP'
 https://es.wikipedia.org/wiki/Modelo_TCP/IP
 Modelo TCP/IP
+
+r'([Mm]odelo )?OSI'
+https://es.wikipedia.org/wiki/Modelo_OSI
+Modelo OSI
 
 r'([Aa]rquitectura )?ANSI/SPARC'
 https://es.wikipedia.org/wiki/Arquitectura_ANSI-SPARC
 Arquitectura ANSI-SPARC
+
+LDIF
+https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format
+LDAP Data Interchange Format
+
+Base64
+https://es.wikipedia.org/wiki/Base64
 
 SGML
 Lenguaje de marcado generalizado estándar
@@ -210,9 +222,12 @@ Privacy Enhanced Mail
 r'(notación )?DN'
 Nombre distinguido (usado en LDAP y X.509)
 
+LDAPS
+LDAP sobre SSL
+
 LDAP
 https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios
-Protocolo ligero de acceso a directorios
+Protocolo ligero de acceso a directorios (derivado de X.500)
 
 OCSP
 https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol
@@ -319,13 +334,17 @@ r'TSPs?'
 https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza
 Prestador de servicios de confianza
 
+r'QTSP?'
+https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza#Funci%C3%B3n_de_un_prestador_de_servicio_de_confianza_cualificado
+Prestador cualificado de servicios de confianza
+
 FNMT
 https://es.wikipedia.org/wiki/F%C3%A1brica_Nacional_de_Moneda_y_Timbre
 Fábrica Nacional de Moneda y Timbre
 
 DGP
 https://es.wikipedia.org/wiki/Direcci%C3%B3n_General_de_la_Polic%C3%ADa
-Dirección General de la Policía
+Dirección General de la Policía (Ministerio del Interior)
 
 AEAT
 https://es.wikipedia.org/wiki/Agencia_Estatal_de_Administraci%C3%B3n_Tributaria
@@ -344,3 +363,58 @@ Seguridad Social
 
 firma electrónica cualificada
 https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_cualificada
+
+X.500
+https://es.wikipedia.org/wiki/X.500
+Estandar ITU-T para servicios de directorio (parecido a LDAP)
+
+DAP
+Directory Access Protocol
+
+ACL
+https://es.wikipedia.org/wiki/Lista_de_control_de_acceso
+Lista de control de acceso
+
+HSM
+https://es.wikipedia.org/wiki/HSM
+Módulo de Seguridad de Hardware
+
+digitalSignature
+https://ldapwiki.com/wiki/DigitalSignature
+Al firmar con este certificado queda acreditada la identidad del firmante (KeyUsage)
+
+nonRepudiation
+https://ldapwiki.com/wiki/NonRepudiation
+Un documento firmado por este certificado no puede repudiarse (KeyUsage alias de contentCommitment)
+
+
+contentCommitment
+https://ldapwiki.com/wiki/ContentCommitment
+Un documento firmado por este certificado no puede repudiarse (KeyUsage alias de nonRepudiation)
+
+MINHAC
+Ministerio de Hacienda
+
+r'[Cc]ard-verifiables?'
+https://en.wikipedia.org/wiki/Card_Verifiable_Certificate
+Certificados verificable por tarjeta (ej de uso: tarjetas inteligentes)
+
+DNIe
+https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_103&id_menu=1
+DNI electrónico
+
+Diffie-Hellman
+https://es.wikipedia.org/wiki/Diffie-Hellman
+Protocolo de establecimiento de claves entre partes sin contacto previo, utilizando un canal inseguro y de manera anónima
+
+ENISA
+https://es.wikipedia.org/wiki/Agencia_Europea_de_Seguridad_de_las_Redes_y_de_la_Informaci%C3%B3n
+Agencia Europea de Seguridad de las Redes y de la Información
+
+Comisión Europea
+https://es.wikipedia.org/wiki/Comisi%C3%B3n_Europea
+Institución que ostenta el poder ejecutivo y la iniciativa legislativa
+
+r'[nN]odos? eIDAS'
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Identidad_y_firmaelectronica/Nodo-eIDAS.html
+Permite el reconocimiento mutuo de identidades electrónicas en Europa

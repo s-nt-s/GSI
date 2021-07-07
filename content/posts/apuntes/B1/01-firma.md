@@ -1,6 +1,5 @@
 ---
 title: Identidad y firma electrónica. Reglamento eIDAS. DNI electrónico
-Status: draft
 ---
 
 # Conceptos básicos
@@ -33,6 +32,12 @@ el certificado que se usó para el sello de tiempo.
 un sitio web y lo vincula a la persona física o jurídica a quien se
 ha expedido el certificado
 
+**Servicio de confianza**: servicio electrónico, prestado habitualmente a cambio
+de remuneración, consistente en creación, verificación y/o validación de
+firmas electrónicas, sellos electrónicos, sellos de tiempo electrónicos, servicios de entrega electrónica certificada, certificados para la autenticación de sitios web y/o certificados relativos
+a estos servicios.<br/>
+Las personas físicas o jurídicas que prestan estos servicios son TSP.
+
 ## Clave pública/privada (PKI) y tercero de confianza
 
 * **Clave privada**: Parte que se utiliza para firmar y no se debe compartir
@@ -63,7 +68,7 @@ Este modelo se compone de:
     * Autoridad de validación (VA): Valida el estado de los certificados mediante CLR u OCSP
     * [Servicio de directorio](https://es.wikipedia.org/wiki/Servicio_de_directorio): empleado por las CAs para almacenamiento y distribución de certificados y CRLs
 
-## Certificado digital
+## Certificado digital X.509 v3
 
 El certificado digital es un documento electrónico, expedido y firmado
 por una tercera parte de confianza (AC), que vincula una clave pública
@@ -139,9 +144,9 @@ las respuestas del OCSP en ese mismo proceso.
 
 El sello de tiempo soluciona el problema de dar un falso negativo al validar unos datos
 que fueron firmados con un certificado que era valido cuando se uso pero que
-ahora (cuando se esta validadando) se encuentra revocado.
+ahora (cuando se esta volviendo a validar) se encuentra revocado.
 
-Una **firma longeva**, al incluir el resultado de la validación del
+La **firma longeva**, al incluir el resultado de la validación del
 certificado, soluciona el problema de que los PSCs eliminen los certificados
 de las CRLs una vez que el certificado ha caducado, lo que impedía saber después
 de su fecha de caducidad si alguna vez fueron revocados y cuando.
@@ -177,15 +182,15 @@ Esto implementa la *firma longeva*.
 
 <fieldset class="firma_ades">
   <legend>A</legend><div>
-<fieldset>
+<fieldset class="nivel_conformidad_eidas">
   <legend>X-L</legend><div>
 <fieldset>
   <legend>X</legend><div>
 <fieldset>
   <legend>C</legend><div>
-<fieldset>
+<fieldset class="nivel_conformidad_eidas">
   <legend>T</legend><div>
-<fieldset class="firma_ades_leaf">
+<fieldset class="firma_ades_leaf nivel_conformidad_eidas">
   <legend>BES</legend>
   <p>Signed info</p>
   <p>Signature</p>
@@ -203,6 +208,85 @@ Esto implementa la *firma longeva*.
 </div></fieldset>
   <p>Secuencia de sellados de tiempo</p>
 </div></fieldset>
+
+(*) En azul los niveles de conformidad que deben ser admitidos según el eIDAS (más detalles abajo).
+
+## Protocolos de directorio
+
+Un servicio de directorio es una aplicación que almacena de forma organizada
+información sobre los usuarios de un sistema y sobre el sistema en sí. Ejemplos:
+
+**X.500** es el estándar de ITU-T, se caracteriza por ser flexible pero complejo.
+Caracteristicas:
+
+* Su arquitectura se divide en DIB (Directory Information Base), DSA
+(Directory System Agent) y DUA (Directory User Agent)
+* La información se organiza como un árbol jerarquizado
+y se almacena como objetos atributo-valor en ASN.1
+* Un RDN (Relative Distinguish Name) identifica un nivel del árblol
+* Un DN (Distinguish Name) es un identificador completo y único de cada entrada del árbol
+
+![Arquitectura X.500](https://networkencyclopedia.com/wp-content/uploads/2019/08/x500-directory-service.jpg?ezimgfmt=ng:webp/ngcb2)
+
+**LDAP** fue originalmente un protocolo alternativo para acceder
+a servicios de directorio X.500 a través de la pila de protocolos TCP/IP
+en vez de usar el modelo OSI (requisito de DAP en aquel entonces)
+pero actualmente cubre toda la solución, no solo el protocolo entre usuario
+y servidor.
+
+* Es compatible con X.500, usa la misma estructura y ASN.1
+* Usa el puerto 389, y para LDAPS el puerto 636
+* Además de RDN y DN permite alias y registros referenciales
+* Es estándar de IETF (RFC 2251 y RFC 2256) y abierto
+* Se puede usar con LDIF para trabajar con los datos en formato ASCII (lo que no sea texto lo codificará en Base64)
+
+## Mecanismos de identificación y control de acceso
+
+El **control de acceso** consta de tres procesos (AAA):
+
+* **Autenticación**: verificar la identidad del usuario que solicita acceso
+* **Autorización**: determinar las acciones permitidas al usuario. [Políticas de acceso](https://es.wikipedia.org/wiki/Control_de_acceso):
+    * [DAC](https://es.wikipedia.org/wiki/Control_de_acceso_discrecional "Control de acceso discrecional"):
+    Cada objeto esta asociado a una ACL que contiene el nivel de acceso de cada usuario/grupo.
+    * [MAC](https://es.wikipedia.org/wiki/Control_de_acceso_obligatorio "Control de acceso obligatorio"):
+    Los derechos de acceso son establecidos por una entidad central
+    * [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control "Acceso basado en roles"):
+    El nivel de acceso esta asociado a roles de manera que los usuarios tienen el acceso
+    del rol que este ocupando en ese momento, el cual puede cambiar
+* **Trazabilidad**: monitorizar y registrar los permisos concedidos y los recursos accedidos
+
+Los métodos de autenticanción usan uno o más de los siguientes **factores de autenticanción**:
+
+* **Factor de conocimiento**: algo que el usuario sabe (ej: contraseña)
+* **Factor de posesión**: algo que el usuario tiene (ej: móvil)
+* **Factor de inherencia**: algo que el usuario es (ej: huella dactilar)
+* **Factor de conducta**: algo que el usuario hace
+
+Una **autenticanción fuerte** ha de usar al menos dos factores.
+
+Un **HSM** es un dispositivo criptográfico basado en hardware que genera, almacena y protege
+claves criptográficas. Puede ser empleado para realizar firmas remotas o firmas en la nube.
+Un ejemplo es *Cl@ve Firma*.
+
+### DNI electrónico
+
+El **DNI electrónico** permite acreditar la identidad
+y firmar documentos otorgándoles validez jurídica,
+pero no permite cifrado de datos del usuario.
+El DNIe reparte su contenido en dos zonas:
+
+* Zona pública: accesible en solo lectura y sin más restricciones:
+    * Claves Diffie-Hellman
+    * Certificado cualificado CA emisora (clave pública de root CA para certificados card-verifiables)
+    * Certificado cualificado de autenticación (digitalSignature)
+    * Certificado cualificado de firma (nonRepudiation)
+* Zona seguridad: accesible en solo lectura y sólo en puntos DGP:
+    * Datos de filiación e ID
+    * Imagen de la fotografiá
+    * Imagen de la firma manuscrita
+    * Datos biométricos
+
+Para el DNIe hace de CA y la FNMT y MINHAC hace de VA.
 
 # Regulación y Administración Pública
 
@@ -273,9 +357,16 @@ autenticación de sitio web que cumple con los siguientes requisitos:
 * contiene el/los nombre/s de dominio explotados por la persona física o
 jurídica a la que se expida el certificado
 
-**Lista de servicios de confianza TSL**: Lista de TSPs que expiden certificados cualificados.
-Cada EEMM de la UE debe publicar y mantener su lista de Confianza de sus PSC
-supervisados y acreditados. Ejemplos del sector público:
+**Servicio de confianza cualificado**: servicio de confianza que cumple los
+requisitos aplicables del eIDAS.
+
+**QTSP**: prestador de servicios de confianza que presta servicios
+de confianza cualificados y al que el organismo de supervisión ha concedido la
+cualificación.
+
+**Lista de servicios de confianza TSL**: Lista de TSPs que expiden certificados
+cualificados (QTSP). Cada EEMM de la UE debe publicar y mantener su propia lista.
+Ejemplos del sector público:
 
 * CA de confianza: Ministerio del Interior DGP
 * VA de confianza: FNMT
@@ -318,9 +409,95 @@ han de sellarse
 * Incluir un campo check para que el interesado exprese consentimiento y voluntad
 de firma
 
+### Identificación electrónica transfronteriza
+
+El **reconocimiento mutuo** entre EEMM implica que cuando se necesite acceder
+a un servicio en linea del sector público se debe reconocer los medios de
+identificación electrónica expedidos por otros EEMM siempre que:
+
+1. el medio de identificación haya sido expedido por un sistema incluido
+en la **[lista publicada por la Comisión Europea](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Identidad_y_firmaelectronica/Nodo-eIDAS/Sistemas-de-identificacion-electronica-notificados.html)**
+2. el servicio en linea use un nivel de seguridad **sustancial o alto**
+3. el **nivel de seguridad** del medio de identificación igual o superior
+al requerido por el servicio en linea
+
+Este reconocimiento debe producirse a más tardar 12 meses después de que
+la Comisión publique la lista.
+
+Opcionalmente, un EEMM podrá aceptar también medios de identificación
+con nivel de seguridad bajo que estén incluidos en la lista de la Comisión.
+
+Un sistema de identificación electrónica podrá ser incluido en la lista
+(a esto lo llaman **ser objeto de notificación**):
+
+1. el estado miembro responsable garantiza la disponibilidad de la autenticacíon
+en linea de manera que otro EEMM pueda obtener y confirmar los datos de identificación
+de la persona autenticada por ese medio (nodos eIDAS)
+2. cumple con los requisitos de al menos uno de los **niveles de seguridad** previstos:
+
+| Nivel de seguridad | Grado de confianza en<br/> la identidad declarada<br/> del usuario | El objetivo es [...]<br/> el riesgo de uso indebido<br/> o alteración de la identidad |
+|:-------------------|:----------------------|:-----------------------------|
+| **bajo**           | limitado              | reducir                      |
+| **sustancial**     | sustancial            | reducir sustancialmente      |
+| **alto**           | superior              | evitar                       |
+
+### Requisitos para los TSA
+
+1. Aportar medidas técnicas y organizativas que gestiones los riesgos para la seguridad
+2. En un **plazo máximo de 24 horas** tras tener conocimiento de una violación de seguridad
+o perdida de integridad debe:
+    * notificarla al **organismo de supervisión** y, en caso pertinente, a otros
+    organismos relevantes como el **organismo nacional de seguridad** o la
+    **autoridad de protección de datos**.
+    * notificarla a la persona física o jurídica que puedan haberse visto afectadas
+    por el fallo
+    * a su vez el organismo de supervisión notificado:
+        * avisara a **ENISA** y a los organismos de supervisión de otros EEMM que
+        pudieran haber sido afectados
+        * informará al público (o exigirá al prestador que lo haga) si considera
+        que la violación reviste interés general
+        * facilitará a ENISA un resumen anual de notificaciones de violaciones de
+        seguridad recibidas
+
+Además de lo anterior, los QTSP deberán también:
+
+1. informar al organismo de supervisión de cualquier cambio en la prestación del servicio
+2. contar con personal y subcontratistas con conocimientos especializados,
+fiabilidad, experiencia, cualificación y formación necesarias
+3. mantener **recursos financieros** suficientes o **pólizas de seguros** de responsabilidad
+4. informar de manera clara y comprensible a los potenciales usuarios de las
+condiciones y limitaciones de su servicio
+5. utilizar sistemas y productos fiables que estén protegidos contra toda
+alteración y que garanticen la seguridad y fiabilidad técnica
+6. utilizar sistemas fiables para almacenar los datos de forma verificable
+7. implementar medidas contra la falsificación y el robo del dato
+8. **registrar** y mantener toda información pertinente sobre **datos expedidos y recibidos**
+9. tener un **plan de cese actualizado**
+10. garantizar un tratamiento licito de datos personales
+
+y si expiden certificados cualificados:
+
+11. mantener una **base de datos de certificados cualificados expedidos**
+12. informaran de forma automatizada, fiable y gratuita a cualquier usuario
+del estado de validez o revocación de los certificados
+13. cumplir en un plazo máximo de **24 horas** con las **solicitudes de revocación**,
+dejando registro de dicha revocación en su base de datos y publicando el
+estado de la revocación, momento en el cual se hace efectiva
+
+El **organismo de supervisión** de cada EEMM supervisa los QTSP tanto
+preventivamente como cuando surge una incidencia, mientras que con los demás
+TSP solo interviene a posteriori, tras recibir información de que no se cumple
+la regulación.
+
+Los QTSP deben pasar (y pagar) **una auditoria al menos cada 2 años**.
+Adicionalmente el organismo supervisor puede ordenar (y pagar)
+una auditoria en cualquier momento.
+
+El incumplimiento de los requisitos puede acarrear la perdida de la cualificación.
+
 ## Servicios comunes para firma electrónica
 
-**Suite @firma**, la cual se copone de:
+**Suite @firma**, la cual se compone de:
 
 * Plataforma @firma: permite la validación de certificados digitales mediante
 llamadas a WS
@@ -338,7 +515,7 @@ componente todos los requisitos de creación de firmas
 basadas tanto en certificados locales como en certificados en
 la nube.
 
-![Descripción Técnica de FIRe](https://administracionelectronica.gob.es/ctt/resources/Soluciones/2331/Info%20Adicional/Imagen/Arquitectura%20FIRe.jpg)
+![Descripción técnica de FIRe](https://administracionelectronica.gob.es/ctt/resources/Soluciones/2331/Info%20Adicional/Imagen/Arquitectura%20FIRe.jpg)
 
 ---
 
@@ -353,3 +530,4 @@ Bibliografía:
 * [mineco.gob.es - FAQ Reglamento (UE) Nº 910/2014 y eIDAS](https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/preguntas-frecuentes.aspx)
 * [Cl@ve - definiciones](https://clave.gob.es/clave_Home/dnin/definiciones.html)
 * [serviciosmin.gob.es - Prestadores de servicios electrónicos de confianza](https://sede.serviciosmin.gob.es/es-es/firmaelectronica/paginas/Prestadores-de-servicios-electronicos-de-confianza.aspx)
+* [networkencyclopedia.com - X.500](https://networkencyclopedia.com/x-500/)

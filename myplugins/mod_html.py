@@ -85,6 +85,17 @@ def fix_href(html):
             ok = True
     return ok
 
+def fix_img(html):
+    ok = False
+    for img in html.select("main img"):
+        t = img.attrs.get("title")
+        if t is None or len(t.strip())==0:
+            a = img.attrs.get("alt")
+            if a is not None and len(a.strip())>0:
+                img.attrs["title"]=a
+                ok = True
+    return ok
+
 def mod_html(pelican_object, filename):
     rel_file = relpath(filename, pelican_object.settings['OUTPUT_PATH'])
     SITEURL = pelican_object.settings.get('SITEURL', None)
@@ -97,7 +108,8 @@ def mod_html(pelican_object, filename):
         move_script(html),
         fix_href(html),
         set_target(html, SITEURL, DOMAIN),
-        rel_url(html, rel_file)
+        rel_url(html, rel_file),
+        fix_img(html)
     )
 
     if ok:

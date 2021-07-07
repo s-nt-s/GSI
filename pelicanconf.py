@@ -192,4 +192,5 @@ THEME = cur_dir + '/themes/notmyidea-custom'
 THEME = cur_dir + '/themes/mini'
 
 REPLACEMENTS_CONFIG = cur_dir + "/config/replacements.yml"
-PLUGINS = [reader, replacements, mod_html, set_count, mod_content, category_meta]
+PLUGINS = [reader, replacements, mod_html, set_count, category_meta]
+# mod_content
