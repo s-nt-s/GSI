@@ -5,4 +5,4 @@ Markdown==3.2.1
 munch==2.5.0
 pelican==4.0.1
 PyYAML==5.4.1
-requests==2.18.4
+requests==2.20.0
