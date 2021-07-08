@@ -16,7 +16,7 @@ usar offline.
 La generación de recursos propios seguirá la misma filosofía, es decir,
 ser una colección de ficheros Markdown fáciles de transformar a otros formatos.
 
-Cada página tienen en su pie un enlace al fichero Markdown que sirve de fuente.
+Cada página tienen en su pie un enlace al fichero markdown que sirve de fuente.
 
 Toda ayuda es bienvenida.
 
