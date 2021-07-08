@@ -1,9 +1,9 @@
 r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
-https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807
+https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
 Protección de datos
 
-r'[Rr]eglamento UE 910/2014'
-https://boe.es/buscar/doc.php?id=DOUE-L-2014-81822
+r'[Rr]eglamento \(?UE\)? 910/2014'
+https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014R0910
 Identificación electrónica y servicios de confianza
 
 Decisión de ejecución UE 910/2014
@@ -422,3 +422,27 @@ Permite el reconocimiento mutuo de identidades electrónicas en Europa
 keyCertSign
 https://ldapwiki.com/wiki/KeyCertSign
 Este certificado puede usarse para verificar firmas
+
+RGPD
+https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos
+Reglamento General de Protección de Datos (Reglamento EU 2016/679)
+
+r'[Rr]eglamento \(?UE\)? 2016/679'
+https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
+Reglamento General de Protección de Datos (RGPD)
+
+Ley orgánica 3/2018
+https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673
+Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD)
+
+transposición
+https://es.wikipedia.org/wiki/Transposici%C3%B3n_(derecho)
+Proceso mediante el cual los EEMM dan fuerza a una directiva mediante la aprobación de medidas de aplicación apropiadas
+
+AEPD
+https://es.wikipedia.org/wiki/Agencia_Espa%C3%B1ola_de_Protecci%C3%B3n_de_Datos
+Agencia Española de Protección de Datos
+
+DPD
+https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/persona-delegada-en-proteccion-de
+Delegado de Protección de Datos

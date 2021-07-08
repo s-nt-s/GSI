@@ -68,10 +68,10 @@ html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 undraft:
-	find $(INPUTDIR) -name "*.md" -exec sed 's/^Status: draft$$/fakeStatus: draft/i' -i "{}" +
+	find $(INPUTDIR) -name "*.md" -exec sed 's/^status: draft$$/fakeStatus: draft/i' -i "{}" +
 
 redraft:
-	find $(INPUTDIR) -name "*.md" -exec sed 's/^fakeStatus: draft$$/Status: draft/i' -i "{}" +
+	find $(INPUTDIR) -name "*.md" -exec sed 's/^fakeStatus: draft$$/status: draft/i' -i "{}" +
 
 build: clean undraft html redraft
 run: clean undraft html redraft serve
