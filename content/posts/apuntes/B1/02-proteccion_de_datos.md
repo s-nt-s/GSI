@@ -4,3 +4,9 @@ status: Status
 ---
 
 En construcción
+
+---
+
+Bibliografía:
+
+* PreparaTic27 - Pack1/027
