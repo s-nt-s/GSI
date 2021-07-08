@@ -9,12 +9,12 @@ El objetivo de este proyecto es recolectar y generar materiales para preparar la
 en concreto su acceso por interna y eligiendo el bloque 3
 para el supuesto practico.
 
-La recopilación de recursos externos y su transformación a Markdown o HTML
+La recopilación de recursos externos y su transformación a markdown o HTML
 de una sola página tiene como objetivo generar PDF y EPUB que se puedan
 usar offline.
 
 La generación de recursos propios seguirá la misma filosofía, es decir,
-ser una colección de ficheros Markdown fáciles de transformar a otros formatos.
+ser una colección de ficheros markdown fáciles de transformar a otros formatos.
 
 Cada página tienen en su pie un enlace al fichero markdown que sirve de fuente.
 
