@@ -1,0 +1,21 @@
+# https://github.com/nelsonjchen/gh-pages-pelican-action
+# https://github.com/marketplace/actions/github-pages-pelican-build-action
+name: Pelican site CI
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
