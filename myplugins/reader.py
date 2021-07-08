@@ -1,13 +1,12 @@
-#!/usr/bin/python3
+import os
 import re
 
 import bs4
 from pelican import signals
+from pelican.utils import SafeDatetime, pelican_open
+
 #from pelican.readers import MarkdownReader as MarkReader
 from .yamlmetadata import YAMLMetadataReader as MarkReader
-from pelican.utils import pelican_open
-from pelican.utils import SafeDatetime
-import os
 
 # https://github.com/pR0Ps/pelican-yaml-metadata
 
@@ -20,8 +19,8 @@ re_normalize = tuple(
         ("literal", r"re"),
     )
 )
-re_tags=tuple()
-re_normalize=tuple()
+re_tags = tuple()
+re_normalize = tuple()
 
 
 def get_tag_normalized(tag):
@@ -47,10 +46,12 @@ def clean_tags(remove_tags, *args):
             tags.add(tag)
     return sorted(tags)
 
+
 def to_date(s):
     d = SafeDatetime.fromtimestamp(s)
     #d = d.replace(hour=0, minute=0, second=0, microsecond=0)
     return d
+
 
 class MyReader(MarkReader):
     enabled = True
@@ -63,12 +64,12 @@ class MyReader(MarkReader):
             metadata['date'] = to_date(fl_stat.st_ctime)
         if metadata.get('modified') is None:
             metadata['modified'] = to_date(fl_stat.st_mtime)
-        metadata['version']={}
+        metadata['version'] = {}
         fileroot = filename.rsplit(".", 1)[0]+"."
         filebase = os.path.basename(fileroot)
         for t in ("epub", "pdf"):
             if os.path.isfile(fileroot+t):
-                metadata['version'][t.upper()]=filebase+t
+                metadata['version'][t.upper()] = filebase+t
 
         html = bs4.BeautifulSoup(output, "lxml")
         content = str(metadata['title']) + "\n" + html.get_text()
@@ -84,7 +85,7 @@ class MyReader(MarkReader):
             tags = clean_tags(remove_tags, *tags)
             metadata["tags"] = self.process_metadata("tags", ", ".join(tags))
         else:
-            metadata["tags"]=[]
+            metadata["tags"] = []
 
         return output, metadata
 

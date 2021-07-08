@@ -20,14 +20,16 @@ copied over verbatim, with three special cases:
  * The _text_ of the article is stored as category.description.
 '''
 
-from pelican import signals
+import logging
 import os
 import re
 
-import logging
+from pelican import signals
+
 logger = logging.getLogger(__name__)
 
 # https://github.com/getpelican/pelican-plugins/tree/master/category_meta
+
 
 def make_category(article, slug):
     # Reuse the article's existing category object.
@@ -53,6 +55,7 @@ def make_category(article, slug):
 
     logger.debug("Category: %s -> %s", category.slug, category.name)
     return category
+
 
 def pretaxonomy_hook(generator):
     """This hook is invoked before the generator's .categories property is
@@ -87,8 +90,8 @@ def pretaxonomy_hook(generator):
             continue
         article.category = category_objects[m.group(1)]
 
-
     generator.articles = real_articles
+
 
 def register():
     signals.article_generator_pretaxonomy.connect(pretaxonomy_hook)

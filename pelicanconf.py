@@ -17,21 +17,25 @@ sys.path.append('.')
 abspath = os.path.abspath(__file__)
 cur_dir = os.path.dirname(abspath)
 
+
 class DynamicSetting(object):
     def __init__(self, f):
         self.f = f
+
     def format(self, **metadata):
         return self.f(metadata).format(**metadata)
 
+
 def myglob(root, *args):
-    r=[]
+    r = []
     for a in args:
         r.extend(glob(root+a))
     return sorted(r)
 
+
 def rcglob(root, *args):
-    ok=[]
-    ko=[]
+    ok = []
+    ko = []
     root = Path(root)
     for a in args:
         if a.startswith("!"):
@@ -41,6 +45,7 @@ def rcglob(root, *args):
                 if i not in ko:
                     ok.append(i)
     return sorted(ok)
+
 
 AUTHOR = 's-nt-s'
 SITENAME = 'Apuntes GSI'
@@ -91,7 +96,7 @@ RSS_FEED_SUMMARY_ONLY = False
 
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 
-#'index',
+# 'index',
 DIRECT_TEMPLATES = ['sitemap', 'map']
 AUTHOR_SAVE_AS = False
 SITEMAP_SAVE_AS = 'sitemap.xml'
@@ -100,12 +105,13 @@ MAP_SAVE_AS = MAPA_URL + '/index.html'
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['posts']
 
+
 def get_url(metadata):
     path = metadata['path']
     path = path.split(os.path.sep)
     path = path[1:-1]
     arr = []
-    if len(path)>0:
+    if len(path) > 0:
         path = os.path.join(*path)
         arr.append(path)
 
@@ -122,6 +128,7 @@ def get_url(metadata):
 
     return url+".html"
 
+
 def url_to_file(url):
     url = url.rstrip("/")
     if url:
@@ -130,26 +137,31 @@ def url_to_file(url):
         return url + "/index.html"
     return "index.html"
 
+
 @DynamicSetting
 def ARTICLE_URL(metadata, *args, **kargv):
     return get_url(metadata)
+
 
 @DynamicSetting
 def ARTICLE_SAVE_AS(metadata, *args, **kargv):
     url = get_url(metadata)
     return url_to_file(url)
 
+
 @DynamicSetting
 def PAGE_URL(metadata, *args, **kargv):
     return get_url(metadata)
+
 
 @DynamicSetting
 def PAGE_SAVE_AS(metadata):
     url = get_url(metadata)
     return url_to_file(url)
 
-ARTICLE_LANG_SAVE_AS=ARTICLE_SAVE_AS
-ARTICLE_LANG_URL=ARTICLE_URL
+
+ARTICLE_LANG_SAVE_AS = ARTICLE_SAVE_AS
+ARTICLE_LANG_URL = ARTICLE_URL
 
 #USE_FOLDER_AS_CATEGORY = True
 #FILENAME_METADATA = '(?P<slug>.*)'
@@ -163,7 +175,7 @@ CONTENT_FILES = []
 for path in PAGE_PATHS + ARTICLE_PATHS:
     for f in rcglob("content/"+path, "!md", "*"):
         if f.is_file():
-            CONTENT_FILES.append(str(f).split("/",1)[-1])
+            CONTENT_FILES.append(str(f).split("/", 1)[-1])
 
 FAVICON_FILES = [i.split("/",1)[-1] for i in myglob("content/extra/favicon/*.",
     "png",
@@ -183,9 +195,9 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 for f in FAVICON_FILES:
-    EXTRA_PATH_METADATA[f]={'path':os.path.basename(f)}
+    EXTRA_PATH_METADATA[f] = {'path': os.path.basename(f)}
 for f in CONTENT_FILES:
-    EXTRA_PATH_METADATA[f]={'path':f.split("/",1)[-1]}
+    EXTRA_PATH_METADATA[f] = {'path': f.split("/", 1)[-1]}
 
 
 THEME = cur_dir + '/themes/notmyidea-custom'

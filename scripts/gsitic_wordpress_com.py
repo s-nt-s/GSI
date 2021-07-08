@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 import os
+import re
 
 import bs4
-import requests
-from weasyprint import CSS, HTML
-import re
-from munch import Munch
-import yaml
 import html2markdown
+import requests
+import yaml
+from munch import Munch
+from weasyprint import CSS, HTML
 
 from .core.util import write
 
@@ -19,11 +19,13 @@ GRABY_ENDPOINT = os.environ['GRABY_ENDPOINT']
 heads = ["h1", "h2", "h3", "h4", "h5", "h6"]
 re_head = re.compile(r"<(h[1-6])>\s*(.*?)\s*</\1>", re.MULTILINE)
 
+
 def get_graby(url):
     r = requests.get(GRABY_ENDPOINT, params={"url": url})
     if not r.text.strip():
         return None
     return r.json()
+
 
 def get_graby_soup(url):
     graby = get_graby(url)
@@ -32,9 +34,10 @@ def get_graby_soup(url):
     soup = bs4.BeautifulSoup(html, "lxml")
     return soup
 
+
 class CrawlGstic:
     def __init__(self, salida):
-        self.bloques = {b:Munch(
+        self.bloques = {b: Munch(
             bloque=b,
             source=url,
             title="B%s %s" % (b, title),
@@ -58,11 +61,11 @@ class CrawlGstic:
         if len(temas) == 0:
             return b
 
-        b.meta={
+        b.meta = {
             'DC.creator': 'gsitic.wordpress.com',
         }
-        b.pandoc='--toc-depth 2 --parse-raw --epub-chapter-level 2'
-        b.author='gsitic.wordpress.com'
+        b.pandoc = '--toc-depth 2 --parse-raw --epub-chapter-level 2'
+        b.author = 'gsitic.wordpress.com'
         b.lang = 'es-ES'
         b['ebook-meta'] = "-s gsitic.wordpress.com -i "+str(b.bloque)
         b['txt-cover'] = b.title
@@ -137,8 +140,8 @@ class CrawlGstic:
         return b
 
     def save(self, *bloques):
-        if len(bloques)==0:
-            bloques=sorted(self.bloques.keys())
+        if len(bloques) == 0:
+            bloques = sorted(self.bloques.keys())
         for b in bloques:
             b = self.read_bloque(b)
             print("El bloque %s esta al %s%%" % (b.bloque, b.porcentaje))
@@ -146,12 +149,13 @@ class CrawlGstic:
                 out = self.salida + "bloque_" + str(b.bloque)
                 yml = dict(b)
                 del yml['html']
-                yml['Status']='published'
-                yml['summary']='Contenido propiedad de [gsitic.wordpress.com]({source}).'.format(**dict(b))
+                yml['Status'] = 'published'
+                yml['summary'] = 'Contenido propiedad de [gsitic.wordpress.com]({source}).'.format(**dict(b))
                 yml = yaml.safe_dump(yml, allow_unicode=True)
                 yml = '\n'.join(('---', yml.strip(), '---'))
                 write(out+".md", yml+"\n\n"+html2markdown.convert(b.html))
                 print("Creando MD del bloque " + str(b.bloque) + " 100%")
+
 
 if __name__ == "__main__":
     c = CrawlGstic("content/posts/gsitic.wordpress.com/")

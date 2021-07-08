@@ -1,18 +1,17 @@
 import re
-from munch import Munch
-import yaml
 from os import makedirs
-from os.path import basename, dirname
-from markdown import markdown
-from os import remove
-
+from os.path import dirname
+from pathlib import Path
+from urllib.parse import urlparse
 
 import bs4
+import yaml
+from markdown import markdown
+from munch import Munch
 from weasyprint import CSS, HTML
-from urllib.parse import urlparse
-from pathlib import Path
 
 re_head = re.compile(r"<(h[1-6])>\s*(.*?)\s*</\1>", re.MULTILINE)
+
 
 def read(file):
     file = str(file)
@@ -22,7 +21,7 @@ def read(file):
             yml = yaml.load(f, Loader=yaml.FullLoader)
             return Munch.fromDict(yml)
     if ext in ("md", ):
-        md=Munch(
+        md = Munch(
             meta=None,
             md=None,
             html=None
@@ -50,15 +49,17 @@ def read(file):
     with open(file, "r") as f:
         return f.read()
 
+
 def write(file, text):
     dir = dirname(file)
     makedirs(dir, exist_ok=True)
     with open(file, "w") as f:
         f.write(text)
 
+
 def rcglob(root, *args):
-    ok=[]
-    ko=[]
+    ok = []
+    ko = []
     root = Path(root)
     for a in args:
         if a.startswith("!"):
@@ -69,9 +70,10 @@ def rcglob(root, *args):
                     ok.append(i)
     return sorted(ok)
 
+
 def clean_url(url):
     spl = url.split("://", 1)
-    if len(spl)==2:
+    if len(spl) == 2:
         url = spl[1]
     if url.lower().startswith("www") and "." in url[3:5]:
         url = url.split(".", 1)[1]

@@ -1,20 +1,19 @@
-from textwrap import dedent
-import re
-from munch import Munch
-import yaml
-from os import makedirs
-from os.path import basename, dirname, isfile
-from markdown import markdown
 from os import remove
-from .core.util import read, write, rcglob
+from os.path import isfile
+from pathlib import Path
+from textwrap import dedent
 
 import bs4
+import yaml
+from markdown import markdown
+from munch import Munch
 from weasyprint import CSS, HTML
 
-from pathlib import Path
+from .core.util import rcglob, read, write
 
 ROOT = Path(__file__).parent.parent.resolve()
 PRINT_CSS = str(ROOT / "themes/mini/static/css/print.css")
+
 
 class PDF:
     def __init__(self, print=PRINT_CSS):
@@ -22,7 +21,7 @@ class PDF:
             raise Exception(print+" no existe")
         self.footer = '<div class="pag"><span>{code}</span><br/>{page}</div>'
         self.print_css = print
-        self.template=dedent('''
+        self.template = dedent('''
             <!DOCTYPE html>
             <html>
                 <head>
@@ -67,7 +66,7 @@ class PDF:
         delFuente = False
         if fuente.endswith(".md"):
             delFuente = True
-            MD=read(fuente)
+            MD = read(fuente)
             codigo = MD.meta.pdf_code
             html = self.template.format(title=MD.meta.title, content=MD.html)
             fuente = fuente.rsplit(".", 1)[0] + ".html"
@@ -89,9 +88,10 @@ class PDF:
         if delFuente:
             remove(fuente)
 
+
 if __name__ == "__main__":
     for md in rcglob(ROOT/"content/posts", "md"):
-        MD=read(md)
+        MD = read(md)
         if MD.meta.get("pdf_code"):
             print(md)
             pdf = PDF()

@@ -12,10 +12,12 @@ from .core.web import Web
 sp = re.compile("\s+")
 re_tema = re.compile(r"^(\d+)\. (.+)$")
 
+
 def mkRE(s):
     if isinstance(s, str):
         return re.compile(s)
     return s
+
 
 class TTema:
 
@@ -99,7 +101,7 @@ class CrawlTemario:
         elif anexo == self.anx_interna:
             title = title + " (interna)"
             file = file % "interna"
-        MD=[dedent('''
+        MD = [dedent('''
         ---
         title: '{title}'
         Status: published
@@ -115,6 +117,7 @@ class CrawlTemario:
                 MD.append("{0}. {1}".format(i+1, tema.titulo))
 
         write(self.salida + file, "\n".join(MD))
+
 
 if __name__ == "__main__":
     c = CrawlTemario("content/posts/temario/")

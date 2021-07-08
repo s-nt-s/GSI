@@ -1,12 +1,12 @@
+import posixpath
 from os import walk
 from os.path import join, relpath
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urljoin, urlparse
 
 import bs4
 from joblib import Parallel, delayed
 from pelican import signals
 
-import posixpath
 
 def relurl(base, target):
     fake_root = "http://fakeroot.com/"
@@ -26,8 +26,9 @@ def relurl(base, target):
         return None
     return relpath
 
+
 def get_href(html, *tags):
-    if len(tags)==0:
+    if len(tags) == 0:
         tags = ["link", "a", "script", "img", "iframe", "frame"]
     for a in html.findAll(tags):
         attr = "href" if a.name in ("a", "link") else "src"
@@ -35,13 +36,16 @@ def get_href(html, *tags):
         if href is not None:
             yield a, attr, href
 
+
 def parallel_mod_html(pelican_object):
     html_files = []
     for dirpath, _, filenames in walk(pelican_object.settings['OUTPUT_PATH']):
         html_files += [join(dirpath, name)
                        for name in filenames if name.endswith('.html') or name.endswith('.htm')]
 
-    Parallel(n_jobs=-1)(delayed(mod_html)(pelican_object, filepath) for filepath in html_files)
+    Parallel(n_jobs=-1)(delayed(mod_html)(pelican_object, filepath)
+                        for filepath in html_files)
+
 
 def set_target(html, SITEURL, DOMAIN):
     if DOMAIN is None:
@@ -55,6 +59,7 @@ def set_target(html, SITEURL, DOMAIN):
                 ok = True
     return ok
 
+
 def move_script(html):
     ok = False
     head = html.find("head")
@@ -66,16 +71,18 @@ def move_script(html):
         ok = True
     return ok
 
+
 def rel_url(html, rel_file):
     ok = False
     for a, attr, href in get_href(html):
         slp = href.split("://", 1)
-        if len(slp)==2 and slp[0].lower() in ("http", "https"):
+        if len(slp) == 2 and slp[0].lower() in ("http", "https"):
             new_url = relurl(rel_file, href)
             if new_url is not None:
                 a.attrs[attr] = new_url
                 ok = True
     return ok
+
 
 def fix_href(html):
     ok = False
@@ -85,16 +92,18 @@ def fix_href(html):
             ok = True
     return ok
 
+
 def fix_img(html):
     ok = False
     for img in html.select("main img"):
         t = img.attrs.get("title")
-        if t is None or len(t.strip())==0:
+        if t is None or len(t.strip()) == 0:
             a = img.attrs.get("alt")
-            if a is not None and len(a.strip())>0:
-                img.attrs["title"]=a
+            if a is not None and len(a.strip()) > 0:
+                img.attrs["title"] = a
                 ok = True
     return ok
+
 
 def mod_html(pelican_object, filename):
     rel_file = relpath(filename, pelican_object.settings['OUTPUT_PATH'])

@@ -6,11 +6,10 @@ import datetime
 import logging
 import re
 
-from pelican.contents import Author, Category, Page, Tag
-from pelican.readers import MarkdownReader, DUPLICATES_DEFINITIONS_ALLOWED
 from pelican import signals
-from pelican.utils import pelican_open, get_date
-
+from pelican.contents import Author, Category, Page, Tag
+from pelican.readers import DUPLICATES_DEFINITIONS_ALLOWED, MarkdownReader
+from pelican.utils import get_date, pelican_open
 
 # Only enable this extension if yaml and markdown packages are installed
 ENABLED = False
@@ -27,7 +26,7 @@ HEADER_RE = re.compile(
     r"(?P<metadata>.+?)"
     r"^(?:---|\.\.\.)$"
     r"(?P<content>.*)",
-    re.MULTILINE|re.DOTALL
+    re.MULTILINE | re.DOTALL
 )
 
 DUPES_NOT_ALLOWED = \
@@ -48,12 +47,15 @@ YAML_METADATA_PROCESSORS = {
     'status': lambda x, y: _strip(x) or _DEL,
 }
 
+
 def _strip(obj):
     return str(obj if obj is not None else '').strip()
+
 
 def _to_list(obj):
     """Make object into a list"""
     return [obj] if not isinstance(obj, list) else obj
+
 
 def _parse_date(obj):
     """Return a string representing a date"""

@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import re
 
 import bs4
@@ -32,9 +31,11 @@ def plain(s):
     s = re_sp.sub("", s)
     return s
 
+
 def millar(value):
     value = "{:,.0f}".format(value).replace(",", ".")
     return value
+
 
 JINJA_FILTERS = {
     'wc': wc,
