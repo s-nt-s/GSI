@@ -1,3 +1,7 @@
+r'ASSI(-RGPD)?'
+https://administracionelectronica.gob.es/ctt/assirgpd
+Aplicación para Auditoría de Seguridad de los Sistemas de Información, en relación al RGPD
+
 r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
 https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
 Protección de datos
@@ -55,12 +59,15 @@ https://es.wikipedia.org/wiki/EIDAS
 Sistema europeo de reconocimiento de identidades electrónicas
 
 ENS
+https://es.wikipedia.org/wiki/Esquema_Nacional_de_Seguridad
 Esquema Nacional de Seguridad
 
 ENI
+https://administracionelectronica.gob.es/ctt/eni
 Esquema Nacional de Interoperabilidad
 
 CCN
+https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional
 Centro Criptológico Nacional
 
 STIC
@@ -70,27 +77,34 @@ UITS
 Unidades de Información y Transparencia
 
 UML
+https://es.wikipedia.org/wiki/Lenguaje_unificado_de_modelado
 Lenguaje de modelado unificado
 
 OLAP
+https://es.wikipedia.org/wiki/OLAP
 Procesamiento analítico en línea
 
 SAN
+https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_de_almacenamiento
 Red de área de almacenamiento
 
 NAS
+https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red
 Almacenamiento conectado en red
 
 DAS
+https://es.wikipedia.org/wiki/Almacenamiento_de_conexi%C3%B3n_directa
 Almacenamiento de conexión directa
 
 SNMP
+https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red
 Protocolo simple de administración de red
 
 UX
 Experiencia de Usuario
 
 MPLS
+https://es.wikipedia.org/wiki/Multiprotocol_Label_Switching
 Conmutación de etiquetas multiprotocolo​
 
 QOS
@@ -103,21 +117,26 @@ r'[xX]DSL'
 x - línea de abonado digital (DSL)
 
 NGN
+https://es.wikipedia.org/wiki/Red_de_siguiente_generaci%C3%B3n
 Redes de nueva generación
 
 IMS
+https://es.wikipedia.org/wiki/Subsistema_Multimedia_IP
 IP Multimedia Subsystem
 
 VoIP
+https://es.wikipedia.org/wiki/Voz_sobre_protocolo_de_internet
 Voz sobre protocolo de internet
 
 ToIP
-Voz sobre protocolo de internet
+Telefonía sobre Internet (no confundir con VoIP)
 
 DECT
+https://es.wikipedia.org/wiki/Digital_Enhanced_Cordless_Telecommunications
 Telecomunicaciones Inalámbricas Mejoradas Digitalmente
 
 MDM
+https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_dispositivos_m%C3%B3viles
 Gestión de dispositivos móviles
 
 r'([Mm]odelo )?TCP/IP'
@@ -140,6 +159,7 @@ Base64
 https://es.wikipedia.org/wiki/Base64
 
 SGML
+https://es.wikipedia.org/wiki/SGML
 Lenguaje de marcado generalizado estándar
 
 MAGERIT
@@ -147,24 +167,30 @@ https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolo
 Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información
 
 IVR
+https://es.wikipedia.org/wiki/Respuesta_de_voz_interactiva
 Respuesta de voz interactiva
 
 CRM
+https://es.wikipedia.org/wiki/Customer_relationship_management
 Gestión o Administración de Relaciones con el Cliente
 
 Trunking
 https://es.wikipedia.org/wiki/Trunking
 
 OLTP
+https://es.wikipedia.org/wiki/OLTP
 Procesamiento de Transacciones En Línea
 
 SEO
+https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores
 Posicionamiento en buscadores
 
 ODBC
+https://es.wikipedia.org/wiki/Open_Database_Connectivity
 Open DataBase Connectivity
 
 JDBC
+https://es.wikipedia.org/wiki/Java_Database_Connectivity
 Java Database Connectivity
 
 PKI
@@ -199,6 +225,7 @@ https://es.wikipedia.org/wiki/Autoridad_de_registro
 Autoridad de Registro
 
 IETF
+https://es.wikipedia.org/wiki/Grupo_de_Trabajo_de_Ingenier%C3%ADa_de_Internet
 Grupo de Trabajo de Ingeniería de Internet
 
 PKIX
@@ -214,9 +241,11 @@ https://es.wikipedia.org/wiki/ASN.1
 Notación sintáctica abstracta 1
 
 DER
-Reglas de Codificación Distinguidas
+https://en.wikipedia.org/wiki/X.690#DER_encoding
+Reglas de Codificación Distinguidas (usado en X.690)
 
 PEM
+https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
 Privacy Enhanced Mail
 
 r'(notación )?DN'
@@ -369,6 +398,7 @@ https://es.wikipedia.org/wiki/X.500
 Estandar ITU-T para servicios de directorio (parecido a LDAP)
 
 DAP
+https://es.wikipedia.org/wiki/Directory_Access_Protocol
 Directory Access Protocol
 
 ACL
@@ -386,7 +416,6 @@ Al firmar con este certificado queda acreditada la identidad del firmante (KeyUs
 nonRepudiation
 https://ldapwiki.com/wiki/NonRepudiation
 Un documento firmado por este certificado no puede repudiarse (KeyUsage alias de contentCommitment)
-
 
 contentCommitment
 https://ldapwiki.com/wiki/ContentCommitment
@@ -446,3 +475,40 @@ Agencia Española de Protección de Datos
 DPD
 https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/persona-delegada-en-proteccion-de
 Delegado de Protección de Datos
+
+r'LOPD-?GDD'
+https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Protecci%C3%B3n_de_Datos_Personales_y_garant%C3%ADa_de_los_derechos_digitales
+Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales
+
+EIPD
+https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/evaluaciones-de-impacto
+Evaluaciones de impacto de protección de datos
+
+Espacio Económico Europeo
+https://es.wikipedia.org/wiki/Espacio_Econ%C3%B3mico_Europeo
+Unión Europea más Liechtenstein, Islandia y Noruega
+
+r'BCR'
+https://en.wikipedia.org/wiki/Binding_corporate_rules
+Normas corporativas vinculantes (RGPD)
+
+Legitimación activa
+https://dpej.rae.es/lema/legitimaci%C3%B3n-activa
+Capacidad para actuar como parte demandante o recurrente en un proceso judicial, con base en la titularidad de un derecho o interés legítimo que se ostenta frente a la parte demandada o recurrida, respectivamente.
+
+AAPP
+Administraciones Públicas
+
+Registro de Actividades de Tratamiento
+https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/actividades-tratamiento
+
+TDP
+Tratamiento de datos personales
+
+Sistema de información por capas
+https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/
+Dividir la información facilitada a los usuarios en una primera capa más genérica y una segunda capa más detallada
+
+r'[sS]istemas? de denuncias internas'
+https://guiasjuridicas.wolterskluwer.es/Content/Documento.aspx?params=H4sIAAAAAAAEAMtMSbF1jTAAAkNjS1NjI7Wy1KLizPw8WyMDQwtDIwNTkEBmWqVLfnJIZUGqbVpiTnEqAMNzKCI1AAAAWKE
+Sistema para poner en conocimiento de una entidad privada la comisión de actos que pudieran resultar contrarios a la normativa
