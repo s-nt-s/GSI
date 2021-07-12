@@ -1,10 +1,22 @@
+Procedimiento Administrativo Común
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
+Procedimiento Administrativo Común de las Administraciones Públicas (ley 39/2015, de 1 de octubre)
+
+ENAC
+https://es.wikipedia.org/wiki/Entidad_Nacional_de_Acreditaci%C3%B3n
+Entidad Nacional de Acreditación
+
+Facilita RGPD
+https://www.aepd.es/es/guias-y-herramientas/herramientas/facilita-rgpd
+Herramienta de ayuda para empresas que realicen un tratamiento de datos personales de escaso riesgo para el cumplimiento del RGPD
+
 r'ASSI(-RGPD)?'
 https://administracionelectronica.gob.es/ctt/assirgpd
 Aplicación para Auditoría de Seguridad de los Sistemas de Información, en relación al RGPD
 
 r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
 https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
-Protección de datos
+Protección de datos (RGPD)
 
 r'[Rr]eglamento \(?UE\)? 910/2014'
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014R0910
@@ -512,3 +524,7 @@ Dividir la información facilitada a los usuarios en una primera capa más gené
 r'[sS]istemas? de denuncias internas'
 https://guiasjuridicas.wolterskluwer.es/Content/Documento.aspx?params=H4sIAAAAAAAEAMtMSbF1jTAAAkNjS1NjI7Wy1KLizPw8WyMDQwtDIwNTkEBmWqVLfnJIZUGqbVpiTnEqAMNzKCI1AAAAWKE
 Sistema para poner en conocimiento de una entidad privada la comisión de actos que pudieran resultar contrarios a la normativa
+
+Ley de protección jurídica del menor
+https://www.boe.es/buscar/act.php?id=BOE-A-1996-1069
+Ley Orgánica 1/1996, de 15 de enero

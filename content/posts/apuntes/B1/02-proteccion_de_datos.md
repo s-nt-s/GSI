@@ -1,6 +1,5 @@
 ---
 title: Protección de datos
-status: draft
 ---
 
 # Conceptos básicos
@@ -10,7 +9,7 @@ organismo obtiene, trata, y con qué medidas protege los datos personales que su
 usuarios le facilitan o recogen a través de su sitio web, formularios y/o cookies, etc, e informa
 de los medios para permitir ejercer sus derechos a los propietarios de los datos.
 
-**RGPD**: Reglamento (EU) 2016/679 que opcionalmente puede ser completado
+**RGPD**: Reglamento (UE) 2016/679 que opcionalmente puede ser completado
 por leyes orgánicas en cada EEMM, pero en caso de conflicto prima el reglamento.
 
 **LOPD-GDD**: Ley orgánica 3/2018 que es una transposición del RGPD.
@@ -29,7 +28,8 @@ responsable del tratamiento.
 **DPD**: Persona con conocimientos técnicos especializados del Derecho
 y de la práctica de protección de datos, que asesora al responsable
 y al encargado del tratamiento, y supervisa el cumplimiento del RGPD en su organización.
-Carece de poderes ejecutivos y ostenta una posición independiente.
+Carece de poderes ejecutivos y ostenta una posición independiente.<br/>
+El RGPD obliga a cierto tipo de empresas a tener un DPD.
 
 # Reglamento General de Protección de Datos (RGPD)
 
@@ -180,8 +180,9 @@ sin un nivel adecuado.
 
 En España se puede acer transferencias internacionales sin autorización
 de la AEPD si se cumple con el RGPD.
+### Herramientas
 
-### ASSI-RGPD
+#### ASSI-RGPD
 
 Es una aplicación que permite al responsable de TDP:
 
@@ -193,6 +194,54 @@ de Tratamiento exigido por el RGPD
 
 Dicha aplicación consiste en el cumplimiento de cuestionarios a partir de
 los cuales se ofrece un informe y documentos que ayudan al cumplimiento del RGPD.
+
+#### Facilita RGPD
+
+Herramienta que mediante tres pantallas de preguntas permite valorar su
+situación con respecto al RGPD, a fin de determinar si debe realizar un análisis de riesgos.
+
+La herramienta es ostentativa y su resultado no implica necesariamente
+el cumplimiento automático del RGPD.
+
+## Delegado en protección de datos
+
+Una entidad tiene la obligación de designar un DPD cuando:
+
+* es una AAPP
+* hace un tratamiento de datos a gran escala
+* hace tratamiento de datos de categorías especiales o relativos a condenas e
+infracciones penales.
+
+Dicho DPD sera designado por el responsable y encargado del tratamientos de datos,
+y debe ser comunicado a la AEPD. Su cese también ha de ser comunicado.
+
+El DPD tiene como mínimo las siguientes funciones:
+
+* Informar, asesorar y supervisar el cumplimiento del RGPD, de otras disposiciones de
+protección de datos de la Unión o de los EEMM (ej: LOPD-GDD) y de las políticas
+del responsable o del encargado del tratamiento en materia de protección de datos personales.
+* Supervisar la asignación de responsabilidades
+* Supervisar la concienciación y formación del personal que participa en las operaciones de
+tratamiento
+* Supervisar las auditorías correspondientes
+* Asesorar acerca de la EIPD y supervisar que cumpla el RGPD
+* Cooperar con la autoridad de control
+* Actuar como punto de contacto de la autoridad de control
+
+El DPD debe contar una cualificación profesional, que puede ser otorgada
+por un conjunto de empresas acreditadas por la ENAC para otorgar
+estas certificaciones en función de los criterios establecidos por la AEPD.
+
+En las AAPP:
+
+* varios organismos pueden compartir DPD si es compatible con
+la estructura organizativa y tamaño de dichos organismos
+(competencias y funciones de carácter horizontal)
+* el nivel del puesto de trabajo debe ser el adecuado para poder relacionarse
+con la dirección de organismo en el que desempeñe sus funciones
+* el DPD puede estar a tiempo completo o a tiempo parcial
+* en entidades de menor tamaño podrá compaginar sus funciones con otras
+si no hay conflicto de intereses
 
 ## Reclamaciones, denuncias y sanciones
 
@@ -208,25 +257,117 @@ datos como actividad auxiliar y no como principal
 
 Algunos aspectos relevantes:
 
-* Se permite que familiares/herederos de un **fallecido** puedan solicitar el acceso
-a sus datos, así como su rectificación o supresión, salvo que el fallecido hubiera
-dejado estipulada su oposición a ello.
 * Se especifica el **sistema de información por capas** como medio de informar
 a las personas acerca del tratamiento de sus dato.
-* Se fija en **14 años** la edad para prestar consentimiento de manera autónoma
-* El derecho de supresión (o al olvido) puede ser ejercido tanto por el menor
-como por terceros durante su minoría de edad
 * Permite que los sistemas de denuncias internas recojan también **denuncias anónimas**
-* Actualiza las garantías del derecho a la intimidad frente al uso de dispositivos
-de videovigilancia y de grabación de sonidos en el lugar de trabajo o en el uso
-de dispositivos puestos a disposición del empleado.
-* Los empleados deben ser informados de los sistemas de geolocalización utilizados
-en el ámbito laboral
 * Se modifica el sistemas de información crediticia para pasar de 6 a 5 años
 el plazo máximo de inclusión de deudas en las listas de morosos, y la cuantiá
 mínima de tales deudas debe ser de al menos 50€
+* Sobre los menores se estipula que:
+    * **14 años** es la edad mínima para prestar consentimiento de manera autónoma
+    * el derecho de supresión (o al olvido) puede ser ejercido tanto por el menor
+    como por terceros durante su minoría de edad
+    * los tutores de los menores deben garantizar el adecuado desarrollo de su
+    personalidad y preservar su dignidad y derechos fundamentales
+    * el **Ministerio Fiscal** deberá instar las medidas cautelares y de protección previstas en
+    la ley de protección jurídica del menor, cuando la utilización o difusión de imágenes o
+    información personal de menores en las redes sociales y equivalentes
+    puedan implicar una intromisión ilegítima en sus derechos fundamentales
+    * cualesquiera que desarrolle actividades en las que participen menores de edad
+    (ej: centros educativos) deberán contar con el consentimiento del menor o sus
+    representantes legales para la publicación o difusión de sus datos personales
+    a través de redes sociales o servicios equivalentes
+* Pretende garantizar los **derechos digitales de la ciudadanía**
 
 ## Garantía de derechos digitales
+
+Derecho a la **neutralidad** de Internet: derecho a que los proveedores de servicios de Internet
+proporcionen una oferta transparente de servicios sin discriminación por
+motivos técnicos o económicos.
+
+Derecho al **acceso universal** a Internet: acceso universal, asequible, de calidad y
+no discriminatorio para toda la población (personas con necesidades especiales,
+brechas de género y generacional, entornos rurales, etc)
+
+Derecho a la **seguridad digital**: seguridad de las comunicaciones que se transmitan y reciban
+a través de Internet.
+
+Derecho a la **educación digital**: El sistema educativo debe asegurar la plena inserción del
+alumnado en la sociedad digital, respetando y garantizando la intimidad
+personal y familiar.
+
+Derecho de **rectificación** en Internet: Las noticias (o similares) rectificadas
+deben incluir un aviso aclaratorio que ponga de manifiesto que la noticia
+original no refleja la situación actual del individuo.
+
+Derecho a las **intimidad y uso de dispositivos digitales en el ámbito laboral**:
+Los empleadores deberán establecer e informar de los criterios de utilización de
+los dispositivos digitales proporcionados por la empresa,
+incluyendo los usos autorizados y la determinación de los períodos en que los dispositivos podrán
+utilizarse para fines privados, así como de las posibilidades de acceso por el empleador al contenido de
+esos dispositivos digitales.
+
+Derecho a la **desconexión digital en el ámbito laboral**: el descanso y la intimidad
+fuera del trabajo deben ser garantizadas e incluidas en una política interna.
+
+Derecho a la **intimidad** frente al uso de dispositivos de **videovigilancia**, de **grabación de sonidos** y **geolocalización**:
+
+* Solo se admiten grabación de imágenes y geolocalización para el control de los trabajadores
+previa información expresa a los trabajadores y sus representantes.
+* Los dispositivos de grabación nunca podrán estar instalados en lugares destinados
+al descanso o esparcimiento como vestuarios, aseos o comedores
+* Solo se admite grabación de sonidos en caso de riesgos relevantes para la seguridad
+de las instalaciones, bienes y personas derivados de la actividad que se
+desarrolle en el centro de trabajo.
+
+Derechos digitales en la **negociación colectiva**: Los convenios colectivos
+pueden establecer garantías adicionales al mínimo establecido por la ley.
+
+Derecho al **olvido en búsquedas** de Internet: Este derecho no se puede ejercer
+frente a un medio de comunicación o utilizando criterios de búsqueda
+distintos del nombre de quien ejerciera el derecho.
+
+Derecho al **olvido en servicios de redes sociales** y servicios equivalentes:
+En el caso de que los datos hubiesen sido facilitados al servicio
+durante su minoría de edad, el prestador deberá proceder sin dilación a su supresión.
+
+Derecho de **portabilidad** en servicios de redes sociales y servicios equivalentes.
+
+Derecho al **testamento digital**: Inclusión en el testamento tradicional de
+indicaciones sobre que hacer con los datos digitales en Internet del fallecido.
+Adicionalmente, si el fallecido no dejo prohibición expresa, los herederos y/o familiares
+podrán acceder a dichos contenidos e impartir instrucciones sobre su utilización,
+destino o supresión.
+
+Políticas de **impulso de los derechos digitales**. El gobierno en colaboración
+con las comunidades autónomas, deberá elaborar dos documentos:
+
+* **Plan de acceso a Internet**: superar brechas digitales, garantizar acceso
+a Internet, etc
+* **Plan de actuación**: acciones de formación, difusión y concienciación dirigidas
+a menores
+
+El gobierno deberá presentar un informe anual antes el congreso de los diputados
+sobre la evolución de los derechos y las medidas necesarias para su impulso.
+
+# Implicaciones en el Procedimiento Administrativo Común
+
+Salvo oposición del interesado, las AAPP deben recavar los documentos que
+necesiten mediante la plataforma de intermediación ya que
+**es un derecho del interesado no aportar documentación**
+que ya se encuentra en posesión de alguna AAPP.
+
+Igualmente, las AAPP tienen la potestad de verificar, usando los datos de cualquier AAPP,
+los datos personales aportados por el interesado.
+
+Cuando una AAPP tenga que realizar una notificación:
+
+* por medio de publicaciones, se identificara a las personas mediante su nombre, apellidos y cuatro cifras
+numéricas aleatorias del DNI, NIE, pasaporte o equivalente.
+* por medio de anuncios, se identificará al agectado exclusivamente con su
+número del DNI, NIE, pasaporte o equivalente.
+* cuando no tenga ningún documento de identidad se usará únicamente el
+nombre y apellidos
 
 ---
 
