@@ -125,10 +125,14 @@ class Replace:
         return a, z
 
     def get_re(self, text):
-        if len(text) > 3 and text[0:2] in ("r'", 'r"'):
+        if len(text) > 3 and text[0:2] in ("r'", 'r"', "i'", 'i"'):
+            flag = text[0]
             text = text[2:-1]
             a, z = self.get_limits(text)
-            return re.compile(a+text+z)
+            re_rule = a+text+z
+            if flag == 'i':
+                return re.compile(re_rule, re.IGNORECASE)
+            return re.compile(re_rule)
         a, z = self.get_limits(text)
         if len(text) > 5 and text.upper() != text:
             lw = text[0].lower()

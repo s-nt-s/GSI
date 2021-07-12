@@ -1,6 +1,10 @@
-Procedimiento Administrativo Común
+r'Procedimiento Administrativo Común'
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
-Procedimiento Administrativo Común de las Administraciones Públicas (ley 39/2015, de 1 de octubre)
+Ley 39/2015, de 1 de octubre
+
+i'Ley 39/2015,?( de 1 de octubre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
+Procedimiento Administrativo Común de las Administraciones Públicas
 
 ENAC
 https://es.wikipedia.org/wiki/Entidad_Nacional_de_Acreditaci%C3%B3n
@@ -13,10 +17,6 @@ Herramienta de ayuda para empresas que realicen un tratamiento de datos personal
 r'ASSI(-RGPD)?'
 https://administracionelectronica.gob.es/ctt/assirgpd
 Aplicación para Auditoría de Seguridad de los Sistemas de Información, en relación al RGPD
-
-r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
-https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
-Protección de datos (RGPD)
 
 r'[Rr]eglamento \(?UE\)? 910/2014'
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014R0910
@@ -209,10 +209,6 @@ PKI
 https://es.wikipedia.org/wiki/Infraestructura_de_clave_p%C3%BAblica
 Infraestructura de clave pública
 
-r'Ley 39/2015,?( de 1 de octubre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
-Procedimiento Administrativo Común de las Administraciones Públicas
-
 ITU-T
 https://es.wikipedia.org/wiki/Sector_de_Normalizaci%C3%B3n_de_las_Telecomunicaciones_de_la_UIT
 Comité Consultivo Internacional Telegráfico y Telefónico
@@ -229,7 +225,7 @@ https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n
 Autoridad de certificación
 
 VA
-https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n
+https://es.wikipedia.org/wiki/Autoridad_de_validaci%C3%B3n
 Autoridad de Validación
 
 RA
@@ -468,7 +464,7 @@ RGPD
 https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos
 Reglamento General de Protección de Datos (Reglamento EU 2016/679)
 
-r'[Rr]eglamento \(?UE\)? 2016/679'
+r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
 https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
 Reglamento General de Protección de Datos (RGPD)
 
@@ -528,3 +524,11 @@ Sistema para poner en conocimiento de una entidad privada la comisión de actos 
 Ley de protección jurídica del menor
 https://www.boe.es/buscar/act.php?id=BOE-A-1996-1069
 Ley Orgánica 1/1996, de 15 de enero
+
+RJSP
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
+Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
+
+r'NTIs?'
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html
+Normas técnicas de Interoperabilidad
