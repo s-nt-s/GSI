@@ -103,7 +103,7 @@ mantenimiento de Sedes Electrónicas. Se compone de tres partes:
 # Punto de acceso general electrónico
 
 En la PAC se establece el derecho a comunicarse con cualquier AAPP a través del
-[Punto de Acceso General](https://sede.administracion.gob.es/PAG_Sede/HomeSede.html),
+Punto de Acceso General,
 el cual esta gestionado por AGE pero sus fuentes de información puede ser:
 
 * Internas: procedentes del propio organismo responsable del *punto*

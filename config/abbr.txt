@@ -523,6 +523,9 @@ Capacidad para actuar como parte demandante o recurrente en un proceso judicial,
 i'foliado|foliación'
 Numerar correlativamente cada una de las hojas de un documento
 
+Punto de Acceso General
+https://sede.administracion.gob.es/PAG_Sede/HomeSede.html
+
 AAPP
 Administraciones Públicas
 
