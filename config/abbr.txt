@@ -1,10 +1,26 @@
-Guías CCN-STIC
+CMS
+https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
+Sistema de gestión de contenidos
+
+*punto*
+https://sede.administracion.gob.es/PAG_Sede/HomeSede.html
+Punto de Acceso General
+
+r'[oO]rden HAP/1949/2014(, de 13 de octubre)?'
+https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-10908
+Regula el Punto de Acceso General de la Administración General del Estado y crea su sede electrónica
+
+r'[Gg]uías? CCN-STIC'
 https://www.ccn-cert.cni.es/guias.html
 Guías CCN-STIC de Seguridad
 
-r'Procedimiento Administrativo Común'
+r'[pP]rocedimiento [aA]dministrativo [Cc]omún'
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
 Ley 39/2015, de 1 de octubre
+
+PACAP
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
+Ley del Procedimiento Administrativo Común (Ley 39/2015, de 1 de octubre)
 
 i'Ley 39/2015,?( de 1 de octubre)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
@@ -288,10 +304,6 @@ PKCS
 https://es.wikipedia.org/wiki/PKCS
 Estándar de criptografía de clave pública
 
-CMS
-https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax
-Cryptographic Message Syntax
-
 CAdES
 https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)
 Firmas Electrónicas Avanzadas CMS
@@ -508,6 +520,9 @@ Legitimación activa
 https://dpej.rae.es/lema/legitimaci%C3%B3n-activa
 Capacidad para actuar como parte demandante o recurrente en un proceso judicial, con base en la titularidad de un derecho o interés legítimo que se ostenta frente a la parte demandada o recurrida, respectivamente.
 
+i'foliado|foliación'
+Numerar correlativamente cada una de las hojas de un documento
+
 AAPP
 Administraciones Públicas
 
@@ -533,6 +548,69 @@ RJSP
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
 Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
 
+i'Ley 40/2015(, de 1 de octubre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
+Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
+
 r'NTIs?'
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html
 Normas técnicas de Interoperabilidad
+
+i'Apud Acta'
+https://sedejudicial.justicia.es/-/apoderamiento-apud-acta
+Apoderamiento realizado ante Letrado de la Administración de Justicia
+
+EELL
+Entidades locales
+
+DEH
+https://notificaciones.060.es/PC_init.action
+Dirección Electrónica Habilitada, permite a cualquier persona física o jurídica recibir por vía telemática las notificaciones administrativas
+
+ACCEDA
+https://administracionelectronica.gob.es/ctt/acceda
+Herramienta ofrecida por la DTIC para el la creación y mantenimiento de Sedes Electrónicas
+
+DTIC
+Dirección de Tecnologías de la Información y la Comunicación
+
+SIA
+https://administracionelectronica.gob.es/ctt/sia
+Sistema de Información Administrativa, inventario de información administrativa de la AGE (art 9 ENI)
+
+DIR3
+https://administracionelectronica.gob.es/ctt/dir3
+Directorio Común de Unidades Orgánicas y Oficinas, inventario de las unidades orgánicas / organismos públicos, sus oficinas asociadas y unidades de gestión económica-presupuestaria
+
+SICRES3
+https://administracionelectronica.gob.es/ctt/sicres
+Normaliza el Modelo de Datos para el intercambio de asientos entre Entidades Registrales (ENI)
+
+PGDE
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Archivo_electronico/pae_Politica-de-gestion-de-documentos-electronicos.html
+Política de gestión de documentos electrónicos
+
+i'persona(lidad|lidades|s)? jurídicas?'
+https://es.wikipedia.org/wiki/Persona_jur%C3%ADdica
+Individuo con derechos y obligaciones que existe no como persona física sino como institución creada por una o más personas físicas para cumplir un objetivo social con o sin fines de lucro
+
+AGE
+Administración General del Estado
+
+CCAA
+Comunidades Autónomas
+
+AP
+Administración Pública
+
+INE
+https://es.wikipedia.org/wiki/Instituto_Nacional_de_Estad%C3%ADstica_(Espa%C3%B1a)
+Instituto Nacional de Estadística
+
+BOE
+https://es.wikipedia.org/wiki/Bolet%C3%ADn_Oficial_del_Estado
+Boletín Oficial del Estado
+
+DO
+https://es.wikipedia.org/wiki/Diario_oficial
+Diario Oficial, medio de comunicación escrito que un organismo utiliza para publicar sus normas jurídicas y otros actos de naturaleza pública

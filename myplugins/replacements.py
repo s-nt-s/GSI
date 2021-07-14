@@ -108,7 +108,10 @@ class Replace:
         self.delimiter = delimiter
         self.abbr = abbr
         self.re_az = re.compile(r"\w")
-        self.re_scape = re.compile(r"(\[[^\[\]]*\]\([^\(\)]+\))")
+        self.re_scape = tuple((
+            re.compile(r"(\[[^\[\]]*\]\([^\(\)]+\))"),
+            re.compile(r"<abbr[^>]*>[^<]*</abbr>"),
+        ))
         for abbr in self.abbr:
             if abbr.re is None:
                 abbr.re = self.get_re(abbr.text)
@@ -153,7 +156,8 @@ class Replace:
             return x
         for key, value in self.replacements.items():
             txt = txt.replace(self.delimiter + key + self.delimiter, value)
-        txt = self.re_scape.sub(lambda x:fake_sub(self.re_scape, None, x), txt)
+        for re_sc in self.re_scape:
+            txt = re_sc.sub(lambda x:fake_sub(self.re_scape, None, x), txt)
         for abbr in self.abbr:
             #txt = abbr.re.sub(abbr.new_text, txt)
             txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)

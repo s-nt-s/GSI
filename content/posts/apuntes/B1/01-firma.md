@@ -156,7 +156,7 @@ de su fecha de caducidad si alguna vez fueron revocados y cuando.
 
 La terminación AdES denota que es una firma electrónica avanzada.
 
-* PKCS#7 / CMS: Permite diferentes tipos de objetos (data, signed-data, enveloped-data, signed-and-enveloped-data, digested-data y encrypted-data)
+* PKCS#7 / [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr .wikipedia}: Permite diferentes tipos de objetos (data, signed-data, enveloped-data, signed-and-enveloped-data, digested-data y encrypted-data)
 * CAdES: Permite tanto attached signature, como detached signature.
 * XMLDsig:
     * Define una sintaxis XML para soporte a la firma digital.
@@ -168,7 +168,7 @@ La terminación AdES denota que es una firma electrónica avanzada.
     * Define una estructura de contenedor para englobar: archivo, firma y sello de tiempo
     * El contenedor está basado en zip
 
-CAdES y XAdES son respectivamente versiones AdES de CMS y XMLDsig
+CAdES y XAdES son respectivamente versiones AdES de [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr .wikipedia} y XMLDsig
 que permiten los siguientes perfiles:
 
 * BES (Basic Electronic Signature): firma con un formato básico, incluyendo los atributos necesarios para la firma electrónica
