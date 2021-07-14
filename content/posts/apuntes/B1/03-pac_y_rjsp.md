@@ -6,7 +6,7 @@ title: PAC y RJSP
 
 * **PAC**: Ley del Procedimiento Administrativo Común (Ley 39/2015, de 1 de octubre)
 * **RJSP**: Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
-* **Orden HAP/1949/2014**: regula el Punto de Acceso General de la Administración General del Estado
+* **Orden HAP/1949/2014**: regula el Punto de Acceso General de la AGE
 
 # Relación de las personas con las AAPP
 
