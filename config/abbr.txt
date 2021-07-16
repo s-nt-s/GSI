@@ -96,7 +96,11 @@ Esquema Nacional de Seguridad
 
 ENI
 https://administracionelectronica.gob.es/ctt/eni
-Esquema Nacional de Interoperabilidad
+Esquema Nacional de Interoperabilidad (Real Decreto 4/2010, de 8 de enero)
+
+i'Real Decreto 4/2010(, de 8 de enero)?'
+https://www.boe.es/eli/es/rd/2010/01/08/4/con
+Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica
 
 CCN
 https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional
@@ -557,7 +561,7 @@ Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
 
 r'NTIs?'
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html
-Normas técnicas de Interoperabilidad
+Normas técnicas de Interoperabilidad (pertenece al ENI)
 
 i'Apud Acta'
 https://sedejudicial.justicia.es/-/apoderamiento-apud-acta
@@ -591,7 +595,7 @@ Normaliza el Modelo de Datos para el intercambio de asientos entre Entidades Reg
 
 PGDE
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Archivo_electronico/pae_Politica-de-gestion-de-documentos-electronicos.html
-Política de gestión de documentos electrónicos
+Política de gestión de documentos electrónicos (directrices para la creación y gestión de documentos auténticos, fiables y disponibles a lo largo del tiempo)
 
 i'persona(lidad|lidades|s)? jurídicas?'
 https://es.wikipedia.org/wiki/Persona_jur%C3%ADdica
@@ -617,3 +621,42 @@ Boletín Oficial del Estado
 DO
 https://es.wikipedia.org/wiki/Diario_oficial
 Diario Oficial, medio de comunicación escrito que un organismo utiliza para publicar sus normas jurídicas y otros actos de naturaleza pública
+
+ORVE
+https://administracionelectronica.gob.es/ctt/orve
+Oficina de Registro Virtual (cumple SICRES3)
+
+SIR
+https://administracionelectronica.gob.es/ctt/sir
+Sistema de Interconexión de Registros (cumple SICRES3)
+
+EUPL
+https://es.wikipedia.org/wiki/European_Union_Public_License
+Licencia Pública de la Unión Europea
+
+CTT
+https://administracionelectronica.gob.es/pae_Home/pae_SolucionesCTT/pae_CTT_-__Que_es_.html
+Centro de Transferencia de Tecnología
+
+EIF
+https://es.wikipedia.org/wiki/Marco_Europeo_de_Interoperabilidad
+Marco Europeo de Interoperabilidad
+
+r'([Rr]ed )?SARA'
+https://administracionelectronica.gob.es/ctt/redsara
+Sistemas de Aplicaciones y Redes para las Administraciones (conjunto de infraestructuras que conecta las redes de las AAPP Españolas e Instituciones Europeas)
+
+CISE
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Centro_Interoperabilidad_semantica.html
+Centro de Interoperabilidad Semántica
+
+Plan de Direccionamiento de la Administración
+https://administracionelectronica.gob.es/ctt/plandira
+Define un espacio de direccionamiento privado para la Administración Pública y que facilita la coordinación entre planes de numeración IP
+
+Política de firma electrónica y de certificados de la AGE
+https://administracionelectronica.gob.es/ctt/politicafirma
+Define un modelo de esquema de referencia para la identificación y autenticación electrónica (PACAP Ley 39/2015)
+
+r'[fF]irmas? longevas?'
+Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez

@@ -73,8 +73,8 @@ undraft:
 redraft:
 	find $(INPUTDIR) -name "*.md" -exec sed 's/^fakeStatus: draft$$/status: draft/i' -i "{}" +
 
-build: clean undraft html redraft
-run: clean undraft html redraft serve
+build: clean  html
+run: clean html serve
 
 validate:
 	html5validator --root $(OUTPUTDIR)

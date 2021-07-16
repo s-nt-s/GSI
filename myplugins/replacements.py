@@ -12,16 +12,6 @@ from pelican import signals
 
 re_sp = re.compile(r"\s+")
 
-
-def readyaml(file):
-    with open(file, 'r') as stream:
-        r = yaml.load_all(stream, Loader=yaml.FullLoader)
-        r = list(r)
-        if len(r) == 1:
-            return r[0]
-        return r
-
-
 def readlines(file):
     last_line = None
     with open(file, "r") as f:
@@ -32,6 +22,14 @@ def readlines(file):
             last_line = l
     if last_line not in ("", None):
         yield ""
+
+def readyaml(file):
+    with open(file, 'r') as stream:
+        r = yaml.load_all(stream, Loader=yaml.FullLoader)
+        r = list(r)
+        if len(r) == 1:
+            return r[0]
+        return r
 
 
 def get_soup(url):
@@ -173,8 +171,6 @@ class MkReplace(Preprocessor):
     def run(self, lines):
         for i, line in enumerate(lines):
             if line.strip() and not line.startswith("wzxhzdk"):
-                if line == "---":
-                    break
                 lines[i] = self.replace.rpl(line)
         return lines
 

@@ -64,6 +64,8 @@ class MyReader(MarkReader):
             metadata['date'] = to_date(fl_stat.st_ctime)
         if metadata.get('modified') is None:
             metadata['modified'] = to_date(fl_stat.st_mtime)
+        if self.settings.get("PUBLISH_ALL") and not metadata.get("harddraft"):
+            metadata['status'] = 'published'
         metadata['version'] = {}
         fileroot = filename.rsplit(".", 1)[0]+"."
         filebase = os.path.basename(fileroot)
