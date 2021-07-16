@@ -11,7 +11,7 @@ También puede interesar [los volcados](http://www.preparatic.org/2021/01/24/dis
 
 Nota: Los contenidos de [Preparatic27](http://www.preparatic.org/) corresponden al [temario CSSTIC (BOE-A-2020-8872 - Anexo II)](https://boe.es/diario_boe/txt.php?id=BOE-A-2020-8872)
 
-# Materiales para el [temario GSI interna](../temario/interna)
+# Materiales para el [temario GSI interna](../temario/interna.html)
 
 ## Bloque 1: Administración electrónica y políticas públicas de igualdad, dependencia y transparencia
 
