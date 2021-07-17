@@ -70,7 +70,7 @@ def readabbr(file):
             abbr.text = l
             continue
         slp = l.split("://", 1)
-        if len(slp) == 2 and slp[0].lower() in ("http", "https"):
+        if l.startswith("{filename}") or (len(slp) == 2 and slp[0].lower() in ("http", "https")):
             abbr.url = l
             continue
         abbr.title = l

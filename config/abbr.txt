@@ -70,9 +70,13 @@ r'[sS]ello( electrónica)? de tiempo( electrónico)?'
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo
 Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.
 
-sello electrónico
+Sello electrónico
 https://dpej.rae.es/lema/sello-electr%C3%B3nico
 Datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.
+
+r'eSello'
+https://dpej.rae.es/lema/sello-electr%C3%B3nico
+Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.
 
 r'[Ff]irma( electrónica)? avanzada'
 https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada
@@ -443,11 +447,11 @@ Al firmar con este certificado queda acreditada la identidad del firmante (KeyUs
 
 nonRepudiation
 https://ldapwiki.com/wiki/NonRepudiation
-Un documento firmado por este certificado no puede repudiarse (KeyUsage alias de contentCommitment)
+Un documento firmado por este certificado no puede repudiarse (KeyUsage actualmente renombrado como contentCommitment)
 
 contentCommitment
 https://ldapwiki.com/wiki/ContentCommitment
-Un documento firmado por este certificado no puede repudiarse (KeyUsage alias de nonRepudiation)
+Un documento firmado por este certificado no puede repudiarse (KeyUsage anteriormente llamado nonRepudiation)
 
 MINHAC
 Ministerio de Hacienda
@@ -660,3 +664,31 @@ Define un modelo de esquema de referencia para la identificación y autenticaci�
 
 r'[fF]irmas? longevas?'
 Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez
+
+r'PreparaTic27 - Pack\d+/\d+'
+{filename}/posts/preparatic/packs.md
+
+r'eSedes?'
+Sede electrónica
+
+r'eDocs?'
+Documentos electrónicos
+
+r'eExpedientes?'
+Expediente electrónico
+
+ISO 8601
+https://es.wikipedia.org/wiki/ISO_8601
+Estandar ISO para representación de fechas y horas (ej: YYYY-MM-DDTHH:MM:SS)
+
+r'Ley 11/2007(, de 22 de junio)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2007-12352
+Acceso electrónico de los ciudadanos a los Servicios Públicos (derogada)
+
+PDF/A
+https://es.wikipedia.org/wiki/PDF/A
+Subconjunto de PDF obtenido excluyendo aquellas características superfluas para el archivado a largo plazo
+
+r'[rR]eal [Dd]ecreto 1164/2002(,de 8 de noviembre)?'
+https://www.boe.es/buscar/doc.php?id=BOE-A-2002-22192
+Regula la conservación del patrimonio documental con valor histórico, el control de la eliminación de otros documentos y la conservación de documentos administrativos en soporte distinto al original
