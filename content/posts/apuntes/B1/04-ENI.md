@@ -92,7 +92,7 @@ y con los ciudadanos.
 
 ## Catálogo de estándares
 
-## Documento electrónico
+## [Documento electrónico](https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e80361c-2550-4a7e-b99e-20ea123b4aef/Guia_NTI_documento_electronico_EPUB_2ed_2016.epub)
 
 Esta NTI recoge los requisitos mínimos sobre la estructura y formato de los
 documentos para su intercambio y por tanto para la interoperabilidad.
@@ -200,7 +200,7 @@ documento adjunto al mensaje de datos de intercambio.
 * La información básica de cada una de las firmas del documento
 * Descripción y valor de los metadatos mínimos obligatorios
 
-## Digitalización de documentos
+## [Digitalización de documentos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:2650cc88-b8d7-4e21-9bfd-b291b51ff290/Guia_NTI_digitalizacion_EPUB_2ed_2016.epub)
 
 **Objetivo**: establecer los requisitos a cumplir en la digitalización de
 documentos no electrónicos (ej: papel) a través de medios fotoeléctricos.
@@ -260,11 +260,16 @@ valor probatorio para los derechos y obligaciones de las personas físicas o jur
 
 ## Requisitos de conexión a la Red de comunicaciones de las Administraciones Públicas españolas
 
-## Procedimientos de copiado auténtico y conversión entre documentos electrónicos, así como desde papel u otros medios físicos a formatos electrónicos
+## [Procedimientos de copiado auténtico y conversión entre documentos electrónicos, así como desde papel u otros medios físicos a formatos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:6708c782-ee1d-4ea1-bf5d-dd44d7d55e3d/Guia_NTI_procedimientos_copiado_autentico_EPUB_2ed_2016.epub)
 
 **Objetivo**: establecer las reglas para la generación de copias electrónicas
 auténticas, copias papel auténticas de documentos públicos administrativos
 electrónicos y para la conversión de formato de documentos electrónicos.
+
+
+**Ambito** cualquier órgano de la AP o Entidad de Derecho Público vinculada
+o dependiente de aquélla en sus procedimientos de generación de copias auténticas
+y en las conversiones de formato de documentos electrónicos.
 
 ## Modelo de Datos para el intercambio de asientos entre las Entidades Registrales
 
