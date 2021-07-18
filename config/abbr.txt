@@ -692,3 +692,13 @@ Subconjunto de PDF obtenido excluyendo aquellas características superfluas para
 r'[rR]eal [Dd]ecreto 1164/2002(,de 8 de noviembre)?'
 https://www.boe.es/buscar/doc.php?id=BOE-A-2002-22192
 Regula la conservación del patrimonio documental con valor histórico, el control de la eliminación de otros documentos y la conservación de documentos administrativos en soporte distinto al original
+
+eFirma
+Firma electrónica
+
+XSD
+https://es.wikipedia.org/wiki/XML_Schema
+Esquema XSD: describe la estructura y las restricciones de los contenidos de los documentos XML
+
+MPTAP
+Ministerio de Política Territorial y Función Pública

@@ -15,7 +15,7 @@ operativos de la interoperabilidad entre las AAPP y con el ciudadano.
 **EIF**: Marco Europeo de Interoperabilidad, cuyas recomendaciones sobre
 interoperabilidad fueron tenidas en cuenta para la elaboración del ENI y sus NTI.
 
-**Modelo de datos**: conjunto de definiciones (nivel conceptual),
+**Modelo de datos**: Conjunto de definiciones (nivel conceptual),
 interrelaciones (nivel lógico), y reglas y convenciones (nivel físico)
 que permiten describir los datos para su intercambio.
 
@@ -141,6 +141,7 @@ los procesos y los sistemas que los crean, gestionan, mantienen y utilizan.
 
 * Versión NTI: http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e
 * Identificador: ES_ORGNAO_AAAA_IDespecífico (ej: ES_E00010207_2010_MPR000000000000000000000010207)
+* Órgano: Código alfanumérico único para cada órgano/unidad/oficina extraído del DIR3
 * Fecha de captura: YYYY-MM-DDTHH:MM:SS (ISO 8601)
 * Origen: 0 = Ciudadano, 1 = Administración
 * Estado de elaboración:
@@ -188,17 +189,32 @@ la NTI de Política de firma y certificados de la Administración:
 o *Copia electrónica parcial auténtica*:
     * Identificador de documento de origen: ES_ORGNAO_AAAA_IDespecífico
 
-**Intercambio de eDocs**: salvo acuerdo excepcional entre las AAPP, a estructura
-consiste en un XML con los tres componentes: contenido (normalmente en base64),
-metadatos y firma. Preferentemente se usar la Red Sara como medio de transmisión.
+### Intercambio de Documentos electrónicos
+
+Salvo acuerdo excepcional entre las AAPP, la estructura
+consiste en un XML (definido por esquemas XSD) dividido en tres bloques: contenido (normalmente en base64),
+metadatos obligatorios (salvo *Valor CSV* y *Definición generación CSV* que irán
+en el bloque firma) y firma (incluye los metadatos de firma).
+Preferentemente se usar la Red Sara como medio de transmisión.
 Si el eDoc forma parte de un asiento registral éste será tratado como un
 documento adjunto al mensaje de datos de intercambio.
 
 **Acceso a eDocs** en eSedes debe mostrar:
 
 * El contenido del documento electrónico cuando éste sea representable
-* La información básica de cada una de las firmas del documento
 * Descripción y valor de los metadatos mínimos obligatorios
+* La información básica de cada una de las firmas del documento de la siguiente
+manera:
+
+| Tipo firma | Información   | Localización |
+|:-----------|:--------------|:-------------|
+| **CSV**    | valor del CSV | metadato     |
+| **Firma basada en certificados (base64)** | validez de la firma | Según reglas de validación de firma de la<br/>NTI de Política de firma y certificados de la Administración |
+| ^ | Información del firmante(s) del documento<br/>(persona física, jurídica o sello de órgano) | Propiedades o etiquetas de la firma |
+| ^ | Emisor del certificado del firmante(s) | ^ |
+| ^ | Fecha y hora de la firma(s) | ^ |
+
+Tabla 1: Información básica de firma
 
 ## [Digitalización de documentos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:2650cc88-b8d7-4e21-9bfd-b291b51ff290/Guia_NTI_digitalizacion_EPUB_2ed_2016.epub)
 
@@ -236,7 +252,7 @@ su legibilidad (ej: umbralización, reorientación, eliminación de bordes negro
 3. Asignación de los metadatos
 4. Si procede, firma de la imagen electrónica
 
-Si se realiza el último paso se obtendrá un *eDoc completamente conformado*,
+Si se realiza los dos últimos pasos se obtendrá un *eDoc completamente conformado*,
 en caso contrarío sera un *eDoc pendiente de completar*.
 
 En cuanto a la destrucción de originales tras la digitalización hay que cumplir
@@ -248,7 +264,118 @@ ni utilidad para la gestión administrativa que exija su conservación.
 Además, los documentos originales cuya eliminación se propone deberán carecer de
 valor probatorio para los derechos y obligaciones de las personas físicas o jurídicas.
 
-## Expediente electrónico
+## [Expediente electrónico](https://administracionelectronica.gob.es/pae_Home/dam/jcr:e9a3f923-6be7-49bd-b05d-fb07ecb7b1b4/Guia_NTI_expediente_electronico_EPUB_2ed_2016.epub)
+
+**Objetivo**: establecer la estructura del eExpediente y las especificaciones
+de los servicios de remisión y puesta a disposición.
+
+**Ambito**: eExpedientes y similares, es decir,  documentos electrónicos que
+se han formado mediante agregación y como resultado de una secuencia de
+actuaciones coherentes que conducen a un resultado específico.
+
+Un **expediente electrónico** es un conjunto de documentos correspondiente a un
+procedimiento administrativo y esta compuesto por:
+
+* **Documentos electrónicos**: documentos que cumplen la NTI de Documento Electrónico (es decir, contenido + firma + metadatos). Estos documentos
+pueden estar incluidos en el eExpediente de varias formas:
+    * directamente como elementos independientes
+    * dentro de una **carpeta** (agrupación por motivo funcional para la
+      que no existe normativa especifica)
+    * como parte de un **sub-eExpediente** (un sub-eExpediente evoluciona
+      según su propio procedimiento con independencia del eExpediente que
+      lo contiene, pero sus cambios si se reflejan en el eExpediente padre)
+* **Indice electrónico**: reflejar la disposición de los documentos y otros datos con el fin de preservar la integridad y permitir su recuperación
+* **Firma**: CSV o basada en certificados
+* **Metadatos**
+
+**Metadatos mínimos obligatorios**:
+
+* Versión NTI: http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e
+* Identificador: ES_ORGNAO_AAAA_IDespecífico (ej: ES_E00010207_2010_MPR000000000000000000000010207)
+* Órgano: Código alfanumérico único para cada órgano/unidad/oficina extraído del DIR3
+* Fecha Apertura Expediente: YYYY-MM-DDTHH:MM:SS (ISO 8601)
+* Clasificación: Procedimiento administrativo con el que se relaciona el expediente
+(esquema de valores normalizado según el SIA o, si no se encuentra en SIA, *Órgano_PRO_IDPROespecífico*)
+* Estado: Estado del expediente en el momento de intercambio
+    * Abierto
+    * Cerrado
+    * Índice para remisión cerrado
+* Interesado:
+    * Si es ciudadano o persona jurídica: DNI, NIE, NIF o similar
+    * Si es administración: *Órgano*
+* Tipo de firma: CSV o alguno de los formatos de firma electrónica listados en
+la NTI de Política de firma y certificados de la Administración:
+* Si *Tipo firma* = CSV:
+    * Valor CSV
+    * Definición generación CSV: Referencia a la Orden, Resolución o documento
+    que define la creación del CSV correspondiente (ej: BOE-A-YYY-XXXXX)
+
+La definición del **ciclo de vida del eExpediente** no entra en el ámbito de
+la NTI, sin embargo para facilitar la compresión sobre los eExpediente describe
+dicho ciclo en las siguientes fases:
+
+* **Apertura**:
+    * Creación del objeto administrativo digital *expediente*
+    * Creación del indice electrónico
+    * Inclusión en el indice de las referencias a los documentos iniciales
+    (luego pueden incluirse más)
+    * Asignación de metadatos mínimos
+* **Tramitación**:
+    * Inclusión de nuevos documentos referenciandolos en el indice
+    * Cambios de estado o características, lo cual se refleja en los metadatos
+    * Generación de sub-eExpedientes objeto de intercambio generalmente provocados
+    por solicitudes de remisión o puesta a disposición de un expediente
+    (en cualquier caso sirven para dar fijeza al estado del expediente en un
+    determinado momento)
+    * Adicción de metadatos complementarios
+    * Cierre formal del expediente, implica:
+        1. compleción del índice y metadatos del expediente
+        2. foliado o indizado del expediente, esto puede añadir al indicie elementos
+        como:
+            * identificadores de los eDocs que componen el expediente
+            * huellas digitales de los eDocs (función resumen)
+            * fecha de incorporación de cada eDoc
+            * orden de cada eDoc detro del expediente
+            * datos generales sobre el expediente (ej: fecha de apertura, fecha de cierre)
+        3. firma del indice del expediente
+* **Conservación y selección**: transcurrido el periodo de validez administrativa
+de un expediente, aquellos expedientes o documentos con valor efímero se eliminan
+reglamentariamente, mientras que los que tienen valor a largo plazo por su
+utilidad administrativa, jurídica, archivística, histórica o de investigación y social,
+se conservan permanentemente cumpliendo lo establecido en la
+NTI de Política de gestión de documentos electrónicos
+
+### Intercambio de expedientes
+
+El intercambio de expedientes electrónicos, a los efectos de remisión y puesta a
+disposición, se realiza (preferentemente usando la Red SARA) siguiendo estos pasos:
+
+1. Envió de la estructura definida por la NTI (si hay acuerdo previo entre AP pueden usar otra)
+2. Envió de cada uno de los eDocs que componen el expediente en el orden indicado
+en el indice
+
+Cuando la naturaleza o la extensión de las pruebas o documentos que forman parte
+del expediente electrónico no permitan o dificulten notablemente su inclusión
+en una de las estructuras establecidas, se incorporará al expediente electrónico
+un documento en el que se especifique cuales son estas pruebas o documentos.
+Dichas pruebas o documentos serán custodiados por el órgano gestor y podrán ser
+aportadas de forma separada cuando así se requiera.
+
+El índice electrónico de los expedientes incluirá al menos:
+
+* la fecha de generación del índice
+* de cada documento electrónico:
+    * identificador
+    * huella digital, la función resumen utilizada para su obtención
+    * opcionalmente, la fecha de incorporación al expediente y el orden del documento dentro del expediente
+
+Si el eExpediente forma parte de un asiento registral, éste será tratado como
+adjunto del mensaje de datos de intercambio según lo establecido en la NTI
+de Modelo de Datos para el intercambio de asientos entre las Entidades Registrales.
+
+En caso de intercambio de eExpedientes entre AAPP que suponga una transferencia
+de custodia o de responsabilidad de gestión, la entidad transferidora verificará la
+autenticidad e integridad del expediente en el momento del intercambio.
 
 ## Política de firma electrónica y de certificados de la Administración
 
@@ -266,10 +393,40 @@ valor probatorio para los derechos y obligaciones de las personas físicas o jur
 auténticas, copias papel auténticas de documentos públicos administrativos
 electrónicos y para la conversión de formato de documentos electrónicos.
 
-
 **Ambito** cualquier órgano de la AP o Entidad de Derecho Público vinculada
 o dependiente de aquélla en sus procedimientos de generación de copias auténticas
 y en las conversiones de formato de documentos electrónicos.
+
+En la gestión de documentos, hay tres grados de perfección:
+
+* **Borrador**: versiones previas a la versión definitiva validada.
+* **Original**: documento definitivo, genuino, validado por su autor.
+El documento original es eficaz por sí mismo, sin referencia a otro documento anterior.
+* **Copia**: nuevo documento, reproducción del original, y con diferentes grados de perfección,
+en relación con su finalidad y con su aproximación al original.
+
+Una **copia auténtica** es un copia de un documento realizada por un funcionario
+habilitado para ello y que valor probatorio pleno y la misma validez y eficacia
+que el documento original a efectos administrativos. Tipos:
+
+* Copia autentica: *idem*
+* Copia autentica **con cambio de formato**: original y copia son electrónicos
+pero ha habido un cambio de versión o formato
+(*Estado de elaboración* = *Copia electrónica auténtica con cambio de formato*)
+* Copia electrónica auténtica **de documentos papel**: copia de un original en
+papel a través de medios fotoeléctricos
+(*Estado de elaboración* = *Copia electrónica auténtica de documento papel*)
+* Copia electrónica **parcial** auténtica: original y copia son electrónicos
+pero la copia, por motivos de confidencialidad, representa solo parcialmente
+al original (*Estado de elaboración* = *Copia electrónica parcial auténtica*)
+* Copia papel auténtica **de documento público administrativo** electrónico:
+el origen es un eDoc público administrativo y la copia es en papel.
+Ha de incluir impresa la información básica del CSV y/o eFirma (ver [tabla 1](#tb1))
+
+Los metadatos del eDoc copia no tienen por qué coincidir con los del original,
+ya que se asignan en función de las propiedades específicas del documento copia,
+por ejemplo, la firma, sus metadatos, y en el metadato *Organo* identificaran
+al organismo que hace la copia, no al que creo el original.
 
 ## Modelo de Datos para el intercambio de asientos entre las Entidades Registrales
 

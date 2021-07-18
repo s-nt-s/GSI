@@ -149,8 +149,8 @@ electrónicos.
 **Validez de las copias** realizadas por las AAPP:
 
 * Una **copia auténtica** es un copia de un documento realizada por un funcionario
-habilitado para ello y que tiene la misma validez y eficacia que los documentos
-originales a efectos administrativos
+habilitado para ello y que tiene la misma validez y eficacia que el documento
+original a efectos administrativos
 * Las AAPP deben mantener actualizado un registro de funcionarios habilitados
 para hacer copias autenticas
 
@@ -165,11 +165,11 @@ devolviendose el original al interesado
 
 * Siempre es electrónico
 * Cumple con la NTI de Documento Electrónico, por lo tanto incluye:
-    * Un indice electrónico que garantiza la integridad del expediente
-    * La firma del indice electrónico  por la AP
+    * Un índice electrónico que garantiza la integridad del expediente
+    * La firma del índice electrónico  por la AP
     * Los metadaos del expediente electrónico (mínimo los del NIT)
 * Cuando sea necesario mandar el expediente a terceros se enviara completo,
-foliado, autenticado y con un indice
+foliado, autenticado y con un índice
 
 **Archivo de documentos**:
 

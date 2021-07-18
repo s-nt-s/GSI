@@ -62,6 +62,8 @@ class Web:
             self.response = self.s.post(url, data=kargv, verify=self.verify)
         else:
             self.response = self.s.get(url, verify=self.verify)
+        if url.endswith(".xsd"):
+            return self.response
         self.refer = self.response.url
         self.soup = bs4.BeautifulSoup(self.response.content, "lxml")
         for n in self.soup.findAll(["img", "form", "a", "iframe", "frame", "link", "script"]):

@@ -204,7 +204,6 @@ THEME = cur_dir + '/themes/notmyidea-custom'
 THEME = cur_dir + '/themes/mini'
 
 REPLACEMENTS_CONFIG = cur_dir + "/config/replacements.yml"
-PLUGINS = [reader, replacements, mod_html, set_count, category_meta]
-# mod_content
+PLUGINS = [reader, replacements, mod_content, mod_html, set_count, category_meta]
 
 PUBLISH_ALL = True

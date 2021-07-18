@@ -83,14 +83,19 @@ table {
 	margin-top: 14px;
 	border-spacing: 0px;
 	border-collapse: collapse;
+  caption-side: bottom;
 }
-thead {
+table > caption {
+  margin-top: 5px;
+}
+thead, tbody tr th {
 	background-color: lightblue;
 }
 td, th {
 	border: 1px solid black;
 	padding-left: 5px;
 	padding-right: 5px;
+  text-align: left;
 }
 table tbody tr:nth-child(even) {
 	background-color: #ddd;
