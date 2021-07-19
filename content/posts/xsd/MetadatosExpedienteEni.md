@@ -3,6 +3,30 @@ title: metadatosExp (MetadatosExpedienteEni)
 summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd)"
 ---
 
+<div class="widthscroll" id="metadatosExp">
+<pre><code><a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatosExp -e 1 -o <a href="MetadatosExpedienteEni/metadatosExp.csv">metadatosExp.csv</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatosExp -e 1 -o <a href="MetadatosExpedienteEni/metadatosExp.txt">metadatosExp.txt</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatosExp -e 1 -o <a href="MetadatosExpedienteEni/metadatosExp.png">metadatosExp.png</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatosExp -e 1 -o <a href="MetadatosExpedienteEni/metadatosExp.svg">metadatosExp.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd
+</code></pre>
+</div>
+
+![Diagrama de metadatosExp (MetadatosExpedienteEni.xsd)](MetadatosExpedienteEni/metadatosExp.png)
+
+| PATH | NAME | TYPE | NAMESPACE | COMMENT |
+|:----|:----|:----|:----|:----|
+| /metadatosExp | metadatosExp | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos |  |
+| /metadatosExp/VersionNTI | VersionNTI | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos |  |
+| /metadatosExp/Identificador | Identificador | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos |  |
+| /metadatosExp/Organo | Organo | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos |  |
+| /metadatosExp/FechaAperturaExpediente | FechaAperturaExpediente | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos |  |
+| /metadatosExp/Clasificacion | Clasificacion | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos |  |
+| /metadatosExp/Estado | Estado | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos | - E01 - Abierto. - E02 - Cerrado. - E03 - Índice para remisión cerrado. |
+| /metadatosExp/Interesado | Interesado | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos | Obligatorio cumplimentar si existe un interesado. |
+
+```console
+curl -L http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd
+```
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema 
@@ -50,5 +74,3 @@ elementFormDefault="qualified" attributeFormDefault="unqualified">
 	</xsd:simpleType>
 </xsd:schema>
 ```
-
-![MetadatosExpedienteEni](MetadatosExpedienteEni/metadatosExp.png){#metadatosExp}

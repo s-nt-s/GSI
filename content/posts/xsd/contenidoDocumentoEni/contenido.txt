@@ -1,0 +1,6 @@
+PATH	NAME	TYPE	NAMESPACE	COMMENT
+/contenido	contenido	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido	
+/contenido/DatosXML	DatosXML	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido	Contenido en formato XML. En caso de datos XML cuya codificación difiera de la de esta estructura raíz se incluirá una cláusula CDATA.
+/contenido/ValorBinario	ValorBinario	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido	Contenido en base64.
+/contenido/referenciaFichero	referenciaFichero	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido	Referencia interna al fichero de contenido.
+/contenido/NombreFormato	NombreFormato	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido	El formato del fichero de contenido del documento electrónico atenderá a lo establecido en la NTI de Catálogo de estándares.

@@ -3,6 +3,27 @@ title: contenido (contenidoDocumentoEni)
 summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd)"
 ---
 
+<div class="widthscroll" id="contenido">
+<pre><code><a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r contenido -e 2 -o <a href="contenidoDocumentoEni/contenido.csv">contenido.csv</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r contenido -e 2 -o <a href="contenidoDocumentoEni/contenido.txt">contenido.txt</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r contenido -e 2 -o <a href="contenidoDocumentoEni/contenido.png">contenido.png</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r contenido -e 2 -o <a href="contenidoDocumentoEni/contenido.svg">contenido.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd
+</code></pre>
+</div>
+
+![Diagrama de contenido (contenidoDocumentoEni.xsd)](contenidoDocumentoEni/contenido.png)
+
+| PATH | NAME | TYPE | NAMESPACE | COMMENT |
+|:----|:----|:----|:----|:----|
+| /contenido | contenido | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido |  |
+| /contenido/DatosXML | DatosXML | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido | Contenido en formato XML. En caso de datos XML cuya codificación difiera de la de esta estructura raíz se incluirá una cláusula CDATA. |
+| /contenido/ValorBinario | ValorBinario | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido | Contenido en base64. |
+| /contenido/referenciaFichero | referenciaFichero | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido | Referencia interna al fichero de contenido. |
+| /contenido/NombreFormato | NombreFormato | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido | El formato del fichero de contenido del documento electrónico atenderá a lo establecido en la NTI de Catálogo de estándares. |
+
+```console
+curl -L http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd
+```
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema 
@@ -43,5 +64,3 @@ elementFormDefault="qualified" attributeFormDefault="unqualified">
 	</xsd:complexType>
 </xsd:schema>
 ```
-
-![contenidoDocumentoEni](contenidoDocumentoEni/contenido.png){#contenido}

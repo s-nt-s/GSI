@@ -3,20 +3,55 @@ from bs4 import BeautifulSoup
 import requests
 from functools import lru_cache
 from .core.web import Web
-from .core.util import write, clean_url
+from .core.util import write, clean_url, read
 from textwrap import dedent
 import re
 import subprocess
 from os import makedirs
+import os
+from csv import DictReader
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+xsddiagram = dname + "/../tools/xsddiagram.sh"
 
 re_comment = re.compile(r"\s*<!--.*?-->\s*", re.DOTALL)
 
 def run_cmd(*args):
-    print(*args)
     return subprocess.run(args)
+
+def run_xsddiagram(*args):
+    arg = [str(a) for a in args]
+    args = [xsddiagram] + arg
     output = subprocess.check_output(args)
     output = output.decode('utf-8')
-    return output
+    output = output.strip()
+    comand = output.split("\n")[0]
+    print(comand)
+    return comand
+
+def read_csv(*args, cols=None):
+    rows = []
+    vals = {}
+    for file in args:
+        with open(file, "r") as f:
+            for row in DictReader(f, delimiter='\t'):
+                for k, v in row.items():
+                    if k not in vals:
+                        vals[k]=set()
+                    vals[k].add(v)
+                rows.append(row)
+    del_col = set()
+    for col, val in vals.items():
+        val = tuple(val)
+        if (cols is not None and col not in cols) or (len(val)==1 and val[0] in ("", None)):
+            del_col.add(col)
+    r = []
+    for row in rows:
+        row = {k:v for k,v in row.items() if k not in del_col}
+        if row:
+            r.append(row)
+    return r
 
 class XSD:
     def __init__(self, salida):
@@ -47,6 +82,7 @@ class XSD:
         img = self.salida+name+"/"
         makedirs(img, exist_ok=True)
 
+        cmds = []
         for e in elms:
             levels = 6
             if (name, e) == ("IndiceContenidoExpedienteEni", "IndiceContenido"):
@@ -55,7 +91,8 @@ class XSD:
                 levels = 5
             elif (name, e) == ("expedienteEni", "expediente"):
                 pass
-            run_cmd("xsddiagram", "-no-gui", "-y", "-r", e, "-e", str(levels), "-o", img+e+".svg", "-o", img+e+".png", url)
+            cmd = run_xsddiagram(e, img, url) # levels
+            cmds.append(cmd)
         title = str(name)
         if len(elms)==1:
             title = elms[0]+ " ({})".format(title)
@@ -69,14 +106,32 @@ class XSD:
             for e in elms:
                 MD.append("* [{0}](#{0})".format(e))
 
+        TXTS=[]
+        for e, cmd in zip(elms, cmds):
+            cmd = cmd.replace("$ ", "")
+            cmd = re.sub(r"content/posts/xsd/(\S+?/)([^/\s]+)", r'<a href="\1\2">\2</a>', cmd)
+            #cmd = re.sub(r"(https?://\S+)", r'<a href="\1">\1</a>', cmd)
+            cmd = cmd.replace("xsddiagram", '<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a>')
+            MD.append('''<div class="widthscroll" id="{}">\n<pre><code>{}</code></pre>\n</div>'''.format(e, cmd))
+            MD.append("\n![Diagrama de {1} ({0}.xsd)]({0}/{1}.png)\n".format(name, e))
+            TXTS.append(img+"/"+e+".txt")
+
+        rows = read_csv(*TXTS, cols=('NAME', 'COMMENT'))
+        rows = [r for r in row if r.get('COMMENT')]
+        if rows:
+            head = rows[0].keys()
+            MD.append("| " + " | ".join(head) + " |")
+            MD.append((("|:----")*len(head))+"|")
+            for row in rows:
+                row = row.values()
+                MD.append("| " + " | ".join(row) + " |")
+            MD.append("\nTabla 1: Comentarios de los elementos de {}.xsd".format(name))
+
+        MD.append("")
+        MD.append("```console\ncurl -L {}\n```".format(url))
         MD.append("```xml\n{}\n```".format(self.get_content(url)))
 
-        for e in elms:
-            MD.append("\n![{0}]({0}/{1}.png){{#{1}}}\n".format(name, e))
-
         write(self.salida+name+".md", "\n".join(MD), encoding='utf-8-sig')
-
-
 
 if __name__ == "__main__":
     s = Web()

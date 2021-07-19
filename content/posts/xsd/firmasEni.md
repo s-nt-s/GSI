@@ -3,6 +3,44 @@ title: firmas (firmasEni)
 summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd)"
 ---
 
+<div class="widthscroll" id="firmas">
+<pre><code><a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r firmas -e 4 -o <a href="firmasEni/firmas.csv">firmas.csv</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r firmas -e 4 -o <a href="firmasEni/firmas.txt">firmas.txt</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r firmas -e 4 -o <a href="firmasEni/firmas.png">firmas.png</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r firmas -e 4 -o <a href="firmasEni/firmas.svg">firmas.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd
+</code></pre>
+</div>
+
+![Diagrama de firmas (firmasEni.xsd)](firmasEni/firmas.png)
+
+| PATH | NAME | TYPE | NAMESPACE | COMMENT |
+|:----|:----|:----|:----|:----|
+| /firmas | firmas | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma | firma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/TipoFirma | TipoFirma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma | - TF01 - CSV. - TF02 - XAdES internally detached signature. - TF03 - XAdES enveloped signature. - TF04 - CAdES detached/explicit signature. - TF05 - CAdES attached/implicit signature. - TF06 - PAdES. |
+| /firmas/firma/ContenidoFirma | ContenidoFirma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/CSV | CSV | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/CSV/ValorCSV | ValorCSV | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/CSV/RegulacionGeneracionCSV | RegulacionGeneracionCSV | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado | FirmaConCertificado | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado/FirmaBase64 | FirmaBase64 | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado/Signature | Signature | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado/ReferenciaFirma | ReferenciaFirma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma | Referencia interna al fichero que incluye la firma. |
+| /firmas | firmas | complexType | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma | firma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/TipoFirma | TipoFirma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma | - TF01 - CSV. - TF02 - XAdES internally detached signature. - TF03 - XAdES enveloped signature. - TF04 - CAdES detached/explicit signature. - TF05 - CAdES attached/implicit signature. - TF06 - PAdES. |
+| /firmas/firma/ContenidoFirma | ContenidoFirma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/CSV | CSV | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/CSV/ValorCSV | ValorCSV | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/CSV/RegulacionGeneracionCSV | RegulacionGeneracionCSV | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado | FirmaConCertificado | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado/FirmaBase64 | FirmaBase64 | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado/Signature | Signature | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma |  |
+| /firmas/firma/ContenidoFirma/FirmaConCertificado/ReferenciaFirma | ReferenciaFirma | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma | Referencia interna al fichero que incluye la firma. |
+
+```console
+curl -L http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd
+```
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema 
@@ -80,5 +118,3 @@ elementFormDefault="qualified" attributeFormDefault="unqualified">
 	</xsd:complexType>
 </xsd:schema>
 ```
-
-![firmasEni](firmasEni/firmas.png){#firmas}
