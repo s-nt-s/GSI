@@ -3,6 +3,7 @@
 URL="http://regis.cosnier.free.fr/?page=XSDDiagram"
 CMD="$(dirname "$0")/xsddiagram/XSDDiagramConsole.exe"
 DRY=0
+XSD=""
 
 run_xsddiagram() {
   echo "\$ xsddiagram $@"
@@ -32,7 +33,6 @@ if [ $# -eq 0 ]; then
   exec /usr/bin/cli "$CMD"
 fi
 
-XSD=""
 ROT=""
 OSS=0
 LVL=""
