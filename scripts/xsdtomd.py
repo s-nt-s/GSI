@@ -26,31 +26,50 @@ def run_xsddiagram(*args):
     output = subprocess.check_output(args)
     output = output.decode('utf-8')
     output = output.strip()
-    comand = output.split("\n")[0]
-    print(comand)
-    return comand
+    cmd = [c.strip() for c in output.split("\n") if c.strip()]
+    cmd = [c for c in cmd if c.startswith("$ ")]
+    cmd = "\n".join(cmd)
+    print(cmd)
+    return cmd
 
-def read_csv(*args, cols=None):
-    rows = []
-    vals = {}
+
+def read_csv(*args, **kargv):
     for file in args:
         with open(file, "r") as f:
-            for row in DictReader(f, delimiter='\t'):
-                for k, v in row.items():
-                    if k not in vals:
-                        vals[k]=set()
-                    vals[k].add(v)
-                rows.append(row)
+            for row in DictReader(f, **kargv):
+                yield row
+
+def read_table(*args, cols=None, no_null=None):
+    if no_null is None:
+        no_null = tuple()
+    rows = []
+    vals = {}
+    for row in read_csv(*args, delimiter='\t'):
+        if cols:
+            row = {k:v for row.items() if k in cols}
+        skip = False
+        for k in no_null:
+            skip = skip or row.get(k) in ("", None)
+        if skip:
+            continue
+        for k, v in row.items():
+            if k not in vals:
+                vals[k]=set()
+            vals[k].add(v)
+        rows.append(row)
+
     del_col = set()
     for col, val in vals.items():
         val = tuple(val)
-        if (cols is not None and col not in cols) or (len(val)==1 and val[0] in ("", None)):
+        if len(val)==1 and val[0] in ("", None):
             del_col.add(col)
+
     r = []
     for row in rows:
         row = {k:v for k,v in row.items() if k not in del_col}
         if row:
             r.append(row)
+
     return r
 
 class XSD:
@@ -77,6 +96,7 @@ class XSD:
         if len(elms)==0:
             print(url, "no tiene elementos")
             return
+        print("#", url)
         name = url.rsplit("/", 1)[-1]
         name = name.rsplit(".", 1)[0]
         img = self.salida+name+"/"
@@ -116,8 +136,7 @@ class XSD:
             MD.append("\n![Diagrama de {1} ({0}.xsd)]({0}/{1}.png)\n".format(name, e))
             TXTS.append(img+"/"+e+".txt")
 
-        rows = read_csv(*TXTS, cols=('NAME', 'COMMENT'))
-        rows = [r for r in row if r.get('COMMENT')]
+        rows = read_table(*TXTS, cols=('NAME', 'COMMENT'), no_null=('COMMENT'))
         if rows:
             head = rows[0].keys()
             MD.append("| " + " | ".join(head) + " |")

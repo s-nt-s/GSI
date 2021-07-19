@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="937" height="1812" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="658" height="534" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <rect x="209" y="25" width="136" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
 <text x="277" y="36.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FechaIndiceElectronico</text>
 <line x1="211" y1="27" x2="219" y2="27" style="stroke:rgb(0,0,0);stroke-width:1"/>
@@ -71,488 +71,116 @@
 <line x1="477" y1="349" x2="483" y2="349" style="stroke:rgb(0,0,0);stroke-width:1"/>
 <line x1="477" y1="351" x2="483" y2="351" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
-<rect x="741" y="396" width="136" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="809" y="407.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IdentificadorDocumento</text>
-<line x1="743" y1="398" x2="751" y2="398" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="400" x2="749" y2="400" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="402" x2="749" y2="402" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="404" x2="749" y2="404" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="741" y="449" width="77" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="779.5" y="460.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ValorHuella</text>
-<line x1="743" y1="451" x2="751" y2="451" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="453" x2="749" y2="453" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="455" x2="749" y2="455" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="457" x2="749" y2="457" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="741" y="502" width="105" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="793.5" y="513.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FuncionResumen</text>
-<line x1="743" y1="504" x2="751" y2="504" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="506" x2="749" y2="506" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="508" x2="749" y2="508" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="510" x2="749" y2="510" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="741" y="555" width="173" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1;stroke-dasharray:4,1"/>
-<text x="827.5" y="566.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FechaIncorporacionExpediente</text>
-<line x1="743" y1="557" x2="751" y2="557" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="559" x2="749" y2="559" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="561" x2="749" y2="561" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="563" x2="749" y2="563" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="741" y="608" width="160" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1;stroke-dasharray:4,1"/>
-<text x="821" y="619.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">OrdenDocumentoExpediente</text>
-<line x1="743" y1="610" x2="751" y2="610" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="612" x2="749" y2="612" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="614" x2="749" y2="614" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="616" x2="749" y2="616" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="731" y1="407" x2="741" y2="407" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="731" y1="460" x2="741" y2="460" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="731" y1="513" x2="741" y2="513" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="731" y1="566" x2="741" y2="566" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="731" y1="619" x2="741" y2="619" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="731" y1="407" x2="731" y2="619" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="721" y1="513" x2="731" y2="513" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M687 503 L710 503 L716 509 L716 517 L710 523 L687 523 L681 517 L681 509 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="684" y1="513" x2="713" y2="513" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="693" cy="513" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="698" cy="513" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="703" cy="513" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="711" y="508" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="713" y1="513" x2="719" y2="513" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="661" y1="513" x2="681" y2="513" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="535" y="502" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="595.5" y="513.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">DocumentoIndizado</text>
-<rect x="651" y="508" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="653" y1="513" x2="659" y2="513" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="741" y="661" width="136" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="809" y="672.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FechaIndiceElectronico</text>
-<line x1="743" y1="663" x2="751" y2="663" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="665" x2="749" y2="665" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="667" x2="749" y2="667" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="743" y1="669" x2="749" y2="669" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="801" y="714" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="861.5" y="725.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">DocumentoIndizado</text>
-<rect x="917" y="720" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="919" y1="725" x2="925" y2="725" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="922" y1="722" x2="922" y2="728" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="801" y="767" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="861.5" y="778.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
-<rect x="917" y="773" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="919" y1="778" x2="925" y2="778" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="922" y1="775" x2="922" y2="781" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="801" y="820" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="853" y="831.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
-<rect x="900" y="826" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="902" y1="831" x2="908" y2="831" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="905" y1="828" x2="905" y2="834" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="791" y1="725" x2="801" y2="725" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="791" y1="778" x2="801" y2="778" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="791" y1="831" x2="801" y2="831" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="791" y1="725" x2="791" y2="831" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="781" y1="778" x2="791" y2="778" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M750 771 L773 771 L779 777 L779 785 L773 791 L750 791 L744 785 L744 777 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<path d="M747 768 L770 768 L776 774 L776 782 L770 788 L747 788 L741 782 L741 774 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="746" y1="778" x2="750" y2="778" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="750" y1="778" x2="754" y2="774" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="762" y1="774" x2="766" y2="774" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="762" y1="778" x2="770" y2="778" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="762" y1="782" x2="766" y2="782" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="766" y1="774" x2="766" y2="782" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="758" cy="774" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="758" cy="778" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="758" cy="782" rx="2" ry="2" style="rgb(0,0,0)"/>
-<text x="771" y="798" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
-<rect x="771" y="773" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="773" y1="778" x2="779" y2="778" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="731" y1="672" x2="741" y2="672" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="731" y1="778" x2="741" y2="778" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="731" y1="672" x2="731" y2="778" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="721" y1="752" x2="731" y2="752" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M687 742 L710 742 L716 748 L716 756 L710 762 L687 762 L681 756 L681 748 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="684" y1="752" x2="713" y2="752" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="693" cy="752" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="698" cy="752" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="703" cy="752" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="711" y="747" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="713" y1="752" x2="719" y2="752" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="661" y1="751" x2="681" y2="751" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="535" y="740" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="595.5" y="751.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
-<rect x="651" y="746" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="653" y1="751" x2="659" y2="751" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="724" y="873" width="119" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="783.5" y="884.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IdentificadorCarpeta</text>
-<line x1="726" y1="875" x2="734" y2="875" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="877" x2="732" y2="877" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="879" x2="732" y2="879" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="881" x2="732" y2="881" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="784" y="926" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="844.5" y="937.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">DocumentoIndizado</text>
-<rect x="900" y="932" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="902" y1="937" x2="908" y2="937" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="905" y1="934" x2="905" y2="940" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="784" y="979" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="844.5" y="990.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
-<rect x="900" y="985" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="902" y1="990" x2="908" y2="990" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="905" y1="987" x2="905" y2="993" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="784" y="1032" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="836" y="1043.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
-<rect x="883" y="1038" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="885" y1="1043" x2="891" y2="1043" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="888" y1="1040" x2="888" y2="1046" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="774" y1="937" x2="784" y2="937" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="774" y1="990" x2="784" y2="990" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="774" y1="1043" x2="784" y2="1043" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="774" y1="937" x2="774" y2="1043" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="764" y1="990" x2="774" y2="990" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M733 983 L756 983 L762 989 L762 997 L756 1003 L733 1003 L727 997 L727 989 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<path d="M730 980 L753 980 L759 986 L759 994 L753 1000 L730 1000 L724 994 L724 986 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="729" y1="990" x2="733" y2="990" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="733" y1="990" x2="737" y2="986" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="745" y1="986" x2="749" y2="986" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="745" y1="990" x2="753" y2="990" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="745" y1="994" x2="749" y2="994" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="749" y1="986" x2="749" y2="994" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="741" cy="986" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="741" cy="990" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="741" cy="994" rx="2" ry="2" style="rgb(0,0,0)"/>
-<text x="754" y="1010" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
-<rect x="754" y="985" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="756" y1="990" x2="762" y2="990" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="714" y1="884" x2="724" y2="884" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="990" x2="724" y2="990" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="884" x2="714" y2="990" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="704" y1="964" x2="714" y2="964" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M670 954 L693 954 L699 960 L699 968 L693 974 L670 974 L664 968 L664 960 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="667" y1="964" x2="696" y2="964" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="676" cy="964" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="681" cy="964" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="686" cy="964" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="694" y="959" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="696" y1="964" x2="702" y2="964" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="644" y1="963" x2="664" y2="963" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="535" y="952" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="587" y="963.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
-<rect x="634" y="958" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="636" y1="963" x2="642" y2="963" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="525" y1="513" x2="535" y2="513" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="525" y1="751" x2="535" y2="751" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="525" y1="963" x2="535" y2="963" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="525" y1="513" x2="525" y2="963" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="515" y1="725" x2="525" y2="725" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M484 718 L507 718 L513 724 L513 732 L507 738 L484 738 L478 732 L478 724 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<path d="M481 715 L504 715 L510 721 L510 729 L504 735 L481 735 L475 729 L475 721 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="480" y1="725" x2="484" y2="725" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="484" y1="725" x2="488" y2="721" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="496" y1="721" x2="500" y2="721" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="496" y1="725" x2="504" y2="725" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="496" y1="729" x2="500" y2="729" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="500" y1="721" x2="500" y2="729" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="492" cy="721" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="492" cy="725" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="492" cy="729" rx="2" ry="2" style="rgb(0,0,0)"/>
-<text x="505" y="745" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
-<rect x="505" y="720" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="507" y1="725" x2="513" y2="725" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M484 399 L507 399 L513 405 L513 413 L507 419 L484 419 L478 413 L478 405 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M481 396 L504 396 L510 402 L510 410 L504 416 L481 416 L475 410 L475 402 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="480" y1="406" x2="484" y2="406" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="484" y1="406" x2="488" y2="402" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="496" y1="402" x2="500" y2="402" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="496" y1="406" x2="504" y2="406" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="496" y1="410" x2="500" y2="410" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="500" y1="402" x2="500" y2="410" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="492" cy="402" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="492" cy="406" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="492" cy="410" rx="2" ry="2" style="rgb(0,0,0)"/>
+<text x="505" y="426" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
+<rect x="505" y="401" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="507" y1="406" x2="513" y2="406" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="510" y1="403" x2="510" y2="409" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
 <line x1="465" y1="354" x2="475" y2="354" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="465" y1="725" x2="475" y2="725" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="465" y1="354" x2="465" y2="725" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="455" y1="699" x2="465" y2="699" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M421 689 L444 689 L450 695 L450 703 L444 709 L421 709 L415 703 L415 695 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="418" y1="699" x2="447" y2="699" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="427" cy="699" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="432" cy="699" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="437" cy="699" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="445" y="694" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="447" y1="699" x2="453" y2="699" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="465" y1="406" x2="475" y2="406" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="465" y1="354" x2="465" y2="406" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="455" y1="379" x2="465" y2="379" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M421 369 L444 369 L450 375 L450 383 L444 389 L421 389 L415 383 L415 375 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="418" y1="379" x2="447" y2="379" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="427" cy="379" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="432" cy="379" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="437" cy="379" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="445" y="374" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="447" y1="379" x2="453" y2="379" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
-<line x1="395" y1="698" x2="415" y2="698" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="269" y="687" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="329.5" y="698.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
-<rect x="385" y="693" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="387" y1="698" x2="393" y2="698" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="395" y1="379" x2="415" y2="379" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="269" y="368" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="329.5" y="379.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
+<rect x="385" y="374" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="387" y1="379" x2="393" y2="379" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
-<rect x="458" y="1085" width="119" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="517.5" y="1096.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IdentificadorCarpeta</text>
-<line x1="460" y1="1087" x2="468" y2="1087" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="460" y1="1089" x2="466" y2="1089" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="460" y1="1091" x2="466" y2="1091" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="460" y1="1093" x2="466" y2="1093" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<rect x="458" y="446" width="119" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="517.5" y="457.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IdentificadorCarpeta</text>
+<line x1="460" y1="448" x2="468" y2="448" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="460" y1="450" x2="466" y2="450" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="460" y1="452" x2="466" y2="452" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="460" y1="454" x2="466" y2="454" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
-<rect x="724" y="1138" width="136" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="792" y="1149.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IdentificadorDocumento</text>
-<line x1="726" y1="1140" x2="734" y2="1140" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1142" x2="732" y2="1142" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1144" x2="732" y2="1144" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1146" x2="732" y2="1146" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M467 502 L490 502 L496 508 L496 516 L490 522 L467 522 L461 516 L461 508 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M464 499 L487 499 L493 505 L493 513 L487 519 L464 519 L458 513 L458 505 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="463" y1="509" x2="467" y2="509" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="467" y1="509" x2="471" y2="505" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="479" y1="505" x2="483" y2="505" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="479" y1="509" x2="487" y2="509" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="479" y1="513" x2="483" y2="513" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="483" y1="505" x2="483" y2="513" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="475" cy="505" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="475" cy="509" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="475" cy="513" rx="2" ry="2" style="rgb(0,0,0)"/>
+<text x="488" y="529" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
+<rect x="488" y="504" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="490" y1="509" x2="496" y2="509" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="493" y1="506" x2="493" y2="512" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
-<rect x="724" y="1191" width="77" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="762.5" y="1202.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ValorHuella</text>
-<line x1="726" y1="1193" x2="734" y2="1193" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1195" x2="732" y2="1195" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1197" x2="732" y2="1197" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1199" x2="732" y2="1199" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="448" y1="457" x2="458" y2="457" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="448" y1="509" x2="458" y2="509" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="448" y1="457" x2="448" y2="509" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="438" y1="482" x2="448" y2="482" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M404 472 L427 472 L433 478 L433 486 L427 492 L404 492 L398 486 L398 478 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="401" y1="482" x2="430" y2="482" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="410" cy="482" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="415" cy="482" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="420" cy="482" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="428" y="477" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="430" y1="482" x2="436" y2="482" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
-<rect x="724" y="1244" width="105" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="776.5" y="1255.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FuncionResumen</text>
-<line x1="726" y1="1246" x2="734" y2="1246" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1248" x2="732" y2="1248" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1250" x2="732" y2="1250" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1252" x2="732" y2="1252" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="724" y="1297" width="173" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1;stroke-dasharray:4,1"/>
-<text x="810.5" y="1308.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FechaIncorporacionExpediente</text>
-<line x1="726" y1="1299" x2="734" y2="1299" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1301" x2="732" y2="1301" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1303" x2="732" y2="1303" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1305" x2="732" y2="1305" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="724" y="1350" width="160" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1;stroke-dasharray:4,1"/>
-<text x="804" y="1361.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">OrdenDocumentoExpediente</text>
-<line x1="726" y1="1352" x2="734" y2="1352" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1354" x2="732" y2="1354" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1356" x2="732" y2="1356" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1358" x2="732" y2="1358" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="714" y1="1149" x2="724" y2="1149" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="1202" x2="724" y2="1202" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="1255" x2="724" y2="1255" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="1308" x2="724" y2="1308" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="1361" x2="724" y2="1361" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="1149" x2="714" y2="1361" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="704" y1="1255" x2="714" y2="1255" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M670 1245 L693 1245 L699 1251 L699 1259 L693 1265 L670 1265 L664 1259 L664 1251 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="667" y1="1255" x2="696" y2="1255" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="676" cy="1255" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="681" cy="1255" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="686" cy="1255" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="694" y="1250" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="696" y1="1255" x2="702" y2="1255" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="644" y1="1255" x2="664" y2="1255" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="518" y="1244" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="578.5" y="1255.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">DocumentoIndizado</text>
-<rect x="634" y="1250" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="636" y1="1255" x2="642" y2="1255" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="724" y="1403" width="136" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="792" y="1414.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FechaIndiceElectronico</text>
-<line x1="726" y1="1405" x2="734" y2="1405" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1407" x2="732" y2="1407" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1409" x2="732" y2="1409" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="726" y1="1411" x2="732" y2="1411" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="784" y="1456" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="844.5" y="1467.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">DocumentoIndizado</text>
-<rect x="900" y="1462" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="902" y1="1467" x2="908" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="905" y1="1464" x2="905" y2="1470" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="784" y="1509" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="844.5" y="1520.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
-<rect x="900" y="1515" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="902" y1="1520" x2="908" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="905" y1="1517" x2="905" y2="1523" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="784" y="1562" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="836" y="1573.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
-<rect x="883" y="1568" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="885" y1="1573" x2="891" y2="1573" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="888" y1="1570" x2="888" y2="1576" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="774" y1="1467" x2="784" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="774" y1="1520" x2="784" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="774" y1="1573" x2="784" y2="1573" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="774" y1="1467" x2="774" y2="1573" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="764" y1="1520" x2="774" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M733 1513 L756 1513 L762 1519 L762 1527 L756 1533 L733 1533 L727 1527 L727 1519 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<path d="M730 1510 L753 1510 L759 1516 L759 1524 L753 1530 L730 1530 L724 1524 L724 1516 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="729" y1="1520" x2="733" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="733" y1="1520" x2="737" y2="1516" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="745" y1="1516" x2="749" y2="1516" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="745" y1="1520" x2="753" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="745" y1="1524" x2="749" y2="1524" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="749" y1="1516" x2="749" y2="1524" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="741" cy="1516" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="741" cy="1520" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="741" cy="1524" rx="2" ry="2" style="rgb(0,0,0)"/>
-<text x="754" y="1540" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
-<rect x="754" y="1515" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="756" y1="1520" x2="762" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="714" y1="1414" x2="724" y2="1414" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="1520" x2="724" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="714" y1="1414" x2="714" y2="1520" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="704" y1="1494" x2="714" y2="1494" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M670 1484 L693 1484 L699 1490 L699 1498 L693 1504 L670 1504 L664 1498 L664 1490 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="667" y1="1494" x2="696" y2="1494" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="676" cy="1494" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="681" cy="1494" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="686" cy="1494" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="694" y="1489" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="696" y1="1494" x2="702" y2="1494" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="644" y1="1493" x2="664" y2="1493" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="518" y="1482" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="578.5" y="1493.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
-<rect x="634" y="1488" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="636" y1="1493" x2="642" y2="1493" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="707" y="1615" width="119" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="766.5" y="1626.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IdentificadorCarpeta</text>
-<line x1="709" y1="1617" x2="717" y2="1617" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="709" y1="1619" x2="715" y2="1619" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="709" y1="1621" x2="715" y2="1621" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="709" y1="1623" x2="715" y2="1623" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="767" y="1668" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="827.5" y="1679.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">DocumentoIndizado</text>
-<rect x="883" y="1674" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="885" y1="1679" x2="891" y2="1679" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="888" y1="1676" x2="888" y2="1682" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="767" y="1721" width="121" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="827.5" y="1732.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ExpedienteIndizado</text>
-<rect x="883" y="1727" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="885" y1="1732" x2="891" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="888" y1="1729" x2="888" y2="1735" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<rect x="767" y="1774" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="819" y="1785.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
-<rect x="866" y="1780" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="868" y1="1785" x2="874" y2="1785" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="871" y1="1782" x2="871" y2="1788" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="757" y1="1679" x2="767" y2="1679" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="757" y1="1732" x2="767" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="757" y1="1785" x2="767" y2="1785" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="757" y1="1679" x2="757" y2="1785" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="747" y1="1732" x2="757" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M716 1725 L739 1725 L745 1731 L745 1739 L739 1745 L716 1745 L710 1739 L710 1731 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<path d="M713 1722 L736 1722 L742 1728 L742 1736 L736 1742 L713 1742 L707 1736 L707 1728 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="712" y1="1732" x2="716" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="716" y1="1732" x2="720" y2="1728" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="728" y1="1728" x2="732" y2="1728" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="728" y1="1732" x2="736" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="728" y1="1736" x2="732" y2="1736" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="732" y1="1728" x2="732" y2="1736" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="724" cy="1728" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="724" cy="1732" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="724" cy="1736" rx="2" ry="2" style="rgb(0,0,0)"/>
-<text x="737" y="1752" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
-<rect x="737" y="1727" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="739" y1="1732" x2="745" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="697" y1="1626" x2="707" y2="1626" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="697" y1="1732" x2="707" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="697" y1="1626" x2="697" y2="1732" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="687" y1="1706" x2="697" y2="1706" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M653 1696 L676 1696 L682 1702 L682 1710 L676 1716 L653 1716 L647 1710 L647 1702 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="650" y1="1706" x2="679" y2="1706" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="659" cy="1706" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="664" cy="1706" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="669" cy="1706" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="677" y="1701" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="679" y1="1706" x2="685" y2="1706" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="627" y1="1705" x2="647" y2="1705" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="518" y="1694" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="570" y="1705.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
-<rect x="617" y="1700" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="619" y1="1705" x2="625" y2="1705" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="508" y1="1255" x2="518" y2="1255" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="508" y1="1493" x2="518" y2="1493" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="508" y1="1705" x2="518" y2="1705" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="508" y1="1255" x2="508" y2="1705" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="498" y1="1467" x2="508" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M467 1460 L490 1460 L496 1466 L496 1474 L490 1480 L467 1480 L461 1474 L461 1466 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<path d="M464 1457 L487 1457 L493 1463 L493 1471 L487 1477 L464 1477 L458 1471 L458 1463 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="463" y1="1467" x2="467" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="467" y1="1467" x2="471" y2="1463" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="479" y1="1463" x2="483" y2="1463" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="479" y1="1467" x2="487" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="479" y1="1471" x2="483" y2="1471" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="483" y1="1463" x2="483" y2="1471" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="475" cy="1463" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="475" cy="1467" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="475" cy="1471" rx="2" ry="2" style="rgb(0,0,0)"/>
-<text x="488" y="1487" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
-<rect x="488" y="1462" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="490" y1="1467" x2="496" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="448" y1="1096" x2="458" y2="1096" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="448" y1="1467" x2="458" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="448" y1="1096" x2="448" y2="1467" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="438" y1="1441" x2="448" y2="1441" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M404 1431 L427 1431 L433 1437 L433 1445 L427 1451 L404 1451 L398 1445 L398 1437 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="401" y1="1441" x2="430" y2="1441" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="410" cy="1441" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="415" cy="1441" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="420" cy="1441" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="428" y="1436" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="430" y1="1441" x2="436" y2="1441" style="stroke:rgb(0,0,0);stroke-width:1"/>
-
-<line x1="378" y1="1440" x2="398" y2="1440" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="269" y="1429" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="321" y="1440.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
-<rect x="368" y="1435" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="370" y1="1440" x2="376" y2="1440" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="378" y1="482" x2="398" y2="482" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="269" y="471" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="321" y="482.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CarpetaIndizada</text>
+<rect x="368" y="477" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="370" y1="482" x2="376" y2="482" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
 <line x1="259" y1="195" x2="269" y2="195" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="259" y1="698" x2="269" y2="698" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="259" y1="1440" x2="269" y2="1440" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="259" y1="195" x2="259" y2="1440" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="249" y1="937" x2="259" y2="937" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M218 930 L241 930 L247 936 L247 944 L241 950 L218 950 L212 944 L212 936 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<path d="M215 927 L238 927 L244 933 L244 941 L238 947 L215 947 L209 941 L209 933 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="214" y1="937" x2="218" y2="937" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="218" y1="937" x2="222" y2="933" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="230" y1="933" x2="234" y2="933" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="230" y1="937" x2="238" y2="937" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="230" y1="941" x2="234" y2="941" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="234" y1="933" x2="234" y2="941" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="226" cy="933" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="226" cy="937" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="226" cy="941" rx="2" ry="2" style="rgb(0,0,0)"/>
-<text x="239" y="957" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
-<rect x="239" y="932" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="241" y1="937" x2="247" y2="937" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="259" y1="379" x2="269" y2="379" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="259" y1="482" x2="269" y2="482" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="259" y1="195" x2="259" y2="482" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="249" y1="298" x2="259" y2="298" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M218 291 L241 291 L247 297 L247 305 L241 311 L218 311 L212 305 L212 297 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<path d="M215 288 L238 288 L244 294 L244 302 L238 308 L215 308 L209 302 L209 294 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="214" y1="298" x2="218" y2="298" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="218" y1="298" x2="222" y2="294" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="230" y1="294" x2="234" y2="294" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="230" y1="298" x2="238" y2="298" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="230" y1="302" x2="234" y2="302" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="234" y1="294" x2="234" y2="302" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="226" cy="294" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="226" cy="298" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="226" cy="302" rx="2" ry="2" style="rgb(0,0,0)"/>
+<text x="239" y="318" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
+<rect x="239" y="293" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="241" y1="298" x2="247" y2="298" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
 <line x1="199" y1="36" x2="209" y2="36" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="199" y1="937" x2="209" y2="937" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="199" y1="36" x2="199" y2="937" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<line x1="189" y1="911" x2="199" y2="911" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<path d="M155 901 L178 901 L184 907 L184 915 L178 921 L155 921 L149 915 L149 907 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="152" y1="911" x2="181" y2="911" style="stroke:rgb(0,0,0);stroke-width:1"/>
-<ellipse cx="161" cy="911" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="166" cy="911" rx="2" ry="2" style="rgb(0,0,0)"/>
-<ellipse cx="171" cy="911" rx="2" ry="2" style="rgb(0,0,0)"/>
-<rect x="179" y="906" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="181" y1="911" x2="187" y2="911" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="199" y1="298" x2="209" y2="298" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="199" y1="36" x2="199" y2="298" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="189" y1="272" x2="199" y2="272" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M155 262 L178 262 L184 268 L184 276 L178 282 L155 282 L149 276 L149 268 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="152" y1="272" x2="181" y2="272" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="161" cy="272" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="166" cy="272" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="171" cy="272" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="179" y="267" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="181" y1="272" x2="187" y2="272" style="stroke:rgb(0,0,0);stroke-width:1"/>
 
-<line x1="129" y1="910" x2="149" y2="910" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
-<rect x="20" y="899" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<text x="72" y="910.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IndiceContenido</text>
-<rect x="119" y="905" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
-<line x1="121" y1="910" x2="127" y2="910" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="129" y1="271" x2="149" y2="271" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="20" y="260" width="104" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="72" y="271.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IndiceContenido</text>
+<rect x="119" y="266" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="121" y1="271" x2="127" y2="271" style="stroke:rgb(0,0,0);stroke-width:1"/>
 </svg>

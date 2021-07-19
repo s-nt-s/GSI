@@ -7,25 +7,11 @@ summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SIC
 <pre><code><a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r De_Mensaje -e 1 -o <a href="SICRES3_MENSAJE_APL/De_Mensaje.csv">De_Mensaje.csv</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd
 <a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r De_Mensaje -e 1 -o <a href="SICRES3_MENSAJE_APL/De_Mensaje.txt">De_Mensaje.txt</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd
 <a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r De_Mensaje -e 1 -o <a href="SICRES3_MENSAJE_APL/De_Mensaje.png">De_Mensaje.png</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd
-<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r De_Mensaje -e 1 -o <a href="SICRES3_MENSAJE_APL/De_Mensaje.svg">De_Mensaje.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd
-</code></pre>
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r De_Mensaje -e 1 -o <a href="SICRES3_MENSAJE_APL/De_Mensaje.svg">De_Mensaje.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd</code></pre>
 </div>
 
 ![Diagrama de De_Mensaje (SICRES3_MENSAJE_APL.xsd)](SICRES3_MENSAJE_APL/De_Mensaje.png)
 
-| PATH | NAME | TYPE |
-|:----|:----|:----|
-| /De_Mensaje | De_Mensaje | element |
-| /De_Mensaje/Codigo_Entidad_Registral_Origen | Codigo_Entidad_Registral_Origen | element |
-| /De_Mensaje/Codigo_Entidad_Registral_Destino | Codigo_Entidad_Registral_Destino | element |
-| /De_Mensaje/Identificador_Intercambio | Identificador_Intercambio | element |
-| /De_Mensaje/Tipo_Mensaje | Tipo_Mensaje | element |
-| /De_Mensaje/Descripcion_Mensaje | Descripcion_Mensaje | element |
-| /De_Mensaje/Numero_Registro_Entrada_Destino | Numero_Registro_Entrada_Destino | element |
-| /De_Mensaje/Fecha_Hora_Entrada_Destino | Fecha_Hora_Entrada_Destino | element |
-| /De_Mensaje/Indicador_Prueba | Indicador_Prueba | element |
-| /De_Mensaje/Identificador_Fichero | Identificador_Fichero | element |
-| /De_Mensaje/Codigo_Error | Codigo_Error | element |
 
 ```console
 curl -L http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd

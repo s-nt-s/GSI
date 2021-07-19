@@ -7,97 +7,11 @@ summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SIC
 <pre><code><a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r Fichero_Intercambio_SICRES_3 -e 2 -o <a href="SICRES3_INTERCAMBIO_APL/Fichero_Intercambio_SICRES_3.csv">Fichero_Intercambio_SICRES_3.csv</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd
 <a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r Fichero_Intercambio_SICRES_3 -e 2 -o <a href="SICRES3_INTERCAMBIO_APL/Fichero_Intercambio_SICRES_3.txt">Fichero_Intercambio_SICRES_3.txt</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd
 <a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r Fichero_Intercambio_SICRES_3 -e 2 -o <a href="SICRES3_INTERCAMBIO_APL/Fichero_Intercambio_SICRES_3.png">Fichero_Intercambio_SICRES_3.png</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd
-<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r Fichero_Intercambio_SICRES_3 -e 2 -o <a href="SICRES3_INTERCAMBIO_APL/Fichero_Intercambio_SICRES_3.svg">Fichero_Intercambio_SICRES_3.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd
-</code></pre>
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r Fichero_Intercambio_SICRES_3 -e 2 -o <a href="SICRES3_INTERCAMBIO_APL/Fichero_Intercambio_SICRES_3.svg">Fichero_Intercambio_SICRES_3.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd</code></pre>
 </div>
 
 ![Diagrama de Fichero_Intercambio_SICRES_3 (SICRES3_INTERCAMBIO_APL.xsd)](SICRES3_INTERCAMBIO_APL/Fichero_Intercambio_SICRES_3.png)
 
-| PATH | NAME | TYPE |
-|:----|:----|:----|
-| /Fichero_Intercambio_SICRES_3 | Fichero_Intercambio_SICRES_3 | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente | De_Origen_o_Remitente | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente/Codigo_Entidad_Registral_Origen | Codigo_Entidad_Registral_Origen | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente/Decodificacion_Entidad_Registral_Origen | Decodificacion_Entidad_Registral_Origen | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente/Numero_Registro_Entrada | Numero_Registro_Entrada | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente/Fecha_Hora_Entrada | Fecha_Hora_Entrada | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente/Timestamp_Entrada | Timestamp_Entrada | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente/Codigo_Unidad_Tramitacion_Origen | Codigo_Unidad_Tramitacion_Origen | element |
-| /Fichero_Intercambio_SICRES_3/De_Origen_o_Remitente/Decodificacion_Unidad_Tramitacion_Origen | Decodificacion_Unidad_Tramitacion_Origen | element |
-| /Fichero_Intercambio_SICRES_3/De_Destino | De_Destino | element |
-| /Fichero_Intercambio_SICRES_3/De_Destino/Codigo_Entidad_Registral_Destino | Codigo_Entidad_Registral_Destino | element |
-| /Fichero_Intercambio_SICRES_3/De_Destino/Decodificacion_Entidad_Registral_Destino | Decodificacion_Entidad_Registral_Destino | element |
-| /Fichero_Intercambio_SICRES_3/De_Destino/Codigo_Unidad_Tramitacion_Destino | Codigo_Unidad_Tramitacion_Destino | element |
-| /Fichero_Intercambio_SICRES_3/De_Destino/Decodificacion_Unidad_Tramitacion_Destino | Decodificacion_Unidad_Tramitacion_Destino | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado | De_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Tipo_Documento_Identificacion_Interesado | Tipo_Documento_Identificacion_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Documento_Identificacion_Interesado | Documento_Identificacion_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Razon_Social_Interesado | Razon_Social_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Nombre_Interesado | Nombre_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Primer_Apellido_Interesado | Primer_Apellido_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Segundo_Apellido_Interesado | Segundo_Apellido_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Tipo_Documento_Identificacion_Representante | Tipo_Documento_Identificacion_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Documento_Identificacion_Representante | Documento_Identificacion_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Razon_Social_Representante | Razon_Social_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Nombre_Representante | Nombre_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Primer_Apellido_Representante | Primer_Apellido_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Segundo_Apellido_Representante | Segundo_Apellido_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Pais_Interesado | Pais_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Provincia_Interesado | Provincia_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Municipio_Interesado | Municipio_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Direccion_Interesado | Direccion_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Codigo_Postal_Interesado | Codigo_Postal_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Correo_Electronico_Interesado | Correo_Electronico_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Telefono_Contacto_Interesado | Telefono_Contacto_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Direccion_Electronica_Habilitada_Interesado | Direccion_Electronica_Habilitada_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Canal_Preferente_Comunicacion_Interesado | Canal_Preferente_Comunicacion_Interesado | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Pais_Representante | Pais_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Provincia_Representante | Provincia_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Municipio_Representante | Municipio_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Direccion_Representante | Direccion_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Codigo_Postal_Representante | Codigo_Postal_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Correo_Electronico_Representante | Correo_Electronico_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Telefono_Contacto_Representante | Telefono_Contacto_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Direccion_Electronica_Habilitada_Representante | Direccion_Electronica_Habilitada_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Canal_Preferente_Comunicacion_Representante | Canal_Preferente_Comunicacion_Representante | element |
-| /Fichero_Intercambio_SICRES_3/De_Interesado/Observaciones | Observaciones | element |
-| /Fichero_Intercambio_SICRES_3/De_Asunto | De_Asunto | element |
-| /Fichero_Intercambio_SICRES_3/De_Asunto/Resumen | Resumen | element |
-| /Fichero_Intercambio_SICRES_3/De_Asunto/Codigo_Asunto_Segun_Destino | Codigo_Asunto_Segun_Destino | element |
-| /Fichero_Intercambio_SICRES_3/De_Asunto/Referencia_Externa | Referencia_Externa | element |
-| /Fichero_Intercambio_SICRES_3/De_Asunto/Numero_Expediente | Numero_Expediente | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo | De_Anexo | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Nombre_Fichero_Anexado | Nombre_Fichero_Anexado | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Identificador_Fichero | Identificador_Fichero | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Validez_Documento | Validez_Documento | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Tipo_Documento | Tipo_Documento | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Certificado | Certificado | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Firma_Documento | Firma_Documento | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/TimeStamp | TimeStamp | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Validacion_OCSP_Certificado | Validacion_OCSP_Certificado | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Hash | Hash | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Tipo_MIME | Tipo_MIME | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Anexo | Anexo | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Identificador_Documento_Firmado | Identificador_Documento_Firmado | element |
-| /Fichero_Intercambio_SICRES_3/De_Anexo/Observaciones | Observaciones | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control | De_Internos_Control | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Tipo_Transporte_Entrada | Tipo_Transporte_Entrada | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Numero_Transporte_Entrada | Numero_Transporte_Entrada | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Nombre_Usuario | Nombre_Usuario | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Contacto_Usuario | Contacto_Usuario | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Identificador_Intercambio | Identificador_Intercambio | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Aplicacion_Version_Emisora | Aplicacion_Version_Emisora | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Tipo_Anotacion | Tipo_Anotacion | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Descripcion_Tipo_Anotacion | Descripcion_Tipo_Anotacion | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Tipo_Registro | Tipo_Registro | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Documentacion_Fisica | Documentacion_Fisica | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Observaciones_Apunte | Observaciones_Apunte | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Indicador_Prueba | Indicador_Prueba | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Codigo_Entidad_Registral_Inicio | Codigo_Entidad_Registral_Inicio | element |
-| /Fichero_Intercambio_SICRES_3/De_Internos_Control/Decodificacion_Entidad_Registral_Inicio | Decodificacion_Entidad_Registral_Inicio | element |
-| /Fichero_Intercambio_SICRES_3/De_Formulario_Generico | De_Formulario_Generico | element |
-| /Fichero_Intercambio_SICRES_3/De_Formulario_Generico/Expone | Expone | element |
-| /Fichero_Intercambio_SICRES_3/De_Formulario_Generico/Solicita | Solicita | element |
 
 ```console
 curl -L http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd

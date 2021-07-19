@@ -11,27 +11,13 @@ PATH	NAME	TYPE	NAMESPACE	COMMENT
 /indice/IndiceContenido/ExpedienteIndizado	ExpedienteIndizado	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/ExpedienteIndizado/FechaIndiceElectronico	FechaIndiceElectronico	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/ExpedienteIndizado/DocumentoIndizado	DocumentoIndizado	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/ExpedienteIndizado/DocumentoIndizado/IdentificadorDocumento	IdentificadorDocumento	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/ExpedienteIndizado/DocumentoIndizado/ValorHuella	ValorHuella	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/ExpedienteIndizado/DocumentoIndizado/FuncionResumen	FuncionResumen	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/ExpedienteIndizado/DocumentoIndizado/FechaIncorporacionExpediente	FechaIncorporacionExpediente	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/ExpedienteIndizado/DocumentoIndizado/OrdenDocumentoExpediente	OrdenDocumentoExpediente	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/ExpedienteIndizado/ExpedienteIndizado	ExpedienteIndizado	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/ExpedienteIndizado/ExpedienteIndizado/FechaIndiceElectronico	FechaIndiceElectronico	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/ExpedienteIndizado/CarpetaIndizada	CarpetaIndizada	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/ExpedienteIndizado/CarpetaIndizada/IdentificadorCarpeta	IdentificadorCarpeta	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/CarpetaIndizada	CarpetaIndizada	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/CarpetaIndizada/IdentificadorCarpeta	IdentificadorCarpeta	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/CarpetaIndizada/DocumentoIndizado	DocumentoIndizado	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/CarpetaIndizada/DocumentoIndizado/IdentificadorDocumento	IdentificadorDocumento	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/CarpetaIndizada/DocumentoIndizado/ValorHuella	ValorHuella	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/CarpetaIndizada/DocumentoIndizado/FuncionResumen	FuncionResumen	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/CarpetaIndizada/DocumentoIndizado/FechaIncorporacionExpediente	FechaIncorporacionExpediente	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/CarpetaIndizada/DocumentoIndizado/OrdenDocumentoExpediente	OrdenDocumentoExpediente	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/CarpetaIndizada/ExpedienteIndizado	ExpedienteIndizado	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/CarpetaIndizada/ExpedienteIndizado/FechaIndiceElectronico	FechaIndiceElectronico	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/IndiceContenido/CarpetaIndizada/CarpetaIndizada	CarpetaIndizada	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
-/indice/IndiceContenido/CarpetaIndizada/CarpetaIndizada/IdentificadorCarpeta	IdentificadorCarpeta	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/firmas	firmas	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/firmas/firma	firma	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	
 /indice/firmas/firma/TipoFirma	TipoFirma	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e	- TF01 - CSV. - TF02 - XAdES internally detached signature. - TF03 - XAdES enveloped signature. - TF04 - CAdES detached/explicit signature. - TF05 - CAdES attached/implicit signature. - TF06 - PAdES.

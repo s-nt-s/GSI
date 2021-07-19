@@ -83,10 +83,10 @@ if [ ${#TRG} -ge ${#ABS} ]; then
 fi
 if [ -z "$LVL" ]; then
   IFS=$'\n' ARR=($(get_paths -e 6 "${ARG[@]}" "$XSD"))
-  ELM=$(printf "%s\n" "${ARR[@]}" | awk '{print $1}' | sort | uniq | wc -l)
+  ELM=$(printf "%s\n" "${ARR[@]}" | awk '{print $2}' | sort | uniq | wc -l)
   LVL=$(printf "%s\n" "${ARR[@]}" | awk '!seen[$2]++ {print gsub(/\//,"", $1)-1}' | sort | tail -n 1)
   while true; do
-    CUR=$(get_paths -e "$LVL" "${ARG[@]}" "$XSD" | awk '{print $1}' | sort | uniq | wc -l)
+    CUR=$(get_paths -e "$LVL" "${ARG[@]}" "$XSD" | awk '{print $2}' | sort | uniq | wc -l)
     if [[ $ELM -le $CUR ]]; then
       break
     fi

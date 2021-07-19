@@ -7,24 +7,11 @@ summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/met
 <pre><code><a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatos -e 2 -o <a href="metadatosDocumentoEni/metadatos.csv">metadatos.csv</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd
 <a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatos -e 2 -o <a href="metadatosDocumentoEni/metadatos.txt">metadatos.txt</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd
 <a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatos -e 2 -o <a href="metadatosDocumentoEni/metadatos.png">metadatos.png</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd
-<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatos -e 2 -o <a href="metadatosDocumentoEni/metadatos.svg">metadatos.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd
-</code></pre>
+<a href="http://regis.cosnier.free.fr/?page=XSDDiagram">xsddiagram</a> -no-gui -y -r metadatos -e 2 -o <a href="metadatosDocumentoEni/metadatos.svg">metadatos.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd</code></pre>
 </div>
 
 ![Diagrama de metadatos (metadatosDocumentoEni.xsd)](metadatosDocumentoEni/metadatos.png)
 
-| PATH | NAME | TYPE | NAMESPACE | COMMENT |
-|:----|:----|:----|:----|:----|
-| /metadatos | metadatos | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/VersionNTI | VersionNTI | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/Identificador | Identificador | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/Organo | Organo | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/FechaCaptura | FechaCaptura | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/OrigenCiudadanoAdministracion | OrigenCiudadanoAdministracion | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/EstadoElaboracion | EstadoElaboracion | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos | - EE01 - Original. - EE02 - Copia electrónica auténtica con cambio de formato. - EE03 - Copia electrónica auténtica de documento papel. - EE04 - Copia electrónica parcial auténtica. - EE99 - Otros. |
-| /metadatos/EstadoElaboracion/ValorEstadoElaboracion | ValorEstadoElaboracion | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/EstadoElaboracion/IdentificadorDocumentoOrigen | IdentificadorDocumentoOrigen | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos |  |
-| /metadatos/TipoDocumental | TipoDocumental | element | http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos | /*Documentos de decisión*/ - TD01 - Resolución. - TD02 - Acuerdo. - TD03 - Contrato. - TD04 - Convenio. - TD05 - Declaración. /*Documentos de transmisión*/ - TD06 - Comunicación. - TD07 - Notificación. - TD08 - Publicación. - TD09 - Acuse de recibo. /*Documentos de constancia*/ - TD10 - Acta. - TD11 - Certificado. - TD12 - Diligencia. /*Documentos de juicio*/ - TD13 - Informe. /*Documentos de ciudadano*/ - TD14 - Solicitud. - TD15 - Denuncia. - TD16 - Alegación. - TD17 - Recursos. - TD18 - Comunicación ciudadano. - TD19 - Factura. - TD20 - Otros incautados. /*Otros*/ - TD99 - Otros. |
 
 ```console
 curl -L http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd
