@@ -1,8 +1,7 @@
 ﻿---
 title: firmas (firmasEni)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd)"
 ---
-
-Esquema `firmas` - [administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

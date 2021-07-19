@@ -1,8 +1,7 @@
 ﻿---
 title: De_Mensaje (SICRES3_MENSAJE_APL)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd)"
 ---
-
-Esquema `De_Mensaje` - [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_MENSAJE_APL.xsd)
 
 ```xml
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">

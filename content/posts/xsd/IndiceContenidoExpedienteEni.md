@@ -1,8 +1,7 @@
 ﻿---
 title: IndiceContenido (IndiceContenidoExpedienteEni)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido/IndiceContenidoExpedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido/IndiceContenidoExpedienteEni.xsd)"
 ---
-
-Esquema `IndiceContenido` - [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido/IndiceContenidoExpedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido/IndiceContenidoExpedienteEni.xsd)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

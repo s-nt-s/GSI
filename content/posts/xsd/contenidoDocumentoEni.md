@@ -1,8 +1,7 @@
 ﻿---
 title: contenido (contenidoDocumentoEni)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd)"
 ---
-
-Esquema `contenido` - [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

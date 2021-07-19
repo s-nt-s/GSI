@@ -1,8 +1,7 @@
 ﻿---
 title: expediente (expedienteEni)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/expedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/expedienteEni.xsd)"
 ---
-
-Esquema `expediente` - [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/expedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/expedienteEni.xsd)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

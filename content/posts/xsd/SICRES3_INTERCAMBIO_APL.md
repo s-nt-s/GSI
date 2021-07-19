@@ -1,8 +1,7 @@
 ﻿---
 title: Fichero_Intercambio_SICRES_3 (SICRES3_INTERCAMBIO_APL)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd)"
 ---
-
-Esquema `Fichero_Intercambio_SICRES_3` - [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/SICRES3_INTERCAMBIO_APL.xsd)
 
 ```xml
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">

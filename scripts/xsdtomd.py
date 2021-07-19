@@ -55,19 +55,16 @@ class XSD:
                 levels = 5
             elif (name, e) == ("expedienteEni", "expediente"):
                 pass
-            run_cmd("xsddiagram", url, "-y", "-r", e, "-e", str(levels), "-o", img+e+".svg", "-o", img+e+".png")
+            run_cmd("xsddiagram", "-no-gui", "-y", "-r", e, "-e", str(levels), "-o", img+e+".svg", "-o", img+e+".png", url)
         title = str(name)
         if len(elms)==1:
             title = elms[0]+ " ({})".format(title)
         MD = [dedent('''
         ---
-        title: {}
+        title: {title}
+        summary: "Fuente: [{curl}]({url})"
         ---
-        ''').format(title).strip()+"\n"]
-        if len(elms)==1:
-            MD.append("Esquema `{}` - [{}]({})\n".format(elms[0], clean_url(url), url))
-        else:
-            MD.append("Esquema [{}]({})\n".format(clean_url(url), url))
+        ''').format(title=title, curl=clean_url(url), url=url).strip()+"\n"]
         if len(elms)>1:
             for e in elms:
                 MD.append("* [{0}](#{0})".format(e))

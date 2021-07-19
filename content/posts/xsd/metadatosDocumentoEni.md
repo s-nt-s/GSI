@@ -1,8 +1,7 @@
 ﻿---
 title: metadatos (metadatosDocumentoEni)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd)"
 ---
-
-Esquema `metadatos` - [administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

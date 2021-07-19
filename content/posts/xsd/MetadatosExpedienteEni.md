@@ -1,8 +1,7 @@
 ﻿---
 title: metadatosExp (MetadatosExpedienteEni)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd)"
 ---
-
-Esquema `metadatosExp` - [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/metadatos/MetadatosExpedienteEni.xsd)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

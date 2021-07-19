@@ -1,8 +1,7 @@
 ﻿---
 title: indice (IndiceExpedienteEni)
+summary: "Fuente: [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/IndiceExpedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/IndiceExpedienteEni.xsd)"
 ---
-
-Esquema `indice` - [administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/IndiceExpedienteEni.xsd](http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/IndiceExpedienteEni.xsd)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

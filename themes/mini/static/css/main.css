@@ -120,3 +120,7 @@ a.abbr, a.wikipedia {
   text-decoration-style: dotted;
   color: inherit;
 }
+div.highlight {
+  max-width: 100%;
+  overflow-x: auto;
+}
