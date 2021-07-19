@@ -1,0 +1,335 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="402" y="25" width="69" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="436.5" y="36.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">DatosXML</text>
+<line x1="404" y1="27" x2="412" y2="27" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="29" x2="410" y2="29" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="31" x2="410" y2="31" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="33" x2="410" y2="33" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="402" y="78" width="81" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="442.5" y="89.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ValorBinario</text>
+<line x1="404" y1="80" x2="412" y2="80" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="82" x2="410" y2="82" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="84" x2="410" y2="84" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="86" x2="410" y2="86" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="402" y="131" width="107" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="455.5" y="142.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">referenciaFichero</text>
+<line x1="404" y1="133" x2="412" y2="133" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="135" x2="410" y2="135" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="137" x2="410" y2="137" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="404" y1="139" x2="410" y2="139" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="392" y1="36" x2="402" y2="36" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="392" y1="89" x2="402" y2="89" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="392" y1="142" x2="402" y2="142" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="392" y1="36" x2="392" y2="142" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="382" y1="89" x2="392" y2="89" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M348 79 L371 79 L377 85 L377 93 L371 99 L348 99 L342 93 L342 85 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="89" x2="351" y2="89" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="351" y1="89" x2="355" y2="85" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="363" y1="85" x2="367" y2="85" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="363" y1="89" x2="371" y2="89" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="363" y1="93" x2="367" y2="93" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="367" y1="85" x2="367" y2="93" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="359" cy="85" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="359" cy="89" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="359" cy="93" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="372" y="84" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="374" y1="89" x2="380" y2="89" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="342" y="184" width="98" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="391" y="195.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">NombreFormato</text>
+<line x1="344" y1="186" x2="352" y2="186" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="344" y1="188" x2="350" y2="188" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="344" y1="190" x2="350" y2="190" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="344" y1="192" x2="350" y2="192" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="332" y1="89" x2="342" y2="89" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="332" y1="195" x2="342" y2="195" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="332" y1="89" x2="332" y2="195" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="322" y1="116" x2="332" y2="116" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M288 106 L311 106 L317 112 L317 120 L311 126 L288 126 L282 120 L282 112 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="285" y1="116" x2="314" y2="116" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="294" cy="116" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="299" cy="116" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="304" cy="116" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="312" y="111" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="314" y1="116" x2="320" y2="116" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="262" y1="115" x2="282" y2="115" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="184" y="104" width="73" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="220.5" y="115.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">contenido</text>
+<line x1="185" y1="126" x2="188" y2="123" style="stroke:rgb(0,0,0);stroke-width:2"/>
+<path d="M188 123 L190 125 L191 120 L186 121 L188 123 Z" style="fill:rgb(0,0,0)"/>
+<rect x="252" y="110" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="254" y1="115" x2="260" y2="115" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="345" y="237" width="74" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="382" y="248.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">VersionNTI</text>
+<line x1="347" y1="239" x2="355" y2="239" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="241" x2="353" y2="241" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="243" x2="353" y2="243" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="245" x2="353" y2="245" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="345" y="290" width="81" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="385.5" y="301.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">Identificador</text>
+<line x1="347" y1="292" x2="355" y2="292" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="294" x2="353" y2="294" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="296" x2="353" y2="296" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="298" x2="353" y2="298" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="348" y="346" width="56" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<rect x="345" y="343" width="56" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="373" y="354.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">Organo</text>
+<text x="391" y="376" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
+<line x1="347" y1="345" x2="355" y2="345" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="347" x2="353" y2="347" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="349" x2="353" y2="349" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="351" x2="353" y2="351" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="345" y="396" width="88" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="389" y="407.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FechaCaptura</text>
+<line x1="347" y1="398" x2="355" y2="398" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="400" x2="353" y2="400" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="402" x2="353" y2="402" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="404" x2="353" y2="404" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="345" y="449" width="179" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="434.5" y="460.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">OrigenCiudadanoAdministracion</text>
+<line x1="347" y1="451" x2="355" y2="451" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="453" x2="353" y2="453" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="455" x2="353" y2="455" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="457" x2="353" y2="457" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="548" y="502" width="139" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="617.5" y="513.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ValorEstadoElaboracion</text>
+<line x1="550" y1="504" x2="558" y2="504" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="550" y1="506" x2="556" y2="506" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="550" y1="508" x2="556" y2="508" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="550" y1="510" x2="556" y2="510" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="548" y="555" width="169" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1;stroke-dasharray:4,1"/>
+<text x="632.5" y="566.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">IdentificadorDocumentoOrigen</text>
+<line x1="550" y1="557" x2="558" y2="557" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="550" y1="559" x2="556" y2="559" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="550" y1="561" x2="556" y2="561" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="550" y1="563" x2="556" y2="563" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="538" y1="513" x2="548" y2="513" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="538" y1="566" x2="548" y2="566" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="538" y1="513" x2="538" y2="566" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="528" y1="540" x2="538" y2="540" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M494 530 L517 530 L523 536 L523 544 L517 550 L494 550 L488 544 L488 536 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="491" y1="540" x2="520" y2="540" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="500" cy="540" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="505" cy="540" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="510" cy="540" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="518" y="535" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="520" y1="540" x2="526" y2="540" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="468" y1="539" x2="488" y2="539" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="345" y="528" width="118" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="404" y="539.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">EstadoElaboracion</text>
+<rect x="458" y="534" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="460" y1="539" x2="466" y2="539" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="345" y="608" width="99" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="394.5" y="619.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">TipoDocumental</text>
+<line x1="347" y1="610" x2="355" y2="610" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="612" x2="353" y2="612" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="614" x2="353" y2="614" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="347" y1="616" x2="353" y2="616" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="335" y1="248" x2="345" y2="248" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="335" y1="301" x2="345" y2="301" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="335" y1="354" x2="345" y2="354" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="335" y1="407" x2="345" y2="407" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="335" y1="460" x2="345" y2="460" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="335" y1="539" x2="345" y2="539" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="335" y1="619" x2="345" y2="619" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="335" y1="248" x2="335" y2="619" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="325" y1="434" x2="335" y2="434" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M291 424 L314 424 L320 430 L320 438 L314 444 L291 444 L285 438 L285 430 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="288" y1="434" x2="317" y2="434" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="297" cy="434" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="302" cy="434" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="307" cy="434" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="315" y="429" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="317" y1="434" x2="323" y2="434" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="265" y1="433" x2="285" y2="433" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="184" y="422" width="76" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="222" y="433.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">metadatos</text>
+<line x1="185" y1="444" x2="188" y2="441" style="stroke:rgb(0,0,0);stroke-width:2"/>
+<path d="M188 441 L190 443 L191 438 L186 439 L188 441 Z" style="fill:rgb(0,0,0)"/>
+<rect x="255" y="428" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="257" y1="433" x2="263" y2="433" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="460" y="661" width="69" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="494.5" y="672.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">TipoFirma</text>
+<line x1="462" y1="663" x2="470" y2="663" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="462" y1="665" x2="468" y2="665" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="462" y1="667" x2="468" y2="667" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="462" y1="669" x2="468" y2="669" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="778" y="714" width="67" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="811.5" y="725.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ValorCSV</text>
+<line x1="780" y1="716" x2="788" y2="716" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="780" y1="718" x2="786" y2="718" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="780" y1="720" x2="786" y2="720" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="780" y1="722" x2="786" y2="722" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="778" y="767" width="153" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="854.5" y="778.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">RegulacionGeneracionCSV</text>
+<line x1="780" y1="769" x2="788" y2="769" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="780" y1="771" x2="786" y2="771" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="780" y1="773" x2="786" y2="773" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="780" y1="775" x2="786" y2="775" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="768" y1="725" x2="778" y2="725" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="768" y1="778" x2="778" y2="778" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="768" y1="725" x2="768" y2="778" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="758" y1="752" x2="768" y2="752" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M724 742 L747 742 L753 748 L753 756 L747 762 L724 762 L718 756 L718 748 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="721" y1="752" x2="750" y2="752" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="730" cy="752" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="735" cy="752" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="740" cy="752" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="748" y="747" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="750" y1="752" x2="756" y2="752" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="698" y1="751" x2="718" y2="751" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="647" y="740" width="46" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="670" y="751.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">CSV</text>
+<rect x="688" y="746" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="690" y1="751" x2="696" y2="751" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="857" y="820" width="85" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="899.5" y="831.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FirmaBase64</text>
+<line x1="859" y1="822" x2="867" y2="822" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="824" x2="865" y2="824" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="826" x2="865" y2="826" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="828" x2="865" y2="828" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<rect x="857" y="873" width="67" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="890.5" y="884.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">Signature</text>
+<line x1="859" y1="875" x2="867" y2="875" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="877" x2="865" y2="877" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="879" x2="865" y2="879" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="881" x2="865" y2="881" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="858" y1="895" x2="861" y2="892" style="stroke:rgb(0,0,0);stroke-width:2"/>
+<path d="M861 892 L863 894 L864 889 L859 890 L861 892 Z" style="fill:rgb(0,0,0)"/>
+
+<rect x="857" y="926" width="101" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="907.5" y="937.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ReferenciaFirma</text>
+<line x1="859" y1="928" x2="867" y2="928" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="930" x2="865" y2="930" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="932" x2="865" y2="932" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="859" y1="934" x2="865" y2="934" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="847" y1="831" x2="857" y2="831" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="847" y1="884" x2="857" y2="884" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="847" y1="937" x2="857" y2="937" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="847" y1="831" x2="847" y2="937" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="837" y1="884" x2="847" y2="884" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M803 874 L826 874 L832 880 L832 888 L826 894 L803 894 L797 888 L797 880 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="802" y1="884" x2="806" y2="884" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="806" y1="884" x2="810" y2="880" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="818" y1="880" x2="822" y2="880" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="818" y1="884" x2="826" y2="884" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="818" y1="888" x2="822" y2="888" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="822" y1="880" x2="822" y2="888" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="814" cy="880" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="814" cy="884" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="814" cy="888" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="827" y="879" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="829" y1="884" x2="835" y2="884" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="777" y1="884" x2="797" y2="884" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="647" y="873" width="125" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="709.5" y="884.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">FirmaConCertificado</text>
+<rect x="767" y="879" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="769" y1="884" x2="775" y2="884" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="637" y1="751" x2="647" y2="751" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="637" y1="884" x2="647" y2="884" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="637" y1="751" x2="637" y2="884" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="627" y1="831" x2="637" y2="831" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M593 821 L616 821 L622 827 L622 835 L616 841 L593 841 L587 835 L587 827 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="592" y1="831" x2="596" y2="831" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="596" y1="831" x2="600" y2="827" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="608" y1="827" x2="612" y2="827" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="608" y1="831" x2="616" y2="831" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="608" y1="835" x2="612" y2="835" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="612" y1="827" x2="612" y2="835" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="604" cy="827" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="604" cy="831" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="604" cy="835" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="617" y="826" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="619" y1="831" x2="625" y2="831" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="567" y1="831" x2="587" y2="831" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="460" y="820" width="102" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="511" y="831.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">ContenidoFirma</text>
+<rect x="557" y="826" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="559" y1="831" x2="565" y2="831" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="450" y1="672" x2="460" y2="672" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="450" y1="831" x2="460" y2="831" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="450" y1="672" x2="450" y2="831" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="440" y1="805" x2="450" y2="805" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M406 795 L429 795 L435 801 L435 809 L429 815 L406 815 L400 809 L400 801 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="403" y1="805" x2="432" y2="805" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="412" cy="805" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="417" cy="805" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="422" cy="805" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="430" y="800" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="432" y1="805" x2="438" y2="805" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="380" y1="804" x2="400" y2="804" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="328" y="796" width="50" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<rect x="325" y="793" width="50" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="350" y="804.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">firma</text>
+<text x="370" y="826" style="font-family:Arimo;font-size:7.2pt;fill:rgb(0,0,0);text-anchor:end;dominant-baseline:central">1..∞</text>
+<rect x="370" y="799" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="372" y1="804" x2="378" y2="804" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="305" y1="805" x2="325" y2="805" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M271 795 L294 795 L300 801 L300 809 L294 815 L271 815 L265 809 L265 801 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="268" y1="805" x2="297" y2="805" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="277" cy="805" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="282" cy="805" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="287" cy="805" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="295" y="800" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="297" y1="805" x2="303" y2="805" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="245" y1="804" x2="265" y2="804" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="184" y="793" width="56" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1;stroke-dasharray:4,1"/>
+<text x="212" y="804.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">firmas</text>
+<line x1="185" y1="815" x2="188" y2="812" style="stroke:rgb(0,0,0);stroke-width:2"/>
+<path d="M188 812 L190 814 L191 809 L186 810 L188 812 Z" style="fill:rgb(0,0,0)"/>
+<rect x="235" y="799" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="237" y1="804" x2="243" y2="804" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="174" y1="115" x2="184" y2="115" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="174" y1="433" x2="184" y2="433" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="174" y1="804" x2="184" y2="804" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="174" y1="115" x2="174" y2="804" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<line x1="164" y1="487" x2="174" y2="487" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<path d="M130 477 L153 477 L159 483 L159 491 L153 497 L130 497 L124 491 L124 483 Z" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="127" y1="487" x2="156" y2="487" style="stroke:rgb(0,0,0);stroke-width:1"/>
+<ellipse cx="136" cy="487" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="141" cy="487" rx="2" ry="2" style="rgb(0,0,0)"/>
+<ellipse cx="146" cy="487" rx="2" ry="2" style="rgb(0,0,0)"/>
+<rect x="154" y="482" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="156" y1="487" x2="162" y2="487" style="stroke:rgb(0,0,0);stroke-width:1"/>
+
+<line x1="104" y1="486" x2="124" y2="486" style="stroke:rgb(0,0,0);stroke-width:1;stroke-linecap:round"/>
+<rect x="20" y="475" width="79" height="23" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<text x="59.5" y="486.5" style="font-family:Arimo;font-size:8pt;fill:rgb(0,0,0);font-weight:bold;text-anchor:middle;dominant-baseline:central">documento</text>
+<rect x="94" y="481" width="10" height="10" style="fill:rgb(255,255,255);stroke:rgb(0,0,0);stroke-width:1"/>
+<line x1="96" y1="486" x2="102" y2="486" style="stroke:rgb(0,0,0);stroke-width:1"/>
+</svg>

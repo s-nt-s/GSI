@@ -50,10 +50,10 @@ def read(file):
         return f.read()
 
 
-def write(file, text):
+def write(file, text, *args, **kargv):
     dir = dirname(file)
     makedirs(dir, exist_ok=True)
-    with open(file, "w") as f:
+    with open(file, "w", *args, **kargv) as f:
         f.write(text)
 
 
