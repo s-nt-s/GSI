@@ -3,6 +3,7 @@ notas.txt
 runtree.sh
 output
 000 Resumenes
+tools/xsddiagram/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
