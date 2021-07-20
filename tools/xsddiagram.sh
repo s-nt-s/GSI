@@ -38,6 +38,7 @@ OSS=0
 LVL=""
 ARG=(-no-gui -y)
 declare -a TYP
+declare -a TFL
 FULL_TYP=(csv txt png svg)
 re_num='^[0-9]+$'
 while (( "$#" )); do
@@ -55,6 +56,8 @@ while (( "$#" )); do
     TRG="$1"
   elif [[ " ${FULL_TYP[@]} " =~ " $1 " ]]; then
     TYP+=("$1")
+  elif [[ $1 == *"."* ]]; then
+    TFL+=("$1")
   else
     ROT="$1"
     ARG+=('-r')
@@ -73,8 +76,10 @@ fi
 if [ -z "$TRG" ]; then
   TRG="$(dirname "$0")/../content/posts/xsd/$(basename "$XSD" .xsd)"
 fi
+if [ ${#TFL[@]} -eq 0 ]; then
 if [ ${#TYP[@]} -eq 0 ]; then
   TYP=("${FULL_TYP[@]}")
+fi
 fi
 ABS=$(realpath "$TRG")
 TRG=$(realpath --relative-to="$(pwd)" "$ABS")
@@ -101,4 +106,8 @@ for i in "${TYP[@]}"; do
   else
     run_xsddiagram "${ARG[@]}" -o "$TRG/$ROT.$i" "$XSD"
   fi
+done
+
+for i in "${TFL[@]}"; do
+  run_xsddiagram "${ARG[@]}" -o "$i" "$XSD"
 done

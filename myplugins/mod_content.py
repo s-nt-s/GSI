@@ -2,7 +2,8 @@ from bs4 import BeautifulSoup, Tag
 from pelican import contents, signals
 import re
 
-re_caption = re.compile(r"^Tabla (\d+): .+")
+re_tabcaption = re.compile(r"^Tabla (\d+): .+")
+re_figcaption = re.compile(r"^Figura (\d+): .+")
 
 def add_class(n, name):
     c = n.attrs.get("class", None)
@@ -29,7 +30,7 @@ def mod_content(content, *args, **kargv):
         cpt = table.find_next_sibling("p")
         if cpt is not None:
             text = cpt.get_text().strip()
-            m = re_caption.match(text)
+            m = re_tabcaption.match(text)
             if m:
                 cpt.name = "caption"
                 table.insert(0, cpt)
@@ -65,6 +66,23 @@ def mod_content(content, *args, **kargv):
             if st and td.get_text().strip() == st.get_text().strip():
                 st.unwrap()
                 td.name = "th"
+
+    for img in soup.select("img"):
+        p = img.find_parent("p")
+        if p is None or len(p.get_text().strip())>0:
+            continue
+        cpt = p.find_next_sibling("p")
+        if cpt is None:
+            continue
+        text = cpt.get_text().strip()
+        m = re_figcaption.match(text)
+        if m:
+            add_class(p, "fig")
+            p.name = "figure"
+            cpt.name = "figcaption"
+            p.append(cpt)
+            if p.attrs.get("id") is None:
+                p.attrs["id"]="fg"+m.group(1)
 
     soup.renderContents()
     content._content = soup.decode()

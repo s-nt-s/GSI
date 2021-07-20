@@ -124,3 +124,19 @@ div.highlight, div.widthscroll {
   max-width: 100%;
   overflow-x: auto;
 }
+
+
+figure.fig {
+  margin: 0;
+  display: table;
+  border: 1px black solid;
+  margin: auto;
+}
+figure.fig figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  border-bottom: 1px black solid;
+  padding: 5px;
+}

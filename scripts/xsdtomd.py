@@ -1,4 +1,4 @@
-from xmlschema import XMLSchema
+from xmlschema import XMLSchema, XsdElement, XsdType
 from bs4 import BeautifulSoup
 import requests
 from functools import lru_cache
@@ -11,12 +11,15 @@ from os import makedirs
 import os
 from csv import DictReader
 import sys
+from munch import Munch
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 xsddiagram = dname + "/../tools/xsddiagram.sh"
 
 re_comment = re.compile(r"\s*<!--.*?-->\s*", re.DOTALL)
+
+web = Web()
 
 def run_cmd(*args):
     return subprocess.run(args)
@@ -78,40 +81,40 @@ def read_table(*args, cols=None, no_null=None):
     return r
 
 class XSD:
-    def __init__(self, salida):
-        self.s = Web()
-        self.salida = salida
+    def __init__(self, url):
+        self.url = url
 
+    @property
     @lru_cache(maxsize=None)
-    def get_content(self, url):
-        r = self.s.get(url)
+    def content(self):
+        r = web.get(self.url)
         text = re_comment.sub("\n", r.text)
         text = text.strip()
         return text
 
+    @property
     @lru_cache(maxsize=None)
-    def get_schema(self, url, **kargv):
-        if kargv.get("base_url") is None:
-            kargv["base_url"] = url
-        if kargv.get("validation") is None:
-            kargv["validation"] = 'skip'
-        xml = self.get_content(url)
-        schema = XMLSchema(xml, **kargv)
+    def schema(self):
+        schema = XMLSchema(self.content, base_url=self.url, validation='lax')
         return schema
 
+    @property
     @lru_cache(maxsize=None)
-    def get_elements(self, url):
-        schema = self.get_schema(url)
-        names = set(str(e) for e in schema.elements)
+    def elements(self):
+        names = set(str(e) for e in self.schema.elements)
         return tuple(sorted(names))
 
     @lru_cache(maxsize=None)
-    def get_level(self, e, url):
+    def get_level(self, e):
         pass
 
+class CrawlXSD:
+    def __init__(self, salida):
+        self.salida = salida
+
     def save(self, url):
-        elms = self.get_elements(url)
-        if len(elms)==0:
+        xsd = XSD(url)
+        if len(xsd.elements)==0:
             print(url, "no tiene elementos")
             return
         print("#", url)
@@ -121,25 +124,24 @@ class XSD:
         makedirs(img, exist_ok=True)
 
         cmds = []
-        for e in elms:
-            level = self.get_level(e, url)
-            cmd = run_xsddiagram(e, level, img, url)
+        for e in xsd.elements:
+            cmd = run_xsddiagram(e, img, url)
             cmds.append(cmd)
         title = str(name)
-        if len(elms)==1:
-            title = elms[0]+ " ({})".format(title)
+        if len(xsd.elements)==1:
+            title = xsd.elements[0]+ " ({})".format(title)
         MD = [dedent('''
         ---
         title: {title}
         summary: "Fuente: [{curl}]({url})"
         ---
         ''').format(title=title, curl=clean_url(url), url=url).strip()+"\n"]
-        if len(elms)>1:
+        if len(xsd.elements)>1:
             for e in elms:
                 MD.append("* [{0}](#{0})".format(e))
 
         TXTS=[]
-        for e, cmd in zip(elms, cmds):
+        for e, cmd in zip(xsd.elements, cmds):
             cmd = cmd.replace("$ ", "")
             cmd = re.sub(r"content/posts/xsd/(\S+?/)([^/\s]+)", r'<a href="\1\2">\2</a>', cmd)
             #cmd = re.sub(r"(https?://\S+)", r'<a href="\1">\1</a>', cmd)
@@ -161,16 +163,16 @@ class XSD:
 
         MD.append("")
         MD.append("```console\ncurl -L {}\n```".format(url))
-        MD.append("```xml\n{}\n```".format(self.get_content(url)))
+        MD.append("```xml\n{}\n```".format(xsd.content))
 
         write(self.salida+name+".md", "\n".join(MD), encoding='utf-8-sig')
 
 if __name__ == "__main__":
     s = Web()
-    xsd = XSD("content/posts/xsd/")
-    xsd.s.get("https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#EXPEDIENTEELECTRONICO")
+    xsd = CrawlXSD("content/posts/xsd/")
+    web.get("https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#EXPEDIENTEELECTRONICO")
     urls = set()
-    for url in xsd.s.soup.findAll("a"):
+    for url in web.soup.findAll("a"):
         url = url.attrs.get("href")
         if url is not None and url.endswith(".xsd"):
             urls.add(url)

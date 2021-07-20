@@ -19,6 +19,10 @@ interoperabilidad fueron tenidas en cuenta para la elaboración del ENI y sus NT
 interrelaciones (nivel lógico), y reglas y convenciones (nivel físico)
 que permiten describir los datos para su intercambio.
 
+**PGDE**: Política de gestión de documentos electrónicos.
+Define las directrices para la creación y gestión de Documentos.
+Su definición es la primera medida para realizar el archivo electrónico.
+
 # Ojetivos
 
 * Establecer los **criterios y recomendaciones** que deben seguir las AAPP
@@ -199,6 +203,10 @@ Preferentemente se usar la Red Sara como medio de transmisión.
 Si el eDoc forma parte de un asiento registral éste será tratado como un
 documento adjunto al mensaje de datos de intercambio.
 
+![XSD de Documento electrónico](xsd/documento.png)
+
+Figura 1: [XSD de Documento electrónico]({filename}/posts/xsd/documentoEni.md)
+
 **Acceso a eDocs** en eSedes debe mostrar:
 
 * El contenido del documento electrónico cuando éste sea representable
@@ -276,7 +284,8 @@ actuaciones coherentes que conducen a un resultado específico.
 Un **expediente electrónico** es un conjunto de documentos correspondiente a un
 procedimiento administrativo y esta compuesto por:
 
-* **Documentos electrónicos**: documentos que cumplen la NTI de Documento Electrónico (es decir, contenido + firma + metadatos). Estos documentos
+* **Documentos electrónicos**: documentos que cumplen la NTI de Documento Electrónico
+(es decir, contenido + firma + metadatos). Estos documentos
 pueden estar incluidos en el eExpediente de varias formas:
     * directamente como elementos independientes
     * dentro de una **carpeta** (agrupación por motivo funcional para la
@@ -284,8 +293,9 @@ pueden estar incluidos en el eExpediente de varias formas:
     * como parte de un **sub-eExpediente** (un sub-eExpediente evoluciona
       según su propio procedimiento con independencia del eExpediente que
       lo contiene, pero sus cambios si se reflejan en el eExpediente padre)
-* **Indice electrónico**: reflejar la disposición de los documentos y otros datos con el fin de preservar la integridad y permitir su recuperación
-* **Firma**: CSV o basada en certificados
+* **Indice electrónico**: reflejar la disposición de los documentos y otros datos
+con el fin de preservar la integridad y permitir su recuperación
+* **Firma** de indice: CSV o basada en certificados
 * **Metadatos**
 
 **Metadatos mínimos obligatorios**:
@@ -350,9 +360,13 @@ NTI de Política de gestión de documentos electrónicos
 El intercambio de expedientes electrónicos, a los efectos de remisión y puesta a
 disposición, se realiza (preferentemente usando la Red SARA) siguiendo estos pasos:
 
-1. Envió de la estructura definida por la NTI (si hay acuerdo previo entre AP pueden usar otra)
+1. Envió de la estructura definida por la NTI, ver figura 2 (si hay acuerdo previo entre AP pueden usar otra)
 2. Envió de cada uno de los eDocs que componen el expediente en el orden indicado
 en el indice
+
+![XSD de Expediente Electrónico](xsd/expediente.png)
+
+Figura 2: [XSD de Expediente Electrónico]({filename}/posts/xsd/expedienteEni.md)<br/>*VisualizacionIndice* es un elemento opcional que permite visualizar el contenido completo del expediente (contenido del índice)
 
 Cuando la naturaleza o la extensión de las pruebas o documentos que forman parte
 del expediente electrónico no permitan o dificulten notablemente su inclusión
@@ -369,6 +383,13 @@ El índice electrónico de los expedientes incluirá al menos:
     * huella digital, la función resumen utilizada para su obtención
     * opcionalmente, la fecha de incorporación al expediente y el orden del documento dentro del expediente
 
+![XSD del contenido del indice de un Expediente Electrónico](xsd/indiceContenido.png)
+
+Figura 2: [XSD del contenido del indice de un Expediente Electrónico]({filename}/posts/xsd/IndiceContenidoExpedienteEni.html)<br/>
+*ExpedienteIndexado* equivale al *IndiceContenido* de otro expediente<br/>
+*CarpetaIndexada* es similar pero en lugar de tener un *FechaIndiceElectronico*
+tiene un *IdentificadorCarpeta*
+
 Si el eExpediente forma parte de un asiento registral, éste será tratado como
 adjunto del mensaje de datos de intercambio según lo establecido en la NTI
 de Modelo de Datos para el intercambio de asientos entre las Entidades Registrales.
@@ -383,7 +404,14 @@ autenticidad e integridad del expediente en el momento del intercambio.
 
 ## Relación de modelos de datos
 
-## Política de gestión de documentos electrónicos
+## [Política de gestión de documentos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:742af184-2b25-4431-a9c6-0681945bcad3/Guia_NTI_Politica_Gestion_DocElect_EPUB_2ed_2016.epub)
+
+**Objetivo**: detallar los elementos que debe incluir una PGDE, e indicar directrices
+para su desarrollo.
+
+La PGDE debe contener:
+
+
 
 ## Requisitos de conexión a la Red de comunicaciones de las Administraciones Públicas españolas
 
