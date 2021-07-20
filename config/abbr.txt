@@ -1,3 +1,7 @@
+r'[Ll]ey 37/2007(, de 16 de noviembre)?'
+https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-19814
+Ley sobre reutilización de la información del sector público
+
 CMS
 https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
 Sistema de gestión de contenidos
@@ -702,3 +706,14 @@ Esquema XSD: describe la estructura y las restricciones de los contenidos de los
 
 MPTAP
 Ministerio de Política Territorial y Función Pública
+
+ACID-T
+https://www.ccn-cert.cni.es/publico/ens/ens/index.html#!1067
+Dimensiones de seguridad (ENS): Autenticidad, Confidencialidad, Integridad, Disponibilidad, Trazabilidad
+
+r'docs'
+documentos
+
+r'e-EMGDE'
+https://administracionelectronica.gob.es/ctt/eemgde
+Esquema de Metadatos para la Gestión del Documento Electrónico

@@ -409,9 +409,56 @@ autenticidad e integridad del expediente en el momento del intercambio.
 **Objetivo**: detallar los elementos que debe incluir una PGDE, e indicar directrices
 para su desarrollo.
 
-La PGDE debe contener:
+Una PGDE debe contener:
 
+* Definición del **alcance y ámbito** de aplicación
+* **Roles** de los actores involucrados
+* Directrices para la estructuración y desarrollo de los **procedimientos de gestión documental**
+* Acciones de **formación**
+* Actuaciones de **supervisión y auditoría** periódicas de los procesos de gestión de documentos
+* Proceso de **revisión** de la política para adecuarla a los cambios que surjan
+en la gestión de documentos
 
+**Actores** en un PGDE:
+
+* La alta dirección (aprueban e impulsan la PGDE)
+* Los responsables de procesos de gestión (aplican la PGDE)
+* El personal responsable del programa de tratamiento de documentos (implementan la PGDE)
+* El personal implicado en tareas de gestión de eDocs (Usan la PGDE)
+
+La PGDE debe contener un **programa de tratamiento de eDocs** que detalle
+el diseño, desarrollo e implantación de los procesos, técnicas y operaciones de
+gestión de eDocs, garantizando su ACID-T y permitiendo la
+protección, recuperación y conservación física y lógica de los documentos y su contexto.
+
+Según la NTI los **procesos de gestión** de documentos electrónicos mínimos son:
+
+* **Captura** de docs. Incluye tratamiento de metadatos mínimos definidos en
+la NTI de Documento Electrónico
+* **Registro legal** de docs. Definido en RJSP y PAC. Incluye cumplir la NTI de Digitalización de documentos.
+* **Clasificación** de docs con criterios de formación de expedientes según
+la NTI de expediente electrónico y clasificación funcional según la organización
+* **Descripción** de docs. Asignación de los **metadatos** y la recuperación de la información
+* **Acceso** de docs. Regulación, recuperación y trazabilidad
+* **Calificación** de docs. Incluye:
+    * Determinación de los documentos esenciales
+    * Valoración de documentos y determinación de plazos de conservación
+    * Dictamen de la autoridad calificadora
+* **Conservación** de docs en función de su valor y tipo de dictamen de la autoridad
+calificadora y definición de calendarios de conservación
+* **Transferencia** de docs entre repositorios y responsabilidades (custodia)
+* Destrucción o **eliminación** de docs, según normativa aplicable en
+materia de eliminación de Patrimonio Documental y el ENS
+
+Para la **asignación de metadatos** se puede usar de referencia el **e-EMGDE**,
+que incluye los metadatos mínimos obligatorios
+(NTI de Documento electrónico y Expediente electrónico)
+y otros metadatos complementarios pertinentes en una PGDE.
+
+El e-EMGDE se basa en un modelo entidad-relación (*documento*, *agente*,
+*actividad*, *regulación* y *relación* son entidades) donde las relaciones y eventos
+dejan constancia del contexto. Es decir, las relaciones entre los documentos y
+el resto de elementos del sistema son tratadas como una entidad más.
 
 ## Requisitos de conexión a la Red de comunicaciones de las Administraciones Públicas españolas
 
@@ -458,7 +505,11 @@ al organismo que hace la copia, no al que creo el original.
 
 ## Modelo de Datos para el intercambio de asientos entre las Entidades Registrales
 
-## Reutilización de recursos de información
+## [Reutilización de recursos de información](https://administracionelectronica.gob.es/pae_Home/dam/jcr:2314e955-cda1-4314-a764-5af00afe6475/Guia_NTI_EPUB_Reutilizacion_recursos_informacion_2ed.epub)
+
+**Objeto**: conjunto de pautas básicas para la reutilización de documentos y
+recursos de información elaborados o custodiados por el sector público a los que
+se refiere el art 3 de la Ley 37/2007.
 
 ## Reutilización y transferencia de tecnología
 
