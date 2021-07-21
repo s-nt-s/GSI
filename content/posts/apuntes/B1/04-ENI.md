@@ -1,6 +1,6 @@
 ---
 title: Esquema Nacional de Interoperabilidad (ENI)
-status: draft
+Status: draft
 ---
 
 # Conceptos básicos
