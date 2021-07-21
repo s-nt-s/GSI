@@ -385,7 +385,7 @@ El índice electrónico de los expedientes incluirá al menos:
 
 ![XSD del contenido del indice de un Expediente Electrónico](xsd/indiceContenido.png)
 
-Figura 2: [XSD del contenido del indice de un Expediente Electrónico]({filename}/posts/xsd/IndiceContenidoExpedienteEni.html)<br/>
+Figura 2: [XSD del contenido del indice de un Expediente Electrónico]({filename}/posts/xsd/IndiceContenidoExpedienteEni.md)<br/>
 *ExpedienteIndexado* equivale al *IndiceContenido* de otro expediente<br/>
 *CarpetaIndexada* es similar pero en lugar de tener un *FechaIndiceElectronico*
 tiene un *IdentificadorCarpeta*
