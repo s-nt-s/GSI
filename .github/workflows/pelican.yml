@@ -20,3 +20,4 @@ jobs:
       env:
         GH_PAGES_BRANCH: site
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        PELICAN_CONFIG_FILE: publishconf.py
