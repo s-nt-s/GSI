@@ -1,6 +1,7 @@
 import re
 
 import bs4
+import unidecode
 
 re_sp = re.compile(r"\s+")
 
@@ -31,6 +32,16 @@ def plain(s):
     s = re_sp.sub("", s)
     return s
 
+def path_to_plain(s):
+    s = s.split("/")
+    if s[-1] in ("index.html", "index.htm", "index.md", "_.md"):
+        s = s[:-1]
+    elif "." in s[-1]:
+        s[-1] = s[-1].rsplit(".", 1)[0]
+    s = "_".join(s)
+    s = s.lower()
+    s = unidecode.unidecode(s)
+    return s
 
 def millar(value):
     value = "{:,.0f}".format(value).replace(",", ".")
@@ -40,5 +51,6 @@ def millar(value):
 JINJA_FILTERS = {
     'wc': wc,
     'plain': plain,
-    'millar': millar
+    'millar': millar,
+    'path_to_plain': path_to_plain
 }

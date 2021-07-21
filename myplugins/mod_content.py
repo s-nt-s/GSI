@@ -4,6 +4,8 @@ import re
 
 re_tabcaption = re.compile(r"^Tabla (\d+): .+")
 re_figcaption = re.compile(r"^Figura (\d+): .+")
+re_sp = re.compile(r"\s+")
+heads=tuple("h"+str(i) for i in range(1,7))
 
 def add_class(n, name):
     c = n.attrs.get("class", None)
@@ -14,6 +16,12 @@ def add_class(n, name):
     elif isinstance(c, str):
         n.attrs["class"] = c+" "+name
 
+def get_anchor_id(id):
+    return BeautifulSoup('''
+        <a class="anchormark" aria-hidden="true" href="#{0}"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path>
+        </svg></a>
+    '''.format(id), "html.parser")
 
 def mod_content(content, *args, **kargv):
     if isinstance(content, contents.Static):
@@ -83,6 +91,17 @@ def mod_content(content, *args, **kargv):
             p.append(cpt)
             if p.attrs.get("id") is None:
                 p.attrs["id"]="fg"+m.group(1)
+
+    for h in soup.findAll(heads):
+        if h.attrs.get("id") in (None, ""):
+            text = re_sp.sub(" ", h.get_text())
+            text = text.strip()
+            if len(text)>0:
+                text = text.lower()
+                h.attrs["id"]=text.replace(" ", "-")
+        if h.attrs.get("id") not in (None, ""):
+            add_class(h, "anchormark")
+            h.insert(0, get_anchor_id(h.attrs["id"]))
 
     soup.renderContents()
     content._content = soup.decode()

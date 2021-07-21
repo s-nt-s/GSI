@@ -717,3 +717,51 @@ documentos
 r'e-EMGDE'
 https://administracionelectronica.gob.es/ctt/eemgde
 Esquema de Metadatos para la Gestión del Documento Electrónico
+
+RISP
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Gobierno_Abierto_Inicio/pae_Reutilizacion_de_la_informacion_en_el_sector_publico.html
+Reutilización de la información del Sector Público
+
+r'URIs?'
+https://es.wikipedia.org/wiki/Identificador_de_recursos_uniforme
+Identificador de recursos uniforme
+
+Linked Data
+https://es.wikipedia.org/wiki/Datos_enlazados
+Datos enlazados
+
+RDF-S
+https://es.wikipedia.org/wiki/RDF_Schema
+Esquema RDF
+
+OWL
+https://es.wikipedia.org/wiki/OWL
+Web Ontology Language
+
+SKOS
+https://es.wikipedia.org/wiki/Simple_Knowledge_Organization_System
+Simple Knowledge Organization System
+
+ISO 639-1
+https://es.wikipedia.org/wiki/ISO_639-1
+184 códigos de dos letras para identificar los principales idiomas del mundo
+
+RDF
+https://es.wikipedia.org/wiki/Resource_Description_Framework
+Marco de Descripción de Recursos
+
+r'N3'
+https://es.wikipedia.org/wiki/Notation_3
+Notation 3
+
+DCAT
+https://en.wikipedia.org/wiki/Data_Catalog_Vocabulary
+Data Catalog Vocabulary
+
+DCMI
+https://es.wikipedia.org/wiki/Dublin_Core
+Dublin Core
+
+W3C
+https://es.wikipedia.org/wiki/World_Wide_Web_Consortium
+World Wide Web Consortium

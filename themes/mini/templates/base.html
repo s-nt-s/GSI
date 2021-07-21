@@ -29,22 +29,25 @@
 </head>
 
 {% set body_class = "" %}
+{% set slug = "" %}
 {% if page_or_article %}
 {% set body_class = page_or_article.body_class %}
 {% endif %}
 {%set CURRENT_URL = SITEURL + "/" + output_file | replace("/index.html", "") %}
-<body id="index" class="home {{body_class}}">
-  <header id="banner" class="body">
+<body id="index" class="home {{body_class}} {{output_file | path_to_plain}}">
+  <header id="banner"><div  class="body">
     {% block header %}
     {%endblock%}
-  </header>
-  <main>
+  </div></header>
+  <main><div class="body">
   {% block beforecontent %}
   {% endblock %}
   {% block content %}
   {% endblock %}
-  </main>
-  <footer id="extras" class="body">
+  {% block aftercontent %}
+  {% endblock %}
+  </div></main>
+  <footer id="extras"><div class="body">
     <p>
       Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a>
       sobre
@@ -68,6 +71,6 @@
       Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
     </p>
     {%endif%}
-  </footer>
+  <div></footer>
 </body>
 </html>

@@ -385,7 +385,7 @@ El índice electrónico de los expedientes incluirá al menos:
 
 ![XSD del contenido del indice de un Expediente Electrónico](xsd/indiceContenido.png)
 
-Figura 2: [XSD del contenido del indice de un Expediente Electrónico]({filename}/posts/xsd/IndiceContenidoExpedienteEni.md)<br/>
+Figura 3: [XSD del contenido del indice de un Expediente Electrónico]({filename}/posts/xsd/IndiceContenidoExpedienteEni.md)<br/>
 *ExpedienteIndexado* equivale al *IndiceContenido* de otro expediente<br/>
 *CarpetaIndexada* es similar pero en lugar de tener un *FechaIndiceElectronico*
 tiene un *IdentificadorCarpeta*
@@ -511,6 +511,134 @@ al organismo que hace la copia, no al que creo el original.
 recursos de información elaborados o custodiados por el sector público a los que
 se refiere el art 3 de la Ley 37/2007.
 
+Una estrategia RISP comprende tres aspectos:
+
+1. **Datos**: la materia prima del RISP
+2. **Sitio web**: El medio principal de publicación
+3. **Soporte**: Evaluación, formación y promoción
+
+La NTI se centra en el primer punto, es decir, en los pasos de selección y
+exposición de la información reutilizable y su posterior publicación.
+
+**Selección**:
+
+* Se consideran prioritarios los recursos de mayor relevancia y potencial
+social y económico
+* Los recursos reutilizables han de ser primarios, es decir, sin transformación
+posterior al origen
+* El nivel de granular ha de ser el mínimo posible evitando agregaciones
+(excepción: uso de disociación no reversible para proteger datos personales)
+* Los recursos han de ser, o tener asociados, información estructurada que permita
+el procesamiento automatizado
+* Para recursos relevantes pero difícilmente reutilizables (imágenes, videos, etc)
+se plantea como alternativa tratar como reutilizable el inventario de esos recursos
+y sus metadatos
+* Los documentos de elaboración o recogida periódica estarán actualizados a sus últimas
+versiones, y se indicará la fecha última actualización y el periodo de la misma
+
+La **identificación de los recursos** de información esta basada en URIs
+que cumplen:
+
+* ser únicas y unívocas, estables, extensibles, persistentes en el tiempo y con
+garantías de procedencia
+* usar HTTP o HTTPS
+* el servidor, según la cabecera HTTP, devolverá la representación del recurso
+adecuada (xml, xls, pdf...)
+* cumple el formato<br/>
+`http://{base}/{carácter}[/{sector}][/{dominio}][/{concepto}][.{ext}]` o<br/>
+`http://{base}/{carácter}[/{sector}][/{dominio}][.{ext}][#{concepto}]` donde:
+    * base: identifica al organismo que gestiona la URI y apunta al espacio dedicado
+    a los datos abiertos (por orden de preferencia: `www.sede.gob.es/datosabiertos` o
+    `organismo.gob.es/datosabiertos` o `organismo.gob.es`)
+    * carácter: representa la naturaleza de la información identificada:
+        * catalogo: catálogos de información (`http://{base}/catalogo/{dataset}`)
+        * def: vocabulario u ontología, definidos mediante RDF-S y OWL (`http://{base}/def/{sector}/{dominio}/{propiedad|Clase}`, `http://datos.gob.es/def/turismo/hosteleria/horario`)
+        * kos: taxonomías, diccionarios o tesauros, normalmente representados con SKOS
+        (`http://{base}/kos/{sector}/{dominio}/{Concepto}`, `http://datos.gob.es/kos/turismo/tipo-hotel/5-estrellas`)
+        * recurso: recurso u objeto físico o conceptual (instancias de los
+          conceptos que se definen en los vocabularios)
+          (`http://{base}/recurso/{sector}[/{dominio}]/{clase}/{ID}`, `http://datos.gob.es/recurso/turismo/Hotel/000019278`)
+    * sector: concepto que mejor clasifica al recurso según una taxonomía
+    predefinida (ej: medio-ambiente)
+    * dominio: temática más específica
+    * concepto: identifica de forma concreta el recurso en el caso de que sea
+    necesario distinguirlo entre otros individuos
+    * ext: tipo de formato en el que se representa el documento (ej: html, rdf)
+* Siguiendo la filosofía *Linked Data* cualquier recurso semántico tendrá tres URIs:
+    * URI abstracto que identifica conceptualmente al recurso en sí
+    * URI del documento para personas (HTML o similar)
+    * URI de la descripción semántica (expresado en cualquier notación de RDF)
+* Si un recurso cambia de localización o es eliminado, se ha de mantener la URI
+e informar de la situación usando [códigos HTTP](https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP)
+(3XX para redirecciones, 410 si el recurso ha desaparecido permanentemente)
+* La URI debe tener información semántica autocontenida (viendo la URI se sabe a qué recurso accedes)
+* La URI no debe mostrar la tecnología de implementación (evitar extensiones: jsp, php,...)
+* Idioma: según la norma ISO 639-1 se pondrá después de la base (ej:
+`http://organismo.gob.es/es-ES/datosabiertos`). No necesario al gestionar recursos
+semánticos porque una sola URI admite varios idiomas para el mismo recurso
+* Para facilitar la reutilización y publicación de vocabularios de metadatos se usará el CISE
+* En cuanto a los caracteres usados para las URI,:
+    * los identificadores alfanuméricos han de ser cortos únicos, representativos, intuitivos y semánticos
+    * usar siempre minúsculas, salvo en los casos en los que se utilice el nombre de la clase o concepto
+    (EjemploConcepto)
+    * Eliminar todos los acentos, diéresis y símbolos de puntuación, a excepción del guión (-)
+    que puede usarse como separador de palabras
+    * Eliminar conjunciones y artículos en los casos de que el concepto a representar contenga más de una palabra
+    * Evitar abreviaturas de palabras salvo que sean intuitiva
+    * Los términos que componen los URI usaran las lenguas oficiales
+
+| Ejemplo  |  URI  |
+|:-------- | :---- |
+| Catálogo de datos | `http://{base}/catalogo`<br/>`http://datos.gob.es/catalogo` |
+| Conjunto de datos correspondiente al listado<br/>de los centros sanitarios en el año 2011 | `http://{base}/catalogo/{dataset}`<br/>`http://datos.gob.es/catalogo/centros-sanitarios-2011` |
+| ^ | `http://{base}/catalogo#{dataset}`<br/>`http://datos.gob.es/catalogo#centros-sanitarios-2011` |
+| Vocabulario de centros sanitarios | `http://{base}/def/{sector}/{dominio}`<br/>`http://datos.gob.es/def/salud/centros-sanitarios` |
+| Clase hospital definida en el<br/>vocabulario de centros sanitarios | `http://{base}/def/{sector}/{dominio}/{Clase}`<br/>`http://datos.gob.es/def/salud/centros-sanitarios/Hospital` |
+| ^ | `http://{base}/def/{sector}/{dominio}#{Clase}`<br/>`http://datos.gob.es/def/salud/centros-sanitarios#Hospital` |
+| Propiedad especialidad clínica definida<br/>en el vocabulario de centros sanitarios | `http://{base}/def/{sector}/{dominio}/{propiedad}`<br/>`http://datos.gob.es/def/salud/centros-sanitarios/especialidad` |
+| ^ | `http://{base}/def/{sector}/{dominio}#{propiedad}`<br/>`http://datos.gob.es/def/salud/centros-sanitarios#especialidad` |
+| Esquema de conceptos de<br/>tipos de centros educativos | `http://{base}/kos/{sector}/{dominio}`<br/>`http://datos.gob.es/kos/educacion/tipo-centro` |
+| Concepto de colegio público<br/>dentro del esquema de centros educativos | `http://{base}/kos/{sector}/{dominio}/{Concepto}`<br/>`http://datos.gob.es/kos/educacion/tipo-centro/Colegio-Publico` |
+| ^ | `http://{base}/kos/{sector}/{dominio}#{Concepto}`<br/>`http://datos.gob.es/kos/educacion/tipo-centro#Colegio-Publico` |
+| Instancia de una entidad<br/>orgánica de la AGE | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}/{ID}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo/E02963104` |
+| ^ | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}#{ID}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo#E02963104` |
+| Documento HTML que describe una<br/>instancia de una entidad orgánica | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}/{ID}.{ext}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo/E02963104.html` |
+| ^ | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}.{ext}#{ID}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo.html#E02963104` |
+| Representación RDF - N3 que describe<br/>una instancia de una entidad orgánica | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}/{ID}.{ext}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo/E02963104.n3` |
+| ^ | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}.{ext}#{ID}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo.n3#E02963104` |
+
+Tabla 2: Ejemplos de aplicación del esquema URI
+
+La **descripción de la información** se hace a traves de los **metadatos**
+obligatorios mínimos usando **DCAT** y **DCMI**, pudiéndose ampliar con otros.
+
+La representación semántica del catálogo y de los conjuntos de recursos
+se basa en el vocabulario **DCAT** (usa el espacio de nombres [dcat](http://www.w3.org/ns/dcat#))
+de la W3C. Un catálogo de documentos y recursos de información se representa
+mediante instancias de la clase dcat:Catalog e incluye una colección de conjuntos
+de recursos de información dcat:Dataset.
+
+![Diagrama de clases y conceptos para la definición de metadatos](img/dcatCatalog.jpeg)
+
+Figura 4: Diagrama de clases y conceptos para la definición de metadatos
+
+Para los **formatos de documentos** se deben usar estándares abiertos,
+y de forma complementaria, estándares que sean de uso generalizado por los
+ciudadanos, (NTI del catálogo de estándares) salvo que el formato e origen
+desaconseje o imposibilite la transformación a estos formatos.
+
+Se debe incluir un aviso legal de **términos y de uso** que indique:
+
+* Condiciones generales para la reutilización (ej: prohibición de desnaturalizar
+el sentido de la información, obligatoriedad de citar la fuente de los datos)
+* Exclusión de responsabilidad del organismo publicador.
+* Responsabilidad del agente reutilizador.
+* Información sobre cómo reflejar la atribución.
+
+Cada organismo deberá proporcionar información sobre su catálogo de datos
+reutilizables en un espacio dedicado para ese fin, preferentemente localizado en:
+`http://www.sede.gob.es/datosabiertos`.
+
 ## Reutilización y transferencia de tecnología
 
 ## Declaración de conformidad con el Esquema Nacional de Interoperabilidad
@@ -527,3 +655,5 @@ Bibliografía:
 * PreparaTic27 - Pack1/046
 * [administracionelectronica.gob.es - ENI](https://administracionelectronica.gob.es/ctt/eni)
 * [administracionelectronica.gob.es - Interoperabilidad](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio.html)
+* [geoslab.com - El reto de los PID](https://www.geoslab.com/es/blog/el-reto-de-los-identificadores-persistentes)
+* [programminghistorian.org - Introducción a los Datos abiertos enlazados](https://programminghistorian.org/es/lecciones/introduccion-datos-abiertos-enlazados)

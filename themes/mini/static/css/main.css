@@ -17,7 +17,7 @@ header, footer {
   color: #fff !important;
   background-color: #3a3a3a !important;
 }
-body > * {
+div.body {
   max-width: 1000px;
   margin: auto;
 }
@@ -139,4 +139,18 @@ figure.fig figcaption {
   border-left: 1px black solid;
   border-bottom: 1px black solid;
   padding: 5px;
+}
+
+a.anchormark {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+  text-decoration: none;
+}
+a.anchormark path {
+  visibility: hidden;
+}
+.anchormark:hover > a.anchormark path {
+  visibility: revert;
 }
