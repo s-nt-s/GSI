@@ -94,7 +94,61 @@ El ENI establece la serie de NTI que son de obligado cumplimiento por las AAPP
 que desarrollan aspectos concretos de la interoperabilidad entre las AAPP
 y con los ciudadanos.
 
-## Catálogo de estándares
+## [Catálogo de estándares](https://administracionelectronica.gob.es/pae_Home/dam/jcr:97912041-c1c3-47c4-b517-df9f51db321d/Guia_aplicacion_Norma_Tecnica_Interoperabilidad_Catalogo_de_estandares.pdf)
+
+**Objetivo**: Establecer el conjunto de estándares que son abiertos o de uso
+generalizado por los ciudadanos.
+
+Un **Catálogo de estándares** esta estructurado en diferentes categorías,
+incluye al menos los estándares mínimos para cumplir las NTI (esto es, cualquier
+estándar mencionado explícitamente en alguna NTI) e indica
+el estado (*Admitido* o *En abandono*) de cada estándar dentro del ciclo de vida.
+
+La actualización y revisión del Catálogo de estándares se realiza al menos
+una vez al año.
+
+En la Resolución de 3 de octubre de 2012 se listan los estándares del catálogo:
+
+* Accesibilidad multicanal, integrada y segura:
+    * Autenticación:
+        * Firma electrónica: CAdES, CMS, ETSI TS 102 176-1, PAdES, *<del>PDF Signature</del>*, <del>PKCS#7</del>, (XAdES), XML-DSig
+        * Política Firma electrónica: ETSI TR 102 038, ETS TR 102 272
+    * Cifrado: TLS
+    * Codificación:
+        * Codificación de caracteres: Base16, Base32 y Base64, UCS UTF
+        * Idioma: RFC 4646, ISO 639
+    * Formatos ficheros:
+        * Cartografía vectorial y Sistemas de Información Geográfica: GML, WFS, WMS
+        * Compresión de ficheros: GZIP, ZIP
+        * Contenedores multimedia: *<del>AVI</del>*, MPEG-4, MP4 media
+        * Imagen y/o texto: [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas "Valores separados por comas"){.abbr}, HTML, CSS, JPEG, MHTML, ISO/IEC 263002006 OASIS 1.2, Strict Open XML, PDF, PDFA, PMG, *<del>RTF</del>*, SVG, TIFF, TXT
+        * Sonido: *MP3. MPEG-1 Audio Layer 3*, OGG-Vorbis
+        * Video: *MPEG-4*, *MP4 Video*, WebM
+    * Gestión documental y archivística: *ISAAR CPF*, *ISAD (G)*, *ISDF*, *NEDA*, UNE-ISO 30300, UNE-ISO 30301, UNE-ISO 15489, UNE-ISO 23081
+    * Integridad: SHA
+* Infraestructuras y servicios asociados:
+    * Integridad: LDAP
+    * Protocolos de comunicación e intercambio:
+        * Correo electrónico: MIME, SMTP
+        * Tecnologías de transporte y red: DNS, HTTP, IPSec, NTP
+* Integración de sistemas y servicios:
+    * Autenticación:
+        * Certificados: OCSP
+        * Sellado de tiempo: ETSI TS 102 023
+    * Protocolos de comunicación e intercambio:
+        * Servicios Web: SOAP, UDDI, WSDL, WS-Security
+    * Tecnologías para identificación: ASN.1, OID, URI, URL, URN
+* Modelos e integración de datos:
+    * Métricas: ISO 8601:2004
+    * Protocolos de comunicación e intercambio:
+        * Específicos a nivel de aplicación: CODICE, Facturae, SCSP, SICRES
+    * Semántica: DCAT
+        * Metadatos: MoReq, *PREMIS*, INSPIRE Metadata Regulation
+        * Tecnologías semánticas: N3, OWL, RDF, RDFa, SKOS, SPARQL, Turtle
+    * Tecnologías de integración de datos: XML, XSD
+
+**Nota**: En cursiva los que son de tipo *Uso generalizado* y no *Abierto*,
+tachados los que están en estado *En abandono* y no en *Admitido*.
 
 ## [Documento electrónico](https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e80361c-2550-4a7e-b99e-20ea123b4aef/Guia_NTI_documento_electronico_EPUB_2ed_2016.epub)
 

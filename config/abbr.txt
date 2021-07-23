@@ -320,7 +320,7 @@ CAdES
 https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)
 Firmas Electrónicas Avanzadas CMS
 
-r'(XMLDsig|DSig XML|XML-Sig)'
+r'(XML-?D[Ss]ig|DSig XML|XML-Sig)'
 https://es.wikipedia.org/wiki/Firma_XML
 Firma XML
 
@@ -597,7 +597,7 @@ DIR3
 https://administracionelectronica.gob.es/ctt/dir3
 Directorio Común de Unidades Orgánicas y Oficinas, inventario de las unidades orgánicas / organismos públicos, sus oficinas asociadas y unidades de gestión económica-presupuestaria
 
-SICRES3
+r'SICRES3?'
 https://administracionelectronica.gob.es/ctt/sicres
 Normaliza el Modelo de Datos para el intercambio de asientos entre Entidades Registrales (ENI)
 
@@ -746,6 +746,10 @@ ISO 639-1
 https://es.wikipedia.org/wiki/ISO_639-1
 184 códigos de dos letras para identificar los principales idiomas del mundo
 
+ISO 639
+https://es.wikipedia.org/wiki/ISO_639
+Códigos para lenguas y grupos o familias de lenguas
+
 RDF
 https://es.wikipedia.org/wiki/Resource_Description_Framework
 Marco de Descripción de Recursos
@@ -765,3 +769,90 @@ Dublin Core
 W3C
 https://es.wikipedia.org/wiki/World_Wide_Web_Consortium
 World Wide Web Consortium
+
+TLS
+https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte
+Seguridad de la capa de transporte
+
+ETSI
+https://es.wikipedia.org/wiki/Instituto_Europeo_de_Normas_de_Telecomunicaciones
+Instituto Europeo de Normas de Telecomunicaciones
+
+MHTML
+https://es.wikipedia.org/wiki/MHTML
+MIME HTML, estándar para incluir recursos que en páginas HTML usualmente están enlazados externamente
+
+r'ISO/IEC 26300:?2006'
+https://es.wikipedia.org/wiki/OpenDocument
+OpenDocument
+
+Resolución de 3 de octubre de 2012
+https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501
+Norma Técnica de Interoperabilidad de Catálogo de estándares
+
+GML
+https://es.wikipedia.org/wiki/Geography_Markup_Language
+Lenguaje de Marcado Geográfico
+
+WFS
+https://es.wikipedia.org/wiki/Web_Feature_Service
+Web Feature Service
+
+WMS
+https://es.wikipedia.org/wiki/Web_Map_Service
+Servicio Web Map
+
+i'gzip'
+https://es.wikipedia.org/wiki/Gzip
+GNU ZIP
+
+r'ISAAR ?\(?CPF\)?'
+https://es.wikipedia.org/wiki/ISAAR(CPF)
+Norma Internacional sobre los Registros de Autoridad de Archivos relativos a Instituciones, Personas y Familias
+
+r'ISAD ?\(?G\)?'
+https://es.wikipedia.org/wiki/ISAD(G)
+Norma Internacional General de Descripción Archivística
+
+SHA
+https://es.wikipedia.org/wiki/Secure_Hash_Algorithm
+Secure Hash Algorithm
+
+CODICE
+https://administracionelectronica.gob.es/ctt/codice
+Componentes y Documentos Interoperables para la Contratación Electrónica
+
+Facturae
+Factura electrónica
+
+SCSP
+https://administracionelectronica.gob.es/ctt/scsp
+Sustitución de Certificados en papel
+
+INSPIRE
+https://en.wikipedia.org/wiki/Infrastructure_for_Spatial_Information_in_the_European_Community
+Infrastructure for Spatial Information in the European Community
+
+SPARQL
+https://es.wikipedia.org/wiki/SPARQL
+SPARQL, lenguaje estandarizado para la consulta de grafos RDF
+
+Turtle
+https://es.wikipedia.org/wiki/Turtle_(sintaxis)
+Turtle (Terse RDF Triple Language), formato para serializar RDF
+
+URL
+https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme
+Localizador de recursos uniforme
+
+URN
+https://es.wikipedia.org/wiki/Nombre_de_Recurso_Uniforme
+Nombre de Recurso Uniforme
+
+NTP
+https://es.wikipedia.org/wiki/Network_Time_Protocol
+Network Time Protocol
+
+r'IP[Ss]ec'
+https://es.wikipedia.org/wiki/IPsec
+Internet Protocol security
