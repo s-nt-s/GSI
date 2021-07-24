@@ -96,6 +96,8 @@ y con los ciudadanos.
 
 ## [Catálogo de estándares](https://administracionelectronica.gob.es/pae_Home/dam/jcr:97912041-c1c3-47c4-b517-df9f51db321d/Guia_aplicacion_Norma_Tecnica_Interoperabilidad_Catalogo_de_estandares.pdf)
 
+**Aprobación**: BOE-A-2012-13501
+
 **Objetivo**: Establecer el conjunto de estándares que son abiertos o de uso
 generalizado por los ciudadanos.
 
@@ -107,7 +109,7 @@ el estado (*Admitido* o *En abandono*) de cada estándar dentro del ciclo de vid
 La actualización y revisión del Catálogo de estándares se realiza al menos
 una vez al año.
 
-En la Resolución de 3 de octubre de 2012 se listan los estándares del catálogo:
+En la Resolución se listan los estándares del catálogo:
 
 * Accesibilidad multicanal, integrada y segura:
     * Autenticación:
@@ -151,6 +153,8 @@ En la Resolución de 3 de octubre de 2012 se listan los estándares del catálog
 tachados los que están en estado *En abandono* y no en *Admitido*.
 
 ## [Documento electrónico](https://administracionelectronica.gob.es/pae_Home/dam/jcr:9e80361c-2550-4a7e-b99e-20ea123b4aef/Guia_NTI_documento_electronico_EPUB_2ed_2016.epub)
+
+**Aprobación**: BOE-A-2011-13169
 
 Esta NTI recoge los requisitos mínimos sobre la estructura y formato de los
 documentos para su intercambio y por tanto para la interoperabilidad.
@@ -280,6 +284,8 @@ Tabla 1: Información básica de firma
 
 ## [Digitalización de documentos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:2650cc88-b8d7-4e21-9bfd-b291b51ff290/Guia_NTI_digitalizacion_EPUB_2ed_2016.epub)
 
+**Aprobación**: BOE-A-2012-13501
+
 **Objetivo**: establecer los requisitos a cumplir en la digitalización de
 documentos no electrónicos (ej: papel) a través de medios fotoeléctricos.
 
@@ -327,6 +333,8 @@ Además, los documentos originales cuya eliminación se propone deberán carecer
 valor probatorio para los derechos y obligaciones de las personas físicas o jurídicas.
 
 ## [Expediente electrónico](https://administracionelectronica.gob.es/pae_Home/dam/jcr:e9a3f923-6be7-49bd-b05d-fb07ecb7b1b4/Guia_NTI_expediente_electronico_EPUB_2ed_2016.epub)
+
+**Aprobación**: BOE-A-2011-13170
 
 **Objetivo**: establecer la estructura del eExpediente y las especificaciones
 de los servicios de remisión y puesta a disposición.
@@ -452,13 +460,93 @@ En caso de intercambio de eExpedientes entre AAPP que suponga una transferencia
 de custodia o de responsabilidad de gestión, la entidad transferidora verificará la
 autenticidad e integridad del expediente en el momento del intercambio.
 
-## Política de firma electrónica y de certificados de la Administración
+## [Política de firma electrónica y de certificados de la Administración](https://administracionelectronica.gob.es/pae_Home/dam/jcr:94d16f9b-40be-4966-ac76-b21c5cb7a013/Guia_NTI_politica_firma_electr_EPUB_2ed_2017.EPUB)
+
+**Nota**: También llamada: Política de firma y sello electrónicos y de
+certificados de la Administración
+
+**Aprobación**: BOE-A-2016-10146
+
+**Objetivo**: establecer criterios comunes de la AP para autenticar y reconocer
+mutuamente firmas y sellos electrónicos basados en certificados.
+
+La NTI no es la política en si misma, si no las directrices generales para definir
+esa política.
+
+Toda **política de firma electrónica** basada en certificados incluirá:
+
+* Definición del alcance y ámbito de aplicación (incluye *reglas comunes* y
+  *reglas de confianza*)
+* Datos identificativos del documento y el responsable de su gestión:
+      * Nombre documento, versión, identificador, URI, fecha expedición,
+      ámbito de aplicación y periodo de validez
+      * ID gestor y dirección de contacto
+* Identificación de los actores involucrados, que pueden ser:
+    * firmante
+    * verificador
+    * PSC
+    * Emisor y gestor de la política de firma
+* Usos de la firma electrónica: Condiciones pera la aplicación de la eFirma como
+podrían ser:
+    * firma de transmisión de datos, que garantiza autenticación de los
+    actores involucrados, integridad y no repudio del mensaje
+    * firma de contenido (equivalente a firma manuscrita), también garantiza
+    autenticidad, integridad y no repudio del contenido pero no implica
+    necesariamente transmisión de datos
+* Interacción con otras políticas:
+    * Posibilidad de acogerte o basarse en una política marco en vez de
+    desarrollar una propia
+    * Obligación de se interoperable con la
+    Política Marco de Firma Electrónica basada en Certificados
+    * Las reglas de la política deben estar disponible en XML y ASN.1.
+    para que las aplicaciones puedan interpretarlas
+* Gestión de la política: mantener actualizada la política
+* Archivad y custodia: definición de condiciones y responsabilidades para el archivado y custodia de las firmas electrónicas en sus diferentes aplicaciones
+(ej: firmas longevas)
+
+Las **reglas comunes** para el firmante y verificador de la firma electrónica
+han de incluir:
+
+* Formatos admitidos de firma electrónica (XAdES, CAdES y PAdES) y reglas de uso
+de algoritmos: (el perfil mínimo de formato es el [EPES]({filename}01-firma.md#prefil-formato))
+* Reglas de creación de firma
+* Reglas de validación de firma
+
+*Nota* Concretamente los
+[formatos de firma electrónica]({filename}01-firma.md#formatos-de-firma-(hash-y-cifrado-asimétrico))
+de contenido (el cual vendrá identificado en el metadato *Tipo de firma* como se
+indico en la NTI Documento electrónico) pueden ser:
+
+* XAdES internally detached signature
+* XAdES enveloped signature
+* CAdES detached/explicit signature
+* CAdES attached/implicit signature
+* PAdES
+* XAdES (Decision 1506) detached
+* XAdES (Decision 1506) enveloped
+* CAdES (Decision 1506) detached
+* CAdES (Decision 1506) attached
+* PAdES (Decision 1506)
+
+Las **reglas de confianza** deben incluir los requisitos establecidos para
+certificados, sellos de tiempo y firmas longevas.
+
+Adicionalmente se pueden añadir reglas como:
+
+* Reglas específicas de compromisos: características específicas de
+la firma para cada uno de los servicios que la organización presta a fin de
+que se acepten como válidas
+* Reglas de certificados de atributos: la organización
+establece información adicional a añadir a los certificados digitales
+(atributos) en función de las necesidades y el contexto
 
 ## Protocolos de intermediación de datos
 
 ## Relación de modelos de datos
 
 ## [Política de gestión de documentos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:742af184-2b25-4431-a9c6-0681945bcad3/Guia_NTI_Politica_Gestion_DocElect_EPUB_2ed_2016.epub)
+
+**Aprobación**: BOE-A-2012-10048
 
 **Objetivo**: detallar los elementos que debe incluir una PGDE, e indicar directrices
 para su desarrollo.
@@ -518,6 +606,8 @@ el resto de elementos del sistema son tratadas como una entidad más.
 
 ## [Procedimientos de copiado auténtico y conversión entre documentos electrónicos, así como desde papel u otros medios físicos a formatos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:6708c782-ee1d-4ea1-bf5d-dd44d7d55e3d/Guia_NTI_procedimientos_copiado_autentico_EPUB_2ed_2016.epub)
 
+**Aprobación**: BOE-A-2011-13172
+
 **Objetivo**: establecer las reglas para la generación de copias electrónicas
 auténticas, copias papel auténticas de documentos públicos administrativos
 electrónicos y para la conversión de formato de documentos electrónicos.
@@ -560,6 +650,8 @@ al organismo que hace la copia, no al que creo el original.
 ## Modelo de Datos para el intercambio de asientos entre las Entidades Registrales
 
 ## [Reutilización de recursos de información](https://administracionelectronica.gob.es/pae_Home/dam/jcr:2314e955-cda1-4314-a764-5af00afe6475/Guia_NTI_EPUB_Reutilizacion_recursos_informacion_2ed.epub)
+
+**Aprobación**: BOE-A-2013-2380
 
 **Objeto**: conjunto de pautas básicas para la reutilización de documentos y
 recursos de información elaborados o custodiados por el sector público a los que

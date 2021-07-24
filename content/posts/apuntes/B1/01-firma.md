@@ -168,11 +168,29 @@ La terminación AdES denota que es una firma electrónica avanzada.
     * Define una estructura de contenedor para englobar: archivo, firma y sello de tiempo
     * El contenedor está basado en zip
 
-CAdES y XAdES son respectivamente versiones AdES de [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr .wikipedia} y XMLDsig
-que permiten los siguientes perfiles:
+CAdES y XAdES son respectivamente versiones AdES de [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr .wikipedia} y XMLDsig.
+
+En CAdES y XAdES, según donde se guarde la firma, tenemos:
+
+* El fichero firma incluye el documento original (en base64 o una
+referencia con un hash del documento):
+    * CAdES attached/implicit (implícita): el fichero de firma envuelve el propio contenido firmado de forma que, para acceder al contenido, es necesario interpretar la firma
+    * XAdES internally detached (desplegada): documento y firma son nodos al mismo
+    nivel del XML, vinculados por una relación interna
+    * XAdES enveloping (envolvente): el nodo de la firma contiene el nodo del
+    contenido
+    * XAdES enveloped (envuelta): el nodo del contenido contiene el nodo de la
+    firma (ej: Factura electrónica)
+* El fichero firma no incluye el documento original:
+    * CAdES detached/explicit (explicita)
+    * XAdES externally detached (despegada): similar al *internally detached* pero
+    realmente no incluye el documento original, si no una URL a su localización
+    sin hash.
+
+CAdES y XAdES permiten los siguientes <span id="prefil-formato">perfiles de formato</span>:
 
 * BES (Basic Electronic Signature): firma con un formato básico, incluyendo los atributos necesarios para la firma electrónica
-* EPES (Explicit Policy Electronic Signature): firma el documento incorporando el identificador de la política de firma a aplicar (por ejemplo: política de firma de la AGE v1.9 urn:oid:2.16.724.1.3.1.1.2.1.9)
+* EPES (Explicit Policy Electronic Signature): firma BES más un atributo con el identificador de la política de firma a aplicar (por ejemplo: política de firma de la AGE v1.9 urn:oid:2.16.724.1.3.1.1.2.1.9)
 * T (Timestamped): añade un sello de tiempo sobre cualquiera de las anteriores.
 * C (Complete): añade referencias a datos de verificación (certificados y listas de revocación).
 * X (Extended): añade un sello de tiempo a C (Complete) para proteger contra el posible compromiso de validez en el futuro.
@@ -386,7 +404,7 @@ Siendo normalmente exigido el nivel 1 o 2, y siempre aceptándose cualquier
 certificado de nivel superior al exigido pero nunca exigiendo una firma
 superior a la cualificada.
 
-En la decisión de ejecución UE 910/2014 se establece que **los formatos** de firmas
+En la decisión de ejecución UE 2015/1506 se establece que **los formatos** de firmas
 electrónicas avanzadas y sellos avanzados **que deben reconocer el sector público**
 son XAdES, CAdES o PAdES en niveles de conformidad B, T o LT (XL), y los
 contenedores ASiC.
@@ -532,3 +550,5 @@ Bibliografía:
 * [Cl@ve - definiciones](https://clave.gob.es/clave_Home/dnin/definiciones.html)
 * [serviciosmin.gob.es - Prestadores de servicios electrónicos de confianza](https://sede.serviciosmin.gob.es/es-es/firmaelectronica/paginas/Prestadores-de-servicios-electronicos-de-confianza.aspx)
 * [networkencyclopedia.com - X.500](https://networkencyclopedia.com/x-500/)
+* [firmaelectronica.gob.es - Formatos de Firma](https://firmaelectronica.gob.es/Home/Ciudadanos/Formatos-Firma.html)
+* [webs.um.es - Formatos de firma electrónica](https://webs.um.es/danielsm/miwiki/lib/exe/fetch.php?id=inicio&cache=cache&media=cursocarm-tema3.pdf)

@@ -46,7 +46,7 @@ r'[Rr]eglamento \(?UE\)? 910/2014'
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014R0910
 Identificación electrónica y servicios de confianza
 
-Decisión de ejecución UE 910/2014
+r'[Dd]ecisión de [eE]jecución \(?UE\)? 2015/1506|Decision 1506'
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv%3AOJ.L_.2015.235.01.0037.01.SPA
 Formatos de firmas electrónicas avanzadas y sellos avanzados que deben reconocer el sector público
 
@@ -662,7 +662,7 @@ Plan de Direccionamiento de la Administración
 https://administracionelectronica.gob.es/ctt/plandira
 Define un espacio de direccionamiento privado para la Administración Pública y que facilita la coordinación entre planes de numeración IP
 
-Política de firma electrónica y de certificados de la AGE
+i'Política de firma electrónica y de certificados de la AGE|Política Marco de Firma Electrónica basada en Certificados'
 https://administracionelectronica.gob.es/ctt/politicafirma
 Define un modelo de esquema de referencia para la identificación y autenticación electrónica (PACAP Ley 39/2015)
 
@@ -786,10 +786,6 @@ r'ISO/IEC 26300:?2006'
 https://es.wikipedia.org/wiki/OpenDocument
 OpenDocument
 
-Resolución de 3 de octubre de 2012
-https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501
-Norma Técnica de Interoperabilidad de Catálogo de estándares
-
 GML
 https://es.wikipedia.org/wiki/Geography_Markup_Language
 Lenguaje de Marcado Geográfico
@@ -856,3 +852,35 @@ Network Time Protocol
 r'IP[Ss]ec'
 https://es.wikipedia.org/wiki/IPsec
 Internet Protocol security
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501
+NTI de Catálogo de estándares
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2011-13169
+NTI Documento Electrónico
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501
+NTI Digitalización de Documentos
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2011-13170
+NTI Expediente Electrónico
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2016-10146
+NTI Política de Firma y Sello Electrónicos y de Certificados de la Administración
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2012-10048
+NTI Política de gestión de documentos electrónicos
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2011-13172
+NTI Procedimientos de copiado auténtico y conversión entre documentos electrónicos
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2013-2380
+NTI Reutilización de recursos de la información
+
+OID
+https://es.wikipedia.org/wiki/Identificador_de_objeto
+Identificador de objeto
+
+WS-Security
+https://es.wikipedia.org/wiki/WS-Security
+Seguridad en Servicios Web

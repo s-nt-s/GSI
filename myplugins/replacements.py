@@ -59,19 +59,25 @@ def get_title(url):
 
 
 def readabbr(file):
+    boe_url = "https://www.boe.es/buscar/act.php?id="
     r = []
     abbr = DefaultMunch()
+    rtext = set()
     for l in readlines(file):
         if len(l) == 0:
+            abbr.index=len(r)
+            rtext.add(abbr.text)
             r.append(abbr)
             abbr = DefaultMunch()
             continue
-        if abbr.text is None:
-            abbr.text = l
-            continue
         slp = l.split("://", 1)
         if l.startswith("{filename}") or (len(slp) == 2 and slp[0].lower() in ("http", "https")):
+            if abbr.text is None and l.startswith(boe_url):
+                abbr.text = l[len(boe_url):]
             abbr.url = l
+            continue
+        if abbr.text is None:
+            abbr.text = l
             continue
         abbr.title = l
     chg = False
@@ -97,6 +103,19 @@ def readabbr(file):
                 if a.title:
                     f.write(a.title+"\n")
                 f.write("\n")
+    for abbr in list(r):
+        if abbr.url is not None and abbr.url.startswith(boe_url):
+            text = abbr.url[len(boe_url):]
+            if text not in rtext:
+                n_abbr=abbr.copy()
+                n_abbr.index = len(r)
+                n_abbr.text = abbr.url[len(boe_url):]
+                r.append(n_abbr)
+    def sort_abbr(abbr):
+        if abbr.text in ("BOE", ):
+            return (9999, abbr.index)
+        return (1, abbr.index)
+    r=sorted(r, key=sort_abbr)
     return r
 
 
