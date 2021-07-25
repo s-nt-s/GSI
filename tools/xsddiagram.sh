@@ -31,6 +31,8 @@ fi
 
 if [ $# -eq 0 ]; then
   exec /usr/bin/cli "$CMD"
+elif [ $# -eq 1 ]; then
+  exec /usr/bin/cli "$CMD" "$1"
 fi
 
 ROT=""

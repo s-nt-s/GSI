@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup, Tag
 from pelican import contents, signals
 import re
 
-re_tabcaption = re.compile(r"^Tabla (\d+): .+")
-re_figcaption = re.compile(r"^Figura (\d+): .+")
+re_tabcaption = re.compile(r"^Tabla (\d+|X): .+")
+re_figcaption = re.compile(r"^Figura (\d+|X): .+")
 re_sp = re.compile(r"\s+")
 heads=tuple("h"+str(i) for i in range(1,7))
 

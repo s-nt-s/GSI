@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     <xs:element name="Personas" type="TipoPersonas" />
+    <xs:complexType name="TipoPersonas">
+        <xs:all>
+            <xs:element name="Persona" type="TipoPersona" minOccurs="0"    maxOccurs="unbounded" />
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="TipoPersona">
+        <xs:sequence>
+            <xs:element name="TipoRegistro">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="2" />
+                        <xs:maxLength value="2" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Nombre">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="10" />
+                        <xs:maxLength value="10" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="PrimerApellido">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="10" />
+                        <xs:maxLength value="10" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="SegundoApellido">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="10" />
+                        <xs:maxLength value="10" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="DNI">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="9" />
+                        <xs:maxLength value="9" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

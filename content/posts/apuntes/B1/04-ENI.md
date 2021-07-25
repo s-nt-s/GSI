@@ -1,6 +1,5 @@
 ---
 title: Esquema Nacional de Interoperabilidad (ENI)
-Status: draft
 ---
 
 # Conceptos básicos
@@ -286,10 +285,10 @@ Tabla 1: Información básica de firma
 
 **Aprobación**: BOE-A-2012-13501
 
-**Objetivo**: establecer los requisitos a cumplir en la digitalización de
+**Objetivo**: establecer los requisitos mínimos a cumplir en la digitalización de
 documentos no electrónicos (ej: papel) a través de medios fotoeléctricos.
 
-**Ambito** cualquier órgano de la AP o Entidad de Derecho Público vinculada
+**Ambito**: cualquier órgano de la AP o Entidad de Derecho Público vinculada
 o dependiente de aquélla sobre cualquier documento en soporte papel u otro
 soporte susceptible de digitalización, independientemente de que hubiese sido
 aportado por el ciudadano o generado por una organización.
@@ -462,8 +461,7 @@ autenticidad e integridad del expediente en el momento del intercambio.
 
 ## [Política de firma electrónica y de certificados de la Administración](https://administracionelectronica.gob.es/pae_Home/dam/jcr:94d16f9b-40be-4966-ac76-b21c5cb7a013/Guia_NTI_politica_firma_electr_EPUB_2ed_2017.EPUB)
 
-**Nota**: También llamada: Política de firma y sello electrónicos y de
-certificados de la Administración
+**Nota**: También llamada *Política de firma y sello electrónicos y de certificados de la Administración*
 
 **Aprobación**: BOE-A-2016-10146
 
@@ -542,7 +540,106 @@ establece información adicional a añadir a los certificados digitales
 
 ## Protocolos de intermediación de datos
 
-## Relación de modelos de datos
+**Aprobación**: BOE-A-2012-10049
+
+**Objetivo**: establecer las especificaciones para el intercambio intermediado de
+datos entre organismos.
+
+Los **intercambios intermediados** son el modelo recomendado por la UE, la OCDE y
+la ONU como herramienta de interoperabilidad que permite la normalización y
+reutilización de los servicios de intercambio.
+
+La NTI define los roles de los agentes que participan en los intercambios intermediados
+de datos, y las condiciones relativas a los proceses de intercambio intermediado
+a través de la plataforma de intermediación del MINHAP (también se puede aplicar
+a las de otras AP)
+
+Los agentes son:
+
+* **Cedente**: cualquier organización que posea datos relativos a los ciudadanos
+que otra pueda necesitar
+    * facilita la información para el catálogo o registro de sus servicios de
+    intercambio
+    * establece los métodos de consulta, protocolos y condiciones de acceso
+    * justifica los casos de rechazo o denegación de una solicitud
+    * define la política de auditoría y las realiza
+    * puede delegar todo lo anterior en el Emisor o en un nodo de interoperabilidad
+* **Emisor**: el que facilita la cesión de los datos desde un punto de vista tecnológico
+    * establece las condiciones técnicas de acceso a los servicios de intercambio
+    * proporciona los datos de cada consulta con garantía de integridad y confidencialidad
+    * Define el ANS
+* **Cesionario**: cualquier organización autorizada a consultar determinados datos
+de los ciudadanos en poder de un Cedente
+    * solicita información al Cedente cumpliendo sus condiciones
+    * recaba el consentimiento del interesado, salvo que la ley le exima de ello
+* **Requirente**: el que facilita la consulta de los datos desde un punto de vista
+tecnológico
+    * cumple las condiciones de accesos del Emisor
+    * comprobara la completitud de las consultas y de los datos del Cesionario
+    * asegura la seguridad y confidencialidad de las consultas
+    * solo almacena la información personal del ciudadano mínima necesaria y
+    durante el mínimo tiempo posible
+
+Teniendo en cuenta, que en el ámbito de la norma:
+
+* Un Cedente que facilita la cesión de sus propios datos actuá a la vez como Emisor
+* Un Cesionario que realiza directamente la consulta de datos actuá a la vez como
+Requirente
+
+La **plataforma de intermediación del MINHAP**:
+
+* gestiona los Cesionarios y Requirentes según las condiciones establecidas por cada Cedente
+* no almacena información personal de ningún ciudadano derivada del intercambio de datos
+* asegura la confidencialidad e integridad de la información intercambiada
+* mantiene un portal web informativo con toda la documentación relativa a la Plataforma
+donde, entre otras cosas, esta publicado el catalogo de servicios
+* los servicios web que implemente se diseñan en base a:
+    * definiciones mediante WSDL
+    * mensajes en formato XML con XSD públicos
+    * TSL con autenticación de cliente a nivel de transporte o aplicación
+* de forma general, en los servicios de intercambio se utiliza la
+versión 3.0 del protocolo SCSP
+* para garantizar la trazabilidad de los intercambios producidos,
+se asocia a cada consulta un identificador único que permite reproducir la
+secuencia de operaciones llevadas a cabo
+
+## [Relación de modelos de datos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:c06755c7-3cb8-4854-941c-606d5527ba50/GuiaAplicacion_NTI_RelacionModelosDatos_2%C2%AAed_EPUB_NIPO_630-14-236-5.epub)
+
+**Aprobación**: BOE-A-2012-10050
+
+**Objetivo**: establecer las condiciones para crear y publicar modelos de datos
+que se puedan usar a través del CISE. Dichas condiciones son la definición de
+formatos y modelos de datos, y su identificación, codificaciones y documentación.
+
+La NTI esta alineada con la SEMIC.EU y el JOINUP de la Comisión Europea.
+
+Los **modelos de datos** han de publicar su **estrucutra** en el CISE con
+activos semánticos (XSD) y *Guías explicativas* (PDF). Tales modelos vendrán
+identificados por metadatos. El modelo de datos también puede contener las
+tablas y códigos asociados que sean necesarios (por ej: tabla de provincias,
+comunidades...), de hecho, algunos modelos de datos son solo dichas tablas.
+
+En los modelos, la codificación de los organismos de la AP se hace con DIR3.
+
+Ejemplo: [Este XSD](xsd/activosemantico.xsd) es el *activo semantico*
+(o, a efectos prácticos, modelo de datos) de [estos datos](xsd/datos.xml).
+
+Lo que convierte un *activo semántico* en un *modelo de datos* es la inclusión
+de este ultimo en el CISE cumpliendo el nivel explicación y formato de detalle
+que pide la NTI.
+
+La estructura del modelo de datos con la que se entrega al
+CISE esta basada en la del Expediente electrónico y sus metadatos mínimos
+obligatorios son:
+
+* Nombre: Nombre identificativo del expediente electrónico
+* Órgano: DIR3
+* Interés Estadístico
+* Localización: URL donde se ubica el expediente electrónico
+* Correo-e de la unidad generadora
+
+El CISE posibilita la carga masiva de los modelos de datos a través de la
+Red SARA.
 
 ## [Política de gestión de documentos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:742af184-2b25-4431-a9c6-0681945bcad3/Guia_NTI_Politica_Gestion_DocElect_EPUB_2ed_2016.epub)
 
@@ -602,9 +699,82 @@ El e-EMGDE se basa en un modelo entidad-relación (*documento*, *agente*,
 dejan constancia del contexto. Es decir, las relaciones entre los documentos y
 el resto de elementos del sistema son tratadas como una entidad más.
 
-## Requisitos de conexión a la Red de comunicaciones de las Administraciones Públicas españolas
+## [Requisitos de conexión a la Red de comunicaciones de las Administraciones Públicas españolas](https://administracionelectronica.gob.es/pae_Home/dam/jcr:fe3103e2-4906-47cb-b9cd-ddaf091cc618/2011-Guia-NT-requisitos-conex-red-AA-PP-esp.pdf)
 
-## [Procedimientos de copiado auténtico y conversión entre documentos electrónicos, así como desde papel u otros medios físicos a formatos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:6708c782-ee1d-4ea1-bf5d-dd44d7d55e3d/Guia_NTI_procedimientos_copiado_autentico_EPUB_2ed_2016.epub)
+**Aprobación**: BOE-A-2011-13173
+
+**Objetivo**: establecer las condiciones para acceder a la Red SARA, que permiten
+acceder a todas las AP. También permite conectar, a través de sTESTA, con las
+Instituciones Europeas y las administraciones de los EEMM.
+
+La Red SARA es administrada por el MPTAP y ofrece los siguientes servicios
+(listado no exhaustivo):
+
+* Servicios de Red:
+    * Conectividad: Transporte cifrado (VPLS):
+        * VoIP
+        * Videoconferencia
+        * Datos de aplicaciones de negocio
+    * Servicios telemáticos básicos: proporcionados a través de *Áreas de Conexión*
+    instaladas en los PAS donde la Red SARA tenga presencia
+        * DNS
+        * SMTP
+        * NTP (hora de España)
+        * Proxy y Proxy inverso
+    * Seguridad perimetral:
+        * cortafuegos
+        * IDS
+        * análisis de vulnerabilidades
+        * correlación de logs
+* Servicios horizontales de las AP: servicios comunes promovidos directamente
+por la DGIAE del MPTAP
+    * @Firma
+    * SVD
+    * CTT
+    * Correo multidominio
+    * ACCEDA
+    * ORVE
+    * Inside
+    * SIR
+    * REÚNETE
+    * NOTIFICA
+    * SIA
+    * ARCHIVE
+* Servicios verticales de las AP: propios de cada AP y bajo su responsabilidad
+que utilizan la Red SARA como mecanismo para su interoperabilidad.
+
+La conexión a la Red SARA se realiza a través de un PdP, que puede ser de
+uno de los tipos siguientes:
+
+* PAS: Organización en cuyas dependencias se implementa una *área de conexión*
+para sus órganos dependientes
+* CPDs de SARA (MPTAP)
+* la red sTESTA
+* centros de monitorización externa
+* PSC (ej: FNMT y ANCERT)
+* Otros, como ventanillas únicas empresariales ubicadas en las Cámaras de Comercio
+
+Generalizando, los intervinientes de una conexión a la Red Sara son
+el MPTAP, un PAS, y la propia organización que es el usuario final.
+
+* La *área de conexión* de un PAS funciona como punto único de conexión entre
+la red de la AP a la Red SARA y a la Red sTESTA.
+* La estructura de la *área de conexión* tiene un esquema DMZ delimitada
+por un subsistema de seguridad externo (de cara a la Red SARA) y un subsistema
+de seguridad interno (de cara a la Red del organismo)
+* El subsistema de seguridad externos es el que establece la VPN hacia el resto
+de las sedes de la Red SARA
+* En la DMZ debería estar lo mínimo, pero el PAS puede añadir elementos que
+considere necesarios si cumple las condiciones del Centro de Soporte de la Red SARA del MPTAP
+
+![Esquema lógico de un Área de Conexión](img/redsaraac.png)
+
+Figura 4: Esquema lógico de un Área de Conexión
+
+Las organizaciones que se conecten a la Red Sara deben aplicar el
+Plan de Direccionamiento de la Administración establecido por la DGIAE
+
+## [Procedimientos de copiado auténtico y conversión entre documentos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:6708c782-ee1d-4ea1-bf5d-dd44d7d55e3d/Guia_NTI_procedimientos_copiado_autentico_EPUB_2ed_2016.epub)
 
 **Aprobación**: BOE-A-2011-13172
 
@@ -647,13 +817,36 @@ ya que se asignan en función de las propiedades específicas del documento copi
 por ejemplo, la firma, sus metadatos, y en el metadato *Organo* identificaran
 al organismo que hace la copia, no al que creo el original.
 
-## Modelo de Datos para el intercambio de asientos entre las Entidades Registrales
+## [Modelo de Datos para el intercambio de asientos entre las Entidades Registrales](https://administracionelectronica.gob.es/pae_Home/dam/jcr:05989e7c-6f76-40c2-b07d-fe5278e905e5/2013_ENI_GuiaAplicacion_NTI_SICRES_3_0__2_edicion_NIPO_630-13-095-X.pdf)
+
+**Aprobación**: BOE-A-2011-13174
+
+**Objetivo**: normalizar el intercambio de asientos registrales entre distintas
+oficinas de registro (físicas y electrónicas) de documentos de entrada y salida.
+
+Para ello se usa la especificación SICRES3, que define le información mínima,
+su estructura y los requisitos mínimos tecnológicos necesarios para realizar el intercambio.
+
+SICRES3 se compone de dos mensajes (XML):
+
+* Mensaje de datos de intercambio: creado y emitido por la Entidad Registral de
+Origen y alberga, además de campos para el control e identificación,
+la información del asiento registral y los documentos correspondientes adjuntos
+(ver [SICRES3_INTERCAMBIO_APL.xsd]({filename}/posts/xsd/SICRES3_INTERCAMBIO_APL.md))
+* Mensaje de control: emitido por la Entidad Registral destino o
+por el propio sistema de intercambio y proporcionan información de estado
+para la gestión de la operación de intercambio
+(ver [SICRES3_MENSAJE_APL.xsd]({filename}/posts/xsd/SICRES3_MENSAJE_APL.md))
+
+![Modelo conceptual de intercambio SICRES3](img/sicres3.png)
+
+Figura 5: Modelo conceptual de intercambio SICRES3
 
 ## [Reutilización de recursos de información](https://administracionelectronica.gob.es/pae_Home/dam/jcr:2314e955-cda1-4314-a764-5af00afe6475/Guia_NTI_EPUB_Reutilizacion_recursos_informacion_2ed.epub)
 
 **Aprobación**: BOE-A-2013-2380
 
-**Objeto**: conjunto de pautas básicas para la reutilización de documentos y
+**Objeto**: determinar las pautas básicas para la reutilización de documentos y
 recursos de información elaborados o custodiados por el sector público a los que
 se refiere el art 3 de la Ley 37/2007.
 
@@ -766,7 +959,7 @@ de recursos de información dcat:Dataset.
 
 ![Diagrama de clases y conceptos para la definición de metadatos](img/dcatCatalog.jpeg)
 
-Figura 4: Diagrama de clases y conceptos para la definición de metadatos
+Figura 6: Diagrama de clases y conceptos para la definición de metadatos
 
 Para los **formatos de documentos** se deben usar estándares abiertos,
 y de forma complementaria, estándares que sean de uso generalizado por los
@@ -785,13 +978,11 @@ Cada organismo deberá proporcionar información sobre su catálogo de datos
 reutilizables en un espacio dedicado para ese fin, preferentemente localizado en:
 `http://www.sede.gob.es/datosabiertos`.
 
+<!--
 ## Reutilización y transferencia de tecnología
 
 ## Declaración de conformidad con el Esquema Nacional de Interoperabilidad
-
-## URL´s de esquemas XML
-
-
+-->
 
 ---
 
