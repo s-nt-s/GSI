@@ -1,0 +1,160 @@
+content/pages/00-index.md
+2021-07-08 13:06:05 +0200
+2021-07-03 19:59:12 +0200
+4
+
+content/posts/preparatic/packs.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/posts/preparatic/equivalencia.md
+2021-07-16 19:38:25 +0200
+2021-07-03 19:59:12 +0200
+12
+
+content/posts/preparatic/_.md
+2021-07-04 18:11:01 +0200
+2021-07-04 18:11:01 +0200
+0
+
+content/posts/apuntes/B1/01-firma.md
+2021-07-24 19:57:04 +0200
+2021-07-05 11:45:18 +0200
+19
+
+content/posts/apuntes/B1/04-ENI.md
+2021-07-25 20:17:01 +0200
+2021-07-16 23:36:20 +0200
+8
+
+content/posts/apuntes/B1/02-proteccion_de_datos.md
+2021-07-12 15:18:45 +0200
+2021-07-08 17:16:50 +0200
+3
+
+content/posts/apuntes/B1/03-pac_y_rjsp.md
+2021-07-19 00:11:19 +0200
+2021-07-14 23:26:53 +0200
+4
+
+content/posts/apuntes/_.md
+2021-07-08 00:22:10 +0200
+2021-07-05 11:45:18 +0200
+2
+
+content/posts/xsd/firmasEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/expedienteEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/contenidoDocumentoEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/documentoEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/IndiceContenidoExpedienteEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/metadatosDocumentoEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/MetadatosExpedienteEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/_.md
+2021-07-20 20:17:28 +0200
+2021-07-20 20:17:28 +0200
+0
+
+content/posts/xsd/SICRES3_MENSAJE_APL.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/IndiceExpedienteEni.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/xsd/SICRES3_INTERCAMBIO_APL.md
+2021-07-19 19:36:14 +0200
+2021-07-19 03:51:05 +0200
+0
+
+content/posts/temario/interna.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/posts/temario/_.md
+2021-07-04 18:11:01 +0200
+2021-07-04 18:11:01 +0200
+0
+
+content/posts/temario/libre.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/posts/ejercicios/supuestos.md
+2021-07-06 00:38:25 +0200
+2021-07-06 00:38:25 +0200
+0
+
+content/posts/ejercicios/_.md
+2021-07-05 11:45:18 +0200
+2021-07-04 18:11:01 +0200
+0
+
+content/posts/ejercicios/examenes.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/posts/ejercicios/FSAP20000600000.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/posts/gsitic.wordpress.com/bloque_2.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/posts/gsitic.wordpress.com/bloque_3.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/posts/gsitic.wordpress.com/_.md
+2021-07-04 18:11:01 +0200
+2021-07-04 18:11:01 +0200
+0
+
+content/posts/gsitic.wordpress.com/bloque_4.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+
+content/extra/favicon/README.md
+2021-07-03 19:59:12 +0200
+2021-07-03 19:59:12 +0200
+0
+

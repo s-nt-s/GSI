@@ -4,9 +4,12 @@ import re
 import bs4
 from pelican import signals
 from pelican.utils import SafeDatetime, pelican_open
+from munch import Munch, DefaultMunch
 
 #from pelican.readers import MarkdownReader as MarkReader
 from .yamlmetadata import YAMLMetadataReader as MarkReader
+from .util import run
+from datetime import date, datetime
 
 # https://github.com/pR0Ps/pelican-yaml-metadata
 
@@ -21,6 +24,18 @@ re_normalize = tuple(
 )
 re_tags = tuple()
 re_normalize = tuple()
+
+def get_date(file):
+    dates = run("git", "log", "--format=%ai", file)
+    dates = dates.strip().split("\n")
+    if len(dates)==0:
+        return DefaultMunch(create=None, update=None)
+    print(file, dates)
+    dates=list(map(lambda x:datetime.strptime(x, '%Y-%m-%d %H:%M:%S %z'), dates))
+    return Munch(
+        created=dates[-1],
+        updated=dates[0]
+    )
 
 
 def get_tag_normalized(tag):
@@ -59,6 +74,14 @@ class MyReader(MarkReader):
 
     def read(self, filename, *args, **kargv):
         output, metadata = super().read(filename)
+        '''
+        if None in (metadata.get('date'), metadata.get('modified')):
+            dt = get_date(filename)
+            if dt.created and metadata.get('date') is None:
+                metadata['date']=dt.created
+            if dt.updated and metadata.get('modified') is None:
+                metadata['modified']=dt.updated
+        '''
         fl_stat = os.stat(filename)
         if metadata.get('date') is None:
             metadata['date'] = to_date(fl_stat.st_ctime)
