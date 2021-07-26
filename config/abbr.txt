@@ -1,3 +1,6 @@
+r'\s*(BOE-[A-Z\-0-9]+)#([a-z0-9]+)'
+s'<sup title="\2 #\3"><a href="https://www.boe.es/buscar/act.php?id=\2#\3">?</a></sup>'
+
 r'[Ll]ey 37/2007(, de 16 de noviembre)?'
 https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-19814
 Ley sobre reutilización de la información del sector público
@@ -996,3 +999,14 @@ Zona desmilitarizada
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2011-13174
 NTI Modelo de Datos para el Intercambio de asientos entre las entidades registrales
+
+i'Real Decreto 3/2010(, de 8 de enero)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330
+Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica
+
+r'PDAs?'
+https://es.wikipedia.org/wiki/PDA
+Asistente Digital Personal
+
+i'alta disponibilidad'
+https://es.wikipedia.org/wiki/Alta_disponibilidad

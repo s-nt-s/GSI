@@ -82,6 +82,9 @@ def readabbr(file):
         abbr.title = l
     chg = False
     for abbr in r:
+        if abbr.title is not None and len(abbr.title) > 3 and abbr.title[0:2] in ("s'", 's"', "s'", 's"'):
+            abbr.new_text = abbr.title[2:-1]
+            continue
         if abbr.url:
             dom = get_dom(abbr.url)
             dom = dom.replace(".", "_")
@@ -128,6 +131,7 @@ class Replace:
         self.re_scape = tuple((
             re.compile(r"(\[[^\[\]]*\]\([^\(\)]+\))"),
             re.compile(r"<abbr[^>]*>[^<]*</abbr>"),
+            re.compile(r"<a[^>]*>[^<]*</a>"),
         ))
         for abbr in self.abbr:
             if abbr.re is None:
