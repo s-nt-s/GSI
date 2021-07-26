@@ -452,8 +452,8 @@ Figura 3: [XSD del contenido del indice de un Expediente Electrónico]({filename
 tiene un *IdentificadorCarpeta*
 
 Si el eExpediente forma parte de un asiento registral, éste será tratado como
-adjunto del mensaje de datos de intercambio según lo establecido en la NTI
-de Modelo de Datos para el intercambio de asientos entre las Entidades Registrales.
+adjunto del mensaje de datos de intercambio según lo establecido en la
+NTI de Modelo de Datos para el intercambio de asientos entre las Entidades Registrales.
 
 En caso de intercambio de eExpedientes entre AAPP que suponga una transferencia
 de custodia o de responsabilidad de gestión, la entidad transferidora verificará la

@@ -38,9 +38,6 @@
   <header id="banner"><div  class="body">
     {% block header %}
     {%endblock%}
-    {% if page_or_article and page_or_article.modified %}
-    <time class="modified" datetime="{{ page_or_article.modified.isoformat() }}"  title="Modificado el {{ page_or_article.modified }}">{{ page_or_article.locale_modified }}</time>
-    {% endif %}
   </div></header>
   <main><div class="body">
   {% block beforecontent %}
