@@ -1,6 +1,10 @@
 from bs4 import BeautifulSoup, Tag
 from pelican import contents, signals
 import re
+from .util import get_dom, get_class_dom
+from .mod_html import ModHtml
+
+import unidecode
 
 re_tabcaption = re.compile(r"^Tabla (\d+|X): .+")
 re_figcaption = re.compile(r"^Figura (\d+|X): .+")
@@ -8,13 +12,17 @@ re_sp = re.compile(r"\s+")
 heads=tuple("h"+str(i) for i in range(1,7))
 
 def add_class(n, name):
+    if name is None:
+        return
     c = n.attrs.get("class", None)
     if c is None or len(c) == 0:
         n.attrs["class"] = name
     elif isinstance(c, list):
-        n.attrs["class"].append(name)
+        if name not in c:
+            n.attrs["class"].append(name)
     elif isinstance(c, str):
-        n.attrs["class"] = c+" "+name
+        if (" "+name+" ") not in " "+c+" ":
+            n.attrs["class"] = c+" "+name
 
 def get_anchor_id(id):
     return BeautifulSoup('''
@@ -26,6 +34,7 @@ def get_anchor_id(id):
 def mod_content(content, *args, **kargv):
     if isinstance(content, contents.Static):
         return
+
     soup = BeautifulSoup(content._content, 'html.parser')
 
     for td in soup.findAll(['th', 'td']):
@@ -92,16 +101,34 @@ def mod_content(content, *args, **kargv):
             if p.attrs.get("id") is None:
                 p.attrs["id"]="fg"+m.group(1)
 
+    for img in soup.select("img"):
+        t = img.attrs.get("title")
+        if t is None or len(t.strip()) == 0:
+            a = img.attrs.get("alt")
+            if a is not None and len(a.strip()) > 0:
+                img.attrs["title"] = a
+
     for h in soup.findAll(heads):
         if h.attrs.get("id") in (None, ""):
             text = re_sp.sub(" ", h.get_text())
             text = text.strip()
             if len(text)>0:
                 text = text.lower()
+                text = unidecode.unidecode(text)
                 h.attrs["id"]=text.replace(" ", "-")
         if h.attrs.get("id") not in (None, ""):
             add_class(h, "anchormark")
             h.insert(0, get_anchor_id(h.attrs["id"]))
+
+    for a in soup.findAll("a"):
+        cls = get_class_dom(a.attrs.get("href"))
+        add_class(a, cls)
+
+
+
+    #mod = ModHtml(content.settings, content.source_path, soup)
+    #mod.set_target()
+    #mod.fix_href()
 
     soup.renderContents()
     content._content = soup.decode()

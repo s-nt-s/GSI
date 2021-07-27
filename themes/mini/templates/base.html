@@ -49,24 +49,24 @@
   </div></main>
   <footer id="extras"><div class="body">
     <p>
-      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
       sobre
       {% if page_or_article %}
           {% set source = page_or_article.source_path[LEN_CUR_DIR:] %}
-          su código <a href="{{ SOURCE_URL }}/{{ source }}">markdown</a> o
+          su código <a href="{{ SOURCE_URL }}/{{ source }}" target="_blank">markdown</a> o
       {% elif category and category.source_path %}
           {% set source = category.source_path[LEN_CUR_DIR:] %}
-          su código <a href="{{ SOURCE_URL }}/{{ source }}">markdown</a> o
+          su código <a href="{{ SOURCE_URL }}/{{ source }}" target="_blank">markdown</a> o
       {% endif %}
       {% set source =  self._TemplateReference__context.name %}
-      su <a href="{{ SOURCE_URL }}/{{ THEME[LEN_CUR_DIR:] }}/templates/{{source}}">template</a>.
+      su <a href="{{ SOURCE_URL }}/{{ THEME[LEN_CUR_DIR:] }}/templates/{{source}}" target="_blank">template</a>.
     <p>
     <p>Tambien puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="{{GITHUB_URL}}/issues">issue</a>.</p>
     {% if page_or_article and page_or_article.summary and "propiedad de" in page_or_article.summary %}
     {{ page_or_article.summary }}
     {%else%}
     <p>
-      <a class="logo" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" style="vertical-align: top;">
+      <a class="logo" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" style="vertical-align: top;" target="_blank">
         <img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
       Esta obra está bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
     </p>

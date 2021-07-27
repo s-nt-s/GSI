@@ -9,6 +9,8 @@ from markdown.extensions import Extension
 from markdown.preprocessors import Preprocessor
 from munch import DefaultMunch, Munch
 from pelican import signals
+from .util import get_dom, get_class_dom
+from os.path import join, dirname
 
 re_sp = re.compile(r"\s+")
 
@@ -18,6 +20,13 @@ def readlines(file):
         for l in f.readlines():
             l = l.strip()
             if not(len(l) == 0 and last_line == ""):
+                if l.startswith("include: "):
+                    inc = l.split(":", 1)[1].strip()
+                    inc = join(dirname(file), inc)
+                    for linc in readlines(inc):
+                        yield linc
+                        last_line = linc
+                    continue
                 yield l
             last_line = l
     if last_line not in ("", None):
@@ -36,16 +45,6 @@ def get_soup(url):
     r = requests.get(url)
     soup = bs4.BeautifulSoup(r.content, "lxml")
     return soup
-
-
-def get_dom(url):
-    dom = urlparse(url).netloc
-    if dom.endswith(".wikipedia.org"):
-        return "wikipedia"
-    if dom.startswith("www."):
-        dom = dom[4:]
-    return dom
-
 
 def get_title(url):
     dom = get_dom(url)
@@ -86,15 +85,13 @@ def readabbr(file):
             abbr.new_text = abbr.title[2:-1]
             continue
         if abbr.url:
-            dom = get_dom(abbr.url)
-            dom = dom.replace(".", "_")
             if abbr.title is None:
                 abbr.title = get_title(abbr.url)
                 chg = chg or (abbr.title is not None)
             if abbr.title:
-                abbr.new_text = '[\\1]({url} "{title}")'.format(**dict(abbr))+'{: .abbr .'+dom+'}'
+                abbr.new_text = '[\\1]({url} "{title}")'.format(**dict(abbr))+'{: .abbr}'
             else:
-                abbr.new_text = '[\\1]({url})'.format(**dict(abbr))+'{: .'+dom+'}'
+                abbr.new_text = '[\\1]({url})'.format(**dict(abbr))+'{: .abbr}'
         else:
             abbr.new_text = '<abbr title="{title}">\\1</abbr>'.format(**dict(abbr))
     if chg is True:

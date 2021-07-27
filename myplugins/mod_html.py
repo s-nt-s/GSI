@@ -6,35 +6,73 @@ from urllib.parse import urljoin, urlparse
 import bs4
 from joblib import Parallel, delayed
 from pelican import signals
+from .util import relurl
 
 
-def relurl(base, target):
-    fake_root = "http://fakeroot.com/"
-    s_base = urljoin(fake_root, base)
-    s_targ = urljoin(fake_root, target)
-    p_base = urlparse(s_base)
-    p_targ = urlparse(s_targ)
-    p_root = urlparse(fake_root)
-    if p_base.netloc != p_targ.netloc:
-        return None
-    if p_base.netloc != p_root.netloc:
-        return None
-    base_dir = '.'+posixpath.dirname(p_base.path)
-    targ_pat = '.'+p_targ.path
-    relpath = posixpath.relpath(target, start=base_dir)
-    if relpath == target:
-        return None
-    return relpath
+class ModHtml:
+    def __init__(self, settings, filename, soup=None):
+        self.settings = settings
+        self.soup = soup
+        self.is_changed = False
+        self.filename = filename
+        if self.soup is None:
+            with open(self.filename, encoding='utf-8') as f:
+                self.soup = bs4.BeautifulSoup(f, "lxml")
+
+    @property
+    def rel_file(self):
+        return relpath(self.filename, self.settings['OUTPUT_PATH'])
+
+    @property
+    def domain(self):
+        site_url = self.settings.get('SITEURL', None)
+        if site_url is None:
+            return None
+        return urlparse(site_url).netloc
+
+    def get_href(self, *tags):
+        if len(tags) == 0:
+            tags = ["link", "a", "script", "img", "iframe", "frame"]
+        for a in self.soup.findAll(tags):
+            attr = "href" if a.name in ("a", "link") else "src"
+            href = a.attrs.get(attr)
+            if href is not None:
+                yield a, attr, href
+
+    def move_script(self):
+        head = self.soup.find("head")
+        for script in self.soup.select("body script"):
+            head.append(script)
+            self.is_changed = True
+        for script in self.soup.select("body link[href]"):
+            head.append(script)
+            self.is_changed = True
+
+    def set_target(self):
+        if self.domain is None:
+            return
+        for a, attr, href in self.get_href("a"):
+            if "target" not in a.attrs:
+                a_dom = urlparse(href).netloc
+                if len(a_dom) > 0 and a_dom != self.domain:
+                    a.attrs["target"] = "_blank"
+                    self.is_changed = True
+
+    def rel_url(self):
+        for a, attr, href in self.get_href():
+            slp = href.split("://", 1)
+            if len(slp) == 2 and slp[0].lower() in ("http", "https"):
+                new_url = relurl(self.rel_file, href)
+                if new_url is not None:
+                    a.attrs[attr] = new_url
+                    self.is_changed = True
 
 
-def get_href(html, *tags):
-    if len(tags) == 0:
-        tags = ["link", "a", "script", "img", "iframe", "frame"]
-    for a in html.findAll(tags):
-        attr = "href" if a.name in ("a", "link") else "src"
-        href = a.attrs.get(attr)
-        if href is not None:
-            yield a, attr, href
+    def fix_href(self):
+        for a, attr, href in self.get_href("a"):
+            if href.endswith("//"):
+                a.attrs[attr] = href.rstrip("/") + "/"
+                self.is_changed = True
 
 
 def parallel_mod_html(pelican_object):
@@ -47,83 +85,16 @@ def parallel_mod_html(pelican_object):
                         for filepath in html_files)
 
 
-def set_target(html, SITEURL, DOMAIN):
-    if DOMAIN is None:
-        return False
-    ok = False
-    for a, attr, href in get_href(html, "a"):
-        if "target" not in a.attrs:
-            a_dom = urlparse(href).netloc
-            if len(a_dom) > 0 and a_dom != DOMAIN:
-                a.attrs["target"] = "_blank"
-                ok = True
-    return ok
-
-
-def move_script(html):
-    ok = False
-    head = html.find("head")
-    for script in html.select("body script"):
-        head.append(script)
-        ok = True
-    for script in html.select("body link[href]"):
-        head.append(script)
-        ok = True
-    return ok
-
-
-def rel_url(html, rel_file):
-    ok = False
-    for a, attr, href in get_href(html):
-        slp = href.split("://", 1)
-        if len(slp) == 2 and slp[0].lower() in ("http", "https"):
-            new_url = relurl(rel_file, href)
-            if new_url is not None:
-                a.attrs[attr] = new_url
-                ok = True
-    return ok
-
-
-def fix_href(html):
-    ok = False
-    for a, attr, href in get_href(html, "a"):
-        if href.endswith("//"):
-            a.attrs[attr] = href.rstrip("/") + "/"
-            ok = True
-    return ok
-
-
-def fix_img(html):
-    ok = False
-    for img in html.select("main img"):
-        t = img.attrs.get("title")
-        if t is None or len(t.strip()) == 0:
-            a = img.attrs.get("alt")
-            if a is not None and len(a.strip()) > 0:
-                img.attrs["title"] = a
-                ok = True
-    return ok
-
-
 def mod_html(pelican_object, filename):
-    rel_file = relpath(filename, pelican_object.settings['OUTPUT_PATH'])
-    SITEURL = pelican_object.settings.get('SITEURL', None)
-    DOMAIN = urlparse(SITEURL).netloc if SITEURL else None
+    mod = ModHtml(pelican_object.settings, filename)
+    mod.move_script()
+    mod.fix_href()
+    mod.set_target()
+    mod.rel_url()
 
-    with open(filename, encoding='utf-8') as f:
-        html = bs4.BeautifulSoup(f, "lxml")
-
-    ok = True in (
-        move_script(html),
-        fix_href(html),
-        set_target(html, SITEURL, DOMAIN),
-        rel_url(html, rel_file),
-        fix_img(html)
-    )
-
-    if ok:
+    if mod.is_changed:
         with open(filename, "w", encoding='utf-8') as f:
-            f.write(str(html))
+            f.write(str(mod.soup))
 
 
 def register():

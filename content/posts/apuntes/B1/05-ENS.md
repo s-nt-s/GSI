@@ -17,6 +17,9 @@ Confidencialidad, Integridad, Disponibilidad y Trazabilidad.
 deben tener una que siga los principios básicos y requisitos mínimos
 del ENS
 
+**[Guías 800 de seguridad CCN-STIC](https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html)**:
+normas, instrucciones, guías y recomendaciones para aplicar el ENS.
+
 ## [Principios básicos](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
 
 * Seguridad integral
@@ -73,3 +76,89 @@ permitiendo identificar en cada momento a la persona que actúa
 * Incidentes de seguridad: detección, reacción y registro de incidentes
 * Continuidad de la actividad: copias de seguridad y alta disponibilidad
 * Mejora continua del proceso de seguridad
+
+Las medidas a tomar para cumplir los requisitos básicos dependen de la
+categoría del sistema y las dimensiones de seguridad (ACID-T).
+
+## [Categoría de un sistema](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330##ani)
+
+La categoría de un sistema se basa en cuan grave sería un incidente que afectara
+a la seguridad de los activos en alguna dimensión ACID-T. Se busca determinar
+el equilibrio entre la importancia del activo y el esfuerzo de seguridad requerido
+(proporcionalidad entre los riesgos y las medidas de seguridad).
+
+La operativa para designar la categoría es la siguiente:
+
+1. Asignar un nivel (bajo, medio o algo) a cada dimensión de seguridad:
+    * el responsable de la información valora el nivel de los activos de información
+    * el responsable del servicio valora el nivel de los activos de servicio
+2. El responsable de sistema asigna la categoría en función del máximo nivel alcanzado:
+    * nivel alto -> categoría alta
+    * nivel medio -> categoría media
+    * nivel básico -> categoría básica
+
+|                            | BAJO            | MEDIO             | ALTO          |
+|:---------------------------|:----------------|:------------------|:--------------|
+| **Tipo de perjuicio**      | **LIMITADO**    | **GRAVE**         | **MUY GRAVE** |
+| **<abbr title="Reducción de forma apreciable de la capacidad de la organización para atender eficazmente con sus obligaciones corrientes">Red. capacidad</abbr>** | apreciable pero sin interrupción |  significativa pero sin interrupción | anulación de la capacidad |
+| **Daño en activos**        | menor           | significativo     | muy grave o irreparable |
+| **Incumplimiento de<br/>ley o regulación**   | formal subsanable | material o formal no subsanable | grave |
+| **Prejuicio al individuo** | menor reparable | significativo de difícil reparación | grabe de difícil o imposible reparación |
+
+Tabla 1: Asignación de niveles en función del tipo de perjuicio
+
+En la guiá CCN-STIC-803 se dan indicaciones más detalladas de como valorar.
+
+## [Medidas de seguridad](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii)
+
+Las medidas de seguridad se dividen en tres grupos:
+
+1. Marco organizativo [org]: medidas relacionadas con la organización global de la seguridad
+2. Marco operacional [op]: medidas para proteger la operación del sistema como conjunto integral de componentes para un fin
+3. Medidas de protección [mp]: medidas centradas en proteger activos concretos
+
+Las **medidas que se aplican siempre** son:
+
+* Marco organizativo (todas):
+    * Política de seguridad
+    * Normativa de seguridad
+    * Procedimientos de seguridad
+    * Proceso de autorización
+* Marco operacional:
+    * Planificación:
+        * Adquisición de nuevos componentes
+    * Control de acceso:
+        * Identificación
+        * Requisitos de acceso
+        * Proceso de gestión de derechos de acceso
+    * Explotación:
+        * Inventario de activos
+        * Configuración de seguridad
+        * Mantenimiento
+        * Protección frente a código dañino
+* Medidas de protección:
+    * Protección de las instalaciones e infraestructuras:
+        * Áreas separadas y con control de acceso
+        * Identificación de las personas
+        * Acondicionamiento de los locales
+        * Protección frente a incendios
+        * Registro de entrada y salida de equipamiento
+    * Gestión del personal:
+        * Deberes y obligaciones
+        * Concienciación
+        * Formación
+    * Protección de los soportes de información:
+        * Etiquetado
+        * Custodia
+        * Transporte
+    * Protección de la información:
+        * Datos de carácter personal
+        * Limpieza de documentos
+        * Copias de seguridad (backup)
+    * Protección de los servicios:
+        * Protección del correo electrónico
+
+
+# Bibliografía
+
+* PreparaTic27 - Pack1/048

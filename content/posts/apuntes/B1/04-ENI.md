@@ -984,9 +984,7 @@ reutilizables en un espacio dedicado para ese fin, preferentemente localizado en
 ## Declaración de conformidad con el Esquema Nacional de Interoperabilidad
 -->
 
----
-
-Bibliografía:
+# Bibliografía
 
 * PreparaTic27 - Pack1/045
 * PreparaTic27 - Pack1/046

@@ -369,9 +369,7 @@ número del DNI, NIE, pasaporte o equivalente.
 * cuando no tenga ningún documento de identidad se usará únicamente el
 nombre y apellidos
 
----
-
-Bibliografía:
+# Bibliografía
 
 * PreparaTic27 - Pack1/027
 * [ayudaleyprotecciondatos.es - El responsable del tratamiento de datos en el RGPD](https://ayudaleyprotecciondatos.es/2021/06/01/responsable-tratamiento-datos/#Diferencias_entre_responsable_del_tratamiento_y_encargado_del_tratamiento)

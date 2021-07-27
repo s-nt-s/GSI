@@ -115,7 +115,7 @@ tr > td:first-child {
 }
 
 h1 { font-size: 2em }
-a.abbr, a.wikipedia {
+a.abbr {
   text-decoration-line: underline;
   text-decoration-style: dotted;
   color: inherit;

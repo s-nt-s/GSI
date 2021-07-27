@@ -193,9 +193,7 @@ correspondan a procedimientos finalizados o a sus actuaciones administrativas
     * La asignación de metadatos
     * La documentación, formación, supervisión, auditoría y actualización de la PGDE
 
----
-
-Bibliografía:
+# Bibliografía
 
 * PreparaTic27 - Pack1/008
 * [interior.gob.es - Servicios al CIUDADANO](http://www.interior.gob.es/web/servicios-al-ciudadano/participacion-ciudadana/derechos-de-participacion-administrativa/solicitudes)

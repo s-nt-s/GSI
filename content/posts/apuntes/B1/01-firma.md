@@ -156,7 +156,7 @@ de su fecha de caducidad si alguna vez fueron revocados y cuando.
 
 La terminación AdES denota que es una firma electrónica avanzada.
 
-* PKCS#7 / [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr .wikipedia}: Permite diferentes tipos de objetos (data, signed-data, enveloped-data, signed-and-enveloped-data, digested-data y encrypted-data)
+* PKCS#7 / [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr}: Permite diferentes tipos de objetos (data, signed-data, enveloped-data, signed-and-enveloped-data, digested-data y encrypted-data)
 * CAdES: Permite tanto attached signature, como detached signature.
 * XMLDsig:
     * Define una sintaxis XML para soporte a la firma digital.
@@ -168,7 +168,7 @@ La terminación AdES denota que es una firma electrónica avanzada.
     * Define una estructura de contenedor para englobar: archivo, firma y sello de tiempo
     * El contenedor está basado en zip
 
-CAdES y XAdES son respectivamente versiones AdES de [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr .wikipedia} y XMLDsig.
+CAdES y XAdES son respectivamente versiones AdES de [CMS](https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax "Cryptographic Message Syntax"){.abbr} y XMLDsig.
 
 En CAdES y XAdES, según donde se guarde la firma, tenemos:
 
@@ -536,9 +536,7 @@ la nube.
 
 ![Descripción técnica de FIRe](https://administracionelectronica.gob.es/ctt/resources/Soluciones/2331/Info%20Adicional/Imagen/Arquitectura%20FIRe.jpg)
 
----
-
-Bibliografía:
+# Bibliografía
 
 * PreparaTic27 - Pack1/080
 * PreparaTic27 - Pack1/081
