@@ -80,7 +80,39 @@ permitiendo identificar en cada momento a la persona que actúa
 Las medidas a tomar para cumplir los requisitos básicos dependen de la
 categoría del sistema y las dimensiones de seguridad (ACID-T).
 
-## [Categoría de un sistema](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330##ani)
+## Ámbito del ENS
+
+La Guía CCN-STIC-830 desarrolla el ámbito de aplicación del ENS.
+
+1. Ámbito objetivo o material: hardware, software, soporte de información,
+comunicaciones, instalaciones, personal y servicios de terceros,
+que formen parte de sistemas que gestionen las competencias de entidades públicas
+y/o contribuyan a desarrollar el procedimiento administrativo.
+2. Ámbito subjetivo: el *sector público* como se detalla en la
+[Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a2) y
+la [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a2):
+    * AGE
+    * CCAA
+    * EELL
+    * Sector público institucional:
+        * organismos públicos y entidades de derecho público vinculados o dependientes de las AAPP
+        * entidades de derecho privado vinculadas o dependientes de las AAPP
+        * universidades públicas
+    * corporaciones de Derecho Público
+3. pudiendo quedar excluidos los sistemas que determinen las AAPP si estos
+no esta relacionados con:
+    * el ejercicio de derechos ni cumplimiento de
+    deberes por medios electrónicos
+    * el acceso por medios electrónicos de los
+    ciudadanos a la información y al procedimiento administrativo
+
+![Ambito subjetivo del ENS](img/ambito3940.png)
+
+Figura 1: Ámbito de aplicación subjetivo del ENS
+
+La adecuación de los sistemas al ENS se detalla en CCN-STIC-806.
+
+## [Categoría de un sistema](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#ani)
 
 La categoría de un sistema se basa en cuan grave sería un incidente que afectara
 a la seguridad de los activos en alguna dimensión ACID-T. Se busca determinar
@@ -107,7 +139,59 @@ La operativa para designar la categoría es la siguiente:
 
 Tabla 1: Asignación de niveles en función del tipo de perjuicio
 
-En la guiá CCN-STIC-803 se dan indicaciones más detalladas de como valorar.
+### Guiá CCN-STIC-803: Valoración de sistemas
+
+En la guiá CCN-STIC-803 dan indicaciones de como valorar el nivel de seguridad
+de cada dimensión. Para ello propone:
+
+1. Comenzar con la valoración de los activos de tipo **información**
+2. Valorarlos en este **orden**: confidencialidad, integridad, trazabilidad, autenticidad
+y, si fuera relevante,  disponibilidad (no suele serlo en el tipo *información*)
+3. Continuar con los activos de tipos **servicio**, concretamente la dimensión
+*disponibilidad* ya que las otras suelen venir impuestos por lo establecido en el
+punto anterior para el tipo *información*
+4. Asignar a cada dimensión el valor máximo de los activos que comprenda
+5. La categoría del sistema corresponderá al nivel máximo de todas las dimensiones
+
+#### Criterios comunes para todas las dimensiones
+
+1. Disposición legal: que exista una disposición legal o administrativa que
+condicione el nivel de la dimensión
+2. Valorar los criterios de la [Tabla 2](#tb2) haciéndose pregunta
+*¿Qué consecuencias tendría...*
+por cada dimensión (la respuesta será una de las celdas de la tabla):
+    * Confidencialidad: ...la revelación de información a personas no autorizadas?
+    * Integridad: ...la modificación de información por alguien no autorizado?
+    * Trazabilidad: ...no poder comprobar a posteriori quien ha accedido o modificado cierta información?
+    * Autenticidad: ...que la información no fuera auténtica?
+    * Disponibilidad: ...que una personas o sistema autorizado no pudiera usar
+    el servicio?
+
+| Criterio           | < | BAJO | MEDIO | ALTO |
+|:-|:-|:-|:-|:-|
+| **Perjuicio directo al ciudadano** | < | alguno | importante pero subsanable | grave de difícil o imposible reparación |
+| **Incumplimiento<br/>de una norma** | **legal/administrativa** | leve subsanable | material o formal no subsanable | material y formal grave |
+| ^ | **regulatoria** | incumplimiento | sanción significativa | sanción grave y/o perdida de licencia para operar |
+| ^ | **contractual** | formal leve | material o formal | material o formal grave |
+| ^ | **interna** | ^ | ^ | ^ |
+| **Pérdidas económicas** | < | < 4% presupuesto anual | del 4% al 10% | > 10% |
+| **Reputación (daño)** | < | moderado | significativo | grave |
+| **Protestas** | < | individuales | públicas | masivas |
+| **Delitos** | < | favorecería el delitos | favorecería significativamente o<br/>dificultaría su investigación| incitaría al delito o>es un delito en si o<br/>dificultaría enormemente su investigación |
+
+Tabla 2: Criterios comunes a información y servicios en todas las dimensiones
+
+Para todos los casos, a parte de las contestaciones de esta tabla, puede darse
+el caso de <abbr title="no aplicable">N/A</abbr>, por ejemplo, si la revelación
+de información no implica perdidas económicas ese criterio quedará marcado con
+<abbr title="no aplicable">N/A</abbr>.
+
+Adicionalmente para la dimensión *disponibilidad* se toma en como criterio el RTO:
+
+* Si RTO > 5 días: N/A
+* Si RTO <= 5 días: BAJO
+* Si RTO <= 1 día: MEDIO
+* Si RTO <= 4 horas: ALTO
 
 ## [Medidas de seguridad](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii)
 

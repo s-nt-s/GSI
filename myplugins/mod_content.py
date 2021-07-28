@@ -76,13 +76,17 @@ def mod_content(content, *args, **kargv):
                         prev.attrs["rowspan"] = prev.get("rowspan", 0) + td.get("rowspan", 1) + 1
                         td.extract()
 
-    for tr in soup.select("tbody tr"):
-        td = tr.findAll(["td", "th"])[0]
-        if td.name == "td":
-            st = td.find("strong")
-            if st and td.get_text().strip() == st.get_text().strip():
-                st.unwrap()
-                td.name = "th"
+    changed = True
+    while changed:
+        changed = False
+        for tr in soup.select("tbody tr"):
+            td = tr.find("td")
+            if td and td.name == "td":
+                st = td.find("strong")
+                if st and td.get_text().strip() == st.get_text().strip():
+                    st.unwrap()
+                    td.name = "th"
+                    changed = True
 
     for img in soup.select("img"):
         p = img.find_parent("p")

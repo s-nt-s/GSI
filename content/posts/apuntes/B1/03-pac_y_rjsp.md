@@ -8,6 +8,24 @@ title: PAC y RJSP
 * **RJSP**: Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
 * **Orden HAP/1949/2014**: regula el Punto de Acceso General de la AGE
 
+# Ámbito subjetivo
+
+El ámbito subjetivo de la [PAC](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a2) y el [RJSP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a2) es:
+
+1. El sector público:
+    * AGE
+    * CCAA
+    * EELL
+    * Sector público institucional:
+        * organismos públicos y entidades de derecho público vinculados o dependientes de las AAPP
+        * entidades de derecho privado vinculadas o dependientes de las AAPP
+        * universidades públicas
+2. (**solo en la PAC**) corporaciones de Derecho Público
+
+![Ambito subjetivo de la PAC y el RJSP](img/ambito3940.png)
+
+Figura 1: Ámbito de aplicación subjetivo de la [PAC](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a2) y el [RJSP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a2)
+
 # Relación de las personas con las AAPP
 
 1. La **comunicación electrónica** con las AAPP es obligatoria para:

@@ -27,7 +27,7 @@ r'[pP]rocedimiento [aA]dministrativo [Cc]omún'
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
 Ley 39/2015, de 1 de octubre
 
-PACAP
+r'PAC(AP)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
 Ley del Procedimiento Administrativo Común (Ley 39/2015, de 1 de octubre)
 
@@ -1016,3 +1016,11 @@ https://es.wikipedia.org/wiki/Alta_disponibilidad
 SGSI
 https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_la_seguridad_de_la_informaci%C3%B3n
 Sistema de gestión de la seguridad de la información
+
+RTO
+https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n
+Tiempo objetivo de recuperación
+
+i'Real Decreto 951/2015(, de 23 de octubre)?'
+https://www.boe.es/buscar/doc.php?id=BOE-A-2015-11881
+Modificación del ENS
