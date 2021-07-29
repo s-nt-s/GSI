@@ -49,7 +49,7 @@ for url in urls:
         slp = cod.split(" ", 1)
         if len(slp)==2:
             cod, name = slp
-        guias.add((cod, file, name))
+        guias.add((cod.upper(), file, name))
 
 def sort_keys(x):
     cod, file, name = x

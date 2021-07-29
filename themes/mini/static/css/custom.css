@@ -47,3 +47,12 @@ fieldset.nivel_conformidad_eidas > legend {
   padding-top: 16px;
   margin-bottom: 16px;
 }
+body.apuntes_b1_ens #tb3 thead th:last-child {
+  text-align: center;
+}
+body.apuntes_b1_ens #tb3 tbody th {
+  text-align: center;
+}
+body.apuntes_b1_ens tbody tr:nth-child(2n) {
+    background-color: unset;
+}

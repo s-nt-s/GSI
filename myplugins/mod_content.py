@@ -87,7 +87,14 @@ def mod_content(content, *args, **kargv):
                     st.unwrap()
                     td.name = "th"
                     changed = True
-
+    '''
+    for td in soup.findAll("td"):
+        st = td.find("strong")
+        if st and td.get_text().strip() == st.get_text().strip():
+            st.unwrap()
+            add_class(td, "strong")
+    '''
+    
     for img in soup.select("img"):
         p = img.find_parent("p")
         if p is None or len(p.get_text().strip())>0:

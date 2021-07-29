@@ -1634,23 +1634,22 @@ CCN-STIC-970
 https://www.ccn-cert.cni.es/series-ccn-stic/900-informes-tecnicos/586-ccn-stic-970-interconexion-de-sistemas-mediante-cifradores-ip-redes-publicas-c/file.html
 Interconexión de Sistemas Mediante Cifradores Ip. Redes Públicas (C)
 
-CCn-STIC-472C
+CCN-STIC-472C
 https://www.ccn-cert.cni.es/series-ccn-stic/400-guias-generales/187-ccn-stic-472c-manual-de-la-herramienta-de-analisis-de-riesgos-pilar-basic-5-2/file.html
 Manual de la Herramienta de Análisis de Riesgos PILAR BASIC 5.2
 
-CCn-STIC-480H
+CCN-STIC-480H
 https://www.ccn-cert.cni.es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/225-ccn-stic-480h-seguridad-en-sistemas-scada-establecer-una-direccion-permanente/file.html
 Seguridad en Sistemas SCADA Establecer una dirección permanente
 
-CCn-STIC-639
+CCN-STIC-639
 https://www.ccn-cert.cni.es/series-ccn-stic/600-guias-de-otros-entornos/433-ccn-stic-639-seguridad-en-base-de-datos-oracle-10g-sobre-windows-2003-server/file.html
 Seguridad en Base de Datos Oracle 10g sobre Windows 2003 Server
 
-CCn-STIC-815
+CCN-STIC-815
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/525-ccn-stic-815-indicadores-y-metricas-en-el-ens/file.html
 Indicadores y métricas en el ENS
 
-CCn-STIC-820
+CCN-STIC-820
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/528-ccn-stic-820-proteccion-contra-denegacion-de-servicio/file.html
 Protección contra Denegación de Servicio
-

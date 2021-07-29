@@ -113,6 +113,12 @@ td > p:last-child, td > p:last-child {
 tr > td:first-child {
 	white-space: nowrap;
 }
+tbody tr:hover {
+	background-color: lightyellow !important;
+}
+td.strong {
+  font-weight: bold;
+}
 
 h1 { font-size: 2em }
 a.abbr {
@@ -153,4 +159,10 @@ a.anchormark path {
 }
 .anchormark:hover > a.anchormark path {
   visibility: revert;
+}
+td.right, th.right {
+  text-align: right;
+}
+main img {
+  max-width: 100%
 }
