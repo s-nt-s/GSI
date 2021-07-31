@@ -923,7 +923,7 @@ semánticos porque una sola URI admite varios idiomas para el mismo recurso
     * Eliminar todos los acentos, diéresis y símbolos de puntuación, a excepción del guión (-)
     que puede usarse como separador de palabras
     * Eliminar conjunciones y artículos en los casos de que el concepto a representar contenga más de una palabra
-    * Evitar abreviaturas de palabras salvo que sean intuitiva
+    * Evitar abreviaturas de palabras salvo que sean intuitivas
     * Los términos que componen los URI usaran las lenguas oficiales
 
 | Ejemplo  |  URI  |
@@ -963,7 +963,7 @@ Figura 6: Diagrama de clases y conceptos para la definición de metadatos
 
 Para los **formatos de documentos** se deben usar estándares abiertos,
 y de forma complementaria, estándares que sean de uso generalizado por los
-ciudadanos, (NTI del catálogo de estándares) salvo que el formato e origen
+ciudadanos, (NTI del catálogo de estándares) salvo que el formato u origen
 desaconseje o imposibilite la transformación a estos formatos.
 
 Se debe incluir un aviso legal de **términos y de uso** que indique:

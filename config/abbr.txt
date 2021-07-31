@@ -115,6 +115,14 @@ i'Real Decreto 4/2010(, de 8 de enero)?'
 https://www.boe.es/eli/es/rd/2010/01/08/4/con
 Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica
 
+SOC
+https://es.wikipedia.org/wiki/Centro_de_operaciones_de_seguridad
+Centro de Operaciones de Seguridad
+
+CCN–CERT
+https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional_Computer_Emergency_Response_Team
+Centro Criptológico Nacional Computer Emergency Response Team
+
 CCN
 https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional
 Centro Criptológico Nacional
@@ -1056,3 +1064,45 @@ ITS Conformidad con el ENS
 i'Ley 36/2015(, de 28 de septiembre)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10389
 Ley de Seguridad Nacional.
+
+OWASP
+https://es.wikipedia.org/wiki/Open_Web_Application_Security_Project
+Open Web Application Security Project
+
+r'[lL]ey 19/2013(, de 9 de diciembre)?|LTAIBG'
+https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
+Ley de transparencia, acceso a la información pública y buen gobierno
+
+CTBG
+https://es.wikipedia.org/wiki/Consejo_de_Transparencia_y_Buen_Gobierno
+Consejo de Transparencia y Buen Gobierno
+
+UIT
+https://transparencia.gob.es/transparencia/transparencia_Home/index/MasInformacion/UIT.html
+Unidades de Información de Transparencia
+
+r'[Dd]irectiva \(?UE\)? 2019/1024'
+https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32019L1024
+Datos abiertos y la reutilización de la información del sector público
+
+OTAI
+Oficina de la Transparencia y Acceso a la Información
+
+CKAN
+https://es.wikipedia.org/wiki/CKAN
+Aplicación web de código abierto para el almacenamiento y la distribución de los datos (los gobiernos lo usan para montar sus catálogos de datos)
+
+OKF
+https://es.wikipedia.org/wiki/Open_Knowledge_Foundation
+Fundación Conocimiento Abierto
+
+r'[Tt]esauros?'
+https://es.wikipedia.org/wiki/Tesauro
+Lista de palabras o términos controlados, empleados para representar conceptos
+
+Plan de Transformación Digital de la AGE y sus OOPP
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Estrategia-TIC/Estrategia-TIC-AGE.html
+Marco estratégico para el desarrollo de la Administración Digital
+
+OOPP
+Organismos públicos
