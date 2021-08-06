@@ -66,7 +66,7 @@ Este modelo se compone de:
     * Autoridades de certificación (CA): expide, gestiona y revoca los certificados
     * Autoridad de registro (RA): Auxilia a la CA en el proceso de Verificación
     de identidad del titular que solicita un certificado a la CA.
-    * Autoridad de validación (VA): Valida el estado de los certificados mediante CLR u OCSP
+    * Autoridad de validación (VA): Valida el estado de los certificados mediante CRL u OCSP
     * [Servicio de directorio](https://es.wikipedia.org/wiki/Servicio_de_directorio): empleado por las CAs para almacenamiento y distribución de certificados y CRLs
 
 ## Certificado digital X.509 v3
