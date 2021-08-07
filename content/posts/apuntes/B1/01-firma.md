@@ -121,7 +121,7 @@ suspendido antes de vencer el periodo de validez
 
 Para comprobar este último punto hay dos tecnicas diferentes:
 
-**CLR**: Listas mantenidas por las CAs donde aparecen los número de serie
+**CRL**: Listas mantenidas por las CAs donde aparecen los número de serie
 de los certificados revocados antes de expirar y la fecha de revocación.
 Se acceden a ellas a través de repositorios HTTP o LDAP cuya ubicación
 esta indicada en la extensión CDP del certificado.
