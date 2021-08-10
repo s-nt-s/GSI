@@ -610,7 +610,7 @@ DIR3
 https://administracionelectronica.gob.es/ctt/dir3
 Directorio Común de Unidades Orgánicas y Oficinas, inventario de las unidades orgánicas / organismos públicos, sus oficinas asociadas y unidades de gestión económica-presupuestaria
 
-r'SICRES3?'
+r'SICRES\d+?'
 https://administracionelectronica.gob.es/ctt/sicres
 Normaliza el Modelo de Datos para el intercambio de asientos entre Entidades Registrales (ENI)
 
@@ -890,6 +890,12 @@ NTI Procedimientos de copiado auténtico y conversión entre documentos electró
 https://www.boe.es/buscar/act.php?id=BOE-A-2013-2380
 NTI Reutilización de recursos de la información
 
+https://www.boe.es/buscar/act.php?id=BOE-A-2011-13174
+NTI Modelo de Datos para el Intercambio de asientos entre las entidades registrales
+
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-13749
+NTI Modelo de Datos para el Intercambio de asientos entre las entidades registrales
+
 OID
 https://es.wikipedia.org/wiki/Identificador_de_objeto
 Identificador de objeto
@@ -1007,9 +1013,6 @@ DMZ
 https://es.wikipedia.org/wiki/Zona_desmilitarizada_(inform%C3%A1tica)
 Zona desmilitarizada
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13174
-NTI Modelo de Datos para el Intercambio de asientos entre las entidades registrales
-
 i'Real Decreto 3/2010(, de 8 de enero)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330
 Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica
@@ -1106,3 +1109,20 @@ Marco estratégico para el desarrollo de la Administración Digital
 
 OOPP
 Organismos públicos
+
+Catálogo de servicios de Administración digital
+https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/catalogo-servicios-admon-digital.html
+
+i'Servicios declarados como compartidos|Declaración de servicios compartidos'
+https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/Servicios-declarados-como-compartidos.html
+
+CETIC
+https://www.administracionelectronica.gob.es/pae_Home/pae_Organizacion/ambito-AGE/comision-estrategia-tic.html
+Comisión de Estrategia TIC (órgano máximo de gobernanza TIC en la AGE)
+
+Carpeta ciudadana
+https://sede.administracion.gob.es/carpeta
+
+IGAE
+https://es.wikipedia.org/wiki/Intervenci%C3%B3n_General_de_la_Administraci%C3%B3n_del_Estado
+Intervención General de la Administración del Estado

@@ -819,7 +819,8 @@ al organismo que hace la copia, no al que creo el original.
 
 ## [Modelo de Datos para el intercambio de asientos entre las Entidades Registrales](https://administracionelectronica.gob.es/pae_Home/dam/jcr:05989e7c-6f76-40c2-b07d-fe5278e905e5/2013_ENI_GuiaAplicacion_NTI_SICRES_3_0__2_edicion_NIPO_630-13-095-X.pdf)
 
-**Aprobación**: BOE-A-2011-13174
+**Aprobación**: BOE-A-2011-13174 **OJO**, se acaba de actualizar en BOE-A-2021-13749
+a SICRES4.
 
 **Objetivo**: normalizar el intercambio de asientos registrales entre distintas
 oficinas de registro (físicas y electrónicas) de documentos de entrada y salida.

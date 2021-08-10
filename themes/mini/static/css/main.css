@@ -121,9 +121,13 @@ td.strong {
 }
 
 h1 { font-size: 2em }
+abbr.nou {
+  text-decoration-line: none;
+}
 a.abbr {
   text-decoration-line: underline;
   text-decoration-style: dotted;
+  text-decoration-color: blue;
   color: inherit;
 }
 div.highlight, div.widthscroll {

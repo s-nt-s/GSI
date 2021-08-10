@@ -168,7 +168,6 @@ class CrawlXSD:
         write(self.salida+name+".md", "\n".join(MD), encoding='utf-8-sig')
 
 if __name__ == "__main__":
-    s = Web()
     xsd = CrawlXSD("content/posts/xsd/")
     web.get("https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#EXPEDIENTEELECTRONICO")
     urls = set()
