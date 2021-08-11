@@ -3,7 +3,6 @@ title: Servicios comunes
 replace:
   "☑": '<abbr class="nou comun" title="Servicio declarado como compartido">☑</abbr>'
   "☐": '<abbr class="nou nocom" title="Servicio NO declarado como compartido">☐</abbr>'
-Status: draft
 ---
 
 # Conceptos básicos
