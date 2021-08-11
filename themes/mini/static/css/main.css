@@ -100,6 +100,9 @@ td, th {
 table tbody tr:nth-child(even) {
 	background-color: #ddd;
 }
+tbody.hasRowspan tr {
+	background-color: initial !important;
+}
 td > p, th > p {
 	margin-top:7px;
 	margin-bottom:7px;
@@ -169,4 +172,7 @@ td.right, th.right {
 }
 main img {
   max-width: 100%
+}
+sup.nota {
+  cursor: help;
 }

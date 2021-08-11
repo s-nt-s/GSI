@@ -12,7 +12,7 @@ https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
 Sistema de gestión de contenidos
 
 *punto*
-https://sede.administracion.gob.es/PAG_Sede/HomeSede.html
+http://administracion.gob.es/
 Punto de Acceso General
 
 r'[oO]rden HAP/1949/2014(, de 13 de octubre)?'
@@ -386,7 +386,7 @@ Aplicación de firma electrónica
 
 Integr@
 https://administracionelectronica.gob.es/ctt/integra
-Llibrería para la integración de una aplicación con los servicios WS de @Firma
+Librería para la integración de una aplicación con los servicios WS de @Firma
 
 FIRe
 https://administracionelectronica.gob.es/ctt/fire
@@ -834,7 +834,7 @@ Componentes y Documentos Interoperables para la Contratación Electrónica
 Facturae
 Factura electrónica
 
-SCSP
+r'SCSP(v3)?'
 https://administracionelectronica.gob.es/ctt/scsp
 Sustitución de Certificados en papel
 
@@ -915,17 +915,13 @@ ONU
 https://es.wikipedia.org/wiki/Organizaci%C3%B3n_de_las_Naciones_Unidas
 Organización de las Naciones Unidas
 
-i'Plataforma de Intermediación (MINHAP|del MINHAP|del Ministerio de Hacienda y Administraciones Públicas)'
+i'Plataforma de Intermediación (MINHAP|del MINHAP|del Ministerio de Hacienda y Administraciones Públicas|de datos)'
 https://administracionelectronica.gob.es/ctt/svd
 Plataforma de Intermediación
 
 ANS
 https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio
 Acuerdo de nivel de servicio
-
-SCSP
-https://administracionelectronica.gob.es/ctt/scsp
-Sustitución de Certificados en papel
 
 WSDL
 https://es.wikipedia.org/wiki/WSDL
@@ -972,7 +968,11 @@ IDS
 https://es.wikipedia.org/wiki/Sistema_de_detecci%C3%B3n_de_intrusos
 Sistema de detección de intrusos
 
-Inside
+r'G-InSide'
+https://administracionelectronica.gob.es/ctt/inside
+Generador InSiDe
+
+r'Inside|InSiDe'
 https://administracionelectronica.gob.es/ctt/inside
 Infraestructura y Sistemas de Documentación Electrónica
 
@@ -984,7 +984,7 @@ ARCHIVE
 https://administracionelectronica.gob.es/ctt/archive
 Aplicación web de archivo definitivo de expedientes y documentos electrónicos
 
-NOTIFICA
+r'NOTIFICA|NOTIFIC@|[Nn]otific@'
 https://administracionelectronica.gob.es/ctt/notifica
 Servicio Compartido de Gestión de Notificaciones
 
@@ -1111,13 +1111,17 @@ OOPP
 Organismos públicos
 
 Catálogo de servicios de Administración digital
-https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/catalogo-servicios-admon-digital.html
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/catalogo-servicios-admon-digital.html
 
 i'Servicios declarados como compartidos|Declaración de servicios compartidos'
-https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/Servicios-declarados-como-compartidos.html
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/Servicios-declarados-como-compartidos.html
+
+CE-CETIC
+https://administracionelectronica.gob.es/pae_Home/pae_Organizacion/ambito-AGE/comision-estrategia-tic.html
+Comité Ejecutivo de la Comisión de Estrategia TIC
 
 CETIC
-https://www.administracionelectronica.gob.es/pae_Home/pae_Organizacion/ambito-AGE/comision-estrategia-tic.html
+https://administracionelectronica.gob.es/pae_Home/pae_Organizacion/ambito-AGE/comision-estrategia-tic.html
 Comisión de Estrategia TIC (órgano máximo de gobernanza TIC en la AGE)
 
 Carpeta ciudadana
@@ -1126,3 +1130,90 @@ https://sede.administracion.gob.es/carpeta
 IGAE
 https://es.wikipedia.org/wiki/Intervenci%C3%B3n_General_de_la_Administraci%C3%B3n_del_Estado
 Intervención General de la Administración del Estado
+
+CORA
+https://www.seg-social.es/wps/portal/wss/internet/HerramientasWeb/2737/
+Comisión para la Reforma de las Administraciones Públicas
+
+PUE
+https://es.wikipedia.org/wiki/Power_usage_effectiveness
+Power Ussage Efectiveness
+
+r'Tier'
+https://www.internetya.co/que-son-los-niveles-tier-de-los-data-centers-y-esto-como-afecta-mi-sitio-web/
+Metodología estandarizada que mide el tiempo de disponibilidad de un data center
+
+GEISER
+https://administracionelectronica.gob.es/ctt/geiser
+Gestión Integrada de Servicios de Registro
+
+REC
+http://administracionelectronica.gob.es/ctt/rec
+Registro Electrónico Común
+
+APODERA
+https://administracionelectronica.gob.es/ctt/rea
+Registro Electrónico de Apoderamientos
+
+Habilit@
+https://administracionelectronica.gob.es/ctt/rfh
+Registro de Funcionarios Habilitados
+
+i'(Red|Teléfono) 060'
+https://administracionelectronica.gob.es/ctt/telefono060
+Servicio de Información de la AGE
+
+FACE
+https://administracionelectronica.gob.es/ctt/face
+Punto General de Entrada de Facturas Electrónicas de la AGE
+
+PID - SVD
+https://administracionelectronica.gob.es/ctt/svd
+Servicio de Verificación y Consulta de Datos: Plataforma de Intermediación
+
+CMIS
+https://es.wikipedia.org/wiki/Content_Management_Interoperability_Services
+Servicios de Interoperabilidad de Gestión de Contenidos
+
+PAGOS
+https://administracionelectronica.gob.es/ctt/pagos
+Pasarela de pagos
+
+PLATA
+https://administracionelectronica.gob.es/ctt/plata
+Plataforma de Traducción Automática
+
+EGEO
+https://administracionelectronica.gob.es/ctt/egeo
+España en Georreferenciación
+
+ALMACÉN
+https://administracionelectronica.gob.es/ctt/almacen
+Envío y recepción de ficheros de gran tamaño
+
+RRHH
+Recursos humanos
+
+NEDAES
+https://administracionelectronica.gob.es/ctt/nedaes
+Nómina Estándar Descentralizada
+
+SIGP
+https://administracionelectronica.gob.es/ctt/sigp
+Sistema Integrado de Gestión de Personal
+
+FUNCIONA
+https://administracionelectronica.gob.es/ctt/funciona
+Portal del empleado público
+
+TRAMA
+https://administracionelectronica.gob.es/ctt/trama
+Tramitación de permisos e incidencias de la Secretaría de Estado de AAPP
+
+SOROLLA2
+https://administracionelectronica.gob.es/ctt/sorolla2/
+Sistema de apoyo a la gestión económico-presupuestaria de las entidades públicas administrativas
+
+VALIDE
+https://administracionelectronica.gob.es/ctt/valide
+Servicio de Validación de Firmas y Certificados Online

@@ -89,7 +89,8 @@ class MyReader(MarkReader):
             metadata['modified'] = to_date(fl_stat.st_mtime)
         if self.settings.get("PUBLISH_ALL") is True and not metadata.get("harddraft"):
             metadata['status'] = 'published'
-        metadata['version'] = {}
+        if 'version' not in metadata:
+            metadata['version'] = {}
         fileroot = filename.rsplit(".", 1)[0]+"."
         filebase = os.path.basename(fileroot)
         for t in ("epub", "pdf"):

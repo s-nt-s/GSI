@@ -26,11 +26,15 @@ def get_ods(url, ext):
 class Catalogo:
     def __init__(self, url="https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/catalogo-servicios-admon-digital.html"):
         self.root = url
-        self.url = get_ods(url, ".xlsx")
-        if self.url is None:
-            raise Exception("xlsx no encontrado en "+url)
-        print(self.url)
-        self.content = BytesIO(web.s.get(self.url).content)
+        self.version={}
+        for ext in ("xlsx", "pdf", "ods"):
+            url = get_ods(self.root, "."+ext)
+            if url:
+                self.version[ext.upper()] = url
+        if self.version.get("XLSX") is None:
+            raise Exception("xlsx no encontrado en "+self.root)
+        print(self.version['XLSX'])
+        self.content = BytesIO(web.s.get(self.version['XLSX']).content)
         self.book = openpyxl.load_workbook(filename=self.content)
 
     @property
@@ -146,13 +150,43 @@ class Catalogo:
         return arr
 
     def save(self, salida):
+        version = map(lambda x: '"{}":"{}"'.format(*x), self.version.items())
+        version = ", ".join(version)
         MD = [dedent('''
         ---
         title: Catálogo de servicios comunes
-        summary: "Fuente: [{curl}]({url})<br>Via: [{rurl}]({root})"
+        summary: "Fuente: [PAe - Catálogo de servicios]({root})"
+        version: {{ {version} }}
+        replace:
+          "☑": '<abbr class="nou comun" title="Servicio declarado como compartido">☑</abbr>'
+          "☐": '<abbr class="nou comun" title="Servicio NO declarado como compartido">☐</abbr>'
         ---
-        ''').format(curl=clean_url(self.url), url=self.url, rurl=clean_url(self.root), root=self.root).strip()+"\n"]
+        ''').format(root=self.root, version=version).strip()+"\n"]
+        MD.append(dedent('''
+        <script>
+            function getBloque(selector) {
+                var bloque = [];
+                document.querySelectorAll(selector).forEach(function(e) {
+                    let p=e.parentNode;
+                    bloque.push(p);
+                    while (p.nextElementSibling && p.nextElementSibling.tagName=="P" && p.nextElementSibling.querySelector("abbr.nou")==null) {
+                        p = p.nextElementSibling;
+                        bloque.push(p);
+                    }
+                });
+                return bloque;
+            }
+            function onlyComun() {
+                const hide = document.getElementById("comun").checked;
+                getBloque("abbr.nocom").forEach(function(e) {
+                    if (hide) e.setAttribute("style", "display: none;");
+                    else e.removeAttribute("style");
+                });
+            }
+        </script>
 
+        <input type="checkbox" id="comun" onclick="onlyComun(this)"/> <label for="comun">Ver solo servicios declarados como compartidos</label>
+        ''').lstrip())
         for sheet in self.sheets:
             MD.append("# "+sheet.title+"\n")
             if sheet.description:
@@ -170,9 +204,11 @@ class Catalogo:
                     urls=map(lambda x:"[{}]({})".format(clean_url(x), x), row.urls[1:])
                     row.descripcion = row.descripcion + " " + ", ".join(urls)
                 if row.comun:
-                    check = "<abbr class='nou' title='Servicio declarado como compartido'>&#9745;</abbr> "
+                    check = "<abbr class='nou comun' title='Servicio declarado como compartido'>&#9745;</abbr> "
+                    check = "☑ "
                 else:
-                    check = "<abbr class='nou' title='Servicio NO declarado como compartido'>&#9744;</abbr> "
+                    check = "<abbr class='nou nocom' title='Servicio NO declarado como compartido'>&#9744;</abbr> "
+                    check = "☐ "
                 MD.append(check+"**{nombre}**: {descripcion}\n".format(**row))
                 row.organismo = ", ".join(o.strip() for o in row.organismo.split("\n"))
                 MD.append("Ambito: {ambito} || Organismo: {organismo}\n".format(**row))
