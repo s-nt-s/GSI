@@ -34,18 +34,85 @@ def get_anchor_id(id):
         </svg></a>
     '''.format(id), "html.parser")
 
+def find_text(soup, re_text, *no_parent):
+    for n in soup.findAll(text=re_text):
+        if not any(n.find_parent(p) for p in no_parent):
+            yield n
+
+def to_txtline(node):
+    node = BeautifulSoup(str(node), 'html.parser')
+    for br in node.findAll("br"):
+        br.replaceWith("\n")
+    for p in node.findAll("p"):
+        p.append("\n")
+    txt = node.get_text()
+    txt = re_sp.sub(" ", txt).strip()
+    return txt
+
+def set_notas(soup):
+
+    def fun_sup(x):
+        o = x.group(1)
+        x = unidecode.unidecode(o)
+        return '<sup class="nota" data-nota="{0}" data-text="{1}">{0}</sup>'.format(x, o)
+
+
+    for n in find_text(soup, re.compile(r".*["+SUP+"].*"), "pre", "code"):
+        n.replaceWith(BeautifulSoup(re_sup.sub(fun_sup, n), "html.parser"))
+
+    sp_notas = list(soup.select("sup.nota"))
+    if len(sp_notas)==0:
+        return
+
+    ol_notas = None
+    h1_notas = soup.select_one("#notas")
+    if h1_notas:
+        ol_notas = h1_notas.find_next("ol")
+
+    gr_notas = {}
+    g = 0
+    sp_notas[-1].attrs["data-last"] = "true"
+    for i, nota in enumerate(sp_notas):
+        n = int(nota.attrs["data-nota"])
+        if n == 1:
+            if i>0:
+                notas[-1].attrs["data-last"] = "true"
+            g = g + 1
+        nota.attrs["data-grupo"]=g
+    for nota in soup.select("sup.nota[data-last='true']"):
+        if ol_notas:
+            ol = ol_notas
+        else:
+            ol = nota.find_next("ol")
+        gr_notas[nota.attrs["data-grupo"]]=ol
+
+    for nota in sp_notas:
+        g = int(nota.attrs["data-grupo"])
+        n = int(nota.attrs["data-nota"])
+        ol = gr_notas[g]
+        if ol is None:
+            continue
+        add_class(ol, "notas")
+        li = ol.findAll("li")
+        if len(li)<n:
+            continue
+        li = li[n-1]
+        id = "notas"+str(g)+"_"+str(n)
+        li.attrs["id"]=id
+        nota.attrs["title"]=to_txtline(li)
+        a = soup.new_tag('a', href='#'+id)
+        a.string = str(n)
+        nota.string = ""
+        nota.append(a)
+        for a in list(nota.attrs.keys()):
+            if a.startswith("data-"):
+                del nota.attrs[a]
+
 def mod_content(content, *args, **kargv):
     if isinstance(content, contents.Static):
         return
 
-
-    def fun_sup(x):
-        x = [str(SUP.index(n)) for n in x.group(1)]
-        x = "".join(x)
-        return '<sup class="nota" data-nota="{0}">{0}</sup>'.format(x)
-
-    _content = re_sup.sub(fun_sup, content._content)
-    soup = BeautifulSoup(_content, 'html.parser')
+    soup = BeautifulSoup(content._content, 'html.parser')
 
     for td in soup.findAll(['th', 'td']):
         align = td.attrs.get("align", None)
@@ -158,43 +225,13 @@ def mod_content(content, *args, **kargv):
     #mod.set_target()
     #mod.fix_href()
 
-    g = 0
-    notas = list(soup.select("sup.nota"))
-    if notas:
-        notas[-1].attrs["data-last"] = "true"
-        for i, nota in enumerate(notas):
-            n = int(nota.get_text().strip())
-            if n == 1:
-                if i>0:
-                    notas[-1].attrs["data-last"] = "true"
-                g = g + 1
-            nota.attrs["data-grupo"]=g
-        for nota in soup.select("sup.nota[data-last='true']"):
-            ol = nota.find_next("ol")
-            if ol:
-                ol.attrs["id"]="notas"+str(nota.attrs["data-grupo"])
-        for nota in notas:
-            g = nota.attrs["data-grupo"]
-            n = int(nota.get_text().strip())
-            ol = soup.select_one("ol#notas"+str(g))
-            if ol:
-                li = ol.findAll("li")
-                if len(li)>=n:
-                    li=li[n-1]
-                    id = "notas"+str(g)+"_"+str(n)
-                    li.attrs["id"]=id
-                    nota.attrs["title"]=re_sp.sub(" ", li.get_text()).strip()
-                    a = soup.new_tag('a', href='#'+id)
-                    a.string = str(n)
-                    nota.string = ""
-                    nota.append(a)
+    set_notas(soup)
 
     soup.renderContents()
     _content = soup.decode()
     for k, v in content.metadata.get('replace', {}).items():
         _content = _content.replace(k, v)
     content._content = _content
-
 
 def register():
     signals.content_object_init.connect(mod_content)

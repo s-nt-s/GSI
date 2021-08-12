@@ -129,6 +129,7 @@ class Replace:
             re.compile(r"(\[[^\[\]]*\]\([^\(\)]+\))"),
             re.compile(r"<abbr[^>]*>[^<]*</abbr>"),
             re.compile(r"<a[^>]*>[^<]*</a>"),
+            re.compile(r"[⁰¹²³⁴⁵⁶⁷⁸⁹]+"),
         ))
         for abbr in self.abbr:
             if abbr.re is None:
@@ -171,7 +172,7 @@ class Replace:
             else:
                 x = r.sub(n, x.group(0))
                 x = fake_sep.join(list(x))
-            return x
+            return fake_sep+x+fake_sep
         for key, value in self.replacements.items():
             txt = txt.replace(self.delimiter + key + self.delimiter, value)
         for re_sc in self.re_scape:

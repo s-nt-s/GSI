@@ -972,7 +972,7 @@ r'G-InSide'
 https://administracionelectronica.gob.es/ctt/inside
 Generador InSiDe
 
-r'Inside|InSiDe'
+r'Inside|InSiDe|INSIDE'
 https://administracionelectronica.gob.es/ctt/inside
 Infraestructura y Sistemas de Documentación Electrónica
 
@@ -1217,3 +1217,11 @@ Sistema de apoyo a la gestión económico-presupuestaria de las entidades públi
 VALIDE
 https://administracionelectronica.gob.es/ctt/valide
 Servicio de Validación de Firmas y Certificados Online
+
+r'[Ll]ey 24/2011(, de 1 de agosto)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2011-13239
+Contratos del sector público en los ámbitos de la defensa y de la seguridad
+
+RCP
+https://www.mptfp.gob.es/portal/funcionpublica/funcion-publica/rcp.html
+Registro Central de Personal

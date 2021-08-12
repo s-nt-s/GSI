@@ -467,28 +467,29 @@ efectuándose el acceso bien a través de la red SARA o a través de Internet.
 | GEISER   | AGE y OOPP⁴<br/>Todos los casos deben ser<br/>interoperables con el SIR | SGAD (dirección técnica, gestión y coordinación) |
 | Notific@ | AGE y OOPP⁵ | SGAD (dirección técnica y coordinación)<br/>Gestión compartida entre<br/>SGAD (Notific@, DEH y Carpeta Ciudadana)<br/>AEAT (Centro de Impresión y Ensobrado) |
 | @Firma   |           ^ | SGAD (dirección técnica, gestión y coordinación)<br/>Entidades con el modelo federado,<br/>previa aprobación de la SGAD, podrían actuar como<br/>prestadoras adicionales para otros organismos |
-| INSIDE   |           ^ | SGAD (dirección técnica y coordinación) |
+| InSiDe   |           ^ | SGAD (dirección técnica y coordinación) |
 | ARCHIVE  |           ^ | SGAD (dirección técnica y coordinación)<br/>Gestión compartida entre<br/>SGAD (punto de vista técnico)<br/>y la unidad de Gestión de Documentación del MPTFP |
 | NEDAES   | AGE y OOPP⁶ | SGAD (dirección técnica, gestión y coordinación)<br/>La SG de Organización y Procedimientos es responsable<br/>de la información obtenida del RCP |
 | SIGP     |           ^ | ^ |
-| Sorolla2 | AGE y OOPP con<br/>presupuesto limitativo⁷| IGAE |
+| SOROLLA2 | AGE y OOPP con<br/>presupuesto limitativo⁷| IGAE |
 
-1. Quedarán excluidas aquellas unidades que cumpliendo el ENS, en lo relativo al
+Previa autorización por el CE-CETIC:
+
+1. excluidas aquellas unidades que cumpliendo el ENS, en lo relativo al
 contenido de este servicio compartido, dispongan de soluciones propias ya
 operativas que proporcionen similar o superior funcionalidad que el servicio compartido,
 cuando justifiquen que la estructura de costes de su solución, los costes
 de migración a la solución compartida y los requerimientos específicos y de integración
-con su arquitectura aconsejen el mantenimiento de la solución específica,
-y sea aprobada su exclusión por el CE-CETIC
-2. Podrán quedar exceptuados por el CE-CETIC el alojamiento de las infraestructuras
+con su arquitectura aconsejen el mantenimiento de la solución específica.
+2. excluido el alojamiento de las infraestructuras
 cuyo propósito específico sean exclusivamente la Defensa Nacional y la
 Seguridad del Estado, que hayan sido contratadas en el ámbito objetivo de aplicación
-de la Ley 24/20117
-3. CE-CETIC podrá establecer excepciones para aquellas unidades que hayan realizado
+de la Ley 24/2011
+3. excluidas aquellas unidades que hayan realizado
 una gran inversión para proporcionar el servicio con probada eficiencia
 económica y tecnológica, y para las cuales la migración al servicio compartido
 resulte antieconómica
-4. El CE-CETIC podrá autorizar la excepción a aquellas unidades que dispongan de
+4. excluidas aquellas unidades que dispongan de
 soluciones de registro específicas operativas y proporcionen las funcionalidades
 equivalentes o superiores a las del servicio compartido, cuando justifiquen que
 la estructura de costes de su solución, los costes de migración a la solución
@@ -496,23 +497,25 @@ compartida y los requerimientos específicos y de integración con su arquitectu
 aconsejan el mantenimiento de la solución específica, así como cuando se
 evidencien razones de incapacidad del servicio común de implementar funcionalidades
 específicas que se identifiquen como imprescindibles para la Gestión del
-Organismo
-5. Podrán quedar excluidas aquellas unidades que dispongan de soluciones propias
+Organismo.
+En cualquier caso deberán ser interoperables con el SIR.
+5. excluidas aquellas unidades que dispongan de soluciones propias
 ya operativas que proporcionen similar o superior funcionalidad que el servicio
 compartido, cuando justifiquen que la estructura de costes de su solución, los
 costes de migración a la solución compartida y los requerimientos específicos y de
-integración con su arquitectura aconsejen el mantenimiento de la solución específica,
-y sea aprobada su exclusión por el CE-CETIC
-6. Salvo aquellas excepciones aprobadas por el CE-CETIC atendiendo exclusivamente
+integración con su arquitectura aconsejen el mantenimiento de la solución específica.
+6. excluidos organismos atendiendo exclusivamente
 a razones de incapacidad del servicio común de implementar funcionalidades
 específicas que se identifiquen como imprescindibles para la gestión de la entidad
-7. El CE-CETIC podrá autorizar la excepción a aquellos centros gestores y organismos
+7. excluidos aquellos centros gestores y organismos
 que dispongan de soluciones propias o contratadas de gestión económico-presupuestaria,
 cuando justifiquen que la estructura de costes de su solución, los costes de migración
 a la solución compartida y los requerimientos específicos y de integración con su
 arquitectura aconsejan el mantenimiento de la solución específica, así como cuando
 se evidencien razones de incapacidad del servicio común de implementar funcionalidades
 específicas que se identifiquen como imprescindibles para la gestión de la entidad.
+También se podrá utilizar una solución propia o contratada mientras el órgano
+responsable de la provisión del servicio no pueda atender a su implantación.
 
 # Bibliografía
 
