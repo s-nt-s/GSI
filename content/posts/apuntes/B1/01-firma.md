@@ -447,7 +447,7 @@ Opcionalmente, un EEMM podrá aceptar también medios de identificación
 con nivel de seguridad bajo que estén incluidos en la lista de la Comisión.
 
 Un sistema de identificación electrónica podrá ser incluido en la lista
-(a esto lo llaman **ser objeto de notificación**):
+(a esto lo llaman **ser objeto de notificación**) cuando:
 
 1. el estado miembro responsable garantiza la disponibilidad de la autenticacíon
 en linea de manera que otro EEMM pueda obtener y confirmar los datos de identificación
