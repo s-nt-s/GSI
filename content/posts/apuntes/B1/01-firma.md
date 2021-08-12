@@ -126,7 +126,7 @@ de los certificados revocados antes de expirar y la fecha de revocación.
 Se acceden a ellas a través de repositorios HTTP o LDAP cuya ubicación
 esta indicada en la extensión CDP del certificado.
 
-Para mitigar el que supone el crecimiento de la CRL se emplean los delta-CRL
+Para mitigar el problema que supone el crecimiento de la CRL se emplean los delta-CRL
 (extensión Freshest CRL) que solo contienen los certificados revocados desde
 la publicación de la última CRL de base.
 
