@@ -437,7 +437,7 @@ identificación electrónica expedidos por otros EEMM siempre que:
 1. el medio de identificación haya sido expedido por un sistema incluido
 en la **[lista publicada por la Comisión Europea](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Identidad_y_firmaelectronica/Nodo-eIDAS/Sistemas-de-identificacion-electronica-notificados.html)**
 2. el servicio en linea use un nivel de seguridad **sustancial o alto**
-3. el **nivel de seguridad** del medio de identificación igual o superior
+3. el **nivel de seguridad** del medio de identificación es igual o superior
 al requerido por el servicio en linea
 
 Este reconocimiento debe producirse a más tardar 12 meses después de que
