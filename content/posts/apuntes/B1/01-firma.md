@@ -331,7 +331,7 @@ A efectos jurídicos este tipo de firma:
 * tendrá un efecto equivalente al de una firma manuscrita
 * y si además esta basada en un certificado cualificado emitido en un estado
 miembro será reconocida como una firma electrónica cualificada
-en todos los demás Estados miembros.
+en todos los demás EEMM.
 
 **Dispositivo cualificado de creación de firma electrónica**:
 dispositivo de creación de firmas electrónicas que cumple los requisitos:
