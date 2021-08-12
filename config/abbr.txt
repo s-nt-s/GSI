@@ -112,7 +112,7 @@ https://administracionelectronica.gob.es/ctt/eni
 Esquema Nacional de Interoperabilidad (Real Decreto 4/2010, de 8 de enero)
 
 i'Real Decreto 4/2010(, de 8 de enero)?'
-https://www.boe.es/eli/es/rd/2010/01/08/4/con
+https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331
 Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica
 
 SOC
@@ -934,8 +934,9 @@ r'JOINUP|Joinup'
 https://en.wikipedia.org/wiki/Joinup
 Plataforma colaborativa de la UE, perteneciente al programa ISA
 
-Programa ISA
+r'[pP]rograma ISA²?|ISA²'
 https://datos.gob.es/es/noticia/programa-isa-colaboracion-mas-alla-de-las-fronteras-electronicas-y-los-diferentes-sectores
+Soluciones de interoperabilidad para AP europeas
 
 SEMIC.EU
 https://en.wikipedia.org/wiki/Semantic_Interoperability_Centre_Europe
@@ -953,12 +954,16 @@ NTI requisitos de conexión a la red de comunicaciones de las AP
 MPTAP
 Ministerio de Política Territorial y Administración Pública
 
-r's?TESTA(-II|-NG)?'
+r'(s|S-|s-)?TESTA(-II|-NG)?'
 https://en.wikipedia.org/wiki/Trans_European_Services_for_Telematics_between_Administrations
 Secure Trans European Services for Telematics between Administrations
 
 PAS
 Proveedor de Acceso a la Red SARA
+
+r'QoS'
+https://es.wikipedia.org/wiki/Calidad_de_servicio
+Quality of Service
 
 VPLS
 https://es.wikipedia.org/wiki/Virtual_Private_LAN_Service
@@ -1225,3 +1230,86 @@ Contratos del sector público en los ámbitos de la defensa y de la seguridad
 RCP
 https://www.mptfp.gob.es/portal/funcionpublica/funcion-publica/rcp.html
 Registro Central de Personal
+
+backbone
+https://es.wikipedia.org/wiki/Backbone
+Red troncal, es una de las principales conexiones de Internet
+
+i'Real Decreto 806/2014(, de 19 de septiembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2014-9741
+Organización e instrumentos operativos de las tecnologías de la información y las comunicaciones en AGE y sus OOPP
+
+CSC
+Centro de Servicios Comunes
+
+RIPE
+https://es.wikipedia.org/wiki/RIPE_NCC
+Centro de Coordinación de redes IP europeas, Autoridad de Registro IP para Europa
+
+IDABC
+Prestación interoperable de servicios paneuropeos de administración electrónica al sector público, las empresas y los ciudadanos
+
+Extranet
+https://es.wikipedia.org/wiki/Extranet
+Parte de la Intranet de una organización que se extiende a usuarios fuera de ella, usualmente utilizando Internet y sus protocolos
+
+SIS
+https://es.wikipedia.org/wiki/Sistema_de_informaci%C3%B3n_de_Schengen
+Sistema de información de Schengen
+
+r'EuroDomain'
+Redo troncal común usada por TESA
+
+r'EuroGates?'
+Ubicaciones específicas que sirven para entrar a EuroDomain (red troncal común usada por TESA)
+
+OLAF
+https://es.wikipedia.org/wiki/Oficina_Europea_de_Lucha_contra_el_Fraude
+Oficina anti fraude europea
+
+r'ESTAT|[Ee]urostat'
+https://es.wikipedia.org/wiki/Eurostat
+Oficina Europea de Estadística
+
+DG TRADE
+https://en.wikipedia.org/wiki/Directorate-General_for_Trade
+Directorate-General for Trade
+
+DG ENV
+https://en.wikipedia.org/wiki/Directorate-General_for_the_Environment
+Directorate-General for Environment
+
+DG HOME
+https://en.wikipedia.org/wiki/Directorate-General_for_Migration_and_Home_Affairs
+Directorate-General for Migration and Home Affairs
+
+Europol
+https://es.wikipedia.org/wiki/Europol
+Oficina Europea de Policía
+
+VIS
+https://www.aepd.es/es/internacional/supervision-de-grandes-sistemas/sistema-de-informacion-de-visados
+Sistema de intercambio de visados
+
+FADO
+https://ec.europa.eu/home-affairs/what-we-do/networks/european_migration_network/glossary_search/false-and-authentic-documents-online_en
+Documentos falsos y auténticos en línea
+
+tratado de Prüm
+https://es.wikipedia.org/wiki/Convenci%C3%B3n_de_Pr%C3%BCm
+Tratado de 2005 sobre la intensificación de la cooperación transfronteriza, particularmente en la lucha contra el terrorismo y la delincuencia
+
+r'FIU\.?NET'
+https://en.wikipedia.org/wiki/Financial_intelligence#European_Financial_Intelligence_Unit_Network
+European Financial Intelligence Unit Network
+
+r'EURODAC|Eurodac'
+https://es.wikipedia.org/wiki/Eurodac
+Dactiloscopia Europea, base de datos de huellas dactilares para identificar a los solicitantes de asilo y a los irregulares que cruzan la frontera
+
+CECIS
+Common Emergency Communication and Information System
+
+i'Real Decreto 541/2001(, de 18 de mayo)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2001-11051
+Contratación de servicios de telecomunicación

@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, Tag, NavigableString
 from pelican import contents, signals
 import re
 from .util import get_dom, get_class_dom
@@ -49,6 +49,22 @@ def to_txtline(node):
     txt = re_sp.sub(" ", txt).strip()
     return txt
 
+def find_in_bloque(ha, select=None):
+    if ha is None:
+        return []
+    if ha.name not in heads:
+        raise Exception(id+" no es un head")
+    hds = heads[:heads.index(ha.name)+1]
+    sbl = []
+    for e in ha.next_siblings:
+        if e.name in hds:
+            return sbl
+        if select is None or select == e.name:
+            sbl.append(e)
+        elif not isinstance(e, NavigableString):
+            sbl.extend(e.select(select))
+    return sbl
+
 def set_notas(soup):
 
     def fun_sup(x):
@@ -57,7 +73,10 @@ def set_notas(soup):
         return '<sup class="nota" data-nota="{0}" data-text="{1}">{0}</sup>'.format(x, o)
 
 
-    for n in find_text(soup, re.compile(r".*["+SUP+"].*"), "pre", "code"):
+    for n in find_text(soup, re.compile(r".*["+SUP+"].*"), "pre", "code", "abbr"):
+        a = n.find_parent("a")
+        if a and "abbr" in a.attrs.get("class", ""):
+            continue
         n.replaceWith(BeautifulSoup(re_sup.sub(fun_sup, n), "html.parser"))
 
     sp_notas = list(soup.select("sup.nota"))
@@ -71,14 +90,23 @@ def set_notas(soup):
 
     gr_notas = {}
     g = 0
-    sp_notas[-1].attrs["data-last"] = "true"
+    next_n = 1
     for i, nota in enumerate(sp_notas):
         n = int(nota.attrs["data-nota"])
+        if n not in (1, next_n):
+            nota.replaceWith(nota.attrs["data-text"])
+            continue
         if n == 1:
             if i>0:
                 notas[-1].attrs["data-last"] = "true"
             g = g + 1
         nota.attrs["data-grupo"]=g
+        next_n = n + 1
+
+    sp_notas = list(soup.select("sup.nota"))
+    if len(sp_notas)==0:
+        return
+    sp_notas[-1].attrs["data-last"] = "true"
     for nota in soup.select("sup.nota[data-last='true']"):
         if ol_notas:
             ol = ol_notas
@@ -226,6 +254,10 @@ def mod_content(content, *args, **kargv):
     #mod.fix_href()
 
     set_notas(soup)
+
+    for ul in find_in_bloque(soup.select_one("#bibliografia"), "ul"):
+        if ul.find_parent(["ul", "ol", "li"]) in (None, ul):
+            add_class(ul, "bibliografia")
 
     soup.renderContents()
     _content = soup.decode()

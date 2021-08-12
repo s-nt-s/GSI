@@ -711,23 +711,24 @@ La Red SARA es administrada por el MPTAP y ofrece los siguientes servicios
 (listado no exhaustivo):
 
 * Servicios de Red:
-    * Conectividad: Transporte cifrado (VPLS):
+    * Conectividad: Transporte cifrado a través de red troncal VPLS, aplicando
+    mecanismos de QoS, de cualquier tipo de tráfico, ej:
         * VoIP
         * Videoconferencia
         * Datos de aplicaciones de negocio
     * Servicios telemáticos básicos: proporcionados a través de *Áreas de Conexión*
-    instaladas en los PAS donde la Red SARA tenga presencia
+    instaladas en los PAS donde la Red SARA tenga presencia, ej:
         * DNS
         * SMTP
         * NTP (hora de España)
         * Proxy y Proxy inverso
-    * Seguridad perimetral:
+    * Seguridad perimetral: Coordinado por responsables de seguridad de la AP conectada y del CCN-CERT, ej:
         * cortafuegos
         * IDS
         * análisis de vulnerabilidades
         * correlación de logs
 * Servicios horizontales de las AP: servicios comunes promovidos directamente
-por la DGIAE del MPTAP
+por la SGAD, ej:
     * @Firma
     * SVD
     * CTT
@@ -741,10 +742,13 @@ por la DGIAE del MPTAP
     * SIA
     * ARCHIVE
 * Servicios verticales de las AP: propios de cada AP y bajo su responsabilidad
-que utilizan la Red SARA como mecanismo para su interoperabilidad.
+que utilizan la Red SARA como mecanismo para su interoperabilidad, ej:
+    * servicios verticales relacionados con Protección Civil y Emergencias (112)
+    * servicios de peticiones de becas universitarias
 
-La conexión a la Red SARA se realiza a través de un PdP, que puede ser de
-uno de los tipos siguientes:
+La conexión a la Red SARA se realiza a través de un PdP, entendido como cualquier
+sede en la que existe una conexión directa a la Red SARA, sin presencia de
+ninguna organización intermedia. Los PdP pueden ser de los tipos siguientes:
 
 * PAS: Organización en cuyas dependencias se implementa una *área de conexión*
 para sus órganos dependientes
@@ -765,14 +769,23 @@ de seguridad interno (de cara a la Red del organismo)
 * El subsistema de seguridad externos es el que establece la VPN hacia el resto
 de las sedes de la Red SARA
 * En la DMZ debería estar lo mínimo, pero el PAS puede añadir elementos que
-considere necesarios si cumple las condiciones del Centro de Soporte de la Red SARA del MPTAP
+considere necesarios si cumple las condiciones del Centro de Soporte de la Red SARA del MPTAP.
+Estos equipos conectados a la DMZ envían sus alertas al CSC.
 
 ![Esquema lógico de un Área de Conexión](img/redsaraac.png)
 
 Figura 4: Esquema lógico de un Área de Conexión
 
 Las organizaciones que se conecten a la Red Sara deben aplicar el
-Plan de Direccionamiento de la Administración establecido por la DGIAE
+Plan de Direccionamiento de la Administración establecido por la DGIAE.
+
+| Rango de direcciones IP | Entidad u Organismo |
+|:-|:-|
+| 10.252.0.0/16 |        Red SARA |
+| 10.253.0.0/16 |               ^ |
+| 10.254.0.0/16 | Cloud de la AGE |
+
+Tabla 2: Extracto del Plan de Direccionamiento de la Administración
 
 ## [Procedimientos de copiado auténtico y conversión entre documentos electrónicos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:6708c782-ee1d-4ea1-bf5d-dd44d7d55e3d/Guia_NTI_procedimientos_copiado_autentico_EPUB_2ed_2016.epub)
 
@@ -947,7 +960,7 @@ semánticos porque una sola URI admite varios idiomas para el mismo recurso
 | Representación RDF - N3 que describe<br/>una instancia de una entidad orgánica | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}/{ID}.{ext}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo/E02963104.n3` |
 | ^ | `http://{base}/recurso/{sector}[/{dominio}]/{Clase}.{ext}#{ID}`<br/>`http://datos.gob.es/recurso/sector-publico/Organismo.n3#E02963104` |
 
-Tabla 2: Ejemplos de aplicación del esquema URI
+Tabla 3: Ejemplos de aplicación del esquema URI
 
 La **descripción de la información** se hace a traves de los **metadatos**
 obligatorios mínimos usando **DCAT** y **DCMI**, pudiéndose ampliar con otros.

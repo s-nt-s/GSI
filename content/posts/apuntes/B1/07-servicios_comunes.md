@@ -454,7 +454,7 @@ actuaciones de gestión y proporcionando el avance de la situación económica d
 La IGAE proporciona servicio de hospedaje a las entidades que se adhieran al sistema SOROLLA2,
 efectuándose el acceso bien a través de la red SARA o a través de Internet.
 
-# Servicios compartidos
+# ☑ Servicios compartidos
 
 | Servicio | Ámbito | Responsable |
 |:-|:-|:-|

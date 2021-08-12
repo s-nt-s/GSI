@@ -124,12 +124,13 @@ class Replace:
         self.replacements = replacements
         self.delimiter = delimiter
         self.abbr = abbr
+        self.re_num = re.compile(r"[⁰¹²³⁴⁵⁶⁷⁸⁹]+")
         self.re_az = re.compile(r"\w")
         self.re_scape = tuple((
             re.compile(r"(\[[^\[\]]*\]\([^\(\)]+\))"),
             re.compile(r"<abbr[^>]*>[^<]*</abbr>"),
             re.compile(r"<a[^>]*>[^<]*</a>"),
-            re.compile(r"[⁰¹²³⁴⁵⁶⁷⁸⁹]+"),
+            self.re_num,
         ))
         for abbr in self.abbr:
             if abbr.re is None:
@@ -175,11 +176,14 @@ class Replace:
             return fake_sep+x+fake_sep
         for key, value in self.replacements.items():
             txt = txt.replace(self.delimiter + key + self.delimiter, value)
+        for abbr in self.abbr:
+            if self.re_num.search(abbr.text):
+                txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
         for re_sc in self.re_scape:
             txt = re_sc.sub(lambda x:fake_sub(self.re_scape, None, x), txt)
         for abbr in self.abbr:
-            #txt = abbr.re.sub(abbr.new_text, txt)
-            txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
+            if not self.re_num.search(abbr.text):
+                txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
         txt = txt.replace(fake_sep, "")
         return txt
 
