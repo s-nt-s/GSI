@@ -784,7 +784,7 @@ Data Catalog Vocabulary
 
 DCMI
 https://es.wikipedia.org/wiki/Dublin_Core
-Dublin Core
+Dublin Core Metadata Initiative
 
 W3C
 https://es.wikipedia.org/wiki/World_Wide_Web_Consortium

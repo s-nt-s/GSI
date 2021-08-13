@@ -902,8 +902,8 @@ adecuada (xml, xls, pdf...)
 `http://{base}/{carácter}[/{sector}][/{dominio}][/{concepto}][.{ext}]` o<br/>
 `http://{base}/{carácter}[/{sector}][/{dominio}][.{ext}][#{concepto}]` donde:
     * base: identifica al organismo que gestiona la URI y apunta al espacio dedicado
-    a los datos abiertos (por orden de preferencia: `www.sede.gob.es/datosabiertos` o
-    `organismo.gob.es/datosabiertos` o `organismo.gob.es`)
+    a los datos abiertos (por orden de preferencia: `www.sede.gob.es/datosabiertos` u
+    `organismo.gob.es/datosabiertos` u `organismo.gob.es`)
     * carácter: representa la naturaleza de la información identificada:
         * catalogo: catálogos de información (`http://{base}/catalogo/{dataset}`)
         * def: vocabulario u ontología, definidos mediante RDF-S y OWL (`http://{base}/def/{sector}/{dominio}/{propiedad|Clase}`, `http://datos.gob.es/def/turismo/hosteleria/horario`)
@@ -931,15 +931,15 @@ e informar de la situación usando [códigos HTTP](https://es.wikipedia.org/wiki
 `http://organismo.gob.es/es-ES/datosabiertos`). No necesario al gestionar recursos
 semánticos porque una sola URI admite varios idiomas para el mismo recurso
 * Para facilitar la reutilización y publicación de vocabularios de metadatos se usará el CISE
-* En cuanto a los caracteres usados para las URI,:
+* En cuanto a los caracteres usados para las URIs:
     * los identificadores alfanuméricos han de ser cortos únicos, representativos, intuitivos y semánticos
     * usar siempre minúsculas, salvo en los casos en los que se utilice el nombre de la clase o concepto
     (EjemploConcepto)
-    * Eliminar todos los acentos, diéresis y símbolos de puntuación, a excepción del guión (-)
+    * eliminar todos los acentos, diéresis y símbolos de puntuación, a excepción del guión (-)
     que puede usarse como separador de palabras
-    * Eliminar conjunciones y artículos en los casos de que el concepto a representar contenga más de una palabra
-    * Evitar abreviaturas de palabras salvo que sean intuitivas
-    * Los términos que componen los URI usaran las lenguas oficiales
+    * eliminar conjunciones y artículos en los casos de que el concepto a representar contenga más de una palabra
+    * evitar abreviaturas de palabras salvo que sean intuitivas
+    * los términos que componen los URIs usaran las lenguas oficiales
 
 | Ejemplo  |  URI  |
 |:-------- | :---- |
