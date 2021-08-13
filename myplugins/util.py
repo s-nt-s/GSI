@@ -1,6 +1,7 @@
 import subprocess
 import sys
 from urllib.parse import urlparse, urljoin
+import posixpath
 
 def run(*args, **kargv):
     output = subprocess.check_output(args, **kargv)
@@ -28,20 +29,21 @@ def get_class_dom(url):
     return dom
 
 
-def relurl(base, target):
-    fake_root = "http://fakeroot.com/"
-    s_base = urljoin(fake_root, base)
-    s_targ = urljoin(fake_root, target)
+def relurl(base, target, root=None):
+    if root is None:
+        root = "http://fakeroot.com/"
+    s_base = urljoin(root, base)
+    s_targ = urljoin(root, target)
     p_base = urlparse(s_base)
     p_targ = urlparse(s_targ)
-    p_root = urlparse(fake_root)
+    p_root = urlparse(root)
     if p_base.netloc != p_targ.netloc:
         return None
     if p_base.netloc != p_root.netloc:
         return None
     base_dir = '.'+posixpath.dirname(p_base.path)
     targ_pat = '.'+p_targ.path
-    relpath = posixpath.relpath(target, start=base_dir)
+    relpath = posixpath.relpath(targ_pat, start=base_dir)
     if relpath == target:
         return None
     return relpath

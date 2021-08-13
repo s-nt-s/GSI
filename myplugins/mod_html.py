@@ -15,6 +15,9 @@ class ModHtml:
         self.soup = soup
         self.is_changed = False
         self.filename = filename
+        self.siteurl = self.settings.get('SITEURL', None)
+        if self.siteurl and not self.siteurl.endswith("/"):
+            self.siteurl = self.siteurl + "/"
         if self.soup is None:
             with open(self.filename, encoding='utf-8') as f:
                 self.soup = bs4.BeautifulSoup(f, "lxml")
@@ -62,7 +65,9 @@ class ModHtml:
         for a, attr, href in self.get_href():
             slp = href.split("://", 1)
             if len(slp) == 2 and slp[0].lower() in ("http", "https"):
-                new_url = relurl(self.rel_file, href)
+                if self.siteurl:
+                    href = relurl(self.siteurl, href, root=self.siteurl) or href
+                new_url = relurl(self.rel_file, href, root=self.siteurl)
                 if new_url is not None:
                     a.attrs[attr] = new_url
                     self.is_changed = True
