@@ -322,7 +322,7 @@ consolidación, tratamiento y
 explotación de información para confeccionar un perfil general del estado
 de la ciberseguridad en las AAPP.
 
-Para ello el CNN proporciona la herramienta INES, y las guiás
+Para ello el CCN proporciona la herramienta INES, y las guiás
 CCN-STIC-815, CCN-STIC-824 y CCN-STIC-844.
 
 ## Notificación de incidentes de seguridad
@@ -352,7 +352,7 @@ encontradas para poder obtener la **Certificación de Conformidad**.
 Los sistemas de categoría *baja* solo necesitan pasar una *autoevaluación*,
 pero los sistemas de categoría *media* o *alta* deben ser auditados al menos
 cada dos años, y siempre que se haya producido una modificación sustancial en
-el sistema. Los informes de estas auditorias puedes ser requeridos por el CNN-CERT.
+el sistema. Los informes de estas auditorias puedes ser requeridos por el CCN-CERT.
 
 Para esta ITS se aplica las guías CCN-STIC-802, CCN-STIC-804 y CCN-STIC-808
 
