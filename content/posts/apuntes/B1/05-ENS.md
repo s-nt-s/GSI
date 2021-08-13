@@ -134,7 +134,7 @@ La operativa para designar la categoría es la siguiente:
 | **<abbr title="Reducción de forma apreciable de la capacidad de la organización para atender eficazmente con sus obligaciones corrientes">Red. capacidad</abbr>** | apreciable pero sin interrupción |  significativa pero sin interrupción | anulación de la capacidad |
 | **Daño en activos**        | menor           | significativo     | muy grave o irreparable |
 | **Incumplimiento de<br/>ley o regulación**   | formal subsanable | material o formal no subsanable | grave |
-| **Prejuicio al individuo** | menor reparable | significativo de difícil reparación | grabe de difícil o imposible reparación |
+| **Prejuicio al individuo** | menor reparable | significativo de difícil reparación | grave de difícil o imposible reparación |
 
 Tabla 1: Asignación de niveles en función del tipo de perjuicio
 
