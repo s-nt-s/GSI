@@ -113,17 +113,17 @@ Las condiciones básicas para la reutilización son:
 
 Las multas por incumplimiento son:
 
-* infracciones **muy graves**: multa de 50.001 a 100.000 €:
-    * desnaturalizar la información
-    * alteración muy grave de su contenido
-* infracciones **graves**: multa de 10.001 a 50.000 €:
-    * reutilizar la información para otro cometido al concedido o sin haber obtenido la licencia necesaria
-    * alteración grave del contenido
-    * incumplimiento grave de condiciones de la licencia
 * infracciones **leves**: multa de 1.000 a 10.000 €:
     * no mencionar la fuente o última fecha de actualización
     * alteración leve de la información
     * incumplimiento leve de las condiciones de la licencia
+* infracciones **graves**: multa de 10.001 a 50.000 €:
+    * reutilizar la información para otro cometido al concedido o sin haber obtenido la licencia necesaria
+    * alteración grave del contenido
+    * incumplimiento grave de condiciones de la licencia
+* infracciones **muy graves**: multa de 50.001 a 100.000 €:
+    * desnaturalizar la información
+    * alteración muy grave de su contenido
 
 ## Solicitudes de reutilización
 
