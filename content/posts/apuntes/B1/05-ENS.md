@@ -163,7 +163,7 @@ por cada dimensión (la respuesta será una de las celdas de la tabla):
     * Integridad: ...la modificación de información por alguien no autorizado?
     * Trazabilidad: ...no poder comprobar a posteriori quien ha accedido o modificado cierta información?
     * Autenticidad: ...que la información no fuera auténtica?
-    * Disponibilidad: ...que una personas o sistema autorizado no pudiera usar
+    * Disponibilidad: ...que una persona o sistema autorizado no pudiera usar
     el servicio?
 
 | Criterio           | < | BAJO | MEDIO | ALTO |
