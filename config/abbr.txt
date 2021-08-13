@@ -19,6 +19,10 @@ r'[oO]rden HAP/1949/2014(, de 13 de octubre)?'
 https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-10908
 Regula el Punto de Acceso General de la Administración General del Estado y crea su sede electrónica
 
+CCN-CERT
+https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional_Computer_Emergency_Response_Team
+Centro Criptológico Nacional Computer Emergency Response Team
+
 r'[Gg]uías? CCN-STIC'
 https://www.ccn-cert.cni.es/guias.html
 Guías CCN-STIC de Seguridad
@@ -118,10 +122,6 @@ Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electr
 SOC
 https://es.wikipedia.org/wiki/Centro_de_operaciones_de_seguridad
 Centro de Operaciones de Seguridad
-
-CCN–CERT
-https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional_Computer_Emergency_Response_Team
-Centro Criptológico Nacional Computer Emergency Response Team
 
 CCN
 https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional
@@ -720,8 +720,8 @@ XSD
 https://es.wikipedia.org/wiki/XML_Schema
 Esquema XSD: describe la estructura y las restricciones de los contenidos de los documentos XML
 
-MPTAP
-Ministerio de Política Territorial y Función Pública
+MPTFP
+Hasta 2021 fue el Ministerio de Política Territorial y Función Pública
 
 ACID-T
 https://www.ccn-cert.cni.es/publico/ens/ens/index.html#!1067
@@ -939,7 +939,7 @@ NTI Relación de modelos de datos
 
 r'JOINUP|Joinup'
 https://en.wikipedia.org/wiki/Joinup
-Plataforma colaborativa de la UE, perteneciente al programa ISA
+Plataforma colaborativa de la UE, perteneciente al programa ISA (soluciones de interoperabilidad para AP europeas)
 
 r'[pP]rograma ISA²?|ISA²'
 https://datos.gob.es/es/noticia/programa-isa-colaboracion-mas-alla-de-las-fronteras-electronicas-y-los-diferentes-sectores
@@ -1327,3 +1327,14 @@ Estado miembro
 MINHAP
 https://es.wikipedia.org/wiki/Ministerio_de_Hacienda_y_Administraciones_P%C3%BAblicas
 Hasta 2016 fue el Ministerio de Hacienda y Administraciones Públicas
+
+UE
+Unión Europea
+
+XML
+https://es.wikipedia.org/wiki/Extensible_Markup_Language
+Lenguaje de Marcado Extensible
+
+VPN
+https://es.wikipedia.org/wiki/Red_privada_virtual
+Red privada virtual

@@ -402,7 +402,7 @@ dicho ciclo en las siguientes fases:
     * Adicción de metadatos complementarios
     * Cierre formal del expediente, implica:
         1. compleción del índice y metadatos del expediente
-        2. foliado o indizado del expediente, esto puede añadir al indicie elementos
+        2. foliado o indizado del expediente, esto puede añadir al indice elementos
         como:
             * identificadores de los eDocs que componen el expediente
             * huellas digitales de los eDocs (función resumen)
@@ -484,7 +484,7 @@ Toda **política de firma electrónica** basada en certificados incluirá:
     * firmante
     * verificador
     * PSC
-    * Emisor y gestor de la política de firma
+    * emisor y gestor de la política de firma
 * Usos de la firma electrónica: Condiciones pera la aplicación de la eFirma como
 podrían ser:
     * firma de transmisión de datos, que garantiza autenticación de los
@@ -493,11 +493,11 @@ podrían ser:
     autenticidad, integridad y no repudio del contenido pero no implica
     necesariamente transmisión de datos
 * Interacción con otras políticas:
-    * Posibilidad de acogerte o basarse en una política marco en vez de
+    * posibilidad de acogerte o basarse en una política marco en vez de
     desarrollar una propia
-    * Obligación de se interoperable con la
+    * obligación de se interoperable con la
     Política Marco de Firma Electrónica basada en Certificados
-    * Las reglas de la política deben estar disponible en XML y ASN.1.
+    * las reglas de la política deben estar disponible en XML y ASN.1.
     para que las aplicaciones puedan interpretarlas
 * Gestión de la política: mantener actualizada la política
 * Archivad y custodia: definición de condiciones y responsabilidades para el archivado y custodia de las firmas electrónicas en sus diferentes aplicaciones
@@ -511,8 +511,8 @@ de algoritmos: (el perfil mínimo de formato es el [EPES]({filename}01-firma.md#
 * Reglas de creación de firma
 * Reglas de validación de firma
 
-*Nota* Concretamente los
-[formatos de firma electrónica]({filename}01-firma.md#formatos-de-firma-(hash-y-cifrado-asimétrico))
+*Nota*: Concretamente los
+[formatos de firma electrónica]({filename}01-firma.md#formatos-de-firma-(hash-y-cifrado-asimetrico))
 de contenido (el cual vendrá identificado en el metadato *Tipo de firma* como se
 indico en la NTI Documento electrónico) pueden ser:
 
@@ -551,7 +551,7 @@ la ONU como herramienta de interoperabilidad que permite la normalización y
 reutilización de los servicios de intercambio.
 
 La NTI define los roles de los agentes que participan en los intercambios intermediados
-de datos, y las condiciones relativas a los proceses de intercambio intermediado
+de datos, y las condiciones relativas a los procesos de intercambio intermediado
 a través de la plataforma de intermediación del MINHAP (también se puede aplicar
 a las de otras AP)
 
@@ -568,7 +568,7 @@ que otra pueda necesitar
 * **Emisor**: el que facilita la cesión de los datos desde un punto de vista tecnológico
     * establece las condiciones técnicas de acceso a los servicios de intercambio
     * proporciona los datos de cada consulta con garantía de integridad y confidencialidad
-    * Define el ANS
+    * define el ANS
 * **Cesionario**: cualquier organización autorizada a consultar determinados datos
 de los ciudadanos en poder de un Cedente
     * solicita información al Cedente cumpliendo sus condiciones
@@ -583,8 +583,8 @@ tecnológico
 
 Teniendo en cuenta, que en el ámbito de la norma:
 
-* Un Cedente que facilita la cesión de sus propios datos actuá a la vez como Emisor
-* Un Cesionario que realiza directamente la consulta de datos actuá a la vez como
+* un Cedente que facilita la cesión de sus propios datos actuá a la vez como Emisor
+* un Cesionario que realiza directamente la consulta de datos actuá a la vez como
 Requirente
 
 La **plataforma de intermediación del MINHAP**:
@@ -659,7 +659,7 @@ Una PGDE debe contener:
 * Proceso de **revisión** de la política para adecuarla a los cambios que surjan
 en la gestión de documentos
 
-**Actores** en un PGDE:
+Los **actores** en un PGDE son:
 
 * La alta dirección (aprueban e impulsan la PGDE)
 * Los responsables de procesos de gestión (aplican la PGDE)
@@ -718,7 +718,7 @@ La Red SARA es administrada por el MPTAP y ofrece los siguientes servicios
         * Videoconferencia
         * Datos de aplicaciones de negocio
     * Servicios telemáticos básicos: proporcionados a través de *Áreas de Conexión*
-    instaladas en los PAS donde la Red SARA tenga presencia, ej:
+    instaladas en los PAS, ej:
         * DNS
         * SMTP
         * NTP (hora de España)
@@ -767,7 +767,7 @@ la red de la AP a la Red SARA y a la Red sTESTA.
 * La estructura de la *área de conexión* tiene un esquema DMZ delimitada
 por un subsistema de seguridad externo (de cara a la Red SARA) y un subsistema
 de seguridad interno (de cara a la Red del organismo)
-* El subsistema de seguridad externos es el que establece la VPN hacia el resto
+* El subsistema de seguridad externo es el que establece la VPN hacia el resto
 de las sedes de la Red SARA
 * En la DMZ debería estar lo mínimo, pero el PAS puede añadir elementos que
 considere necesarios si cumple las condiciones del Centro de Soporte de la Red SARA del MPTAP.
@@ -777,7 +777,7 @@ Estos equipos conectados a la DMZ envían sus alertas al CSC.
 
 Figura 4: Esquema lógico de un Área de Conexión
 
-Las organizaciones que se conecten a la Red Sara deben aplicar el
+Las organizaciones que se conecten a la Red SARA deben aplicar el
 Plan de Direccionamiento de la Administración establecido por la DGIAE.
 
 | Rango de direcciones IP | Entidad u Organismo |
