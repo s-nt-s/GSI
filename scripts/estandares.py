@@ -81,8 +81,10 @@ for i, item in enumerate(items):
         if item.subcategoria:
             print("\n        * "+item.subcategoria+":", end="")
     for f in item.comun.split("<br/> "):
+        f = f.replace("ETS TR", "ETSI TR")
+        f = f.strip("() ")
         if item.estado == "En abandono":
-            f = "<del>"+f+"</del>"
+            f = "<del title='En abandono: {0}'>{0}</del>".format(f)
         if item.tipo == "Uso generalizado":
             f = "*"+f+"*"
         formatos.append(f)

@@ -17,7 +17,7 @@ El ámbito subjetivo de la [PAC](https://www.boe.es/buscar/act.php?id=BOE-A-2015
     * CCAA
     * EELL
     * Sector público institucional:
-        * organismos públicos y entidades de derecho público vinculados o dependientes de las AAPP
+        * OOPP y entidades de derecho público vinculados o dependientes de las AAPP
         * entidades de derecho privado vinculadas o dependientes de las AAPP
         * universidades públicas
 2. (**solo en la PAC**) corporaciones de Derecho Público
@@ -43,7 +43,7 @@ medio previsto en la Ley
     * Desistir de acciones
     * Renunciar a derechos
 4. Para las personas que no puedan o sepan como identificarse o
-firmar eléctricamente podrán acudir a funcionarios habilitados
+firmar eléctricamente podrán acudir a funcionarios habilitados para
 que completen la operación por ellos actuando como *herramienta*,
 no como *representante*. Las AAPP deben mantener un registro
 actualizado de los funcionarios habilitados para esta tarea.
@@ -71,7 +71,7 @@ Estas oficinas de asistencia aparecerán en un mapa de la sede electrónica.
 los dispositivos electrónicos y/o correo electrónico del interesado.
 Este aviso es siempre electrónico, con independencia de que la notificación sea
 en papel o electrónica.
-4. Si AP necesita la dirección del interesado pero la desconoce podrá obtenerla
+4. Si la AP necesita la dirección del interesado pero la desconoce podrá obtenerla
 del Padrón Municipal vía INE.
 5. La notificación electrónica puede hacerse por Sede Electrónica o por DEH
 6. La notificación se entiende **practicada** una vez que el interesado acceda
@@ -80,7 +80,7 @@ a ella o pasen 10 días naturales (en el 2º caso se entiende como **rechazada**
 8. El acto administrativo puede ser objeto de **automatización**
 (es decir, realizarse íntegramente por medios electrónicos y sin intervención
 directa de un empleado público) cuando no requiera de resolución motivada ni venga
-distado de una potestad discrecional. Para ello se debe definir:
+originado por una potestad discrecional. Para ello se debe definir:
     * Las especificaciones
     * La programación
     * El mantenimiento
@@ -99,7 +99,7 @@ Algunos de estos requisitos mínimos que debe cumplir son:
 * Comunicaciones seguras
 * Accesibilidad y estándares abiertos
 * Identificación mediante certificado reconocido de servidor web seguro
-* Permitir la realización de todas los servicios que requieran autenticación
+* Permitir la realización de todos los servicios que requieran autenticación
 electrónica de la AP o de los ciudadanos
 * Permitir al interesado consultar la tramitación de sus expedientes
 * Publicar de actos, comunicaciones y DO
@@ -132,9 +132,9 @@ Estado y Atención al Ciudadano dependiente de MINHAP)
 El *punto* se basa en 4 apartados:
 
 * información de carácter general y de orientación
-* Procedimientos y servicios (ej: *Mi vida en trámites*)
-* Participación ciudadana (ej: *Buzón de atención*, *chat*, encuestas)
-* Zonas que requieren autenticación (ej *Carpeta ciudadana*)
+* procedimientos y servicios (ej: *Mi vida en trámites*)
+* participación ciudadana (ej: *Buzón de atención*, *chat*, encuestas)
+* zonas que requieren autenticación (ej: *Carpeta ciudadana*)
 
 El *punto* utiliza dos inventarios:
 
@@ -144,7 +144,7 @@ El *punto* utiliza dos inventarios:
 información sobre todos los procedimientos administrativos y servicios dirigidos
 al ciudadano
 * Esta diseñado para permitir la administración distribuida y la actualización
-por todas las AAPP participantes mediante
+por todas las AAPP participantes
 
 **DIR3**: Directorio Común de Unidades Orgánicas y Oficinas
 
@@ -185,7 +185,7 @@ devolviendose el original al interesado
 * Cumple con la NTI de Documento Electrónico, por lo tanto incluye:
     * Un índice electrónico que garantiza la integridad del expediente
     * La firma del índice electrónico  por la AP
-    * Los metadaos del expediente electrónico (mínimo los del NIT)
+    * Los metadaos del expediente electrónico (mínimo los del NTI)
 * Cuando sea necesario mandar el expediente a terceros se enviara completo,
 foliado, autenticado y con un índice
 
@@ -205,11 +205,11 @@ correspondan a procedimientos finalizados o a sus actuaciones administrativas
 * El ENI indica que definir la PGDE es la primera medida para realizar el archivo electrónico
 * Las NTI establece pautas comunes sobre:
     * el contenido y contexto de la PGDE
-    * Los actores involucrados en la definición, aprobación e implementación del PGDE
-    * El programa de tratamiento de documentos
-    * Los proceso de gestión de documentos
-    * La asignación de metadatos
-    * La documentación, formación, supervisión, auditoría y actualización de la PGDE
+    * los actores involucrados en la definición, aprobación e implementación del PGDE
+    * el programa de tratamiento de documentos
+    * los proceso de gestión de documentos
+    * la asignación de metadatos
+    * la documentación, formación, supervisión, auditoría y actualización de la PGDE
 
 # Bibliografía
 

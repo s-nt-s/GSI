@@ -181,3 +181,6 @@ sup.nota {
 sup.nota a {
   text-decoration: none;
 }
+a.nodecorate, abbr.nodecorate {
+  text-decoration: none;
+}

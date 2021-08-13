@@ -746,6 +746,10 @@ Linked Data
 https://es.wikipedia.org/wiki/Datos_enlazados
 Datos enlazados
 
+RDFa
+https://es.wikipedia.org/wiki/RDFa
+Resource Description Framework (RDF) in Attributes
+
 RDF-S
 https://es.wikipedia.org/wiki/RDF_Schema
 Esquema RDF
@@ -1319,3 +1323,7 @@ Contratación de servicios de telecomunicación
 
 EM
 Estado miembro
+
+MINHAP
+https://es.wikipedia.org/wiki/Ministerio_de_Hacienda_y_Administraciones_P%C3%BAblicas
+Hasta 2016 fue el Ministerio de Hacienda y Administraciones Públicas

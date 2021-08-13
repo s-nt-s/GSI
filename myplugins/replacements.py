@@ -116,6 +116,16 @@ def readabbr(file):
             return (9999, abbr.index)
         return (1, abbr.index)
     r=sorted(r, key=sort_abbr)
+    r.extend([
+        DefaultMunch(
+            text="ej",
+            new_text='<abbr title="ejemplo" class="nodecorate">\\1</abbr>'
+        ),
+        DefaultMunch(
+            text="etc",
+            new_text='<abbr title="etcétera" class="nodecorate">\\1</abbr>'
+        )
+    ])
     return r
 
 
@@ -130,6 +140,7 @@ class Replace:
             re.compile(r"(\[[^\[\]]*\]\([^\(\)]+\))"),
             re.compile(r"<abbr[^>]*>[^<]*</abbr>"),
             re.compile(r"<a[^>]*>[^<]*</a>"),
+            re.compile(r"<https?://[^>]+>"),
             self.re_num,
         ))
         for abbr in self.abbr:
@@ -157,7 +168,7 @@ class Replace:
                 return re.compile(re_rule, re.IGNORECASE)
             return re.compile(re_rule)
         a, z = self.get_limits(text)
-        if len(text) > 5 and text.upper() != text:
+        if (len(text) > 5 or text in ("ej", "etc")) and text.upper() != text:
             lw = text[0].lower()
             up = text[0].upper()
             if lw != up:

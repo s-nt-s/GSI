@@ -15,7 +15,7 @@ operativos de la interoperabilidad entre las AAPP y con el ciudadano.
 interoperabilidad fueron tenidas en cuenta para la elaboración del ENI y sus NTI.
 
 **Modelo de datos**: Conjunto de definiciones (nivel conceptual),
-interrelaciones (nivel lógico), y reglas y convenciones (nivel físico)
+interrelaciones (nivel lógico) y reglas y convenciones (nivel físico)
 que permiten describir los datos para su intercambio.
 
 **PGDE**: Política de gestión de documentos electrónicos.
@@ -112,8 +112,8 @@ En la Resolución se listan los estándares del catálogo:
 
 * Accesibilidad multicanal, integrada y segura:
     * Autenticación:
-        * Firma electrónica: CAdES, CMS, ETSI TS 102 176-1, PAdES, *<del>PDF Signature</del>*, <del>PKCS#7</del>, (XAdES), XML-DSig
-        * Política Firma electrónica: ETSI TR 102 038, ETS TR 102 272
+        * Firma electrónica: CAdES, CMS, ETSI TS 102 176-1, PAdES, *<del title='En abandono: PDF Signature'>PDF Signature</del>*, <del title='En abandono: PKCS#7'>PKCS#7</del>, XAdES, XML-DSig
+        * Política Firma electrónica: ETSI TR 102 038, ETSI TR 102 272
     * Cifrado: TLS
     * Codificación:
         * Codificación de caracteres: Base16, Base32 y Base64, UCS UTF
@@ -121,8 +121,8 @@ En la Resolución se listan los estándares del catálogo:
     * Formatos ficheros:
         * Cartografía vectorial y Sistemas de Información Geográfica: GML, WFS, WMS
         * Compresión de ficheros: GZIP, ZIP
-        * Contenedores multimedia: *<del>AVI</del>*, MPEG-4, MP4 media
-        * Imagen y/o texto: [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas "Valores separados por comas"){.abbr}, HTML, CSS, JPEG, MHTML, ISO/IEC 263002006 OASIS 1.2, Strict Open XML, PDF, PDFA, PMG, *<del>RTF</del>*, SVG, TIFF, TXT
+        * Contenedores multimedia: *<del title='En abandono: AVI'>AVI</del>*, MPEG-4, MP4 media
+        * Imagen y/o texto: [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas "Valores separados por comas"){.abbr}, HTML, CSS, JPEG, MHTML, ISO/IEC 263002006 OASIS 1.2, Strict Open XML, PDF, PDFA, PMG, *<del title='En abandono: RTF'>RTF</del>*, SVG, TIFF, TXT
         * Sonido: *MP3. MPEG-1 Audio Layer 3*, OGG-Vorbis
         * Video: *MPEG-4*, *MP4 Video*, WebM
     * Gestión documental y archivística: *ISAAR CPF*, *ISAD (G)*, *ISDF*, *NEDA*, UNE-ISO 30300, UNE-ISO 30301, UNE-ISO 15489, UNE-ISO 23081
@@ -178,8 +178,9 @@ de imagen), varias firmas asociadas y varios conjuntos de metadatos vinculados a
 cada fichero individual, pero a efectos de tratamiento, gestión y conservación
 constituye un único objeto electrónico.
 
-El eDoc debe tener sentido completo y ser susceptible de identificación
-y tratamiento diferenciado, y constituya evidencia de acciones.
+La técnica usada para gestionar los ficheros que constituyen el eDoc da igual
+mientras este tenga sentido completo, sea susceptible de identificación
+y tratamiento diferenciado y deje evidencia de las acciones ejercidas sobre él.
 
 **Componentes** del eDoc:
 
@@ -190,7 +191,7 @@ susceptibles de estar en un eExpediente deben tener al menos una firma, cuyo
 tipo puede ser un CSV o una firma basada en certificados (base64).
 * Metadatos: proporciona contexto (propiedades relativas a la gestión/conservación
 de los documentos) y da caracter probatorio del eDoc en el tiempo.
-El NTI no especifica la implementación pero si sus condiciones de intercambio y
+La NTI no especifica la implementación pero si sus condiciones de intercambio y
 reproducción.
 
 **Metadato de gestión** de documentos: Información estructurada o semiestructurada
@@ -200,9 +201,9 @@ los procesos y los sistemas que los crean, gestionan, mantienen y utilizan.
 
 **Metadatos mínimos obligatorios**:
 
-* Versión NTI: http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e
+* Versión NTI: <http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e>
 * Identificador: ES_ORGNAO_AAAA_IDespecífico (ej: ES_E00010207_2010_MPR000000000000000000000010207)
-* Órgano: Código alfanumérico único para cada órgano/unidad/oficina extraído del DIR3
+* Órgano: Código alfanumérico único para cada órgano/unidad/oficina (DIR3)
 * Fecha de captura: YYYY-MM-DDTHH:MM:SS (ISO 8601)
 * Origen: 0 = Ciudadano, 1 = Administración
 * Estado de elaboración:
@@ -256,7 +257,7 @@ Salvo acuerdo excepcional entre las AAPP, la estructura
 consiste en un XML (definido por esquemas XSD) dividido en tres bloques: contenido (normalmente en base64),
 metadatos obligatorios (salvo *Valor CSV* y *Definición generación CSV* que irán
 en el bloque firma) y firma (incluye los metadatos de firma).
-Preferentemente se usar la Red Sara como medio de transmisión.
+Preferentemente se usa la Red sARA como medio de transmisión.
 Si el eDoc forma parte de un asiento registral éste será tratado como un
 documento adjunto al mensaje de datos de intercambio.
 
@@ -264,7 +265,7 @@ documento adjunto al mensaje de datos de intercambio.
 
 Figura 1: [XSD de Documento electrónico]({filename}/posts/xsd/documentoEni.md)
 
-**Acceso a eDocs** en eSedes debe mostrar:
+El **acceso a eDocs** en eSedes debe mostrar:
 
 * El contenido del documento electrónico cuando éste sea representable
 * Descripción y valor de los metadatos mínimos obligatorios
@@ -305,7 +306,7 @@ tamaño, idioma)
 **Requisitos de la imagen electrónica**:
 
 * Usar uno de los formatos del NTI de Catálogo de estandares (JPEG, PNG, TIFF, SVG, PDF o PDF/A)
-* El nivel de **resolución** mínimo para imágenes electrónicas será de
+* El nivel de **resolución** mínima para imágenes electrónicas será de
 **200 píxeles por pulgada**, tanto en blanco y negro, color o escala de grises
 * La imagen será **fiel al documento** origen (respetará la geometría del original
 en tamaños y proporciones y no contendrá caracteres o gráficos que no figurasen
@@ -361,9 +362,9 @@ con el fin de preservar la integridad y permitir su recuperación
 
 **Metadatos mínimos obligatorios**:
 
-* Versión NTI: http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e
+* Versión NTI: <http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e>
 * Identificador: ES_ORGNAO_AAAA_IDespecífico (ej: ES_E00010207_2010_MPR000000000000000000000010207)
-* Órgano: Código alfanumérico único para cada órgano/unidad/oficina extraído del DIR3
+* Órgano: Código alfanumérico único para cada órgano/unidad/oficina (DIR3)
 * Fecha Apertura Expediente: YYYY-MM-DDTHH:MM:SS (ISO 8601)
 * Clasificación: Procedimiento administrativo con el que se relaciona el expediente
 (esquema de valores normalizado según el SIA o, si no se encuentra en SIA, *Órgano_PRO_IDPROespecífico*)
