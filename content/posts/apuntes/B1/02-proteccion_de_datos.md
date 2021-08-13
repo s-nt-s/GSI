@@ -85,7 +85,7 @@ Se definen como categorías especiales de datos personales los siguientes:
 
 * Datos de origen étnico o racial
 * Datos relacionados con opiniones políticas, convicciones religiosas/filosóficas/sindicales.
-* Datos genéticos, biométricos, relativos a la salud o relativos a la vida u orientación sexual
+* Datos genéticos, biométricos, relativos a la salud o a la vida u orientación sexual
 
 Están prohibidos los tratamientos que involucren este tipo de datos salvo:
 
