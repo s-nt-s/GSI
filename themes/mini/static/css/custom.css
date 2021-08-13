@@ -56,3 +56,10 @@ body.apuntes_b1_ens #tb3 tbody th {
 body.apuntes_b1_ens tbody tr:nth-child(2n) {
     background-color: unset;
 }
+body.apuntes_b1_firma div.figgroup2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body.apuntes_b1_firma div.figgroup2 img {
+  max-height: 222px;
+}

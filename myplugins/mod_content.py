@@ -39,6 +39,10 @@ def find_text(soup, re_text, *no_parent):
         if not any(n.find_parent(p) for p in no_parent):
             yield n
 
+def myzip(arr):
+    arr = list(arr)
+    return zip(range(1, len(arr)), arr[1:], arr)
+
 def to_txtline(node):
     node = BeautifulSoup(str(node), 'html.parser')
     for br in node.findAll("br"):
@@ -64,6 +68,12 @@ def find_in_bloque(ha, select=None):
         elif not isinstance(e, NavigableString):
             sbl.extend(e.select(select))
     return sbl
+
+def real_next(n):
+    for e in n.next_siblings:
+        if isinstance(e, NavigableString) and e.strip()=="":
+            continue
+        return e
 
 def set_notas(soup):
 
@@ -258,6 +268,22 @@ def mod_content(content, *args, **kargv):
     for ul in find_in_bloque(soup.select_one("#bibliografia"), "ul"):
         if ul.find_parent(["ul", "ol", "li"]) in (None, ul):
             add_class(ul, "bibliografia")
+
+    grupos=[[]]
+    for i, fig, prev in myzip(soup.select("figure")):
+        if real_next(prev) == fig:
+            if prev not in grupos[-1]:
+                grupos[-1].append(prev)
+            grupos[-1].append(fig)
+        else:
+            grupos.append([])
+    for grupo in grupos:
+        if len(grupo)>1:
+            div = soup.new_tag('div')
+            div.attrs["class"] = 'figgroup figgroup'+str(len(grupo))
+            grupo[0].wrap(div)
+            for g in grupo[1:]:
+                div.append(g)
 
     soup.renderContents()
     _content = soup.decode()

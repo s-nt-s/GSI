@@ -247,6 +247,12 @@ y se almacena como objetos atributo-valor en ASN.1
 
 ![Arquitectura X.500](https://networkencyclopedia.com/wp-content/uploads/2019/08/x500-directory-service.jpg?ezimgfmt=ng:webp/ngcb2)
 
+Figura 1: Esquema de arquitectura X.500
+
+![Ejemplo de RDN y DN en LDAP](img/ldap.png)
+
+Figura 2: Ejemplo de RDN y DN en LDAP
+
 **LDAP** fue originalmente un protocolo alternativo para acceder
 a servicios de directorio X.500 a través de la pila de protocolos TCP/IP
 en vez de usar el modelo OSI (requisito de DAP en aquel entonces)

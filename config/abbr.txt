@@ -301,10 +301,13 @@ PEM
 https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
 Privacy Enhanced Mail
 
+RDN
+Nombre distinguido relativo (usado en LDAP y X.509)
+
 r'(notación )?DN'
 Nombre distinguido (usado en LDAP y X.509)
 
-LDAPS
+r'LDAP[Ss]'
 LDAP sobre SSL
 
 LDAP
