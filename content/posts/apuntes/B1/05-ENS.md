@@ -146,7 +146,7 @@ de cada dimensión. Para ello propone:
 1. Comenzar con la valoración de los activos de tipo **información**
 2. Valorarlos en este **orden**: confidencialidad, integridad, trazabilidad, autenticidad
 y, si fuera relevante,  disponibilidad (no suele serlo en el tipo *información*)
-3. Continuar con los activos de tipos **servicio**, concretamente la dimensión
+3. Continuar con los activos de tipo **servicio**, concretamente la dimensión
 *disponibilidad* ya que las otras suelen venir impuestos por lo establecido en el
 punto anterior para el tipo *información*
 4. Asignar a cada dimensión el valor máximo de los activos que comprenda
