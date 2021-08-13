@@ -65,8 +65,6 @@ class ModHtml:
         for a, attr, href in self.get_href():
             slp = href.split("://", 1)
             if len(slp) == 2 and slp[0].lower() in ("http", "https"):
-                if self.siteurl:
-                    href = relurl(self.siteurl, href, root=self.siteurl) or href
                 new_url = relurl(self.rel_file, href, root=self.siteurl)
                 if new_url is not None:
                     a.attrs[attr] = new_url
