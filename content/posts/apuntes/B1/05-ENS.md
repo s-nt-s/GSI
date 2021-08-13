@@ -411,8 +411,8 @@ cuyas características principales son:
 
 * Apertura geográfica y funcional
 * Ausencia de soberanía y jurisdicción por parte de los estados
-* facilidad de acceso
-* dificultad de atribución de las acciones que en ellos tiene lugar
+* Facilidad de acceso
+* Dificultad de atribución de las acciones que en ellos tiene lugar
 
 **Objetivos generales**:
 
