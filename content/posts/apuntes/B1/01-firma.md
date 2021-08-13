@@ -390,7 +390,7 @@ de confianza cualificados y al que el organismo de supervisión ha concedido la
 cualificación.
 
 **Lista de servicios de confianza TSL**: Lista de TSPs que expiden certificados
-cualificados (QTSP). Cada EEMM de la UE debe publicar y mantener su propia lista.
+cualificados (QTSP). Cada EM de la UE debe publicar y mantener su propia lista.
 Ejemplos del sector público:
 
 * CA de confianza: Ministerio del Interior DGP
@@ -449,14 +449,14 @@ al requerido por el servicio en linea
 Este reconocimiento debe producirse a más tardar 12 meses después de que
 la Comisión publique la lista.
 
-Opcionalmente, un EEMM podrá aceptar también medios de identificación
+Opcionalmente, un EM podrá aceptar también medios de identificación
 con nivel de seguridad bajo que estén incluidos en la lista de la Comisión.
 
 Un sistema de identificación electrónica podrá ser incluido en la lista
 (a esto lo llaman **ser objeto de notificación**) cuando:
 
-1. el estado miembro responsable garantiza la disponibilidad de la autenticacíon
-en linea de manera que otro EEMM pueda obtener y confirmar los datos de identificación
+1. el EM responsable garantiza la disponibilidad de la autenticacíon
+en linea de manera que otro EM pueda obtener y confirmar los datos de identificación
 de la persona autenticada por ese medio (nodos eIDAS)
 2. cumple con los requisitos de al menos uno de los **niveles de seguridad** previstos:
 
@@ -509,7 +509,7 @@ del estado de validez o revocación de los certificados
 dejando registro de dicha revocación en su base de datos y publicando el
 estado de la revocación, momento en el cual se hace efectiva
 
-El **organismo de supervisión** de cada EEMM supervisa los QTSP tanto
+El **organismo de supervisión** de cada EM supervisa los QTSP tanto
 preventivamente como cuando surge una incidencia, mientras que con los demás
 TSP solo interviene a posteriori, tras recibir información de que no se cumple
 la regulación.

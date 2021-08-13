@@ -41,7 +41,7 @@ Desde el Centro de Servicios Comunes de la Red SARA se ofrecen los servicios
 comunes y compartidos cuyo mantenimiento es competencia de la actual SGAD.
 
 A partir de 2017 se abre la puerta a que entidades privadas que den servicios de
-administración electrónica en la nube a AAPP ubicada en al menos dos CCAA puedan
+administración electrónica en la nube a AAPP ubicadas en al menos dos CCAA puedan
 establecer un PdP en la Red SARA.
 
 ### ☑ Servicio Unificado de Telecomunicaciones
@@ -222,7 +222,7 @@ en las Sedes electrónicas de las distintas Administraciones.
 
 Permite la inscripción de poderes apud-acta otorgados presencial o telemáticamente, para hacer
 constar y gestionar las representaciones que los interesados otorguen a un representante, con
-el fin de que pueda actuar en su nombre ante la AAPP.
+el fin de que pueda actuar en su nombre ante la AP.
 
 ### ☐ Habilit@
 

@@ -120,7 +120,7 @@ mantenimiento de Sedes Electrónicas. Se compone de tres partes:
 
 # Punto de acceso general electrónico
 
-En la PAC se establece el derecho a comunicarse con cualquier AAPP a través del
+En la PAC se establece el derecho a comunicarse con cualquier AP a través del
 Punto de Acceso General,
 el cual esta gestionado por AGE pero sus fuentes de información puede ser:
 
@@ -175,7 +175,7 @@ para hacer copias autenticas
 **Documentos aportados** por los interesados:
 
 * No hace falta aportar ningún documento que haya sido elaborado por cualquier
-otra AAPP
+otra AP
 * Los documentos presentados de manera presencial en papel deben ser digitalizados,
 devolviendose el original al interesado
 

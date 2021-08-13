@@ -10,7 +10,7 @@ usuarios le facilitan o recogen a través de su sitio web, formularios y/o cooki
 de los medios para permitir ejercer sus derechos a los propietarios de los datos.
 
 **RGPD**: Reglamento (UE) 2016/679 que opcionalmente puede ser completado
-por leyes orgánicas en cada EEMM, pero en caso de conflicto prima el reglamento.
+por leyes orgánicas en cada EM, pero en caso de conflicto prima el reglamento.
 
 **LOPD-GDD**: Ley orgánica 3/2018 que es una transposición del RGPD.
 
@@ -121,8 +121,8 @@ datos personales sean devueltos o transferidos a otro responsable.
 Al hacerlo, los datos personales deben ser proporcionados o transferidos
 en un formato electrónico de lectura mecánica.
 
-Los plazos de acceso, rectificación, cancelación y oposición son de un mes,
-y la solicitud se ha de poder hacer de manera telemática.
+Los plazos para responder a una petición de acceso, rectificación, cancelación
+u oposición son de un mes, y la solicitud se ha de poder hacer de manera telemática.
 
 Se permite la posibilidad de cargar una tasa frente a solicitudes de derechos
 de acceso reiterativas o excesivas.
@@ -155,7 +155,7 @@ zona de acceso público o en categorías especiales de datos.
 Adicionalmente, en el caso de datos relacionados con la protección social y la salud pública
 se necesitará una autorización previa antes de realizar operaciones de tratamiento arriesgadas.
 
-El EIPD debe contener:
+La EIPD debe contener:
 
 * Descripción de las operaciones de tratamiento previstas y los fines del tratamiento.
 * Medidas para afrontar los riesgos y mecanismos que garanticen la protección de los datos
@@ -175,7 +175,7 @@ entre EEMM no sería una transferencia internacional.
 Para facilitar las transferencias internacionales dentro de los mismos grupos
 empresariales se usan las BCR, que consisten en una solución contractual que
 vincula jurídicamente a las partes de una transferencia internacional
-para ofrecer garantías suficientes cuando dicha transferencia es hacia a un país
+para ofrecer garantías suficientes cuando dicha transferencia es hacia un país
 sin un nivel adecuado.
 
 En España se puede acer transferencias internacionales sin autorización
@@ -190,7 +190,7 @@ Es una aplicación que permite al responsable de TDP:
 de seguridad del ENS a aplicar para securizar el TDP
 * proporcionar la información necesaria de cada TDP que hay que incluir en el Registro de Actividades
 de Tratamiento exigido por el RGPD
-* Verificar el cumplimiento del resto de aspectos normativos del RGPD
+* verificar el cumplimiento del resto de aspectos normativos del RGPD
 
 Dicha aplicación consiste en el cumplimiento de cuestionarios a partir de
 los cuales se ofrece un informe y documentos que ayudan al cumplimiento del RGPD.
@@ -200,14 +200,14 @@ los cuales se ofrece un informe y documentos que ayudan al cumplimiento del RGPD
 Herramienta que mediante tres pantallas de preguntas permite valorar su
 situación con respecto al RGPD, a fin de determinar si debe realizar un análisis de riesgos.
 
-La herramienta es ostentativa y su resultado no implica necesariamente
+La herramienta es orientativa y su resultado no implica necesariamente
 el cumplimiento automático del RGPD.
 
 ## Delegado en protección de datos
 
 Una entidad tiene la obligación de designar un DPD cuando:
 
-* es una AAPP
+* es una AP
 * hace un tratamiento de datos a gran escala
 * hace tratamiento de datos de categorías especiales o relativos a condenas e
 infracciones penales.
@@ -245,7 +245,7 @@ si no hay conflicto de intereses
 
 ## Reclamaciones, denuncias y sanciones
 
-* Los interesados presentar su reclamación en la Autoridad de Control de cualquier EEMM (ventanilla única)
+* Los interesados presentar su reclamación en la Autoridad de Control de cualquier EM (ventanilla única)
 * Los organismos y asociaciones pueden denunciar en nombre del interesado (Legitimación activa)
 * El régimen económico-sancionador contempla sanciones de hasta 20 millones de €
 o el 4% de volumen de negocio total anual, aquello que tenga mayor cuantía.
@@ -339,7 +339,7 @@ Adicionalmente, si el fallecido no dejo prohibición expresa, los herederos y/o 
 podrán acceder a dichos contenidos e impartir instrucciones sobre su utilización,
 destino o supresión.
 
-Políticas de **impulso de los derechos digitales**. El gobierno en colaboración
+Políticas de **impulso de los derechos digitales**. El gobierno, en colaboración
 con las comunidades autónomas, deberá elaborar dos documentos:
 
 * **Plan de acceso a Internet**: superar brechas digitales, garantizar acceso
@@ -355,12 +355,12 @@ sobre la evolución de los derechos y las medidas necesarias para su impulso.
 Salvo oposición del interesado, las AAPP deben recavar los documentos que
 necesiten mediante la plataforma de intermediación ya que
 **es un derecho del interesado no aportar documentación**
-que ya se encuentra en posesión de alguna AAPP.
+que ya se encuentra en posesión de alguna AP.
 
-Igualmente, las AAPP tienen la potestad de verificar, usando los datos de cualquier AAPP,
+Igualmente, las AAPP tienen la potestad de verificar, usando los datos de cualquier AP,
 los datos personales aportados por el interesado.
 
-Cuando una AAPP tenga que realizar una notificación:
+Cuando una AP tenga que realizar una notificación:
 
 * por medio de publicaciones, se identificara a las personas mediante su nombre, apellidos y cuatro cifras
 numéricas aleatorias del DNI, NIE, pasaporte o equivalente.
