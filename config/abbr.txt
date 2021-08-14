@@ -371,9 +371,25 @@ Lista de confianza de prestadores cualificados de servicios electrónicos de con
 EEMM
 Estados miembros
 
+r'Cl@ve [fF]irma'
+https://clave.gob.es/clave_Home/dnin/queEs.html
+Permite realizar firma electrónica mediante certificados electrónicos centralizados (almacenados y custodiados por la AP)
+
+r'Cl@ve [pP]ermanente'
+https://clave.gob.es/clave_Home/Clave-Permanente/queEs.html
+Acceso mediante usuario y contraseña, reforzado con claves de un solo uso por SMS (permite firma en nube)
+
+Cl@ve PIN
+https://clave.gob.es/clave_Home/PIN24H/Que-es.html
+Sistema de clave de un solo uso recibida por SMS
+
 Cl@ve
 https://clave.gob.es/clave_Home/clave/queEs.html
 Sistema orientado a unificar y simplificar el acceso electrónico de los ciudadanos a los servicios públicos
+
+r'[cC]liente @[Ff]irma'
+https://administracionelectronica.gob.es/ctt/clienteafirma
+Herramienta de firma electrónica en entornos de escritorio y dispositivos móviles
 
 r'@[Ff]irma'
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Servicios_Comunes_Firma_Electronica/FAQ-AFIRMA.html
@@ -587,7 +603,7 @@ r'NTIs?'
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html
 Normas técnicas de Interoperabilidad (pertenece al ENI)
 
-i'Apud Acta'
+i'Apud[\s\-]+Acta'
 https://sedejudicial.justicia.es/-/apoderamiento-apud-acta
 Apoderamiento realizado ante Letrado de la Administración de Justicia
 
@@ -980,11 +996,11 @@ IDS
 https://es.wikipedia.org/wiki/Sistema_de_detecci%C3%B3n_de_intrusos
 Sistema de detección de intrusos
 
-r'G-InSide'
+i'G-InSide'
 https://administracionelectronica.gob.es/ctt/inside
 Generador InSiDe
 
-r'Inside|InSiDe|INSIDE'
+r'Inside|InSiDe|INSIDE|InSide'
 https://administracionelectronica.gob.es/ctt/inside
 Infraestructura y Sistemas de Documentación Electrónica
 
@@ -1136,8 +1152,9 @@ CETIC
 https://administracionelectronica.gob.es/pae_Home/pae_Organizacion/ambito-AGE/comision-estrategia-tic.html
 Comisión de Estrategia TIC (órgano máximo de gobernanza TIC en la AGE)
 
-Carpeta ciudadana
-https://sede.administracion.gob.es/carpeta
+i'Carpeta ciudadana'
+https://administracionelectronica.gob.es/ctt/ccd
+Permite al ciudadano conocer sus expedientes, asientos registrales y datos en poder de la administración
 
 IGAE
 https://es.wikipedia.org/wiki/Intervenci%C3%B3n_General_de_la_Administraci%C3%B3n_del_Estado
@@ -1338,3 +1355,30 @@ Lenguaje de Marcado Extensible
 VPN
 https://es.wikipedia.org/wiki/Red_privada_virtual
 Red privada virtual
+
+r'DDoS'
+https://es.wikipedia.org/wiki/Ataque_de_denegaci%C3%B3n_de_servicio
+Ataque de denegación de servicio distribuido
+
+r'PaaS'
+https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Plataforma_como_servicio_(PaaS)
+Plataforma como servicio
+
+r'IaaS'
+https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Infraestructura_como_servicio_(IaaS)
+Infraestructura como servicio
+
+r'SaaS'
+https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Software_como_servicio_(SaaS)
+Software como servicio
+
+r'AutenticA|AUTENTICA'
+https://administracionelectronica.gob.es/ctt/autentica
+Servicio de autenticación, Single Sign On y autorización para acceder a aplicaciones internas de las AAPP
+
+Apertium
+https://es.wikipedia.org/wiki/Apertium
+Sistema de traducción automática (financiado conjuntamente por el gobierno español y la Generalidad de Cataluña en la Universidad de Alicante)
+
+OOAA
+Organismos autónomos

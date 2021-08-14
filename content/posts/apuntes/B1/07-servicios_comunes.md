@@ -44,7 +44,7 @@ A partir de 2017 se abre la puerta a que entidades privadas que den servicios de
 administración electrónica en la nube a AAPP ubicadas en al menos dos CCAA puedan
 establecer un PdP en la Red SARA.
 
-### ☑ Servicio Unificado de Telecomunicaciones
+### ☑ [Servicio Unificado de Telecomunicaciones](https://administracionelectronica.gob.es/ctt/comunicaciones){.abbr}
 
 Red corporativa única, común y que dé servicio a todo el Sector Público Administrativo Estatal. El servicio
 se diseñó en torno a cuatro áreas que constituyeron los cuatro lotes de su licitación:
@@ -60,7 +60,7 @@ nombres de dominio (DNS).
 telefonía IP, cifrado de comunicaciones entre determinadas sedes, comunicaciones satelitales de
 emergencia de voz y datos.
 
-### ☑ Servicio de seguridad gestionada
+### ☑ [Servicio de seguridad gestionada](https://administracionelectronica.gob.es/ctt/ciberseguridad){.abbr}
 
 Incluye equipamiento necesario, su configuración, puesta en marcha, mantenimiento
 y gestión.
@@ -102,7 +102,7 @@ Está en fase de implementación.
 
 Plataforma común para la identificación, autenticación y firma electrónica mediante
 el uso de claves concertadas (ej: usuario y contraseña) y de certificados
-electrónicos centralizados (ej: DNI-e).
+electrónicos centralizados (ej: DNIe).
 
 Permite que las aplicaciones puedan definir el nivel de aseguramiento de
 autenticación que desean y que el ciudadano usuario escoja entre los métodos
@@ -119,7 +119,7 @@ de un solo uso por SMS. Este sistema permite acceso a la firma en la nube.
 Plataforma común para la firma criptográfica utilizando certificados
 centralizados.
 
-### ☑ @firma
+### ☑ @Firma
 
 Plataforma de validación y firma electrónica multi-PKI. Permite la validación de
 certificados y firmas electrónicas, desacoplado de las aplicaciones.
@@ -128,7 +128,7 @@ Sirve para comprobar que el certificado utilizado por el ciudadano es un certifi
 válido y que no ha sido revocado y que por tanto sigue teniendo plena validez para
 identificar a su propietario.
 
-Funciona con todos los certificados electrónicos cualificados (incluido el DNI-e).
+Funciona con todos los certificados electrónicos cualificados (incluido el DNIe).
 
 Para facilitar la integración con el servicio se proporcionan la librería Integr@,
 que también permiten firma en servidor.
@@ -159,17 +159,17 @@ Herramienta de Firma Electrónica en entornos de usuario, se ejecuta en cliente,
 para evitar que la clave privada asociada a un certificado tenga que salir del
 contenedor del usuario (tarjeta, usbtoken o navegador) ubicado en su PC.
 
-### ☐ Autentica
+### ☐ AutenticA
 
 Ofrece servicios de autenticación, autorización y Single Sign On, de empleados
 públicos en el acceso a aplicaciones internas de las AAPP.
 
-### ☐ eIDAS
+### ☐ [eIDAS](https://administracionelectronica.gob.es/ctt/eIDAS){.abbr}
 
 Proyecto europeo para el reconocimiento paneuropeo de las identidades electrónicas.
 De este modo, los servicios de administración electrónica españoles pueden aceptar
 identidades provinientes de otros EEMM y a su vez los servicios de otros países
-puedan reconocer el DNI electrónico.
+puedan reconocer el DNIe.
 
 ## Registro o representación del ciudadano ante las AAPP
 
@@ -226,7 +226,7 @@ el fin de que pueda actuar en su nombre ante la AP.
 
 ### ☐ Habilit@
 
-Permite recoger a los funcionarios que se habiliten por parte de la Administración para actuar en
+Permite registrar a los funcionarios que se habiliten por parte de la Administración para actuar en
 nombre de los ciudadanos que deseen actuar en procedimientos electrónicos de la AGE y que no
 dispongan de firma electrónica.
 
@@ -311,7 +311,7 @@ La entrega se puede realizar por varias vías en función de las condiciones
 establecidas por el destinatario:
 
 * comparecencia electrónica en la Carpeta Ciudadana
-* comparecencia en la Dirección Electrónica Habilitada (DEH) y/o en la sede electrónica del organismo emisor
+* comparecencia en la DEH y/o en la sede electrónica del organismo emisor
 * en soporte papel
 
 ### ☐ [Plataforma de Mensajería](https://administracionelectronica.gob.es/ctt/sim){.abbr} (SIM)
@@ -376,7 +376,7 @@ cooficiales y a inglés, francés o portugués a partir de textos en castellano.
 Permite la creación de mapas interactivos para su presentación en portales web, cuadros de
 mando y otras aplicaciones sin necesidad de conocimientos de georreferenciación ni desarrollos
 adicionales. Dispone de un entorno para la gestión de dichos mapas basado en
-parametrización y plantillas de datos con estructura simple (Excel, CSV o XML).
+parametrización y plantillas de datos con estructura simple (Excel, csv o XML).
 
 ## Comunicación y mensajería
 

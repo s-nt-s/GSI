@@ -159,7 +159,7 @@ class Catalogo:
         version: {{ {version} }}
         replace:
           "☑": '<abbr class="nou comun" title="Servicio declarado como compartido">☑</abbr>'
-          "☐": '<abbr class="nou comun" title="Servicio NO declarado como compartido">☐</abbr>'
+          "☐": '<abbr class="nou nocom" title="Servicio NO declarado como compartido">☐</abbr>'
         ---
         ''').format(root=self.root, version=version).strip()+"\n"]
         MD.append(dedent('''

@@ -4,7 +4,7 @@ summary: "Fuente: [PAe - Catálogo de servicios](https://www.administracionelect
 version: { "XLSX":"https://www.administracionelectronica.gob.es/pae_Home/dam/jcr:615a99ea-33ef-42e8-bdee-6b17acec6a11/Soluciones-SGAD-2018.xlsx", "PDF":"https://www.administracionelectronica.gob.es/pae_Home/dam/jcr:736d93af-5aef-457c-bad8-f5496ffa1734/Catalogo-servicios-administracion-digital-version-2018.pdf", "ODS":"https://www.administracionelectronica.gob.es/pae_Home/dam/jcr:7a978076-50de-4e2b-b8e1-742691d6f510/Soluciones-SGAD-2018.ods" }
 replace:
   "☑": '<abbr class="nou comun" title="Servicio declarado como compartido">☑</abbr>'
-  "☐": '<abbr class="nou comun" title="Servicio NO declarado como compartido">☐</abbr>'
+  "☐": '<abbr class="nou nocom" title="Servicio NO declarado como compartido">☐</abbr>'
 ---
 
 <script>
