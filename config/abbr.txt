@@ -7,6 +7,10 @@ r'[Ll]ey 37/2007(, de 16 de noviembre)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814
 Ley sobre reutilización de la información del sector público
 
+r'[Ll]ey 34/2002(, de 11 de julio)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758
+Servicios de la sociedad de la información y de comercio electrónico
+
 CMS
 https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
 Sistema de gestión de contenidos
