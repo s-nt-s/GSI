@@ -44,6 +44,12 @@ def relurl(base, target, root=None):
     base_dir = '.'+posixpath.dirname(p_base.path)
     targ_pat = '.'+p_targ.path
     relpath = posixpath.relpath(targ_pat, start=base_dir)
+    if p_targ.params:
+        relpath = relpath+';'+p_targ.params
+    if p_targ.query:
+        relpath = relpath+'?'+p_targ.query
+    if p_targ.fragment:
+        relpath = relpath+'#'+p_targ.fragment
     if relpath == target:
         return None
     return relpath
