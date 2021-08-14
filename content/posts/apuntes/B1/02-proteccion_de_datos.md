@@ -12,7 +12,7 @@ de los medios para permitir ejercer sus derechos a los propietarios de los datos
 **RGPD**: Reglamento (UE) 2016/679 que opcionalmente puede ser completado
 por leyes orgánicas en cada EM, pero en caso de conflicto prima el reglamento.
 
-**LOPD-GDD**: Ley orgánica 3/2018 que es una transposición del RGPD.
+**LOPD-GDD**: Ley Orgánica 3/2018 que es una transposición del RGPD.
 
 **AEPD**: Organismo que supervisa la aplicación de la RGPD y LOPD-GDD, a
 excepción de los apartados sobre derechos en la Era digital.

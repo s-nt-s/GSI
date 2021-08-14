@@ -63,10 +63,6 @@ r'[Dd]ecisión de [eE]jecución \(?UE\)? 2015/1506|Decision 1506'
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv%3AOJ.L_.2015.235.01.0037.01.SPA
 Formatos de firmas electrónicas avanzadas y sellos avanzados que deben reconocer el sector público
 
-r'[Ll]ey 19/2013(, de 9 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
-Ley de Transparencia
-
 r'[Ll]ey [Oo]rgánica 3/2007(, de 22 de marzo)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115
 Igualdad de entre mujeres y hombres
@@ -87,11 +83,7 @@ r'[sS]ello( electrónica)? de tiempo( electrónico)?'
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo
 Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.
 
-Sello electrónico
-https://dpej.rae.es/lema/sello-electr%C3%B3nico
-Datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.
-
-r'eSello'
+r'eSello|[sS]ello electrónico'
 https://dpej.rae.es/lema/sello-electr%C3%B3nico
 Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.
 
@@ -415,10 +407,6 @@ FIRe
 https://administracionelectronica.gob.es/ctt/fire
 Solución que simplifica el uso y realización de firmas electrónicas de usuario
 
-VALIDe
-https://administracionelectronica.gob.es/ctt/valide
-Servicio de Validación de Firmas y Certificados Online
-
 Resolución de 14 de julio de 2017
 https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-8393
 Condiciones de uso de firma electrónica no criptográfica (SGAD)
@@ -532,8 +520,44 @@ r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
 https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
 Reglamento General de Protección de Datos (RGPD)
 
-Ley orgánica 3/2018
-https://www.boe.es/buscar/doc.php?id=BOE-A-2018-16673
+r'Ley Orgánica 15/1999(, de 13 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750
+Derogada: Protección de Datos de Carácter Personal
+
+r'Ley 59/2003(, de 19 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399
+Derogada: Firma electrónica
+
+r'Real Decreto 513/2017(, de 22 de mayo)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606
+Reglamento de instalaciones de protección contra incendios
+
+r'Ley 56/2007(, de 28 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2007-22440
+Medidas de Impulso de la Sociedad de la Información
+
+r'Ley 25/2007(, de 18 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2007-18243
+Conservación de datos relativos a las comunicaciones electrónicas y a las redes públicas de comunicaciones
+
+r'Ley 28/2006(, de 18 de julio)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2006-13011
+Derogada: Agencias estatales para la mejora de los servicios públicos
+
+r'Ley 32/2003(, de 3 de noviembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2003-20253
+Derogada: General de Telecomunicaciones
+
+r'Real Decreto 1553/2005(, de 23 de diciembre)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-2005-21163
+Expedición del documento nacional de identidad y sus certificados de firma electrónica
+
+r'Real Decreto 428/1993(, de 26 de marzo)?'
+https://www.boe.es/buscar/act.php?id=BOE-A-1993-11252
+Derogada: Estatuto de la Agencia de Protección de Datos
+
+Ley Orgánica 3/2018
+https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673
 Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD)
 
 transposición
@@ -723,14 +747,14 @@ Estandar ISO para representación de fechas y horas (ej: YYYY-MM-DDTHH:MM:SS)
 
 r'Ley 11/2007(, de 22 de junio)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2007-12352
-Acceso electrónico de los ciudadanos a los Servicios Públicos (derogada)
+Derogada: Acceso electrónico de los ciudadanos a los Servicios Públicos
 
 PDF/A
 https://es.wikipedia.org/wiki/PDF/A
 Subconjunto de PDF obtenido excluyendo aquellas características superfluas para el archivado a largo plazo
 
 r'[rR]eal [Dd]ecreto 1164/2002(,de 8 de noviembre)?'
-https://www.boe.es/buscar/doc.php?id=BOE-A-2002-22192
+https://www.boe.es/buscar/act.php?id=BOE-A-2002-22192
 Regula la conservación del patrimonio documental con valor histórico, el control de la eliminación de otros documentos y la conservación de documentos administrativos en soporte distinto al original
 
 eFirma
@@ -899,7 +923,7 @@ NTI de Catálogo de estándares
 https://www.boe.es/buscar/act.php?id=BOE-A-2011-13169
 NTI Documento Electrónico
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501
+https://www.boe.es/buscar/act.php?id=BOE-A-2011-13168
 NTI Digitalización de Documentos
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2011-13170
@@ -1072,7 +1096,7 @@ ITS
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/Instrucciones-Tecnicas.html
 Instrucciones Técnicas de Seguridad
 
-Real Decreto 1720/2007, de 21 de diciembre
+r'Real Decreto 1720/2007(, de 21 de diciembre)?'
 https://www.boe.es/buscar/act.php?id=BOE-A-2008-979
 Protección de datos de carácter personal
 
@@ -1247,7 +1271,7 @@ SOROLLA2
 https://administracionelectronica.gob.es/ctt/sorolla2/
 Sistema de apoyo a la gestión económico-presupuestaria de las entidades públicas administrativas
 
-VALIDE
+r'VALIDE|VALIDe'
 https://administracionelectronica.gob.es/ctt/valide
 Servicio de Validación de Firmas y Certificados Online
 

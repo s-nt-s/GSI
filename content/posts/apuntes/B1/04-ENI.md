@@ -284,7 +284,7 @@ Tabla 1: Información básica de firma
 
 ## [Digitalización de documentos](https://administracionelectronica.gob.es/pae_Home/dam/jcr:2650cc88-b8d7-4e21-9bfd-b291b51ff290/Guia_NTI_digitalizacion_EPUB_2ed_2016.epub)
 
-**Aprobación**: BOE-A-2012-13501
+**Aprobación**: BOE-A-2011-13168
 
 **Objetivo**: establecer los requisitos mínimos a cumplir en la digitalización de
 documentos no electrónicos (ej: papel) a través de medios fotoeléctricos.

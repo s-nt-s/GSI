@@ -285,6 +285,11 @@ def mod_content(content, *args, **kargv):
             for g in grupo[1:]:
                 div.append(g)
 
+    for a in soup.select("a[title]"):
+        title = a.attrs.get("title")
+        if title and "derogada" in title.lower():
+            add_class(a, "derogada")
+
     soup.renderContents()
     _content = soup.decode()
     for k, v in content.metadata.get('replace', {}).items():

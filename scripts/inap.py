@@ -3,6 +3,7 @@ from textwrap import dedent
 from time import sleep
 
 from munch import Munch
+from unidecode import unidecode
 
 from .core.util import clean_url, read, url_key, write
 from .core.web import FF, Web
@@ -10,7 +11,27 @@ from .core.web import FF, Web
 re_sp = re.compile(r"\s+")
 re_test = re.compile(r"\bTest\b", re.IGNORECASE)
 re_tema = re.compile(r"^\s*Tema\s+\d+\..+")
+re_ley = re.compile(r"(Reglamento \(?UE\)?|Ley Org[aá]nica|Real Decreto|RD|Ley|Decreto|Reglamento|LO) (\d+/\d+)", re.IGNORECASE)
 
+def parse_ley(pre, num):
+    ori = str(pre)
+    pre = pre.lower()
+    pre = unidecode(pre)
+    if pre in ("reglamento ue", "reglamento (ue)"):
+        return "Reglamento (UE)"
+    if pre in ("lo", "ley organica"):
+        return "Ley Orgánica"
+    if pre in ("real decreto", "rd"):
+        return "Real Decreto"
+    if pre == "ley":
+        if num == "3/2018":
+            return "Ley Orgánica"
+    if pre == "reglamento":
+        if num == "910/2014":
+            return "Reglamento (UE)"
+    if pre in ("ley", "reglamento"):
+        return pre.title()
+    return ori
 
 def get_session(cfg):
     f = FF()
@@ -76,7 +97,8 @@ class CrawlInap:
                         tema=i+1,
                         titulo=txt,
                         url=href,
-                        feedback=set(),
+                        feedback={},
+                        leyes={},
                         done=0
                     )
                     b.temas.append(t)
@@ -86,26 +108,44 @@ class CrawlInap:
                     for rev in revs:
                         self.w.get(rev)
                         for a in self.w.soup.select("div.feedback a"):
-                            t.feedback.add(a.attrs["href"])
+                            href = a.attrs["href"]
+                            t.feedback[href] = t.feedback.get(href, 0) + 1
+                        main = self.w.soup.select_one("section.region-main-content")
+                        main = re_sp.sub(" ", main.get_text())
+                        for pre, num in re_ley.findall(main):
+                            ley = parse_ley(pre, num) + ' ' +num
+                            if ley not in ("Real Decreto 211/2019", ):
+                                t.leyes[ley] = t.leyes.get(ley, 0) + 1
                 yield b
 
     def save(self):
-        feedback = set()
+        feedback = {}
+        leyes = {}
         MD = []
+        def dict_add(d1, d2):
+            for k, v in d2.items():
+                d1[k] = d1.get(k, 0) + v
         for b in self.get_bloques():
             MD.append("\n{bloque}. [{titulo}]({url})".format(**dict(b)))
             for t in b.temas:
                 MD.append("    {tema}. [{titulo}]({url}) <small>[{done}]</small>".format(**dict(t)))
-                feedback = feedback.union(t.feedback)
-        feedback = sorted(feedback, key=url_key)
+                dict_add(feedback, t.feedback)
+                dict_add(leyes, t.leyes)
+
+        leyes = sorted(leyes.items(), key=lambda x:(-x[1], x[0]))
+        if leyes:
+            MD.append("\nLeyes mencionadas en algunos de los tests:\n")
+            for a, count in leyes:
+                MD.append("* {} x {}".format(count, a))
+        feedback = sorted(feedback.items(), key=lambda x:(-x[1], url_key(x[0])))
         if feedback:
             MD.append(
                 "\nURLs referenciadas en las soluciones de algunos de los tests:\n")
-            for a in feedback:
+            for a, count in feedback:
                 if "_" in a:
-                    MD.append('* <a href="{1}">{0}</a>'.format(clean_url(a), a))
+                    MD.append('* {2} x <a href="{1}">{0}</a>'.format(clean_url(a), a, count))
                 else:
-                    MD.append("* [{}]({})".format(clean_url(a), a))
+                    MD.append("* {2} x [{0}]({1})".format(clean_url(a), a, count))
 
         MD = "\n".join(MD).strip()
         MD = dedent('''
