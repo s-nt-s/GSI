@@ -173,14 +173,20 @@ td.right, th.right {
 main img {
   max-width: 100%
 }
-sup.nota {
+sup {
   cursor: help;
   vertical-align: text-top;
   font-size: 0.7em;
 }
-sup.nota a {
+sup.nota a, sup.extra_url a {
   text-decoration: none;
 }
 a.nodecorate, abbr.nodecorate {
   text-decoration: none;
+}
+sup.extra_url {
+  display: none;
+}
+*:hover + sup.extra_url, sup.extra_url:hover {
+  display: unset;
 }

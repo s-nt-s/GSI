@@ -1,0 +1,499 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190705085602",
+  "metadatos": {
+    "identificador": "BOE-A-2011-13172",
+    "titulo": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "182",
+    "seccion": "3",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9529",
+      "#text": "Ministerio de Pol\u00edtica Territorial y Administraci\u00f3n P\u00fablica"
+    },
+    "rango": {
+      "@codigo": "1370",
+      "#text": "Resoluci\u00f3n"
+    },
+    "numero_oficial": null,
+    "fecha_disposicion": "20110719",
+    "fecha_publicacion": "20110730",
+    "fecha_vigencia": "20110731",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "87134",
+    "pagina_final": "87137",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2011/07/30/pdfs/BOE-A-2011-13172.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/res/2011/07/19/(6)"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2011-13172"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2011-07-19"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "(6)"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2011-13172"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(6)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/con/20110730"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-07-30"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/con/20110730",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2011-13172"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(6)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-30"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/con/20110730/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-07-30"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/con/20110730"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(6)/con/20110730/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(6)/con/20110730/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "37",
+        "@orden": "220",
+        "#text": "Aplicable desde el 31 de julio de 2011."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "7879",
+          "@orden": "",
+          "#text": "Certificados telem\u00e1ticos"
+        },{
+          "@codigo": "3086",
+          "@orden": "",
+          "#text": "Documentos p\u00fablicos"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6020",
+          "@orden": "",
+          "#text": "Reglamentaciones t\u00e9cnicas"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2010-1331",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
+          },{
+            "@referencia": "BOE-A-2007-12352",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Ley 11/2007, de 22 de junio"
+          }
+        ]
+      },
+      "posteriores": null
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
+      },{
+        "@class": "parrafo",
+        "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, las normas relativas al documento electr\u00f3nico, al expediente electr\u00f3nico, a la digitalizaci\u00f3n de documentos en soporte papel, a los procedimientos de copiado aut\u00e9ntico y conversi\u00f3n y a la pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos responden a lo previsto en el citado Real Decreto 4/2010, de 8 de enero, sobre interoperabilidad, recuperaci\u00f3n y conservaci\u00f3n del documento electr\u00f3nico, a la luz de la necesidad de garantizar todos estos aspectos para el documento electr\u00f3nico a lo largo del tiempo."
+      },{
+        "@class": "parrafo",
+        "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos establece las reglas para la generaci\u00f3n y expedici\u00f3n de copias electr\u00f3nicas aut\u00e9nticas, copias papel aut\u00e9nticas de documentos p\u00fablicos administrativos electr\u00f3nicos y para la conversi\u00f3n de formato de documentos electr\u00f3nicos por parte de las Administraciones p\u00fablicas; para los aspectos relativos a la gesti\u00f3n de los documentos resultantes del proceso de copiado aut\u00e9ntico o conversi\u00f3n, se remite a la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero,"
+      },{
+        "@class": "parrafo",
+        "#text": "Esta Secretar\u00eda de Estado resuelve:"
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Primero."
+      },{
+        "@class": "parrafo",
+        "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos, cuyo texto se incluye a continuaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Segundo."
+      },{
+        "@class": "parrafo",
+        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la disposici\u00f3n transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Madrid, 19 de julio de 2011.\u2013La Secretaria de Estado para la Funci\u00f3n P\u00fablica, Mar\u00eda Consuelo Rum\u00ed Ib\u00e1\u00f1ez."
+      },{
+        "@class": "anexo",
+        "#text": "[encabezado]NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE PROCEDIMIENTOS DE COPIADO AUT\u00c9NTICO Y CONVERSI\u00d3N ENTRE DOCUMENTOS ELECTR\u00d3NICOS"
+      },{
+        "@class": "centro_redonda",
+        "#text": "[indice]\u00cdNDICE"
+      },{
+        "@class": "parrafo_2",
+        "#text": "I. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "III. Caracter\u00edsticas generales de las copias electr\u00f3nicas aut\u00e9nticas."
+      },{
+        "@class": "parrafo",
+        "#text": "IV. Copia electr\u00f3nica aut\u00e9ntica con cambio de formato."
+      },{
+        "@class": "parrafo",
+        "#text": "V. Copia electr\u00f3nica aut\u00e9ntica de documentos papel."
+      },{
+        "@class": "parrafo",
+        "#text": "VI. Copia electr\u00f3nica parcial aut\u00e9ntica."
+      },{
+        "@class": "parrafo",
+        "#text": "VII. Copia papel aut\u00e9ntica de documentos p\u00fablicos administrativos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "VIII. Conversi\u00f3n entre documentos electr\u00f3nicos. [fin indice]"
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[preambulo]I. Objeto"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos tiene por objeto establecer las reglas para la generaci\u00f3n de copias electr\u00f3nicas aut\u00e9nticas, copias papel aut\u00e9nticas de documentos p\u00fablicos administrativos electr\u00f3nicos y para la conversi\u00f3n de formato de documentos electr\u00f3nicos."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[precepto]II. \u00c1mbito de aplicaci\u00f3n"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Esta norma ser\u00e1 de aplicaci\u00f3n en los procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[precepto]III. Caracter\u00edsticas generales de las copias electr\u00f3nicas aut\u00e9nticas"
+      },{
+        "@class": "parrafo_2",
+        "#text": "III.1 Las copias electr\u00f3nicas generadas que, por ser id\u00e9nticas al documento electr\u00f3nico original no comportan cambio de formato ni de contenido, tendr\u00e1n la eficacia jur\u00eddica de documento electr\u00f3nico original."
+      },{
+        "@class": "parrafo",
+        "#text": "III.2 Las copias aut\u00e9nticas se expedir\u00e1n a partir de documentos con calidad de original o copia aut\u00e9ntica."
+      },{
+        "@class": "parrafo",
+        "#text": "III.3 Las copias electr\u00f3nicas aut\u00e9nticas ser\u00e1n nuevos documentos electr\u00f3nicos que incluir\u00e1n total o parcialmente el contenido del documento sobre el que se expiden y que cumplir\u00e1n con lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "III.4 El valor de cada uno de los metadatos m\u00ednimos obligatorios del documento electr\u00f3nico copia ser\u00e1 asignado en funci\u00f3n de las caracter\u00edsticas propias de cada metadato y de las propiedades espec\u00edficas del documento bajo la responsabilidad del \u00f3rgano u Organismo que lo expide."
+      },{
+        "@class": "parrafo",
+        "em": [
+          "\u00ab",
+          "\u00bb"
+        ],
+        "#text": "III.5 La relaci\u00f3n entre la copia electr\u00f3nica aut\u00e9ntica y el documento origen se reflejar\u00e1 en los metadatos del documento electr\u00f3nico copia a trav\u00e9s del metadato Identificador del documento origenque tomar\u00e1 el valor del identificador de aqu\u00e9l."
+      },{
+        "@class": "parrafo",
+        "#text": "III.6 Las copias electr\u00f3nicas aut\u00e9nticas ser\u00e1n firmadas mediante alguno de los sistemas de firma previstos en los art\u00edculos 18 \u00f3 19 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[precepto]IV. Copia electr\u00f3nica aut\u00e9ntica con cambio de formato"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Las copias electr\u00f3nicas aut\u00e9nticas con cambio de formato:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Se obtendr\u00e1n de la aplicaci\u00f3n de una conversi\u00f3n entre documentos electr\u00f3nicos que se realizar\u00e1 seg\u00fan lo establecido en el apartado VIII de esta norma."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Tendr\u00e1n asignado el valor \u00abCopia electr\u00f3nica aut\u00e9ntica con cambio de formato\u00bb en el metadato m\u00ednimo obligatorio \u00abEstado de elaboraci\u00f3n\u00bb."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[precepto]V. Copia electr\u00f3nica aut\u00e9ntica de documentos papel"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Las copias electr\u00f3nicas aut\u00e9nticas de documentos en soporte papel o en otro soporte no electr\u00f3nico susceptible de digitalizaci\u00f3n a trav\u00e9s de medios fotoel\u00e9ctricos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Se obtendr\u00e1n de la digitalizaci\u00f3n del documento origen seg\u00fan lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Digitalizaci\u00f3n de documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Tendr\u00e1n asignado el valor \u00abCopia electr\u00f3nica aut\u00e9ntica de documento papel\u00bb al metadato m\u00ednimo obligatorio \u00abEstado de elaboraci\u00f3n\u00bb."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[precepto]VI. Copia electr\u00f3nica parcial aut\u00e9ntica"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Las copias electr\u00f3nicas parciales aut\u00e9nticas:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Se obtendr\u00e1n mediante extractos del contenido del documento origen que corresponda o a trav\u00e9s de la utilizaci\u00f3n de otros m\u00e9todos electr\u00f3nicos que permitan mantener la confidencialidad de aquellos datos que no afecten al interesado."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Tendr\u00e1n asignado el valor \u00abCopia electr\u00f3nica parcial aut\u00e9ntica\u00bb en el metadato m\u00ednimo obligatorio \u00abEstado de elaboraci\u00f3n\u00bb."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[precepto]VII. Copia papel aut\u00e9ntica de documentos p\u00fablicos administrativos electr\u00f3nicos"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Para la obtenci\u00f3n de copias aut\u00e9nticas en soporte papel de documentos p\u00fablicos administrativos electr\u00f3nicos se atender\u00e1 a lo previsto en la normativa aplicable y a lo establecido sobre el acceso a documentos electr\u00f3nicos en la Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico para la verificaci\u00f3n de su autenticidad."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[precepto]VIII. Conversi\u00f3n entre documentos electr\u00f3nicos"
+      },{
+        "@class": "parrafo_2",
+        "#text": "VIII.1 La conversi\u00f3n entre documentos electr\u00f3nicos supondr\u00e1 la generaci\u00f3n de un nuevo documento electr\u00f3nico con diferente formato o versi\u00f3n a la del documento origen que cumplir\u00e1 con lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "VIII.2 La conversi\u00f3n entre documentos electr\u00f3nicos se realizar\u00e1 atendiendo a:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) La aplicaci\u00f3n de procedimientos de conversi\u00f3n establecidos en un marco de gesti\u00f3n documental definido seg\u00fan la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La conservaci\u00f3n del contenido, contexto y estructura del documento origen e identificaci\u00f3n de componentes que requieran, dada su naturaleza, un tratamiento espec\u00edfico en la conversi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) El formato del nuevo documento convertido ser\u00e1 seleccionado de entre los establecidos en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares y permitir\u00e1 la reproducci\u00f3n de la informaci\u00f3n contenida en el documento original minimizando el riesgo de p\u00e9rdida de informaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "VIII.3 En el caso de que el documento resultado de la conversi\u00f3n deba ser conformado como copia aut\u00e9ntica, se contemplar\u00e1n, adicionalmente, los requisitos establecidos en los apartados III y IV de esta norma."
+      }
+    ]
+  }
+}
+}

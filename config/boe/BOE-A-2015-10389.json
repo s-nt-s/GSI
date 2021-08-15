@@ -1,0 +1,1096 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20210610132601",
+  "metadatos": {
+    "identificador": "BOE-A-2015-10389",
+    "titulo": "Ley 36/2015, de 28 de septiembre, de Seguridad Nacional.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "233",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "7723",
+      "#text": "Jefatura del Estado"
+    },
+    "rango": {
+      "@codigo": "1300",
+      "#text": "Ley"
+    },
+    "numero_oficial": "36/2015",
+    "fecha_disposicion": "20150928",
+    "fecha_publicacion": "20150929",
+    "fecha_vigencia": "20150930",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "87106",
+    "pagina_final": "87117",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": "/diario_boe/epub.php?id=BOE-A-2015-10389",
+    "url_pdf": "/boe/dias/2015/09/29/pdfs/BOE-A-2015-10389.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2015/09/29/pdfs/BOE-A-2015-10389-C.pdf",
+    "url_pdf_euskera": "/boe_euskera/dias/2015/09/29/pdfs/BOE-A-2015-10389-E.pdf",
+    "url_pdf_gallego": "/boe_gallego/dias/2015/09/29/pdfs/BOE-A-2015-10389-G.pdf",
+    "url_pdf_valenciano": "/boe_valenciano/dias/2015/09/29/pdfs/BOE-A-2015-10389-V.pdf",
+    "url_eli": "https://www.boe.es/eli/es/l/2015/09/28/36"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2015-10389"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2015-09-28"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "36"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2015-10389"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2015-09-28"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "36"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/con/20150929"
+              },
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 36/2015, de 28 de septiembre, de Seguridad Nacional."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2015-09-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa/epub",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Llei 36/2015, de 28 de setembre, de seguretat nacional."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2015-09-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/eus",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/eus"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "36/2015 Legea, irailaren 28koa, Segurtasun Nazionalarena."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2015-09-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/eus/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/eus"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Lei 36/2015, do 28 de setembro, de seguridade nacional."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2015-09-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/vci",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/vci"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Llei 36/2015, de 28 de setembre, de Seguretat Nacional."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2015-09-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/vci/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof/vci"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/con/20150929",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2015-10389"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2015-09-28"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "36"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2015-09-29"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/con/20150929/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 36/2015, de 28 de septiembre, de Seguridad Nacional."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2015-09-29"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/con/20150929"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2015/09/28/36/con/20150929/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2015/09/28/36/con/20150929/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": null,
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "1589",
+          "@orden": "",
+          "#text": "Consejos consultivos"
+        },{
+          "@codigo": "2283",
+          "@orden": "",
+          "#text": "Defensa Nacional"
+        },{
+          "@codigo": "5278",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n del Estado"
+        },{
+          "@codigo": "6494",
+          "@orden": "",
+          "#text": "Seguridad ciudadana"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "126",
+          "@orden": "",
+          "#text": "Seguridad y Defensa"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": null,
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2020-3639",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con el art. 21 y crea el Comit\u00e9 Especializado contra el Terrorismo: Acuerdo publicado por Orden PCM/219/2020, de 13 de marzo"
+          },{
+            "@referencia": "BOE-A-2020-3638",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con el art. 21 y crea el Consejo Nacional de Seguridad Aeroespacial, Acuerdo publicado por Orden PCM/218/2020, de 13 de marzo"
+          },{
+            "@referencia": "BOE-A-2017-15181",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con el art. 14.b), y aprueba la estrategia de seguridad nacional 2017: Real Decreto 1008/2017, de 1 de diciembre"
+          },{
+            "@referencia": "BOE-A-2016-11817",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "470",
+              "#text": "SE DECLARA"
+            },
+            "texto": ", en el Recurso 7330/2015, la constitucionalidad, interpretado en los t\u00e9rminos del fj7, del art. 24.2, y la desestimaci\u00f3n de todo lo dem\u00e1s, por Sentencia 184/2016, de 3 de noviembre"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "centro_redonda",
+        "#text": "FELIPE VI"
+      },{
+        "@class": "centro_redonda",
+        "#text": "REY DE ESPA\u00d1A"
+      },{
+        "@class": "parrafo_2",
+        "#text": "A todos los que la presente vieren y entendieren."
+      },{
+        "@class": "parrafo",
+        "#text": "Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley:"
+      },{
+        "@class": "centro_redonda",
+        "#text": "\u00cdndice"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Pre\u00e1mbulo."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo preliminar. Disposiciones generales."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo I. \u00d3rganos competentes de la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo II. Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo III. Gesti\u00f3n de crisis en el marco del Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo IV. Contribuci\u00f3n de recursos a la Seguridad Nacional."
+      },{
+        "@class": "centro_redonda",
+        "#text": "[fin indice][encabezado]PRE\u00c1MBULO"
+      },{
+        "@class": "centro_redonda",
+        "#text": "I"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La seguridad constituye la base sobre la cual una sociedad puede desarrollarse, preservar su libertad y la prosperidad de sus ciudadanos, y garantizar la estabilidad y buen funcionamiento de sus instituciones."
+      },{
+        "@class": "parrafo",
+        "#text": "La legislaci\u00f3n espa\u00f1ola as\u00ed lo reconoce e interpreta, y contiene instrumentos normativos que, partiendo del marco dise\u00f1ado por la Constituci\u00f3n, regulan los aspectos fundamentales que han venido permitiendo a los poderes p\u00fablicos cumplir con sus obligaciones en esta materia."
+      },{
+        "@class": "parrafo",
+        "#text": "As\u00ed, las normas aplicables a los estados de alarma, excepci\u00f3n y sitio, a la Defensa Nacional, a las Fuerzas y Cuerpos de Seguridad, a la protecci\u00f3n de la seguridad ciudadana, a la protecci\u00f3n de infraestructuras cr\u00edticas, a la protecci\u00f3n civil, a la acci\u00f3n y el servicio exterior del Estado o a la seguridad privada, regulan, junto con la legislaci\u00f3n penal y los tratados y compromisos internacionales en los que Espa\u00f1a es parte, distintos aspectos de la seguridad."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta regulaci\u00f3n se basa en la asignaci\u00f3n de competencias a las distintas autoridades y Administraciones P\u00fablicas, y se articula en un modelo tradicional y homologable con los pa\u00edses de nuestro entorno, que se ha demostrado v\u00e1lido hasta ahora y que ha permitido hacer frente a las necesidades de seguridad de una sociedad abierta, libre y democr\u00e1tica como la espa\u00f1ola."
+      },{
+        "@class": "parrafo",
+        "#text": "Sin embargo, en el mundo actual, y en el entorno m\u00e1s previsible para el futuro, los actores y circunstancias que ponen en peligro los niveles de seguridad, se encuentran sujetos a constante mutaci\u00f3n, y es responsabilidad de los poderes p\u00fablicos dotarse de la normativa, procedimientos y recursos que le permitan responder con eficacia a estos desaf\u00edos a la seguridad."
+      },{
+        "@class": "parrafo",
+        "#text": "En este contexto aparece el campo de la Seguridad Nacional como un espacio de actuaci\u00f3n p\u00fablica nuevo, enfocado a la armonizaci\u00f3n de objetivos, recursos y pol\u00edticas ya existentes en materia de seguridad."
+      },{
+        "@class": "parrafo",
+        "#text": "En este sentido, la Seguridad Nacional se entiende como la acci\u00f3n del Estado dirigida a proteger la libertad y el bienestar de sus ciudadanos, a garantizar la defensa de Espa\u00f1a y sus principios y valores constitucionales, as\u00ed como a contribuir junto a nuestros socios y aliados a la seguridad internacional en cumplimiento de los compromisos asumidos; concepto que, hasta la fecha, no hab\u00eda sido objeto de una regulaci\u00f3n normativa integral."
+      },{
+        "@class": "parrafo",
+        "#text": "Este esfuerzo de integraci\u00f3n reviste tanta mayor importancia cuanto que la Seguridad Nacional debe ser considerada un objetivo compartido por las diferentes Administraciones, estatal, auton\u00f3mica y local, los \u00f3rganos constitucionales, en especial las Cortes Generales, el sector privado y la sociedad civil, dentro de los proyectos de las organizaciones internacionales de las que formamos parte."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otro lado, la realidad demuestra que los desaf\u00edos para la Seguridad Nacional que afectan a la sociedad revisten en ocasiones una elevada complejidad, que desborda las fronteras de categor\u00edas tradicionales como la defensa, la seguridad p\u00fablica, la acci\u00f3n exterior y la inteligencia, as\u00ed como de otras m\u00e1s recientemente incorporadas a la preocupaci\u00f3n por la seguridad, como el medio ambiente, la energ\u00eda, los transportes, el ciberespacio y la estabilidad econ\u00f3mica."
+      },{
+        "@class": "parrafo",
+        "#text": "La dimensi\u00f3n que adquieren ciertos riesgos y amenazas, su acusada transversalidad, o la combinaci\u00f3n de estos rasgos con su naturaleza abierta e incierta, como sucede en las situaciones de inter\u00e9s para la Seguridad Nacional definidas por la presente ley, son factores que indican claramente que toda respuesta que implique a los distintos agentes e instrumentos de la Seguridad Nacional se ver\u00e1 reforzada y resultar\u00e1 m\u00e1s eficiente si se realiza de forma coordinada."
+      },{
+        "@class": "parrafo",
+        "#text": "El superior inter\u00e9s nacional requiere mejorar la coordinaci\u00f3n de las diferentes Administraciones P\u00fablicas, buscando marcos de prevenci\u00f3n y respuesta que ayuden a resolver los problemas que plantea una actuaci\u00f3n compartimentada, organizando a diversos niveles y de manera integral, la acci\u00f3n coordinada de los agentes e instrumentos al servicio de la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta ley se dicta con el prop\u00f3sito de responder a esta demanda, que viene siendo expresada por los agentes de la Seguridad Nacional integrados en las Administraciones P\u00fablicas, por el sector privado y por la sociedad en general. No afecta a la regulaci\u00f3n de los distintos agentes e instrumentos que ya son objeto de normas sectoriales espec\u00edficas, sino que facilita su inserci\u00f3n arm\u00f3nica en el esquema de organizaci\u00f3n general, establecido por la Estrategia de Seguridad Nacional, de\u00a031 de mayo de\u00a02013, bajo la denominaci\u00f3n de Sistema de Seguridad Nacional, y liderado por el Presidente del Gobierno."
+      },{
+        "@class": "centro_redonda",
+        "#text": "II"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Esta ley se estructura en cinco t\u00edtulos."
+      },{
+        "@class": "parrafo",
+        "#text": "En el t\u00edtulo preliminar, adem\u00e1s de las disposiciones relativas a su objeto y \u00e1mbito, la ley establece las definiciones y principios generales que inspiran el concepto de Seguridad Nacional como Pol\u00edtica de Estado, la Cultura de Seguridad Nacional, la cooperaci\u00f3n con las Comunidades Aut\u00f3nomas, la colaboraci\u00f3n privada, los componentes fundamentales, as\u00ed como los \u00e1mbitos de especial inter\u00e9s y sus obligaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "En el t\u00edtulo I se detallan cu\u00e1les son los \u00f3rganos competentes de la Seguridad Nacional y qu\u00e9 competencias se les asignan en esta materia."
+      },{
+        "@class": "parrafo",
+        "#text": "Por su parte, el t\u00edtulo II se dedica a la creaci\u00f3n y definici\u00f3n del Sistema de Seguridad Nacional, sus funciones y organizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "El t\u00edtulo III regula la gesti\u00f3n de crisis, como marco general de funcionamiento del Sistema de Seguridad Nacional, y establece definiciones y competencias en dicha materia. La regulaci\u00f3n de la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional prev\u00e9 que no se ejerzan en ella las potestades propias de los estados de alarma y de excepci\u00f3n, de modo que si ello fuere necesario habr\u00eda que proceder a su declaraci\u00f3n y al sometimiento a su normativa espec\u00edfica."
+      },{
+        "@class": "parrafo",
+        "#text": "Por \u00faltimo, el t\u00edtulo IV regula la contribuci\u00f3n de recursos a la Seguridad Nacional, que remite a una nueva ley a desarrollar."
+      },{
+        "@class": "parrafo",
+        "#text": "La parte final de la ley incluye cuatro disposiciones adicionales sobre coordinaci\u00f3n con instrumentos internacionales de gesti\u00f3n de crisis, homologaci\u00f3n de instrumentos de gesti\u00f3n de crisis y comunicaci\u00f3n p\u00fablica respectivamente; una disposici\u00f3n transitoria relativa a la actividad de los Comit\u00e9s Especializados existentes a la entrada en vigor de esta ley; y cuatro disposiciones finales, que regulan los t\u00edtulos competenciales, el desarrollo reglamentario, el mandato legislativo y la entrada en vigor."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO PRELIMINAR"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Disposiciones generales"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a01. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta ley tiene por objeto regular:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Los principios b\u00e1sicos, \u00f3rganos superiores y autoridades y los componentes fundamentales de la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El Sistema de Seguridad Nacional, su direcci\u00f3n, organizaci\u00f3n y coordinaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La gesti\u00f3n de crisis."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La contribuci\u00f3n de recursos a la Seguridad Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a02. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.Esta ley ser\u00e1 de aplicaci\u00f3n a las diferentes Administraciones P\u00fablicas y, en los t\u00e9rminos que en ella se establecen, a las personas f\u00edsicas o jur\u00eddicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los estados de alarma y excepci\u00f3n, se rigen por su normativa espec\u00edfica."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a03. Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "A los efectos de esta ley se entender\u00e1 por Seguridad Nacional la acci\u00f3n del Estado dirigida a proteger la libertad, los derechos y bienestar de los ciudadanos, a garantizar la defensa de Espa\u00f1a y sus principios y valores constitucionales, as\u00ed como a contribuir junto a nuestros socios y aliados a la seguridad internacional en el cumplimiento de los compromisos asumidos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a04. Pol\u00edtica de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La Pol\u00edtica de Seguridad Nacional es una pol\u00edtica p\u00fablica en la que bajo la direcci\u00f3n del Presidente del Gobierno y la responsabilidad del Gobierno, participan todas las Administraciones P\u00fablicas, de acuerdo con sus respectivas competencias, y la sociedad en general, para responder a las necesidades de la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los principios b\u00e1sicos que orientar\u00e1n la pol\u00edtica de Seguridad Nacional son la unidad de acci\u00f3n, anticipaci\u00f3n, prevenci\u00f3n, eficiencia, sostenibilidad en el uso de los recursos, capacidad de resistencia y recuperaci\u00f3n, coordinaci\u00f3n y colaboraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La Estrategia de Seguridad Nacional es el marco pol\u00edtico estrat\u00e9gico de referencia de la Pol\u00edtica de Seguridad Nacional. Contiene el an\u00e1lisis del entorno estrat\u00e9gico, concreta los riesgos y amenazas que afectan a la seguridad de Espa\u00f1a, define las l\u00edneas de acci\u00f3n estrat\u00e9gicas en cada \u00e1mbito de actuaci\u00f3n y promueve la optimizaci\u00f3n de los recursos existentes. Se elabora a iniciativa del Presidente del Gobierno, quien la somete a la aprobaci\u00f3n del Consejo de Ministros, y se revisar\u00e1 cada cinco a\u00f1os o cuando lo aconsejen las circunstancias cambiantes del entorno estrat\u00e9gico. Una vez aprobada, ser\u00e1 presentada en las Cortes Generales en los t\u00e9rminos previstos en esta ley."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a05. Cultura de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Gobierno promover\u00e1 una cultura de Seguridad Nacional que favorezca la implicaci\u00f3n activa de la sociedad en su preservaci\u00f3n y garant\u00eda, como requisito indispensable para el disfrute de la libertad, la justicia, el bienestar, el progreso y los derechos de los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. A los efectos del n\u00famero anterior, el Gobierno pondr\u00e1 en marcha acciones y planes que tengan por objeto aumentar el conocimiento y la sensibilizaci\u00f3n de la sociedad acerca de los requerimientos de la Seguridad Nacional, de los riesgos y amenazas susceptibles de comprometerla, del esfuerzo de los actores y organismos implicados en su salvaguarda y la corresponsabilidad de todos en las medidas de anticipaci\u00f3n, prevenci\u00f3n, an\u00e1lisis, reacci\u00f3n, resistencia y recuperaci\u00f3n respecto a dichos riesgos y amenazas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a06. Cooperaci\u00f3n con las Comunidades Aut\u00f3nomas."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.La cooperaci\u00f3n entre el Estado y las Comunidades Aut\u00f3nomas en las materias propias de esta ley, se realizar\u00e1 a trav\u00e9s de la Conferencia Sectorial para asuntos de la Seguridad Nacional, todo ello sin perjuicio de las funciones asignadas al Consejo de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En particular, corresponder\u00e1 a la Conferencia, como \u00f3rgano de cooperaci\u00f3n entre el Estado y las Comunidades Aut\u00f3nomas, el tratamiento y resoluci\u00f3n con arreglo al principio de cooperaci\u00f3n de aquellas cuestiones de inter\u00e9s com\u00fan relacionadas con la Seguridad Nacional, como las siguientes:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Procedimientos t\u00e9cnicos para asegurar la recepci\u00f3n de la informaci\u00f3n sobre Seguridad Nacional de car\u00e1cter general por parte de las Comunidades Aut\u00f3nomas, y la articulaci\u00f3n de la informaci\u00f3n que \u00e9stas han de aportar al Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "b) F\u00f3rmulas de participaci\u00f3n en los desarrollos normativos sobre Seguridad Nacional, mediante procedimientos internos que faciliten la aplicaci\u00f3n de las actuaciones de la pol\u00edtica de Seguridad Nacional, as\u00ed como en la elaboraci\u00f3n de los instrumentos de planificaci\u00f3n que se prevea utilizar."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Problemas planteados en la ejecuci\u00f3n de la pol\u00edtica de Seguridad Nacional y el marco de las respectivas competencias estatutarias auton\u00f3micas."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. La participaci\u00f3n de las Ciudades con Estatuto de Autonom\u00eda de Ceuta y Melilla en los asuntos relacionados con la Seguridad Nacional tambi\u00e9n se articular\u00e1 en la Conferencia, formando parte de la misma un representante de cada una de ellas."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Para su adecuado funcionamiento, la Conferencia elaborar\u00e1 un Reglamento interno. Los acuerdos de la Conferencia se adoptar\u00e1n conforme a lo dispuesto en el art\u00edculo\u00a05 de la Ley\u00a030/1992, de\u00a026 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, y su Reglamento interno."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a07. Colaboraci\u00f3n privada."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.Las entidades privadas, siempre que las circunstancias lo aconsejen y, en todo caso, cuando sean operadoras de servicios esenciales y de infraestructuras cr\u00edticas que puedan afectar a la Seguridad Nacional, deber\u00e1n colaborar con las Administraciones P\u00fablicas. El Gobierno establecer\u00e1 reglamentariamente los mecanismos y formas de esta colaboraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Gobierno, en coordinaci\u00f3n con las Comunidades Aut\u00f3nomas, establecer\u00e1 cauces que fomenten la participaci\u00f3n del sector privado en la formulaci\u00f3n y ejecuci\u00f3n de la pol\u00edtica de Seguridad Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a08. Participaci\u00f3n ciudadana en la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "El Gobierno, en coordinaci\u00f3n con las Comunidades Aut\u00f3nomas, establecer\u00e1 mecanismos que faciliten la participaci\u00f3n de la sociedad civil y sus organizaciones en la formulaci\u00f3n y la ejecuci\u00f3n de la pol\u00edtica de Seguridad Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a09. Componentes fundamentales de la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se consideran componentes fundamentales de la Seguridad Nacional a los efectos de esta ley la Defensa Nacional, la Seguridad P\u00fablica y la Acci\u00f3n Exterior, que se regulan por su normativa espec\u00edfica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los Servicios de Inteligencia e Informaci\u00f3n del Estado, de acuerdo con el \u00e1mbito de sus competencias, apoyar\u00e1n permanentemente al Sistema de Seguridad Nacional, proporcionando elementos de juicio, informaci\u00f3n, an\u00e1lisis, estudios y propuestas necesarios para prevenir y detectar los riesgos y amenazas y contribuir a su neutralizaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a010. \u00c1mbitos de especial inter\u00e9s de la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "Se considerar\u00e1n \u00e1mbitos de especial inter\u00e9s de la Seguridad Nacional aquellos que requieren una atenci\u00f3n espec\u00edfica por resultar b\u00e1sicos para preservar los derechos y libertades, as\u00ed como el bienestar de los ciudadanos, y para garantizar el suministro de los servicios y recursos esenciales. A los efectos de esta ley, ser\u00e1n, entre otros, la ciberseguridad, la seguridad econ\u00f3mica y financiera, la seguridad mar\u00edtima, la seguridad del espacio a\u00e9reo y ultraterrestre, la seguridad energ\u00e9tica, la seguridad sanitaria y la preservaci\u00f3n del medio ambiente."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a011. Obligaciones de las Administraciones P\u00fablicas en los \u00e1mbitos de especial inter\u00e9s."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En el marco del Sistema de Seguridad Nacional, las Administraciones P\u00fablicas con competencias en los \u00e1mbitos de especial inter\u00e9s de la Seguridad Nacional, estar\u00e1n obligadas a establecer mecanismos de coordinaci\u00f3n e intercambio de informaci\u00f3n, especialmente en relaci\u00f3n con los sistemas de vigilancia y alerta ante posibles riesgos y amenazas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Asimismo, sin perjuicio de lo establecido en la normativa reguladora de protecci\u00f3n de infraestructuras cr\u00edticas, las Administraciones P\u00fablicas citadas anteriormente asegurar\u00e1n la disponibilidad de los servicios esenciales y la garant\u00eda del suministro de recursos energ\u00e9ticos, agua y alimentaci\u00f3n, medicamentos y productos sanitarios, o cualesquiera otros servicios y recursos de primera necesidad o de car\u00e1cter estrat\u00e9gico."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO I"
+      },{
+        "@class": "titulo_tit",
+        "#text": "\u00d3rganos competentes de la Seguridad Nacional"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a012. \u00d3rganos competentes en materia de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Son \u00f3rganos competentes en materia de Seguridad Nacional:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Las Cortes Generales."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "c) El Presidente del Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Los Ministros."
+      },{
+        "@class": "parrafo",
+        "#text": "e) El Consejo de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Los Delegados del Gobierno en las Comunidades Aut\u00f3nomas y en las ciudades con Estatuto de Autonom\u00eda de Ceuta y Melilla."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. A los efectos de esta ley, se entender\u00e1 que son \u00f3rganos competentes de las Comunidades Aut\u00f3nomas y de las ciudades con Estatuto de Autonom\u00eda de Ceuta y Melilla, los que correspondan seg\u00fan lo dispuesto en cada Estatuto de Autonom\u00eda, en relaci\u00f3n con las competencias que en cada caso est\u00e9n relacionadas con la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las autoridades locales ejercer\u00e1n las competencias que les corresponden de acuerdo con esta ley y con lo dispuesto en la legislaci\u00f3n de r\u00e9gimen local y dem\u00e1s leyes que les sean de aplicaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a013. Las Cortes Generales."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.Con independencia de las funciones que la Constituci\u00f3n y las dem\u00e1s disposiciones legales asignan a las Cortes Generales, les corresponde debatir las l\u00edneas generales de la pol\u00edtica de Seguridad Nacional, a cuyos efectos el Gobierno presentar\u00e1 a las mismas, para su conocimiento y debate, la Estrategia de Seguridad Nacional, as\u00ed como las iniciativas y planes correspondientes."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Se designar\u00e1 en las Cortes Generales una Comisi\u00f3n Mixta Congreso-Senado de Seguridad Nacional, siguiendo para ello lo dispuesto en los reglamentos de las C\u00e1maras, con el fin de que las C\u00e1maras tengan la participaci\u00f3n adecuada en los \u00e1mbitos de la Seguridad Nacional y dispongan de la m\u00e1s amplia informaci\u00f3n sobre las iniciativas en el marco de la pol\u00edtica de Seguridad Nacional. En el seno de esta Comisi\u00f3n Mixta comparecer\u00e1 anualmente el Gobierno, a trav\u00e9s del representante que designe, para informar sobre la evoluci\u00f3n de la Seguridad Nacional en dicho per\u00edodo de referencia. Asimismo, en esta Comisi\u00f3n Mixta ser\u00e1 presentada la Estrategia de Seguridad Nacional y sus revisiones."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a014. El Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "Corresponde al Gobierno:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Establecer y dirigir la pol\u00edtica de Seguridad Nacional y asegurar su ejecuci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Aprobar la Estrategia de Seguridad Nacional y sus revisiones mediante real decreto, en los t\u00e9rminos previstos en esta ley."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Efectuar la Declaraci\u00f3n de Recursos de Inter\u00e9s para la Seguridad Nacional en coordinaci\u00f3n con las Comunidades Aut\u00f3nomas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a015. El Presidente del Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "Corresponde al Presidente del Gobierno:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Dirigir la pol\u00edtica de Seguridad Nacional y el Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Proponer la Estrategia de Seguridad Nacional y sus revisiones."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Declarar la Situaci\u00f3n de Inter\u00e9s para la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Ejercer las dem\u00e1s competencias que en el marco del Sistema de Seguridad Nacional le atribuya esta ley, y las dem\u00e1s normas legales y reglamentarias que sean de aplicaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a016. Los Ministros."
+      },{
+        "@class": "parrafo",
+        "#text": "A los Ministros, como responsables de desarrollar la acci\u00f3n del Gobierno en las materias que les son propias, les corresponde desarrollar y ejecutar la pol\u00edtica de Seguridad Nacional en los \u00e1mbitos de sus respectivos departamentos ministeriales."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a017. El Consejo de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "El Consejo de Seguridad Nacional, en su condici\u00f3n de Comisi\u00f3n Delegada del Gobierno para la Seguridad Nacional, es el \u00f3rgano al que corresponde asistir al Presidente del Gobierno en la direcci\u00f3n de la pol\u00edtica de Seguridad Nacional y del Sistema de Seguridad Nacional, as\u00ed como ejercer las funciones que se le atribuyan por esta ley y se le asignen por su reglamento."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO II"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Sistema de Seguridad Nacional"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a018. El Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.El Sistema de Seguridad Nacional es el conjunto de \u00f3rganos, organismos, recursos y procedimientos, integrados en la estructura prevista en el art\u00edculo\u00a020 de esta ley, que permite a los \u00f3rganos competentes en materia de Seguridad Nacional ejercer sus funciones."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En el Sistema de Seguridad Nacional se integran los componentes fundamentales siguiendo los mecanismos de enlace y coordinaci\u00f3n que determine el Consejo de Seguridad Nacional, actuando bajo sus propias estructuras y procedimientos. En funci\u00f3n de las necesidades, podr\u00e1n asignarse cometidos a otros organismos y entidades, de titularidad p\u00fablica o privada."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a019. Funciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Al Sistema de Seguridad Nacional le corresponde evaluar los factores y situaciones que puedan afectar a la Seguridad Nacional, recabar y analizar la informaci\u00f3n que permita tomar las decisiones necesarias para dirigir y coordinar la respuesta ante las situaciones de crisis contempladas en esta ley, detectar las necesidades y proponer las medidas sobre planificaci\u00f3n y coordinaci\u00f3n con el conjunto de las Administraciones P\u00fablicas, con el fin de garantizar la disponibilidad y el correcto funcionamiento de los recursos del Sistema."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a020. Estructura del Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.El Presidente del Gobierno dirige el Sistema asistido por el Consejo de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Departamento de Seguridad Nacional ejercer\u00e1 las funciones de Secretar\u00eda T\u00e9cnica y \u00f3rgano de trabajo permanente del Consejo de Seguridad Nacional y de sus \u00f3rganos de apoyo, as\u00ed como las dem\u00e1s funciones previstas en la normativa que le sea de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los \u00f3rganos de apoyo del Consejo de Seguridad Nacional, con la denominaci\u00f3n de Comit\u00e9s Especializados u otra que se determine, ejercen las funciones asignadas por el Consejo de Seguridad Nacional en los \u00e1mbitos de actuaci\u00f3n previstos en la Estrategia de Seguridad Nacional, o cuando las circunstancias propias de la gesti\u00f3n de crisis lo precisen."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Ser\u00e1 objeto de desarrollo reglamentario, en coordinaci\u00f3n con las Administraciones P\u00fablicas afectadas, la regulaci\u00f3n de los \u00f3rganos de coordinaci\u00f3n y apoyo del Departamento de Seguridad Nacional, as\u00ed como de los mecanismos de enlace y coordinaci\u00f3n permanentes con los organismos de todas las Administraciones del Estado que sean necesarios para que el Sistema de Seguridad Nacional pueda ejercer sus funciones y cumplir sus objetivos; todo ello sin perjuicio de las previsiones que en materia de gesti\u00f3n de crisis se contienen en el t\u00edtulo III."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a021. Funciones y composici\u00f3n del Consejo de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Corresponde al Consejo de Seguridad Nacional ejercer las siguientes funciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Dictar las directrices necesarias en materia de planificaci\u00f3n y coordinaci\u00f3n de la pol\u00edtica de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Dirigir y coordinar las actuaciones de gesti\u00f3n de situaciones de crisis en los t\u00e9rminos previstos en el t\u00edtulo III."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Supervisar y coordinar el Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Verificar el grado de cumplimiento de la Estrategia de Seguridad Nacional y promover e impulsar sus revisiones."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Promover e impulsar la elaboraci\u00f3n de las estrategias de segundo nivel que sean necesarias y proceder, en su caso, a su aprobaci\u00f3n, as\u00ed como a sus revisiones peri\u00f3dicas."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Organizar la contribuci\u00f3n de recursos a la Seguridad Nacional conforme a lo establecido en esta ley."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Aprobar el Informe Anual de Seguridad Nacional antes de su presentaci\u00f3n en las Cortes Generales."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Acordar la creaci\u00f3n y el fortalecimiento de los \u00f3rganos de apoyo necesarios para el desempe\u00f1o de sus funciones."
+      },{
+        "@class": "parrafo",
+        "#text": "i) Impulsar las propuestas normativas necesarias para el fortalecimiento del Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "j) Realizar las dem\u00e1s funciones que le atribuyan las disposiciones legales y reglamentarias que sean de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. A propuesta del Presidente del Gobierno, el Consejo de Seguridad Nacional informar\u00e1 al Rey al menos una vez al a\u00f1o. Cuando el Rey asista a las reuniones del Consejo, lo presidir\u00e1."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La composici\u00f3n del Consejo de Seguridad Nacional se determinar\u00e1 conforme a lo previsto en el apartado\u00a08 de este art\u00edculo. En todo caso, deber\u00e1n formar parte de dicho Consejo:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) El Presidente del Gobierno, que lo presidir\u00e1."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los Vicepresidentes del Gobierno, si los hubiere."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los Ministros de Asuntos Exteriores y de Cooperaci\u00f3n, de Justicia, de Defensa, de Hacienda y Administraciones P\u00fablicas, del Interior, de Fomento, de Industria, Energ\u00eda y Turismo, de Presidencia, de Econom\u00eda y Competitividad y de Sanidad, Servicios Sociales e Igualdad."
+      },{
+        "@class": "parrafo",
+        "#text": "d) El Director del Gabinete de la Presidencia del Gobierno, el Secretario de Estado de Asuntos Exteriores, el Jefe de Estado Mayor de la Defensa, el Secretario de Estado de Seguridad y el Secretario de Estado-Director del Centro Nacional de Inteligencia."
+      },{
+        "@class": "parrafo_2",
+        "#text": "4. El Director del Departamento de Seguridad Nacional ser\u00e1 convocado a las reuniones del Consejo de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Tambi\u00e9n podr\u00e1n formar parte del Consejo, cuando sean convocados en funci\u00f3n de los asuntos a tratar, los titulares de los dem\u00e1s departamentos ministeriales y las autoridades auton\u00f3micas afectadas en la toma de decisiones y actuaciones a desarrollar por parte del Consejo."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Sin perjuicio de lo establecido en los apartados\u00a03 y\u00a04, los titulares de los \u00f3rganos superiores y directivos de la Administraci\u00f3n General del Estado, de los organismos p\u00fablicos, de las Comunidades Aut\u00f3nomas y de las ciudades con Estatuto de Autonom\u00eda, as\u00ed como las autoridades de la Administraci\u00f3n Local, ser\u00e1n convocados a las reuniones del Consejo cuando su contribuci\u00f3n se considere necesaria, y en todo caso cuando los asuntos a tratar afecten a sus respectivas competencias."
+      },{
+        "@class": "parrafo",
+        "#text": "7. Igualmente podr\u00e1n ser convocadas aquellas personas f\u00edsicas o jur\u00eddicas cuya contribuci\u00f3n se considere relevante a la vista de los asuntos a tratar en el orden del d\u00eda."
+      },{
+        "@class": "parrafo",
+        "#text": "8. Mediante real decreto acordado en Consejo de Ministros, a propuesta del Presidente del Gobierno, se desarrollar\u00e1 la concreta composici\u00f3n, organizaci\u00f3n y funciones del Consejo de Seguridad Nacional, en el marco de lo dispuesto en esta ley."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO III"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Gesti\u00f3n de crisis en el marco del Sistema de Seguridad Nacional"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a022. Gesti\u00f3n de crisis."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.La gesti\u00f3n de crisis es el conjunto ordinario de actuaciones dirigidas a detectar y valorar los riesgos y amenazas concretos para la Seguridad Nacional, facilitar el proceso de toma de decisiones y asegurar una respuesta \u00f3ptima y coordinada de los recursos del Estado que sean necesarios."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "2.La gesti\u00f3n de crisis se desarrollar\u00e1 a trav\u00e9s de instrumentos de prevenci\u00f3n, detecci\u00f3n, respuesta, retorno a la normalidad y evaluaci\u00f3n. Su desarrollo ser\u00e1 gradual e implicar\u00e1 a los diferentes \u00f3rganos que componen la estructura del Sistema de Seguridad Nacional, seg\u00fan sus competencias y de acuerdo con la situaci\u00f3n de crisis que se produzca. Asimismo, en la gesti\u00f3n de crisis participar\u00e1n las autoridades de la Comunidad Aut\u00f3noma que, en su caso, resulte afectada."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a023. Situaci\u00f3n de inter\u00e9s para la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.La gesti\u00f3n de crisis se desarrollar\u00e1 en la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional, adapt\u00e1ndose a las espec\u00edficas circunstancias de la misma, de acuerdo con lo dispuesto en este t\u00edtulo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La situaci\u00f3n de inter\u00e9s para la Seguridad Nacional es aquella en la que, por la gravedad de sus efectos y la dimensi\u00f3n, urgencia y transversalidad de las medidas para su resoluci\u00f3n, requiere de la coordinaci\u00f3n reforzada de las autoridades competentes en el desempe\u00f1o de sus atribuciones ordinarias, bajo la direcci\u00f3n del Gobierno, en el marco del Sistema de Seguridad Nacional, garantizando el funcionamiento \u00f3ptimo, integrado y flexible de todos los recursos disponibles, en los t\u00e9rminos previstos en esta ley."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La situaci\u00f3n de inter\u00e9s para la Seguridad Nacional se afrontar\u00e1 con los poderes y medios ordinarios de las distintas Administraciones P\u00fablicas y en ning\u00fan caso podr\u00e1 implicar la suspensi\u00f3n de los derechos fundamentales y libertades p\u00fablicas de los ciudadanos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a024. Declaraci\u00f3n de la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.La situaci\u00f3n de inter\u00e9s para la Seguridad Nacional se declarar\u00e1 por el Presidente del Gobierno mediante real decreto. La declaraci\u00f3n incluir\u00e1, al menos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) La definici\u00f3n de la crisis."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El \u00e1mbito geogr\u00e1fico del territorio afectado."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La duraci\u00f3n y, en su caso, posible pr\u00f3rroga."
+      },{
+        "@class": "parrafo",
+        "#text": "d) El nombramiento, en su caso, de una autoridad funcional, y la determinaci\u00f3n de sus competencias para dirigir y coordinar las actuaciones que procedan."
+      },{
+        "@class": "parrafo",
+        "#text": "e) La determinaci\u00f3n de los recursos humanos y materiales necesarios para afrontar la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional, previstos en los correspondientes planes de preparaci\u00f3n y disposici\u00f3n de recursos, as\u00ed como de otros recursos adicionales que se requieran en cada caso, de acuerdo con lo dispuesto en el t\u00edtulo IV."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. La Declaraci\u00f3n de situaci\u00f3n de inter\u00e9s para la Seguridad Nacional supondr\u00e1 la obligaci\u00f3n de las autoridades competentes de aportar los medios humanos y materiales necesarios que se encuentren bajo su dependencia, para la efectiva aplicaci\u00f3n de los mecanismos de actuaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El Gobierno informar\u00e1 inmediatamente al Congreso de los Diputados de las medidas adoptadas y de la evoluci\u00f3n de la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a025. Funciones del Consejo de Seguridad Nacional en la gesti\u00f3n de crisis."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.El Consejo de Seguridad Nacional determinar\u00e1 los mecanismos de enlace y coordinaci\u00f3n necesarios para que el Sistema de Seguridad Nacional se active preventivamente y realice el seguimiento de los supuestos susceptibles de derivar en una situaci\u00f3n de inter\u00e9s para la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional el Presidente del Gobierno convocar\u00e1 al Consejo de Seguridad Nacional para que ejerza las funciones de direcci\u00f3n y coordinaci\u00f3n de la gesti\u00f3n de dicha Situaci\u00f3n, todo ello sin perjuicio de la aplicaci\u00f3n de la legislaci\u00f3n en materia de Defensa Nacional y de las competencias que correspondan al Consejo de Ministros. En los casos en los que el Presidente del Gobierno decida designar una autoridad funcional para el impulso y la gesti\u00f3n coordinada de las actuaciones, el Consejo de Seguridad Nacional asesorar\u00e1 sobre el nombramiento de dicha autoridad."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El Consejo de Seguridad Nacional asesorar\u00e1 al Presidente del Gobierno cuando la situaci\u00f3n requiera la aplicaci\u00f3n de medidas excepcionales previstas en los instrumentos de gesti\u00f3n de crisis de las organizaciones internacionales de las que Espa\u00f1a sea miembro, todo ello sin perjuicio de las facultades que corresponden al Consejo de Ministros y de lo previsto en la legislaci\u00f3n en materia de Defensa Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a026. \u00d3rganos de coordinaci\u00f3n y apoyo del Consejo de Seguridad Nacional en materia de gesti\u00f3n de crisis."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.En materia de gesti\u00f3n de crisis el Consejo de Seguridad Nacional estar\u00e1 asistido por un Comit\u00e9 Especializado de car\u00e1cter \u00fanico para el conjunto del Sistema de Seguridad Nacional, para lo cual estar\u00e1 apoyado por el Departamento de Seguridad Nacional. Al citado Comit\u00e9 Especializado le corresponder\u00e1, entre otras funciones, elaborar propuestas de las directrices pol\u00edtico-estrat\u00e9gicas y formular recomendaciones para la direcci\u00f3n de las situaciones de inter\u00e9s para la Seguridad Nacional. Ser\u00e1 presidido por el miembro del Consejo de Seguridad Nacional o en su caso la autoridad funcional, que sea designado por el Presidente del Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los instrumentos preventivos de los \u00f3rganos de coordinaci\u00f3n y apoyo del Consejo de Seguridad Nacional podr\u00e1n activarse anticipadamente, para llevar a cabo el an\u00e1lisis y seguimiento de los supuestos susceptibles de derivar en una situaci\u00f3n de inter\u00e9s para la Seguridad Nacional. A estos efectos, todas las Administraciones y organismos p\u00fablicos estar\u00e1n obligados a colaborar de conformidad con lo previsto en esta ley."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO IV"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Contribuci\u00f3n de recursos a la Seguridad Nacional"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a027. La contribuci\u00f3n de recursos a la Seguridad Nacional en el Sistema de Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.La aportaci\u00f3n de recursos humanos y materiales, tanto p\u00fablicos como privados, no adscritos con car\u00e1cter permanente a la Seguridad Nacional, se basar\u00e1 en los principios de contribuci\u00f3n gradual y proporcionada a la situaci\u00f3n que sea necesario afrontar y de indemnidad."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La organizaci\u00f3n de la contribuci\u00f3n de recursos a la Seguridad Nacional recaer\u00e1 en el Consejo de Seguridad Nacional, en coordinaci\u00f3n con las Comunidades Aut\u00f3nomas, en los t\u00e9rminos establecidos en esta ley y en las dem\u00e1s que sean de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las diferentes Administraciones P\u00fablicas, a trav\u00e9s de sus \u00f3rganos competentes, dispondr\u00e1n de un sistema de identificaci\u00f3n, evaluaci\u00f3n y planificaci\u00f3n de medios y recursos correspondientes a sus respectivos \u00e1mbitos competenciales, para hacer frente a los posibles riesgos o amenazas a la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las Comunidades Aut\u00f3nomas y las Entidades Locales colaborar\u00e1n en la elaboraci\u00f3n de los planes de recursos humanos y materiales necesarios para las situaciones de crisis previstas en esta ley."
+      },{
+        "@class": "parrafo",
+        "#text": "5. El sector privado participar\u00e1 en la contribuci\u00f3n de recursos a la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "6. El funcionamiento y organizaci\u00f3n de la contribuci\u00f3n de recursos a la Seguridad Nacional se establecer\u00e1 reglamentariamente de conformidad con lo previsto en esta ley."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a028. Cat\u00e1logo de recursos para la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Gobierno, mediante acuerdo del Consejo de Ministros, a propuesta del Consejo de Seguridad Nacional, proceder\u00e1 a aprobar un cat\u00e1logo de recursos humanos y de medios materiales de los sectores estrat\u00e9gicos de la Naci\u00f3n que puedan ser puestos a disposici\u00f3n de las autoridades competentes en la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional. Su elaboraci\u00f3n se realizar\u00e1 en coordinaci\u00f3n con lo previsto en los cat\u00e1logos sectoriales existentes en el conjunto de las Administraciones P\u00fablicas. A dichos efectos, las Comunidades Aut\u00f3nomas elaborar\u00e1n los correspondientes cat\u00e1logos de recursos en base a sus propias competencias y a la informaci\u00f3n facilitada por el Gobierno, los cuales se integrar\u00e1n en el mencionado cat\u00e1logo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Dicho cat\u00e1logo ser\u00e1 actualizado cuando as\u00ed se establezca por el Gobierno y, en todo caso, cada vez que se revise la Estrategia de Seguridad Nacional, de acuerdo con los nuevos riesgos y amenazas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Una vez aprobado el cat\u00e1logo, los componentes del Sistema de Seguridad Nacional establecer\u00e1n las directrices y procedimientos para capacitar a personas y adecuar aquellos medios e instalaciones, p\u00fablicos y privados, en caso de necesidad. A estos efectos, se elaborar\u00e1n los planes de preparaci\u00f3n y disposici\u00f3n de recursos para la Seguridad Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a029. Declaraci\u00f3n de recursos para la Seguridad Nacional."
+      },{
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.El Gobierno aprobar\u00e1 mediante real decreto la Declaraci\u00f3n de Recursos que se podr\u00e1n emplear en la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional prevista en esta ley. Dicho real decreto incluir\u00e1 la relaci\u00f3n de medios humanos y materiales, tanto p\u00fablicos como privados, que procedan."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La disposici\u00f3n de recursos se efectuar\u00e1 mediante la adscripci\u00f3n al Sistema de Seguridad Nacional del personal, instalaciones y medios, seg\u00fan los planes activados para la situaci\u00f3n de inter\u00e9s para la Seguridad Nacional prevista en esta ley. La adscripci\u00f3n de dichos recursos se realizar\u00e1 tal y como se establezca reglamentariamente, en coordinaci\u00f3n con las Comunidades Aut\u00f3nomas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cualquier perjuicio que se ocasione como consecuencia de la declaraci\u00f3n de recursos para la Seguridad Nacional dar\u00e1 lugar a la correspondiente indemnizaci\u00f3n, de acuerdo con lo dispuesto en las normas legales que resulten de aplicaci\u00f3n y, en concreto, en los art\u00edculos\u00a0139 y siguientes de la Ley\u00a030/1992, de\u00a026 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera."
+      },{
+        "@class": "parrafo",
+        "#text": "Los instrumentos de gesti\u00f3n de crisis y de la contribuci\u00f3n de recursos del Sistema de Seguridad Nacional servir\u00e1n de apoyo en los estados de alarma y de excepci\u00f3n de conformidad con su propia regulaci\u00f3n espec\u00edfica, a decisi\u00f3n del Gobierno, y sin perjuicio de lo dispuesto en la legislaci\u00f3n de Defensa nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Coordinaci\u00f3n con otros instrumentos internacionales de gesti\u00f3n de crisis."
+      },{
+        "@class": "parrafo",
+        "#text": "Las normas y procedimientos de gesti\u00f3n de crisis del Sistema de Seguridad Nacional deber\u00e1n ser compatibles y homologables con los instrumentos de gesti\u00f3n de crisis de las organizaciones internacionales en las que Espa\u00f1a es parte."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. Homologaci\u00f3n de los instrumentos de gesti\u00f3n de crisis."
+      },{
+        "@class": "parrafo",
+        "#text": "Los \u00f3rganos competentes de las distintas Administraciones p\u00fablicas revisar\u00e1n, en el plazo de seis meses desde la entrada en vigor de esta ley, sus normas y procedimientos de actuaci\u00f3n para adecuar y coordinar su funcionamiento en el Sistema de Seguridad Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Comunicaci\u00f3n p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "El Sistema de Seguridad Nacional deber\u00e1 contar con una pol\u00edtica informativa para situaciones de crisis, cuya coordinaci\u00f3n estar\u00e1 a cargo de la autoridad que ejerza de Portavoz del Gobierno."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. Actividad de los Comit\u00e9s Especializados existentes a la entrada en vigor de esta ley y procedimientos de actuaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los Comit\u00e9s Especializados del Consejo de Seguridad Nacional existentes a la entrada en vigor de esta ley, continuar\u00e1n desarrollando sus funciones de acuerdo con los respectivos acuerdos de constituci\u00f3n hasta que sean adaptados a lo dispuesto en esta ley, lo cual deber\u00e1 hacerse en el plazo de tres meses desde su entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En particular, en este proceso de adaptaci\u00f3n de los acuerdos de constituci\u00f3n de los Comit\u00e9s Especializados mencionados en el apartado anterior, se impulsar\u00e1 la adaptaci\u00f3n o preparaci\u00f3n de los procedimientos necesarios para coordinar sus actuaciones con cuantos otros \u00f3rganos colegiados o grupos dependientes de estos confluyan en la gesti\u00f3n de crisis, en el marco de lo previsto en los art\u00edculos\u00a018.2 y\u00a022."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. T\u00edtulos competenciales."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta ley se dicta al amparo de lo dispuesto en el art\u00edculo\u00a0149.1.4.\u00aa y\u00a029.\u00aa de la Constituci\u00f3n que atribuyen al Estado la competencia exclusiva en materia de defensa y Fuerzas Armadas y en materia de seguridad p\u00fablica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Desarrollo reglamentario."
+      },{
+        "@class": "parrafo",
+        "#text": "Se faculta al Gobierno y a los titulares de los departamentos ministeriales, en el \u00e1mbito de sus respectivas competencias, para dictar cuantas disposiciones sean necesarias para la ejecuci\u00f3n y desarrollo de lo establecido en esta ley."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final tercera. Mandato legislativo."
+      },{
+        "@class": "parrafo",
+        "#text": "El Gobierno, en el plazo de un a\u00f1o desde la entrada en vigor de esta ley, deber\u00e1 remitir al Congreso de los Diputados un proyecto de ley reguladora de la preparaci\u00f3n y disposici\u00f3n de la contribuci\u00f3n de recursos a la Seguridad Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final cuarta. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente ley entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Por tanto,"
+      },{
+        "@class": "parrafo",
+        "#text": "Mando a todos los espa\u00f1oles, particulares y autoridades, que guarden y hagan guardar esta ley."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[ignorar]Madrid, 28 de septiembre de 2015."
+      },{
+        "@class": "firma_rey",
+        "#text": "FELIPE R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "El Presidente del Gobierno,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "MARIANO RAJOY BREY"
+      }
+    ]
+  }
+}
+}

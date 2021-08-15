@@ -1,0 +1,1786 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190612132601",
+  "metadatos": {
+    "identificador": "BOE-A-2011-13169",
+    "titulo": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Documento Electr\u00f3nico.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "182",
+    "seccion": "3",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9529",
+      "#text": "Ministerio de Pol\u00edtica Territorial y Administraci\u00f3n P\u00fablica"
+    },
+    "rango": {
+      "@codigo": "1370",
+      "#text": "Resoluci\u00f3n"
+    },
+    "numero_oficial": null,
+    "fecha_disposicion": "20110719",
+    "fecha_publicacion": "20110730",
+    "fecha_vigencia": "20110731",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "87094",
+    "pagina_final": "87107",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2011/07/30/pdfs/BOE-A-2011-13169.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/res/2011/07/19/(3)"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2011-13169"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2011-07-19"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "(3)"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2011-13169"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(3)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/con/20110730"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Documento Electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-07-30"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/con/20110730",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2011-13169"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(3)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-30"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/con/20110730/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Documento Electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-07-30"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/con/20110730"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(3)/con/20110730/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(3)/con/20110730/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "37",
+        "@orden": "220",
+        "#text": "Aplicable desde el 31 de julio de 2011."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "7894",
+          "@orden": "",
+          "#text": "Comunicaciones electr\u00f3nicas"
+        },{
+          "@codigo": "3086",
+          "@orden": "",
+          "#text": "Documentos p\u00fablicos"
+        },{
+          "@codigo": "3716",
+          "@orden": "",
+          "#text": "Firma electr\u00f3nica"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5703",
+          "@orden": "",
+          "#text": "Procedimiento administrativo"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "7869",
+          "@orden": "",
+          "#text": "Registros telem\u00e1ticos"
+        },{
+          "@codigo": "6020",
+          "@orden": "",
+          "#text": "Reglamentaciones t\u00e9cnicas"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2010-1331",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
+          },{
+            "@referencia": "BOE-A-2007-12352",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Ley 11/2007, de 22 de junio"
+          }
+        ]
+      },
+      "posteriores": null
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo\u00a042 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
+      },{
+        "@class": "parrafo",
+        "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, las normas relativas al documento electr\u00f3nico, al expediente electr\u00f3nico, a la digitalizaci\u00f3n de documentos en soporte papel, a los procedimientos de copiado aut\u00e9ntico y conversi\u00f3n y a la pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos responden a lo previsto en el citado Real Decreto 4/2010, de 8 de enero, sobre interoperabilidad, recuperaci\u00f3n y conservaci\u00f3n del documento electr\u00f3nico, a la luz de la necesidad de garantizar todos estos aspectos para el documento electr\u00f3nico a lo largo del tiempo."
+      },{
+        "@class": "parrafo",
+        "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico establece los componentes del documento electr\u00f3nico, incluyendo contenido, firma electr\u00f3nica y metadatos m\u00ednimos obligatorios, y su formato, as\u00ed como las condiciones para su intercambio y reproducci\u00f3n; para los aspectos relativos a la gesti\u00f3n y conservaci\u00f3n de los documentos electr\u00f3nicos se remite a la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos; finalmente, se incluye en anexo la definici\u00f3n detallada de los metadatos m\u00ednimos obligatorios, los esquemas XML para intercambio de documentos y la informaci\u00f3n b\u00e1sica de firma de documentos electr\u00f3nicos. En este sentido, la estructura de documento electr\u00f3nico definida en esta norma permite la utilizaci\u00f3n de las firmas electr\u00f3nicas contempladas en la Decisi\u00f3n de la Comisi\u00f3n\u00a02011/130/EU de 25 de febrero de 2011 por la que se establecen los requisitos m\u00ednimos para el tratamiento transfronterizo de los documentos firmados electr\u00f3nicamente por las autoridades competentes en virtud de la Directiva 2006/123/CE del Parlamento Europeo y del Consejo relativa a los servicios en el mercado interior."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero,"
+      },{
+        "@class": "parrafo",
+        "#text": "Esta Secretar\u00eda de Estado resuelve:"
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Primero."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico, cuyo texto se incluye a continuaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Segundo."
+      },{
+        "@class": "parrafo",
+        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la Disposici\u00f3n Transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Madrid, 19 de julio de 2011.\u2013La Secretaria de Estado para la Funci\u00f3n P\u00fablica, Mar\u00eda Consuelo Rum\u00ed Ib\u00e1\u00f1ez."
+      },{
+        "@class": "anexo",
+        "#text": "[encabezado]NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE DOCUMENTO ELECTR\u00d3NICO"
+      },{
+        "@class": "centro_negrita",
+        "#text": "[indice]\u00cdndice"
+      },{
+        "@class": "parrafo_2",
+        "#text": "I. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "III. Componentes del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "IV. Firma del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "V. Metadatos del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "VI. Formato de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "VII. Intercambio de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "VIII. Acceso a documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo I. Metadatos m\u00ednimos obligatorios del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo II. Esquemas XML para intercambio de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo III. Informaci\u00f3n b\u00e1sica de la firma de documentos electr\u00f3nicos. [fin indice]"
+      },{
+        "@class": "parrafo_2",
+        "#text": "[preambulo]I. Objeto."
+      },{
+        "@class": "parrafo_2",
+        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico tiene por objeto establecer los componentes del documento electr\u00f3nico, contenido, en su caso, firma electr\u00f3nica y metadatos, as\u00ed como la estructura y formato para su intercambio."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[precepto]II. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Esta norma ser\u00e1 de aplicaci\u00f3n en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica a:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Documentos administrativos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Cualquier otro documento electr\u00f3nico susceptible de formar parte de un expediente electr\u00f3nico."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[precepto]III. Componentes del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Los componentes de un documento electr\u00f3nico son:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Contenido, entendido como conjunto de datos o informaci\u00f3n del documento."
+      },{
+        "@class": "parrafo",
+        "#text": "b) En su caso, firma electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Metadatos del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[precepto]IV. Firma del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Los documentos administrativos electr\u00f3nicos, y aquellos susceptibles de formar parte de un expediente, tendr\u00e1n siempre asociada al menos una firma electr\u00f3nica de acuerdo con la normativa aplicable."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[precepto]V. Metadatos del documento electr\u00f3nico."
+      },{
+        "@class": "parrafo_2",
+        "#text": "V.1 Los metadatos m\u00ednimos obligatorios del documento electr\u00f3nico:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Ser\u00e1n los definidos en el anexo I."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Estar\u00e1n presentes en cualquier proceso de intercambio de documentos electr\u00f3nicos entre \u00f3rganos de la Administraci\u00f3n y Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla y con el ciudadano."
+      },{
+        "@class": "parrafo",
+        "#text": "c) No ser\u00e1n modificados en ninguna fase posterior del procedimiento administrativo, a excepci\u00f3n de modificaciones necesarias para la correcci\u00f3n de errores u omisiones en el valor inicialmente asignado."
+      },{
+        "@class": "parrafo_2",
+        "#text": "V.2 Se podr\u00e1n asignar metadatos complementarios para atender a necesidades de descripci\u00f3n espec\u00edficas."
+      },{
+        "@class": "parrafo",
+        "#text": "Estos metadatos complementarios se aplicar\u00e1n, en su caso, de acuerdo con lo previsto en la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "V.3 Cada \u00f3rgano de la Administraci\u00f3n y Entidad de Derecho P\u00fablico vinculada o dependiente de aqu\u00e9lla implementar\u00e1 en su propio \u00e1mbito de actuaci\u00f3n los metadatos de los documentos electr\u00f3nicos para su tratamiento y gesti\u00f3n a nivel interno. Adem\u00e1s, garantizar\u00e1 la disponibilidad e integridad de los metadatos de sus documentos electr\u00f3nicos, manteniendo de manera permanente las relaciones entre el documento y sus metadatos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[precepto]VI. Formato de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "VI.1 Los ficheros de contenido de los documentos electr\u00f3nicos se ajustar\u00e1n a los formatos establecidos en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
+      },{
+        "@class": "parrafo",
+        "#text": "VI.2 La elecci\u00f3n del formato se realizar\u00e1 conforme a la naturaleza de la informaci\u00f3n a tratar primando la finalidad para la cual fue definido cada formato."
+      },{
+        "@class": "parrafo",
+        "#text": "VI.3 Se podr\u00e1n utilizar otros formatos cuando existan particularidades que lo justifiquen o sea necesario para asegurar el valor probatorio del documento electr\u00f3nico y su fiabilidad como evidencia electr\u00f3nica de las actividades y procedimientos en caso de proceder a su conversi\u00f3n de formato."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[precepto]VII. Intercambio de documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "VII.1 Todo documento electr\u00f3nico objeto de intercambio tendr\u00e1 los componentes definidos en el apartado III de esta norma."
+      },{
+        "@class": "parrafo",
+        "#text": "VII.2 El intercambio de documentos electr\u00f3nicos se realizar\u00e1 mediante su env\u00edo seg\u00fan la estructura definida en el anexo II, sin perjuicio de la aplicaci\u00f3n de otras reguladas por su normativa espec\u00edfica."
+      },{
+        "@class": "parrafo",
+        "#text": "VII.3 Excepcionalmente, se podr\u00e1n aplicar otras estructuras para el intercambio de documentos electr\u00f3nicos entre Administraciones p\u00fablicas, cuando exista acuerdo previo entre las partes. En cualquier caso, si debe enviarse a un tercero, la estructura utilizada ser\u00e1 convertida por el emisor a la estructura definida en el anexo II."
+      },{
+        "@class": "parrafo",
+        "#text": "VII.4 Para el intercambio de documentos electr\u00f3nicos, entre Administraciones p\u00fablicas, en procesos de actuaci\u00f3n automatizada:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Se utilizar\u00e1 preferentemente la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas como medio para la transmisi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Si el documento electr\u00f3nico forma parte de un asiento registral, \u00e9ste ser\u00e1 tratado como documento adjunto al mensaje de datos de intercambio seg\u00fan lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Modelo de Datos para el intercambio de asientos entre las Entidades Registrales."
+      },{
+        "@class": "parrafo_2",
+        "#text": "VII.5 En caso de intercambio de documentos electr\u00f3nicos entre Administraciones p\u00fablicas que suponga una transferencia de custodia o traspaso de responsabilidad de gesti\u00f3n de documentos que deban conservarse permanentemente, el \u00f3rgano o entidad trasferidora verificar\u00e1 la autenticidad e integridad del documento en el momento de dicho intercambio."
+      },{
+        "@class": "parrafo_2",
+        "#text": "[precepto]VIII. Acceso a documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Cuando las administraciones p\u00fablicas faciliten el acceso a los documentos electr\u00f3nicos a trav\u00e9s de sus sedes electr\u00f3nicas o de los canales de comunicaci\u00f3n que correspondan en cada caso, se mostrar\u00e1:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) El contenido del documento electr\u00f3nico cuando \u00e9ste sea representable conforme a lo recogido sobre formatos en el apartado VI de esta norma."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La informaci\u00f3n b\u00e1sica de cada una de las firmas del documento definida en el anexo III."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Descripci\u00f3n y valor de los metadatos m\u00ednimos obligatorios."
+      },{
+        "@class": "anexo_num",
+        "#text": "[encabezado]ANEXO I"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Metadatos m\u00ednimos obligatorios del documento electr\u00f3nico"
+      },{
+        "@class": "cita",
+        "sup": "1",
+        "#text": "N\u00f3tese que la repetibilidad indicada en la tabla s\u00f3lo se refiere a los metadatos que acompa\u00f1an al documento electr\u00f3nico en un intercambio, sin perjuicio de la posibilidad de asignaci\u00f3n de otros metadatos gestionados a nivel interno de cada administraci\u00f3n cuyas consideraciones atender\u00e1n a la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+      },{
+        "@class": "cita",
+        "sup": "2",
+        "#text": "Codificaci\u00f3n del Identificador del documento:"
+      },{
+        "@class": "cita",
+        "#text": "<\u00d3rgano>: V\u00e9ase codificaci\u00f3n del metadato \u00ab\u00d3rgano\u00bb. En caso de m\u00e1s un \u00f3rgano los nueve caracteres correspondientes ser\u00e1n acordados entre las partes con el fin de asegurarla unicidad del identificador que es su \u00fanico fin."
+      },{
+        "@class": "cita",
+        "#text": "<AAAA>: A\u00f1o de la fecha de captura del documento. (Longitud: 4 caracteres)."
+      },{
+        "@class": "cita",
+        "#text": "<ID espec\u00edfico>: C\u00f3digo alfanum\u00e9rico que identifica de forma \u00fanica al documento dentro de los generados por la administraci\u00f3n responsable. Cada administraci\u00f3n puede dise\u00f1ar el proceso de generaci\u00f3n seg\u00fan sus necesidades, asegurando en cualquier caso su unicidad. Por lo tanto, este ID puede generarse de forma secuencia) o bien, ser una r\u00e9plica del ID utilizado a nivel interno de la administraci\u00f3n. (Longitud: 30 caracteres)."
+      },{
+        "@class": "anexo_num",
+        "#text": "[encabezado]ANEXO II"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Esquemas XML para intercambio de documentos electr\u00f3nicos"
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_001.png",
+          "@width": "750",
+          "@height": "566"
+        }
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_002.png",
+          "@width": "750",
+          "@height": "635"
+        }
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_003.png",
+          "@width": "750",
+          "@height": "594"
+        }
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_004.png",
+          "@width": "750",
+          "@height": "1130"
+        }
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_005.png",
+          "@width": "750",
+          "@height": "1051"
+        }
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_006.png",
+          "@width": "750",
+          "@height": "728"
+        }
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_007.png",
+          "@width": "750",
+          "@height": "1097"
+        }
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13169_008.png",
+          "@width": "750",
+          "@height": "85"
+        },
+        "p": [
+          {
+            "@class": "anexo_num",
+            "#text": "ANEXO III"
+          },{
+            "@class": "anexo_tit",
+            "#text": "Informaci\u00f3n b\u00e1sica de la firma de documentos electr\u00f3nicos"
+          }
+        ],
+        "table": {
+          "@class": "tabla_ancha",
+          "tr": [
+            {
+              "td": [
+                {
+                  "p": {
+                    "@class": "cabeza_tabla",
+                    "#text": "Tipo de firma"
+                  }
+                },{
+                  "p": {
+                    "@class": "cabeza_tabla",
+                    "#text": "Informaci\u00f3n"
+                  }
+                },{
+                  "p": {
+                    "@class": "cabeza_tabla",
+                    "#text": "Localizaci\u00f3n"
+                  }
+                }
+              ]
+            },{
+              "td": [
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "CSV"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Valor del c\u00f3digo seguro de verificaci\u00f3n."
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Metadato del documento electr\u00f3nico."
+                  }
+                }
+              ]
+            },{
+              "td": [
+                {
+                  "@rowspan": "4",
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Firma basada en certificados"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Validez de la firma."
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Seg\u00fan reglas de validaci\u00f3n de firma descritas en la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y certificados de la Administraci\u00f3n."
+                  }
+                }
+              ]
+            },{
+              "td": [
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Informaci\u00f3n del firmante(s) del documento (persona f\u00edsica, jur\u00eddica o sello de \u00f3rgano)."
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Propiedades o etiquetas de la firma."
+                  }
+                }
+              ]
+            },{
+              "td": [
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Emisor del certificado del firmante(s)."
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Propiedades o etiquetas de la firma."
+                  }
+                }
+              ]
+            },{
+              "td": [
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Fecha y hora de la firma(s)."
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Propiedades o etiquetas de la firma."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "table": {
+      "@class": "tabla_ancha",
+      "tr": [
+        {
+          "td": [
+            {
+              "p": {
+                "@class": "cabeza_tabla",
+                "#text": "Metadato"
+              }
+            },{
+              "p": {
+                "@class": "cabeza_tabla",
+                "#text": "Descripci\u00f3n/Condiciones de uso"
+              }
+            },{
+              "p": {
+                "@class": "cabeza_tabla",
+                "sup": "1",
+                "#text": "\u00bfRepetible?"
+              }
+            },{
+              "p": {
+                "@class": "cabeza_tabla",
+                "#text": "Tipo"
+              }
+            },{
+              "p": {
+                "@class": "cabeza_tabla",
+                "#text": "Esquema de valores"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Versi\u00f3n N11"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Identificador normalizado de la versi\u00f3n de la Norma T\u00e9cnica de Interoperabilidad de Documento electr\u00f3nico conforme a la cual se estructura el documento electr\u00f3nico."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "URI"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Identificador"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Identificador normalizado del documento."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": [
+                {
+                  "@class": "cuerpo_tabla_izq",
+                  "sup": "2",
+                  "#text": "ES_ <\u00d3rgano>_<AAAA>_<ID espec\u00edfico>"
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ejemplo: ES E00010207 2010 MPR000000000000000000000010207"
+                }
+              ]
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u00d3rgano"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Identificador normalizado de la administraci\u00f3n generadora del documento o que realiza la captura del mismo."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1:N"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "C\u00f3digo alfanum\u00e9rico \u00fanico para cada \u00f3rgano/unidad/oficina extra\u00eddo del Directorio Com\u00fan gestionado por el Ministerio de Pol\u00edtica Territorial y Administraci\u00f3n P\u00fablica."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Fecha de captura"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Fecha de alta del documento en el sistema de gesti\u00f3n documental."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Fecha/hora"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Formato: AAAAMMDD T HH:MM:SS <ISO 8601>"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Origen"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Indica si el contenido del documento fue creado por un ciudadano o por una administraci\u00f3n."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "L\u00f3gico"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u20180\u2019 = Ciudadano \u20181\u2019 = Administraci\u00f3n"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Estado de elaboraci\u00f3n"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Indica la naturaleza del documento. Si es copia, este metadato indica tambi\u00e9n si se ha realizado una digitalizaci\u00f3n o conversi\u00f3n de formato en el proceso de generaci\u00f3n."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": [
+                {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013 Original (Ley 11/2007 Ad. 30)."
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013 Copia electr\u00f3nica aut\u00e9ntica con cambio de formato (Ley 11/2007Art.30.1)."
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013 Copia electr\u00f3nica aut\u00e9ntica de documento papel (Ley 11/2007 Art.30.2 y 30.3)."
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013 Copia electr\u00f3nica parcial aut\u00e9ntica. Otros."
+                }
+              ]
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Nombre de formato"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Formato l\u00f3gico del fichero de contenido del documento electr\u00f3nico."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Valor extra\u00eddo de la lista de formatos admitidos para ficheros definidos en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Documentos de decisi\u00f3n:"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Resoluci\u00f3n."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Acuerdo."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Contrato."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Convenio."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Declaraci\u00f3n."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Documentos de transmisi\u00f3n:"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Comunicaci\u00f3n."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Notificaci\u00f3n."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Publicaci\u00f3n."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Acuse de recibo."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "@rowspan": "3",
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Tipo documental"
+              }
+            },{
+              "@rowspan": "3",
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Descripci\u00f3n del tipo documental del documento."
+              }
+            },{
+              "@rowspan": "3",
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "@rowspan": "3",
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Documentos de constancia:"
+              }
+            }
+          ]
+        },{
+          "td": {
+            "p": {
+              "@class": "cuerpo_tabla_izq",
+              "#text": "\u2013 Acta."
+            }
+          }
+        },{
+          "td": {
+            "p": {
+              "@class": "cuerpo_tabla_izq",
+              "#text": "\u2013 Certificado."
+            }
+          }
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Diligencia."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Documentos de juicio:"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Informe."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Documentos de ciudadano:"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Solicitud."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Denuncia."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Alegaci\u00f3n."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Recursos."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Comunicaci\u00f3n ciudadano."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Factura."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "\u2013 Otros incautados."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_centro"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Otros."
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Tipo de firma"
+              }
+            },{
+              "p": [
+                {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Indica el tipo de firma que avala el documento."
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "En caso de firma con certificado, indica el formato de la firma."
+                }
+              ]
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1:N"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": [
+                {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013 CSV"
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013 Formatos de firma electr\u00f3nica de documentos electr\u00f3nicos definidos en la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y certificados de la Administraci\u00f3n."
+                }
+              ]
+            }
+          ]
+        },{
+          "td": {
+            "@colspan": "5",
+            "p": {
+              "@class": "cuerpo_tabla_izq",
+              "#text": "Si \u00abTipo de firma\u00bb = CSV"
+            }
+          }
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Valor CSV"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Valor del CSV."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1:N"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "NIA"
+              }
+            }
+          ]
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Definici\u00f3n generaci\u00f3n CSV"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Referencia a la Orden, Resoluci\u00f3n o documento que define la creaci\u00f3n del CSV correspondiente."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1:N"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": [
+                {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Si AGE:"
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Referencia BOE:BOE A YYYY-XXXXX"
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "En otro caso, referencia correspondiente."
+                }
+              ]
+            }
+          ]
+        },{
+          "td": {
+            "@colspan": "5",
+            "p": {
+              "@class": "cuerpo_tabla_izq",
+              "#text": "Si \u00abEstado de elaboraci\u00f3n\u00bb ="
+            }
+          }
+        },{
+          "td": {
+            "@colspan": "5",
+            "p": {
+              "@class": "cuerpo_tabla_izq",
+              "#text": "\u2013 Copia electr\u00f3nica aut\u00e9ntica con cambio de formato (Ley 11/2007Art.30.1)."
+            }
+          }
+        },{
+          "td": {
+            "@colspan": "5",
+            "p": {
+              "@class": "cuerpo_tabla_izq",
+              "#text": "\u2013 Copia electr\u00f3nica parcial aut\u00e9ntica."
+            }
+          }
+        },{
+          "td": [
+            {
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Identificador de documento origen"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Identificador normalizado del documento origen al que corresponde la copia."
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "1"
+              }
+            },{
+              "p": {
+                "@class": "cuerpo_tabla_izq",
+                "#text": "Cadena de caracteres"
+              }
+            },{
+              "p": [
+                {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Si el documento origen es un documento electr\u00f3nico:"
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "ES_<\u00d3rgano>_<AAAA>_<ID espec\u00edfico>"
+                },{
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ejemplo: ES\u2013E00010207\u20132010 MPR000000000000000000000010207"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+}

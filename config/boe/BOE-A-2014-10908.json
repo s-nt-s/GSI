@@ -1,0 +1,796 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190617182602",
+  "metadatos": {
+    "identificador": "BOE-A-2014-10908",
+    "titulo": "Orden HAP/1949/2014, de 13 de octubre, por la que se regula el Punto de Acceso General de la Administraci\u00f3n General del Estado y se crea su sede electr\u00f3nica.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "260",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9216",
+      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+    },
+    "rango": {
+      "@codigo": "1350",
+      "#text": "Orden"
+    },
+    "numero_oficial": "HAP/1949/2014",
+    "fecha_disposicion": "20141013",
+    "fecha_publicacion": "20141027",
+    "fecha_vigencia": "20141028",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "87164",
+    "pagina_final": "87171",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": "/diario_boe/epub.php?id=BOE-A-2014-10908",
+    "url_pdf": "/boe/dias/2014/10/27/pdfs/BOE-A-2014-10908.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/o/2014/10/13/hap1949"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/o"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2014-10908"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2014-10-13"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "hap1949"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/o"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2014-10908"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-10-13"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "hap1949"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949"
+              },
+              "eli:consolidated_by": [
+                {
+                  "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20151126"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20141027"
+                }
+              ],
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Orden HAP/1949/2014, de 13 de octubre, por la que se regula el Punto de Acceso General de la Administraci\u00f3n General del Estado y se crea su sede electr\u00f3nica."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2014-10-27"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa/epub",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20151126",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/o"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2014-10908"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-10-13"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "hap1949"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2015-11-26"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20151126/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Orden HAP/1949/2014, de 13 de octubre, por la que se regula el Punto de Acceso General de la Administraci\u00f3n General del Estado y se crea su sede electr\u00f3nica."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2015-11-26"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20151126"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20151126/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20151126/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20141027",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/o"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2014-10908"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-10-13"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "hap1949"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-10-27"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20141027/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Orden HAP/1949/2014, de 13 de octubre, por la que se regula el Punto de Acceso General de la Administraci\u00f3n General del Estado y se crea su sede electr\u00f3nica."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2014-10-27"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20141027"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20141027/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/o/2014/10/13/hap1949/con/20141027/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": null,
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "82",
+          "@orden": "",
+          "#text": "Administraci\u00f3n General del Estado"
+        },{
+          "@codigo": "3685",
+          "@orden": "",
+          "#text": "Ficheros con datos personales"
+        },{
+          "@codigo": "4506",
+          "@orden": "",
+          "#text": "Internet"
+        },{
+          "@codigo": "7869",
+          "@orden": "",
+          "#text": "Registros telem\u00e1ticos"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "111",
+          "@orden": "",
+          "#text": "Derecho Constitucional"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2014-24",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "lo indicado de la Orden HAP/2478/2013, de 20 de diciembre"
+          },{
+            "@referencia": "BOE-A-2009-18358",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "el t\u00edtulo II del Real Decreto 1671/2009, de 6 de noviembre"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2015-12792",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "235",
+              "#text": "SE SUPRIME"
+            },
+            "texto": "el anexo, por Orden HAP/2503/2015, de 25 de noviembre"
+          },{
+            "@referencia": "BOE-A-2019-3910",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": ", y se crean sedes electr\u00f3nicas derivadas: Orden TFP/303/2019, de 12 de marzo"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "En el marco de las reformas estructurales iniciadas por el Gobierno de la Naci\u00f3n, el pasado 26 de octubre de 2012 se acord\u00f3 por el Consejo de Ministros la creaci\u00f3n de una Comisi\u00f3n para la Reforma de las Administraciones P\u00fablicas (CORA) con el expreso objeto de realizar un estudio integral de la situaci\u00f3n de las Administraciones P\u00fablicas en Espa\u00f1a y de proponer las reformas que ser\u00eda necesario introducir en las mismas para dotarlas del tama\u00f1o, la eficiencia y la flexibilidad demandadas por los ciudadanos y la econom\u00eda del pa\u00eds, y para transformar su estructura con vistas a posibilitar el crecimiento econ\u00f3mico, la prestaci\u00f3n efectiva de los servicios p\u00fablicos y eliminar aquellas disfuncionalidades y defectos que pudieran dificultar ambos."
+      },{
+        "@class": "parrafo",
+        "#text": "Entre otras medidas de reforma, CORA ha propuesto al Gobierno el establecimiento del Punto de Acceso General (PAG) como punto de entrada general, v\u00eda Internet, del ciudadano a las Administraciones P\u00fablicas. El fundamento de esta medida es la constataci\u00f3n de que en el momento actual existe una gran dispersi\u00f3n de la informaci\u00f3n de las Administraciones en distintos portales y p\u00e1ginas web, que provoca dificultades en el acceso de los ciudadanos a los procedimientos y servicios administrativos, informaciones duplicadas y falta de una coordinaci\u00f3n adecuada en todas estas materias."
+      },{
+        "@class": "parrafo",
+        "#text": "El PAG dispone de cobertura normativa en la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos, cuyo art\u00edculo 8 apartado 2, determina que la Administraci\u00f3n General del Estado (AGE) contar\u00e1 con un sistema de varios canales o medios para garantizar a todos los ciudadanos la prestaci\u00f3n de servicios electr\u00f3nicos. Y en la letra b) de dicho apartado se\u00f1ala expresamente que, entre los puntos de acceso electr\u00f3nico, se crear\u00e1 un Punto de Acceso General a trav\u00e9s del cual, los ciudadanos puedan, en sus relaciones con la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos, acceder a toda la informaci\u00f3n y a los servicios disponibles."
+      },{
+        "@class": "parrafo",
+        "#text": "Por su parte, el Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, tanto en su pre\u00e1mbulo, como en sus art\u00edculos 7, 8, 9, 24 y 31, define las caracter\u00edsticas b\u00e1sicas que deber\u00e1 tener el Punto y se\u00f1ala que habr\u00e1 de contener la sede electr\u00f3nica que, en este \u00e1mbito, facilita el acceso a los servicios, procedimientos e informaciones accesibles de la Administraci\u00f3n General del Estado y de los organismos p\u00fablicos vinculados o dependientes de la misma."
+      },{
+        "@class": "parrafo",
+        "#text": "Las funciones principales del citado Punto, como posibilitar el acceso a la informaci\u00f3n y servicios de la Administraci\u00f3n General del Estado, Comunidades Aut\u00f3nomas y Entidades Locales, han venido realiz\u00e1ndose parcialmente en los \u00faltimos a\u00f1os a trav\u00e9s del sitio web Portal 060 (www.060.es), establecido en el \u00e1mbito de la Red 060 de Atenci\u00f3n al Ciudadano, creada al amparo del Acuerdo de Consejo de Ministros de 15 julio de 2005 y, por ende, establecida con anterioridad a la propia ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "En ejecuci\u00f3n de esta medida, y de las disposiciones normativas de la Ley 11/2007, de 22 de junio, y su Real Decreto de desarrollo, se dicta la presente orden, que tiene por finalidad la creaci\u00f3n del PAG, la definici\u00f3n de su contenido y de su r\u00e9gimen de gobernanza y gesti\u00f3n, as\u00ed como la creaci\u00f3n de un fichero de datos de acuerdo con las previsiones de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal."
+      },{
+        "@class": "parrafo",
+        "#text": "Adicionalmente, esta orden se dirige a crear la sede electr\u00f3nica del PAG, en cumplimiento de las previsiones del Real Decreto 1671/2009, de 6 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "La citada ley 11/2007, de 22 junio, estableci\u00f3 el concepto de sede electr\u00f3nica, que define en el art\u00edculo 10, apartado 1, como aquella direcci\u00f3n electr\u00f3nica disponible para los ciudadanos a trav\u00e9s de redes de telecomunicaciones cuya titularidad, gesti\u00f3n y administraci\u00f3n corresponde a una Administraci\u00f3n P\u00fablica, \u00f3rgano o entidad administrativa en el ejercicio de sus competencias, se\u00f1alando en el n\u00famero 3 del mismo precepto que cada Administraci\u00f3n P\u00fablica determinar\u00e1 las condiciones e instrumentos de creaci\u00f3n de sus sedes electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Por su parte, el Real Decreto 1671/2009, de 6 de noviembre, determina espec\u00edficamente en su T\u00edtulo II, que las sedes electr\u00f3nicas se crear\u00e1n mediante orden del Ministro correspondiente o resoluci\u00f3n del titular del organismo p\u00fablico, que deber\u00e1 publicarse en el \u00abBolet\u00edn Oficial del Estado\u00bb, se\u00f1alando el contenido m\u00ednimo de la misma."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente orden ha sido sometida al previo informe de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos, de conformidad con lo dispuesto en el art\u00edculo 37, p\u00e1rrafo h), de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal y ha sido informada por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "En su virtud, a propuesta del Ministro de Hacienda y Administraciones P\u00fablicas, dispongo:"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Disposiciones generales"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente orden tiene por objeto la regulaci\u00f3n del Punto de Acceso General (en adelante PAG) y de su sede electr\u00f3nica, as\u00ed como la regulaci\u00f3n del fichero de datos de car\u00e1cter personal de la misma."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Punto de Acceso General"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. Alcance y caracter\u00edsticas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El PAG, con los dominios www.administracion.es y www.administracion.gob.es, ofrecer\u00e1 a los ciudadanos y empresas la informaci\u00f3n sobre los procedimientos y servicios de los Departamentos ministeriales y de los Organismos p\u00fablicos vinculados o dependientes y reunir\u00e1 la informaci\u00f3n de la actividad y la organizaci\u00f3n de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El PAG contiene adem\u00e1s el acceso a la sede electr\u00f3nica asociada al mismo, de acuerdo con las caracter\u00edsticas previstas en el art\u00edculo 7."
+      },{
+        "@class": "parrafo",
+        "#text": "A este efecto, los Departamentos ministeriales y los Organismos p\u00fablicos vinculados o dependientes deber\u00e1n coordinar sus sedes electr\u00f3nicas con la sede del PAG en los t\u00e9rminos previstos en el art\u00edculo 5."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El PAG proporcionar\u00e1 informaci\u00f3n sobre los procedimientos y servicios correspondientes a otras Administraciones P\u00fablicas, mediante la formalizaci\u00f3n de los correspondientes instrumentos de colaboraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Sin perjuicio de estos instrumentos, el acceso a procedimientos, servicios, e informaciones de las Administraciones P\u00fablicas, as\u00ed como el intercambio de informaci\u00f3n entre ellas, se ajustar\u00e1 a lo previsto en los art\u00edculos 8 y 9 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Respecto a la coordinaci\u00f3n del PAG con los portales electr\u00f3nicos de los organismos internacionales y de las Administraciones P\u00fablicas extranjeras, especialmente de la Uni\u00f3n Europea y sus Estados miembros, se estar\u00e1 a lo dispuesto en la normativa correspondiente o a los convenios y acuerdos que pudieran existir. Las actuaciones de coordinaci\u00f3n con los portales de la Uni\u00f3n Europea se canalizar\u00e1n a trav\u00e9s de la Representaci\u00f3n Permanente de Espa\u00f1a en la misma."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. Contenido y funcionalidades."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El PAG deber\u00e1 garantizar, de forma gradual y progresiva a medida que los recursos y desarrollos t\u00e9cnicos lo permitan, el acceso a los siguientes servicios:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Los portales de los Departamentos ministeriales y Organismos p\u00fablicos vinculados o dependientes."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Su sede electr\u00f3nica y las sedes electr\u00f3nicas de los Departamentos ministeriales y de los Organismos p\u00fablicos vinculados o dependientes."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los servicios que la Administraci\u00f3n pone a disposici\u00f3n de los ciudadanos y especialmente, los m\u00e1s usados por los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Portal de transparencia."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Otros portales destacados de \u00e1mbito estatal como el portal de Datos abiertos, la Ventanilla \u00danica de la Directiva de Servicios y aquellos de similar naturaleza."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Las \u00e1reas restringidas o privadas para los usuarios."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. Adem\u00e1s, el PAG contendr\u00e1 informaci\u00f3n administrativa de car\u00e1cter horizontal de los Departamentos ministeriales y Organismos p\u00fablicos, vinculados o dependientes como las ayudas, becas, subvenciones, empleo p\u00fablico y legislaci\u00f3n, que sean de inter\u00e9s para el ciudadano."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El PAG tendr\u00e1 un espacio dedicado a la participaci\u00f3n ciudadana y posibilitar\u00e1 la interactuaci\u00f3n del ciudadano a trav\u00e9s de las redes sociales m\u00e1s extendidas. Tambi\u00e9n dispondr\u00e1 de los mecanismos precisos que faciliten el acceso de sus contenidos a los diferentes dispositivos m\u00f3viles existentes, a medida que los recursos y desarrollos t\u00e9cnicos lo permitan."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Acceso."
+      },{
+        "@class": "parrafo",
+        "#text": "Ser\u00e1n canales de acceso a los servicios del PAG:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Para el acceso electr\u00f3nico, Internet, con las caracter\u00edsticas definidas en el art\u00edculo 2."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Para la atenci\u00f3n presencial, la oficina 060 de calle Mar\u00eda de Molina, 50 (Madrid), as\u00ed como las Oficinas 060 de Delegaciones y Subdelegaciones del Gobierno y de Direcciones Insulares, conforme a las competencias definidas en las normas reguladoras de la organizaci\u00f3n ministerial y el resto de las oficinas de las Administraciones P\u00fablicas en el marco de los convenios suscritos o que pudieran suscribirse, sin perjuicio del acceso a trav\u00e9s de los registros regulados en el art\u00edculo 38 de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Para la atenci\u00f3n telef\u00f3nica, los servicios de informaci\u00f3n departamental, en el tel\u00e9fono 060."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. Titularidad y gesti\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. De acuerdo con lo regulado en el Real Decreto 1671/2009, de 6 de noviembre, la titularidad del PAG corresponder\u00e1 al Ministerio de Hacienda y Administraciones P\u00fablicas, que establecer\u00e1 los principios generales y directrices b\u00e1sicos de funcionamiento del mismo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La gesti\u00f3n del PAG corresponde a la Direcci\u00f3n General de Organizaci\u00f3n Administrativa y Procedimientos que la ejercer\u00e1 a trav\u00e9s de la Subdirecci\u00f3n General de la Inspecci\u00f3n General de Servicios de la Administraci\u00f3n General del Estado y Atenci\u00f3n al Ciudadano, en coordinaci\u00f3n con la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, de acuerdo con lo previsto en el art\u00edculo 16.1.e) del Real Decreto 256/2012, de 27 de enero, por el que se desarrolla la estructura org\u00e1nica b\u00e1sica del Ministerio de Hacienda y Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cada Departamento ministerial u Organismo p\u00fablico se responsabilizar\u00e1 de la provisi\u00f3n y actualizaci\u00f3n de la informaci\u00f3n que provea el portal en relaci\u00f3n a sus procedimientos, servicios e informaciones a trav\u00e9s de los mecanismos que se establezcan."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. Gobernanza."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Con el fin de garantizar una adecuada coordinaci\u00f3n de la informaci\u00f3n contenida en el PAG y asegurar los necesarios niveles de colaboraci\u00f3n para posibilitar la actualizaci\u00f3n permanente de la informaci\u00f3n y su adecuaci\u00f3n a las demandas de los ciudadanos, se crea un Grupo de Trabajo, de acuerdo con lo dispuesto en el art\u00edculo 40.3 de la Ley 6/1997, de 14 de noviembre, de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado, adscrito a la Direcci\u00f3n General de Organizaci\u00f3n Administrativa y Procedimientos. Este grupo contar\u00e1 con un representante de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones as\u00ed como con un representante por cada Departamento ministerial, al menos de nivel 30, que ser\u00e1n designados por la Subsecretar\u00eda de cada Departamento y que asumir\u00e1n la representaci\u00f3n de los Organismos p\u00fablicos vinculados o dependientes del mismo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Dicho Grupo de Trabajo tendr\u00e1 atribuidas las siguientes funciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Potenciar la colaboraci\u00f3n entre las unidades de informaci\u00f3n administrativa y/o unidades de gesti\u00f3n de sitios web de los distintos Departamentos ministeriales y de los Organismos p\u00fablicos vinculados o dependientes a efectos de la actualizaci\u00f3n de la informaci\u00f3n contenida en el PAG."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Analizar los modelos de gobernanza que posibiliten una adecuada gesti\u00f3n y mantenimiento de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Facilitar la coordinaci\u00f3n y corresponsabilidad de los Departamentos ministeriales y de los Organismos p\u00fablicos vinculados o dependientes respecto a la informaci\u00f3n contenida en el PAG."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Garantizar las acciones que se consideren convenientes para ofrecer un buen servicio de informaci\u00f3n administrativa y disponer de la informaci\u00f3n interdepartamental y de la que ofrezca cada Departamento ministerial y Organismo p\u00fablico vinculado o dependiente."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Colaborar en la gesti\u00f3n de la sede electr\u00f3nica regulada en el Cap\u00edtulo III de la presente orden."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Cada Departamento ministerial y Organismo p\u00fablico vinculado o dependiente a su vez se dotar\u00e1 de la estructura organizativa necesaria para garantizar la adecuada coordinaci\u00f3n interna con el objeto de proveer los contenidos y sus actualizaciones en el PAG."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Sin perjuicio de lo establecido en su caso en los correspondientes instrumentos de colaboraci\u00f3n, la participaci\u00f3n y seguimiento de los contenidos del PAG referentes a otras Administraciones P\u00fablicas se verificar\u00e1n a trav\u00e9s del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Sede Electr\u00f3nica del PAG"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Creaci\u00f3n y \u00e1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se crea la sede electr\u00f3nica del PAG, de acuerdo con lo dispuesto en los art\u00edculos 3 y 9 del Real Decreto 1671/2009, de 6 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El \u00e1mbito de aplicaci\u00f3n de la sede comprender\u00e1 la totalidad de los Departamentos ministeriales y de los Organismos p\u00fablicos vinculados o dependientes. Asimismo, la sede electr\u00f3nica del PAG extender\u00e1 su \u00e1mbito a los organismos que se determinen en los instrumentos de colaboraci\u00f3n con otras Administraciones P\u00fablicas que, en su caso, formalice el Ministerio de Hacienda y Administraciones P\u00fablicas, al amparo de lo establecido en los art\u00edculos 3.3 y 9.1 del Real Decreto 1671/2009, de 6 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Esta sede se considerar\u00e1 como la sede central de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. Caracter\u00edsticas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. A trav\u00e9s de la sede electr\u00f3nica del PAG se podr\u00e1 acceder a los procedimientos y servicios que requieran la autenticaci\u00f3n de los ciudadanos o de la Administraci\u00f3n P\u00fablica en sus relaciones con \u00e9stos por medios electr\u00f3nicos, as\u00ed como aquellos otros respecto a los que se decida su inclusi\u00f3n en la sede por razones de eficacia y calidad en la prestaci\u00f3n de servicios a los ciudadanos y que est\u00e9n accesibles en las sedes electr\u00f3nicas de los \u00f3rganos correspondientes. A medida que los recursos y desarrollos t\u00e9cnicos lo permitan, este acceso se podr\u00e1 realizar sin tener que identificarse de nuevo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La direcci\u00f3n electr\u00f3nica de referencia de la sede ser\u00e1:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "https://sede.administracion.gob.es."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Los servicios incluidos en la sede electr\u00f3nica del PAG cumplir\u00e1n los principios de accesibilidad y usabilidad, establecidos en la Ley 11/2007, de 22 de junio, as\u00ed como en los t\u00e9rminos dictados por la normativa vigente en esta materia en cada momento."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los contenidos publicados en la sede electr\u00f3nica del PAG responder\u00e1n a los criterios de seguridad e interoperabilidad seg\u00fan lo establecido en el Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica, y por el Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Ser\u00e1n canales de acceso a los servicios disponibles en la sede:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Para el acceso electr\u00f3nico, Internet, con las caracter\u00edsticas definidas en el presente art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Para la atenci\u00f3n presencial, la oficina 060 de calle Mar\u00eda de Molina, 50 (Madrid), as\u00ed como las Oficinas 060 de Delegaciones y Subdelegaciones del Gobierno y de Direcciones Insulares, conforme a las competencias definidas en las normas reguladoras de la organizaci\u00f3n ministerial, sin perjuicio del acceso a trav\u00e9s de los registros regulados en el art\u00edculo 38 de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Para la atenci\u00f3n telef\u00f3nica, los servicios de informaci\u00f3n departamental, en el tel\u00e9fono 060."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 9. Contenidos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La sede electr\u00f3nica del PAG dispondr\u00e1 del contenido m\u00ednimo y de los servicios previstos expresamente en los apartados 1 y 2 del art\u00edculo 6 del Real Decreto 1671/2009, de 6 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Adem\u00e1s la sede electr\u00f3nica del PAG dispondr\u00e1 de los siguientes contenidos espec\u00edficos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Acceso a Tr\u00e1mites y Servicios en l\u00ednea disponibles en las sedes electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Registro Electr\u00f3nico Com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Direcci\u00f3n Electr\u00f3nica Habilitada."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Registro Electr\u00f3nico de Apoderamientos."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Registro de Funcionarios Habilitados."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Servicios que requieran de autenticaci\u00f3n de la administraci\u00f3n y/o del ciudadano como la inscripci\u00f3n en pruebas selectivas, cambio de domicilio y notificaciones electr\u00f3nicas, entre otros."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Enlace a la orden de creaci\u00f3n, publicada en el Bolet\u00edn Oficial del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Buz\u00f3n de contacto del PAG."
+      },{
+        "@class": "parrafo",
+        "#text": "i) Cualquier otro contenido de inter\u00e9s para el ciudadano que deba figurar en la Sede Electr\u00f3nica del PAG."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. A medida que los recursos y desarrollos t\u00e9cnicos lo permitan, la Sede Electr\u00f3nica del PAG posibilitar\u00e1 el acceso a sus contenidos en lenguas cooficiales."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 10. Titularidad y gesti\u00f3n de la sede electr\u00f3nica del PAG."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La titularidad de la Sede Electr\u00f3nica del PAG corresponder\u00e1 al Ministerio de Hacienda y Administraciones P\u00fablicas en los mismos t\u00e9rminos previstos en el art\u00edculo 5.1."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La gesti\u00f3n de la sede corresponde a la Direcci\u00f3n General de Organizaci\u00f3n Administrativa y Procedimientos que la ejercer\u00e1 a trav\u00e9s de la Subdirecci\u00f3n General de la Inspecci\u00f3n General de Servicios de la Administraci\u00f3n General del Estado y Atenci\u00f3n al Ciudadano, en coordinaci\u00f3n con la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, de acuerdo con lo previsto en el art\u00edculo 16.1 e) del Real Decreto 256/2012, de 27 de enero, por el que se desarrolla la estructura org\u00e1nica b\u00e1sica del Ministerio de Hacienda y Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los Departamentos ministeriales y los Organismos p\u00fablicos vinculados o dependientes de los mismos participar\u00e1n en la gesti\u00f3n de la sede electr\u00f3nica del PAG a trav\u00e9s del mecanismo previsto en el art\u00edculo 6."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Sin perjuicio de lo establecido en su caso en los correspondientes instrumentos de colaboraci\u00f3n, la participaci\u00f3n y seguimiento de los contenidos de la sede electr\u00f3nica del PAG referentes a otras Administraciones P\u00fablicas, se verificar\u00e1n a trav\u00e9s del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "5. El titular de la sede electr\u00f3nica del PAG ser\u00e1 responsable de la integridad, veracidad y actualizaci\u00f3n de la informaci\u00f3n y servicios a los que pueda accederse a trav\u00e9s de la misma. En el caso de los enlaces o v\u00ednculos cuya responsabilidad corresponde a distinto \u00f3rgano o Administraci\u00f3n P\u00fablica, el titular de la sede electr\u00f3nica del PAG no ser\u00e1 responsable de la integridad, veracidad ni actualizaci\u00f3n de aqu\u00e9llos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 11. Medios para la formulaci\u00f3n de quejas y sugerencias."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los medios disponibles para la formulaci\u00f3n de quejas y sugerencias en relaci\u00f3n con el contenido, gesti\u00f3n y servicios ofrecidos en la sede que se crea en la presente orden y sin perjuicio de los procedimientos espec\u00edficos, ser\u00e1n los siguientes:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Presentaci\u00f3n presencial o por correo postal ante los registros y las oficinas de atenci\u00f3n al p\u00fablico de los servicios centrales y de las oficinas perif\u00e9ricas del Ministerio de Hacienda y Administraciones P\u00fablicas, as\u00ed como en los lugares previstos en el art\u00edculo 38.4 de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y Procedimiento Administrativo Com\u00fan, dirigidas a los \u00f3rganos u organismos responsables, y de acuerdo con lo dispuesto en el art\u00edculo 9 y seg\u00fan el procedimiento establecido en cap\u00edtulo IV del Real Decreto 951/2005, de 29 de julio, por el que se establece el marco general para la mejora de la calidad en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Presentaci\u00f3n electr\u00f3nica a trav\u00e9s del Servicio electr\u00f3nico de quejas y sugerencias de la Inspecci\u00f3n General del Ministerio de Hacienda y Administraciones P\u00fablicas, enlazado en la Sede electr\u00f3nica del PAG as\u00ed como de aquellos medios que prev\u00e9 la Ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. No se considerar\u00e1n medios para la formulaci\u00f3n de quejas y sugerencias los servicios de asesoramiento electr\u00f3nico al usuario para la correcta utilizaci\u00f3n de la sede, sin perjuicio de su obligaci\u00f3n, cuando existan, de atender las cuestiones que susciten los ciudadanos."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. R\u00e9gimen econ\u00f3mico."
+      },{
+        "@class": "parrafo",
+        "#text": "Las medidas contenidas en esta orden se cumplir\u00e1n con los medios presupuestarios, personales y materiales existentes en cada Departamento ministerial u Organismo p\u00fablico vinculado o dependiente responsable de la informaci\u00f3n que provea el PAG y en ning\u00fan caso podr\u00e1 generar incremento de gasto p\u00fablico."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Referencias al portal 060."
+      },{
+        "@class": "parrafo",
+        "#text": "Las referencias al portal 060 que se contengan en cualquier Convenio de colaboraci\u00f3n suscrito para la implantaci\u00f3n de oficinas integradas se entender\u00e1n realizadas al PAG."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. Portal 060 y Sede 060."
+      },{
+        "@class": "parrafo",
+        "#text": "El portal 060 (www.060.es) y su sede (https://sede.060.gob.es) seguir\u00e1n en funcionamiento hasta la puesta en marcha del PAG."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. Desarrollo."
+      },{
+        "@class": "parrafo",
+        "#text": "Se autoriza al Secretario de Estado de Administraciones P\u00fablicas a dictar las instrucciones precisas para el cumplimiento de la presente orden."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Modificaci\u00f3n de la Orden HAP 2478/2013, de 20 de diciembre, por la que se regulan los ficheros de datos de car\u00e1cter personal existentes en el departamento y en determinados organismos adscritos al mismo."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En cumplimiento de lo previsto en el art\u00edculo 20 de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, se crea el fichero de datos personales \u00abSede electr\u00f3nica del Punto de Acceso General\u00bb, cuya titularidad corresponde a la Direcci\u00f3n General de Organizaci\u00f3n Administrativa y Procedimientos, situada en calle Mar\u00eda de Molina, n\u00famero 50, 28071, Madrid, v\u00e1lido a efectos del ejercicio por parte de los ciudadanos de los derechos previstos por dicha ley."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El contenido del fichero se recoge en el anexo de la presente orden."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Dicho fichero se a\u00f1ade a los ficheros de la Direcci\u00f3n General de Organizaci\u00f3n Administrativa y Procedimientos del Ministerio de Hacienda y Administraciones P\u00fablicas que se recogen en la Orden ministerial HAP 2478/2013, de 20 de diciembre, por la que se regulan los ficheros de datos de car\u00e1cter personal existentes en el departamento y en determinados organismos p\u00fablicos adscritos al mismo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final tercera. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente orden entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Madrid, 13 de octubre de 2014.\u2013El Ministro de Hacienda y Administraciones P\u00fablicas, Crist\u00f3bal Montoro Romero."
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Fichero de datos personales"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Nombre del fichero: \u00abSede electr\u00f3nica del Punto de Acceso General\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "Finalidad del fichero y usos previstos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Gesti\u00f3n de las consultas y solicitudes efectuadas a trav\u00e9s de la Sede Electr\u00f3nica del PAG o v\u00eda telef\u00f3nica, as\u00ed como toda la gesti\u00f3n de los usuarios de la sede."
+      },{
+        "@class": "parrafo",
+        "#text": "Personas o colectivos sobre los que se pretende obtener datos de car\u00e1cter personal, o que resulten obligados a suministrarlos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Personas f\u00edsicas registradas, independientemente del canal utilizado (Internet, canal telef\u00f3nico o red de oficinas)."
+      },{
+        "@class": "parrafo",
+        "#text": "Procedimiento de recogida de datos de car\u00e1cter personal:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Del propio interesado, enviados los datos a trav\u00e9s de formulario web de registro de la Sede Electr\u00f3nica del PAG o mediante el canal telef\u00f3nico o el canal presencial."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Estructura b\u00e1sica del fichero y descripci\u00f3n de los tipos de datos de car\u00e1cter personal, incluidos en el mismo:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Datos identificativos: Nombre, apellidos, NIF, tel\u00e9fono m\u00f3vil y correo electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "Otros datos (caracter\u00edsticas personales): Profesi\u00f3n, nivel de estudios, sexo, pa\u00eds de origen, pa\u00eds de residencia, provincia de residencia e idioma."
+      },{
+        "@class": "parrafo",
+        "#text": "Sistema de tratamiento: Fichero mixto."
+      },{
+        "@class": "parrafo",
+        "#text": "Comunicaciones previstas de los datos, indicando, en su caso, los destinatarios o categor\u00edas de destinatarios: No hay prevista comunicaciones de datos."
+      },{
+        "@class": "parrafo",
+        "#text": "Transferencias internacionales previstas a terceros pa\u00edses, con indicaci\u00f3n, en su caso, de los pa\u00edses de destino de los datos: No hay previstas transferencias internacionales de datos."
+      },{
+        "@class": "parrafo",
+        "#text": "\u00d3rganos responsables del fichero: Direcci\u00f3n General de Organizaci\u00f3n Administrativa y Procedimientos de la Secretar\u00eda de Estado de Administraciones P\u00fablicas del Ministerio de Hacienda y Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Servicios o unidades ante los que pueden ejercitarse los derechos de acceso, rectificaci\u00f3n, cancelaci\u00f3n y oposici\u00f3n: Direcci\u00f3n General de Organizaci\u00f3n Administrativa y Procedimientos, calle Mar\u00eda de Molina, n\u00famero 50, 28071 - Madrid."
+      },{
+        "@class": "parrafo",
+        "#text": "Nivel b\u00e1sico, medio o alto de seguridad: Nivel b\u00e1sico."
+      }
+    ]
+  }
+}
+}

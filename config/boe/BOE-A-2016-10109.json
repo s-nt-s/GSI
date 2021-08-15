@@ -1,0 +1,965 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190612132601",
+  "metadatos": {
+    "identificador": "BOE-A-2016-10109",
+    "titulo": "Resoluci\u00f3n de 13 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de conformidad con el Esquema Nacional de Seguridad.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "265",
+    "seccion": "3",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9216",
+      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+    },
+    "rango": {
+      "@codigo": "1370",
+      "#text": "Resoluci\u00f3n"
+    },
+    "numero_oficial": null,
+    "fecha_disposicion": "20161013",
+    "fecha_publicacion": "20161102",
+    "fecha_vigencia": "20161103",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "76365",
+    "pagina_final": "76371",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2016/11/02/pdfs/BOE-A-2016-10109.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/res/2016/10/13/(4)"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2016-10109"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2016-10-13"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "(4)"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2016-10109"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2016-10-13"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(4)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/con/20161102"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 13 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de conformidad con el Esquema Nacional de Seguridad."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2016-11-02"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/con/20161102",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2016-10109"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2016-10-13"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(4)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2016-11-02"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/con/20161102/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 13 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de conformidad con el Esquema Nacional de Seguridad."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2016-11-02"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/con/20161102"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/13/(4)/con/20161102/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/13/(4)/con/20161102/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "37",
+        "@orden": "220",
+        "#text": "Aplicable desde el 3 de noviembre de 2016"
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "817",
+          "@orden": "",
+          "#text": "Certificaciones"
+        },{
+          "@codigo": "3067",
+          "@orden": "",
+          "#text": "Distintivos"
+        },{
+          "@codigo": "3232",
+          "@orden": "",
+          "#text": "Entidades de certificaci\u00f3n"
+        },{
+          "@codigo": "4165",
+          "@orden": "",
+          "#text": "Informaci\u00f3n"
+        },{
+          "@codigo": "4170",
+          "@orden": "",
+          "#text": "Inform\u00e1tica"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "9371",
+          "@orden": "",
+          "#text": "Secretar\u00eda de Estado de Administraciones P\u00fablicas"
+        },{
+          "@codigo": "4189",
+          "@orden": "",
+          "#text": "Seguridad inform\u00e1tica"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "143",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": {
+          "@referencia": "BOE-A-2010-1330",
+          "@orden": "3060",
+          "palabra": {
+            "@codigo": "440",
+            "#text": "DE CONFORMIDAD con"
+          },
+          "texto": "el art. 29.2 del Real Decreto 3/2010, de 8 de enero"
+        }
+      },
+      "posteriores": null
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "La Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos estableci\u00f3 el Esquema Nacional de Seguridad que, aprobado mediante Real Decreto 3/2010, de 8 de enero, tiene por objeto determinar la pol\u00edtica de seguridad en la utilizaci\u00f3n de medios electr\u00f3nicos en su \u00e1mbito de aplicaci\u00f3n y estar\u00e1 constituido por los principios b\u00e1sicos y requisitos m\u00ednimos que permitan una protecci\u00f3n adecuada de la informaci\u00f3n. Posteriormente, la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, recoge el Esquema Nacional de Seguridad en su art\u00edculo 156 apartado 2 en similares t\u00e9rminos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El Real Decreto 3/2010, de 8 de enero, prev\u00e9 en su art\u00edculo 29 apartado 2 que el Ministerio de Hacienda y Administraciones P\u00fablicas, a propuesta del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica previsto en el art\u00edculo 40 de la Ley 11/2007, de 22 de junio, y a iniciativa del Centro Criptol\u00f3gico Nacional, aprobar\u00e1 las instrucciones t\u00e9cnicas de seguridad de obligado cumplimiento y se publicar\u00e1n mediante resoluci\u00f3n de la Secretar\u00eda de Estado de Administraciones P\u00fablicas. Dichas instrucciones t\u00e9cnicas de seguridad son esenciales para lograr una adecuada, homog\u00e9nea y coherente implantaci\u00f3n de los requisitos y medidas recogidos en el Esquema."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "As\u00ed, estas instrucciones t\u00e9cnicas de seguridad, enumeradas en la disposici\u00f3n adicional cuarta del citado Real Decreto, entran a regular aspectos concretos que la realidad cotidiana ha mostrado especialmente significativos, tales como: Informe del Estado de la Seguridad; notificaci\u00f3n de incidentes de Seguridad; auditor\u00eda de la Seguridad; conformidad con el Esquema Nacional de Seguridad; adquisici\u00f3n de Productos de Seguridad; criptolog\u00eda de empleo en el Esquema Nacional de Seguridad; interconexi\u00f3n en el Esquema Nacional de Seguridad y Requisitos de Seguridad en entornos externalizados, sin perjuicio de las propuestas que pueda acordar el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica, seg\u00fan lo establecido en el citado art\u00edculo 29."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Estas instrucciones t\u00e9cnicas de seguridad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n electr\u00f3nica, las infraestructuras que los apoyan, la evoluci\u00f3n tecnol\u00f3gica y los riesgos derivados de operar en el ciberespacio."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En particular, la Instrucci\u00f3n T\u00e9cnica de Seguridad de Conformidad con el Esquema Nacional de Seguridad establece los criterios y procedimientos para la determinaci\u00f3n de la conformidad con el Esquema Nacional de Seguridad y para la publicidad de dicha conformidad, al objeto de poder dar adecuada respuesta al mandato del Cap\u00edtulo VIII, Normas de conformidad, del Real Decreto 3/2010, de 8 de enero; as\u00ed, determina los mecanismos de obtenci\u00f3n y ulterior publicidad de las declaraciones de conformidad y los distintivos de seguridad de los que sean acreedores y que se hubieren obtenido respecto al cumplimiento del Esquema Nacional de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Esta Resoluci\u00f3n se aprueba en aplicaci\u00f3n de lo dispuesto en el art\u00edculo 29 apartado 2 del Real Decreto 3/2010, de 8 de enero, a propuesta del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica y a iniciativa del Centro Criptol\u00f3gico Nacional. En virtud de lo anterior, esta Secretar\u00eda de Estado resuelve:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Primero."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Aprobar la Instrucci\u00f3n T\u00e9cnica de Seguridad \u00abConformidad con el Esquema Nacional de Seguridad\u00bb, cuyo texto se incluye a continuaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Segundo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Ordenar su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "La Instrucci\u00f3n T\u00e9cnica de Seguridad de Conformidad con el Esquema Nacional de Seguridad que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Madrid, 13 de octubre de 2016.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo",
+        "#text": "INSTRUCCI\u00d3N T\u00c9CNICA DE SEGURIDAD DE CONFORMIDAD CON EL ESQUEMA NACIONAL DE SEGURIDAD"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_redonda",
+        "#text": "\u00cdNDICE"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "I. Objeto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III. Procedimientos de determinaci\u00f3n de la conformidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "IV. Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad de sistemas de categor\u00eda B\u00c1SICA y su publicidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "V. Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad de sistemas de categor\u00eda MEDIA o ALTA y su publicidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI. Requisitos de las entidades certificadoras."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VII. Soluciones y servicios prestados por el sector privado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Anexo I. Contenido de la Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Anexo II. Distintivo de Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Anexo III. Contenido de la Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Anexo IV. Distintivo de Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "I. Objeto"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "La Instrucci\u00f3n T\u00e9cnica de Seguridad de Conformidad con el Esquema Nacional de Seguridad tiene por objeto establecer los procedimientos para dar publicidad a la conformidad con el Esquema Nacional de Seguridad, as\u00ed como los requisitos exigibles a las entidades certificadoras."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "La presente Instrucci\u00f3n T\u00e9cnica de Seguridad ser\u00e1 de aplicaci\u00f3n a los sistemas de informaci\u00f3n comprendidos en lo dispuesto en el art\u00edculo 3 del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la administraci\u00f3n electr\u00f3nica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "III. Procedimientos de determinaci\u00f3n de la conformidad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "III.1 En funci\u00f3n de la categor\u00eda de los sistemas de informaci\u00f3n del \u00e1mbito de aplicaci\u00f3n del Esquema Nacional de Seguridad, de acuerdo con el Anexo I del Real Decreto 3/2010, de 8 de enero, se define el procedimiento de determinaci\u00f3n de la conformidad. As\u00ed los sistemas de categor\u00eda B\u00c1SICA solo requerir\u00e1n de una autoevaluaci\u00f3n para su declaraci\u00f3n de la conformidad, mientras que los sistemas de categor\u00eda MEDIA O ALTA precisar\u00e1n de una auditor\u00eda formal para su certificaci\u00f3n de la conformidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.2 La declaraci\u00f3n de la conformidad con el Esquema Nacional de Seguridad de los sistemas de informaci\u00f3n con categor\u00eda B\u00c1SICA se realizar\u00e1 mediante una autoevaluaci\u00f3n que, con car\u00e1cter ordinario, verifique el cumplimiento de los requerimientos contemplados en el Esquema, al menos cada dos a\u00f1os. Dicha autoevaluaci\u00f3n atender\u00e1 a lo dispuesto sobre auditor\u00eda en el art\u00edculo 34 y en el anexo III del Real Decreto 3/2010, de 8 de enero. Dicha autoevaluaci\u00f3n podr\u00e1 ser desarrollada por el mismo personal que administra el sistema de informaci\u00f3n o en qui\u00e9n \u00e9ste delegue."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.3 La certificaci\u00f3n de la conformidad con el Esquema Nacional de Seguridad de los sistemas de informaci\u00f3n con categor\u00edas MEDIA o ALTA se realizar\u00e1 mediante un procedimiento de auditor\u00eda formal que, con car\u00e1cter ordinario, verifique el cumplimiento de los requerimientos contemplados en el Esquema, al menos cada dos a\u00f1os. Dicha auditor\u00eda se realizar\u00e1 seg\u00fan lo dispuesto en el art\u00edculo 34 y en el anexo III del Real Decreto 3/2010, de 8 de enero."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.4 Siendo obligatoria la auditor\u00eda formal para los sistemas de categor\u00eda MEDIA Y ALTA nada impide que un sistema de categor\u00eda B\u00c1SICA se someta igualmente a una auditoria formal de certificaci\u00f3n de la conformidad, siendo esta posibilidad siempre la deseable."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.5 En las comunidades aut\u00f3nomas con lengua cooficial se podr\u00e1n expedir las declaraciones, certificaciones y sus respectivos distintivos de conformidad en castellano o bien en texto biling\u00fce. En este caso, se expedir\u00e1n en un solo documento redactado en castellano y en la correspondiente lengua cooficial, en tipos de letra de igual rango con las especificaciones y diligencias que sobre su texto se establecen en los anexos correspondientes."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "IV. Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad de sistemas de categor\u00eda B\u00c1SICA y su publicidad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "IV.1 La Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad de sistemas de categor\u00eda B\u00c1SICA o inferior ser\u00e1 expedida por la propia entidad bajo cuya responsabilidad se encuentren dichos sistemas, y se completar\u00e1 mediante un Distintivo de Declaraci\u00f3n de Conformidad cuyo uso estar\u00e1 condicionado a la antedicha Declaraci\u00f3n de Conformidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "IV.2 Dicha Declaraci\u00f3n de Conformidad as\u00ed como su distintivo se expresar\u00e1n en documentos electr\u00f3nicos, en formato no editable y poseer\u00e1n el aspecto que se muestra en los Anexos I y II respectivamente de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "IV.3 Para publicar la Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad en el caso de sistemas de informaci\u00f3n de categor\u00eda B\u00c1SICA o inferior bastar\u00e1 con la exhibici\u00f3n en la sede electr\u00f3nica de la entidad p\u00fablica titular o usuaria del sistema de informaci\u00f3n en cuesti\u00f3n, del Distintivo de Declaraci\u00f3n de Conformidad que incluir\u00e1 un enlace al documento de Declaraci\u00f3n de Conformidad correspondiente, que tambi\u00e9n permanecer\u00e1 accesible a trav\u00e9s de dicha sede electr\u00f3nica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "V. Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad de sistemas de categor\u00eda MEDIA o ALTA y su publicidad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "V.1 La Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad, de sistemas de categor\u00edas MEDIA o ALTA, ser\u00e1 expedida por una entidad certificadora y se completar\u00e1 mediante un Distintivo de Certificaci\u00f3n de Conformidad cuyo uso estar\u00e1 condicionado a la antedicha Certificaci\u00f3n de Conformidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "V.2 Dicha Certificaci\u00f3n de Conformidad as\u00ed como su distintivo se expresar\u00e1n en documentos electr\u00f3nicos, en formato no editable y poseer\u00e1n el aspecto que se muestra en los Anexos III y IV respectivamente de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "V.3 Para publicar la Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad en el caso de sistemas de informaci\u00f3n de categor\u00eda MEDIA O ALTA bastar\u00e1 con la exhibici\u00f3n en la sede electr\u00f3nica de la entidad p\u00fablica titular o usuaria del sistema de informaci\u00f3n en cuesti\u00f3n, del Distintivo de Certificaci\u00f3n de Conformidad que incluir\u00e1 un enlace al documento de Certificaci\u00f3n de Conformidad correspondiente, que tambi\u00e9n permanecer\u00e1 accesible a trav\u00e9s de dicha sede electr\u00f3nica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "VI. Requisitos de las entidades certificadoras"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VI.1 Las entidades certificadoras a las que se refiere esta Instrucci\u00f3n T\u00e9cnica deber\u00e1n estar acreditadas por la Entidad Nacional de Acreditaci\u00f3n (ENAC) para la certificaci\u00f3n de sistemas del \u00e1mbito de aplicaci\u00f3n del Esquema Nacional de Seguridad conforme a la norma UNE-EN ISO/IEC 17065:2012 Evaluaci\u00f3n de la conformidad. Requisitos para organismos que certifican productos, procesos y servicios."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.2 Si la entidad certificadora de que se trate no dispusiere de la acreditaci\u00f3n se\u00f1alada, previamente a iniciar sus actividades, deber\u00e1 remitir al Centro Criptol\u00f3gico Nacional, la aceptaci\u00f3n por parte de la Entidad Nacional de Acreditaci\u00f3n de haber solicitado la acreditaci\u00f3n antedicha, pudiendo iniciar sus actividades de certificaci\u00f3n de forma transitoria, disponiendo de 12 meses para obtener dicha acreditaci\u00f3n, transcurridos los cuales sin haberla obtenido deber\u00e1n cesar en sus actividades de certificaci\u00f3n. El Centro Criptol\u00f3gico Nacional podr\u00e1 requerir a la entidad certificadora solicitante cuanta informaci\u00f3n adicional considere necesaria que le permita verificar su adecuaci\u00f3n y suficiencia."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.3 Transcurrido un a\u00f1o desde la entrada en vigor de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad, ya no ser\u00e1 posible iniciar ning\u00fan proceso de certificaci\u00f3n de la forma transitoria se\u00f1alada en el punto anterior, exigi\u00e9ndose a todas las entidades de certificaci\u00f3n la acreditaci\u00f3n recogida en el punto VI.1."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.4 Estar\u00e1n exentas del cumplimiento de los requisitos se\u00f1alados en los puntos anteriores del presente ep\u00edgrafe aquellas entidades, \u00f3rganos, organismos y unidades vinculadas o dependientes de las Administraciones P\u00fablicas cuyas competencias incluyan el desarrollo de auditor\u00edas de sistemas de informaci\u00f3n, as\u00ed conste en su normativa de creaci\u00f3n o decretos de estructura y quede garantizada la debida imparcialidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.5 El Centro Criptol\u00f3gico Nacional mantendr\u00e1 en su sede electr\u00f3nica una relaci\u00f3n actualizada de las Entidades de Certificaci\u00f3n, acreditadas o en v\u00edas de acreditaci\u00f3n, para expedir Certificaciones de Conformidad con el Esquema Nacional de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "VII. Soluciones y servicios prestados por el sector privado"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VII.1 Cuando los operadores del sector privado presten servicios o provean soluciones a las entidades p\u00fablicas, a los que resulte exigible el cumplimiento del Esquema Nacional de Seguridad, deber\u00e1n estar en condiciones de exhibir la correspondiente Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad, cuando se trate de sistemas de categor\u00eda B\u00c1SICA, o la Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad, cuando se trate de sistemas de categor\u00edas MEDIA o ALTA, utilizando los mismos procedimientos que los exigidos en esta Instrucci\u00f3n T\u00e9cnica de Seguridad para las entidades p\u00fablicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VIII.2 Es responsabilidad de las entidades p\u00fablicas contratantes notificar a los operadores del sector privado que participen en la provisi\u00f3n de soluciones tecnol\u00f3gicas o la prestaci\u00f3n de servicios, la obligaci\u00f3n de que tales soluciones o servicios sean conformes con lo dispuesto en el Esquema Nacional de Seguridad y posean las correspondientes Declaraciones o Certificaciones de Conformidad, seg\u00fan lo se\u00f1alado en la presente Instrucci\u00f3n T\u00e9cnica de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VII.3 Cuando la provisi\u00f3n de las soluciones o la prestaci\u00f3n de los servicios sujetos al cumplimiento del Esquema Nacional de Seguridad sean realizados por operadores del sector privado, estos utilizar\u00e1n los mismos modelos documentales utilizados para las Declaraciones, las Certificaciones o los Distintivos de Conformidad recogidos en la presente Instrucci\u00f3n T\u00e9cnica de Seguridad, sustituyendo las referencias a las entidades p\u00fablicas por las correspondientes a las entidades privadas. An\u00e1logamente, los Distintivos de Conformidad, cuando se exhiban por parte de dichos operadores privados, deber\u00e1n enlazar con las correspondientes Declaraciones o Certificaciones de Conformidad, que permanecer\u00e1n siempre accesibles en la p\u00e1gina electr\u00f3nica del operador de que se trate."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VII.4 Adem\u00e1s del Centro Criptol\u00f3gico Nacional y la Entidad Nacional de Acreditaci\u00f3n, las entidades p\u00fablicas usuarias de soluciones o servicios provistos o prestados por organizaciones del sector privado que exhiban una Declaraci\u00f3n o Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad podr\u00e1n solicitar en todo momento a tales operadores los Informes de Autoevaluaci\u00f3n o Auditor\u00eda correspondientes, al objeto de verificar la adecuaci\u00f3n e idoneidad de las antedichas manifestaciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_num",
+        "#text": "ANEXO I"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_tit",
+        "#text": "Contenido de la Declaraci\u00f3n de Conformidad con el Esquema Nacional de\u00a0Seguridad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Cada entidad u organismo declarante podr\u00e1 disponer libremente de su propio formato de Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad, que deber\u00e1 mostrar, al menos, el contenido siguiente:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 Logotipo de la entidad u organismo declarante."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Identificaci\u00f3n de la entidad u organismo declarante."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Distintivo de Declaraci\u00f3n de Conformidad de acuerdo al anexo II de esta Instrucci\u00f3n T\u00e9cnica de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cDeclaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cLos sistemas de informaci\u00f3n rese\u00f1ados, todos ellos de categor\u00eda B\u00c1SICA, y los servicios que se relacionan, han superado un proceso de autoevaluaci\u00f3n conforme con las exigencias del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n electr\u00f3nica, seg\u00fan se indica en el correspondiente Informe de <<fecha>>:\u201d"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 <<enumerar los sistemas de informaci\u00f3n y los servicios objeto de la certificaci\u00f3n>>."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 Texto: \u201cFecha de declaraci\u00f3n de conformidad inicial: <<d\u00eda>> de <<mes>> de <<a\u00f1o>>\u201d"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cFecha de renovaci\u00f3n de la declaraci\u00f3n de conformidad: <<d\u00eda>> de <<mes>> de <<a\u00f1o>>\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cFecha: <<Localidad (la que corresponda)>>, <<d\u00eda>> de <<mes>> de <<a\u00f1o>>\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Firma: <<Nombre y apellidos del titular del \u00f3rgano Superior de que se trate>>."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Los textos que aparecen entre par\u00e9ntesis angulares se adaptar\u00e1n a los aspectos concretos de la Declaraci\u00f3n de Conformidad expedida."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "La gu\u00eda de seguridad CCN-STIC 809 sobre declaraci\u00f3n y certificaci\u00f3n de conformidad con el Esquema Nacional de Seguridad y distintivos de cumplimiento ofrecer\u00e1 modelos ilustrativos de la citada Declaraci\u00f3n de conformidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_num",
+        "#text": "ANEXO II"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_tit",
+        "#text": "Distintivo de Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "imagen",
+        "img": {
+          "@class": "frame-1",
+          "@alt": "1",
+          "@src": "/datos/imagenes/disp/2016/265/10109_5079.png",
+          "@width": "485",
+          "@height": "579"
+        }
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "En la medida de lo posible, los Distintivos de Declaraci\u00f3n de Conformidad con el Esquema Nacional de Seguridad que se exhiban en medios electr\u00f3nicos o en papel respetar\u00e1n las proporciones, formas, tipograf\u00eda y colores de la imagen anterior."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_num",
+        "#text": "ANEXO III"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_tit",
+        "#text": "Contenido de la Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Cada Entidad Certificadora podr\u00e1 disponer libremente de su propio formato de Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad, que deber\u00e1 mostrar, al menos, el contenido siguiente:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 Logotipo de la Entidad Certificadora."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Identificaci\u00f3n de la Entidad Certificadora."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Distintivo de Certificaci\u00f3n de Conformidad de acuerdo al anexo IV de esta Instrucci\u00f3n T\u00e9cnica de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cCertificado de Conformidad con el Esquema Nacional de Seguridad\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201c<<Entidad Certificadora>> certifica que los sistemas de informaci\u00f3n rese\u00f1ados, todos ellos de categor\u00eda <<se\u00f1alar categor\u00eda m\u00e1xima aplicable (B\u00c1SICA, MEDIA o ALTA)>>, y los servicios que se relacionan, de <<Entidad [p\u00fablica o privada], direcci\u00f3n postal>>, han sido auditados y encontrados conforme con las exigencias del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n electr\u00f3nica, seg\u00fan se indica en el correspondiente Informe de Auditor\u00eda de <<fecha>>:\u201d"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 <<enumerar los sistemas de informaci\u00f3n y los servicios objeto de la certificaci\u00f3n>>."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 Texto: \u201cN\u00famero de certificado: <<n\u00famero de certificado>>\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cFecha de certificaci\u00f3n de conformidad inicial: <<d\u00eda>> de <<mes>> de <<a\u00f1o>>\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cFecha de renovaci\u00f3n de la certificaci\u00f3n de conformidad: <<d\u00eda>> de <<mes>> de <<a\u00f1o>>\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Texto: \u201cFecha: <<Localidad (la que corresponda)>>, <<d\u00eda>> de <<mes>> de <<a\u00f1o>>\u201d."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Firma: Nombre y Apellidos del responsable competente de la Entidad Certificadora."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Los textos que aparecen entre par\u00e9ntesis angulares se adaptar\u00e1n a los aspectos concretos de la certificaci\u00f3n expedida."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "La gu\u00eda de seguridad CCN-STIC 809 sobre declaraci\u00f3n y certificaci\u00f3n de conformidad con el Esquema Nacional de Seguridad y distintivos de cumplimiento ofrecer\u00e1 modelos ilustrativos de la citada Certificaci\u00f3n de conformidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_num",
+        "#text": "ANEXO IV"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_tit",
+        "#text": "Distintivo de Conformidad con el Esquema Nacional de Seguridad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "imagen",
+        "img": {
+          "@class": "frame-9",
+          "@alt": "1",
+          "@src": "/datos/imagenes/disp/2016/265/10109_5175.png",
+          "@width": "1465",
+          "@height": "579"
+        }
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En la medida de lo posible, los Distintivos de Certificaci\u00f3n de Conformidad con el Esquema Nacional de Seguridad que se exhiban en medios electr\u00f3nicos o en papel respetar\u00e1n las proporciones, formas, tipograf\u00eda y colores de la imagen anterior."
+      }
+    ],
+    "table": [
+      {
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "tabla_b_sica",
+        "colgroup": {
+          "col": [
+            {
+              "@class": "row_column_2"
+            },{
+              "@class": "row_column_3"
+            },{
+              "@class": "row_column_4"
+            },{
+              "@class": "row_column_5"
+            }
+          ]
+        },
+        "thead": {
+          "tr": {
+            "@class": "row_column_6",
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Colores directos"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "CMYK"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "RGB"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Hexadecimal"
+                }
+              }
+            ]
+          }
+        },
+        "tbody": {
+          "tr": [
+            {
+              "@class": "row_column_7",
+              "td": [
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_centro",
+                    "#text": "Pantone Orange 021C"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "C: 0"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "R: 235"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_centro",
+                    "#text": "FF6600"
+                  }
+                }
+              ]
+            },{
+              "@class": "row_column_8",
+              "td": [
+                null,
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "M: 53"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "G: 111"
+                  }
+                },
+                null
+              ]
+            },{
+              "@class": "row_column_8",
+              "td": [
+                null,
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Y: 100"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "B: 12"
+                  }
+                },
+                null
+              ]
+            },{
+              "@class": "row_column_7",
+              "td": [
+                null,
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "K: 0"
+                  }
+                },
+                null,
+                null
+              ]
+            }
+          ]
+        }
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "tabla_b_sica",
+        "colgroup": {
+          "col": [
+            {
+              "@class": "row_column_10"
+            },{
+              "@class": "row_column_11"
+            },{
+              "@class": "row_column_12"
+            },{
+              "@class": "row_column_13"
+            }
+          ]
+        },
+        "thead": {
+          "tr": {
+            "@class": "row_column_6",
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Colores directos"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "CMYK"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "RGB"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Hexadecimal"
+                }
+              }
+            ]
+          }
+        },
+        "tbody": {
+          "tr": [
+            {
+              "@class": "row_column_7",
+              "td": [
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_centro",
+                    "#text": "Pantome 653C"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "C: 82"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "R: 55"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_centro",
+                    "#text": "336699"
+                  }
+                }
+              ]
+            },{
+              "@class": "row_column_8",
+              "td": [
+                null,
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "M: 47"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "G: 99"
+                  }
+                },
+                null
+              ]
+            },{
+              "@class": "row_column_8",
+              "td": [
+                null,
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Y: 11"
+                  }
+                },{
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "B: 150"
+                  }
+                },
+                null
+              ]
+            },{
+              "@class": "row_column_7",
+              "td": [
+                null,
+                {
+                  "p": {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "K: 0"
+                  }
+                },
+                null,
+                null
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+}

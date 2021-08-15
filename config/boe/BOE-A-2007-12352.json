@@ -1,0 +1,2357 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20210810132601",
+  "metadatos": {
+    "identificador": "BOE-A-2007-12352",
+    "titulo": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "150",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "7723",
+      "#text": "Jefatura del Estado"
+    },
+    "rango": {
+      "@codigo": "1300",
+      "#text": "Ley"
+    },
+    "numero_oficial": "11/2007",
+    "fecha_disposicion": "20070622",
+    "fecha_publicacion": "20070623",
+    "fecha_vigencia": "20070624",
+    "fecha_derogacion": "20210402",
+    "letra_imagen": "A",
+    "pagina_inicial": "27150",
+    "pagina_final": "27166",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "S",
+    "estatus_derogacion": "S",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2007/06/23/pdfs/A27150-27166.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2007/07/02/pdfs/A02921-02937.pdf",
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": "/boe_gallego/dias/2007/07/02/pdfs/A02242-02259.pdf",
+    "url_pdf_valenciano": "/boe_valenciano/dias/2007/07/02/pdfs/A00507-00522.pdf",
+    "url_eli": "https://www.boe.es/eli/es/l/2007/06/22/11"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2007-12352"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2007-06-22"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "11"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2007-12352"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-22"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "11"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:corrected_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/corrigendum/20070703/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11"
+              },
+              "eli:consolidated_by": [
+                {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20180904"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20151002"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20140917"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20110305"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20091223"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20070623"
+                }
+              ],
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2007-06-23"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LLEI 11/2007, de 22 de juny, d'acc\u00e9s electr\u00f2nic dels ciutadans als serveis p\u00fablics."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2007-07-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LEI 11/2007, do 22 de xu\u00f1o, de acceso electr\u00f3nico dos cidad\u00e1ns aos servizos p\u00fablicos. (\u00abBOE\u00bb 150, do 23-6-2007.)"
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2007-07-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/vci",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/vci"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LLEI 11/2007, de 22 de juny, d'acc\u00e9s electr\u00f2nic dels ciutadans als Servicis P\u00fablics. (\u00abBOE\u00bb 150, de 23-6-2007.)"
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2007-07-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/vci/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof/vci"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20180904",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2007-12352"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-22"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "11"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-09-04"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20180904/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2018-09-04"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20180904"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20180904/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20180904/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20151002",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2007-12352"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-22"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "11"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2015-10-02"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20151002/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2015-10-02"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20151002"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20151002/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20151002/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20140917",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2007-12352"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-22"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "11"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-09-17"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20140917/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2014-09-17"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20140917"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20140917/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20140917/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20110305",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2007-12352"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-22"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "11"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-03-05"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20110305/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-03-05"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20110305"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20110305/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20110305/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20091223",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2007-12352"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-22"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "11"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2009-12-23"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20091223/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2009-12-23"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20091223"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20091223/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20091223/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20070623",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2007-12352"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-22"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "11"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-06-23"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20070623/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2007-06-23"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20070623"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20070623/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/06/22/11/con/20070623/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "0",
+        "@orden": "999",
+        "#text": "La fecha de derogaci\u00f3n se establece de acuerdo con la disposici\u00f3n derogatoria \u00fanica.2.a), en relaci\u00f3n con la disposici\u00f3n final 7 de  la Ley 39/2015, de 1 de octubre. BOE-A-2015-10565"
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "35",
+          "@orden": "",
+          "#text": "Acceso a la informaci\u00f3n"
+        },{
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "82",
+          "@orden": "",
+          "#text": "Administraci\u00f3n General del Estado"
+        },{
+          "@codigo": "85",
+          "@orden": "",
+          "#text": "Administraci\u00f3n Local"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "281",
+          "@orden": "",
+          "#text": "Archivos"
+        },{
+          "@codigo": "517",
+          "@orden": "",
+          "#text": "Bolet\u00edn Oficial del Estado"
+        },{
+          "@codigo": "7894",
+          "@orden": "",
+          "#text": "Comunicaciones electr\u00f3nicas"
+        },{
+          "@codigo": "1320",
+          "@orden": "",
+          "#text": "Comunidades Aut\u00f3nomas"
+        },{
+          "@codigo": "3083",
+          "@orden": "",
+          "#text": "Documento Nacional de Identidad"
+        },{
+          "@codigo": "3085",
+          "@orden": "",
+          "#text": "Documentos"
+        },{
+          "@codigo": "3159",
+          "@orden": "",
+          "#text": "Empleados p\u00fablicos"
+        },{
+          "@codigo": "3685",
+          "@orden": "",
+          "#text": "Ficheros con datos personales"
+        },{
+          "@codigo": "3716",
+          "@orden": "",
+          "#text": "Firma electr\u00f3nica"
+        },{
+          "@codigo": "4506",
+          "@orden": "",
+          "#text": "Internet"
+        },{
+          "@codigo": "4542",
+          "@orden": "",
+          "#text": "Jefatura Central de Tr\u00e1fico"
+        },{
+          "@codigo": "7872",
+          "@orden": "",
+          "#text": "Notificaciones telem\u00e1ticas"
+        },{
+          "@codigo": "5278",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n del Estado"
+        },{
+          "@codigo": "5703",
+          "@orden": "",
+          "#text": "Procedimiento administrativo"
+        },{
+          "@codigo": "5793",
+          "@orden": "",
+          "#text": "Publicaciones oficiales"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6015",
+          "@orden": "",
+          "#text": "Registros administrativos"
+        },{
+          "@codigo": "6836",
+          "@orden": "",
+          "#text": "Tasas"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "106",
+          "@orden": "",
+          "#text": "Consumidores y usuarios"
+        },{
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-1992-26318",
+            "@orden": "1010",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "DEROGA"
+            },
+            "texto": "los arts. 38.9, 45.2, 3 y 4, 59.3 y la disposici\u00f3n adicional 18 de la Ley 30/1992, de 26 de noviembre"
+          },{
+            "@referencia": "BOE-A-1979-23768",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "arts. 5.1 y 6 de la Ley 16/1979, de 2 de octubre"
+          },{
+            "@referencia": "BOE-A-1979-867",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "arts. 4.2 y 6 de la Ley 84/1978, de 28 de diciembre de 1978"
+          },{
+            "@referencia": "DOUE-L-2006-82665",
+            "@orden": "3020",
+            "palabra": {
+              "@codigo": "426",
+              "#text": "TRANSPONE"
+            },
+            "texto": "parcialmente Directiva 2006/123/CE, de 12 de diciembre"
+          },{
+            "@referencia": "BOE-A-2003-23399",
+            "@orden": "5020",
+            "palabra": {
+              "@codigo": "330",
+              "#text": "CITA"
+            },
+            "texto": "Ley 59/2003, de 19 de diciembre"
+          },{
+            "@referencia": "BOE-A-1999-23750",
+            "@orden": "5020",
+            "palabra": {
+              "@codigo": "330",
+              "#text": "CITA"
+            },
+            "texto": "Ley Org\u00e1nica 15/1999, de 13 de diciembre"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2015-10565",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "SE DEROGA"
+            },
+            "texto": "en la forma indicada, por Ley 39/2015, de 1 de octubre"
+          },{
+            "@referencia": "BOE-A-2014-9467",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "los arts. 13.2.b) y 15, por Ley 15/2014, de 16 de septiembre"
+          },{
+            "@referencia": "BOE-A-2011-4117",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "la disposici\u00f3n final 3, por Ley 2/2011, de 4 de marzo"
+          },{
+            "@referencia": "BOE-A-2009-20725",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "los arts. 6.3 y 40.2, por Ley 25/2009, de 22 de diciembre"
+          },{
+            "@referencia": "BOE-A-2007-12871",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "202",
+              "#text": "CORRECCI\u00d3N de erratas"
+            },
+            "texto": "en BOE n\u00fam. 158, de 3 de julio de 2007"
+          },{
+            "@referencia": "BOE-A-2009-18358",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "490",
+              "#text": "SE DESARROLLA"
+            },
+            "texto": ", parcialmente por Real Decreto 1671/2009, de 6 de noviembre"
+          },{
+            "@referencia": "BOE-A-2013-13495",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con los arts. 13.13 y 17 al 19 sobre establecimiento de una estructura de clave p\u00fablica corporativa y un directorio integrado de datos de personal en el \u00e1mbito del organismo: Resoluci\u00f3n  de 12 de diciembre de 2013"
+          },{
+            "@referencia": "BOE-A-2010-1331",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "regulando el Esquema Nacional de Interoperabilidad: Real Decreto 4/2010, de 8 de enero"
+          },{
+            "@referencia": "BOE-A-2010-1330",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "regulando el Esquema Nacional de Seguridad en la Administraci\u00f3n Electr\u00f3nica: Real Decreto 3/2010, de 8 de enero"
+          },{
+            "@referencia": "BOE-A-2009-3368",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "sobre acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos: Orden JUS/433/2009, de 19 de febrero"
+          },{
+            "@referencia": "BOE-A-2008-19826",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "el art. 11.1, sobre la edici\u00f3n electr\u00f3nica del BORME: Real Decreto 1979/2008, de 28 de noviembre"
+          },{
+            "@referencia": "BOE-A-2008-2389",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "el art. 11.1 y la disposici\u00f3n final 2, sobre la edici\u00f3n electr\u00f3nica del BOE: Real Decreto 181/2008, de 8 de febrero"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "subseccion",
+        "#text": "JUAN CARLOS I"
+      },{
+        "@class": "subseccion",
+        "#text": "REY DE ESPA\u00d1A"
+      },{
+        "@class": "parrafo_2",
+        "#text": "A todos los que la presenten vieren y entedieren."
+      },{
+        "@class": "parrafo",
+        "#text": "Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley."
+      },{
+        "@class": "subseccion",
+        "#text": "\u00cdndice"
+      },{
+        "@class": "parrafo",
+        "#text": "Exposici\u00f3n de motivos."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo preliminar. Del \u00e1mbito de aplicaci\u00f3n y los principios generales."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo primero. Derechos de los ciudadanos a relacionarse con las Administraciones P\u00fablicas por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo segundo. R\u00e9gimen jur\u00eddico de la administraci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo I. De la sede electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo II. De la identificaci\u00f3n y autenticaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Secci\u00f3n 1.\u00aa Disposiciones comunes."
+      },{
+        "@class": "parrafo",
+        "#text": "Secci\u00f3n 2.\u00aa Identificaci\u00f3n de los ciudadanos y autenticaci\u00f3n de su actuaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Secci\u00f3n 3.\u00aa Identificaci\u00f3n electr\u00f3nica de las Administraciones P\u00fablicas y autenticaci\u00f3n del ejercicio de su competencia."
+      },{
+        "@class": "parrafo",
+        "#text": "Secci\u00f3n 4.\u00aa De la interoperabilidad y de la acreditaci\u00f3n y representaci\u00f3n de los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo III. De los registros, las comunicaciones y las notificaciones electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Secci\u00f3n 1.\u00aa De los registros."
+      },{
+        "@class": "parrafo",
+        "#text": "Secci\u00f3n 2.\u00aa De las comunicaciones y las notificaciones electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo IV. De los documentos y los archivos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo tercero. De la gesti\u00f3n electr\u00f3nica de los procedimientos."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo I. Disposiciones comunes."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo II. Utilizaci\u00f3n de medios electr\u00f3nicos en la tramitaci\u00f3n del procedimiento."
+      },{
+        "@class": "parrafo",
+        "#text": "T\u00edtulo cuarto. Cooperaci\u00f3n entre administraciones para el impulso de la administraci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo I. Marco institucional de cooperaci\u00f3n en materia de administraci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo II. Cooperaci\u00f3n en materia de interoperabilidad de sistemas y aplicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Cap\u00edtulo III. Reutilizaci\u00f3n de aplicaciones y transferencia de tecnolog\u00edas."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n adicional primera. Reuni\u00f3n de \u00d3rganos Colegiados por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n adicional segunda. Formaci\u00f3n de empleados p\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n adicional tercera. Plan de Medios en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n adicional cuarta. Procedimientos Especiales."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n adicional quinta. Funci\u00f3n Estad\u00edstica."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n adicional sexta. Uso de Lenguas Oficiales."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. R\u00e9gimen transitorio."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n derogatoria \u00fanica."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final primera. Car\u00e1cter b\u00e1sico de la Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final segunda. Publicaci\u00f3n electr\u00f3nica del \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final tercera. Adaptaci\u00f3n de las Administraciones P\u00fablicas para el ejercicio de derechos."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final cuarta. Modificaci\u00f3n de la Ley\u00a084/1978, de 28 de diciembre, por la que se regula la tasa por expedici\u00f3n del Documento Nacional de Identidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final quinta. Modificaci\u00f3n de la Ley\u00a016/1979, de 2 de octubre, sobre Tasas de la Jefatura Central de Tr\u00e1fico."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final sexta. Habilitaci\u00f3n para la regulaci\u00f3n del teletrabajo en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final s\u00e9ptima. Desarrollo reglamentario del art\u00edculo 4 c)."
+      },{
+        "@class": "parrafo",
+        "#text": "Disposici\u00f3n final octava. Desarrollo y Entrada en vigor de la Ley."
+      },{
+        "@class": "subseccion",
+        "#text": "EXPOSICI\u00d3N DE MOTIVOS"
+      },{
+        "@class": "subseccion",
+        "#text": "I"
+      },{
+        "@class": "parrafo",
+        "#text": "Determinadas edades de la humanidad han recibido su denominaci\u00f3n de las t\u00e9cnicas que se empleaban en las mismas y hoy podr\u00edamos decir que las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones est\u00e1n afectando tambi\u00e9n muy profundamente a la forma e incluso al contenido de las relaciones de los seres humanos entre s\u00ed y de las sociedades en que se integran. El tiempo actual -y en todo caso el siglo XXI, junto con los a\u00f1os finales del XX-, tiene como uno de sus rasgos caracter\u00edsticos la revoluci\u00f3n que han supuesto las comunicaciones electr\u00f3nicas. En esa perspectiva, una Administraci\u00f3n a la altura de los tiempos en que act\u00faa tiene que acompa\u00f1ar y promover en beneficio de los ciudadanos el uso de las comunicaciones electr\u00f3nicas. Estos han de ser los primeros y principales beneficiarios del salto, impensable hace s\u00f3lo unas d\u00e9cadas, que se ha producido en el campo de la tecnolog\u00eda de la informaci\u00f3n y las comunicaciones electr\u00f3nicas. Al servicio, pues, del ciudadano la Administraci\u00f3n queda obligada a transformarse en una administraci\u00f3n electr\u00f3nica regida por el principio de eficacia que proclama el art\u00edculo 103 de nuestra Constituci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Es en ese contexto en el que las Administraciones deben comprometerse con su \u00e9poca y ofrecer a sus ciudadanos las ventajas y posibilidades que la sociedad de la informaci\u00f3n tiene, asumiendo su responsabilidad de contribuir a hacer realidad la sociedad de la informaci\u00f3n. Los t\u00e9cnicos y los cient\u00edficos han puesto en pie los instrumentos de esta sociedad, pero su generalizaci\u00f3n depende, en buena medida, del impulso que reciba de las Administraciones P\u00fablicas. Depende de la confianza y seguridad que genere en los ciudadanos y depende tambi\u00e9n de los servicios que ofrezca."
+      },{
+        "@class": "parrafo",
+        "#text": "El mejor servicio al ciudadano constituye la raz\u00f3n de la reformas que tras la aprobaci\u00f3n de la Constituci\u00f3n se han ido realizando en Espa\u00f1a para configurar una Administraci\u00f3n moderna que haga del principio de eficacia y eficiencia su eje vertebrador siempre con la mira puesta en los ciudadanos. Ese servicio constituye tambi\u00e9n la principal raz\u00f3n de ser de la Ley de acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos que trata, adem\u00e1s, de estar a la altura de la \u00e9poca actual."
+      },{
+        "@class": "parrafo",
+        "#text": "En efecto, la descentralizaci\u00f3n pol\u00edtica del Estado no se agot\u00f3 en su primer y m\u00e1s inmediato designio de organizar pol\u00edticamente Espa\u00f1a de una forma muy diferente al Estado unitario, sino que ha sido ocasi\u00f3n para que la mayor proximidad democr\u00e1tica de los nuevos poderes auton\u00f3micos se tradujese tambi\u00e9n en una mayor proximidad de las Administraciones de ellos dependientes respecto del ciudadano."
+      },{
+        "@class": "parrafo",
+        "#text": "En la misma l\u00ednea se mueve el reconocimiento constitucional de la autonom\u00eda local."
+      },{
+        "@class": "parrafo",
+        "#text": "No obstante, esa mayor proximidad al ciudadano de la Administraci\u00f3n, derivada de la descentralizaci\u00f3n auton\u00f3mica y local, no ha acabado de superar la barrera que sigue distanciando todav\u00eda al ciudadano de la Administraci\u00f3n, de cualquier Administraci\u00f3n, incluida la del Estado, y que, muchas veces, no es otra que la barrera que levanta el tiempo y el espacio: el tiempo que hay que dedicar a la relaci\u00f3n con aqu\u00e9lla para la realizaci\u00f3n de muchos tr\u00e1mites de la vida diaria que empiezan a veces por la necesidad de una primera informaci\u00f3n que exige un desplazamiento inicial, m\u00e1s los sucesivos desplazamientos y tiempo que se dedican a posteriores tr\u00e1mites a hacer con la Administraci\u00f3n para las actividades m\u00e1s elementales. Esas primeras barreras potencian, en ocasiones, otras que afectan a la posici\u00f3n servicial de las Administraciones P\u00fablicas. \u00c9stas no pueden cumplir siempre su misi\u00f3n atendiendo cualquier cosa que pida un ciudadano, puesto que puede estar en contradicci\u00f3n con los intereses de la mayor\u00eda de los dem\u00e1s ciudadanos, con los intereses generales representados por las leyes. Pero en esos casos -en que los intereses generales no coinciden con los intereses individuales- la relaci\u00f3n con el ciudadano debe ser, tambi\u00e9n, lo m\u00e1s r\u00e1pida y clara posible sin p\u00e9rdidas de tiempo innecesarias."
+      },{
+        "@class": "parrafo",
+        "#text": "En todo caso, esas primeras barreras en las relaciones con la Administraci\u00f3n -la distancia a la que hay que desplazarse y el tiempo que es preciso dedicar- hoy d\u00eda no tienen raz\u00f3n de ser. Las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones hacen posible acercar la Administraci\u00f3n hasta la sala de estar de los ciudadanos o hasta las oficinas y despachos de las empresas y profesionales. Les permiten relacionarse con ella sin colas ni esperas. E incluso recibir servicios e informaciones ajenos a actividades de intervenci\u00f3n administrativa o autorizaci\u00f3n; informaciones y servicios no relacionados con actuaciones limitadoras, sino al contrario ampliadoras de sus posibilidades. Esas condiciones permiten tambi\u00e9n a los ciudadanos ver a la Administraci\u00f3n como una entidad a su servicio y no como una burocracia pesada que empieza por exigir, siempre y para empezar, el sacrificio del tiempo y del desplazamiento que impone el espacio que separa el domicilio de los ciudadanos y empresas de las oficinas p\u00fablicas. Pero, adem\u00e1s de eso, las nuevas tecnolog\u00edas de la informaci\u00f3n facilitan, sobre todo, el acceso a los servicios p\u00fablicos a aquellas personas que antes ten\u00edan grandes dificultades para llegar a las oficinas p\u00fablicas, por motivos de localizaci\u00f3n geogr\u00e1fica, de condiciones f\u00edsicas de movilidad u otros condicionantes, y que ahora se pueden superar por el empleo de las nuevas tecnolog\u00edas. Se da as\u00ed un paso trascendental para facilitar, en igualdad de condiciones, la plena integraci\u00f3n de estas personas en la vida p\u00fablica, social, laboral y cultural."
+      },{
+        "@class": "parrafo",
+        "#text": "De ello se percat\u00f3 la Ley 30/1992 de 26 de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Proce-dimiento Administrativo Com\u00fan (LRJAP-PAC), que en su primera versi\u00f3n recogi\u00f3 ya en su art\u00edculo 45 el impulso al empleo y aplicaci\u00f3n de las t\u00e9cnicas y medios electr\u00f3nicos, inform\u00e1ticos y telem\u00e1ticos, por parte de la Administraci\u00f3n al objeto de desarrollar su actividad y el ejercicio de sus competencias y de permitir a los ciudadanos relacionarse con las Administraciones cuando fuese compatible con los \u00abmedios t\u00e9cnicos de que dispongan\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "Esa previsi\u00f3n, junto con la de la informatizaci\u00f3n de registros y archivos del art\u00edculo 38 de la misma Ley en su versi\u00f3n originaria y, especialmente, en la redacci\u00f3n que le dio la Ley 24/2001 de 27 de diciembre al permitir el establecimiento de registros telem\u00e1ticos para la recepci\u00f3n o salida de solicitudes, escritos y comunicaciones por medios telem\u00e1ticos, abr\u00eda el paso a la utilizaci\u00f3n de tales medios para relacionarse con la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Simult\u00e1neamente, la misma Ley 24/2001 modific\u00f3 el art\u00edculo 59 permitiendo la notificaci\u00f3n por medios telem\u00e1ticos si el interesado hubiera se\u00f1alado dicho medio como preferente o consentido expresamente."
+      },{
+        "@class": "parrafo",
+        "#text": "En el mismo sentido destacan las modificaciones realizadas en la Ley General Tributaria para permitir tambi\u00e9n las notificaciones telem\u00e1ticas as\u00ed como el art\u00edculo 96 de la nueva Ley General Tributaria de 2003 que prev\u00e9 expresamente la actuaci\u00f3n administrativa automatizada o la imagen electr\u00f3nica de los documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "Sin embargo, el desarrollo de la administraci\u00f3n electr\u00f3nica es todav\u00eda insuficiente. La causa en buena medida se debe a que las previsiones de los art\u00edculos 38, 45 y 59 de la Ley de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan son facultativas. Es decir, dejan en manos de las propias Administraciones determinar si los ciudadanos van a poder de modo efectivo, o no, relacionarse por medios electr\u00f3nicos con ellas, seg\u00fan que \u00e9stas quieran poner en pie los instrumentos necesarios para esa comunicaci\u00f3n con la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Por ello esta Ley pretende dar el paso del \u00abpodr\u00e1n\u00bb por el \u00abdeber\u00e1n\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "Las avanzadas para el momento, pero por otra parte prudentes, previsiones legales, muy v\u00e1lidas en 1992 o en\u00a02001, hoy han quedado desfasadas, ante una realidad en que el grado de penetraci\u00f3n de ordenadores y el n\u00famero de personas y entidades con acceso en banda ancha a Internet, con las posibilidades abiertas a otras tecnolog\u00edas y plataformas, no se corresponden ya con los servicios meramente facultativos que la Ley citada permite y estimula a establecer a las Administraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "El servicio al ciudadano exige consagrar su derecho a comunicarse con las Administraciones por medios electr\u00f3nicos. La contrapartida de ese derecho es la obligaci\u00f3n de \u00e9stas de dotarse de los medios y sistemas electr\u00f3nicos para que ese derecho pueda ejercerse. Esa es una de las grandes novedades de la Ley: pasar de la declaraci\u00f3n de impulso de los medios electr\u00f3nicos e inform\u00e1ticos -que se concretan en la pr\u00e1ctica en la simple posibilidad de que algunas Administraciones, o algunos de sus \u00f3rganos, permitan las comunicaciones por medios electr\u00f3nicos- a que est\u00e9n obligadas a hacerlo porque la Ley reconoce el derecho de los ciudadanos a establecer relaciones electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley consagra la relaci\u00f3n con las Administraciones P\u00fablicas por medios electr\u00f3nicos como un derecho de los ciudadanos y como una obligaci\u00f3n correlativa para tales Administraciones. El reconocimiento de tal derecho y su correspondiente obligaci\u00f3n se erigen as\u00ed en el eje central del proyecto de Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Pero en torno a dicho eje es preciso abordar muchas otras que contribuyen a definir y concretar el alcance de ese derecho. As\u00ed, por ejemplo, tal derecho se hace efectivo de modo real mediante la imposici\u00f3n, al menos en el \u00e1mbito de la Administraci\u00f3n General del Estado y en los t\u00e9rminos de la ley, de la obligaci\u00f3n de poner a disposici\u00f3n de ciudadanos y empresas al menos un punto de acceso general a trav\u00e9s del cual los usuarios puedan, de forma sencilla, acceder a la informaci\u00f3n y servicios de su competencia; presentar solicitudes y recursos; realizar el tr\u00e1mite de audiencia cuando proceda; efectuar pagos o acceder a las notificaciones y comunicaciones que les remitan la Administraci\u00f3n P\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "Tambi\u00e9n debe encontrar informaci\u00f3n en dicho punto de acceso \u00fanico sobre los servicios multicanal o que le sean ofrecidos por m\u00e1s de un medio, tecnolog\u00eda o plataforma."
+      },{
+        "@class": "subseccion",
+        "#text": "II"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La Ley se articula a partir de las competencias del Estado que le reconoce el art\u00edculo 149.1.18 de la Constituci\u00f3n: \u00abBases del r\u00e9gimen jur\u00eddico de las Administraciones P\u00fablicas\u00bb, por una parte y \u00abprocedimiento administrativo com\u00fan\u00bb por otra."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otra parte, la regulaci\u00f3n estatal, en lo que tiene de b\u00e1sico, deja margen a los desarrollos auton\u00f3micos, sin que pueda olvidarse, adem\u00e1s, que el objeto de las bases en este caso deben permitir \u00aben todo caso\u00bb, de acuerdo con este n\u00famero 18, un \u00abtratamiento com\u00fan\u00bb ante ellas."
+      },{
+        "@class": "parrafo",
+        "#text": "En esta perspectiva, la regulaci\u00f3n del Estado debe abordar aquellos aspectos en los que es obligado que las previsiones normativas sean comunes, como es el caso de la interoperabilidad, las garant\u00edas de las comunicaciones electr\u00f3nicas, los servicios a los que tienen derecho los ciudadanos, la conservaci\u00f3n de las comunicaciones electr\u00f3nicas y los dem\u00e1s temas que se abordan en la ley para garantizar que el ejercicio del derecho a relacionarse electr\u00f3nicamente con todas las administraciones forme parte de ese tratamiento com\u00fan que tienen."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley 30/1992 se limit\u00f3 a abrir la posibilidad, como se ha dicho, de establecer relaciones telem\u00e1ticas con las Administraci\u00f3n, pero la hora actual demanda otra regulaci\u00f3n que garantice, pero ahora de modo efectivo, un tratamiento com\u00fan de los ciudadanos antes todas las Administraciones: que garantice, para empezar y sobre todo, el derecho a establecer relaciones electr\u00f3nicas con todas las Administraciones P\u00fablicas. Las nuevas realidades, exigencias y experiencias que se han ido poniendo de manifiesto; el propio desarrollo de la sociedad de la informaci\u00f3n, la importancia que una regulaci\u00f3n clara, precisa y com\u00fan de los derechos de los ciudadanos y el cambio de circunstancias tecnol\u00f3gicas y sociales exige actualizar el contenido, muy diferente al de 1992, de la regulaci\u00f3n b\u00e1sica que est\u00e9 hoy a la altura de las nueva exigencias. Esa regulaci\u00f3n com\u00fan exige, hoy, por ejemplo, reconocer el derecho de los ciudadanos -y no s\u00f3lo la posibilidad- de acceder mediante comunicaciones electr\u00f3nicas a la Administraci\u00f3n."
+      },{
+        "@class": "subseccion",
+        "#text": "III"
+      },{
+        "@class": "parrafo_2",
+        "#text": "El reconocimiento general del derecho de acceder electr\u00f3nicamente a las Administraciones P\u00fablicas tiene otras muchas consecuencias a las que hay dar soluci\u00f3n y de las que aqu\u00ed, de forma resumida, se enumeran algunas."
+      },{
+        "@class": "parrafo",
+        "#text": "As\u00ed, en primer lugar, la progresiva utilizaci\u00f3n de medios electr\u00f3nicos suscita la cuesti\u00f3n de la privacidad de unos datos que se facilitan en relaci\u00f3n con un expediente concreto pero que, archivados de forma electr\u00f3nica como consecuencia de su propio modo de transmisi\u00f3n, hacen emerger el problema de su uso no en el mismo expediente en el que es evidente, desde luego, pero, s\u00ed la eventualidad de su uso por otros servicios o dependencias de la Administraci\u00f3n o de cualquier Administraci\u00f3n o en otro expediente. Las normas de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal deben bastar, y no se trata de hacer ninguna innovaci\u00f3n al respecto, pero s\u00ed de establecer previsiones que garanticen la utilizaci\u00f3n de los datos obtenidos de las comunicaciones electr\u00f3nicas para el fin preciso para el que han sido remitidos a la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otra parte, los interesados en un procedimiento tienen derecho de acceso al mismo y ver los documentos. Lo mismo debe suceder, como m\u00ednimo, en un expediente iniciado electr\u00f3nicamente o tramitado de esta forma. Dicho expediente debe poder permitir el acceso en l\u00ednea a los interesados para verificar la situaci\u00f3n del expediente, sin mengua de todas las garant\u00edas de la privacidad."
+      },{
+        "@class": "parrafo",
+        "#text": "En todo caso, la progresiva utilizaci\u00f3n de comunicaciones electr\u00f3nicas, derivada del reconocimiento del derecho a comunicarse electr\u00f3nicamente con la Administraci\u00f3n, suscita la cuesti\u00f3n no ya de la adaptaci\u00f3n de \u00e9sta -recursos humanos y materiales- a una nueva forma de relacionarse con los ciudadanos, sino tambi\u00e9n la cuesti\u00f3n de la manera de adaptar sus formas de actuaci\u00f3n y tramitaci\u00f3n de los expedientes y en general adaptar los procedimientos a la nueva realidad que imponen las nuevas tecnolog\u00edas."
+      },{
+        "@class": "parrafo",
+        "#text": "El hecho de reconocer el derecho de los ciudadanos a comunicarse electr\u00f3nicamente con la Administraci\u00f3n plantea, en primer lugar, la necesidad de definir claramente la \u00absede\u00bb administrativa electr\u00f3nica con la que se establecen las relaciones, promoviendo un r\u00e9gimen de identificaci\u00f3n, autenticaci\u00f3n, contenido m\u00ednimo, protecci\u00f3n jur\u00eddica, accesibilidad, disponibilidad y responsabilidad. Exige tambi\u00e9n abordar la definici\u00f3n a los efectos de la Ley de una serie de t\u00e9rminos y conceptos cuyo uso habitual obliga en un contexto de comunicaciones electr\u00f3nicas a efectuar muchas precisiones. Tal sucede con la definici\u00f3n de expediente electr\u00f3nico y de documento electr\u00f3nico; de los registros electr\u00f3nicos y de las notificaciones electr\u00f3nicas o del alcance y sistemas de sellados de tiempo."
+      },{
+        "@class": "parrafo",
+        "#text": "La consagraci\u00f3n de ese derecho de los ciudadanos a comunicarse electr\u00f3nicamente con la Administraci\u00f3n suscita, tambi\u00e9n, por ejemplo, la cuesti\u00f3n de la forma de utilizar y archivar dichas comunicaciones. Y lo plantea tanto en lo que podr\u00eda considerarse la formaci\u00f3n del expediente o el archivo de oficina -el vinculado a la tramitaci\u00f3n de los expedientes-, como en lo que se refiere al archivo de los expedientes ya tramitados."
+      },{
+        "@class": "parrafo",
+        "#text": "En cuanto al funcionamiento interno de la Administraci\u00f3n, las nuevas tecnolog\u00edas permiten oportunidades de mejora (eficiencia y reducci\u00f3n de costes) que hacen ineludible la consideraci\u00f3n de las formas de tramitaci\u00f3n electr\u00f3nica, tanto para la tramitaci\u00f3n electr\u00f3nica de expedientes, como para cualquier otra actuaci\u00f3n interna de la Administraci\u00f3n, expandi\u00e9ndolas gradualmente con el objetivo del a\u00f1o 2009."
+      },{
+        "@class": "parrafo",
+        "#text": "Ciertamente, el uso de medios electr\u00f3nicos no puede significar merma alguna del derecho del interesado en un expediente a acceder al mismo en la forma tradicional, as\u00ed como tampoco puede suponer un freno o un retraso para que la Administraci\u00f3n internamente adopte los mecanismos m\u00e1s adecuados, en este caso medios electr\u00f3nicos, que le permitan mejorar procesos y reducir el gasto p\u00fablico. Conjugar ambos requerimientos es posible gracias a las medidas de la pol\u00edtica de fomento de desarrollo de la Sociedad de la Informaci\u00f3n que se vienen impulsando en los \u00faltimos a\u00f1os. En este sentido la Administraci\u00f3n debe incorporar las nuevas tecnolog\u00edas a su funcionamiento interno y, simult\u00e1neamente, se debe garantizar que aquellos ciudadanos que por cualquier motivo (no disponibilidad de acceso a las nuevas tecnolog\u00edas o falta de formaci\u00f3n) no puedan acceder electr\u00f3nicamente a la Administraci\u00f3n P\u00fablica, dispongan de los medios adecuados para seguir comunic\u00e1ndose con la Administraci\u00f3n con los mismos derechos y garant\u00edas. La soluci\u00f3n a ese doble objetivo pasa por la formaci\u00f3n del personal al servicio de la Administraci\u00f3n que atiende al p\u00fablico para que hagan posible la comunicaci\u00f3n de estos ciudadanos con la administraci\u00f3n electr\u00f3nica, as\u00ed como por la disponibilidad de puntos de acceso electr\u00f3nico p\u00fablicos en sedes administrativas. O tambi\u00e9n, desde luego, establecer las previsiones generales que sean garant\u00eda de los derechos de los ciudadanos y de un tratamiento igual ante todas las Administraciones en todos esos supuestos."
+      },{
+        "@class": "parrafo",
+        "#text": "En segundo lugar es necesario regular la validez de los documentos y sus copias y la forma de que el documento electr\u00f3nico opere con plena validez en modo convencional y, en su caso, la forma en que los documentos convencionales se transformen en documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Otra cuesti\u00f3n que se aborda es la de las plataformas que pueden utilizar los ciudadanos o las propias Administraciones para establecer tales comunicaciones electr\u00f3nicas. El ordenador e Internet puede ser una v\u00eda, pero no es desde luego la \u00fanica; las comunicaciones v\u00eda SMS pueden ser otra forma de actuaci\u00f3n que en algunas Administraciones est\u00e1n siendo ya utilizadas. La Televisi\u00f3n Digital Terrestre, por ejemplo, abre tambi\u00e9n posibilidades con las que hay tambi\u00e9n que contar. La Ley no puede limitarse a regular el uso de los canales electr\u00f3nicos disponibles hoy en d\u00eda, ya que la gran velocidad en el desarrollo de las tecnolog\u00edas de la informaci\u00f3n hacen posible la aparici\u00f3n de nuevos instrumentos electr\u00f3nicos que pudieran aplicarse para la administraci\u00f3n electr\u00f3nica en muy poco tiempo, siendo necesario generalizar la regulaci\u00f3n de estos canales."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley debe partir del principio de libertad de los ciudadanos en la elecci\u00f3n de la v\u00eda o canal por el que quieren comunicarse con la Administraci\u00f3n, si bien cada tecnolog\u00eda puede ser apta para una funci\u00f3n en raz\u00f3n de sus caracter\u00edsticas y de la fiabilidad y seguridad de sus comunicaciones."
+      },{
+        "@class": "subseccion",
+        "#text": "IV"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Debe recordarse que el impulso de una administraci\u00f3n electr\u00f3nica supone tambi\u00e9n dar respuesta a los compromisos comunitarios y a las iniciativas europeas puestas en marcha a partir de Consejo Europeo de Lisboa y Santa Maria da Feira, continuado con sucesivas actuaciones hasta la actual comunicaci\u00f3n de la Comisi\u00f3n \u00abi2010: Una Sociedad de la Informaci\u00f3n Europea para el crecimiento y el empleo\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "El impulso comunitario a la iniciativa e-Europa da la m\u00e1xima importancia al desarrollo de la administraci\u00f3n electr\u00f3nica, buscando aprovechar todas las posibilidades de las nuevas tecnolog\u00edas como un factor determinante del futuro econ\u00f3mico de Europa."
+      },{
+        "@class": "parrafo",
+        "#text": "En estos a\u00f1os de vigencia de la iniciativa e-Europa el \u00e1mbito de actuaci\u00f3n de la administraci\u00f3n electr\u00f3nica ha crecido considerablemente en sucesivas revisiones, hasta llegar a noviembre de 2005, cuando, tras la publicaci\u00f3n de la comunicaci\u00f3n relativa a i2010 se aprob\u00f3, en la Cumbre de Manchester, una resoluci\u00f3n ministerial, con objetivos concretos para el desarrollo de la administraci\u00f3n electr\u00f3nica en la Uni\u00f3n. Tras esta resoluci\u00f3n se aprob\u00f3 el Plan de Acci\u00f3n sobre administraci\u00f3n electr\u00f3nica i2010, en la que se se\u00f1ala que los \u00e9xitos de la administraci\u00f3n electr\u00f3nica son ya claramente visibles en varios pa\u00edses de la UE, estimando en 50.000 millones de euros el ahorro anual en toda la Uni\u00f3n que una implantaci\u00f3n generalizada de ella podr\u00eda generar."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, el 12 de diciembre de 2006, y con objeto de avanzar en la consecuci\u00f3n del objetivo fijado por el Consejo Europeo de Lisboa, se aprob\u00f3 la Directiva 2006/123/CE, relativa a los servicios en el mercado interior."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta Directiva establece, entre otras obligaciones para los Estados miembros, la de facilitar por medios electr\u00f3nicos acceso a los tr\u00e1mites relacionados con las actividades de servicios y a la informaci\u00f3n de inter\u00e9s tanto para los prestadores como para los destinatarios de los mismos."
+      },{
+        "@class": "parrafo",
+        "#text": "Por ello, y dada la analog\u00eda de esta finalidad con el objetivo de esta Ley, se realiza en la misma una referencia expresa a la informaci\u00f3n y tr\u00e1mites relacionados con las actividades de servicios, de forma que los art\u00edculos\u00a06, 7 y\u00a08 de la Directiva pueden considerarse traspuestos por esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otra parte, en el contexto internacional, tambi\u00e9n otros organismos se han interesado en la administraci\u00f3n electr\u00f3nica como forma de activar la econom\u00eda y mejorar el gobierno de los pa\u00edses como es el caso de la OCDE, que public\u00f3 en 2004 un estudio con un t\u00edtulo casi autodescriptivo: \u00abLa administraci\u00f3n electr\u00f3nica: Un imperativo\u00bb, donde resalta los ahorros que la administraci\u00f3n electr\u00f3nica puede generar al permitirles aumentar su eficacia."
+      },{
+        "@class": "parrafo",
+        "#text": "Tambi\u00e9n el Consejo de Europa, desde una perspectiva m\u00e1s social, est\u00e1 analizando la administraci\u00f3n electr\u00f3nica como un motor de desarrollo. En diciembre de 2004 el Comit\u00e9 de Ministros adopt\u00f3 una recomendaci\u00f3n donde se se\u00f1ala que la administraci\u00f3n electr\u00f3nica no es asunto meramente t\u00e9cnico, sino de gobernanza democr\u00e1tica."
+      },{
+        "@class": "subseccion",
+        "#text": "V"
+      },{
+        "@class": "parrafo_2",
+        "#text": "En este contexto, una Ley para el acceso electr\u00f3nico de los ciudadanos a las Administraciones P\u00fablicas se justifica en la creaci\u00f3n de un marco jur\u00eddico que facilite la extensi\u00f3n y utilizaci\u00f3n de estas tecnolog\u00edas. Y el principal reto que tiene la implantaci\u00f3n de las Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones (TIC) en la sociedad en general y en la Administraci\u00f3n en particular es la generaci\u00f3n de confianza suficiente que elimine o minimice los riesgos asociados a su utilizaci\u00f3n. La desconfianza nace de la percepci\u00f3n, muchas veces injustificada, de una mayor fragilidad de la informaci\u00f3n en soporte electr\u00f3nico, de posibles riesgos de p\u00e9rdida de privacidad y de la escasa transparencia de estas tecnolog\u00edas."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otro lado, la legislaci\u00f3n debe proclamar y erigirse sobre un principio fundamental como es la conservaci\u00f3n de las garant\u00edas constitucionales y legales a los derechos de los ciudadanos y en general de las personas que se relacionan con la Administraci\u00f3n P\u00fablica, cuya exigencia se deriva del art\u00edculo 18.4 CE, al encomendar a la ley la limitaci\u00f3n del uso de la inform\u00e1tica para preservar el ejercicio de los derechos constitucionales. Esta conservaci\u00f3n exige afirmar la vigencia de los derechos fundamentales no s\u00f3lo como l\u00edmite, sino como vector que orienta esta reforma legislativa de acuerdo con el fin promocional consagrado en el art\u00edculo 9.2 de nuestro texto fundamental, as\u00ed como recoger aquellas peculiaridades que exigen la aplicaci\u00f3n segura de estas tecnolog\u00edas. Estos derechos deben completarse con otros exigidos por el nuevo soporte electr\u00f3nico de relaciones, entre los que debe estar el derecho al uso efectivo de estos medios para el desarrollo de las relaciones de las personas con la Administraci\u00f3n. Las anteriores consideraciones cristalizan en un Estatuto del ciudadano frente a la administraci\u00f3n electr\u00f3nica que recoge un elenco no limitativo de las posiciones del ciudadano en sus relaciones con las Administraciones P\u00fablicas, as\u00ed como las garant\u00edas espec\u00edficas para su efectividad."
+      },{
+        "@class": "parrafo",
+        "#text": "Con este fin, la Ley crea la figura del Defensor del Usuario, que atender\u00e1 las quejas y realizar\u00e1 las sugerencias y propuestas pertinentes para mejorar las relaciones de ciudadanos en su trato con las Administraciones P\u00fablicas por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "De otro lado, merece subrayarse el papel de vanguardia que corresponde a nuestras empresas en el desarrollo de una verdadera sociedad de la informaci\u00f3n y, por ende,\u00a0de una Administraci\u00f3n accesible electr\u00f3nicamente. No en vano, la integraci\u00f3n de las Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones (TIC's) en el d\u00eda a d\u00eda de la empresa, necesaria en virtud de las exigencias del entorno abierto y altamente competitivo en que operan, ha sido y es palanca impulsora para el desarrollo y creciente incorporaci\u00f3n de esas mismas tecnolog\u00edas en el actuar administrativo. Al mismo tiempo, representa una ayuda insustituible para favorecer la expansi\u00f3n de la \u00abcultura electr\u00f3nica\u00bb entre los trabajadores-ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "Las empresas pueden, en tal sentido, desempe\u00f1ar un papel coadyuvante clave para la consecuci\u00f3n de los objetivos pretendidos por esta Ley. Las razones apuntadas aconsejan un tratamiento espec\u00edfico de aquellos procedimientos y gestiones que de forma m\u00e1s intensa afectan al desarrollo de la actividad empresarial."
+      },{
+        "@class": "parrafo",
+        "#text": "A todo ello se debe la aprobaci\u00f3n de esta Ley de acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos, en la que se incluyen las siguientes materias con la estructura que se recoge en los siguientes apartados."
+      },{
+        "@class": "subseccion",
+        "#text": "VI"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La Ley se estructura en cuatro t\u00edtulos, seis disposiciones adicionales, una disposici\u00f3n transitoria, una derogatoria y ocho finales."
+      },{
+        "@class": "parrafo",
+        "#text": "En el T\u00edtulo Preliminar se definen el objeto y finalidades de la ley, los principios generales a los que se ajusta, as\u00ed como su \u00e1mbito de aplicaci\u00f3n. Debe destacarse el car\u00e1cter b\u00e1sico de la ley en los t\u00e9rminos establecidos en la disposici\u00f3n final primera, siendo por tanto de aplicaci\u00f3n a todas las Administraciones P\u00fablicas los art\u00edculos referidos en dicha disposici\u00f3n final."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley establece entre otros, el principio de igualdad, para que la utilizaci\u00f3n de comunicaciones electr\u00f3nicas con las Administraciones P\u00fablicas no implique una discriminaci\u00f3n para los ciudadanos que se relacionen con la Administraci\u00f3n por medios no electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "En el T\u00edtulo Primero est\u00e1n recogidos los derechos de los ciudadanos en sus relaciones con las Administraciones P\u00fablicas a trav\u00e9s de medios electr\u00f3nicos. Para garantizar el pleno ejercicio de estos derechos, se establece la obligaci\u00f3n de las Administraciones de habilitar diferentes canales o medios para la prestaci\u00f3n de los servicios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, se establece la obligaci\u00f3n de cada Administraci\u00f3n de facilitar a las otras Administraciones los datos de los interesados que se le requieran y obren en su poder, en la tramitaci\u00f3n de un procedimiento, siempre que el interesado preste su consentimiento expreso, el cual podr\u00e1 emitirse y recabarse por medios electr\u00f3nicos, al objeto de que los ciudadanos no deban aportar datos y documentos que est\u00e1n en poder de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Para velar por la efectividad de los derechos reconocidos a los ciudadanos se prev\u00e9, en el \u00e1mbito de la Administraci\u00f3n General del Estado, la actuaci\u00f3n de las Inspecciones Generales de Servicios de los Departamentos Ministeriales y del Defensor del usuario."
+      },{
+        "@class": "parrafo",
+        "#text": "En el T\u00edtulo Segundo se regula el r\u00e9gimen jur\u00eddico de la administraci\u00f3n electr\u00f3nica. Por una parte, su Cap\u00edtulo Primero se dedica a la sede electr\u00f3nica, como direcci\u00f3n electr\u00f3nica cuya gesti\u00f3n y administraci\u00f3n corresponde a una Administraci\u00f3n P\u00fablica funcionando con plena responsabilidad respecto de la integridad, veracidad y actualizaci\u00f3n de la informaci\u00f3n y los servicios a los que puede accederse a trav\u00e9s de la misma. En la normativa de desarrollo de la Ley, cada Administraci\u00f3n determinar\u00e1 los instrumentos de creaci\u00f3n de las sedes electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "En su Cap\u00edtulo Segundo se regulan las formas de identificaci\u00f3n y autenticaci\u00f3n, tanto de los ciudadanos como de los \u00f3rganos administrativos en el ejercicio de sus competencias, siendo destacable que se habilitan distintos instrumentos de acreditaci\u00f3n, que se concretar\u00e1n en la normativa aplicable a cada supuesto con criterios de proporcionalidad. El Documento Nacional de Identidad electr\u00f3nico est\u00e1 habilitado con car\u00e1cter general para todas las relaciones con las Administraciones P\u00fablicas, y por ello se impulsar\u00e1 como f\u00f3rmula para extender el uso general de la firma electr\u00f3nica. Tambi\u00e9n se establece la obligaci\u00f3n para cualquier Administraci\u00f3n de admitir los certificados electr\u00f3nicos reconocidos en el \u00e1mbito de la Ley de Firma Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "Interesa tambi\u00e9n destacar sobre esta cuesti\u00f3n, y con objeto de evitar la brecha digital, la posibilidad de que sean funcionarios p\u00fablicos quienes acrediten la voluntad de los ciudadanos, siguiendo el procedimiento establecido, para sus relaciones electr\u00f3nicas con la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "En el Cap\u00edtulo Tercero se regulan los registros, comunicaciones y notificaciones electr\u00f3nicas. La principal novedad a este respecto es la nueva regulaci\u00f3n de los registros electr\u00f3nicos, de manera que puedan convertirse en un instrumento que se libere de la rigidez actual y sirvan para la presentaci\u00f3n de cualquier escrito o solicitud ante las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley regula las comunicaciones electr\u00f3nicas de los ciudadanos con las Administraciones y de \u00e9stas entre s\u00ed, para aunar los criterios de agilidad y de seguridad jur\u00eddica. En el Cap\u00edtulo Cuarto, sobre los documentos y archivos electr\u00f3nicos, se establecen las condiciones para reconocer la validez de un documento electr\u00f3nico, se regula todo el sistema de copias electr\u00f3nicas, tanto las realizadas a partir de documentos emitidos originariamente en papel, como las copias de documentos que ya estuvieran en soporte electr\u00f3nico y las condiciones para realizar en soporte papel copia de originales emitidos por medios electr\u00f3nicos, o viceversa."
+      },{
+        "@class": "parrafo",
+        "#text": "El T\u00edtulo Tercero trata de la gesti\u00f3n electr\u00f3nica de los procedimientos, desarrolla la regulaci\u00f3n de los procedimientos administrativos utilizando medios electr\u00f3nicos y los criterios a seguir en la gesti\u00f3n electr\u00f3nica, guardando un cierto paralelismo con la regulaci\u00f3n que encontramos en la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan. As\u00ed, se regula la iniciaci\u00f3n, instrucci\u00f3n y terminaci\u00f3n de procedimientos por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "En este T\u00edtulo cabe hacer especial referencia a la obligaci\u00f3n que se establece para las Administraciones P\u00fablicas de poner a disposici\u00f3n de los usuarios informaci\u00f3n por medios electr\u00f3nicos sobre el estado de tramitaci\u00f3n de los procedimientos, tanto para los gestionados en su totalidad por medios electr\u00f3nicos como para el resto de procedimientos."
+      },{
+        "@class": "parrafo",
+        "#text": "El T\u00edtulo Cuarto est\u00e1 dedicado a la Cooperaci\u00f3n entre Administraciones para el impulso de la administraci\u00f3n electr\u00f3nica. En \u00e9l se establecen el \u00f3rgano de cooperaci\u00f3n en esta materia de la Administraci\u00f3n General del Estado con los de las Comunidades Aut\u00f3nomas y con la Administraci\u00f3n Local, y se determinan los principios para garantizar la interoperabilidad de sistemas de informaci\u00f3n as\u00ed como las bases para impulsar la reutilizaci\u00f3n de aplicaciones y transferencia de tecnolog\u00edas entre Administraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley consta, por \u00faltimo, de seis disposiciones adicionales, una transitoria, una derogatoria y ocho finales entre las que presenta especial relevancia la disposici\u00f3n final primera en la que se citan los preceptos de la ley que tienen car\u00e1cter b\u00e1sico al amparo del art\u00edculo 149.1.18 de la Constituci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Especial inter\u00e9s tiene tambi\u00e9n la disposici\u00f3n final tercera, pues con independencia de la fecha de entrada en vigor de la Ley, en ella se se\u00f1alan las fechas para la efectividad plena del derecho de los ciudadanos a relacionarse con las Administraciones P\u00fablicas por medios electr\u00f3nicos, estableciendo los plazos que se consideran adecuados para llevar a cabo las necesarias actuaciones previas de adecuaci\u00f3n por parte de las distintas Administraciones P\u00fablicas."
+      },{
+        "@class": "titulo_num",
+        "#text": "[encabezado]T\u00cdTULO PRELIMINAR"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Del \u00e1mbito de aplicaci\u00f3n y los principios generales"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto de la Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La presente Ley reconoce el derecho de los ciudadanos a relacionarse con las Administraciones P\u00fablicas por medios electr\u00f3nicos y regula los aspectos b\u00e1sicos de la utilizaci\u00f3n de las tecnolog\u00edas de la informaci\u00f3n en la actividad administrativa, en las relaciones entre las Administraciones P\u00fablicas, as\u00ed como en las relaciones de los ciudadanos con las mismas con la finalidad de garantizar sus derechos, un tratamiento com\u00fan ante ellas y la validez y eficacia de la actividad administrativa en condiciones de seguridad jur\u00eddica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Administraciones P\u00fablicas utilizar\u00e1n las tecnolog\u00edas de la informaci\u00f3n de acuerdo con lo dispuesto en la presente Ley, asegurando la disponibilidad, el acceso, la integridad, la autenticidad, la confidencialidad y la conservaci\u00f3n de los datos, informaciones y servicios que gestionen en el ejercicio de sus competencias."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La presente Ley, en los t\u00e9rminos expresados en su disposici\u00f3n final primera, ser\u00e1 de aplicaci\u00f3n:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) A las Administraciones P\u00fablicas, entendiendo por tales la Administraci\u00f3n General del Estado, las Administraciones de las Comunidades Aut\u00f3nomas y las Entidades que integran la Administraci\u00f3n Local, as\u00ed como las entidades de derecho p\u00fablico vinculadas o dependientes de las mismas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) A los ciudadanos en sus relaciones con las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "c) A las relaciones entre las distintas Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. La presente Ley no ser\u00e1 de aplicaci\u00f3n a las Administraciones P\u00fablicas en las actividades que desarrollen en r\u00e9gimen de derecho privado."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. Finalidades de la Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Son fines de la presente Ley:"
+      },{
+        "@class": "parrafo",
+        "#text": "1. Facilitar el ejercicio de derechos y el cumplimiento de deberes por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Facilitar el acceso por medios electr\u00f3nicos de los ciudadanos a la informaci\u00f3n y al procedimiento administrativo, con especial atenci\u00f3n a la eliminaci\u00f3n de las barreras que limiten dicho acceso."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Crear las condiciones de confianza en el uso de los medios electr\u00f3nicos, estableciendo las medidas necesarias para la preservaci\u00f3n de la integridad de los derechos fundamentales, y en especial los relacionados con la intimidad y la protecci\u00f3n de datos de car\u00e1cter personal, por medio de la garant\u00eda de la seguridad de los sistemas, los datos, las comunicaciones, y los servicios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Promover la proximidad con el ciudadano y la transparencia administrativa, as\u00ed como la mejora continuada en la consecuci\u00f3n del inter\u00e9s general."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Contribuir a la mejora del funcionamiento interno de las Administraciones P\u00fablicas, incrementando la eficacia y la eficiencia de las mismas mediante el uso de las tecnolog\u00edas de la informaci\u00f3n, con las debidas garant\u00edas legales en la realizaci\u00f3n de sus funciones."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Simplificar los procedimientos administrativos y proporcionar oportunidades de participaci\u00f3n y mayor transparencia, con las debidas garant\u00edas legales."
+      },{
+        "@class": "parrafo",
+        "#text": "7. Contribuir al desarrollo de la sociedad de la informaci\u00f3n en el \u00e1mbito de las Administraciones P\u00fablicas y en la sociedad en general."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Principios generales."
+      },{
+        "@class": "parrafo",
+        "#text": "La utilizaci\u00f3n de las tecnolog\u00edas de la informaci\u00f3n tendr\u00e1 las limitaciones establecidas por la Constituci\u00f3n y el resto del ordenamiento jur\u00eddico, respetando el pleno ejercicio por los ciudadanos de los derechos que tienen reconocidos, y ajust\u00e1ndose a los siguientes principios:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) El respeto al derecho a la protecci\u00f3n de datos de car\u00e1cter personal en los t\u00e9rminos establecidos por la Ley Org\u00e1nica 15/1999, de Protecci\u00f3n de los Datos de Car\u00e1cter Personal, en las dem\u00e1s leyes espec\u00edficas que regulan el tratamiento de la informaci\u00f3n y en sus normas de desarrollo, as\u00ed como a los derechos al honor y a la intimidad personal y familiar."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Principio de igualdad con objeto de que en ning\u00fan caso el uso de medios electr\u00f3nicos pueda implicar la existencia de restricciones o discriminaciones para los ciudadanos que se relacionen con las Administraciones P\u00fablicas por medios no electr\u00f3nicos, tanto respecto al acceso a la prestaci\u00f3n de servicios p\u00fablicos como respecto a cualquier actuaci\u00f3n o procedimiento administrativo sin perjuicio de las medidas dirigidas a incentivar la utilizaci\u00f3n de los medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Principio de accesibilidad a la informaci\u00f3n y a los servicios por medios electr\u00f3nicos en los t\u00e9rminos establecidos por la normativa vigente en esta materia, a trav\u00e9s de sistemas que permitan obtenerlos de manera segura y comprensible, garantizando especialmente la accesibilidad universal y el dise\u00f1o para todos de los soportes, canales y entornos con objeto de que todas las personas puedan ejercer sus derechos en igualdad de condiciones, incorporando las caracter\u00edsticas necesarias para garantizar la accesibilidad de aquellos colectivos que lo requieran."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Principio de legalidad en cuanto al mantenimiento de la integridad de las garant\u00edas jur\u00eddicas de los ciudadanos ante las Administraciones P\u00fablicas establecidas en la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Principio de cooperaci\u00f3n en la utilizaci\u00f3n de medios electr\u00f3nicos por las Administraciones P\u00fablicas al objeto de garantizar tanto la interoperabilidad de los sistemas y soluciones adoptados por cada una de ellas como, en su caso, la prestaci\u00f3n conjunta de servicios a los ciudadanos. En particular, se garantizar\u00e1 el reconocimiento mutuo de los documentos electr\u00f3nicos y de los medios de identificaci\u00f3n y autenticaci\u00f3n que se ajusten a lo dispuesto en la presente Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Principio de seguridad en la implantaci\u00f3n y utilizaci\u00f3n de los medios electr\u00f3nicos por las Administraciones P\u00fablicas, en cuya virtud se exigir\u00e1 al menos el mismo nivel de garant\u00edas y seguridad que se requiere para la utilizaci\u00f3n de medios no electr\u00f3nicos en la actividad administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Principio de proporcionalidad en cuya virtud s\u00f3lo se exigir\u00e1n las garant\u00edas y medidas de seguridad adecuadas a la naturaleza y circunstancias de los distintos tr\u00e1mites y actuaciones. Asimismo s\u00f3lo se requerir\u00e1n a los ciudadanos aquellos datos que sean estrictamente necesarios en atenci\u00f3n a la finalidad para la que se soliciten."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Principio de responsabilidad y calidad en la veracidad y autenticidad de las informaciones y servicios ofrecidos por las Administraciones P\u00fablicas a trav\u00e9s de medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "i) Principio de neutralidad tecnol\u00f3gica y de adaptabilidad al progreso de las t\u00e9cnicas y sistemas de comunicaciones electr\u00f3nicas garantizando la independencia en la elecci\u00f3n de las alternativas tecnol\u00f3gicas por los ciudadanos y por las Administraciones P\u00fablicas, as\u00ed como la libertad de desarrollar e implantar los avances tecnol\u00f3gicos en un \u00e1mbito de libre mercado. A estos efectos las Administraciones P\u00fablicas utilizar\u00e1n est\u00e1ndares abiertos as\u00ed como, en su caso y de forma complementaria, est\u00e1ndares que sean de uso generalizado por los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "j) Principio de simplificaci\u00f3n administrativa, por el cual se reduzcan de manera sustancial los tiempos y plazos de los procedimientos administrativos, logrando una mayor eficacia y eficiencia en la actividad administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "k) Principio de transparencia y publicidad del procedimiento, por el cual el uso de medios electr\u00f3nicos debe facilitar la m\u00e1xima difusi\u00f3n, publicidad y transparencia de las actuaciones administrativas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. Definiciones."
+      },{
+        "@class": "parrafo",
+        "#text": "A efectos de la presente ley, los t\u00e9rminos que en ellas se emplean tendr\u00e1n el sentido que se establece en su anexo."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO PRIMERO"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Derechos de los ciudadanos a relacionarse con las administraciones p\u00fablicas por medios electr\u00f3nicos"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. Derechos de los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se reconoce a los ciudadanos el derecho a relacionarse con las Administraciones P\u00fablicas utilizando medios electr\u00f3nicos para el ejercicio de los derechos previstos en el art\u00edculo 35 de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, as\u00ed como para obtener informaciones, realizar consultas y alegaciones, formular solicitudes, manifestar consentimiento, entablar pretensiones, efectuar pagos, realizar transacciones y oponerse a las resoluciones y actos administrativos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Adem\u00e1s, los ciudadanos tienen en relaci\u00f3n con la utilizaci\u00f3n de los medios electr\u00f3nicos en la actividad administrativa, y en los t\u00e9rminos previstos en la presente Ley, los siguientes derechos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) A elegir, entre aquellos que en cada momento se encuentren disponibles, el canal a trav\u00e9s del cual relacionarse por medios electr\u00f3nicos con las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) A no aportar los datos y documentos que obren en poder de las Administraciones P\u00fablicas, las cuales utilizar\u00e1n medios electr\u00f3nicos para recabar dicha informaci\u00f3n siempre que, en el caso de datos de car\u00e1cter personal, se cuente con el consentimiento de los interesados en los t\u00e9rminos establecidos por la Ley Org\u00e1nica 15/1999, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, o una norma con rango de Ley as\u00ed lo determine, salvo que existan restricciones conforme a la normativa de aplicaci\u00f3n a los datos y documentos recabados. El citado consentimiento podr\u00e1 emitirse y recabarse por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "c) A la igualdad en el acceso electr\u00f3nico a los servicios de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "d) A conocer por medios electr\u00f3nicos el estado de tramitaci\u00f3n de los procedimientos en los que sean interesados, salvo en los supuestos en que la normativa de aplicaci\u00f3n establezca restricciones al acceso a la informaci\u00f3n sobre aqu\u00e9llos."
+      },{
+        "@class": "parrafo",
+        "#text": "e) A obtener copias electr\u00f3nicas de los documentos electr\u00f3nicos que formen parte de procedimientos en los que tengan la condici\u00f3n de interesado."
+      },{
+        "@class": "parrafo",
+        "#text": "f) A la conservaci\u00f3n en formato electr\u00f3nico por las Administraciones P\u00fablicas de los documentos electr\u00f3nicos que formen parte de un expediente."
+      },{
+        "@class": "parrafo",
+        "#text": "g) A obtener los medios de identificaci\u00f3n electr\u00f3nica necesarios, pudiendo las personas f\u00edsicas utilizar en todo caso los sistemas de firma electr\u00f3nica del Documento Nacional de Identidad para cualquier tr\u00e1mite electr\u00f3nico con cualquier Administraci\u00f3n P\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "h) A la utilizaci\u00f3n de otros sistemas de firma electr\u00f3nica admitidos en el \u00e1mbito de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "i) A la garant\u00eda de la seguridad y confidencialidad de los datos que figuren en los ficheros, sistemas y aplicaciones de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "j) A la calidad de los servicios p\u00fablicos prestados por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "k) A elegir las aplicaciones o sistemas para relacionarse con las Administraciones P\u00fablicas siempre y cuando utilicen est\u00e1ndares abiertos o, en su caso, aquellos otros que sean de uso generalizado por los ciudadanos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. En particular, en los procedimientos relativos al establecimiento de actividades de servicios, los ciudadanos tienen derecho a obtener la siguiente informaci\u00f3n a trav\u00e9s de medios electr\u00f3nicos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Los procedimientos y tr\u00e1mites necesarios para acceder a las actividades de servicio y para su ejercicio."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los datos de las autoridades competentes en las materias relacionadas con las actividades de servicios, as\u00ed como de las asociaciones y organizaciones profesionales relacionadas con las mismas."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los medios y condiciones de acceso a los registros y bases de datos p\u00fablicos relativos a prestadores de actividades de servicios y las v\u00edas de recurso en caso de litigio entre cualesquiera autoridades competentes, prestadores y destinatarios."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Defensa de los derechos de los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En la Administraci\u00f3n General del Estado, se crea la figura del Defensor del usuario de la administraci\u00f3n electr\u00f3nica, que velar\u00e1 por la garant\u00eda de los derechos reconocidos a los ciudadanos en la presente Ley, sin perjuicio de las competencias atribuidas en este \u00e1mbito a otros \u00f3rganos o entidades de derecho p\u00fablico. Ser\u00e1 nombrado por el Consejo de Ministros a propuesta del Ministro de Administraciones P\u00fablicas entre personas de reconocido prestigio en la materia. Estar\u00e1 integrado en el Ministerio de Administraciones P\u00fablicas y desarrollar\u00e1 sus funciones con imparcialidad e independencia funcional."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Defensor del usuario de la administraci\u00f3n electr\u00f3nica elaborar\u00e1, con car\u00e1cter anual, un informe que se elevar\u00e1 al Consejo de Ministros y se remitir\u00e1 al Congreso de los Diputados. Dicho informe contendr\u00e1 un an\u00e1lisis de las quejas y sugerencia recibidas as\u00ed como la propuesta de las actuaciones y medidas a adoptar en relaci\u00f3n con lo previsto en el apartado 1 de este art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Para el ejercicio de sus funciones, el Defensor del usuario de la administraci\u00f3n electr\u00f3nica contar\u00e1 con los recursos de la Administraci\u00f3n General del Estado con la asistencia que, a tal efecto, le presten las Inspecciones Generales de los Servicios de los Departamentos ministeriales y la Inspecci\u00f3n General de Servicios de la Administraci\u00f3n P\u00fablica. En particular, las Inspecciones de los Servicios le asistir\u00e1n en la elaboraci\u00f3n del informe al que se refiere el apartado anterior y le mantendr\u00e1n permanentemente informado de las quejas y sugerencias que se reciban en relaci\u00f3n con la prestaci\u00f3n de servicios p\u00fablicos a trav\u00e9s de medios electr\u00f3nicos. A estos efectos, la Comisi\u00f3n Coordinadora de las Inspecciones generales de servicios de los departamentos ministeriales realizar\u00e1, en este \u00e1mbito, las funciones de coordinaci\u00f3n que tiene legalmente encomendadas."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Reglamentariamente se determinar\u00e1 el estatuto del Defensor del usuario de la administraci\u00f3n electr\u00f3nica, as\u00ed como la regulaci\u00f3n de sus relaciones con los \u00f3rganos a los que se refiere el apartado anterior de este art\u00edculo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. Garant\u00eda de prestaci\u00f3n de servicios y disposici\u00f3n de medios e instrumentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas deber\u00e1n habilitar diferentes canales o medios para la prestaci\u00f3n de los servicios electr\u00f3nicos, garantizando en todo caso el acceso a los mismos a todos los ciudadanos, con independencia de sus circunstancias personales, medios o conocimientos, en la forma que estimen adecuada."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Administraci\u00f3n General del Estado garantizar\u00e1 el acceso de todos los ciudadanos a los servicios electr\u00f3nicos proporcionados en su \u00e1mbito a trav\u00e9s de un sistema de varios canales que cuente, al menos, con los siguientes medios:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Las oficinas de atenci\u00f3n presencial que se determinen, las cuales pondr\u00e1n a disposici\u00f3n de los ciudadanos de forma libre y gratuita los medios e instrumentos precisos para ejercer los derechos reconocidos en el art\u00edculo 6 de esta Ley, debiendo contar con asistencia y orientaci\u00f3n sobre su utilizaci\u00f3n, bien a cargo del personal de las oficinas en que se ubiquen o bien por sistemas incorporados al propio medio o instrumento."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Puntos de acceso electr\u00f3nico, consistentes en sedes electr\u00f3nicas creadas y gestionadas por los departamentos y organismos p\u00fablicos y disponibles para los ciudadanos a trav\u00e9s de redes de comunicaci\u00f3n. En particular se crear\u00e1 un Punto de acceso general a trav\u00e9s del cual los ciudadanos puedan, en sus relaciones con la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos, acceder a toda la informaci\u00f3n y a los servicios disponibles. Este Punto de acceso general contendr\u00e1 la relaci\u00f3n de servicios a disposici\u00f3n de los ciudadanos y el acceso a los mismos, debiendo mantenerse coordinado, al menos, con los restantes puntos de acceso electr\u00f3nico de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Servicios de atenci\u00f3n telef\u00f3nica que, en la medida en que los criterios de seguridad y las posibilidades t\u00e9cnicas lo permitan, faciliten a los ciudadanos el acceso a las informaciones y servicios electr\u00f3nicos a los que se refieren los apartados anteriores."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 9. Transmisiones de datos entre Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Para un eficaz ejercicio del derecho reconocido en el apartado 6.2.b), cada Administraci\u00f3n deber\u00e1 facilitar el acceso de las restantes Administraciones P\u00fablicas a los datos relativos a los interesados que obren en su poder y se encuentren en soporte electr\u00f3nico, especificando las condiciones, protocolos y criterios funcionales o t\u00e9cnicos necesarios para acceder a dichos datos con las m\u00e1ximas garant\u00edas de seguridad, integridad y disponibilidad, de conformidad con lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal y su normativa de desarrollo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La disponibilidad de tales datos estar\u00e1 limitada estrictamente a aquellos que son requeridos a los ciudadanos por las restantes Administraciones para la tramitaci\u00f3n y resoluci\u00f3n de los procedimientos y actuaciones de su competencia de acuerdo con la normativa reguladora de los mismos. El acceso a los datos de car\u00e1cter personal estar\u00e1, adem\u00e1s, condicionado al cumplimiento de las condiciones establecidas en el art\u00edculo 6.2.b) de la presente Ley."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO SEGUNDO"
+      },{
+        "@class": "titulo_tit",
+        "#text": "R\u00e9gimen jur\u00eddico de la administraci\u00f3n electr\u00f3nica"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "De la sede electr\u00f3nica"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 10. La sede electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La sede electr\u00f3nica es aquella direcci\u00f3n electr\u00f3nica disponible para los ciudadanos a trav\u00e9s de redes de telecomunicaciones cuya titularidad, gesti\u00f3n y administraci\u00f3n corresponde a una Administraci\u00f3n P\u00fablica, \u00f3rgano o entidad administrativa en el ejercicio de sus competencias."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El establecimiento de una sede electr\u00f3nica conlleva la responsabilidad del titular respecto de la integridad, veracidad y actualizaci\u00f3n de la informaci\u00f3n y los servicios a los que pueda accederse a trav\u00e9s de la misma."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cada Administraci\u00f3n P\u00fablica determinar\u00e1 las condiciones e instrumentos de creaci\u00f3n de las sedes electr\u00f3nicas, con sujeci\u00f3n a los principios de publicidad oficial, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad e interoperabilidad. En todo caso deber\u00e1 garantizarse la identificaci\u00f3n del titular de la sede, as\u00ed como los medios disponibles para la formulaci\u00f3n de sugerencias y quejas."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las sedes electr\u00f3nicas dispondr\u00e1n de sistemas que permitan el establecimiento de comunicaciones seguras siempre que sean necesarias."
+      },{
+        "@class": "parrafo",
+        "#text": "5. La publicaci\u00f3n en las sedes electr\u00f3nicas de informaciones, servicios y transacciones respetar\u00e1 los principios de accesibilidad y usabilidad de acuerdo con las normas establecidas al respecto, est\u00e1ndares abiertos y, en su caso, aquellos otros que sean de uso generalizado por los ciudadanos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 11. Publicaciones electr\u00f3nicas de Boletines Oficiales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La publicaci\u00f3n de los diarios o boletines oficiales en las sedes electr\u00f3nicas de la Administraci\u00f3n, \u00d3rgano o Entidad competente tendr\u00e1, en las condiciones y garant\u00edas que cada Administraci\u00f3n P\u00fablica determine, los mismos efectos que los atribuidos a su edici\u00f3n impresa."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La publicaci\u00f3n del \u00abBolet\u00edn Oficial del Estado\u00bb en la sede electr\u00f3nica del organismo competente tendr\u00e1 car\u00e1cter oficial y aut\u00e9ntico en las condiciones y con las garant\u00edas que se determinen reglamentariamente, deriv\u00e1ndose de dicha publicaci\u00f3n los efectos previstos en el t\u00edtulo preliminar del C\u00f3digo Civil y en las restantes normas aplicables."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 12. Publicaci\u00f3n electr\u00f3nica del tabl\u00f3n de anuncios o edictos."
+      },{
+        "@class": "parrafo",
+        "#text": "La publicaci\u00f3n de actos y comunicaciones que, por disposici\u00f3n legal o reglamentaria deban publicarse en tabl\u00f3n de anuncios o edictos podr\u00e1 ser sustituida o complementada por su publicaci\u00f3n en la sede electr\u00f3nica del organismo correspondiente."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "De la identificaci\u00f3n y autenticaci\u00f3n"
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 1.\u00aa Disposiciones comunes"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 13. Formas de identificaci\u00f3n y autenticaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas admitir\u00e1n, en sus relaciones por medios electr\u00f3nicos, sistemas de firma electr\u00f3nica que sean conformes a lo establecido en la Ley 59/2003, de 19 de diciembre, de Firma Electr\u00f3nica y resulten adecuados para garantizar la identificaci\u00f3n de los participantes y, en su caso, la autenticidad e integridad de los documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los ciudadanos podr\u00e1n utilizar los siguientes sistemas de firma electr\u00f3nica para relacionarse con las Administraciones P\u00fablicas, de acuerdo con lo que cada Administraci\u00f3n determine:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) En todo caso, los sistemas de firma electr\u00f3nica incorporados al Documento Nacional de Identidad, para personas f\u00edsicas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Sistemas de firma electr\u00f3nica avanzada, incluyendo los basados en certificado electr\u00f3nico reconocido, admitidos por las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Otros sistemas de firma electr\u00f3nica, como la utilizaci\u00f3n de claves concertadas en un registro previo como usuario, la aportaci\u00f3n de informaci\u00f3n conocida por ambas partes u otros sistemas no criptogr\u00e1ficos, en los t\u00e9rminos y condiciones que en cada caso se determinen."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Las Administraciones P\u00fablicas podr\u00e1n utilizar los siguientes sistemas para su identificaci\u00f3n electr\u00f3nica y para la autenticaci\u00f3n de los documentos electr\u00f3nicos que produzcan:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Sistemas de firma electr\u00f3nica basados en la utilizaci\u00f3n de certificados de dispositivo seguro o medio equivalente que permita identificar la sede electr\u00f3nica y el establecimiento con ella de comunicaciones seguras."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Sistemas de firma electr\u00f3nica para la actuaci\u00f3n administrativa automatizada."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Firma electr\u00f3nica del personal al servicio de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Intercambio electr\u00f3nico de datos en entornos cerrados de comunicaci\u00f3n, conforme a lo espec\u00edficamente acordado entre las partes."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 2.\u00aa Identificaci\u00f3n de los ciudadanos y autenticaci\u00f3n de su actuaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 14. Utilizaci\u00f3n del Documento Nacional de Identidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Las personas f\u00edsicas podr\u00e1n, en todo caso y con car\u00e1cter universal, utilizar los sistemas de firma electr\u00f3nica incorporados al Documento Nacional de Identidad en su relaci\u00f3n por medios electr\u00f3nicos con las Administraciones P\u00fablicas. El r\u00e9gimen de utilizaci\u00f3n y efectos de dicho documento se regir\u00e1 por su normativa reguladora."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 15. Utilizaci\u00f3n de sistemas de firma electr\u00f3nica avanzada."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los ciudadanos, adem\u00e1s de los sistemas de firma electr\u00f3nica incorporados al Documento Nacional de Identidad, referidos en el art\u00edculo 14, podr\u00e1n utilizar sistemas de firma electr\u00f3nica avanzada para identificarse y autenticar sus documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La relaci\u00f3n de sistemas de firma electr\u00f3nica avanzada admitidos, con car\u00e1cter general, en el \u00e1mbito de cada Administraci\u00f3n P\u00fablica, deber\u00e1 ser p\u00fablica y accesible por medios electr\u00f3nicos. Dicha relaci\u00f3n incluir\u00e1, al menos, informaci\u00f3n sobre los elementos de identificaci\u00f3n utilizados as\u00ed como, en su caso, las caracter\u00edsticas de los certificados electr\u00f3nicos admitidos, los prestadores que los expiden y las especificaciones de la firma electr\u00f3nica que puede realizarse con dichos certificados."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los certificados electr\u00f3nicos expedidos a Entidades sin personalidad jur\u00eddica, previstos en la Ley 59/2003, de 19 de diciembre, de Firma Electr\u00f3nica podr\u00e1n ser admitidos por las Administraciones P\u00fablicas en los t\u00e9rminos que estas determinen."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 16. Utilizaci\u00f3n de otros sistemas de firma electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas podr\u00e1n determinar, teniendo en cuenta los datos e intereses afectados, y siempre de forma justificada, los supuestos y condiciones de utilizaci\u00f3n por los ciudadanos de otros sistemas de firma electr\u00f3nica, tales como claves concertadas en un registro previo, aportaci\u00f3n de informaci\u00f3n conocida por ambas partes u otros sistemas no criptogr\u00e1ficos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En aquellos supuestos en los que se utilicen estos sistemas para confirmar informaci\u00f3n, propuestas o borradores remitidos o exhibidos por una Administraci\u00f3n P\u00fablica, \u00e9sta deber\u00e1 garantizar la integridad y el no repudio por ambas partes de los documentos electr\u00f3nicos concernidos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cuando resulte preciso, las Administraciones P\u00fablicas certificar\u00e1n la existencia y contenido de las actuaciones de los ciudadanos en las que se hayan usado formas de identificaci\u00f3n y autenticaci\u00f3n a que se refiere este art\u00edculo."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 3.\u00aa Identificaci\u00f3n electr\u00f3nica de las administraciones p\u00fablicas y autenticaci\u00f3n del ejercicio de su competencia"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 17. Identificaci\u00f3n de las sedes electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Las sedes electr\u00f3nicas utilizar\u00e1n, para identificarse y garantizar una comunicaci\u00f3n segura con las mismas, sistemas de firma electr\u00f3nica basados en certificados de dispositivo seguro o medio equivalente."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 18. Sistemas de firma electr\u00f3nica para la actuaci\u00f3n administrativa automatizada."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Para la identificaci\u00f3n y la autenticaci\u00f3n del ejercicio de la competencia en la actuaci\u00f3n administrativa automatizada, cada Administraci\u00f3n P\u00fablica podr\u00e1 determinar los supuestos de utilizaci\u00f3n de los siguientes sistemas de firma electr\u00f3nica:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Sello electr\u00f3nico de Administraci\u00f3n P\u00fablica, \u00f3rgano o entidad de derecho p\u00fablico, basado en certificado electr\u00f3nico que re\u00fana los requisitos exigidos por la legislaci\u00f3n de firma electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "b) C\u00f3digo seguro de verificaci\u00f3n vinculado a la Administraci\u00f3n P\u00fablica, \u00f3rgano o entidad y, en su caso, a la persona firmante del documento, permiti\u00e9ndose en todo caso la comprobaci\u00f3n de la integridad del documento mediante el acceso a la sede electr\u00f3nica correspondiente."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. Los certificados electr\u00f3nicos a los que se hace referencia en el apartado 1.a) incluir\u00e1n el n\u00famero de identificaci\u00f3n fiscal y la denominaci\u00f3n correspondiente, pudiendo contener la identidad de la persona titular en el caso de los sellos electr\u00f3nicos de \u00f3rganos administrativos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La relaci\u00f3n de sellos electr\u00f3nicos utilizados por cada Administraci\u00f3n P\u00fablica, incluyendo las caracter\u00edsticas de los certificados electr\u00f3nicos y los prestadores que los expiden, deber\u00e1 ser p\u00fablica y accesible por medios electr\u00f3nicos. Adem\u00e1s, cada Administraci\u00f3n P\u00fablica adoptar\u00e1 las medidas adecuadas para facilitar la verificaci\u00f3n de sus sellos electr\u00f3nicos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 19. Firma electr\u00f3nica del personal al servicio de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Sin perjuicio de lo previsto en los art\u00edculos 17 y 18, la identificaci\u00f3n y autenticaci\u00f3n del ejercicio de la competencia de la Administraci\u00f3n P\u00fablica, \u00f3rgano o entidad actuante, cuando utilice medios electr\u00f3nicos, se realizar\u00e1 mediante firma electr\u00f3nica del personal a su servicio, de acuerdo con lo dispuesto en los siguientes apartados."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Cada Administraci\u00f3n P\u00fablica podr\u00e1 proveer a su personal de sistemas de firma electr\u00f3nica, los cuales podr\u00e1n identificar de forma conjunta al titular del puesto de trabajo o cargo y a la Administraci\u00f3n u \u00f3rgano en la que presta sus servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La firma electr\u00f3nica basada en el Documento Nacional de Identidad podr\u00e1 utilizarse a los efectos de este art\u00edculo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 20. Intercambio electr\u00f3nico de datos en entornos cerrados de comunicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los documentos electr\u00f3nicos transmitidos en entornos cerrados de comunicaciones establecidos entre Administraciones P\u00fablicas, \u00f3rganos y entidades de derecho p\u00fablico, ser\u00e1n considerados v\u00e1lidos a efectos de autenticaci\u00f3n e identificaci\u00f3n de los emisores y receptores en las condiciones establecidas en el presente art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Cuando los participantes en las comunicaciones pertenezcan a una misma Administraci\u00f3n P\u00fablica, \u00e9sta determinar\u00e1 las condiciones y garant\u00edas por las que se regir\u00e1 que, al menos, comprender\u00e1 la relaci\u00f3n de emisores y receptores autorizados y la naturaleza de los datos a intercambiar."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cuando los participantes pertenezcan a distintas administraciones, las condiciones y garant\u00edas citadas en el apartado anterior se establecer\u00e1n mediante convenio."
+      },{
+        "@class": "parrafo",
+        "#text": "4. En todo caso deber\u00e1 garantizarse la seguridad del entorno cerrado de comunicaciones y la protecci\u00f3n de los datos que se transmitan."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 4.\u00aa De la interoperabilidad y de la acreditaci\u00f3n y representaci\u00f3n de los ciudadanos"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 21. Interoperabilidad de la identificaci\u00f3n y autenticaci\u00f3n por medio de certificados electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los certificados electr\u00f3nicos reconocidos emitidos por prestadores de servicios de certificaci\u00f3n ser\u00e1n admitidos por las Administraciones P\u00fablicas como v\u00e1lidos para relacionarse con las mismas, siempre y cuando el prestador de servicios de certificaci\u00f3n ponga a disposici\u00f3n de las Administraciones P\u00fablicas la informaci\u00f3n que sea precisa en condiciones que resulten tecnol\u00f3gicamente viables y sin que suponga coste alguno para aquellas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los sistemas de firma electr\u00f3nica utilizados o admitidos por alguna Administraci\u00f3n P\u00fablica distintos de los basados en los certificados a los que se refiere el apartado anterior podr\u00e1n ser asimismo admitidos por otras Administraciones, conforme a principios de reconocimiento mutuo y reciprocidad."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La Administraci\u00f3n General del Estado dispondr\u00e1, al menos, de una plataforma de verificaci\u00f3n del estado de revocaci\u00f3n de todos los certificados admitidos en el \u00e1mbito de las Administraciones P\u00fablicas que ser\u00e1 de libre acceso por parte de todos los Departamentos y Administraciones. Cada Administraci\u00f3n P\u00fablica podr\u00e1 disponer de los mecanismos necesarios para la verificaci\u00f3n del estado de revocaci\u00f3n y la firma con los certificados electr\u00f3nicos admitidos en su \u00e1mbito de competencia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 22. Identificaci\u00f3n y autenticaci\u00f3n de los ciudadanos por funcionario p\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En los supuestos en que para la realizaci\u00f3n de cualquier operaci\u00f3n por medios electr\u00f3nicos se requiera la identificaci\u00f3n o autenticaci\u00f3n del ciudadano mediante alg\u00fan instrumento de los previstos en el art\u00edculo 13 de los que aquel no disponga, tal identificaci\u00f3n o autenticaci\u00f3n podr\u00e1 ser validamente realizada por funcionarios p\u00fablicos mediante el uso del sistema de firma electr\u00f3nica del que est\u00e9n dotados."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Para la eficacia de lo dispuesto en el apartado anterior, el ciudadano deber\u00e1 identificarse y prestar su consentimiento expreso, debiendo quedar constancia de ello para los casos de discrepancia o litigio."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cada Administraci\u00f3n P\u00fablica mantendr\u00e1 actualizado un registro de los funcionarios habilitados para la identificaci\u00f3n o autenticaci\u00f3n regulada en este art\u00edculo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 23. Formas de Representaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Sin perjuicio de lo dispuesto en el art\u00edculo 13.2, las Administraciones P\u00fablicas podr\u00e1n habilitar con car\u00e1cter general o espec\u00edfico a personas f\u00edsicas o jur\u00eddicas autorizadas para la realizaci\u00f3n de determinadas transacciones electr\u00f3nicas en representaci\u00f3n de los interesados. Dicha habilitaci\u00f3n deber\u00e1 especificar las condiciones y obligaciones a las que se comprometen los que as\u00ed adquieran la condici\u00f3n de representantes, y determinar\u00e1 la presunci\u00f3n de validez de la representaci\u00f3n salvo que la normativa de aplicaci\u00f3n prevea otra cosa. Las Administraciones P\u00fablicas podr\u00e1n requerir, en cualquier momento, la acreditaci\u00f3n de dicha representaci\u00f3n."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "De los registros, las comunicaciones y las notificaciones electr\u00f3nicas"
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 1.\u00aa De los Registros"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 24. Registros electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas crear\u00e1n registros electr\u00f3nicos para la recepci\u00f3n y remisi\u00f3n de solicitudes, escritos y comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los registros electr\u00f3nicos podr\u00e1n admitir:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Documentos electr\u00f3nicos normalizados correspondientes a los servicios, procedimientos y tr\u00e1mites que se especifiquen conforme a lo dispuesto en la norma de creaci\u00f3n del registro, cumplimentados de acuerdo con formatos preestablecidos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Cualquier solicitud, escrito o comunicaci\u00f3n distinta de los mencionados en el apartado anterior dirigido a cualquier \u00f3rgano o entidad del \u00e1mbito de la administraci\u00f3n titular del registro."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. En cada Administraci\u00f3n P\u00fablica existir\u00e1, al menos, un sistema de registros electr\u00f3nicos suficiente para recibir todo tipo de solicitudes, escritos y comunicaciones dirigidos a dicha Administraci\u00f3n P\u00fablica. Las Administraciones P\u00fablicas podr\u00e1n, mediante convenios de colaboraci\u00f3n, habilitar a sus respectivos registros para la recepci\u00f3n de las solicitudes, escritos y comunicaciones de la competencia de otra Administraci\u00f3n que se determinen en el correspondiente convenio."
+      },{
+        "@class": "parrafo",
+        "#text": "4. En el \u00e1mbito de la Administraci\u00f3n General del Estado se automatizar\u00e1n las oficinas de registro f\u00edsicas a las que se refiere el art\u00edculo 38 de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, a fin de garantizar la interconexi\u00f3n de todas sus oficinas y posibilitar el acceso por medios electr\u00f3nicos a los asientos registrales y a las copias electr\u00f3nicas de los documentos presentados."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 25. Creaci\u00f3n y funcionamiento."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las disposiciones de creaci\u00f3n de registros electr\u00f3nicos se publicar\u00e1n en el Diario Oficial correspondiente y su texto \u00edntegro deber\u00e1 estar disponible para consulta en la sede electr\u00f3nica de acceso al registro. En todo caso, las disposiciones de creaci\u00f3n de registros electr\u00f3nicos especificar\u00e1n el \u00f3rgano o unidad responsable de su gesti\u00f3n, as\u00ed como la fecha y hora oficial y los d\u00edas declarados como inh\u00e1biles a los efectos previstos en el art\u00edculo siguiente."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En la sede electr\u00f3nica de acceso al registro figurar\u00e1 la relaci\u00f3n actualizada de las solicitudes, escritos y comunicaciones a las que se refiere el apartado 2.a) del art\u00edculo anterior que pueden presentarse en el mismo as\u00ed como, en su caso, la posibilidad de presentaci\u00f3n de solicitudes, escritos y comunicaciones a los que se refiere el apartado 2.b) de dicho art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los registros electr\u00f3nicos emitir\u00e1n autom\u00e1ticamente un recibo consistente en una copia autenticada del escrito, solicitud o comunicaci\u00f3n de que se trate, incluyendo la fecha y hora de presentaci\u00f3n y el n\u00famero de entrada de registro."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Podr\u00e1n aportarse documentos que acompa\u00f1en a la correspondiente solicitud, escrito o comunicaci\u00f3n, siempre que cumplan los est\u00e1ndares de formato y requisitos de seguridad que se determinen en los Esquemas Nacionales de Interoperabilidad y de Seguridad. Los registros electr\u00f3nicos generar\u00e1n recibos acreditativos de la entrega de estos documentos que garanticen la integridad y el no repudio de los documentos aportados."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 26. C\u00f3mputo de plazos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los registros electr\u00f3nicos se regir\u00e1n a efectos de c\u00f3mputo de los plazos imputables tanto a los interesados como a las Administraciones P\u00fablicas por la fecha y hora oficial de la sede electr\u00f3nica de acceso, que deber\u00e1 contar con las medidas de seguridad necesarias para garantizar su integridad y figurar visible."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los registros electr\u00f3nicos permitir\u00e1n la presentaci\u00f3n de solicitudes, escritos y comunicaciones todos los d\u00edas del a\u00f1o durante las veinticuatro horas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. A los efectos del c\u00f3mputo de plazo fijado en d\u00edas h\u00e1biles o naturales, y en lo que se refiere a cumplimiento de plazos por los interesados, la presentaci\u00f3n en un d\u00eda inh\u00e1bil se entender\u00e1 realizada en la primera hora del primer d\u00eda h\u00e1bil siguiente, salvo que una norma permita expresamente la recepci\u00f3n en d\u00eda inh\u00e1bil."
+      },{
+        "@class": "parrafo",
+        "#text": "4. El inicio del c\u00f3mputo de los plazos que hayan de cumplir los \u00f3rganos administrativos y entidades de derecho p\u00fablico vendr\u00e1 determinado por la fecha y hora de presentaci\u00f3n en el propio registro o, en el caso previsto en el apartado 2.b del art\u00edculo 24, por la fecha y hora de entrada en el registro del destinatario. En todo caso, la fecha efectiva de inicio del c\u00f3mputo de plazos deber\u00e1 ser comunicada a quien present\u00f3 el escrito, solicitud o comunicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Cada sede electr\u00f3nica en la que est\u00e9 disponible un registro electr\u00f3nico determinar\u00e1, atendiendo al \u00e1mbito territorial en el que ejerce sus competencias el titular de aquella, los d\u00edas que se considerar\u00e1n inh\u00e1biles a los efectos de los apartados anteriores. En todo caso, no ser\u00e1 de aplicaci\u00f3n a los registros electr\u00f3nicos lo dispuesto en el art\u00edculo 48.5 de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 2.\u00aa De las comunicaciones y las notificaciones electr\u00f3nicas"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 27. Comunicaciones electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los ciudadanos podr\u00e1n elegir en todo momento la manera de comunicarse con las Administraciones P\u00fablicas, sea o no por medios electr\u00f3nicos, excepto en aquellos casos en los que de una norma con rango de Ley se establezca o infiera la utilizaci\u00f3n de un medio no electr\u00f3nico. La opci\u00f3n de comunicarse por unos u otros medios no vincula al ciudadano, que podr\u00e1, en cualquier momento, optar por un medio distinto del inicialmente elegido."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Administraciones P\u00fablicas utilizar\u00e1n medios electr\u00f3nicos en sus comunicaciones con los ciudadanos siempre que as\u00ed lo hayan solicitado o consentido expresamente. La solicitud y el consentimiento podr\u00e1n, en todo caso, emitirse y recabarse por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las comunicaciones a trav\u00e9s de medios electr\u00f3nicos ser\u00e1n v\u00e1lidas siempre que exista constancia de la transmisi\u00f3n y recepci\u00f3n, de sus fechas, del contenido \u00edntegro de las comunicaciones y se identifique fidedignamente al remitente y al destinatario de las mismas."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las Administraciones publicar\u00e1n, en el correspondiente Diario Oficial y en la propia sede electr\u00f3nica, aquellos medios electr\u00f3nicos que los ciudadanos pueden utilizar en cada supuesto en el ejercicio de su derecho a comunicarse con ellas."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Los requisitos de seguridad e integridad de las comunicaciones se establecer\u00e1n en cada caso de forma apropiada al car\u00e1cter de los datos objeto de aquellas, de acuerdo con criterios de proporcionalidad, conforme a lo dispuesto en la legislaci\u00f3n vigente en materia de protecci\u00f3n de datos de car\u00e1cter personal."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Reglamentariamente, las Administraciones P\u00fablicas podr\u00e1n establecer la obligatoriedad de comunicarse con ellas utilizando s\u00f3lo medios electr\u00f3nicos, cuando los interesados se correspondan con personas jur\u00eddicas o colectivos de personas f\u00edsicas que por raz\u00f3n de su capacidad econ\u00f3mica o t\u00e9cnica, dedicaci\u00f3n profesional u otros motivos acreditados tengan garantizado el acceso y disponibilidad de los medios tecnol\u00f3gicos precisos."
+      },{
+        "@class": "parrafo",
+        "#text": "7. Las Administraciones P\u00fablicas utilizar\u00e1n preferentemente medios electr\u00f3nicos en sus comunicaciones con otras Administraciones P\u00fablicas. Las condiciones que regir\u00e1n estas comunicaciones se determinar\u00e1n entre las Administraciones P\u00fablicas participantes."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 28. Pr\u00e1ctica de la notificaci\u00f3n por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Para que la notificaci\u00f3n se practique utilizando alg\u00fan medio electr\u00f3nico se requerir\u00e1 que el interesado haya se\u00f1alado dicho medio como preferente o haya consentido su utilizaci\u00f3n, sin perjuicio de lo dispuesto en el art\u00edculo 27.6. Tanto la indicaci\u00f3n de la preferencia en el uso de medios electr\u00f3nicos como el consentimiento citados anteriormente podr\u00e1n emitirse y recabarse, en todo caso, por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El sistema de notificaci\u00f3n permitir\u00e1 acreditar la fecha y hora en que se produzca la puesta a disposici\u00f3n del interesado del acto objeto de notificaci\u00f3n, as\u00ed como la de acceso a su contenido, momento a partir del cual la notificaci\u00f3n se entender\u00e1 practicada a todos los efectos legales."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cuando, existiendo constancia de la puesta a disposici\u00f3n transcurrieran diez d\u00edas naturales sin que se acceda a su contenido, se entender\u00e1 que la notificaci\u00f3n ha sido rechazada con los efectos previstos en el art\u00edculo 59.4 de la Ley 30/1992 de R\u00e9gimen Jur\u00eddico y del Procedimiento Administrativo Com\u00fan y normas concordantes, salvo que de oficio o a instancia del destinatario se compruebe la imposibilidad t\u00e9cnica o material del acceso."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Durante la tramitaci\u00f3n del procedimiento el interesado podr\u00e1 requerir al \u00f3rgano correspondiente que las notificaciones sucesivas no se practiquen por medios electr\u00f3nicos, utiliz\u00e1ndose los dem\u00e1s medios admitidos en el art\u00edculo 59 de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico y del Procedimiento Administrativo Com\u00fan, excepto en los casos previstos en el art\u00edculo 27.6 de la presente Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Producir\u00e1 los efectos propios de la notificaci\u00f3n por comparecencia el acceso electr\u00f3nico por los interesados al contenido de las actuaciones administrativas correspondientes, siempre que quede constancia de dichos acceso."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO IV"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "De los documentos y los archivos electr\u00f3nicos"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 29. Documento administrativo electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas podr\u00e1n emitir validamente por medios electr\u00f3nicos los documentos administrativos a los que se refiere el art\u00edculo 46 de la Ley\u00a030/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, siempre que incorporen una o varias firmas electr\u00f3nicas conforme a lo establecido en la Secci\u00f3n 3.\u00aa del Cap\u00edtulo II de la presente Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los documentos administrativos incluir\u00e1n referencia temporal, que se garantizar\u00e1 a trav\u00e9s de medios electr\u00f3nicos cuando la naturaleza del documento as\u00ed lo requiera."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La Administraci\u00f3n General del Estado, en su relaci\u00f3n de prestadores de servicios de certificaci\u00f3n electr\u00f3nica, especificar\u00e1 aquellos que con car\u00e1cter general est\u00e9n admitidos para prestar servicios de sellado de tiempo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 30. Copias electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las copias realizadas por medios electr\u00f3nicos de documentos electr\u00f3nicos emitidos por el propio interesado o por las Administraciones P\u00fablicas, manteni\u00e9ndose o no el formato original, tendr\u00e1n inmediatamente la consideraci\u00f3n de copias aut\u00e9nticas con la eficacia prevista en el art\u00edculo 46 de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, siempre que el documento electr\u00f3nico original se encuentre en poder de la Administraci\u00f3n, y que la informaci\u00f3n de firma electr\u00f3nica y, en su caso, de sellado de tiempo permitan comprobar la coincidencia con dicho documento."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las copias realizadas por las Administraciones P\u00fablicas, utilizando medios electr\u00f3nicos, de documentos emitidos originalmente por las Administraciones P\u00fablicas en soporte papel tendr\u00e1n la consideraci\u00f3n de copias aut\u00e9nticas siempre que se cumplan los requerimientos y actuaciones previstas en el art\u00edculo 46 de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las Administraciones P\u00fablicas podr\u00e1n obtener im\u00e1genes electr\u00f3nicas de los documentos privados aportados por los ciudadanos, con su misma validez y eficacia, a trav\u00e9s de procesos de digitalizaci\u00f3n que garanticen su autenticidad, integridad y la conservaci\u00f3n del documento imagen, de lo que se dejar\u00e1 constancia. Esta obtenci\u00f3n podr\u00e1 hacerse de forma automatizada, mediante el correspondiente sello electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "4. En los supuestos de documentos emitidos originalmente en soporte papel de los que se hayan efectuado copias electr\u00f3nicas de acuerdo con lo dispuesto en este art\u00edculo, podr\u00e1 procederse a la destrucci\u00f3n de los originales en los t\u00e9rminos y con las condiciones que por cada Administraci\u00f3n P\u00fablica se establezcan."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Las copias realizadas en soporte papel de documentos p\u00fablicos administrativos emitidos por medios electr\u00f3nicos y firmados electr\u00f3nicamente tendr\u00e1n la consideraci\u00f3n de copias aut\u00e9nticas siempre que incluyan la impresi\u00f3n de un c\u00f3digo generado electr\u00f3nicamente u otros sistemas de verificaci\u00f3n que permitan contrastar su autenticidad mediante el acceso a los archivos electr\u00f3nicos de la Administraci\u00f3n P\u00fablica, \u00f3rgano o entidad emisora."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 31. Archivo electr\u00f3nico de documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Podr\u00e1n almacenarse por medios electr\u00f3nicos todos los documentos utilizados en las actuaciones administrativas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los documentos electr\u00f3nicos que contengan actos administrativos que afecten a derechos o intereses de los particulares deber\u00e1n conservarse en soportes de esta naturaleza, ya sea en el mismo formato a partir del que se origin\u00f3 el documento o en otro cualquiera que asegure la identidad e integridad de la informaci\u00f3n necesaria para reproducirlo. Se asegurar\u00e1 en todo caso la posibilidad de trasladar los datos a otros formatos y soportes que garanticen el acceso desde diferentes aplicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los medios o soportes en que se almacenen documentos, deber\u00e1n contar con medidas de seguridad que garanticen la integridad, autenticidad, confidencialidad, calidad, protecci\u00f3n y conservaci\u00f3n de los documentos almacenados. En particular, asegurar\u00e1n la identificaci\u00f3n de los usuarios y el control de accesos, as\u00ed como el cumplimiento de las garant\u00edas previstas en la legislaci\u00f3n de protecci\u00f3n de datos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 32. Expediente electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El expediente electr\u00f3nico es el conjunto de documentos electr\u00f3nicos correspondientes a un procedimiento administrativo, cualquiera que sea el tipo de informaci\u00f3n que contengan."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El foliado de los expedientes electr\u00f3nicos se llevar\u00e1 a cabo mediante un \u00edndice electr\u00f3nico, firmado por la Administraci\u00f3n, \u00f3rgano o entidad actuante, seg\u00fan proceda. Este \u00edndice garantizar\u00e1 la integridad del expediente electr\u00f3nico y permitir\u00e1 su recuperaci\u00f3n siempre que sea preciso, siendo admisible que un mismo documento forme parte de distintos expedientes electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La remisi\u00f3n de expedientes podr\u00e1 ser sustituida a todos los efectos legales por la puesta a disposici\u00f3n del expediente electr\u00f3nico, teniendo el interesado derecho a obtener copia del mismo."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO TERCERO"
+      },{
+        "@class": "titulo_tit",
+        "#text": "De la gesti\u00f3n electr\u00f3nica de los procedimientos"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Disposiciones comunes"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 33. Utilizaci\u00f3n de medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La gesti\u00f3n electr\u00f3nica de la actividad administrativa respetar\u00e1 la titularidad y el ejercicio de la competencia por la Administraci\u00f3n P\u00fablica, \u00f3rgano o entidad que la tenga atribuida y el cumplimiento de los requisitos formales y materiales establecidos en las normas que regulen la correspondiente actividad. A estos efectos, y en todo caso bajo criterios de simplificaci\u00f3n administrativa, se impulsar\u00e1 la aplicaci\u00f3n de medios electr\u00f3nicos a los procesos de trabajo y la gesti\u00f3n de los procedimientos y de la actuaci\u00f3n administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En la aplicaci\u00f3n de medios electr\u00f3nicos a la actividad administrativa se considerar\u00e1 la adecuada dotaci\u00f3n de recursos y medios materiales al personal que vaya a utilizarlos, as\u00ed como la necesaria formaci\u00f3n acerca de su utilizaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 34. Criterios para la gesti\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "La aplicaci\u00f3n de medios electr\u00f3nicos a la gesti\u00f3n de los procedimientos, procesos y servicios ir\u00e1 siempre precedida de la realizaci\u00f3n de un an\u00e1lisis de redise\u00f1o funcional y simplificaci\u00f3n del procedimiento, proceso o servicio, en el que se considerar\u00e1n especialmente los siguientes aspectos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) La supresi\u00f3n o reducci\u00f3n de la documentaci\u00f3n requerida a los ciudadanos, mediante su sustituci\u00f3n por datos, transmisiones de datos o certificaciones, o la regulaci\u00f3n de su aportaci\u00f3n al finalizar la tramitaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La previsi\u00f3n de medios e instrumentos de participaci\u00f3n, transparencia e informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La reducci\u00f3n de los plazos y tiempos de respuesta."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La racionalizaci\u00f3n de la distribuci\u00f3n de las cargas de trabajo y de las comunicaciones internas."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Utilizaci\u00f3n de medios electr\u00f3nicos en la tramitaci\u00f3n del procedimiento"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 35. Iniciaci\u00f3n del procedimiento por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La iniciaci\u00f3n de un procedimiento administrativo a solicitud de interesado por medios electr\u00f3nicos requerir\u00e1 la puesta a disposici\u00f3n de los interesados de los correspondientes modelos o sistemas electr\u00f3nicos de solicitud en la sede electr\u00f3nica que deber\u00e1n ser accesibles sin otras restricciones tecnol\u00f3gicas que las estrictamente derivadas de la utilizaci\u00f3n de est\u00e1ndares en los t\u00e9rminos establecidos en el apartado i) del art\u00edculo 4 y criterios de comunicaci\u00f3n y seguridad aplicables de acuerdo con las normas y protocolos nacionales e internacionales."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los interesados podr\u00e1n aportar al expediente copias digitalizadas de los documentos, cuya fidelidad con el original garantizar\u00e1n mediante la utilizaci\u00f3n de firma electr\u00f3nica avanzada. La Administraci\u00f3n P\u00fablica podr\u00e1 solicitar del correspondiente archivo el cotejo del contenido de las copias aportadas. Ante la imposibilidad de este cotejo y con car\u00e1cter excepcional, podr\u00e1 requerir al particular la exhibici\u00f3n del documento o de la informaci\u00f3n original. La aportaci\u00f3n de tales copias implica la autorizaci\u00f3n a la Administraci\u00f3n para que acceda y trate la informaci\u00f3n personal contenida en tales documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Con objeto de facilitar y promover su uso, los sistemas normalizados de solicitud podr\u00e1n incluir comprobaciones autom\u00e1ticas de la informaci\u00f3n aportada respecto de datos almacenados en sistemas propios o pertenecientes a otras administraciones e, incluso, ofrecer el formulario cumplimentado, en todo o en parte, con objeto de que el ciudadano verifique la informaci\u00f3n y, en su caso, la modifique y complete."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 36. Instrucci\u00f3n del procedimiento utilizando medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las aplicaciones y sistemas de informaci\u00f3n utilizados para la instrucci\u00f3n por medios electr\u00f3nicos de los procedimientos deber\u00e1n garantizar el control de los tiempos y plazos, la identificaci\u00f3n de los \u00f3rganos responsables de los procedimientos as\u00ed como la tramitaci\u00f3n ordenada de los expedientes y facilitar la simplificaci\u00f3n y la publicidad de los procedimientos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los sistemas de comunicaci\u00f3n utilizados en la gesti\u00f3n electr\u00f3nica de los procedimientos para las comunicaciones entre los \u00f3rganos y unidades intervinientes a efectos de emisi\u00f3n y recepci\u00f3n de informes u otras actuaciones deber\u00e1n cumplir los requisitos establecidos en esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cuando se utilicen medios electr\u00f3nicos para la participaci\u00f3n de los interesados en la instrucci\u00f3n del procedimiento a los efectos del ejercicio de su derecho a presentar alegaciones en cualquier momento anterior a la propuesta de resoluci\u00f3n o en la pr\u00e1ctica del tr\u00e1mite de audiencia cuando proceda, se emplear\u00e1n los medios de comunicaci\u00f3n y notificaci\u00f3n previstos en los art\u00edculos 27 y\u00a028 de esta Ley."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 37. Acceso de los interesados a la informaci\u00f3n sobre el estado de tramitaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En los procedimientos administrativos gestionados en su totalidad electr\u00f3nicamente, el \u00f3rgano que tramita el procedimiento pondr\u00e1 a disposici\u00f3n del interesado un servicio electr\u00f3nico de acceso restringido donde \u00e9ste pueda consultar, previa identificaci\u00f3n, al menos la informaci\u00f3n sobre el estado de tramitaci\u00f3n del procedimiento, salvo que la normativa aplicable establezca restricciones a dicha informaci\u00f3n. La informaci\u00f3n sobre el estado de tramitaci\u00f3n del procedimiento comprender\u00e1 la relaci\u00f3n de los actos de tr\u00e1mite realizados, con indicaci\u00f3n sobre su contenido, as\u00ed como la fecha en la que fueron dictados."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En el resto de los procedimientos se habilitar\u00e1n igualmente servicios electr\u00f3nicos de informaci\u00f3n del estado de la tramitaci\u00f3n que comprendan, al menos, la fase en la que se encuentra el procedimiento y el \u00f3rgano o unidad responsable."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 38. Terminaci\u00f3n de los procedimientos por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La resoluci\u00f3n de un procedimiento utilizando medios electr\u00f3nicos garantizar\u00e1 la identidad del \u00f3rgano competente mediante el empleo de alguno de los instrumentos previstos en los art\u00edculos 18 y 19 de esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Podr\u00e1n adoptarse y notificarse resoluciones de forma automatizada en aquellos procedimientos en los que as\u00ed est\u00e9 previsto."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 39. Actuaci\u00f3n administrativa automatizada."
+      },{
+        "@class": "parrafo",
+        "#text": "En caso de actuaci\u00f3n automatizada deber\u00e1 establecerse previamente el \u00f3rgano u \u00f3rganos competentes, seg\u00fan los casos, para la definici\u00f3n de las especificaciones, programaci\u00f3n, mantenimiento, supervisi\u00f3n y control de calidad y, en su caso, auditor\u00eda del sistema de informaci\u00f3n y de su c\u00f3digo fuente. Asimismo, se indicar\u00e1 el \u00f3rgano que debe ser considerado responsable a efectos de impugnaci\u00f3n."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO CUARTO"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Cooperaci\u00f3n entre administraciones para el impulso de la administraci\u00f3n electr\u00f3nica"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Marco institucional de cooperaci\u00f3n en materia de administraci\u00f3n electr\u00f3nica"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 40. Comit\u00e9 Sectorial de administraci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Comit\u00e9 Sectorial de administraci\u00f3n electr\u00f3nica, dependiente de la Conferencia Sectorial de Administraci\u00f3n P\u00fablica, es el \u00f3rgano t\u00e9cnico de cooperaci\u00f3n de la Administraci\u00f3n General del Estado, de las administraciones de las Comunidades Aut\u00f3nomas y de las entidades que integran la Administraci\u00f3n Local en materia de administraci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Comit\u00e9 Sectorial de la administraci\u00f3n electr\u00f3nica velar\u00e1 por el cumplimiento de los fines y principios establecidos en esta Ley, y en particular desarrollar\u00e1 las. siguientes funciones:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Asegurar la compatibilidad e interoperabilidad de los sistemas y aplicaciones empleados por las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Preparar planes programas conjuntos de actuaci\u00f3n para impulsar el desarrollo de la administraci\u00f3n electr\u00f3nica en Espa\u00f1a."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Cuando por raz\u00f3n de las materias tratadas resulte de inter\u00e9s podr\u00e1 invitarse a las organizaciones, corporaciones o agentes sociales que se estime conveniente en cada caso a participar en las deliberaciones del comit\u00e9 sectorial."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Cooperaci\u00f3n en materia de interoperabilidad de sistemas y aplicaciones"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 41. Interoperabilidad de los Sistemas de Informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Administraciones P\u00fablicas utilizar\u00e1n las tecnolog\u00edas de la informaci\u00f3n en sus relaciones con las dem\u00e1s administraciones y con los ciudadanos, aplicando medidas inform\u00e1ticas, tecnol\u00f3gicas, organizativas, y de seguridad, que garanticen un adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa y eviten discriminaci\u00f3n a los ciudadanos por raz\u00f3n de su elecci\u00f3n tecnol\u00f3gica."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 42. Esquema Nacional de Interoperabilidad y Esquema Nacional de Seguridad."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Esquema Nacional de Interoperabilidad comprender\u00e1 el conjunto de criterios y recomendaciones en materia de seguridad, conservaci\u00f3n y normalizaci\u00f3n de la informaci\u00f3n, de los formatos y de las aplicaciones que deber\u00e1n ser tenidos en cuenta por las Administraciones P\u00fablicas para la toma de decisiones tecnol\u00f3gicas que garanticen la interoperabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Esquema Nacional de Seguridad tiene por objeto establecer la pol\u00edtica de seguridad en la utilizaci\u00f3n de medios electr\u00f3nicos en el \u00e1mbito de la presente Ley, y est\u00e1 constituido por los principios b\u00e1sicos y requisitos m\u00ednimos que permitan una protecci\u00f3n adecuada de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Ambos Esquemas se elaborar\u00e1n con la participaci\u00f3n de todas las Administraciones y se aprobar\u00e1n por Real Decreto del Gobierno, a propuesta de la Conferencia Sectorial de Administraci\u00f3n P\u00fablica y previo informe de la Comisi\u00f3n Nacional de Administraci\u00f3n Local, debiendo mantenerse actualizados de manera permanente."
+      },{
+        "@class": "parrafo",
+        "#text": "4. En la elaboraci\u00f3n de ambos Esquemas se tendr\u00e1n en cuenta las recomendaciones de la Uni\u00f3n Europea, la situaci\u00f3n tecnol\u00f3gica de las diferentes Administraciones P\u00fablicas, as\u00ed como los servicios electr\u00f3nicos ya existentes. A estos efectos considerar\u00e1n la utilizaci\u00f3n de est\u00e1ndares abiertos as\u00ed como, en su caso y de forma complementaria, est\u00e1ndares que sean de uso generalizado por los ciudadanos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 43. Red de comunicaciones de las Administraciones P\u00fablicas espa\u00f1olas."
+      },{
+        "@class": "parrafo",
+        "#text": "La Administraci\u00f3n General del Estado, las Administraciones Auton\u00f3micas y las entidades que integran la Administraci\u00f3n Local, as\u00ed como los consorcios u otras entidades de cooperaci\u00f3n constituidos a tales efectos por \u00e9stas, adoptar\u00e1n las medidas necesarias e incorporar\u00e1n en sus respectivos \u00e1mbitos las tecnolog\u00edas precisas para posibilitar la interconexi\u00f3n de sus redes con el fin de crear una red de comunicaciones que interconecte los sistemas de informaci\u00f3n de las Administraciones P\u00fablicas espa\u00f1olas y permita el intercambio de informaci\u00f3n y servicios entre las mismas, as\u00ed como la interconexi\u00f3n con las redes de las Instituciones de la Uni\u00f3n Europea y de otros Estados Miembros."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 44. Red integrada de Atenci\u00f3n al Ciudadano."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas podr\u00e1n suscribir convenios de colaboraci\u00f3n con objeto de articular medidas e instrumentos de colaboraci\u00f3n para la implantaci\u00f3n coordinada y normalizada de una red de espacios comunes o ventanillas \u00fanicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En particular, y de conformidad con lo dispuesto en el apartado anterior, se implantar\u00e1n espacios comunes o ventanillas \u00fanicas para obtener la informaci\u00f3n prevista en el art\u00edculo 6.3 de esta Ley y para realizar los tr\u00e1mites y procedimientos a los que hace referencia el apartado a) de dicho art\u00edculo."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Reutilizaci\u00f3n de aplicaciones y transferencia de tecnolog\u00edas"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 45. Reutilizaci\u00f3n de sistemas y aplicaciones de propiedad de la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las administraciones titulares de los derechos de propiedad intelectual de aplicaciones, desarrolladas por sus servicios o cuyo desarrollo haya sido objeto de contrataci\u00f3n, podr\u00e1n ponerlas a disposici\u00f3n de cualquier Administraci\u00f3n sin contraprestaci\u00f3n y sin necesidad de convenio."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las aplicaciones a las que se refiere el apartado anterior podr\u00e1n ser declaradas como de fuentes abiertas, cuando de ello se derive una mayor transparencia en el funcionamiento de la Administraci\u00f3n P\u00fablica o se fomente la incorporaci\u00f3n de los ciudadanos a la Sociedad de la informaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 46. Transferencia de tecnolog\u00eda entre Administraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas mantendr\u00e1n directorios actualizados de aplicaciones para su libre reutilizaci\u00f3n, especialmente en aquellos campos de especial inter\u00e9s para el desarrollo de la administraci\u00f3n electr\u00f3nica y de conformidad con lo que al respecto se establezca en el Esquema Nacional de Interoperabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Administraci\u00f3n General del Estado, a trav\u00e9s de un centro para la transferencia de la tecnolog\u00eda, mantendr\u00e1 un directorio general de aplicaciones para su reutilizaci\u00f3n, prestar\u00e1 asistencia t\u00e9cnica para la libre reutilizaci\u00f3n de aplicaciones e impulsar\u00e1 el desarrollo de aplicaciones, formatos y est\u00e1ndares comunes de especial inter\u00e9s para el desarrollo de la administraci\u00f3n electr\u00f3nica en el marco de los esquemas nacionales de interoperabilidad y seguridad."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Reuni\u00f3n de \u00d3rganos colegiados por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los \u00f3rganos colegiados podr\u00e1n constituirse y adoptar acuerdos utilizando medios electr\u00f3nicos, con respeto a los tr\u00e1mites esenciales establecidos en los art\u00edculos 26 y el 27.1 de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En la Administraci\u00f3n General del Estado, lo previsto en el apartado anterior se efectuar\u00e1 de acuerdo con las siguientes especialidades:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Deber\u00e1 garantizarse la realizaci\u00f3n efectiva de los principios que la legislaci\u00f3n establece respecto de la convocatoria, acceso a la informaci\u00f3n y comunicaci\u00f3n del orden del d\u00eda, en donde se especificar\u00e1n los tiempos en los que se organizar\u00e1n los debates, la formulaci\u00f3n y conocimiento de las propuestas y la adopci\u00f3n de acuerdos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El r\u00e9gimen de constituci\u00f3n y adopci\u00f3n de acuerdos garantizar\u00e1 la participaci\u00f3n de los miembros de acuerdo con las disposiciones propias del \u00f3rgano."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Las actas garantizar\u00e1n la constancia de las comunicaciones producidas as\u00ed como el acceso de los miembros al contenido de los acuerdos adoptados."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Formaci\u00f3n de empleados p\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "La Administraci\u00f3n General del Estado promover\u00e1 la formaci\u00f3n del personal a su servicio en la utilizaci\u00f3n de medios electr\u00f3nicos para el desarrollo de las actividades propias de aqu\u00e9lla."
+      },{
+        "@class": "parrafo",
+        "#text": "En especial, los empleados p\u00fablicos de la Administraci\u00f3n General del Estado recibir\u00e1n formaci\u00f3n espec\u00edfica que garantice conocimientos actualizados de las condiciones de seguridad de la utilizaci\u00f3n de medios electr\u00f3nicos en la actividad administrativa, as\u00ed como de protecci\u00f3n de los datos de car\u00e1cter personal, respeto a la propiedad intelectual e industrial y gesti\u00f3n de la informaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. Plan de Medios en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "En el plazo de seis meses a partir de la publicaci\u00f3n de esta Ley, el Ministerio de Administraciones P\u00fablicas, en colaboraci\u00f3n con los Ministerios de Econom\u00eda y Hacienda y de Industria, Turismo y Comercio, elevar\u00e1 al Consejo de Ministros un Plan de implantaci\u00f3n de los medios necesarios para el \u00e1mbito de la Administraci\u00f3n General del Estado. Dicho Plan incorporar\u00e1 las estimaciones de los recursos econ\u00f3micos, t\u00e9cnicos y humanos que se consideren precisos para la adecuada aplicaci\u00f3n de lo dispuesto en la presente Ley en los tiempos establecidos en el calendario al que se refiere el apartado 2 de la disposici\u00f3n final tercera, as\u00ed como los mecanismos de evaluaci\u00f3n y control de su aplicaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Procedimientos Especiales."
+      },{
+        "@class": "parrafo",
+        "#text": "La aplicaci\u00f3n de lo dispuesto en el T\u00edtulo Tercero de esta ley a los procedimientos en materia tributaria, de seguridad social y desempleo y de r\u00e9gimen jur\u00eddico de los extranjeros en Espa\u00f1a, se efectuar\u00e1 de conformidad con lo establecido en las disposiciones adicionales quinta, sexta, s\u00e9ptima y decimonovena de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan. Asimismo, en la aplicaci\u00f3n de esta ley habr\u00e1n de ser tenidas en cuenta las especificidades en materia de contrataci\u00f3n p\u00fablica, conforme a lo preceptuado en la disposici\u00f3n adicional s\u00e9ptima del Texto Refundido de la Ley de Contratos de las Administraciones P\u00fablicas, aprobado por Real Decreto Legislativo 2/2000, de 16 de junio."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional quinta. Funci\u00f3n Estad\u00edstica."
+      },{
+        "@class": "parrafo",
+        "#text": "Lo dispuesto en los art\u00edculos 6.2.b) y 9 de la presente ley no ser\u00e1 de aplicaci\u00f3n a la recogida de datos prevista en el Cap\u00edtulo II de la Ley 12/1989, de 9 de mayo, de la Funci\u00f3n Estad\u00edstica P\u00fablica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional sexta. Uso de Lenguas Oficiales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se garantizar\u00e1 el uso de las lenguas oficiales del Estado en las relaciones por medios electr\u00f3nicos de los ciudadanos con las Administraciones P\u00fablicas, en los t\u00e9rminos previstos en la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan y en la normativa que en cada caso resulte de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. A estos efectos, las sedes electr\u00f3nicas cuyo titular tenga competencia sobre territorios con r\u00e9gimen de cooficialidad ling\u00fc\u00edstica posibilitar\u00e1n el acceso a sus contenidos y servicios en las lenguas correspondientes."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los sistemas y aplicaciones utilizados en la gesti\u00f3n electr\u00f3nica de los procedimientos se adaptar\u00e1n a lo dispuesto en cuanto al uso de lenguas cooficiales en el art\u00edculo 36 de la ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y el Procedimiento Administrativo Com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Cada Administraci\u00f3n P\u00fablica afectada determinar\u00e1 el calendario para el cumplimiento progresivo de lo previsto en la presente disposici\u00f3n, debiendo garantizar su cumplimiento total en los plazos establecidos en la disposici\u00f3n final tercera."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. R\u00e9gimen Transitorio."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los procedimientos y actuaciones de los ciudadanos y las Administraciones P\u00fablicas que, utilizando medios electr\u00f3nicos, se hayan iniciado con anterioridad a la entrada en vigor de la presente Ley se seguir\u00e1n rigiendo por la normativa anterior hasta su terminaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los registros telem\u00e1ticos existentes a la entrada en vigor de la presente Ley ser\u00e1n considerados registros electr\u00f3nicos regul\u00e1ndose por lo dispuesto en los art\u00edculos\u00a024, 25 y 26 de esta Ley."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n derogatoria \u00fanica."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Quedan derogados los siguientes preceptos de la Ley 30/1992, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan: apartado n\u00famero 9 del art\u00edculo 38, apartados n\u00fameros 2, 3 y 4 del art\u00edculo 45, apartado n\u00famero 3 del art\u00edculo 59 y la disposici\u00f3n adicional decimoctava."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Asimismo, quedan derogadas las normas de igual o inferior rango en cuanto contradigan o se opongan a lo dispuesto en la presente Ley."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. Car\u00e1cter b\u00e1sico de la Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los art\u00edculos 1, 2, 3, 4, 5, 6, 8.1, 9, 10, 11.1, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21.1,21.2, 22, 23, 24.1, 24.2, 24.3, 25, 26, 27, 28, 29.1, 29.2, 30, 32, 35, 37.1, 38, 42, el apartado\u00a01 de la disposici\u00f3n adicional primera, la disposici\u00f3n adicional cuarta, la disposici\u00f3n transitoria \u00fanica y la disposici\u00f3n final tercera se dictan al amparo de lo dispuesto en el art\u00edculo 149.1.18.\u00aa de la Constituci\u00f3n, que atribuye al Estado la competencia sobre las bases del r\u00e9gimen jur\u00eddico de las Administraciones P\u00fablicas y sobre el procedimiento administrativo com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Con excepci\u00f3n del art\u00edculo 42, el T\u00edtulo IV de la presente ley ser\u00e1 de aplicaci\u00f3n a todas las Administraciones P\u00fablicas en la medida en que \u00e9stas participen o se adscriban a los \u00f3rganos de cooperaci\u00f3n o instrumentos previstos en el mismo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Publicaci\u00f3n electr\u00f3nica del \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "La publicaci\u00f3n electr\u00f3nica del \u00abBolet\u00edn Oficial del Estado\u00bb tendr\u00e1 el car\u00e1cter y los efectos previstos en el art\u00edculo 11.2 de la presente Ley desde el 1 de enero de\u00a02009."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final tercera. Adaptaci\u00f3n de las Administraciones P\u00fablicas para el ejercicio de derechos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Desde la fecha de entrada en vigor de la presente Ley, los derechos reconocidos en el art\u00edculo 6 de la presente ley podr\u00e1n ser ejercidos en relaci\u00f3n con los procedimientos y actuaciones adaptados a lo dispuesto en la misma, sin perjuicio de lo se\u00f1alado en los siguientes apartados. A estos efectos, cada Administraci\u00f3n P\u00fablica har\u00e1 p\u00fablica y mantendr\u00e1 actualizada la relaci\u00f3n de dichos procedimientos y actuaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En el \u00e1mbito de la Administraci\u00f3n General del Estado y los organismos p\u00fablicos vinculados o dependientes de \u00e9sta, los derechos reconocidos en el art\u00edculo 6 de la presente ley podr\u00e1n ser ejercidos en relaci\u00f3n con la totalidad de los procedimientos y actuaciones de su competencia a partir del 31 de diciembre de 2009. A tal fin, el Consejo de Ministros establecer\u00e1 y har\u00e1 p\u00fablico un calendario de adaptaci\u00f3n gradual de aquellos procedimientos y actuaciones que lo requieran."
+      },{
+        "@class": "parrafo",
+        "#text": "3. En el \u00e1mbito de las Comunidades Aut\u00f3nomas, los derechos reconocidos en el art\u00edculo 6 de la presente ley podr\u00e1n ser ejercidos en relaci\u00f3n con la totalidad de los procedimientos y actuaciones de su competencia a partir del 31 de diciembre de 2009 siempre que lo permitan sus disponibilidades presupuestarias."
+      },{
+        "@class": "parrafo",
+        "#text": "4. En el \u00e1mbito de las Entidades que integran la Administraci\u00f3n Local, los derechos reconocidos en el art\u00edculo 6 de la presente ley podr\u00e1n ser ejercidos en relaci\u00f3n con la totalidad de los procedimientos y actuaciones de su competencia a partir del 31 de diciembre de 2009 siempre que lo permitan sus disponibilidades presupuestarias. A estos efectos las Diputaciones Provinciales, o en su caso los Cabildos y Consejos Insulares u otros organismos supramunicipales, podr\u00e1n prestar los servicios precisos para garantizar tal efectividad en el \u00e1mbito de los municipios que no dispongan de los medios t\u00e9cnicos y organizativos necesarios para prestarlos."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final cuarta. Modificaci\u00f3n de la Ley 84/1978, de 28 de diciembre, por la que se regula la tasa por expedici\u00f3n del Documento Nacional de Identidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Uno. El apartado 2 del art\u00edculo 4 queda redactado del siguiente modo:"
+      },{
+        "@class": "sangrado",
+        "#text": "\u00ab2. Quienes hubieran de renovar preceptivamente su documento durante el plazo de vigencia del mismo, por variaci\u00f3n de alguno de los datos que se recogen en el mismo.\u00bb"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dos. El art\u00edculo 6 queda redactado del siguiente modo:"
+      },{
+        "@class": "sangrado_articulo",
+        "#text": "\u00abArt\u00edculo 6. Cuota tributaria."
+      },{
+        "@class": "sangrado",
+        "#text": "La cuota tributaria exigible ser\u00e1 de 6,70 euros. Los excesos del costo de la expedici\u00f3n, si existen, ser\u00e1n sufragados con cargo a los Presupuestos Generales del Estado.\u00bb"
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final quinta. Modificaci\u00f3n de la Ley 16/1979, de 2 de octubre, sobre Tasas de la Jefatura Central de Tr\u00e1fico."
+      },{
+        "@class": "parrafo",
+        "#text": "Uno. En el apartado 1 del art\u00edculo 5 se modifica la letra d) y se incorpora una nueva letra e) que quedan redactadas del siguiente modo:"
+      },{
+        "@class": "sangrado",
+        "#text": "\u00abd) Quienes soliciten duplicados de las autorizaciones administrativas para conducir o para circular por cambio de domicilio."
+      },{
+        "@class": "sangrado",
+        "#text": "e) Quienes soliciten la baja definitiva de un veh\u00edculo por entrega en un establecimiento autorizado para su destrucci\u00f3n.\u00bb"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dos. Los puntos 4 y 4 bis, primera columna de la izquierda del Grupo IV del art\u00edculo 6, quedan redactados del siguiente modo:"
+      },{
+        "@class": "sangrado",
+        "#text": "\u00ab4. Duplicados de permisos, autorizaciones por extrav\u00edo, sustracci\u00f3n, deterioro, pr\u00f3rroga de vigencia o cualquier modificaci\u00f3n de aqu\u00e9llos."
+      },{
+        "@class": "sangrado",
+        "#text": "4 bis. duplicados de licencias de conducci\u00f3n y de circulaci\u00f3n de ciclomotores por extrav\u00edo, sustracci\u00f3n, deterioro, pr\u00f3rroga de vigencia o cualquier modificaci\u00f3n de aqu\u00e9llos.\u00bb"
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final sexta. Habilitaci\u00f3n para la regulaci\u00f3n del teletrabajo en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "El Ministerio de Administraciones P\u00fablicas, en colaboraci\u00f3n con los Ministerios de Econom\u00eda y Hacienda, de Industria, Turismo y Comercio y de Trabajo y Asuntos Sociales, regular\u00e1n antes del 1 de marzo de 2008 las condiciones del teletrabajo en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final s\u00e9ptima. Desarrollo reglamentario del art\u00edculo 4.c)."
+      },{
+        "@class": "parrafo",
+        "#text": "El Gobierno desarrollar\u00e1 reglamentariamente lo previsto en el art\u00edculo 4.c) de la presente Ley para garantizar que todos los ciudadanos, con especial atenci\u00f3n a las personas con alg\u00fan tipo de discapacidad y mayores, que se relacionan con la Administraci\u00f3n General del Estado puedan acceder a los servicios electr\u00f3nicos en igualdad de condiciones con independencia de sus circunstancias personales, medios o conocimientos."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final octava. Desarrollo y entrada en vigor de la Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Corresponde al Gobierno y a las Comunidades Aut\u00f3nomas, en el \u00e1mbito de sus respectivas competencias, dictar las disposiciones necesarias para el desarrollo y aplicaci\u00f3n de la presente Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La presente Ley entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Por tanto,"
+      },{
+        "@class": "parrafo",
+        "#text": "Mando a todo los espa\u00f1oles, particulares y autoridades, que guarden y hagan guardar esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Madrid, 22 de junio de 2007."
+      },{
+        "@class": "firma_rey",
+        "#text": "JUAN CARLOS R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "La Presidenta del Gobierno en funciones,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "MAR\u00cdA TERESA FERN\u00c1NDEZ DE LA VEGA SANZ"
+      },{
+        "@class": "seccion",
+        "#text": "ANEXO"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Definiciones"
+      },{
+        "@class": "parrafo_2",
+        "#text": "A efectos de la presente ley, se entiende por:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Actuaci\u00f3n administrativa automatizada: Actuaci\u00f3n administrativa producida por un sistema de informaci\u00f3n adecuadamente programado sin necesidad de intervenci\u00f3n de una persona f\u00edsica en cada caso singular. Incluye la producci\u00f3n de actos de tr\u00e1mite o resolutorios de procedimientos, as\u00ed como de meros actos de comunicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Aplicaci\u00f3n: Programa o conjunto de programas cuyo objeto es la resoluci\u00f3n de un problema mediante el uso de inform\u00e1tica."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Aplicaci\u00f3n de fuentes abiertas: Aquella que se distribuye con una licencia que permite la libertad de ejecutarla, de conocer el c\u00f3digo fuente, de modificarla o mejorarla y de redistribuir copias a otros usuarios."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Autenticaci\u00f3n: Acreditaci\u00f3n por medios electr\u00f3nicos de la identidad de una persona o ente, del contenido de la voluntad expresada en sus operaciones, transacciones y documentos, y de la integridad y autor\u00eda de estos \u00faltimos."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Canales: Estructuras o medios de difusi\u00f3n de los contenidos y servicios; incluyendo el canal presencial, el telef\u00f3nico y el electr\u00f3nico, as\u00ed como otros que existan en la actualidad o puedan existir en el futuro (dispositivos m\u00f3viles, TDT, etc)."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Certificado electr\u00f3nico: Seg\u00fan el art\u00edculo 6 de la Ley 59/2003, de 19 de diciembre, de Firma Electr\u00f3nica, \u00abDocumento firmado electr\u00f3nicamente por un prestador de servicios de certificaci\u00f3n que vincula unos datos de verificaci\u00f3n de firma a un firmante y confirma su identidad\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Certificado electr\u00f3nico reconocido: Seg\u00fan el art\u00edculo 11 de la Ley 59/2003, de 19 de diciembre, de Firma Electr\u00f3nica: \u00abSon certificados reconocidos los certificados electr\u00f3nicos expedidos por un prestador de servicios de certificaci\u00f3n que cumpla los requisitos establecidos en esta Ley en cuanto a la comprobaci\u00f3n de la identidad y dem\u00e1s circunstancias de los solicitantes y a la fiabilidad y las garant\u00edas de los servicios de certificaci\u00f3n que presten\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Ciudadano: Cualesquiera personas f\u00edsicas, personas jur\u00eddicas y entes sin personalidad que se relacionen, o sean susceptibles de relacionarse, con las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "i) Direcci\u00f3n electr\u00f3nica: Identificador de un equipo o sistema electr\u00f3nico desde el que se provee de informaci\u00f3n o servicios en una red de comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "j) Documento electr\u00f3nico: Informaci\u00f3n de cualquier naturaleza en forma electr\u00f3nica, archivada en un soporte electr\u00f3nico seg\u00fan un formato determinado y susceptible de identificaci\u00f3n y tratamiento diferenciado."
+      },{
+        "@class": "parrafo",
+        "#text": "k) Est\u00e1ndar abierto: Aquel que re\u00fana las siguientes condiciones:"
+      },{
+        "@class": "parrafo",
+        "#text": "- sea p\u00fablico y su utilizaci\u00f3n sea disponible de manera gratuita o a un coste que no suponga una dificultad de acceso,"
+      },{
+        "@class": "parrafo",
+        "#text": "- su uso y aplicaci\u00f3n no est\u00e9 condicionado al pago de un derecho de propiedad intelectual o industrial."
+      },{
+        "@class": "parrafo_2",
+        "#text": "l) Firma electr\u00f3nica: Seg\u00fan el art\u00edculo 3 de la Ley\u00a059/2003, de 19 de diciembre, de Firma Electr\u00f3nica, \u00abconjunto de datos en forma electr\u00f3nica, consignados junto a otros o asociados con ellos, que pueden ser utilizados como medio de identificaci\u00f3n del firmante\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "m) Firma electr\u00f3nica avanzada: Seg\u00fan el art\u00edculo 3 de la Ley 59/2003, de 19 de diciembre, de Firma Electr\u00f3nica, \u00abfirma electr\u00f3nica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que est\u00e1 vinculada al firmante de manera \u00fanica y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "n) Firma electr\u00f3nica reconocida: Seg\u00fan el art\u00edculo 3 de la Ley 59/2003, de 19 de diciembre, de Firma Electr\u00f3nica, \u00abfirma electr\u00f3nica avanzada basada en un certificado reconocido y generada mediante un dispositivo seguro de creaci\u00f3n de firma\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "o) Interoperabilidad: Capacidad de los sistemas de informaci\u00f3n, y por ende de los procedimientos a los que \u00e9stos dan soporte, de compartir datos y posibilitar el intercambio de informaci\u00f3n y conocimiento entre ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "p) Medio electr\u00f3nico: Mecanismo, instalaci\u00f3n, equipo o sistema que permite producir, almacenar o transmitir documentos, datos e informaciones; incluyendo cualesquiera redes de comunicaci\u00f3n abiertas o restringidas como Internet, telefon\u00eda fija y m\u00f3vil u otras."
+      },{
+        "@class": "parrafo",
+        "#text": "q) Punto de acceso electr\u00f3nico: Conjunto de p\u00e1ginas web agrupadas en un dominio de Internet cuyo objetivo es ofrecer al usuario, de forma f\u00e1cil e integrada, el acceso a una serie de recursos y de servicios dirigidos a resolver necesidades espec\u00edficas de un grupo de personas o el acceso a la informaci\u00f3n y servicios de a una instituci\u00f3n p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "r) Sistema de firma electr\u00f3nica: Conjunto de elementos intervinientes en la creaci\u00f3n de una firma electr\u00f3nica. En el caso de la firma electr\u00f3nica basada en certificado electr\u00f3nico, componen el sistema, al menos, el certificado electr\u00f3nico, el soporte, el lector, la aplicaci\u00f3n de firma utilizada y el sistema de interpretaci\u00f3n y verificaci\u00f3n utilizado por el receptor del documento firmado."
+      },{
+        "@class": "parrafo",
+        "#text": "s) Sellado de tiempo: Acreditaci\u00f3n a cargo de un tercero de confianza de la fecha y hora de realizaci\u00f3n de\u00a0cualquier operaci\u00f3n o transacci\u00f3n por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "t) Espacios comunes o ventanillas \u00fanicas: Modos o canales (oficinas integradas, atenci\u00f3n telef\u00f3nica, p\u00e1ginas en Internet y otros) a los que los ciudadanos pueden dirigirse para acceder a las informaciones, tr\u00e1mites y servicios p\u00fablicos determinados por acuerdo entre varias Administraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "u) Actividad de servicio: Cualquier actividad econ\u00f3mica por cuenta propia, prestada normalmente a cambio de una remuneraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "v) Prestador de actividad de servicio: Cualquier persona f\u00edsica o jur\u00eddica que ofrezca o preste una actividad de servicio."
+      }
+    ]
+  }
+}
+}

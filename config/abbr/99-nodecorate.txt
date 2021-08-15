@@ -1,0 +1,5 @@
+r'([Ee])j'
+s'\2jemplo
+
+r'[Ee]tc'
+s'\2tcétera

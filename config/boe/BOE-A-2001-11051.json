@@ -1,0 +1,576 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190425115601",
+  "metadatos": {
+    "identificador": "BOE-A-2001-11051",
+    "titulo": "Real Decreto 541/2001, de 18 de mayo, por el que se establecen determinadas especialidades para la contrataci\u00f3n de servicios de telecomunicaci\u00f3n.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "138",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "5140",
+      "#text": "Ministerio de Hacienda"
+    },
+    "rango": {
+      "@codigo": "1340",
+      "#text": "Real Decreto"
+    },
+    "numero_oficial": "541/2001",
+    "fecha_disposicion": "20010518",
+    "fecha_publicacion": "20010609",
+    "fecha_vigencia": "20010909",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "20402",
+    "pagina_final": "20405",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2001/06/09/pdfs/A20402-20405.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/rd/2001/05/18/541"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2001-11051"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2001-05-18"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "541"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2001-11051"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2001-05-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "541"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/con/20010609"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 541/2001, de 18 de mayo, por el que se establecen determinadas especialidades para la contrataci\u00f3n de servicios de telecomunicaci\u00f3n."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2001-06-09"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/con/20010609",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2001-11051"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2001-05-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "541"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2001-06-09"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/con/20010609/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 541/2001, de 18 de mayo, por el que se establecen determinadas especialidades para la contrataci\u00f3n de servicios de telecomunicaci\u00f3n."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2001-06-09"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/con/20010609"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2001/05/18/541/con/20010609/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2001/05/18/541/con/20010609/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "10",
+        "@orden": "200",
+        "#text": "Entrada en vigor:  9 de septiembre de 2001, salvo el art. 4 que entrar\u00e1 el 10 de junio de 2001."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "82",
+          "@orden": "1",
+          "#text": "Administraci\u00f3n General del Estado"
+        },{
+          "@codigo": "1666",
+          "@orden": "2",
+          "#text": "Contratos de las Administraciones P\u00fablicas"
+        },{
+          "@codigo": "3016",
+          "@orden": "3",
+          "#text": "Direcci\u00f3n General del Patrimonio del Estado"
+        },{
+          "@codigo": "3241",
+          "@orden": "4",
+          "#text": "Entidades Gestoras y Servicios Comunes de la Seguridad Social"
+        },{
+          "@codigo": "5626",
+          "@orden": "5",
+          "#text": "Pliegos de Cl\u00e1usulas Administrativas"
+        },{
+          "@codigo": "6627",
+          "@orden": "6",
+          "#text": "Servicios de telecomunicaci\u00f3n"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": {
+        "@codigo": "130",
+        "@orden": "1",
+        "#text": "Telecomunicaciones"
+      }
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-1998-9802",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "la Ley 11/1998, de 24 de abril"
+          },{
+            "@referencia": "BOE-A-2000-1281",
+            "@orden": "5020",
+            "palabra": {
+              "@codigo": "330",
+              "#text": "CITA"
+            },
+            "texto": "Acuerdo publicado por Resoluci\u00f3n de 17 de enero de 2000 (REf. 2000/01281)"
+          }
+        ]
+      },
+      "posteriores": null
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "Durante la pasada legislatura se produjo una sustancial modificaci\u00f3n del marco jur\u00eddico dentro del cual se desarrollaba la prestaci\u00f3n de servicios de telecomunicaciones, que condujo a la liberalizaci\u00f3n total del sector desde el 1 de diciembre de 1998. Este esfuerzo normativo, cuyo pilar b\u00e1sico lo constituye la Ley 11/1998, de 24 de abril, General de Telecomunicaciones, est\u00e1 orientado, primero, a la liberalizaci\u00f3n de este mercado, y despu\u00e9s, a promover las condiciones de competencia en el cual ha de desarrollarse el mismo. As\u00ed, los citados cambios normativos se han visto acompa\u00f1ados por el dinamismo del propio mercado, de forma que desde 1998 se ha incrementado notablemente tanto el n\u00famero de operadores de servicios de telecomunicaciones como las ofertas comerciales de dichos servicios, tanto los cl\u00e1sicos servicios de telefon\u00eda y datos como una serie de nuevos servicios de telecomunicaciones, telem\u00e1ticos e interactivos que han ido surgiendo como consecuencia de los avances tecnol\u00f3gicos en el sector. Esta nueva configuraci\u00f3n normativa y del mercado permite a los usuarios de los servicios de telecomunicaciones, y especialmente a las empresas y corporaciones, disponer de m\u00faltiples ofertas, flexibles y personalizables, adaptadas a las necesidades y requerimientos t\u00e9cnicos y de servicio que existan en cada momento, y en unas condiciones de precio y de calidad que son, en l\u00edneas generales, cada vez m\u00e1s ventajosas."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta sustancial modificaci\u00f3n del mercado de las telecomunicaciones se ha desarrollado en paralelo con un proceso de reforma de la contrataci\u00f3n p\u00fablica que se ha concretado en la promulgaci\u00f3n del reciente Real Decreto legislativo 2/2000, de 16 de junio, por el que se aprueba el texto refundido de la Ley de Contratos de las Administraciones P\u00fablicas y con diversas iniciativas del Gobierno para estimular una adaptaci\u00f3n r\u00e1pida de las compras de la Administraci\u00f3n General del Estado y sus Organismos en los mercados liberalizados, a las nuevas condiciones de competencia existentes en dichos mercados. Esta labor de impulso se ha venido plasmando en diversos Acuerdos de Consejo de Ministros (6 de junio de 1997, 18 de marzo de 1999 y 30 de diciembre de 1999) que han ido fijando pautas, adoptando medidas y desarrollando mecanismos de informaci\u00f3n y seguimiento para promover una r\u00e1pida obtenci\u00f3n por la Administraci\u00f3n de las ventajas que pueden conseguirse de la licitaci\u00f3n de importantes vol\u00famenes de gasto en mercados con competencia creciente."
+      },{
+        "@class": "parrafo",
+        "#text": "En concreto, el Acuerdo de 30 de diciembre de 1999 (\"Bolet\u00edn Oficial del Estado\" de 21 de enero de 2000) por el que se adoptan medidas para mejorar la contrataci\u00f3n en los nuevos mercados liberalizados, adopt\u00f3 diversas iniciativas en materia de adquisici\u00f3n de servicios de telecomunicaciones y, entre otras, cre\u00f3 el Grupo de Estudio de Adquisiciones de Servicios de Telecomunicaciones (GEAST) formado por responsables de \u00f3rganos con competencias horizontales en esta materia y por representantes de los grandes centros consumidores, y presidido por la Direcci\u00f3n General del Patrimonio del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "Como consecuencia de este proceso de estudio del sector, en el que se ha tenido en cuenta la opini\u00f3n de los operadores globales m\u00e1s importantes y de otros especializados, el GEAST formul\u00f3 una propuesta en el sentido de establecer un marco espec\u00edfico de contrataci\u00f3n de estos servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, el GEAST asumi\u00f3 la conveniencia de ir instrumentando, a medida que el mercado lo permita, un sistema com\u00fan de contrataci\u00f3n de los servicios de telecomunicaci\u00f3n que pasar\u00eda por la declaraci\u00f3n de adquisici\u00f3n centralizada de estos servicios mediante Orden del Ministro de Hacienda. La Direcci\u00f3n General del Patrimonio del Estado ejecutar\u00eda los procedimientos para celebrar Acuerdos marco que incluir\u00edan las condiciones y niveles de calidad para cada tipo de servicio, el usuario establecer\u00eda una r\u00e1pida licitaci\u00f3n entre los proveedores suscriptores del Acuerdo marco o adjudicatarios de los concursos de determinaci\u00f3n de tipo, que le permitiera obtener el mejor precio en funci\u00f3n del volumen y caracter\u00edsticas de los servicios requeridos, aliment\u00e1ndose un registro de contratos que permita un seguimiento de la evoluci\u00f3n y caracter\u00edsticas de la contrataci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Parece l\u00f3gico, por tanto, incorporar a este Real Decreto, como objetivo a medio plazo, la implantaci\u00f3n gradual de un sistema de contrataci\u00f3n centralizada basado en concursos de determinaci\u00f3n de tipo o en Acuerdos marco operativo para los servicios de comunicaciones disponibles habitualmente en el mercado, con los elementos de flexibilidad que sean necesarios para garantizar una adaptaci\u00f3n continua a las variaciones tecnol\u00f3gicas y las que \u00e9stas induzcan en el mercado."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente Real Decreto, que constituye un desarrollo reglamentario parcial de la Ley de Contratos de las Administraciones P\u00fablicas, articula normativamente los aspectos que se consideran necesarios incorporar como especialidades a la contrataci\u00f3n de servicios de telecomunicaciones, debiendo servir como referencia normativa para el ulterior despliegue de los mecanismos de coordinaci\u00f3n y asesoramiento t\u00e9cnico cuya formulaci\u00f3n espec\u00edfica debe ser propuesta por los Departamentos sectorialmente competentes."
+      },{
+        "@class": "parrafo",
+        "#text": "En su virtud, a propuesta del Ministro de Hacienda, previo informe de la Junta Consultiva de Contrataci\u00f3n Administrativa, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 18 de mayo de 2001,"
+      },{
+        "@class": "subseccion",
+        "#text": "D I S P O N G O :"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto de este Real Decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente Real Decreto tiene por objeto establecer las especialidades a que quedan sujetos los contratos de servicios de telecomunicaci\u00f3n para asegurar que las adquisiciones de estos servicios se adecuen a pautas homog\u00e9neas, garantizando un desarrollo ordenado de la transici\u00f3n de la contrataci\u00f3n de estos servicios a un mercado liberalizado."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. \u00c1mbito subjetivo."
+      },{
+        "@class": "parrafo",
+        "#text": "Se regir\u00e1 por las normas establecidas en este Real Decreto la contrataci\u00f3n de todos los servicios de telecomunicaciones correspondientes a:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) \u00d3rganos de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Organismos p\u00fablicos de la Administraci\u00f3n General del Estado, en la medida que est\u00e9n sujetos a la Ley de Contratos de las Administraciones P\u00fablicas, texto refundido aprobado por Real Decreto legislativo 2/2000, de 16 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Entidades gestoras y Servicios comunes de la Seguridad Social."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. \u00c1mbito objetivo."
+      },{
+        "@class": "parrafo",
+        "#text": "A los efectos de este Real Decreto se considerar\u00e1n servicios de telecomunicaciones los as\u00ed definidos en el anexo de la Ley 11/1998, de 24 de abril, General de Telecomunicaciones, y, en todo caso, los siguientes:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Telefon\u00eda fija."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Telefon\u00eda m\u00f3vil."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Alquiler de circuitos."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Servicios de transmisi\u00f3n de datos."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Comunicaciones corporativas."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Servicios de Internet y otros servicios telem\u00e1ticos e interactivos."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Otros servicios de valor a\u00f1adido."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Se regir\u00e1n asimismo, en los t\u00e9rminos del art\u00edculo 6 de la Ley de Contratos de las Administraciones P\u00fablicas, por este Real Decreto, los contratos de mantenimiento, suministros de equipos y terminales, as\u00ed como adaptaciones necesarias: cableados, canalizaciones y otras an\u00e1logas, siempre que vayan asociados a la prestaci\u00f3n de los servicios y se contraten conjuntamente con ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "Quedan exceptuados de la aplicaci\u00f3n del presente Real Decreto los expedientes de contrataci\u00f3n a los que les sea de aplicaci\u00f3n lo previsto en el art\u00edculo 210.g) de la Ley de Contratos de las Administraciones P\u00fablicas, as\u00ed como los relativos a las redes que afecten al mando y control militar, consulta pol\u00edtica y situaciones de crisis y seguridad del Estado."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. Procedimiento y forma de adjudicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "El procedimiento y forma de adjudicaci\u00f3n de los contratos que tengan por objeto servicios de telecomunicaci\u00f3n, ser\u00e1n los que para los contratos de servicios establece el art\u00edculo 208 de la Ley de Contratos de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "En lo que se refiere a la contrataci\u00f3n de servicios de Telecomunicaciones con operadores y proveedores extranjeros, por parte de las Misiones Diplom\u00e1ticas, Oficinas Consulares y Representaciones Permanentes de Espa\u00f1a ante Organismos internacionales, se estar\u00e1 a lo dispuesto en el art\u00edculo 117 de la Ley de Contratos de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "La aplicaci\u00f3n de lo previsto en los art\u00edculos 136 y 204 de la Ley de Contratos de las Administraciones P\u00fablicas, a efectos de determinar los supuestos de publicidad comunitaria, se realizar\u00e1 con exclusi\u00f3n de los lotes correspondientes a los servicios mencionados en el art\u00edculo 205 de la citada Ley de Contratos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Informaci\u00f3n al Registro P\u00fablico de Contratos."
+      },{
+        "@class": "parrafo",
+        "#text": "Sin perjuicio de lo establecido en los art\u00edculos 58 y 118 de la Ley de Contratos de las Administraciones"
+      },{
+        "@class": "parrafo",
+        "#text": "P\u00fablicas y en sus normas de desarrollo reglamentario, los \u00f3rganos de contrataci\u00f3n al comunicar al Registro P\u00fablico de Contratos la adjudicaci\u00f3n de todos los incluidos en el \u00e1mbito de aplicaci\u00f3n de este Real Decreto, acompa\u00f1ar\u00e1n una copia de las ofertas sobre las que haya reca\u00eddo la adjudicaci\u00f3n. Esta informaci\u00f3n ser\u00e1 remitida, en el caso de los contratos a que se refiere el presente Real Decreto, en el plazo m\u00e1ximo de un mes desde la formalizaci\u00f3n del contrato. Por la Direcci\u00f3n General del Patrimonio del Estado se habilitar\u00e1 un sistema de informaci\u00f3n que permita la consulta de las condiciones de adjudicaci\u00f3n de los citados contratos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. Objeto del contrato."
+      },{
+        "@class": "parrafo",
+        "#text": "El objeto del contrato definir\u00e1 las necesidades que se quieran satisfacer mediante la celebraci\u00f3n del contrato, realizando una descripci\u00f3n detallada de las mismas, estableciendo, siempre que sea posible, lotes separados de aquellos servicios que por sus caracter\u00edsticas lo permitan. En este caso se podr\u00e1 prever en el pliego de cl\u00e1usulas administrativas particulares la posibilidad de presentar tambi\u00e9n ofertas integradoras de varios o de todos los lotes licitados."
+      },{
+        "@class": "parrafo",
+        "#text": "La descripci\u00f3n de los servicios a contratar se realizar\u00e1 teniendo en cuenta las funcionalidades a obtener y las necesidades cuantificadas que se pretendan satisfacer, sin establecer, salvo casos excepcionales, debidamente justificados, referencias espec\u00edficas a soluciones tecnol\u00f3gicas concretas que limiten o impidan la concurrencia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. Calidad del servicio."
+      },{
+        "@class": "parrafo",
+        "#text": "El pliego de cl\u00e1usulas administrativas particulares deber\u00e1 establecer la obligatoriedad de garantizar la calidad de los servicios durante la vigencia del contrato, de acuerdo con los criterios de prestaci\u00f3n, rendimiento y control del mismo que al efecto se establezcan en el pliego de prescripciones t\u00e9cnicas."
+      },{
+        "@class": "parrafo",
+        "#text": "La garant\u00eda de calidad de los servicios tambi\u00e9n podr\u00e1 ser determinada mediante la exigencia de presentaci\u00f3n por parte de los licitadores de un plan de garant\u00eda de calidad, que deber\u00e1 ser considerado como uno de los criterios de valoraci\u00f3n del concurso o informar la adjudicaci\u00f3n en el procedimiento negociado. En el caso del adjudicatario, dicho plan formar\u00e1 parte del contrato y obligar\u00e1 al contratista en la ejecuci\u00f3n del mismo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Adaptaci\u00f3n del contrato por causas t\u00e9cnicas u otras."
+      },{
+        "@class": "parrafo",
+        "#text": "Podr\u00e1n establecerse en el pliego de cl\u00e1usulas administrativas particulares las previsiones que permitan la adaptaci\u00f3n de las prestaciones del contrato a la posible variaci\u00f3n de sus condiciones iniciales por causas t\u00e9cnicas, econ\u00f3micas, o de las necesidades del usuario, todo sin perjuicio de lo establecido en la normativa vigente en relaci\u00f3n con la modificaci\u00f3n de los contratos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. Direcci\u00f3n y seguimiento de las prestaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "En el pliego de cl\u00e1usulas administrativas particulares se contemplar\u00e1 la designaci\u00f3n de personal al servicio de la Administraci\u00f3n General del Estado y sus Organismos p\u00fablicos con la cualificaci\u00f3n adecuada para desempe\u00f1ar las funciones de direcci\u00f3n, seguimiento y verificaci\u00f3n del cumplimiento del contrato y la propuesta de liquidaci\u00f3n del mismo. Estas personas ostentar\u00e1n la condici\u00f3n de directores del contrato. Justificadamente podr\u00e1n contratarse asistencias t\u00e9cnicas externas para desarrollar estas funciones, con sujeci\u00f3n, en todo caso, a las exigencias que establecen para este tipo de contratos los art\u00edculos 196 y siguientes de la Ley de Contratos de las Administraciones P\u00fablicas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 9. Reducciones en el precio."
+      },{
+        "@class": "parrafo",
+        "#text": "Los pliegos de cl\u00e1usulas administrativas particulares establecer\u00e1n la exigencia de unas reducciones en el precio por incumplimiento de las obligaciones contractuales."
+      },{
+        "@class": "parrafo",
+        "#text": "En concreto, para la cuantificaci\u00f3n de las reducciones asociadas a los incumplimientos en la prestaci\u00f3n de los servicios, el pliego de cl\u00e1usulas administrativas particulares determinar\u00e1 el umbral a partir del que se aplicar\u00e1n con referencia a los criterios de prestaci\u00f3n del servicio a que se refiere el art\u00edculo 6 o, en su caso, en relaci\u00f3n a las establecidas en el plan de garant\u00eda de calidad de la empresa adjudicataria."
+      },{
+        "@class": "parrafo",
+        "#text": "El director del contrato, a los efectos previstos en el art\u00edculo 10, apreciar\u00e1 los incumplimientos en la prestaci\u00f3n de los servicios con los procedimientos t\u00e9cnicos y de medici\u00f3n que determinen el pliego de prescripciones t\u00e9cnicas o el plan de garant\u00eda de calidad y realizar\u00e1 la correspondiente propuesta de liquidaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 10. Pago del precio."
+      },{
+        "@class": "parrafo",
+        "#text": "El pago por los servicios contratados se efectuar\u00e1 de conformidad con lo dispuesto en el art\u00edculo 99 de la Ley de Contratos de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "La facturaci\u00f3n o certificaci\u00f3n de la realizaci\u00f3n de la prestaci\u00f3n y del precio que corresponda se realizar\u00e1 por per\u00edodos vencidos una vez descontadas, si procede, las reducciones previstas en el pliego."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 11. Seguridad y confidencialidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Los pliegos de cl\u00e1usulas administrativas y prescripciones t\u00e9cnicas deber\u00e1n contemplar las condiciones de seguridad y confidencialidad tanto en la tramitaci\u00f3n como en la ejecuci\u00f3n del contrato. Se expresar\u00e1 el compromiso de las empresas oferentes y del adjudicatario a tratar de forma confidencial y reservada tanto la informaci\u00f3n recibida como la derivada de la ejecuci\u00f3n del contrato, no pudiendo ser objeto de difusi\u00f3n, publicaci\u00f3n o utilizaci\u00f3n para fines distintos de los establecidos en el pliego. Esta obligaci\u00f3n seguir\u00e1 vigente una vez que el contrato haya finalizado o haya sido resuelto."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, se determinar\u00e1n las medidas que sean aplicables a cada contrato particular y est\u00e9n orientadas a garantizar la constancia en la transmisi\u00f3n y recepci\u00f3n de las comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "En todo caso, el adjudicatario quedar\u00e1 obligado al cumplimiento de lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, en el Reglamento de medidas de seguridad de ficheros automatizados que contengan datos de car\u00e1cter personal, aprobado por Real Decreto 994/1999, de 11 de junio, y en la restante normativa sobre esta materia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 12. Contrataci\u00f3n centralizada de servicios de telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "La Direcci\u00f3n General del Patrimonio del Estado a la vista de la evoluci\u00f3n del mercado y del grado de normalizaci\u00f3n que se observe, elevar\u00e1 al Ministro de Hacienda propuesta de declaraci\u00f3n de contrataci\u00f3n centralizada de determinados servicios. La Direcci\u00f3n General del Patrimonio del Estado proceder\u00e1 a la celebraci\u00f3n de los concursos de adopci\u00f3n de tipo o Acuerdos marco correspondientes."
+      },{
+        "@class": "parrafo",
+        "#text": "Por el Ministro de Hacienda se desarrollar\u00e1n los aspectos procedimentales de contrataci\u00f3n de dichos servicios."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 13. Planes Directores de Telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Al objeto de permitir la coordinaci\u00f3n en los procesos de contrataci\u00f3n y facilitar la agregaci\u00f3n de servicios para su licitaci\u00f3n conjunta, cada Departamento ministerial elaborar\u00e1 un Plan Director de Telecomunicaciones que integre a todos los Organismos del Departamento incluidos en el art\u00edculo 2.1 del presente Real Decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "Dicho plan proyectar\u00e1 las necesidades globales de servicios de telecomunicaci\u00f3n del Departamento y sus Organismos en un per\u00edodo de cinco a\u00f1os, as\u00ed como las estrategias para su licitaci\u00f3n y estar\u00e1 sujeto a revisiones anuales que, en su caso, dar\u00e1n lugar a las adaptaciones oportunas."
+      },{
+        "@class": "parrafo",
+        "#text": "El Plan Director de Telecomunicaciones se desarrollar\u00e1 en programas, cuya vigencia ser\u00e1 de dos a\u00f1os, que comprender\u00e1n todos los servicios de telecomunicaciones a que se refiere el art\u00edculo 2.2 del presente Real Decreto, que el Departamento prevea utilizar durante el per\u00edodo de vigencia del programa."
+      },{
+        "@class": "parrafo",
+        "#text": "El plan, como m\u00ednimo, contendr\u00e1 una descripci\u00f3n de la infraestructura t\u00e9cnica asociada a la prestaci\u00f3n de estos servicios acompa\u00f1ada de informaci\u00f3n esquem\u00e1tica sobre las redes utilizadas por el Departamento y sus Organismos."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, el Plan contendr\u00e1 directrices sobre:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Licitaciones necesarias para cubrir las necesidades del Departamento y sus Organismos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Adecuaci\u00f3n de los servicios contratados con las necesidades previstas en el per\u00edodo para el Departamento y sus Organismos. Los excesos de capacidad o redundancia deber\u00e1n justificarse en el Plan Director."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Identificaci\u00f3n del \u00f3rgano u \u00f3rganos responsables en cada Departamento de la ejecuci\u00f3n y seguimiento del Plan Director y del \u00f3rgano encargado de realizar los informes anuales sobre el seguimiento agregado y adaptaciones necesarias del Plan Director."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Otros elementos relevantes desde el punto de vista t\u00e9cnico o de buenas pr\u00e1cticas en el consumo, que contribuyan a una eficiente utilizaci\u00f3n de estos servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "En el \u00e1mbito del Ministerio de Defensa, lo establecido respecto al Plan Director de Telecomunicaciones, se incluir\u00e1 dentro del Plan Director de Sistemas de Informaci\u00f3n y Telecomunicaciones."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Especialidades en la contrataci\u00f3n de Organismos p\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Lo previsto en el presente Real Decreto para la contrataci\u00f3n de servicios de telecomunicaciones ser\u00e1 de aplicaci\u00f3n a los Organismos p\u00fablicos de la Administraci\u00f3n General del Estado sin perjuicio de las especialidades que sus normas reguladoras, u otras que resulten de aplicaci\u00f3n, establezcan en materia de contrataci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Funciones del Ministerio de Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Ministerio de Administraciones P\u00fablicas realizar\u00e1 las funciones que se fijen mediante Real Decreto con la finalidad de cumplir los siguientes objetivos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Conocer el inventario de recursos y servicios de telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Establecer las pautas y mecanismos de coordinaci\u00f3n internas de la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Evitar duplicidades de recursos de telecomunicaciones en el \u00e1mbito de la Administraci\u00f3n General del Estado y sus Organismos p\u00fablicos dependientes."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, el Ministerio de Administraciones P\u00fablicas informar\u00e1 sobre la adecuaci\u00f3n de los planes directores de telecomunicaciones de los Departamentos ministeriales previstos en el art\u00edculo 13 del Real Decreto a los objetivos anteriormente citados en el plazo de un mes desde su presentaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Real Decreto anteriormente citado se dictar\u00e1 en el plazo de seis meses desde la entrada en vigor de este Real Decreto y determinar\u00e1 los \u00f3rganos u organismos a los que pudiera atribuirse el desempe\u00f1o de las funciones que coadyuven a los objetivos se\u00f1alados, as\u00ed como la composici\u00f3n de los mismos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Hasta que entre en vigor el Real Decreto a que se refieren los apartados 2 y 3 de la presente disposici\u00f3n, las funciones que se atribuyen al Ministerio de Administraciones P\u00fablicas ser\u00e1n ejercidas por el Consejo Superior de Inform\u00e1tica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. Aplicaci\u00f3n temporal."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente Real Decreto no se aplicar\u00e1 a los contratos cuya licitaci\u00f3n haya sido publicada en el \"Bolet\u00edn Oficial del Estado\", con anterioridad a su entrada en vigor."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final \u00fanica. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente Real Decreto entrar\u00e1 en vigor a los tres meses de su publicaci\u00f3n en el \"Bolet\u00edn Oficial del Estado\", salvo su art\u00edculo 4 que entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \"Bolet\u00edn Oficial del Estado\"."
+      },{
+        "@class": "parrafo",
+        "#text": "Dado en Madrid a 18 de mayo de 2001."
+      },{
+        "@class": "firma_rey",
+        "#text": "JUAN CARLOS R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "El Ministro de Hacienda,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "CRIST\u00d3BAL MONTORO ROMERO"
+      }
+    ]
+  }
+}
+}

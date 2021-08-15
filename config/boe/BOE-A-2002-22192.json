@@ -1,0 +1,850 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190617162601",
+  "metadatos": {
+    "identificador": "BOE-A-2002-22192",
+    "titulo": "Real Decreto 1164/2002, de 8 de noviembre, por el que se regula la conservaci\u00f3n del patrimonio documental con valor hist\u00f3rico, el control de la eliminaci\u00f3n de otros documentos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos y la conservaci\u00f3n de documentos administrativos en soporte distinto al original.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "274",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "7710",
+      "#text": "Ministerio de la Presidencia"
+    },
+    "rango": {
+      "@codigo": "1340",
+      "#text": "Real Decreto"
+    },
+    "numero_oficial": "1164/2002",
+    "fecha_disposicion": "20021108",
+    "fecha_publicacion": "20021115",
+    "fecha_vigencia": "20021116",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "40139",
+    "pagina_final": "40143",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2002/11/15/pdfs/A40139-40143.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2002/12/02/pdfs/A03068-03072.pdf",
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": "/boe_gallego/dias/2002/12/02/pdfs/A01606-01610.pdf",
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/rd/2002/11/08/1164"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2002-22192"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2002-11-08"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "1164"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-22192"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-11-08"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "1164"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164"
+              },
+              "eli:consolidated_by": [
+                {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20071107"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20021115"
+                }
+              ],
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1164/2002, de 8 de noviembre, por el que se regula la conservaci\u00f3n del patrimonio documental con valor hist\u00f3rico, el control de la eliminaci\u00f3n de otros documentos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos y la conservaci\u00f3n de documentos administrativos en soporte distinto al original."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2002-11-15"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "REIAL DECRET 1164/2002, de 8 de novembre, pel qual es regula la conservaci\u00f3 del patrimoni documental amb valor hist\u00f2ric, el control de l'eliminaci\u00f3 d'altres documents de l'Administraci\u00f3 General de l'Estat i els seus organismes p\u00fablics, i la conservaci\u00f3 de documents administratius en suport diferent a l'original."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2002-12-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "REAL DECRETO 1164/2002, do 8 de novembro, polo que se regula a conservaci\u00f3n do patrimonio documental con valor hist\u00f3rico, o control da eliminaci\u00f3n doutros documentos da Administraci\u00f3n xeral do Estado e os seus organismos p\u00fablicos e a conservaci\u00f3n de documentos administrativos en soporte distinto \u00f3 orixinal."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2002-12-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20071107",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-22192"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-11-08"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "1164"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-11-07"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20071107/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 1164/2002, de 8 de noviembre, por el que se regula la conservaci\u00f3n del patrimonio documental con valor hist\u00f3rico, el control de la eliminaci\u00f3n de otros documentos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos y la conservaci\u00f3n de documentos administrativos en soporte distinto al original."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2007-11-07"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20071107"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20071107/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20071107/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20021115",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-22192"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-11-08"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "1164"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-11-15"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20021115/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 1164/2002, de 8 de noviembre, por el que se regula la conservaci\u00f3n del patrimonio documental con valor hist\u00f3rico, el control de la eliminaci\u00f3n de otros documentos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos y la conservaci\u00f3n de documentos administrativos en soporte distinto al original."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2002-11-15"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20021115"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20021115/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2002/11/08/1164/con/20021115/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": null,
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "82",
+          "@orden": "1",
+          "#text": "Administraci\u00f3n General del Estado"
+        },{
+          "@codigo": "281",
+          "@orden": "2",
+          "#text": "Archivos"
+        },{
+          "@codigo": "282",
+          "@orden": "3",
+          "#text": "Archivos Militares"
+        },{
+          "@codigo": "1230",
+          "@orden": "5",
+          "#text": "Comisiones Calificadoras de Documentos Administrativos"
+        },{
+          "@codigo": "3085",
+          "@orden": "6",
+          "#text": "Documentos"
+        },{
+          "@codigo": "5278",
+          "@orden": "7",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n del Estado"
+        },{
+          "@codigo": "5431",
+          "@orden": "8",
+          "#text": "Patrimonio Documental y Bibliogr\u00e1fico"
+        },{
+          "@codigo": "5434",
+          "@orden": "9",
+          "#text": "Patrimonio Hist\u00f3rico Espa\u00f1ol"
+        },{
+          "@codigo": "6488",
+          "@orden": "10",
+          "#text": "Secretos oficiales"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "107",
+          "@orden": "1",
+          "#text": "Cultura y ocio"
+        },{
+          "@codigo": "121",
+          "@orden": "2",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2000-2766",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "arts. 2.1 y 5 y lo indicado del Real Decreto 139/2000, de 4 de febrero"
+          },{
+            "@referencia": "BOE-A-1998-29347",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "Lo indicado del Real Decreto 2598/1998, de 4 de diciembre"
+          },{
+            "@referencia": "BOE-A-1985-12534",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "el art. 55 de la Ley 16/1985, de 25 de junio"
+          },{
+            "@referencia": "BOE-A-1996-4594",
+            "@orden": "5020",
+            "palabra": {
+              "@codigo": "330",
+              "#text": "CITA"
+            },
+            "texto": "Real Decreto 263/1996, de 16 de febrero"
+          },{
+            "@referencia": "BOE-A-1968-444",
+            "@orden": "5020",
+            "palabra": {
+              "@codigo": "330",
+              "#text": "CITA"
+            },
+            "texto": "Ley 9/1968, de 5 de abril"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": {
+          "@referencia": "BOE-A-2007-19248",
+          "@orden": "",
+          "palabra": {
+            "@codigo": "210",
+            "#text": "SE DEROGA"
+          },
+          "texto": "la disposici\u00f3n adicional 1, por Real Decreto 1401/2007, de 29 de octubre"
+        }
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "La Ley 16/1985, de 25 de junio, del Patrimonio Hist\u00f3rico Espa\u00f1ol, regula en su T\u00edtulo VII, cap\u00edtulo I, las cuestiones relativas a la conservaci\u00f3n del patrimonio documental como parte integrante del Patrimonio Hist\u00f3rico Espa\u00f1ol. En su art\u00edculo 55 establece que la exclusi\u00f3n o eliminaci\u00f3n de bienes del patrimonio documental y bibliogr\u00e1fico contemplados en el art\u00edculo 49.2 y de los dem\u00e1s de titularidad p\u00fablica deber\u00e1 ser autorizada por la Administraci\u00f3n competente, a propuesta de sus propietarios o poseedores, mediante el procedimiento que se establecer\u00e1 por v\u00eda reglamentaria."
+      },{
+        "@class": "parrafo",
+        "#text": "El art\u00edculo 58 de dicha Ley atribuye el estudio y dictamen de las cuestiones relativas a la calificaci\u00f3n y utilizaci\u00f3n de los documentos de la Administraci\u00f3n del Estado y del sector p\u00fablico estatal, as\u00ed como su integraci\u00f3n en los archivos y el r\u00e9gimen de acceso e inutilidad administrativa de tales documentos a la Comisi\u00f3n Superior Calificadora de Documentos Administrativos, cuyas competencias, composici\u00f3n y funciones han sido determinadas por el Real Decreto 139/2000, de 4 de febrero."
+      },{
+        "@class": "parrafo",
+        "#text": "En desarrollo de las citadas previsiones legales y con el fin de que la Comisi\u00f3n Superior Calificadora pueda ejercer plenamente sus competencias, es preciso regular la conservaci\u00f3n de la documentaci\u00f3n hist\u00f3rica, el control de la eliminaci\u00f3n de documentos generados por la Administraci\u00f3n General del Estado y sus Organismos p\u00fablicos y su conservaci\u00f3n en soporte distinto al original."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta normativa es, adem\u00e1s, imprescindible para la racionalizaci\u00f3n del tratamiento de la documentaci\u00f3n y consiguiente mejora de la propia gesti\u00f3n de la Administraci\u00f3n, a la vez que se asegura la conservaci\u00f3n de aquellos de sus documentos que tengan valor hist\u00f3rico."
+      },{
+        "@class": "parrafo",
+        "#text": "Al propio tiempo resulta conveniente establecer en esta misma disposici\u00f3n las normas relativas a la conservaci\u00f3n de documentos administrativos en soportes distintos al original, de manera que, en su caso, pueda eliminarse con suficientes garant\u00edas el soporte papel de determinadas series documentales, manteniendo los soportes digitales u \u00f3pticos correspondientes. Esta regulaci\u00f3n tiene su base en las previsiones de los art\u00edculos 45.5 y 46 de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan y se relaciona con lo establecido en el Real Decreto 263/1996, de 16 de febrero, sobre utilizaci\u00f3n de t\u00e9cnicas inform\u00e1ticas, electr\u00f3nicas y telem\u00e1ticas en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otra parte, y dado que cuestiones abordadas en el presente Real Decreto han sido ya contempladas espec\u00edficamente para los archivos militares en el Reglamento aprobado por Real Decreto 2598/1998, de 4 de diciembre, dicho Reglamento queda en ciertos aspectos afectado por la nueva normativa, y a ello se refiere la Disposici\u00f3n adicional segunda."
+      },{
+        "@class": "parrafo",
+        "#text": "En su virtud, a propuesta de los Ministros de Educaci\u00f3n, Cultura y Deporte, de Defensa, de Hacienda y de Administraciones P\u00fablicas, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 8 de noviembre de 2002,"
+      },{
+        "@class": "subseccion",
+        "#text": "D I S P O N G O :"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto y \u00e1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Con objeto de garantizar una adecuada protecci\u00f3n del patrimonio documental de la Administraci\u00f3n General del Estado y los Organismos p\u00fablicos vinculados o dependientes de ella, la eliminaci\u00f3n de los documentos administrativos y de series de los mismos, as\u00ed como su conservaci\u00f3n en soporte diferente al de su producci\u00f3n original, se regir\u00e1 por lo dispuesto en este Real Decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El presente Real Decreto es de aplicaci\u00f3n a los documentos y series documentales producidos, conservados o reunidos por la Administraci\u00f3n General del Estado y los Organismos p\u00fablicos vinculados o dependientes de ella, cualquiera que sea su soporte."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. R\u00e9gimen de la eliminaci\u00f3n de documentos y, en su caso, de la conservaci\u00f3n de los mismos en soporte distinto al original."
+      },{
+        "@class": "parrafo",
+        "#text": "1. A los efectos de este Real Decreto se entiende por eliminaci\u00f3n de documentos la destrucci\u00f3n f\u00edsica de unidades o series documentales por el \u00f3rgano responsable del archivo u oficina p\u00fablica en que se encuentren, empleando cualquier m\u00e9todo que garantice la imposibilidad de reconstrucci\u00f3n de los mismos y su posterior utilizaci\u00f3n. La eliminaci\u00f3n de documentos s\u00f3lo podr\u00e1 llevarse a cabo, tras el correspondiente proceso de valoraci\u00f3n documental, seg\u00fan se establece en los art\u00edculos siguientes."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Se entiende por valoraci\u00f3n documental el estudio y an\u00e1lisis de las caracter\u00edsticas hist\u00f3ricas, administrativas, jur\u00eddicas, fiscales e informativas de la documentaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "El proceso de valoraci\u00f3n establecer\u00e1 los plazos de transferencia, la posible eliminaci\u00f3n o expurgo y el r\u00e9gimen de accesibilidad de la documentaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Conforme a lo que se dispone en el presente Real Decreto, la eliminaci\u00f3n podr\u00e1 condicionarse a la conservaci\u00f3n, en soporte diferente al original en que fueron producidos, de los documentos y series documentales en los que concurran los siguientes requisitos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Que el soporte original carezca de valor hist\u00f3rico, art\u00edstico o de otro car\u00e1cter relevante que aconseje su conservaci\u00f3n y protecci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Que en el soporte original no figuren firmas u otras expresiones manuscritas o mec\u00e1nicas que confieran al documento un valor especial o que supongan el contenido esencial del documento por su valor probatorio de derechos y obligaciones."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. Documentos con valor probatorio."
+      },{
+        "@class": "parrafo",
+        "#text": "En ning\u00fan caso se podr\u00e1 autorizar la eliminaci\u00f3n ni se podr\u00e1 proceder a la destrucci\u00f3n de documentos de la Administraci\u00f3n General del Estado o de sus Organismos p\u00fablicos en tanto subsista su valor probatorio de derechos y obligaciones de las personas f\u00edsicas o jur\u00eddicas o no hayan transcurrido los plazos que la legislaci\u00f3n vigente establezca para su conservaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Iniciaci\u00f3n del procedimiento."
+      },{
+        "@class": "parrafo",
+        "#text": "1. A iniciativa propia o de los \u00f3rganos responsables de los documentos o series documentales concernidos, la Comisi\u00f3n Calificadora de Documentos Administrativos de cada Departamento u Organismo p\u00fablico podr\u00e1 acordar la iniciaci\u00f3n de un procedimiento de eliminaci\u00f3n de documentos y, en su caso, de conservaci\u00f3n del contenido de los mismos en soporte distinto del original en que fueron producidos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En el Acuerdo de iniciaci\u00f3n deber\u00e1 quedar establecido fundadamente que los documentos originales a que se refiere no poseen valor hist\u00f3rico ni utilidad para la gesti\u00f3n administrativa que exija su conservaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, se expresar\u00e1 en \u00e9l que los documentos carecen de valor probatorio para los derechos y obligaciones de las personas f\u00edsicas o jur\u00eddicas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. En el caso de que se plantee la conservaci\u00f3n del contenido de los documentos en soporte distinto al original, deber\u00e1n observarse los requisitos establecidos en el art\u00edculo 2.3 de este Real Decreto, y lo que se dispone en las restantes normas del mismo en cuanto sean aplicables a este supuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "4. El acuerdo deber\u00e1 ir acompa\u00f1ado de la siguiente documentaci\u00f3n:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Informe del \u00f3rgano proponente que justifique la necesidad de la eliminaci\u00f3n y, en su caso, de la conservaci\u00f3n en soporte distinto, acreditando en el mismo la valoraci\u00f3n documental efectuada en los t\u00e9rminos del art\u00edculo 2.2. En este an\u00e1lisis se incluir\u00e1 la menci\u00f3n de las disposiciones que en su caso hayan regulado hasta el momento de la propuesta el expurgo o la custodia de dicha documentaci\u00f3n. Asimismo, deber\u00e1 concretarse en este an\u00e1lisis si incluye datos referentes a la intimidad de las personas, si contiene datos sanitarios personales, si afecta o afectar\u00e1 a la defensa nacional o la seguridad del Estado y otras caracter\u00edsticas que se consideren especialmente significativas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Memoria relativa a la documentaci\u00f3n de que se trate, y que comprender\u00e1 b\u00e1sicamente el estudio hist\u00f3rico institucional, cuadro de clasificaci\u00f3n en caso de series documentales, \u00f3rgano productor, signaturas extremas, tipo documental, resumen del contenido, fechas extremas, legislaci\u00f3n relativa al origen y desarrollo de la documentaci\u00f3n, tipo de muestreo que se propone, en su caso, y archivo u oficina p\u00fablica en que se encuentra depositada."
+      },{
+        "@class": "parrafo",
+        "#text": "5. El acuerdo de iniciaci\u00f3n del procedimiento, junto con los documentos antes citados, se remitir\u00e1 al Presidente de la Comisi\u00f3n Superior Calificadora de Documentos Administrativos, y contendr\u00e1 la propuesta de eliminaci\u00f3n o en su caso de conservaci\u00f3n en soporte distinto, de documentos o series documentales determinados, as\u00ed como la petici\u00f3n del dictamen al que se refiere el art\u00edculo 5. Si la citada Comisi\u00f3n considerase precisa m\u00e1s informaci\u00f3n, la requerir\u00e1 de la Comisi\u00f3n del Departamento u organismo que hubiese iniciado el procedimiento o, en su caso, de los Departamentos u organismos que estime afectados, que deber\u00e1n remitirla en plazo no superior a tres meses."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Cuando el contenido del documento o documentos a eliminar tenga relaci\u00f3n con las competencias atribuidas a otro Departamento u Organismo p\u00fablico, deber\u00e1 contarse con el informe preceptivo del mismo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. Dictamen de la Comisi\u00f3n Superior Calificadora de Documentos Administrativos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Sobre el Acuerdo establecido conforme a lo dispuesto en el art\u00edculo anterior, emitir\u00e1 dictamen preceptivo la Comisi\u00f3n Superior Calificadora de Documentos Administrativos regulada por el Real Decreto 139/2000, de 4 de febrero, en el plazo m\u00e1ximo de un a\u00f1o a contar desde que disponga de la documentaci\u00f3n completa de que se trate. En el caso de que el \u00f3rgano proponente solicite por razones de urgencia un plazo inferior al citado, la Comisi\u00f3n Superior Calificadora podr\u00e1 acordarlo as\u00ed, notific\u00e1ndolo al \u00f3rgano proponente."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Si el dictamen de la Comisi\u00f3n fuese contrario a la propuesta de eliminaci\u00f3n, tendr\u00e1 car\u00e1cter vinculante, sin perjuicio de lo que se establece en el apartado siguiente de este art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Dictaminada desfavorablemente una propuesta de eliminaci\u00f3n, no podr\u00e1 presentarse otra nueva relativa a la misma documentaci\u00f3n hasta que transcurran dos a\u00f1os desde la comunicaci\u00f3n de dicho dictamen al \u00f3rgano proponente. No obstante, si se modificasen los criterios archiv\u00edsticos aplicados en la primera valoraci\u00f3n, la Direcci\u00f3n General del Libro, Archivos y Bibliotecas podr\u00e1 dirigirse al \u00f3rgano responsable de la documentaci\u00f3n para que, si lo considera pertinente, presente una nueva propuesta, sin necesidad de que transcurra el plazo indicado."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. Resoluci\u00f3n administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Si el dictamen fuese favorable a la propuesta, el Subsecretario del Departamento ministerial o el Presidente o Director del Organismo p\u00fablico en el que se encuentren custodiados los documentos adoptar\u00e1 la resoluci\u00f3n que considere oportuna. Si la resoluci\u00f3n autorizase la eliminaci\u00f3n, se dar\u00e1 traslado de ella al \u00f3rgano que adopt\u00f3 la iniciativa y deber\u00e1 publicarse en el \u00abBolet\u00edn Oficial del Estado\u00bb. Igualmente se proceder\u00e1 cuando la resoluci\u00f3n disponga la conservaci\u00f3n de los documentos en soporte distinto del original en que fueron producidos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La resoluci\u00f3n motivada que autorice la eliminaci\u00f3n de documentos y, en su caso, disponga la conservaci\u00f3n en soporte distinto del original, deber\u00e1 incluir:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Una descripci\u00f3n sumaria de la documentaci\u00f3n afectada, con expresi\u00f3n de signaturas, \u00f3rgano u \u00f3rganos productores, resumen de contenido, fechas extremas, tipo de muestreo que se realizar\u00e1 en su caso y archivo u oficina p\u00fablica en que se encuentre depositada."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La indicaci\u00f3n de que, conforme a lo previsto en el art\u00edculo 57.2 de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, y en el presente Real Decreto, la eficacia de la autorizaci\u00f3n quedar\u00e1 demorada hasta transcurridos tres meses desde su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb y condicionada en todo caso a que durante ese plazo no haya constancia de la interposici\u00f3n de recurso de cualquier naturaleza contra la misma. Tambi\u00e9n se har\u00e1 constar que no podr\u00e1 procederse a la destrucci\u00f3n de documentos hasta que la resoluci\u00f3n, caso de ser impugnada, adquiera firmeza."
+      },{
+        "@class": "parrafo",
+        "#text": "c) El se\u00f1alamiento de los recursos que procedan."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La determinaci\u00f3n de las medidas precisas para la destrucci\u00f3n de los documentos y, en su caso, para la conservaci\u00f3n de su contenido en soporte distinto al original."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Eliminaci\u00f3n de documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El \u00f3rgano responsable de la custodia de la documentaci\u00f3n, una vez sea ejecutiva la autorizaci\u00f3n obtenida, abrir\u00e1 un expediente de eliminaci\u00f3n de los documentos o series documentales de que se trate, el cual comprender\u00e1:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) La memoria realizada sobre la documentaci\u00f3n y cualquier otra informaci\u00f3n o documentos presentados con la propuesta de eliminaci\u00f3n, as\u00ed como el texto de esta \u00faltima."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El dictamen de la Comisi\u00f3n Superior Calificadora de Documentos Administrativos y el de cualquier otra Comisi\u00f3n que se haya pronunciado previamente."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La memoria del muestreo de la documentaci\u00f3n a expurgar."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La resoluci\u00f3n que haya autorizado la eliminaci\u00f3n, as\u00ed como cualquier otro documento administrativo o judicial relacionado con la misma."
+      },{
+        "@class": "parrafo",
+        "#text": "e) El acta de eliminaci\u00f3n, en la que el \u00f3rgano responsable de los documentos acreditar\u00e1 que, habiendo transcurrido el plazo de tres meses establecido en el apartado 2, p\u00e1rrafo b), del art\u00edculo 6 de este Real Decreto, no tiene constancia de la interposici\u00f3n de recursos de ninguna naturaleza contra la resoluci\u00f3n adoptada, o que \u00e9sta ha adquirido firmeza, con los dem\u00e1s extremos relativos a la destrucci\u00f3n que se lleva a cabo, fecha de la misma e identificaci\u00f3n de los funcionarios y cualquier otro personal que intervenga en ella. En dicha acta se har\u00e1 constar lugar, fecha y duraci\u00f3n de las operaciones de eliminaci\u00f3n con o sin sustituci\u00f3n, procedimiento utilizado, personas intervinientes y funcionario fedatario de la operaci\u00f3n y del acta."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Si se hubiese dispuesto la conservaci\u00f3n del contenido de los documentos o series documentales en soporte distinto al original, antes de proceder a la eliminaci\u00f3n de dicho original deber\u00e1n obtenerse copias aut\u00e9nticas en soporte diferente, con los requisitos establecidos en el art\u00edculo 46 de la Ley 30/1992, de 26 de diciembre y, en su caso, en el art\u00edculo 45 de dicha Ley y en el Real Decreto 263/1996, de 16 de febrero, por el que se regula la utilizaci\u00f3n de t\u00e9cnicas electr\u00f3nicas, inform\u00e1ticas y telem\u00e1ticas en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "En este mismo supuesto deber\u00e1 finalmente levantarse un acta complementaria de la rese\u00f1ada en el p\u00e1rrafo e) del apartado 1 de este mismo art\u00edculo, comprensiva de las actuaciones que se sigan para hacer efectiva la conservaci\u00f3n del contenido de los documentos en soporte distinto al original. En el acta se har\u00e1 constar las caracter\u00edsticas t\u00e9cnicas del nuevo soporte de acuerdo con el citado Real Decreto 263/1996, de 16 de febrero."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Un duplicado del acta y, en su caso, del acta complementaria se remitir\u00e1 a la Comisi\u00f3n Superior Calificadora de Documentos Administrativos en el plazo de los diez d\u00edas siguientes a la fecha de las actuaciones correspondientes."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. Documentos del expediente de eliminaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "El procedimiento de eliminaci\u00f3n se documentar\u00e1 en expediente \u00fanico por el \u00f3rgano responsable de la custodia de la documentaci\u00f3n y en \u00e9l deben figurar los documentos siguientes, adem\u00e1s de los relacionados en el art\u00edculo 7 y sin perjuicio de incluir todos aquellos que se hayan generado en la tramitaci\u00f3n:"
+      },{
+        "@class": "parrafo",
+        "#text": "1. Iniciativa para poner en marcha el procedimiento."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Informe del \u00f3rgano proponente."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Memoria de la documentaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Acuerdo de iniciaci\u00f3n de la Comisi\u00f3n Calificadora Departamental de Documentos Administrativos."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Informe preceptivo de la Comisi\u00f3n Superior Calificadora de Documentos Administrativos."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Resoluci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "7. Notificaciones, en su caso."
+      },{
+        "@class": "parrafo",
+        "#text": "8. Publicaciones de la Resoluci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "9. Recursos, si se han interpuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "10. Resoluciones de los recursos presentados."
+      },{
+        "@class": "parrafo",
+        "#text": "11. Acta de eliminaci\u00f3n, con o sin sustituci\u00f3n, si procede."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Modificaci\u00f3n del Real Decreto 139/2000, de 4 de febrero."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El art\u00edculo 2.1 del Real Decreto 139/2000, de 4 de febrero, por el que se regula la composici\u00f3n, funcionamiento y competencias de la Comisi\u00f3n Superior Calificadora de Documentos Administrativos, queda redactado como sigue:"
+      },{
+        "@class": "sangrado",
+        "#text": "\u00ab1. La Comisi\u00f3n Superior Calificadora de Documentos Administrativos tendr\u00e1 la siguiente composici\u00f3n:"
+      },{
+        "@class": "sangrado",
+        "#text": "1.\u00ba Presidente: el Secretario de Estado de Cultura del Ministerio de Educaci\u00f3n, Cultura y Deporte, que podr\u00e1 delegar en el Vicepresidente."
+      },{
+        "@class": "sangrado",
+        "#text": "2.\u00ba Vicepresidente: el Director general del Libro, Archivos y Bibliotecas del Ministerio de Educaci\u00f3n, Cultura y Deporte."
+      },{
+        "@class": "sangrado",
+        "#text": "3.\u00ba Vocales natos:"
+      },{
+        "@class": "sangrado",
+        "#text": "a) El Subdirector general de Simplificaci\u00f3n Administrativa y Programas de Atenci\u00f3n al Ciudadano, en representaci\u00f3n de la Direcci\u00f3n General de Inspecci\u00f3n, Simplificaci\u00f3n y Calidad de los Servicios, del Ministerio de Administraciones P\u00fablicas."
+      },{
+        "@class": "sangrado",
+        "#text": "b) El Subdirector general de los Archivos Estatales, del Ministerio de Educaci\u00f3n, Cultura y Deporte."
+      },{
+        "@class": "sangrado",
+        "#text": "c) El Subdirector general de Protecci\u00f3n del Patrimonio Hist\u00f3rico, del Ministerio de Educaci\u00f3n, Cultura y Deporte."
+      },{
+        "@class": "sangrado",
+        "#text": "d) El Subdirector general de Tratamiento de la Informaci\u00f3n, del Ministerio de Educaci\u00f3n, Cultura y Deporte."
+      },{
+        "@class": "sangrado",
+        "#text": "e) El Director del Archivo General de la Administraci\u00f3n."
+      },{
+        "@class": "sangrado",
+        "#text": "4.\u00ba Vocales designados:"
+      },{
+        "@class": "sangrado",
+        "#text": "a) Un Abogado del Estado designado por la Abogac\u00eda General del Estado-Direcci\u00f3n del Servicio Jur\u00eddico del Estado, del Ministerio de Justicia."
+      },{
+        "@class": "sangrado",
+        "#text": "b) Un vocal designado por el Ministro de Defensa, en representaci\u00f3n del Sistema Archiv\u00edstico de la Defensa."
+      },{
+        "@class": "sangrado",
+        "#text": "c) Un vocal designado por el Ministro de Hacienda."
+      },{
+        "@class": "sangrado",
+        "#text": "d) Un vocal designado por el Ministro de Ciencia y Tecnolog\u00eda."
+      },{
+        "@class": "sangrado",
+        "#text": "e) Tres vocales designados por el Ministro del Interior, representantes de las Direcciones Generales de la Polic\u00eda, de la Guardia Civil y de Instituciones Penitenciarias, respectivamente."
+      },{
+        "@class": "sangrado",
+        "#text": "f) Hasta cinco vocales designados por el Ministro de Educaci\u00f3n, Cultura y Deporte entre personas de reconocido prestigio profesional en materias relacionadas con las competencias asignadas a esta Comisi\u00f3n Superior Calificadora de Documentos Administrativos."
+      },{
+        "@class": "sangrado",
+        "#text": "5.\u00ba Otros vocales:"
+      },{
+        "@class": "sangrado",
+        "#text": "Un representante de cada Comisi\u00f3n Calificadora del Departamento u Organismo p\u00fablico sobre cuya documentaci\u00f3n se dictamine en la reuni\u00f3n correspondiente.\u00bb"
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. El art\u00edculo 5 del Real Decreto 139/2000, de 4 de febrero, por el que se regula la composici\u00f3n, funcionamiento y competencias de la Comisi\u00f3n Superior Calificadora de Documentos Administrativos, queda redactado como sigue:"
+      },{
+        "@class": "sangrado",
+        "#text": "\u00ab1. La Comisi\u00f3n Superior Calificadora de Documentos Administrativos tiene como funciones el estudio y dictamen sobre las siguientes cuestiones relativas al r\u00e9gimen de conservaci\u00f3n, acceso, inutilidad administrativa y eliminaci\u00f3n en su caso de los documentos de la Administraci\u00f3n General del Estado y de los Organismos p\u00fablicos vinculados o dependientes de ella:"
+      },{
+        "@class": "sangrado",
+        "#text": "a) Los plazos de permanencia de los documentos administrativos en cada uno de los diferentes tipos de archivos de oficina o gesti\u00f3n, central, intermedio e hist\u00f3rico."
+      },{
+        "@class": "sangrado",
+        "#text": "b) Las transferencias, una vez cumplidos los plazos de permanencia, entre cada uno de los tipos de archivos."
+      },{
+        "@class": "sangrado",
+        "#text": "c) La accesibilidad y utilizaci\u00f3n de los documentos y series documentales."
+      },{
+        "@class": "sangrado",
+        "#text": "d) Las propuestas de eliminaci\u00f3n de documentos o series documentales y, en su caso, de conservaci\u00f3n de su contenido en soporte distinto al original en que fueron producidos, de acuerdo con los requisitos establecidos reglamentariamente."
+      },{
+        "@class": "sangrado",
+        "#text": "e) La correcta aplicaci\u00f3n de los dict\u00e1menes emitidos por la propia Comisi\u00f3n en relaci\u00f3n con los plazos de permanencia de los documentos en cada uno de los diferentes tipos de archivos, las transferencias, el acceso, la inutilidad administrativa y la eliminaci\u00f3n o, en su caso, conservaci\u00f3n en soporte distinto al original en que fueron producidos, de los documentos."
+      },{
+        "@class": "sangrado",
+        "#text": "f) Cualquier otro asunto sobre materia archiv\u00edstica relacionada con las competencias anteriores, que le sea sometido por su Presidente."
+      },{
+        "@class": "sangrado",
+        "#text": "2. Las Comisiones Calificadoras creadas conforme a lo previsto en el art\u00edculo 58 de la Ley 16/1985, de 25 de junio, del Patrimonio Hist\u00f3rico Espa\u00f1ol, elevar\u00e1n sus propuestas a la Comisi\u00f3n Superior Calificadora de Documentos Administrativos, a la que tambi\u00e9n informar\u00e1n de las denegaciones de acceso a documentos y series documentales que se hayan producido en sus respectivos \u00e1mbitos.\u00bb"
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Las referencias que en el Real Decreto 139/2000, de 4 de febrero, se hacen al Ministerio y al Ministro de Educaci\u00f3n y Cultura se entender\u00e1n hechas al Ministerio y al Ministro de Educaci\u00f3n, Cultura y Deporte."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Adaptaci\u00f3n y modificaci\u00f3n del Reglamento de Archivos Militares."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las referencias al Ministro y Ministerio de Educaci\u00f3n y Cultura que, en orden a la eliminaci\u00f3n de documentos, se contienen en el Reglamento de Archivos Militares aprobado por Real Decreto 2598/1998, de 4 de diciembre, se entender\u00e1n hechas al Subsecretario del Ministerio de Defensa."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Se autoriza al Ministro de Defensa para adaptar las disposiciones del cap\u00edtulo VI, art\u00edculos 42 y 43, del Reglamento de Archivos Militares aprobado por Real Decreto 2598/1998, de 4 de diciembre, a lo establecido en el presente Real Decreto en el plazo de tres meses desde su entrada en vigor."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. Conservaci\u00f3n o eliminaci\u00f3n de documentos desclasificados conforme a la Ley de Secretos Oficiales."
+      },{
+        "@class": "parrafo",
+        "#text": "Una vez desclasificados los documentos administrativos que hayan sido objeto de calificaci\u00f3n conforme a la Ley 9/1968, de 5 de abril, modificada por la Ley 48/1978, de 7 de octubre de Secretos Oficiales, este Real Decreto ser\u00e1 de aplicaci\u00f3n a tales documentos en lo que se refiere a su posible eliminaci\u00f3n o a su conservaci\u00f3n en soporte distinto al original."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Cursos de formaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "El Instituto Nacional de Administraci\u00f3n P\u00fablica, en el \u00e1mbito de sus funciones de formaci\u00f3n y perfeccionamiento de funcionarios de los Cuerpos y Escalas de la Administraci\u00f3n General del Estado y de los Organismos p\u00fablicos vinculados o dependientes de la Administraci\u00f3n General del Estado, incluir\u00e1 en sus programas anuales la realizaci\u00f3n de cursos de formaci\u00f3n sobre archiv\u00edstica, eliminaci\u00f3n y conservaci\u00f3n en soporte diferente del original de documentos administrativos."
+      },{
+        "@class": "parrafo",
+        "#text": "Sin perjuicio de los cursos desarrollados por el Instituto Nacional de Administraci\u00f3n P\u00fablica, los Departamentos ministeriales y los Organismos p\u00fablicos podr\u00e1n realizar las acciones formativas que consideren oportunas, con el fin de mejorar el desempe\u00f1o del personal que en las respectivas organizaciones est\u00e1 destinado en tareas de esta \u00edndole."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional quinta. Documentaci\u00f3n con informaci\u00f3n con fines exclusivamente estad\u00edsticos."
+      },{
+        "@class": "parrafo",
+        "#text": "La conservaci\u00f3n de los documentos originales que sirven soporte de informaci\u00f3n recogida con fines exclusivamente estad\u00edsticos se rige por la Ley 12/1989, de 9 de mayo, de la Funci\u00f3n Estad\u00edstica P\u00fablica y normas de desarrollo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional sexta. Protecci\u00f3n de datos de car\u00e1cter personal."
+      },{
+        "@class": "parrafo",
+        "#text": "La regulaci\u00f3n contenida en este Real Decreto se debe entender sin perjuicio de lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. Constituci\u00f3n de Comisiones Calificadoras."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En todos los Departamentos ministeriales y en el plazo de tres meses desde la entrada en vigor del presente Real Decreto se crear\u00e1n, en su caso, mediante Orden, las Comisiones Calificadoras de Documentos Administrativos previstas en el art\u00edculo 58 de la Ley 16/1985, de 25 de junio, con la aprobaci\u00f3n previa del Ministro de Administraciones P\u00fablicas en los t\u00e9rminos previstos en el art\u00edculo 67.4 de la Ley 6/1997, de 14 de abril, de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Respecto de los Organismos p\u00fablicos se podr\u00e1 proceder a la creaci\u00f3n, mediante Orden ministerial, de una Comisi\u00f3n distinta de la del Departamento al que est\u00e9n vinculados cuando la gesti\u00f3n documental que tenga lugar en los mismos lo aconseje. En otro caso, si se hubiese constituido la Comisi\u00f3n en el Ministerio correspondiente, los Organismos p\u00fablicos estar\u00e1n representados en la misma."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La constituci\u00f3n y el funcionamiento de la Comisi\u00f3n ser\u00e1n atendidos con los actuales medios personales y materiales del Departamento u Organismo sin que la aprobaci\u00f3n de esta norma suponga incremento de gasto p\u00fablico."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. Desarrollo y ejecuci\u00f3n del Real Decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "Se autoriza a los Ministros de Educaci\u00f3n, Cultura y Deporte, de Defensa, de Hacienda y de Administraciones P\u00fablicas para el desarrollo y ejecuci\u00f3n del presente Real Decreto, en el \u00e1mbito de sus respectivas competencias, y de igual modo a los titulares de los distintos Departamentos ministeriales en lo que concierne a los mismos y a los Organismos p\u00fablicos vinculados o dependientes de cada uno de ellos."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente Real Decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "Dado en Madrid a 8 de noviembre de 2002."
+      },{
+        "@class": "firma_rey",
+        "#text": "JUAN CARLOS R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "El Vicepresidente Primero del Gobierno y Ministro de la Presidencia,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "MARIANO RAJOY BREY"
+      }
+    ]
+  }
+}
+}

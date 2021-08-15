@@ -1,0 +1,540 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20210726115601",
+  "metadatos": {
+    "identificador": "BOE-A-2017-8393",
+    "titulo": "Resoluci\u00f3n de 14 de julio de 2017, de la Secretar\u00eda General de Administraci\u00f3n Digital, por la que se establecen las condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica, en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "170",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9279",
+      "#text": "Ministerio de Hacienda y Funci\u00f3n P\u00fablica"
+    },
+    "rango": {
+      "@codigo": "1370",
+      "#text": "Resoluci\u00f3n"
+    },
+    "numero_oficial": null,
+    "fecha_disposicion": "20170714",
+    "fecha_publicacion": "20170718",
+    "fecha_vigencia": "20170719",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "62519",
+    "pagina_final": "62524",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": ""
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": "/diario_boe/epub.php?id=BOE-A-2017-8393",
+    "url_pdf": "/boe/dias/2017/07/18/pdfs/BOE-A-2017-8393.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/res/2017/07/14/(2)"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2017-8393"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2017-07-14"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "(2)"
+        },
+        "eli:has_member": {
+          "eli:LegalResource": {
+            "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof",
+            "eli:jurisdiction": {
+              "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+            },
+            "eli:type_document": {
+              "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+            },
+            "eli:id_local": {
+              "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+              "#text": "BOE-A-2017-8393"
+            },
+            "eli:date_document": {
+              "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+              "#text": "2017-07-14"
+            },
+            "eli:number": {
+              "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+              "#text": "(2)"
+            },
+            "eli:version": {
+              "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+            },
+            "eli:is_member_of": {
+              "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)"
+            },
+            "eli:is_realized_by": {
+              "eli:LegalExpression": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa",
+                "eli:language": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                },
+                "eli:title": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "Resoluci\u00f3n de 14 de julio de 2017, de la Secretar\u00eda General de Administraci\u00f3n Digital, por la que se establecen las condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica, en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos."
+                },
+                "eli:publisher": {
+                  "@rdf:resource": "www.boe.es"
+                },
+                "eli:date_publication": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2017-07-18"
+                },
+                "eli:realizes": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof"
+                },
+                "eli:is_embodied_by": [
+                  {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/epub",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                      }
+                    }
+                  },{
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                      }
+                    }
+                  },{
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/pdf",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                      }
+                    }
+                  },{
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/xml",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "analisis": {
+    "notas": null,
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "3085",
+          "@orden": "",
+          "#text": "Documentos"
+        },{
+          "@codigo": "3716",
+          "@orden": "",
+          "#text": "Firma electr\u00f3nica"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "7869",
+          "@orden": "",
+          "#text": "Registros telem\u00e1ticos"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "143",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2015-10565",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "el art. 10.2.c) de la Ley 39/2015, de 1 de octubre"
+          },{
+            "@referencia": "DOUE-L-2014-81822",
+            "@orden": "5020",
+            "palabra": {
+              "@codigo": "330",
+              "#text": "CITA"
+            },
+            "texto": "Reglamento (UE) 910/2014, de 23 de julio"
+          }
+        ]
+      },
+      "posteriores": null
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El art\u00edculo 10 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas, enumera los sistemas v\u00e1lidos a efectos de firma, que los interesados podr\u00e1n utilizar para relacionarse con las Administraciones P\u00fablicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El citado precepto se refiere expresamente a los sistemas de firma electr\u00f3nica reconocida o cualificada y avanzada basados en certificados electr\u00f3nicos reconocidos o cualificados de firma electr\u00f3nica, a los sistemas de sello electr\u00f3nico reconocido o cualificado y de sello electr\u00f3nico avanzado basados en certificados electr\u00f3nicos reconocidos o cualificados de sello electr\u00f3nico y a cualquier otro sistema que las Administraciones P\u00fablicas consideren v\u00e1lido, en los t\u00e9rminos y condiciones que se establezcan, recogiendo asimismo la posibilidad de admitir los sistemas de identificaci\u00f3n contemplados en la Ley como sistemas de firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En cualquier caso, todos los sistemas de firma electr\u00f3nica admitidos deber\u00e1n garantizar el cumplimiento de los requisitos recogidos en el apartado primero del art\u00edculo 10 de la citada Ley. Esto es, que estos sistemas permitan acreditar la autenticidad de la expresi\u00f3n de la voluntad y consentimiento de los interesados, as\u00ed como la integridad e inalterabilidad del documento."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "A estos sistemas de firma electr\u00f3nica han de reconoc\u00e9rsele efectos jur\u00eddicos y son conformes a lo establecido en el art\u00edculo 25.1 del Reglamento (UE) N o 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE del Parlamento Europeo y del Consejo, de 13 de diciembre de 1999, por la que se establece un marco comunitario para la firma electr\u00f3nica, sin menoscabo de lo recogido en el art\u00edculo 27 de la propia norma \u00abFirmas electr\u00f3nicas en servicios p\u00fablicos\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El art\u00edculo 11 de la Ley 39/2015, de 1 de octubre regula el uso de los medios de identificaci\u00f3n y firma en el procedimiento administrativo estableciendo que, con car\u00e1cter general, para realizar cualquier actuaci\u00f3n prevista en el procedimiento administrativo s\u00f3lo ser\u00e1 necesario identificarse, y limitando la obligatoriedad de la firma para los supuestos previstos en el apartado segundo del art\u00edculo: Formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos. Esta importante novedad en la regulaci\u00f3n aconseja establecer las cautelas m\u00ednimas que permitan normalizar el uso de estos sistemas evitando la heterogeneidad de su implementaci\u00f3n t\u00e9cnica entre las Administraciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "As\u00ed, y en aplicaci\u00f3n de lo dispuesto en el art\u00edculo 10.3 de la Ley 39/2015, de 1 de octubre, que faculta a las Administraciones P\u00fablicas a admitir los sistemas de identificaci\u00f3n contemplados en esta Ley como sistema de firma cuando permitan acreditar la autenticidad de la expresi\u00f3n de la voluntad y consentimiento de los interesados, siempre que as\u00ed lo disponga la normativa reguladora, se procede con esta resoluci\u00f3n a indicar los requisitos que se tienen que cumplir, no s\u00f3lo con este objetivo, sino para asegurar tambi\u00e9n la integridad e inalterabilidad de los datos firmados, as\u00ed como los requisitos para comprobar que se realiz\u00f3 dicho acto. Por lo tanto, se sientan las bases de uso de sistemas de identificaci\u00f3n basados en la plataforma Cl@ve, para la realizaci\u00f3n de la firma, as\u00ed como se establece una recomendaci\u00f3n para recoger las evidencias de actos de relevancia jur\u00eddica, como las notificaciones, que si bien no necesitan firma, s\u00ed pueden necesitar unos requisitos de seguridad reforzados, manteniendo siempre el esp\u00edritu de la ley por el que no se haga en ning\u00fan caso m\u00e1s complejo para el ciudadano la recepci\u00f3n de la notificaci\u00f3n o la realizaci\u00f3n de un tr\u00e1mite."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Es importante subrayar adem\u00e1s, la complementariedad de esta resoluci\u00f3n con el proyecto Cl@ve firma, que provee sencillos mecanismos para facilitar la firma electr\u00f3nica criptogr\u00e1fica, de manera que se evitan los principales problemas, como la necesidad de disponer de hardware y/o software espec\u00edfico para realizar la firma en el ordenador del interesado, ya que toda esa complejidad queda resuelta por el sistema Cl@ve firma. Si bien este sistema es \u00f3ptimo desde el punto de vista de uso de firma criptogr\u00e1fica, requiere que el ciudadano tenga activa la identificaci\u00f3n por Cl@ve Permanente que le permite acceder a su certificado electr\u00f3nico centralizado, en el caso de no tener activa esta identificaci\u00f3n y siempre que el servicio lo permita esta nueva forma de firma no basada en certificado electr\u00f3nico es una facilidad m\u00e1s para el ciudadano."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Por ello se ha tenido a bien el complementar este sistema de firma criptogr\u00e1fica sencilla para el ciudadano, con un sistema de medidas de seguridad, trazabilidad e integridad suficientes para los procedimientos que hagan uso de \u00e9l, pero sin necesidad de recordar o tener activa una contrase\u00f1a ni un certificado electr\u00f3nico centralizado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Tambi\u00e9n resulta apropiado el uso de este sistema cuando, aun habi\u00e9ndose utilizado un certificado electr\u00f3nico en el proceso de identificaci\u00f3n, no se quiera realizar una firma electr\u00f3nica local con dicho certificado, para evitar los problemas de restricciones de compatibilidad de navegadores, m\u00e1quinas virtuales Java y versiones de sistemas operativos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Por tanto, el objeto de esta Resoluci\u00f3n es establecer los criterios de uso y las condiciones t\u00e9cnicas de implementaci\u00f3n de los sistemas de firma electr\u00f3nica no criptogr\u00e1fica, previstos en el art\u00edculo 10.2.c) de la Ley 39/2015, de 1 de octubre, que se considerar\u00e1n v\u00e1lidos a efectos de firma en la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos, as\u00ed como en aquellas otras Administraciones P\u00fablicas que adopten estos criterios y condiciones t\u00e9cnicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En virtud de lo anterior, y de acuerdo con el Real Decreto 424/2016, de 11 de noviembre, por el que se establece la estructura org\u00e1nica b\u00e1sica de los Departamentos ministeriales,"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Esta Secretar\u00eda General de Administraci\u00f3n Digital, en el ejercicio de las competencias atribuidas para la definici\u00f3n de est\u00e1ndares, de directrices t\u00e9cnicas y de gobierno TIC, de normas de seguridad y calidad tecnol\u00f3gicas y de la informaci\u00f3n a los que deber\u00e1n ajustarse todas las Unidades de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos, dispone:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Primero."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "1. Aprobar los t\u00e9rminos y condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos, de acuerdo con el art\u00edculo 10.2 de la Ley 39/2015, de 1 de octubre, que se incluyen como anexo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. Ordenar su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Segundo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "La presente Resoluci\u00f3n entra en vigor a partir del d\u00eda siguiente a su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Madrid, 14 de julio de 2017.\u2013El Secretario General de Administraci\u00f3n Digital, Domingo Javier Molina Moscoso."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_num",
+        "#text": "ANEXO"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_tit",
+        "#text": "T\u00e9rminos y condiciones de uso de la firma electr\u00f3nica no criptogr\u00e1fica en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "I. Objeto"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Los presentes t\u00e9rminos y condiciones tienen como objeto determinar las circunstancias en las que un sistema de firma electr\u00f3nica no basado en certificados electr\u00f3nicos ser\u00e1 considerado como v\u00e1lido en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos, de acuerdo con el art\u00edculo 10.2.c) de la Ley 39/2015, de 1 de octubre. Sin perjuicio, de otros sistemas de firma implantados, de acuerdo con el art\u00edculo 10.2.c) y 10.3 y que ofrezcan las garant\u00edas de seguridad suficientes para gestionar la integridad y el no repudio, seg\u00fan el principio de proporcionalidad recogido en el art\u00edculo 13.3, Gesti\u00f3n de Riesgos del Seguridad del Esquema Nacional de Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Los presentes t\u00e9rminos y condiciones ser\u00e1n de aplicaci\u00f3n a los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y organismos p\u00fablicos y entidades de Derecho P\u00fablico vinculados o dependientes, que habiliten nuevos sistemas de firma electr\u00f3nica no criptogr\u00e1fica destinados a ser usados por los interesados en sus relaciones con los mismos, y sin perjuicio de la posibilidad de utilizaci\u00f3n en tales tr\u00e1mites de los sistemas de firma contemplados en el art\u00edculo 10.2.a) de la Ley 39/2015, de 1 de octubre."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "III. Criterios para la utilizaci\u00f3n de sistemas de firma electr\u00f3nica no criptogr\u00e1fica"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "El esquema nacional de seguridad (en adelante ENS), regulado por el Real Decreto 3/2010, de 8 de enero, y modificado por Real Decreto 951/2015, de 23 de octubre, de modificaci\u00f3n del Real Decreto 3/2010, de 8 de enero, por el que se regula el esquema nacional de seguridad en el \u00e1mbito de la Administraci\u00f3n electr\u00f3nica constituye el marco legal que permite definir y establecer las medidas para garantizar la seguridad de los sistemas, los datos, las comunicaciones y los servicios electr\u00f3nicos, que permita a los interesados y a las Administraciones P\u00fablicas, el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s de estos medios."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En la implantaci\u00f3n de un sistema de firma electr\u00f3nica no criptogr\u00e1fica se deber\u00e1 cumplir con el ENS para garantizar la seguridad de los datos y los servicios, como un instrumento capaz de permitir la comprobaci\u00f3n de la autenticidad de la procedencia y la integridad de la informaci\u00f3n ofreciendo las bases para evitar el repudio."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El ENS establece la necesidad de categorizar los sistemas de informaci\u00f3n, siendo la categor\u00eda de un sistema de informaci\u00f3n, en materia de seguridad, la que permite modular el equilibrio entre la importancia de la informaci\u00f3n que maneja, los servicios que presta y el esfuerzo de seguridad requerido, en funci\u00f3n de los riesgos a los que est\u00e1 expuesto, bajo el principio de proporcionalidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En aplicaci\u00f3n de esta norma, se podr\u00e1n utilizar sistemas de firma electr\u00f3nica no criptogr\u00e1fica cuando el sistema de informaci\u00f3n asociado al procedimiento haya sido categorizado, seg\u00fan el esquema nacional de seguridad, de categor\u00eda b\u00e1sica y aquellos de categor\u00eda media en los que no sea necesario utilizar la firma avanzada, cuando as\u00ed lo disponga la normativa reguladora aplicable."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "IV. Garant\u00eda de funcionamiento"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Cuando la actuaci\u00f3n realizada por el interesado, en su relaci\u00f3n con la Administraci\u00f3n, implique la presentaci\u00f3n en una sede electr\u00f3nica de documentos electr\u00f3nicos utilizando los sistemas de firma electr\u00f3nica contemplados en la presente Resoluci\u00f3n, se garantizar\u00e1 la integridad de la informaci\u00f3n presentada mediante el sellado realizado con el sello electr\u00f3nico cualificado o reconocido del organismo competente para la gesti\u00f3n del procedimiento, a la que se a\u00f1adir\u00e1 un sello de tiempo realizado con un certificado cualificado y emitido por un prestador de sellado de tiempo supervisado, y su incorporaci\u00f3n inmediata al sistema de informaci\u00f3n asociado a dicho procedimiento. El organismo deber\u00e1 disponer de las medidas t\u00e9cnicas, organizativas y procedimentales necesarias para garantizar dicha integridad a lo largo del tiempo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Asimismo, se garantizar\u00e1 tambi\u00e9n la integridad, mediante el sellado realizado con el sello electr\u00f3nico cualificado o reconocido del organismo y la adici\u00f3n de un sello de tiempo realizado con un certificado cualificado y emitido por un prestador de sellado de tiempo supervisado, de las evidencias necesarias para la verificaci\u00f3n de la identidad, recopiladas inmediatamente antes del acto de la firma, as\u00ed como, posteriormente, del consentimiento expl\u00edcito del interesado con el contenido firmado, almacenando dichas evidencias en el sistema de informaci\u00f3n junto con la informaci\u00f3n presentada. La integridad y conservaci\u00f3n de los documentos electr\u00f3nicos almacenados y de sus metadatos asociados obligatorios quedar\u00e1 garantizada a trav\u00e9s del sellado con el sello electr\u00f3nico cualificado o reconocido del organismo y del resto de medidas t\u00e9cnicas que aseguren su inalterabilidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El organismo responsable del procedimiento emitir\u00e1 un justificante de firma sellado con su sello electr\u00f3nico de \u00f3rgano y generando el c\u00f3digo seguro de verificaci\u00f3n o CSV, que ser\u00e1 el documento con valor probatorio de la actuaci\u00f3n realizada. La integridad de los documentos electr\u00f3nicos autenticados mediante CSV podr\u00e1 comprobarse mediante el acceso directo y gratuito a la sede electr\u00f3nica del organismo y en el punto de acceso general de la Administraci\u00f3n General del Estado, en tanto no se acuerde la destrucci\u00f3n de dichos documentos con arreglo a la normativa que resulte de aplicaci\u00f3n o por decisi\u00f3n judicial."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "V. Acreditaci\u00f3n de la autenticidad de la expresi\u00f3n de la voluntad y consentimiento del interesado"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Para acreditar la autenticidad de la expresi\u00f3n de la voluntad y consentimiento del interesado se requerir\u00e1:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "1. La autenticaci\u00f3n del interesado, inmediatamente previa a la firma utilizando la plataforma Cl@ve, de identificaci\u00f3n electr\u00f3nica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. La verificaci\u00f3n previa por parte del interesado de los datos a firmar."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Estos datos se obtendr\u00e1n a partir de aquella informaci\u00f3n presentada por el ciudadano y de cuya veracidad se hace responsable, as\u00ed como de los documentos electr\u00f3nicos que, eventualmente, presente en el procedimiento."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. La acci\u00f3n expl\u00edcita por parte del interesado de manifestaci\u00f3n de consentimiento y expresi\u00f3n de su voluntad de firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "V.1. Autenticaci\u00f3n del interesado. La identificaci\u00f3n y autenticaci\u00f3n del interesado deber\u00e1 hacerse, en todo caso, a trav\u00e9s de la plataforma Cl@ve, sistema de identificaci\u00f3n, autenticaci\u00f3n y firma electr\u00f3nica basado en claves concertadas, com\u00fan para todo el sector p\u00fablico administrativo estatal, aprobado por Acuerdo de Consejo de Ministros de 19 de septiembre de 2014."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Dicha autenticaci\u00f3n del interesado con el sistema Cl@ve, inmediatamente previa al acto de firma, deber\u00e1 de hacerse con un nivel de calidad en la autenticaci\u00f3n sustancial o alto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "V.2. Verificaci\u00f3n previa de los datos a firmar. El interesado debe ser consciente de los datos que va a firmar y deber\u00e1 ofrec\u00e9rsele de un modo visible la posibilidad de consultarlo en un formato legible y, preferiblemente, con el mismo formato del documento que posteriormente se entregue al interesado como justificante de la firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "V.3. Expresi\u00f3n del consentimiento y de la voluntad de firma de los interesados. Las aplicaciones que hagan uso de un sistema de firma, ajustado a los criterios de uso y condiciones t\u00e9cnicas de esta Resoluci\u00f3n, deber\u00e1n requerir de forma expresa la expresi\u00f3n del consentimiento y la voluntad de firma del interesado en el procedimiento, mediante la inclusi\u00f3n de frases que pongan aqu\u00e9llos de manifiesto de manera inequ\u00edvoca, y la exigencia de acciones expl\u00edcitas de aceptaci\u00f3n por parte del interesado (por ejemplo, mediante una casilla junto al texto \u00abDeclaro que son ciertos los datos a firmar/muestro mi conformidad con el contenido del documento y confirmo mi voluntad de firmar\u00bb que el interesado debe marcar, y un bot\u00f3n \u00abFirmar y enviar\u00bb que debe pulsar para realizar la firma)."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "VI. Garant\u00eda de no repudio"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VI.1. Garant\u00edas en el proceso de firma. Para garantizar el no repudio de la firma por parte del ciudadano, el sistema de firma deber\u00e1 acreditar la vinculaci\u00f3n de la expresi\u00f3n de la voluntad y los datos firmados con la misma persona. Para ello se volver\u00e1 a solicitar la autenticaci\u00f3n del ciudadano en el momento de proceder a la firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Asimismo, la garant\u00eda de no repudio exige que el sistema de firma asegure una adecuada trazabilidad en el caso de que sea necesario auditar una operaci\u00f3n de firma en particular, para lo cual obtendr\u00e1, por cada firma y por tanto por cada proceso de autenticaci\u00f3n, la siguiente informaci\u00f3n:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 Fecha y hora de la autenticaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Nombre y apellidos del interesado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 NIF/NIE del interesado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Proveedor de identidad empleado (certificado electr\u00f3nico, Cl@vePIN o Cl@vePermanente) y nivel de seguridad de identificaci\u00f3n (sustancial o alto)."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Resultado de la autenticaci\u00f3n (con \u00e9xito o fallida)."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Respuesta devuelta y firmada por la plataforma Cl@ve. Esta respuesta deber\u00e1 incluir el campo opcional que contiene la respuesta devuelta y firmada por el Proveedor de Identificaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Fecha y hora de la firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Resumen criptogr\u00e1fico de los datos firmados, con un algoritmo de hash que cumpla las especificaciones del esquema nacional de seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Referencia al justificante de firma, mediante el CSV asociado a dicho justificante."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Direcci\u00f3n IP origen desde la que se realiz\u00f3 la firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Esta informaci\u00f3n ser\u00e1 sellada con un certificado electr\u00f3nico cualificado o reconocido de sello del organismo, a la que se a\u00f1adir\u00e1 un sello de tiempo realizado con un certificado cualificado y emitido por un prestador de sellado de tiempo supervisado, y ser\u00e1 almacenada por el sistema de informaci\u00f3n asociado al procedimiento electr\u00f3nico para el que se requiere la firma, como evidencia de la verificaci\u00f3n de la identidad previa al acto de la firma, vinculada a los datos firmados."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En el caso de que los datos de identificaci\u00f3n obtenidos en la autenticaci\u00f3n inmediatamente anterior a la firma no coincidan con los datos de identificaci\u00f3n obtenidos en autenticaciones previas, el sistema de firma no permitir\u00e1 la realizaci\u00f3n de la misma, informando de esa eventualidad al sistema de informaci\u00f3n asociado al procedimiento electr\u00f3nico que requiere dicha firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.2. Gesti\u00f3n de las evidencias de autenticaci\u00f3n. A pesar de que el sistema de firma proporcionar\u00e1 a los sistemas de informaci\u00f3n asociados al procedimiento electr\u00f3nico que requiere la firma la informaci\u00f3n relativa a la autenticaci\u00f3n vinculada a dicha firma, en ocasiones puede ser necesario, por motivos de auditor\u00eda, recuperar las evidencias completas del proceso de autenticaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Al utilizar el sistema Cl@ve como mecanismo de identificaci\u00f3n y autenticaci\u00f3n, las evidencias \u00faltimas no residen en el propio sistema de firma, sino en los sistemas de los proveedores de servicios de identificaci\u00f3n integrados en Cl@ve."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Con objeto de que los proveedores de esos servicios de identificaci\u00f3n puedan recuperar las evidencias necesarias para acreditar la realizaci\u00f3n de la identificaci\u00f3n y autenticaci\u00f3n previas ligadas a la realizaci\u00f3n de una firma en el sistema, se deber\u00e1 facilitar a dichos proveedores la informaci\u00f3n de autenticaci\u00f3n almacenada como evidencia de la verificaci\u00f3n previa de la identidad en los sistemas de informaci\u00f3n asociados al procedimiento administrativo que requiere la firma, descrita en el apartado VI.1."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "A tal efecto, los proveedores de servicios de identificaci\u00f3n deber\u00e1n salvaguardar dichas evidencias durante el plazo m\u00ednimo de cinco a\u00f1os. La solicitud de certificaci\u00f3n de dichas evidencias se realizar\u00e1 conforme al procedimiento y las condiciones que se publicar\u00e1n en el portal de Administraci\u00f3n electr\u00f3nica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_cursiva",
+        "#text": "VII. Garant\u00eda de la integridad de los datos y documentos firmados"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VII.1. Sellado de la informaci\u00f3n presentada. Una vez acreditada la expresi\u00f3n de la voluntad y el consentimiento y para firmar del interesado, se deber\u00e1n establecer los mecanismos para garantizar la integridad e inalterabilidad de los datos y, en su caso, de los documentos electr\u00f3nicos presentados por el interesado, para lo cual el sistema de firma sellar\u00e1 los datos a firmar, con un sello de \u00f3rgano y la adici\u00f3n de un sello de tiempo realizado con un certificado cualificado y emitido por un prestador de sellado de tiempo supervisado, y la pondr\u00e1 a disposici\u00f3n del sistema de informaci\u00f3n asociado al procedimiento electr\u00f3nico que requiere la firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VII.2. Justificante de firma. En el proceso de firma se entregar\u00e1 al interesado un justificante de firma, que ser\u00e1 un documento legible, de acuerdo con la norma t\u00e9cnica de interoperabilidad de cat\u00e1logo de est\u00e1ndares y preferiblemente en formato PDF y que deber\u00e1 cumplir estos requisitos:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 Garantizar la autenticidad del organismo emisor mediante un sellado electr\u00f3nico con el certificado de sello del mismo, en formato PAdES en el caso de que el justificante tenga el formato PDF."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Contener los datos del firmante y, en el caso de que el documento firmado haya pasado por un Registro de entrada, los datos identificativos de su inscripci\u00f3n en el Registro."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Contener los datos a firmar expresamente por el interesado. Si se ha anexado alg\u00fan documento electr\u00f3nico se incluir\u00e1 una referencia al mismo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Garantizar el instante en que se realiz\u00f3 la firma, mediante sello de tiempo del justificante, realizado con un certificado cualificado y emitido por un prestador de sellado de tiempo supervisado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Garantizar la autenticidad del justificante de firma, incluyendo en el justificante de firma un c\u00f3digo seguro de verificaci\u00f3n (CSV), y garantizando que este justificante se pueda consultar en l\u00ednea mediante un sistema de cotejo de CSV cuya direcci\u00f3n se incluya en el propio justificante de firma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Alternativamente, la autenticidad del organismo emisor y del justificante de firma se podr\u00e1 garantizar mediante dos documentos: uno de ellos con sellado electr\u00f3nico del justificante en formato PAdES (en el caso de que el justificante tenga formato PDF) y otro con la utilizaci\u00f3n de un c\u00f3digo seguro de verificaci\u00f3n (CSV) del justificante."
+      }
+    ]
+  }
+}
+}

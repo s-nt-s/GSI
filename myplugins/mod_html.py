@@ -6,7 +6,7 @@ from urllib.parse import urljoin, urlparse
 import bs4
 from joblib import Parallel, delayed
 from pelican import signals
-from .util import relurl
+from .core.util import relurl
 
 
 class ModHtml:

@@ -1,0 +1,581 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190612132601",
+  "metadatos": {
+    "identificador": "BOE-A-2018-4573",
+    "titulo": "Resoluci\u00f3n de 27 de marzo de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Auditor\u00eda de la Seguridad de los Sistemas de Informaci\u00f3n.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "81",
+    "seccion": "3",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9279",
+      "#text": "Ministerio de Hacienda y Funci\u00f3n P\u00fablica"
+    },
+    "rango": {
+      "@codigo": "1370",
+      "#text": "Resoluci\u00f3n"
+    },
+    "numero_oficial": null,
+    "fecha_disposicion": "20180327",
+    "fecha_publicacion": "20180403",
+    "fecha_vigencia": "20180404",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "35268",
+    "pagina_final": "35272",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2018/04/03/pdfs/BOE-A-2018-4573.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/res/2018/03/27/(2)"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2018-4573"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2018-03-27"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "(2)"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2018-4573"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-03-27"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(2)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/con/20180403"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 27 de marzo de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Auditor\u00eda de la Seguridad de los Sistemas de Informaci\u00f3n."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2018-04-03"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/con/20180403",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2018-4573"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-03-27"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(2)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-04-03"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/con/20180403/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 27 de marzo de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Auditor\u00eda de la Seguridad de los Sistemas de Informaci\u00f3n."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2018-04-03"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/con/20180403"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2018/03/27/(2)/con/20180403/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2018/03/27/(2)/con/20180403/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "37",
+        "@orden": "220",
+        "#text": "Aplicable desde 4 de abril de 2018."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "1673",
+          "@orden": "",
+          "#text": "Control de calidad"
+        },{
+          "@codigo": "3685",
+          "@orden": "",
+          "#text": "Ficheros con datos personales"
+        },{
+          "@codigo": "4170",
+          "@orden": "",
+          "#text": "Inform\u00e1tica"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "9371",
+          "@orden": "",
+          "#text": "Secretar\u00eda de Estado de Administraciones P\u00fablicas"
+        },{
+          "@codigo": "4189",
+          "@orden": "",
+          "#text": "Seguridad inform\u00e1tica"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "143",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": {
+          "@referencia": "BOE-A-2010-1330",
+          "@orden": "3060",
+          "palabra": {
+            "@codigo": "440",
+            "#text": "DE CONFORMIDAD con"
+          },
+          "texto": "el Real Decreto 3/2010, de 8 de enero"
+        }
+      },
+      "posteriores": null
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica (ENS en adelante), al que se refiere el apartado segundo del art\u00edculo 156 de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, establece la pol\u00edtica de seguridad en la utilizaci\u00f3n de medios electr\u00f3nicos y est\u00e1 constituido por principios b\u00e1sicos y requisitos m\u00ednimos que permitan una protecci\u00f3n adecuada de la informaci\u00f3n. Dicho Real Decreto prev\u00e9, en su art\u00edculo 29, apartado 2, que el Ministerio de Hacienda y Funci\u00f3n P\u00fablica, a propuesta de la Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica y a iniciativa del Centro Criptol\u00f3gico Nacional, aprobar\u00e1 las instrucciones t\u00e9cnicas de seguridad de obligado cumplimiento, que se publicar\u00e1n mediante resoluci\u00f3n de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, constituyendo elementos esenciales para lograr una adecuada, homog\u00e9nea y coherente implantaci\u00f3n de los requisitos y medidas recogidos en el ENS."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "As\u00ed pues, tales instrucciones t\u00e9cnicas de seguridad, enumeradas en la Disposici\u00f3n Adicional cuarta del citado Real Decreto 3/2010, de 8 de enero, entran a regular aspectos concretos que la realidad cotidiana ha mostrado especialmente significativos, tales como: Informe del Estado de la Seguridad; Notificaci\u00f3n de Incidentes de Seguridad; Auditor\u00eda de la Seguridad; Conformidad con el Esquema Nacional de Seguridad; Adquisici\u00f3n de Productos de Seguridad; Criptolog\u00eda de empleo en el Esquema Nacional de Seguridad; Interconexi\u00f3n en el Esquema Nacional de Seguridad y Requisitos de Seguridad en entornos externalizados, sin perjuicio de las propuestas que pueda acordar la Comisi\u00f3n Sectorial de administraci\u00f3n electr\u00f3nica, seg\u00fan lo establecido en el citado art\u00edculo 29, en relaci\u00f3n con lo dispuesto en la Disposici\u00f3n derogatoria \u00fanica de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas y Disposici\u00f3n adicional novena de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Estas instrucciones t\u00e9cnicas de seguridad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, las infraestructuras que los apoyan, la evoluci\u00f3n tecnol\u00f3gica y los riesgos derivados de operar en el ciberespacio."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En particular, la instrucci\u00f3n t\u00e9cnica de seguridad de Auditor\u00eda de la Seguridad de los sistemas de informaci\u00f3n establece las condiciones para la realizaci\u00f3n de la preceptiva auditor\u00eda a la que deben someterse los sistemas de informaci\u00f3n del \u00e1mbito de aplicaci\u00f3n del ENS, tal y como se regula en el art\u00edculo 34 y Anexo III de su norma reguladora."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Por otra parte, de acuerdo con el Real Decreto 769/2017, de 28 de julio, por el que se desarrolla la estructura org\u00e1nica b\u00e1sica del Ministerio de Hacienda y Funci\u00f3n P\u00fablica y se modifica el Real Decreto 424/2016, de 11 de noviembre, por el que se establece la estructura org\u00e1nica b\u00e1sica de los departamentos ministeriales corresponde a la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica el impulso, la programaci\u00f3n y la supervisi\u00f3n de las actuaciones en ejecuci\u00f3n de la pol\u00edtica de Gobierno en materia de Administraci\u00f3n Digital y del fomento de la administraci\u00f3n electr\u00f3nica, en especial lo referente al proceso de racionalizaci\u00f3n de las tecnolog\u00edas de la informaci\u00f3n y de las comunicaciones, y la adopci\u00f3n de soluciones digitales que permitan la prestaci\u00f3n eficiente de los servicios p\u00fablicos incluyendo los servicios p\u00fablicos esenciales."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Esta Resoluci\u00f3n se aprueba en aplicaci\u00f3n de lo dispuesto en el Real Decreto 3/2010, de 8 de enero, en el art\u00edculo 29, apartado 2, en el cap\u00edtulo V, Auditor\u00eda de la seguridad, art\u00edculo 34, as\u00ed como en su Anexo III, modificado por Real Decreto 951/2015, de 23 octubre, a propuesta de la Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En virtud de lo anterior, esta Secretar\u00eda de Estado resuelve:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Primero."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Aprobar la Instrucci\u00f3n T\u00e9cnica de Seguridad \u00abAuditor\u00eda de la Seguridad de los sistemas de informaci\u00f3n\u00bb, cuyo texto se incluye a continuaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Segundo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Ordenar su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "La Instrucci\u00f3n T\u00e9cnica de Seguridad de Auditor\u00eda de la Seguridad de los sistemas de informaci\u00f3n que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Madrid, 27 de marzo de 2018.\u2013La Secretaria de Estado de Funci\u00f3n P\u00fablica, Elena Collado Mart\u00ednez."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo",
+        "#text": "INSTRUCCI\u00d3N T\u00c9CNICA DE SEGURIDAD DE AUDITOR\u00cdA DE LA SEGURIDAD DE LOS SISTEMAS DE INFORMACI\u00d3N"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_redonda",
+        "#text": "\u00cdNDICE"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "I.\tObjeto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "II.\t\u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.\tProp\u00f3sito de la Auditor\u00eda de la Seguridad, obligatoriedad y normativa reguladora."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "IV.\tDefinici\u00f3n del alcance y objetivo de la Auditor\u00eda de la Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "V.\tEjecuci\u00f3n de la Auditor\u00eda de la Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.\tEl Informe de Auditor\u00eda."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VII.\tEntidades Auditoras del Sector P\u00fablico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VIII.\tDisposici\u00f3n adicional. Datos personales."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "I. Objeto: La Instrucci\u00f3n T\u00e9cnica de Seguridad de Auditor\u00eda de la Seguridad tiene por objeto establecer las condiciones para la realizaci\u00f3n de las auditor\u00edas, ordinarias o extraordinarias, previstas en el art\u00edculo 34 del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n: La presente Instrucci\u00f3n T\u00e9cnica de Seguridad ser\u00e1 de aplicaci\u00f3n a los sistemas de informaci\u00f3n comprendidos en los \u00e1mbitos subjetivo y objetivo de aplicaci\u00f3n del Real Decreto 3/2010, de 8 de enero, seg\u00fan dispone el art\u00edculo 3 del mismo, as\u00ed como al resto de las entidades que forman parte de los \u00e1mbitos subjetivos de aplicaci\u00f3n de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas, y la Ley 40/2015,de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": null,
+        "#text": "III.Prop\u00f3sito de la Auditor\u00eda de la Seguridad, obligatoriedad y normativa reguladora:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "III.1 La Auditor\u00eda de la Seguridad es un proceso sistem\u00e1tico, independiente y documentado, para la obtenci\u00f3n de evidencias y su evaluaci\u00f3n objetiva, con el fin de determinar el grado de conformidad con el ENS del sistema de informaci\u00f3n auditado. Debe permitir a sus responsables adoptar las medidas oportunas para subsanar las deficiencias y atender a las observaciones o recomendaciones que pudiera haber identificado el Equipo Auditor y, en su caso, posibilitar la obtenci\u00f3n de la correspondiente Certificaci\u00f3n de Conformidad, tal y como dispone la Instrucci\u00f3n T\u00e9cnica de Seguridad de Conformidad con el Esquema Nacional de Seguridad, regulada por Resoluci\u00f3n de 13 de octubre de 2016, del Secretario de Estado de Administraciones P\u00fablicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.2 Para obtener la Certificaci\u00f3n de Conformidad con el ENS, los sistemas de informaci\u00f3n de categor\u00edas MEDIA o ALTA precisar\u00e1n superar una Auditor\u00eda de Seguridad, al menos cada dos a\u00f1os. Los sistemas de informaci\u00f3n de categor\u00eda B\u00c1SICA solo requerir\u00e1n de una autoevaluaci\u00f3n que, de ser favorable, permitir\u00e1 la exhibici\u00f3n de la Declaraci\u00f3n de Conformidad, y cuyo resultado deber\u00e1 estar documentado, indicando si cada medida de seguridad est\u00e1 implantada y sujeta a revisi\u00f3n regular, as\u00ed como las evidencias que sustentan la valoraci\u00f3n anterior. Dicha autoevaluaci\u00f3n podr\u00e1 ser desarrollada por el mismo personal que administra el sistema de informaci\u00f3n o en qui\u00e9n \u00e9ste delegue."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.3 Siendo obligatoria la Auditor\u00eda de Seguridad para los sistemas de categor\u00edas MEDIA o ALTA, nada impide que un sistema de categor\u00eda B\u00c1SICA se someta asimismo a un proceso de Auditor\u00eda de Seguridad para la Certificaci\u00f3n de la Conformidad, siendo siempre esta posibilidad la deseable."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "III.4 El desarrollo de la Auditor\u00eda de la Seguridad se realizar\u00e1 con sujeci\u00f3n a la normativa contenida en la presente Instrucci\u00f3n T\u00e9cnica de Seguridad y complementariamente, cuando corresponda, atendiendo a las normas nacionales e internacionales sobre auditor\u00eda de sistemas de informaci\u00f3n, entre ellas las gu\u00edas CCN-STIC 802 Gu\u00eda de auditor\u00eda, CCN-STIC 804 Gu\u00eda de Implantaci\u00f3n y CCN-STIC 808 Verificaci\u00f3n del cumplimiento de las medidas en el ENS, y aquellas otras de \u00e9tica y control de calidad interna de los auditores y entidades de auditor\u00eda, certificaci\u00f3n y acreditaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "IV. Definici\u00f3n del alcance y objetivo de la Auditor\u00eda de la Seguridad:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "IV.1 Los criterios metodol\u00f3gicos de auditor\u00eda utilizados, el alcance y objetivo de la Auditor\u00eda de la Seguridad deber\u00e1n estar claramente definidos y documentados, conforme a lo dispuesto en el art\u00edculo 34 y en el Anexo III del ENS, debiendo aparecer en el Informe de Auditor\u00eda que se obtenga."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "IV.2 Para asegurar la independencia objetiva de la Entidad Certificadora, las tareas de auditor\u00eda no incluir\u00e1n en ning\u00fan caso la ejecuci\u00f3n de acciones que puedan ser consideradas actividades de consultor\u00eda o similares, tales como implantaci\u00f3n o modificaci\u00f3n de aplicaciones, relacionadas con el sistema auditado, redacci\u00f3n de documentos requeridos por el ENS o procedimientos de actuaci\u00f3n, as\u00ed como recomendaciones particulares sobre productos o soluciones concretas, entre otros."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "V. Ejecuci\u00f3n de la Auditor\u00eda de la Seguridad:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "V.1 La entidad titular del sistema de informaci\u00f3n a auditar facilitar\u00e1 a la Entidad Certificadora cuanta informaci\u00f3n fuera pertinente para realizar los trabajos de auditor\u00eda, teniendo en cuenta su alcance y las eventuales limitaciones derivadas del ordenamiento jur\u00eddico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "V.2 El Equipo Auditor est\u00e1 obligado a requerir y obtener las evidencias pertinentes para verificar los criterios de auditor\u00eda, cuya evaluaci\u00f3n constituir\u00e1n los hallazgos en que se basar\u00e1n las conclusiones recogidas en el Informe de Auditor\u00eda."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VI. El Informe de Auditor\u00eda:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VI.1 Atendiendo a la categor\u00eda del sistema auditado (B\u00c1SICA, MEDIA o ALTA) el dictamen sobre la conformidad con el ENS se basar\u00e1 en el cumplimiento de los preceptos contenidos en el RD 3/2010, de 8 de enero, y de las medidas de seguridad del Anexo II del ENS que resulten de aplicaci\u00f3n, as\u00ed como de aquellos requisitos espec\u00edficos que pudieran documentarse en gu\u00edas CCN-STIC en funci\u00f3n del contexto interno o externo del sistema de informaci\u00f3n, identificando, en su caso, las desviaciones que se observen, as\u00ed como los registros, declaraciones de hechos o cualquier otra informaci\u00f3n pertinente y verificable en que se basen las conclusiones alcanzadas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.2 Los hallazgos de no conformidad se clasificar\u00e1n atendiendo a los siguientes grados:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 \u00abNo Conformidad Menor\u00bb: Se documentar\u00e1 una \u00abNo Conformidad Menor\u00bb ante la ausencia o el fallo en la implantaci\u00f3n o mantenimiento de uno o m\u00e1s de los requisitos del ENS, incluyendo cualquier situaci\u00f3n que pudiese, en base a una evidencia objetiva, sustentar una duda significativa sobre la conformidad del sistema de informaci\u00f3n con uno o m\u00e1s de tales requisitos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 \u00abNo Conformidad Mayor\u00bb: Se documentar\u00e1 una \u00abNo Conformidad Mayor\u00bb cuando se detecten \u00abNo Conformidades Menores\u00bb en relaci\u00f3n con cualquiera de los preceptos contenidos en el RD 3/2010, de 8 de enero, o en el Marco organizativo, o en alguno de los subgrupos que integran el Marco operacional o las Medidas de protecci\u00f3n (Planificaci\u00f3n, Control de Accesos, Explotaci\u00f3n, Servicios Externos, Continuidad del Servicio, Monitorizaci\u00f3n del Sistema, Protecci\u00f3n de las Infraestructuras, Gesti\u00f3n del Personal, Protecci\u00f3n de Equipos, Comunicaciones, Soportes de Informaci\u00f3n, Aplicaciones Inform\u00e1ticas, Informaci\u00f3n o Servicios) que, evaluadas en su conjunto, puedan implicar el incumplimiento del objetivo del Grupo o Subgrupo considerados."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Se documentar\u00e1 una Observaci\u00f3n cuando se encuentren evidencias de una debilidad, una vulnerabilidad o una situaci\u00f3n que, sin comprometer cualquier \u00e1rea del sistema de gesti\u00f3n definida en el ENS o por la organizaci\u00f3n, pueda, en la actualidad o en el futuro, derivar en un problema."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.3 El dictamen final de la Auditor\u00eda de la Seguridad ser\u00e1 uno de los tres siguientes:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 \u00abFAVORABLE\u00bb: Cuando no se evidencie ninguna \u00abNo Conformidad Mayor\u00bb o \u00abNo Conformidad Menor\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 \u00abFAVORABLE CON NO CONFORMIDADES\u00bb: Cuando se evidencie cualquier no conformidad, mayor o menor. En este caso, la entidad titular responsable del sistema de informaci\u00f3n auditado deber\u00e1 presentar, en el plazo m\u00e1ximo de un mes, un Plan de Acciones Correctivas sobre tales hallazgos de no conformidad a la entidad certificadora para su evaluaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 \u00abDESFAVORABLE\u00bb: Cuando, por el n\u00famero o la transcendencia de las no conformidades detectadas, no sea posible decidir sobre su resoluci\u00f3n a trav\u00e9s de un Plan de Acciones Correctivas. En este caso se requerir\u00e1 la realizaci\u00f3n de una auditor\u00eda extraordinaria que verifique la adopci\u00f3n de las medidas correctoras adecuadas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "La Gu\u00eda CCN-STIC 824 Informe del Estado de Seguridad, que el Centro Criptol\u00f3gico Nacional mantendr\u00e1 permanentemente actualizada, ofrecer\u00e1 pautas de ayuda para el dictamen final de la Auditor\u00eda de la Seguridad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.4 La Certificaci\u00f3n de Conformidad con el ENS \u00fanicamente podr\u00e1 expedirse si el dictamen fuera \u00abFAVORABLE\u00bb o, si habiendo sido \u00abFAVORABLE CON NO CONFORMIDADES\u00bb, el Plan de Acciones Correctivas presentado por la entidad titular del sistema de informaci\u00f3n, trata y resuelve los hallazgos de no conformidad evidenciados, a criterio de la entidad certificadora."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.5 Ante un dictamen \u00abDESFAVORABLE\u00bb, la entidad titular del sistema de informaci\u00f3n auditado, en un plazo no superior a seis meses desde la fecha de emisi\u00f3n del Informe de Auditor\u00eda, deber\u00e1 someterse a una Auditor\u00eda Extraordinaria, exclusivamente sobre los hallazgos de no conformidad evidenciados que, de resultar satisfactorio, permitir\u00e1 la expedici\u00f3n del correspondiente Certificado de Conformidad con el ENS."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.6 En caso de un sistema certificado sobre el que se detecten No Conformidades Mayores, durante el per\u00edodo de resoluci\u00f3n de las No Conformidades Mayores el Certificado de Conformidad quedar\u00e1 en suspenso. En caso de no cerrar las No Conformidades Mayores en un plazo de seis meses el Certificado de Conformidad quedar\u00eda revocado y la entidad auditada deber\u00e1 eliminar el Distintivo de Conformidad de su sede hasta su pr\u00f3xima recertificaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VI.7 El informe de Auditor\u00eda deber\u00e1 contener la informaci\u00f3n adecuada y suficiente para facilitar y justificar la decisi\u00f3n de certificaci\u00f3n, como m\u00ednimo:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "\u2013 Las \u00e1reas organizativas, m\u00f3dulos o funciones del sistema de informaci\u00f3n cubiertas por la auditor\u00eda, incluyendo los requisitos de certificaci\u00f3n y las ubicaciones que fueron auditadas, las pistas de auditor\u00eda seguidas y las metodolog\u00edas de auditor\u00eda utilizadas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013  Los hallazgos identificados, tanto de conformidad como de no conformidad, incluyendo las Observaciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Los detalles de las no conformidades identificadas se justificar\u00e1n mediante evidencias objetivas y su correspondencia con los requisitos del ENS u otros documentos requeridos para la Certificaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 Comentarios sobre la conformidad del Sistema de Gesti\u00f3n de Seguridad de la Informaci\u00f3n del auditado con los requisitos de certificaci\u00f3n, con una redacci\u00f3n clara de las no conformidades que hubieran podido evidenciarse, una referencia a la versi\u00f3n de la Declaraci\u00f3n de Aplicabilidad, que incluya el nivel en cada dimensi\u00f3n para cada medida de seguridad del ENS aplicable, as\u00ed como cualquier comparaci\u00f3n \u00fatil con los resultados de Auditor\u00edas de la Seguridad previas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 La Categor\u00eda del Sistema, con detalle del nivel de seguridad en cada una de las dimensiones recogidas en el ENS."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 El grado de confianza en las revisiones de la Direcci\u00f3n y auditor\u00edas internas del auditado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "\u2013 La conclusi\u00f3n o dictamen del Equipo de Auditor\u00eda sobre si el sistema de informaci\u00f3n del auditado debe ser certificado o no, con informaci\u00f3n que soporte esa conclusi\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VI.8 Los informes de auditor\u00eda podr\u00e1n ser requeridos por el CCN-CERT, en los t\u00e9rminos previstos en el art\u00edculo 37 del ENS."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VII. Entidades Auditoras del Sector P\u00fablico: La presente Instrucci\u00f3n T\u00e9cnica de Seguridad tambi\u00e9n ser\u00e1 de aplicaci\u00f3n a las actividades de auditor\u00eda y a la emisi\u00f3n de los correspondientes informes que se realicen por entidades, \u00f3rganos, organismos y unidades vinculadas o dependientes de las Administraciones P\u00fablicas cuyas competencias se correspondan con el desarrollo de auditor\u00edas de sistemas de informaci\u00f3n, as\u00ed conste en su normativa de creaci\u00f3n o decretos de estructura y quede garantizada la debida imparcialidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VIII. Disposici\u00f3n adicional. Datos personales:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "VIII.1 Cuando el sistema auditado tenga por objeto o incluya el tratamiento de datos personales se tendr\u00e1 en cuenta lo previsto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal y su normativa de desarrollo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "VIII.2 A partir del 25 de mayo de 2018, cuando el sistema auditado tenga por objeto o incluya el tratamiento de datos personales, se tendr\u00e1 en cuenta el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protecci\u00f3n de las personas f\u00edsicas en lo que respecta al tratamiento de datos personales y a la libre circulaci\u00f3n de estos datos y por el que se deroga la Directiva 95/46/CE. A partir de dicha fecha en todo momento se informar\u00e1 al Delegado de Protecci\u00f3n de Datos en calidad de responsable de la supervisi\u00f3n del cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016."
+      }
+    ]
+  }
+}
+}

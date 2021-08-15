@@ -1,0 +1,4467 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190617182602",
+  "metadatos": {
+    "identificador": "BOE-A-2013-2380",
+    "titulo": "Resoluci\u00f3n de 19 de febrero de 2013, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Reutilizaci\u00f3n de recursos de la informaci\u00f3n.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "54",
+    "seccion": "3",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9216",
+      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+    },
+    "rango": {
+      "@codigo": "1370",
+      "#text": "Resoluci\u00f3n"
+    },
+    "numero_oficial": null,
+    "fecha_disposicion": "20130219",
+    "fecha_publicacion": "20130304",
+    "fecha_vigencia": "20130305",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "17045",
+    "pagina_final": "17071",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2013/03/04/pdfs/BOE-A-2013-2380.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/res/2013/02/19/(4)"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2013-2380"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2013-02-19"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "(4)"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2013-2380"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2013-02-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(4)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:corrected_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/corrigendum/20130603/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/con/20130304"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de febrero de 2013, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Reutilizaci\u00f3n de recursos de la informaci\u00f3n."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2013-03-04"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/con/20130304",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2013-2380"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2013-02-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(4)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2013-03-04"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/con/20130304/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de febrero de 2013, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Reutilizaci\u00f3n de recursos de la informaci\u00f3n."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2013-03-04"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/con/20130304"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2013/02/19/(4)/con/20130304/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2013/02/19/(4)/con/20130304/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "37",
+        "@orden": "220",
+        "#text": "Aplicable desde el 5 de marzo de 2013."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "35",
+          "@orden": "",
+          "#text": "Acceso a la informaci\u00f3n"
+        },{
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "3086",
+          "@orden": "",
+          "#text": "Documentos p\u00fablicos"
+        },{
+          "@codigo": "4165",
+          "@orden": "",
+          "#text": "Informaci\u00f3n"
+        },{
+          "@codigo": "9350",
+          "@orden": "",
+          "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+        },{
+          "@codigo": "5159",
+          "@orden": "",
+          "#text": "Normalizaci\u00f3n"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6020",
+          "@orden": "",
+          "#text": "Reglamentaciones t\u00e9cnicas"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2010-1331",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Disposici\u00f3n adicional 1.2 del Real Decreto 4/2010, de 8 de enero"
+          },{
+            "@referencia": "BOE-A-2007-19814",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Ley 37/2007, de 16 de noviembre"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": {
+          "@referencia": "BOE-A-2013-5858",
+          "@orden": "",
+          "palabra": {
+            "@codigo": "201",
+            "#text": "CORRECCI\u00d3N de errores"
+          },
+          "texto": "en BOE n\u00fam. 132 de 3 de junio de 2013"
+        }
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "La Ley 37/2007, de 16 de noviembre, sobre reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico establece la regulaci\u00f3n aplicable a la reutilizaci\u00f3n de la informaci\u00f3n elaborada o custodiada por las instancias p\u00fablicas, en base a la potencialidad que le otorga el desarrollo de la sociedad de la informaci\u00f3n, el gran inter\u00e9s para las empresas a la hora de operar en sus \u00e1mbitos de actuaci\u00f3n, contribuir al crecimiento econ\u00f3mico y la creaci\u00f3n de empleo, y para los ciudadanos como elemento de transparencia y gu\u00eda para la participaci\u00f3n democr\u00e1tica."
+      },{
+        "@class": "parrafo",
+        "#text": "El Real Decreto 1495/2011, de 24 de octubre, por el que se desarrolla la Ley 37/2007, de 16 de noviembre, sobre reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico, para el \u00e1mbito del sector p\u00fablico estatal introduce en su disposici\u00f3n final primera dos modificaciones en el Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica; en primer lugar se a\u00f1ade un nuevo p\u00e1rrafo l) a la disposici\u00f3n adicional primera, apartado 1, del citado Real Decreto 4/2010 para a\u00f1adir una Norma T\u00e9cnica de Interoperabilidad sobre reutilizaci\u00f3n de recursos de informaci\u00f3n; y, en segundo lugar, se introduce una disposici\u00f3n adicional quinta sobre la norma t\u00e9cnica relativa a la reutilizaci\u00f3n de recursos de informaci\u00f3n por la cual se se\u00f1ala el plazo en que dicha norma deber\u00e1 estar aprobada."
+      },{
+        "@class": "parrafo",
+        "#text": "Las normas t\u00e9cnicas de interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas normas t\u00e9cnicas de interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de administraci\u00f3n electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley\u00a011/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "En particular, la Norma t\u00e9cnica de interoperabilidad de reutilizaci\u00f3n de recursos de informaci\u00f3n establece condiciones comunes sobre selecci\u00f3n, identificaci\u00f3n, descripci\u00f3n, formato, condiciones de uso y puesta a disposici\u00f3n de los documentos y recursos de informaci\u00f3n elaborados o custodiados por el sector p\u00fablico, relativos a numerosos \u00e1mbitos de inter\u00e9s como la informaci\u00f3n social, econ\u00f3mica, jur\u00eddica, tur\u00edstica, sobre empresas, educaci\u00f3n, etc., cumpliendo plenamente con lo establecido en la citada Ley\u00a037/2007, de 16 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "Estas condiciones tienen el objetivo de facilitar y garantizar el proceso de reutilizaci\u00f3n de la informaci\u00f3n de car\u00e1cter p\u00fablico procedente de las Administraciones p\u00fablicas, asegurando la persistencia de la informaci\u00f3n, el uso de formatos as\u00ed como los t\u00e9rminos y condiciones de uso adecuados."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero, esta Secretar\u00eda de Estado resuelve:"
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Primero."
+      },{
+        "@class": "parrafo",
+        "#text": "Se aprueba la Norma t\u00e9cnica de interoperabilidad de reutilizaci\u00f3n de recursos de informaci\u00f3n cuyo texto se incluye a continuaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Segundo."
+      },{
+        "@class": "parrafo",
+        "#text": "La Norma t\u00e9cnica de interoperabilidad de reutilizaci\u00f3n de recursos de informaci\u00f3n que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la disposici\u00f3n transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Madrid, 19 de febrero de 2013.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
+      },{
+        "@class": "anexo",
+        "#text": "[encabezado]NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE REUTILIZACI\u00d3N DE RECURSOS DE INFORMACI\u00d3N"
+      },{
+        "@class": "centro_redonda",
+        "#text": "\u00cdNDICE"
+      },{
+        "@class": "parrafo_2",
+        "#text": "I. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "III. Selecci\u00f3n de la informaci\u00f3n reutilizable."
+      },{
+        "@class": "parrafo",
+        "#text": "IV. Identificaci\u00f3n de la informaci\u00f3n reutilizable."
+      },{
+        "@class": "parrafo",
+        "#text": "V. Descripci\u00f3n de la informaci\u00f3n reutilizable."
+      },{
+        "@class": "parrafo",
+        "#text": "VI. Formato de los documentos y recursos de informaci\u00f3n reutilizables."
+      },{
+        "@class": "parrafo",
+        "#text": "VII. T\u00e9rminos y condiciones de uso aplicables."
+      },{
+        "@class": "parrafo",
+        "#text": "VIII. Puesta a disposici\u00f3n de los documentos y recursos de informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "IX. Cat\u00e1logo de informaci\u00f3n p\u00fablica reutilizable."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Anexo I.  Glosario."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo II.  Esquema de URI."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo III.  Metadatos de documentos y recursos de informaci\u00f3n del cat\u00e1logo."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo IV.  Taxonom\u00eda de sectores primarios."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo V.  Identificaci\u00f3n de la cobertura geogr\u00e1fica."
+      },{
+        "@class": "parrafo",
+        "#text": "Anexo VI.  Modelo de plantilla RDF de definici\u00f3n de cat\u00e1logos y registros."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "[fin indice]I. Objeto"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La Norma t\u00e9cnica de interoperabilidad de reutilizaci\u00f3n de recursos de informaci\u00f3n tiene por objeto establecer el conjunto de pautas b\u00e1sicas para la reutilizaci\u00f3n de documentos y recursos de informaci\u00f3n elaborados o custodiados por el sector p\u00fablico a los que se refiere el art\u00edculo 3 de la Ley 37/2007, de 16 de noviembre, sobre reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico por cualquier agente interesado."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "II. \u00c1mbito de aplicaci\u00f3n"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Esta norma ser\u00e1 de aplicaci\u00f3n para la puesta a disposici\u00f3n, para su reutilizaci\u00f3n, de recursos de informaci\u00f3n de car\u00e1cter p\u00fablico por parte de cualquier \u00f3rgano de la Administraci\u00f3n p\u00fablica o Entidad de Derecho P\u00fablico vinculada o dependiente de aquella en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "A los efectos de esta norma, las definiciones, palabras, expresiones y t\u00e9rminos se entender\u00e1n en el sentido indicado en el glosario incluido en el anexo I."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "III. Selecci\u00f3n de la informaci\u00f3n reutilizable"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Al objeto de seleccionar los documentos y recursos de informaci\u00f3n aptos para la reutilizaci\u00f3n, se considerar\u00e1n prioritarios los de mayor relevancia y potencial social y econ\u00f3mico."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los documentos y recursos de informaci\u00f3n reutilizables ser\u00e1n primarios, evitando las modificaciones o alteraciones de la informaci\u00f3n existente en la fuente, al objeto de evitar errores que se puedan producir durante la manipulaci\u00f3n de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El nivel granular ser\u00e1 el m\u00e1s fino posible, evitando agregaciones adicionales, para posibilitar una reutilizaci\u00f3n adecuada a cualquier necesidad."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los documentos y recursos de informaci\u00f3n reutilizables tendr\u00e1n asociada informaci\u00f3n estructurada que permita su procesamiento automatizado."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Los documentos y recursos de informaci\u00f3n de elaboraci\u00f3n o recogida peri\u00f3dica puestos a disposici\u00f3n para su reutilizaci\u00f3n estar\u00e1n actualizados a sus \u00faltimas versiones y se indicar\u00e1 la fecha de \u00faltima actualizaci\u00f3n, as\u00ed como el periodo de la misma."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "IV. Identificaci\u00f3n de la informaci\u00f3n reutilizable"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Los documentos y recursos de informaci\u00f3n reutilizables estar\u00e1n identificados mediante referencias \u00fanicas y un\u00edvocas, basadas en identificadores de recursos uniformes, que componen la base necesaria para habilitar un mecanismo coherente de reutilizaci\u00f3n de la informaci\u00f3n a trav\u00e9s de Internet. Con el uso de estos identificadores se podr\u00e1 hacer referencia a los documentos o recursos que representan de forma un\u00edvoca, estable, extensible, persistente en el tiempo y ofreciendo garant\u00edas de procedencia, requisitos clave para facilitar su posterior reutilizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Para la construcci\u00f3n de los identificadores de recursos uniformes se tendr\u00e1n en cuenta los siguientes requisitos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Se usar\u00e1n los protocolos HTTP o HTTPS, con el fin de garantizar el direccionamiento y resoluci\u00f3n de cualquier identificador de los recursos en la web."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Dado que pueden existir representaciones distintas asociadas a un mismo recurso de informaci\u00f3n, un servidor al que se le solicita un identificador de recurso uniforme deber\u00eda gestionar dicha petici\u00f3n en funci\u00f3n de la cabecera HTTP recibida, devolviendo la representaci\u00f3n del recurso adecuada a las preferencias del cliente."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Para la composici\u00f3n de los identificadores de recursos uniformes se usar\u00e1 un esquema consistente, extensible y persistente, preferentemente de acuerdo con el esquema definido en el anexo II. Las normas de construcci\u00f3n de los mismos seguir\u00e1n unos patrones determinados que ofrezcan coherencia en la uniformidad, los cuales podr\u00e1n ser ampliados o adaptados en caso de necesidad. Aquellos Identificadores que sean creados y publicados en alg\u00fan momento, deber\u00e1n mantenerse en el tiempo."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Los identificadores de recursos uniformes seguir\u00e1n una estructura de composici\u00f3n comprensible y significativa. El identificador deber\u00e1 ofrecer informaci\u00f3n de manera que pueda ser entendido y f\u00e1cilmente escrito por personas lo que permitir\u00e1 disponer de informaci\u00f3n sobre el propio recurso, as\u00ed como su procedencia \u00fanicamente interpretando el identificador."
+      },{
+        "@class": "parrafo",
+        "#text": "e) El identificador de recursos uniforme que identifica cada documento o recurso, en la medida de lo posible, no revelar\u00e1 informaci\u00f3n sobre la implementaci\u00f3n t\u00e9cnica de generaci\u00f3n del recurso representado."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "V. Descripci\u00f3n de la informaci\u00f3n reutilizable"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Para la descripci\u00f3n de los documentos y recursos de informaci\u00f3n reutilizables puestos a disposici\u00f3n p\u00fablica se asociar\u00e1n los metadatos m\u00ednimos recogidos en el anexo III; para los valores de ciertos metadatos se tendr\u00e1 en cuenta lo establecido en los anexos IV y V."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Cada distribuci\u00f3n tendr\u00e1 asociados, al menos, los metadatos recogidos en el anexo III."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Para facilitar la reutilizaci\u00f3n de vocabularios se utilizar\u00e1 el Centro de Interoperabilidad Sem\u00e1ntica de la Administraci\u00f3n previsto en el art\u00edculo 10, apartado 3 del Real Decreto 4/2010, dichos vocabularios se publicar\u00e1n de acuerdo con las condiciones de formato establecidas en el apartado VI."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "VI. Formato de los documentos y recursos de informaci\u00f3n reutilizables"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Con el objeto de garantizar la independencia en la elecci\u00f3n de alternativas tecnol\u00f3gicas por los ciudadanos y las Administraciones p\u00fablicas y la adaptabilidad al progreso de la tecnolog\u00eda, los documentos y recursos de informaci\u00f3n reutilizables puestos a disposici\u00f3n p\u00fablica, los metadatos y los servicios asociados a los mismos utilizar\u00e1n est\u00e1ndares abiertos, as\u00ed como, en su caso y de forma complementaria, est\u00e1ndares que sean de uso generalizado por la ciudadan\u00eda, siendo de aplicaci\u00f3n lo previsto en el art\u00edculo\u00a011 del Real Decreto 4/2010, de 8 de enero y se ce\u00f1ir\u00e1n a lo establecido en la Norma t\u00e9cnica de interoperabilidad de cat\u00e1logo de est\u00e1ndares, aprobada por Resoluci\u00f3n de 3 de octubre de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Se podr\u00e1n utilizar otros est\u00e1ndares cuando existan particularidades que lo justifiquen, cuando no sea viable la conversi\u00f3n a un est\u00e1ndar m\u00e1s adecuado o, bien no exista alternativa, siendo de aplicaci\u00f3n lo previsto sobre est\u00e1ndares en el art\u00edculo 11 del Real Decreto 4/2010, de 8 de enero."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cualquier documento o recurso de informaci\u00f3n reutilizable podr\u00e1 ser puesto a disposici\u00f3n p\u00fablica a trav\u00e9s de una o varias distribuciones en varios formatos distintos, con el objeto de facilitar la reutilizaci\u00f3n a agentes con distintos perfiles."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Se seleccionar\u00e1n preferentemente formatos que ofrezcan representaci\u00f3n sem\u00e1ntica de la informaci\u00f3n, con el fin de facilitar una mejor comprensi\u00f3n de la informaci\u00f3n representada y su tratamiento automatizado. Si los formatos elegidos lo permiten, se priorizar\u00e1 el uso de esquemas o vocabularios internacionalmente reconocidos para representar la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Se incluir\u00e1 preferentemente informaci\u00f3n de ayuda complementaria sobre los esquemas o vocabularios utilizados para representar la informaci\u00f3n."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "VII. T\u00e9rminos y condiciones de uso aplicables"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Las condiciones de reutilizaci\u00f3n espec\u00edfica de los \u00f3rganos y entidades de Derecho P\u00fablico de las Administraciones p\u00fablicas se ajustar\u00e1n a lo dispuesto en la Ley 37/2007, de 16 de noviembre, y su normativa de desarrollo. Lo establecido en el art\u00edculo 8 del Real Decreto 1495/2011, de 24 de octubre, podr\u00e1 ser utilizado como referencia por otras Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Dichas condiciones de reutilizaci\u00f3n globales a un organismo, disponibles en formato digital y procesables electr\u00f3nicamente, podr\u00e1n ser complementadas por condiciones espec\u00edficas aplicadas a categor\u00edas de documentos o recursos de informaci\u00f3n concretos mediante licencias-tipo, disponibles en las mismas condiciones que las globales."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "VIII. Puesta a disposici\u00f3n de los documentos y recursos de informaci\u00f3n"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Los documentos o recursos de informaci\u00f3n puestos a disposici\u00f3n p\u00fablicamente atender\u00e1n al principio de accesibilidad a la informaci\u00f3n y a los servicios por medios electr\u00f3nicos en los t\u00e9rminos establecidos por la normativa vigente, seg\u00fan lo establecido en el art\u00edculo 4.c) de la Ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Cada \u00f3rgano, organismo o entidad de derecho p\u00fablico del \u00e1mbito establecido en el art\u00edculo 1.2 del Real Decreto 1495/2011, de 11 de octubre, proporcionar\u00e1 informaci\u00f3n estructurada sobre los documentos y recursos de informaci\u00f3n susceptibles de reutilizaci\u00f3n, preferentemente a trav\u00e9s de un espacio dedicado en su sede electr\u00f3nica con el Localizador de Recurso Uniforme correspondiente, seg\u00fan el modelo http://www.sede.gob.es/datosabiertos. El resto de los \u00f3rganos y entidades de derecho p\u00fablico de las Administraciones p\u00fablicas seguir\u00e1 sus normas reguladoras espec\u00edficas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Se asociar\u00e1 a los documentos o recursos de informaci\u00f3n reutilizables puestos a disposici\u00f3n p\u00fablica la informaci\u00f3n necesaria que permita su interpretaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "4. En el caso de que se realice una puesta a disposici\u00f3n de la informaci\u00f3n mediante puntos de acceso din\u00e1mico, complementarios a los puntos de descarga masiva, se elaborar\u00e1 un documento t\u00e9cnico explicativo sobre el uso y configuraci\u00f3n de estos puntos de acceso con, al menos, los par\u00e1metros de consulta permitidos, el tipo de informaci\u00f3n devuelta y los formatos aceptados."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Las direcciones electr\u00f3nicas que alberguen documentos, recursos de informaci\u00f3n o cat\u00e1logos de informaci\u00f3n p\u00fablica susceptibles de reutilizaci\u00f3n contendr\u00e1n informaci\u00f3n de aviso de dicha condici\u00f3n."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "IX. Cat\u00e1logo de informaci\u00f3n p\u00fablica reutilizable"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. A efectos de la colaboraci\u00f3n de los distintos \u00f3rganos y entidades, los cat\u00e1logos de informaci\u00f3n p\u00fablica reutilizable implementar\u00e1n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Una interfaz de publicaci\u00f3n, que permita a los diferentes \u00f3rganos y entidades p\u00fablicos poner a disposici\u00f3n los metadatos de sus documentos y recursos de informaci\u00f3n reutilizables."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Una interfaz de consulta, que permita que las aplicaciones de terceros puedan acceder a funcionalidades de b\u00fasqueda."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. La descripci\u00f3n de cada categor\u00eda de documentos o recursos de informaci\u00f3n se realizar\u00e1 en fichas donde se recoger\u00e1n, al menos, los metadatos obligatorios, descritos en el anexo III. Para la definici\u00f3n de cat\u00e1logos y registros se podr\u00e1 aplicar el modelo de plantilla incluido en el anexo VI."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Se proporcionar\u00e1 acceso al contenido del cat\u00e1logo de dos formas:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Mediante documentos HTML legibles para las personas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Mediante informaci\u00f3n procesable autom\u00e1ticamente que permita la reutilizaci\u00f3n de los propios metadatos del cat\u00e1logo y la interoperabilidad con otros cat\u00e1logos. El propio cat\u00e1logo se ofrecer\u00e1 como un conjunto de datos reutilizable, utilizando para ello el vocabulario internacionalmente reconocido DCAT."
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO I"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Glosario"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Agente reutilizador: persona, f\u00edsica o jur\u00eddica que reutilice informaci\u00f3n del sector p\u00fablico, ya sea para fines comerciales o no comerciales, siempre que dicho uso no constituya una actividad administrativa p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "Dato: Una representaci\u00f3n de hechos, conceptos o instrucciones de un modo formalizado, y adecuado para comunicaci\u00f3n, interpretaci\u00f3n o procesamiento por medios autom\u00e1ticos o humanos."
+      },{
+        "@class": "parrafo",
+        "#text": "Distribuci\u00f3n: Informaci\u00f3n en un formato concreto, accesible desde un URL concreto. Un recurso de informaci\u00f3n puede disponer de una o m\u00faltiples distribuciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Documento: Toda expresi\u00f3n en lenguaje natural o convencional y cualquier otra expresi\u00f3n gr\u00e1fica, sonora o en imagen, recogidas en cualquier tipo de soporte material, incluso los soportes inform\u00e1ticos."
+      },{
+        "@class": "parrafo",
+        "#text": "Documento electr\u00f3nico: Informaci\u00f3n de cualquier naturaleza en forma electr\u00f3nica, archivada en un soporte electr\u00f3nico seg\u00fan un formato determinado y susceptible de identificaci\u00f3n y tratamiento diferenciado."
+      },{
+        "@class": "parrafo",
+        "#text": "Documentos o recursos de informaci\u00f3n reutilizable: Documentos que obran en poder de las Administraciones, \u00f3rganos y entidades de Derecho P\u00fablico del sector p\u00fablico, por personas f\u00edsicas o jur\u00eddicas, con fines comerciales o no comerciales, siempre que dicho uso no constituya una actividad administrativa p\u00fablica, de acuerdo con el \u00e1mbito de aplicaci\u00f3n y exclusiones establecidos en el art\u00edculo 3 de la Ley 37/2007, de 16 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "Documento o recurso de informaci\u00f3n primario: Dato tal y como se capta de la fuente sin modificaciones o alteraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Extensiones multiprop\u00f3sito de correo de Internet (Multipurpose Internet Mail Extensions): Serie de convenciones o especificaciones dirigidas al intercambio, a trav\u00e9s de Internet, de todo tipo de ficheros \u2013texto, audio, v\u00eddeo, u otros\u2013 de forma transparente para el usuario."
+      },{
+        "@class": "parrafo",
+        "#text": "Formato: Conjunto de caracter\u00edsticas t\u00e9cnicas y de presentaci\u00f3n de un recurso de informaci\u00f3n o documento."
+      },{
+        "@class": "parrafo",
+        "#text": "Identificador de Recursos Uniforme: Cadena alfanum\u00e9rica compacta que identifica recursos \u2013f\u00edsicos o abstractos\u2013 en la web de forma un\u00edvoca. La diferencia respecto a un Localizador de Recursos Uniforme es su invariabilidad en la referencia de recursos."
+      },{
+        "@class": "parrafo",
+        "#text": "Infraestructura de Descripci\u00f3n de Recursos: Marco para la descripci\u00f3n sem\u00e1ntica de recursos en la web, de manera que se dota de sentido a las representaciones en la web para que los datos puedan ser procesables autom\u00e1ticamente. RDF no es un formato, sino que existen distintas formas de representaci\u00f3n \u2013XML, N3, Turtle, etc."
+      },{
+        "@class": "parrafo",
+        "#text": "Interfaz de Programaci\u00f3n de Aplicaciones: Punto de comunicaci\u00f3n entre componentes de software, que ofrece un conjunto de llamadas a librer\u00edas de programaci\u00f3n que ofrecen acceso a servicios desde los procesos, consiguiendo la abstracci\u00f3n en la programaci\u00f3n entre niveles inferiores y superiores del software."
+      },{
+        "@class": "parrafo",
+        "#text": "Linked Open Data: Aproximaci\u00f3n de ciertas iniciativas de apertura de datos (Open Data) basada en tecnolog\u00edas de la Web Sem\u00e1ntica, donde se relacionan datos definidos de forma sem\u00e1ntica y que est\u00e1n identificados y representados en la web."
+      },{
+        "@class": "parrafo",
+        "#text": "Localizador de Recursos Uniforme: T\u00e9rmino usado para denominar ciertos identificadores de recursos uniformes cuyos recursos referidos pueden cambiar, esto es, la direcci\u00f3n puede apuntar a recursos variables en el tiempo."
+      },{
+        "@class": "parrafo",
+        "#text": "Metadato: Dato que define y describe otros datos. Existen diferentes tipos de metadatos seg\u00fan su aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Nivel de granularidad: Es el nivel de detalle de los datos, en la medida en la que trata el nivel m\u00e1s at\u00f3mico por el cual se definen los datos."
+      },{
+        "@class": "parrafo",
+        "#text": "Ontolog\u00eda: Descripci\u00f3n formal de los conceptos y relaciones que pueden existir sobre agentes o una comunidad. Especificaci\u00f3n consensuada que describe un dominio de informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Open Data: Iniciativa de apertura de datos aptos para su reutilizaci\u00f3n por parte de terceros."
+      },{
+        "@class": "parrafo",
+        "#text": "Punto de acceso din\u00e1mico: Servicio de consulta que permite obtener informaci\u00f3n estructurada a trav\u00e9s de peticiones basadas en par\u00e1metros configurables."
+      },{
+        "@class": "parrafo",
+        "#text": "RDFa: Forma de representaci\u00f3n de datos estructurados presentes en documentos web mediante anotaciones sem\u00e1nticas (RDF), incluidas en el c\u00f3digo e invisibles para el usuario, que permiten a las aplicaciones interpretar esta informaci\u00f3n y utilizarla de forma eficaz."
+      },{
+        "@class": "parrafo",
+        "#text": "SPARQL (SPARQL Protocol and RDF Query Language): Tecnolog\u00eda de consulta de informaci\u00f3n sobre diversas fuentes de datos que almacenan los mismos siguiendo el modelo de descripci\u00f3n RDF."
+      },{
+        "@class": "parrafo",
+        "#text": "Tripleta RDF: Sentencia en la que se describe la relaci\u00f3n de un recurso con otro a trav\u00e9s de un sujeto, un predicado (o propiedad), y un objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "W3C (World Wide Web Consortium): Consorcio neutro internacional de reconocido prestigio donde las organizaciones Miembro, el personal a tiempo completo y el p\u00fablico en general, trabajan conjuntamente para desarrollar est\u00e1ndares para la web."
+      },{
+        "@class": "parrafo",
+        "#text": "Web Sem\u00e1ntica: infraestructura de tecnolog\u00edas y mecanismos que ofrece la posibilidad de definir, integrar, compartir y reutilizar informaci\u00f3n en la web entre distintas partes de forma automatizada en funci\u00f3n de su significado."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "Acr\u00f3nimos y abreviaturas"
+      },{
+        "@class": "parrafo_2",
+        "#text": "API: Application Programming Interface (Interfaz de Programaci\u00f3n de Aplicaciones)."
+      },{
+        "@class": "parrafo",
+        "#text": "DCAT: Data Catalog Vocabulary (Vocabulario de Cat\u00e1logo de Datos)."
+      },{
+        "@class": "parrafo",
+        "#text": "HTTP: Hypertext Transfer Protocol (Protocolo de Transferencia de Hipertexto)."
+      },{
+        "@class": "parrafo",
+        "#text": "HTTPS: HTTP Secure (Protocolo de Transferencia de Hipertexto Seguro)."
+      },{
+        "@class": "parrafo",
+        "#text": "MIME: Multipurpose Internet Mail Extensions (Extensiones multiprop\u00f3sito de correo de Internet)."
+      },{
+        "@class": "parrafo",
+        "#text": "OWL: Web Ontology Language (Lenguaje de Ontolog\u00edas Web)."
+      },{
+        "@class": "parrafo",
+        "#text": "RDF: Resource Description Framework (Infraestructura de Descripci\u00f3n de Recursos)."
+      },{
+        "@class": "parrafo",
+        "#text": "RDF-S: RDF Schema (Esquema para la Infraestructura de Descripci\u00f3n de Recursos)."
+      },{
+        "@class": "parrafo",
+        "#text": "RSS: RDF Site Summary (Resumen del Sitio en RDF) o Really Simple Syndication (Sindicaci\u00f3n Realmente Simple)."
+      },{
+        "@class": "parrafo",
+        "#text": "SKOS: Simple Knowledge Organization System (Sistema de Organizaci\u00f3n del Conocimiento Simple)."
+      },{
+        "@class": "parrafo",
+        "#text": "URI: Uniform Resource Identifier (Identificador de Recurso Uniforme)."
+      },{
+        "@class": "parrafo",
+        "#text": "URL: Uniform Resource Locator (Localizador de Recurso Uniforme)."
+      },{
+        "@class": "parrafo",
+        "#text": "WWW: World Wide Web."
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO II"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Esquema de URI"
+      },{
+        "@class": "parrafo_2",
+        "#text": "El esquema de identificadores de recursos uniformes o URI establece un mecanismo de identificaci\u00f3n com\u00fan para los datos que se exponen p\u00fablicamente, de forma que se pueda hacer referencia a estos de forma \u00fanica, fiable y persistente en el tiempo, requisito clave para facilitar su posterior reutilizaci\u00f3n."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "Caracter\u00edsticas b\u00e1sicas del esquema a implementar"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Los requisitos gen\u00e9ricos para dise\u00f1ar el esquema de URI son los siguientes:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Utilizar el protocolo HTTP, de forma que se garantiza la resoluci\u00f3n de cualquier URI en la web."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Usar una estructura de composici\u00f3n de URI consistente, extensible y persistente. Las normas de construcci\u00f3n de los URI seguir\u00e1n unos patrones determinados que ofrezcan coherencia en la uniformidad, los cuales podr\u00e1n ser ampliados o adaptados en caso de necesidad."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los URI seguir\u00e1n una estructura de composici\u00f3n comprensible y relevante. Esto significa que el propio identificador debe ofrecer informaci\u00f3n sem\u00e1ntica autocontenida, lo que permitir\u00e1 a cualquier agente reutilizador disponer de informaci\u00f3n sobre el propio recurso, as\u00ed como su procedencia."
+      },{
+        "@class": "parrafo",
+        "#text": "d) No se debe exponer informaci\u00f3n sobre la implementaci\u00f3n t\u00e9cnica de los recursos que representan los URI. En la medida de lo posible se omitir\u00e1 informaci\u00f3n espec\u00edfica sobre la tecnolog\u00eda subyacente del recurso representado; por ejemplo, no se incluir\u00e1n las extensiones correspondientes a tecnolog\u00edas con las que se generan los recursos web como.php,.jsp, etc."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Los URI deben cumplir el principio de persistencia, lo que significa que los que ya han sido creados previamente nunca deber\u00edan variar, y que el contenido al que hacen referencia, deber\u00eda ser accesible. En el caso de que sea necesario cambiar o eliminar el recurso al que apunta un identificador, se deber\u00e1 establecer un mecanismo de informaci\u00f3n sobre el estado del recurso usando los c\u00f3digos de estado de HTTP. En el caso de poder ofrecer una redirecci\u00f3n a la nueva ubicaci\u00f3n del recurso, se utilizar\u00e1n los c\u00f3digos de estado HTTP 3XX, mientras que para indicar que un recurso ha desaparecido permanentemente se utilizar\u00e1 el c\u00f3digo de estado HTTP 410."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "Estructura b\u00e1sica de los URI"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Todos los URI tendr\u00e1n una estructura uniforme que ofrecer\u00e1 coherencia al sistema de representaci\u00f3n de los recursos, cubrir\u00e1 los principios b\u00e1sicos de construcci\u00f3n de las mismas y contendr\u00e1 informaci\u00f3n intuitiva sobre la procedencia y el tipo de informaci\u00f3n que identifica."
+      },{
+        "@class": "parrafo",
+        "#text": "La base de los URI incluir\u00e1 informaci\u00f3n b\u00e1sica sobre la procedencia de los datos, que representar\u00e1 un espacio dedicado por parte de la entidad para albergar su plataforma de reutilizaci\u00f3n; para indicar la situaci\u00f3n de la informaci\u00f3n relativa a la iniciativa de datos abiertos \u2013portal web, cat\u00e1logo, u otra informaci\u00f3n sobre el proyecto\u2013 se utilizar\u00e1 preferentemente www.sede.gob.es/datosabiertos o bien http://organismo.gob.es/datosabiertos cuando los recursos no se ubiquen en una sede electr\u00f3nica. El resto de los recursos sem\u00e1nticos podr\u00e1n seguir un patr\u00f3n dependiente \u00fanicamente del dominio (http://organismo.gob.es)."
+      },{
+        "@class": "parrafo",
+        "#text": "Para el caso de los URI de la documentaci\u00f3n en los portales web de los organismos, cabe en su caso determinar primero el idioma, seg\u00fan la norma internacional correspondiente ISO 639-1, y despu\u00e9s el canal, seg\u00fan el modelo http://organismo.gob.es/idioma/datosabiertos, por ejemplo http://organismo.gob.es/es-ES/datosabiertos. Esto depender\u00e1 de las pol\u00edticas y de las caracter\u00edsticas tecnol\u00f3gicas de cada organismo. Esto no ser\u00e1 necesario en la gesti\u00f3n de recursos sem\u00e1nticos, ya que su propia descripci\u00f3n admite varios idiomas para el mismo recurso con un URI \u00fanico."
+      },{
+        "@class": "parrafo",
+        "#text": "Los elementos que componen la ruta de un URI son: sector, car\u00e1cter de la informaci\u00f3n, tipo de representaci\u00f3n, dominio o tem\u00e1tica y los conceptos espec\u00edficos. Dentro de la composici\u00f3n de una URI se especifican por el siguiente orden:"
+      },{
+        "@class": "centro_redonda",
+        "#text": "http://{base}/{car\u00e1cter}[/{sector}][/{dominio}][/{concepto}][.{ext}]"
+      },{
+        "@class": "parrafo_2",
+        "#text": "O, alternativamente, utilizando los identificadores de fragmento mediante la marca \u00ab#\u00bb al final de la direcci\u00f3n:"
+      },{
+        "@class": "centro_redonda",
+        "#text": "http://{base}/{car\u00e1cter}[/{sector}][/{dominio}][.{ext}][#{concepto}]"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Esta estructura general de un URI puede variar dependiendo de las necesidades o preferencias de una organizaci\u00f3n, siendo obligatorio mantener invariables los elementos base y car\u00e1cter. La parte final del URI, podr\u00eda identificar la tem\u00e1tica general o espec\u00edfica del recurso, el concepto concreto que representa y/o el formato de representaci\u00f3n mediante una extensi\u00f3n. Estos dos \u00faltimos componentes son opcionales dependiendo del tipo de informaci\u00f3n que represente."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Car\u00e1cter:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Sector:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La selecci\u00f3n de un sector adecuado, acompa\u00f1ado del dominio espec\u00edfico del origen, le dar\u00e1 a cualquier usuario la confianza de conocer el tipo de informaci\u00f3n que est\u00e1 manejando y la fuente de la misma. Se seleccionar\u00e1 un identificador del sector (primario), seg\u00fan lo especificado en el anexo IV. Cada documento o recurso de informaci\u00f3n, vocabulario o esquema de conceptos debe pertenecer a un \u00fanico sector. Si pertenece a m\u00e1s de uno, se utilizar\u00e1 el m\u00e1s representativo o alguno que se pueda considerar com\u00fan."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dominio o tem\u00e1tica de la informaci\u00f3n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Para identificar los elementos espec\u00edficos dentro de un sector \u2013recursos de informaci\u00f3n, vocabularios, esquemas de conceptos, etc.\u2013, se crear\u00e1 una referencia adecuada que represente al dominio o tem\u00e1tica de la informaci\u00f3n tratada."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Conceptos espec\u00edficos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Los \u00faltimos elementos de ciertos URI \u2013tras el car\u00e1cter, sector y nombre del dominio de la informaci\u00f3n\u2013 incluyen a los conceptos e instancias espec\u00edficas de recursos. Los conceptos son representaciones abstractas que se corresponden con las clases o propiedades de los vocabularios u ontolog\u00edas utilizados para representar sem\u00e1nticamente los recursos. Adem\u00e1s del concepto, se podr\u00e1 representar una referencia un\u00edvoca a instancias concretas. Tambi\u00e9n se podr\u00e1n representar esquemas de conceptos abstractos, dentro de sistemas de gesti\u00f3n del conocimiento (taxonom\u00edas, tesauros, etc.)."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Formato:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dado que los documentos que representan recursos pueden ser de diversos tipos, \u00e9stos se identificar\u00e1n a trav\u00e9s de la extensi\u00f3n del propio fichero, como, por ejemplo, \u00abdoc.html\u00bb, \u00abdoc.rdf\u00bb o \u00abdoc.n3\u00bb. Para la identificaci\u00f3n de los recursos de forma abstracta se omitir\u00e1 la extensi\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "A continuaci\u00f3n, se especifican los tipos de URI espec\u00edficos para recursos sem\u00e1nticos de una iniciativa basada en Linked Data."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "URI para identificar cat\u00e1logos y conjuntos de datos"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Si la iniciativa de reutilizaci\u00f3n s\u00f3lo dispone de un cat\u00e1logo, se podr\u00eda representar a trav\u00e9s del URI: http://{base}/catalogo"
+      },{
+        "@class": "parrafo",
+        "#text": "En el caso de que el organismo disponga de m\u00e1s de un cat\u00e1logo se definir\u00e1 una referencia descriptiva para cada cat\u00e1logo que haga referencia al tema o dominio del mismo. Para ello se utilizar\u00e1 el URI: http://{base}/catalogo/{sector}"
+      },{
+        "@class": "parrafo",
+        "#text": "Los conjuntos de datos incluidos en cada cat\u00e1logo se identifican mediante un URI con un identificador \u00fanico para cada conjunto de datos: http://{base}/catalogo/{dataset}"
+      },{
+        "@class": "parrafo",
+        "#text": "O, en su defecto, utilizando la nomenclatura de identificadores de fragmentos (#): http://{base}/catalogo#{dataset}"
+      },{
+        "@class": "centro_cursiva",
+        "#text": "URI para identificar vocabularios"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Cualquier vocabulario u ontolog\u00eda seguir\u00e1 el esquema: http://{base}/def/{sector}/{dominio}"
+      },{
+        "@class": "parrafo",
+        "#text": "Donde sector indicar\u00e1 el tema del vocabulario y dominio corresponder\u00e1 a la referencia asignada al vocabulario, una representaci\u00f3n textual breve pero descriptiva."
+      },{
+        "@class": "parrafo",
+        "#text": "Las clases y propiedades del vocabulario tendr\u00e1n como base el URI correspondiente al vocabulario donde se definen, compuesto con los identificadores de las clases o propiedades seg\u00fan el esquema: http://{base}/def/{sector}/{dominio}/{propiedad|Clase}"
+      },{
+        "@class": "parrafo",
+        "#text": "O, en su defecto, utilizando la nomenclatura de identificadores de fragmentos (#): http://{base}/def/{sector}/{dominio}#{propiedad|Clase}"
+      },{
+        "@class": "centro_cursiva",
+        "#text": "URI para identificar esquemas de conceptos"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Cualquier sistema de organizaci\u00f3n del conocimiento \u2013taxonom\u00edas, diccionarios, tesauros, etc.\u2013 sobre un dominio concreto ser\u00e1 identificado mediante un esquema de URI basado en la estructura: http://{base}/kos/{sector}/{dominio}"
+      },{
+        "@class": "parrafo",
+        "#text": "Donde sector indicar\u00e1 el tema del esquema de conceptos y dominio corresponder\u00e1 a la referencia asignada a dicho esquema de clasificaci\u00f3n. \u00c9sta referencia del dominio ser\u00e1 una breve representaci\u00f3n textual pero descriptiva."
+      },{
+        "@class": "parrafo",
+        "#text": "Los conceptos incluidos en el esquema tendr\u00e1n como base el URI correspondiente al esquema donde se definen y tendr\u00e1n la forma: http://{base}/kos/{sector}/{dominio}/{Concepto}"
+      },{
+        "@class": "parrafo",
+        "#text": "O, en su defecto, utilizando la nomenclatura de identificadores de fragmentos (#): http://{base}/kos/{sector}/{dominio}#{Concepto}"
+      },{
+        "@class": "centro_cursiva",
+        "#text": "URI para identificar a cualquier instancia f\u00edsica o conceptual"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Estos recursos son las representaciones at\u00f3micas de los documentos y recursos de informaci\u00f3n. A su vez suelen ser instancias de las clases que se definen en los vocabularios. Estos recursos se identifican mediante el esquema: http://{base}/recurso/{sector}[/{dominio}]/{clase}/{ID}"
+      },{
+        "@class": "parrafo",
+        "#text": "O, en su defecto, utilizando la nomenclatura de identificadores de fragmentos (#): http://{base}/recurso/{sector}[/{dominio}]/{clase}#{ID}"
+      },{
+        "@class": "parrafo",
+        "#text": "Donde sector indicar\u00e1 el tema relacionado con el recurso y clase corresponder\u00e1 al tipo de concepto que describe al recurso. Habitualmente coincide con el identificador de una de las clases que caracteriza al recurso. El ID es un identificador que permite distinguir al recurso entre el resto de las instancias del mismo tipo, dentro del sistema. El dominio, relativo al recurso, podr\u00eda corresponder al especificado en el propio vocabulario que define las clases de la instancia, es opcional."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "Normalizaci\u00f3n de los componentes de los URI"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Para garantizar la coherencia y el mantenimiento posterior del esquema de URI se aplicar\u00e1n las siguientes reglas para normalizar las distintas partes que componen los URI:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Seleccionar identificadores alfanum\u00e9ricos cortos \u00fanicos, que sean representativos, intuitivos y sem\u00e1nticos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Usar siempre min\u00fasculas, salvo en los casos en los que se utilice el nombre de la clase o concepto. Habitualmente, los nombres de las clases se representan con el primer car\u00e1cter de cada palabra en may\u00fasculas."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Eliminar todos los acentos, di\u00e9resis y s\u00edmbolos de puntuaci\u00f3n. Como excepci\u00f3n puede usarse el gui\u00f3n (\u2013)."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Eliminar conjunciones y art\u00edculos en los casos de que el concepto a representar contenga m\u00e1s de una palabra."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Puede usarse el gui\u00f3n (\u2013) como separador entre palabras."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Evitar en la medida de lo posible la abreviatura de palabras, salvo que la abreviatura sea intuitiva."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Los t\u00e9rminos que componen los URI deber\u00e1n ser legibles e interpretables por el mayor n\u00famero de personas posible, por lo que se utilizar\u00e1 el castellano o cualquiera de las lenguas oficiales."
+      },{
+        "@class": "centro_cursiva",
+        "#text": "Pr\u00e1cticas relativas a la gesti\u00f3n de recursos sem\u00e1nticos a trav\u00e9s de URI"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Se aplicar\u00e1n las pr\u00e1cticas siguientes para la gesti\u00f3n de recursos sem\u00e1nticos descritos en RDF:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Siempre que sea posible, y existan versiones del recurso en formato legible para personas HTML o similar y RDF, el servidor que gestiona los URI realizar\u00e1 negociaci\u00f3n del contenido en funci\u00f3n de la cabecera del agente que realiza la petici\u00f3n. En el caso de que el cliente acepte un formato de representaci\u00f3n RDF en cualquiera de sus notaciones (p.e., especificando en su cabecera que acepta el tipo MIME application/rdf+xml) se servir\u00e1 el documento RDF a trav\u00e9s del mecanismo de redirecciones alternativas mediante los c\u00f3digos de estado HTTP 3XX. De la misma forma, si es posible, se servir\u00e1 la representaci\u00f3n en cualquier otro formato preferido por el cliente."
+      },{
+        "@class": "parrafo",
+        "#text": "b) En el caso de que no se realice una negociaci\u00f3n del contenido desde el servidor y, para favorecer el descubrimiento de contenido RDF desde los documentos HTML relacionados con las descripciones de los recursos, se incluir\u00e1n enlaces a la representaci\u00f3n alternativa en cualquiera de las representaciones en RDF desde los propios documentos HTML de la forma <link rel=\u00abalternate\u00bb type=\u00abapplication/rdf+xml\u00bb href=\u00abdocumento.rdf\u00bb> o similar. En esa sentencia se incluye el tipo de formato MIME del documento (application/rdf+xml, text/n3, etc.)."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Cuando se establezcan enlaces entre distintos recursos de informaci\u00f3n, se procurar\u00e1 la generaci\u00f3n de enlaces que conecten los recursos bidireccionales para facilitar la navegaci\u00f3n sobre los recursos de informaci\u00f3n en ambos sentidos."
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO III"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Metadatos de documentos y recursos de informaci\u00f3n del cat\u00e1logo"
+      },{
+        "@class": "parrafo_2",
+        "#text": "A continuaci\u00f3n se describen los distintos metadatos asociados con el cat\u00e1logo y los documentos y recursos de informaci\u00f3n incluidos en \u00e9l, adem\u00e1s del t\u00e9rmino recomendado para su representaci\u00f3n usando vocabularios est\u00e1ndar que se identifican por las abreviaturas de su espacio de nombres. Adem\u00e1s de la denominaci\u00f3n, descripci\u00f3n del metadato y el tipo de dato que se deber\u00e1 usar para la representaci\u00f3n, se especifica si es obligatorio \u2013\u00a0columna\u00a0R (requerido)\u2013 y si admite m\u00e1s de un metadato de ese tipo \u2013columna\u00a0M (m\u00faltiple), como podr\u00eda ser en el caso de las descripciones en distintos idiomas."
+      },{
+        "@class": "parrafo",
+        "#text": "Para la descripci\u00f3n y exposici\u00f3n de los metadatos recogidos en este anexo se usar\u00e1n los vocabularios y esquemas de valores propuestos, mediante tecnolog\u00edas de la Web Sem\u00e1ntica \u2013al menos, la descripci\u00f3n de recursos en RDF en cualquiera de sus formatos de representaci\u00f3n\u2013, al objeto de facilitar la interoperabilidad a nivel sem\u00e1ntico de los sistemas que compartan esta representaci\u00f3n est\u00e1ndar."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Vocabularios:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La representaci\u00f3n sem\u00e1ntica se basa en el vocabulario DCAT, desarrollado por la entidad World Wide Web Consortium (W3C) y que permite la estandarizaci\u00f3n en la definici\u00f3n de cat\u00e1logos de documentos y recursos de informaci\u00f3n. Un cat\u00e1logo de documentos y recursos de informaci\u00f3n se representa mediante instancias de tipo dcat:Catalog e incluye una colecci\u00f3n de (dcat:Dataset). Estas instancias tienen propiedades que hacen referencia a otros recursos y conceptos sem\u00e1nticos identificados en los anexos del presente documento y que son representados gr\u00e1ficamente en el siguiente diagrama y detalladas a continuaci\u00f3n. Las entidades o propiedades b\u00e1sicas que se detallan en este anexo podr\u00e1n ser enriquecidas con metadatos adicionales que se estimen oportunos para la mejora de la calidad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Al menos, los recursos que representen al cat\u00e1logo de datos y a sus conjuntos de datos deber\u00e1n ser identificado mediante un URI espec\u00edfico que siga el esquema de definido en el anexo II."
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2013/54/02380_001.png",
+          "@width": "850",
+          "@height": "439"
+        }
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO IV"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Metadatos de documentos y recursos de informaci\u00f3n del cat\u00e1logo"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Taxonom\u00eda de sectores primarios donde se especifican los temas relacionados a cada uno de ellos. Esta clasificaci\u00f3n ha sido elaborada con base en el documento \u00abPropuesta de Taxonom\u00eda Com\u00fan para los procedimientos y servicios electr\u00f3nicos, el marco de la Ley\u00a011/2007\u00bb, y comparando su propuesta de materias con las tem\u00e1ticas empleadas en otros portales de referencia como 060, EUGO, INE, EUROSTAT, WORLD BANK, OECD."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta clasificaci\u00f3n servir\u00e1 de base com\u00fan para componer el esquema de URI expresado en el anexo II y para la categorizaci\u00f3n de los cat\u00e1logos de recursos de informaci\u00f3n p\u00fablica y sus registros, seg\u00fan los metadatos especificados en el anexo III."
+      },{
+        "@class": "parrafo",
+        "#text": "En la tabla siguiente se identifican los sectores primarios detallados anteriormente y se especifican los URI que se usar\u00e1n como referencia un\u00edvoca de cada concepto. Dichos identificadores son los valores que tomar\u00e1n los metadatos que categorizan por tem\u00e1tica a los recursos de informaci\u00f3n y que se definen en el anexo III. Esta taxonom\u00eda est\u00e1 definida como un esquema de conceptos identificado mediante el URI:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "http://datos.gob.es/kos/sector-publico/sector"
+      },{
+        "@class": "parrafo_2",
+        "#text": "El URI de cada uno de los conceptos se compondr\u00e1 concatenando la palabra que lo identifica, expresado en la tabla anterior, a la base del URI del esquema de conceptos."
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO V"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Metadatos de documentos y recursos de informaci\u00f3n del cat\u00e1logo"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Identificadores correspondientes a los recursos geogr\u00e1ficos del territorio espa\u00f1ol \u2013Pa\u00eds, Autonom\u00edas y Provincias\u2013 que se utilizar\u00e1n como referencia de estos elementos de forma un\u00edvoca en el proceso de descripci\u00f3n de los metadatos de cobertura geogr\u00e1fica correspondientes a los cat\u00e1logos de recursos de informaci\u00f3n, seg\u00fan lo especificado en el anexo III; los identificadores expresados en la segunda columna de las tablas son los valores que puede tomar el metadato."
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO VI"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Modelo de plantilla RDF de definici\u00f3n de cat\u00e1logos y registros"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Modelo de plantilla para la descripci\u00f3n en RDF de un cat\u00e1logo de datos, registros, conjuntos de datos y distribuciones asociadas. La plantilla de documento se especifica en Notaci\u00f3n 3 (N3) y tambi\u00e9n en RDF/XML. En ambas plantillas se incluyen partes variables, as\u00ed como comentarios sobre los posibles valores a utilizar. En caso de que exista alguna propiedad que no tenga aplicaci\u00f3n o no se conozca el valor, se preferir\u00e1 no definir las propiedades a dejar elementos sin valor."
+      },{
+        "@class": "capitulo",
+        "#text": "Formato RDF/XML"
+      },{
+        "@class": "capitulo",
+        "#text": "Notaci\u00f3n 3 (N3)"
+      }
+    ],
+    "table": [
+      {
+        "@class": "tabla",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Valor"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Informaci\u00f3n que representa"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Documento o recurso de informaci\u00f3n incluido en el cat\u00e1logo, con una lista de recursos o entidades de un mismo dominio. Habitualmente estos documentos y recursos de informaci\u00f3n contendr\u00edan datos comunes como condiciones de uso, origen, vocabularios utilizados, etc. Tambi\u00e9n identifica al cat\u00e1logo en s\u00ed."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Def."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Vocabulario u ontolog\u00eda utilizada como modelo sem\u00e1ntico. Habitualmente esquemas RDF-S u ontolog\u00edas representadas mediante OWL."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Kos."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Sistema de organizaci\u00f3n del conocimiento sobre un dominio concreto. Habitualmente taxonom\u00edas, diccionarios o tesauros, representados mediante SKOS."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso."
+                }
+              },{
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Identificaci\u00f3n abstracta \u00fanica y un\u00edvoca de un recurso u objeto f\u00edsico o conceptual. Estos recursos son las representaciones at\u00f3micas de los documentos y recursos de informaci\u00f3n y suelen ser instancias de los conceptos que se definen en los vocabularios. Si se especifica extensi\u00f3n (o formato) en el URI indica que es la representaci\u00f3n del recurso."
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Pueden existir dos tipos de representaciones de un recurso b\u00e1sicas: un documento legible para humanos \u2013normalmente HTML\u2013 o para las m\u00e1quinas, en cualquiera de los formatos de representaci\u00f3n de RDF. El tipo concreto del documento ser\u00e1 especificado mediante extensiones del propio documento."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Vocabulario"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "URI"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "XML Schema"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "xsd: http://www.w3.org/2001/XMLSchema#"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Simple Knowledge Organization System (SKOS)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "skos: http://www.w3.org/2004/02/skos/core#"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Dataset Catalog (dcat)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat: http://www.w3.org/ns/dcat#"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Dublin Core Terms"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct: http://purl.org/dc/terms/"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Dublin Core Elements"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dc: http://purl.org/dc/elements/1.1/"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "W3C Time Ontology"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "time: http://www.w3.org/2006/time#"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Friend Of A Friend (FOAF)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "foaf: http://xmlns.com/foaf/0.1/"
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla_ancha",
+        "tr": [
+          {
+            "td": {
+              "@colspan": "6",
+              "p": {
+                "@class": "cabeza_tabla",
+                "#text": "Cat\u00e1logo (dominio dcat: Catalog)"
+              }
+            }
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Metadato"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Descripci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "propiedad"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "R"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "M"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Tipo y Esquema de valores"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Nombre"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Breve t\u00edtulo o nombre dado al cat\u00e1logo de datos."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:title"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Cadena alfanum\u00e9rica (se recomienda en varios idiomas)."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Descripci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Resumen descriptivo del cat\u00e1logo de datos."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:description"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Cadena alfanum\u00e9rica (se recomienda en varios idiomas)."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u00d3rgano publicador"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Entidad que publica el cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:publisher"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "foaf:Agent. Se especificar\u00e1 el URI correspondiente a un \u00f3rgano p\u00fablico diferenciados por un c\u00f3digo alfanum\u00e9rico \u00fanico para cada \u00f3rgano/unidad/oficina, que ser\u00e1 extra\u00eddo del Directorio Com\u00fan gestionado por el MINHAP seg\u00fan el esquema siguiente: http://datos.gob.es/recurso/sector\u2011 publico/org/Organismol(ID- MINHAP}"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Tama\u00f1o del cat\u00e1logo"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "N\u00famero total de documentos y recursos de informaci\u00f3n inventariados en el cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:extent"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:SizeOrDuration. Se recomienda incluir el valor de un n\u00famero entero y su representaci\u00f3n textual equivalente."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Identificador"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Referencia para identificar el cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:identifier"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "xsd:anyURl. URI que identifica la descripci\u00f3n actual del cat\u00e1logo."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de creaci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de publicaci\u00f3n inicial del cat\u00e1logo"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:issued"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Fecha/Hora con formato ISO\u20118601: YYYY-MM-DDThh:mm:ssTZD."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de actualizaci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha en la que se modific\u00f3 por \u00faltima vez el cat\u00e1logo (se a\u00f1ade, elimina o modifica un documento o recurso de informaci\u00f3n)."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:modified"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Fecha/Hora con formato ISO\u20118601: YYYY-MM-DDThh:mm:ssTZD."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Idioma(s)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Idioma(s) en el(los) que se proporciona la informaci\u00f3n del cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dc:language"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Valores normalizados de etiquetas para identificar idiomas definidos en el RFC 5646 (\u00abes\u00bb, \u00abga\u00bb, \u00abca\u00bb, \u00abeu\u00bb, \u00aben\u00bb, \u00abfr\u00bb}. Se usar\u00e1 una etiqueta por cada propiedad."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cobertura geogr\u00e1fica"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u00c1mbito geogr\u00e1fico cubierto por el cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:spatial"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso. Se aplicar\u00e1 preferentemente lo establecido al respecto en el anexo V. Un recurso por propiedad."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Tem\u00e1ticas"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Totalidad de materias incluidas en el cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:themeTaxo- nomy"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "skos:ConceptScheme. Se aplicar\u00e1 preferentemente la taxonom\u00eda definida en el anexo IV. Su valor es: http://datos.gob.es/kos/sector-publico/sector/"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "P\u00e1gina web"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Direcci\u00f3n web de acceso al cat\u00e1logo de datos (acceso para el p\u00fablico)."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "foaf:homepage"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso. URI que referencia a la portada del cat\u00e1logo."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "T\u00e9rminos de uso"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Referencia a los t\u00e9rminos de uso generales del cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:license"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso. URI que referencia al recurso que describe los t\u00e9rminos de uso."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Documento(s) y recurso(s) de informaci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Lista de cada uno de los documentos y recursos de informaci\u00f3n del cat\u00e1logo."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:dataset"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:Dataset. Tendr\u00e1 tantas propiedades como entradas en el cat\u00e1logo. (Ver metadatos de documentos y recursos de informaci\u00f3n)."
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla_ancha",
+        "tr": [
+          {
+            "td": {
+              "@colspan": "6",
+              "p": {
+                "@class": "cabeza_tabla",
+                "#text": "Documento y recurso de informaci\u00f3n (dominio dcat: Dataset)"
+              }
+            }
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Metadato"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Descripci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "propiedad"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "R"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "M"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Tipo y Esquema de valores"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Nombre"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Nombre o t\u00edtulo del documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct: title"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Cadena alfanum\u00e9rica (se recomienda en varios idiomas)."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Descripci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Descripci\u00f3n detallada del documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct :description"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Cadena alfanum\u00e9rica (se recomienda en varios idiomas)."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Tem\u00e1tica(s)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Tem\u00e1tica o materia primaria del documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat: theme"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "skos:Concept. Se recomienda hacer referencia a un tema asociado con el sector p\u00fablico, seg\u00fan la taxonom\u00eda definida en el anexo IV."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Etiqueta(s)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Etiqueta(s) textual(es) que permiten categorizar libremente el documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:keyword"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Cadena alfanum\u00e9rica compacta. Pueden incluirse varias propiedades (una por etiqueta)."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Identificador"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "URI que identifica al documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "det:identifie"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "xsd:anyURl. URI que identifica la ficha descriptiva del documento o recurso de informaci\u00f3n."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de creaci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de creaci\u00f3n del documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct : issued"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Fecha/Hora con formato ISO\u20118601: YYYY-MM-DDThh:mm:ssTZD."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de \u00faltima actualizaci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u00daltima fecha conocida en la que se modific\u00f3 o actualiz\u00f3 el contenido del documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "det:modified"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Fecha/Hora con formato ISO\u20118601: YYYY-MM-DDThh:mm:ssTZD."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Frecuencia de actualizaci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Periodo de tiempo aproximado transcurrido entre actualizaciones del documento o recurso de informaci\u00f3n, si hubiera"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct : accrualPeriodicity"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:Frequency. Se recomienda especificar periodos normalizados con formato ISO-8601 (P<date>T<time>), o similar."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Idioma(s)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Idioma(s) en el(los) que se encuentra la informaci\u00f3n del documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dc:language"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Valores normalizados de etiquetas para identificar idiomas definidos en el RFC 5646 (\u00abes\u00bb, \u00abga\u00bb, \u00abca\u00bb, \u00abeu\u00bb, \u00aben\u00bb, \u00abfr\u00bb}. Se usar\u00e1 una etiqueta por propiedad."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Organismo que expone y publica los datos"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Organismo que publica el documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:publisher"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "foaf:Agent. Se especificar\u00e1 el URI correspondiente a un organismo p\u00fablico diferenciados por un c\u00f3digo alfanum\u00e9rico \u00fanico para cada \u00f3rgano/unidad/oficina, que ser\u00e1 extra\u00eddo del Directorio Com\u00fan gestionado por el MINHAP seg\u00fan el esquema siguiente: http:lldatos.gob.es/recu rso/sector\u2011 publico/org/Organismo){ID-MINHAP }"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Condiciones de uso"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso que describe las condiciones de uso o licencia espec\u00edfica aplicable al propio documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct : license"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:LicenseDocument o similar. Se especificar\u00e1 un URI que referencia al recurso que define las condiciones de uso. Si no es una licencia-tipo, y si fuese necesario, en la descripci\u00f3n se podr\u00eda indicar contraprestaci\u00f3n econ\u00f3mica utilizando valores del c\u00f3digo de divisa normalizado por el est\u00e1ndar ISO-4217 (EUR, USD, GBP, etc.)."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cobertura geogr\u00e1fica"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u00c1mbito geogr\u00e1fico cubierto por el documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:spatial"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso. Puede tomar uno de los valores que representan las provincias espa\u00f1olas, seg\u00fan se expresan en el anexo V."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cobertura temporal"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de inicio, fin y la duraci\u00f3n del periodo cubierto por el documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct: temporal"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:PeriodOfTime. Periodo de tiempo que puede ser definido mediante la ontolog\u00eda de Tiempo del W3C (time:)"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Vigencia del recurso"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Fecha de validez de un documento o recurso de informaci\u00f3n o en la que se estima una modificaci\u00f3n o actualizaci\u00f3n de su contenido."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:valid"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Fecha/Hora con formato ISO\u20118601: YYYY-MM-DDThh:mm:ssTZD."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso(s) relacionado(s)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Enlaces a recursos relacionados con el documento o recurso de informaci\u00f3n (informaci\u00f3n sobre los propios datos, material audiovisual, etc.)."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct : references"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso. URI que identifica al recurso relacionado. Se pueden incluir tantas propiedades como referencias se conozcan."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Normativa"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Normativa relativa al documento o recurso de informaci\u00f3n. Es un enlace a un documento legal."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct : conformsTo"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso. URI que identifica al documento legal relacionado. Se pueden incluir tantas propiedades como documentos normativos se conozcan."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Distribuci\u00f3n(es)"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Referencia a los recursos que identifican los volcados del documento o recurso de informaci\u00f3n en sus posibles formatos."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:distribution"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:Distribution. URI que identifica al recurso que describe una distribuci\u00f3n del documento o recurso de informaci\u00f3n. Puede tener tantas propiedades como distribuciones se conozcan."
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla_ancha",
+        "tr": [
+          {
+            "td": {
+              "@colspan": "6",
+              "p": {
+                "@class": "cabeza_tabla",
+                "#text": "Distribuci\u00f3n de documento o recurso de informaci\u00f3n (dominio dcat: Distribution)"
+              }
+            }
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Metadato"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Descripci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "propiedad"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "R"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "M"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Tipo y Esquema de valores"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Identificador"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "URI que identifica a la distribuci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "la dct:identifie"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "xsd:anyURl. URI que identifica la ficha descriptiva de la distribuci\u00f3n."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Nombre"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Breve t\u00edtulo o nombre dado a la distribuci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:title"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. Cadena alfanum\u00e9rica (se recomienda en varios idiomas)."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "URL de acceso"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "URL que permite el acceso al volcado o consulta de los documentos o recursos de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat : accessURL"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. URL con la direcci\u00f3n del documento, o servicio que permite la obtenci\u00f3n de los datos."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Formato"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Formato en que se encuentra representado el documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:mediaType"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:MediaTypeOrExtent. Recurso que indica el tipo MIME del formato de los datos. \u00danicamente se especificar\u00e1 un formato por distribuci\u00f3n."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Tama\u00f1o"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Tama\u00f1o aproximado del documento o recurso de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dcat:byteSize"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Literal. El tama\u00f1o ser\u00e1 descrito en bytes."
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Informaci\u00f3n adicional sobre formato"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Enlace(s) relacionado(s) con el formato, el donde se indica el formato, el esquema utilizado para su representaci\u00f3n u otra informaci\u00f3n t\u00e9cnica sobre c\u00f3mo acceder a los documentos o recursos de informaci\u00f3n."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "dct:relation"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2013"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u2713"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Recurso. URI con una referencia a un recurso asociado con el formato. Se pueden incluir tantas propiedades como referencias a documentos adicionales se conozcan."
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Sector"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Identificador"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Ciencia y tecnolog\u00eda:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Innovaci\u00f3n, Investigaci\u00f3n, I+D+i, Telecomunicaciones, Internet y Sociedad de la Informaci\u00f3n."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "ciencia-tecnologia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Comercio:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Consumo."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "comercio"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Cultura y ocio:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Tiempo libre."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "cultura-ocio"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Demograf\u00eda:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Inmigraci\u00f3n y Emigraci\u00f3n, Familia, Mujeres, Infancia, Mayores, Padr\u00f3n."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "demografia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Deporte:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Instalaciones deportivas, Federaciones, Competiciones."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "deporte"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Econom\u00eda:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Deuda, Moneda y Banca y finanzas."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "economia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Educaci\u00f3n:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Formaci\u00f3n."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "educacion"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Empleo:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Trabajo, Mercado laboral."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "empleo"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Energ\u00eda:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Fuentes renovables"
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "energia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Hacienda:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Impuestos."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "hacienda"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Industria:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Miner\u00eda."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "industria"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Legislaci\u00f3n y justicia:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Registros."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "legislacion-justicia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Medio ambiente:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Meteorolog\u00eda, Geograf\u00eda, Conservaci\u00f3n fauna y flora."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "medio-ambiente"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Medio Rural:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Agricultura, Ganader\u00eda, Pesca y Silvicultura."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "medio-rural-pesca"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Salud:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Sanidad."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "salud"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Sector p\u00fablico:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Presupuestos, Organigrama institucional, Legislaci\u00f3n interna, Funci\u00f3n p\u00fablica."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "sector-publico"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Seguridad:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Protecci\u00f3n civil, Defensa."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "seguridad"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Sociedad y bienestar:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Participaci\u00f3n ciudadana, Marginaci\u00f3n, Envejecimiento Activo, Autonom\u00eda personal y Dependencia, Invalidez, Jubilaci\u00f3n, Seguros y Pensiones, Prestaciones y Subvenciones."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "sociedad-bienestar"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Transporte:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Comunicaciones y Tr\u00e1fico."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "transporte"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Turismo:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Alojamientos, Hosteler\u00eda, Gastronom\u00eda."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "turismo"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Urbanismo e infraestructuras:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Saneamiento p\u00fablico, Construcci\u00f3n (infraestructuras, equipamientos p\u00fablicos)."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "urbanismo-infraestructuras"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": [
+                  {
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Vivienda:"
+                  },{
+                    "@class": "cuerpo_tabla_izq",
+                    "#text": "Incluye: Mercado inmobiliario, Construcci\u00f3n (viviendas)."
+                  }
+                ]
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "vivienda"
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Sector"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "URI"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ciencia y tecnolog\u00eda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Comercio"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/comercio"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cultura y ocio"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/cultura-ocio"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Demograf\u00eda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/demografia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Deporte"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/deporte"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Econom\u00eda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/economia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Educaci\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/educacion"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Empleo"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/empleo"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Energ\u00eda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/energia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Hacienda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/hacienda"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Industria"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/industria"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Legislaci\u00f3n y justicia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/legislacion-justicia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Medio ambiente"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Medio Rural"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Salud"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/salud"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Sector p\u00fablico"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Seguridad"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/seguridad"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Sociedad y bienestar"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Transporte"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/transporte"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Turismo"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/turismo"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Urbanismo e infraestructuras."
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Vivienda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/kos/sector-publico/sector/vivienda"
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Pa\u00eds"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "URI"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Espa\u00f1a"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espa\u00f1a"
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla_ancha",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Comunidad/Ciudad Aut\u00f3noma"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "URI"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Andaluc\u00eda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Arag\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Principado de Asturias"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Illes Balears"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Canarias"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cantabria"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Castilla y Le\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Castilla-La Mancha"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Catalu\u00f1a"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Comunitat Valenciana"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Extremadura"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Galicia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Comunidad de Madrid"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Regi\u00f3n de Murcia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "C. Foral de Navarra"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Pa\u00eds Vasco"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "La Rioja"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ceuta"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Melilla"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla"
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "@class": "tabla_ancha",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Comunidad/Ciudad Aut\u00f3noma"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Provincia"
+                }
+              },{
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "URI Identificador"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "8",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Andaluc\u00eda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Almer\u00eda"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Almeria"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "C\u00e1diz"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cadiz"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "C\u00f3rdoba"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cordoba"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Granada"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Granada"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Huelva"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huelva"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ja\u00e9n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Jaen"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "M\u00e1laga"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Malaga"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Sevilla"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Sevilla"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "3",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Arag\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Huesca"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Huesca"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Teruel"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Teruel"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Zaragoza"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zaragoza"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Principado de Asturias"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Asturias"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Asturias"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Illes Balears"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Illes Balears"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Illes-Balears"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "2",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Canarias"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Las Palmas"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Las-Palmas"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Santa Cruz de Tenerife"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Santa-Cruz-Tenerife"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Cantabria"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cantabria"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cantabria"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "9",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Castilla y Le\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u00c1vila"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Avila"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Burgos"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Burgos"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Le\u00f3n"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Leon"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Palencia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Palencia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Salamanca"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Salamanca"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Segovia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Segovia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Soria"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Soria"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Valladolid"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valladolid"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Zamora"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Zamora"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "5",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Castilla-La Mancha"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Albacete"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Albacete"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ciudad Real"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ciudad-Real"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Cuenca"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Cuenca"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Guadalajara"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guadalajara"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Toledo"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Toledo"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "4",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Catalu\u00f1a"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Barcelona"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Barcelona"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Girona"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Girona"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Lleida"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lleida"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Tarragona"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Tarragona"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "3",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Comunitat Valenciana"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Alicante/Alacant"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alicante"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Castell\u00f3n/Castell\u00f3"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Valencia/Val\u00e8ncia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Valencia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "2",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Extremadura"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Badajoz"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Badajoz"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "C\u00e1ceres"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Caceres"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "4",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Galicia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "A Coru\u00f1a"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/A-Coruna"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Lugo"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Lugo"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ourense"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ourense"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Pontevedra"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Pontevedra"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Comunidad de Madrid"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Madrid"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Regi\u00f3n de Murcia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Murcia"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "C. Foral de Navarra"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Navarra"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Navarra"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "@rowspan": "3",
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Pa\u00eds Vasco"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u00c1lava"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Alava"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Guip\u00fazcoa"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Guipuzcoa"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Vizcaya"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Vizcaya"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "La Rioja"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "La Rioja"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/La-Rioja"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Ceuta"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Ceuta"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Ceuta"
+                }
+              }
+            ]
+          },{
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_centro",
+                  "#text": "Melilla"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Melilla"
+                }
+              },{
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Melilla"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pre": [
+      "<?xml version=\"1.0\"?>\n    <rdf:RDF\n      xmlns:time=\"http://www.w3.org/2006/time#\"\n      xmlns:dct=\"http://purl.org/dc/terms/\"\n      xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n      xmlns:dcat=\"http://www.w3.org/ns/dcat#\"\n      xmlns:foaf=\"http://xmlns.com/foaf/0.1/\"\n      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"\n      xmlns:tema=\"http://datos.gob.es/kos/sector-publico/sector/\"\n      xmlns:auto=\"http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/\"\n      xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"\n      xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n\n      <dcat:Catalog rdf:about=\"@@URI-catalogo@@\">\n        <!--\n          Identificador que se corresponde con el URI que identifica a el pr\u00f3pio cat\u00e1logo\n          p.e., http://datos.gob.es/catalogo/catalogoNacional\n        -->\n        <dct:identifier>@@URI-catalogo@@</dct:identifier>\n        <!--\n          El t\u00edtulo y la descripci\u00f3n se puede repetir varias veces para ofrecer representaciones en idiomas distintos\n        -->\n        <dct:title xml:lang=\"es\">@@t\u00edtulo-es@@</dct:title>\n        <dct:description xml:lang=\"es\">@@descripci\u00f3n@@</dct:description>\n        <!--\n          Organismo que publica el cat\u00e1logo, se usar\u00e1 un URI que lo describe:\n          p.e., http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901\n        -->\n        <dct:publisher rdf:resource=\"@@URI-organismo@@\" />\n        <!--\n          Tama\u00f1o del cat\u00e1logo (n\u00famero de datasets) expresado mediante un entero y\n          texto(s) (soporta varios idiomas).\n        -->\n        <dct:extent>\n          <dct:SizeOrDuration>\n            <rdf:value\n              rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\">@@n\u00famero-entero@@</rdf:value>\n            <rdfs:label xml:lang=\"es\">@@n\u00famero-texto@@</rdfs:label>\n          </dct:SizeOrDuration>\n        </dct:extent>\n        <!-- Las fechas tienen el formato YYYY-MM-DDTHH:MM:SS+TZ -->\n        <dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">@@fecha-creaci\u00f3n@@</dct:issued>\n        <dct:modified rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">@@actualizaci\u00f3n@@</dct:modified>\n        <!-- Idioma del cat\u00e1logo (repetir la propiedad tantas veces como idiomas) es|ga|en|ca|...-->\n        <dc:language>@@c\u00f3digo-idioma@@</dc:language>\n        <!--\n          La cobertura espacial del cat\u00e1logo.\n          Repetir la propiedad si es necesario haciendo referencia a un recurso del estilo:\n            - http://datos.gob.es/recurso/sector-publico/territorio/pais/Espana\n            - http://datos.gob.es/recurso/sector-publico/territorio/autonomia/Extremadura\n            - http://datos.gob.es/recurso/sector-publico/territorio/provincia/Caceres\n        -->\n        <dct:spatial rdf:resource=\"@@URI-localizaci\u00f3n@@\" />\n        <!--\n          Taxonom\u00eda de conceptos de tem\u00e1ticas:\n            - http://datos.gob.es/kos/sector-publico/sector/\n        -->\n        <dcat:themeTaxonomy rdf:resource=\"http://datos.gob.es/kos/sector-publico/sector/\" />\n        <!-- P\u00e1gina principal del pr\u00f3pio cat\u00e1logo, donde se representa visualmente -->\n        <foaf:homepage rdf:resource=\"@@URI-homepage-cat\u00e1logo@@\" />\n        <!-- Enlace a recurso con los t\u00e9rminos de uso generales (recomendable con metadatos autocontenidos) -->\n        <dct:license rdf:resource=\"@@URI-terminos-uso@@\" />\n        <!--\n          Especificaci\u00f3n de cada uno de los registros contenidos en el cat\u00e1logo.\n          Repetir propiedad por cada documento o recurso de informaci\u00f3n.\n        -->\n        <dcat:dataset>\n          <dcat:Dataset rdf:about=\"@@URI-dataset@@\">\n            <!-- Identificador que se corresponde con el URI que identifica a el propio dataset -->\n            <dct:identifier>@@URI-dataset@@</dct:identifier>\n            <!-- El t\u00edtulo y la descripci\u00f3n del dataset -->\n            <dct:title xml:lang=\"es\">@@t\u00edtulo-es@@</dct:title>\n            <dct:description xml:lang=\"es\">@@descripci\u00f3n@@</dct:description>\n            <!--\n              Tem\u00e1tica(s) primaria(s) del cat\u00e1logo. Repetir la propiedad si hay m\u00e1s de una.\n              Usar el esquema de conceptos normalizado:\n                - http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia\n                  http://datos.gob.es/kos/sector-publico/sector/cultura-ocio\n                  http://datos.gob.es/kos/sector-publico/sector/demografia\n                  http://datos.gob.es/kos/sector-publico/sector/deporte\n                  http://datos.gob.es/kos/sector-publico/sector/economia\n                  http://datos.gob.es/kos/sector-publico/sector/educacion\n                  http://datos.gob.es/kos/sector-publico/sector/empleo\n                  http://datos.gob.es/kos/sector-publico/sector/energia\n                  http://datos.gob.es/kos/sector-publico/sector/hacienda\n                  http://datos.gob.es/kos/sector-publico/sector/industria\n                  http://datos.gob.es/kos/sector-publico/sector/legislacion-justicia\n                  http://datos.gob.es/kos/sector-publico/sector/medio-ambiente\n                  http://datos.gob.es/kos/sector-publico/sector/medio-rural\n                  http://datos.gob.es/kos/sector-publico/sector/salud\n                  http://datos.gob.es/kos/sector-publico/sector/sector-publico\n                  http://datos.gob.es/kos/sector-publico/sector/seguridad\n                  http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar\n                  http://datos.gob.es/kos/sector-publico/sector/transporte\n                  http://datos.gob.es/kos/sector-publico/sector/turismo\n                  http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras\n                  http://datos.gob.es/kos/sector-publico/sector/vivienda\n            -->\n            <dcat:theme rdf:resource=\"@@URI-sector-tem\u00e1tico@@\" />\n            <!-- Palabra(s) clave, que indica(n) conceptos tem\u00e1ticos alternativos al tema primario -->\n            <dcat:keyword>@@palabra-clave@@</dcat:keyword>\n            <!-- Las fechas pueden ser de tipo\n                - http://www.w3.org/2001/XMLSchema#date (YYYY-MM-DD)\n                - http://www.w3.org/2001/XMLSchema#dateTime (YYYY-MM-DDTHH:MM:SS+TZ)\n            -->\n            <dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">@@creaci\u00f3n@@</dct:issued>\n            <dct:modified rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">@@actualiz.@@</dct:modified>\n            <!--\n              Periodo de actualizaci\u00f3n estimada de los datos del dataset.\n              -->\n              <dct:accrualPeriodicity>\n              <dct:Frequency>\n                <rdfs:label>Cada @@intervalo-tiempo@@</rdfs:label>\n                <rdf:value>\n                  <time:DurationDescription>\n                   <rdfs:label>@@intervalo-tiempo@@</rdfs:label>\n                   <!-- puede ser time:days o otra magnitud (weeks, months, etc.) -->\n                   <time:days rdf:datatype=\"http://www.w3.org/2001/XMLSchema#decimal\">@@n@@</time:days>\n                  </time:DurationDescription>\n                </rdf:value>\n              </dct:Frequency>\n            </dct:accrualPeriodicity>\n            <!-- Idioma(s) en los que est\u00e1n especificados los datos (@@es|en|ca|ga...) -->\n            <dc:language>@@idioma@@</dc:language>\n            <!-- Organismo que expone los datos. Se usar\u00e1 un URI que lo identifique. -->\n            <dct:publisher rdf:resource=\"@@URI-organismo@@\" />\n            <!-- URI donde se describe las condiciones de uso aplicables a los datos -->\n            <dct:license rdf:resource=\"@@URI-licencia@@\" />\n            <!--\n              La cobertura espacial de los datos\n              Repetir la propiedad si es necesario, haciendo referencia a un recurso del estilo:\n                - http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espana\n                - http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura\n                - http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Caceres\n            -->\n            <dct:spatial rdf:resource=\"@@URI-localizaci\u00f3n@@\" />\n            <!--\n              La cobertura temporal de los datos (En el caso que sea necesario)\n              Se define el inicio y el fin mediante xsd:dateTime (YYYY-MM-DDTHH:MM:SS+TZ)\n            -->\n            <dct:temporal>\n              <time:Interval>\n                <rdf:type rdf:resource=\"http://purl.org/dc/terms/PeriodOfTime\" />\n                <time:hasBeginning>\n                  <time:Instant>\n                    <time:inXSDDateTime rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">\n                        @@fecha-hora-inicio@@\n                      </time:inXSDDateTime>\n                  </time:Instant>\n                </time:hasBeginning>\n               <time:hasEnd>\n                 <time:Instant>\n                    <time:inXSDDateTime rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">\n                      @@fecha-hora-fin@@\n                    </time:inXSDDateTime>\n                  </time:Instant>\n                </time:hasEnd>\n              </time:Interval>\n            </dct:temporal>\n            <!-- Enlaces a recursos relacionados -->\n            <dct:references rdf:resource=\"@@URI-recurso-relacionado@@\" />\n            <!--\n              Las distintas distribuciones (1..n)\n            -->\n            <dcat:distribution>\n              <dcat:Distribution>\n                <!-- Identificador que se corresponde con el URI que identifica a la propia distribuci\u00f3n -->\n                <dct:identifier>@@URI-distribuci\u00f3n@@</dct:identifier>\n                <dct:title xml:lang=\"es\">@@nombre-distribucion-es@@</dct:title>\n                <!-- URL de acceso a los datos -->\n                <dcat:accessURL\n                  rdf:datatype=\"http://www.w3.org/2001/XMLSchema#anyURI\">@@URL-acceso@@</dcat:accessURL>\n                <!-- Formato MIME de los datos de la distribuci\u00f3n. -->\n                <dct:format>\n                  <dct:IMT>\n                    <rdf:value>${valor_MIME_Type (p.e., text/csv)}</rdf:value>\n                    <rdfs:label>${texto_legible_ (p.e., CSV)}</rdfs:label>\n                  </dct:IMT>\n                </dct:format>\n                <!--\n                  Tama\u00f1o de la distribuci\u00f3n del documento o recurso de informaci\u00f3n.\n                  Se representa en bytes (n\u00famero decimal) y con una etiqueta textual legible (p.e., 30KB)\n                -->\n                <dcat:byteSize rdf:datatype=\"http://www.w3.org/2001/XMLSchema#decimal\">\n                       @@num-bytes@@\n                </dcat:byteSize>\n                <!--\n                  Si se conoce alg\u00fan documento con informaci\u00f3n adicional sobre los datos y el\n                  acceso a los mismos, se puede hacer referencia mediante un texto y la URL al documento\n                -->\n                <dct:relation>\n                  <rdf:Description>\n                    <rdfs:label xml:lang=\"es\">@@texto-enlace@@</rdfs:label>\n                    <foaf:page rdf:resource=\"@@URL-documento@@\" />\n                  </rdf:Description>\n                </dct:relation>\n              </dcat:Distribution>\n            </dcat:distribution>\n          </dcat:Dataset>\n        </dcat:dataset>\n      </dcat:Catalog>\n    </rdf:RDF>",
+      "@prefix dct: <http://purl.org/dc/terms/>.\n    @prefix dc: <http://purl.org/dc/elements/1.1/>.\n    @prefix dcat: <http://www.w3.org/ns/dcat#>.\n    @prefix foaf: <http://xmlns.com/foaf/0.1/>.\n    @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.\n    @prefix tema: <http://datos.gob.es/kos/sector-publico/sector/>.\n    @prefix time: <http://www.w3.org/2006/time#>.\n    @prefix xml: <http://www.w3.org/XML/1998/namespace>.\n    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.\n    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.\n    @prefix auto: <http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/>.\n\n\n    #El cat\u00e1logo\n    $$URI-catalogo$$ a dcat:Catalog;\n       dct:title \"$$t\u00edtulo-es$$\"@es;\n       dct:description \"$$descripci\u00f3n$$\"@es;\n       dct:identifier \"$$URI-catalogo\";\n       # N\u00famero de conjuntos de datos\n       dct:extent\n       [\n          a dct:SizeOrDuration;\n          rdf:value \"$$n\u00famero-entero$$\"^^xsd:nonNegativeInteger;\n          rdfs:label \"$$n\u00famero-texto$$\"@es.\n       ];\n       # Fechas de creaci\u00f3n y actualizaci\u00f3n\n       dct:issued \"$$fecha-creaci\u00f3n$$\"^^xsd:dateTime;\n       dct:modified \"$$actualizaci\u00f3n$$\"^^xsd:dateTime;\n       dc:language \"$$c\u00f3digo-idioma$$\";\n       dct:publisher <$$URI-organismo$$>;\n       dct:license <$$URI-t\u00e9rminos-uso$$>;\n       dct:spatial <$$URI-localizaci\u00f3n$$>;\n       dcat:themeTaxonomy <http://datos.gob.es/kos/sector-publico/sector/>;\n       foaf:homepage <$$URI-homepage-cat\u00e1logo$$>;\n\n       # Conjuntos de datos que pertenecen al cat\u00e1logo  (m\u00faltiples)\n       dcat:dataset <$$URI-dataset$$>.\n\n\n    # Los conjuntos de datos asociados al cat\u00e1logo\n    <$$URI-dataset$$> a dcat:Dataset;\n       dct:title \"$$t\u00edtulo-es$$\"@es;\n       dct:description \"$$descripci\u00f3n$$\"@es;\n       dcat:theme <$$URI-sector-tem\u00e1tico$$>;\n       dcat:keyword \"$$palabra-clave$$\",\"$$palabra-clave2$$\",\"$$palabra-claveN$$\";\n       # Frecuencia de actualizaci\u00f3n aproximada\n       dct:accrualPeriodicity\n       [\n          a dct:Frequency;\n          rdf:value\n          [\n             a time:DurationDescription;\n             rdfs:label \"$$intervalo-tiempo$$\";\n             time:days $$n$$.\n          ];\n          rdfs:label \"Cada $$intervalo-tiempo$$\".\n       ];\n       dct:publisher <$$URI-organismo$$>;\n       dct:identifier \"$$URI-dataset$$\";\n       dct:issued \"$$creaci\u00f3$$\"^^xsd:date;\n       dct:modified \"$$actualizaci\u00f3n$$\"^^xsd:date;\n       dc:language \"$$idioma$$\";\n       dct:license <$$URI-licencia$$>;\n       dct:spatial <$$URI-localizaci\u00f3n$$>;\n       dct:references <$$URI-dataset$$>;\n       dct:temporal\n       [\n          a dct:PeriodOfTime, time:Interval;\n          time:hasBeginning\n          [\n             a time:Instant;\n             time:inXSDDateTime \"$$fecha-hora-inicio$$\"^^xsd:dateTime.\n          ];\n          time:hasEnd\n          [\n             a time:Instant;\n             time:inXSDDateTime \"$$fecha-hora-fin$$\"^^xsd:dateTime.\n          ].\n       ];\n       # Cada una de las distribuciones del documento o recurso de informaci\u00f3n\n       dcat:distribution\n       [\n          a dcat:Distribution;\n          dct:identifier \"$$URI-distribuci\u00f3n$$\";\n          dct:title \"$$nombre-distribucion-es$$\"@es;\n          dct:format\n          [\n             a dct:IMT;\n             rdf:value \"${valor_MIME_Type (p.e., text/csv)}\";\n             rdfs:label \"${texto_legible_ (p.e., CSV)}\".\n          ];\n          dct:relation\n          [\n             rdfs:label \"$$texto-enlace$$\"@es;\n             foaf:page <$$URL-documento$$>.\n          ];\n          dcat:accessURL \"$$URL-acceso$$\"^^xsd:anyURI;\n          dcat:byteSize \"$$num-bytes-texto$$\".   ]."
+    ]
+  }
+}
+}

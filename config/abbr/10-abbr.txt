@@ -1,16 +1,3 @@
-include: guias_ccn_stic.txt
-
-r'\s*(BOE-[A-Z\-0-9]+)#([a-z0-9]+)'
-s'<sup title="\2 #\3"><a href="https://www.boe.es/buscar/act.php?id=\2#\3">?</a></sup>'
-
-r'[Ll]ey 37/2007(, de 16 de noviembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814
-Ley sobre reutilización de la información del sector público
-
-r'[Ll]ey 34/2002(, de 11 de julio)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758
-Servicios de la sociedad de la información y de comercio electrónico
-
 CMS
 https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
 Sistema de gestión de contenidos
@@ -19,29 +6,13 @@ Sistema de gestión de contenidos
 http://administracion.gob.es/
 Punto de Acceso General
 
-r'[oO]rden HAP/1949/2014(, de 13 de octubre)?'
-https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-10908
-Regula el Punto de Acceso General de la Administración General del Estado y crea su sede electrónica
-
 CCN-CERT
 https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional_Computer_Emergency_Response_Team
 Centro Criptológico Nacional Computer Emergency Response Team
 
-r'[Gg]uías? CCN-STIC'
+r'[Gg]uías? CCN-STIC
 https://www.ccn-cert.cni.es/guias.html
 Guías CCN-STIC de Seguridad
-
-r'[pP]rocedimiento [aA]dministrativo [Cc]omún'
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
-Ley 39/2015, de 1 de octubre
-
-r'PAC(AP)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
-Ley del Procedimiento Administrativo Común (Ley 39/2015, de 1 de octubre)
-
-i'Ley 39/2015,?( de 1 de octubre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
-Procedimiento Administrativo Común de las Administraciones Públicas
 
 ENAC
 https://es.wikipedia.org/wiki/Entidad_Nacional_de_Acreditaci%C3%B3n
@@ -51,55 +22,39 @@ Facilita RGPD
 https://www.aepd.es/es/guias-y-herramientas/herramientas/facilita-rgpd
 Herramienta de ayuda para empresas que realicen un tratamiento de datos personales de escaso riesgo para el cumplimiento del RGPD
 
-r'ASSI(-RGPD)?'
+r'ASSI(-RGPD)?
 https://administracionelectronica.gob.es/ctt/assirgpd
 Aplicación para Auditoría de Seguridad de los Sistemas de Información, en relación al RGPD
 
-r'[Rr]eglamento \(?UE\)? 910/2014'
-https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014R0910
-Identificación electrónica y servicios de confianza
-
-r'[Dd]ecisión de [eE]jecución \(?UE\)? 2015/1506|Decision 1506'
-https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv%3AOJ.L_.2015.235.01.0037.01.SPA
-Formatos de firmas electrónicas avanzadas y sellos avanzados que deben reconocer el sector público
-
-r'[Ll]ey [Oo]rgánica 3/2007(, de 22 de marzo)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115
-Igualdad de entre mujeres y hombres
-
-r'[Ll]ey [Oo]rgánica 1/2004(, de 28 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760
-Violencia de género
-
-r'[sS]ello( electrónica)? avanzado'
+r'[sS]ello( electrónica)? avanzado
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-avanzado
 Sello electrónico que cumple los siguientes requisitos: a) estar vinculado al creador del sello de manera única; b) permitir la identificación del creador del sello; c) haber sido creado utilizando datos con un alto nivel de confianza, bajo su control exclusivo, y estar vinculado con los datos a que se refiere de modo tal que cualquier modificación ulterior de los mismos sea detectable.
 
-r'[sS]ello( electrónica)? cualificado'
+r'[sS]ello( electrónica)? cualificado
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-cualificado
 Sello electrónico avanzado que se crea mediante un dispositivo cualificado de creación de sellos electrónicos y que se basa en un certificado cualificado de sello electrónico.
 
-r'[sS]ello( electrónica)? de tiempo( electrónico)?'
+r'[sS]ello( electrónica)? de tiempo( electrónico)?
 https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo
 Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.
 
-r'eSello|[sS]ello electrónico'
+r'eSello|[sS]ello electrónico
 https://dpej.rae.es/lema/sello-electr%C3%B3nico
 Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.
 
-r'[Ff]irma( electrónica)? avanzada'
+r'[Ff]irma( electrónica)? avanzada
 https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada
 Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.
 
-r'[Ff]irma( electrónica)? reconocida'
+r'[Ff]irma( electrónica)? reconocida
 https://dpej.rae.es/lema/firma-electr%C3%B3nica-reconocida
 Firma electrónica avanzada basada en un certificado reconocido y generada mediante un dispositivo seguro de creación de firma.
 
-r'[cC]ertificado( electrónico)? reconocido( electrónico)?'
+r'[cC]ertificado( electrónico)? reconocido( electrónico)?
 https://dpej.rae.es/lema/certificado-electr%C3%B3nico-reconocido
 Documento firmado electrónicamente por un prestador de servicios de certificación que vincula unos datos de verificación de firma a un firmante y confirma su identidad.
 
-r'[eE]IDAS'
+r'[eE]IDAS
 https://es.wikipedia.org/wiki/EIDAS
 Sistema europeo de reconocimiento de identidades electrónicas
 
@@ -110,10 +65,6 @@ Esquema Nacional de Seguridad
 ENI
 https://administracionelectronica.gob.es/ctt/eni
 Esquema Nacional de Interoperabilidad (Real Decreto 4/2010, de 8 de enero)
-
-i'Real Decreto 4/2010(, de 8 de enero)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331
-Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica
 
 SOC
 https://es.wikipedia.org/wiki/Centro_de_operaciones_de_seguridad
@@ -166,7 +117,7 @@ Calidad de servicio
 IoT
 Internet de las Cosas
 
-r'[xX]DSL'
+r'[xX]DSL
 x - línea de abonado digital (DSL)
 
 NGN
@@ -192,15 +143,15 @@ MDM
 https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_dispositivos_m%C3%B3viles
 Gestión de dispositivos móviles
 
-r'([Mm]odelo )?TCP/IP'
+r'([Mm]odelo )?TCP/IP
 https://es.wikipedia.org/wiki/Modelo_TCP/IP
 Modelo TCP/IP
 
-r'([Mm]odelo )?OSI'
+r'([Mm]odelo )?OSI
 https://es.wikipedia.org/wiki/Modelo_OSI
 Modelo OSI
 
-r'([Aa]rquitectura )?ANSI/SPARC'
+r'([Aa]rquitectura )?ANSI/SPARC
 https://es.wikipedia.org/wiki/Arquitectura_ANSI-SPARC
 Arquitectura ANSI-SPARC
 
@@ -254,14 +205,14 @@ ITU-T
 https://es.wikipedia.org/wiki/Sector_de_Normalizaci%C3%B3n_de_las_Telecomunicaciones_de_la_UIT
 Comité Consultivo Internacional Telegráfico y Telefónico
 
-r'(rfc|RFC) *(\d+)'
+r'(rfc|RFC) *(\d+)
 https://www.ietf.org/rfc/rfc\3.txt
 
-r'CRLs?'
+r'CRLs?
 https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados
 Listas de revocación de certificados
 
-r'(AC|CA)s?'
+r'(AC|CA)s?
 https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n
 Autoridad de certificación
 
@@ -300,10 +251,10 @@ Privacy Enhanced Mail
 RDN
 Nombre distinguido relativo (usado en LDAP y X.509)
 
-r'(notación )?DN'
+r'(notación )?DN
 Nombre distinguido (usado en LDAP y X.509)
 
-r'LDAP[Ss]'
+r'LDAP[Ss]
 LDAP sobre SSL
 
 LDAP
@@ -318,7 +269,7 @@ SAN
 https://en.wikipedia.org/wiki/Subject_Alternative_Name
 Subject Alternative Name
 
-r'Key ?Usage'
+r'Key ?Usage
 https://ldapwiki.com/wiki/KeyUsage
 
 CDP
@@ -332,7 +283,7 @@ CAdES
 https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)
 Firmas Electrónicas Avanzadas CMS
 
-r'(XML-?D[Ss]ig|DSig XML|XML-Sig)'
+r'(XML-?D[Ss]ig|DSig XML|XML-Sig)
 https://es.wikipedia.org/wiki/Firma_XML
 Firma XML
 
@@ -356,7 +307,7 @@ ASiC
 https://es.wikipedia.org/wiki/Contenedores_de_firmas_asociadas
 Contenedores de firmas asociadas
 
-r'PSCs?'
+r'PSCs?
 https://es.wikipedia.org/wiki/Prestador_de_servicios_de_certificaci%C3%B3n
 Prestador de servicios de certificación
 
@@ -367,11 +318,11 @@ Lista de confianza de prestadores cualificados de servicios electrónicos de con
 EEMM
 Estados miembros
 
-r'Cl@ve [fF]irma'
+r'Cl@ve [fF]irma
 https://clave.gob.es/clave_Home/dnin/queEs.html
 Permite realizar firma electrónica mediante certificados electrónicos centralizados (almacenados y custodiados por la AP)
 
-r'Cl@ve [pP]ermanente'
+r'Cl@ve [pP]ermanente
 https://clave.gob.es/clave_Home/Clave-Permanente/queEs.html
 Acceso mediante usuario y contraseña, reforzado con claves de un solo uso por SMS (permite firma en nube)
 
@@ -383,11 +334,11 @@ Cl@ve
 https://clave.gob.es/clave_Home/clave/queEs.html
 Sistema orientado a unificar y simplificar el acceso electrónico de los ciudadanos a los servicios públicos
 
-r'[cC]liente @[Ff]irma'
+r'[cC]liente @[Ff]irma
 https://administracionelectronica.gob.es/ctt/clienteafirma
 Herramienta de firma electrónica en entornos de escritorio y dispositivos móviles
 
-r'@[Ff]irma'
+r'@[Ff]irma
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Servicios_Comunes_Firma_Electronica/FAQ-AFIRMA.html
 Solución tecnológica en la que se basa la Plataforma de validación y firma electrónica
 
@@ -407,10 +358,6 @@ FIRe
 https://administracionelectronica.gob.es/ctt/fire
 Solución que simplifica el uso y realización de firmas electrónicas de usuario
 
-Resolución de 14 de julio de 2017
-https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-8393
-Condiciones de uso de firma electrónica no criptográfica (SGAD)
-
 SGAD
 https://es.wikipedia.org/wiki/Secretar%C3%ADa_General_de_Administraci%C3%B3n_Digital
 Secretaría General de Administración Digital
@@ -419,11 +366,11 @@ CSV
 https://es.wikipedia.org/wiki/C%C3%B3digo_Seguro_de_Verificaci%C3%B3n
 Código Seguro de Verificación
 
-r'TSPs?'
+r'TSPs?
 https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza
 Prestador de servicios de confianza
 
-r'QTSP?'
+r'QTSP?
 https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza#Funci%C3%B3n_de_un_prestador_de_servicio_de_confianza_cualificado
 Prestador cualificado de servicios de confianza
 
@@ -484,7 +431,7 @@ Un documento firmado por este certificado no puede repudiarse (KeyUsage anterior
 MINHAC
 Ministerio de Hacienda
 
-r'[Cc]ard-verifiables?'
+r'[Cc]ard-verifiables?
 https://en.wikipedia.org/wiki/Card_Verifiable_Certificate
 Certificados verificable por tarjeta (ej de uso: tarjetas inteligentes)
 
@@ -504,61 +451,13 @@ Comisión Europea
 https://es.wikipedia.org/wiki/Comisi%C3%B3n_Europea
 Institución que ostenta el poder ejecutivo y la iniciativa legislativa
 
-r'[nN]odos? eIDAS'
+r'[nN]odos? eIDAS
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Identidad_y_firmaelectronica/Nodo-eIDAS.html
 Permite el reconocimiento mutuo de identidades electrónicas en Europa
 
 keyCertSign
 https://ldapwiki.com/wiki/KeyCertSign
 Este certificado puede usarse para verificar firmas
-
-RGPD
-https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos
-Reglamento General de Protección de Datos (Reglamento EU 2016/679)
-
-r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?'
-https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
-Reglamento General de Protección de Datos (RGPD)
-
-r'Ley Orgánica 15/1999(, de 13 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750
-Derogada: Protección de Datos de Carácter Personal
-
-r'Ley 59/2003(, de 19 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2003-23399
-Derogada: Firma electrónica
-
-r'Real Decreto 513/2017(, de 22 de mayo)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606
-Reglamento de instalaciones de protección contra incendios
-
-r'Ley 56/2007(, de 28 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2007-22440
-Medidas de Impulso de la Sociedad de la Información
-
-r'Ley 25/2007(, de 18 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2007-18243
-Conservación de datos relativos a las comunicaciones electrónicas y a las redes públicas de comunicaciones
-
-r'Ley 28/2006(, de 18 de julio)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2006-13011
-Derogada: Agencias estatales para la mejora de los servicios públicos
-
-r'Ley 32/2003(, de 3 de noviembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2003-20253
-Derogada: General de Telecomunicaciones
-
-r'Real Decreto 1553/2005(, de 23 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2005-21163
-Expedición del documento nacional de identidad y sus certificados de firma electrónica
-
-r'Real Decreto 428/1993(, de 26 de marzo)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-1993-11252
-Derogada: Estatuto de la Agencia de Protección de Datos
-
-Ley Orgánica 3/2018
-https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673
-Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD)
 
 transposición
 https://es.wikipedia.org/wiki/Transposici%C3%B3n_(derecho)
@@ -572,10 +471,6 @@ DPD
 https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/persona-delegada-en-proteccion-de
 Delegado de Protección de Datos
 
-r'LOPD-?GDD'
-https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Protecci%C3%B3n_de_Datos_Personales_y_garant%C3%ADa_de_los_derechos_digitales
-Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales
-
 EIPD
 https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/evaluaciones-de-impacto
 Evaluaciones de impacto de protección de datos
@@ -584,7 +479,7 @@ Espacio Económico Europeo
 https://es.wikipedia.org/wiki/Espacio_Econ%C3%B3mico_Europeo
 Unión Europea más Liechtenstein, Islandia y Noruega
 
-r'BCR'
+r'BCR
 https://en.wikipedia.org/wiki/Binding_corporate_rules
 Normas corporativas vinculantes (RGPD)
 
@@ -592,7 +487,7 @@ Legitimación activa
 https://dpej.rae.es/lema/legitimaci%C3%B3n-activa
 Capacidad para actuar como parte demandante o recurrente en un proceso judicial, con base en la titularidad de un derecho o interés legítimo que se ostenta frente a la parte demandada o recurrida, respectivamente.
 
-i'foliado|foliación'
+i'foliado|foliación
 Numerar correlativamente cada una de las hojas de un documento
 
 Punto de Acceso General
@@ -611,27 +506,15 @@ Sistema de información por capas
 https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/
 Dividir la información facilitada a los usuarios en una primera capa más genérica y una segunda capa más detallada
 
-r'[sS]istemas? de denuncias internas'
+r'[sS]istemas? de denuncias internas
 https://guiasjuridicas.wolterskluwer.es/Content/Documento.aspx?params=H4sIAAAAAAAEAMtMSbF1jTAAAkNjS1NjI7Wy1KLizPw8WyMDQwtDIwNTkEBmWqVLfnJIZUGqbVpiTnEqAMNzKCI1AAAAWKE
 Sistema para poner en conocimiento de una entidad privada la comisión de actos que pudieran resultar contrarios a la normativa
 
-Ley de protección jurídica del menor
-https://www.boe.es/buscar/act.php?id=BOE-A-1996-1069
-Ley Orgánica 1/1996, de 15 de enero
-
-RJSP
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
-Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
-
-i'Ley 40/2015(, de 1 de octubre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
-Ley de Régimen Jurídico del Sector Público (Ley 40/2015, de 1 de octubre)
-
-r'NTIs?'
+r'NTIs?
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html
 Normas técnicas de Interoperabilidad (pertenece al ENI)
 
-i'Apud[\s\-]+Acta'
+i'Apud[\s\-]+Acta
 https://sedejudicial.justicia.es/-/apoderamiento-apud-acta
 Apoderamiento realizado ante Letrado de la Administración de Justicia
 
@@ -657,7 +540,7 @@ DIR3
 https://administracionelectronica.gob.es/ctt/dir3
 Directorio Común de Unidades Orgánicas y Oficinas, inventario de las unidades orgánicas / organismos públicos, sus oficinas asociadas y unidades de gestión económica-presupuestaria
 
-r'SICRES\d+?'
+r'SICRES\d+?
 https://administracionelectronica.gob.es/ctt/sicres
 Normaliza el Modelo de Datos para el intercambio de asientos entre Entidades Registrales (ENI)
 
@@ -665,7 +548,7 @@ PGDE
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Archivo_electronico/pae_Politica-de-gestion-de-documentos-electronicos.html
 Política de gestión de documentos electrónicos (directrices para la creación y gestión de documentos auténticos, fiables y disponibles a lo largo del tiempo)
 
-i'persona(lidad|lidades|s)? jurídicas?'
+i'persona(lidad|lidades|s)? jurídicas?
 https://es.wikipedia.org/wiki/Persona_jur%C3%ADdica
 Individuo con derechos y obligaciones que existe no como persona física sino como institución creada por una o más personas físicas para cumplir un objetivo social con o sin fines de lucro
 
@@ -681,10 +564,6 @@ Administración Pública
 INE
 https://es.wikipedia.org/wiki/Instituto_Nacional_de_Estad%C3%ADstica_(Espa%C3%B1a)
 Instituto Nacional de Estadística
-
-BOE
-https://es.wikipedia.org/wiki/Bolet%C3%ADn_Oficial_del_Estado
-Boletín Oficial del Estado
 
 DO
 https://es.wikipedia.org/wiki/Diario_oficial
@@ -710,7 +589,7 @@ EIF
 https://es.wikipedia.org/wiki/Marco_Europeo_de_Interoperabilidad
 Marco Europeo de Interoperabilidad
 
-r'([Rr]ed )?SARA'
+r'([Rr]ed )?SARA
 https://es.wikipedia.org/wiki/Sistema_de_Aplicaciones_y_Redes_para_las_Administraciones
 Sistemas de Aplicaciones y Redes para las Administraciones (conjunto de infraestructuras que conecta las redes de las AAPP Españolas e Instituciones Europeas)
 
@@ -722,40 +601,32 @@ Plan de Direccionamiento de la Administración
 https://administracionelectronica.gob.es/ctt/plandira
 Define un espacio de direccionamiento privado para la Administración Pública y que facilita la coordinación entre planes de numeración IP
 
-i'Política de firma electrónica y de certificados de la AGE|Política Marco de Firma Electrónica basada en Certificados'
+i'Política de firma electrónica y de certificados de la AGE|Política Marco de Firma Electrónica basada en Certificados
 https://administracionelectronica.gob.es/ctt/politicafirma
 Define un modelo de esquema de referencia para la identificación y autenticación electrónica (PACAP Ley 39/2015)
 
-r'[fF]irmas? longevas?'
+r'[fF]irmas? longevas?
 Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez
 
-r'PreparaTic27 - Pack\d+/\d+'
+r'PreparaTic27 - Pack\d+/\d+
 {filename}/posts/preparatic/packs.md
 
-r'eSedes?'
+r'eSedes?
 Sede electrónica
 
-r'eDocs?'
+r'eDocs?
 Documentos electrónicos
 
-r'eExpedientes?'
+r'eExpedientes?
 Expediente electrónico
 
 ISO 8601
 https://es.wikipedia.org/wiki/ISO_8601
 Estandar ISO para representación de fechas y horas (ej: YYYY-MM-DDTHH:MM:SS)
 
-r'Ley 11/2007(, de 22 de junio)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2007-12352
-Derogada: Acceso electrónico de los ciudadanos a los Servicios Públicos
-
 PDF/A
 https://es.wikipedia.org/wiki/PDF/A
 Subconjunto de PDF obtenido excluyendo aquellas características superfluas para el archivado a largo plazo
-
-r'[rR]eal [Dd]ecreto 1164/2002(,de 8 de noviembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2002-22192
-Regula la conservación del patrimonio documental con valor histórico, el control de la eliminación de otros documentos y la conservación de documentos administrativos en soporte distinto al original
 
 eFirma
 Firma electrónica
@@ -771,10 +642,10 @@ ACID-T
 https://www.ccn-cert.cni.es/publico/ens/ens/index.html#!1067
 Dimensiones de seguridad (ENS): Autenticidad, Confidencialidad, Integridad, Disponibilidad, Trazabilidad
 
-r'docs'
+r'docs
 documentos
 
-r'e-EMGDE'
+r'e-EMGDE
 https://administracionelectronica.gob.es/ctt/eemgde
 Esquema de Metadatos para la Gestión del Documento Electrónico
 
@@ -782,7 +653,7 @@ RISP
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Gobierno_Abierto_Inicio/pae_Reutilizacion_de_la_informacion_en_el_sector_publico.html
 Reutilización de la información del Sector Público
 
-r'URIs?'
+r'URIs?
 https://es.wikipedia.org/wiki/Identificador_de_recursos_uniforme
 Identificador de recursos uniforme
 
@@ -818,7 +689,7 @@ RDF
 https://es.wikipedia.org/wiki/Resource_Description_Framework
 Marco de Descripción de Recursos
 
-r'N3'
+r'N3
 https://es.wikipedia.org/wiki/Notation_3
 Notation 3
 
@@ -846,7 +717,7 @@ MHTML
 https://es.wikipedia.org/wiki/MHTML
 MIME HTML, estándar para incluir recursos que en páginas HTML usualmente están enlazados externamente
 
-r'ISO/IEC 26300:?2006'
+r'ISO/IEC 26300:?2006
 https://es.wikipedia.org/wiki/OpenDocument
 OpenDocument
 
@@ -862,15 +733,15 @@ WMS
 https://es.wikipedia.org/wiki/Web_Map_Service
 Servicio Web Map
 
-i'gzip'
+i'gzip
 https://es.wikipedia.org/wiki/Gzip
 GNU ZIP
 
-r'ISAAR ?\(?CPF\)?'
+r'ISAAR ?\(?CPF\)?
 https://es.wikipedia.org/wiki/ISAAR(CPF)
 Norma Internacional sobre los Registros de Autoridad de Archivos relativos a Instituciones, Personas y Familias
 
-r'ISAD ?\(?G\)?'
+r'ISAD ?\(?G\)?
 https://es.wikipedia.org/wiki/ISAD(G)
 Norma Internacional General de Descripción Archivística
 
@@ -885,7 +756,7 @@ Componentes y Documentos Interoperables para la Contratación Electrónica
 Facturae
 Factura electrónica
 
-r'SCSP(v3)?'
+r'SCSP(v3)?
 https://administracionelectronica.gob.es/ctt/scsp
 Sustitución de Certificados en papel
 
@@ -913,39 +784,9 @@ NTP
 https://es.wikipedia.org/wiki/Network_Time_Protocol
 Network Time Protocol
 
-r'IP[Ss]ec'
+r'IP[Ss]ec
 https://es.wikipedia.org/wiki/IPsec
 Internet Protocol security
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2012-13501
-NTI de Catálogo de estándares
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13169
-NTI Documento Electrónico
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13168
-NTI Digitalización de Documentos
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13170
-NTI Expediente Electrónico
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2016-10146
-NTI Política de Firma y Sello Electrónicos y de Certificados de la Administración
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2012-10048
-NTI Política de gestión de documentos electrónicos
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13172
-NTI Procedimientos de copiado auténtico y conversión entre documentos electrónicos
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2013-2380
-NTI Reutilización de recursos de la información
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13174
-NTI Modelo de Datos para el Intercambio de asientos entre las entidades registrales
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2021-13749
-NTI Modelo de Datos para el Intercambio de asientos entre las entidades registrales
 
 OID
 https://es.wikipedia.org/wiki/Identificador_de_objeto
@@ -955,9 +796,6 @@ WS-Security
 https://es.wikipedia.org/wiki/WS-Security
 Seguridad en Servicios Web
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2012-10049
-NTI Protocolos de intermediación de datos
-
 OCDE
 https://es.wikipedia.org/wiki/Organizaci%C3%B3n_para_la_Cooperaci%C3%B3n_y_el_Desarrollo_Econ%C3%B3micos
 Organización para la Cooperación y el Desarrollo Económicos
@@ -966,7 +804,7 @@ ONU
 https://es.wikipedia.org/wiki/Organizaci%C3%B3n_de_las_Naciones_Unidas
 Organización de las Naciones Unidas
 
-i'Plataforma de Intermediación (MINHAP|del MINHAP|del Ministerio de Hacienda y Administraciones Públicas|de datos)'
+i'Plataforma de Intermediación (MINHAP|del MINHAP|del Ministerio de Hacienda y Administraciones Públicas|de datos)
 https://administracionelectronica.gob.es/ctt/svd
 Plataforma de Intermediación
 
@@ -978,14 +816,11 @@ WSDL
 https://es.wikipedia.org/wiki/WSDL
 Web Services Description Language
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2012-10050
-NTI Relación de modelos de datos
-
-r'JOINUP|Joinup'
+r'JOINUP|Joinup
 https://en.wikipedia.org/wiki/Joinup
 Plataforma colaborativa de la UE, perteneciente al programa ISA (soluciones de interoperabilidad para AP europeas)
 
-r'[pP]rograma ISA²?|ISA²'
+r'[pP]rograma ISA²?|ISA²
 https://datos.gob.es/es/noticia/programa-isa-colaboracion-mas-alla-de-las-fronteras-electronicas-y-los-diferentes-sectores
 Soluciones de interoperabilidad para AP europeas
 
@@ -999,20 +834,17 @@ Antigua (de 1995) iniciativa de COAXI para la normalización del intercambio de 
 SGAS
 Sistema de Gestión de Activos Semánticos del CISE
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13173
-NTI requisitos de conexión a la red de comunicaciones de las AP
-
 MPTAP
 Ministerio de Política Territorial y Administración Pública
 
-r'(s|S-|s-)?TESTA(-II|-NG)?'
+r'(s|S-|s-)?TESTA(-II|-NG)?
 https://en.wikipedia.org/wiki/Trans_European_Services_for_Telematics_between_Administrations
 Secure Trans European Services for Telematics between Administrations
 
 PAS
 Proveedor de Acceso a la Red SARA
 
-r'QoS'
+r'QoS
 https://es.wikipedia.org/wiki/Calidad_de_servicio
 Quality of Service
 
@@ -1024,11 +856,11 @@ IDS
 https://es.wikipedia.org/wiki/Sistema_de_detecci%C3%B3n_de_intrusos
 Sistema de detección de intrusos
 
-i'G-InSide'
+i'G-InSide
 https://administracionelectronica.gob.es/ctt/inside
 Generador InSiDe
 
-r'Inside|InSiDe|INSIDE|InSide'
+r'Inside|InSiDe|INSIDE|InSide
 https://administracionelectronica.gob.es/ctt/inside
 Infraestructura y Sistemas de Documentación Electrónica
 
@@ -1040,7 +872,7 @@ ARCHIVE
 https://administracionelectronica.gob.es/ctt/archive
 Aplicación web de archivo definitivo de expedientes y documentos electrónicos
 
-r'NOTIFICA|NOTIFIC@|[Nn]otific@'
+r'NOTIFICA|NOTIFIC@|[Nn]otific@
 https://administracionelectronica.gob.es/ctt/notifica
 Servicio Compartido de Gestión de Notificaciones
 
@@ -1051,10 +883,10 @@ Servicio de Verificación y Consulta de Datos
 DGIAE
 Dirección General para el Impulso de la Administración Electrónica
 
-r'PdP'
+r'PdP
 Punto de presencia
 
-r'CPDs?'
+r'CPDs?
 Centros de Proceso de Datos
 
 ANCERT
@@ -1069,15 +901,11 @@ DMZ
 https://es.wikipedia.org/wiki/Zona_desmilitarizada_(inform%C3%A1tica)
 Zona desmilitarizada
 
-i'Real Decreto 3/2010(, de 8 de enero)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330
-Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica
-
-r'PDAs?'
+r'PDAs?
 https://es.wikipedia.org/wiki/PDA
 Asistente Digital Personal
 
-i'alta disponibilidad'
+i'alta disponibilidad
 https://es.wikipedia.org/wiki/Alta_disponibilidad
 
 SGSI
@@ -1088,49 +916,21 @@ RTO
 https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n
 Tiempo objetivo de recuperación
 
-i'Real Decreto 951/2015(, de 23 de octubre)?'
-https://www.boe.es/buscar/doc.php?id=BOE-A-2015-11881
-Modificación del ENS
-
 ITS
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/Instrucciones-Tecnicas.html
 Instrucciones Técnicas de Seguridad
-
-r'Real Decreto 1720/2007(, de 21 de diciembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2008-979
-Protección de datos de carácter personal
 
 INES
 https://www.ccn-cert.cni.es/soluciones-seguridad/ines.html
 Informe Nacional del Estado de Seguridad, herramienta del CCN que permite evaluar regularmente el estado de la seguridad de los sistemas TIC
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2018-5370
-ITS Notificación de Incidentes de Seguridad
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2016-10108
-ITS Informe del Estado de la Seguridad
-
 LUCIA
 https://www.ccn-cert.cni.es/soluciones-seguridad/lucia.html
 Listado Unificado de Coordinación de Incidentes y Amenazas, herramienta desarrollada por el CCN-CERT para la Gestión de Ciberincidentes
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2018-4573
-ITS Auditoría de la Seguridad de los Sistemas de Información
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2016-10109
-ITS Conformidad con el ENS
-
-i'Ley 36/2015(, de 28 de septiembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10389
-Ley de Seguridad Nacional.
-
 OWASP
 https://es.wikipedia.org/wiki/Open_Web_Application_Security_Project
 Open Web Application Security Project
-
-r'[lL]ey 19/2013(, de 9 de diciembre)?|LTAIBG'
-https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
-Ley de transparencia, acceso a la información pública y buen gobierno
 
 CTBG
 https://es.wikipedia.org/wiki/Consejo_de_Transparencia_y_Buen_Gobierno
@@ -1139,10 +939,6 @@ Consejo de Transparencia y Buen Gobierno
 UIT
 https://transparencia.gob.es/transparencia/transparencia_Home/index/MasInformacion/UIT.html
 Unidades de Información de Transparencia
-
-r'[Dd]irectiva \(?UE\)? 2019/1024'
-https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32019L1024
-Datos abiertos y la reutilización de la información del sector público
 
 OTAI
 Oficina de la Transparencia y Acceso a la Información
@@ -1155,7 +951,7 @@ OKF
 https://es.wikipedia.org/wiki/Open_Knowledge_Foundation
 Fundación Conocimiento Abierto
 
-r'[Tt]esauros?'
+r'[Tt]esauros?
 https://es.wikipedia.org/wiki/Tesauro
 Lista de palabras o términos controlados, empleados para representar conceptos
 
@@ -1169,7 +965,7 @@ Organismos públicos
 Catálogo de servicios de Administración digital
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/catalogo-servicios-admon-digital.html
 
-i'Servicios declarados como compartidos|Declaración de servicios compartidos'
+i'Servicios declarados como compartidos|Declaración de servicios compartidos
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/Servicios-declarados-como-compartidos.html
 
 CE-CETIC
@@ -1180,7 +976,7 @@ CETIC
 https://administracionelectronica.gob.es/pae_Home/pae_Organizacion/ambito-AGE/comision-estrategia-tic.html
 Comisión de Estrategia TIC (órgano máximo de gobernanza TIC en la AGE)
 
-i'Carpeta ciudadana'
+i'Carpeta ciudadana
 https://administracionelectronica.gob.es/ctt/ccd
 Permite al ciudadano conocer sus expedientes, asientos registrales y datos en poder de la administración
 
@@ -1196,7 +992,7 @@ PUE
 https://es.wikipedia.org/wiki/Power_usage_effectiveness
 Power Ussage Efectiveness
 
-r'Tier'
+r'Tier
 https://www.internetya.co/que-son-los-niveles-tier-de-los-data-centers-y-esto-como-afecta-mi-sitio-web/
 Metodología estandarizada que mide el tiempo de disponibilidad de un data center
 
@@ -1216,7 +1012,7 @@ Habilit@
 https://administracionelectronica.gob.es/ctt/rfh
 Registro de Funcionarios Habilitados
 
-i'(Red|Teléfono) 060'
+i'(Red|Teléfono) 060
 https://administracionelectronica.gob.es/ctt/telefono060
 Servicio de Información de la AGE
 
@@ -1271,13 +1067,9 @@ SOROLLA2
 https://administracionelectronica.gob.es/ctt/sorolla2/
 Sistema de apoyo a la gestión económico-presupuestaria de las entidades públicas administrativas
 
-r'VALIDE|VALIDe'
+r'VALIDE|VALIDe
 https://administracionelectronica.gob.es/ctt/valide
 Servicio de Validación de Firmas y Certificados Online
-
-r'[Ll]ey 24/2011(, de 1 de agosto)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2011-13239
-Contratos del sector público en los ámbitos de la defensa y de la seguridad
 
 RCP
 https://www.mptfp.gob.es/portal/funcionpublica/funcion-publica/rcp.html
@@ -1286,10 +1078,6 @@ Registro Central de Personal
 backbone
 https://es.wikipedia.org/wiki/Backbone
 Red troncal, es una de las principales conexiones de Internet
-
-i'Real Decreto 806/2014(, de 19 de septiembre)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2014-9741
-Organización e instrumentos operativos de las tecnologías de la información y las comunicaciones en AGE y sus OOPP
 
 CSC
 Centro de Servicios Comunes
@@ -1309,17 +1097,17 @@ SIS
 https://es.wikipedia.org/wiki/Sistema_de_informaci%C3%B3n_de_Schengen
 Sistema de información de Schengen
 
-r'EuroDomain'
+r'EuroDomain
 Redo troncal común usada por TESA
 
-r'EuroGates?'
+r'EuroGates?
 Ubicaciones específicas que sirven para entrar a EuroDomain (red troncal común usada por TESA)
 
 OLAF
 https://es.wikipedia.org/wiki/Oficina_Europea_de_Lucha_contra_el_Fraude
 Oficina anti fraude europea
 
-r'ESTAT|[Ee]urostat'
+r'ESTAT|[Ee]urostat
 https://es.wikipedia.org/wiki/Eurostat
 Oficina Europea de Estadística
 
@@ -1351,20 +1139,16 @@ tratado de Prüm
 https://es.wikipedia.org/wiki/Convenci%C3%B3n_de_Pr%C3%BCm
 Tratado de 2005 sobre la intensificación de la cooperación transfronteriza, particularmente en la lucha contra el terrorismo y la delincuencia
 
-r'FIU\.?NET'
+r'FIU\.?NET
 https://en.wikipedia.org/wiki/Financial_intelligence#European_Financial_Intelligence_Unit_Network
 European Financial Intelligence Unit Network
 
-r'EURODAC|Eurodac'
+r'EURODAC|Eurodac
 https://es.wikipedia.org/wiki/Eurodac
 Dactiloscopia Europea, base de datos de huellas dactilares para identificar a los solicitantes de asilo y a los irregulares que cruzan la frontera
 
 CECIS
 Common Emergency Communication and Information System
-
-i'Real Decreto 541/2001(, de 18 de mayo)?'
-https://www.boe.es/buscar/act.php?id=BOE-A-2001-11051
-Contratación de servicios de telecomunicación
 
 EM
 Estado miembro
@@ -1384,23 +1168,23 @@ VPN
 https://es.wikipedia.org/wiki/Red_privada_virtual
 Red privada virtual
 
-r'DDoS'
+r'DDoS
 https://es.wikipedia.org/wiki/Ataque_de_denegaci%C3%B3n_de_servicio
 Ataque de denegación de servicio distribuido
 
-r'PaaS'
+r'PaaS
 https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Plataforma_como_servicio_(PaaS)
 Plataforma como servicio
 
-r'IaaS'
+r'IaaS
 https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Infraestructura_como_servicio_(IaaS)
 Infraestructura como servicio
 
-r'SaaS'
+r'SaaS
 https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Software_como_servicio_(SaaS)
 Software como servicio
 
-r'AutenticA|AUTENTICA'
+r'AutenticA|AUTENTICA
 https://administracionelectronica.gob.es/ctt/autentica
 Servicio de autenticación, Single Sign On y autorización para acceder a aplicaciones internas de las AAPP
 

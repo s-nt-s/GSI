@@ -1,8 +1,7 @@
 from bs4 import BeautifulSoup, Tag, NavigableString
 from pelican import contents, signals
 import re
-from .util import get_dom, get_class_dom
-from .mod_html import ModHtml
+from .core.util import get_dom, get_class_dom
 
 import unidecode
 
@@ -258,10 +257,6 @@ def mod_content(content, *args, **kargv):
                 rowspan = True
         if rowspan:
             add_class(table, "hasRowspan")
-
-    #mod = ModHtml(content.settings, content.source_path, soup)
-    #mod.set_target()
-    #mod.fix_href()
 
     set_notas(soup)
 

@@ -1,0 +1,1500 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20210810132601",
+  "metadatos": {
+    "identificador": "BOE-A-2010-1331",
+    "titulo": "Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "25",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "7710",
+      "#text": "Ministerio de la Presidencia"
+    },
+    "rango": {
+      "@codigo": "1340",
+      "#text": "Real Decreto"
+    },
+    "numero_oficial": "4/2010",
+    "fecha_disposicion": "20100108",
+    "fecha_publicacion": "20100129",
+    "fecha_vigencia": "20100130",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "8139",
+    "pagina_final": "8156",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": "/diario_boe/epub.php?id=BOE-A-2010-1331",
+    "url_pdf": "/boe/dias/2010/01/29/pdfs/BOE-A-2010-1331.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2010/01/29/pdfs/BOE-A-2010-1331-C.pdf",
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": "/boe_gallego/dias/2010/01/29/pdfs/BOE-A-2010-1331-G.pdf",
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/rd/2010/01/08/4"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2010-1331"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2010-01-08"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "4"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2010-1331"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2010-01-08"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "4"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:corrected_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/corrigendum/20100311/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4"
+              },
+              "eli:consolidated_by": [
+                {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20210331"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20111108"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20100129"
+                }
+              ],
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2010-01-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa/epub",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Reial decret 4/2010, de 8 de gener, pel qual es regula l'Esquema Nacional d'Interoperabilitat en l'\u00e0mbit de l'Administraci\u00f3 electr\u00f2nica."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2010-01-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real decreto 4/2010, do 8 de xaneiro, polo que se regula o Esquema Nacional de Interoperabilidade no \u00e1mbito da Administraci\u00f3n electr\u00f3nica."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2010-01-29"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20210331",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2010-1331"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2010-01-08"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "4"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2021-03-31"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20210331/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2021-03-31"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20210331"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20210331/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20210331/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20111108",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2010-1331"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2010-01-08"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "4"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-11-08"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20111108/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-11-08"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20111108"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20111108/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20111108/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20100129",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2010-1331"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2010-01-08"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "4"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2010-01-29"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20100129/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2010-01-29"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20100129"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20100129/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/4/con/20100129/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": null,
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "817",
+          "@orden": "",
+          "#text": "Certificaciones"
+        },{
+          "@codigo": "7894",
+          "@orden": "",
+          "#text": "Comunicaciones electr\u00f3nicas"
+        },{
+          "@codigo": "3085",
+          "@orden": "",
+          "#text": "Documentos"
+        },{
+          "@codigo": "3716",
+          "@orden": "",
+          "#text": "Firma electr\u00f3nica"
+        },{
+          "@codigo": "5703",
+          "@orden": "",
+          "#text": "Procedimiento administrativo"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "7869",
+          "@orden": "",
+          "#text": "Registros telem\u00e1ticos"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": {
+          "@referencia": "BOE-A-2007-12352",
+          "@orden": "3060",
+          "palabra": {
+            "@codigo": "440",
+            "#text": "DE CONFORMIDAD con"
+          },
+          "texto": "el art. 42.1 y 3, las disposiciones adicional 8\u00aa y final 1\u00aa de la Ley 11/2007, de 22 de junio"
+        }
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2021-5032",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "los arts. 9, 11, 14, 16 a 18, disposici\u00f3n adicional 1, anexo y SE SUPRIME el art. 19, las disposiciones adicionales 3 y 4, por Real Decreto 203/2021, de 30 de marzo"
+          },{
+            "@referencia": "BOE-A-2011-17560",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "la disposici\u00f3n adicional 1 y SE A\u00d1ADE la disposici\u00f3n adicional 5, por Real Decreto 1495/2011, de 24 de octubre"
+          },{
+            "@referencia": "BOE-A-2010-4053",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "201",
+              "#text": "CORRECCI\u00d3N de errores"
+            },
+            "texto": "en BOE n\u00fam. 61, de 11 de marzo de 2010"
+          },{
+            "@referencia": "BOE-A-2013-2380",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "aprobando la Norma de interoperabilidad de reutilizaci\u00f3n de recursos de informaci\u00f3n: Resoluci\u00f3n de 19 de febrero de 2013"
+          },{
+            "@referencia": "BOE-A-2012-13501",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la Disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares: Resoluci\u00f3n de 3 de octubre de 2012"
+          },{
+            "@referencia": "BOE-A-2012-10050",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Relaci\u00f3n de modelos de datos: Resoluci\u00f3n de 28 de junio de 2012"
+          },{
+            "@referencia": "BOE-A-2012-10049",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos: Resoluci\u00f3n de 28 de junio de 2012"
+          },{
+            "@referencia": "BOE-A-2012-10048",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos: Resoluci\u00f3n de 28 de junio de 2012"
+          },{
+            "@referencia": "BOE-A-2011-13174",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la Disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Modelo de Datos para el Intercambio de asientos entre las entidades registrales: Resoluci\u00f3n de 19 de julio de 2011"
+          },{
+            "@referencia": "BOE-A-2011-13173",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1, y aprueba la Norma de Interoperabilidad de requisitos de conexi\u00f3n a la red de comunicaciones de las Administraciones P\u00fablicas espa\u00f1olas: Resoluci\u00f3n de 19 de julio de 2011"
+          },{
+            "@referencia": "BOE-A-2011-13172",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos: Resoluci\u00f3n de 19 de julio de 2011"
+          },{
+            "@referencia": "BOE-A-2011-13171",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Pol\u00edtica de Firma Electr\u00f3nica y de certificados de la Administraci\u00f3n: Resoluci\u00f3n de 19 de julio de 2011"
+          },{
+            "@referencia": "BOE-A-2011-13170",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Expediente Electr\u00f3nico: Resoluci\u00f3n de 19 de julio de 2011"
+          },{
+            "@referencia": "BOE-A-2011-13169",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Documento Electr\u00f3nico: Resoluci\u00f3n de 19 de julio de 2011"
+          },{
+            "@referencia": "BOE-A-2011-13168",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 1 y aprueba la Norma de Interoperabilidad de Digitalizaci\u00f3n de Documentos: Resoluci\u00f3n de 19 de julio de 2011"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "centro_redonda",
+        "#text": "I"
+      },{
+        "@class": "parrafo",
+        "#text": "La interoperabilidad es la capacidad de los sistemas de informaci\u00f3n y de los procedimientos a los que \u00e9stos dan soporte, de compartir datos y posibilitar el intercambio de informaci\u00f3n y conocimiento entre ellos. Resulta necesaria para la cooperaci\u00f3n, el desarrollo, la integraci\u00f3n y la prestaci\u00f3n de servicios conjuntos por las Administraciones p\u00fablicas; para la ejecuci\u00f3n de las diversas pol\u00edticas p\u00fablicas; para la realizaci\u00f3n de diferentes principios y derechos; para la transferencia de tecnolog\u00eda y la reutilizaci\u00f3n de aplicaciones en beneficio de una mejor eficiencia; para la cooperaci\u00f3n entre diferentes aplicaciones que habiliten nuevos servicios; todo ello facilitando el desarrollo de la administraci\u00f3n electr\u00f3nica y de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "En el \u00e1mbito de las Administraciones p\u00fablicas, la consagraci\u00f3n del derecho de los ciudadanos a comunicarse con ellas a trav\u00e9s de medios electr\u00f3nicos comporta una obligaci\u00f3n correlativa de las mismas. Esta obligaci\u00f3n tiene, como premisas, la promoci\u00f3n de las condiciones para que la libertad y la igualdad sean reales y efectivas, as\u00ed como la remoci\u00f3n de los obst\u00e1culos que impidan o dificulten el ejercicio pleno del principio de neutralidad tecnol\u00f3gica y de adaptabilidad al progreso de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones, garantizando con ello la independencia en la elecci\u00f3n de las alternativas tecnol\u00f3gicas por los ciudadanos, as\u00ed como la libertad de desarrollar e implantar los avances tecnol\u00f3gicos en un \u00e1mbito de libre mercado."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos, reconoce el protagonismo de la interoperabilidad y se refiere a ella como uno de los aspectos en los que es obligado que las previsiones normativas sean comunes y debe ser, por tanto, abordado por la regulaci\u00f3n del Estado. La interoperabilidad se recoge dentro del principio de cooperaci\u00f3n en el art\u00edculo 4 y tiene un protagonismo singular en el t\u00edtulo cuarto dedicado a la Cooperaci\u00f3n entre Administraciones para el impulso de la administraci\u00f3n electr\u00f3nica. En dicho t\u00edtulo el aseguramiento de la interoperabilidad de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas figura en el art\u00edculo 40 entre las funciones del \u00f3rgano de cooperaci\u00f3n en esta materia, el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica. A continuaci\u00f3n, el art\u00edculo 41 se refiere a la aplicaci\u00f3n por parte de las Administraciones p\u00fablicas de las medidas inform\u00e1ticas, tecnol\u00f3gicas y organizativas, y de seguridad, que garanticen un adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa y eviten discriminaci\u00f3n a los ciudadanos por raz\u00f3n de su elecci\u00f3n tecnol\u00f3gica. Y, seguidamente, el art\u00edculo 42.1 crea el Esquema Nacional de Interoperabilidad que comprender\u00e1 el conjunto de criterios y recomendaciones en materia de seguridad, conservaci\u00f3n y normalizaci\u00f3n que deber\u00e1n ser tenidos en cuenta por las Administraciones p\u00fablicas para la toma de decisiones tecnol\u00f3gicas que garanticen la interoperabilidad, entre \u00e9stas y con los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "La finalidad del Esquema Nacional de Interoperabilidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permita el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
+      },{
+        "@class": "centro_redonda",
+        "#text": "II"
+      },{
+        "@class": "parrafo",
+        "#text": "El Esquema Nacional de Interoperabilidad tiene presentes las recomendaciones de la Uni\u00f3n Europea, la situaci\u00f3n tecnol\u00f3gica de las diferentes Administraciones p\u00fablicas, as\u00ed como los servicios electr\u00f3nicos existentes en las mismas, la utilizaci\u00f3n de est\u00e1ndares abiertos, as\u00ed como en su caso y, de forma complementaria, est\u00e1ndares de uso generalizado por los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "Su articulaci\u00f3n se ha realizado atendiendo a la normativa nacional sobre acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos, protecci\u00f3n de datos de car\u00e1cter personal, firma electr\u00f3nica y documento nacional de identidad electr\u00f3nico, accesibilidad, uso de lenguas oficiales, reutilizaci\u00f3n de la informaci\u00f3n en el sector p\u00fablico y \u00f3rganos colegiados responsables de la administraci\u00f3n electr\u00f3nica. Se han tenido en cuenta otros instrumentos, tales como el Esquema Nacional de Seguridad, desarrollado al amparo de lo dispuesto en la Ley 11/2007, de 22 de junio, o antecedentes como los Criterios de Seguridad, Normalizaci\u00f3n y Conservaci\u00f3n de las aplicaciones utilizadas para el ejercicio de potestades."
+      },{
+        "@class": "parrafo",
+        "#text": "En t\u00e9rminos de las recomendaciones de la Uni\u00f3n Europea se atiende al Marco Europeo de Interoperabilidad, elaborado por el programa comunitario IDABC, as\u00ed como a otros instrumentos y actuaciones elaborados por este programa y que inciden en alguno de los m\u00faltiples aspectos de la interoperabilidad, tales como el Centro Europeo de Interoperabilidad Sem\u00e1ntica, el Observatorio y Repositorio de Software de Fuentes Abiertas y la Licencia P\u00fablica de la Uni\u00f3n Europea. Tambi\u00e9n se atiende a la Decisi\u00f3n 922/2009 del Parlamento Europeo y del Consejo, de 16 de septiembre de 2009, relativa a las soluciones de interoperabilidad para las administraciones p\u00fablicas europeas, a los planes de acci\u00f3n sobre administraci\u00f3n electr\u00f3nica en materia de interoperabilidad y de aspectos relacionados, particularmente, con la pol\u00edtica comunitaria de compartir, reutilizar y colaborar."
+      },{
+        "@class": "centro_redonda",
+        "#text": "III"
+      },{
+        "@class": "parrafo",
+        "#text": "Este real decreto se limita a establecer los criterios y recomendaciones, junto con los principios espec\u00edficos necesarios, que permitan y favorezcan el desarrollo de la interoperabilidad en las Administraciones p\u00fablicas desde una perspectiva global y no fragmentaria, de acuerdo con el inter\u00e9s general, naturaleza y complejidad de la materia regulada, en el \u00e1mbito de la Ley 11/2007, de 22 de junio, al objeto de conseguir un com\u00fan denominador normativo."
+      },{
+        "@class": "parrafo",
+        "#text": "En consecuencia, el Esquema Nacional de Interoperabilidad atiende a todos aquellos aspectos que conforman de manera global la interoperabilidad. En primer lugar, se atiende a las dimensiones organizativa, sem\u00e1ntica y t\u00e9cnica a las que se refiere el art\u00edculo 41 de la Ley 11/2007, de 22 de junio; en segundo lugar, se tratan los est\u00e1ndares, que la Ley 11/2007, de 22 de junio, pone al servicio de la interoperabilidad as\u00ed como de la independencia en la elecci\u00f3n de las alternativas tecnol\u00f3gicas y del derecho de los ciudadanos a elegir las aplicaciones o sistemas para relacionarse con las Administraciones p\u00fablicas; en tercer lugar, se tratan las infraestructuras y los servicios comunes, elementos reconocidos de dinamizaci\u00f3n, simplificaci\u00f3n y propagaci\u00f3n de la interoperabilidad, a la vez que facilitadores de la relaci\u00f3n multilateral; en cuarto lugar, se trata la reutilizaci\u00f3n, aplicada a las aplicaciones de las Administraciones p\u00fablicas, de la documentaci\u00f3n asociada y de otros objetos de informaci\u00f3n, dado que la voz \u00abcompartir\u00bb se encuentra presente en la definici\u00f3n de interoperabilidad recogida en la Ley 11/2007, de 22 de junio, y junto con \u00abreutilizar\u00bb, ambas son relevantes para la interoperabilidad y se encuentran entroncadas con las pol\u00edticas de la Uni\u00f3n Europea en relaci\u00f3n con la idea de compartir, reutilizar y colaborar; en quinto lugar, se trata la interoperabilidad de la firma electr\u00f3nica y de los certificados; por \u00faltimo, se atiende a la conservaci\u00f3n, seg\u00fan lo establecido en la citada Ley 11/2007,de 22 de junio, como manifestaci\u00f3n de la interoperabilidad a lo largo del tiempo, y que afecta de forma singular al documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "En esta norma se hace referencia a la interoperabilidad como un proceso integral, en el que no caben actuaciones puntuales o tratamientos coyunturales, debido a que la debilidad de un sistema la determina su punto m\u00e1s fr\u00e1gil y, a menudo, este punto es la coordinaci\u00f3n entre medidas individualmente adecuadas pero deficientemente ensambladas."
+      },{
+        "@class": "parrafo",
+        "#text": "La norma se estructura en doce cap\u00edtulos, cuatro disposiciones adicionales, dos disposiciones transitorias, una disposici\u00f3n derogatoria, tres disposiciones finales y un anexo conteniendo el glosario de t\u00e9rminos."
+      },{
+        "@class": "parrafo",
+        "#text": "El Esquema Nacional de Interoperabilidad se remite al Esquema Nacional de Seguridad para las cuestiones relativas en materia de seguridad que vayan m\u00e1s all\u00e1 de los aspectos necesarios para garantizar la interoperabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente real decreto se aprueba en aplicaci\u00f3n de lo dispuesto en la disposici\u00f3n final octava de la Ley 11/2007, de 22 de junio y, de acuerdo con lo dispuesto en el art\u00edculo 42, apartado 3, y disposici\u00f3n final primera de dicha norma, se ha elaborado con la participaci\u00f3n de todas las Administraciones P\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informado favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica, la Conferencia Sectorial de Administraci\u00f3n P\u00fablica y la Comisi\u00f3n Nacional de Administraci\u00f3n Local; y ha sido sometido al previo informe de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos. Asimismo se ha sometido a la audiencia de los ciudadanos seg\u00fan las previsiones establecidas en el art\u00edculo 24 de la Ley 50/1997, de 27 de noviembre, del Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "En su virtud, a propuesta de la Ministra de la Presidencia, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 8 de enero de 2010,"
+      },{
+        "@class": "centro_redonda",
+        "#text": "DISPONGO:"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Disposiciones generales"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El presente real decreto tiene por objeto regular el Esquema Nacional de Interoperabilidad establecido en el art\u00edculo 42 de la Ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Esquema Nacional de Interoperabilidad comprender\u00e1 los criterios y recomendaciones de seguridad, normalizaci\u00f3n y conservaci\u00f3n de la informaci\u00f3n, de los formatos y de las aplicaciones que deber\u00e1n ser tenidos en cuenta por las Administraciones p\u00fablicas para asegurar un adecuado nivel de interoperabilidad organizativa, sem\u00e1ntica y t\u00e9cnica de los datos, informaciones y servicios que gestionen en el ejercicio de sus competencias y para evitar la discriminaci\u00f3n a los ciudadanos por raz\u00f3n de su elecci\u00f3n tecnol\u00f3gica."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. Definiciones."
+      },{
+        "@class": "parrafo",
+        "#text": "A los efectos previstos en este real decreto, las definiciones, palabras, expresiones y t\u00e9rminos se entender\u00e1n en el sentido indicado en el Glosario de T\u00e9rminos incluido en el anexo I."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El \u00e1mbito de aplicaci\u00f3n del presente real decreto ser\u00e1 el establecido en el art\u00edculo 2 de la Ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Esquema Nacional de Interoperabilidad y sus normas de desarrollo, prevalecer\u00e1n sobre cualquier otro criterio en materia de pol\u00edtica de interoperabilidad en la utilizaci\u00f3n de medios electr\u00f3nicos para el acceso de los ciudadanos a los servicios p\u00fablicos."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Principios b\u00e1sicos"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Principios b\u00e1sicos del Esquema Nacional de Interoperabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "La aplicaci\u00f3n del Esquema Nacional de Interoperabilidad se desarrollar\u00e1 de acuerdo con los principios generales establecidos en el art\u00edculo 4 de la Ley 11/2007, de 22 de junio, y con los siguientes principios espec\u00edficos de la interoperabilidad:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) La interoperabilidad como cualidad integral."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Car\u00e1cter multidimensional de la interoperabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Enfoque de soluciones multilaterales."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. La interoperabilidad como cualidad integral."
+      },{
+        "@class": "parrafo",
+        "#text": "La interoperabilidad se tendr\u00e1 presente de forma integral desde la concepci\u00f3n de los servicios y sistemas y a lo largo de su ciclo de vida: planificaci\u00f3n, dise\u00f1o, adquisici\u00f3n, construcci\u00f3n, despliegue, explotaci\u00f3n, publicaci\u00f3n, conservaci\u00f3n y acceso o interconexi\u00f3n con los mismos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. Car\u00e1cter multidimensional de la interoperabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "La interoperabilidad se entender\u00e1 contemplando sus dimensiones organizativa, sem\u00e1ntica y t\u00e9cnica. La cadena de interoperabilidad se manifiesta en la pr\u00e1ctica en los acuerdos interadministrativos, en el despliegue de los sistemas y servicios, en la determinaci\u00f3n y uso de est\u00e1ndares, en las infraestructuras y servicios b\u00e1sicos de las Administraciones p\u00fablicas y en la publicaci\u00f3n y reutilizaci\u00f3n de las aplicaciones de las Administraciones p\u00fablicas, de la documentaci\u00f3n asociada y de otros objetos de informaci\u00f3n. Todo ello sin olvidar la dimensi\u00f3n temporal que ha de garantizar el acceso a la informaci\u00f3n a lo largo del tiempo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Enfoque de soluciones multilaterales."
+      },{
+        "@class": "parrafo",
+        "#text": "Se favorecer\u00e1 la aproximaci\u00f3n multilateral a la interoperabilidad de forma que se puedan obtener las ventajas derivadas del escalado, de la aplicaci\u00f3n de las arquitecturas modulares y multiplataforma, de compartir, de reutilizar y de colaborar."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Interoperabilidad organizativa"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. Servicios de las Administraciones p\u00fablicas disponibles por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones p\u00fablicas establecer\u00e1n y publicar\u00e1n las condiciones de acceso y utilizaci\u00f3n de los servicios, datos y documentos en formato electr\u00f3nico que pongan a disposici\u00f3n del resto de Administraciones especificando las finalidades, las modalidades de consumo, consulta o interacci\u00f3n, los requisitos que deben satisfacer los posibles usuarios de los mismos, los perfiles de los participantes implicados en la utilizaci\u00f3n de los servicios, los protocolos y criterios funcionales o t\u00e9cnicos necesarios para acceder a dichos servicios, los necesarios mecanismos de gobierno de los sistemas interoperables, as\u00ed como las condiciones de seguridad aplicables. Estas condiciones deber\u00e1n en todo caso resultar conformes a los principios, derechos y obligaciones contenidos en la Ley Org\u00e1nica 15/1999 de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal y su normativa de desarrollo, as\u00ed como a lo dispuesto en el Esquema Nacional de Seguridad, y los instrumentos jur\u00eddicos que deber\u00e1n suscribir las Administraciones p\u00fablicas requeridoras de dichos servicios, datos y documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "Se potenciar\u00e1 el establecimiento de convenios entre las Administraciones p\u00fablicas emisoras y receptoras y, en particular, con los nodos de interoperabilidad previstos en el apartado 3 de este art\u00edculo, con el objetivo de simplificar la complejidad organizativa sin menoscabo de las garant\u00edas jur\u00eddicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Al objeto de dar cumplimiento de manera eficaz a lo establecido en el art\u00edculo 9 de la Ley 11/2007, de 22 de junio, en el Comit\u00e9 Sectorial de Administraci\u00f3n electr\u00f3nica se identificar\u00e1n, catalogar\u00e1n y priorizar\u00e1n los servicios de interoperabilidad que deber\u00e1n prestar las diferentes Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Administraciones p\u00fablicas publicar\u00e1n aquellos servicios que pongan a disposici\u00f3n de las dem\u00e1s administraciones a trav\u00e9s de la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, o de cualquier otra red equivalente o conectada a la misma que garantice el acceso seguro al resto de administraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las Administraciones p\u00fablicas podr\u00e1n utilizar nodos de interoperabilidad, entendidos como entidades a las cuales se les encomienda la gesti\u00f3n de apartados globales o parciales de la interoperabilidad organizativa, sem\u00e1ntica o t\u00e9cnica."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 9. Inventarios de informaci\u00f3n administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones p\u00fablicas mantendr\u00e1n actualizado un Inventario de Informaci\u00f3n Administrativa, que incluir\u00e1 los procedimientos administrativos y servicios que prestan de forma clasificada y estructurados en familias, con indicaci\u00f3n del nivel de informatizaci\u00f3n de los mismos. Asimismo mantendr\u00e1n una relaci\u00f3n actualizada de sus \u00f3rganos administrativos y oficinas de registro y atenci\u00f3n al ciudadano, y sus relaciones entre ellos. Dichos \u00f3rganos y oficinas se codificar\u00e1n de forma un\u00edvoca y esta codificaci\u00f3n se difundir\u00e1 entre las Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Cada Administraci\u00f3n p\u00fablica regular\u00e1 la forma de creaci\u00f3n y mantenimiento de este Inventario, que se enlazar\u00e1 e interoperar\u00e1 con el Inventario de la Administraci\u00f3n General del Estado en las condiciones que se determinen por ambas partes y en el marco de lo previsto en el presente real decreto; en su caso, las Administraciones p\u00fablicas podr\u00e1n hacer uso del citado Inventario centralizado para la creaci\u00f3n y mantenimiento de sus propios inventarios. Para la descripci\u00f3n y modelizaci\u00f3n de los procedimientos administrativos y de los procesos que los soportan ser\u00e1 de aplicaci\u00f3n lo previsto sobre est\u00e1ndares en el art\u00edculo 11."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO IV"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Interoperabilidad sem\u00e1ntica"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 10. Activos sem\u00e1nticos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se establecer\u00e1 y mantendr\u00e1 actualizada la Relaci\u00f3n de modelos de datos de intercambio que tengan el car\u00e1cter de comunes, que ser\u00e1n de preferente aplicaci\u00f3n para los intercambios de informaci\u00f3n en las Administraciones p\u00fablicas, de acuerdo con el procedimiento establecido en disposici\u00f3n adicional primera."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los \u00f3rganos de la Administraci\u00f3n p\u00fablica o Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla, titulares de competencias en materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y con otras Administraciones p\u00fablicas, as\u00ed como en materia de infraestructuras, servicios y herramientas comunes, establecer\u00e1n y publicar\u00e1n los correspondientes modelos de datos de intercambio que ser\u00e1n de obligatoria aplicaci\u00f3n para los intercambios de informaci\u00f3n en las Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los modelos de datos a los que se refieren los apartados 1 y 2, se ajustar\u00e1n a lo previsto sobre est\u00e1ndares en el art\u00edculo 11 y se publicar\u00e1n, junto con las definiciones y codificaciones asociadas, a trav\u00e9s del Centro de Interoperabilidad Sem\u00e1ntica de la Administraci\u00f3n, seg\u00fan las condiciones de licenciamiento previstas en el art\u00edculo 16."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las definiciones y codificaciones empleadas en los modelos de datos a los que se refieren los apartados anteriores tendr\u00e1n en cuenta lo dispuesto en la Ley 12/1989, de 9 de mayo, de la Funci\u00f3n Estad\u00edstica P\u00fablica y el resto de disposiciones que regulan la funci\u00f3n estad\u00edstica."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO V"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Interoperabilidad t\u00e9cnica"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 11. Est\u00e1ndares aplicables."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones p\u00fablicas usar\u00e1n est\u00e1ndares abiertos, as\u00ed como, en su caso y de forma complementaria, est\u00e1ndares que sean de uso generalizado por los ciudadanos, al objeto de garantizar la independencia en la elecci\u00f3n de alternativas tecnol\u00f3gicas por los ciudadanos y las Administraciones p\u00fablicas y la adaptabilidad al progreso de la tecnolog\u00eda y, de forma que:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Los documentos y servicios de administraci\u00f3n electr\u00f3nica que los \u00f3rganos o Entidades de Derecho P\u00fablico emisores pongan a disposici\u00f3n de los ciudadanos o de otras Administraciones p\u00fablicas se encontrar\u00e1n, como m\u00ednimo, disponibles mediante est\u00e1ndares abiertos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los documentos, servicios electr\u00f3nicos y aplicaciones puestos por las Administraciones p\u00fablicas a disposici\u00f3n de los ciudadanos o de otras Administraciones p\u00fablicas ser\u00e1n, seg\u00fan corresponda, visualizables, accesibles y funcionalmente operables en condiciones que permitan satisfacer el principio de neutralidad tecnol\u00f3gica y eviten la discriminaci\u00f3n a los ciudadanos por raz\u00f3n de su elecci\u00f3n tecnol\u00f3gica."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. En las relaciones con los ciudadanos y con otras Administraciones p\u00fablicas, el uso en exclusiva de un est\u00e1ndar no abierto sin que se ofrezca una alternativa basada en un est\u00e1ndar abierto se limitar\u00e1 a aquellas circunstancias en las que no se disponga de un est\u00e1ndar abierto que satisfaga la funcionalidad satisfecha por el est\u00e1ndar no abierto en cuesti\u00f3n y s\u00f3lo mientras dicha disponibilidad no se produzca. Las Administraciones p\u00fablicas promover\u00e1n las actividades de normalizaci\u00f3n con el fin de facilitar la disponibilidad de los est\u00e1ndares abiertos relevantes para sus necesidades."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Para la selecci\u00f3n de est\u00e1ndares, en general y, para el establecimiento del cat\u00e1logo de est\u00e1ndares, en particular, se atender\u00e1 a los siguientes criterios:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Las definiciones de norma y especificaci\u00f3n t\u00e9cnica establecidas en la Directiva 98/34/CE del Parlamento Europeo y del Consejo de 22 de junio de 1998 por la que se establece un procedimiento de informaci\u00f3n en materia de las normas y reglamentaciones t\u00e9cnicas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La definici\u00f3n de est\u00e1ndar abierto establecida en la Ley 11/2007, de 22 de junio, anexo, letra k)."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Car\u00e1cter de especificaci\u00f3n formalizada."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Definici\u00f3n de \u00abcoste que no suponga una dificultad de acceso\u00bb, establecida en el anexo de este real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Consideraciones adicionales referidas a la adecuaci\u00f3n del est\u00e1ndar a las necesidades y funcionalidad requeridas; a las condiciones relativas a su desarrollo, uso o implementaci\u00f3n, documentaci\u00f3n disponible y completa, publicaci\u00f3n, y gobernanza del est\u00e1ndar; a las condiciones relativas a la madurez, apoyo y adopci\u00f3n del mismo por parte del mercado, a su potencial de reutilizaci\u00f3n, a la aplicabilidad multiplataforma y multicanal y a su implementaci\u00f3n bajo diversos modelos de desarrollo de aplicaciones."
+      },{
+        "@class": "parrafo_2",
+        "#text": "4. Para el uso de los est\u00e1ndares complementarios a la selecci\u00f3n indicada en el apartado anterior, se tendr\u00e1n en cuenta la definici\u00f3n de \u00abuso generalizado por los ciudadanos\u00bb establecida en el anexo del presente real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "5. En cualquier caso los ciudadanos podr\u00e1n elegir las aplicaciones o sistemas para relacionarse con las Administraciones p\u00fablicas, o dirigirse a las mismas, siempre y cuando utilicen est\u00e1ndares abiertos o, en su caso, aquellos otros que sean de uso generalizado por los ciudadanos. Para facilitar la interoperabilidad con las Administraciones p\u00fablicas el cat\u00e1logo de est\u00e1ndares contendr\u00e1 una relaci\u00f3n de est\u00e1ndares abiertos y en su caso complementarios aplicables."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO VI"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Infraestructuras y servicios comunes"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 12. Uso de infraestructuras y servicios comunes y herramientas gen\u00e9ricas."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Administraciones p\u00fablicas enlazar\u00e1n aquellas infraestructuras y servicios que puedan implantar en su \u00e1mbito de actuaci\u00f3n con las infraestructuras y servicios comunes que proporcione la Administraci\u00f3n General del Estado para facilitar la interoperabilidad y la relaci\u00f3n multilateral en el intercambio de informaci\u00f3n y de servicios entre todas las Administraciones p\u00fablicas."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO VII"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Comunicaciones de las Administraciones p\u00fablicas"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 13. Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Al objeto de satisfacer lo previsto en el art\u00edculo 43 de la Ley 11/2007, de 22 de junio, las Administraciones p\u00fablicas utilizar\u00e1n preferentemente la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas para comunicarse entre s\u00ed, para lo cual conectar\u00e1n a la misma, bien sus respectivas redes, bien sus nodos de interoperabilidad, de forma que se facilite el intercambio de informaci\u00f3n y de servicios entre las mismas, as\u00ed como la interconexi\u00f3n con las redes de las Instituciones de la Uni\u00f3n Europea y de otros Estados miembros."
+      },{
+        "@class": "parrafo",
+        "#text": "La Red SARA prestar\u00e1 la citada Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Para la conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas ser\u00e1n de aplicaci\u00f3n los requisitos previstos en la disposici\u00f3n adicional primera."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 14. Plan de direccionamiento de la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Administraciones p\u00fablicas aplicar\u00e1n el Plan de direccionamiento e interconexi\u00f3n de redes en la Administraci\u00f3n, aprobado por el Consejo Superior de Administraci\u00f3n Electr\u00f3nica, para su interconexi\u00f3n a trav\u00e9s de las redes de comunicaciones de las Administraciones p\u00fablicas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 15. Hora oficial."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los sistemas o aplicaciones implicados en la provisi\u00f3n de un servicio p\u00fablico por v\u00eda electr\u00f3nica se sincronizar\u00e1n con la hora oficial, con una precisi\u00f3n y desfase que garanticen la certidumbre de los plazos establecidos en el tr\u00e1mite administrativo que satisfacen."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La sincronizaci\u00f3n de la fecha y la hora se realizar\u00e1 con el Real Instituto y Observatorio de la Armada, de conformidad con lo previsto sobre la hora legal en el Real Decreto 1308/1992, de 23 de octubre, por el que se declara al Laboratorio del Real Instituto y Observatorio de la Armada, como laboratorio depositario del patr\u00f3n nacional de Tiempo y laboratorio asociado al Centro Espa\u00f1ol de Metrolog\u00eda y, cuando sea posible, con la hora oficial a nivel europeo."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO VIII"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Reutilizaci\u00f3n y transferencia de tecnolog\u00eda"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 16. Condiciones de licenciamiento aplicables."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las condiciones de licenciamiento de las aplicaciones y de la documentaci\u00f3n asociada, y de otros objetos de informaci\u00f3n de los cuales las Administraciones p\u00fablicas sean titulares de los derechos de propiedad intelectual y que \u00e9stas puedan poner a disposici\u00f3n de otras Administraciones p\u00fablicas y de los ciudadanos, sin contraprestaci\u00f3n y sin necesidad de convenio, tendr\u00e1n en cuenta que el fin perseguido es el aprovechamiento y la reutilizaci\u00f3n, as\u00ed como la protecci\u00f3n contra su apropiaci\u00f3n en exclusiva por parte de terceros, en condiciones tales que eximan de responsabilidad al cedente por el posible mal uso por parte del cesionario, as\u00ed como la no obligaci\u00f3n a la asistencia t\u00e9cnica o el mantenimiento por parte del cedente, ni de compensaci\u00f3n alguna en caso de errores en la aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las administraciones utilizar\u00e1n para las aplicaciones que declaren como de fuentes abiertas aquellas licencias que aseguren que los programas, datos o informaci\u00f3n que se comparten:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Pueden ejecutarse para cualquier prop\u00f3sito."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Permiten conocer su c\u00f3digo fuente."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Pueden modificarse o mejorarse."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Pueden redistribuirse a otros usuarios con o sin cambios siempre que la obra derivada mantenga estas mismas cuatro garant\u00edas."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Para este fin se procurar\u00e1 la aplicaci\u00f3n de la Licencia P\u00fablica de la Uni\u00f3n Europea, sin perjuicio de otras licencias que garanticen los mismos derechos expuestos en los apartados 1 y 2."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 17. Directorios de aplicaciones reutilizables."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La Administraci\u00f3n General del Estado mantendr\u00e1 el Directorio de aplicaciones para su libre reutilizaci\u00f3n que podr\u00e1 ser accedido a trav\u00e9s del Centro de Transferencia de Tecnolog\u00eda."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Administraciones p\u00fablicas enlazar\u00e1n los directorios de aplicaciones para su libre reutilizaci\u00f3n a los que se refiere el art\u00edculo 46 de la Ley 11/2007, de 22 de junio, entre s\u00ed; y con instrumentos equivalentes del \u00e1mbito de la Uni\u00f3n Europea."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las Administraciones p\u00fablicas deber\u00e1n tener en cuenta las soluciones disponibles para la libre reutilizaci\u00f3n que puedan satisfacer total o parcialmente las necesidades de los nuevos sistemas y servicios o la mejora y actualizaci\u00f3n de los ya implantados."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las Administraciones p\u00fablicas procurar\u00e1n la publicaci\u00f3n del c\u00f3digo de las aplicaciones, en desarrollo o finalizadas, en los directorios de aplicaciones para su libre reutilizaci\u00f3n con el fin de favorecer las actuaciones de compartir, reutilizar y colaborar, en beneficio de una mejor eficiencia."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO IX"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Firma electr\u00f3nica y certificados"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 18. Interoperabilidad en la pol\u00edtica de firma electr\u00f3nica y de certificados."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La Administraci\u00f3n General del Estado definir\u00e1 una pol\u00edtica de firma electr\u00f3nica y de certificados que servir\u00e1 de marco general de interoperabilidad para la autenticaci\u00f3n y el reconocimiento mutuo de firmas electr\u00f3nicas dentro de su \u00e1mbito de actuaci\u00f3n. No obstante, dicha pol\u00edtica podr\u00e1 ser utilizada como referencia por otras Administraciones p\u00fablicas para definir las pol\u00edticas de certificados y firmas a reconocer dentro de sus \u00e1mbitos competenciales."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Administraciones p\u00fablicas aprobar\u00e1n y publicar\u00e1n su pol\u00edtica de firma electr\u00f3nica y de certificados partiendo de la norma t\u00e9cnica establecida a tal efecto en disposici\u00f3n adicional primera, que podr\u00e1 convivir junto con otras pol\u00edticas particulares para una transacci\u00f3n determinada en un contexto concreto."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las Administraciones p\u00fablicas receptoras de documentos electr\u00f3nicos firmados permitir\u00e1n la validaci\u00f3n de las firmas electr\u00f3nicas contra la pol\u00edtica de firma indicada en la firma del documento electr\u00f3nico, siempre que dicha pol\u00edtica de firma se encuentre dentro de las admitidas por cada Administraci\u00f3n p\u00fablica para el reconocimiento mutuo o multilateral con otras Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los perfiles comunes de los campos de los certificados definidos por la pol\u00edtica de firma electr\u00f3nica y de certificados posibilitar\u00e1n la interoperabilidad entre las aplicaciones usuarias, de manera que tanto la identificaci\u00f3n como la firma electr\u00f3nica generada a partir de estos perfiles comunes puedan ser reconocidos por las aplicaciones de las distintas Administraciones p\u00fablicas sin ning\u00fan tipo de restricci\u00f3n t\u00e9cnica, sem\u00e1ntica u organizativa. Dichos certificados ser\u00e1n los definidos en la Ley 11/2007, de 22 de junio, la Ley 59/2003, de 19 de diciembre, de firma electr\u00f3nica y sus desarrollos normativos."
+      },{
+        "@class": "parrafo",
+        "#text": "5. La pol\u00edtica de firma electr\u00f3nica y de certificados, mencionada en el apartado primero del presente art\u00edculo, establecer\u00e1 las caracter\u00edsticas t\u00e9cnicas y operativas de la lista de prestadores de servicios de certificaci\u00f3n de confianza que recoger\u00e1 los certificados reconocidos e interoperables entre las Administraciones p\u00fablicas y que se consideren fiables para cada nivel de aseguramiento concreto, tanto en el \u00e1mbito nacional como europeo. La lista que establezca la Administraci\u00f3n General del Estado podr\u00e1 ser utilizada como referencia por otras Administraciones p\u00fablicas para definir sus listas de servicios de confianza para aplicaci\u00f3n dentro de sus \u00e1mbitos competenciales."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Las aplicaciones usuarias de certificados electr\u00f3nicos y firma electr\u00f3nica:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Se atendr\u00e1n a la pol\u00edtica de firma electr\u00f3nica y de certificados aplicable en su \u00e1mbito en relaci\u00f3n con los diversos aspectos contemplados y particularmente con la aplicaci\u00f3n de los datos obligatorios y opcionales, las reglas de creaci\u00f3n y validaci\u00f3n de firma electr\u00f3nica, los algoritmos a utilizar y longitudes de clave m\u00ednimas aplicables."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Permitir\u00e1n los mecanismos de acreditaci\u00f3n y representaci\u00f3n de los ciudadanos en materia de identificaci\u00f3n y firma electr\u00f3nica, previstos en la normativa correspondiente."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 19. Aspectos de interoperabilidad relativos a los prestadores de servicios de certificaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. De acuerdo con lo previsto en el Real Decreto 1671/2009, de 6 de noviembre, por el que se desarrolla parcialmente la Ley 11/2007, de 22 de junio, sobre obligaciones de los prestadores de servicios de certificaci\u00f3n, en relaci\u00f3n con la interoperabilidad, dichos prestadores cumplir\u00e1n con lo indicado en los apartados siguientes."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En relaci\u00f3n con la interoperabilidad organizativa, los prestadores de los servicios de certificaci\u00f3n dispondr\u00e1n de lo siguiente, descrito en su Declaraci\u00f3n de Pr\u00e1cticas de Certificaci\u00f3n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Establecimiento de los usos de los certificados expedidos de acuerdo con un perfil dado y sus posibles l\u00edmites de uso."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Pr\u00e1cticas al generar los certificados que permitan posteriormente la aplicaci\u00f3n de unos mecanismos de descubrimiento y extracci\u00f3n inequ\u00edvoca de los datos de identidad del certificado."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Definici\u00f3n de la informaci\u00f3n de los certificados o relacionada con ellos que ser\u00e1 publicada por parte del prestador, debidamente catalogada."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Definici\u00f3n de los posibles estados en los que un certificado pueda encontrarse a lo largo de su ciclo de vida."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Los niveles de acuerdo de servicio definidos y caracterizados para los servicios de validaci\u00f3n y de sellado de fecha y hora."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. En relaci\u00f3n con la interoperabilidad sem\u00e1ntica, los prestadores de servicios de certificaci\u00f3n aplicar\u00e1n lo siguiente, descrito en su Declaraci\u00f3n de Pr\u00e1cticas de Certificaci\u00f3n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) La definici\u00f3n de los perfiles de certificados que describir\u00e1n, mediante m\u00ednimos, el contenido obligatorio y opcional de los diferentes tipos de certificados que emiten, as\u00ed como la informaci\u00f3n acerca de la sintaxis y sem\u00e1ntica de dichos contenidos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Establecimiento de los campos cuya unicidad de informaci\u00f3n permitir\u00e1 su uso en labores de identificaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "4. En relaci\u00f3n con la interoperabilidad t\u00e9cnica, los prestadores de los servicios de certificaci\u00f3n aplicar\u00e1n lo siguiente, descrito en su Declaraci\u00f3n de Pr\u00e1cticas de Certificaci\u00f3n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Los est\u00e1ndares relativos a pol\u00edticas y pr\u00e1cticas de certificaci\u00f3n y generaci\u00f3n de certificados electr\u00f3nicos, estado de los certificados, dispositivos seguros de creaci\u00f3n de firma, programas controladores, dispositivos criptogr\u00e1ficos, interfaces de programaci\u00f3n, tarjetas criptogr\u00e1ficas, conservaci\u00f3n de documentaci\u00f3n relativa a los certificados y servicios, l\u00edmites de los certificados, conforme a lo establecido en el art\u00edculo 11."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La incorporaci\u00f3n, dentro de los certificados, de informaci\u00f3n relativa a las direcciones de Internet donde se ofrecen servicios de validaci\u00f3n por parte de los prestadores."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los mecanismos de publicaci\u00f3n y de dep\u00f3sito de certificados y documentaci\u00f3n asociada admitidos entre Administraciones p\u00fablicas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 20. Plataformas de validaci\u00f3n de certificados electr\u00f3nicos y de firma electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las plataformas de validaci\u00f3n de certificados electr\u00f3nicos y de firma electr\u00f3nica proporcionar\u00e1n servicios de confianza a las aplicaciones usuarias o consumidoras de los servicios de certificaci\u00f3n y firma, proporcionando servicios de validaci\u00f3n de los certificados y firmas generadas y admitidas en diversos \u00e1mbitos de las Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Proporcionar\u00e1n, en un \u00fanico punto de llamada, todos los elementos de confianza y de interoperabilidad organizativa, sem\u00e1ntica y t\u00e9cnica necesarios para integrar los distintos certificados reconocidos y firmas que pueden encontrase en los dominios de dos administraciones diferentes."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Potenciar\u00e1n la armonizaci\u00f3n t\u00e9cnica y la utilizaci\u00f3n com\u00fan de formatos, est\u00e1ndares y pol\u00edticas de firma electr\u00f3nica y de certificados para las firmas electr\u00f3nicas entre las aplicaciones usuarias, y de otros elementos de interoperabilidad relacionados con los certificados, tales como el an\u00e1lisis de los campos y extracci\u00f3n univoca de la informaci\u00f3n pertinente. En particular, se tendr\u00e1n en cuenta los est\u00e1ndares europeos de las Organizaciones Europeas de Estandarizaci\u00f3n en el campo de las Tecnolog\u00edas de Informaci\u00f3n y Comunicaci\u00f3n aplicadas a la firma electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Incorporar\u00e1n las listas de confianza de los certificados interoperables entre las distintas Administraciones p\u00fablicas nacionales y europeas seg\u00fan el esquema operativo de gesti\u00f3n correspondiente de la lista de confianza."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO X"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Recuperaci\u00f3n y conservaci\u00f3n del documento electr\u00f3nico"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 21. Condiciones para la recuperaci\u00f3n y conservaci\u00f3n de documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones p\u00fablicas adoptar\u00e1n las medidas organizativas y t\u00e9cnicas necesarias con el fin de garantizar la interoperabilidad en relaci\u00f3n con la recuperaci\u00f3n y conservaci\u00f3n de los documentos electr\u00f3nicos a lo largo de su ciclo de vida. Tales medidas incluir\u00e1n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) La definici\u00f3n de una pol\u00edtica de gesti\u00f3n de documentos en cuanto al tratamiento, de acuerdo con las normas y procedimientos espec\u00edficos que se hayan de utilizar en la formaci\u00f3n y gesti\u00f3n de los documentos y expedientes."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La inclusi\u00f3n en los expedientes de un \u00edndice electr\u00f3nico firmado por el \u00f3rgano o entidad actuante que garantice la integridad del expediente electr\u00f3nico y permita su recuperaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La identificaci\u00f3n \u00fanica e inequ\u00edvoca de cada documento por medio de convenciones adecuadas, que permitan clasificarlo, recuperarlo y referirse al mismo con facilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La asociaci\u00f3n de los metadatos m\u00ednimos obligatorios y, en su caso, complementarios, asociados al documento electr\u00f3nico, a lo largo de su ciclo de vida, e incorporaci\u00f3n al esquema de metadatos."
+      },{
+        "@class": "parrafo",
+        "#text": "e) La clasificaci\u00f3n, de acuerdo con un plan de clasificaci\u00f3n adaptado a las funciones, tanto generales como espec\u00edficas, de cada una de las Administraciones p\u00fablicas y de las Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9llas."
+      },{
+        "@class": "parrafo",
+        "#text": "f) El per\u00edodo de conservaci\u00f3n de los documentos, establecido por las comisiones calificadoras que correspondan, de acuerdo con la legislaci\u00f3n en vigor, las normas administrativas y obligaciones jur\u00eddicas que resulten de aplicaci\u00f3n en cada caso."
+      },{
+        "@class": "parrafo",
+        "#text": "g) El acceso completo e inmediato a los documentos a trav\u00e9s de m\u00e9todos de consulta en l\u00ednea que permitan la visualizaci\u00f3n de los documentos con todo el detalle de su contenido, la recuperaci\u00f3n exhaustiva y pertinente de los documentos, la copia o descarga en l\u00ednea en los formatos originales y la impresi\u00f3n a papel de aquellos documentos que sean necesarios. El sistema permitir\u00e1 la consulta durante todo el per\u00edodo de conservaci\u00f3n al menos de la firma electr\u00f3nica, incluido, en su caso, el sello de tiempo, y de los metadatos asociados al documento."
+      },{
+        "@class": "parrafo",
+        "#text": "h) La adopci\u00f3n de medidas para asegurar la conservaci\u00f3n de los documentos electr\u00f3nicos a lo largo de su ciclo de vida, de acuerdo con lo previsto en el art\u00edculo 22, de forma que se pueda asegurar su recuperaci\u00f3n de acuerdo con el plazo m\u00ednimo de conservaci\u00f3n determinado por las normas administrativas y obligaciones jur\u00eddicas, se garantice su conservaci\u00f3n a largo plazo, se asegure su valor probatorio y su fiabilidad como evidencia electr\u00f3nica de las actividades y procedimientos, as\u00ed como la transparencia, la memoria y la identificaci\u00f3n de los \u00f3rganos de las Administraciones p\u00fablicas y de las Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9llas que ejercen la competencia sobre el documento o expediente."
+      },{
+        "@class": "parrafo",
+        "#text": "i) La coordinaci\u00f3n horizontal entre el responsable de gesti\u00f3n de documentos y los restantes servicios interesados en materia de archivos."
+      },{
+        "@class": "parrafo",
+        "#text": "j) Transferencia, en su caso, de los expedientes entre los diferentes repositorios electr\u00f3nicos a efectos de conservaci\u00f3n, de acuerdo con lo establecido en la legislaci\u00f3n en materia de Archivos, de manera que se pueda asegurar su conservaci\u00f3n, y recuperaci\u00f3n a medio y largo plazo."
+      },{
+        "@class": "parrafo",
+        "#text": "k) Si el resultado del procedimiento de evaluaci\u00f3n documental as\u00ed lo establece, borrado de la informaci\u00f3n, o en su caso, destrucci\u00f3n f\u00edsica de los soportes, de acuerdo con la legislaci\u00f3n que resulte de aplicaci\u00f3n, dejando registro de su eliminaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "l) La formaci\u00f3n tecnol\u00f3gica del personal responsable de la ejecuci\u00f3n y del control de la gesti\u00f3n de documentos, como de su tratamiento y conservaci\u00f3n en archivos o repositorios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "m) La documentaci\u00f3n de los procedimientos que garanticen la interoperabilidad a medio y largo plazo, as\u00ed como las medidas de identificaci\u00f3n, recuperaci\u00f3n, control y tratamiento de los documentos electr\u00f3nicos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. A los efectos de lo dispuesto en el apartado 1, las Administraciones p\u00fablicas crear\u00e1n repositorios electr\u00f3nicos, complementarios y equivalentes en cuanto a su funci\u00f3n a los archivos convencionales, destinados a cubrir el conjunto del ciclo de vida de los documentos electr\u00f3nicos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 22. Seguridad."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Para asegurar la conservaci\u00f3n de los documentos electr\u00f3nicos se aplicar\u00e1 lo previsto en el Esquema Nacional de Seguridad en cuanto al cumplimento de los principios b\u00e1sicos y de los requisitos m\u00ednimos de seguridad mediante la aplicaci\u00f3n de las medidas de seguridad adecuadas a los medios y soportes en los que se almacenen los documentos, de acuerdo con la categorizaci\u00f3n de los sistemas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Cuando los citados documentos electr\u00f3nicos contengan datos de car\u00e1cter personal les ser\u00e1 de aplicaci\u00f3n lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y normativa de desarrollo."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Estas medidas se aplicar\u00e1n con el fin de garantizar la integridad, autenticidad, confidencialidad, disponibilidad, trazabilidad, calidad, protecci\u00f3n, recuperaci\u00f3n y conservaci\u00f3n f\u00edsica y l\u00f3gica de los documentos electr\u00f3nicos, sus soportes y medios, y se realizar\u00e1n atendiendo a los riesgos a los que puedan estar expuestos y a los plazos durante los cuales deban conservarse los documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los aspectos relativos a la firma electr\u00f3nica en la conservaci\u00f3n del documento electr\u00f3nico se establecer\u00e1n en la Pol\u00edtica de firma electr\u00f3nica y de certificados, y a trav\u00e9s del uso de formatos de firma longeva que preserven la conservaci\u00f3n de las firmas a lo largo del tiempo."
+      },{
+        "@class": "parrafo",
+        "#text": "Cuando la firma y los certificados no puedan garantizar la autenticidad y la evidencia de los documentos electr\u00f3nicos a lo largo del tiempo, \u00e9stas les sobrevendr\u00e1n a trav\u00e9s de su conservaci\u00f3n y custodia en los repositorios y archivos electr\u00f3nicos, as\u00ed como de los metadatos de gesti\u00f3n de documentos y otros metadatos vinculados, de acuerdo con las caracter\u00edsticas que se definir\u00e1n en la Pol\u00edtica de gesti\u00f3n de documentos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 23. Formatos de los documentos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Con el fin de garantizar la conservaci\u00f3n, el documento se conservar\u00e1 en el formato en que haya sido elaborado, enviado o recibido, y preferentemente en un formato correspondiente a un est\u00e1ndar abierto que preserve a lo largo del tiempo la integridad del contenido del documento, de la firma electr\u00f3nica y de los metadatos que lo acompa\u00f1an."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La elecci\u00f3n de formatos de documento electr\u00f3nico normalizados y perdurables para asegurar la independencia de los datos de sus soportes se realizar\u00e1 de acuerdo con lo previsto en el art\u00edculo 11."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cuando exista riesgo de obsolescencia del formato o bien deje de figurar entre los admitidos en el presente Esquema Nacional de Interoperabilidad, se aplicar\u00e1n procedimientos normalizados de copiado aut\u00e9ntico de los documentos con cambio de formato, de etiquetado con informaci\u00f3n del formato utilizado y, en su caso, de las migraciones o conversiones de formatos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 24. Digitalizaci\u00f3n de documentos en soporte papel."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La digitalizaci\u00f3n de documentos en soporte papel por parte de las Administraciones p\u00fablicas se realizar\u00e1 de acuerdo con lo indicado en la norma t\u00e9cnica de interoperabilidad correspondiente en relaci\u00f3n con los siguientes aspectos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Formatos est\u00e1ndares de uso com\u00fan para la digitalizaci\u00f3n de documentos en soporte papel y t\u00e9cnica de compresi\u00f3n empleada, de acuerdo con lo previsto en el art\u00edculo 11."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Nivel de resoluci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Garant\u00eda de imagen fiel e \u00edntegra."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Metadatos m\u00ednimos obligatorios y complementarios, asociados al proceso de digitalizaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. La gesti\u00f3n y conservaci\u00f3n del documento electr\u00f3nico digitalizado atender\u00e1 a la posible existencia del mismo en otro soporte."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO XI"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Normas de conformidad"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 25. Sedes y registros electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "La interoperabilidad de las sedes y registros electr\u00f3nicos, as\u00ed como la del acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos, se regir\u00e1n por lo establecido en el Esquema Nacional de Interoperabilidad."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 26. Ciclo de vida de servicios y sistemas."
+      },{
+        "@class": "parrafo",
+        "#text": "La conformidad con el Esquema Nacional de Interoperabilidad se incluir\u00e1 en el ciclo de vida de los servicios y sistemas, acompa\u00f1ada de los correspondientes procedimientos de control."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 27. Mecanismo de control."
+      },{
+        "@class": "parrafo",
+        "#text": "Cada \u00f3rgano o Entidad de Derecho P\u00fablico establecer\u00e1 sus mecanismos de control para garantizar, de forma efectiva, el cumplimiento del Esquema Nacional de Interoperabilidad."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 28. Publicaci\u00f3n de conformidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Los \u00f3rganos y Entidades de Derecho P\u00fablico de las Administraciones p\u00fablicas dar\u00e1n publicidad, en las correspondientes sedes electr\u00f3nicas, a las declaraciones de conformidad y a otros posibles distintivos de interoperabilidad de los que sean acreedores, obtenidos respecto al cumplimiento del Esquema Nacional de Interoperabilidad."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO XII"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Actualizaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 29. Actualizaci\u00f3n permanente."
+      },{
+        "@class": "parrafo",
+        "#text": "El Esquema Nacional de Interoperabilidad se deber\u00e1 mantener actualizado de manera permanente. Se desarrollar\u00e1 y perfeccionar\u00e1 a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de la evoluci\u00f3n tecnol\u00f3gica y a medida que vayan consolid\u00e1ndose las infraestructuras que le apoyan."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Desarrollo del Esquema Nacional de Interoperabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se desarrollar\u00e1n las siguientes normas t\u00e9cnicas de interoperabilidad que ser\u00e1n de obligado cumplimiento por parte de las Administraciones p\u00fablicas:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Cat\u00e1logo de est\u00e1ndares: establecer\u00e1 un conjunto de est\u00e1ndares que satisfagan lo previsto en el art\u00edculo 11 de forma estructurada y con indicaci\u00f3n de los criterios de selecci\u00f3n y ciclo de vida aplicados."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Documento electr\u00f3nico: tratar\u00e1 los metadatos m\u00ednimos obligatorios, la asociaci\u00f3n de los datos y metadatos de firma o de sellado de tiempo, as\u00ed como otros metadatos complementarios asociados; y los formatos de documento."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Digitalizaci\u00f3n de documentos: Tratar\u00e1 los formatos y est\u00e1ndares aplicables, los niveles de calidad, las condiciones t\u00e9cnicas y los metadatos asociados al proceso de digitalizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Expediente electr\u00f3nico: tratar\u00e1 de su estructura y formato, as\u00ed como de las especificaciones de los servicios de remisi\u00f3n y puesta a disposici\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Pol\u00edtica de firma electr\u00f3nica y de certificados de la Administraci\u00f3n: Tratar\u00e1, entre otras cuestiones recogidas en su definici\u00f3n en el anexo I, aquellas que afectan a la interoperabilidad incluyendo los formatos de firma, los algoritmos a utilizar y longitudes m\u00ednimas de las claves, las reglas de creaci\u00f3n y validaci\u00f3n de la firma electr\u00f3nica, la gesti\u00f3n de las pol\u00edticas de firma, el uso de las referencias temporales y de sello de tiempo, as\u00ed como la normalizaci\u00f3n de la representaci\u00f3n de la firma electr\u00f3nica en pantalla y en papel para el ciudadano y en las relaciones entre las Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Protocolos de intermediaci\u00f3n de datos: tratar\u00e1 las especificaciones de los protocolos de intermediaci\u00f3n de datos que faciliten la integraci\u00f3n y reutilizaci\u00f3n de servicios en las Administraciones p\u00fablicas y que ser\u00e1n de aplicaci\u00f3n para los prestadores y consumidores de tales servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Relaci\u00f3n de modelos de datos que tengan el car\u00e1cter de comunes en la Administraci\u00f3n y aquellos que se refieran a materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y otras administraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos: incluir\u00e1 directrices para la asignaci\u00f3n de responsabilidades, tanto directivas como profesionales, y la definici\u00f3n de los programas, procesos y controles de gesti\u00f3n de documentos y administraci\u00f3n de los repositorios electr\u00f3nicos, y la documentaci\u00f3n de los mismos, a desarrollar por las Administraciones p\u00fablicas y por las Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9llas."
+      },{
+        "@class": "parrafo",
+        "#text": "i) Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas."
+      },{
+        "@class": "parrafo",
+        "#text": "j) Procedimientos de copiado aut\u00e9ntico y conversi\u00f3n entre documentos electr\u00f3nicos, as\u00ed como desde papel u otros medios f\u00edsicos a formatos electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "k) Modelo de Datos para el intercambio de asientos entre las Entidades Registrales: tratar\u00e1 de aspectos funcionales y t\u00e9cnicos para el intercambio de asientos registrales, gesti\u00f3n de errores y excepciones, gesti\u00f3n de anexos, requerimientos tecnol\u00f3gicos y transformaciones de formatos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. El Ministerio de la Presidencia, a propuesta del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica previsto en el art\u00edculo 40 de la Ley 11/2007, de 22 de junio, aprobar\u00e1 las normas t\u00e9cnicas de interoperabilidad y las publicar\u00e1 mediante Resoluci\u00f3n de la Secretaria de Estado para la Funci\u00f3n P\u00fablica. Para la redacci\u00f3n y mantenimiento de las normas t\u00e9cnicas de interoperabilidad indicadas en el apartado 1 se constituir\u00e1n los correspondientes grupos de trabajo en los \u00f3rganos colegiados con competencias en materia de administraci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Se desarrollar\u00e1n los siguientes instrumentos para la interoperabilidad:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Inventario de procedimientos administrativos y servicios prestados: contendr\u00e1 informaci\u00f3n de los procedimientos y servicios, clasificada con indicaci\u00f3n del nivel de informatizaci\u00f3n de los mismos, as\u00ed como informaci\u00f3n acerca de las interfaces al objeto de favorecer la interacci\u00f3n o en su caso la integraci\u00f3n de los procesos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Centro de interoperabilidad sem\u00e1ntica de la Administraci\u00f3n: publicar\u00e1 los modelos de datos de intercambio tanto comunes como sectoriales, as\u00ed como los relativos a infraestructuras y servicios comunes, junto con las definiciones y codificaciones asociadas; proporcionar\u00e1 funciones de repositorio, generaci\u00f3n de formatos para procesamiento automatizado, colaboraci\u00f3n, publicaci\u00f3n y difusi\u00f3n de los modelos de datos que faciliten la interoperabilidad sem\u00e1ntica entre las Administraciones p\u00fablicas y de \u00e9stas con los ciudadanos; se enlazar\u00e1 con otros instrumentos equivalentes de las Administraciones P\u00fablicas y del \u00e1mbito de la Uni\u00f3n Europea."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Directorio de aplicaciones para su libre reutilizaci\u00f3n: contendr\u00e1 la relaci\u00f3n de aplicaciones para su libre reutilizaci\u00f3n, incluyendo, al menos, los datos descriptivos relativos a nombre de la aplicaci\u00f3n, breve descripci\u00f3n de sus funcionalidades, uso y caracter\u00edsticas, licencia, principales est\u00e1ndares abiertos aplicados, y estado de desarrollo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Formaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "El personal de las Administraciones p\u00fablicas recibir\u00e1 la formaci\u00f3n necesaria para garantizar el conocimiento del presente Esquema Nacional de Interoperabilidad, a cuyo fin los \u00f3rganos responsables dispondr\u00e1n lo necesario para que esta formaci\u00f3n sea una realidad efectiva."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. Centro Nacional de Referencia de Aplicaci\u00f3n de las Tecnolog\u00edas de la Informaci\u00f3n y la Comunicaci\u00f3n (TIC) basadas en fuentes abiertas."
+      },{
+        "@class": "parrafo",
+        "#text": "CENATIC, Fundaci\u00f3n P\u00fablica Estatal, constituida por el Ministerio de Industria, Turismo y Comercio, a trav\u00e9s de Red.es, podr\u00e1 impulsar proyectos de software de fuentes abiertas dirigidos a la mejor implantaci\u00f3n de las medidas de interoperabilidad contempladas en el presente real decreto y, al objeto de fomentar la reutilizaci\u00f3n y facilitar la interoperabilidad, se encargar\u00e1 de la puesta en valor y difusi\u00f3n de todas aquellas aplicaciones que sean declaradas de fuentes abiertas por las Administraciones P\u00fablicas."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Instituto Nacional de Tecnolog\u00edas de la Comunicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "INTECO, como centro de excelencia promovido por el Ministerio de Industria, Turismo y Comercio para el desarrollo de la sociedad del conocimiento, podr\u00e1 desarrollar proyectos de innovaci\u00f3n y programas de investigaci\u00f3n dirigidos a la mejor implantaci\u00f3n de las medidas de interoperabilidad contempladas en el presente real decreto."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria primera. Adecuaci\u00f3n de sistemas y servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "Los sistemas existentes a la entrada en vigor del presente real decreto se adecuar\u00e1n al Esquema Nacional de Interoperabilidad de forma que permitan el cumplimiento de lo establecido en la Disposici\u00f3n final tercera de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos. Los nuevos sistemas aplicar\u00e1n lo establecido en el presente real decreto desde su concepci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Si a los doce meses de la entrada en vigor del Esquema Nacional de Interoperabilidad hubiera circunstancias que impidan la plena aplicaci\u00f3n de lo exigido en el mismo, se dispondr\u00e1 de un plan de adecuaci\u00f3n, que marque los plazos de ejecuci\u00f3n los cuales, en ning\u00fan caso, ser\u00e1n superiores a 48 meses desde la entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "El plan indicado en el p\u00e1rrafo anterior ser\u00e1 elaborado con la antelaci\u00f3n suficiente y aprobado por los \u00f3rganos superiores competentes."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria segunda. Uso de medios actualmente admitidos de identificaci\u00f3n y autenticaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "De acuerdo con lo previsto en el art\u00edculo 19 de la Ley 11/2007, de 22 de junio, y en la disposici\u00f3n transitoria primera del Real Decreto 1671/2009, de 6 de noviembre, se establece un plazo de adaptaci\u00f3n de veinticuatro meses en el que se podr\u00e1 seguir utilizando los medios actualmente admitidos de identificaci\u00f3n y firma electr\u00f3nica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n derogatoria \u00fanica."
+      },{
+        "@class": "parrafo",
+        "#text": "Quedan derogadas las disposiciones de igual o inferior rango que se opongan a lo dispuesto en el presente reglamento."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. T\u00edtulo habilitante."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente real decreto se dicta en virtud de lo establecido en el art\u00edculo 149.1.18.\u00aa de la Constituci\u00f3n, que atribuye al Estado la competencia sobre las bases del r\u00e9gimen jur\u00eddico de las Administraciones P\u00fablicas."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Desarrollo normativo."
+      },{
+        "@class": "parrafo",
+        "#text": "Se autoriza al titular del Ministerio de la Presidencia, para dictar las disposiciones necesarias para la aplicaci\u00f3n y desarrollo de lo establecido en el presente real decreto, sin perjuicio de las competencias de las comunidades aut\u00f3nomas de desarrollo y ejecuci\u00f3n de la legislaci\u00f3n b\u00e1sica del Estado."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final tercera. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente real decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dado en Madrid, el 8 de enero de 2010."
+      },{
+        "@class": "firma_rey",
+        "#text": "JUAN CARLOS R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "La Vicepresidenta Primera del Gobierno y Ministra de la Presidencia,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "MAR\u00cdA TERESA FERN\u00c1NDEZ DE LA VEGA SANZ"
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Glosario de t\u00e9rminos"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Aplicaci\u00f3n: Programa o conjunto de programas cuyo objeto es la resoluci\u00f3n de un problema mediante el uso de inform\u00e1tica."
+      },{
+        "@class": "parrafo",
+        "#text": "Aplicaci\u00f3n de fuentes abiertas: Aquella que se distribuye con una licencia que permite la libertad de ejecutarla, de conocer el c\u00f3digo fuente, de modificarla o mejorarla y de redistribuir copias a otros usuarios."
+      },{
+        "@class": "parrafo",
+        "#text": "Cadena de interoperabilidad: Expresi\u00f3n de la interoperabilidad en el despliegue de los sistemas y los servicios como una sucesi\u00f3n de elementos enlazados e interconectados, de forma din\u00e1mica, a trav\u00e9s de interfaces y con proyecci\u00f3n a las dimensiones t\u00e9cnica, sem\u00e1ntica y organizativa."
+      },{
+        "@class": "parrafo",
+        "#text": "Ciclo de vida de un documento electr\u00f3nico: Conjunto de las etapas o per\u00edodos por los que atraviesa la vida del documento, desde su identificaci\u00f3n en un sistema de gesti\u00f3n de documentos, hasta su selecci\u00f3n para conservaci\u00f3n permanente, de acuerdo con la legislaci\u00f3n sobre Archivos de aplicaci\u00f3n en cada caso, o para su destrucci\u00f3n reglamentaria."
+      },{
+        "@class": "parrafo",
+        "#text": "Coste que no suponga una dificultad de acceso: Precio del est\u00e1ndar que, por estar vinculado al coste de distribuci\u00f3n y no a su valor, no impide conseguir su posesi\u00f3n o uso."
+      },{
+        "@class": "parrafo",
+        "#text": "Dato: Una representaci\u00f3n de hechos, conceptos o instrucciones de un modo formalizado, y adecuado para comunicaci\u00f3n, interpretaci\u00f3n o procesamiento por medios autom\u00e1ticos o humanos."
+      },{
+        "@class": "parrafo",
+        "#text": "Digitalizaci\u00f3n: El proceso tecnol\u00f3gico que permite convertir un documento en soporte papel o en otro soporte no electr\u00f3nico en uno o varios ficheros electr\u00f3nicos que contienen la imagen codificada, fiel e \u00edntegra del documento."
+      },{
+        "@class": "parrafo",
+        "#text": "Documento electr\u00f3nico: Informaci\u00f3n de cualquier naturaleza en forma electr\u00f3nica, archivada en un soporte electr\u00f3nico seg\u00fan un formato determinado y susceptible de identificaci\u00f3n y tratamiento diferenciado."
+      },{
+        "@class": "parrafo",
+        "#text": "Especificaci\u00f3n t\u00e9cnica: Una especificaci\u00f3n que figura en un documento en el que se definen las caracter\u00edsticas requeridas de un producto, tales como los niveles de calidad, el uso espec\u00edfico, la seguridad o las dimensiones, incluidas las prescripciones aplicables al producto en lo referente a la denominaci\u00f3n de venta, la terminolog\u00eda, los s\u00edmbolos, los ensayos y m\u00e9todos de ensayo, el envasado, el marcado y el etiquetado, as\u00ed como los procedimientos de evaluaci\u00f3n de la conformidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Especificaci\u00f3n formalizada: Aquellas especificaciones que o bien son normas en el sentido de la Directiva 98/34 o bien proceden de consorcios de la industria u otros foros de normalizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Esquema de metadatos: Instrumento que define la incorporaci\u00f3n y gesti\u00f3n de los metadatos de contenido, contexto y estructura de los documentos electr\u00f3nicos a lo largo de su ciclo de vida."
+      },{
+        "@class": "parrafo",
+        "#text": "Est\u00e1ndar: V\u00e9ase norma."
+      },{
+        "@class": "parrafo",
+        "#text": "Est\u00e1ndar abierto: Aqu\u00e9l que re\u00fane las siguientes condiciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Que sea p\u00fablico y su utilizaci\u00f3n sea disponible de manera gratuita o a un coste que no suponga una dificultad de acceso,"
+      },{
+        "@class": "parrafo",
+        "#text": "b) Que su uso y aplicaci\u00f3n no est\u00e9 condicionado al pago de un derecho de propiedad intelectual o industrial."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Familia: Se entiende por tal la agrupaci\u00f3n de procedimientos administrativos atendiendo a criterios gen\u00e9ricos de similitud por raz\u00f3n de esquema de tramitaci\u00f3n, documentaci\u00f3n de entrada y salida e informaci\u00f3n, dejando al margen criterios de semejanza en la materia objeto del procedimiento, \u00f3rgano competente, u otra informaci\u00f3n an\u00e1loga."
+      },{
+        "@class": "parrafo",
+        "#text": "Firma electr\u00f3nica: Conjunto de datos en forma electr\u00f3nica, consignados junto a otros o asociados con ellos, que pueden ser utilizados como medio de identificaci\u00f3n del firmante."
+      },{
+        "@class": "parrafo",
+        "#text": "Formato: Conjunto de reglas (algoritmo) que define la manera correcta de intercambiar o almacenar datos en memoria."
+      },{
+        "@class": "parrafo",
+        "#text": "Herramientas gen\u00e9ricas: Instrumentos y programas de referencia, compartidos, de colaboraci\u00f3n o componentes comunes y m\u00f3dulos similares reutilizables que satisfacen las necesidades comunes en los distintos \u00e1mbitos administrativos."
+      },{
+        "@class": "parrafo",
+        "#text": "Imagen electr\u00f3nica: Resultado de aplicar un proceso de digitalizaci\u00f3n a un documento."
+      },{
+        "@class": "parrafo",
+        "#text": "[ignorar]\u00cdndice electr\u00f3nico: Relaci\u00f3n de documentos electr\u00f3nicos de un expediente electr\u00f3nico, firmada por la Administraci\u00f3n, \u00f3rgano o entidad actuante, seg\u00fan proceda y cuya finalidad es garantizar la integridad del expediente electr\u00f3nico y permitir su recuperaci\u00f3n siempre que sea preciso."
+      },{
+        "@class": "parrafo",
+        "#text": "Infraestructuras y servicios comunes: Instrumentos operativos que facilitan el desarrollo y despliegue de nuevos servicios, as\u00ed como la interoperabilidad de los existentes, creando escenarios de relaci\u00f3n multilateral y que satisfacen las necesidades comunes en los distintos \u00e1mbitos administrativos; son ejemplos la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, la red transeuropea sTESTA, la plataforma de verificaci\u00f3n de certificados electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Interoperabilidad: Capacidad de los sistemas de informaci\u00f3n, y por ende de los procedimientos a los que \u00e9stos dan soporte, de compartir datos y posibilitar el intercambio de informaci\u00f3n y conocimiento entre ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "Interoperabilidad organizativa: Es aquella dimensi\u00f3n de la interoperabilidad relativa a la capacidad de las entidades y de los procesos a trav\u00e9s de los cuales llevan a cabo sus actividades para colaborar con el objeto de alcanzar logros mutuamente acordados relativos a los servicios que prestan."
+      },{
+        "@class": "parrafo",
+        "#text": "Interoperabilidad sem\u00e1ntica: Es aquella dimensi\u00f3n de la interoperabilidad relativa a que la informaci\u00f3n intercambiada pueda ser interpretable de forma autom\u00e1tica y reutilizable por aplicaciones que no intervinieron en su creaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Interoperabilidad t\u00e9cnica: Es aquella dimensi\u00f3n de la interoperabilidad relativa a la relaci\u00f3n entre sistemas y servicios de tecnolog\u00edas de la informaci\u00f3n, incluyendo aspectos tales como las interfaces, la interconexi\u00f3n, la integraci\u00f3n de datos y servicios, la presentaci\u00f3n de la informaci\u00f3n, la accesibilidad y la seguridad, u otros de naturaleza an\u00e1loga."
+      },{
+        "@class": "parrafo",
+        "#text": "Interoperabilidad en el tiempo: Es aquella dimensi\u00f3n de la interoperabilidad relativa a la interacci\u00f3n entre elementos que corresponden a diversas oleadas tecnol\u00f3gicas; se manifiesta especialmente en la conservaci\u00f3n de la informaci\u00f3n en soporte electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "Licencia P\u00fablica de la Uni\u00f3n Europea (\u00abEuropean Union Public Licence-EUPL\u00bb): Licencia adoptada oficialmente por la Comisi\u00f3n Europea en las 22 lenguas oficiales comunitarias para reforzar la interoperabilidad de car\u00e1cter legal mediante un marco colectivo para la puesta en com\u00fan de las aplicaciones del sector p\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "Lista de servicios de confianza (TSL): Lista de acceso p\u00fablico que recoge informaci\u00f3n precisa y actualizada de aquellos servicios de certificaci\u00f3n y firma electr\u00f3nica que se consideran aptos para su empleo en un marco de interoperabilidad de las Administraciones p\u00fablicas espa\u00f1olas y europeas."
+      },{
+        "@class": "parrafo",
+        "#text": "Marca de tiempo: La asignaci\u00f3n por medios electr\u00f3nicos de la fecha y, en su caso, la hora a un documento electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "Medio electr\u00f3nico: Mecanismo, instalaci\u00f3n, equipo o sistema que permite producir, almacenar o transmitir documentos, datos e informaciones; incluyendo cualesquiera redes de comunicaci\u00f3n abiertas o restringidas como Internet, telefon\u00eda fija y m\u00f3vil u otras."
+      },{
+        "@class": "parrafo",
+        "#text": "Metadato: Dato que define y describe otros datos. Existen diferentes tipos de metadatos seg\u00fan su aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Metadato de gesti\u00f3n de documentos: Informaci\u00f3n estructurada o semiestructurada que hace posible la creaci\u00f3n, gesti\u00f3n y uso de documentos a lo largo del tiempo en el contexto de su creaci\u00f3n. Los metadatos de gesti\u00f3n de documentos sirven para identificar, autenticar y contextualizar documentos, y del mismo modo a las personas, los procesos y los sistemas que los crean, gestionan, mantienen y utilizan."
+      },{
+        "@class": "parrafo",
+        "#text": "Modelo de datos: Conjunto de definiciones (modelo conceptual), interrelaciones (modelo l\u00f3gico) y reglas y convenciones (modelo f\u00edsico) que permiten describir los datos para su intercambio."
+      },{
+        "@class": "parrafo",
+        "#text": "Nivel de resoluci\u00f3n: Resoluci\u00f3n espacial de la imagen obtenida como resultado de un proceso de digitalizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Nodo de interoperabilidad: Organismo que presta servicios de interconexi\u00f3n t\u00e9cnica, organizativa y jur\u00eddica entre sistemas de informaci\u00f3n para un conjunto de Administraciones P\u00fablicas bajo las condiciones que \u00e9stas fijen."
+      },{
+        "@class": "parrafo",
+        "#text": "Norma: Especificaci\u00f3n t\u00e9cnica aprobada por un organismo de normalizaci\u00f3n reconocido para una aplicaci\u00f3n repetida o continuada cuyo cumplimiento no sea obligatorio y que est\u00e9 incluida en una de las categor\u00edas siguientes:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) norma internacional: norma adoptada por una organizaci\u00f3n internacional de normalizaci\u00f3n y puesta a disposici\u00f3n del p\u00fablico,"
+      },{
+        "@class": "parrafo",
+        "#text": "b) norma europea: norma adoptada por un organismo europeo de normalizaci\u00f3n y puesta a disposici\u00f3n del p\u00fablico,"
+      },{
+        "@class": "parrafo",
+        "#text": "c) norma nacional: norma adoptada por un organismo nacional de normalizaci\u00f3n y puesta a disposici\u00f3n del p\u00fablico."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Pol\u00edtica de firma electr\u00f3nica: Conjunto de normas de seguridad, de organizaci\u00f3n, t\u00e9cnicas y legales para determinar c\u00f3mo se generan, verifican y gestionan firmas electr\u00f3nicas, incluyendo las caracter\u00edsticas exigibles a los certificados de firma."
+      },{
+        "@class": "parrafo",
+        "#text": "Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos: Orientaciones o directrices que define una organizaci\u00f3n para la creaci\u00f3n y gesti\u00f3n de documentos aut\u00e9nticos, fiables y disponibles a lo largo del tiempo, de acuerdo con las funciones y actividades que le son propias. La pol\u00edtica se aprueba al m\u00e1s alto nivel dentro de la organizaci\u00f3n, y asigna responsabilidades en cuanto a la coordinaci\u00f3n, aplicaci\u00f3n, supervisi\u00f3n y gesti\u00f3n del programa de tratamiento de los documentos a trav\u00e9s de su ciclo de vida."
+      },{
+        "@class": "parrafo",
+        "#text": "Procedimiento administrativo: Proceso formal regulado jur\u00eddicamente para la toma de decisiones por parte de las Administraciones p\u00fablicas para garantizar la legalidad, eficacia, eficiencia, calidad, derechos e intereses presentes, que termina con una resoluci\u00f3n en la que se recoge un acto administrativo; este proceso formal jur\u00eddicamente regulado se implementa en la pr\u00e1ctica mediante un proceso operativo que coincide en mayor o menor medida con el formal."
+      },{
+        "@class": "parrafo",
+        "#text": "Proceso operativo: Conjunto organizado de actividades que se llevan a cabo para producir un producto o servicio; tiene un principio y fin delimitado, implica recursos y da lugar a un resultado."
+      },{
+        "@class": "parrafo",
+        "#text": "Repositorio electr\u00f3nico: Archivo centralizado donde se almacenan y administran datos y documentos electr\u00f3nicos, y sus metadatos."
+      },{
+        "@class": "parrafo",
+        "#text": "Sello de tiempo: La asignaci\u00f3n por medios electr\u00f3nicos de una fecha y hora a un documento electr\u00f3nico con la intervenci\u00f3n de un prestador de servicios de certificaci\u00f3n que asegure la exactitud e integridad de la marca de tiempo del documento."
+      },{
+        "@class": "parrafo",
+        "#text": "Sellado de tiempo: Acreditaci\u00f3n a cargo de un tercero de confianza de la fecha y hora de realizaci\u00f3n de cualquier operaci\u00f3n o transacci\u00f3n por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Servicio de interoperabilidad: Cualquier mecanismo que permita a las Administraciones p\u00fablicas compartir datos e intercambiar informaci\u00f3n mediante el uso de las tecnolog\u00edas de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Soporte: Objeto sobre el cual o en el cual es posible grabar y recuperar datos."
+      },{
+        "@class": "parrafo",
+        "#text": "Tr\u00e1mite: Cada uno de los estados y diligencias que hay que recorrer en un negocio hasta su conclusi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Uso generalizado por los ciudadanos: Usado por casi todas las personas f\u00edsicas, personas jur\u00eddicas y entes sin personalidad que se relacionen o sean susceptibles de relacionarse con las Administraciones p\u00fablicas espa\u00f1olas."
+      }
+    ]
+  }
+}
+}

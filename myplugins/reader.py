@@ -7,9 +7,9 @@ from pelican.utils import SafeDatetime, pelican_open
 from munch import Munch, DefaultMunch
 
 #from pelican.readers import MarkdownReader as MarkReader
-from .yamlmetadata import YAMLMetadataReader as MarkReader
-from .util import run
 from datetime import date, datetime
+from .core.yamlmetadata import YAMLMetadataReader as MarkReader
+from .core.util import run
 
 # https://github.com/pR0Ps/pelican-yaml-metadata
 

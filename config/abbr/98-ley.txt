@@ -1,0 +1,6 @@
+BOE
+https://es.wikipedia.org/wiki/Bolet%C3%ADn_Oficial_del_Estado
+Boletín Oficial del Estado
+
+r'\s*(BOE-[A-Z\-0-9]+)#([a-z0-9]+)
+s'<sup title="\2 #\3"><a href="https://www.boe.es/buscar/act.php?id=\2#\3">?</a></sup>

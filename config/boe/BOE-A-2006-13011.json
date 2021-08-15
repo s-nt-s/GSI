@@ -1,0 +1,1763 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20210702152602",
+  "metadatos": {
+    "identificador": "BOE-A-2006-13011",
+    "titulo": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "171",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "7723",
+      "#text": "Jefatura del Estado"
+    },
+    "rango": {
+      "@codigo": "1300",
+      "#text": "Ley"
+    },
+    "numero_oficial": "28/2006",
+    "fecha_disposicion": "20060718",
+    "fecha_publicacion": "20060719",
+    "fecha_vigencia": "20060720",
+    "fecha_derogacion": "20161002",
+    "letra_imagen": "A",
+    "pagina_inicial": "27124",
+    "pagina_final": "27132",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "S",
+    "estatus_derogacion": "S",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2006/07/19/pdfs/A27124-27132.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2006/07/21/pdfs/A02215-02223.pdf",
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": "/boe_gallego/dias/2006/07/21/pdfs/A01509-01518.pdf",
+    "url_pdf_valenciano": "/boe_valenciano/dias/2006/08/01/pdfs/A00512-00520.pdf",
+    "url_eli": "https://www.boe.es/eli/es/l/2006/07/18/28"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2006-13011"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2006-07-18"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "28"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidated_by": [
+                {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20151002"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20140125"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20131226"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20110305"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20091224"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20071227"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20060719"
+                }
+              ],
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2006-07-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LLEI 28/2006, de 18 de juliol, d'ag\u00e8ncies estatals per a la millora dels serveis p\u00fablics."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2006-07-21"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LEI 28/2006, do 18 de xullo, de axencias estatais para a mellora dos servizos p\u00fablicos. (\u00abBOE\u00bb 171, do 19-7-2006.)"
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2006-07-21"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/vci",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/vci"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LLEI 28/2006, de 18 de juliol, d'Ag\u00e8ncies Estatals per a la millora dels servicis p\u00fablics."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2006-08-01"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/vci/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof/vci"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20151002",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2015-10-02"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20151002/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2015-10-02"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20151002"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20151002/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20151002/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20140125",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-01-25"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20140125/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2014-01-25"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20140125"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20140125/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20140125/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20131226",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2013-12-26"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20131226/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2013-12-26"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20131226"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20131226/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20131226/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20110305",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-03-05"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20110305/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-03-05"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20110305"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20110305/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20110305/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20091224",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2009-12-24"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20091224/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2009-12-24"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20091224"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20091224/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20091224/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20071227",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-12-27"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20071227/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2007-12-27"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20071227"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20071227/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20071227/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20060719",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2006-13011"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-18"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "28"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2006-07-19"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20060719/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 28/2006, de 18 de julio, de Agencias estatales para la mejora de los servicios p\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2006-07-19"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20060719"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20060719/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2006/07/18/28/con/20060719/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "0",
+        "@orden": "999",
+        "#text": "T\u00e9ngase en cuenta respecto a la vigencia, el plazo de adaptaci\u00f3n de 3 a\u00f1os que establece la disposici\u00f3n adicional 4, de la  Ley 40/2015, de 1 de octubre."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "82",
+          "@orden": "",
+          "#text": "Administraci\u00f3n General del Estado"
+        },{
+          "@codigo": "8484",
+          "@orden": "",
+          "#text": "Agencias estatales"
+        },{
+          "@codigo": "1666",
+          "@orden": "",
+          "#text": "Contratos de las Administraciones P\u00fablicas"
+        },{
+          "@codigo": "3159",
+          "@orden": "",
+          "#text": "Empleados p\u00fablicos"
+        },{
+          "@codigo": "3857",
+          "@orden": "",
+          "#text": "Funcionarios p\u00fablicos"
+        },{
+          "@codigo": "8037",
+          "@orden": "",
+          "#text": "Gesti\u00f3n patrimonial"
+        },{
+          "@codigo": "3927",
+          "@orden": "",
+          "#text": "Gesti\u00f3n presupuestaria"
+        },{
+          "@codigo": "5278",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n del Estado"
+        },{
+          "@codigo": "5331",
+          "@orden": "",
+          "#text": "\u00d3rganos colegiados"
+        },{
+          "@codigo": "5703",
+          "@orden": "",
+          "#text": "Procedimiento administrativo"
+        },{
+          "@codigo": "5936",
+          "@orden": "",
+          "#text": "R\u00e9gimen Jur\u00eddico de la Administraci\u00f3n del Estado"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "109",
+          "@orden": "",
+          "#text": "Derecho Administrativo"
+        },{
+          "@codigo": "116",
+          "@orden": "",
+          "#text": "Funci\u00f3n P\u00fablica"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": {
+          "@referencia": "BOE-A-1997-7878",
+          "@orden": "2015",
+          "palabra": {
+            "@codigo": "270",
+            "#text": "MODIFICA"
+          },
+          "texto": "el art. 43 de la Ley 6/1997, de 14 de abril"
+        }
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2015-10566",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "SE DEROGA"
+            },
+            "texto": "en la forma indicada, por Ley 40/2015, de 1 de octubre"
+          },{
+            "@referencia": "BOE-A-2014-747",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "la disposici\u00f3n adicional 3.1, por Real Decreto-ley 1/2014, de 24 de enero"
+          },{
+            "@referencia": "BOE-A-2013-13616",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "la disposici\u00f3n adicional 7.2, por Ley 22/2013, de 23 de diciembre"
+          },{
+            "@referencia": "BOE-A-2011-4117",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "la disposici\u00f3n adicional 10, por Ley 2/2011, de 4 de marzo"
+          },{
+            "@referencia": "BOE-A-2009-20765",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "el art. 27, por Ley 26/2009, de 23 de diciembre"
+          },{
+            "@referencia": "BOE-A-2007-22295",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "407",
+              "#text": "SE A\u00d1ADE"
+            },
+            "texto": "la disposici\u00f3n adicional 10, por Ley 51/2007, de 26 de diciembre"
+          },{
+            "@referencia": "BOE-A-2015-6835",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "y aprueba el Estatuto de la Agencia Espa\u00f1ola de Protecci\u00f3n de la Salud en el Deporte: Real Decreto 461/2015, de 5 de junio"
+          },{
+            "@referencia": "BOE-A-2014-13360",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 3.1, creando la Agencia Estatal de Seguridad Ferroviaria y aprobando su Estatuto: Real Decreto 1072/2014, de 19 de diciembre"
+          },{
+            "@referencia": "BOE-A-2011-15044",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": ", creando la Agencia Espa\u00f1ola de Medicamentos y Productos Sanitarios: Real Decreto 1275/2011, de 16 de septiembre"
+          },{
+            "@referencia": "BOE-A-2008-591",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": ",creando la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas y se aprueba su Estatuto: Real Decreto 1730/2007, de 21 de diciembre"
+          },{
+            "@referencia": "BOE-A-2007-19491",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": ", creando la Agencia Estatal Bolet\u00edn Oficial del Estado y se aprueba su estatuto: Real Decreto 1495/2007, de 12 de noviembre"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "subseccion",
+        "#text": "JUAN CARLOS I"
+      },{
+        "@class": "subseccion",
+        "#text": "REY DE ESPA\u00d1A"
+      },{
+        "@class": "parrafo_2",
+        "#text": "A todos los que la presenten vieren y entendieren."
+      },{
+        "@class": "parrafo",
+        "#text": "Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley."
+      },{
+        "@class": "subseccion",
+        "#text": "EXPOSICI\u00d3N DE MOTIVOS"
+      },{
+        "@class": "subseccion",
+        "#text": "I. Necesidad y oportunidad de las Agencias Estatales"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Satisfacer las necesidades y demandas ciudadanas con el nivel de calidad que en estos momentos la sociedad exige es un compromiso de los poderes p\u00fablicos y, por ello, la adecuada y eficaz prestaci\u00f3n de aquellos servicios p\u00fablicos cuya gesti\u00f3n corresponde a la Administraci\u00f3n General del Estado, requiere un nuevo enfoque organizativo y funcional de los organismos p\u00fablicos que tienen encomendados estos servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "El objetivo general de este nuevo marco de actuaci\u00f3n es que los ciudadanos puedan visualizar de manera clara cu\u00e1les son los fines de los distintos organismos p\u00fablicos y los resultados de la gesti\u00f3n que se ha encargado a cada uno de ellos, as\u00ed como la forma en que se responsabilizan sus gestores por el cumplimiento de los objetivos que previamente han sido fijados de forma concreta y evaluable."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley 6/1997, de 14 de abril, de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado supuso una simplificaci\u00f3n de la normativa de la Administraci\u00f3n General del Estado y tambi\u00e9n de sus Organismos P\u00fablicos, dotando a \u00e9stos de una regulaci\u00f3n que constituye su r\u00e9gimen b\u00e1sico. No obstante, las rigideces que presentan los actuales modelos de gesti\u00f3n y la escasa autonom\u00eda con que cuentan los organismos p\u00fablicos, sobre todo en su configuraci\u00f3n de organismos aut\u00f3nomos, dificultan en gran medida la consecuci\u00f3n de los objetivos antes indicados."
+      },{
+        "@class": "parrafo",
+        "#text": "Por ello, en los \u00faltimos a\u00f1os, se han buscado soluciones estructurales para intentar solventar problemas de gesti\u00f3n, fundamentalmente de naturaleza presupuestaria, econ\u00f3mico-financiera y de gesti\u00f3n de personal, dando lugar, en muchos casos, a respuestas organizativas forzadas desde la perspectiva de los objetivos y funciones del Organismo de que se trate, pero que llevan aparejado el establecimiento de un r\u00e9gimen de funcionamiento m\u00e1s flexible y superador de las rigideces que el r\u00e9gimen general presenta respecto de las materias indicadas. Ello ha dado lugar a una proliferaci\u00f3n de entes que presentan un r\u00e9gimen jur\u00eddico singular, b\u00e1sicamente del derecho privado y al margen de las configuraciones generales de los organismos p\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Baste indicar, como comprobaci\u00f3n de estas consideraciones, que de un total de 138 Organismos P\u00fablicos que existen en la actualidad, 47 presentan la peculiaridad de disponer cada uno de su propio r\u00e9gimen regulador, cifra considerable si se tiene en cuenta que, inicialmente, esta categor\u00eda naci\u00f3 como complementaria de las categor\u00edas generales -de Organismo Aut\u00f3nomo y de Entidad P\u00fablica Empresarial- para regular una serie limitada de entes que, por sus peculiaridades y el mayor grado de independencia que presentan respecto de la Administraci\u00f3n General del Estado, no encajaban en las configuraciones generales."
+      },{
+        "@class": "parrafo",
+        "#text": "Se hace pues necesario incorporar a la Administraci\u00f3n General del Estado una f\u00f3rmula organizativa general, dotada de un mayor nivel de autonom\u00eda y de flexibilidad en la gesti\u00f3n, pero que, al mismo tiempo, refuerce los mecanismos de control de eficacia y promueva una cultura de responsabilizaci\u00f3n por resultados."
+      },{
+        "@class": "parrafo",
+        "#text": "Dicha f\u00f3rmula, la constituyen las Agencias Estatales y su regulaci\u00f3n, objeto de esta Ley, permitir\u00e1 implantar un modelo de gesti\u00f3n que equilibre adecuadamente los principios de autonom\u00eda, control y responsabilizaci\u00f3n por resultados, as\u00ed como establecer un r\u00e9gimen general lo suficientemente operativo para dar cabida a aquellos Organismos para los que la categor\u00eda de Organismo Aut\u00f3nomo es insuficiente, sin tener que acudir, como sucede en la actualidad, a soluciones particulares para cada caso."
+      },{
+        "@class": "parrafo",
+        "#text": "En efecto, un aspecto capital que se incorpora a la gesti\u00f3n de servicios p\u00fablicos a trav\u00e9s de las Agencias Estatales es la profundizaci\u00f3n en una nueva cultura de gesti\u00f3n que ha de apoyarse en el cumplimiento de objetivos claros, medibles y orientados hacia la mejora en la prestaci\u00f3n del servicio, con las consiguientes ventajas para los usuarios y para los contribuyentes."
+      },{
+        "@class": "parrafo",
+        "#text": "Una de estas ventajas es el fortalecimiento de los mecanismos de la responsabilizaci\u00f3n por objetivos en la gesti\u00f3n p\u00fablica: se trata de configurar a la Agencia Estatal como una organizaci\u00f3n dotada de una capacidad de decisi\u00f3n sobre los recursos asignados y de un nivel de autonom\u00eda en su funcionamiento que son las premisas necesarias para que se le pueda exigir una responsabilidad efectiva sobre el cumplimiento de los objetivos que tiene encomendados. En consecuencia, resulta esencial que la creaci\u00f3n de una Agencia comporte la prestaci\u00f3n de servicios con alto nivel de calidad, con una cultura de gesti\u00f3n acorde a dicha finalidad y que sea f\u00e1cilmente visualizable por los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "Como correlato de lo anterior, el fortalecimiento de un modelo como el indicado ha de repercutir positivamente sobre los modos de funcionamiento de la Administraci\u00f3n General del Estado, ya que \u00e9sta ha de fijar los objetivos y establecer un marco de evaluaci\u00f3n y de control, mediante los oportunos indicadores que, sin interferir en la gesti\u00f3n de las Agencias aseguren su correcto funcionamiento, lo que, indirectamente, va a suponer, sin duda, una sustancial mejora en el ejercicio de las funciones de planificaci\u00f3n, evaluaci\u00f3n y control que han de desarrollarse desde la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Otro aspecto resaltable en la Ley es impulsar aquellos instrumentos que posibiliten conocer y evaluar el impacto que las pol\u00edticas y servicios prestados por el Estado tienen sobre el ciudadano. A tal efecto, en la Disposici\u00f3n adicional primera se autoriza al Gobierno para que cree una Agencia destinada espec\u00edficamente al cumplimiento de estos objetivos."
+      },{
+        "@class": "parrafo",
+        "#text": "Por \u00faltimo, hay que se\u00f1alar que las Agencias Estatales no van a ser, sin m\u00e1s, un nuevo tipo de Organismo P\u00fablico, sino la f\u00f3rmula organizativa hacia la que, progresivamente, se van a reconducir aquellos Organismos p\u00fablicos existentes en la actualidad, cuya actividad y funciones se ajusten al concepto de Agencia Estatal y se estime oportuno y m\u00e1s eficaz su transformaci\u00f3n en este tipo de Organismo p\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, tras la entrada en vigor de esta Ley, la Agencia Estatal ser\u00e1 el tipo de organismo p\u00fablico que, con car\u00e1cter general, se cree por la Administraci\u00f3n General del Estado, para dar respuesta a sus necesidades de descentralizaci\u00f3n funcional, si bien, excepcionalmente, subsistir\u00e1n los restantes tipos de organismos p\u00fablicos."
+      },{
+        "@class": "subseccion",
+        "#text": "II. Estructura y contenido de la Ley"
+      },{
+        "@class": "parrafo_2",
+        "#text": "La Ley se estructura en cinco Cap\u00edtulos, ocho Disposiciones adicionales y dos Disposiciones finales."
+      },{
+        "@class": "parrafo",
+        "#text": "El Cap\u00edtulo I establece el objeto de la Ley, la naturaleza y el r\u00e9gimen jur\u00eddico aplicable a las Agencias Estatales y los mecanismos de creaci\u00f3n, constituci\u00f3n, modificaci\u00f3n y extinci\u00f3n y supresi\u00f3n de \u00e9stas. Dentro de este Cap\u00edtulo es de rese\u00f1ar el proceso de creaci\u00f3n de las Agencias Estatales, requiri\u00e9ndose una previa autorizaci\u00f3n por Ley, que determine el objeto de la Agencia que se pretenda crear, y produci\u00e9ndose mediante Real Decreto del Consejo de Ministros."
+      },{
+        "@class": "parrafo",
+        "#text": "El Cap\u00edtulo II trata sobre los aspectos relacionados con la organizaci\u00f3n de las Agencias Estatales, destacando que la Ley regula los m\u00e1ximos \u00f3rganos de gobierno -Consejo Rector y Presidente-, y ejecutivos -Director- dejando los restantes al Estatuto, y que se resalta la importancia que se quiere dar a los mecanismos de control que han de implementarse en las Agencias Estatales, con la institucionalizaci\u00f3n de una Comisi\u00f3n de Control como \u00f3rgano especializado del Consejo Rector para asegurar el correcto desarrollo de las funciones de la Agencia y la consecuci\u00f3n de los objetivos que tenga asignados."
+      },{
+        "@class": "parrafo",
+        "#text": "El Cap\u00edtulo III, relativo a la Gesti\u00f3n Transparente por Objetivos, regula el Contrato de gesti\u00f3n, instrumento clave en la configuraci\u00f3n de las Agencias Estatales, pues va a ser el instrumento que ha de permitir fijar los compromisos que asume la Agencia en la consecuci\u00f3n de sus objetivos, y los planes estrat\u00e9gicos necesarios para ello, los niveles de calidad de los servicios prestados, los medios humanos, materiales y financieros que la Agencia precisa y los efectos asociados al grado de cumplimiento de los objetivos establecidos y la consiguiente exigencia de responsabilidad al equipo directivo de la Agencia."
+      },{
+        "@class": "parrafo",
+        "#text": "El Cap\u00edtulo IV, correspondiente a funcionamiento y medios, se compone de tres Secciones referidas, respectivamente, a contrataci\u00f3n y patrimonio, r\u00e9gimen de personal y medios econ\u00f3mico-financieros."
+      },{
+        "@class": "parrafo",
+        "#text": "En materia de personal es de destacar el mantenimiento del modelo general de funci\u00f3n p\u00fablica -evit\u00e1ndose as\u00ed las transformaciones forzadas al r\u00e9gimen de personal laboral que han sido frecuentes en recientes procesos de configuraci\u00f3n de Organismos P\u00fablicos- pero con mayores niveles de autonom\u00eda en la ordenaci\u00f3n y provisi\u00f3n de los puestos de trabajo, la vinculaci\u00f3n de la parte variable de las retribuciones a la productividad y cumplimiento de objetivos y, por \u00faltimo, la inclusi\u00f3n de la categor\u00eda de personal directivo de las Agencias Estatales que se proveer\u00e1, mediante procesos internos de selecci\u00f3n. En cuanto a los procedimientos de selecci\u00f3n y de provisi\u00f3n de puestos de trabajo, la Ley, adem\u00e1s de garantizar su transparencia y la aplicaci\u00f3n de los principios de igualdad, m\u00e9rito y capacidad, recoge previsiones expresas que garantizan el acceso al empleo p\u00fablico de las personas con discapacidad, de acuerdo con las condiciones que, al respecto, est\u00e1n establecidas en el Real Decreto 227/2004, de 3 de diciembre, por el que se regula el acceso al empleo p\u00fablico y la provisi\u00f3n de puestos de trabajo de las personas con discapacidad."
+      },{
+        "@class": "parrafo",
+        "#text": "En cuanto a los medios econ\u00f3mico-financieros la Ley prev\u00e9 una mayor capacidad de generar ingresos por parte de las Agencias Estatales, bien por la prestaci\u00f3n de sus servicios o mediante la posibilidad de obtener ingresos por patrocinio."
+      },{
+        "@class": "parrafo",
+        "#text": "El Cap\u00edtulo V est\u00e1 dedicado a los aspectos de la Gesti\u00f3n Econ\u00f3mico-Financiera y se estructura en tres Secciones, correspondientes a Presupuestos, Contabilidad y Control."
+      },{
+        "@class": "parrafo",
+        "#text": "El presupuesto de las Agencias Estatales tendr\u00e1 car\u00e1cter limitativo por su importe global y estimativo para la distribuci\u00f3n interna de sus cr\u00e9ditos, excepto los correspondientes a gastos de personal, estableci\u00e9ndose un mecanismo de variaciones presupuestarias que se distribuye entre el Ministro de Econom\u00eda y Hacienda -las variaciones de la cuant\u00eda global y las que afecten a gastos de personal- y el Director de la Agencia los restantes."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Agencias Estatales estar\u00e1n sujetas a los principios y al r\u00e9gimen de contabilidad establecidos para los entes p\u00fablicos y, en materia de control, el control externo de su gesti\u00f3n econ\u00f3mico-financiera corresponde al Tribunal de Cuentas y el interno a la Intervenci\u00f3n General del Estado quien lo ejercer\u00e1 en la modalidad de control financiero permanente y auditor\u00eda p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "Por \u00faltimo, las Disposiciones adicionales y finales prev\u00e9n, respectivamente, la autorizaci\u00f3n para la creaci\u00f3n de las distintas Agencias Estatales que se prev\u00e9n en esta Ley; el asesoramiento jur\u00eddico y la representaci\u00f3n y defensa en juicio de las Agencias Estatales por los Abogados del Estado; la autorizaci\u00f3n para la transformaci\u00f3n de los actuales Organismos P\u00fablicos en Agencias Estatales y las excepciones a dicha transformaci\u00f3n; la creaci\u00f3n de nuevos organismos p\u00fablicos, la autorizaci\u00f3n para modificar \u00f3rganos colegiados regulados en Ley y, finalmente, la modificaci\u00f3n de la Ley de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado y la entrada en vigor de esta ley."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Disposiciones generales"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta Ley establece el r\u00e9gimen jur\u00eddico, la naturaleza, la constituci\u00f3n y el funcionamiento de las Agencias Estatales que, de acuerdo con la Ley de autorizaci\u00f3n, se creen por el Gobierno para la gesti\u00f3n de los programas correspondientes a pol\u00edticas p\u00fablicas de la competencia del Estado en los t\u00e9rminos establecidos en el art\u00edculo 2."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. Naturaleza y r\u00e9gimen jur\u00eddico."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales son entidades de Derecho p\u00fablico, dotadas de personalidad jur\u00eddica p\u00fablica, patrimonio propio y autonom\u00eda en su gesti\u00f3n, facultadas para ejercer potestades administrativas, que son creadas por el Gobierno para el cumplimiento de los programas correspondientes a las pol\u00edticas p\u00fablicas que desarrolle la Administraci\u00f3n General del Estado en el \u00e1mbito de sus competencias."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Agencias Estatales est\u00e1n dotadas de los mecanismos de autonom\u00eda funcional, responsabilidad por la gesti\u00f3n y control de resultados establecidos en esta ley."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Agencias Estatales se rigen por esta Ley y, en su marco, por el Estatuto propio de cada una de ellas; supletoriamente por las normas aplicables a las entidades de Derecho p\u00fablico vinculadas o dependientes de la Administraci\u00f3n General del Estado que les correspondan en cada caso."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las resoluciones del Consejo Rector y del Director de la Agencia ponen fin la v\u00eda administrativa."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. Creaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La creaci\u00f3n de Agencias Estatales requiere autorizaci\u00f3n por Ley y se produce con la aprobaci\u00f3n de su Estatuto por Real Decreto acordado en Consejo de Ministros y adoptado a propuesta conjunta de los Ministerios de Administraciones P\u00fablicas y Econom\u00eda y Hacienda."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La ley que autorice la creaci\u00f3n establecer\u00e1 el objeto de la Agencia Estatal y sus fines generales."
+      },{
+        "@class": "parrafo",
+        "#text": "El anteproyecto de ley de autorizaci\u00f3n de la creaci\u00f3n de la Agencia Estatal que se presente al Gobierno deber\u00e1 ser acompa\u00f1ado del proyecto de Estatuto y de la Memoria."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, a efectos de lo previsto en el apartado 4 del art\u00edculo 22 de la ley 50/1997, de 27 de noviembre, del Gobierno, el proyecto de Estatuto y la Memoria tienen la consideraci\u00f3n de antecedentes necesarios del proyecto de ley de autorizaci\u00f3n de la creaci\u00f3n de la Agencia Estatal."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La iniciativa de creaci\u00f3n de las Agencias Estatales corresponde a los Ministerios competentes o afectados por raz\u00f3n de la materia, los cuales deber\u00e1n elaborar una Memoria y un proyecto de Estatuto."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Dicha Memoria deber\u00e1 precisar el objeto de la Agencia Estatal a crear, justificando la previa determinaci\u00f3n de aqu\u00e9l por la Ley, y los objetivos perseguidos con su creaci\u00f3n. Se indicar\u00e1n, asimismo, las consecuencias organizativas y econ\u00f3mico-financieras derivadas de la creaci\u00f3n de las Agencias, as\u00ed como informaci\u00f3n sobre el rango org\u00e1nico de sus \u00f3rganos directivos, en su caso; los recursos humanos necesarios, las retribuciones del personal y la propuesta del marco de actuaci\u00f3n en materia de recursos humanos."
+      },{
+        "@class": "parrafo",
+        "#text": "La Memoria contendr\u00e1 el plan inicial de actuaci\u00f3n de la Agencia hasta tanto se apruebe el Contrato de gesti\u00f3n previsto en el art\u00edculo 13."
+      },{
+        "@class": "parrafo",
+        "#text": "5. El Estatuto deber\u00e1 tener, en todo caso, el siguiente contenido:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Las funciones a desarrollar por la Agencia Estatal y, en su caso, las facultades decisorias correspondientes a las competencias de la Administraci\u00f3n General del Estado y de sus Organismos P\u00fablicos que se atribuyan a dicha Agencia."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La determinaci\u00f3n de la sede, estructura org\u00e1nica, con la concreci\u00f3n, en su caso, de los otros \u00f3rganos de gobierno que se creen, as\u00ed como las facultades de cada uno de ellos y la forma de designaci\u00f3n de sus componentes, r\u00e9gimen de funcionamiento y desarrollo de la actividad, con indicaci\u00f3n de aqu\u00e9llos cuyos actos y resoluciones son definitivos en v\u00eda administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los medios personales, materiales y econ\u00f3mico-financieros y patrimonio que se le adscriben."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La determinaci\u00f3n del car\u00e1cter temporal, en su caso, de la Agencia a crear, con especificaci\u00f3n de los objetivos a que se vincula la vida de aqu\u00e9lla o del plazo en que se fija su duraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Los Estatutos podr\u00e1n prever la participaci\u00f3n de otras Administraciones P\u00fablicas en el Consejo Rector de las Agencias, en los t\u00e9rminos y condiciones que se determinen en los mismos"
+      },{
+        "@class": "parrafo",
+        "#text": "7. Formulada una iniciativa conforme a lo dispuesto en los apartados anteriores, \u00e9sta ser\u00e1 remitida a los Ministerios de Administraciones P\u00fablicas y de Econom\u00eda y Hacienda, quienes, tras la aprobaci\u00f3n de la Memoria junto con los Ministerios de iniciativa, proceder\u00e1n a la tramitaci\u00f3n del Real Decreto aprobatorio del Estatuto de la Agencia, previsto en el n\u00famero 1 de este art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "En la determinaci\u00f3n de las condiciones de trabajo de los empleados p\u00fablicos de la Agencia, incluyendo los aspectos relativos a la organizaci\u00f3n, estructura y marco de actuaci\u00f3n en materia de recursos humanos y retribuciones, participar\u00e1n los representantes del personal, o las organizaciones sindicales, en los t\u00e9rminos previstos en la Ley 9/1987, de 12 de junio, de \u00d3rganos de Representaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Constituci\u00f3n y puesta en funcionamiento."
+      },{
+        "@class": "parrafo",
+        "#text": "La constituci\u00f3n y puesta en funcionamiento de las Agencias Estatales tienen lugar en los t\u00e9rminos que disponga el Estatuto de cada una de ellas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. Modificaci\u00f3n del Estatuto."
+      },{
+        "@class": "parrafo",
+        "#text": "La modificaci\u00f3n del Estatuto de las Agencias Estatales se realiza a iniciativa de los Ministerios de adscripci\u00f3n, o de la propia Agencia, a trav\u00e9s de \u00e9stos, y se aprueba por Real Decreto acordado en Consejo de Ministros y adoptado a propuesta conjunta de los Ministerios de Administraciones P\u00fablicas y de Econom\u00eda y Hacienda."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. Extinci\u00f3n y supresi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales se extinguen por el transcurso del tiempo de vigencia establecido en el Estatuto o el cumplimiento de sus fines o de los objetivos para los que fueron creadas, o que sus competencias sean asumidas por las Comunidades Aut\u00f3nomas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Agencias Estatales se suprimen mediante Real Decreto del Consejo de Ministros, a iniciativa de los Ministerios de adscripci\u00f3n y a propuesta conjunta de los Ministerios de Administraciones P\u00fablicas y de Econom\u00eda y Hacienda, que determinar\u00e1 el destino de los bienes, y las medidas aplicables al personal en el marco de la legislaci\u00f3n reguladora de cada tipo de personal."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Desde su extinci\u00f3n o supresi\u00f3n, las Agencias Estatales entran en per\u00edodo de liquidaci\u00f3n en la forma que se determine en la Ley de Patrimonio de las Administraciones P\u00fablicas y en el Estatuto."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Organizaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Estructura y adscripci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales se estructuran en los \u00f3rganos de gobierno, ejecutivos y de control previstos en esta ley y los complementarios que se determinen en su respectivo Estatuto."
+      },{
+        "@class": "parrafo",
+        "#text": "La designaci\u00f3n de sus titulares y miembros se ajustar\u00e1 al criterio de paridad entre hombre y mujer."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Agencias Estatales se adscriben a los Ministerios que hayan ejercido la iniciativa de su creaci\u00f3n, en los t\u00e9rminos que se determinen en los Reales Decretos de creaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. \u00d3rganos de gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "Los m\u00e1ximos \u00f3rganos de gobierno de las Agencias Estatales son su Presidente y el Consejo Rector. El Estatuto puede, no obstante, prever otros \u00f3rganos de gobierno con atribuciones distintas y, en todo caso, subordinadas a las del Consejo Rector."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 9. El Presidente."
+      },{
+        "@class": "parrafo",
+        "#text": "El Presidente de la Agencia, que lo es de su Consejo Rector, es nombrado y separado por el Consejo de Ministros, a propuesta del Ministro de adscripci\u00f3n. Sus competencias, adem\u00e1s de las que le correspondan como presidente de un \u00f3rgano colegiado, se determinar\u00e1n, en su caso, en el Estatuto de la Agencia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 10. El Consejo Rector."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Estatuto de las Agencias Estatales determina la composici\u00f3n y el r\u00e9gimen aplicable a los miembros del Consejo Rector, respetando en todo caso las siguientes reglas:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Los miembros del Consejo Rector son nombrados por el Ministro de adscripci\u00f3n, quien designar\u00e1 directamente a un m\u00e1ximo de la mitad de sus componentes."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El Director es miembro nato del Consejo Rector."
+      },{
+        "@class": "parrafo",
+        "#text": "c) En las Agencias Estatales con objeto interministerial, cada uno de los Ministerios responsables \u00faltimos de las funciones encomendadas a aqu\u00e9lla debe contar con al menos un representante en el Consejo Rector."
+      },{
+        "@class": "parrafo",
+        "#text": "d) En las Agencias Estatales con participaci\u00f3n de las Administraciones Auton\u00f3micas los representantes de las mismas ser\u00e1n designados directamente por las Comunidades Aut\u00f3nomas."
+      },{
+        "@class": "parrafo",
+        "#text": "e) El Secretario ser\u00e1 designado por el Consejo Rector."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Los representantes de los trabajadores que sean designados por parte de las organizaciones sindicales m\u00e1s representativas, siempre que los medios personales, la estructura organizativa, el r\u00e9gimen de funcionamiento y los cometidos lo permitan."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Son atribuciones m\u00ednimas del Consejo Rector:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) La propuesta del Contrato de gesti\u00f3n de la Agencia."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La aprobaci\u00f3n de los objetivos y planes de acci\u00f3n anuales y plurianuales, as\u00ed como de los criterios cuantitativos y cualitativos de medici\u00f3n del cumplimiento de dichos objetivos y del grado de eficiencia en la gesti\u00f3n, en el marco de lo establecido en el Contrato de gesti\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La aprobaci\u00f3n del anteproyecto de los presupuestos anuales y de la contracci\u00f3n de cualesquiera obligaciones de car\u00e1cter plurianual dentro de los l\u00edmites fijados en el Contrato de gesti\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "d) El control de la gesti\u00f3n del Director y la exigencia a \u00e9ste de las responsabilidades que procedan."
+      },{
+        "@class": "parrafo",
+        "#text": "e) El seguimiento, la supervisi\u00f3n y el control superiores de la actuaci\u00f3n de la Agencia Estatal."
+      },{
+        "@class": "parrafo",
+        "#text": "f) La aprobaci\u00f3n de un informe general de actividad y de cuantos extraordinarios considere necesarios sobre la gesti\u00f3n, valorando los resultados obtenidos y consignando las deficiencias observadas."
+      },{
+        "@class": "parrafo",
+        "#text": "g) La aprobaci\u00f3n de las cuentas anuales y, en su caso, la distribuci\u00f3n del resultado del ejercicio, de acuerdo con la legislaci\u00f3n presupuestaria."
+      },{
+        "@class": "parrafo",
+        "#text": "h) La determinaci\u00f3n de los criterios de selecci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. El funcionamiento y r\u00e9gimen aplicable al Consejo Rector se ajusta a lo establecido en esta Ley y, en lo no dispuesto en la misma, al r\u00e9gimen previsto en la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan para los \u00f3rganos colegiados."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 11. \u00d3rganos ejecutivos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El \u00f3rgano ejecutivo de la Agencia es el Director. Es nombrado y separado por el Consejo Rector a propuesta del Presidente entre personas que re\u00fanan las cualificaciones necesarias para el cargo, seg\u00fan se determine en el Estatuto."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Director es el responsable de la direcci\u00f3n y gesti\u00f3n ordinaria de la Agencia, ejerciendo las competencias inherentes a dicha direcci\u00f3n, as\u00ed como las que expresamente se le atribuyen en esta Ley y en el Estatuto de la Agencia, y las que le delegue el Consejo Rector."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los Estatutos podr\u00e1n determinar, en funci\u00f3n de las caracter\u00edsticas propias de cada Agencia, la asunci\u00f3n por parte del Presidente de las funciones atribuidas al Director en esta ley."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 12. Comisi\u00f3n de Control."
+      },{
+        "@class": "parrafo",
+        "#text": "En el seno del Consejo Rector se constituir\u00e1 una Comisi\u00f3n de Control, con la composici\u00f3n que se determine en los Estatutos."
+      },{
+        "@class": "parrafo",
+        "#text": "Corresponde a la Comisi\u00f3n de Control informar al Consejo Rector sobre la ejecuci\u00f3n del contrato de gesti\u00f3n y, en general, sobre todos aquellos aspectos relativos a la gesti\u00f3n econ\u00f3mico-financiera que deba conocer el propio Consejo y que se determinen en los Estatutos."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Gesti\u00f3n transparente por objetivos"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 13. Contrato de gesti\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La actuaci\u00f3n de las Agencias Estatales se produce, con arreglo al plan de acci\u00f3n anual, bajo la vigencia y con arreglo al pertinente contrato plurianual de gesti\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Contrato de gesti\u00f3n ha de establecer, como m\u00ednimo y para el periodo de su vigencia, los siguientes extremos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Los objetivos a perseguir, los resultados a obtener y, en general, la gesti\u00f3n a desarrollar."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los planes necesarios para alcanzar los objetivos, con especificaci\u00f3n de los marcos temporales correspondientes y de los proyectos asociados a cada una de las estrategias y sus plazos temporales, as\u00ed como los indicadores para evaluar los resultados obtenidos."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Las previsiones m\u00e1ximas de plantilla de personal y el marco de actuaci\u00f3n en materia de gesti\u00f3n de recursos humanos."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Los recursos personales, materiales y presupuestarios a aportar para la consecuci\u00f3n de los objetivos."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Los efectos asociados al grado de cumplimiento de los objetivos establecidos por lo que hace a exigencia de responsabilidad por la gesti\u00f3n de los \u00f3rganos ejecutivos y el personal directivo, as\u00ed como el montante de masa salarial destinada al complemento de productividad o concepto equivalente del personal laboral."
+      },{
+        "@class": "parrafo",
+        "#text": "f) El procedimiento a seguir para la cobertura de los d\u00e9ficit anuales que, en su caso, se pudieran producir por insuficiencia de los ingresos reales respecto de los estimados y las consecuencias de responsabilidad en la gesti\u00f3n que, en su caso, deban seguirse de tales d\u00e9ficit."
+      },{
+        "@class": "parrafo",
+        "#text": "g) El procedimiento para la introducci\u00f3n de las modificaciones o adaptaciones anuales que, en su caso, procedan."
+      },{
+        "@class": "parrafo",
+        "#text": "3. En el Contrato de gesti\u00f3n se determinar\u00e1n los mecanismos que permitan la exigencia de responsabilidades a que se refiere la letra e) del apartado anterior por incumplimiento de objetivos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 14. Elaboraci\u00f3n y aprobaci\u00f3n del Contrato de gesti\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Consejo Rector de cada Agencia aprueba la propuesta de Contrato inicial de gesti\u00f3n, en el plazo de tres meses desde su constituci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Los posteriores contratos de gesti\u00f3n se presentar\u00e1n en el \u00faltimo trimestre de la vigencia del anterior."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La aprobaci\u00f3n del Contrato de gesti\u00f3n tiene lugar por Orden conjunta de los Ministerios de adscripci\u00f3n, de Administraciones P\u00fablicas y de Econom\u00eda y Hacienda, en un plazo m\u00e1ximo de tres meses a contar desde su presentaci\u00f3n. En el caso de no ser aprobado en este plazo mantendr\u00e1 su vigencia el contrato de gesti\u00f3n anterior."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 15. El plan de acci\u00f3n, el informe de actividad y las cuentas anuales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Consejo Rector de la Agencia Estatal, a propuesta del Director de \u00e9sta, aprueba:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) El plan de acci\u00f3n del a\u00f1o en curso, sobre la base de los recursos disponibles y antes del d\u00eda 1 de febrero de cada a\u00f1o."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El informe general de actividad correspondiente al a\u00f1o inmediatamente anterior, con anterioridad al 30 de junio del a\u00f1o en curso."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Las cuentas anuales acompa\u00f1adas del informe de auditor\u00eda de cuentas, con anterioridad al 30 de junio del a\u00f1o en curso."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. Los documentos a que se refiere el apartado anterior son p\u00fablicos, teniendo los ciudadanos acceso a su contenido desde su aprobaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "En los Estatutos de las Agencias Estatales se incorporar\u00e1n los mecanismos precisos para garantizar dicho acceso."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las Agencias Estatales, a trav\u00e9s del Presidente de su Consejo Rector, informar\u00e1n a los Departamentos citados en el art\u00edculo 14.2 acerca de la ejecuci\u00f3n y cumplimiento de los objetivos fijados en el Contrato de gesti\u00f3n."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO IV"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Funcionamiento y medios"
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 1.\u00aa  Contrataci\u00f3n y patrimonio"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 16. Contrataci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La contrataci\u00f3n de las Agencias Estatales se rige por la normativa aplicable al sector p\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Sociedades mercantiles y Fundaciones creadas o participadas mayoritariamente por las Agencias Estatales, deber\u00e1n ajustar su actividad contractual, en todo caso, a los principios de publicidad y concurrencia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 17. Patrimonio."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales tendr\u00e1n, para el cumplimiento de sus fines, un patrimonio propio, distinto del de la Administraci\u00f3n General del Estado, integrado por el conjunto de bienes y derechos de los que sean titulares."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La gesti\u00f3n y administraci\u00f3n de los bienes y derechos propios, as\u00ed como de aquellos del Patrimonio del Estado que se les adscriban para el cumplimiento de sus fines, ser\u00e1 ejercida de acuerdo con lo se\u00f1alado en sus estatutos, con sujeci\u00f3n, en todo caso, a lo establecido para los organismos p\u00fablicos en la Ley 33/2003, de 3 de noviembre, del Patrimonio de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los Estatutos de las Agencias Estatales podr\u00e1n prever que los bienes inmuebles propios de \u00e9stas que dejen de ser necesarios para el cumplimiento de sus fines puedan ser enajenados por las mismas, previa comunicaci\u00f3n al Ministerio de Econom\u00eda y Hacienda."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 2.\u00aa Personal"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 18. Personal de las Agencias Estatales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Sin perjuicio del personal directivo previsto en el art\u00edculo 23 el personal al servicio de las Agencias Estatales est\u00e1 constituido por:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) El personal que est\u00e9 ocupando puestos de trabajo en servicios que se integren en la Agencia Estatal en el momento de su constituci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El personal que se incorpore a la Agencia Estatal desde cualquier Administraci\u00f3n p\u00fablica por los correspondientes procedimientos de provisi\u00f3n de puestos de trabajo previstos en esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "c) El personal seleccionado por la Agencia Estatal, mediante pruebas selectivas convocadas al efecto en los t\u00e9rminos establecidos en esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El personal a que se refieren las letras a) y b) del apartado anterior mantiene la condici\u00f3n de personal funcionario, estatutario o laboral de origen, de acuerdo con la legislaci\u00f3n aplicable."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El personal funcionario y estatutario se rige por la normativa reguladora de la funci\u00f3n p\u00fablica correspondiente, con las especialidades previstas en esta Ley y las que, conforme a ella, se establezcan en el Estatuto de cada Agencia."
+      },{
+        "@class": "parrafo",
+        "#text": "El personal laboral se rige por el Texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por Real Decreto Legislativo 1/1995, de 24 de marzo, y el resto de la normativa laboral."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 19. Procedimientos de selecci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La selecci\u00f3n del personal al que se refiere el art\u00edculo 18.1.c) se realiza mediante convocatoria p\u00fablica y de acuerdo con los principios de igualdad, m\u00e9rito y capacidad, as\u00ed como de acceso al empleo p\u00fablico de las personas con discapacidad. A tal efecto, y en el per\u00edodo previsto en el Contrato de gesti\u00f3n a que se refiere el art\u00edculo 13 de esta Ley, las Agencias Estatales determinan sus necesidades de personal a cubrir mediante pruebas selectivas. Aprobado el contrato de gesti\u00f3n, la previsi\u00f3n de necesidades de personal se incorpora a la oferta anual de empleo de la correspondiente Agencia Estatal, que se integra en la Oferta de empleo p\u00fablico estatal, de conformidad con lo que establezca la Ley anual de Presupuestos Generales del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Agencias Estatales seleccionan a trav\u00e9s de sus propios \u00f3rganos de selecci\u00f3n, a su personal laboral de acuerdo con los requisitos y principios establecidos en el apartado anterior."
+      },{
+        "@class": "parrafo",
+        "#text": "Las convocatorias de selecci\u00f3n de personal funcionario se efectuar\u00e1n por el Ministerio al que se encuentren adscritos los Cuerpos o Escalas correspondientes, y, excepcionalmente por la propia Agencia mediante Convenio suscrito al efecto."
+      },{
+        "@class": "parrafo",
+        "#text": "3. No obstante lo dispuesto en el apartado anterior, la selecci\u00f3n de personal directivo se realiza conforme lo previsto en el art\u00edculo 23 de esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los \u00f3rganos de representaci\u00f3n del personal de la Agencia ser\u00e1n tenidos en cuenta en los procesos de selecci\u00f3n que se lleven a cabo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 20. Procedimientos de provisi\u00f3n de puestos de trabajo y movilidad del personal funcionario."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales elaboran, convocan y, a propuesta de \u00f3rganos especializados en selecci\u00f3n de personal, resuelven las correspondientes convocatorias de provisi\u00f3n de puestos de trabajo de personal funcionario, de conformidad con los principios generales y procedimientos de provisi\u00f3n establecidos en la normativa de funci\u00f3n p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La movilidad de los funcionarios destinados en las Agencias Estatales podr\u00e1 estar sometida a la condici\u00f3n de autorizaci\u00f3n previa en las condiciones y con los plazos que se determinen en sus Estatutos y de acuerdo con la normativa de funci\u00f3n p\u00fablica."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 21. Ordenaci\u00f3n de puestos de trabajo."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales disponen de su relaci\u00f3n de puestos de trabajo, elaborada y aprobada por la propia Agencia dentro del marco de actuaci\u00f3n que, en materia de recursos humanos, se establezca en el Contrato de gesti\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El personal que preste sus servicios en las Agencias Estatales ver\u00e1 reconocido su derecho a la promoci\u00f3n dentro de una carrera profesional evaluable, en el marco del Estatuto del Empleado P\u00fablico. Dicha carrera tendr\u00e1 elementos que permitan criterios de homogeneidad dentro de Agencias del mismo \u00e1mbito, facilitando similares retribuciones para niveles profesionales semejantes y posibilitando las medidas de movilidad entre el personal de aqu\u00e9llas, sin perjuicio de lo previsto en el art\u00edculo 20.2."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 22. R\u00e9gimen retributivo."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los conceptos retributivos del personal funcionario y estatutario de las Agencias Estatales, son los establecidos en la normativa de funci\u00f3n p\u00fablica de la Administraci\u00f3n General del Estado y sus cuant\u00edas se determinar\u00e1n en el marco del correspondiente Contrato de gesti\u00f3n, de conformidad con lo establecido en dicha normativa y en las Leyes de Presupuestos Generales del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las condiciones retributivas del personal laboral son las determinadas en el convenio colectivo de aplicaci\u00f3n y en el respectivo contrato de trabajo y sus cuant\u00edas se fijar\u00e1n de acuerdo con lo indicado en el apartado 1 anterior."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La cuant\u00eda de la masa salarial destinada al complemento de productividad, o concepto equivalente del personal laboral, est\u00e1 en todo caso vinculada al grado de cumplimiento de los objetivos fijados en el Contrato de gesti\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 23. Personal directivo."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El personal directivo de las Agencias Estatales es el que ocupa los puestos de trabajo determinados como tales en el Estatuto de las mismas en atenci\u00f3n a la especial responsabilidad, competencia t\u00e9cnica y relevancia de las tareas a ellos asignadas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El personal directivo de las Agencias Estatales es nombrado y cesado por su Consejo Rector a propuesta de sus \u00f3rganos ejecutivos, atendiendo a criterios de competencia profesional y experiencia entre titulados superiores preferentemente funcionarios, y mediante procedimiento que garantice el m\u00e9rito, la capacidad y la publicidad."
+      },{
+        "@class": "parrafo",
+        "#text": "El proceso de provisi\u00f3n podr\u00e1 ser realizado por los \u00f3rganos de selecci\u00f3n especializados a los que se refiere el apartado 1 del art\u00edculo 20, que formular\u00e1n propuesta motivada al Director de la Agencia Estatal, incluyendo tres candidatos para cada puesto a cubrir."
+      },{
+        "@class": "parrafo",
+        "#text": "Cuando el personal directivo de las Agencias tenga la condici\u00f3n de funcionario permanecer\u00e1 en la situaci\u00f3n de servicio activo en su respectivo Cuerpo o Escala o en la que corresponda con arreglo a la legislaci\u00f3n laboral si se trata de personal de este car\u00e1cter."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El Estatuto de las Agencias Estatales puede prever puestos directivos de m\u00e1xima responsabilidad a cubrir, en r\u00e9gimen laboral, mediante contratos de alta direcci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "4. El personal directivo est\u00e1 sujeto, en el desarrollo de sus cometidos, a evaluaci\u00f3n con arreglo a los criterios de eficacia, eficiencia y cumplimiento de la legalidad, responsabilidad por su gesti\u00f3n y control de resultados en relaci\u00f3n con los objetivos que le hayan sido fijados."
+      },{
+        "@class": "parrafo",
+        "#text": "5. El personal directivo percibe una parte de su retribuci\u00f3n como incentivo de rendimiento, mediante el complemento correspondiente que valore la productividad, de acuerdo con los criterios y porcentajes que se establezcan por el Consejo Rector, a propuesta de los \u00f3rganos directivos de la Agencia Estatal."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 3.\u00aa Medios econ\u00f3mico-financieros"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 24. Recursos econ\u00f3micos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales se financian con los siguientes recursos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Las transferencias consignadas en los Presupuestos Generales del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los ingresos propios que perciba como contraprestaci\u00f3n por las actividades que pueda realizar, en virtud de contratos, convenios o disposici\u00f3n legal, para otras entidades p\u00fablicas, privadas o personas f\u00edsicas."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La enajenaci\u00f3n de los bienes y valores que constituyan su patrimonio."
+      },{
+        "@class": "parrafo",
+        "#text": "d) El rendimiento procedente de sus bienes y valores."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Las aportaciones voluntarias, donaciones, herencias y legados y otras aportaciones a t\u00edtulo gratuito de entidades privadas y de particulares."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Los ingresos recibidos de personas f\u00edsicas o jur\u00eddicas como consecuencia del patrocinio de actividades o instalaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Los dem\u00e1s ingresos de derecho p\u00fablico o privado que est\u00e9n autorizadas a percibir."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Cualquier otro recurso que pudiera serles atribuido."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En aquellos supuestos expresamente previstos en los Estatutos, y s\u00f3lo en la medida que tengan capacidad para generar recursos propios suficientes, las Agencias podr\u00e1n financiarse con cargo a los cr\u00e9ditos previstos en el Cap\u00edtulo VIII de los Presupuestos Generales del Estado adjudicados de acuerdo con procedimientos de p\u00fablica concurrencia y destinados a financiar proyectos de investigaci\u00f3n y desarrollo. La Ley de Presupuestos Generales del Estado de cada ejercicio establecer\u00e1 los l\u00edmites de esta financiaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los recursos que se deriven de los apartados b), e), f) y g) del n\u00famero 1 anterior, y no se contemplen inicialmente en el presupuesto de las Agencias Estatales se podr\u00e1n destinar a financiar mayores gastos por acuerdo de su Director."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 25. Endeudamiento."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El recurso al endeudamiento est\u00e1 prohibido a las Agencias Estatales, salvo que por Ley se disponga lo contrario."
+      },{
+        "@class": "parrafo",
+        "#text": "2. No obstante, y con objeto de atender desfases temporales de tesorer\u00eda, las Agencias Estatales pueden recurrir a la contrataci\u00f3n de p\u00f3lizas de cr\u00e9dito o pr\u00e9stamo, siempre que el saldo vivo no supere el 5% de su presupuesto."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO V"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Gesti\u00f3n econ\u00f3mico-financiera"
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 1.\u00aa  Presupuestos"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 26. Anteproyecto de presupuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Consejo Rector elaborar\u00e1 y aprobar\u00e1 el anteproyecto de presupuesto de la Agencia, conforme a lo dispuesto en el contrato de gesti\u00f3n y a lo previsto en el art\u00edculo 27.1 siguiente."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El anteproyecto de presupuesto de la Agencia ser\u00e1 remitido al Ministerio de adscripci\u00f3n para su examen, que dar\u00e1 posterior traslado del mismo al Ministerio de Econom\u00eda y Hacienda. Una vez analizado por este \u00faltimo departamento ministerial, el anteproyecto se incorpora al de Presupuestos Generales del Estado para su aprobaci\u00f3n por el Consejo de Ministros y remisi\u00f3n a las Cortes Generales, consolid\u00e1ndose con el de las restantes entidades que integran el sector p\u00fablico estatal."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 27. Estructura, contenido y modificaci\u00f3n del presupuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Ministerio de Econom\u00eda y Hacienda establece la estructura del presupuesto de las Agencias Estatales, as\u00ed como la documentaci\u00f3n que se debe acompa\u00f1ar al mismo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El presupuesto de gastos de las Agencias Estatales, en los t\u00e9rminos establecidos en esta Secci\u00f3n, tiene car\u00e1cter limitativo por su importe global y car\u00e1cter estimativo para la distribuci\u00f3n de los cr\u00e9ditos en categor\u00edas econ\u00f3micas, con excepci\u00f3n de los correspondientes a gastos de personal que en todo caso tienen car\u00e1cter limitativo y vinculante por su cuant\u00eda total."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La autorizaci\u00f3n de las variaciones presupuestarias corresponde:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Al Ministro de Econom\u00eda y Hacienda, las variaciones de la cuant\u00eda global del presupuesto y las que afecten a gastos de personal, a iniciativa del Director y propuesta del Consejo Rector, salvo las previstas en la letra siguiente."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Al Director de la propia Agencia Estatal todas las restantes variaciones, incluso en la cuant\u00eda global cuando sean financiadas con recursos derivados de los apartados b), e), f), y g) del art\u00edculo 24.1 por encima de los inicialmente presupuestados y existan garant\u00edas suficientes de su efectividad, dando cuenta inmediata a la Comisi\u00f3n de Control."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los remanentes de cr\u00e9dito que resulten de la liquidaci\u00f3n del ejercicio presupuestario no afectados a la financiaci\u00f3n del presupuesto del ejercicio siguiente, podr\u00e1n aplicarse al presupuesto de ingresos y destinarse a financiar incremento de gastos por acuerdo del Director, dando cuenta a la Comisi\u00f3n de Control. Los d\u00e9ficit derivados del incumplimiento de las estimaciones de ingresos anuales se compensan en la forma que se prevea en el Contrato de gesti\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 28. Ejecuci\u00f3n del presupuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "La ejecuci\u00f3n del presupuesto de las Agencias Estatales corresponde a sus \u00f3rganos ejecutivos, que elaboran y remiten a la Comisi\u00f3n de Control, mensualmente, un estado de ejecuci\u00f3n presupuestaria."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 2.\u00aa Contabilidad"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 29. Contabilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Agencias Estatales deber\u00e1n aplicar los principios contables que les corresponda de acuerdo con lo establecido en el art\u00edculo 121 de la Ley General Presupuestaria, con la finalidad de asegurar el adecuado reflejo de las operaciones, los costes y los resultados de su actividad, as\u00ed como de facilitar datos e informaci\u00f3n con trascendencia econ\u00f3mica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Corresponde a la Intervenci\u00f3n General de la Administraci\u00f3n del Estado establecer los criterios que precise la aplicaci\u00f3n de la normativa contable a las Agencias Estatales, en los t\u00e9rminos establecidos por la legislaci\u00f3n presupuestaria para las entidades del sector p\u00fablico estatal."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las Agencias Estatales dispondr\u00e1n de:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Un sistema de informaci\u00f3n econ\u00f3mica que:"
+      },{
+        "@class": "parrafo",
+        "#text": "i) Muestre, a trav\u00e9s de estados e informes, la imagen fiel del patrimonio, de la situaci\u00f3n financiera, de los resultados y de la ejecuci\u00f3n del presupuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "ii) Proporcione informaci\u00f3n de costes sobre su actividad que sea suficiente para una correcta y eficiente adopci\u00f3n de decisiones."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Un sistema de contabilidad de gesti\u00f3n que permita efectuar el seguimiento del cumplimiento de los compromisos asumidos en el Contrato de gesti\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "4. La Intervenci\u00f3n General de la Administraci\u00f3n del Estado establece los requerimientos funcionales y, en su caso, los procedimientos inform\u00e1ticos, que deber\u00e1n observar las Agencias Estatales para cumplir lo dispuesto en este art\u00edculo, de acuerdo con lo dispuesto en el art\u00edculo 125 de la Ley General Presupuestaria."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 30. Cuentas anuales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las cuentas anuales de las Agencias Estatales se formulan por su Director en el plazo de tres meses desde el cierre del ejercicio econ\u00f3mico. Una vez auditadas dichas cuentas por la Intervenci\u00f3n General de la Administraci\u00f3n del Estado son sometidas al Consejo Rector, para su aprobaci\u00f3n antes del 30 de junio del a\u00f1o siguiente al que se refieran."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Una vez aprobadas por el Consejo Rector, las cuentas se remitir\u00e1n a trav\u00e9s de la Intervenci\u00f3n General de la Administraci\u00f3n del Estado al Tribunal de Cuentas para su fiscalizaci\u00f3n. Dicha remisi\u00f3n a la Intervenci\u00f3n General se realizar\u00e1 dentro de los siete meses siguientes a la terminaci\u00f3n del ejercicio econ\u00f3mico."
+      },{
+        "@class": "seccion",
+        "#text": "Secci\u00f3n 3.\u00aa Control"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 31. Control."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El control externo de la gesti\u00f3n econ\u00f3mico-financiera de las Agencias Estatales corresponde al Tribunal de Cuentas de acuerdo con su normativa espec\u00edfica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El control interno de la gesti\u00f3n econ\u00f3mico-financiera de las Agencias Estatales corresponde a la Intervenci\u00f3n General de la Administraci\u00f3n del Estado, y se realizar\u00e1 bajo las modalidades de control financiero permanente y de auditor\u00eda p\u00fablica, en las condiciones y en los t\u00e9rminos establecidos en la Ley General Presupuestaria. El control financiero permanente se realizar\u00e1 por las Intervenciones Delegadas en las Agencias Estatales, bajo la dependencia funcional de la Intervenci\u00f3n General de la Administraci\u00f3n del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Sin perjuicio del control establecido en el n\u00famero 2 anterior, las Agencias Estatales estar\u00e1n sometidas a un control de eficacia que ser\u00e1 ejercido, a trav\u00e9s del seguimiento del contrato de gesti\u00f3n, por los Ministerios de adscripci\u00f3n. Dicho control tiene por finalidad comprobar el grado de cumplimiento de los objetivos y la adecuada utilizaci\u00f3n de los recursos asignados."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Autorizaci\u00f3n para la creaci\u00f3n de la Agencia Estatal de Evaluaci\u00f3n de las Pol\u00edticas P\u00fablicas y la Calidad de los Servicios e Informe anual al Congreso de los Diputados."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se autoriza al Gobierno para la creaci\u00f3n de la Agencia Estatal de Evaluaci\u00f3n de las Pol\u00edticas P\u00fablicas y la Calidad de los Servicios, adscrita al Ministerio de Administraciones P\u00fablicas, cuyo objeto es la promoci\u00f3n y realizaci\u00f3n de evaluaciones de las pol\u00edticas y programas p\u00fablicos cuya gesti\u00f3n corresponde a la Administraci\u00f3n General del Estado, favoreciendo el uso racional de los recursos p\u00fablicos y el impulso de la gesti\u00f3n de la calidad de los servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Consejo de Ministros aprobar\u00e1 anualmente los programas y pol\u00edticas p\u00fablicas cuya evaluaci\u00f3n incluir\u00e1 la Agencia Estatal de Evaluaci\u00f3n de las Pol\u00edticas P\u00fablicas y la Calidad de los Servicios en su Plan de Trabajo."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La Agencia Estatal de Evaluaci\u00f3n de las Pol\u00edticas P\u00fablicas y la Calidad de los Servicios, presentar\u00e1 anualmente un Informe al Congreso de los Diputados, acerca de la actividad desplegada por las agencias estatales, y sus compromisos para mejorar la calidad de los servicios prestados a los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "4. La Agencia Estatal de Evaluaci\u00f3n de las Pol\u00edticas P\u00fablicas y de la Calidad de los Servicios podr\u00e1 evaluar pol\u00edticas y programas p\u00fablicos gestionados por las Comunidades Aut\u00f3nomas, previo convenio con \u00e9stas y en los t\u00e9rminos que el propio convenio establezca."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Autorizaci\u00f3n para la creaci\u00f3n de la Agencia Estatal Bolet\u00edn Oficial del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se autoriza al Gobierno para la creaci\u00f3n de la Agencia Estatal Bolet\u00edn Oficial del Estado, adscrita al Ministerio de la Presidencia, cuyo objeto es la edici\u00f3n, publicaci\u00f3n, impresi\u00f3n, distribuci\u00f3n, comercializaci\u00f3n y venta del Bolet\u00edn Oficial del Estado y otras publicaciones oficiales."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Agencia Estatal Bolet\u00edn Oficial del Estado tendr\u00e1 la consideraci\u00f3n de medio propio instrumental de la Administraci\u00f3n General del Estado y de sus organismos y entidades de derecho p\u00fablico en las materias que constituyen sus fines."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Su Estatuto establecer\u00e1 el r\u00e9gimen jur\u00eddico y econ\u00f3mico de las actividades desarrolladas como medio propio de la Administraci\u00f3n General del Estado, de conformidad con lo establecido en el Texto Refundido de la Ley de Contratos de las Administraciones P\u00fablicas, aprobado por Real Decreto Legislativo 2/2000, de 16 de junio."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. Autorizaci\u00f3n legal para la creaci\u00f3n de Agencias Estatales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Teniendo en cuenta la particular trascendencia de los sectores de actividad y de los servicios p\u00fablicos concernidos, as\u00ed como la conveniencia de que su gesti\u00f3n est\u00e9 dotada del marco de flexibilidad, responsabilidad por la gesti\u00f3n y control de resultados previsto en esta Ley, se autoriza al Gobierno para la creaci\u00f3n de las siguientes Agencias Estatales con los siguientes objetos y fines y dentro de las competencias que corresponde ejercer a la Administraci\u00f3n General del Estado:"
+      },{
+        "@class": "parrafo",
+        "#text": "Consejo Superior de Investigaciones Cient\u00edficas, para el fomento, coordinaci\u00f3n, desarrollo y difusi\u00f3n de la investigaci\u00f3n cient\u00edfica y tecnol\u00f3gica, de car\u00e1cter pluridisciplinar, con el fin de contribuir al avance del conocimiento y al desarrollo econ\u00f3mico, social y cultural, as\u00ed como a la formaci\u00f3n de personal y el asesoramiento a entidades p\u00fablicas y privadas en estas materias."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal Antidopaje de Espa\u00f1a, para la realizaci\u00f3n de las actividades materiales de prevenci\u00f3n, de protecci\u00f3n de la salud y de lucha contra el dopaje en el deporte, as\u00ed como la ejecuci\u00f3n e impulso de una pol\u00edtica de investigaci\u00f3n en materia de control del dopaje y de la protecci\u00f3n de la salud del deportista."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal de Inmigraci\u00f3n y Emigraci\u00f3n, para el desarrollo y la ejecuci\u00f3n de las competencias estatales en materia de regulaci\u00f3n e integraci\u00f3n social de los inmigrantes, as\u00ed como para la programaci\u00f3n y gesti\u00f3n de las diversas actuaciones de asistencia y apoyo a los emigrantes espa\u00f1oles en el extranjero."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal de Seguridad A\u00e9rea, para la ejecuci\u00f3n de las funciones de ordenaci\u00f3n, supervisi\u00f3n e inspecci\u00f3n de la seguridad del transporte a\u00e9reo y de los sistemas de navegaci\u00f3n a\u00e9rea y de seguridad aeroportuaria en sus vertientes de inspecci\u00f3n y control de productos aeron\u00e1uticos, de actividades a\u00e9reas y del personal aeron\u00e1utico. As\u00ed como, para las funciones de detecci\u00f3n, an\u00e1lisis y evaluaci\u00f3n de los riesgos de seguridad en este modo de transporte."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal de Seguridad del Transporte Terrestre, para la detecci\u00f3n, an\u00e1lisis y evaluaci\u00f3n de los riesgos de seguridad en los transportes terrestres de competencia estatal, as\u00ed como para el ejercicio de las funciones de inspecci\u00f3n y supervisi\u00f3n de la seguridad del sistema ferroviario, tanto en relaci\u00f3n a las infraestructuras como a la operaci\u00f3n ferroviaria, en los \u00e1mbitos de competencia estatal."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal de Artes Esc\u00e9nicas y Musicales, para la promoci\u00f3n, protecci\u00f3n y difusi\u00f3n de las artes esc\u00e9nicas y de la m\u00fasica en cualquiera de sus manifestaciones, el apoyo y difusi\u00f3n de los artistas espa\u00f1oles y el patrimonio musical, coreogr\u00e1fico y dram\u00e1tico, as\u00ed como la producci\u00f3n de los espect\u00e1culos que favorezcan dichos objetivos."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal de Meteorolog\u00eda, para el desarrollo, implantaci\u00f3n y prestaci\u00f3n de los servicios meteorol\u00f3gicos de competencia del Estado y el apoyo al ejercicio de otras pol\u00edticas p\u00fablicas y actividades privadas, contribuyendo a la seguridad de bienes y personas y al bienestar y desarrollo sostenible de la sociedad espa\u00f1ola."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo, para el fomento, gesti\u00f3n y ejecuci\u00f3n de las pol\u00edticas p\u00fablicas de cooperaci\u00f3n internacional para el desarrollo, dirigidas a la lucha contra la pobreza y la consecuci\u00f3n de un desarrollo humano sostenible en los pa\u00edses en desarrollo."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal de Investigaci\u00f3n en Biomedicina y Ciencias de la Salud Carlos III, para el fomento, desarrollo y prestaci\u00f3n de servicios cient\u00edfico-t\u00e9cnicos y de investigaci\u00f3n en el \u00e1mbito de la salud, mediante la realizaci\u00f3n de investigaci\u00f3n b\u00e1sica y aplicada, evaluaci\u00f3n, acreditaci\u00f3n y prospectiva cient\u00edfica y t\u00e9cnica, control sanitario, asesoramiento cient\u00edfico-t\u00e9cnico y formaci\u00f3n y educaci\u00f3n sanitaria en el \u00e1mbito de la Biomedicina y las Ciencias de la Salud. Asimismo, realizar\u00e1 acciones encaminadas al fomento y coordinaci\u00f3n de las actividades anteriores en el \u00e1mbito de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "Agencia Estatal de Evaluaci\u00f3n, Financiaci\u00f3n y Prospectiva de la Investigaci\u00f3n Cient\u00edfica y T\u00e9cnica, para el fomento, desarrollo, ejecuci\u00f3n, asesoramiento y prospectiva de las pol\u00edticas p\u00fablicas de I+D, mediante la evaluaci\u00f3n de la investigaci\u00f3n con est\u00e1ndares internacionales y la distribuci\u00f3n competitiva y eficiente de los fondos p\u00fablicos destinados a I+D."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Hasta tanto se proceda a la creaci\u00f3n de las Agencias Estatales previstas en el apartado anterior, los \u00f3rganos y organismos p\u00fablicos que tuvieran atribuidos los servicios que se integran en dichas Agencias mantendr\u00e1n su actual configuraci\u00f3n y regulaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Asesoramiento jur\u00eddico y representaci\u00f3n y defensa en juicio."
+      },{
+        "@class": "parrafo",
+        "#text": "La asistencia jur\u00eddica, representaci\u00f3n y defensa en juicio de las Agencias Estatales se llevar\u00e1 a cabo de conformidad con la Ley 52/1997, de 24 de noviembre, de Asistencia Jur\u00eddica del Estado e Instituciones P\u00fablicas. Cuando se ejerza por Abogados del Estado, \u00e9stos depender\u00e1n org\u00e1nica y funcionalmente de la Abogac\u00eda General del Estado-Direcci\u00f3n del Servicio Jur\u00eddico del Estado."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional quinta. Transformaci\u00f3n de Organismos P\u00fablicos en Agencias Estatales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se autoriza al Gobierno para que, en el plazo de dos a\u00f1os desde la entrada en vigor de esta Ley, proceda a transformar los actuales Organismos P\u00fablicos cuyos objetivos y actividades se ajusten a la naturaleza de las Agencias Estatales en los t\u00e9rminos previstos en el art\u00edculo 2, mediante Real Decreto del Consejo de Ministros a iniciativa del Ministro de adscripci\u00f3n del respectivo Organismo P\u00fablico y a propuesta conjunta de los Ministros de Econom\u00eda y Hacienda y Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Se except\u00faan de lo indicado en el n\u00famero anterior a aquellos Organismos previstos en las Disposiciones adicionales 9.\u00aa y 10.\u00aa de la Ley de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado, que por Ley dispongan de una especial autonom\u00eda o independencia funcional respecto de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El r\u00e9gimen jur\u00eddico del personal de las Entidades P\u00fablicas Empresariales que se transformen en Agencia podr\u00e1 seguir siendo laboral cuando su Ley de creaci\u00f3n le hubiera otorgado este car\u00e1cter."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los Organismos P\u00fablicos que no se transformen en Agencias Estatales mantendr\u00e1n su actual regulaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "5. A los organismos de investigaci\u00f3n cient\u00edfica y t\u00e9cnica que se transformen en Agencias Estatales, les ser\u00e1 de aplicaci\u00f3n lo dispuesto en la Ley 13/1986, de 14 de abril, de fomento y coordinaci\u00f3n general de la investigaci\u00f3n cient\u00edfica y t\u00e9cnica, en lo que no se oponga a la presente ley."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Los organismos aut\u00f3nomos a que se refiere el art\u00edculo 3.1. f) del Texto Refundido de la Ley de Contratos de las Administraciones P\u00fablicas que se transformen en Agencias Estatales seguir\u00e1n manteniendo el r\u00e9gimen previsto en el mismo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional sexta. Creaci\u00f3n de nuevos organismos p\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Con car\u00e1cter general, a partir de la entrada en vigor de esta Ley, los organismos p\u00fablicos que hayan de crearse en la Administraci\u00f3n General del Estado, adoptar\u00e1n la configuraci\u00f3n de agencias estatales, conforme al procedimiento del art\u00edculo 3 de esta Ley, sin perjuicio de lo establecido en la disposici\u00f3n final primera."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional s\u00e9ptima. Relaciones con las Cortes Generales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En el marco de lo dispuesto en los Reglamentos del Congreso y del Senado, los Ministros de los Departamentos de adscripci\u00f3n de las Agencias Estatales y los Presidentes de \u00e9stas, podr\u00e1n ser requeridos por las Comisiones de las C\u00e1maras, a fin de informar acerca del desarrollo del Contrato de gesti\u00f3n y dem\u00e1s aspectos de la gesti\u00f3n de aqu\u00e9llas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Agencias Estatales, a trav\u00e9s del Ministro de adscripci\u00f3n correspondiente, remitir\u00e1n anualmente a las Cortes Generales o a las Comisiones parlamentarias que correspondan, el informe general de actividad aprobado por el Consejo Rector, relativo a las tareas de la Agencia y al grado de cumplimiento de sus objetivos."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional octava. Modificaci\u00f3n de \u00f3rganos colegiados."
+      },{
+        "@class": "parrafo",
+        "#text": "Se autoriza al Gobierno para que, mediante Real Decreto, suprima o modifique la composici\u00f3n, adscripci\u00f3n y competencias de los \u00f3rganos colegiados del Gobierno y de la Administraci\u00f3n General del Estado regulados por ley. No obstante, si el \u00f3rgano colegiado tiene participaci\u00f3n de otras Administraciones P\u00fablicas distintas de la del Estado o de organizaciones representativas de intereses sociales, su modificaci\u00f3n deber\u00e1 respetar su presencia en el mismo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional novena."
+      },{
+        "@class": "parrafo",
+        "#text": "En el plazo de 12 meses a partir de la aprobaci\u00f3n de la Ley, el Gobierno remitir\u00e1 al Parlamento un Informe sobre los actuales Organismos p\u00fablicos y Fundaciones para su eventual transformaci\u00f3n en Agencias o la conservaci\u00f3n del mismo r\u00e9gimen."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. Modificaci\u00f3n de la Ley 6/1997, de 14 de abril, de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "El art\u00edculo 43 de la Ley 6/1997, de 14 de abril, de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado, se modifica como sigue:"
+      },{
+        "@class": "parrafo",
+        "#text": "Uno. El apartado 1 del art\u00edculo 43 queda redactado del siguiente modo:"
+      },{
+        "@class": "sangrado",
+        "#text": "\u00ab1. Los Organismos p\u00fablicos se clasifican en:"
+      },{
+        "@class": "sangrado",
+        "#text": "a) Organismos aut\u00f3nomos."
+      },{
+        "@class": "sangrado",
+        "#text": "b) Entidades p\u00fablicas empresariales."
+      },{
+        "@class": "sangrado",
+        "#text": "c) Agencias Estatales, que se regir\u00e1n por su normativa espec\u00edfica y, supletoriamente, por esta Ley.\u00bb"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dos. Se adiciona un nuevo apartado 4 al art\u00edculo 43, que quedar\u00e1 redactado del siguiente modo:"
+      },{
+        "@class": "sangrado",
+        "#text": "\u00ab4. Las Agencias Estatales se adscriben al Ministerio que ejerza la iniciativa en su creaci\u00f3n. Las funciones de direcci\u00f3n estrat\u00e9gica, evaluaci\u00f3n y control de resultados y de la actividad de las Agencias Estatales, se articular\u00e1n a trav\u00e9s del Contrato de gesti\u00f3n previsto en la normativa reguladora de \u00e9stas.\u00bb"
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta Ley entrar\u00e1 en vigor al d\u00eda siguiente de su publicaci\u00f3n en el Bolet\u00edn Oficial del Estado."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Por tanto,"
+      },{
+        "@class": "parrafo",
+        "#text": "Mando a todos los espa\u00f1oles, particulares y autoridades, que guarden y hagan guardar esta ley."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Madrid, 18 de julio de 2006."
+      },{
+        "@class": "firma_rey",
+        "#text": "JUAN CARLOS R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "El Presidente del Gobierno,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "JOS\u00c9 LUIS RODR\u00cdGUEZ ZAPATERO"
+      }
+    ]
+  }
+}
+}

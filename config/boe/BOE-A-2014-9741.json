@@ -1,0 +1,1069 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20210810132601",
+  "metadatos": {
+    "identificador": "BOE-A-2014-9741",
+    "titulo": "Real Decreto 806/2014, de 19 de septiembre, sobre organizaci\u00f3n e instrumentos operativos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "234",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "7710",
+      "#text": "Ministerio de la Presidencia"
+    },
+    "rango": {
+      "@codigo": "1340",
+      "#text": "Real Decreto"
+    },
+    "numero_oficial": "806/2014",
+    "fecha_disposicion": "20140919",
+    "fecha_publicacion": "20140926",
+    "fecha_vigencia": "20140927",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "75263",
+    "pagina_final": "75278",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": "/diario_boe/epub.php?id=BOE-A-2014-9741",
+    "url_pdf": "/boe/dias/2014/09/26/pdfs/BOE-A-2014-9741.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/rd/2014/09/19/806"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2014-9741"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2014-09-19"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "806"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2014-9741"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-09-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "806"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/con/20140926"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 806/2014, de 19 de septiembre, sobre organizaci\u00f3n e instrumentos operativos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2014-09-26"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa/epub",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/con/20140926",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2014-9741"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-09-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "806"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-09-26"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/con/20140926/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 806/2014, de 19 de septiembre, sobre organizaci\u00f3n e instrumentos operativos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2014-09-26"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/con/20140926"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2014/09/19/806/con/20140926/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2014/09/19/806/con/20140926/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": null,
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "82",
+          "@orden": "",
+          "#text": "Administraci\u00f3n General del Estado"
+        },{
+          "@codigo": "1232",
+          "@orden": "",
+          "#text": "Comisiones de Control y Seguimiento"
+        },{
+          "@codigo": "4170",
+          "@orden": "",
+          "#text": "Inform\u00e1tica"
+        },{
+          "@codigo": "5278",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n del Estado"
+        },{
+          "@codigo": "6851",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda"
+        },{
+          "@codigo": "6854",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2005-8782",
+            "@orden": "1010",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "DEROGA"
+            },
+            "texto": "el Real Decreto 589/2005, de 20 de mayo"
+          },{
+            "@referencia": "BOE-A-2012-5730",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "la Ley Org\u00e1nica 2/2012, de 27 de abril"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2019-1480",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con el art. 7, crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Econom\u00eda y Empresa: Orden ECE/91/2019, de 31 de enero"
+          },{
+            "@referencia": "BOE-A-2018-5846",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n transitoria 2, crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Energ\u00eda, Turismo y Agenda Digital: Orden ETU/433/2018, de 17 de abril"
+          },{
+            "@referencia": "BOE-A-2018-512",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de la Presidencia: Orden PRA/10/2018, de 11 de enero"
+          },{
+            "@referencia": "BOE-A-2017-11907",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n transitoria 2, crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Educaci\u00f3n, Cultura y Deporte: Orden ECD/994/2017, de 10 de octubre"
+          },{
+            "@referencia": "BOE-A-2016-7861",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": ", crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n: Orden AEC/1372/2016, de 19 de julio"
+          },{
+            "@referencia": "BOE-A-2016-7688",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "la disposici\u00f3n transitoria 2, crea y regula  la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Justicia: Orden JUS/1362/2016, de 3 de agosto"
+          },{
+            "@referencia": "BOE-A-2015-13385",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "y se establece la pol\u00edtica de los sistemas y tecnolog\u00edas de la informaci\u00f3n y las comunicaciones del Ministerio de Defensa: Orden DEF/2639/2015, de 3 de diciembre"
+          },{
+            "@referencia": "BOE-A-2015-9975",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": ", crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital en el Ministerio de Sanidad, Servicios Sociales e Igualdad: Orden SSI/1870/2015, de 10 de septiembre"
+          },{
+            "@referencia": "BOE-A-2015-8432",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": ", crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Fomento: Orden FOM/1522/2015, de 15 de julio"
+          },{
+            "@referencia": "BOE-A-2015-5555",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n transitoria 2, crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Industria, Energ\u00eda y Turismo: Orden IET/919/2015, de 12 de mayo"
+          },{
+            "@referencia": "BOE-A-2015-4324",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n transitoria 2, crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio del Interior: Orden INT/698/2015, de 17 de abril"
+          },{
+            "@referencia": "BOE-A-2015-1111",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n transitoria 2, crea y regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de la Presidencia: Orden PRE/149/2015, de 4 de febrero"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "Durante los \u00faltimos a\u00f1os hemos asistido a profundos cambios en la Administraci\u00f3n en relaci\u00f3n a la utilizaci\u00f3n de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC). Cambios caracterizados, en una primera fase, por el uso de estas tecnolog\u00edas en la automatizaci\u00f3n y mejora del funcionamiento de los procesos internos de la Administraci\u00f3n, en el convencimiento de que el ahorro derivado de la mejora de la eficiencia se trasladar\u00eda a los ciudadanos. Posteriormente, por la universalizaci\u00f3n de Internet y de las tecnolog\u00edas asociadas que ha propiciado el desarrollo de nuevos servicios y formas de relaci\u00f3n con los ciudadanos y empresarios en un camino sin retorno hacia la Administraci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "La confluencia de nuevas tendencias tecnol\u00f3gicas como son los llamados servicios en la nube (cloud computing), la aparici\u00f3n de dispositivos m\u00f3viles cada vez m\u00e1s inteligentes, la generalizaci\u00f3n del uso de las redes sociales, la capacidad de an\u00e1lisis de grandes vol\u00famenes de datos (big data) junto con la universalizaci\u00f3n del uso de Internet, han conformado un nuevo panorama en el que los ciudadanos han adquirido nuevos h\u00e1bitos y expectativas en la utilizaci\u00f3n de los servicios digitales en su ocio, en su relaci\u00f3n con las empresas y tambi\u00e9n con las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "La digitalizaci\u00f3n de los servicios engloba, por una parte, a los servicios electr\u00f3nicos y a las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones, que han sido la base de la Administraci\u00f3n electr\u00f3nica en la que Espa\u00f1a ha alcanzado un avance rese\u00f1able."
+      },{
+        "@class": "parrafo",
+        "#text": "Pero la digitalizaci\u00f3n supone tambi\u00e9n afrontar nuevos retos y oportunidades. La confluencia de estas nuevas fuerzas tecnol\u00f3gicas lleva a un nuevo panorama en el que la Administraci\u00f3n debe ser capaz de adaptarse de manera \u00e1gil a nuevas demandas de un entorno cambiante, proporcionar informaci\u00f3n y servicios digitales en cualquier momento, en cualquier lugar y por diferentes canales, generar nuevas formas de relaci\u00f3n con los ciudadanos e innovar nuevos servicios, aprovechando las oportunidades que proporcionan estas tecnolog\u00edas. Y todo ello debe ser provisto de manera segura, \u00e1gil y con eficacia y eficiencia en la utilizaci\u00f3n de los recursos disponibles."
+      },{
+        "@class": "parrafo",
+        "#text": "No se trata por lo tanto de la utilizaci\u00f3n de las TIC en los procesos de la Administraci\u00f3n, sino de crear las din\u00e1micas necesarias para poder adaptar los servicios, procesos, operaciones y las capacidades de la Administraci\u00f3n a una realidad que es digital y seguir\u00e1 evolucionando previsiblemente a gran velocidad."
+      },{
+        "@class": "parrafo",
+        "#text": "La Administraci\u00f3n debe adoptar una nueva cultura de la informaci\u00f3n y estar preparada para recoger, generar y tratar grandes vol\u00famenes de informaci\u00f3n digital sobre sus operaciones, procesos y resultados, que podr\u00e1 ser puesta convenientemente a disposici\u00f3n de ciudadanos para el impulso de la transparencia, y de empresas y agentes sociales para el fomento de la reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico. Asimismo, el desarrollo de las capacidades de an\u00e1lisis transversal de la informaci\u00f3n permitir\u00e1 optimizar la gesti\u00f3n, mejorar la toma de decisiones y ofrecer servicios interdepartamentales de manera independiente a la estructura administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otra parte, la universalizaci\u00f3n de los servicios digitales y las nuevas formas de relaci\u00f3n con los ciudadanos permiten conformar una Administraci\u00f3n m\u00e1s transparente, en la que los ciudadanos puedan participar en la definici\u00f3n e incluso en el dise\u00f1o de los servicios p\u00fablicos, de forma que estos se adapten mejor a las necesidades reales de los ciudadanos en un nuevo modelo de gobernanza."
+      },{
+        "@class": "parrafo",
+        "#text": "Todo este entorno supone un nuevo mundo de oportunidades, pero tambi\u00e9n de amenazas, que deben ser afrontados desde un inicio generando en la Administraci\u00f3n las sinergias necesarias para aprovechar el talento de las personas que conforman aqu\u00e9lla, sumando los esfuerzos y recursos disponibles y dise\u00f1ando una estrategia com\u00fan para la transformaci\u00f3n digital de la Administraci\u00f3n, basada en las TIC y orientada a la generaci\u00f3n de valor para los ciudadanos."
+      },{
+        "@class": "parrafo",
+        "#text": "El informe elaborado por la Comisi\u00f3n para la Reforma de las Administraciones P\u00fablicas (CORA), creada por Acuerdo de Consejo de Ministros de 26 de octubre de 2012, y presentado al Consejo de Ministros de 21 de junio de 2013, reconoce este papel fundamental de las TIC y aconseja un tratamiento singular respecto a otros servicios comunes a fin de obtener el m\u00e1ximo de eficacia y de optimizaci\u00f3n de recursos y aprovechar las oportunidades que supone la actuaci\u00f3n coordinada de acuerdo a una estrategia com\u00fan."
+      },{
+        "@class": "parrafo",
+        "#text": "El reconocimiento del papel de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones en la transformaci\u00f3n de la Administraci\u00f3n estaba ya recogido, entre otras, pero muy especialmente, en la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos, que part\u00eda del reconocimiento del insuficiente desarrollo de la administraci\u00f3n electr\u00f3nica, y consideraba que la causa en buena medida se deb\u00eda a que las previsiones de la Ley de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan tienen car\u00e1cter facultativo. Es decir, que dejan en manos de las propias Administraciones determinar si los ciudadanos van a poder de modo efectivo, o no, relacionarse por medios electr\u00f3nicos con ellas, seg\u00fan que \u00e9stas quieran poner en pie los instrumentos necesarios para esa comunicaci\u00f3n con la Administraci\u00f3n. Por ello esa ley pretendi\u00f3 dar el paso del \u00abpodr\u00e1n\u00bb por el \u00abdeber\u00e1n\u00bb."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley 11/2007, de 22 de junio, consagra la relaci\u00f3n con las Administraciones P\u00fablicas por medios electr\u00f3nicos como un derecho de los ciudadanos y como una obligaci\u00f3n correlativa para tales Administraciones."
+      },{
+        "@class": "parrafo",
+        "#text": "El contexto europeo, la Agenda Digital para Europa, propone tambi\u00e9n medidas legales para el efectivo desarrollo digital de la Uni\u00f3n Europea. El impulso de una administraci\u00f3n digital supone tambi\u00e9n, por tanto, dar respuesta a los compromisos comunitarios estableciendo as\u00ed un marco operativo y jur\u00eddicamente claro con el fin de eliminar la fragmentaci\u00f3n y la ausencia de interoperabilidad, potenciar la ciudadan\u00eda digital y prevenir la ciberdelincuencia."
+      },{
+        "@class": "parrafo",
+        "#text": "Un buen uso de las TIC, eficiente e integrado, resulta tambi\u00e9n imprescindible para cumplir con los compromisos que la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la informaci\u00f3n p\u00fablica y buen gobierno establecen para la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "A esta voluntad de constituir las TIC como herramienta de vertebraci\u00f3n de la mejora del funcionamiento de las administraciones responde la creaci\u00f3n de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones de la Administraci\u00f3n General del Estado, por Real Decreto 695/2013, de 20 de septiembre. La Direcci\u00f3n se configura, de acuerdo con su norma de creaci\u00f3n, como un \u00f3rgano espec\u00edfico, al m\u00e1s alto nivel, para impulsar y coordinar el necesario proceso de racionalizaci\u00f3n y transformaci\u00f3n de las diversas facetas de la pol\u00edtica de tecnolog\u00edas de la informaci\u00f3n y de las comunicaciones en todo el \u00e1mbito del Sector P\u00fablico Administrativo Estatal. En virtud del Real Decreto\u00a0802/2014, de 19 de septiembre, dicho \u00f3rgano se adscribe al Ministerio de Hacienda y Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "El proceso de transformaci\u00f3n que se encomienda a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones supone revisar planteamientos organizativos vigentes, algunos de los cuales se ponen de manifiesto en el propio informe CORA, entre ellos, la existencia de un elevado grado de atomizaci\u00f3n y un alto nivel de independencia en la actuaci\u00f3n de los agentes que intervienen en el \u00e1mbito de las TIC en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta situaci\u00f3n propicia una elevada autonom\u00eda en la gesti\u00f3n de los fondos y recursos TIC por parte de los diferentes \u00f3rganos de la Administraci\u00f3n P\u00fablica, siendo en cada una de ellos donde se toman las decisiones de gastos e inversi\u00f3n, lo que ha dado lugar a una dispersi\u00f3n considerable de recursos y esfuerzos en materia TIC, si bien las Subsecretar\u00edas y dem\u00e1s \u00f3rganos competentes en materia de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones, a trav\u00e9s de las unidades TIC de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos han sido capaces de atender una demanda creciente de servicios y unas exigencias elevadas, que han situado la oferta actual de servicios en niveles equivalentes o superiores a la media de la Uni\u00f3n Europea."
+      },{
+        "@class": "parrafo",
+        "#text": "El modelo de gobernanza sobre el que se asienta este real decreto pretende superar esa situaci\u00f3n, con el fin de conseguir una pol\u00edtica TIC com\u00fan a toda la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos en un contexto de austeridad en el gasto p\u00fablico basado en la exigencia de eficiencia y corresponsabilidad. La Ley Org\u00e1nica\u00a02/2012, de 27 de abril, de Estabilidad Presupuestaria y Sostenibilidad Financiera, tiene uno de sus pilares en los principios de eficiencia en la asignaci\u00f3n y utilizaci\u00f3n de los recursos p\u00fablicos. Siguiendo el mandato de esta ley, este real decreto contiene disposiciones en materia de planificaci\u00f3n de la acci\u00f3n TIC con implicaciones normativas, organizativas, presupuestarias y contractuales que se encuadran en un marco de planificaci\u00f3n plurianual, y de programaci\u00f3n y presupuestaci\u00f3n, que ha de atender a la situaci\u00f3n econ\u00f3mica, a los objetivos de pol\u00edtica econ\u00f3mica y al cumplimiento de los principios de estabilidad presupuestaria y sostenibilidad financiera. En desarrollo de lo que dispone la Ley Org\u00e1nica 2/2012, de 27 de abril, este real decreto crea instrumentos para contribuir a una gesti\u00f3n de los recursos p\u00fablicos orientada a la eficacia, la eficiencia, la econom\u00eda y la calidad, instrumentos imprescindibles para la aplicaci\u00f3n de pol\u00edticas de racionalizaci\u00f3n del gasto y de mejora de la gesti\u00f3n del sector p\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "La estructura de gobernanza de las TIC en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos ha tenido hasta la fecha sus pilares en los \u00f3rganos colegiados de Administraci\u00f3n electr\u00f3nica. Por una parte, el Consejo Superior de Administraci\u00f3n Electr\u00f3nica, \u00f3rgano m\u00e1ximo en materia de Administraci\u00f3n electr\u00f3nica del que han emanado las principales l\u00edneas y proyectos de Administraci\u00f3n electr\u00f3nica de la Administraci\u00f3n General del Estado. Por otra parte, adscritas a los diferentes departamentos Ministeriales, las Comisiones Ministeriales de Administraci\u00f3n electr\u00f3nica (CMAEs)."
+      },{
+        "@class": "parrafo",
+        "#text": "Las CMAEs han permitido realizar el seguimiento y control de las diferentes inversiones y gastos TIC en el \u00e1mbito Ministerial pero, debido a la propia atomizaci\u00f3n de las unidades ministeriales, no ha sido posible desarrollar, salvo en algunos Ministerios, la labor de dise\u00f1ar, junto a las unidades administrativas ministeriales, la estrategia digital que soporte los procesos administrativos sectoriales competencia de cada departamento."
+      },{
+        "@class": "parrafo",
+        "#text": "En este sentido, la digitalizaci\u00f3n de la Administraci\u00f3n supone no s\u00f3lo la transformaci\u00f3n de los servicios ofrecidos a medios electr\u00f3nicos, utilizando para ello las capacidades que ofrecen las TIC, sino que apuesta por el redise\u00f1o integral de los procesos y servicios actuales de la Administraci\u00f3n, permitiendo nuevos modelos de relaci\u00f3n con los ciudadanos y habilitando la prestaci\u00f3n de servicios innovadores que no ser\u00edan realizables sin un necesario cambio cultural."
+      },{
+        "@class": "parrafo",
+        "#text": "Es fundamental, por lo tanto, contar con unidades TIC ministeriales, que conozcan profundamente el \u00e1mbito de trabajo espec\u00edfico del departamento para dise\u00f1ar servicios digitales adaptados a las necesidades de ciudadanos y empresas, aprovechando la gran capacitaci\u00f3n y el conocimiento especializado del personal TIC para el desarrollo y operaci\u00f3n de las aplicaciones sectoriales espec\u00edficas de cada unidad de negocio. Su principal objetivo ser\u00e1 impulsar el proceso de transformaci\u00f3n digital de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos, que ha de tener por fin no s\u00f3lo la automatizaci\u00f3n de los servicios, sino su redise\u00f1o integral, aprovechando las capacidades que permiten las nuevas tecnolog\u00edas con el fin de implantar nuevos y mejores modelos de relaci\u00f3n con los ciudadanos, con servicios m\u00e1s eficientes que faciliten el crecimiento econ\u00f3mico."
+      },{
+        "@class": "parrafo",
+        "#text": "En este sentido, las Comisiones Ministeriales actuales deben evolucionar su papel hacia la elaboraci\u00f3n del proyecto del plan de acci\u00f3n sectorial del departamento en materia de Administraci\u00f3n digital, atendiendo de forma priorizada las propuestas y necesidades de los distintos \u00f3rganos y organismos p\u00fablicos afectados y promoviendo la compartici\u00f3n de los servicios. De esta manera, las actuales unidades ministeriales de tecnolog\u00edas de la informaci\u00f3n y de las comunicaciones se convertir\u00e1n en las unidades responsables del soporte y la transformaci\u00f3n digital de los diferentes \u00e1mbitos departamentales."
+      },{
+        "@class": "parrafo",
+        "#text": "Los motivos expuestos anteriormente llevan a la necesidad de redise\u00f1ar el modelo de gobernanza de las TIC en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos. El desarrollo de este nuevo modelo se ha encomendado a un \u00f3rgano de nueva creaci\u00f3n, espec\u00edfico y al m\u00e1ximo nivel, la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "Para el dise\u00f1o de la nueva gobernanza TIC, desde la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones se han identificado tres objetivos b\u00e1sicos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Primero, orientar las actuaciones y l\u00edneas estrat\u00e9gicas en las TIC de forma que tengan como principal objetivo satisfacer las necesidades derivadas de la estrategia global del Gobierno y disponer de una planificaci\u00f3n estrat\u00e9gica com\u00fan para toda la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Segundo, potenciar la Administraci\u00f3n digital y las TIC como los instrumentos que permitan hacer sostenible el constante proceso de innovaci\u00f3n y mejora en la calidad de los servicios ofrecidos por la administraci\u00f3n que demandan ciudadanos y empresas, e incrementar la productividad de los empleados p\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Tercero, racionalizar el uso de los recursos inform\u00e1ticos de forma que se consiga una mayor eficiencia, proporcionando un ahorro sustancial de costes de todo tipo, y en especial en el resto de la actividad administrativa, como consecuencia de una mayor homogeneidad y simplicidad mediante el uso de herramientas comunes y servicios compartidos, objetivo de especial inter\u00e9s en un contexto de limitaci\u00f3n presupuestaria."
+      },{
+        "@class": "parrafo_2",
+        "#text": "En todo caso, se hace necesario favorecer el dise\u00f1o de sistemas de compras que sean capaces de conseguir ahorros importantes, adoleciendo el proceso de contrataci\u00f3n actual de falta de flexibilidad para aprovechar el estado de madurez del sector TIC espa\u00f1ol. Esta dispersi\u00f3n de las contrataciones TIC en diferentes unidades ha derivado en una gran diversidad de suministradores en la contrataci\u00f3n de productos y servicios id\u00e9nticos, lo que impacta en mayores costes de mantenimiento y evoluci\u00f3n, por lo que es necesario racionalizar el proceso de contrataci\u00f3n y dotarlo de mecanismos \u00e1giles que favorezcan el aprovechamiento de econom\u00edas de escala como consecuencia de la agregaci\u00f3n de la demanda. En este sentido, la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones propondr\u00e1 a la Direcci\u00f3n General de Racionalizaci\u00f3n y Centralizaci\u00f3n de la Contrataci\u00f3n los contratos de suministros, obras y servicios en materia TIC que deban ser declarados de contrataci\u00f3n centralizada por el titular del Ministerio de Hacienda y Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, se encargar\u00e1 de alinear las inversiones TIC con los objetivos estrat\u00e9gicos establecidos."
+      },{
+        "@class": "parrafo",
+        "#text": "El nuevo modelo de gobernanza TIC persigue centralizar las competencias y los medios para desempe\u00f1arlas en un \u00fanico \u00f3rgano administrativo en el que se integren todas las unidades TIC de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos, articul\u00e1ndose su interacci\u00f3n con el resto de \u00e1reas de la Administraci\u00f3n, a las que prestan sus servicios, mediante unos nuevos \u00f3rganos colegiados que sirvan como canal \u00e1gil de informaci\u00f3n y puesta en com\u00fan de necesidades y oportunidades de utilizaci\u00f3n de medios inform\u00e1ticos de forma racional y eficiente."
+      },{
+        "@class": "parrafo",
+        "#text": "Ello supondr\u00e1, por tanto, la capacitaci\u00f3n para la prestaci\u00f3n de servicios compartidos TIC a todas las unidades de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos y la definici\u00f3n de una estrategia com\u00fan que definir\u00e1 las l\u00edneas de actuaci\u00f3n en materia TIC de los \u00f3rganos y organismos de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "A tales efectos, se crean la Comisi\u00f3n de Estrategia TIC y, en el \u00e1mbito departamental, las Comisiones Ministeriales de Administraci\u00f3n Digital como \u00f3rganos colegiados encargados de impulsar la transformaci\u00f3n digital de la Administraci\u00f3n de acuerdo a una Estrategia com\u00fan en el \u00e1mbito de las Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones. Asimismo, este real decreto deroga el Real Decreto 589/2005, de 20 de mayo, por el que se reestructuran los \u00f3rganos colegiados responsables de la Administraci\u00f3n electr\u00f3nica, quedando suprimidos el Consejo Superior de Administraci\u00f3n Electr\u00f3nica y las Comisiones Ministeriales de Administraci\u00f3n Electr\u00f3nica. Este nuevo modelo de Gobernanza en el \u00e1mbito de las Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones se alcanzar\u00e1 de manera paulatina en un proceso que, partiendo desde la heterogeneidad y dispersi\u00f3n actual converja hacia un modelo de prestaci\u00f3n de servicios compartidos e infraestructuras comunes de forma que pueda garantizarse el mantenimiento del nivel de servicio actual y la paulatina implementaci\u00f3n de sinergias e incremento de eficiencia, simplificaci\u00f3n de estructuras y, por tanto, mejora de la productividad de la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Para hacer efectivas estas medidas, este real decreto no s\u00f3lo se aplica a la Administraci\u00f3n General del Estado, sus organismos aut\u00f3nomos y entidades gestoras y servicios comunes de la Seguridad Social, sino que se prev\u00e9 su aplicaci\u00f3n a otras entidades p\u00fablicas, cuya actuaci\u00f3n pueda presentar una especial trascendencia en la prestaci\u00f3n de servicios p\u00fablicos electr\u00f3nicos y en el propio desarrollo de la Administraci\u00f3n digital."
+      },{
+        "@class": "parrafo",
+        "#text": "En su virtud, a propuesta de la Vicepresidenta del Gobierno y Ministra de la Presidencia, y del Ministro de Hacienda y Administraciones P\u00fablicas, y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 19 de septiembre de 2014,"
+      },{
+        "@class": "centro_redonda",
+        "#text": "DISPONGO:"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Objeto y \u00e1mbito de aplicaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "El objeto de este real decreto es el desarrollo y ejecuci\u00f3n de un modelo com\u00fan de gobernanza de las Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones (TIC) en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Este modelo de Gobernanza de las TIC incluir\u00e1, en todo caso, la definici\u00f3n e implementaci\u00f3n de una estrategia global de transformaci\u00f3n digital que garantice el uso adecuado de los recursos inform\u00e1ticos de acuerdo a las necesidades derivadas de la estrategia general del Gobierno, con el fin de mejorar la prestaci\u00f3n de los servicios p\u00fablicos al ciudadano."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "El \u00e1mbito de aplicaci\u00f3n de este real decreto se extiende a la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos previstos en el art\u00edculo 43 de la Ley 6/1997, de 14 de abril, de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "\u00d3rganos con competencias en materia de Administraci\u00f3n digital"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. La Comisi\u00f3n de Estrategia TIC. Objeto, adscripci\u00f3n y funcionamiento."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La Comisi\u00f3n de Estrategia TIC es el \u00f3rgano colegiado encargado de la definici\u00f3n y supervisi\u00f3n de la aplicaci\u00f3n de la Estrategia sobre Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos, \u00abEstrategia TIC\u00bb, que ser\u00e1 aprobada por el Gobierno de acuerdo con lo previsto en el art\u00edculo 9 de este Real Decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Comisi\u00f3n de Estrategia TIC se adscribe al Ministerio de Hacienda y Administraciones P\u00fablicas a trav\u00e9s de la Secretar\u00eda de Estado de Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La Comisi\u00f3n de Estrategia TIC actuar\u00e1 en pleno y por medio de su comit\u00e9 ejecutivo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Funciones de la Comisi\u00f3n de Estrategia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Corresponde a la Comisi\u00f3n de Estrategia TIC el ejercicio de las siguientes funciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Fijar las l\u00edneas estrat\u00e9gicas, de acuerdo con la pol\u00edtica establecida por el Gobierno, en materia de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones, para el impulso de la Administraci\u00f3n digital en la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Aprobar la propuesta de Estrategia TIC de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos para su elevaci\u00f3n al Consejo de Ministros por los titulares de los departamentos de Hacienda y Administraciones P\u00fablicas y de la Presidencia."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Informar los anteproyectos de ley, los proyectos de disposiciones reglamentarias y otras normas de \u00e1mbito general que le sean sometidos por los \u00f3rganos proponentes cuyo objeto sea la regulaci\u00f3n en materia TIC de aplicaci\u00f3n en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos o de los recursos de car\u00e1cter material y humano afectos a su desarrollo."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Definir las prioridades de inversi\u00f3n en materias TIC de acuerdo con los objetivos establecidos por el Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Declarar los medios o servicios compartidos en los t\u00e9rminos establecidos en el art\u00edculo 10."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Declarar los proyectos de inter\u00e9s prioritario, en los t\u00e9rminos establecidos en el art\u00edculo 11, a propuesta de los ministerios y sus organismos p\u00fablicos adscritos previo informe de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones. Se considerar\u00e1n proyectos de inter\u00e9s prioritario aquellos que por sus especiales caracter\u00edsticas sean fundamentales para la mejora de la prestaci\u00f3n de servicios al ciudadano."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Impulsar la colaboraci\u00f3n y cooperaci\u00f3n con las comunidades aut\u00f3nomas y las entidades locales para la puesta en marcha de servicios interadministrativos integrados y la compartici\u00f3n de infraestructuras t\u00e9cnicas y los servicios comunes que permitan la racionalizaci\u00f3n de los recursos TIC a todos los niveles del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Impulsar las actividades de cooperaci\u00f3n de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos con la Uni\u00f3n Europea, con las organizaciones internacionales y, especialmente, con Iberoam\u00e9rica, en materia de tecnolog\u00edas de la informaci\u00f3n y Administraci\u00f3n digital, en colaboraci\u00f3n con el Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "i) Actuar como Observatorio de la Administraci\u00f3n Electr\u00f3nica y Transformaci\u00f3n Digital."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. La Comisi\u00f3n de Estrategia TIC elevar\u00e1 anualmente, a trav\u00e9s de su Presidente, un informe al Consejo de Ministros, en el que se recoger\u00e1 el estado de la transformaci\u00f3n digital de la Administraci\u00f3n en la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. Composici\u00f3n y funcionamiento del Pleno de la Comisi\u00f3n de Estrategia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Pleno de la Comisi\u00f3n de Estrategia TIC estar\u00e1 integrado por los titulares de las Secretar\u00edas de Estado de Administraciones P\u00fablicas, de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n y de Seguridad Social, as\u00ed como por los Subsecretarios o, bien, el titular de un \u00f3rgano superior de los distintos Departamentos ministeriales y el Director de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones. Ser\u00e1 presidido por el Ministro de Hacienda y Administraciones P\u00fablicas y actuar\u00e1 como Secretario el Director de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las reuniones del Pleno se celebrar\u00e1n, al menos, dos veces al a\u00f1o por convocatoria de su Presidente, bien a iniciativa propia, bien cuando lo soliciten, al menos, la mitad de sus miembros."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El Presidente podr\u00e1 invitar a incorporarse, con voz pero sin voto, a representantes de otras instituciones p\u00fablicas o privadas."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las funciones de asistencia y apoyo a la Comisi\u00f3n de Estrategia TIC y a su Comit\u00e9 Ejecutivo ser\u00e1n desempe\u00f1adas por la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "5. Por acuerdo de la Comisi\u00f3n de Estrategia TIC se podr\u00e1n constituir los grupos de trabajo que se requieran para el adecuado desarrollo de sus funciones."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. Composici\u00f3n y funcionamiento del Comit\u00e9 Ejecutivo de la Comisi\u00f3n de Estrategia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Comit\u00e9 Ejecutivo de la Comisi\u00f3n de Estrategia TIC se constituye como el instrumento de la Comisi\u00f3n de Estrategia TIC para asegurar una actuaci\u00f3n \u00e1gil y efectiva de la Estrategia TIC en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Comit\u00e9 Ejecutivo de la Comisi\u00f3n de Estrategia TIC estar\u00e1 presidido por el Director de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, estar\u00e1 compuesto por un m\u00ednimo de cinco miembros, un m\u00e1ximo de diez miembros y su composici\u00f3n ser\u00e1 determinada por la Comisi\u00f3n de Estrategia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "Actuar\u00e1 como secretario un funcionario de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, que ser\u00e1 designado por el Presidente del Comit\u00e9."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El Comit\u00e9 Ejecutivo ejercer\u00e1 las competencias que le atribuya expresamente el Pleno de la Comisi\u00f3n de Estrategia TIC, y deber\u00e1 informar peri\u00f3dicamente a \u00e9ste acerca de las decisiones y actuaciones adoptadas. En todo caso, le corresponde la aprobaci\u00f3n de los Planes de Acci\u00f3n Departamentales regulados en el art\u00edculo 14 del presente real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las reuniones del Comit\u00e9 Ejecutivo se celebrar\u00e1n mensualmente. El Presidente podr\u00e1 convocar al Comit\u00e9 con car\u00e1cter extraordinario cuando resulte necesario."
+      },{
+        "@class": "parrafo",
+        "#text": "5. El Presidente del Comit\u00e9 Ejecutivo podr\u00e1 invitar a incorporarse, con voz pero sin voto, a los Presidentes de las Comisiones Ministeriales de Administraci\u00f3n Digital cuando lo estime conveniente."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Podr\u00e1n constituirse los grupos de trabajo que se requieran para el adecuado desarrollo de sus funciones."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Las Comisiones Ministeriales de Administraci\u00f3n Digital."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Comisiones Ministeriales de Administraci\u00f3n Digital (CMAD) son \u00f3rganos colegiados de \u00e1mbito departamental responsables del impulso y de la coordinaci\u00f3n interna en cada departamento en materia de Administraci\u00f3n digital, y ser\u00e1n los \u00f3rganos de enlace con la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Las CMAD estudiar\u00e1n y planificar\u00e1n las necesidades funcionales de las distintas \u00e1reas administrativas del ministerio, valorar\u00e1n las posibles v\u00edas de actuaci\u00f3n, prioriz\u00e1ndolas, y propondr\u00e1n su desarrollo, todo ello evitando que se generen duplicidades, conforme al principio de racionalizaci\u00f3n, y promoviendo la compartici\u00f3n de infraestructuras y servicios comunes."
+      },{
+        "@class": "parrafo",
+        "#text": "El \u00e1mbito de actuaci\u00f3n de las CMAD comprende todos los \u00f3rganos del departamento y a los organismos p\u00fablicos adscritos al mismo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las CMAD estar\u00e1n presididas por el Subsecretario y estar\u00e1n integradas por los representantes, con rango m\u00ednimo de Subdirector General, de las \u00e1reas funcionales y de los organismos adscritos que se determine mediante orden ministerial, as\u00ed como los responsables de las unidades ministeriales de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones."
+      },{
+        "@class": "parrafo_2",
+        "#text": "El Presidente de la CMAD podr\u00e1 delegar esta funci\u00f3n en el titular de una unidad del mismo departamento, con rango m\u00ednimo de Director General."
+      },{
+        "@class": "parrafo",
+        "#text": "Podr\u00e1n asistir a las reuniones de la CMAD expertos de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, que tendr\u00e1n car\u00e1cter de asesores, con voz y sin voto."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las CMAD desempe\u00f1ar\u00e1n las siguientes funciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Actuar como \u00f3rgano de relaci\u00f3n entre los departamentos ministeriales y sus organismos adscritos y la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, para asegurar la coordinaci\u00f3n con los criterios y pol\u00edticas definidas por \u00e9sta."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Impulsar, ejecutar y supervisar, en el \u00e1mbito del departamento, el cumplimiento de las directrices y el seguimiento de las pautas de actuaci\u00f3n recogidas en la Estrategia TIC de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos aprobada por el Gobierno a propuesta del Comit\u00e9 de Estrategia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Elaborar el Plan de acci\u00f3n del departamento para la transformaci\u00f3n digital, en desarrollo de los criterios establecidos por la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones atendiendo a la Estrategia TIC de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos, aprobada por el Consejo de Ministros."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Analizar las necesidades funcionales de las unidades de gesti\u00f3n del departamento y sus organismos adscritos y evaluar las distintas alternativas de soluci\u00f3n propuestas por las unidades TIC, identificando las oportunidades de mejora de eficiencia que pueden aportar las TIC, aplicando soluciones ya desarrolladas en el \u00e1mbito del Sector P\u00fablico y estimando costes en recursos humanos y materiales que los desarrollos TIC asociados puedan suponer"
+      },{
+        "@class": "parrafo",
+        "#text": "e) Impulsar la digitalizaci\u00f3n de los servicios y procedimientos del departamento con el fin de homogeneizarlos, simplificarlos, mejorar su calidad y facilidad de uso, as\u00ed como las prestaciones ofrecidas a los ciudadanos y empresas, optimizando la utilizaci\u00f3n de los recursos TIC disponibles."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Colaborar con la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones en la identificaci\u00f3n y la puesta a disposici\u00f3n com\u00fan de los medios humanos, materiales y econ\u00f3micos que est\u00e9n adscritos al departamento y que deban ser utilizados para la puesta en funcionamiento o mantenimiento de los medios o servicios compartidos."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Cualesquiera otras que determinen sus respectivas \u00f3rdenes ministeriales reguladoras, de acuerdo con las peculiares necesidades de cada departamento ministerial."
+      },{
+        "@class": "parrafo_2",
+        "#text": "4. Las CMAD analizar\u00e1n los proyectos de disposiciones de car\u00e1cter general de su departamento y elaborar\u00e1n un informe en el que se expondr\u00e1n y valorar\u00e1n la oportunidad de la medida, los costes, necesidad de disponibilidad de recursos humanos y tiempos de desarrollo que se puedan derivar de la aprobaci\u00f3n del proyecto desde la perspectiva de la utilizaci\u00f3n de medios y servicios TIC y lo remitir\u00e1n a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones para su conocimiento y valoraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "5. En el ejercicio de sus funciones y en su \u00e1mbito de actuaci\u00f3n ministerial, las CMAD, formular\u00e1n propuestas de aplicaci\u00f3n de nuevos criterios de organizaci\u00f3n o de funcionamiento, implantaci\u00f3n de nuevos procedimientos o de revisi\u00f3n de los existentes."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. El Comit\u00e9 de Direcci\u00f3n de las Tecnolog\u00edas de Informaci\u00f3n y Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "El Comit\u00e9 de Direcci\u00f3n de las Tecnolog\u00edas de Informaci\u00f3n y las Comunicaciones es un \u00f3rgano de apoyo adscrito a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Estar\u00e1 integrado por el responsable TIC de las subsecretar\u00edas del \u00f3rgano superior al que corresponda la coordinaci\u00f3n de las TIC en cada uno de los departamentos ministeriales as\u00ed como por los responsables de aquellas unidades TIC que por su relevancia sean designados por el Director de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, qui\u00e9n lo presidir\u00e1."
+      },{
+        "@class": "parrafo",
+        "#text": "Actuar\u00e1 como \u00f3rgano de coordinaci\u00f3n y colaboraci\u00f3n entre la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones y los \u00f3rganos y organismos integrantes de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos a fin de establecer una acci\u00f3n coordinada, de acuerdo con las l\u00edneas estrat\u00e9gicas definidas por la Comisi\u00f3n de Estrategia TIC y contribuir\u00e1 a definir metodolog\u00edas, procesos, arquitecturas, normas y buenas pr\u00e1cticas comunes a todas las unidades TIC de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos velando por el cumplimiento de programas y proyectos, la consecuci\u00f3n de los objetivos marcados y la eliminaci\u00f3n de redundancias."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Modelo de gobernanza en el \u00e1mbito de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 9. Estrategia en materia de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "El Gobierno, a iniciativa de la Comisi\u00f3n de Estrategia TIC, y a propuesta de los Ministros de la Presidencia, de Hacienda y Administraciones P\u00fablicas y de Industria, Energ\u00eda y Turismo, aprobar\u00e1 la Estrategia en materia de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (en adelante Estrategia TIC), as\u00ed como las revisiones de la misma."
+      },{
+        "@class": "parrafo",
+        "#text": "La Estrategia TIC determinar\u00e1 los objetivos, principios y acciones para el desarrollo de la administraci\u00f3n digital y la transformaci\u00f3n digital de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos y servir\u00e1 de base para la elaboraci\u00f3n por los distintos ministerios de sus planes de acci\u00f3n para la transformaci\u00f3n digital."
+      },{
+        "@class": "parrafo",
+        "#text": "La Comisi\u00f3n de Estrategia TIC determinar\u00e1 el \u00e1mbito temporal de la Estrategia TIC, as\u00ed como su periodo de revisi\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 10. Medios y servicios compartidos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los medios y servicios TIC de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos ser\u00e1n declarados de uso compartido cuando, en raz\u00f3n de su naturaleza o del inter\u00e9s com\u00fan, respondan a necesidades transversales de un n\u00famero significativo de unidades administrativas."
+      },{
+        "@class": "parrafo",
+        "#text": "A los efectos de este real decreto, se entender\u00e1 por \u00abmedios y servicios\u00bb todas las actividades, infraestructuras t\u00e9cnicas, instalaciones, aplicaciones, equipos, inmuebles, redes, ficheros electr\u00f3nicos, licencias y dem\u00e1s activos que dan soporte a los sistemas de informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Los activos TIC afectos a la prestaci\u00f3n de servicios sectoriales se podr\u00e1n mantener en sus \u00e1mbitos espec\u00edficos en raz\u00f3n de la singularidad competencial y funcional que atienden y no tendr\u00e1n, por tanto, la consideraci\u00f3n de medios y servicios compartidos. La responsabilidad sobre la gesti\u00f3n de estos medios corresponder\u00e1 a los departamentos ministeriales y organismos adscritos desarrollada a trav\u00e9s de las respectivas unidades TIC con el apoyo y supervisi\u00f3n de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La declaraci\u00f3n de medios y servicios compartidos necesarios para la ejecuci\u00f3n y desarrollo de la Estrategia TIC aprobada por el Gobierno, corresponder\u00e1 a la Comisi\u00f3n de Estrategia TIC a propuesta de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Cuando concurran razones econ\u00f3micas, t\u00e9cnicas o de oportunidad sobrevenidas, la Comisi\u00f3n de Estrategia TIC podr\u00e1 autorizar al Director de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones a acordar excepciones a la declaraci\u00f3n de medio o servicio de uso compartido, de las que se dar\u00e1 traslado a los miembros de la Comisi\u00f3n de Estrategia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "La declaraci\u00f3n de medio o servicio compartido habilitar\u00e1 a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones para adoptar las medidas necesarias para su provisi\u00f3n compartida, bien directamente o a trav\u00e9s de otras unidades TIC y, en su caso, para disponer tanto de los medios humanos y econ\u00f3micos como de las infraestructuras y resto de activos TIC que los ministerios y unidades dependientes ven\u00edan dedicando a atender dichos servicios, entre los que se incluyen tambi\u00e9n ficheros electr\u00f3nicos y licencias."
+      },{
+        "@class": "parrafo",
+        "#text": "Dada la naturaleza funcional espec\u00edfica y r\u00e9gimen competencial singular de los servicios de Inform\u00e1tica presupuestaria de la Intervenci\u00f3n General de la Administraci\u00f3n del Estado, lo establecido en este apartado 2 respecto a los servicios, recursos e infraestructuras TIC comunes y al cat\u00e1logo de servicios TIC comunes, cuando pueda afectar a los sistemas de funcionalidad espec\u00edfica de Inform\u00e1tica presupuestaria requerir\u00e1 la previa aprobaci\u00f3n de la Intervenci\u00f3n General de la Administraci\u00f3n del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La utilizaci\u00f3n de los medios y servicios compartidos ser\u00e1 de car\u00e1cter obligatorio y sustitutivo respecto a los medios y servicios particulares empleados por las distintas unidades."
+      },{
+        "@class": "parrafo",
+        "#text": "La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones establecer\u00e1 un Cat\u00e1logo de Servicios Comunes del que formar\u00e1n parte los medios y servicios compartidos, as\u00ed como aquellas infraestructuras t\u00e9cnicas o aplicaciones desarrolladas por la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones cuya provisi\u00f3n de manera compartida facilite la aplicaci\u00f3n de econom\u00edas de escala y contribuya a la racionalizaci\u00f3n y simplificaci\u00f3n de la actuaci\u00f3n administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Dentro de este Cat\u00e1logo figurar\u00e1n servicios de administraci\u00f3n digital orientados a integrar todas las relaciones de las Administraciones p\u00fablicas con el ciudadano, mediante la provisi\u00f3n compartida, que le permita tener una visi\u00f3n integral de sus relaciones con las Administraciones p\u00fablicas y acceso a todos los servicios on-line."
+      },{
+        "@class": "parrafo",
+        "#text": "5. La provisi\u00f3n, explotaci\u00f3n y gesti\u00f3n de los medios y servicios compartidos ser\u00e1 realizada por la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, salvo los que correspondan a los servicios de inform\u00e1tica presupuestaria de la Intervenci\u00f3n General de la Administraci\u00f3n del Estado. Las eficiencias que se produzcan en estos procesos se dedicar\u00e1n preferentemente a potenciar los servicios sectoriales."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Las CMAD y las unidades TIC sectoriales velar\u00e1n por el uso de los medios y servicios compartidos. En este sentido, cuando las necesidades puedan ser comunes a m\u00e1s de un \u00e1rea funcional o unidad, del mismo o de distinto ministerio, se escoger\u00e1 la alternativa que permita compartir el servicio entre dichas \u00e1reas, salvo autorizaci\u00f3n expresa de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "7. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones llevar\u00e1 un registro de los costes que son imputables a cada uno de los diferentes \u00f3rganos y organismos usuarios, sin perjuicio de las competencias de otros \u00f3rganos administrativos en materia de control de gasto."
+      },{
+        "@class": "parrafo",
+        "#text": "8. La puesta a disposici\u00f3n com\u00fan de los medios y servicios compartidos se har\u00e1 de acuerdo con lo previsto en la normativa que resulte aplicable en cada \u00e1mbito en materia de personal, organizaci\u00f3n, presupuestos y patrimonial."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 11. Proyectos de inter\u00e9s prioritario."
+      },{
+        "@class": "parrafo",
+        "#text": "El Comit\u00e9 de Estrategia TIC podr\u00e1 declarar como proyectos de inter\u00e9s prioritario aquellos que tengan una singular relevancia y, especialmente, aquellos que tengan como objetivo la colaboraci\u00f3n y cooperaci\u00f3n con las comunidades aut\u00f3nomas y los entes que integran la Administraci\u00f3n local y la Uni\u00f3n Europea en materia de Administraci\u00f3n digital."
+      },{
+        "@class": "parrafo",
+        "#text": "La declaraci\u00f3n de proyecto de inter\u00e9s prioritario se trasladar\u00e1 como recomendaci\u00f3n al Ministerio de Hacienda y Administraciones P\u00fablicas y a la Comisi\u00f3n de Pol\u00edticas de Gasto para que, en su caso, sea tenida en cuenta en la elaboraci\u00f3n de los Presupuestos Generales del Estado."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 12. Unidades TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Son unidades TIC aquellas unidades administrativas cuya funci\u00f3n sea la provisi\u00f3n de servicios en materia de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones a s\u00ed mismas o a otras unidades administrativas."
+      },{
+        "@class": "parrafo",
+        "#text": "Las unidades TIC, bajo la direcci\u00f3n de los \u00f3rganos superiores o directivos a los que se encuentren adscritas, se configuran como instrumentos fundamentales para la implementaci\u00f3n y desarrollo de la Estrategia TIC y del proceso de transformaci\u00f3n digital de los \u00e1mbitos sectoriales de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos bajo la coordinaci\u00f3n y supervisi\u00f3n de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Se entender\u00e1 por provisi\u00f3n de servicios TIC la realizaci\u00f3n de una o varias de las siguientes funciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Soporte, operaci\u00f3n, implementaci\u00f3n y/o gesti\u00f3n de sistemas inform\u00e1ticos corporativos o de redes de telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Desarrollo de aplicativos inform\u00e1ticos en entornos multiusuario."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Consultor\u00eda inform\u00e1tica."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Seguridad de sistemas de informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Atenci\u00f3n t\u00e9cnica a usuarios."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Innovaci\u00f3n en el \u00e1mbito de las TIC"
+      },{
+        "@class": "parrafo",
+        "#text": "g) Administraci\u00f3n digital."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Conformar la voluntad de adquisici\u00f3n de bienes o servicios en el \u00e1mbito de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones"
+      },{
+        "@class": "parrafo",
+        "#text": "i) Todas aquellas funciones no previstas expresamente en las letras anteriores, que sean relevantes en materia de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Las unidades TIC adscritas a los departamentos ministeriales o a sus organismos adscritos, impulsar\u00e1n, en el marco de la CMAD, la transformaci\u00f3n digital de los servicios sectoriales en sus \u00e1mbitos. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones propondr\u00e1 a los \u00f3rganos competentes, las \u00e1reas administrativas que deban ser atendidas por las unidades TIC de manera que se adapten a las nuevas necesidades derivadas de la declaraci\u00f3n de medios o servicios compartidos con el fin de mejorar la eficiencia y operatividad en la prestaci\u00f3n de sus servicios. Las unidades TIC deber\u00e1n llevar a cabo dicha transformaci\u00f3n identificando las oportunidades que les permitan sacar el m\u00e1ximo rendimiento a las TIC de acuerdo a las necesidades funcionales determinadas por las \u00e1reas administrativas a las que prestan sus servicios."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 13. Cooperaci\u00f3n interadministrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones propondr\u00e1 a la Secretar\u00eda de Estado de Administraciones P\u00fablicas las l\u00edneas de actuaci\u00f3n, orientaciones comunes y la creaci\u00f3n de \u00f3rganos de cooperaci\u00f3n necesarios para favorecer el intercambio de ideas, est\u00e1ndares, tecnolog\u00eda y proyectos orientados a garantizar la interoperabilidad y mejorar la eficacia y eficiencia en la prestaci\u00f3n de los servicios p\u00fablicos de las distintas Administraciones P\u00fablicas, que ser\u00e1n tratadas en la Conferencia Sectorial de Administraciones P\u00fablicas, en cuyo seno se establecer\u00e1n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones propondr\u00e1 al Secretario de Estado de Administraciones P\u00fablicas la designaci\u00f3n de los representantes de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos en las comisiones o grupos que la Conferencia Sectorial de Administraciones P\u00fablicas cree en materia de tecnolog\u00edas de la informaci\u00f3n y Administraci\u00f3n digital."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO IV"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Actuaciones en relaci\u00f3n con la planificaci\u00f3n en materia de Administraci\u00f3n digital"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 14. Planes de acci\u00f3n departamentales para la transformaci\u00f3n digital."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Cada ministerio contar\u00e1 con un Plan de acci\u00f3n para la transformaci\u00f3n digital, que comprender\u00e1 las actuaciones en materia de Administraci\u00f3n digital, tecnolog\u00edas de la informaci\u00f3n y comunicaciones a desarrollar en el conjunto del departamento y sus organismos p\u00fablicos adscritos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La propuesta del plan se elaborar\u00e1 de acuerdo con las directrices de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones y las l\u00edneas estrat\u00e9gicas establecidas por el Comit\u00e9 de Estrategia TIC y recoger\u00e1 de forma concreta los servicios que el ministerio tiene previsto desarrollar, especialmente los dirigidos a la prestaci\u00f3n de servicios a ciudadanos y empresas, su planificaci\u00f3n temporal, los recursos humanos, t\u00e9cnicos y financieros necesarios y los contratos que se deben realizar."
+      },{
+        "@class": "parrafo",
+        "#text": "La propuesta de plan de acci\u00f3n departamental se remitir\u00e1 por el presidente de la CMAD a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones para su estudio y valoraci\u00f3n y posterior elevaci\u00f3n a la Comisi\u00f3n de Estrategia de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, a efectos del informe preceptivo del Comit\u00e9 Ejecutivo, previo a su aprobaci\u00f3n por el \u00f3rgano competente en el departamento ministerial."
+      },{
+        "@class": "parrafo",
+        "#text": "En el plan de acci\u00f3n remitido podr\u00e1n excluirse los medios y servicios espec\u00edficos que afecten a la defensa, consulta pol\u00edtica, situaciones de crisis y seguridad del Estado y los que manejen informaci\u00f3n clasificada, de acuerdo con lo dispuesto en la legislaci\u00f3n reguladora de los secretos oficiales y en los Acuerdos internacionales."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los planes de acci\u00f3n para la trasformaci\u00f3n digital tendr\u00e1n un alcance, al menos, de dos a\u00f1os."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 15. Modificaci\u00f3n de los Planes de acci\u00f3n departamentales para la transformaci\u00f3n digital."
+      },{
+        "@class": "parrafo",
+        "#text": "La modificaci\u00f3n de los Planes de acci\u00f3n departamentales para la transformaci\u00f3n digital deber\u00e1 ser informada por la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO V"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Actuaciones en relaci\u00f3n con la contrataci\u00f3n en materia de tecnolog\u00edas de la informaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 16. Competencias para el informe t\u00e9cnico de la memoria y los pliegos de prescripciones t\u00e9cnicas para la contrataci\u00f3n de tecnolog\u00edas de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones elaborar\u00e1 y trasladar\u00e1 a los \u00f3rganos competentes en materia de contrataci\u00f3n, los criterios y directrices para la agregaci\u00f3n y planificaci\u00f3n de la demanda TIC en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos para una mayor eficiencia econ\u00f3mica y su configuraci\u00f3n como cliente \u00fanico frente a proveedores externos."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones informar\u00e1 con car\u00e1cter preceptivo la declaraci\u00f3n de contrataci\u00f3n centralizada, que corresponde al Ministro de Hacienda y Administraciones P\u00fablicas a propuesta de la Direcci\u00f3n General de Racionalizaci\u00f3n y Centralizaci\u00f3n de la Contrataci\u00f3n, de los contratos de suministros, obras y servicios en materia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, para la contrataci\u00f3n centralizada en materia TIC la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones establecer\u00e1 los criterios t\u00e9cnicos y de oportunidad y la Direcci\u00f3n General de Racionalizaci\u00f3n y Centralizaci\u00f3n de la Contrataci\u00f3n establecer\u00e1 los criterios de contrataci\u00f3n administrativa y gesti\u00f3n econ\u00f3mica."
+      },{
+        "@class": "parrafo",
+        "#text": "La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones realizar\u00e1 el informe t\u00e9cnico preceptivo de la memoria y los pliegos de prescripciones t\u00e9cnicas de las siguientes contrataciones de bienes y servicios inform\u00e1ticos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) El suministro de equipos y programas para el tratamiento de la informaci\u00f3n, de acuerdo con lo establecido en el art\u00edculo 9.3 b) del texto refundido de la Ley de Contratos del Sector P\u00fablico, aprobado por Real Decreto Legislativo 3/2011, de 14 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los contratos de servicios, de acuerdo con lo establecido en el art\u00edculo 10 del texto refundido de la Ley de Contratos del Sector P\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los procedimientos especiales de adopci\u00f3n de tipo realizados al amparo del art\u00edculo 206 del texto refundido Ley de Contratos del Sector P\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Los convenios de colaboraci\u00f3n y encomiendas de gesti\u00f3n que incluyan la prestaci\u00f3n de servicios en materia de tecnolog\u00edas de la informaci\u00f3n, comunicaciones o Administraci\u00f3n Digital en el \u00e1mbito de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Estar\u00e1n excluidos del informe t\u00e9cnico a que se refiere el apartado anterior los contratos comprendidos en el \u00e1mbito de aplicaci\u00f3n de la Ley 24/2011, de 1 de agosto, de Contratos del sector p\u00fablico en los \u00e1mbitos de la defensa y de la seguridad, as\u00ed como los tramitados de conformidad con el art\u00edculo 170.f) del texto refundido de la Ley de Contratos del Sector P\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones recibir\u00e1 la informaci\u00f3n necesaria sobre estas contrataciones a efectos estad\u00edsticos, de inventario y presupuestarios necesarios para el gobierno integral de las TIC. En cualquier caso, la recepci\u00f3n de la informaci\u00f3n se manejar\u00e1 y custodiar\u00e1 de acuerdo a la clasificaci\u00f3n establecida y, en su caso, con lo dispuesto en la legislaci\u00f3n reguladora de los secretos oficiales y en los Acuerdos internacionales."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 17. Tramitaci\u00f3n telem\u00e1tica de los informes a la memoria y los pliegos de prescripciones t\u00e9cnicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La tramitaci\u00f3n de los informes t\u00e9cnicos se regular\u00e1 mediante instrucci\u00f3n de la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones y se har\u00e1 procurando el empleo de medios telem\u00e1ticos en todas las fases del procedimiento."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La tramitaci\u00f3n de los informes t\u00e9cnicos se realizar\u00e1 bajo los principios de simplicidad, celeridad y eficacia, y se racionalizar\u00e1n los tr\u00e1mites administrativos para lograr su m\u00e1xima sencillez y funcionalidad."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El informe t\u00e9cnico se emitir\u00e1 en el plazo m\u00e1ximo de diez d\u00edas h\u00e1biles posteriores al d\u00eda en que la unidad TIC registr\u00f3 la documentaci\u00f3n completa del expediente de contrataci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Si por causas justificadas el informe previsto en el apartado anterior no pudiera ser emitido en el plazo previsto, se comunicar\u00e1 telem\u00e1ticamente al \u00f3rgano solicitante indicando si puede proseguir el procedimiento de contrataci\u00f3n o si el informe se considera determinante para la prosecuci\u00f3n del procedimiento de contrataci\u00f3n, de suscripci\u00f3n de convenio o atribuci\u00f3n de encomienda de gesti\u00f3n. En el caso de que el informe se considere determinante se indicar\u00e1 en la comunicaci\u00f3n el nuevo plazo en que ser\u00e1 evacuado, que no podr\u00e1 superar 5 d\u00edas h\u00e1biles, transcurrido el cu\u00e1l sin la emisi\u00f3n del informe podr\u00e1 proseguir la tramitaci\u00f3n del expediente."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Las Unidades TIC proporcionar\u00e1n la informaci\u00f3n necesaria para mantener actualizado el sistema integral de seguimiento de contrataci\u00f3n TIC que permita un an\u00e1lisis permanente de los contratos TIC."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 18. Contenido del informe t\u00e9cnico sobre la memoria y los pliegos de prescripciones t\u00e9cnicas en materia de tecnolog\u00edas de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El informe t\u00e9cnico de la memoria y de los pliegos de prescripciones t\u00e9cnicas en materia de tecnolog\u00edas de la informaci\u00f3n se referir\u00e1 a su adecuaci\u00f3n a los planes estrat\u00e9gicos del departamento ministerial y a las directrices dictadas por la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones, as\u00ed como a la finalidad y adecuaci\u00f3n tecnol\u00f3gica de la prestaci\u00f3n que se propone contratar."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El informe t\u00e9cnico tendr\u00e1 en cuenta los elementos de la memoria y del pliego de prescripciones t\u00e9cnicas que contengan informaci\u00f3n relevante desde el punto de vista tecnol\u00f3gico y de los criterios para la transformaci\u00f3n digital de los servicios."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 19. Informaci\u00f3n presupuestaria."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones tendr\u00e1 informaci\u00f3n, en coordinaci\u00f3n con las Comisiones Ministeriales de Administraci\u00f3n Digital y la Direcci\u00f3n General de Presupuestos, de los recursos econ\u00f3micos destinados a los bienes y servicios TIC del conjunto de la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos se informar\u00e1 trimestralmente a la Comisi\u00f3n de Estrategia TIC del estado de ejecuci\u00f3n de dicho presupuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones elaborar\u00e1 un informe anual detallado y desagregado de imputaci\u00f3n de costes TIC."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Supresi\u00f3n de \u00f3rganos."
+      },{
+        "@class": "parrafo",
+        "#text": "A partir de la entrada en vigor de este real decreto quedan suprimidos el Consejo Superior de Administraci\u00f3n Electr\u00f3nica y las Comisiones Ministeriales de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Modificaci\u00f3n de referencias."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se entender\u00e1n referidas a la Comisi\u00f3n de Estrategia TIC y a las Comisiones Ministeriales de Administraci\u00f3n Digital todas las alusiones que en la normativa vigente se hagan al Consejo Superior de Administraci\u00f3n Electr\u00f3nica y a las Comisiones Ministeriales de Administraci\u00f3n Electr\u00f3nica, respectivamente."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Sin perjuicio de lo anterior, todas las referencias al Consejo Superior de Administraci\u00f3n Electr\u00f3nica y a las Comisiones Ministeriales de Administraci\u00f3n Electr\u00f3nica que subsistan en la normativa vigente en relaci\u00f3n a las competencias de contrataci\u00f3n de estos \u00f3rganos colegiados, se entender\u00e1n hechas a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Todos los comit\u00e9s t\u00e9cnicos, grupos de trabajo o ponencias especiales que hayan sido constituidos por acuerdo del Consejo Superior de Administraci\u00f3n Electr\u00f3nica o de su Comit\u00e9 Permanente quedar\u00e1n asociados a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones o a los \u00f3rganos colegiados regulados en este real decreto, de acuerdo con sus funciones."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. R\u00e9gimen jur\u00eddico de los \u00f3rganos colegiados."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los \u00f3rganos colegiados que se regulan en este real decreto se regir\u00e1n por lo establecido en materia de \u00f3rganos colegiados en el cap\u00edtulo II del t\u00edtulo II de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, y en la Ley 6/1997, de 14 de abril, de Organizaci\u00f3n y Funcionamiento de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La Comisi\u00f3n de Estrategia TIC podr\u00e1 aprobar las normas de r\u00e9gimen interno que estime procedentes para el mejor desarrollo de su trabajo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Representaci\u00f3n del Ministerio de Defensa en los \u00f3rganos con competencias en materia de Administraci\u00f3n digital."
+      },{
+        "@class": "parrafo",
+        "#text": "Sin perjuicio de lo establecido en el art\u00edculo 5.1, la representaci\u00f3n del Ministerio de Defensa en el Pleno de la Comisi\u00f3n de Estrategia TIC podr\u00e1 ser asumida por el \u00f3rgano superior de ese departamento que, de acuerdo con los reales decretos de estructura org\u00e1nica y de desarrollo de la misma, resulte competente en materia de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, sin perjuicio de lo establecido en el art\u00edculo 7.2, el citado \u00f3rgano superior podr\u00e1 asumir la presidencia de la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital del Ministerio de Defensa y, sin perjuicio de lo establecido en el art\u00edculo 8, podr\u00e1 ser el responsable TIC, dentro de dicho \u00f3rgano superior del Ministerio de Defensa, quien represente al departamento en el Comit\u00e9 de Direcci\u00f3n de las Tecnolog\u00edas de Informaci\u00f3n y Comunicaciones."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional quinta. Composici\u00f3n inicial del Comit\u00e9 Ejecutivo de la Comisi\u00f3n de Estrategia TIC."
+      },{
+        "@class": "parrafo",
+        "#text": "El Comit\u00e9 Ejecutivo de la Comisi\u00f3n de Estrategia TIC estar\u00e1 formado por los titulares de los siguientes \u00f3rganos, en tanto que la Comisi\u00f3n de Estrategia TIC no establezca una composici\u00f3n diferente:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Direcci\u00f3n General de Racionalizaci\u00f3n y Centralizaci\u00f3n de la Contrataci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Direcci\u00f3n General de Presupuestos."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Direcci\u00f3n General de Telecomunicaciones y Tecnolog\u00edas de la Informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Gerencia de Inform\u00e1tica de la Seguridad Social."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Departamento de Inform\u00e1tica Tributaria de la Agencia Estatal de Administraci\u00f3n Tributaria."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Secretar\u00eda General de la Administraci\u00f3n de Justicia."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Direcci\u00f3n General de la Funci\u00f3n P\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "h) Inspecci\u00f3n General del Ministerio de Hacienda y Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "i) Intervenci\u00f3n General de la Administraci\u00f3n del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "j) Una Subdirecci\u00f3n General del Centro Nacional de Inteligencia/Centro Criptol\u00f3gico Nacional."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional sexta. \u00c1mbito espec\u00edfico."
+      },{
+        "@class": "parrafo",
+        "#text": "Lo dispuesto en el presente real decreto ser\u00e1 de aplicaci\u00f3n a los organismos y entidades p\u00fablicos no encuadrables en las categor\u00edas establecidas en el art\u00edculo 43.1 de la Ley 6/1997, de 14 de abril, de Organizaci\u00f3n y funcionamiento de la Administraci\u00f3n General del Estado, en cuanto sea compatible con su normativa espec\u00edfica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria primera. Expedientes de contrataci\u00f3n en fase de informe."
+      },{
+        "@class": "parrafo",
+        "#text": "Se pospone hasta el 1 de enero de 2015 la entrada en vigor del nuevo procedimiento de tramitaci\u00f3n de los informes de la memoria y de los pliegos de prescripciones t\u00e9cnicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Durante este periodo, los expedientes se seguir\u00e1n tramitando por el procedimiento anterior, asumiendo directamente la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones la aprobaci\u00f3n de los expedientes que hasta el momento eran competencia del Consejo Superior de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "Los expedientes que se inicien durante este periodo y los contratos adjudicados durante el mismo, as\u00ed como los expedientes ya iniciados y los contratos adjudicados con anterioridad a la entrada en vigor de este real decreto se regir\u00e1n de acuerdo con la normativa anterior. A estos efectos, se entender\u00e1 que los expedientes han sido iniciados cuando hayan sido remitidos a la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica o a la correspondiente Comisi\u00f3n Ministerial de Administraci\u00f3n Electr\u00f3nica para su informe preceptivo o tramitaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria segunda. Regulaci\u00f3n de las Comisiones Ministeriales de Administraci\u00f3n Digital."
+      },{
+        "@class": "parrafo",
+        "#text": "En el plazo de cuatro meses desde la entrada en vigor de este real decreto se aprobar\u00e1n las correspondientes \u00f3rdenes ministeriales reguladoras de las Comisiones Ministeriales de Administraci\u00f3n Digital. Mientras tanto, subsistir\u00e1n con su actual estructura las Comisiones Ministeriales de Administraci\u00f3n Electr\u00f3nica vigentes, que pasar\u00e1n a ejercer las funciones que se atribuyen en este real decreto a las nuevas Comisiones Ministeriales de Administraci\u00f3n Digital."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n derogatoria \u00fanica. Derogaci\u00f3n normativa."
+      },{
+        "@class": "parrafo",
+        "#text": "Queda derogado el Real Decreto 589/2005, de 20 de mayo, por el que se reestructuran los \u00f3rganos colegiados responsables de la Administraci\u00f3n electr\u00f3nica, as\u00ed como cuantas disposiciones de igual o inferior rango se opongan a lo establecido en este real decreto."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. Facultades de desarrollo."
+      },{
+        "@class": "parrafo",
+        "#text": "Se autoriza a los Ministros de Hacienda y Administraciones P\u00fablicas y de la Presidencia, en el \u00e1mbito de sus respectivas competencias, para que adopten las medidas necesarias para el desarrollo y ejecuci\u00f3n de este real decreto."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente real decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dado en Madrid, el 19 de septiembre de 2014."
+      },{
+        "@class": "firma_rey",
+        "#text": "FELIPE R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "La Vicepresidenta del Gobierno y Ministra de la Presidencia,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "SORAYA S\u00c1ENZ DE SANTAMAR\u00cdA ANT\u00d3N"
+      }
+    ]
+  }
+}
+}

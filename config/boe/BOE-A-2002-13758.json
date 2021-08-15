@@ -1,0 +1,2688 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20201112112601",
+  "metadatos": {
+    "identificador": "BOE-A-2002-13758",
+    "titulo": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "166",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "7723",
+      "#text": "Jefatura del Estado"
+    },
+    "rango": {
+      "@codigo": "1300",
+      "#text": "Ley"
+    },
+    "numero_oficial": "34/2002",
+    "fecha_disposicion": "20020711",
+    "fecha_publicacion": "20020712",
+    "fecha_vigencia": "20021012",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "25388",
+    "pagina_final": "25403",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2002/07/12/pdfs/A25388-25403.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2002/08/01/pdfs/A02082-02096.pdf",
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": "/boe_gallego/dias/2002/08/01/pdfs/A00953-00968.pdf",
+    "url_pdf_valenciano": "/boe_valenciano/dias/2002/09/02/pdfs/A00475-00490.pdf",
+    "url_eli": "https://www.boe.es/eli/es/l/2002/07/11/34"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2002-13758"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2002-07-11"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "34"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:corrected_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/corrigendum/20020806/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidated_by": [
+                {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20201112"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20140510"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20120331"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110802"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110305"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20100401"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071229"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071019"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031220"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031104"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20020712"
+                }
+              ],
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2002-07-12"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LLEI 34/2002, d'11 de juliol, de serveis de la societat de la informaci\u00f3 i de comer\u00e7 electr\u00f2nic."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2002-08-01"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LEI 34/2002, do 11 de xullo, de servicios da sociedade da informaci\u00f3n e de comercio electr\u00f3nico."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2002-08-01"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/vci",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/vci"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "LLEI 34/2002, d'11 de juliol, de servicis de la societat de la informaci\u00f3 i de comer\u00e7 electr\u00f2nic."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2002-09-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/vci/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof/vci"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20201112",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2020-11-12"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20201112/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2020-11-12"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20201112"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20201112/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20201112/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20140510",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2014-05-10"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20140510/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2014-05-10"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20140510"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20140510/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20140510/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20120331",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2012-03-31"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20120331/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2012-03-31"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20120331"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20120331/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20120331/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110802",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-08-02"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110802/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-08-02"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110802"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110802/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110802/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110305",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-03-05"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110305/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-03-05"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110305"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110305/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20110305/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20100401",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2010-04-01"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20100401/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2010-04-01"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20100401"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20100401/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20100401/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071229",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-12-29"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071229/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2007-12-29"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071229"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071229/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071229/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071019",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2007-10-19"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071019/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2007-10-19"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071019"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071019/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20071019/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031220",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2003-12-20"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031220/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2003-12-20"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031220"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031220/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031220/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031104",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2003-11-04"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031104/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2003-11-04"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031104"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031104/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20031104/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20020712",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2002-13758"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-11"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "34"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2002-07-12"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20020712/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2002-07-12"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20020712"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20020712/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2002/07/11/34/con/20020712/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "9",
+        "@orden": "210",
+        "#text": "Entrada en vigor, con la salvedad indicada, el  12 de octubre de 2002."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "880",
+          "@orden": "1",
+          "#text": "C\u00f3digo Civil"
+        },{
+          "@codigo": "881",
+          "@orden": "2",
+          "#text": "C\u00f3digo de Comercio"
+        },{
+          "@codigo": "1001",
+          "@orden": "3",
+          "#text": "Comercio electr\u00f3nico"
+        },{
+          "@codigo": "1624",
+          "@orden": "4",
+          "#text": "Consumidores y usuarios"
+        },{
+          "@codigo": "3428",
+          "@orden": "5",
+          "#text": "Espacio Econ\u00f3mico Europeo"
+        },{
+          "@codigo": "4165",
+          "@orden": "6",
+          "#text": "Informaci\u00f3n"
+        },{
+          "@codigo": "4506",
+          "@orden": "7",
+          "#text": "Internet"
+        },{
+          "@codigo": "7901",
+          "@orden": "8",
+          "#text": "Nombres de dominio"
+        },{
+          "@codigo": "5794",
+          "@orden": "9",
+          "#text": "Publicidad"
+        },{
+          "@codigo": "5923",
+          "@orden": "10",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6005",
+          "@orden": "11",
+          "#text": "Registro Mercantil"
+        },{
+          "@codigo": "6006",
+          "@orden": "12",
+          "#text": "Registro Mercantil Central"
+        },{
+          "@codigo": "6627",
+          "@orden": "13",
+          "#text": "Servicios de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6836",
+          "@orden": "14",
+          "#text": "Tasas"
+        },{
+          "@codigo": "6854",
+          "@orden": "15",
+          "#text": "Telecomunicaciones"
+        },{
+          "@codigo": "7001",
+          "@orden": "16",
+          "#text": "Uni\u00f3n Europea"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "105",
+          "@orden": "1",
+          "#text": "Comercio"
+        },{
+          "@codigo": "130",
+          "@orden": "2",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-1998-9802",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "art. 37.1, las disposiciones adicional 6.10 y derogatoria \u00fanica y A\u00d1ADE una disposici\u00f3n transitoria 12 a la Ley 11/1998, de 24 de abril"
+          },{
+            "@referencia": "BOE-A-1889-4763",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "art. 1262 del C\u00f3digo Civil de 24 de julio de 1889 (Gazeta)"
+          },{
+            "@referencia": "BOE-A-1885-6627",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "art. 54 del C\u00f3digo de Comercio, publicado por Real Decreto de 22 de agosto de 1885 (Gazeta)"
+          },{
+            "@referencia": "DOUE-L-2000-81295",
+            "@orden": "3020",
+            "palabra": {
+              "@codigo": "426",
+              "#text": "TRANSPONE"
+            },
+            "texto": "la Directiva 2000/31/CE, de 8 de junio"
+          },{
+            "@referencia": "DOUE-L-1998-81007",
+            "@orden": "3020",
+            "palabra": {
+              "@codigo": "426",
+              "#text": "TRANSPONE"
+            },
+            "texto": "Directiva 98/27/CE, de 19 de mayo"
+          },{
+            "@referencia": "BOE-A-1999-16831",
+            "@orden": "5020",
+            "palabra": {
+              "@codigo": "330",
+              "#text": "CITA"
+            },
+            "texto": "Real Decreto 1337/1999, de 31 de julio"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2020-14046",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "SE DEROGA"
+            },
+            "texto": "el art. 25, SE MODIFICA los arts. 35, 37, 38 y 43 y SE A\u00d1ADE el 12 ter y el 36 bis, por Ley 6/2020, de 11 de noviembre"
+          },{
+            "@referencia": "BOE-A-2010-5292",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "SE DEROGA"
+            },
+            "texto": "el anexo.a).6, por Ley 7/2010, de 31 de marzo"
+          },{
+            "@referencia": "BOE-A-2007-18243",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "SE DEROGA"
+            },
+            "texto": "los arts. 12, 38.2 c) y d) y 38.3 a), por Ley 25/2007, de 18 de octubre"
+          },{
+            "@referencia": "BOE-A-2014-4950",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "determinados preceptos y SE A\u00d1ADE el art. 39 bis y las disposiciones adicionales 8 y 9, por Ley 9/2014, de 9 de mayo"
+          },{
+            "@referencia": "BOE-A-2012-4442",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "los arts. 20, 21.2, 22 y 31.a), por Real Decreto-ley 13/2012, de 30 de marzo"
+          },{
+            "@referencia": "BOE-A-2011-13241",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "la disposici\u00f3n adicional 5, por Ley 26/2011, de 1 de agosto"
+          },{
+            "@referencia": "BOE-A-2011-4117",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "el art. 8, por Ley 2/2011, de 4 de marzo"
+          },{
+            "@referencia": "BOE-A-2007-22440",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "determinados preceptos SE SUPRIME el art. 9 y SE A\u00d1ADE el 12 bis, por Ley 56/2007, de 28 de diciembre"
+          },{
+            "@referencia": "BOE-A-2003-23399",
+            "@orden": "2",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "los arts. 10, 38, 43, por Ley 59/2003, de 19 de diciembre"
+          },{
+            "@referencia": "BOE-A-2003-20253",
+            "@orden": "3",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "SE MODIFICA"
+            },
+            "texto": "los arts. 21, 22, 38 y 43.1 y SE A\u00d1ADE una disposici\u00f3n adicional 6, por la Ley 32/2003, de 3 de noviembre"
+          },{
+            "@referencia": "BOE-A-2002-15886",
+            "@orden": "5",
+            "palabra": {
+              "@codigo": "201",
+              "#text": "CORRECCI\u00d3N de errores"
+            },
+            "texto": "en BOE num. 187, de 6 de agosto de 2002"
+          },{
+            "@referencia": "BOE-A-2005-16699",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "regulando el distintivo p\u00fablico de confianza: Real Decreto 1163/2005, de 30 de septiembre"
+          },{
+            "@referencia": "BOE-A-2005-8902",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 6, aprobando el plan nacional de nombres de dominio de internet bajo el C\u00f3digo \".es\": Orden ITC/1542/2005, de 19 de mayo"
+          },{
+            "@referencia": "BOE-A-2004-3632",
+            "@orden": "1",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "creando el distintivo p\u00fablico de confianza: Real Decreto 292/2004, de 20 de febrero"
+          },{
+            "@referencia": "BOE-A-2003-6050",
+            "@orden": "4",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "con la disposici\u00f3n adicional 6, aprobando el plan nacional de nombres de dominio de internet bajo el C\u00f3digo \".es\": Orden CTE/0662/2003, de 18 de marzo"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "subseccion",
+        "#text": "JUAN CARLOS I"
+      },{
+        "@class": "subseccion",
+        "#text": "REY DE ESPA\u00d1A"
+      },{
+        "@class": "parrafo",
+        "#text": "A todos los que la presente vieren y entendieren."
+      },{
+        "@class": "parrafo",
+        "#text": "Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente Ley."
+      },{
+        "@class": "subseccion",
+        "#text": "EXPOSICI\u00d3N DE MOTIVOS"
+      },{
+        "@class": "subseccion",
+        "#text": "I"
+      },{
+        "@class": "parrafo",
+        "#text": "La presente Ley tiene como objeto la incorporaci\u00f3n al ordenamiento jur\u00eddico espa\u00f1ol de la Directiva 2000/31/CE, del Parlamento Europeo y del Consejo, de 8 de junio, relativa a determinados aspectos de los servicios de la sociedad de la informaci\u00f3n, en particular, el comercio electr\u00f3nico en el mercado interior (Directiva sobre el comercio electr\u00f3nico). Asimismo, incorpora parcialmente la Directiva 98/27/CE, del Parlamento Europeo y del Consejo, de 19 de mayo, relativa a las acciones de cesaci\u00f3n en materia de protecci\u00f3n de los intereses de los consumidores, al regular, de conformidad con lo establecido en ella, una acci\u00f3n de cesaci\u00f3n contra las conductas que contravengan lo dispuesto en esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Lo que la Directiva 2000/31/CE denomina \"sociedad de la informaci\u00f3n\" viene determinado por la extraordinaria expansi\u00f3n de las redes de telecomunicaciones y, en especial, de Internet como veh\u00edculo de transmisi\u00f3n e intercambio de todo tipo de informaci\u00f3n. Su incorporaci\u00f3n a la vida econ\u00f3mica y social ofrece innumerables ventajas, como la mejora de la eficiencia empresarial, el incremento de las posibilidades de elecci\u00f3n de los usuarios y la aparici\u00f3n de nuevas fuentes de empleo."
+      },{
+        "@class": "parrafo",
+        "#text": "Pero la implantaci\u00f3n de Internet y las nuevas tecnolog\u00edas tropieza con algunas incertidumbres jur\u00eddicas, que es preciso aclarar con el establecimiento de un marco jur\u00eddico adecuado, que genere en todos los actores intervinientes la confianza necesaria para el empleo de este nuevo medio."
+      },{
+        "@class": "parrafo",
+        "#text": "Eso es lo que pretende esta Ley, que parte de la aplicaci\u00f3n a las actividades realizadas por medios electr\u00f3nicos de las normas tanto generales como especiales que las regulan, ocup\u00e1ndose tan s\u00f3lo de aquellos aspectos que, ya sea por su novedad o por las peculiaridades que implica su ejercicio por v\u00eda electr\u00f3nica, no est\u00e1n cubiertos por dicha regulaci\u00f3n."
+      },{
+        "@class": "subseccion",
+        "#text": "II"
+      },{
+        "@class": "parrafo",
+        "#text": "Se acoge, en la Ley, un concepto amplio de \"servicios de la sociedad de la informaci\u00f3n\", que engloba, adem\u00e1s de la contrataci\u00f3n de bienes y servicios por v\u00eda electr\u00f3nica, el suministro de informaci\u00f3n por dicho medio (como el que efect\u00faan los peri\u00f3dicos o revistas que pueden encontrarse en la red), las actividades de intermediaci\u00f3n relativas a la provisi\u00f3n de acceso a la red, a la transmisi\u00f3n de datos por redes de telecomunicaciones, a la realizaci\u00f3n de copia temporal de las p\u00e1ginas de Internet solicitadas por los usuarios, al alojamiento en los propios servidores de informaci\u00f3n, servicios o aplicaciones facilitados por otros o a la provisi\u00f3n de instrumentos de b\u00fasqueda o de enlaces a otros sitios de Internet, as\u00ed como cualquier otro servicio que se preste a petici\u00f3n individual de los usuarios (descarga de archivos de v\u00eddeo o audio...), siempre que represente una actividad econ\u00f3mica para el prestador. Estos servicios son ofrecidos por los operadores de telecomunicaciones, los proveedores de acceso a Internet, los portales, los motores de b\u00fasqueda o cualquier otro sujeto que disponga de un sitio en Internet a trav\u00e9s del que realice alguna de las actividades indicadas, incluido el comercio electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "Desde un punto de vista subjetivo, la Ley se aplica, con car\u00e1cter general, a los prestadores de servicios establecidos en Espa\u00f1a. Por \"establecimiento\" se entiende el lugar desde el que se dirige y gestiona una actividad econ\u00f3mica, definici\u00f3n esta que se inspira en el concepto de domicilio fiscal recogido en las normas tributarias espa\u00f1olas y que resulta compatible con la noci\u00f3n material de establecimiento predicada por el Derecho comunitario. La Ley resulta igualmente aplicable a quienes sin ser residentes en Espa\u00f1a prestan servicios de la sociedad de la informaci\u00f3n a trav\u00e9s de un \"establecimiento permanente\" situado en Espa\u00f1a. En este \u00faltimo caso, la sujeci\u00f3n a la Ley es \u00fanicamente parcial, respecto a aquellos servicios que se presten desde Espa\u00f1a."
+      },{
+        "@class": "parrafo",
+        "#text": "El lugar de establecimiento del prestador de servicios es un elemento esencial en la Ley, porque de \u00e9l depende el \u00e1mbito de aplicaci\u00f3n no s\u00f3lo de esta Ley, sino de todas las dem\u00e1s disposiciones del ordenamiento espa\u00f1ol que les sean de aplicaci\u00f3n, en funci\u00f3n de la actividad que desarrollen. Asimismo, el lugar de establecimiento del prestador determina la ley y las autoridades competentes para el control de su cumplimiento, de acuerdo con el principio de la aplicaci\u00f3n de la ley del pa\u00eds de origen que inspira la Directiva 2000/31/CE."
+      },{
+        "@class": "parrafo",
+        "#text": "Por lo dem\u00e1s, s\u00f3lo se permite restringir la libre prestaci\u00f3n en Espa\u00f1a de servicios de la sociedad de la informaci\u00f3n procedentes de otros pa\u00edses pertenecientes al Espacio Econ\u00f3mico Europeo en los supuestos previstos en la Directiva 2000/31/CE, que consisten en la producci\u00f3n de un da\u00f1o o peligro graves contra ciertos valores fundamentales como el orden p\u00fablico, la salud p\u00fablica o la protecci\u00f3n de los menores. Igualmente, podr\u00e1 restringirse la prestaci\u00f3n de servicios provenientes de dichos Estados cuando afecten a alguna de las materias excluidas del principio de pa\u00eds de origen, que la Ley concreta en su art\u00edculo 3, y se incumplan las disposiciones de la normativa espa\u00f1ola que, en su caso, resulte aplicable a las mismas."
+      },{
+        "@class": "subseccion",
+        "#text": "III"
+      },{
+        "@class": "parrafo",
+        "#text": "Se prev\u00e9 la anotaci\u00f3n del nombre o nombres de dominio de Internet que correspondan al prestador de servicios en el registro p\u00fablico en que, en su caso, dicho prestador conste inscrito para la adquisici\u00f3n de personalidad jur\u00eddica o a los solos efectos de publicidad, con el fin de garantizar que la vinculaci\u00f3n entre el prestador, su establecimiento f\u00edsico y su \"establecimiento\" o localizaci\u00f3n en la red, que proporciona su direcci\u00f3n de Internet, sea f\u00e1cilmente accesible para los ciudadanos y la Administraci\u00f3n p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley establece, asimismo, las obligaciones y responsabilidades de los prestadores de servicios que realicen actividades de intermediaci\u00f3n como las de transmisi\u00f3n, copia, alojamiento y localizaci\u00f3n de datos en la red. En general, \u00e9stas imponen a dichos prestadores un deber de colaboraci\u00f3n para impedir que determinados servicios o contenidos il\u00edcitos se sigan divulgando. Las responsabilidades que pueden derivar del incumplimiento de estas normas no son s\u00f3lo de orden administrativo, sino de tipo civil o penal, seg\u00fan los bienes jur\u00eddicos afectados y las normas que resulten aplicables."
+      },{
+        "@class": "parrafo",
+        "#text": "Destaca, por otra parte, en la Ley, su af\u00e1n por proteger los intereses de los destinatarios de servicios, de forma que \u00e9stos puedan gozar de garant\u00edas suficientes a la hora de contratar un servicio o bien por Internet. Con esta finalidad, la Ley impone a los prestadores de servicios la obligaci\u00f3n de facilitar el acceso a sus datos de identificaci\u00f3n a cuantos visiten su sitio en Internet ; la de informar a los destinatarios sobre los precios que apliquen a sus servicios y la de permitir a \u00e9stos visualizar, imprimir y archivar las condiciones generales a que se someta, en su caso, el contrato. Cuando la contrataci\u00f3n se efect\u00fae con consumidores, el prestador de servicios deber\u00e1, adem\u00e1s, guiarles durante el proceso de contrataci\u00f3n, indic\u00e1ndoles los pasos que han de dar y la forma de corregir posibles errores en la introducci\u00f3n de datos, y confirmar la aceptaci\u00f3n realizada una vez recibida."
+      },{
+        "@class": "parrafo",
+        "#text": "En lo que se refiere a las comunicaciones comerciales, la Ley establece que \u00e9stas deban identificarse como tales, y proh\u00edbe su env\u00edo por correo electr\u00f3nico u otras v\u00edas de comunicaci\u00f3n electr\u00f3nica equivalente, salvo que el destinatario haya prestado su consentimiento."
+      },{
+        "@class": "subseccion",
+        "#text": "IV"
+      },{
+        "@class": "parrafo",
+        "#text": "Se favorece igualmente la celebraci\u00f3n de contratos por v\u00eda electr\u00f3nica, al afirmar la Ley, de acuerdo con el principio espiritualista que rige la perfecci\u00f3n de los contratos en nuestro Derecho, la validez y eficacia del consentimiento prestado por v\u00eda electr\u00f3nica, declarar que no es necesaria la admisi\u00f3n expresa de esta t\u00e9cnica para que el contrato surta efecto entre las partes, y asegurar la equivalencia entre los documentos en soporte papel y los documentos electr\u00f3nicos a efectos del cumplimiento del requisito de \"forma escrita\" que figura en diversas leyes."
+      },{
+        "@class": "parrafo",
+        "#text": "Se aprovecha la ocasi\u00f3n para fijar el momento y lugar de celebraci\u00f3n de los contratos electr\u00f3nicos, adoptando una soluci\u00f3n \u00fanica, tambi\u00e9n v\u00e1lida para otros tipos de contratos celebrados a distancia, que unifica el criterio dispar contenido hasta ahora en los C\u00f3digos Civil y de Comercio."
+      },{
+        "@class": "parrafo",
+        "#text": "Las disposiciones contenidas en esta Ley sobre aspectos generales de la contrataci\u00f3n electr\u00f3nica, como las relativas a la validez y eficacia de los contratos electr\u00f3nicos o al momento de prestaci\u00f3n del consentimiento, ser\u00e1n de aplicaci\u00f3n aun cuando ninguna de las partes tenga la condici\u00f3n de prestador o destinatario de servicios de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley promueve la elaboraci\u00f3n de c\u00f3digos de conducta sobre las materias reguladas en esta Ley, al considerar que son un instrumento de autorregulaci\u00f3n especialmente apto para adaptar los diversos preceptos de la Ley a las caracter\u00edsticas espec\u00edficas de cada sector."
+      },{
+        "@class": "parrafo",
+        "#text": "Por su sencillez, rapidez y comodidad para los usuarios, se potencia igualmente el recurso al arbitraje y a los procedimientos alternativos de resoluci\u00f3n de conflictos que puedan crearse mediante c\u00f3digos de conducta, para dirimir las disputas que puedan surgir en la contrataci\u00f3n electr\u00f3nica y en el uso de los dem\u00e1s servicios de la sociedad de la informaci\u00f3n. Se favorece, adem\u00e1s, el uso de medios electr\u00f3nicos en la tramitaci\u00f3n de dichos procedimientos, respetando, en su caso, las normas que, sobre la utilizaci\u00f3n de dichos medios, establezca la normativa espec\u00edfica sobre arbitraje."
+      },{
+        "@class": "parrafo",
+        "#text": "De conformidad con lo dispuesto en las Directivas 2000/31/CE y 98/27/CE, se regula la acci\u00f3n de cesaci\u00f3n que podr\u00e1 ejercitarse para hacer cesar la realizaci\u00f3n de conductas contrarias a la presente Ley que vulneren los intereses de los consumidores y usuarios. Para el ejercicio de esta acci\u00f3n, deber\u00e1 tenerse en cuenta, adem\u00e1s de lo dispuesto en esta Ley, lo establecido en la Ley general de incorporaci\u00f3n de la Directiva 98/27/CE."
+      },{
+        "@class": "parrafo",
+        "#text": "La Ley prev\u00e9, asimismo, la posibilidad de que los ciudadanos y entidades se dirijan a diferentes Ministerios y \u00f3rganos administrativos para obtener informaci\u00f3n pr\u00e1ctica sobre distintos aspectos relacionados con las materias objeto de esta Ley, lo que requerir\u00e1 el establecimiento de mecanismos que aseguren la m\u00e1xima coordinaci\u00f3n entre ellos y la homogeneidad y coherencia de la informaci\u00f3n suministrada a los usuarios."
+      },{
+        "@class": "parrafo",
+        "#text": "Finalmente, se establece un r\u00e9gimen sancionador proporcionado pero eficaz, como indica la Directiva 2000/31/CE, para disuadir a los prestadores de servicios del incumplimiento de lo dispuesto en esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, se contempla en la Ley una serie de previsiones orientadas a hacer efectiva la accesibilidad de las personas con discapacidad a la informaci\u00f3n proporcionada por medios electr\u00f3nicos, y muy especialmente a la informaci\u00f3n suministrada por las Administraciones p\u00fablicas, compromiso al que se refiere la resoluci\u00f3n del Consejo de la Uni\u00f3n Europea de 25 de marzo de 2002, sobre accesibilidad de los sitios web p\u00fablicos y de su contenido."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente disposici\u00f3n ha sido elaborada siguiendo un amplio proceso de consulta p\u00fablica y ha sido sometida al procedimiento de informaci\u00f3n en materia de normas y reglamentaciones t\u00e9cnicas previsto en la Directiva 98/34/CE, del Parlamento Europeo y del Consejo, de 22 de junio, modificada por la Directiva 98/48/CE, del Parlamento Europeo y del Consejo, de 20 de julio, y en el Real Decreto 1337/1999, de 31 de julio."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO I"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Disposiciones generales"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Objeto"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 1. Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Es objeto de la presente Ley la regulaci\u00f3n del r\u00e9gimen jur\u00eddico de los servicios de la sociedad de la informaci\u00f3n y de la contrataci\u00f3n por v\u00eda electr\u00f3nica, en lo referente a las obligaciones de los prestadores de servicios incluidos los que act\u00faan como intermediarios en la transmisi\u00f3n de contenidos por las redes de telecomunicaciones, las comunicaciones comerciales por v\u00eda electr\u00f3nica, la informaci\u00f3n previa y posterior a la celebraci\u00f3n de contratos electr\u00f3nicos, las condiciones relativas a su validez y eficacia y el r\u00e9gimen sancionador aplicable a los prestadores de servicios de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las disposiciones contenidas en esta Ley se entender\u00e1n sin perjuicio de lo dispuesto en otras normas estatales o auton\u00f3micas ajenas al \u00e1mbito normativo coordinado, o que tengan como finalidad la protecci\u00f3n de la salud y seguridad p\u00fablica, incluida la salvaguarda de la defensa nacional, los intereses del consumidor, el r\u00e9gimen tributario aplicable a los servicios de la sociedad de la informaci\u00f3n, la protecci\u00f3n de datos personales y la normativa reguladora de defensa de la competencia."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "\u00c1mbito de aplicaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 2. Prestadores de servicios establecidos en Espa\u00f1a."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Esta Ley ser\u00e1 de aplicaci\u00f3n a los prestadores de servicios de la sociedad de la informaci\u00f3n establecidos en Espa\u00f1a y a los servicios prestados por ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "Se entender\u00e1 que un prestador de servicios est\u00e1 establecido en Espa\u00f1a cuando su residencia o domicilio social se encuentren en territorio espa\u00f1ol, siempre que \u00e9stos coincidan con el lugar en que est\u00e9 efectivamente centralizada la gesti\u00f3n administrativa y la direcci\u00f3n de sus negocios. En otro caso, se atender\u00e1 al lugar en que se realice dicha gesti\u00f3n o direcci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Asimismo, esta Ley ser\u00e1 de aplicaci\u00f3n a los servicios de la sociedad de la informaci\u00f3n que los prestadores residentes o domiciliados en otro Estado ofrezcan a trav\u00e9s de un establecimiento permanente situado en Espa\u00f1a."
+      },{
+        "@class": "parrafo",
+        "#text": "Se considerar\u00e1 que un prestador opera mediante un establecimiento permanente situado en territorio espa\u00f1ol cuando disponga en el mismo, de forma continuada o habitual, de instalaciones o lugares de trabajo, en los que realice toda o parte de su actividad."
+      },{
+        "@class": "parrafo",
+        "#text": "3. A los efectos previstos en este art\u00edculo, se presumir\u00e1 que el prestador de servicios est\u00e1 establecido en Espa\u00f1a cuando el prestador o alguna de sus sucursales se haya inscrito en el Registro Mercantil o en otro registro p\u00fablico espa\u00f1ol en el que fuera necesaria la inscripci\u00f3n para la adquisici\u00f3n de personalidad jur\u00eddica."
+      },{
+        "@class": "parrafo",
+        "#text": "La utilizaci\u00f3n de medios tecnol\u00f3gicos situados en Espa\u00f1a, para la prestaci\u00f3n o el acceso al servicio, no servir\u00e1 como criterio para determinar, por s\u00ed solo, el establecimiento en Espa\u00f1a del prestador."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Los prestadores de servicios de la sociedad de la informaci\u00f3n establecidos en Espa\u00f1a estar\u00e1n sujetos a las dem\u00e1s disposiciones del ordenamiento jur\u00eddico espa\u00f1ol que les sean de aplicaci\u00f3n, en funci\u00f3n de la actividad que desarrollen, con independencia de la utilizaci\u00f3n de medios electr\u00f3nicos para su realizaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 3. Prestadores de servicios establecidos en otro Estado miembro de la Uni\u00f3n Europea o del Espacio Econ\u00f3mico Europeo."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Sin perjuicio de lo dispuesto en los art\u00edculos 7.1 y 8, esta Ley se aplicar\u00e1 a los prestadores de servicios de la sociedad de la informaci\u00f3n establecidos en otro Estado miembro de la Uni\u00f3n Europea o del Espacio Econ\u00f3mico Europeo cuando el destinatario de los servicios radique en Espa\u00f1a y los servicios afecten a las materias siguientes:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Derechos de propiedad intelectual o industrial."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Emisi\u00f3n de publicidad por instituciones de inversi\u00f3n colectiva."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Actividad de seguro directo realizada en r\u00e9gimen de derecho de establecimiento o en r\u00e9gimen de libre prestaci\u00f3n de servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Obligaciones nacidas de los contratos celebrados por personas f\u00edsicas que tengan la condici\u00f3n de consumidores."
+      },{
+        "@class": "parrafo",
+        "#text": "e) R\u00e9gimen de elecci\u00f3n por las partes contratantes de la legislaci\u00f3n aplicable a su contrato."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Licitud de las comunicaciones comerciales por correo electr\u00f3nico u otro medio de comunicaci\u00f3n electr\u00f3nica equivalente no solicitadas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En todo caso, la constituci\u00f3n, transmisi\u00f3n, modificaci\u00f3n y extinci\u00f3n de derechos reales sobre bienes inmuebles sitos en Espa\u00f1a se sujetar\u00e1 a los requisitos formales de validez y eficacia establecidos en el ordenamiento jur\u00eddico espa\u00f1ol."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los prestadores de servicios a los que se refiere el apartado 1 quedar\u00e1n igualmente sometidos a las normas del ordenamiento jur\u00eddico espa\u00f1ol que regulen las materias se\u00f1aladas en dicho apartado."
+      },{
+        "@class": "parrafo",
+        "#text": "4. No ser\u00e1 aplicable lo dispuesto en los apartados anteriores a los supuestos en que, de conformidad con las normas reguladoras de las materias enumeradas en el apartado 1, no fuera de aplicaci\u00f3n la ley del pa\u00eds en que resida o est\u00e9 establecido el destinatario del servicio."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 4. Prestadores establecidos en un Estado no perteneciente a la Uni\u00f3n Europea o al Espacio Econ\u00f3mico Europeo."
+      },{
+        "@class": "parrafo",
+        "#text": "A los prestadores establecidos en pa\u00edses que no sean miembros de la Uni\u00f3n Europea o del Espacio Econ\u00f3mico Europeo les ser\u00e1 de aplicaci\u00f3n lo dispuesto en los art\u00edculos 7.2 y 8."
+      },{
+        "@class": "parrafo",
+        "#text": "Los prestadores que dirijan sus servicios espec\u00edficamente al territorio espa\u00f1ol quedar\u00e1n sujetos, adem\u00e1s, a las obligaciones previstas en esta Ley, siempre que ello no contravenga lo establecido en tratados o convenios internacionales que sean aplicables."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 5. Servicios excluidos del \u00e1mbito de aplicaci\u00f3n de la Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Se regir\u00e1n por su normativa espec\u00edfica las siguientes actividades y servicios de la sociedad de la informaci\u00f3n:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Los servicios prestados por notarios y registradores de la propiedad y mercantiles en el ejercicio de sus respectivas funciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los servicios prestados por abogados y procuradores en el ejercicio de sus funciones de representaci\u00f3n y defensa en juicio."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las disposiciones de la presente Ley, con la excepci\u00f3n de lo establecido en el art\u00edculo 7.1, ser\u00e1n aplicables a los servicios de la sociedad de la informaci\u00f3n relativos a juegos de azar que impliquen apuestas de valor econ\u00f3mico, sin perjuicio de lo establecido en su legislaci\u00f3n espec\u00edfica estatal o auton\u00f3mica."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO II"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Prestaci\u00f3n de servicios de la sociedad de la informaci\u00f3n"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Principio de libre prestaci\u00f3n de servicios"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 6. No sujeci\u00f3n a autorizaci\u00f3n previa."
+      },{
+        "@class": "parrafo",
+        "#text": "La prestaci\u00f3n de servicios de la sociedad de la informaci\u00f3n no estar\u00e1 sujeta a autorizaci\u00f3n previa."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta norma no afectar\u00e1 a los reg\u00edmenes de autorizaci\u00f3n previstos en el ordenamiento jur\u00eddico que no tengan por objeto espec\u00edfico y exclusivo la prestaci\u00f3n por v\u00eda electr\u00f3nica de los correspondientes servicios."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 7. Principio de libre prestaci\u00f3n de servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La prestaci\u00f3n de servicios de la sociedad de la informaci\u00f3n que procedan de un prestador establecido en alg\u00fan Estado miembro de la Uni\u00f3n Europea o del Espacio Econ\u00f3mico Europeo se realizar\u00e1 en r\u00e9gimen de libre prestaci\u00f3n de servicios, sin que pueda establecerse ning\u00fan tipo de restricciones a los mismos por razones derivadas del \u00e1mbito normativo coordinado, excepto en los supuestos previstos en los art\u00edculos 3 y 8."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La aplicaci\u00f3n del principio de libre prestaci\u00f3n de servicios de la sociedad de la informaci\u00f3n a prestadores establecidos en Estados no miembros del Espacio Econ\u00f3mico Europeo se atendr\u00e1 a los acuerdos internacionales que resulten de aplicaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 8. Restricciones a la prestaci\u00f3n de servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En caso de que un determinado servicio de la sociedad de la informaci\u00f3n atente o pueda atentar contra los principios que se expresan a continuaci\u00f3n, los \u00f3rganos competentes para su protecci\u00f3n, en ejercicio de las funciones que tengan legalmente atribuidas, podr\u00e1n adoptar las medidas necesarias para que se interrumpa su prestaci\u00f3n o para retirar los datos que los vulneran."
+      },{
+        "@class": "parrafo",
+        "#text": "Los principios a que alude este apartado son los siguientes:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) La salvaguarda del orden p\u00fablico, la investigaci\u00f3n penal, la seguridad p\u00fablica y la defensa nacional."
+      },{
+        "@class": "parrafo",
+        "#text": "b) La protecci\u00f3n de la salud p\u00fablica o de las personas f\u00edsicas que tengan la condici\u00f3n de consumidores o usuarios, incluso cuando act\u00faen como inversores."
+      },{
+        "@class": "parrafo",
+        "#text": "c) El respeto a la dignidad de la persona y al principio de no discriminaci\u00f3n por motivos de raza, sexo, religi\u00f3n, opini\u00f3n, nacionalidad, discapacidad o cualquier otra circunstancia personal o social, y d) La protecci\u00f3n de la juventud y de la infancia."
+      },{
+        "@class": "parrafo",
+        "#text": "En la adopci\u00f3n y cumplimiento de las medidas de restricci\u00f3n a que alude este apartado se respetar\u00e1n, en todo caso, las garant\u00edas, normas y procedimientos previstos en el ordenamiento jur\u00eddico para proteger los derechos a la intimidad personal y familiar, a la protecci\u00f3n de los datos personales, a la libertad de expresi\u00f3n o a la libertad de informaci\u00f3n, cuando \u00e9stos pudieran resultar afectados."
+      },{
+        "@class": "parrafo",
+        "#text": "En todos los casos en que la Constituci\u00f3n, las normas reguladoras de los respectivos derechos y libertades o las que resulten aplicables a las diferentes materias atribuyan competencia a los \u00f3rganos jurisdiccionales para intervenir en el ejercicio de actividades o derechos, s\u00f3lo la autoridad judicial competente podr\u00e1 adoptar las medidas previstas en este art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Si para garantizar la efectividad de la resoluci\u00f3n que acuerde la interrupci\u00f3n de la prestaci\u00f3n de un servicio o la retirada de datos procedentes de un prestador establecido en otro Estado, el \u00f3rgano competente estimara necesario impedir el acceso desde Espa\u00f1a a los mismos, podr\u00e1 ordenar a los prestadores de servicios de intermediaci\u00f3n establecidos en Espa\u00f1a, directamente o mediante solicitud motivada al Ministerio de Ciencia y Tecnolog\u00eda, que tomen las medidas necesarias para impedir dicho acceso."
+      },{
+        "@class": "parrafo",
+        "#text": "Ser\u00e1 de aplicaci\u00f3n lo dispuesto en el art\u00edculo 11 cuando los datos que deban retirarse o el servicio que deba interrumpirse procedan de un prestador establecido en Espa\u00f1a."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las medidas de restricci\u00f3n a que hace referencia este art\u00edculo ser\u00e1n objetivas, proporcionadas y no discriminatorias, y se adoptar\u00e1n de forma cautelar o en ejecuci\u00f3n de las resoluciones que se dicten, conforme a los procedimientos administrativos legalmente establecidos o a los previstos en la legislaci\u00f3n procesal que corresponda."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Fuera del \u00e1mbito de los procesos judiciales, cuando se establezcan restricciones que afecten a un servicio de la sociedad de la informaci\u00f3n que proceda de alguno de los Estados miembros de la Uni\u00f3n Europea o del Espacio Econ\u00f3mico Europeo distinto de Espa\u00f1a, se seguir\u00e1 el siguiente procedimiento:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) El \u00f3rgano competente requerir\u00e1 al Estado miembro en que est\u00e9 establecido el prestador afectado para que adopte las medidas oportunas. En el caso de que no las adopte o resulten insuficientes, dicho \u00f3rgano notificar\u00e1, con car\u00e1cter previo, a la Comisi\u00f3n Europea o, en su caso, al Comit\u00e9 Mixto del Espacio Econ\u00f3mico Europeo y al Estado miembro de que se trate las medidas que tiene intenci\u00f3n de adoptar."
+      },{
+        "@class": "parrafo",
+        "#text": "b) En los supuestos de urgencia, el \u00f3rgano competente podr\u00e1 adoptar las medidas oportunas, notific\u00e1ndolas al Estado miembro de procedencia y a la Comisi\u00f3n Europea o, en su caso, al Comit\u00e9 Mixto del Espacio Econ\u00f3mico Europeo en el plazo de quince d\u00edas desde su adopci\u00f3n. Asimismo, deber\u00e1 indicar la causa de dicha urgencia."
+      },{
+        "@class": "parrafo",
+        "#text": "Los requerimientos y notificaciones a que alude este apartado se realizar\u00e1n siempre a trav\u00e9s del \u00f3rgano de la Administraci\u00f3n General del Estado competente para la comunicaci\u00f3n y transmisi\u00f3n de informaci\u00f3n a las Comunidades Europeas."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Obligaciones y r\u00e9gimen de responsabilidad de los prestadores de servicios de la sociedad de la informaci\u00f3n"
+      },{
+        "@class": "seccion",
+        "#text": "SECCI\u00d3N 1.\u00aa OBLIGACIONES"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 9. Constancia registral del nombre de dominio."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los prestadores de servicios de la sociedad de la informaci\u00f3n establecidos en Espa\u00f1a deber\u00e1n comunicar al Registro Mercantil en el que se encuentren inscritos, o a aquel otro registro p\u00fablico en el que lo estuvieran para la adquisici\u00f3n de personalidad jur\u00eddica o a los solos efectos de publicidad, al menos, un nombre de dominio o direcci\u00f3n de Internet que, en su caso, utilicen para su identificaci\u00f3n en Internet, as\u00ed como todo acto de sustituci\u00f3n o cancelaci\u00f3n de los mismos, salvo que dicha informaci\u00f3n conste ya en el correspondiente registro."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los nombres de dominio y su sustituci\u00f3n o cancelaci\u00f3n se har\u00e1n constar en cada registro, de conformidad con sus normas reguladoras."
+      },{
+        "@class": "parrafo",
+        "#text": "Las anotaciones practicadas en los Registros Mercantiles se comunicar\u00e1n inmediatamente al Registro Mercantil Central para su inclusi\u00f3n entre los datos que son objeto de publicidad informativa por dicho Registro."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La obligaci\u00f3n de comunicaci\u00f3n a que se refiere el apartado 1 deber\u00e1 cumplirse en el plazo de un mes desde la obtenci\u00f3n, sustituci\u00f3n o cancelaci\u00f3n del correspondiente nombre de dominio o direcci\u00f3n de Internet."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 10. Informaci\u00f3n general."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Sin perjuicio de los requisitos que en materia de informaci\u00f3n se establecen en la normativa vigente, el prestador de servicios de la sociedad de la informaci\u00f3n estar\u00e1 obligado a disponer de los medios que permitan, tanto a los destinatarios del servicio como a los \u00f3rganos competentes, acceder por medios electr\u00f3nicos, de forma permanente, f\u00e1cil, directa y gratuita, a la siguiente informaci\u00f3n:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Su nombre o denominaci\u00f3n social ; su residencia o domicilio o, en su defecto, la direcci\u00f3n de uno de sus establecimientos permanentes en Espa\u00f1a ; su direcci\u00f3n de correo electr\u00f3nico y cualquier otro dato que permita establecer con \u00e9l una comunicaci\u00f3n directa y efectiva."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los datos de su inscripci\u00f3n en el Registro a que se refiere el art\u00edculo 9."
+      },{
+        "@class": "parrafo",
+        "#text": "c) En el caso de que su actividad estuviese sujeta a un r\u00e9gimen de autorizaci\u00f3n administrativa previa, los datos relativos a dicha autorizaci\u00f3n y los identificativos del \u00f3rgano competente encargado de su supervisi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Si ejerce una profesi\u00f3n regulada deber\u00e1 indicar:"
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u00ba Los datos del Colegio profesional al que, en su caso, pertenezca y n\u00famero de colegiado."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u00ba El t\u00edtulo acad\u00e9mico oficial o profesional con el que cuente."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u00ba El Estado de la Uni\u00f3n Europea o del Espacio Econ\u00f3mico Europeo en el que se expidi\u00f3 dicho t\u00edtulo y, en su caso, la correspondiente homologaci\u00f3n o reconocimiento."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u00ba Las normas profesionales aplicables al ejercicio de su profesi\u00f3n y los medios a trav\u00e9s de los cuales se puedan conocer, incluidos los electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "e) El n\u00famero de identificaci\u00f3n fiscal que le corresponda."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Informaci\u00f3n clara y exacta sobre el precio del producto o servicio, indicando si incluye o no los impuestos aplicables y, en su caso, sobre los gastos de env\u00edo."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Los c\u00f3digos de conducta a los que, en su caso, est\u00e9 adherido y la manera de consultarlos electr\u00f3nicamente."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La obligaci\u00f3n de facilitar esta informaci\u00f3n se dar\u00e1 por cumplida si el prestador la incluye en su p\u00e1gina o sitio de Internet en las condiciones se\u00f1aladas en el apartado 1."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 11. Deber de colaboraci\u00f3n de los prestadores de servicios de intermediaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Cuando un \u00f3rgano competente por raz\u00f3n de la materia hubiera ordenado, en ejercicio de las funciones que legalmente tenga atribuidas, que se interrumpa la prestaci\u00f3n de un servicio de la sociedad de la informaci\u00f3n o la retirada de determinados contenidos provenientes de prestadores establecidos en Espa\u00f1a, y para ello fuera necesaria la colaboraci\u00f3n de los prestadores de servicios de intermediaci\u00f3n, podr\u00e1 ordenar a dichos prestadores, directamente o mediante solicitud motivada al Ministerio de Ciencia y Tecnolog\u00eda, que suspendan la transmisi\u00f3n, el alojamiento de datos, el acceso a las redes de telecomunicaciones o la prestaci\u00f3n de cualquier otro servicio equivalente de intermediaci\u00f3n que realizaran."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En la adopci\u00f3n y cumplimiento de las medidas a que se refiere el apartado anterior, se respetar\u00e1n, en todo caso, las garant\u00edas, normas y procedimientos previstos en el ordenamiento jur\u00eddico para proteger los derechos a la intimidad personal y familiar, a la protecci\u00f3n de los datos personales, a la libertad de expresi\u00f3n o a la libertad de informaci\u00f3n, cuando \u00e9stos pudieran resultar afectados."
+      },{
+        "@class": "parrafo",
+        "#text": "En todos los casos en que la Constituci\u00f3n, las normas reguladoras de los respectivos derechos y libertades o las que resulten aplicables a las diferentes materias atribuyan competencia a los \u00f3rganos jurisdiccionales para intervenir en el ejercicio de actividades o derechos, s\u00f3lo la autoridad judicial competente podr\u00e1 adoptar las medidas previstas en este art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Las medidas a que hace referencia este art\u00edculo ser\u00e1n objetivas, proporcionadas y no discriminatorias, y se adoptar\u00e1n de forma cautelar o en ejecuci\u00f3n de las resoluciones que se dicten, conforme a los procedimientos administrativos legalmente establecidos o a los previstos en la legislaci\u00f3n procesal que corresponda."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 12. Deber de retenci\u00f3n de datos de tr\u00e1fico relativos a las comunicaciones electr\u00f3nicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los operadores de redes y servicios de comunicaciones electr\u00f3nicas, los proveedores de acceso a redes de telecomunicaciones y los prestadores de servicios de alojamiento de datos deber\u00e1n retener los datos de conexi\u00f3n y tr\u00e1fico generados por las comunicaciones establecidas durante la prestaci\u00f3n de un servicio de la sociedad de la informaci\u00f3n por un per\u00edodo m\u00e1ximo de doce meses, en los t\u00e9rminos establecidos en este art\u00edculo y en su normativa de desarrollo."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los datos que, en cumplimiento de lo dispuesto en el apartado anterior, deber\u00e1n conservar los operadores de redes y servicios de comunicaciones electr\u00f3nicas y los proveedores de acceso a redes de telecomunicaciones ser\u00e1n \u00fanicamente los necesarios para facilitar la localizaci\u00f3n del equipo terminal empleado por el usuario para la transmisi\u00f3n de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Los prestadores de servicios de alojamiento de datos deber\u00e1n retener s\u00f3lo aqu\u00e9llos imprescindibles para identificar el origen de los datos alojados y el momento en que se inici\u00f3 la prestaci\u00f3n del servicio."
+      },{
+        "@class": "parrafo",
+        "#text": "En ning\u00fan caso, la obligaci\u00f3n de retenci\u00f3n de datos afectar\u00e1 al secreto de las comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Los operadores de redes y servicios de comunicaciones electr\u00f3nicas y los prestadores de servicios a que se refiere este art\u00edculo no podr\u00e1n utilizar los datos retenidos para fines distintos de los indicados en el apartado siguiente u otros que est\u00e9n permitidos por la Ley, y deber\u00e1n adoptar medidas de seguridad apropiadas para evitar su p\u00e9rdida o alteraci\u00f3n y el acceso no autorizado a los mismos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los datos se conservar\u00e1n para su utilizaci\u00f3n en el marco de una investigaci\u00f3n criminal o para la salvaguardia de la seguridad p\u00fablica y la defensa nacional, poni\u00e9ndose a disposici\u00f3n de los Jueces o Tribunales o del Ministerio Fiscal que as\u00ed los requieran. La comunicaci\u00f3n de estos datos a las Fuerzas y Cuerpos de Seguridad se har\u00e1 con sujeci\u00f3n a lo dispuesto en la normativa sobre protecci\u00f3n de datos personales."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Reglamentariamente, se determinar\u00e1n las categor\u00edas de datos que deber\u00e1n conservarse seg\u00fan el tipo de servicio prestado, el plazo durante el que deber\u00e1n retenerse en cada supuesto dentro del m\u00e1ximo previsto en este art\u00edculo, las condiciones en que deber\u00e1n almacenarse, tratarse y custodiarse y la forma en que, en su caso, deber\u00e1n entregarse a los \u00f3rganos autorizados para su solicitud y destruirse, transcurrido el plazo de retenci\u00f3n que proceda, salvo que fueran necesarios para estos u otros fines previstos en la Ley."
+      },{
+        "@class": "seccion",
+        "#text": "SECCI\u00d3N 2.\u00aa R\u00c9GIMEN DE RESPONSABILIDAD"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 13. Responsabilidad de los prestadores de los servicios de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los prestadores de servicios de la sociedad de la informaci\u00f3n est\u00e1n sujetos a la responsabilidad civil, penal y administrativa establecida con car\u00e1cter general en el ordenamiento jur\u00eddico, sin perjuicio de lo dispuesto en esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Para determinar la responsabilidad de los prestadores de servicios por el ejercicio de actividades de intermediaci\u00f3n, se estar\u00e1 a lo establecido en los art\u00edculos siguientes."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 14. Responsabilidad de los operadores de redes y proveedores de acceso."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los operadores de redes de telecomunicaciones y proveedores de acceso a una red de telecomunicaciones que presten un servicio de intermediaci\u00f3n que consista en transmitir por una red de telecomunicaciones datos facilitados por el destinatario del servicio o en facilitar acceso a \u00e9sta no ser\u00e1n responsables por la informaci\u00f3n transmitida, salvo que ellos mismos hayan originado la transmisi\u00f3n, modificado los datos o seleccionado \u00e9stos o a los destinatarios de dichos datos."
+      },{
+        "@class": "parrafo",
+        "#text": "No se entender\u00e1 por modificaci\u00f3n la manipulaci\u00f3n estrictamente t\u00e9cnica de los archivos que alberguen los datos, que tiene lugar durante su transmisi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las actividades de transmisi\u00f3n y provisi\u00f3n de acceso a que se refiere el apartado anterior incluyen el almacenamiento autom\u00e1tico, provisional y transitorio de los datos, siempre que sirva exclusivamente para permitir su transmisi\u00f3n por la red de telecomunicaciones y su duraci\u00f3n no supere el tiempo razonablemente necesario para ello."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 15. Responsabilidad de los prestadores de servicios que realizan copia temporal de los datos solicitados por los usuarios."
+      },{
+        "@class": "parrafo",
+        "#text": "Los prestadores de un servicio de intermediaci\u00f3n que transmitan por una red de telecomunicaciones datos facilitados por un destinatario del servicio y, con la \u00fanica finalidad de hacer m\u00e1s eficaz su transmisi\u00f3n ulterior a otros destinatarios que los soliciten, los almacenen en sus sistemas de forma autom\u00e1tica, provisional y temporal, no ser\u00e1n responsables por el contenido de esos datos ni por la reproducci\u00f3n temporal de los mismos, si:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) No modifican la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Permiten el acceso a ella s\u00f3lo a los destinatarios que cumplan las condiciones impuestas a tal fin, por el destinatario cuya informaci\u00f3n se solicita."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Respetan las normas generalmente aceptadas y aplicadas por el sector para la actualizaci\u00f3n de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "d) No interfieren en la utilizaci\u00f3n l\u00edcita de tecnolog\u00eda generalmente aceptada y empleada por el sector, con el fin de obtener datos sobre la utilizaci\u00f3n de la informaci\u00f3n, y e) Retiran la informaci\u00f3n que hayan almacenado o hacen imposible el acceso a ella, en cuanto tengan conocimiento efectivo de:"
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u00ba Que ha sido retirada del lugar de la red en que se encontraba inicialmente."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u00ba Que se ha imposibilitado el acceso a ella, o 3.\u00ba Que un tribunal u \u00f3rgano administrativo competente ha ordenado retirarla o impedir que se acceda a ella."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 16. Responsabilidad de los prestadores de servicios de alojamiento o almacenamiento de datos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los prestadores de un servicio de intermediaci\u00f3n consistente en albergar datos proporcionados por el destinatario de este servicio no ser\u00e1n responsables por la informaci\u00f3n almacenada a petici\u00f3n del destinatario, siempre que:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) No tengan conocimiento efectivo de que la actividad o la informaci\u00f3n almacenada es il\u00edcita o de que lesiona bienes o derechos de un tercero susceptibles de indemnizaci\u00f3n, o b) Si lo tienen, act\u00faen con diligencia para retirar los datos o hacer imposible el acceso a ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "Se entender\u00e1 que el prestador de servicios tiene el conocimiento efectivo a que se refiere el p\u00e1rrafo a) cuando un \u00f3rgano competente haya declarado la ilicitud de los datos, ordenado su retirada o que se imposibilite el acceso a los mismos, o se hubiera declarado la existencia de la lesi\u00f3n, y el prestador conociera la correspondiente resoluci\u00f3n, sin perjuicio de los procedimientos de detecci\u00f3n y retirada de contenidos que los prestadores apliquen en virtud de acuerdos voluntarios y de otros medios de conocimiento efectivo que pudieran establecerse."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La exenci\u00f3n de responsabilidad establecida en el apartado 1 no operar\u00e1 en el supuesto de que el destinatario del servicio act\u00fae bajo la direcci\u00f3n, autoridad o control de su prestador."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 17. Responsabilidad de los prestadores de servicios que faciliten enlaces a contenidos o instrumentos de b\u00fasqueda."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los prestadores de servicios de la sociedad de la informaci\u00f3n que faciliten enlaces a otros contenidos o incluyan en los suyos directorios o instrumentos de b\u00fasqueda de contenidos no ser\u00e1n responsables por la informaci\u00f3n a la que dirijan a los destinatarios de sus servicios, siempre que:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) No tengan conocimiento efectivo de que la actividad o la informaci\u00f3n a la que remiten o recomiendan es il\u00edcita o de que lesiona bienes o derechos de un tercero susceptibles de indemnizaci\u00f3n, o b) Si lo tienen, act\u00faen con diligencia para suprimir o inutilizar el enlace correspondiente."
+      },{
+        "@class": "parrafo",
+        "#text": "Se entender\u00e1 que el prestador de servicios tiene el conocimiento efectivo a que se refiere el p\u00e1rrafo a) cuando un \u00f3rgano competente haya declarado la ilicitud de los datos, ordenado su retirada o que se imposibilite el acceso a los mismos, o se hubiera declarado la existencia de la lesi\u00f3n, y el prestador conociera la correspondiente resoluci\u00f3n, sin perjuicio de los procedimientos de detecci\u00f3n y retirada de contenidos que los prestadores apliquen en virtud de acuerdos voluntarios y de otros medios de conocimiento efectivo que pudieran establecerse."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La exenci\u00f3n de responsabilidad establecida en el apartado 1 no operar\u00e1 en el supuesto de que el destinatario del servicio act\u00fae bajo la direcci\u00f3n, autoridad o control del prestador que facilite la localizaci\u00f3n de esos contenidos."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "C\u00f3digos de conducta"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 18. C\u00f3digos de conducta."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones p\u00fablicas impulsar\u00e1n, a trav\u00e9s de la coordinaci\u00f3n y el asesoramiento, la elaboraci\u00f3n y aplicaci\u00f3n de c\u00f3digos de conducta voluntarios, por parte de las corporaciones, asociaciones u organizaciones comerciales, profesionales y de consumidores, en las materias reguladas en esta Ley. La Administraci\u00f3n General del Estado fomentar\u00e1, en especial, la elaboraci\u00f3n de c\u00f3digos de conducta de \u00e1mbito comunitario o internacional."
+      },{
+        "@class": "parrafo",
+        "#text": "Los c\u00f3digos de conducta podr\u00e1n tratar, en particular, sobre los procedimientos para la detecci\u00f3n y retirada de contenidos il\u00edcitos y la protecci\u00f3n de los destinatarios frente al env\u00edo por v\u00eda electr\u00f3nica de comunicaciones comerciales no solicitadas, as\u00ed como sobre los procedimientos extrajudiciales para la resoluci\u00f3n de los conflictos que surjan por la prestaci\u00f3n de los servicios de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En la elaboraci\u00f3n de dichos c\u00f3digos, habr\u00e1 de garantizarse la participaci\u00f3n de las asociaciones de consumidores y usuarios y la de las organizaciones representativas de personas con discapacidades f\u00edsicas o ps\u00edquicas, cuando afecten a sus respectivos intereses."
+      },{
+        "@class": "parrafo",
+        "#text": "Cuando su contenido pueda afectarles, los c\u00f3digos de conducta tendr\u00e1n especialmente en cuenta la protecci\u00f3n de los menores y de la dignidad humana, pudiendo elaborarse, en caso necesario, c\u00f3digos espec\u00edficos sobre estas materias."
+      },{
+        "@class": "parrafo",
+        "#text": "Los poderes p\u00fablicos estimular\u00e1n, en particular, el establecimiento de criterios comunes acordados por la industria para la clasificaci\u00f3n y etiquetado de contenidos y la adhesi\u00f3n de los prestadores a los mismos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los c\u00f3digos de conducta a los que hacen referencia los apartados precedentes deber\u00e1n ser accesibles por v\u00eda electr\u00f3nica. Se fomentar\u00e1 su traducci\u00f3n a otras lenguas oficiales en la Comunidad Europea, con objeto de darles mayor difusi\u00f3n."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO III"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Comunicaciones comerciales por v\u00eda electr\u00f3nica"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 19. R\u00e9gimen jur\u00eddico."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las comunicaciones comerciales y las ofertas promocionales se regir\u00e1n, adem\u00e1s de por la presente Ley, por su normativa propia y la vigente en materia comercial y de publicidad."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En todo caso, ser\u00e1 de aplicaci\u00f3n la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, y su normativa de desarrollo, en especial, en lo que se refiere a la obtenci\u00f3n de datos personales, la informaci\u00f3n a los interesados y la creaci\u00f3n y mantenimiento de ficheros de datos personales."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 20. Informaci\u00f3n exigida sobre las comunicaciones comerciales, ofertas promocionales y concursos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las comunicaciones comerciales realizadas por v\u00eda electr\u00f3nica deber\u00e1n ser claramente identificables como tales y deber\u00e1n indicar la persona f\u00edsica o jur\u00eddica en nombre de la cual se realizan."
+      },{
+        "@class": "parrafo",
+        "#text": "En el caso en el que tengan lugar a trav\u00e9s de correo electr\u00f3nico u otro medio de comunicaci\u00f3n electr\u00f3nica equivalente incluir\u00e1n al comienzo del mensaje la palabra \"publicidad\"."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En los supuestos de ofertas promocionales, como las que incluyan descuentos, premios y regalos, y de concursos o juegos promocionales, previa la correspondiente autorizaci\u00f3n, se deber\u00e1 asegurar, adem\u00e1s del cumplimiento de los requisitos establecidos en el apartado anterior y en las normas de ordenaci\u00f3n del comercio, que queden claramente identificados como tales y que las condiciones de acceso y, en su caso, de participaci\u00f3n se expresen de forma clara e inequ\u00edvoca."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 21. Prohibici\u00f3n de comunicaciones comerciales no solicitadas realizadas a trav\u00e9s de correo electr\u00f3nico o medios de comunicaci\u00f3n electr\u00f3nica equivalentes."
+      },{
+        "@class": "parrafo",
+        "#text": "Queda prohibido el env\u00edo de comunicaciones publicitarias o promocionales por correo electr\u00f3nico u otro medio de comunicaci\u00f3n electr\u00f3nica equivalente que previamente no hubieran sido solicitadas o expresamente autorizadas por los destinatarios de las mismas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 22. Derechos de los destinatarios de comunicaciones comerciales."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Si el destinatario de servicios debiera facilitar su direcci\u00f3n de correo electr\u00f3nico durante el proceso de contrataci\u00f3n o de suscripci\u00f3n a alg\u00fan servicio y el prestador pretendiera utilizarla posteriormente para el env\u00edo de comunicaciones comerciales, deber\u00e1 poner en conocimiento de su cliente esa intenci\u00f3n y solicitar su consentimiento para la recepci\u00f3n de dichas comunicaciones, antes de finalizar el procedimiento de contrataci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El destinatario podr\u00e1 revocar en cualquier momento el consentimiento prestado a la recepci\u00f3n de comunicaciones comerciales con la simple notificaci\u00f3n de su voluntad al remitente."
+      },{
+        "@class": "parrafo",
+        "#text": "A tal efecto, los prestadores de servicios deber\u00e1n habilitar procedimientos sencillos y gratuitos para que los destinatarios de servicios puedan revocar el consentimiento que hubieran prestado."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, deber\u00e1n facilitar informaci\u00f3n accesible por medios electr\u00f3nicos sobre dichos procedimientos."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO IV"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Contrataci\u00f3n por v\u00eda electr\u00f3nica"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 23. Validez y eficacia de los contratos celebrados por v\u00eda electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los contratos celebrados por v\u00eda electr\u00f3nica producir\u00e1n todos los efectos previstos por el ordenamiento jur\u00eddico, cuando concurran el consentimiento y los dem\u00e1s requisitos necesarios para su validez."
+      },{
+        "@class": "parrafo",
+        "#text": "Los contratos electr\u00f3nicos se regir\u00e1n por lo dispuesto en este T\u00edtulo, por los C\u00f3digos Civil y de Comercio y por las restantes normas civiles o mercantiles sobre contratos, en especial, las normas de protecci\u00f3n de los consumidores y usuarios y de ordenaci\u00f3n de la actividad comercial."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Para que sea v\u00e1lida la celebraci\u00f3n de contratos por v\u00eda electr\u00f3nica no ser\u00e1 necesario el previo acuerdo de las partes sobre la utilizaci\u00f3n de medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Siempre que la Ley exija que el contrato o cualquier informaci\u00f3n relacionada con el mismo conste por escrito, este requisito se entender\u00e1 satisfecho si el contrato o la informaci\u00f3n se contiene en un soporte electr\u00f3nico."
+      },{
+        "@class": "parrafo",
+        "#text": "4. No ser\u00e1 de aplicaci\u00f3n lo dispuesto en el presente T\u00edtulo a los contratos relativos al Derecho de familia y sucesiones."
+      },{
+        "@class": "parrafo",
+        "#text": "Los contratos, negocios o actos jur\u00eddicos en los que la Ley determine para su validez o para la producci\u00f3n de determinados efectos la forma documental p\u00fablica, o que requieran por Ley la intervenci\u00f3n de \u00f3rganos jurisdiccionales, notarios, registradores de la propiedad y mercantiles o autoridades p\u00fablicas, se regir\u00e1n por su legislaci\u00f3n espec\u00edfica."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 24. Prueba de los contratos celebrados por v\u00eda electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La prueba de la celebraci\u00f3n de un contrato por v\u00eda electr\u00f3nica y la de las obligaciones que tienen su origen en \u00e9l se sujetar\u00e1 a las reglas generales del ordenamiento jur\u00eddico y, en su caso, a lo establecido en la legislaci\u00f3n sobre firma electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En todo caso, el soporte electr\u00f3nico en que conste un contrato celebrado por v\u00eda electr\u00f3nica ser\u00e1 admisible en juicio como prueba documental."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 25. Intervenci\u00f3n de terceros de confianza."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las partes podr\u00e1n pactar que un tercero archive las declaraciones de voluntad que integran los contratos electr\u00f3nicos y que consigne la fecha y la hora en que dichas comunicaciones han tenido lugar. La intervenci\u00f3n de dichos terceros no podr\u00e1 alterar ni sustituir las funciones que corresponde realizar a las personas facultadas con arreglo a Derecho para dar fe p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El tercero deber\u00e1 archivar en soporte inform\u00e1tico las declaraciones que hubieran tenido lugar por v\u00eda telem\u00e1tica entre las partes por el tiempo estipulado que, en ning\u00fan caso, ser\u00e1 inferior a cinco a\u00f1os."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 26. Ley aplicable."
+      },{
+        "@class": "parrafo",
+        "#text": "Para la determinaci\u00f3n de la ley aplicable a los contratos electr\u00f3nicos se estar\u00e1 a lo dispuesto en las normas de Derecho internacional privado del ordenamiento jur\u00eddico espa\u00f1ol, debiendo tomarse en consideraci\u00f3n para su aplicaci\u00f3n lo establecido en los art\u00edculos 2 y 3 de esta Ley."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 27. Obligaciones previas al inicio del procedimiento de contrataci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Adem\u00e1s del cumplimiento de los requisitos en materia de informaci\u00f3n que se establecen en la normativa vigente, el prestador de servicios de la sociedad de la informaci\u00f3n que realice actividades de contrataci\u00f3n electr\u00f3nica tendr\u00e1 la obligaci\u00f3n de informar al destinatario de manera clara, comprensible e inequ\u00edvoca, y antes de iniciar el procedimiento de contrataci\u00f3n, sobre los siguientes extremos:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Los distintos tr\u00e1mites que deben seguirse para celebrar el contrato."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Si el prestador va a archivar el documento electr\u00f3nico en que se formalice el contrato y si \u00e9ste va a ser accesible."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Los medios t\u00e9cnicos que pone a su disposici\u00f3n para identificar y corregir errores en la introducci\u00f3n de los datos, y d) La lengua o lenguas en que podr\u00e1 formalizarse el contrato."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El prestador no tendr\u00e1 la obligaci\u00f3n de facilitar la informaci\u00f3n se\u00f1alada en el apartado anterior cuando:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Ambos contratantes as\u00ed lo acuerden y ninguno de ellos tenga la consideraci\u00f3n de consumidor, o b) El contrato se haya celebrado exclusivamente mediante intercambio de correo electr\u00f3nico u otro tipo de comunicaci\u00f3n electr\u00f3nica equivalente, cuando estos medios no sean empleados con el exclusivo prop\u00f3sito de eludir el cumplimiento de tal obligaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Sin perjuicio de lo dispuesto en la legislaci\u00f3n espec\u00edfica, las ofertas o propuestas de contrataci\u00f3n realizadas por v\u00eda electr\u00f3nica ser\u00e1n v\u00e1lidas durante el per\u00edodo que fije el oferente o, en su defecto, durante todo el tiempo que permanezcan accesibles a los destinatarios del servicio."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Con car\u00e1cter previo al inicio del procedimiento de contrataci\u00f3n, el prestador de servicios deber\u00e1 poner a disposici\u00f3n del destinatario las condiciones generales a que, en su caso, deba sujetarse el contrato, de manera que \u00e9stas puedan ser almacenadas y reproducidas por el destinatario."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 28. Informaci\u00f3n posterior a la celebraci\u00f3n del contrato."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El oferente est\u00e1 obligado a confirmar la recepci\u00f3n de la aceptaci\u00f3n al que la hizo por alguno de los siguientes medios:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) El env\u00edo de un acuse de recibo por correo electr\u00f3nico u otro medio de comunicaci\u00f3n electr\u00f3nica equivalente a la direcci\u00f3n que el aceptante haya se\u00f1alado, en el plazo de las veinticuatro horas siguientes a la recepci\u00f3n de la aceptaci\u00f3n, o b) La confirmaci\u00f3n, por un medio equivalente al utilizado en el procedimiento de contrataci\u00f3n, de la aceptaci\u00f3n recibida, tan pronto como el aceptante haya completado dicho procedimiento, siempre que la confirmaci\u00f3n pueda ser archivada por su destinatario."
+      },{
+        "@class": "parrafo",
+        "#text": "En los casos en que la obligaci\u00f3n de confirmaci\u00f3n corresponda a un destinatario de servicios, el prestador facilitar\u00e1 el cumplimiento de dicha obligaci\u00f3n, poniendo a disposici\u00f3n del destinatario alguno de los medios indicados en este apartado. Esta obligaci\u00f3n ser\u00e1 exigible tanto si la confirmaci\u00f3n debiera dirigirse al propio prestador o a otro destinatario."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Se entender\u00e1 que se ha recibido la aceptaci\u00f3n y su confirmaci\u00f3n cuando las partes a que se dirijan puedan tener constancia de ello."
+      },{
+        "@class": "parrafo",
+        "#text": "En el caso de que la recepci\u00f3n de la aceptaci\u00f3n se confirme mediante acuse de recibo, se presumir\u00e1 que su destinatario puede tener la referida constancia desde que aqu\u00e9l haya sido almacenado en el servidor en que est\u00e9 dada de alta su cuenta de correo electr\u00f3nico, o en el dispositivo utilizado para la recepci\u00f3n de comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "3. No ser\u00e1 necesario confirmar la recepci\u00f3n de la aceptaci\u00f3n de una oferta cuando:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Ambos contratantes as\u00ed lo acuerden y ninguno de ellos tenga la consideraci\u00f3n de consumidor, o b) El contrato se haya celebrado exclusivamente mediante intercambio de correo electr\u00f3nico u otro tipo de comunicaci\u00f3n electr\u00f3nica equivalente, cuando estos medios no sean empleados con el exclusivo prop\u00f3sito de eludir el cumplimiento de tal obligaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 29. Lugar de celebraci\u00f3n del contrato."
+      },{
+        "@class": "parrafo",
+        "#text": "Los contratos celebrados por v\u00eda electr\u00f3nica en los que intervenga como parte un consumidor se presumir\u00e1n celebrados en el lugar en que \u00e9ste tenga su residencia habitual."
+      },{
+        "@class": "parrafo",
+        "#text": "Los contratos electr\u00f3nicos entre empresarios o profesionales, en defecto de pacto entre las partes, se presumir\u00e1n celebrados en el lugar en que est\u00e9 establecido el prestador de servicios."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO V"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Soluci\u00f3n judicial y extrajudicial de conflictos"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Acci\u00f3n de cesaci\u00f3n"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 30. Acci\u00f3n de cesaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Contra las conductas contrarias a la presente Ley que lesionen intereses colectivos o difusos de los consumidores podr\u00e1 interponerse acci\u00f3n de cesaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La acci\u00f3n de cesaci\u00f3n se dirige a obtener una sentencia que condene al demandado a cesar en la conducta contraria a la presente Ley y a prohibir su reiteraci\u00f3n futura. Asimismo, la acci\u00f3n podr\u00e1 ejercerse para prohibir la realizaci\u00f3n de una conducta cuando \u00e9sta haya finalizado al tiempo de ejercitar la acci\u00f3n, si existen indicios suficientes que hagan temer su reiteraci\u00f3n de modo inminente."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La acci\u00f3n de cesaci\u00f3n se ejercer\u00e1 conforme a las prescripciones de la Ley de Enjuiciamiento Civil para esta clase de acciones."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 31. Legitimaci\u00f3n activa."
+      },{
+        "@class": "parrafo",
+        "#text": "Est\u00e1n legitimados para interponer la acci\u00f3n de cesaci\u00f3n:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Las personas f\u00edsicas o jur\u00eddicas titulares de un derecho o inter\u00e9s leg\u00edtimo."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Los grupos de consumidores o usuarios afectados, en los casos y condiciones previstos en la Ley de Enjuiciamiento Civil."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Las asociaciones de consumidores y usuarios que re\u00fanan los requisitos establecidos en la Ley 26/1984, de 19 de julio, General para la Defensa de los Consumidores y Usuarios, o, en su caso, en la legislaci\u00f3n auton\u00f3mica en materia de defensa de los consumidores."
+      },{
+        "@class": "parrafo",
+        "#text": "d) El Ministerio Fiscal."
+      },{
+        "@class": "parrafo",
+        "#text": "e) El Instituto Nacional del Consumo y los \u00f3rganos correspondientes de las Comunidades Aut\u00f3nomas y de las Corporaciones Locales competentes en materia de defensa de los consumidores."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Las entidades de otros Estados miembros de la Uni\u00f3n Europea constituidas para la protecci\u00f3n de los intereses colectivos o difusos de los consumidores que est\u00e9n habilitadas ante la Comisi\u00f3n Europea mediante su inclusi\u00f3n en la lista publicada a tal fin en el \"Diario Oficial de las Comunidades Europeas\"."
+      },{
+        "@class": "parrafo",
+        "#text": "Los Jueces y Tribunales aceptar\u00e1n dicha lista como prueba de la capacidad de la entidad habilitada para ser parte, sin perjuicio de examinar si la finalidad de la misma y los intereses afectados legitiman el ejercicio de la acci\u00f3n."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Soluci\u00f3n extrajudicial de conflictos"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 32. Soluci\u00f3n extrajudicial de conflictos."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El prestador y el destinatario de servicios de la sociedad de la informaci\u00f3n podr\u00e1n someter sus conflictos a los arbitrajes previstos en la legislaci\u00f3n de arbitraje y de defensa de los consumidores y usuarios, y a los procedimientos de resoluci\u00f3n extrajudicial de conflictos que se instauren por medio de c\u00f3digos de conducta u otros instrumentos de autorregulaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En los procedimientos de resoluci\u00f3n extrajudicial de conflictos a que hace referencia el apartado anterior, podr\u00e1 hacerse uso de medios electr\u00f3nicos, en los t\u00e9rminos que establezca su normativa espec\u00edfica."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO VI"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Informaci\u00f3n y control"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 33. Informaci\u00f3n a los destinatarios y prestadores de servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "Los destinatarios y prestadores de servicios de la sociedad de la informaci\u00f3n podr\u00e1n dirigirse a los Ministerios de Ciencia y Tecnolog\u00eda, de Justicia, de Econom\u00eda y de Sanidad y Consumo, y a los \u00f3rganos que determinen las respectivas Comunidades Aut\u00f3nomas y Entidades Locales, para:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Conseguir informaci\u00f3n general sobre sus derechos y obligaciones contractuales en el marco de la normativa aplicable a la contrataci\u00f3n electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Informarse sobre los procedimientos de resoluci\u00f3n judicial y extrajudicial de conflictos, y c) Obtener los datos de las autoridades, asociaciones u organizaciones que puedan facilitarles informaci\u00f3n adicional o asistencia pr\u00e1ctica."
+      },{
+        "@class": "parrafo",
+        "#text": "La comunicaci\u00f3n con dichos \u00f3rganos podr\u00e1 hacerse por medios electr\u00f3nicos."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 34. Comunicaci\u00f3n de resoluciones relevantes."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Consejo General del Poder Judicial remitir\u00e1 al Ministerio de Justicia, en la forma y con la periodicidad que se acuerde mediante Convenio entre ambos \u00f3rganos, todas las resoluciones judiciales que contengan pronunciamientos relevantes sobre la validez y eficacia de los contratos celebrados por v\u00eda electr\u00f3nica, sobre su utilizaci\u00f3n como prueba en juicio, o sobre los derechos, obligaciones y r\u00e9gimen de responsabilidad de los destinatarios y los prestadores de servicios de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Los \u00f3rganos arbitrales y los responsables de los dem\u00e1s procedimientos de resoluci\u00f3n extrajudicial de conflictos a que se refiere el art\u00edculo 32.1 comunicar\u00e1n al Ministerio de Justicia los laudos o decisiones que revistan importancia para la prestaci\u00f3n de servicios de la sociedad de la informaci\u00f3n y el comercio electr\u00f3nico de acuerdo con los criterios indicados en el apartado anterior."
+      },{
+        "@class": "parrafo",
+        "#text": "3. En la comunicaci\u00f3n de las resoluciones, laudos y decisiones a que se refiere este art\u00edculo, se tomar\u00e1n las precauciones necesarias para salvaguardar el derecho a la intimidad y a la protecci\u00f3n de los datos personales de las personas identificadas en ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "4. El Ministerio de Justicia remitir\u00e1 a la Comisi\u00f3n Europea y facilitar\u00e1 el acceso de cualquier interesado a la informaci\u00f3n recibida de conformidad con este art\u00edculo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 35. Supervisi\u00f3n y control."
+      },{
+        "@class": "parrafo",
+        "#text": "1. El Ministerio de Ciencia y Tecnolog\u00eda controlar\u00e1 el cumplimiento por los prestadores de servicios de la sociedad de la informaci\u00f3n de las obligaciones establecidas en esta Ley y en sus disposiciones de desarrollo, en lo que se refiere a los servicios propios de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "No obstante, las referencias a los \u00f3rganos competentes contenidas en los art\u00edculos 8, 10, 11, 15, 16, 17 y 38 se entender\u00e1n hechas a los \u00f3rganos jurisdiccionales o administrativos que, en cada caso, lo sean en funci\u00f3n de la materia."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El Ministerio de Ciencia y Tecnolog\u00eda podr\u00e1 realizar las actuaciones inspectoras que sean precisas para el ejercicio de su funci\u00f3n de control."
+      },{
+        "@class": "parrafo",
+        "#text": "Los funcionarios adscritos al Ministerio de Ciencia y Tecnolog\u00eda que ejerzan la inspecci\u00f3n a que se refiere el apartado anterior tendr\u00e1n la consideraci\u00f3n de autoridad p\u00fablica en el desempe\u00f1o de sus cometidos."
+      },{
+        "@class": "parrafo",
+        "#text": "3. En todo caso, y no obstante lo dispuesto en el apartado anterior, cuando las conductas realizadas por los prestadores de servicios de la sociedad de la informaci\u00f3n estuvieran sujetas, por raz\u00f3n de la materia o del tipo de entidad de que se trate, a \u00e1mbitos competenciales, de tutela o de supervisi\u00f3n espec\u00edficos, con independencia de que se lleven a cabo utilizando t\u00e9cnicas y medios telem\u00e1ticos o electr\u00f3nicos, los \u00f3rganos a los que la legislaci\u00f3n sectorial atribuya competencias de control, supervisi\u00f3n, inspecci\u00f3n o tutela espec\u00edfica ejercer\u00e1n las funciones que les correspondan."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 36. Deber de colaboraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Los prestadores de servicios de la sociedad de la informaci\u00f3n tienen la obligaci\u00f3n de facilitar al Ministerio de Ciencia y Tecnolog\u00eda y a los dem\u00e1s \u00f3rganos a que se refiere el art\u00edculo anterior toda la informaci\u00f3n y colaboraci\u00f3n precisas para el ejercicio de sus funciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Igualmente, deber\u00e1n permitir a sus agentes o al personal inspector el acceso a sus instalaciones y la consulta de cualquier documentaci\u00f3n relevante para la actividad de control de que se trate, siendo de aplicaci\u00f3n, en su caso, lo dispuesto en el art\u00edculo 8.5 de la Ley 29/1998, de 13 de julio, reguladora de la Jurisdicci\u00f3n Contencioso-Administrativa."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Cuando, como consecuencia de una actuaci\u00f3n inspectora, se tuviera conocimiento de hechos que pudieran ser constitutivos de infracciones tipificadas en otras leyes, estatales o auton\u00f3micas, se dar\u00e1 cuenta de los mismos a los \u00f3rganos u organismos competentes para su supervisi\u00f3n y sanci\u00f3n."
+      },{
+        "@class": "titulo_num",
+        "#text": "T\u00cdTULO VII"
+      },{
+        "@class": "titulo_tit",
+        "#text": "Infracciones y sanciones"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 37. Responsables."
+      },{
+        "@class": "parrafo",
+        "#text": "Los prestadores de servicios de la sociedad de la informaci\u00f3n est\u00e1n sujetos al r\u00e9gimen sancionador establecido en este T\u00edtulo cuando la presente Ley les sea de aplicaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 38. Infracciones."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Las infracciones de los preceptos de esta Ley se calificar\u00e1n como muy graves, graves y leves."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Son infracciones muy graves:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) El incumplimiento de las \u00f3rdenes dictadas en virtud del art\u00edculo 8 en aquellos supuestos en que hayan sido dictadas por un \u00f3rgano administrativo."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El incumplimiento de la obligaci\u00f3n de suspender la transmisi\u00f3n, el alojamiento de datos, el acceso a la red o la prestaci\u00f3n de cualquier otro servicio equivalente de intermediaci\u00f3n, cuando un \u00f3rgano administrativo competente lo ordene, en virtud de lo dispuesto en el art\u00edculo 11."
+      },{
+        "@class": "parrafo",
+        "#text": "c) El incumplimiento de la obligaci\u00f3n de retener los datos de tr\u00e1fico generados por las comunicaciones establecidas durante la prestaci\u00f3n de un servicio de la sociedad de la informaci\u00f3n, prevista en el art\u00edculo 12."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La utilizaci\u00f3n de los datos retenidos, en cumplimiento del art\u00edculo 12, para fines distintos de los se\u00f1alados en \u00e9l."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Son infracciones graves:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) El incumplimiento de lo establecido en los p\u00e1rrafos a) y f) del art\u00edculo 10.1."
+      },{
+        "@class": "parrafo",
+        "#text": "b) El env\u00edo masivo de comunicaciones comerciales por correo electr\u00f3nico u otro medio de comunicaci\u00f3n electr\u00f3nica equivalente a destinatarios que no hayan autorizado o solicitado expresamente su remisi\u00f3n, o el env\u00edo, en el plazo de un a\u00f1o, de m\u00e1s de tres comunicaciones comerciales por los medios aludidos a un mismo destinatario, cuando \u00e9ste no hubiera solicitado o autorizado su remisi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) No poner a disposici\u00f3n del destinatario del servicio las condiciones generales a que, en su caso, se sujete el contrato, en la forma prevista en el art\u00edculo 27."
+      },{
+        "@class": "parrafo",
+        "#text": "d) El incumplimiento habitual de la obligaci\u00f3n de confirmar la recepci\u00f3n de una aceptaci\u00f3n, cuando no se haya pactado su exclusi\u00f3n o el contrato se haya celebrado con un consumidor."
+      },{
+        "@class": "parrafo",
+        "#text": "e) La resistencia, excusa o negativa a la actuaci\u00f3n inspectora de los \u00f3rganos facultados para llevarla a cabo con arreglo a esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "4. Son infracciones leves:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) La falta de comunicaci\u00f3n al registro p\u00fablico en que est\u00e9n inscritos, de acuerdo con lo establecido en el art\u00edculo 9, del nombre o nombres de dominio o direcciones de Internet que empleen para la prestaci\u00f3n de servicios de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) No informar en la forma prescrita por el art\u00edculo 10.1 sobre los aspectos se\u00f1alados en los p\u00e1rrafos b), c), d), e) y g) del mismo."
+      },{
+        "@class": "parrafo",
+        "#text": "c) El incumplimiento de lo previsto en el art\u00edculo 20 para las comunicaciones comerciales, ofertas promocionales y concursos."
+      },{
+        "@class": "parrafo",
+        "#text": "d) El env\u00edo de comunicaciones comerciales por correo electr\u00f3nico u otro medio de comunicaci\u00f3n electr\u00f3nica equivalente a los destinatarios que no hayan solicitado o autorizado expresamente su remisi\u00f3n, cuando no constituya infracci\u00f3n grave."
+      },{
+        "@class": "parrafo",
+        "#text": "e) No facilitar la informaci\u00f3n a que se refiere el art\u00edculo 27.1, cuando las partes no hayan pactado su exclusi\u00f3n o el destinatario sea un consumidor."
+      },{
+        "@class": "parrafo",
+        "#text": "f) El incumplimiento de la obligaci\u00f3n de confirmar la recepci\u00f3n de una petici\u00f3n en los t\u00e9rminos establecidos en el art\u00edculo 28, cuando no se haya pactado su exclusi\u00f3n o el contrato se haya celebrado con un consumidor, salvo que constituya infracci\u00f3n grave."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 39. Sanciones."
+      },{
+        "@class": "parrafo",
+        "#text": "1. Por la comisi\u00f3n de las infracciones recogidas en el art\u00edculo anterior, se impondr\u00e1n las siguientes sanciones:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Por la comisi\u00f3n de infracciones muy graves, multa de 150.001 hasta 600.000 euros."
+      },{
+        "@class": "parrafo",
+        "#text": "La reiteraci\u00f3n en el plazo de tres a\u00f1os de dos o m\u00e1s infracciones muy graves, sancionadas con car\u00e1cter firme, podr\u00e1 dar lugar, en funci\u00f3n de sus circunstancias, a la sanci\u00f3n de prohibici\u00f3n de actuaci\u00f3n en Espa\u00f1a, durante un plazo m\u00e1ximo de dos a\u00f1os."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Por la comisi\u00f3n de infracciones graves, multa de 30.001 hasta 150.000 euros."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Por la comisi\u00f3n de infracciones leves, multa de hasta 30.000 euros."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las infracciones graves y muy graves podr\u00e1n llevar aparejada la publicaci\u00f3n, a costa del sancionado, de la resoluci\u00f3n sancionadora en el \"Bolet\u00edn Oficial del Estado\", o en el diario oficial de la Administraci\u00f3n p\u00fablica que, en su caso, hubiera impuesto la sanci\u00f3n; en dos peri\u00f3dicos cuyo \u00e1mbito de difusi\u00f3n coincida con el de actuaci\u00f3n de la citada Administraci\u00f3n p\u00fablica o en la p\u00e1gina de inicio del sitio de Internet del prestador, una vez que aqu\u00e9lla tenga car\u00e1cter firme."
+      },{
+        "@class": "parrafo",
+        "#text": "Para la imposici\u00f3n de esta sanci\u00f3n, se considerar\u00e1 la repercusi\u00f3n social de la infracci\u00f3n cometida, el n\u00famero de usuarios o de contratos afectados, y la gravedad del il\u00edcito."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Cuando las infracciones sancionables con arreglo a lo previsto en esta Ley hubieran sido cometidas por prestadores de servicios establecidos en Estados que no sean miembros de la Uni\u00f3n Europea o del Espacio Econ\u00f3mico Europeo, el \u00f3rgano que hubiera impuesto la correspondiente sanci\u00f3n podr\u00e1 ordenar a los prestadores de servicios de intermediaci\u00f3n que tomen las medidas necesarias para impedir el acceso desde Espa\u00f1a a los servicios ofrecidos por aqu\u00e9llos por un per\u00edodo m\u00e1ximo de dos a\u00f1os en el caso de infracciones muy graves, un a\u00f1o en el de infracciones graves y seis meses en el de infracciones leves."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 40. Graduaci\u00f3n de la cuant\u00eda de las sanciones."
+      },{
+        "@class": "parrafo",
+        "#text": "La cuant\u00eda de las multas que se impongan se graduar\u00e1 atendiendo a los siguientes criterios:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) La existencia de intencionalidad."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Plazo de tiempo durante el que se haya venido cometiendo la infracci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "c) La reincidencia por comisi\u00f3n de infracciones de la misma naturaleza, cuando as\u00ed haya sido declarado por resoluci\u00f3n firme."
+      },{
+        "@class": "parrafo",
+        "#text": "d) La naturaleza y cuant\u00eda de los perjuicios causados."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Los beneficios obtenidos por la infracci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Volumen de facturaci\u00f3n a que afecte la infracci\u00f3n cometida."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 41. Medidas de car\u00e1cter provisional."
+      },{
+        "@class": "parrafo",
+        "#text": "1. En los procedimientos sancionadores por infracciones graves o muy graves se podr\u00e1n adoptar, con arreglo a la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, y sus normas de desarrollo, las medidas de car\u00e1cter provisional previstas en dichas normas que se estimen necesarias para asegurar la eficacia de la resoluci\u00f3n que definitivamente se dicte, el buen fin del procedimiento, evitar el mantenimiento de los efectos de la infracci\u00f3n y las exigencias de los intereses generales."
+      },{
+        "@class": "parrafo",
+        "#text": "En particular, podr\u00e1n acordarse las siguientes:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) Suspensi\u00f3n temporal de la actividad del prestador de servicios y, en su caso, cierre provisional de sus establecimientos."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Precinto, dep\u00f3sito o incautaci\u00f3n de registros, soportes y archivos inform\u00e1ticos y de documentos en general, as\u00ed como de aparatos y equipos inform\u00e1ticos de todo tipo."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Advertir al p\u00fablico de la existencia de posibles conductas infractoras y de la incoaci\u00f3n del expediente sancionador de que se trate, as\u00ed como de las medidas adoptadas para el cese de dichas conductas."
+      },{
+        "@class": "parrafo",
+        "#text": "2. En la adopci\u00f3n y cumplimiento de las medidas a que se refiere el apartado anterior, se respetar\u00e1n, en todo caso, las garant\u00edas, normas y procedimientos previstos en el ordenamiento jur\u00eddico para proteger los derechos a la intimidad personal y familiar, a la protecci\u00f3n de los datos personales, a la libertad de expresi\u00f3n o a la libertad de informaci\u00f3n, cuando \u00e9stos pudieran resultar afectados."
+      },{
+        "@class": "parrafo",
+        "#text": "En todos los casos en que la Constituci\u00f3n, las normas reguladoras de los respectivos derechos y libertades o las que resulten aplicables a las diferentes materias atribuyan competencia a los \u00f3rganos jurisdiccionales para intervenir en el ejercicio de actividades o derechos, s\u00f3lo la autoridad judicial competente podr\u00e1 adoptar las medidas previstas en este art\u00edculo."
+      },{
+        "@class": "parrafo",
+        "#text": "3. En todo caso, se respetar\u00e1 el principio de proporcionalidad de la medida a adoptar con los objetivos que se pretendan alcanzar en cada supuesto."
+      },{
+        "@class": "parrafo",
+        "#text": "4. En casos de urgencia y para la inmediata protecci\u00f3n de los intereses implicados, las medidas provisionales previstas en el presente art\u00edculo podr\u00e1n ser acordadas antes de la iniciaci\u00f3n del expediente sancionador. Las medidas deber\u00e1n ser confirmadas, modificadas o levantadas en el acuerdo de iniciaci\u00f3n del procedimiento, que deber\u00e1 efectuarse dentro de los quince d\u00edas siguientes a su adopci\u00f3n, el cual podr\u00e1 ser objeto del recurso que proceda."
+      },{
+        "@class": "parrafo",
+        "#text": "En todo caso, dichas medidas quedar\u00e1n sin efecto si no se inicia el procedimiento sancionador en dicho plazo o cuando el acuerdo de iniciaci\u00f3n no contenga un pronunciamiento expreso acerca de las mismas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 42. Multa coercitiva."
+      },{
+        "@class": "parrafo",
+        "#text": "El \u00f3rgano administrativo competente para resolver el procedimiento sancionador podr\u00e1 imponer multas coercitivas por importe que no exceda de 6.000 euros por cada d\u00eda que transcurra sin cumplir las medidas provisionales que hubieran sido acordadas."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 43. Competencia sancionadora."
+      },{
+        "@class": "parrafo",
+        "#text": "1. La imposici\u00f3n de sanciones por el incumplimiento de lo previsto en esta Ley corresponder\u00e1, en el caso de infracciones muy graves, al Ministro de Ciencia y Tecnolog\u00eda, y en el de infracciones graves y leves, al Secretario de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "No obstante lo anterior, la imposici\u00f3n de sanciones por incumplimiento de las resoluciones dictadas por los \u00f3rganos competentes en funci\u00f3n de la materia o entidad de que se trate a que se refieren los p\u00e1rrafos a) y b) del art\u00edculo 38.2 de esta Ley corresponder\u00e1 al \u00f3rgano que dict\u00f3 la resoluci\u00f3n incumplida."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La potestad sancionadora regulada en esta Ley se ejercer\u00e1 de conformidad con lo establecido al respecto en la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan, y en sus normas de desarrollo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 44. Concurrencia de infracciones y sanciones."
+      },{
+        "@class": "parrafo",
+        "#text": "1. No podr\u00e1 ejercerse la potestad sancionadora a que se refiere la presente Ley cuando haya reca\u00eddo sanci\u00f3n penal, en los casos en que se aprecie identidad de sujeto, hecho y fundamento."
+      },{
+        "@class": "parrafo",
+        "#text": "No obstante, cuando se est\u00e9 tramitando un proceso penal por los mismos hechos o por otros cuya separaci\u00f3n de los sancionables con arreglo a esta Ley sea racionalmente imposible, el procedimiento quedar\u00e1 suspendido respecto de los mismos hasta que recaiga pronunciamiento firme de la autoridad judicial."
+      },{
+        "@class": "parrafo",
+        "#text": "Reanudado el expediente, en su caso, la resoluci\u00f3n que se dicte deber\u00e1 respetar los hechos declarados probados en la resoluci\u00f3n judicial."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La imposici\u00f3n de una sanci\u00f3n prevista en esta Ley no impedir\u00e1 la tramitaci\u00f3n y resoluci\u00f3n de otro procedimiento sancionador por los \u00f3rganos u organismos competentes en cada caso cuando la conducta infractora se hubiera cometido utilizando t\u00e9cnicas y medios telem\u00e1ticos o electr\u00f3nicos y resulte tipificada en otra Ley, siempre que no haya identidad del bien jur\u00eddico protegido."
+      },{
+        "@class": "parrafo",
+        "#text": "3. No proceder\u00e1 la imposici\u00f3n de sanciones seg\u00fan lo previsto en esta Ley cuando los hechos constitutivos de infracci\u00f3n lo sean tambi\u00e9n de otra tipificada en la normativa sectorial a la que est\u00e9 sujeto el prestador del servicio y exista identidad del bien jur\u00eddico protegido."
+      },{
+        "@class": "parrafo",
+        "#text": "Cuando, como consecuencia de una actuaci\u00f3n sancionadora, se tuviera conocimiento de hechos que pudieran ser constitutivos de infracciones tipificadas en otras leyes, se dar\u00e1 cuenta de los mismos a los \u00f3rganos u organismos competentes para su supervisi\u00f3n y sanci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo 45. Prescripci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Las infracciones muy graves prescribir\u00e1n a los tres a\u00f1os, las graves a los dos a\u00f1os y las leves a los seis meses; las sanciones impuestas por faltas muy graves prescribir\u00e1n a los tres a\u00f1os, las impuestas por faltas graves a los dos a\u00f1os y las impuestas por faltas leves al a\u00f1o."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Significado de los t\u00e9rminos empleados por esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "A los efectos de la presente Ley, los t\u00e9rminos definidos en el anexo tendr\u00e1n el significado que all\u00ed se les asigna."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Medicamentos y productos sanitarios."
+      },{
+        "@class": "parrafo",
+        "#text": "La prestaci\u00f3n de servicios de la sociedad de la informaci\u00f3n relacionados con los medicamentos y los productos sanitarios se regir\u00e1 por lo dispuesto en su legislaci\u00f3n espec\u00edfica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. Sistema Arbitral de Consumo."
+      },{
+        "@class": "parrafo",
+        "#text": "El prestador y el destinatario de servicios de la sociedad de la informaci\u00f3n podr\u00e1n someter sus conflictos al arbitraje de consumo, mediante la adhesi\u00f3n de aqu\u00e9llos al Sistema Arbitral de Consumo."
+      },{
+        "@class": "parrafo",
+        "#text": "La Junta Arbitral Nacional de Consumo y aquellas otras de \u00e1mbito territorial inferior, autorizadas para ello por el Instituto Nacional del Consumo, podr\u00e1n dirimir los conflictos planteados por los consumidores de acuerdo con lo dispuesto en el Real Decreto 636/1993, de 3 de mayo, que regula el Sistema Arbitral de Consumo, a trav\u00e9s de medios telem\u00e1ticos."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Modificaci\u00f3n de los C\u00f3digos Civil y de Comercio."
+      },{
+        "@class": "parrafo",
+        "#text": "Uno. Se modifica el art\u00edculo 1.262 del C\u00f3digo Civil, que queda redactado de la siguiente manera:"
+      },{
+        "@class": "sangrado",
+        "#text": "\"El consentimiento se manifiesta por el concurso de la oferta y de la aceptaci\u00f3n sobre la cosa y la causa que han de constituir el contrato."
+      },{
+        "@class": "sangrado",
+        "#text": "Hall\u00e1ndose en lugares distintos el que hizo la oferta y el que la acept\u00f3, hay consentimiento desde que el oferente conoce la aceptaci\u00f3n o desde que, habi\u00e9ndosela remitido el aceptante, no pueda ignorarla sin faltar a la buena fe. El contrato, en tal caso, se presume celebrado en el lugar en que se hizo la oferta."
+      },{
+        "@class": "sangrado",
+        "#text": "En los contratos celebrados mediante dispositivos autom\u00e1ticos hay consentimiento desde que se manifiesta la aceptaci\u00f3n.\""
+      },{
+        "@class": "parrafo",
+        "#text": "Dos. Se modifica el art\u00edculo 54 del C\u00f3digo de Comercio, que queda redactado de la siguiente manera:"
+      },{
+        "@class": "sangrado",
+        "#text": "\"Hall\u00e1ndose en lugares distintos el que hizo la oferta y el que la acept\u00f3, hay consentimiento desde que el oferente conoce la aceptaci\u00f3n o desde que, habi\u00e9ndosela remitido el aceptante, no pueda ignorarla sin faltar a la buena fe. El contrato, en tal caso, se presume celebrado en el lugar en que se hizo la oferta."
+      },{
+        "@class": "sangrado",
+        "#text": "En los contratos celebrados mediante dispositivos autom\u00e1ticos hay consentimiento desde que se manifiesta la aceptaci\u00f3n.\""
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional quinta. Accesibilidad para las personas con discapacidad y de edad avanzada a la informaci\u00f3n proporcionada por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "Uno. Las Administraciones p\u00fablicas adoptar\u00e1n las medidas necesarias para que la informaci\u00f3n disponible en sus respectivas p\u00e1ginas de Internet pueda ser accesible a personas con discapacidad y de edad avanzada, de acuerdo con los criterios de accesibilidad al contenido generalmente reconocidos, antes del 31 de diciembre de 2005."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, podr\u00e1n exigir que las p\u00e1ginas de Internet cuyo dise\u00f1o o mantenimiento financien apliquen los criterios de accesibilidad antes mencionados."
+      },{
+        "@class": "parrafo",
+        "#text": "Dos. Igualmente, se promover\u00e1 la adopci\u00f3n de normas de accesibilidad por los prestadores de servicios y los fabricantes de equipos y \"software\", para facilitar el acceso de las personas con discapacidad o de edad avanzada a los contenidos digitales."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional sexta. Sistema de asignaci\u00f3n de nombres de dominio bajo el \".es\"."
+      },{
+        "@class": "parrafo",
+        "#text": "Uno. Esta disposici\u00f3n regula, en cumplimiento de lo previsto en la disposici\u00f3n adicional decimosexta de la Ley 17/2001, de 7 de diciembre, de Marcas, los principios inspiradores del sistema de asignaci\u00f3n de nombres de dominio bajo el c\u00f3digo de pa\u00eds correspondiente a Espa\u00f1a \".es\"."
+      },{
+        "@class": "parrafo",
+        "#text": "Dos. La entidad p\u00fablica empresarial Red.es es la autoridad de asignaci\u00f3n, a la que corresponde la gesti\u00f3n del registro de nombres de dominio de Internet bajo el \".es\", de acuerdo con lo establecido en la disposici\u00f3n adicional sexta de la Ley 11/1998, de 24 de abril, General de Telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Tres. La asignaci\u00f3n de nombres de dominio de Internet bajo el \".es\" se realizar\u00e1 de conformidad con los criterios que se establecen en esta disposici\u00f3n, en el Plan Nacional de Nombres de Dominio de Internet, en las dem\u00e1s normas espec\u00edficas que se dicten en su desarrollo por la autoridad de asignaci\u00f3n y, en la medida en que sean compatibles con ellos, con las pr\u00e1cticas generalmente aplicadas y las recomendaciones emanadas de las entidades y organismos internacionales que desarrollan actividades relacionadas con la gesti\u00f3n del sistema de nombres de dominio de Internet."
+      },{
+        "@class": "parrafo",
+        "#text": "Los criterios de asignaci\u00f3n de nombres de dominio bajo el \".es\" deber\u00e1n garantizar un equilibrio adecuado entre la confianza y seguridad jur\u00eddica precisas para el desarrollo del comercio electr\u00f3nico y de otros servicios y actividades por v\u00eda electr\u00f3nica, y la flexibilidad y agilidad requeridas para posibilitar la satisfacci\u00f3n de la demanda de asignaci\u00f3n de nombres de dominio bajo el \".es\", contribuyendo, de esta manera, al desarrollo de la sociedad de la informaci\u00f3n en Espa\u00f1a."
+      },{
+        "@class": "parrafo",
+        "#text": "Podr\u00e1n crearse espacios diferenciados bajo el \".es\", que faciliten la identificaci\u00f3n de los contenidos que alberguen en funci\u00f3n de su titular o del tipo de actividad que realicen. Entre otros, podr\u00e1n crearse indicativos relacionados con la educaci\u00f3n, el entretenimiento y el adecuado desarrollo moral de la infancia y juventud. Estos nombres de dominio de tercer nivel se asignar\u00e1n en los t\u00e9rminos que se establezcan en el Plan Nacional de Nombres de Dominio de Internet."
+      },{
+        "@class": "parrafo",
+        "#text": "Cuatro. Podr\u00e1n solicitar la asignaci\u00f3n de nombres de dominio bajo el \".es\", en los t\u00e9rminos que se prevean en el Plan Nacional de Nombres de Dominio de Internet, todas las personas o entidades, con o sin personalidad jur\u00eddica, que tengan intereses o mantengan v\u00ednculos con Espa\u00f1a, siempre que re\u00fanan los dem\u00e1s requisitos exigibles para la obtenci\u00f3n de un nombre de dominio."
+      },{
+        "@class": "parrafo",
+        "#text": "Los nombres de dominio bajo el \".es\" se asignar\u00e1n al primer solicitante que tenga derecho a ello, sin que pueda otorgarse, con car\u00e1cter general, un derecho preferente para la obtenci\u00f3n o utilizaci\u00f3n de un nombre de dominio a los titulares de determinados derechos."
+      },{
+        "@class": "parrafo",
+        "#text": "La asignaci\u00f3n de un nombre de dominio confiere a su titular el derecho a su utilizaci\u00f3n, el cual estar\u00e1 condicionado al cumplimiento de los requisitos que en cada caso se establezcan, as\u00ed como a su mantenimiento en el tiempo. La verificaci\u00f3n por parte de la autoridad de asignaci\u00f3n del incumplimiento de estos requisitos dar\u00e1 lugar a la cancelaci\u00f3n del nombre de dominio, previa la tramitaci\u00f3n del procedimiento que en cada caso se determine y que deber\u00e1 garantizar la audiencia de los interesados."
+      },{
+        "@class": "parrafo",
+        "#text": "Los beneficiarios de un nombre de dominio bajo el \".es\" deber\u00e1n respetar las reglas y condiciones t\u00e9cnicas que pueda establecer la autoridad de asignaci\u00f3n para el adecuado funcionamiento del sistema de nombres de dominio bajo el \".es\"."
+      },{
+        "@class": "parrafo",
+        "#text": "La responsabilidad del uso correcto de un nombre de dominio de acuerdo con las leyes, as\u00ed como del respeto a los derechos de propiedad intelectual o industrial, corresponde a la persona u organizaci\u00f3n para la que se haya registrado dicho nombre de dominio, en los t\u00e9rminos previstos en esta Ley. La autoridad de asignaci\u00f3n proceder\u00e1 a la cancelaci\u00f3n de aquellos nombres de dominio cuyos titulares infrinjan esos derechos o condiciones, siempre que as\u00ed se ordene en la correspondiente resoluci\u00f3n judicial, sin perjuicio de lo que se prevea en aplicaci\u00f3n del apartado ocho de esta disposici\u00f3n adicional."
+      },{
+        "@class": "parrafo",
+        "#text": "Cinco. En el Plan Nacional de Nombres de Dominio de Internet se establecer\u00e1n mecanismos apropiados para prevenir el registro abusivo o especulativo de nombres de dominio, el aprovechamiento indebido de t\u00e9rminos de significado gen\u00e9rico o top\u00f3nimos y, en general, para prevenir los conflictos que se puedan derivar de la asignaci\u00f3n de nombres de dominio."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, el Plan incluir\u00e1 las cautelas necesarias para minimizar el riesgo de error o confusi\u00f3n de los usuarios en cuanto a la titularidad de nombres de dominio."
+      },{
+        "@class": "parrafo",
+        "#text": "A estos efectos, la entidad p\u00fablica empresarial Red.es establecer\u00e1 la necesaria coordinaci\u00f3n con los registros p\u00fablicos espa\u00f1oles. Sus titulares deber\u00e1n facilitar el acceso y consulta a dichos registros p\u00fablicos, que, en todo caso, tendr\u00e1 car\u00e1cter gratuito para la entidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Seis. La asignaci\u00f3n de nombres de dominio se llevar\u00e1 a cabo por medios telem\u00e1ticos que garanticen la agilidad y fiabilidad de los procedimientos de registro."
+      },{
+        "@class": "parrafo",
+        "#text": "La presentaci\u00f3n de solicitudes y la pr\u00e1ctica de notificaciones se realizar\u00e1n por v\u00eda electr\u00f3nica, salvo en los supuestos en que as\u00ed est\u00e9 previsto en los procedimientos de asignaci\u00f3n y dem\u00e1s operaciones asociadas al registro de nombres de dominio."
+      },{
+        "@class": "parrafo",
+        "#text": "Los agentes registradores, como intermediarios en los procedimientos relacionados con el registro de nombres de dominio, podr\u00e1n prestar servicios auxiliares para la asignaci\u00f3n y renovaci\u00f3n de \u00e9stos, de acuerdo con los requisitos y condiciones que determine la autoridad de asignaci\u00f3n, los cuales garantizar\u00e1n, en todo caso, el respeto al principio de libre competencia entre dichos agentes."
+      },{
+        "@class": "parrafo",
+        "#text": "Siete. El Plan Nacional de Nombres de Dominio de Internet se aprobar\u00e1 mediante Orden del Ministro de Ciencia y Tecnolog\u00eda, a propuesta de la entidad p\u00fablica empresarial Red.es."
+      },{
+        "@class": "parrafo",
+        "#text": "El Plan se completar\u00e1 con los procedimientos para la asignaci\u00f3n y dem\u00e1s operaciones asociadas al registro de nombres de dominio y direcciones de Internet que establezca el Presidente de la entidad p\u00fablica empresarial Red.es, de acuerdo con lo previsto en la disposici\u00f3n adicional decimoctava de la Ley 14/2000, de 29 de diciembre, de Medidas fiscales, administrativas y del orden social."
+      },{
+        "@class": "parrafo",
+        "#text": "Ocho. En los t\u00e9rminos que permitan las disposiciones aplicables, la autoridad de asignaci\u00f3n podr\u00e1 establecer un sistema de resoluci\u00f3n extrajudicial de conflictos sobre la utilizaci\u00f3n de nombres de dominio, incluidos los relacionados con los derechos de propiedad industrial. Este sistema, que asegurar\u00e1 a las partes afectadas las garant\u00edas procesales adecuadas, se aplicar\u00e1 sin perjuicio de las eventuales acciones judiciales que las partes puedan ejercitar."
+      },{
+        "@class": "parrafo",
+        "#text": "Nueve. Con la finalidad de impulsar el desarrollo de la Administraci\u00f3n electr\u00f3nica, la entidad p\u00fablica empresarial Red.es podr\u00e1 prestar el servicio de notificaciones administrativas telem\u00e1ticas y acreditar de forma fehaciente la fecha y hora de su recepci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. Anotaci\u00f3n en los correspondientes registros p\u00fablicos de los nombres de dominio otorgados antes de la entrada en vigor de esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Los prestadores de servicios que, a la entrada en vigor de esta Ley, ya vinieran utilizando uno o m\u00e1s nombres de dominio o direcciones de Internet deber\u00e1n solicitar la anotaci\u00f3n de, al menos, uno de ellos en el registro p\u00fablico en que figuraran inscritos a efectos constitutivos o de publicidad, en el plazo de un a\u00f1o desde la referida entrada en vigor."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. Modificaci\u00f3n del art\u00edculo 37 de la Ley 11/1998, de 24 de abril, General de Telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Se modifica el p\u00e1rrafo a) del apartado 1 del art\u00edculo 37 de la Ley 11/1998, de 24 de abril, General de Telecomunicaciones, que queda redactada en los siguientes t\u00e9rminos:"
+      },{
+        "@class": "sangrado",
+        "#text": "\"a) Que los ciudadanos puedan recibir conexi\u00f3n a la red telef\u00f3nica p\u00fablica fija y acceder a la prestaci\u00f3n del servicio telef\u00f3nico fijo disponible para el p\u00fablico. La conexi\u00f3n debe ofrecer al usuario la posibilidad de emitir y recibir llamadas nacionales e internacionales y permitir la transmisi\u00f3n de voz, fax y datos a velocidad suficiente para acceder de forma funcional a Internet."
+      },{
+        "@class": "sangrado",
+        "#text": "A estos efectos, se considerar\u00e1 que la velocidad suficiente a la que se refiere el p\u00e1rrafo anterior es la que se utiliza de manera generalizada para acceder a Internet por los abonados al servicio telef\u00f3nico fijo disponible para el p\u00fablico con conexi\u00f3n a la red mediante pares de cobre y m\u00f3dem para banda vocal.\""
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Modificaci\u00f3n de la disposici\u00f3n adicional sexta de la Ley 11/1998, de 24 de abril, General de Telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Se modifica el apartado 10 de la disposici\u00f3n adicional sexta de la Ley 11/1998, de 24 de abril, General de"
+      },{
+        "@class": "parrafo",
+        "#text": "Telecomunicaciones, que quedar\u00e1 redactado como sigue:"
+      },{
+        "@class": "sangrado",
+        "#text": "\"10. Tasa por asignaci\u00f3n del recurso limitado de nombres de dominio y direcciones de Internet."
+      },{
+        "@class": "sangrado",
+        "#text": "a) Hecho imponible."
+      },{
+        "@class": "sangrado",
+        "#text": "El hecho imponible de la tasa por asignaci\u00f3n de nombres de dominio y direcciones de Internet estar\u00e1 constituido por la realizaci\u00f3n por la entidad p\u00fablica empresarial Red.es de las actividades necesarias para la asignaci\u00f3n y renovaci\u00f3n de nombres de dominio y direcciones de Internet bajo el c\u00f3digo de pa\u00eds correspondiente a Espa\u00f1a (.es)."
+      },{
+        "@class": "sangrado",
+        "#text": "b) Sujetos pasivos."
+      },{
+        "@class": "sangrado",
+        "#text": "Ser\u00e1n sujetos pasivos de la tasa los solicitantes de la asignaci\u00f3n o renovaci\u00f3n de los nombres y direcciones de Internet."
+      },{
+        "@class": "sangrado",
+        "#text": "c) Cuant\u00eda."
+      },{
+        "@class": "sangrado",
+        "#text": "La cuant\u00eda de la tasa ser\u00e1 \u00fanica por cada nombre o direcci\u00f3n cuya asignaci\u00f3n o renovaci\u00f3n se solicite. En ning\u00fan caso se proceder\u00e1 a la asignaci\u00f3n o a la renovaci\u00f3n del nombre o direcci\u00f3n sin que se haya efectuado previamente el pago de la tasa."
+      },{
+        "@class": "sangrado",
+        "#text": "S\u00f3lo podr\u00e1n modificarse mediante Ley el n\u00famero e identidad de los elementos y criterios de cuantificaci\u00f3n con base en los cuales se determinan las cuotas exigibles."
+      },{
+        "@class": "sangrado",
+        "#text": "A los efectos previstos en el p\u00e1rrafo anterior, se consideran elementos y criterios de cuantificaci\u00f3n del importe exigible por asignaci\u00f3n anual inicial de los nombres de dominio o direcciones de Internet el n\u00famero asignado, el coste de las actividades de comprobaci\u00f3n y verificaci\u00f3n de las solicitudes de asignaci\u00f3n, as\u00ed como el nivel en que se produzca la asignaci\u00f3n y, en el caso de renovaci\u00f3n anual en los a\u00f1os sucesivos, el coste del mantenimiento de la asignaci\u00f3n y de las actividades de comprobaci\u00f3n y de actualizaci\u00f3n de datos."
+      },{
+        "@class": "sangrado",
+        "#text": "Igualmente, se atender\u00e1 al n\u00famero de nombres o direcciones de Internet asignados y a la actuaci\u00f3n a trav\u00e9s de agentes registradores para concretar la cuant\u00eda de la tasa."
+      },{
+        "@class": "sangrado",
+        "#text": "El establecimiento y modificaci\u00f3n de las cuant\u00edas resultantes de la aplicaci\u00f3n de los elementos y criterios de cuantificaci\u00f3n a que se refieren los p\u00e1rrafos anteriores podr\u00e1 efectuarse mediante Orden ministerial."
+      },{
+        "@class": "sangrado",
+        "#text": "No obstante lo dispuesto en los p\u00e1rrafos anteriores de este apartado, en los supuestos de car\u00e1cter excepcional en que as\u00ed est\u00e9 previsto en el Plan Nacional de Nombres de Dominio de Internet y en los t\u00e9rminos que en el mismo se fijen, con base en el especial valor de mercado del uso de determinados nombres y direcciones, la cuant\u00eda por asignaci\u00f3n anual inicial podr\u00e1 sustituirse por la que resulte de un procedimiento de licitaci\u00f3n en el que se fijar\u00e1 un valor inicial de referencia estimado. Si el valor de adjudicaci\u00f3n de la licitaci\u00f3n resultase superior a dicho valor de referencia, aqu\u00e9l constituir\u00e1 el importe de la tasa. En los supuestos en que se siga este procedimiento de licitaci\u00f3n, el Ministerio de Ciencia y Tecnolog\u00eda requerir\u00e1, con car\u00e1cter previo a su convocatoria, a la autoridad competente para el Registro de Nombres de Dominio para que suspenda el otorgamiento de los nombres y direcciones que considere afectados por su especial valor econ\u00f3mico. A continuaci\u00f3n, se proceder\u00e1 a aprobar el correspondiente pliego de bases que establecer\u00e1, tomando en consideraci\u00f3n lo previsto en el Plan Nacional de Nombres de Dominio de Internet, los requisitos, condiciones y r\u00e9gimen aplicable a la licitaci\u00f3n."
+      },{
+        "@class": "sangrado",
+        "#text": "d) Devengo."
+      },{
+        "@class": "sangrado",
+        "#text": "La tasa se devengar\u00e1 en la fecha en que se proceda, en los t\u00e9rminos que se establezcan reglamentariamente, a la admisi\u00f3n de la solicitud de asignaci\u00f3n o de renovaci\u00f3n de los nombres o direcciones de Internet, que no se tramitar\u00e1 sin que se haya efectuado el pago correspondiente."
+      },{
+        "@class": "sangrado",
+        "#text": "e) Exacci\u00f3n y gesti\u00f3n recaudatoria."
+      },{
+        "@class": "sangrado",
+        "#text": "La exacci\u00f3n de la tasa se producir\u00e1 a partir de la atribuci\u00f3n de su gesti\u00f3n a la entidad p\u00fablica empresarial Red.es y de la determinaci\u00f3n del procedimiento para su liquidaci\u00f3n y pago, mediante Orden ministerial."
+      },{
+        "@class": "sangrado",
+        "#text": "Los modelos de declaraci\u00f3n, plazos y formas de pago de la tasa se aprobar\u00e1n mediante resoluci\u00f3n de la entidad p\u00fablica empresarial Red.es."
+      },{
+        "@class": "sangrado",
+        "#text": "El importe de los ingresos obtenidos por esta tasa se destinar\u00e1 a financiar los gastos de la entidad p\u00fablica empresarial Red.es por las actividades realizadas en el cumplimiento de las funciones asignadas a la misma en los p\u00e1rrafos a), b), c) y d) del apartado 4 de esta disposici\u00f3n, ingres\u00e1ndose, en su caso, el excedente en el Tesoro P\u00fablico, de acuerdo con la proporci\u00f3n y cuant\u00eda que se determine mediante resoluci\u00f3n conjunta de las Secretar\u00edas de Estado de Presupuestos y Gastos y de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n, a propuesta de esta \u00faltima.\""
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final tercera. Adici\u00f3n de una nueva disposici\u00f3n transitoria a la Ley 11/1998, de 24 de abril, General de Telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Se a\u00f1ade a la Ley 11/1998, de 24 de abril, General de Telecomunicaciones, una nueva disposici\u00f3n transitoria duod\u00e9cima, con la siguiente redacci\u00f3n:"
+      },{
+        "@class": "sangrado_articulo",
+        "#text": "\"Disposici\u00f3n transitoria duod\u00e9cima. Criterios para el desarrollo del plan de actualizaci\u00f3n tecnol\u00f3gica de la red de acceso de la red telef\u00f3nica p\u00fablica fija."
+      },{
+        "@class": "sangrado",
+        "#text": "En el plazo m\u00e1ximo de cinco meses a partir de la entrada en vigor de esta disposici\u00f3n, el operador designado para la prestaci\u00f3n del servicio universal presentar\u00e1 al Ministerio de Ciencia y Tecnolog\u00eda, para su aprobaci\u00f3n en el plazo de un mes, previo informe de la Comisi\u00f3n del Mercado de las Telecomunicaciones, un plan de actuaci\u00f3n detallado para garantizar que las conexiones a la red telef\u00f3nica p\u00fablica fija posibiliten a sus abonados el acceso funcional a Internet y, en particular, a los conectados mediante Telefon\u00eda Rural de Acceso Celular (TRAC)."
+      },{
+        "@class": "sangrado",
+        "#text": "El desarrollo del plan estar\u00e1 sujeto a las siguientes condiciones:"
+      },{
+        "@class": "sangrado",
+        "#text": "a) Incluir\u00e1 soluciones tecnol\u00f3gicas eficientes disponibles en el mercado para garantizar el derecho de los usuarios a disponer, previa solicitud a partir de la aprobaci\u00f3n del plan, de la posibilidad de acceso funcional a Internet en el plazo m\u00e1ximo de sesenta d\u00edas desde la fecha de dicha solicitud en las zonas con cobertura. Estas soluciones tecnol\u00f3gicas deber\u00e1n prever su evoluci\u00f3n a medio plazo hacia velocidades de banda ancha sin que ello conlleve necesariamente su sustituci\u00f3n."
+      },{
+        "@class": "sangrado",
+        "#text": "b) La implantaci\u00f3n en la red de acceso de las soluciones tecnol\u00f3gicas a las que se refiere el p\u00e1rrafo a) deber\u00e1 alcanzar a los abonados al servicio telef\u00f3nico fijo disponible al p\u00fablico que, en la fecha de aprobaci\u00f3n del plan, no tienen la posibilidad de acceso funcional a Internet, de acuerdo con el siguiente calendario:"
+      },{
+        "@class": "sangrado",
+        "#text": "1.\u00ba Al menos al 30 por 100 antes del 30 de junio de 2003."
+      },{
+        "@class": "sangrado",
+        "#text": "2.\u00ba Al menos al 70 por 100 antes del 31 de diciembre de 2003."
+      },{
+        "@class": "sangrado",
+        "#text": "3.\u00ba El 100 por 100 antes del 31 de diciembre de 2004."
+      },{
+        "@class": "sangrado",
+        "#text": "En todo caso, esta implantaci\u00f3n alcanzar\u00e1, al menos, al 50 por 100 de los citados abonados en cada una de las Comunidades Aut\u00f3nomas antes del 31 de diciembre de 2003."
+      },{
+        "@class": "sangrado",
+        "#text": "c) En el plan de actuaci\u00f3n deber\u00e1 priorizarse el despliegue al que se refiere el p\u00e1rrafo b) con arreglo al criterio de mayor densidad de abonados afectados."
+      },{
+        "@class": "sangrado",
+        "#text": "d) A los efectos de lo dispuesto en los apartados anteriores y en caso de que sea necesario, el operador designado para la prestaci\u00f3n del servicio universal podr\u00e1 concluir con otros operadores titulares de concesiones de dominio p\u00fablico radioel\u00e9ctrico, contratos de cesi\u00f3n de derechos de uso de las bandas de frecuencias necesarias para el cumplimiento de los objetivos establecidos en esta disposici\u00f3n. Dichos contratos deber\u00e1n ser sometidos a la previa aprobaci\u00f3n por parte del Ministerio de Ciencia y Tecnolog\u00eda, que podr\u00e1 establecer las condiciones de salvaguarda del inter\u00e9s p\u00fablico que estime necesarias.\""
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final cuarta. Modificaci\u00f3n de la disposici\u00f3n derogatoria \u00fanica de la Ley 11/1998, de 24 de abril, General de Telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "Se modifica el \u00faltimo p\u00e1rrafo de la disposici\u00f3n derogatoria \u00fanica de la Ley 11/1998, de 24 de abril, General de Telecomunicaciones, que queda redactado de la siguiente forma:"
+      },{
+        "@class": "sangrado",
+        "#text": "\"Igualmente, quedan derogadas cuantas otras disposiciones de igual o inferior rango a la presente Ley se opongan a lo dispuesto en ella y, en especial, a lo dispuesto en el art\u00edculo 37.1.\u00aa), en lo relativo a la velocidad de transmisi\u00f3n de datos.\""
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final quinta. Adecuaci\u00f3n de la regulaci\u00f3n reglamentaria sobre contrataci\u00f3n telef\u00f3nica o electr\u00f3nica con condiciones generales a esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "El Gobierno, en el plazo de un a\u00f1o, modificar\u00e1 el Real Decreto 1906/1999, de 17 de diciembre, por el que se regula la contrataci\u00f3n telef\u00f3nica o electr\u00f3nica con condiciones generales en desarrollo del art\u00edculo 5.3 de la Ley 7/1998, de 13 de abril, sobre condiciones generales de la contrataci\u00f3n, para adaptar su contenido a lo dispuesto en esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "En dicha modificaci\u00f3n, el Gobierno tendr\u00e1 especialmente en cuenta la necesidad de facilitar la utilizaci\u00f3n real de los contratos electr\u00f3nicos, conforme al mandato recogido en el art\u00edculo 9.1 de la Directiva 2000/31/CE."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final sexta. Fundamento constitucional."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta Ley se dicta al amparo del art\u00edculo 149.1.6.\u00aa, 8.\u00aa y 21.\u00aa de la Constituci\u00f3n, sin perjuicio de las competencias de las Comunidades Aut\u00f3nomas."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final s\u00e9ptima. Habilitaci\u00f3n al Gobierno."
+      },{
+        "@class": "parrafo",
+        "#text": "Se habilita al Gobierno para desarrollar mediante Reglamento lo previsto en esta Ley."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final octava. Distintivo de adhesi\u00f3n a c\u00f3digos de conducta que incorporen determinadas garant\u00edas."
+      },{
+        "@class": "parrafo",
+        "#text": "En el plazo de un a\u00f1o a partir de la entrada en vigor de esta Ley, el Gobierno aprobar\u00e1 un distintivo que permita identificar a los prestadores de servicios que respeten c\u00f3digos de conducta adoptados con la participaci\u00f3n del Consejo de Consumidores y Usuarios, y que incluyan, entre otros contenidos, la adhesi\u00f3n al Sistema Arbitral de Consumo o a otros sistemas de resoluci\u00f3n extrajudicial de conflictos que respeten los principios establecidos en la normativa comunitaria sobre sistemas alternativos de resoluci\u00f3n de conflictos con consumidores, en los t\u00e9rminos que reglamentariamente se establezcan."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final novena. Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta Ley entrar\u00e1 en vigor a los tres meses de su publicaci\u00f3n en el \"Bolet\u00edn Oficial del Estado\"."
+      },{
+        "@class": "parrafo",
+        "#text": "No obstante, las disposiciones adicional sexta y finales primera, segunda, tercera y cuarta de esta Ley entrar\u00e1n en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \"Bolet\u00edn Oficial del Estado\"."
+      },{
+        "@class": "parrafo",
+        "#text": "Por tanto,"
+      },{
+        "@class": "parrafo",
+        "#text": "Mando a todos los espa\u00f1oles, particulares y autoridades, que guarden y hagan guardar esta Ley."
+      },{
+        "@class": "parrafo",
+        "#text": "Madrid, 11 de julio de 2002."
+      },{
+        "@class": "firma_rey",
+        "#text": "JUAN CARLOS R."
+      },{
+        "@class": "firma_ministro",
+        "#text": "El Presidente del Gobierno,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "JOS\u00c9 MAR\u00cdA AZNAR L\u00d3PEZ"
+      },{
+        "@class": "anexo_num",
+        "#text": "ANEXO"
+      },{
+        "@class": "anexo_tit",
+        "#text": "Definiciones"
+      },{
+        "@class": "parrafo",
+        "#text": "A los efectos de esta Ley, se entender\u00e1 por:"
+      },{
+        "@class": "parrafo",
+        "#text": "a) \"Servicios de la sociedad de la informaci\u00f3n\" o \"servicios\": todo servicio prestado normalmente a t\u00edtulo oneroso, a distancia, por v\u00eda electr\u00f3nica y a petici\u00f3n individual del destinatario."
+      },{
+        "@class": "parrafo",
+        "#text": "El concepto de servicio de la sociedad de la informaci\u00f3n comprende tambi\u00e9n los servicios no remunerados por sus destinatarios, en la medida en que constituyan una actividad econ\u00f3mica para el prestador de servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "Son servicios de la sociedad de la informaci\u00f3n, entre otros y siempre que representen una actividad econ\u00f3mica, los siguientes:"
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u00ba La contrataci\u00f3n de bienes o servicios por v\u00eda electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u00ba La organizaci\u00f3n y gesti\u00f3n de subastas por medios electr\u00f3nicos o de mercados y centros comerciales virtuales."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u00ba La gesti\u00f3n de compras en la red por grupos de personas."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u00ba El env\u00edo de comunicaciones comerciales."
+      },{
+        "@class": "parrafo",
+        "#text": "5.\u00ba El suministro de informaci\u00f3n por v\u00eda telem\u00e1tica."
+      },{
+        "@class": "parrafo",
+        "#text": "6.\u00ba El v\u00eddeo bajo demanda, como servicio en que el usuario puede seleccionar a trav\u00e9s de la red, tanto el programa deseado como el momento de su suministro y recepci\u00f3n, y, en general, la distribuci\u00f3n de contenidos previa petici\u00f3n individual."
+      },{
+        "@class": "parrafo",
+        "#text": "No tendr\u00e1n la consideraci\u00f3n de servicios de la sociedad de la informaci\u00f3n los que no re\u00fanan las caracte r\u00edsticas se\u00f1aladas en el primer p\u00e1rrafo de este apartado y, en particular, los siguientes:"
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u00ba Los servicios prestados por medio de telefon\u00eda vocal, fax o t\u00e9lex."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u00ba El intercambio de informaci\u00f3n por medio de correo electr\u00f3nico u otro medio de comunicaci\u00f3n electr\u00f3nica equivalente para fines ajenos a la actividad econ\u00f3mica de quienes lo utilizan."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u00ba Los servicios de radiodifusi\u00f3n televisiva (incluidos los servicios de cuasiv\u00eddeo a la carta), contemplados en el art\u00edculo 3.\u00aa) de la Ley 25/1994, de 12 de julio, por la que se incorpora al ordenamiento jur\u00eddico espa\u00f1ol la Directiva 89/552/CEE, del Consejo, de 3 de octubre, sobre la coordinaci\u00f3n de determinadas disposiciones legales, reglamentarias y administrativas de los Estados miembros relativas al ejercicio de actividades de radiodifusi\u00f3n televisiva, o cualquier otra que la sustituya."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u00ba Los servicios de radiodifusi\u00f3n sonora, y 5.\u00ba El teletexto televisivo y otros servicios equivalentes como las gu\u00edas electr\u00f3nicas de programas ofrecidas a trav\u00e9s de las plataformas televisivas."
+      },{
+        "@class": "parrafo",
+        "#text": "b) \"Servicio de intermediaci\u00f3n\": servicio de la sociedad de la informaci\u00f3n por el que se facilita la prestaci\u00f3n o utilizaci\u00f3n de otros servicios de la sociedad de la informaci\u00f3n o el acceso a la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Son servicios de intermediaci\u00f3n la provisi\u00f3n de servicios de acceso a Internet, la transmisi\u00f3n de datos por redes de telecomunicaciones, la realizaci\u00f3n de copia temporal de las p\u00e1ginas de Internet solicitadas por los usuarios, el alojamiento en los propios servidores de datos, aplicaciones o servicios suministrados por otros y la provisi\u00f3n de instrumentos de b\u00fasqueda, acceso y recopilaci\u00f3n de datos o de enlaces a otros sitios de Internet."
+      },{
+        "@class": "parrafo",
+        "#text": "c) \"Prestador de servicios\" o \"prestador\": persona f\u00edsica o jur\u00eddica que proporciona un servicio de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "d) \"Destinatario del servicio\" o \"destinatario\": persona f\u00edsica o jur\u00eddica que utiliza, sea o no por motivos profesionales, un servicio de la sociedad de la informaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "e) \"Consumidor\": persona f\u00edsica o jur\u00eddica en los t\u00e9rminos establecidos en el art\u00edculo 1 de la Ley 26/1984, de 19 de julio, General para la Defensa de los Consumidores y Usuarios."
+      },{
+        "@class": "parrafo",
+        "#text": "f) \"Comunicaci\u00f3n comercial\": toda forma de comunicaci\u00f3n dirigida a la promoci\u00f3n, directa o indirecta, de la imagen o de los bienes o servicios de una empresa, organizaci\u00f3n o persona que realice una actividad comercial, industrial, artesanal o profesional."
+      },{
+        "@class": "parrafo",
+        "#text": "A efectos de esta Ley, no tendr\u00e1n la consideraci\u00f3n de comunicaci\u00f3n comercial los datos que permitan acceder directamente a la actividad de una persona, empresa u organizaci\u00f3n, tales como el nombre de dominio o la direcci\u00f3n de correo electr\u00f3nico, ni las comunicaciones relativas a los bienes, los servicios o la imagen que se ofrezca cuando sean elaboradas por un tercero y sin contraprestaci\u00f3n econ\u00f3mica."
+      },{
+        "@class": "parrafo",
+        "#text": "g) \"Profesi\u00f3n regulada\": toda actividad profesional que requiera para su ejercicio la obtenci\u00f3n de un t\u00edtulo, en virtud de disposiciones legales o reglamentarias."
+      },{
+        "@class": "parrafo",
+        "#text": "h) \"Contrato celebrado por v\u00eda electr\u00f3nica\" o \"contrato electr\u00f3nico\": todo contrato en el que la oferta y la aceptaci\u00f3n se transmiten por medio de equipos electr\u00f3nicos de tratamiento y almacenamiento de datos, conectados a una red de telecomunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "i) \"\u00c1mbito normativo coordinado\": todos los requisitos aplicables a los prestadores de servicios de la sociedad de la informaci\u00f3n, ya vengan exigidos por la presente Ley u otras normas que regulen el ejercicio de actividades econ\u00f3micas por v\u00eda electr\u00f3nica, o por las leyes generales que les sean de aplicaci\u00f3n, y que se refieran a los siguientes aspectos:"
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u00ba Comienzo de la actividad, como las titulaciones profesionales o cualificaciones requeridas, la publicidad registral, las autorizaciones administrativas o colegiales precisas, los reg\u00edmenes de notificaci\u00f3n a cualquier \u00f3rgano u organismo p\u00fablico o privado, y 2.\u00ba Posterior ejercicio de dicha actividad, como los requisitos referentes a la actuaci\u00f3n del prestador de servicios, a la calidad, seguridad y contenido del servicio, o los que afectan a la publicidad y a la contrataci\u00f3n por v\u00eda electr\u00f3nica y a la responsabilidad del prestador de servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "No quedan incluidos en este \u00e1mbito las condiciones relativas a las mercanc\u00edas y bienes tangibles, a su entrega ni a los servicios no prestados por medios electr\u00f3nicos."
+      },{
+        "@class": "parrafo",
+        "#text": "j) \"\u00d3rgano competente\": todo \u00f3rgano jurisdiccional o administrativo, ya sea de la Administraci\u00f3n General del Estado, de las Administraciones Auton\u00f3micas, de las Entidades locales o de sus respectivos organismos o entes p\u00fablicos dependientes, que act\u00fae en el ejercicio de competencias legalmente atribuidas."
+      }
+    ]
+  }
+}
+}

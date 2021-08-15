@@ -6,3 +6,4 @@ munch==2.5.0
 pelican==4.0.1
 PyYAML==5.4.1
 requests==2.20.0
+xmltodict==0.12.0

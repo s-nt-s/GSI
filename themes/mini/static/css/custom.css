@@ -64,6 +64,6 @@ body.apuntes_b1_firma div.figgroup2 img {
   max-height: 222px;
 }
 
-a.derogada {
+a.derogada, a.agotada, a.anulada {
   color: red;
 }

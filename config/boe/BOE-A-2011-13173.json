@@ -1,0 +1,793 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20190612132601",
+  "metadatos": {
+    "identificador": "BOE-A-2011-13173",
+    "titulo": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de requisitos de conexi\u00f3n a la red de comunicaciones de las Administraciones P\u00fablicas espa\u00f1olas.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "182",
+    "seccion": "3",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9529",
+      "#text": "Ministerio de Pol\u00edtica Territorial y Administraci\u00f3n P\u00fablica"
+    },
+    "rango": {
+      "@codigo": "1370",
+      "#text": "Resoluci\u00f3n"
+    },
+    "numero_oficial": null,
+    "fecha_disposicion": "20110719",
+    "fecha_publicacion": "20110730",
+    "fecha_vigencia": "20110731",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "87138",
+    "pagina_final": "87144",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": null,
+    "url_pdf": "/boe/dias/2011/07/30/pdfs/BOE-A-2011-13173.pdf",
+    "url_pdf_catalan": null,
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": null,
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/res/2011/07/19/(7)"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2011-13173"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2011-07-19"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "(7)"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2011-13173"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(7)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/con/20110730"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de requisitos de conexi\u00f3n a la red de comunicaciones de las Administraciones P\u00fablicas espa\u00f1olas."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-07-30"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof"
+                  },
+                  "eli:is_embodied_by": [
+                    {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof/spa/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof/spa"
+                        }
+                      }
+                    },{
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof/spa/xml",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof/spa"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/con/20110730",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2011-13173"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-19"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "(7)"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2011-07-30"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/con/20110730/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Resoluci\u00f3n de 19 de julio de 2011, de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de requisitos de conexi\u00f3n a la red de comunicaciones de las Administraciones P\u00fablicas espa\u00f1olas."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2011-07-30"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/con/20110730"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/res/2011/07/19/(7)/con/20110730/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/res/2011/07/19/(7)/con/20110730/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "37",
+        "@orden": "220",
+        "#text": "Aplicable desde el 31 de julio de 2011."
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "1508",
+          "@orden": "",
+          "#text": "Administraci\u00f3n electr\u00f3nica"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "7894",
+          "@orden": "",
+          "#text": "Comunicaciones electr\u00f3nicas"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6020",
+          "@orden": "",
+          "#text": "Reglamentaciones t\u00e9cnicas"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2010-1331",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
+          },{
+            "@referencia": "BOE-A-2007-12352",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "Ley 11/2007, de 22 de junio"
+          }
+        ]
+      },
+      "posteriores": null
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
+      },{
+        "@class": "parrafo",
+        "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
+      },{
+        "@class": "parrafo",
+        "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, la Norma T\u00e9cnica de Interoperabilidad de Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas se desarrolla bajo lo establecido en el art\u00edculo 43 de la Ley 11/2007, de 22 de junio, y art\u00edculo 13 del Real Decreto 4/2010, de 8 de enero, para posibilitar la interconexi\u00f3n de las redes de las Administraciones p\u00fablicas y permitir el intercambio de informaci\u00f3n entre las mismas, as\u00ed como la interconexi\u00f3n con las redes de las Instituciones de la Uni\u00f3n Europea y de otros Estados Miembros."
+      },{
+        "@class": "parrafo",
+        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas establece las condiciones en las que cualquier \u00f3rgano de una Administraci\u00f3n, o Entidad de Derecho P\u00fablico vinculada o dependiente de aqu\u00e9lla, acceder\u00e1 a la Red SARA, y describe los roles y responsabilidades de los agentes que se conectan a la Red SARA as\u00ed como los requisitos para la conexi\u00f3n, acceso y uso de los servicios que se prestan a trav\u00e9s de aqu\u00e9lla."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero, esta Secretar\u00eda de Estado resuelve:"
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Primero."
+      },{
+        "@class": "parrafo",
+        "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, cuyo texto se incluye a continuaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "[precepto]Segundo."
+      },{
+        "@class": "parrafo",
+        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la disposici\u00f3n transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Madrid, 19 de julio de 2011.\u2013La Secretaria de Estado para la Funci\u00f3n P\u00fablica, Mar\u00eda Consuelo Rum\u00ed Ib\u00e1\u00f1ez."
+      },{
+        "@class": "anexo",
+        "#text": "[encabezado]NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE REQUISITOS DE CONEXI\u00d3N A LA RED DE COMUNICACIONES DE LAS ADMINISTRACIONES P\u00daBLICAS ESPA\u00d1OLAS"
+      },{
+        "@class": "centro_cursiva",
+        "#text": "\u00cdndice"
+      },{
+        "@class": "parrafo_2",
+        "#text": "I. Consideraciones generales."
+      },{
+        "@class": "parrafo_2",
+        "#text": "I.1 Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "II. Agentes y conexi\u00f3n a la Red SARA."
+      },{
+        "@class": "parrafo_2",
+        "#text": "II.1 Conexi\u00f3n a la Red SARA."
+      },{
+        "@class": "parrafo",
+        "#text": "II.2 MPTAP-Centro de Soporte de la Red SARA."
+      },{
+        "@class": "parrafo",
+        "#text": "II.3 Proveedores de Acceso a la Red SARA (PAS)."
+      },{
+        "@class": "parrafo",
+        "#text": "II.4 \u00d3rganos usuarios finales."
+      },{
+        "@class": "parrafo_2",
+        "#text": "III. Requisitos t\u00e9cnicos para la conexi\u00f3n del PAS."
+      },{
+        "@class": "parrafo_2",
+        "#text": "III.1 Esquema del \u00c1rea de Conexi\u00f3n (AC)."
+      },{
+        "@class": "parrafo",
+        "#text": "III.2 Administraci\u00f3n de la conexi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "III.3 Plan de direccionamiento."
+      },{
+        "@class": "parrafo",
+        "#text": "III.4 Dotaci\u00f3n de elementos de conectividad."
+      },{
+        "@class": "parrafo",
+        "#text": "III.5 Garant\u00edas de acondicionamiento f\u00edsico."
+      },{
+        "@class": "parrafo",
+        "#text": "III.6 Servicios de soporte y gesti\u00f3n de incidentes."
+      },{
+        "@class": "parrafo_2",
+        "#text": "IV. Acceso y utilizaci\u00f3n de servicios."
+      },{
+        "@class": "parrafo_2",
+        "#text": "IV.1 Acceso a los servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "IV.2 Mantenimiento del cat\u00e1logo de servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "IV.3 Condiciones de utilizaci\u00f3n de los servicios."
+      },{
+        "@class": "parrafo_2",
+        "#text": "V. Agentes y roles."
+      },{
+        "@class": "parrafo_2",
+        "#text": "V.1 Ministerio de Pol\u00edtica Territorial y Administraci\u00f3n P\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "V.2 Proveedores de acceso a la Red SARA."
+      },{
+        "@class": "parrafo",
+        "#text": "V.3 \u00d3rganos usuarios finales."
+      },{
+        "@class": "parrafo",
+        "#text": "[fin indice]V.4 Publicidad de referencias."
+      },{
+        "@class": "seccion",
+        "#text": "[precepto]I. Consideraciones generales"
+      },{
+        "@class": "parrafo_2",
+        "em": "Objeto",
+        "#text": "I.1 .\u2013La Norma T\u00e9cnica de Interoperabilidad de Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas tiene por objeto establecer las condiciones en las que cualquier \u00f3rgano de una Administraci\u00f3n, o Entidad de Derecho P\u00fablico vinculada o dependiente de aqu\u00e9lla (en adelante, organizaci\u00f3n), acceder\u00e1 a la Red SARA."
+      },{
+        "@class": "parrafo",
+        "em": [
+          "\u00c1mbito de aplicaci\u00f3n",
+          "\u2013"
+        ],
+        "#text": "I.2 .El contenido de esta norma ser\u00e1 de aplicaci\u00f3n en la conexi\u00f3n a la Red SARA en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+      },{
+        "@class": "seccion",
+        "#text": "[precepto]II. Agentes y conexi\u00f3n a la Red SARA"
+      },{
+        "@class": "parrafo_2",
+        "em": "Conexi\u00f3n a la Red SARA.",
+        "#text": "II.1"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. El acceso a la Red SARA se realizar\u00e1 a trav\u00e9s de lo que se denomina Punto de Presencia (PdP) entendido como cualquier sede en la que existe una conexi\u00f3n directa a la Red SARA, sin presencia de ninguna organizaci\u00f3n intermedia."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Entre los PdPs de la Red SARA podr\u00e1n distinguirse los siguientes tipos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Proveedores de Acceso a la Red SARA (PAS)."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Centros de Proceso de Datos (CPD) de SARA."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Red sTESTA (secure Trans-European Services for Telematics between Administrations)."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Centros externos de monitorizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Prestadores de servicios de certificaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Otros: como son las Ventanillas \u00danicas Empresariales."
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13173_001.png",
+          "@width": "720",
+          "@height": "485"
+        }
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Con independencia de casos especiales de PdPs, en la conexi\u00f3n de cualquier organizaci\u00f3n a la Red SARA ser\u00e1 necesaria la intervenci\u00f3n del Ministerio de Pol\u00edtica Territorial y Administraci\u00f3n P\u00fablica (en adelante, MPTAP), un proveedor de acceso y la propia organizaci\u00f3n que desea conectarse, que actuar\u00e1 como usuario final."
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "MPTAP-Centro de Soporte de la Red SARA.",
+          "\u2013"
+        ],
+        "#text": "II.2 Las funcionalidades prestadas por el Centro de Soporte de la Red SARA del MPTAP se podr\u00e1n consultar en el portal web www.redsara.es, accesible desde la Red SARA."
+      },{
+        "@class": "parrafo",
+        "em": [
+          "Proveedores de Acceso a la Red SARA (PAS)",
+          "."
+        ],
+        "#text": "II.3"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. La conexi\u00f3n directa a la Red SARA se proporcionar\u00e1 a trav\u00e9s de un \u00c1rea de Conexi\u00f3n (AC) que se ubicar\u00e1 en las dependencias de la Administraci\u00f3n p\u00fablica correspondiente convirti\u00e9ndose \u00e9sta en Proveedor de Acceso a la Red SARA (PAS) para sus Unidades, Organismos y Entidades de Derecho P\u00fablico dependientes y, en el caso de las Comunidades Aut\u00f3nomas, tambi\u00e9n para las Administraciones Locales de su \u00e1mbito territorial."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las organizaciones que no est\u00e1n adscritas a ning\u00fan organismo superior: Ministerios, Comunidades y ciudades con Estatuto de Autonom\u00eda y \u00d3rganos constitucionales, funcionar\u00e1n como PAS a excepci\u00f3n de las Administraciones Locales que quedar\u00e1n asignadas al PAS de la Comunidad Aut\u00f3noma correspondiente."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Otros organismos p\u00fablicos podr\u00e1n asumir las funciones de PAS siempre que el MPTAP as\u00ed lo establezca atendiendo a la singularidad del organismo o a la prestaci\u00f3n, por parte de aqu\u00e9l, de servicios considerados singulares."
+      },{
+        "@class": "parrafo",
+        "#text": "4. El establecimiento de un nuevo PAS, a solicitud del interesado, corresponder\u00e1 al MPTAP a trav\u00e9s del Centro de Soporte de la Red SARA."
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "\u00d3rganos usuarios finales",
+          "."
+        ],
+        "#text": "II.4"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Todo \u00f3rgano usuario final de la Red SARA acceder\u00e1 a \u00e9sta a trav\u00e9s de una organizaci\u00f3n que ejercer\u00e1 las funciones de PAS."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las caracter\u00edsticas y dispositivos de la conexi\u00f3n de los \u00f3rganos finales con el PAS correspondiente depender\u00e1n de las condiciones y mecanismos que disponga el propio PAS."
+      },{
+        "@class": "parrafo",
+        "#text": "3. La solicitud de conexi\u00f3n de los \u00f3rganos finales se dirigir\u00e1 directamente al PAS del que dependen y ser\u00e1 comunicada al Centro de Soporte de la Red SARA."
+      },{
+        "@class": "parrafo",
+        "#text": "4. El listado completo de PAS estar\u00e1 disponible en el portal web www.redsara.es, accesible desde la Red SARA."
+      },{
+        "@class": "seccion",
+        "#text": "[precepto]III. Requisitos t\u00e9cnicos para la conexi\u00f3n del PAS"
+      },{
+        "@class": "parrafo_2",
+        "em": "Esquema del \u00c1rea de Conexi\u00f3n (AC).",
+        "#text": "III.1"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. El AC de un PAS funcionar\u00e1 como punto \u00fanico de conexi\u00f3n entre la red de la Administraci\u00f3n p\u00fablica correspondiente y sus organizaciones dependientes o asignadas al PAS, a las redes de otras administraciones y Entidades p\u00fablicas conectadas a la Red SARA, as\u00ed como a la Red sTESTA de la Comisi\u00f3n Europea."
+      },{
+        "@class": "parrafo",
+        "#text": "2. La estructura del AC responder\u00e1 al esquema de una zona desmilitarizada (DMZ) delimitada por un subsistema de seguridad externo, que conectar\u00e1 con el resto de la Red SARA, y un subsistema de seguridad interno hacia el interior de la organizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "3. Los elementos del AC, adem\u00e1s de proporcionar seguridad perimetral, albergar\u00e1n los servicios telem\u00e1ticos b\u00e1sicos prestados por la Red SARA: DNS, SMTP, NTP, Proxy y Proxy inverso."
+      },{
+        "@class": "parrafo",
+        "#text": "4. El subsistema de seguridad externo ser\u00e1 el encargado de establecer una red privada virtual (VPN) hacia el resto de sedes de la Red SARA, con lo que todas las comunicaciones, a trav\u00e9s del operador de servicios de telecomunicaciones, estar\u00e1n cifradas mediante t\u00faneles."
+      },{
+        "@class": "parrafo",
+        "#text": "5. En la zona intermedia, DMZ, ser\u00e1 posible conectar cualquier equipo que la organizaci\u00f3n considere conveniente utilizar para la comunicaci\u00f3n con el resto de organizaciones que componen la Red. Para no vulnerar la seguridad global de la Red, el Centro de Soporte de la Red SARA del MPTAP determinar\u00e1 las condiciones en que dichos elementos adicionales deber\u00e1n integrarse en el AC."
+      },{
+        "@class": "parrafo",
+        "#text": "6. Un esquema muy simplificado de un AC es el siguiente:"
+      },{
+        "@class": "imagen",
+        "img": {
+          "@src": "/datos/imagenes/disp/2011/182/13173_002.png",
+          "@width": "720",
+          "@height": "351"
+        }
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "Administraci\u00f3n de la conexi\u00f3n",
+          ".\u2013"
+        ],
+        "#text": "III.2 El MPTAP administrar\u00e1 la conexi\u00f3n a la Red SARA y aplicar\u00e1 las pol\u00edticas necesarias para el aseguramiento de la interoperabilidad y el nivel de seguridad correspondiente."
+      },{
+        "@class": "parrafo",
+        "em": [
+          "Plan de direccionamiento",
+          "."
+        ],
+        "#text": "III.3"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Las organizaciones que se conecten a la Red SARA aplicar\u00e1n el Plan de direccionamiento e Interconexi\u00f3n de Redes en la Administraci\u00f3n establecido por la Direcci\u00f3n General para el Impulso de la Administraci\u00f3n Electr\u00f3nica (DGIAE) disponible en http://administracionelectronica.gob.es/ seg\u00fan lo dispuesto en art\u00edculo 14 del Real Decreto 4/2010, de 8 de enero."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Todas las partes pondr\u00e1n todos los medios a su alcance para adaptarse a los correspondientes planes de direccionamiento, de tal manera que un determinado rango o espacio de direcciones IP ser\u00e1 reservado para preservar la compatibilidad e interoperabilidad."
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "Dotaci\u00f3n de elementos de conectividad.",
+          "\u2013"
+        ],
+        "#text": "III.4 El MPTAP adquirir\u00e1, instalar\u00e1, administrar\u00e1, configurar\u00e1 y mantendr\u00e1 los elementos de conectividad de cada PAS."
+      },{
+        "@class": "parrafo",
+        "em": [
+          "Garant\u00edas de acondicionamiento f\u00edsico",
+          ".\u2013"
+        ],
+        "#text": "III.5 El acondicionamiento f\u00edsico de las instalaciones del PAS cumplir\u00e1 lo establecido a tal efecto en el Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica de manera que se asegure la continuidad del servicio."
+      },{
+        "@class": "parrafo",
+        "em": [
+          "Servicios de soporte y gesti\u00f3n de incidentes",
+          "."
+        ],
+        "#text": "III.6"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. El soporte y la gesti\u00f3n de incidentes de la Red SARA se prestar\u00e1n de manera conjunta entre el MPTAP y los PAS, a trav\u00e9s de sus correspondientes equipos dedicados a estos servicios."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Para facilitar la actuaci\u00f3n conjunta entre el MPTAP y los PAS, cada organizaci\u00f3n proporcionar\u00e1 los siguientes datos de sus servicios de soporte y de gesti\u00f3n de incidentes:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Identificaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Responsable de la unidad."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Responsable t\u00e9cnico."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Horario de servicio."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Localizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Horario y datos de contacto para incidentes."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Observaciones."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3. Los datos identificativos y de contacto de los servicios de soporte y de gesti\u00f3n de incidentes de cada organizaci\u00f3n ser\u00e1n convenientemente actualizados y distribuidos entre todos los agentes de manera que se asegure la disponibilidad de la informaci\u00f3n de contacto para actuar ante cualquier incidente. Su consulta estar\u00e1 disponible a trav\u00e9s del portal web www.redsara.es, accesible desde la Red SARA."
+      },{
+        "@class": "seccion",
+        "#text": "[precepto]IV. Acceso y utilizaci\u00f3n de servicios"
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "Acceso a los servicios",
+          "."
+        ],
+        "#text": "IV.1"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Cualquier organizaci\u00f3n con conexi\u00f3n a la Red SARA, podr\u00e1 solicitar la utilizaci\u00f3n de cualquiera de los servicios que se presten a trav\u00e9s de \u00e9sta."
+      },{
+        "@class": "parrafo",
+        "#text": "2. El cat\u00e1logo de servicios disponibles en la Red SARA estar\u00e1 disponible en el portal web www.redsara.es, accesible desde la Red SARA."
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "Mantenimiento del cat\u00e1logo de servicios",
+          "."
+        ],
+        "#text": "IV.2"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. El cat\u00e1logo de servicios ser\u00e1 mantenido y actualizado por el MPTAP y el PAS a trav\u00e9s del cual se presta cada servicio."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Todos los servicios que se publiquen en la Red SARA, a trav\u00e9s de un PAS, ser\u00e1n comunicados al Centro de Soporte de la Red SARA con el fin de mantener el cat\u00e1logo de servicios correctamente actualizado."
+      },{
+        "@class": "parrafo",
+        "#text": "3. El cat\u00e1logo de servicios facilitar\u00e1 la elaboraci\u00f3n de estad\u00edsticas y cuadros de mando que el MPTAP podr\u00e1 publicar en el portal web www.redsara.es y poner a disposici\u00f3n de todos los implicados."
+      },{
+        "@class": "parrafo_2",
+        "em": "Condiciones de utilizaci\u00f3n de los servicios.",
+        "#text": "IV.3"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. Para los servicios verticales o de negocio, as\u00ed como para los servicios comunes de administraci\u00f3n electr\u00f3nica, con independencia de condiciones particulares que pudiese establecer el prestador del servicio, las condiciones de utilizaci\u00f3n ser\u00e1n"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Acuerdo previo entre la Administraci\u00f3n p\u00fablica que presta el servicio y la beneficiaria."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Comunicaci\u00f3n al Centro de Soporte de la Red SARA del MPTAP."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Si procede, condiciones de la plataforma de intermediaci\u00f3n de datos que intervenga en el servicio. En caso de uso de la Plataforma de intermediaci\u00f3n del MPTAP, se atender\u00e1 a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2. La solicitud de alta de un nuevo servicio y las comunicaciones al Centro de Soporte de la Red SARA se realizar\u00e1n a trav\u00e9s de los medios dispuestos para tal fin en el portal web www.redsara.es, donde figurar\u00e1n, al menos, los siguientes datos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Datos del solicitante."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Datos generales del servicio."
+      },{
+        "@class": "parrafo_2",
+        "#text": "i.\tNombre del servicio o aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "ii.\tNivel de criticidad."
+      },{
+        "@class": "parrafo",
+        "#text": "iii.\tHorario de disponibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "iv.\tDestinatarios del servicio."
+      },{
+        "@class": "parrafo_2",
+        "#text": "c) Datos del soporte t\u00e9cnico para el contacto con dicho servicio."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Datos t\u00e9cnicos de acceso y uso del servicio."
+      },{
+        "@class": "seccion",
+        "#text": "[precepto]V. Agentes y roles"
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "Ministerio de Pol\u00edtica Territorial y Administraci\u00f3n P\u00fablica",
+          ".\u2013"
+        ],
+        "#text": "V.1 El MPTAP:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Instalar\u00e1, administrar\u00e1 y mantendr\u00e1 una conexi\u00f3n de capacidad suficiente y alta disponibilidad ubicada en las dependencias que la Administraci\u00f3n p\u00fablica determine y que mejor permita la conexi\u00f3n con su correspondiente red para constituirse como PAS."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Proporcionar\u00e1 a los responsables del PAS la documentaci\u00f3n t\u00e9cnica correspondiente a la arquitectura y configuraci\u00f3n de los sistemas que componen el AC."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Mantendr\u00e1 un servicio de soporte 24x7 para garantizar la continuidad del servicio en el AC y la red troncal que sirva para realizar la gesti\u00f3n de incidentes y problemas, cuando le corresponda, as\u00ed como la gesti\u00f3n de la resoluci\u00f3n cuando intervengan agentes externos (fabricantes, operadores u otros organismos con acceso al sistema), consultas t\u00e9cnicas relacionadas con el servicio o peticiones de nuevos accesos."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Gestionar\u00e1 el portal web www.redsara.es, como espacio para facilitar informaci\u00f3n general sobre la Red SARA as\u00ed como informaci\u00f3n espec\u00edfica para los responsables t\u00e9cnicos del PAS respecto del servicio proporcionado, notificaci\u00f3n de incidencias, paradas programadas, publicaci\u00f3n de nuevos servicios y otras informaciones de inter\u00e9s."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Adoptar\u00e1 las medidas de seguridad necesarias para proteger debidamente la informaci\u00f3n transmitida, mediante el cifrado de las comunicaciones y la detecci\u00f3n temprana de incidentes en colaboraci\u00f3n con el CCN-CERT."
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "Proveedores de acceso a la Red SARA",
+          ".\u2013"
+        ],
+        "#text": "V.2 Cualquier Administraci\u00f3n p\u00fablica que funcione como PAS:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Realizar\u00e1 las labores de conectividad y despliegue pertinentes para poder acceder desde sus propias dependencias o instalaciones a la Red SARA a trav\u00e9s del AC."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Gestionar\u00e1 y mantendr\u00e1 los elementos activos que conectan su red corporativa a la Red SARA."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Garantizar\u00e1 condiciones adecuadas en la ubicaci\u00f3n del AC (condiciones medioambientales, suministro el\u00e9ctrico, cableado, etc.) con el fin de asegurar la continuidad del servicio."
+      },{
+        "@class": "parrafo",
+        "#text": "d) Mantendr\u00e1 un servicio de soporte, a ser posible 24x7, para garantizar la continuidad del servicio en su funci\u00f3n como PAS. Para ello se facilitar\u00e1n al MPTAP los contactos, tanto de los responsables del PAS como los del Centro de Soporte, Centro de Atenci\u00f3n al Usuario o equivalente."
+      },{
+        "@class": "parrafo",
+        "#text": "e) Colaborar\u00e1 con el MPTAP en la gesti\u00f3n de incidentes y problemas, incluso si ello lleva consigo peque\u00f1as comprobaciones o actuaciones en el AC, dirigidas desde el Centro de Soporte de la Red SARA, con el fin de reducir los tiempos de resoluci\u00f3n de las incidencias que pudieran ocurrir."
+      },{
+        "@class": "parrafo",
+        "#text": "f) Facilitar\u00e1, promover\u00e1 y sostendr\u00e1 el acceso a la Red SARA a sus Organismos y Entidades de Derecho P\u00fablico dependientes y adicionalmente, en el caso de Comunidades Aut\u00f3nomas, a las Administraciones Locales de su \u00e1mbito territorial, con la tecnolog\u00eda, mecanismos y procedimientos que \u00e9stos acuerden, garantizando la continuidad del servicio y las condiciones adecuadas de seguridad en la parte que le corresponde."
+      },{
+        "@class": "parrafo",
+        "#text": "g) Colaborar\u00e1 con el MPTAP en el mantenimiento del cat\u00e1logo de servicios y conexiones."
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "\u00d3rganos usuarios finales",
+          ".\u2013"
+        ],
+        "#text": "V.3 Los Organismos y Entidades de Derecho P\u00fablico dependientes y adicionalmente, en el caso de Comunidades Aut\u00f3nomas, las Administraciones Locales de su \u00e1mbito territorial, que disfruten del acceso a la Red SARA a trav\u00e9s del PAS correspondiente, aplicar\u00e1n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a) Condiciones particulares del PAS del que dependen."
+      },{
+        "@class": "parrafo",
+        "#text": "b) Condiciones particulares de servicios horizontales y verticales que utilizan a trav\u00e9s de la Red SARA."
+      },{
+        "@class": "parrafo_2",
+        "em": [
+          "Publicidad de referencias",
+          "."
+        ],
+        "#text": "V.4"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1. El MPTAP podr\u00e1 hacer p\u00fablica, en cualquier lista de referencia o en cualquier bolet\u00edn de prensa publicado y sin autorizaci\u00f3n previa, la relaci\u00f3n de organismos usuarios de la Red SARA."
+      },{
+        "@class": "parrafo",
+        "#text": "2. Las Administraciones p\u00fablicas podr\u00e1n referenciar la utilizaci\u00f3n de la Red SARA sin autorizaci\u00f3n previa por parte del MPTAP."
+      }
+    ]
+  }
+}
+}
