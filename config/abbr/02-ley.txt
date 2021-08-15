@@ -8,7 +8,7 @@ https://www.boe.es/buscar/act.php?id=BOE-A-2014-10908
 Regula el Punto de Acceso General de la Administración General del Estado y crea su sede electrónica
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565
-Ley del Procedimiento Administrativo Común de las AAPP
+Procedimiento Administrativo Común de las AAPP
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115
 Igualdad de entre mujeres y hombres
@@ -54,13 +54,10 @@ https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Protecci%C3%B3n_de_Datos_Pers
 Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD)
 
 https://www.boe.es/buscar/act.php?id=BOE-A-1996-1069
-Ley de protección jurídica del menor
+Protección jurídica del menor
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
-Ley de Régimen Jurídico del Sector Público
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
-Ley de Régimen Jurídico del Sector Público
+Régimen Jurídico del Sector Público
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2007-12352
 Acceso electrónico de los ciudadanos a los Servicios Públicos
@@ -126,7 +123,7 @@ https://www.boe.es/buscar/act.php?id=BOE-A-2016-10109
 ITS Conformidad con el ENS
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2015-10389
-Ley de Seguridad Nacional.
+Seguridad Nacional
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2011-13239
 Contratos del sector público en los ámbitos de la defensa y de la seguridad
@@ -141,7 +138,7 @@ https://www.boe.es/buscar/act.php?id=BOE-A-2012-10050
 NTI Relación de modelos de datos
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887
-Ley de transparencia, acceso a la información pública y buen gobierno
+Transparencia, acceso a la información pública y buen gobierno
 
 r'[Rr]eglamento \(?UE\)? 910/2014
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014R0910
@@ -152,7 +149,7 @@ https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv%3AOJ.L_.2015.235.01.
 Formatos de firmas electrónicas avanzadas y sellos avanzados que deben reconocer el sector público
 
 r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?|RGPD
-https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32016R0679
+https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679
 https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos
 Reglamento General de Protección de Datos (Reglamento EU 2016/679)
 

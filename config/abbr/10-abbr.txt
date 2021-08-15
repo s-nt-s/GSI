@@ -429,7 +429,8 @@ https://ldapwiki.com/wiki/ContentCommitment
 Un documento firmado por este certificado no puede repudiarse (KeyUsage anteriormente llamado nonRepudiation)
 
 MINHAC
-Ministerio de Hacienda
+https://es.wikipedia.org/wiki/Ministerio_de_Hacienda_(Espa%C3%B1a)
+Hasta 2021 fue el Ministerio de Hacienda
 
 r'[Cc]ard-verifiables?
 https://en.wikipedia.org/wiki/Card_Verifiable_Certificate
@@ -636,6 +637,7 @@ https://es.wikipedia.org/wiki/XML_Schema
 Esquema XSD: describe la estructura y las restricciones de los contenidos de los documentos XML
 
 MPTFP
+https://es.wikipedia.org/wiki/Ministerio_de_Pol%C3%ADtica_Territorial
 Hasta 2021 fue el Ministerio de Política Territorial y Función Pública
 
 ACID-T
@@ -835,7 +837,8 @@ SGAS
 Sistema de Gestión de Activos Semánticos del CISE
 
 MPTAP
-Ministerio de Política Territorial y Administración Pública
+https://es.wikipedia.org/wiki/Ministerio_de_Pol%C3%ADtica_Territorial_y_Administraci%C3%B3n_P%C3%BAblica
+Hasta 2011 fue el Ministerio de Política Territorial y Administración Pública
 
 r'(s|S-|s-)?TESTA(-II|-NG)?
 https://en.wikipedia.org/wiki/Trans_European_Services_for_Telematics_between_Administrations

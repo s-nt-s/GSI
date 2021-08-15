@@ -8,6 +8,7 @@ from .boe import BOE
 
 re_isboe = re.compile(r"https?://www\.boe\.es/buscar/.*\?id=BOE.*")
 re_az = re.compile(r"\w")
+re_hasta = re.compile(r"^Hasta \d+ fue .*")
 
 def readlines(*files):
     last_line = None
@@ -117,6 +118,8 @@ class Abbr():
         r = set()
         for c in self._class.split():
             r.add(c)
+        if self.title and re_hasta.search(self.title):
+            r.add("antiguo")
         if self.file:
             cls = self.file.name
             cls = cls.rsplit(".", 1)[0]

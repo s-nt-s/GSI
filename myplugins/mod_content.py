@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup, Tag, NavigableString
 from pelican import contents, signals
 import re
 from .core.util import get_dom, get_class_dom
+from .core.boe import BoeApi
 
 import unidecode
 
@@ -280,10 +281,16 @@ def mod_content(content, *args, **kargv):
             for g in grupo[1:]:
                 div.append(g)
 
-    for a in soup.select("a[title]"):
-        title = a.attrs.get("title")
-        if title and "derogada" in title.lower():
-            add_class(a, "derogada")
+    boeApi = BoeApi()
+    for a in soup.select("a[href]"):
+        href = a.attrs["href"]
+        boe = boeApi.safe_get(href)
+        if boe:
+            if boe.nula:
+                add_class(a, boe.nula)
+            if not a.attrs.get("title"):
+                nula = boe.nula.title()+": " if boe.nula else ""
+                a.attrs["title"] = nula+boe.titulo
 
     soup.renderContents()
     _content = soup.decode()

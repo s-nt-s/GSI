@@ -2,6 +2,7 @@ from .decorators import JsonCache
 import requests
 import xmltodict
 import re
+from urllib.parse import urlparse, parse_qs
 
 re_num = re.compile(r"\d+")
 re_sp = re.compile(r"\s+")
@@ -19,6 +20,20 @@ class BoeApi:
         r = requests.get("https://www.boe.es/diario_boe/xml.php?id="+id)
         js = xmltodict.parse(r.text)
         return js
+
+    def safe_get(self, url):
+        prs = urlparse(url)
+        if prs.query is None:
+            return None
+        dom = prs.netloc
+        if dom != "www.boe.es":
+            return None
+        qsl = parse_qs(prs.query)
+        ids = qsl.get("id")
+        if ids is None or len(ids)==0:
+            return None
+        id = ids[0]
+        return BOE(id)
 
 def to_re(phrase):
     phrase = re_sp.sub(" ", phrase).strip()
@@ -38,7 +53,9 @@ def to_re(phrase):
 class BOE:
     def __init__(self, id):
         if id.startswith("http"):
-            id = id.rsplit("?id=", 1)[1]
+            pr = urlparse(id)
+            qr = parse_qs(pr.query)
+            id = qr['id'][0]
         self.js = BoeApi().get(id)
 
     @property
