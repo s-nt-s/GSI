@@ -2,7 +2,7 @@ import re
 import time
 from urllib.parse import urljoin
 
-import bs4
+from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -15,6 +15,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 
 re_sp = re.compile(r"\s+")
+re_emb = re.compile(r"^image/[^;]+;base64,.*", re.IGNORECASE)
 
 default_headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:54.0) Gecko/20100101 Firefox/54.0',
@@ -29,9 +30,8 @@ default_headers = {
     'Upgrade-Insecure-Requests': '1',
 }
 
-
-def buildSoup(root, source):
-    soup = bs4.BeautifulSoup(source, "lxml")
+def iterhref(soup):
+    """Recorre los atriburos href o src de los tags"""
     for n in soup.findAll(["img", "form", "a", "iframe", "frame", "link", "script"]):
         attr = "href" if n.name in ("a", "link") else "src"
         if n.name == "form":
@@ -39,9 +39,16 @@ def buildSoup(root, source):
         ori = str(attr)
         for attr in (ori, "data-"+ori):
             val = n.attrs.get(attr)
-            if val and not (val.startswith("#") or val.startswith("javascript:")):
-                val = urljoin(root, val)
-                n.attrs[attr] = val
+            if val is None or re_emb.search(val):
+                continue
+            if not(val.startswith("#") or val.startswith("javascript:")):
+                yield n, attr, val
+
+def buildSoup(root, source, parser="lxml"):
+    soup = BeautifulSoup(source, parser)
+    for n, attr, val in iterhref(soup):
+        val = urljoin(root, val)
+        n.attrs[attr] = val
     return soup
 
 
@@ -55,25 +62,19 @@ class Web:
         self.refer = refer
         self.verify = verify
 
+    def _get(self, url, allow_redirects=True, **kargv):
+        if kargv:
+            return self.s.post(url, data=kargv, allow_redirects=allow_redirects, verify=self.verify)
+        return self.s.get(url, allow_redirects=allow_redirects, verify=self.verify)
+
     def get(self, url, **kargv):
         if self.refer:
             self.s.headers.update({'referer': self.refer})
-        if kargv:
-            self.response = self.s.post(url, data=kargv, verify=self.verify)
-        else:
-            self.response = self.s.get(url, verify=self.verify)
+        self.response = self._get(url, **kargv)
         if url.endswith(".xsd"):
             return self.response
         self.refer = self.response.url
-        self.soup = bs4.BeautifulSoup(self.response.content, "lxml")
-        for n in self.soup.findAll(["img", "form", "a", "iframe", "frame", "link", "script"]):
-            attr = "href" if n.name in ("a", "link") else "src"
-            if n.name == "form":
-                attr = "action"
-            val = n.attrs.get(attr)
-            if val and not (val.startswith("#") or val.startswith("javascript:")):
-                val = urljoin(url, val)
-                n.attrs[attr] = val
+        self.soup = buildSoup(url, self.response.content)
         return self.soup
 
     def prepare_submit(self, slc, silent_in_fail=False, **kargv):
@@ -110,6 +111,23 @@ class Web:
         v = n.attrs.get("value", n.get_text())
         v = v.strip()
         return v if v else None
+
+    @property
+    def url(self):
+        if self.response is None:
+            return None
+        return self.response.url
+
+    def json(self, url, **kargv):
+        r = self._get(url, **kargv)
+        return r.json()
+
+    def resolve(self, url, **kargv):
+        if self.refer:
+            self.s.headers.update({'referer': self.refer})
+        r = self._get(url, allow_redirects=False, **kargv)
+        if r.status_code in (302, 301):
+            return r.headers['location']
 
 
 default_profile = {
@@ -186,7 +204,6 @@ class FF:
         if id.startswith("//"):
             return self._driver.find_element_by_xpath(id)
         return self._driver.find_element_by_id(id)
-
 
     def val(self, id, val=None):
         if self._driver is None:
