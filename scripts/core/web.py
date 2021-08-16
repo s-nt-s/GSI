@@ -183,27 +183,24 @@ class FF:
             my_by = By.XPATH
         wait = WebDriverWait(self._driver, seconds)
         wait.until(ec.visibility_of_element_located((my_by, id)))
+        if id.startswith("//"):
+            return self._driver.find_element_by_xpath(id)
+        return self._driver.find_element_by_id(id)
+
 
     def val(self, id, val=None):
         if self._driver is None:
             return None
-        self.wait(id)
-        if id.startswith("//"):
-            n = self._driver.find_element_by_xpath(id)
-        else:
-            n = self._driver.find_element_by_id(id)
+        n = self.wait(id)
         if val is not None:
+            n.clear()
             n.send_keys(val)
         return n.text
 
     def click(self, id):
         if self._driver is None:
             return None
-        self.wait(id)
-        if id.startswith("//"):
-            n = self._driver.find_element_by_xpath(id)
-        else:
-            n = self._driver.find_element_by_id(id)
+        n = self.wait(id)
         n.click()
 
     def get_session(self):
