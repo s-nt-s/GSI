@@ -2,8 +2,8 @@
 title: Supuestos prácticos corregidos
 ---
 
-Recopilación de supuestos prácticos corregidos. Si tu tienes alguno que no
-aparezca aquí, mandamelo a [santos82@gmail.com](mailto:santos82@gmail.com?subject=GSI+supuestos+prácticos+resueltos)
+Recopilación de supuestos prácticos corregidos.
+Si tu tienes alguno que no aparezca aquí, mandámelo a [santos82@gmail.com](mailto:santos82@gmail.com?subject=GSI+supuestos+prácticos+resueltos)
 con su solución y yo te responderé enviándote los míos.
 
 # Supuestos cursos INAP

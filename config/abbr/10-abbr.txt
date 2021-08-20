@@ -1197,3 +1197,7 @@ Sistema de traducción automática (financiado conjuntamente por el gobierno esp
 
 OOAA
 Organismos autónomos
+
+SQLi
+https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL
+Inyección SQL

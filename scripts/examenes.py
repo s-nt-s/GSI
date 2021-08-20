@@ -6,6 +6,7 @@ from munch import Munch
 
 from .core.util import write
 from .core.web import Web
+from functools import lru_cache
 
 urllib3.disable_warnings()
 
@@ -33,9 +34,10 @@ class CrawlExamenes:
         self.w = Web(verify=False)
         self.root = root
         self.salida = salida
-        self.opos = self.get_opos()
 
-    def get_opos(self):
+    @property
+    @lru_cache(maxsize=None)
+    def opos(self):
         opos = {}
         self.w.get(self.root)
         links = list(self.w.soup.select("div.nav-menu a"))
@@ -157,6 +159,8 @@ class CrawlExamenes:
                     ))
                 else:
                     exa[-1].solucion = url
+        for e in exa:
+            e.ingreso = ingreso
         exa = sorted(exa, key=lambda x: x.ejercicio)
         return exa
 
@@ -207,7 +211,7 @@ class CrawlExamenes:
         summary: Examenes de [convocatorias TAI/GSI/CSSTIC]({inap}) anteriores.
         ---
         '''.format(inap=self.root)).strip()]
-        for grupo, data in self.get_opos().items():
+        for grupo, data in self.opos.items():
             MD.append("\n# [{codigo} {titulo}]({url})\n".format(**dict(data)))
             SH.append("\n# {grupo} {codigo}\n".format(**dict(data)))
             for conv in data.convocatorias:
@@ -245,7 +249,24 @@ class CrawlExamenes:
         write(self.salida+"examenes.md", "\n".join(MD))
         write(self.salida+"examenes.sh", "\n".join(SH))
 
+    def abbr_supuestos(self, abbr_file):
+        supuestos = []
+        for grupo, data in self.opos.items():
+            for conv in data.convocatorias:
+                for exa in conv.examenes:
+                    if grupo == 'A2' and exa.tipo == "supuesto":
+                        exa.year = conv.year
+                        supuestos.append(exa)
+        LNS = []
+        supuestos = sorted(supuestos, key=lambda x: (x.year, x.ingreso, x.ejercicio))
+        for e in supuestos:
+            LNS.append("{}_A2.{}".format(e.year, e.ingreso[0].upper()))
+            LNS.append(e.url)
+            LNS.append("Supuesto práctico A2 {} (convocatoria {})".format(e.year, e.ingreso))
+            LNS.append("")
+        write(abbr_file, "\n".join(LNS))
 
 if __name__ == "__main__":
     c = CrawlExamenes("content/posts/ejercicios/")
     c.save()
+    c.abbr_supuestos("config/abbr/97-supuestos.txt")
