@@ -108,13 +108,15 @@ class CrawlExamenes:
             ejercicio = url_ej.get(url)
             if ejercicio is None:
                 continue
-            if ("cuestionario" in txt) or grupo == "C1" or ejercicio == 1:
+            if grupo == "C1" or ejercicio == 1:
                 tipo = "test"
             elif grupo == "A2":
                 if ((ejercicio == 2 and ingreso == "interna") or (ejercicio == 3 and ingreso == "libre")):
                     tipo = "supuesto"
             elif grupo == "A1":
                 pass
+            if tipo is None and ("cuestionario" in txt):
+                tipo = "test"
             if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "enunciado del cuarto ejercicio y anexos"):
                 exa.append(Munch(
                     ejercicio=ejercicio,
@@ -254,6 +256,8 @@ class CrawlExamenes:
         for grupo, data in self.opos.items():
             for conv in data.convocatorias:
                 for exa in conv.examenes:
+                    if grupo == 'A2' and conv.year==2014:
+                        print(exa)
                     if grupo == 'A2' and exa.tipo == "supuesto":
                         exa.year = conv.year
                         supuestos.append(exa)

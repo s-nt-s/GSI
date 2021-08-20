@@ -10,6 +10,8 @@ Para ello me baso en los [supuestos de años anteriores](https://sede.inap.gob.e
 
 | Supuesto  | Descripción |
 |:----------|:------------|
+| 2014_A2.I | Ley de transparencia |
+| 2014_A2.L | Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA) |
 | 2015_A2.I | Nuevo mecanismo de financiación (ICO) |
 | 2015_A2.L | Punto de atención al Emprendedor electrónico (PAEe) |
 | 2016_A2.I | Centro de transferencia tecnológica (CTT) |
