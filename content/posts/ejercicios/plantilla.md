@@ -6,7 +6,7 @@ Esta sección **no es** una plantilla de respuestas si no un esquema de las
 preguntas recurrentes que pueden aparecer en el supuesto práctico
 del bloque 3 de GSI.
 
-Para ello me baso en los supuestos de años anteriores.
+Para ello me baso en los [supuestos de años anteriores](https://sede.inap.gob.es/gsi).
 
 | Supuesto  | Descripción |
 |:----------|:------------|
