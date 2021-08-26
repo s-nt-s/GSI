@@ -52,7 +52,7 @@ function cln() {
   find . -name "*  *" -execdir rename "s|\s\s\s*| |g" "{}" +
   find . -type d -name "*_" -execdir rename "s|__*$||g" "{}" +
 
-  if [ -d "Pack3 casos practicos" ] || [ -d "Audioapuntes_Pack1_01" ]; then
+  if [ "$2" == "Pack3 casos practicos.zip" ] || [ "$2" == "Audioapuntes_Pack1_01.7z" ]; then
   find . -type f -regextype posix-egrep -regex ".*/[^/]+\S\([0-9]*\)\.[^\.]+" \
          -execdir rename s'|(\S)\([0-9][0-9]*\)(.[^\.]*)$|$1$2|g' "{}" +
   fi

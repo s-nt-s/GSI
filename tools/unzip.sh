@@ -17,7 +17,7 @@ fi
 
 pushd $(mktemp -d)
 uzip "$ZP"
-cln "HARD"
+cln "HARD" "$(basename "$ZP")"
 
 if [ $(ls -A . | wc -l) -eq 1 ]; then
   cd *
