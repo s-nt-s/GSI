@@ -56,7 +56,7 @@ for ZP in "$@";do
   fi
 
   ZP=$(realpath "$ZP")
-  UNZP="${ZP%.*}"
+  UNZP=$(zip_to_target "$ZP")
   if [ -d "$UNZP" ]; then
     pushd "$UNZP" > /dev/null
   else

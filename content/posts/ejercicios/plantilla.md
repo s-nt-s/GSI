@@ -23,7 +23,7 @@ Para ello me baso en los [supuestos de años anteriores](https://sede.inap.gob.e
 
 # Preguntas tipo
 
-1. Identificar **factores críticos de éxito**
+1. Identificar **[factores críticos de éxito](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/)**
 2. Determinar el ámbito del sistema
 3. Diagrama de **casos de uso**, que identifique:
     * actores

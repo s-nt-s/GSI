@@ -51,11 +51,9 @@ Audioapuntes_Pack1_01.7z
 │       ├── 009.05.02 Administracion Periferica y Exterior.mp3
 │       ├── 009.05. AGE.mp3
 │       ├── 010.06. Administracion Periferica.mp3
-│       ├── 011.07. Administracin Exterior(1).mp3
 │       ├── 011.07. Administracin Exterior.mp3
 │       ├── 012.08.01 Clasificacion Organismos Publicos.mp3
 │       ├── 012.08. Administracion Institucional.mp3
-│       ├── 013.09. Derecho Administrativo(1).mp3
 │       └── 013.09. Derecho Administrativo.mp3
 ├── 005 Union Europea
 │   ├── Resumen
@@ -593,13 +591,7 @@ Audioapuntes_Pack1_01.7z
 │   ├── 08. Contenido 4.mp3
 │   └── 09. Contenido 5.mp3
 ├── 021 Liderazgo
-│   ├── 01. Preparatic26.mp3
-│   ├── 02. Fecha 230419.mp3
-│   ├── 03. Resumen Express T21.mp3
 │   ├── 04. Liderazgo.mp3
-│   ├── 05. Contenido 1.mp3
-│   ├── 06. Contenido 2.mp3
-│   ├── 07. Contenido 3.mp3
 │   ├── 08. Contenido 4.mp3
 │   ├── 1. Preparatic26.mp3
 │   ├── 2. Fecha 230419.mp3

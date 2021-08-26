@@ -1,3 +1,23 @@
+function zip_to_target() {
+  DR=$(dirname "$1")
+  ZP=$(basename "$1")
+  if [ "$ZP" == "Pack_1_PreparaTIC27.zip" ]; then
+    echo "$DR/27.1-Temario"
+  elif [ "$ZP" == "Audioapuntes_Pack1_01.7z" ]; then
+    echo "$DR/26.1-Audio/01"
+  elif [ "$ZP" == "Audioapuntes_Pack1_02.7z" ]; then
+    echo "$DR/26.1-Audio/02"
+  elif [ "$ZP" == "Audioapuntes_Pack1_03.7z" ]; then
+    echo "$DR/26.1-Audio/03"
+  elif [ "$ZP" == "Pack3 casos practicos.zip" ]; then
+    echo "$DR/27.3-Volcados"
+  elif [ "$ZP" == "Pack3_Material.zip" ]; then
+    echo "$DR/27.3-Material"
+  else
+    echo "$DR/${ZP%.*}"
+  fi
+}
+
 function rnm() {
   OLD="$1"
   NEW="$2"
@@ -11,6 +31,7 @@ function cln() {
   find . -type f -iname "*preparatic*cambios*" -delete
   find . -type f -iname "*cambios*.txt" -delete
   find . -type f -name desktop.ini -delete
+  find . -regextype posix-egrep -regex ".*/desktop\s*\([0-9]*\)\s*\.ini" -delete
   if [ "$1" == "HARD" ]; then
     find . -type d -execdir fdupes -dN "{}" \;
   fi
@@ -30,6 +51,11 @@ function cln() {
   rnm $'\302\201' ""
   find . -name "*  *" -execdir rename "s|\s\s\s*| |g" "{}" +
   find . -type d -name "*_" -execdir rename "s|__*$||g" "{}" +
+
+  if [ -d "Pack3 casos practicos" ] || [ -d "Audioapuntes_Pack1_01" ]; then
+  find . -type f -regextype posix-egrep -regex ".*/[^/]+\S\([0-9]*\)\.[^\.]+" \
+         -execdir rename s'|(\S)\([0-9][0-9]*\)(.[^\.]*)$|$1$2|g' "{}" +
+  fi
 }
 
 function lszip() {
@@ -47,6 +73,6 @@ function uzip() {
   if [[ $1 == *.zip ]]; then
     unzip -qq -O IBM860 "$1"
   elif [[ $1 == *.7z ]]; then
-    7z e "$1"
+    7z x "$1"
   fi
 }

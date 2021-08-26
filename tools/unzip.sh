@@ -1,18 +1,19 @@
 #!/bin/bash
 
+source "$(dirname "$0")/func.sh"
+
 if [ -z "$1" ] || [ ! -f "$1" ]; then
   echo "$ZP no existe"
   exit 1
 fi
 ZP="$(realpath "$1")"
-TARGET="${ZP%.*}"
+TARGET=$(zip_to_target "$ZP")
+
 if [ -e "$TARGET" ]; then
   echo "$TARGET ya existe, eliminelo antes de continuar"
   echo "rm -R \"$TARGET\""
   exit 1
 fi
-
-source "$(dirname "$0")/func.sh"
 
 pushd $(mktemp -d)
 uzip "$ZP"
@@ -24,6 +25,10 @@ fi
 UNZIPPED="$(pwd)"
 popd > /dev/null
 
+D_TARGET=$(dirname "$TARGET")
+if [ ! -d "$D_TARGET" ]; then
+  mkdir -p "$D_TARGET"
+fi
 mv "$UNZIPPED" "$TARGET"
 
 function mklink() {
@@ -56,3 +61,6 @@ if [ "$ZP" == "Pack_1_PreparaTIC27.zip" ]; then
     mklink "$file" ""
   done
 fi
+
+echo ""
+echo "SALIDA en: $TARGET"
