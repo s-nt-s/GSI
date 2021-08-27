@@ -53,43 +53,66 @@ Tabla 1: Supuestos GSI - bloque 3 desarrollo.
 
 ## B3: Preguntas tipo
 
+**NOTA**: La negrita aún no esta revisada y por lo tanto no significa que unos apartados sean más importantes que otros o se pregunten más.
+
 1. Identificar **[factores críticos de éxito](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/)**
-2. Determinar el ámbito del sistema
+2. Determinar el **ámbito del sistema**:
+3. Indicar relaciones con sistemas externos
+3. Identificación de requisitos funcionales
 3. Diagrama de **casos de uso**, que identifique:
-    * actores
+    * actores / agentes
     * requisitos funcionales
     * conexiones con sistemas propios y externos
+    * escenarios
 4. **Diagrama de clases** del sistema, con atributos principales
+5. Modelo conceptual dinámico
 5. **Diagrama de secuencia**
 6. **Modelo entidad/relación** extendido
 7. **Modelos lógico** de datos normalizado
 8. **Diagramas de componentes** detallando:
     * subsistemas y componentes
     * arquitectura tecnológica
-9. **Diagrama de contexto** del sistema
-10. **Diagrama de flujo de datos** de contexto y de subsistemas
-11. Definición de **interfaces de usuario**
-12. **Arquitectura de la solución**:
+9. Diagrama de descomposición
+11. **[Diagrama de flujo de datos](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos)**:
+    * de contexto
+    * de subsistemas
+    * de primer nivel, segundo nivel...
+12. Definición de **interfaces de usuario**
+13. **Arquitectura de la solución**:
     * diagrama de paquetes de aplicación
     * solución tecnológica
-13. **Diagrama de despliegue** y componentes
+    * diseño arquitectónico
+14. **Diagrama de despliegue** y componentes
     * arquitectura física
+    * comunicaciones
     * lógica del sistema
     * framework de desarrollo
-14. Propuesta tecnológica
+15. Diagrama de transición de estados
+15. Diagrama de actividad
+15. Diseño de pruebas
+    * Diseño de pruebas de aceptación
+16. Propuesta tecnológica
+17. Planificación del proyecto:
+    * Gráfico de planificación de proyecto, identificando actividades, subactividades y tareas de proyecto
+    * Diagrama de Gantt
+    * Justificar recursos humanos y materiales necesarios
+    * Estimaciones del proyecto, fases, calendario y participantes
 
 ## B3: Otras preguntas
 
 1. Plan de gestión del cambio y estrategias de sustitución
 2. Categorizar el sistema por dimensiones según el ENS
 3. Enumerar y explicar los servicios comunes y herramientas de seguridad que se van a usar
-4. Gráfico de planificación de proyecto, identificando actividades, subactividades y tareas de proyecto
-5. Diseño de las [capas de información sobre protección de datos](https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/)
-6. Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi
+4. Diseño de las [capas de información sobre protección de datos](https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/)
+5. Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi
+6. Planificación de migración teniendo en cuenta que se va a aplicar
+el Proceso Unificado de Desarrollo Software
+7. Indicar mejoras en la operativa y funcionalidad comparando con la
+situación actual
 
 # Bloque 4: Sistemas
 
-Pongo aquí solo el esqueleto de esta sección por si alguien quiere completarla
+Pongo **aquí solo el esqueleto de esta sección** por si alguien quiere completarla
 vía [pull requests](https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ya que a mi esta parte no me interesa.
 
 Si te animas a ello, [el fichero que debes modificar es este](https://github.com/s-nt-s/GSI/tree/master/content/posts/ejercicios/plantilla.md).
@@ -107,7 +130,7 @@ Si te animas a ello, [el fichero que debes modificar es este](https://github.com
 | 2007_A2.int (1) |  |
 | 2007_A2.lib (?) |  |
 | ▼ 2008-2018 ▼   | < |
-| 2008_A2.int_b3  |  |
+| 2008_A2.int_b4  |  |
 | 2008_A2.lib     |  |
 | 2009_A2.int     |  |
 | 2009_A2.lib     |  |
