@@ -34,6 +34,30 @@ W = Web(verify=False)
 INAP_URL="https://sede.inap.gob.es/procesos-selectivos"
 BAQU_URL="http://www.baquedano.es/todo.html"
 
+DWNSH=dedent('''
+#!/bin/bash
+function dwn() {
+    DR=$(dirname "$1")
+    if [ ! -z "$DR" ] && [ "$DR" != "." ] && [ ! -e "$DR" ]; then
+        mkdir -p "DR"
+    fi
+    fil="$1"
+    url="$2"
+    ext="${url##*.}"
+    if [[ " pdf doc docx rtf " =~ " ${ext} " ]]; then
+        fil="${fil}.${ext}"
+    else
+        fil="${fil}.pdf"
+    fi
+    wget -q --no-check-certificate -O "$fil" $url
+    if [ $? -eq 0 ]; then
+        echo "[OK] $fil"
+    else
+        echo "[KO] $fil $url"
+    fi
+}
+''').strip()
+
 @total_ordering
 class MyMunch(Munch):
     def __hash__(self):
@@ -392,25 +416,7 @@ class CrawlExamenes:
         return opos
 
     def save(self):
-        SH = [dedent('''
-        #!/bin/bash
-        function dwn() {
-            mkdir -p "${1%/*}"
-            fil="$1"
-            url="$2"
-            ext="${url##*.}"
-            if [[ " pdf doc docx rtf " =~ " ${ext} " ]]; then
-                fil="${fil}.${ext}"
-            else
-                fil="${fil}.pdf"
-            fi
-            wget -q --no-check-certificate -O "$fil" $url
-            if [ $? -eq 0 ]; then
-                echo "[OK] $fil"
-            else
-                echo "[KO] $fil $url"
-            fi
-        }
+        SH = [DWNSH, dedent('''
         function mrg() {
             PR=$(echo "$1" | sed 's|R|P|')
             if [ -f "$PR" ]; then
@@ -497,6 +503,10 @@ class CrawlExamenes:
         write(self.salida+"examenes.sh", "\n".join(SH))
 
     def abbr_supuestos(self, abbr_file):
+        SH=[DWNSH,dedent('''
+        mkdir -p supuestos
+        cd supuestos
+        ''')]
         supuestos = []
         for grupo, data in self.opos.items():
             for conv in data.convocatorias:
@@ -508,16 +518,19 @@ class CrawlExamenes:
         for e in supuestos:
             if e.get("bloque") is not None:
                 for b, u in sorted(e.bloque.items()):
-                    LNS.append("{}_A2.{}_b{}".format(e.year, e.ingreso[0].upper(), b))
+                    LNS.append("{}_A2.{}_b{}".format(e.year, e.ingreso[0:3], b))
                     LNS.append(u)
                     LNS.append("Supuesto práctico A2 {} bloque {} (convocatoria {})".format(e.year, b, e.ingreso))
                     LNS.append("")
+                    SH.append("dwn {}_A2.{}_b{} '{}'".format(e.year, e.ingreso[0:3], b, u))
                 continue
-            LNS.append("{}_A2.{}".format(e.year, e.ingreso[0].upper()))
+            LNS.append("{}_A2.{}".format(e.year, e.ingreso[0:3]))
             LNS.append(e.url)
             LNS.append("Supuesto práctico A2 {} (convocatoria {})".format(e.year, e.ingreso))
             LNS.append("")
+            SH.append("dwn {}_A2.{} '{}'".format(e.year, e.ingreso[0:3], e.url))
         write(abbr_file, "\n".join(LNS))
+        write("content/posts/ejercicios/supuestos.sh", "\n".join(SH))
 
 if __name__ == "__main__":
     c = CrawlExamenes("content/posts/ejercicios/")

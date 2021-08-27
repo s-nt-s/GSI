@@ -175,12 +175,14 @@ def mod_content(content, *args, **kargv):
             for i, tr in reversed(list(enumerate(trs))):
                 tds = tr.findAll(["td", "th"])
                 for c, td in reversed(list(enumerate(tds))):
-                    if c == 0:
-                        continue
                     text = td.get_text().strip()
                     if text == "<":
                         prev = tds[c-1]
                         prev.attrs["colspan"] = prev.get("colspan", 0) + td.get("colspan", 1) + 1
+                        td.extract()
+                    elif text == ">":
+                        post = tds[c+1]
+                        post.attrs["colspan"] = post.get("colspan", 0) + td.get("colspan", 1) + 1
                         td.extract()
                 if i == 0:
                     continue
@@ -198,8 +200,12 @@ def mod_content(content, *args, **kargv):
             td = tr.find("td")
             if td and td.name == "td":
                 st = td.find("strong")
-                if st and td.get_text().strip() == st.get_text().strip():
+                txt = td.get_text().strip()
+                if st and txt == st.get_text().strip():
                     st.unwrap()
+                    td.name = "th"
+                    changed = True
+                elif len(txt)>2 and txt[0] == txt[-1] and txt[0] == "▼":
                     td.name = "th"
                     changed = True
     '''
