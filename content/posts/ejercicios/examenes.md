@@ -1,6 +1,6 @@
 ---
 title: Examenes de convocatorias anteriores
-summary: Examenes de [convocatorias TAI/GSI/CSSTIC](https://sede.inap.gob.es/procesos-selectivos) anteriores.
+summary: Examenes de convocatorias TAI/GSI/CSSTIC anteriores (ver [sede.inap](https://sede.inap.gob.es/procesos-selectivos) y [baquedano](http://www.baquedano.es/todo.html)).
 ---
 
 # [CSSTIC Cuerpo Superior de Sistemas y Tecnologías de la Información de la Administración del Estado](https://sede.inap.gob.es/csstic)
