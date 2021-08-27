@@ -1,0 +1,1 @@
+../content/posts/ejercicios/examenes.sh

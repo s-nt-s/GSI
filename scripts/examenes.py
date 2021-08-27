@@ -32,6 +32,7 @@ OPOS = {k.lower(): v for v, k in (
 W = Web(verify=False)
 
 INAP_URL="https://sede.inap.gob.es/procesos-selectivos"
+BAQU_URL="http://www.baquedano.es/todo.html"
 
 @total_ordering
 class MyMunch(Munch):
@@ -44,13 +45,17 @@ class MyMunch(Munch):
     def __lt__(self, o):
         return self.key.__lt__(o.key)
 
+    def asdict(self):
+        return dict(self)
+
 class Examen(MyMunch):
     def __init__(self, *args, **kvargs):
         super().__init__(*args, **kvargs)
+        self.bloque=None
 
     @property
     def key(self):
-        return (self.convocatoria.oposicion.key, self.convocatoria.key, self.ejercicio)
+        return (self.convocatoria.oposicion.grupo, self.convocatoria.year, self.convocatoria.ingreso, self.ejercicio)
 
     @property
     def year(self):
@@ -61,12 +66,10 @@ class Examen(MyMunch):
         return self.convocatoria.ingreso
 
     @property
-    def oposicion(self):
-        return self.convocatoria.oposicion
+    def grupo(self):
+        return self.convocatoria.oposicion.grupo
 
 class Convocatoria(MyMunch):
-    def __init__(self, *args, **kvargs):
-        super().__init__(*args, **kvargs)
 
     @property
     @lru_cache(maxsize=None)
@@ -161,9 +164,165 @@ class Convocatoria(MyMunch):
     def key(self):
         return (self.oposicion.key, self.year, self.ingreso)
 
-class Oposicion(MyMunch):
+
+class BaqueConvocatoria(MyMunch):
     def __init__(self, *args, **kvargs):
         super().__init__(*args, **kvargs)
+        for e in self.examenes:
+            e.convocatoria = self
+        self.examenes = sorted(self.examenes)
+
+    @property
+    def key(self):
+        return (self.oposicion.key, self.year, self.ingreso)
+
+class BaqueExamenA2(Examen):
+    def __init__(self, *args, **kvargs):
+        super().__init__(*args, **kvargs)
+        self.solucion=None
+        self.bloque = self.get_bloque()
+
+    def asdict(self):
+        d=dict(self)
+        d['grupo'] = self.grupo
+        d['ingreso'] = self.ingreso
+        d['ejercicio'] = self.ejercicio
+        d['tipo'] = self.tipo
+        return d
+
+    def get_bloque(self):
+        if self.url in ("http://www.zonacondeduque.com/B_ejer_2_promo_AGE_2008.pdf", "http://www.baquedano.es/B_supu_IV_promo_AGE_2008.pdf"):
+            return {
+                "3": "http://www.zonacondeduque.com/B_ejer_2_promo_AGE_2008.pdf",
+                "4": "http://www.baquedano.es/B_supu_IV_promo_AGE_2008.pdf"
+            }
+        return None
+
+    @property
+    def isExcluir(self):
+        if self.url == "http://www.zonacondeduque.es/B_aclaracion_ejer_1_promo_AGE_2010.pdf":
+            return True
+        if self.url == "http://www.baquedano.es/B_supu_IV_promo_AGE_2008.pdf":
+            # Es el bloque 4 de otro
+            return True
+        return False
+
+    @property
+    def grupo(self):
+        return "A2"
+
+    @property
+    def ingreso(self):
+        t = self.titulo.lower()
+        if "libre" in t:
+            return "libre"
+        if "interna" in t:
+            return "interna"
+        if "libre" in self.url:
+            return "libre"
+        if "promo" in self.url:
+            return "interna"
+        if self.url in ("http://www.zonacondeduque.com/B_ejer_2_AGE_2006.pdf", "http://www.baquedano.es/plant_prov.pdf", "http://www.zonacondeduque.com/B_ejer_2_AGE_2005.pdf", "http://www.zonacondeduque.com/B_ejer_sol_1_AGE_2005.pdf" , "http://www.zonacondeduque.com/B_ejer_sol_1_AGE_2004.pdf", "http://www.zonacondeduque.com/B_ejer_3_AGE_2004.pdf"):
+            return "libre"
+        raise Exception("ingreso no encontrado en: %s - %s " % (self.year, self.titulo))
+
+    @property
+    def ejercicio(self):
+        if self.url == "http://www.zonacondeduque.es/B_aclaracion_ejer_1_promo_AGE_2010.pdf":
+            return 1.1
+        t = self.titulo.lower()
+        if "1º" in t or "primer" in t:
+            return 1
+        if "2º" in t or "segundo" in t:
+            return 2
+        if "3º" in t or "tercero" in t:
+            return 3
+        if "supuesto" in t:
+            if self.ingreso == "interna":
+                return 2
+            if self.ingreso == "libre":
+                return 3
+        if "_1_" in self.url:
+            return 1
+        if "_2_" in self.url:
+            return 2
+        if "_3_" in self.url:
+            return 3
+        if " soluciones " in t:
+            return 1
+        raise Exception("ejercicio no encontrado en: %s - %s " % (self.year, self.titulo))
+
+    @property
+    def tipo(self):
+        ej = int(self.ejercicio)
+        if (ej, self.ingreso) in ((2, "interna"), (3, "libre")):
+            return "supuesto"
+        if ej == 1:
+            return "test"
+        if (ej, self.ingreso) == (2, "libre"):
+            return "preguntas"
+        raise Exception("tipo no encontrado en: %s - %s " % (self.year, self.titulo))
+
+    @property
+    def isSolucion(self):
+        t = self.titulo.lower()
+        if "solución" in t or "solucion" in t:
+            return True
+        if "_sol_"  in self.url:
+            return True
+        return False
+
+class Oposicion(MyMunch):
+
+    @lru_cache(maxsize=None)
+    def iter_baquedano(self, url=BAQU_URL):
+        arr = []
+        sol = []
+        W.get(url)
+        for tr in W.soup.select("table.MsoNormalTable tr"):
+            tds = tr.findAll("td")
+            if len(tds)!=4:
+                continue
+            url = tr.find("a")
+            if url is None:
+                continue
+            url = url.attrs.get("href")
+            if url is None:
+                continue
+            tds = [get_text(td) for td in tds]
+            titulo=tds[1]
+            if titulo.startswith("Cuerpo de Gestión de Sistemas e Informática de la AGE"):
+                exa = BaqueExamenA2(
+                    url=url,
+                    year=int(tds[0]),
+                    titulo=titulo,
+                    text_ejercicio=tds[2]
+                )
+                if exa.isExcluir:
+                    continue
+                if exa.isSolucion:
+                    sol.append(exa)
+                else:
+                    arr.append(exa)
+
+        def findE(arr, grupo, year, ingreso, ejercicio):
+            ok = []
+            k = (grupo, year, ingreso, ejercicio)
+            for a in arr:
+                if (a.grupo, a.year, a.ingreso, a.ejercicio) == k:
+                    ok.append(a)
+            return ok
+
+        for s in sol:
+            es = findE(arr, s.grupo, s.year, s.ingreso, s.ejercicio)
+            if len(es)>0:
+                for e in es:
+                    e.solucion = s.url
+            else:
+                s.solucion = s.url
+                arr.append(s)
+
+        return arr
 
     @property
     @lru_cache(maxsize=None)
@@ -184,11 +343,27 @@ class Oposicion(MyMunch):
                 url=url,
                 tipo=ingreso[0].upper()
             ))
+        years = set(c.year for c in conv)
+        baque_examenes=[]
+        for e in self.iter_baquedano():
+            if not(e.year in years or e.grupo != self.grupo):
+                baque_examenes.append(e)
+        baque_convocatorias=set((e.year, e.ingreso) for e in baque_examenes)
+        for year, ingreso in baque_convocatorias:
+            bq = BaqueConvocatoria(
+                oposicion=self,
+                year=year,
+                ingreso=ingreso,
+                url=BAQU_URL,
+                tipo=ingreso[0].upper(),
+                examenes=list(e for e in baque_examenes if (e.year, e.ingreso)==(year, ingreso))
+            )
+            conv.append(bq)
         return sorted(conv)
 
     @property
     def key(self):
-        return self.codigo
+        return self.grupo
 
 class CrawlExamenes:
     def __init__(self, salida):
@@ -221,11 +396,19 @@ class CrawlExamenes:
         #!/bin/bash
         function dwn() {
             mkdir -p "${1%/*}"
-            wget -q --no-check-certificate -O "$1" $2
-            if [ $? -eq 0 ]; then
-                echo "[OK] $1"
+            fil="$1"
+            url="$2"
+            ext="${url##*.}"
+            if [[ " pdf doc docx rtf " =~ " ${ext} " ]]; then
+                fil="${fil}.${ext}"
             else
-                echo "[KO] $1 $2"
+                fil="${fil}.pdf"
+            fi
+            wget -q --no-check-certificate -O "$fil" $url
+            if [ $? -eq 0 ]; then
+                echo "[OK] $fil"
+            else
+                echo "[KO] $fil $url"
             fi
         }
         function mrg() {
@@ -260,12 +443,17 @@ class CrawlExamenes:
         MD = [dedent('''
         ---
         title: Examenes de convocatorias anteriores
-        summary: Examenes de [convocatorias TAI/GSI/CSSTIC]({inap}) anteriores.
+        summary: Examenes de convocatorias TAI/GSI/CSSTIC anteriores (ver [sede.inap]({inap}) y [baquedano]({baqu})).
         ---
-        '''.format(inap=INAP_URL)).strip()]
+        '''.format(inap=INAP_URL, baqu=BAQU_URL)).strip()]
         for grupo, data in self.opos.items():
             MD.append("\n# [{codigo} {titulo}]({url})\n".format(**dict(data)))
-            SH.append("\n# {grupo} {codigo}\n".format(**dict(data)))
+            SH.append(dedent('''
+            # {grupo} {codigo}
+            if [ -d "{grupo}" ]; then
+               echo "{grupo} ya existe, borrelo si quiere volver a descargarlo"
+            else
+            '''.format(**dict(data))).rstrip())
             for conv in data.convocatorias:
                 MD.append("* {grupo} [{year} - {ingreso}]({url})".format(grupo=data.codigo, **dict(conv)))
                 for exa in conv.examenes:
@@ -273,26 +461,33 @@ class CrawlExamenes:
                     dwn_sh="dwn "+mam_fl
                     if exa.get("modelo") is not None:
                         modelos = ", ".join(("[modelo {} + solución]({})".format(k.upper(), v) for k,v in sorted(exa.modelo.items())))
-                        MD.append("    * Ejercicio {ejercicio}: ".format(**dict(exa))+modelos)
+                        MD.append("    * Ejercicio {ejercicio}: ".format(**exa.asdict())+modelos)
                         for m, u in sorted(exa.modelo.items()):
-                            SH.append(dwn_sh+"_{modelo}.pdf '{url}'".format(url=u, modelo=m))
+                            SH.append(dwn_sh+"_{modelo} '{url}'".format(url=u, modelo=m))
+                        continue
+                    if exa.get("bloque") is not None:
+                        bloques = ", ".join(("[bloque {}]({})".format(k.upper(), v) for k,v in sorted(exa.bloque.items())))
+                        MD.append("    * Ejercicio {ejercicio}: ".format(**exa.asdict())+bloques)
+                        for m, u in sorted(exa.bloque.items()):
+                            SH.append(dwn_sh+"_{bloque} '{url}'".format(url=u, bloque=m))
                         continue
                     if exa.solucion is None:
-                        MD.append("    * [Ejercicio {ejercicio}]({url})".format(**dict(exa)))
-                        SH.append(dwn_sh+".pdf '{url}'".format(**dict(exa)))
+                        MD.append("    * [Ejercicio {ejercicio}]({url})".format(**exa.asdict()))
+                        SH.append(dwn_sh+" '{url}'".format(**exa.asdict()))
                     elif exa.solucion == exa.url:
-                        MD.append("    * [Ejercicio {ejercicio} + solución]({url})".format(**dict(exa)))
-                        SH.append(dwn_sh+".pdf '{url}'".format(**dict(exa)))
+                        MD.append("    * [Ejercicio {ejercicio} + solución]({url})".format(**exa.asdict()))
+                        SH.append(dwn_sh+" '{url}'".format(**exa.asdict()))
                     else:
-                        MD.append("    * [Ejercicio {ejercicio}]({url}) + [solución]({solucion})".format(**dict(exa)))
-                        SH.append(dwn_sh+"P.pdf '{url}'".format(**dict(exa)))
-                        SH.append(dwn_sh+"R.pdf '{solucion}'".format(**dict(exa)))
+                        MD.append("    * [Ejercicio {ejercicio}]({url}) + [solución]({solucion})".format(**exa.asdict()))
+                        SH.append(dwn_sh+"P '{url}'".format(**exa.asdict()))
+                        SH.append(dwn_sh+"R '{solucion}'".format(**exa.asdict()))
+            SH.append("fi")
         SH.append(dedent('''
             find . -name '*L*' -type f -print0 |
             while IFS= read -r -d '' FL; do
               dup "$FL"
             done
-            find . -name '*R*' -type f -print0 |
+            find . -name '*R*.pdf' -type f -print0 |
             while IFS= read -r -d '' FL; do
               mrg "$FL"
             done
@@ -311,6 +506,13 @@ class CrawlExamenes:
         LNS = []
         supuestos = sorted(supuestos, key=lambda x: (x.year, x.ingreso, x.ejercicio))
         for e in supuestos:
+            if e.get("bloque") is not None:
+                for b, u in sorted(e.bloque.items()):
+                    LNS.append("{}_A2.{}_b{}".format(e.year, e.ingreso[0].upper(), b))
+                    LNS.append(u)
+                    LNS.append("Supuesto práctico A2 {} bloque {} (convocatoria {})".format(e.year, b, e.ingreso))
+                    LNS.append("")
+                continue
             LNS.append("{}_A2.{}".format(e.year, e.ingreso[0].upper()))
             LNS.append(e.url)
             LNS.append("Supuesto práctico A2 {} (convocatoria {})".format(e.year, e.ingreso))
