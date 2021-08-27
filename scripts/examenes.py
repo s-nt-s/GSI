@@ -3,6 +3,7 @@ from textwrap import dedent
 
 import urllib3
 from munch import Munch
+from functools import lru_cache, total_ordering
 
 from .core.util import write
 from .core.web import Web
@@ -28,62 +29,53 @@ OPOS = {k.lower(): v for v, k in (
     ("C1", "Cuerpo de Técnicos Auxiliares de Informática de la Administración del Estado")
 )}
 
+W = Web(verify=False)
 
-class CrawlExamenes:
-    def __init__(self, salida, root="https://sede.inap.gob.es/procesos-selectivos"):
-        self.w = Web(verify=False)
-        self.root = root
-        self.salida = salida
+INAP_URL="https://sede.inap.gob.es/procesos-selectivos"
+
+@total_ordering
+class MyMunch(Munch):
+    def __hash__(self):
+        return hash(self.key)
+
+    def __eq__(self, o):
+        return self.key == o.key
+
+    def __lt__(self, o):
+        return self.key.__lt__(o.key)
+
+class Examen(MyMunch):
+    def __init__(self, *args, **kvargs):
+        super().__init__(*args, **kvargs)
+
+    @property
+    def key(self):
+        return (self.convocatoria.oposicion.key, self.convocatoria.key, self.ejercicio)
+
+    @property
+    def year(self):
+        return self.convocatoria.year
+
+    @property
+    def ingreso(self):
+        return self.convocatoria.ingreso
+
+    @property
+    def oposicion(self):
+        return self.convocatoria.oposicion
+
+class Convocatoria(MyMunch):
+    def __init__(self, *args, **kvargs):
+        super().__init__(*args, **kvargs)
 
     @property
     @lru_cache(maxsize=None)
-    def opos(self):
-        opos = {}
-        self.w.get(self.root)
-        links = list(self.w.soup.select("div.nav-menu a"))
-        for a in links:
-            titulo = get_text(a)
-            key = titulo.lower()
-            grupo = OPOS.get(key)
-            if grupo:
-                url = a.attrs["href"]
-                codigo = url.rsplit("/", 1)[-1].upper()
-                opos[grupo] = Munch(
-                    codigo=codigo,
-                    grupo=grupo,
-                    titulo=titulo,
-                    url=url,
-                    convocatorias=self.get_convocatorias(grupo, url)
-                )
-        opos = {k: v for k, v in sorted(opos.items(), key=lambda x: x[0])}
-        return opos
-
-    def get_convocatorias(self, grupo, url):
-        conv = []
-        self.w.get(url)
-        links = list(self.w.soup.select("div.journal-content-article a"))
-        for a in links:
-            url = a.attrs["href"].strip()
-            m = re_conv.match(url)
-            if m is None:
-                continue
-            cod, year, ingreso = m.groups()
-            conv.append(Munch(
-                year=int(year),
-                ingreso=ingreso,
-                url=url,
-                examenes=self.get_examenes(grupo, ingreso, url),
-                tipo=ingreso[0].upper()
-            ))
-        conv = sorted(conv, key=lambda x: (x.year, x.ingreso))
-        return conv
-
-    def get_examenes(self, grupo, ingreso, url):
+    def examenes(self):
         exa = []
-        self.w.get(url)
+        W.get(self.url)
         url_ej = {}
         lst_ej = None
-        for n in self.w.soup.select("div.journal-content-article *"):
+        for n in W.soup.select("div.journal-content-article *"):
             if n.name == "a":
                 if lst_ej is not None:
                     url_ej[n.attrs["href"]] = lst_ej
@@ -100,7 +92,7 @@ class CrawlExamenes:
                     lst_ej = 1
                     continue
 
-        links = list(self.w.soup.select("div.journal-content-article a"))
+        links = list(W.soup.select("div.journal-content-article a"))
         for a in links:
             url = a.attrs["href"].strip()
             txt = get_text(a).lower().rstrip(".")
@@ -108,17 +100,17 @@ class CrawlExamenes:
             ejercicio = url_ej.get(url)
             if ejercicio is None:
                 continue
-            if grupo == "C1" or ejercicio == 1:
+            if self.oposicion.grupo == "C1" or ejercicio == 1:
                 tipo = "test"
-            elif grupo == "A2":
-                if ((ejercicio == 2 and ingreso == "interna") or (ejercicio == 3 and ingreso == "libre")):
+            elif self.oposicion.grupo == "A2":
+                if ((ejercicio == 2 and self.ingreso == "interna") or (ejercicio == 3 and self.ingreso == "libre")):
                     tipo = "supuesto"
-            elif grupo == "A1":
+            elif self.oposicion.grupo == "A1":
                 pass
             if tipo is None and ("cuestionario" in txt):
                 tipo = "test"
             if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "enunciado del cuarto ejercicio y anexos"):
-                exa.append(Munch(
+                exa.append(Examen(
                     ejercicio=ejercicio,
                     url=url,
                     tipo=tipo,
@@ -130,7 +122,7 @@ class CrawlExamenes:
                 li = li.lower()
                 if li.startswith("plantillas definitivas de respuestas"):
                     if txt == "modelo a":
-                        exa.append(Munch(
+                        exa.append(Examen(
                             ejercicio=ejercicio,
                             url=None,
                             tipo="test",
@@ -146,14 +138,14 @@ class CrawlExamenes:
                 if li and "examen extraordinario" in li:
                     if len(exa) > 0 and exa[-1].ejercicio == url_ej[url]:
                         exa[-1].ejercicio += 0.1
-                    exa.append(Munch(
+                    exa.append(Examen(
                         ejercicio=ejercicio+0.2,
                         url=url,
                         tipo="test",
                         solucion=url,
                     ))
                 elif len(exa) == 0 or not exa[-1].tipo == "test":
-                    exa.append(Munch(
+                    exa.append(Examen(
                         ejercicio=url_ej[url],
                         url=url,
                         tipo="test",
@@ -162,9 +154,67 @@ class CrawlExamenes:
                 else:
                     exa[-1].solucion = url
         for e in exa:
-            e.ingreso = ingreso
-        exa = sorted(exa, key=lambda x: x.ejercicio)
-        return exa
+            e.convocatoria = self
+        return sorted(exa)
+
+    @property
+    def key(self):
+        return (self.oposicion.key, self.year, self.ingreso)
+
+class Oposicion(MyMunch):
+    def __init__(self, *args, **kvargs):
+        super().__init__(*args, **kvargs)
+
+    @property
+    @lru_cache(maxsize=None)
+    def convocatorias(self):
+        conv = []
+        W.get(self.url)
+        links = list(W.soup.select("div.journal-content-article a"))
+        for a in links:
+            url = a.attrs["href"].strip()
+            m = re_conv.match(url)
+            if m is None:
+                continue
+            cod, year, ingreso = m.groups()
+            conv.append(Convocatoria(
+                oposicion=self,
+                year=int(year),
+                ingreso=ingreso,
+                url=url,
+                tipo=ingreso[0].upper()
+            ))
+        return sorted(conv)
+
+    @property
+    def key(self):
+        return self.codigo
+
+class CrawlExamenes:
+    def __init__(self, salida):
+        self.salida = salida
+
+    @property
+    @lru_cache(maxsize=None)
+    def opos(self):
+        opos = {}
+        W.get(INAP_URL)
+        links = list(W.soup.select("div.nav-menu a"))
+        for a in links:
+            titulo = get_text(a)
+            key = titulo.lower()
+            grupo = OPOS.get(key)
+            if grupo:
+                url = a.attrs["href"]
+                codigo = url.rsplit("/", 1)[-1].upper()
+                opos[grupo] = Oposicion(
+                    codigo=codigo,
+                    grupo=grupo,
+                    titulo=titulo,
+                    url=url
+                )
+        opos = {k: v for k, v in sorted(opos.items(), key=lambda x: x[0])}
+        return opos
 
     def save(self):
         SH = [dedent('''
@@ -212,7 +262,7 @@ class CrawlExamenes:
         title: Examenes de convocatorias anteriores
         summary: Examenes de [convocatorias TAI/GSI/CSSTIC]({inap}) anteriores.
         ---
-        '''.format(inap=self.root)).strip()]
+        '''.format(inap=INAP_URL)).strip()]
         for grupo, data in self.opos.items():
             MD.append("\n# [{codigo} {titulo}]({url})\n".format(**dict(data)))
             SH.append("\n# {grupo} {codigo}\n".format(**dict(data)))
@@ -256,10 +306,7 @@ class CrawlExamenes:
         for grupo, data in self.opos.items():
             for conv in data.convocatorias:
                 for exa in conv.examenes:
-                    if grupo == 'A2' and conv.year==2014:
-                        print(exa)
                     if grupo == 'A2' and exa.tipo == "supuesto":
-                        exa.year = conv.year
                         supuestos.append(exa)
         LNS = []
         supuestos = sorted(supuestos, key=lambda x: (x.year, x.ingreso, x.ejercicio))
