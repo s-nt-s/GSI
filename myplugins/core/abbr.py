@@ -58,7 +58,7 @@ class Abbr():
                 abbr.file = file
                 continue
             spl = l.split("://", 1)
-            if l.startswith("{filename}") or (len(spl) == 2 and slp[0].lower() in ("http", "https")):
+            if l.startswith("{filename}") or (len(spl) == 2 and spl[0].lower() in ("http", "https")):
                 url = DefaultMunch(url=l, attrs="")
                 spl = l.split(None, 1)
                 if len(spl)==2:
