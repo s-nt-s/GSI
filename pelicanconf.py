@@ -6,6 +6,7 @@ import os
 import sys
 from glob import glob
 from pathlib import Path
+import re
 
 sys.path.append('.')
 
@@ -16,7 +17,7 @@ sys.path.append('.')
 
 abspath = os.path.abspath(__file__)
 cur_dir = os.path.dirname(abspath)
-
+re_slnu = re.compile(r"/([0-9]+|[A-Z]+)-")
 
 class DynamicSetting(object):
     def __init__(self, f):
@@ -126,6 +127,7 @@ def get_url(metadata):
     if isIndex:
         return url + "/"
 
+    url = re_slnu.sub("/", url)
     return url+".html"
 
 

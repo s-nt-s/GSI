@@ -532,7 +532,7 @@ class CrawlExamenes:
             LNS.append("")
             SH.append("dwn "+name+" '{}'".format(e.url))
         write(abbr_file, "\n".join(LNS))
-        write("content/posts/ejercicios/supuestos.sh", "\n".join(SH))
+        write(self.salida+"supuestos.sh", "\n".join(SH))
 
 if __name__ == "__main__":
     c = CrawlExamenes("content/posts/ejercicios/")

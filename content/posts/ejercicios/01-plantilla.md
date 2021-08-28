@@ -26,7 +26,8 @@ y bloque 4.
 | 2006_A2.int     | HERCULES, Gestión de multas de tráfico |
 | 2006_A2.lib (2) | Información contable y financiera de la CNMV |
 | 2007_A2.int (2) | RPT |
-| 2007_A2.lib (?) | DGT / Correos |
+| 2007_A2.lib_s1  | DGT |
+| 2007_A2.lib_s2  | Correos |
 | ▼ 2008-2018 ▼   | < |
 | 2008_A2.int_b3  | Subasta de vehículos  |
 | 2008_A2.lib     | Concursos para la provisión de los puestos vacantes |
@@ -39,7 +40,7 @@ y bloque 4.
 | 2013_A2.int     | Oficinas de registro, documentos electrónicos, asientos registrales  |
 | 2013_A2.lib     | CONVOC@, Gestión documental para reuniones de comisiones |
 | 2014_A2.int     | Ley de transparencia |
-| 2014_A2.lib     | Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA) |
+| 2014_A2.lib_b3  | Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA) |
 | 2015_A2.int     | Mecanismo de financiación (ICO) |
 | 2015_A2.lib     | Punto de atención al Emprendedor electrónico (PAEe) |
 | 2016_A2.int     | Centro de transferencia tecnológica (CTT) |
@@ -145,7 +146,7 @@ Si te animas a ello, [el fichero que debes modificar es este](https://github.com
 | 2015_A2.int     |  |
 | 2015_A2.lib     |  |
 | 2016_A2.int     |  |
-| 2016_A2.lib     |  |
+| 2016_A2.lib_b4  | FONDE@, Gestión de Fondos Comunitarios |
 | 2017_A2.int     |  |
 | 2017_A2.lib     |  |
 | 2018_A2.int     |  |

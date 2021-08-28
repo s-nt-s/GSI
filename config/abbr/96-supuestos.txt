@@ -1,0 +1,15 @@
+2007_A2.lib_s1
+{filename}/posts/ejercicios/ZZ-supuesto/2007_A2.lib_s1.md
+Supuesto 1 de la convocatoria GSI libre de 2007
+
+2007_A2.lib_s2
+{filename}/posts/ejercicios/ZZ-supuesto/2007_A2.lib_s2.md
+Supuesto 2 de la convocatoria GSI libre de 2007
+
+2014_A2.lib_b3
+{filename}/posts/ejercicios/ZZ-supuesto/2014_A2.lib_b3.md
+Supuesto bloque 3 de la convocatoria GSI libre de 2014
+
+2016_A2.lib_b4
+{filename}/posts/ejercicios/ZZ-supuesto/2016_A2.lib_b4.md
+Supuesto bloque 4 de la convocatoria GSI libre de 2016
