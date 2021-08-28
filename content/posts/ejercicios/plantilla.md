@@ -151,7 +151,7 @@ Si te animas a ello, [el fichero que debes modificar es este](https://github.com
 | 2018_A2.int     |  |
 | 2018_A2.lib     |  |
 
-Tabla 1: Supuestos GSI - bloque 4 sistemas.
+Tabla 2: Supuestos GSI - bloque 4 sistemas.
 
 ## B4: Preguntas tipo
 

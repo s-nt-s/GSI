@@ -57,9 +57,14 @@ class Abbr():
                 abbr = Abbr()
                 abbr.file = file
                 continue
-            slp = l.split("://", 1)
-            if l.startswith("{filename}") or (len(slp) == 2 and slp[0].lower() in ("http", "https")):
-                abbr.urls.append(l)
+            spl = l.split("://", 1)
+            if l.startswith("{filename}") or (len(spl) == 2 and slp[0].lower() in ("http", "https")):
+                url = DefaultMunch(url=l, attrs="")
+                spl = l.split(None, 1)
+                if len(spl)==2:
+                    url.url = spl[0]
+                    url.attrs = spl[1]
+                abbr.urls.append(url)
                 continue
             if len(abbr.urls)==0 and abbr.text is None:
                 abbr.text = l
@@ -96,8 +101,8 @@ class Abbr():
     @lru_cache(maxsize=None)
     def boe(self):
         for url in self.urls:
-            if re_isboe.match(url):
-                return BOE(url)
+            if re_isboe.match(url.url):
+                return BOE(url.url)
         return None
 
     @property
@@ -155,8 +160,8 @@ class Abbr():
             return self.title[2]
         if self.url:
             if self.title:
-                return '[\\1]({url} "{title}"){{{md_class}}}'.format(**self.d)
-            return '[\\1]({url}){{{md_class}}}'.format(**self.d)
+                return '[\\1]({url.url} "{title}"){{: {md_class} {url.attrs}}}'.format(**self.d)
+            return '[\\1]({url.attrs}){{: {md_class} {url.attrs}}}'.format(**self.d)
         return '<abbr class="{html_class}" title="{title}">\\1</abbr>'.format(**self.d)
 
     @property
@@ -164,6 +169,6 @@ class Abbr():
     def new_text(self):
         txt = self.get_new_text()
         for url in self.urls[1:]:
-            dom = get_dom(url)
-            txt=txt + '<sup class="extra_url"><a href="{}">{}</a></sup>'.format(url, dom[0])
+            dom = get_dom(url.url)
+            txt=txt + '<sup class="extra_url"><a href="{url.url}" {url.attrs}>{dom}</a></sup>'.format(url=url, dom=dom[0])
         return txt

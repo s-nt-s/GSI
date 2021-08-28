@@ -518,17 +518,19 @@ class CrawlExamenes:
         for e in supuestos:
             if e.get("bloque") is not None:
                 for b, u in sorted(e.bloque.items()):
-                    LNS.append("{}_A2.{}_b{}".format(e.year, e.ingreso[0:3], b))
-                    LNS.append(u)
+                    name = "{}_A2.{}_b{}".format(e.year, e.ingreso[0:3], b)
+                    LNS.append(name)
+                    LNS.append(u+' download="'+name+'"')
                     LNS.append("Supuesto práctico A2 {} bloque {} (convocatoria {})".format(e.year, b, e.ingreso))
                     LNS.append("")
-                    SH.append("dwn {}_A2.{}_b{} '{}'".format(e.year, e.ingreso[0:3], b, u))
+                    SH.append("dwn "+name+" '{}'".format(u))
                 continue
-            LNS.append("{}_A2.{}".format(e.year, e.ingreso[0:3]))
-            LNS.append(e.url)
+            name = "{}_A2.{}".format(e.year, e.ingreso[0:3])
+            LNS.append(name)
+            LNS.append(e.url+' download="'+name+'"')
             LNS.append("Supuesto práctico A2 {} (convocatoria {})".format(e.year, e.ingreso))
             LNS.append("")
-            SH.append("dwn {}_A2.{} '{}'".format(e.year, e.ingreso[0:3], e.url))
+            SH.append("dwn "+name+" '{}'".format(e.url))
         write(abbr_file, "\n".join(LNS))
         write("content/posts/ejercicios/supuestos.sh", "\n".join(SH))
 
