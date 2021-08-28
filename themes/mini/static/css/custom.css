@@ -69,3 +69,13 @@ a.derogada, a.agotada, a.anulada, a.antiguo, abbr.antiguo {
 body.ejercicios_plantilla tbody th {
   text-align: center;
 }
+
+@media print {
+  body.enunciado main h1:first-of-type {
+    display: none;
+  }
+  body.enunciado main p:first-of-type {
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+  }
+}
