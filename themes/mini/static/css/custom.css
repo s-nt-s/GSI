@@ -63,7 +63,9 @@ body.apuntes_b1_firma div.figgroup2 {
 body.apuntes_b1_firma div.figgroup2 img {
   max-height: 222px;
 }
-
 a.derogada, a.agotada, a.anulada, a.antiguo, abbr.antiguo {
   color: red;
+}
+body.ejercicios_plantilla tbody th {
+  text-align: center;
 }
