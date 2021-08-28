@@ -56,7 +56,6 @@ def make_category(article, slug):
     logger.debug("Category: %s -> %s", category.slug, category.name)
     return category
 
-
 def pretaxonomy_hook(generator):
     """This hook is invoked before the generator's .categories property is
        filled in. Each article has already been assigned a category
@@ -78,17 +77,20 @@ def pretaxonomy_hook(generator):
         else:
             real_articles.append(article)
 
-    category_assignment = \
-        re.compile("^(" +
-                   "|".join(re.escape(prefix)
-                            for prefix in category_objects.keys()) +
-                   ")/")
+    category_assignment = sorted(category_objects.keys())
+    category_assignment = [re.compile("^("+re.escape(k)+")/") for k in category_assignment]
+
+    def cat_find(s):
+        for r in category_assignment:
+            m = r.match(s)
+            if m and m.group(1) in category_objects:
+                yield category_objects[m.group(1)]
 
     for article in real_articles:
-        m = category_assignment.match(article.source_path)
-        if not m or m.group(1) not in category_objects:
-            continue
-        article.category = category_objects[m.group(1)]
+        cats = list(cat_find(article.source_path))
+        if cats:
+            article.category = cats[0]
+            article.categories = cats
 
     generator.articles = real_articles
 

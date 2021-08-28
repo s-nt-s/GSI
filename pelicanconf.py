@@ -169,6 +169,7 @@ ARTICLE_LANG_URL = ARTICLE_URL
 #FILENAME_METADATA = '(?P<slug>.*)'
 FILENAME_METADATA = '([^-]+-)?(?P<slug>.*)'
 PATH_METADATA = '[^\/]+/(?P<category>[^/]+).*/([^-]+-)?(?P<slug>[^\.-]+)\.[^\.]+'
+#PATH_METADATA = '[^\/]+/(?P<category>.*)/([^-]+-)?(?P<slug>[^\.-]+)\.[^\.]+'
 
 ARTICLE_ORDER_BY = 'source_path'
 PAGE_ORDER_BY = 'source_path'

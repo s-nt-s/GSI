@@ -1,11 +1,42 @@
 {% extends "base.html" %}
 {% block content %}
+
 <section id="content" class="body">
     <ol id="posts-list" class="hfeed">
     {% for article in articles_page.object_list %}
+        {% set pr_cat = 1 %}
+        {% set nx_cat = 1 %}
+        {% set cr_cat = 0 %}
+        {% if loop.previtem and loop.previtem.categories is defined %}
+          {% set pr_cat = loop.previtem.categories|length %}
+        {% endif %}
+        {% if loop.nextitem and loop.nextitem.categories is defined %}
+          {% set nx_cat = loop.nextitem.categories|length %}
+        {% endif %}
+
+        {% if article.categories is defined %}
+          {% set cr_cat = article.categories|length %}
+        {% endif %}
+
+        {% if cr_cat != 0 and cr_cat>pr_cat %}
+          {% for c in article.categories %}
+          {% if loop.index>pr_cat %}
+            <li>{{c.name}}:<ul>
+          {% endif %}
+          {%endfor%}
+        {% endif %}
+
         <li>
           <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
         </li>
+
+        {% if cr_cat != 0 and cr_cat>nx_cat %}
+          {% for c in article.categories %}
+          {% if loop.index>nx_cat %}
+            </ul>
+          {% endif %}
+          {%endfor%}
+        {% endif %}
     {% endfor %}
     </ol>
 </section>
