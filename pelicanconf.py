@@ -175,10 +175,15 @@ ARTICLE_ORDER_BY = 'source_path'
 PAGE_ORDER_BY = 'source_path'
 
 CONTENT_FILES = []
+CONTENT_MARKD = []
 for path in PAGE_PATHS + ARTICLE_PATHS:
-    for f in rcglob("content/"+path, "!md", "*"):
+    for f in rcglob("content/"+path, "*"):
         if f.is_file():
-            CONTENT_FILES.append(str(f).split("/", 1)[-1])
+            fn = str(f).split("/", 1)[-1]
+            if f.suffix == ".md":
+                CONTENT_MARKD.append(fn)
+            else:
+                CONTENT_FILES.append(fn)
 
 FAVICON_FILES = [i.split("/",1)[-1] for i in myglob("content/extra/favicon/*.",
     "png",
@@ -200,7 +205,7 @@ EXTRA_PATH_METADATA = {
 for f in FAVICON_FILES:
     EXTRA_PATH_METADATA[f] = {'path': os.path.basename(f)}
 for f in CONTENT_FILES:
-    EXTRA_PATH_METADATA[f] = {'path': f.split("/", 1)[-1]}
+    EXTRA_PATH_METADATA[f] = {'path': re_slnu.sub("/", f.split("/", 1)[-1])}
 
 
 THEME = cur_dir + '/themes/notmyidea-custom'

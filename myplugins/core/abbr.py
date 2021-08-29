@@ -23,13 +23,15 @@ def readlines(*files):
         yield ""
 
 class Abbr():
-    def __init__(self, text=None, file=None):
+    def __init__(self, text=None, file=None, title=None, **kvargs):
         self.text = text
         self.file = file
         self.urls = []
         self.titles = []
         self._re = None
         self._class = "abbr"
+        if title is not None:
+            self.titles.append(title)
 
     @property
     def d(self):
@@ -59,12 +61,7 @@ class Abbr():
                 continue
             spl = l.split("://", 1)
             if l.startswith("{filename}") or (len(spl) == 2 and spl[0].lower() in ("http", "https")):
-                url = DefaultMunch(url=l, attrs="")
-                spl = l.split(None, 1)
-                if len(spl)==2:
-                    url.url = spl[0]
-                    url.attrs = spl[1]
-                abbr.urls.append(url)
+                abbr.add_url(l)
                 continue
             if len(abbr.urls)==0 and abbr.text is None:
                 abbr.text = l
@@ -86,8 +83,22 @@ class Abbr():
                     r.append(n_abbr)
         return r
 
+    def add_url(self, url, insert=None):
+        if isinstance(url, str):
+            url = DefaultMunch(url=url, attrs="")
+            spl = url.url.split(None, 1)
+            if len(spl)==2:
+                url.url = spl[0]
+                url.attrs = spl[1]
+        if insert is not None:
+            self.urls.insert(insert, url)
+        else:
+            self.urls.append(url)
+
     def get_limits(self, text):
         a, z = ("(", ")")
+        if r"\b" in text:
+            return a, z
         aux = str(text)
         for i in "([])?":
             aux = aux.replace(i, "")
@@ -161,7 +172,7 @@ class Abbr():
         if self.url:
             if self.title:
                 return '[\\1]({url.url} "{title}"){{: {md_class} {url.attrs}}}'.format(**self.d)
-            return '[\\1]({url.attrs}){{: {md_class} {url.attrs}}}'.format(**self.d)
+            return '[\\1]({url.url}){{: {md_class} {url.attrs}}}'.format(**self.d)
         return '<abbr class="{html_class}" title="{title}">\\1</abbr>'.format(**self.d)
 
     @property

@@ -69,13 +69,11 @@ a.derogada, a.agotada, a.anulada, a.antiguo, abbr.antiguo {
 body.ejercicios_plantilla tbody th {
   text-align: center;
 }
-
-@media print {
-  body.enunciado main h1:first-of-type {
-    display: none;
-  }
-  body.enunciado main p:first-of-type {
-    border-bottom: 5px solid black;
-    padding-bottom: 10px;
-  }
+body.ejercicios_plantilla table tr > td:first-child a.abbr {
+  color: blue;
+  text-decoration:none;
+}
+body.ejercicios_plantilla table tr > td:first-child a.abbr[target='_blank'] {
+  text-decoration:none;
+  color:unset;
 }

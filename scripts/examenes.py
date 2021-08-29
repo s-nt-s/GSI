@@ -499,7 +499,7 @@ class CrawlExamenes:
             done
         '''))
         MD.append("\n[Script para descargar](examenes.sh)")
-        write(self.salida+"examenes.md", "\n".join(MD))
+        write(self.salida+"00-examenes.md", "\n".join(MD))
         write(self.salida+"examenes.sh", "\n".join(SH))
 
     def abbr_supuestos(self, abbr_file):
@@ -526,7 +526,7 @@ class CrawlExamenes:
                     SH.append("dwn "+name+" '{}'".format(u))
                 continue
             name = "{}_A2.{}".format(e.year, e.ingreso[0:3])
-            LNS.append(name)
+            LNS.append(r"r'\b"+re.escape(name))
             LNS.append(e.url+' download="'+name+'"')
             LNS.append("Supuesto práctico A2 {} (convocatoria {})".format(e.year, e.ingreso))
             LNS.append("")

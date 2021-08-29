@@ -609,9 +609,6 @@ Define un modelo de esquema de referencia para la identificación y autenticaci�
 r'[fF]irmas? longevas?
 Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez
 
-r'PreparaTic27 - Pack\d+/\d+
-{filename}/posts/preparatic/packs.md
-
 r'eSedes?
 Sede electrónica
 

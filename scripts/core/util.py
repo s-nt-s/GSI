@@ -9,8 +9,10 @@ import yaml
 from markdown import markdown
 from munch import Munch
 from weasyprint import CSS, HTML
+import unidecode
 
 re_head = re.compile(r"<(h[1-6])>\s*(.*?)\s*</\1>", re.MULTILINE)
+re_sp = re.compile(r"\s+")
 
 
 def read(file):
@@ -28,7 +30,7 @@ def read(file):
         )
         with open(file, "r") as f:
             for l in f.readlines():
-                sl = l.strip()
+                sl = unidecode.unidecode(l.strip())
                 if md.md is not None:
                     md.md.append(l)
                     continue

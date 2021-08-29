@@ -15,40 +15,40 @@ y bloque 4.
 
 # Bloque 3: Desarrollo
 
-| Supuesto        | Descripción |
-|:----------------|:------------|
-| ▼ 2004-2007 ▼   | < |
-| 2004_A2.int (1) | Gestión contable y presupuestos |
-| 2004_A2.lib (1) | GESCOM, Sistema de Información de Gestión Comercial para IDES |
-| 2004_A2.lib (2) | Confección de exámenes tipo test |
-| 2005_A2.int     | Evaluación de Software libre |
-| 2005_A2.lib (2) | Cita previa |
-| 2006_A2.int     | HERCULES, Gestión de multas de tráfico |
-| 2006_A2.lib (2) | Información contable y financiera de la CNMV |
-| 2007_A2.int (2) | RPT |
-| 2007_A2.lib_s1  | DGT |
-| 2007_A2.lib_s2  | Correos |
-| ▼ 2008-2018 ▼   | < |
-| 2008_A2.int_b3  | Subasta de vehículos  |
-| 2008_A2.lib     | Concursos para la provisión de los puestos vacantes |
-| 2009_A2.int     | Yacimientos arqueológicos |
-| 2009_A2.lib     | Presidencia del consejo de la UE |
-| 2010_A2.int     | Registro civil único |
-| 2010_A2.lib     | Ensayos clínicos |
-| 2011_A2.int     | Dirección general de la protección civil |
-| 2011_A2.lib     | OEPM, Oficina española de patentes y marcas |
-| 2013_A2.int     | Oficinas de registro, documentos electrónicos, asientos registrales  |
-| 2013_A2.lib     | CONVOC@, Gestión documental para reuniones de comisiones |
-| 2014_A2.int     | Ley de transparencia |
-| 2014_A2.lib_b3  | Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA) |
-| 2015_A2.int     | Mecanismo de financiación (ICO) |
-| 2015_A2.lib     | Punto de atención al Emprendedor electrónico (PAEe) |
-| 2016_A2.int     | Centro de transferencia tecnológica (CTT) |
-| 2016_A2.lib     | Cartas de servicio (CdS) y Quejas y Sugerencias (QyS) |
-| 2017_A2.int     | Sistema para calcular la pensión futura |
-| 2017_A2.lib     | eRGPD |
-| 2018_A2.int     | Censo electoral |
-| 2018_A2.lib     | Subastas |
+| Supuesto       | Descripción |
+|:---------------|:------------|
+| ▼ 2004-2007 ▼  | < |
+| 2004_A2.int_s1 | Gestión contable y presupuestos |
+| 2004_A2.lib_s1 | GESCOM, Sistema de Información de Gestión Comercial para IDES |
+| 2004_A2.lib_s2 | Confección de exámenes tipo test |
+| 2005_A2.int    | Evaluación de Software libre |
+| 2005_A2.lib_s2 | Cita previa |
+| 2006_A2.int    | HERCULES, Gestión de multas de tráfico |
+| 2006_A2.lib_s2 | Información contable y financiera de la CNMV |
+| 2007_A2.int_s2 | RPT |
+| 2007_A2.lib_s1 | DGT |
+| 2007_A2.lib_s2 | Correos |
+| ▼ 2008-2018 ▼  | < |
+| 2008_A2.int_b3 | Subasta de vehículos  |
+| 2008_A2.lib_b3 | Concursos para la provisión de los puestos vacantes |
+| 2009_A2.int_b3 | Yacimientos arqueológicos |
+| 2009_A2.lib_b3 | Presidencia del consejo de la UE |
+| 2010_A2.int_b3 | Registro civil único |
+| 2010_A2.lib_b3 | Ensayos clínicos |
+| 2011_A2.int_b3 | Dirección general de la protección civil |
+| 2011_A2.lib_b3 | OEPM, Oficina española de patentes y marcas |
+| 2013_A2.int_b3 | Oficinas de registro, documentos electrónicos, asientos registrales  |
+| 2013_A2.lib_b3 | CONVOC@, Gestión documental para reuniones de comisiones |
+| 2014_A2.int_b3 | Ley de transparencia |
+| 2014_A2.lib_s2 | Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA) |
+| 2015_A2.int_b3 | Mecanismo de financiación (ICO) |
+| 2015_A2.lib_s1 | Punto de atención al Emprendedor electrónico (PAEe) |
+| 2016_A2.int_b3 | Centro de transferencia tecnológica (CTT) |
+| 2016_A2.lib_s1 | Cartas de servicio (CdS) y Quejas y Sugerencias (QyS) |
+| 2017_A2.int_b3 | Sistema para calcular la pensión futura |
+| 2017_A2.lib_s1 | eRGPD |
+| 2018_A2.int_s1 | Censo electoral |
+| 2018_A2.lib_s1 | Subastas |
 
 Tabla 1: Supuestos GSI - bloque 3 desarrollo.
 
@@ -118,39 +118,39 @@ vía [pull requests](https://docs.github.com/es/github/collaborating-with-pull-r
 
 Si te animas a ello, [el fichero que debes modificar es este](https://github.com/s-nt-s/GSI/tree/master/content/posts/ejercicios/plantilla.md).
 
-| Supuesto        | Descripción |
-|:----------------|:------------|
-| ▼ 2004-2007 ▼   | < |
-| 2004_A2.int (2) |  |
-| 2004_A2.lib (2) |  |
-| 2004_A2.lib (1) |  |
-| 2005_A2.int     |  |
-| 2005_A2.lib (1) |  |
-| 2006_A2.int     |  |
-| 2006_A2.lib (1) |  |
-| 2007_A2.int (1) |  |
-| 2007_A2.lib (?) |  |
-| ▼ 2008-2018 ▼   | < |
-| 2008_A2.int_b4  |  |
-| 2008_A2.lib     |  |
-| 2009_A2.int     |  |
-| 2009_A2.lib     |  |
-| 2010_A2.int     |  |
-| 2010_A2.lib     |  |
-| 2011_A2.int     |  |
-| 2011_A2.lib     |  |
-| 2013_A2.int     |  |
-| 2013_A2.lib     |  |
-| 2014_A2.int     |  |
-| 2014_A2.lib     |  |
-| 2015_A2.int     |  |
-| 2015_A2.lib     |  |
-| 2016_A2.int     |  |
-| 2016_A2.lib_b4  | FONDE@, Gestión de Fondos Comunitarios |
-| 2017_A2.int     |  |
-| 2017_A2.lib     |  |
-| 2018_A2.int     |  |
-| 2018_A2.lib     |  |
+| Supuesto       | Descripción |
+|:---------------|:------------|
+| ▼ 2004-2007 ▼  | < |
+| 2004_A2.int_s2 |  |
+| 2004_A2.lib_s2 |  |
+| 2004_A2.lib_s1 |  |
+| 2005_A2.int    |  |
+| 2005_A2.lib_s1 |  |
+| 2006_A2.int    |  |
+| 2006_A2.lib_s1 |  |
+| 2007_A2.int_s1 |  |
+| 2007_A2.lib_s? |  |
+| ▼ 2008-2018 ▼  | < |
+| 2008_A2.int_b4 |  |
+| 2008_A2.lib_b4 |  |
+| 2009_A2.int_b4 |  |
+| 2009_A2.lib_b4 |  |
+| 2010_A2.int_b4 |  |
+| 2010_A2.lib_b4 |  |
+| 2011_A2.int_b4 |  |
+| 2011_A2.lib_b4 |  |
+| 2013_A2.int_b4 |  |
+| 2013_A2.lib_b4 |  |
+| 2014_A2.int_b4 |  |
+| 2014_A2.lib_s2 |  |
+| 2015_A2.int_b4 |  |
+| 2015_A2.lib_s2 |  |
+| 2016_A2.int_b4 |  |
+| 2016_A2.lib_s2 | FONDE@, Gestión de Fondos Comunitarios |
+| 2017_A2.int_b4 |  |
+| 2017_A2.lib_s2 |  |
+| 2018_A2.int_s2 |  |
+| 2018_A2.lib_s2 |  |
 
 Tabla 2: Supuestos GSI - bloque 4 sistemas.
 

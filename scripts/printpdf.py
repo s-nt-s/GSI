@@ -29,11 +29,11 @@ class PDF:
                     <meta charset="utf-8"/>
                     <link rel="stylesheet" type="text/css" media="print" href="%s" />
                 </head>
-                <body>
+                <body class="{body_class}"><main>
                 {content}
-                </body>
+                </main></body>
             </html>
-        ''' % self.print_css)
+        ''' % (self.print_css))
 
     def get_css_print(sef, fuente):
         dir = Path(fuente).parent
@@ -61,14 +61,15 @@ class PDF:
         footer_body = footer_body.copy_with_children(footer_body.all_children())
         return footer_body.all_children()
 
-    def to_pdf(self, fuente, codigo=None):
+    def to_pdf(self, fuente, codigo=None, body_class=None):
         fuente = str(fuente)
         delFuente = False
         if fuente.endswith(".md"):
             delFuente = True
             MD = read(fuente)
             codigo = MD.meta.pdf_code
-            html = self.template.format(title=MD.meta.title, content=MD.html)
+            body_class = MD.meta.get('body_class', "")
+            html = self.template.format(title=MD.meta.title, content=MD.html, body_class=body_class)
             fuente = fuente.rsplit(".", 1)[0] + ".html"
             with open(fuente, "w") as f:
                 f.write(html)
@@ -93,6 +94,8 @@ if __name__ == "__main__":
     for md in rcglob(ROOT/"content/posts", "md"):
         MD = read(md)
         if MD.meta.get("pdf_code"):
+            if "ZZ-supuesto" not in str(md):
+                continue
             print(md)
             pdf = PDF()
             pdf.to_pdf(md)

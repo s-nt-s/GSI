@@ -2,6 +2,8 @@
 title: Packs
 summary: "Contenido de los [Packs preparatic](http://www.preparatic.org/category/material_pack/)"
 body_class: "packtree"
+abbr:
+  text: "r'PreparaTic27 - Pack\\d+/\\d+"
 ---
 * [Pack_1_PreparaTIC27.zip](#z1)
 * [Audioapuntes_Pack1_01.7z](#z2)

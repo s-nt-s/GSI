@@ -10,13 +10,40 @@ from markdown.preprocessors import Preprocessor
 from munch import DefaultMunch, Munch
 from pelican import signals
 from os.path import join, dirname
+import unidecode
 from glob import glob
 from .core.util import get_dom, get_class_dom
 from .core.abbr import Abbr
 
 re_sp = re.compile(r"\s+")
 
+def readhead(file):
+    head = ''
+    firstLine = True
+    with open(file, "r") as f:
+        for l in f.readlines():
+            sl = unidecode.unidecode(l.strip())
+            if len(sl)==0 and firstLine:
+                continue
+            if firstLine and sl != '---':
+                return None
+            if firstLine and sl == '---':
+                firstLine = False
+                continue
+            if not firstLine and sl == '---':
+                break
+            head = head + l
+    if len(head.strip())==0:
+        return None
+    return head
+
+
 def readyaml(file):
+    if str(file).endswith(".md"):
+        head = readhead(file)
+        if head is None:
+            return None
+        return yaml.safe_load(head)
     with open(file, 'r') as stream:
         r = yaml.load_all(stream, Loader=yaml.FullLoader)
         r = list(r)
@@ -108,7 +135,19 @@ def process_settings(pelican_object):
                     replacements[s] = str(v)
     delimiter = replacements.pop('DELIMITER', '::')
 
-    abbr = Abbr.load(config_file.parent / "abbr")
+    abbr = []
+    for md in pelican_object.settings.get('CONTENT_MARKD', []):
+        meta = readyaml("content/"+md)
+        if meta is None:
+            continue
+        meta = meta.get('abbr')
+        if meta is None:
+            continue
+        ab = Abbr(**meta)
+        ab.add_url("{filename}/"+md, insert=0)
+        abbr.append(ab)
+
+    abbr.extend(Abbr.load(config_file.parent / "abbr"))
 
     return Munch(
         delimiter=delimiter,
