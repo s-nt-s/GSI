@@ -40,7 +40,7 @@ y bloque 4.
 | 2013_A2.int_b3 | Oficinas de registro, documentos electrónicos, asientos registrales  |
 | 2013_A2.lib_b3 | CONVOC@, Gestión documental para reuniones de comisiones |
 | 2014_A2.int_b3 | Ley de transparencia |
-| 2014_A2.lib_s2 | Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA) |
+| 2014_A2.lib_s1 | Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA) |
 | 2015_A2.int_b3 | Mecanismo de financiación (ICO) |
 | 2015_A2.lib_s1 | Punto de atención al Emprendedor electrónico (PAEe) |
 | 2016_A2.int_b3 | Centro de transferencia tecnológica (CTT) |
