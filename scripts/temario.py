@@ -12,6 +12,7 @@ from .core.web import Web
 sp = re.compile("\s+")
 re_tema = re.compile(r"^(\d+)\. (.+)$")
 
+LAST_BOE="BOE-A-2021-8892"
 
 def mkRE(s):
     if isinstance(s, str):
@@ -111,15 +112,34 @@ class CrawlTemario:
 
         '''.format(title=title, url=self.url, boe=self.boe, anexo=anexo)).strip()
         ]
+        if self.boe != LAST_BOE:
+            MD = [dedent('''
+            ---
+            title: '{title}'
+            Status: published
+            summary: '[{boe}]({url}) - Anexo {anexo}'
+            status: hidden
+            ---
+
+            '''.format(title=title, url=self.url, boe=self.boe, anexo=anexo)).strip()
+            ]
+
         for blq in self.get_bloques(get_anexo=anexo):
             MD.append("\n# "+blq.titulo+"\n")
             for i, tema in enumerate(blq.temas):
                 MD.append("{0}. {1}".format(i+1, tema.titulo))
 
-        write(self.salida + file, "\n".join(MD))
+        if self.boe == LAST_BOE:
+            write(self.salida + file, "\n".join(MD))
+        else:
+            write(self.salida + LAST_BOE + "/" + file, "\n".join(MD))
 
 
 if __name__ == "__main__":
     c = CrawlTemario("content/posts/temario/")
+    c.save(c.anx_libre)
+    c.save(c.anx_interna)
+
+    c = CrawlTemario("content/posts/temario/", boe="BOE-A-2019-9062", libre="IX", interna="X", re_bloque=r"^Bloque ([XVICMDL]+)\. (.+)$")
     c.save(c.anx_libre)
     c.save(c.anx_interna)
