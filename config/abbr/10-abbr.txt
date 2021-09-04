@@ -1198,3 +1198,7 @@ Organismos autónomos
 SQLi
 https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL
 Inyección SQL
+
+OCR
+https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres
+Reconocimiento óptico de caracteres

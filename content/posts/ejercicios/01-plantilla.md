@@ -48,7 +48,7 @@ y bloque 4.
 | 2017_A2.int_b3 | Sistema para calcular la pensión futura |
 | 2017_A2.lib_s1 | eRGPD |
 | 2018_A2.int_s1 | Censo electoral |
-| 2018_A2.lib_s1 | Subastas |
+| 2018_A2.lib_s1 | Portal de subastas administrativa |
 
 Tabla 1: Supuestos GSI - bloque 3 desarrollo.
 
