@@ -4,7 +4,7 @@ title: Novedades del temario con respecto al año anterior
 
 Diferencias del temario
 [BOE-A-2021-8892](https://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892)
-con el tel temario
+con el temario
 [BOE-A-2019-9062](https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062).
 
 # [Convocatoria Interna](https://github.com/s-nt-s/GSI/commit/d3560a1851fc42adb03db204b3c46a23d98c58d8#diff-e6676f89dc6d9f58662d9f32743c0d4f897f7cd7ed30c3c8d7408b4174bae10d)
