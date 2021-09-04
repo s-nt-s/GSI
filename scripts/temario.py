@@ -132,7 +132,7 @@ class CrawlTemario:
         if self.boe == LAST_BOE:
             write(self.salida + file, "\n".join(MD))
         else:
-            write(self.salida + LAST_BOE + "/" + file, "\n".join(MD))
+            write(self.salida + self.boe + "/" + file, "\n".join(MD))
 
 
 if __name__ == "__main__":
