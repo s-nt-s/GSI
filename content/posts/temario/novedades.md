@@ -44,4 +44,4 @@ Si te animas a ello, [el fichero que debes modificar es este](https://github.com
 
 Tras comparar el [temario actual]({filename}libre.md) con el [temario anterior]({filename}BOE-A-2021-8892/libre.md) los cambios detectados son:
 
-`...`
+* ...
