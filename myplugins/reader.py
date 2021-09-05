@@ -87,7 +87,7 @@ class MyReader(MarkReader):
             metadata['date'] = to_date(fl_stat.st_ctime)
         if metadata.get('modified') is None:
             metadata['modified'] = to_date(fl_stat.st_mtime)
-        if self.settings.get("PUBLISH_ALL") is True and not metadata.get("harddraft"):
+        if self.settings.get("PUBLISH_ALL") is True and metadata.get('status') == 'draft' and not metadata.get("harddraft"):
             metadata['status'] = 'published'
         if 'version' not in metadata:
             metadata['version'] = {}

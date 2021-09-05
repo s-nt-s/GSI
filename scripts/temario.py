@@ -105,7 +105,7 @@ class CrawlTemario:
         MD = [dedent('''
         ---
         title: '{title}'
-        status: published
+        Status: published
         summary: '[{boe}]({url}) - Anexo {anexo}'
         pdf_code: GSI
         ---
@@ -116,7 +116,7 @@ class CrawlTemario:
             MD = [dedent('''
             ---
             title: '{title}'
-            status: hidden
+            Status: hidden
             summary: '[{boe}]({url}) - Anexo {anexo}'
             ---
 
