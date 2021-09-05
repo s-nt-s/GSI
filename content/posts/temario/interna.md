@@ -1,6 +1,6 @@
 ---
 title: 'Temario GSI (interna)'
-Status: published
+status: published
 summary: '[BOE-A-2021-8892](https://boe.es/diario_boe/txt.php?id=BOE-A-2021-8892) - Anexo XIII'
 pdf_code: GSI
 ---

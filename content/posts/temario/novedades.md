@@ -9,7 +9,7 @@ con el temario
 
 # [Convocatoria Interna](https://github.com/s-nt-s/GSI/commit/d3560a1851fc42adb03db204b3c46a23d98c58d8#diff-e6676f89dc6d9f58662d9f32743c0d4f897f7cd7ed30c3c8d7408b4174bae10d)
 
-Tras comparar el [temario actual]({filename}interna.md) con el [temario anterior]({filename}./BOE-A-2019-9062/interna.md) los cambios detectados son:
+Tras comparar el [temario actual]({filename}interna.md) con el [temario anterior]({filename}BOE-A-2019-9062/interna.md) los cambios detectados son:
 
 * B2 - Tecnología básica:
     * `Tema _3` añade: Herramientas de trabajo colaborativo y redes sociales.
@@ -42,6 +42,6 @@ vía [pull requests](https://docs.github.com/es/github/collaborating-with-pull-r
 
 Si te animas a ello, [el fichero que debes modificar es este](https://github.com/s-nt-s/GSI/tree/master/content/posts/temario/novedades.md).
 
-Tras comparar el [temario actual]({filename}libre.md) con el [temario anterior]({filename}./BOE-A-2019-9062/libre.md) los cambios detectados son:
+Tras comparar el [temario actual]({filename}libre.md) con el [temario anterior]({filename}BOE-A-2019-9062/libre.md) los cambios detectados son:
 
 * ...

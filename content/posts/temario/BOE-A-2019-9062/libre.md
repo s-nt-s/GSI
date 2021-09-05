@@ -1,8 +1,7 @@
 ---
 title: 'Temario GSI (libre)'
-Status: published
-summary: '[BOE-A-2019-9062](https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062) - Anexo IX'
 status: hidden
+summary: '[BOE-A-2019-9062](https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062) - Anexo IX'
 ---
 
 # Organización del Estado y Administración electrónica

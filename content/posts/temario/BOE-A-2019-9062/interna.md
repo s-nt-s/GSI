@@ -1,8 +1,7 @@
 ---
 title: 'Temario GSI (interna)'
-Status: published
-summary: '[BOE-A-2019-9062](https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062) - Anexo X'
 status: hidden
+summary: '[BOE-A-2019-9062](https://boe.es/diario_boe/txt.php?id=BOE-A-2019-9062) - Anexo X'
 ---
 
 # Administración electrónica y políticas públicas de igualdad, dependencia y transparencia
