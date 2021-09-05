@@ -53,10 +53,10 @@
       sobre
       {% if page_or_article %}
           {% set source = page_or_article.source_path[LEN_CUR_DIR:] %}
-          su código <a href="{{ SOURCE_URL }}/{{ source }}" target="_blank">markdown</a> o
+          su código <a class="urlmd" href="{{ SOURCE_URL }}/{{ source }}" target="_blank">markdown</a> o
       {% elif category and category.source_path %}
           {% set source = category.source_path[LEN_CUR_DIR:] %}
-          su código <a href="{{ SOURCE_URL }}/{{ source }}" target="_blank">markdown</a> o
+          su código <a class="urlmd" href="{{ SOURCE_URL }}/{{ source }}" target="_blank">markdown</a> o
       {% endif %}
       {% set source =  self._TemplateReference__context.name %}
       su <a href="{{ SOURCE_URL }}/{{ THEME[LEN_CUR_DIR:] }}/templates/{{source}}" target="_blank">template</a>.

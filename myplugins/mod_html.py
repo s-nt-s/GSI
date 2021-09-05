@@ -72,11 +72,19 @@ class ModHtml:
 
 
     def fix_href(self):
+        urlmd = self.soup.select_one("footer a.urlmd")
+        if urlmd:
+            urlmd = urlmd.attrs.get("href")
         for a, attr, href in self.get_href("a"):
             if href.endswith("//"):
                 a.attrs[attr] = href.rstrip("/") + "/"
                 self.is_changed = True
-
+            if urlmd and href.startswith("{filename}"):
+                href = href[10:]
+                href = urljoin(urlmd, href)
+                a.attrs[attr] = href
+                a.attrs["_target"] = "_blank"
+                self.is_changed = True
 
 def parallel_mod_html(pelican_object):
     html_files = []
