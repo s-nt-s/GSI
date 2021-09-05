@@ -47,6 +47,10 @@ def get_session(cfg):
     f.close()
     return w
 
+def rlp(s, *args):
+    for a, b in zip(args[0::2], args[1::2]):
+        s = s.replace(a, b)
+    return s
 
 class CrawlInap:
     def __init__(self, salida):
@@ -56,7 +60,7 @@ class CrawlInap:
         self.w.get(self.cfg.curso)
 
         self.CURSO = re_sp.sub(" ", self.w.soup.find("h1").get_text()).strip().capitalize()
-        self.CURSO = self.CURSO.replace(".- oep", " - OEP")
+        self.CURSO = rlp(self.CURSO, ".- oep", " - OEP", "gestion", "gestión", "informatica", "informática")
         self.CODIGO = re_sp.sub(" ", self.w.soup.select("li.breadcrumb-item a")[-1].get_text()).strip()
 
     def get_urls(self, slc, text=None):
@@ -160,5 +164,5 @@ class CrawlInap:
 
 
 if __name__ == "__main__":
-    c = CrawlInap("content/posts/ejercicios/")
+    c = CrawlInap("content/posts/ejercicios/10-")
     c.save()

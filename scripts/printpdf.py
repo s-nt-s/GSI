@@ -8,6 +8,7 @@ import yaml
 from markdown import markdown
 from munch import Munch
 from weasyprint import CSS, HTML
+import sys
 
 from .core.util import rcglob, read, write
 
@@ -61,8 +62,11 @@ class PDF:
         footer_body = footer_body.copy_with_children(footer_body.all_children())
         return footer_body.all_children()
 
-    def to_pdf(self, fuente, codigo=None, body_class=None):
+    def to_pdf(self, fuente, codigo=None, body_class=None, overview=False):
         fuente = str(fuente)
+        target = fuente.rsplit(".", 1)[0] + ".pdf"
+        if isfile(target) and not overview:
+            return
         delFuente = False
         if fuente.endswith(".md"):
             delFuente = True
@@ -84,18 +88,17 @@ class PDF:
                 p = int((i / 2) + 1)
                 page_body.children += self.get_footer(styles, codigo, p)
 
-        html.write_pdf(fuente[:-5] + ".pdf")
+        html.write_pdf(target)
 
         if delFuente:
             remove(fuente)
 
 
 if __name__ == "__main__":
+    overview = len(sys.argv)==2 and self.salida[1]=="overview"
     for md in rcglob(ROOT/"content/posts", "md"):
         MD = read(md)
         if MD.meta.get("pdf_code"):
-            if "ZZ-supuesto" not in str(md):
-                continue
             print(md)
             pdf = PDF()
-            pdf.to_pdf(md)
+            pdf.to_pdf(md, overview=overview)

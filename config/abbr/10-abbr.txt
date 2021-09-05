@@ -1202,3 +1202,9 @@ Inyección SQL
 OCR
 https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres
 Reconocimiento óptico de caracteres
+
+Microservicios
+https://es.wikipedia.org/wiki/Arquitectura_de_microservicios
+
+PWA
+https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_web_progresiva
