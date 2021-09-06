@@ -1208,3 +1208,44 @@ https://es.wikipedia.org/wiki/Arquitectura_de_microservicios
 
 PWA
 https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_web_progresiva
+Aplicación web progresiva
+
+Kubernetes
+https://es.wikipedia.org/wiki/Kubernetes
+Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores
+
+Ingress
+https://kubernetes.io/docs/concepts/services-networking/ingress/
+Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL
+
+Custom Elements
+https://developer.mozilla.org/es/docs/Web/Web_Components/Using_custom_elements
+Elementos personalizados, conjunto de APIs de JavaScript que permiten definir elementos (etiquetas HTML) personalizados y su comportamiento
+
+r'Server Side Includes|SSI
+https://es.wikipedia.org/wiki/Server_Side_Includes
+Conjunto de directivas que se escriben en las páginas HTML y que se evalúan en el servidor web cuando se solicita la página HTML, ej <!--#include ... -->
+
+r'Edge Side Includes|ESI
+https://en.wikipedia.org/wiki/Edge_Side_Includes
+Permite a los servidores de edge (como las cachés de Varnish) mezclar y matchear contenido procedente de múltiples direcciones URL.
+
+micro-frontends
+https://micro-frontends-es.org/
+Enfoque micorservicios para fronteds
+
+AMQP
+https://es.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol
+Advanced Message Queuing Protocol, protocolo de estándar abierto en la capa de aplicaciones de un sistema de comunicación
+
+XA transactions
+https://en.wikipedia.org/wiki/Distributed_transaction
+Transacciones distribuidas
+
+pub/sub interface
+https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
+Patrón de mensajería donde los publishers no envían mensajes directamente a destinatarios, si no que los categorizan en clases y son los subscribers quienes se suscriben a dichas clases para recibirlos
+
+r'REST\b
+https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional
+Transferencia de Estado Representacional

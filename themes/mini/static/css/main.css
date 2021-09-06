@@ -190,3 +190,9 @@ sup.extra_url {
 *:hover + sup.extra_url, sup.extra_url:hover {
   display: unset;
 }
+
+div.figgroup2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+}
