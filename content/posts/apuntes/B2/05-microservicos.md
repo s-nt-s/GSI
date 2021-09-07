@@ -109,22 +109,83 @@ La comunicación realizada puede ser:
 
 ### API Gateway
 
-En una arquitectura monolitica el servidor gestiona directamente las peticiones
-de los clientes, pero en una arquitectura de microservicios podría ser necesario
-consultar varios de ellos y combinar sus respuestas. Para alejar esta problemática
-del usuario/frontend se emplea la API Gateway.
+El API Gateway implementa el patrón de diseño Facade para el acceso a las funcionalidades de negocio
+por parte de los clientes, abstrayendo la coreografía de servicios subyacente.
 
 Físicamente esta conformado por una serie de archivos de configuración (ej YAML)
 sobre un servidor web (ej nginx) que indican la forma de diseccionar las solicitudes.
+Es decir, actuá como un proxy inverso que redirige las peticiones al microservicio
+adecuado.
 
 Además puede incluir funciones de:
 
 * autenticación
+* logs
 * cumplimiento de la política de seguridad
 * balanceo de carga
-* gestión de contratos y acuerdos de nivel de servicio (SLA)
+* gestión de contratos y SLA
 * gestión de caché
 * resolución de dependencias
+
+Ejemplo: Spring Cloud Zuul en Netflix
+
+## Descubrimiento de servicios
+
+La arquitectura de microservicios tiene la capacidad de balanceo de carga automática
+mediante la creación de distintas replicas del microservio. Esto hace necesario
+varios servidores de descubrimientos de servicios para asegurar la disponibilidad
+de dichos servicios.
+
+Cada servidor de descubrimiento mantiene las rutas de las distintas instancias
+de cada microservicio y comprueba su disponibilidad a través de *latidos* para
+almacenar internamente el estado de cada microservicio.
+
+Los servicios de descubrimiento pueden ser a su ver clientes de otros
+servidores de descubrimiento.
+
+Ejemplo: Spring Cloud Eureka en Netflix
+
+## Balanceador de cliente
+
+A diferencia de otras arquitecturas, el balanceo de carga en una arquitectura de
+microservicios se lleva a cabo por parte del cliente, no del servidor.
+Es el cliente quien elije a qué instancia del microservicio enviar la
+petición entre los disponibles de acuerdo a una serie de criterios de
+balanceo definidos: de carga, geográficos,
+Round-robin, tiempo de respuesta ponderado, etc.
+
+El balance se puede hacer a través de un mecanismo software o hardware. En ambos casos hay un
+intermediario que define la política de balanceo y hace la petición al servicio.
+
+Ejemplo: Spring Cloud Ribbon en Netflix
+
+## Gestión de errores en cascada
+
+En sistemas distribuidos como una arquitectura de microservicios un punto crítico
+del diseño es la gestión de errores.
+Los servicios se llaman unos a otros y un error en un servicio puede deshabilitar varios servicios
+por no recibir peticiones o porque estén continuamente llamando a un servicio no disponible.
+
+Para evitar esto se puede usar el patrón de diseño **Circuit Breaker**
+que evita que una aplicación intente de manera reiterada una operación
+que con probabilidad va a fallar devolviendo el error directamente sin
+hacer la llamada.
+
+Ejemplo: Spring Cloud Histrix en Netflix
+
+## Ejemplo arquitectura Netflix
+
+![Arquitectura Netflix](https://lh3.googleusercontent.com/aubes0y1QW7_BQFRpFVNXSxOcNsFZgvattDu95i1fV_BzzBhUp9fN4ogfkcfmFS__ntSMKS_xyP8sSX65FCouZwzL_rFDL8B19kaRKQf4qYqUoLqfjwymEJLaQPYFtZM0jxyAdgO)
+
+Figura 1: Arquitectura Netflix
+
+Se puede ver una descripción más en detalle en *[josephcodes.dev - Netflix y la nueva arquitectura de microservicios](https://josephcodes.dev/2020/11/04/netflix-y-la-nueva-arquitectura-de-microservicios/)*,
+a lo que se puede añadir que además se usa Feign para abstraer los detalles de
+implementación de los API REST y del propio protocolo HTTP, de forma que los
+servicios se enfoquen en la lógica de negocio y cuando consuman otros servicios
+el código no gestione peticiones HTTP explícitamente,
+desacoplando la lógica de negocio de la capa de comunicación. Un ejemplo
+de su uso se puede ver en *[adictosaltrabajo.com - Spring Cloud Feign: declarative REST client](https://www.adictosaltrabajo.com/2017/09/26/spring-cloud-feign-declarative-rest-client/)*.
 
 # Bibliografía
 
@@ -136,3 +197,8 @@ Además puede incluir funciones de:
 * [docs.microsoft.com - Diferencias entre el patrón de puerta de enlace de API y la comunicación directa de cliente a microservicio](https://docs.microsoft.com/es-es/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern)
 * [techtarget.com - API Gateway](https://searchdatacenter.techtarget.com/es/definicion/API-Gateway-o-puerta-de-enlace-API)
 * [stackoverflow.com - Service Oriented Architecture - AMQP or HTTP](https://stackoverflow.com/questions/16838416/service-oriented-architecture-amqp-or-http)
+* [programmerclick.com - Descubrimiento de servicios en microservicios](https://programmerclick.com/article/1059308994/)
+* [medium.com/swlh - A Design Analysis of Cloud-based Microservices Architecture at Netflix](https://medium.com/swlh/a-design-analysis-of-cloud-based-microservices-architecture-at-netflix-98836b2da45f)
+* [bigdatadummy.wordpress.com - Arquitectura de Microservicios con Netflix](https://bigdatadummy.wordpress.com/2020/03/04/arquitectura-de-microservicios-con-netflix/)
+* [josephcodes.dev - Netflix y la nueva arquitectura de microservicios](https://josephcodes.dev/2020/11/04/netflix-y-la-nueva-arquitectura-de-microservicios/)
+* [adictosaltrabajo.com - Spring Cloud Feign: declarative REST client](https://www.adictosaltrabajo.com/2017/09/26/spring-cloud-feign-declarative-rest-client/)

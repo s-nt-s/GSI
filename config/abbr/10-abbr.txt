@@ -1249,3 +1249,32 @@ Patrón de mensajería donde los publishers no envían mensajes directamente a d
 r'REST\b
 https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional
 Transferencia de Estado Representacional
+
+SLA
+https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio
+Acuerdo de nivel de servicio
+
+r'Facade
+https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o)
+Patrón de diseño estructural que proporciona una interfaz simple para un subsistema complejo
+
+Circuit breaker
+https://apiumhub.com/es/tech-blog-barcelona/patron-circuit-breaker/
+https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern
+Patrón de diseño que evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar
+
+r'[iI]nversión de control|IoC
+https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control
+Principio de diseño de Software en el que se especifican respuestas deseadas a sucesos o solicitudes de datos concretas, dejando que algún tipo de entidad o arquitectura externa lleve a cabo las acciones de control que se requieran en el orden necesario y para el conjunto de sucesos que tengan que ocurrir
+
+Inyección de dependencias
+https://es.wikipedia.org/wiki/Inyecci%C3%B3n_de_dependencias
+Patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase la que cree dichos objetos
+
+i'(Planificación )?Round[\- ]robin
+https://es.wikipedia.org/wiki/Planificaci%C3%B3n_Round-robin
+Método para seleccionar todos los elementos en un grupo de manera equitativa y en un orden racional, normalmente comenzando por el primer elemento de la lista hasta llegar al último y empezando de nuevo desde el primer elemento
+
+POJO
+https://es.wikipedia.org/wiki/Plain_Old_Java_Object
+Plain Old Java Object, clases simples y que no dependen de un framework en especial (no extiende ni implementa nada en especial)
