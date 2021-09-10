@@ -1,10 +1,81 @@
 ---
-title: Microservicios
+title: Microservicios y contenedores
 status: draft
 ---
 
 # Conceptos básicos
 
+**Contenedor**: unidad de software estándar que empaqueta el código y todas sus
+dependencias para que la aplicación se ejecute de manera rápida y se pueda portar
+entre entornos.
+
+**Microservicio**: Pequeño servicio que se ejecuta de forma independiente
+y se comunica a través de una API definida.
+
+*Nota*: Es habitual ver arquitecturas de microservicios que usan contenedores,
+pero hay que recordar que no son sinónimos y que se puede implementar
+microservicios sin usar contenedores.
+
+# Evolución histórica
+
+| Escenario        | Arquitectura             | Despliegue       | Infraestructura | Metodología<br/>de trabajo |
+|-|-|-|-|-|
+| **Tradicional**  | Monolítica               | Servidor físico  | Local           | En cascada |
+| **Vritualizado** | Monolítica<br/>multicapa | Servidor virtual | Hosting         | Ágil       |
+| **Conterizado**  | Microservicios           | Contenedores     | Nube            | DevOps     |
+
+![Evolución histórica](img/container_evolution.svg)
+
+# Virtualización basada en contenedores
+
+Método de virtualización en el que, sobre el núcleo del sistema operativo,
+se ejecuta una capa que permite que existan múltiples instancias
+aisladas de espacios de usuario, en lugar de solo uno.
+
+Estas instancias, llamadas contenedores, pueden verse y sentirse como un servidor
+real desde el punto de vista de sus dueños y usuarios.
+
+## Tipos de contenedores
+
+* Contenedores de infraestructura o sistema de contenedores:
+Ofrecen un servicio que permite ejecutar múltiples instancias de sistemas operativos
+de manera aislada. Es similar a una máquina virtual pero más rápido y ligero. (ej: LXC y LXD)
+* Contenedores de procesos o **Contenedores de aplicaciones**: Ofrecen un sistema
+para empaquetar aplicaciones y todas sus dependencias y, por tanto, son muy útiles
+para el desarrollo y distribución de aplicaciones. (ej: Docker y systemd-nspawn)
+* Contenedores sandbox. Enfocados en proveer aislamiento mediante un entorno que
+permita ejecutar contenedores en un espacio escapsulado donde tiene acceso
+restringido a recursos del sistema operativo o datos del usuario (sandbox).
+(ej: Firejail​, nsroot​, nsjail​, FreeBSD jail, sandboxie​ y Bubblewrap)
+
+Nota: Generalmente, cuando decimos *contenedor* a secas, nos referimos a un
+*contenedor de aplicacion*.
+
+## Ventajas e inconvenientes
+
+**Ventajas**:
+
+* Poca o ninguna sobrecarga porque no hay emulación ni máquina virtual intermedia
+* Casi tan flexible como las máquinas virtuales tradicionales
+* Se puede implementar mecanismos de copy-on-write
+* No requiere un hipervisor ni ningún mecanismo de hardware
+* Permite mayor contro desde el anfitrión
+
+**Desventajas**
+
+* Un fallo en el kernel del anfitrión puede hacer caer a todos sus contenedores
+* No se puede hospedar un sistema operativo o kernel distinto al del anfitrión, aunque:
+    * en algunos casos se puede alojar distintas versiones de la misma distribución
+    o incluso distintas distribuciones Linux
+    * Docker en Windows puede jecutar contenedores Linux gracias a la capa
+    de compatibilidad WSL
+* Las librerías, etc que ejecuten los servidores virtuales deben estar compilados
+para el mismo juego de instrucciones y hardware que utiliza el sistema anfitrión.
+
+## Orquestación y coreografía
+
+Las aplicaciones en contenedores habitualmente utilizan una plataforma de
+orquestación/coreografía de contenedores
 
 # Microservicios
 
@@ -67,7 +138,7 @@ a extremo (desde el backend hasta el frontend).
 
 ![Organización de los equipos según el enfoque](img/micro-frontend.png)
 
-Figura 1: Organización de los equipos según el enfoque
+Figura 2: Organización de los equipos según el enfoque
 
 Tecnologías que pueden intervenir en el enfoque micro-frontends:
 
@@ -84,28 +155,43 @@ la presentación.
 
 La comunicación realizada puede ser:
 
-* Síncrona (**HTTP-REST**) mediante petición/respuesta (exponiendo las API).
-    * Ventajas:
-        * interactuá bien con una interfaz web
-        * los desarrolladores están familiarizados con HTTP-REST
-        * es fácil de depurar
-        * facilita ofrecer APIs a terceros
-    * Desventajas:
-        * No ofrece las ventajas de AMQP
-* Asíncrona (**AMQP**) mediante un broker de mensajes como RabbitMQ o Kafka
-    * Ventajas:
-        * es muy rápido
-        * es flexible
-        * consume pocos recursos
-        * puede priorizar unos mensajes sobre otros en la cola
-        * es compatible con XA transactions
-        * es tolerante a fallos
-        * puede asegurar que el mensaje es entregado una sola vez
-        * ofrece pub/sub interface
-        * permite segmentación de mensajes y agrupado de mensajes
-        * puedes tener un hilo separado para escuchar las respuestas
-    * Desventajas:
-        * El broker pasa a ser un servicio critico
+**Síncrona** mediante petición/respuesta a la API (ej: HTTP-REST).
+
+* Ventajas:
+    * interactuá bien con una interfaz web
+    * los desarrolladores están familiarizados con HTTP-REST
+    * es fácil de depurar
+    * facilita ofrecer APIs a terceros
+* Desventajas:
+    * No ofrece las ventajas de AMQP
+
+![](https://i0.wp.com/www.dineshonjava.com/wp-content/uploads/2019/05/one-to-one-sync.png)
+
+Figura 1: Comunicación sincronía one-to-one
+
+**Asíncrona** mediante un broker de mensajes como RabbitMQ (implementa AMQP) o Kafka
+
+* Ventajas:
+    * es muy rápido
+    * es flexible
+    * consume pocos recursos
+    * puede priorizar unos mensajes sobre otros en la cola
+    * es compatible con XA transactions
+    * es tolerante a fallos
+    * puede asegurar que el mensaje es entregado una sola vez
+    * ofrece pub/sub interface
+    * permite segmentación de mensajes y agrupado de mensajes
+    * puedes tener un hilo separado para escuchar las respuestas
+* Desventajas:
+    * El broker pasa a ser un servicio critico
+
+![](https://i1.wp.com/www.dineshonjava.com/wp-content/uploads/2019/05/asynchronous-one-to-one.png)
+
+Figura 2: Comunicación asíncrona one-to-one
+
+![](https://i2.wp.com/www.dineshonjava.com/wp-content/uploads/2019/05/asynchronous-one-to-many.png)
+
+Figura 3: Comunicación asíncrona one-to-many
 
 ### API Gateway
 
@@ -126,6 +212,8 @@ Además puede incluir funciones de:
 * gestión de contratos y SLA
 * gestión de caché
 * resolución de dependencias
+
+En Kubernetes, esta funcionalidad es realizada por el componente Ingress.
 
 Ejemplo: Spring Cloud Zuul en Netflix
 
@@ -177,7 +265,7 @@ Ejemplo: Spring Cloud Histrix en Netflix
 
 ![Arquitectura Netflix](https://lh3.googleusercontent.com/aubes0y1QW7_BQFRpFVNXSxOcNsFZgvattDu95i1fV_BzzBhUp9fN4ogfkcfmFS__ntSMKS_xyP8sSX65FCouZwzL_rFDL8B19kaRKQf4qYqUoLqfjwymEJLaQPYFtZM0jxyAdgO)
 
-Figura 1: Arquitectura Netflix
+Figura 4: Arquitectura Netflix
 
 Se puede ver una descripción más en detalle en *[josephcodes.dev - Netflix y la nueva arquitectura de microservicios](https://josephcodes.dev/2020/11/04/netflix-y-la-nueva-arquitectura-de-microservicios/)*,
 a lo que se puede añadir que además se usa Feign para abstraer los detalles de
@@ -186,6 +274,46 @@ servicios se enfoquen en la lógica de negocio y cuando consuman otros servicios
 el código no gestione peticiones HTTP explícitamente,
 desacoplando la lógica de negocio de la capa de comunicación. Un ejemplo
 de su uso se puede ver en *[adictosaltrabajo.com - Spring Cloud Feign: declarative REST client](https://www.adictosaltrabajo.com/2017/09/26/spring-cloud-feign-declarative-rest-client/)*.
+
+# Orquestación y Coreografía
+
+Tanto para contenedores como para microservicios hay dos técnicas para coordinar
+su comportamiento en conjunto, la Orquestación y la Coreografía
+
+## Orquestación
+
+En la orquestación un *director de orquesta* gestiona todas las interacciones
+en espera de una respuesta antes de solicitar el siguiente servicio.
+Es decir, la orquestación sigue un paradigma de solicitud/respuesta.
+
+**Ventajas**:
+
+* Fácil de gestionar mediante la centralización de los procesos empresariales
+* El flujo de la aplicación se coordina eficientemente usando un procesamiento **sincrónico**
+
+**Desventajas**
+
+* Se genera dependencias entre servicios
+* Si cae el orquestador todo se detiene
+
+## Coreografía
+
+En la Coreografía es un enfoque **asíncrono** en el que los servicios actúan
+independientemente reaccionando a eventos. Nadie les dice que eventos escuchar
+ni que hacer cuando ocurre dicho evento si no que ellos mismos están programados
+para suscribirse a los eventos que deben escuchar y para reaccionar a ellos.
+
+**Ventajas**:
+
+* Procesamiento rápido ya que los servicios no esperan a un orquestador
+* Es simple agregar servicios o actualizar desde el flujo de eventos.
+* Elimina cualquier punto de falla
+* Se alinea con un modelo de entrega ágil en el que los equipos pueden centrarse
+en servicios específicos en lugar de toda la aplicación
+
+**Desventajas**:
+
+* Aumenta la complejidad de la gestión global del sistema
 
 # Bibliografía
 
@@ -202,3 +330,7 @@ de su uso se puede ver en *[adictosaltrabajo.com - Spring Cloud Feign: declarati
 * [bigdatadummy.wordpress.com - Arquitectura de Microservicios con Netflix](https://bigdatadummy.wordpress.com/2020/03/04/arquitectura-de-microservicios-con-netflix/)
 * [josephcodes.dev - Netflix y la nueva arquitectura de microservicios](https://josephcodes.dev/2020/11/04/netflix-y-la-nueva-arquitectura-de-microservicios/)
 * [adictosaltrabajo.com - Spring Cloud Feign: declarative REST client](https://www.adictosaltrabajo.com/2017/09/26/spring-cloud-feign-declarative-rest-client/)
+* [redhat.com - ¿Qué es un pod de Kubernetes?](https://www.redhat.com/es/topics/containers/what-is-kubernetes-pod)
+* [wikipedia.org - Virtualización a nivel de sistema operativo](https://es.wikipedia.org/wiki/Virtualización_a_nivel_de_sistema_operativo)
+* [dineshonjava.com - Microservices Inter-Service Communication](https://www.dineshonjava.com/microservices-inter-service-communication/)
+* [processmaker.com - Orquestación de procesos vs. coreografía en microservicios](https://www.processmaker.com/es/blog/process-orchestration-vs-choreography-microservices/)

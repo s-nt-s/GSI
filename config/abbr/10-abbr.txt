@@ -1210,7 +1210,7 @@ PWA
 https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_web_progresiva
 Aplicación web progresiva
 
-Kubernetes
+r'[kK]ubernetes|[kK]8s
 https://es.wikipedia.org/wiki/Kubernetes
 Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores
 
@@ -1278,3 +1278,18 @@ Método para seleccionar todos los elementos en un grupo de manera equitativa y 
 POJO
 https://es.wikipedia.org/wiki/Plain_Old_Java_Object
 Plain Old Java Object, clases simples y que no dependen de un framework en especial (no extiende ni implementa nada en especial)
+
+Virtualización a nivel de sistema operativo
+https://es.wikipedia.org/wiki/Virtualización_a_nivel_de_sistema_operativo
+
+copy-on-write
+https://es.wikipedia.org/wiki/Copy-on-write
+Política por la cuando un proceso pide un recurso se les devuelve un puntero a él evitando hacer una copia real hasta que el proceso vaya a realizar una modificación en el recurso (si es que llega a hacerla)
+
+Hipervisor
+https://es.wikipedia.org/wiki/Hipervisor
+Monitor de máquina virtual, capa de software para realizar una virtualización de hardware
+
+WSL
+https://es.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+Windows Subsystem for Linux

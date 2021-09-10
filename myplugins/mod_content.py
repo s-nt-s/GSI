@@ -232,6 +232,10 @@ def mod_content(content, *args, **kargv):
             p.append(cpt)
             if p.attrs.get("id") is None:
                 p.attrs["id"]="fg"+m.group(1)
+            cap = text.split(":", 1)[1].strip()
+            for att in ("title", "alt"):
+                if not img.attrs.get(att):
+                    img.attrs[att] = cap
 
     for img in soup.select("img"):
         t = img.attrs.get("title")
