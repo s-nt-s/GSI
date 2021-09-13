@@ -1214,10 +1214,6 @@ r'[kK]ubernetes|[kK]8s
 https://es.wikipedia.org/wiki/Kubernetes
 Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores
 
-Ingress
-https://kubernetes.io/docs/concepts/services-networking/ingress/
-Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL
-
 Custom Elements
 https://developer.mozilla.org/es/docs/Web/Web_Components/Using_custom_elements
 Elementos personalizados, conjunto de APIs de JavaScript que permiten definir elementos (etiquetas HTML) personalizados y su comportamiento
@@ -1293,3 +1289,11 @@ Monitor de máquina virtual, capa de software para realizar una virtualización 
 WSL
 https://es.wikipedia.org/wiki/Windows_Subsystem_for_Linux
 Windows Subsystem for Linux
+
+i'ingress-nginx
+https://kubernetes.github.io/ingress-nginx/
+Controlador Ingress para Kubernetes usando Nginx
+
+Ingress
+https://kubernetes.io/docs/concepts/services-networking/ingress/
+Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL

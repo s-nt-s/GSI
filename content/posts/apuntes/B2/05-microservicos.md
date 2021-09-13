@@ -1,6 +1,5 @@
 ---
 title: Microservicios y contenedores
-status: draft
 ---
 
 # Conceptos básicos
@@ -315,6 +314,138 @@ en servicios específicos en lugar de toda la aplicación
 
 * Aumenta la complejidad de la gestión global del sistema
 
+# Kubernetes
+
+Kubernetes es un orquestador de contenedores, donde prácticamente todo
+se puede crear y configurar mediante manifiestos yaml.
+
+## Principales componentes de Kubernetes
+
+### Hardware
+
+#### Nodos
+
+Es la unidad más pequeña del hardware informático de Kubernetes.
+Se le puede considerar una máquina individual.
+
+#### Clúster
+
+Es una colección de nodos que se agrupan para ofrecer un uso compartido
+y un equilibrio inteligente de los recursos.
+
+Cuando despliegas un programa en un cluster, Kubernetes distribuye el trabajo
+entre los nodos de ese cluster. Si un nodo cae, es eliminado o se añade el cluster
+requilibrara el trabajo automáticamente.
+
+Esto es transparente y al programador no le debe importar en que nodo en
+particular se esta ejecutando el código.
+
+#### Volumenes persistentens
+
+Proporcionan un sistema de archivos que se puede
+montar en el clúster, sin estar asociado con ningún nodo en particular.
+
+Son necesarios ya que:
+
+1. Cualquier dato guardado en un nodo se pierde cuando este finaliza
+2. No se puede saber a priori (ni debe importarnos) en que nodo en particular
+se va a ejecutar nuestra aplicación
+
+Cuando no se especifica que un volumen es persistente se sobreentiende
+que son volúmenes que se crean y destruyen con el pod.
+
+Nota: Un volumen solo puede ser montado como Read/Write en un único nodo,
+lo que significa que si una replica de nuestro nodo cae en otro nodo
+no podrá usar el volumen.
+
+### Software
+
+#### Contenedores
+
+Conjunto de uno o más procesos (idealmente debería ser solo uno) que incluye todos
+los archivos necesarios para su ejecución, por lo que se pueden trasladar de una
+máquina a otra.
+
+#### Pods
+
+Conjunto de uno o más contenedores (cuantos menos mejor), los cuales se empaquetan
+de manera que comparten los mismos recursos y red local. Esto hace que los
+contenedores de un mismo pod pueda comunicarse fácilmente pues están en la mismo nodo.
+
+El pod es la unidad de replicación, es decir, cuando kubernetes crea nuevas replicas
+para atender un pico de demanda lo que se va a replicar son los pods.
+
+Hay que tener en cuenta que cada replica de un mismo pod tiene una IP distinta,
+y que todos los contenedores que están dentro de un mismo pod comparte la IP
+de su pod, por lo tanto hay que evitar que dos contenedores de un mismo pod
+intenten usar un mismo puerto porque eso produciría una colisión.
+
+Ejemplos: [01-pod.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/01-pod.yaml), [02-pod.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/02-pod.yaml), [06-randompod.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/06-randompod.yaml)
+
+#### Deploymets
+
+Aunque los pods se puede crear directamente, lo optimo es es hacerlo a través
+de la abstracción deployment.
+
+El principal propósito de un deployment es especificar cuantas replicas debería
+haber en todo momento de un pod, de manera que si alguna replica cae kubernetes
+automáticamente cree nuevas instancias hasta llegar al numero deseado.
+
+Ejemplo: [04-deployment.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/04-deployment.yaml)
+
+Variantes:
+
+* **DaemonSet**: Igual que Deploymets pero garantiza crear un pod en cada nodo
+(útil para agentes de monitoreo). Ejemplo: [03-daemonset.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/03-daemonset.yaml)
+* **StatefulSet**: Es un Deploymets que necesita garantizar el orden y unicidad
+de los pods (sus volúmenes han de ser persistentes). Ejemplo: [05-statefulset.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/05-statefulset.yaml)
+
+#### Service
+
+Por defecto kubernetes aislá los pods del exterior, por lo tanto para
+poder comunicarse con un servicio que corre en un pod hace falta abrir
+un canal de comunicación.
+
+Para ello existen distintos tipos de Service:
+
+* ClusterIP: crea una IP (accesible desde cualquier nodo de Kubernetes) con un puerto que redirige
+a los pods. Ejemplo: [07-hello-deployment-svc-clusterIP.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/07-hello-deployment-svc-clusterIP.yaml)
+* NodePort: crea un puerto en cada nodo que será redirigido a los pods. Esto nos permite acceder al pod sabiendo la IP del nodo (si el nodo tiene IP pública también podremos
+acceder desde fuera de Kubernetes).
+Ejemplo: [08-hello-deployment-svc-nodePort.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/08-hello-deployment-svc-nodePort.yaml)
+* LoadBalancer: crea un balanceador de carga en un proveedor de nube que redirige
+el tráfico recibido en un puerto a los pods.
+Esto nos permite acceder al servicio sabiendo la IP del balanceador, la cual puede
+ser accesible desde internet.
+Ejemplo: [09-hello-deployment-svc-loadBalancer.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/09-hello-deployment-svc-loadBalancer.yaml)
+
+Nota: cuando digo "redirige a los pods" quiero decir que en cada petición se
+redirigirá el tráfico a una de las replicas del pod pudiendo ser cada vez una
+distinta.
+
+#### Ingress
+
+Conjunto de reglas que permite redirigir peticiones a distintos servicios en
+función de distintos criterios, por ejemplo la ruta de la petición.
+Ejemplo: [10-hello-v1-v2-deployment-svc.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/10-hello-v1-v2-deployment-svc.yaml) + [11-hello-ingress.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/11-hello-ingress.yaml).
+
+Esta característica no viene en Kubernetes por defecto si no que se instala
+como un controlador habiendo varias posibilidades, una de ellas sería
+ingress-nginx que usara un nginx configurado con las reglas que determina
+ingress para obtener el efecto deseado.
+
+Por lo general ingress va a crear también un LoadBalancer y esto nos proporcionará
+una IP pública.
+
+#### ConfigMap y Secrets
+
+Básicamente son configuraciones que pueden ser referenciadas desde otros
+manifiestos. Ejemplos: [12-configmap.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/12-configmap.yaml) + [13-pod-configmap.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/13-pod-configmap.yaml), [14-secret.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/14-secret.yaml) + [15-pod-secret.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/15-pod-secret.yaml).
+
+Secrets esta pensada para valores como contraseñas ya que guarda la información
+codificada en base64, pero hay que recordar que esto es fácilmente reversible
+por lo tanto no se deben hacer cosas como subir estos ficheros a un repositorio.
+
 # Bibliografía
 
 * PreparaTic27 - Pack3/02
@@ -334,3 +465,12 @@ en servicios específicos en lugar de toda la aplicación
 * [wikipedia.org - Virtualización a nivel de sistema operativo](https://es.wikipedia.org/wiki/Virtualización_a_nivel_de_sistema_operativo)
 * [dineshonjava.com - Microservices Inter-Service Communication](https://www.dineshonjava.com/microservices-inter-service-communication/)
 * [processmaker.com - Orquestación de procesos vs. coreografía en microservicios](https://www.processmaker.com/es/blog/process-orchestration-vs-choreography-microservices/)
+* [youtube.com - Pelado Nerd - Kubernetes 2021 - De novato a pro!](https://www.youtube.com/watch?v=DCoBcpOA7W4)
+* [medium.com/google-cloud - Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
+* [redhat.com - ¿Qué es un clúster de Kubernetes?](https://www.redhat.com/es/topics/containers/what-is-a-kubernetes-cluster)
+* [github.com/pablokbs - ejemplos de plantillas](https://github.com/pablokbs/peladonerd/tree/master/kubernetes/35)
+* [maquinasvirtuales.eu - Kubernetes: Servicios ClusterIP, Ingress, NodePort y LoadBalancer](https://www.maquinasvirtuales.eu/kubernetes-servicios-clusterip-ingress-nodeport-y-loadbalancer/)
+* [kubernetes.io - StatefulSets](https://kubernetes.io/es/docs/concepts/workloads/controllers/statefulset/)
+* [kubernetes.io - DaemonSet](https://kubernetes.io/es/docs/concepts/workloads/controllers/daemonset/)
+* [platform9.com - Tutorial: Dynamic Provisioning of Persistent Storage in Kubernetes with Minikube](https://platform9.com/blog/tutorial-dynamic-provisioning-of-persistent-storage-in-kubernetes-with-minikube/)
+* [medium.com/swlh - Quick Fix: Sharing Persistent Disks on Multiple Nodes in Kubernetes Using NFS](https://medium.com/swlh/quick-fix-sharing-persistent-disks-on-multiple-nodes-in-kubernetes-ef5541fd8376)
