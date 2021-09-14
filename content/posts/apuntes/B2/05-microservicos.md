@@ -319,16 +319,14 @@ en servicios específicos en lugar de toda la aplicación
 Kubernetes es un orquestador de contenedores, donde prácticamente todo
 se puede crear y configurar mediante manifiestos yaml.
 
-## Principales componentes de Kubernetes
+## Componentes Hardware
 
-### Hardware
-
-#### Nodos
+### Nodos
 
 Es la unidad más pequeña del hardware informático de Kubernetes.
 Se le puede considerar una máquina individual.
 
-#### Clúster
+### Clúster
 
 Es una colección de nodos que se agrupan para ofrecer un uso compartido
 y un equilibrio inteligente de los recursos.
@@ -340,7 +338,7 @@ requilibrara el trabajo automáticamente.
 Esto es transparente y al programador no le debe importar en que nodo en
 particular se esta ejecutando el código.
 
-#### Volumenes persistentens
+### Persistent Volumes
 
 Proporcionan un sistema de archivos que se puede
 montar en el clúster, sin estar asociado con ningún nodo en particular.
@@ -358,15 +356,15 @@ Nota: Un volumen solo puede ser montado como Read/Write en un único nodo,
 lo que significa que si una replica de nuestro nodo cae en otro nodo
 no podrá usar el volumen.
 
-### Software
+## Componentes Software
 
-#### Contenedores
+### Contenedores
 
 Conjunto de uno o más procesos (idealmente debería ser solo uno) que incluye todos
 los archivos necesarios para su ejecución, por lo que se pueden trasladar de una
 máquina a otra.
 
-#### Pods
+### Pods
 
 Conjunto de uno o más contenedores (cuantos menos mejor), los cuales se empaquetan
 de manera que comparten los mismos recursos y red local. Esto hace que los
@@ -382,7 +380,7 @@ intenten usar un mismo puerto porque eso produciría una colisión.
 
 Ejemplos: [01-pod.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/01-pod.yaml), [02-pod.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/02-pod.yaml), [06-randompod.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/06-randompod.yaml)
 
-#### Deploymets
+### Deploymets
 
 Aunque los pods se puede crear directamente, lo optimo es es hacerlo a través
 de la abstracción deployment.
@@ -400,7 +398,7 @@ Variantes:
 * **StatefulSet**: Es un Deploymets que necesita garantizar el orden y unicidad
 de los pods (sus volúmenes han de ser persistentes). Ejemplo: [05-statefulset.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/05-statefulset.yaml)
 
-#### Service
+### Service
 
 Por defecto kubernetes aislá los pods del exterior, por lo tanto para
 poder comunicarse con un servicio que corre en un pod hace falta abrir
@@ -423,7 +421,7 @@ Nota: cuando digo "redirige a los pods" quiero decir que en cada petición se
 redirigirá el tráfico a una de las replicas del pod pudiendo ser cada vez una
 distinta.
 
-#### Ingress
+### Ingress
 
 Conjunto de reglas que permite redirigir peticiones a distintos servicios en
 función de distintos criterios, por ejemplo la ruta de la petición.
@@ -437,7 +435,7 @@ ingress para obtener el efecto deseado.
 Por lo general ingress va a crear también un LoadBalancer y esto nos proporcionará
 una IP pública.
 
-#### ConfigMap y Secrets
+### ConfigMap y Secrets
 
 Básicamente son configuraciones que pueden ser referenciadas desde otros
 manifiestos. Ejemplos: [12-configmap.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/12-configmap.yaml) + [13-pod-configmap.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/13-pod-configmap.yaml), [14-secret.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/14-secret.yaml) + [15-pod-secret.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/15-pod-secret.yaml).
