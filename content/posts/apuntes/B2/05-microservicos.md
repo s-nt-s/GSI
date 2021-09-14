@@ -441,7 +441,7 @@ Básicamente son configuraciones que pueden ser referenciadas desde otros
 manifiestos. Ejemplos: [12-configmap.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/12-configmap.yaml) + [13-pod-configmap.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/13-pod-configmap.yaml), [14-secret.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/14-secret.yaml) + [15-pod-secret.yaml](https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/15-pod-secret.yaml).
 
 Secrets esta pensada para valores como contraseñas ya que guarda la información
-codificada en base64, pero hay que recordar que esto es fácilmente reversible
+es codificada en base64, pero hay que recordar que esto es fácilmente reversible
 por lo tanto no se deben hacer cosas como subir estos ficheros a un repositorio.
 
 # Bibliografía
