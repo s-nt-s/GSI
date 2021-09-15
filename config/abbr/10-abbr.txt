@@ -886,8 +886,6 @@ Dirección General para el Impulso de la Administración Electrónica
 r'PdP
 Punto de presencia
 
-r'CPDs?
-Centros de Proceso de Datos
 
 ANCERT
 https://es.wikipedia.org/wiki/Agencia_Notarial_de_Certificaci%C3%B3n
@@ -1297,3 +1295,143 @@ Controlador Ingress para Kubernetes usando Nginx
 Ingress
 https://kubernetes.io/docs/concepts/services-networking/ingress/
 Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL
+
+Integración continua
+https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua
+Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes
+
+Entrega continua
+https://es.wikipedia.org/wiki/Entrega_continua
+Enfoque en el que los equipos de desarrollo producen software en ciclos cortos, asegurando que el software puede ser liberado en cualquier momento de forma confiable
+
+Despliegue continuo
+https://es.wikipedia.org/wiki/Despliegue_continuo
+Enfoque en el que los equipos de desarrollo entregan funcionalidades de software de forma frecuente a través de la automatización de despliegues
+
+CI/CD
+Integración continua + Entrega continua o Despliegue continuo
+
+desarrollo ágil
+https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software
+Enfoque para la toma de decisiones en los proyectos de software, basados en el desarrollo iterativo e incremental, donde los requisitos y soluciones evolucionan con el tiempo
+
+i'despliegue canary|Canary deployment
+https://semaphoreci.com/blog/what-is-canary-deployment
+Técnica que redirige un pequeño porcentaje de los usuarios a la nueva versión del producto software para comprobar que funciona antes de desplegarla para todos los usuarios
+
+r'pruebas? unitarias?|unit[\- ]test(ing)?
+https://es.wikipedia.org/wiki/Prueba_unitaria
+Forma de comprobar el correcto funcionamiento de una unidad de código
+
+r'pruebas( funcionales)? (E2E|end-to-end)
+https://es.myservername.com/what-is-end-end-testing
+Pruebas end-to-end, comprueban el flujo de una aplicación de principio a fin simulado el comportamiento del usuario real
+
+Make
+https://es.wikipedia.org/wiki/Make
+
+Apache Ant
+https://es.wikipedia.org/wiki/Apache_Ant
+
+Maven
+https://es.wikipedia.org/wiki/Maven
+
+Gradle
+https://es.wikipedia.org/wiki/Gradle
+
+Rake
+https://en.wikipedia.org/wiki/Rake_(software)
+
+Apache Archiva
+https://es.wikipedia.org/wiki/Apache_Archiva
+
+Apache Continuum
+https://en.wikipedia.org/wiki/Apache_Continuum
+
+CruiseControl
+https://en.wikipedia.org/wiki/CruiseControl
+
+Jenkins
+https://es.wikipedia.org/wiki/Jenkins
+
+Hudson
+https://es.wikipedia.org/wiki/Hudson_(software)
+
+SonarQube
+https://es.wikipedia.org/wiki/SonarQube
+Plataforma para evaluar código fuente
+
+i'(Daily|nightly) build
+https://en.wikipedia.org/wiki/Daily_build
+Construcción de la última versión de un programa que se realiza todas las noches
+
+cobertura de código
+https://es.wikipedia.org/wiki/Cobertura_de_c%C3%B3digo
+Medida (porcentual) en las pruebas de software que mide el grado en que el código fuente de un programa ha sido comprobado con pruebas de software
+
+i'Deuda técnica
+https://es.wikipedia.org/wiki/Deuda_t%C3%A9cnica
+Concepto que refleja el costo implícito del retrabajo adicional causado por elegir una solución fácil en lugar de utilizar un enfoque que llevaría más tiempo en su desarrollo e implementación
+
+complejidad ciclomática
+https://es.wikipedia.org/wiki/Complejidad_ciclom%C3%A1tica
+Medición de la complejidad lógica de un programa contando el número de caminos independientes de un código
+
+Blue/Green deployment
+https://en.wikipedia.org/wiki/Blue-green_deployment
+
+i'Dog ?Fooding
+https://es.wikipedia.org/wiki/Dogfooding
+
+Azure DevOps Server
+https://en.wikipedia.org/wiki/Azure_DevOps_Server
+
+r'JUnit
+https://es.wikipedia.org/wiki/JUnit
+Conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java
+
+Espresso
+https://es.wikipedia.org/wiki/Espresso_(framework)
+Framework de testing para pruebas de interfaz de usuario en aplicaciones Android
+
+Appium
+https://es.wikipedia.org/wiki/Appium
+Herramienta de automatización para ejecutar pruebas de aplicaciones nativas, aplicaciones web y aplicaciones híbridas sobre Android o iOS
+
+Selenium
+https://es.wikipedia.org/wiki/Selenium
+Entorno de pruebas de software para aplicaciones basadas en la web
+
+pruebas de regresión
+https://es.wikipedia.org/wiki/Pruebas_de_regresi%C3%B3n
+Pruebas para descubrir errores causados por la realización de un cambio en el programa. El propósito de éstas es asegurar que los casos de prueba que ya habían sido probados y fueron exitosos permanezcan así
+
+LCOM4
+https://jummp.wordpress.com/2010/05/22/lcom4-y-la-falta-de-cohesion-en-las-clases/
+Falta de cohesión de métodos (Lack of cohesion of methods) 4, metrica de SonarQube
+
+LCOM
+Falta de cohesión de métodos (Lack of cohesion of methods)
+
+Response for Class
+https://www.oreilly.com/library/view/sonar-code-quality/9781849517867/ch09s04.html
+Cuenta todos los métodos de una clase que pueden ser potencialmente ejecutados en respuesta a un mensaje recibido por el objeto
+
+Checkstyle
+https://es.wikipedia.org/wiki/Checkstyle
+Herramienta de análisis de código estático para Java
+
+Findbugs
+https://es.wikipedia.org/wiki/FindBugs
+Herramienta que busca potenciales errores analizando Java bytecode
+
+r'PMD( ?[,y\+] ?)CPD
+https://maven.apache.org/plugins/maven-pmd-plugin/
+Apache Maven PMD (plugin de verificación de reglas de codificación), que incluye CPD (copy-paste-detector) para detectar código duplicado
+
+r'CPDs?
+Centros de Proceso de Datos
+
+DevOps
+https://es.wikipedia.org/wiki/DevOps
+Conjunto de prácticas que agrupan el desarrollo de software (Dev) y las operaciones de TI (Ops)
