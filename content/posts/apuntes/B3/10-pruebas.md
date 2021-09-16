@@ -70,10 +70,9 @@ controlado
 * Pruebas **beta**: pruebas realizadas sobre una versión beta por usuarios finales
 o betatester.
 
-Pruebas **no funcionales**: su objetivo es la verificación de un requisito
-que especifica criterios usados para juzgar la operación de un sistema (requisitos no
-funcionales) como por ejemplo la disponibilidad, accesibilidad, usabilidad,
-mantenibilidad, seguridad, rendimiento.
+Pruebas **no funcionales**: verifican criterios usados para juzgar la operación
+de un sistema (requisitos no funcionales) como por ejemplo la disponibilidad,
+accesibilidad, usabilidad, mantenibilidad, seguridad, rendimiento.
 Se pueden clasificar según el tipo de requisito que abarcan:
 
 * Pruebas de compatibilidad

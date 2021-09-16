@@ -1371,6 +1371,10 @@ i'pruebas? funcionales|pruebas? \*\*funcionales\*\*
 https://es.wikipedia.org/wiki/Pruebas_funcionales
 Prueba de tipo caja negra basada en la ejecución, revisión y retroalimentación de las funcionalidades previamente diseñadas para el software
 
+i'pruebas? no funcionales|pruebas? \*\*no funcionales\*\*
+https://en.wikipedia.org/wiki/Non-functional_testing
+Verifican criterios usados para juzgar la operación de un sistema (requisitos no funcionales)
+
 i'Pruebas? alpha|Pruebas? \*\*alpha\*\*
 https://es.wikipedia.org/wiki/Pruebas_alpha
 Realizadas cuando el sistema está en desarrollo y cuyo objetivo es asegurar que lo que estamos desarrollando es probablemente correcto y útil para el cliente
