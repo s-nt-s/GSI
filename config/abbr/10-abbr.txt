@@ -1319,13 +1319,73 @@ i'despliegue canary|Canary deployment
 https://semaphoreci.com/blog/what-is-canary-deployment
 Técnica que redirige un pequeño porcentaje de los usuarios a la nueva versión del producto software para comprobar que funciona antes de desplegarla para todos los usuarios
 
-r'pruebas? unitarias?|unit[\- ]test(ing)?
+i'pruebas( funcionales)? (E2E|end-to-end)
+https://es.myservername.com/what-is-end-end-testing
+Pruebas end-to-end, comprueban el flujo de una aplicación de principio a fin simulado el comportamiento del usuario real
+
+i'pruebas? ?unitarias?|unit[\- ]test(ing)?|pruebas? \*\*unitarias\*\*
+https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/
 https://es.wikipedia.org/wiki/Prueba_unitaria
 Forma de comprobar el correcto funcionamiento de una unidad de código
 
-r'pruebas( funcionales)? (E2E|end-to-end)
-https://es.myservername.com/what-is-end-end-testing
-Pruebas end-to-end, comprueban el flujo de una aplicación de principio a fin simulado el comportamiento del usuario real
+i'Pruebas? de integración|Pruebas? de \*\*integración\*\*
+https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/
+https://es.wikipedia.org/wiki/Prueba_de_integraci%C3%B3n
+Prueban es que todos los elementos unitarios que componen el software, funcionan juntos correctamente en grupo
+
+i'Pruebas? del? sistema|Pruebas? del \*\*sistema\*\*
+https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/sistema
+Pruebas de integración del sistema de información completo, y permiten probar el sistema en su conjunto y con otros sistemas con los que se relaciona para verificar que las especificaciones funcionales y técnicas se cumplen
+
+i'Pruebas? de implantación|Pruebas? de \*\*implantación\*\*
+https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/implantacion/
+Comprueban el funcionamiento correcto del sistema integrado de hardware y software en el entorno de operación, y permiten que el usuario realice la aceptación del sistema, desde el punto de vista de operación
+
+i'pruebas? de aceptación|pruebas? de \*\*aceptación\*\*
+https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/
+https://es.wikipedia.org/wiki/Pruebas_de_aceptaci%C3%B3n_(inform%C3%A1tica)
+Valida que el sistema cumpla con el funcionamiento esperado y permite al usuario que determine su aceptación, desde el punto de vista de su funcionalidad y rendimiento
+
+i'pruebas? de regresión|pruebas? de \*\*regresión\*\*
+https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/regresion
+https://es.wikipedia.org/wiki/Pruebas_de_regresi%C3%B3n
+Valida que los cambios sobre un componente no introducen nuevos errores o un comportamiento no deseado en otros componentes no modificados.
+
+i'Pruebas? de caja blanca|Pruebas? de \*\*caja blanca\*\*
+https://es.wikipedia.org/wiki/Pruebas_de_caja_blanca
+Se centran en los detalles procedimentales del software, por lo que su diseño está fuertemente ligado al código fuente
+
+i'Pruebas? de caja negra|Pruebas? de \*\*caja negra\*\*
+https://es.wikipedia.org/wiki/Caja_negra_(sistemas)
+Pruebas desde el punto de vista de las entradas que recibe y las salidas que produce, sin tener en cuenta su funcionamiento interno
+
+i'Pruebas? de caja gris|Pruebas? de \*\*caja gris\*\*
+https://es.wikipedia.org/wiki/Pruebas_de_caja_gris
+El tester tiene un conocimiento limitado de los detalles internos del programa, se utilizan comúnmente en las pruebas de penetración
+
+i'pentest(ing)?|pruebas? de penetración|pruebas? de \*\*penetración\*\*
+https://es.wikipedia.org/wiki/Examen_de_penetraci%C3%B3n
+Ataque a un sistema informático con la intención de encontrar las debilidades de seguridad y todo lo que podría tener acceso a ella, su funcionalidad y datos
+
+i'pruebas? funcionales|pruebas? \*\*funcionales\*\*
+https://es.wikipedia.org/wiki/Pruebas_funcionales
+Prueba de tipo caja negra basada en la ejecución, revisión y retroalimentación de las funcionalidades previamente diseñadas para el software
+
+i'Pruebas? alpha|Pruebas? \*\*alpha\*\*
+https://es.wikipedia.org/wiki/Pruebas_alpha
+Realizadas cuando el sistema está en desarrollo y cuyo objetivo es asegurar que lo que estamos desarrollando es probablemente correcto y útil para el cliente
+
+i'Pruebas? beta|Pruebas? \*\*beta\*\*
+https://es.wikipedia.org/wiki/Pruebas_beta
+Realizadas cuando el sistema está teóricamente correcto y pasa a ejecutarse en un entorno real
+
+versión beta
+https://es.wikipedia.org/wiki/Ciclo_de_vida_del_lanzamiento_de_software#Beta
+Primera versión completa de un programa que es posiblemente inestable pero útil para que sea considerada como una versión preliminar
+
+Beta ?tester
+https://es.wikipedia.org/wiki/Beta_tester
+Usuario de programas cuyos ejecutables están pendientes de terminar su fase de desarrollo
 
 Make
 https://es.wikipedia.org/wiki/Make
@@ -1402,13 +1462,9 @@ Selenium
 https://es.wikipedia.org/wiki/Selenium
 Entorno de pruebas de software para aplicaciones basadas en la web
 
-pruebas de regresión
-https://es.wikipedia.org/wiki/Pruebas_de_regresi%C3%B3n
-Pruebas para descubrir errores causados por la realización de un cambio en el programa. El propósito de éstas es asegurar que los casos de prueba que ya habían sido probados y fueron exitosos permanezcan así
-
 LCOM4
 https://jummp.wordpress.com/2010/05/22/lcom4-y-la-falta-de-cohesion-en-las-clases/
-Falta de cohesión de métodos (Lack of cohesion of methods) 4, metrica de SonarQube
+Falta de cohesión de métodos (Lack of cohesion of methods) 4, métrica de SonarQube
 
 LCOM
 Falta de cohesión de métodos (Lack of cohesion of methods)
@@ -1435,3 +1491,7 @@ Centros de Proceso de Datos
 DevOps
 https://es.wikipedia.org/wiki/DevOps
 Conjunto de prácticas que agrupan el desarrollo de software (Dev) y las operaciones de TI (Ops)
+
+i'Métrica( v\.?)?3
+https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html
+Metodología que ofrece a las un instrumento para la sistematización de las actividades que dan soporte al ciclo de vida del software

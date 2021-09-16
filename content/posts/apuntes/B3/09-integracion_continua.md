@@ -1,6 +1,5 @@
 ---
 title: Integración continua
-status: draft
 ---
 
 # Conceptos básicos
@@ -209,7 +208,8 @@ complejidad ciclomática, nº de comentarios o partes de código que no se ejecu
 
 Adicionalmente:
 
-* Se mantiene un historial de las ejecuciones para ver quién lo realizo y cuáles archivos fueron manipulados.
+* Se mantiene un historial de las ejecuciones para ver quién lo realizo y cuáles archivos fueron manipulados
+* Se publican reportes de los resultados de las pruebas realizadas
 * si hay errores o el resultado no es el esperado en alguno de los pasos,
 Jenkins lanza una notificación para que se solucione lo antes posible
 
@@ -246,6 +246,14 @@ antes de seguir abriendo progresivamente al resto de usuarios.
 
 En caso de problemas se vuelve a la anterior versión sin que el resto de
 usuarios note nada.
+
+# Automatización de la seguridad
+
+En los últimos años la Integración Continua ha evolucionado para introducir
+análisis automatizado de Seguridad mediante dos tipos de herramientas:
+
+* Análisis estático de seguridad del código: similar a SonarQube, pero analizando vulnerabilidades conocidas
+* Análisis dinámico de seguridad: sobre el aplicativo desplegado, se lanzan ataques automatizados
 
 # Bibliografía
 
