@@ -1,6 +1,5 @@
 ---
-title: Pruebas
-status: draft
+title: Pruebas de software
 ---
 
 # Tipos de pruebas según Métrica v3
@@ -85,6 +84,148 @@ Se pueden clasificar según el tipo de requisito que abarcan:
 * Pruebas de mantenibilidad
 * Pruebas de instalabilidad
 * Pruebas de portabilidad
+
+# Desarrollo guiado por pruebas (TDD)
+
+El TDD es una técnica de desarrollo donde los pasos a seguir son:
+
+1. Se elige un requisito
+2. Se escriben las pruebas que validan el requisito que se debe implementar.
+Generalmente son pruebas unitarias.
+3. Se verifica que la prueba falla, lo cual significa que el requisito aún no se
+ha implementado
+4. Se escribe el código que hace que la pruebas no fallen
+5. Se valida el código con las pruebas
+6. Se refactoriza para eliminar duplicidades y obtener la versión final
+(por cada cambio se vuelven a lanzar las pruebas para verificar que todos
+sigue bien)
+7. Se actualiza la lista de requisitos
+
+Este enfoque se complementa bien con integración continua y metodologías ágiles
+ya que se puede automatizar ejecutar toda la batería de pruebas en cada subida
+de código al repositorio central.
+
+## Ventajas e inconvenientes
+
+**Ventajas**:
+
+* Además de validad requisitos, guiá el diseño del programa
+* Hacer primero las pruebas implica un análisis en profundidad de los requisitos
+y escenarios
+* Busca implementar unicamente el código necesario para resolver cada caso,
+por lo cual en principio hay menos redundancia y código superfluo
+
+**Desventajas**:
+
+* Implica un mayor esfuerzo inicial (aunque luego se puede ir más rápido)
+* No todos los requisitos se pueden validar con pruebas unitarias, y otros
+tipos de prueba pueden ser muy costosas o lentas
+
+# Desarrollo guiado por comportamiento (BDD)
+
+El BDD es una técnica de desarrollo ágil con las misma filosofía y fases que TDD
+(1º pruebas, 2º código, 3º refactorizar) pero con pruebas que verifican el
+código desde el punto de vista del negocio, es decir, del comportamiento de la
+aplicación.
+
+BDD puede ser combinado con TDD (más enfocado en pruebas unitarias).
+
+![](img/bdd_tdd.png)
+
+Figura 1: BDD + TDD
+
+El comportamiento deseado de la aplicación se describe en una plantilla
+(basándose en *historias de usuario*) con las siguientes partes:
+
+1. Titulo: breve, claro y explico
+2. Narrativa: la *historia de usuario*, típicamente formulada como
+«Como (rol) quiero (algo) para poder (beneficio)» y que responde a las preguntas:
+    * ¿quién se beneficia?
+    * ¿qué se quiere?
+    * ¿cuál es el beneficio?
+3. Criterios de aceptación o escenarios, típicamente formulado como
+«Dado (1) Cuando (2) Entonces (3)» siendo:
+    1. Condición inicial, la cual es asumida como verdadera al inicio del escenario.
+    Esto puede consistir en una causa o varias
+    2. Declaración de cuál es el evento que causa el inicio del escenario
+    3. Declaración del resultado esperado, en una o más cláusulas
+
+# Herramientas
+
+## Open Soruce
+
+1. Herramientas de gestión de pruebas:
+    * Bugzilla Testopia
+    * FitNesse
+    * qaManager
+    * qaBook
+    * RTH (open source)
+    * Salome-tmf
+    * Squash TM
+    * Test Environment Toolkit
+    * TestLink
+    * Testitool
+    * XQual Studio
+    * Radi-testdir
+    * Data Generator
+2. Herramientas para pruebas funcionales
+    * Selenium
+    * Soapui
+    * Watir (Pruebas de aplicaciones web en Ruby)
+    * WatiN (Pruebas de aplicaciones web en .Net)
+    * Capedit
+    * Canoo WebTest
+    * Solex
+    * Imprimatur
+    * SAMIE
+    * ITP
+    * WET
+    * WebInject
+3. Herramientas para pruebas de carga y rendimiento
+    * FunkLoad
+    * FWPTT load testing
+    * loadUI
+    * JMeter
+4. Entre los frameworks para realizar pruebas unitarias
+    * XUnit: JUnit, NUnit, RUnit, PHPUnit...
+    * TestNG: Creado para suplir algunas deficiencias en JUnit.
+    * JTiger: Basado en anotaciones, como TestNG.
+    * CPPUnit
+    * Visual Studio UnitTesting
+
+## Comerciales
+
+1. Herramientas de gestión de pruebas
+    * HP Quality Center/ALM
+    * QA Complete
+    * qaBook
+    * T-Plan Professional
+    * SMARTS
+    * QAS.Test Case Studio
+    * PractiTest
+    * SpiraTest
+    * TestLog
+    * ApTest Manager
+    * Zephyr
+2. Herramientas para pruebas funcionales
+    * QuickTest Pro
+    * Rational Robot
+    * Sahi
+    * SoapTest
+    * Test Complete
+    * QA Wizard
+    * Squish
+    * vTest
+    * Internet Macros
+3. Herramientas para pruebas de carga y rendimiento
+    * HP LoadRunner
+    * LoadStorm
+    * NeoLoad
+    * WebLOAD Professional
+    * Forecast
+    * ANTS - Advanced .NET Testing System
+    * Webserver Stress Tool
+    * Load Impact
 
 # Bibliografía
 

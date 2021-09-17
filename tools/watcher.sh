@@ -1,6 +1,8 @@
 #/bin/bash
 
 cd "$(dirname "$0")/../"
+make build
+
 TEMP="$(mktemp -d)/"
 
 LAST_BUILD=99999999999999999999999999

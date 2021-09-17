@@ -1383,6 +1383,40 @@ i'Pruebas? beta|Pruebas? \*\*beta\*\*
 https://es.wikipedia.org/wiki/Pruebas_beta
 Realizadas cuando el sistema está teóricamente correcto y pasa a ejecutarse en un entorno real
 
+i'pruebas? de carga|pruebas? de \*\*carga\*\*
+https://en.wikipedia.org/wiki/Load_testing
+
+i'pruebas? de usabilidad|pruebas? de \*\*usabilidad\*\*
+https://es.wikipedia.org/wiki/Prueba_de_usabilidad
+
+i'pruebas? de rendimiento|pruebas? de \*\*rendimiento\*\*
+https://es.wikipedia.org/wiki/Pruebas_de_rendimiento_del_software
+
+i'pruebas? de escalabilidad|pruebas? de \*\*escalabilidad\*\*
+https://es.wikipedia.org/wiki/Pruebas_de_escalabilidad
+
+i'pruebas? de compatibilidad|pruebas? de \*\*compatibilidad\*\*
+https://es.wikipedia.org/wiki/Pruebas_de_compatibilidad
+
+i'pruebas? de portabilidad|pruebas? de \*\*portabilidad\*\*
+https://www.qalovers.com/2016/02/pruebas-de-portabilidad_42.html
+
+TDD
+https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas
+Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza
+
+BDD
+https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento
+Desarrollo guiado por comportamiento (behavior-driven development): combina las técnicas generales y los principios del TDD, junto con ideas del diseño guiado por el dominio y el análisis y diseño orientado a objetos
+
+i'historias? de usuario
+https://es.wikipedia.org/wiki/Historias_de_usuario
+Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario
+
+Internacionalización y localización
+https://es.wikipedia.org/wiki/Internacionalizaci%C3%B3n_y_localizaci%C3%B3n
+Proceso de diseñar software de manera tal que pueda adaptarse a diferentes idiomas y regiones sin la necesidad de realizar cambios de ingeniería ni en el código
+
 versión beta
 https://es.wikipedia.org/wiki/Ciclo_de_vida_del_lanzamiento_de_software#Beta
 Primera versión completa de un programa que es posiblemente inestable pero útil para que sea considerada como una versión preliminar
