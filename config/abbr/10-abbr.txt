@@ -1526,7 +1526,7 @@ Apache Maven PMD (plugin de verificación de reglas de codificación), que inclu
 r'CPDs?
 Centros de Proceso de Datos
 
-DevOps
+i'Dev-?Ops
 https://es.wikipedia.org/wiki/DevOps
 Conjunto de prácticas que agrupan el desarrollo de software (Dev) y las operaciones de TI (Ops)
 
