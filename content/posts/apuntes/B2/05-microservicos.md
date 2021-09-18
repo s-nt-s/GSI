@@ -279,6 +279,10 @@ de su uso se puede ver en *[adictosaltrabajo.com - Spring Cloud Feign: declarati
 Tanto para contenedores como para microservicios hay dos técnicas para coordinar
 su comportamiento en conjunto, la Orquestación y la Coreografía
 
+![](https://refactorizando.com/wp-content/uploads/2020/04/Untitled-Diagram-10.png)
+
+Figura 5: Orquestación vs Coreografía
+
 ## Orquestación
 
 En la orquestación un *director de orquesta* gestiona todas las interacciones
@@ -472,3 +476,5 @@ por lo tanto no se deben hacer cosas como subir estos ficheros a un repositorio.
 * [kubernetes.io - DaemonSet](https://kubernetes.io/es/docs/concepts/workloads/controllers/daemonset/)
 * [platform9.com - Tutorial: Dynamic Provisioning of Persistent Storage in Kubernetes with Minikube](https://platform9.com/blog/tutorial-dynamic-provisioning-of-persistent-storage-in-kubernetes-with-minikube/)
 * [medium.com/swlh - Quick Fix: Sharing Persistent Disks on Multiple Nodes in Kubernetes Using NFS](https://medium.com/swlh/quick-fix-sharing-persistent-disks-on-multiple-nodes-in-kubernetes-ef5541fd8376)
+* [refactorizando.com - Stateful vs Stateless en Arquitectura](https://refactorizando.com/stateful-vs-stateless-arquitectura/)
+* [refactorizando.com - Orquestación vs Coreografía en microservicios](https://refactorizando.com/orquestacion-vs-coreografia-microservicios/)

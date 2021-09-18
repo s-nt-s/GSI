@@ -84,6 +84,10 @@ UML
 https://es.wikipedia.org/wiki/Lenguaje_unificado_de_modelado
 Lenguaje de modelado unificado
 
+r'[cC]ubos? (OLAP|[dD]imensional(es)?)
+https://es.wikipedia.org/wiki/Cubo_OLAP
+Base de datos multidimensional, en la cual el almacenamiento físico de los datos se realiza en un vector multidimensional; los cubos OLAP se pueden considerar como una ampliación de las dos dimensiones de una hoja de cálculo
+
 OLAP
 https://es.wikipedia.org/wiki/OLAP
 Procesamiento analítico en línea
@@ -1533,3 +1537,64 @@ Conjunto de prácticas que agrupan el desarrollo de software (Dev) y las operaci
 i'Métrica( v\.?)?3
 https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html
 Metodología que ofrece a las un instrumento para la sistematización de las actividades que dan soporte al ciclo de vida del software
+
+r'\b(DW|[dD]ata [wW]arehouse)\b
+https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos
+Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza
+
+i'Data Marts?
+https://es.wikipedia.org/wiki/Data_mart
+Versión específica de un data warehouse centrado en un tema o un área de negocio dentro de una organización
+
+Minería de datos
+https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos
+Campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos
+
+Data lake
+https://en.wikipedia.org/wiki/Data_lake
+Repositorio de datos al natural, tanto estructurados como semi-estructurados como binarios
+
+i'Big data
+https://es.wikipedia.org/wiki/Macrodatos
+Conjuntos de datos tan grandes y complejos que precisan de aplicaciones informáticas no tradicionales de procesamiento de datos para tratarlos adecuadamente
+
+ETL
+https://es.wikipedia.org/wiki/Extract,_transform_and_load
+Extraer, transformar y carga: proceso que permite mover datos desde múltiples fuentes, reformatearlos, limpiarlos y cargarlos en otra base de datos
+
+ROLAP
+https://es.wikipedia.org/wiki/ROLAP
+Procesamiento Analítico OnLine Relacional (Procesamiento Analítico OnLine): herramienta OLAP sobre construidos contruida sobre una base de datos relacional
+
+MOLAP
+https://es.wikipedia.org/wiki/MOLAP
+Procesamiento analítico multidimensional en línea (multi-dimensional online analytical processing) almacena datos en una matriz de almacenamiento multidimensional optimizada
+
+HOLAP
+https://es.wikipedia.org/wiki/HOLAP
+Procesamiento analítico en línea híbrido (Hybrid Online Analytical Process): permite almacenar una parte de los datos como en un sistema MOLAP y el resto como en uno ROLAP
+
+r'[sS]istemas de soporte a decisiones|DSS
+https://es.wikipedia.org/wiki/Sistemas_de_soporte_a_decisiones
+
+r'[Ss]istemas de información ejecutiva|EIS
+https://es.wikipedia.org/wiki/Sistemas_de_informaci%C3%B3n_ejecutiva
+
+i'Inteligencia de negocios|Business Intelligence|inteligencia empresarial|inteligencia comercial|BI
+https://es.wikipedia.org/wiki/Inteligencia_empresarial
+Business Intelligence, estrategias, aplicaciones, datos, productos, tecnologías y arquitectura técnicas, los cuales están enfocados a la administración y creación de conocimiento sobre el medio, a través del análisis de los datos existentes en una organización o empresa
+
+PMML
+https://es.wikipedia.org/wiki/Predictive_Model_Markup_Language
+Predictive Model Markup Language, lenguaje de marcado de texto XML para definir modelos relacionados con los análisis predictivos y la minería de datos intercambiables entre aplicaciones PMML
+
+i'aprendizaje automático
+https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico
+
+i'(Apache )?Hadoop
+https://es.wikipedia.org/wiki/Apache_Hadoop
+Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)
+
+HDFS
+https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System
+Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)

@@ -10,3 +10,17 @@ status: draft
 # Inyección de dependencias
 
 # Builder
+
+# Factory
+
+# Unique
+
+# Instance
+
+# Singleton
+
+# Iterator
+
+# Flyweight
+
+# Observer
