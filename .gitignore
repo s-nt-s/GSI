@@ -4,6 +4,7 @@ runtree.sh
 output
 000 Resumenes
 tools/xsddiagram/
+TODO.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

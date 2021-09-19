@@ -24,3 +24,5 @@ status: draft
 # Flyweight
 
 # Observer
+
+# State

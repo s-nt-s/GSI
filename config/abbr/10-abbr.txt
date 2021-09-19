@@ -1652,6 +1652,21 @@ https://es.wikipedia.org/wiki/Apache_ORC
 r'(Apache )?(\*\*Parquet\*\*|Parquet)\b
 https://en.wikipedia.org/wiki/Apache_Parquet
 
+r'(Apache )?(\*\*Chukwa\*\*|Chukwa)\b
+http://chukwa.apache.org/
+
 NoSQL
 https://es.wikipedia.org/wiki/NoSQL
 Sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR
+
+i'regresión logística
+https://es.wikipedia.org/wiki/Regresi%C3%B3n_log%C3%ADstica
+
+i'árbol(es)? de decisión
+https://es.wikipedia.org/wiki/%C3%81rbol_de_decisi%C3%B3n
+
+i'red(es)? neuronal(es)?
+https://es.wikipedia.org/wiki/Red_neuronal_artificial
+
+i'k-means
+https://es.wikipedia.org/wiki/K-medias

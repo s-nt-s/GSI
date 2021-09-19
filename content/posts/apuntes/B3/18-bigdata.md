@@ -136,9 +136,9 @@ Dichas técnicas se clasifican en:
 * De **verificación**: verifica la validez de la información que se le presenta
 * **Supervisados**: cuentan con una fase de entrenamiento para construir el modelo,
 es decir, predicen un dato desconocido a priori a patir de otros conocidos
-( regresión, árboles de decisión, redes neuronales, estadísticos, etc)
+(regresión logística, árboles de decisión, redes neuronales, estadísticos, etc)
 * **No supervisados**: no cuentan con esa fase de entrenamiento, es decir,
-se descubren patrones y tendencias en los datos (clustering, redes de asociación, etc)
+se descubren patrones y tendencias en los datos (clustering, k-means, redes de asociación, etc)
 
 # Big Data
 
@@ -320,8 +320,8 @@ Apache **Hive**: facilita la consulta y gestión de grandes conjuntos de datos q
 almacenamientos distribuidos. Hive proporciona un mecanismo para la ver la estructura de los
 datos utilizando un lenguaje similar a SQL llamado HiveQL.
 
-Apache **Mahout**: software libre centrado en la implementación de algoritmos de machine
-learning distribuidos.
+Apache **Mahout**: software libre centrado en la implementación de algoritmos de
+machine learning distribuidos.
 
 Apache **Oozie**: gestor de flujos de trabajo que permite planificar la ejecución de jobs MapReduce
 (ej: de forma programada en un momento dado, cuando lleguen nuevos datos).
@@ -340,6 +340,10 @@ Apache **ZooKeeper**: servicio centralizado construido para mantener la informac
 configuración, proporcionar sincronización distribuida y la prestación de servicios de grupo.
 
 Apache **Parquet** y Apache **OCR**: formatos de almacenamiento de datos orientado a columnas.
+
+Apache **Chukwa**: sistema de recopilación de datos de código abierto para el seguimiento de
+grandes sistemas distribuidos. Incluye un conjunto de herramientas para la visualización,
+seguimiento y análisis de resultados.
 
 # Tipos de bases de datos NoSQL
 
