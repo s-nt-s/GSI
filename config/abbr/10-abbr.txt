@@ -1598,3 +1598,60 @@ Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes 
 HDFS
 https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System
 Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)
+
+r'MapReduce
+https://es.wikipedia.org/wiki/MapReduce
+Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing
+
+YARN
+https://aprenderbigdata.com/hadoop-yarn/
+Yet Another Resource Negotiator, framework que permite a Hadoop soportar varios motores de ejecución incluyendo MapReduce, y proporciona un planificador agnóstico a los trabajos que se encuentran en ejecución en el clúster
+
+r'(Apache )?(\*\*Ambari\*\*|Ambari)\b
+https://en.wikipedia.org/wiki/Apache_Ambari
+
+r'(Apache )?(\*\*Avro\*\*|Avro)\b
+https://en.wikipedia.org/wiki/Apache_Avro
+
+r'(Apache )?(\*\*Cassandra\*\*|Cassandra)\b
+https://es.wikipedia.org/wiki/Apache_Cassandra
+
+r'(Apache )?(\*\*Flume\*\*|Flume)\b
+https://es.wikipedia.org/wiki/Apache_Flume
+
+r'(Apache )?(\*\*HBase\*\*|HBase)\b
+https://es.wikipedia.org/wiki/Apache_HBase
+
+r'(Apache )?(\*\*HCatalog\*\*|HCatalog)\b
+https://cwiki.apache.org/confluence/display/Hive/HCatalog
+
+r'(Apache )?(\*\*Hive\*\*|Hive)\b
+https://es.wikipedia.org/wiki/Apache_Hive
+
+r'(Apache )?(\*\*Mahout\*\*|Mahout)\b
+https://en.wikipedia.org/wiki/Apache_Mahout
+
+r'(Apache )?(\*\*Oozie\*\*|Oozie)\b
+https://en.wikipedia.org/wiki/Apache_Oozie
+
+r'(Apache )?(\*\*Pig\*\*|Pig)\b
+https://es.wikipedia.org/wiki/Apache_Pig
+
+r'(Apache )?(\*\*Spark\*\*|Spark)\b
+https://es.wikipedia.org/wiki/Apache_Spark
+
+r'(Apache )?(\*\*Sqoop\*\*|Sqoop)\b
+https://es.wikipedia.org/wiki/Sqoop
+
+r'(Apache )?(\*\*ZooKeeper\*\*|ZooKeeper)\b
+https://es.wikipedia.org/wiki/Apache_ZooKeeper
+
+r'(Apache )?(\*\*ORC\*\*|ORC)\b
+https://es.wikipedia.org/wiki/Apache_ORC
+
+r'(Apache )?(\*\*Parquet\*\*|Parquet)\b
+https://en.wikipedia.org/wiki/Apache_Parquet
+
+NoSQL
+https://es.wikipedia.org/wiki/NoSQL
+Sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR
