@@ -195,9 +195,13 @@ CAdES y XAdES permiten los siguientes <span id="prefil-formato">perfiles de form
 * C (Complete): añade referencias a datos de verificación (certificados y listas de revocación).
 * X (Extended): añade un sello de tiempo a C (Complete) para proteger contra el posible compromiso de validez en el futuro.
 * XL (eXtended Long-term): añade certificados y evidencias de revocación (ej. CRL o respuestas OCSP), para permitir la verificación en el futuro, incluso si su fuente original no estuviera disponible.
-Esto implementa la *firma longeva*.
-* A (Archival): añade sellos de tiempo posteriores periódicamente (re-sellado) para prevenir el compromiso causado por la debilidad de los algoritmos de firma con el tiempo.
+* A (Archival): añade sellos de tiempo posteriores periódicamente (re-sellado)
+para garantizar la integridad de la firma, ya que de otro modo el paso del tiempo
+haría que tarde o temprano el algoritmo con que se firmo quedara obsoleto.
 
+Las dos últimas son una forma de implementar la *firma longeva*, aunque la `XL`
+solo dura lo que dure su sello, mientras que la `A` durara mientras se siga
+re-sellando.
 
 <fieldset class="firma_ades">
   <legend>A</legend><div>

@@ -195,4 +195,8 @@ div.figgroup2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 15px;
+  align-items: start;
+}
+div.figgroup > figure {
+  margin: unset;
 }

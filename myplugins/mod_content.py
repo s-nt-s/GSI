@@ -6,8 +6,8 @@ from .core.boe import BoeApi
 
 import unidecode
 
-re_tabcaption = re.compile(r"^Tabla (\d+|X): .+")
-re_figcaption = re.compile(r"^Figura (\d+|X): .+")
+re_tabcaption = re.compile(r"^Tabla( \d+)?: .+")
+re_figcaption = re.compile(r"^Figura( \d+)?: .+")
 re_sp = re.compile(r"\s+")
 heads=tuple("h"+str(i) for i in range(1,7))
 
@@ -166,8 +166,13 @@ def mod_content(content, *args, **kargv):
             if m:
                 cpt.name = "caption"
                 table.insert(0, cpt)
-                if table.attrs.get("id") is None:
-                    table.attrs["id"]="tb"+m.group(1)
+                m = m.group(1)
+                if m is None or len(m.strip())==0:
+                    m = None
+                if m is None:
+                    cpt.replaceWith(BeautifulSoup(str(cpt).replace("Tabla: ", ""), "html.parser"))
+                elif table.attrs.get("id") is None:
+                    table.attrs["id"]="tb"+m
         if table.select_one("*[rowspan]") or table.select_one("*[colspan]"):
             continue
         for tbody in soup.findAll(["thead", "tbody"]):
@@ -230,8 +235,13 @@ def mod_content(content, *args, **kargv):
             p.name = "figure"
             cpt.name = "figcaption"
             p.append(cpt)
-            if p.attrs.get("id") is None:
-                p.attrs["id"]="fg"+m.group(1)
+            m = m.group(1)
+            if m is None or len(m.strip())==0:
+                m = None
+            if m is None:
+                cpt.replaceWith(BeautifulSoup(str(cpt).replace("Figura: ", ""), "html.parser"))
+            elif p.attrs.get("id") is None:
+                p.attrs["id"]="fg"+m
             cap = text.split(":", 1)[1].strip()
             for att in ("title", "alt"):
                 if not img.attrs.get(att):
