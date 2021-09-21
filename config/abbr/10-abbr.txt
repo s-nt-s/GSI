@@ -1252,15 +1252,6 @@ SLA
 https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio
 Acuerdo de nivel de servicio
 
-r'Facade
-https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o)
-Patrón de diseño estructural que proporciona una interfaz simple para un subsistema complejo
-
-Circuit breaker
-https://apiumhub.com/es/tech-blog-barcelona/patron-circuit-breaker/
-https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern
-Patrón de diseño que evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar
-
 r'[iI]nversión de control|IoC
 https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control
 Principio de diseño de Software en el que se especifican respuestas deseadas a sucesos o solicitudes de datos concretas, dejando que algún tipo de entidad o arquitectura externa lleve a cabo las acciones de control que se requieran en el orden necesario y para el conjunto de sucesos que tengan que ocurrir
@@ -1680,6 +1671,10 @@ https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o
 i'\*+Patr[óo]n(es)? de arquitectura\*+
 https://es.wikipedia.org/wiki/Patrones_de_arquitectura
 
-i'framework Spring|Java Spring
+i'framework( de)? Spring|Java Spring
 https://es.wikipedia.org/wiki/Spring_Framework
 Framework para el desarrollo de aplicaciones y contenedor de inversión de control
+
+i'paradigma de programación modular
+https://es.wikipedia.org/wiki/Programaci%C3%B3n_modular
+Consiste en dividir un programa en módulos o subprogramas con el fin de hacerlo más legible y manejable

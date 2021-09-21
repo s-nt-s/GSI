@@ -43,6 +43,18 @@ def myzip(arr):
     arr = list(arr)
     return zip(range(1, len(arr)), arr[1:], arr)
 
+def toTag(template, *args, **kargv):
+    args = list(args)
+    for i, v in enumerate(args):
+        if isinstance(v, str):
+            args[i]=v.strip()
+    for k, v in list(kargv.items()):
+        if isinstance(v, str):
+            kargv[k]=v.strip()
+    if args or kargv:
+        template = template.format(*args, **kargv)
+    return BeautifulSoup(template, "html.parser")
+
 def to_txtline(node):
     node = BeautifulSoup(str(node), 'html.parser')
     for br in node.findAll("br"):
@@ -312,11 +324,69 @@ def mod_content(content, *args, **kargv):
                 nula = boe.nula.title()+": " if boe.nula else ""
                 a.attrs["title"] = nula+boe.titulo
 
+    hardCode(content, soup)
+
     soup.renderContents()
     _content = soup.decode()
     for k, v in content.metadata.get('replace', {}).items():
         _content = _content.replace(k, v)
+
     content._content = _content
 
 def register():
     signals.content_object_init.connect(mod_content)
+
+
+#########################
+
+def hardCode(content, soup):
+    if content.relative_source_path.endswith("-patrones.md"):
+        table = BeautifulSoup('''
+        <table class="tabla_patrones">
+            <caption>Resumen de patrones</caption>
+            <thead>
+                <tr>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+        ''', "html.parser")
+        ini = False
+        cur = None
+        tip = {}
+        for n in soup.findAll(["h1", "h2", "ul"]):
+            txt = n.get_text().strip()
+            if txt == "Bibliografía":
+                break
+            if ini is False and txt!="Creacional":
+                continue
+            if txt == "Otros":
+                continue
+            ini = True
+            if n.name == "h1":
+                cur = str(txt)
+                tip[cur]=(n, [])
+                continue
+            lis = n.findAll("li")
+            if lis:
+                for l in lis:
+                    tip[cur][1].append(l)
+            else:
+                tip[cur][1].append(n)
+        for t, data in tip.items():
+            table.find("thead").find("tr").append(toTag("<th>{}</th>", data[0].get_text()))
+            ptr = []
+            for n in sorted(data[1], key=lambda x:x.get_text().lower()):
+                n = toTag(str(n))
+                for slc in ("a.anchormark",):
+                    for x in n.select(slc):
+                        x.extract()
+                n = str(n).split(">", 1)[-1].rsplit("<", 1)[0].strip()
+                n = "<li>"+n+"</li>"
+                ptr.append(n)
+            table.find("tbody").find("tr").append(toTag("<td><ul>{}</ul></td>", "\n".join(ptr)))
+
+        soup.find(lambda x:x.name=="h1" and x.get_text().strip()=="Creacional").insert_before(table)

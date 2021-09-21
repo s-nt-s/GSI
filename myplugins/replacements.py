@@ -68,6 +68,7 @@ class Replace:
             re.compile(r"<abbr[^>]*>[^<]*</abbr>"),
             re.compile(r"<a[^>]*>[^<]*</a>"),
             re.compile(r"<https?://[^>]+>"),
+            re.compile(r"`[^`]+`"),
             self.re_num,
         ))
 

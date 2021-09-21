@@ -73,3 +73,12 @@ body.ejercicios_plantilla table tr > td:first-child a.abbr[target='_blank'] {
   text-decoration:none;
   color:unset;
 }
+
+table.tabla_patrones td {
+  vertical-align: top;
+}
+table.tabla_patrones td ul {
+  padding-left: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

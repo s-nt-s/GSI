@@ -1,0 +1,195 @@
+i'Modelo vista controlador
+https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador
+
+r'Prototype
+https://refactoring.guru/es/design-patterns/prototype
+https://es.wikipedia.org/wiki/Prototipo_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Builder
+https://refactoring.guru/es/design-patterns/builder
+https://es.wikipedia.org/wiki/Builder_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Factory Method
+https://refactoring.guru/es/design-patterns/factory-method
+https://es.wikipedia.org/wiki/Factory_Method_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Abstract Factory
+https://refactoring.guru/es/design-patterns/abstract-factory
+https://es.wikipedia.org/wiki/Abstract_Factory
+
+i'Singleton
+https://refactoring.guru/es/design-patterns/singleton
+https://es.wikipedia.org/wiki/Singleton
+
+i'Multiton
+https://en.wikipedia.org/wiki/Multiton_pattern
+
+i'Object Pool
+https://es.wikipedia.org/wiki/Object_pool_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Lazy Initialization
+https://en.wikipedia.org/wiki/Lazy_initialization
+
+r'RAII
+https://es.wikipedia.org/wiki/RAII
+Patron adquirir recursos es inicializar (resource acquisition is initialization)
+
+i'Inyección de dependencias
+https://es.wikipedia.org/wiki/Inyecci%C3%B3n_de_dependencias
+
+i'Adapter
+https://refactoring.guru/es/design-patterns/adapter
+https://es.wikipedia.org/wiki/Adaptador_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Bridge
+https://refactoring.guru/es/design-patterns/bridge
+https://es.wikipedia.org/wiki/Bridge_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Composite
+https://refactoring.guru/es/design-patterns/composite
+https://es.wikipedia.org/wiki/Composite_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Decorator
+https://refactoring.guru/es/design-patterns/decorator
+https://es.wikipedia.org/wiki/Decorator_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Facade
+https://refactoring.guru/es/design-patterns/facade
+https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o)
+Patrón de diseño estructural que proporciona una interfaz simple para un subsistema complejo
+
+r'Flyweight
+https://refactoring.guru/es/design-patterns/flyweight
+https://es.wikipedia.org/wiki/Flyweight_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Proxy
+https://refactoring.guru/es/design-patterns/proxy
+https://es.wikipedia.org/wiki/Proxy_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Module
+https://es.wikipedia.org/wiki/M%C3%B3dulo_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Front Controller
+http://www.w3big.com/es/design-pattern/front-controller-pattern.html
+https://en.wikipedia.org/wiki/Front_controller
+
+r'Marker
+https://en.wikipedia.org/wiki/Marker_interface_pattern
+
+r'Twin
+https://en.wikipedia.org/wiki/Twin_pattern
+
+i'Chain of Responsibility
+https://refactoring.guru/es/design-patterns/chain-of-responsibility
+https://es.wikipedia.org/wiki/Cadena_de_responsabilidad
+
+r'Command
+https://refactoring.guru/es/design-patterns/command
+https://es.wikipedia.org/wiki/Command_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Iterator
+https://refactoring.guru/es/design-patterns/iterator
+https://es.wikipedia.org/wiki/Iterador_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Mediator
+https://refactoring.guru/es/design-patterns/mediator
+https://es.wikipedia.org/wiki/Mediator_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Memento
+https://refactoring.guru/es/design-patterns/memento
+https://es.wikipedia.org/wiki/Memento_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Observer
+https://refactoring.guru/es/design-patterns/observer
+https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'State
+https://refactoring.guru/es/design-patterns/state
+https://es.wikipedia.org/wiki/State_(patr%C3%B3n_de_dise%C3%B1o)
+
+r'Strategy
+https://refactoring.guru/es/design-patterns/strategy
+https://es.wikipedia.org/wiki/Strategy_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Template Method
+https://refactoring.guru/es/design-patterns/template-method
+https://es.wikipedia.org/wiki/Patr%C3%B3n_de_m%C3%A9todo_de_la_plantilla
+
+r'Visitor
+https://refactoring.guru/es/design-patterns/visitor
+https://es.wikipedia.org/wiki/Visitor_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Blackboard
+https://en.wikipedia.org/wiki/Blackboard_(design_pattern)
+https://es.wikipedia.org/wiki/Arquitectura_en_pizarra_(inform%C3%A1tica)
+
+r'Interpreter
+https://es.wikipedia.org/wiki/Interpreter_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Null Object
+https://en.wikipedia.org/wiki/Null_object_pattern
+
+i'Publish-Subscribe
+https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
+
+r'Servant
+https://en.wikipedia.org/wiki/Servant_(design_pattern)
+
+r'Specification
+https://en.wikipedia.org/wiki/Specification_pattern
+
+i'Active Object
+https://en.wikipedia.org/wiki/Active_object
+
+r'Balking
+https://en.wikipedia.org/wiki/Balking_pattern
+
+i'Binding Properties
+https://en.wikipedia.org/wiki/Binding_properties_pattern
+
+i'Compute Kernel
+https://en.wikipedia.org/wiki/Compute_kernel
+
+i'Double-Checked Locking
+https://en.wikipedia.org/wiki/Double-checked_locking
+
+i'Event-Based asynchronous
+https://en.wikipedia.org/wiki/Asynchronous_method_invocation
+
+i'Guarded suspension
+https://en.wikipedia.org/wiki/Guarded_suspension
+
+r'Join-pattern
+https://en.wikipedia.org/wiki/Join-pattern
+
+r'Cierre de exclusión mutua
+https://es.wikipedia.org/wiki/Cierre_de_exclusi%C3%B3n_mutua
+
+r'Messaging
+https://en.wikipedia.org/wiki/Messaging_pattern
+
+i'Monitor object
+https://es.wikipedia.org/wiki/Monitor_(concurrencia)
+
+r'Reactor
+https://es.wikipedia.org/wiki/Reactor_(patr%C3%B3n_de_dise%C3%B1o)
+
+i'Readers-writer lock
+https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock
+
+r'Scheduling
+https://es.wikipedia.org/wiki/Planificador
+
+i'Thread pool
+https://en.wikipedia.org/wiki/Thread_pool
+
+i'Thread-local storage
+https://en.wikipedia.org/wiki/Thread-local_storage
+
+i'Inversión de control
+https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control
+
+i'Circuit breaker
+https://apiumhub.com/es/tech-blog-barcelona/patron-circuit-breaker/
+https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern
+Patrón de diseño que evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar
