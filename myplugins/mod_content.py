@@ -340,7 +340,7 @@ def register():
 #########################
 
 def hardCode(content, soup):
-    if content.relative_source_path.endswith("-patrones.md"):
+    if content.source_path.endswith("-patrones.md"):
         table = BeautifulSoup('''
         <table class="tabla_patrones">
             <caption>Resumen de patrones</caption>
