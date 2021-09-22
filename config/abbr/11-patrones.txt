@@ -62,28 +62,28 @@ r'Flyweight
 https://refactoring.guru/es/design-patterns/flyweight
 https://es.wikipedia.org/wiki/Flyweight_(patr%C3%B3n_de_dise%C3%B1o)
 
-r'Proxy
+r'Proxy(?P<rm>-pattern)
 https://refactoring.guru/es/design-patterns/proxy
 https://es.wikipedia.org/wiki/Proxy_(patr%C3%B3n_de_dise%C3%B1o)
 
-r'Module
+r'Module(?P<rm>-pattern)
 https://es.wikipedia.org/wiki/M%C3%B3dulo_(patr%C3%B3n_de_dise%C3%B1o)
 
 i'Front Controller
-http://www.w3big.com/es/design-pattern/front-controller-pattern.html
+http://www.w3big.com/es/design(?P<rm>-pattern)/front-controller(?P<rm>-pattern).html
 https://en.wikipedia.org/wiki/Front_controller
 
-r'Marker
+r'Marker(?P<rm>-pattern)
 https://en.wikipedia.org/wiki/Marker_interface_pattern
 
-r'Twin
+r'Twin(?P<rm>-pattern)
 https://en.wikipedia.org/wiki/Twin_pattern
 
 i'Chain of Responsibility
 https://refactoring.guru/es/design-patterns/chain-of-responsibility
 https://es.wikipedia.org/wiki/Cadena_de_responsabilidad
 
-r'Command
+r'Command(?P<rm>-pattern)
 https://refactoring.guru/es/design-patterns/command
 https://es.wikipedia.org/wiki/Command_(patr%C3%B3n_de_dise%C3%B1o)
 
@@ -103,11 +103,11 @@ r'Observer
 https://refactoring.guru/es/design-patterns/observer
 https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)
 
-r'State
+r'State(?P<rm>-pattern)
 https://refactoring.guru/es/design-patterns/state
 https://es.wikipedia.org/wiki/State_(patr%C3%B3n_de_dise%C3%B1o)
 
-r'Strategy
+r'Strategy(?P<rm>-pattern)
 https://refactoring.guru/es/design-patterns/strategy
 https://es.wikipedia.org/wiki/Strategy_(patr%C3%B3n_de_dise%C3%B1o)
 
@@ -115,7 +115,7 @@ i'Template Method
 https://refactoring.guru/es/design-patterns/template-method
 https://es.wikipedia.org/wiki/Patr%C3%B3n_de_m%C3%A9todo_de_la_plantilla
 
-r'Visitor
+r'Visitor(?P<rm>-pattern)
 https://refactoring.guru/es/design-patterns/visitor
 https://es.wikipedia.org/wiki/Visitor_(patr%C3%B3n_de_dise%C3%B1o)
 
@@ -132,10 +132,10 @@ https://en.wikipedia.org/wiki/Null_object_pattern
 i'Publish-Subscribe
 https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
 
-r'Servant
+r'Servant(?P<rm>-pattern)
 https://en.wikipedia.org/wiki/Servant_(design_pattern)
 
-r'Specification
+r'Specification(?P<rm>-pattern)
 https://en.wikipedia.org/wiki/Specification_pattern
 
 i'Active Object
@@ -159,13 +159,13 @@ https://en.wikipedia.org/wiki/Asynchronous_method_invocation
 i'Guarded suspension
 https://en.wikipedia.org/wiki/Guarded_suspension
 
-r'Join-pattern
-https://en.wikipedia.org/wiki/Join-pattern
+r'Join(?P<rm>-pattern)
+https://en.wikipedia.org/wiki/Join(?P<rm>-pattern)
 
 r'Cierre de exclusión mutua
 https://es.wikipedia.org/wiki/Cierre_de_exclusi%C3%B3n_mutua
 
-r'Messaging
+r'Messaging(?P<rm>-pattern)
 https://en.wikipedia.org/wiki/Messaging_pattern
 
 i'Monitor object
@@ -177,7 +177,7 @@ https://es.wikipedia.org/wiki/Reactor_(patr%C3%B3n_de_dise%C3%B1o)
 i'Readers-writer lock
 https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock
 
-r'Scheduling
+r'Scheduling(?P<rm>-pattern)
 https://es.wikipedia.org/wiki/Planificador
 
 i'Thread pool

@@ -76,19 +76,20 @@ class Replace:
         fake_sep = "@#~½$"
 
         def fake_sub(r, n, x):
-            if n is None:
-                x = fake_sep.join(list(x.group(0)))
-            else:
-                x = r.sub(n, x.group(0))
-                x = fake_sep.join(list(x))
-            return fake_sep+x+fake_sep
+            nw = x.group(0)
+            if n is not None:
+                nw = r.sub(n, nw)
+            if "rm" in r.groupindex and x.group("rm") not in (None, ""):
+                nw = nw.replace(x.group("rm"), "")
+            nw = fake_sep.join(list(nw))
+            return fake_sep+nw+fake_sep
         for key, value in self.replacements.items():
             txt = txt.replace(self.delimiter + key + self.delimiter, value)
         for abbr in self.abbr:
             if isinstance(abbr.text, str) and self.re_num.search(abbr.text):
                 txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
         for re_sc in self.re_scape:
-            txt = re_sc.sub(lambda x:fake_sub(self.re_scape, None, x), txt)
+            txt = re_sc.sub(lambda x:fake_sub(re_sc, None, x), txt)
         for abbr in self.abbr:
             if not(isinstance(abbr.text, str) and self.re_num.search(abbr.text)):
                 txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)

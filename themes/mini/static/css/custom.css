@@ -82,3 +82,9 @@ table.tabla_patrones td ul {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+table.tabla_patrones th {
+  text-align: center;
+}
+table.tabla_patrones tbody tr:hover {
+  background-color: unset !important;
+}

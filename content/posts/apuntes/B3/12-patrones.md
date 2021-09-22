@@ -181,19 +181,19 @@ fabrica Flyweight solo cuando no se ha creado uno igual antes.
 Figura: Ejemplo de Flyweight que evita repetir la información común de los arboles
 (name, color, texture) de un bosque.
 
-## Proxy
+## Proxy-pattern
 
 Proporciona un subrogado o intermediario de un objeto para controlar su acceso.
 
 ![](https://refactoring.guru/images/patterns/diagrams/proxy/structure.png)
 
-Figura: Estructura patrón Proxy
+Figura: Estructura patrón Proxy-pattern
 
 ![](https://refactoring.guru/images/patterns/diagrams/proxy/example.png)
 
-Figura: `CachedYouTubeClass` es un proxy de `ThirdPartyYouTubeLib` que hace lo mismo que `ThirdPartyYouTube` pero con una cache.
+Figura: `CachedYouTubeClass` es un Proxy-pattern de `ThirdPartyYouTubeLib` que hace lo mismo que `ThirdPartyYouTube` pero con una cache.
 
-## Module
+## Module-pattern
 
 Implementa el concepto de módulos de software definidos por el
 paradigma de programación modular, en un lenguaje de programación que no lo soporta,
@@ -210,7 +210,7 @@ Puede referirse al controlador del Modelo vista controlador.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/8e/Front_Controller.svg)
 
-## Marker
+## Marker-pattern
 
 Proporciona información de tipo en tiempo de ejecución sobre los objetos.
 Es una manera de "asociar metadatos" a una clase en un lenguaje de programación
@@ -221,7 +221,7 @@ para que otras clases, como `ObjectOutputStream` en su método `writeObject(Obje
 hagan `object instanceof Serializable` y lancen `NotSerializableException` en caso
 negativo.
 
-## Twin
+## Twin-pattern
 
 Permite modelar herencia múltiple en lenguajes de programación que no la admiten
 directamente.
@@ -232,7 +232,7 @@ Figura: Herencia múltiple
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/28/Iker_minta.png)
 
-Figura: Herencia múltiple implementada con patrón Twin
+Figura: Herencia múltiple implementada con patrón Twin-pattern
 
 ## Extension object
 
@@ -260,7 +260,7 @@ puede se la pasa al manejador de la capa superior.
 Figura: GUI en la que pedir la ayuda de un elemento tiene como resultado obtener
 la de dicho elemento si la tiene, y si no la del padre, y si no la del abuelo, y si no...
 
-## Command
+## Command-pattern
 
 Convierte una solicitud en un objeto independiente que contiene toda la
 información sobre la solicitud. Esta transformación te permite parametrizar
@@ -269,7 +269,7 @@ de una solicitud y soportar operaciones que no se pueden realizar.
 
 ![](https://refactoring.guru/images/patterns/diagrams/command/structure.png)
 
-Figura: Estructura patrón Command
+Figura: Estructura patrón Command-pattern
 
 ![](https://refactoring.guru/images/patterns/diagrams/command/example.png)
 
@@ -312,7 +312,7 @@ que puede usar para ir del esado actual al previo.
 
 ![](https://refactoring.guru/images/patterns/diagrams/memento/example.png)
 
-Figura: Patrón Memento + patrón Command para implementar `undo` en un editor de texto.
+Figura: Patrón Memento + patrón Command-pattern para implementar `undo` en un editor de texto.
 
 ## Observer o Publish-subscribe
 
@@ -323,7 +323,7 @@ evento que le suceda al objeto que están observando.
 
 Figura: Estructura patrón Observer
 
-## State
+## State-pattern
 
 Implementación de un objeto de manera que su comportamiento cambia si su estado
 cambia.
@@ -337,14 +337,14 @@ Figura: El objeto `Context` hace esto o aquello según su estado (`ConcreteState
 Figura: Reproductor de música que al darle a `play` hará cosas distintas
 según su estado.
 
-## Strategy
+## Strategy-pattern
 
 Implementa un conjunto de algoritmos de manera que un objeto cliente puede elegir
 el que quiera e incluso cambiarlo dinámicamente según sus necesidades.
 
 ![](https://refactoring.guru/images/patterns/diagrams/strategy/structure.png)
 
-Figura: Estructura patrón Strategy
+Figura: Estructura patrón Strategy-pattern
 
 ## Template Method
 
@@ -355,13 +355,13 @@ sobrescriban pasos del algoritmo sin cambiar su estructura.
 
 Figura: Estructura patrón Template Method
 
-## Visitor
+## Visitor-pattern
 
 Separa algoritmos de los objetos sobre los que operan.
 
 ![](https://refactoring.guru/images/patterns/diagrams/visitor/structure-es.png)
 
-Figura: Estructura patrón Visitor
+Figura: Estructura patrón Visitor-pattern
 
 ![](https://refactoring.guru/images/patterns/diagrams/visitor/example.png)
 
@@ -399,8 +399,8 @@ Evita que una aplicación intente de manera reiterada una operación que con pro
 
 ## Otros
 
-* Servant
-* Specification
+* Servant-pattern
+* Specification-pattern
 
 # Concurrencia
 
@@ -430,9 +430,9 @@ sincrónica a los manejadores de pedidos asociados.
 *  Event-based asynchronous
 *  Guarded suspension
 *  Join-pattern
-*  Messaging
+*  Messaging-pattern
 *  Readers-writer lock
-*  Scheduling
+*  Scheduling-pattern
 *  Thread pool
 *  Thread-local storage
 
