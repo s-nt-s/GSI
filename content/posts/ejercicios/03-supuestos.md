@@ -21,6 +21,26 @@ han aportado ejemplos de supuestos prácticos resueltos.
 Aquí listo los que he podido recopilar. Los primeros 4 dígitos de cada
 item indican el año del curso INAP en el que se dio tal supuesto.
 
+**Nota**: No tengo ni idea de porque existen supuestos del bloque 1 y 2
+
+## Bloque 1
+
+* 2019-B1_S01 RGPD 1
+* 2019-B1_S02 RGPD 2
+* 2019-B1_S03 PAC
+* 2019-B1_S04 ENS
+* 2019-B1_S05 MITRAMISS
+* 2019-B1_S06 Andalucia
+
+## Bloque 2
+
+* 2019-B2_S01 Seguridad social
+* 2019-B2_S02 Gestion informacion
+* 2019-B2_S03 Red
+* 2019-B2_S04 Computadoras remotas
+* 2019-B2_S05 Planes estrategicos
+* 2019-B2_S06 Muestreo
+
 ## Bloque 3
 
 * 2016-B3_S01 Business angels
@@ -59,3 +79,5 @@ item indican el año del curso INAP en el que se dio tal supuesto.
 * 2018-B4_S04 Red
 * 2018-B4_S05 CPD 2
 * 2018-B4_S06 CPD 3
+* 2019-B4_S01 Traslado sede
+* 2019-B4_S02 Satisfaccion
