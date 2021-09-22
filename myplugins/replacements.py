@@ -74,13 +74,20 @@ class Replace:
 
     def rpl(self, txt):
         fake_sep = "@#~½$"
+        fake_rem = "x@@@BORRAME@@@x"
 
         def fake_sub(r, n, x):
             nw = x.group(0)
+            doRm = None
+            if "rm" in r.groupindex and x.group("rm") not in (None, ""):
+                doRm = x.group("rm")
+            if doRm:
+                nw = nw.replace(x.group("rm"), fake_rem)
+                r = re.compile(r.pattern.replace("(?P<rm>", "(?P<rm>"+fake_rem+"|"), r.flags)
             if n is not None:
                 nw = r.sub(n, nw)
-            if "rm" in r.groupindex and x.group("rm") not in (None, ""):
-                nw = nw.replace(x.group("rm"), "")
+            if doRm:
+                nw = nw.replace(fake_rem, "")
             nw = fake_sep.join(list(nw))
             return fake_sep+nw+fake_sep
         for key, value in self.replacements.items():

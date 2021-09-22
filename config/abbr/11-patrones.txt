@@ -70,7 +70,7 @@ r'Module(?P<rm>-pattern)
 https://es.wikipedia.org/wiki/M%C3%B3dulo_(patr%C3%B3n_de_dise%C3%B1o)
 
 i'Front Controller
-http://www.w3big.com/es/design(?P<rm>-pattern)/front-controller(?P<rm>-pattern).html
+http://www.w3big.com/es/design-pattern/front-controller-pattern.html
 https://en.wikipedia.org/wiki/Front_controller
 
 r'Marker(?P<rm>-pattern)
@@ -160,7 +160,7 @@ i'Guarded suspension
 https://en.wikipedia.org/wiki/Guarded_suspension
 
 r'Join(?P<rm>-pattern)
-https://en.wikipedia.org/wiki/Join(?P<rm>-pattern)
+https://en.wikipedia.org/wiki/Join-pattern
 
 r'Cierre de exclusión mutua
 https://es.wikipedia.org/wiki/Cierre_de_exclusi%C3%B3n_mutua
