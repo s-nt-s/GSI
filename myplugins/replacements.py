@@ -64,7 +64,7 @@ class Replace:
         self.abbr = abbr
         self.re_num = re.compile(r"[⁰¹²³⁴⁵⁶⁷⁸⁹]+")
         self.re_scape = tuple((
-            re.compile(r"(\[[^\[\]]*\]\(\S+\))"),
+            re.compile(r'(\[[^\[\]]*\]\(\S+( "[^"]+")?\))'),
             re.compile(r"<abbr[^>]*>[^<]*</abbr>"),
             re.compile(r"<a[^>]*>[^<]*</a>"),
             re.compile(r"<https?://[^>]+>"),
