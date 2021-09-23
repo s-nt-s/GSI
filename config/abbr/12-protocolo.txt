@@ -1,0 +1,224 @@
+FTP
+https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_archivos
+Protocolo de transferencia de archivos
+
+DNS
+https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
+Sistema de nombres de dominio
+
+HTTP
+https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto
+Protocolo de transferencia de hipertexto
+
+POP3
+https://es.wikipedia.org/wiki/Protocolo_de_oficina_de_correo
+Protocolo de oficina de correo
+
+SMTP
+https://es.wikipedia.org/wiki/Protocolo_para_transferencia_simple_de_correo
+Protocolo para transferencia simple de correo
+
+SSH
+https://es.wikipedia.org/wiki/Secure_Shell
+Secure Shell
+
+Telnet
+https://es.wikipedia.org/wiki/Telnet
+
+TFTP
+https://es.wikipedia.org/wiki/TFTP
+Trivial file transfer Protocol
+
+XMPP
+https://es.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol
+Extensible Messaging and Presence Protocol
+
+AFP
+https://en.wikipedia.org/wiki/Apple_Filing_Protocol
+Apple Filing Protocol
+
+ICA
+https://es.wikipedia.org/wiki/Independent_Computing_Architecture
+Arquitectura de Cómputo Independiente (Citrix)
+
+LPP
+https://en.wikipedia.org/wiki/Lightweight_Presentation_Protocol
+Lightweight Presentation Protocol
+
+NCP
+https://es.wikipedia.org/wiki/NetWare_Core_Protocol
+NetWare Core Protocol (Novell, Inc)
+
+NDR
+https://en.wikipedia.org/wiki/Network_Data_Representation
+Network Data Representation
+
+r'Tox
+https://es.wikipedia.org/wiki/Tox_(inform%C3%A1tica)
+Protocolo p2p de mensajería instantánea y videollamadas con cifrado de extremo a extremo
+
+XDR
+https://en.wikipedia.org/wiki/External_Data_Representation
+External Data Representation
+
+X.25 PAD
+https://es.wikipedia.org/wiki/Norma_X.25
+Norma X.25
+
+ATP
+https://es.wikipedia.org/wiki/AppleTalk
+AppleTalk (obsoleto, se sustituyo por TCP/IP)
+
+CUDP
+Cyclic UDP
+
+DCCP
+https://es.wikipedia.org/wiki/Protocolo_de_Control_de_Congesti%C3%B3n_de_Datagramas
+Protocolo de Control de Congestión de Datagramas
+
+FCP
+https://en.wikipedia.org/wiki/Fibre_Channel_Protocol
+Fibre Channel Protocol
+
+r'IL(?P<rm>-Protocol)
+https://en.wikipedia.org/wiki/IL_(network_protocol)
+IL Transport Protocol, protocolo diseñado por Bell Labs para el sistema operativo Plan 9
+
+MPTCP
+https://en.wikipedia.org/wiki/Multipath_TCP
+Multipath TCP
+
+NORM
+https://en.wikipedia.org/wiki/NACK-Oriented_Reliable_Multicast
+NACK-Oriented Reliable Multicast
+
+RDP
+https://en.wikipedia.org/wiki/Reliable_Data_Protocol
+Reliable Data Protocol
+
+RUDP
+https://es.wikipedia.org/wiki/Reliable_User_Datagram_Protocol
+Reliable User Datagram Protocol
+
+SCTP
+https://es.wikipedia.org/wiki/Stream_Control_Transmission_Protocol
+Stream Control Transmission Protocol
+
+IPX/SPX
+https://es.wikipedia.org/wiki/IPX/SPX
+IPX/SPX, protocolos de red desarrollados por Novell y utilizados por su sistema operativo de red NetWare
+
+SPX
+https://es.wikipedia.org/wiki/Sequenced_Packet_Exchange
+Sequenced Packet Exchange
+
+IPX
+https://es.wikipedia.org/wiki/Internetwork_Packet_Exchange
+Internetwork Packet Exchange
+
+SST
+https://en.wikipedia.org/wiki/Structured_Stream_Transport
+Structured Stream Transport
+
+µTP
+https://es.wikipedia.org/wiki/Micro_Transport_Protocol
+Micro Transport Protocol, protocolo diseñado para ser usado en las conexiones P2P del protocolo BitTorrent
+
+IPv4
+https://es.wikipedia.org/wiki/IPv4
+
+IPv6
+https://es.wikipedia.org/wiki/IPv6
+
+OSPF
+https://es.wikipedia.org/wiki/Open_Shortest_Path_First
+Abrir el camino más corto primero (Open Shortest Path First), enruta con Dijkstra
+
+IS-IS
+https://es.wikipedia.org/wiki/IS-IS
+Intermediate System to intermediate System
+
+ICMP
+https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet
+Protocolo de control de mensajes de Internet (lo usa ping y traceroute)
+
+IGMP
+https://es.wikipedia.org/wiki/Internet_Group_Management_Protocol
+Internet Group Management Protocol
+
+CLNS
+https://es.wikipedia.org/wiki/CLNS
+Servicio No Orientado a Conexión
+
+DDP
+https://en.wikipedia.org/wiki/Datagram_Delivery_Protocol
+Datagram Delivery Protocol
+
+EGP
+https://es.wikipedia.org/wiki/Exterior_Gateway_Protocol
+Exterior Gateway Protocol
+
+EIGRP
+https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol
+Enhanced Interior Gateway Routing Protocol
+
+PIM
+https://es.wikipedia.org/wiki/Protocol_Independent_Multicast
+Protocol Independent Multicast
+
+RIP
+https://es.wikipedia.org/wiki/Routing_Information_Protocol
+Routing Information Protocol
+
+r'IrDA
+https://es.wikipedia.org/wiki/Infrared_Data_Association
+Infrared Data Association
+
+Firewire
+https://es.wikipedia.org/wiki/IEEE_1394
+IEEE 1394
+
+GSM
+https://es.wikipedia.org/wiki/Sistema_global_para_las_comunicaciones_m%C3%B3viles
+Sistema global para las comunicaciones móviles
+
+SONET/SDH
+https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_digital_s%C3%ADncrona
+Jerarquía digital síncrona
+
+ISDN
+https://es.wikipedia.org/wiki/Red_digital_de_servicios_integrados
+Red digital de servicios integrados
+
+DSL
+https://es.wikipedia.org/wiki/L%C3%ADnea_de_abonado_digital
+Línea de abonado digital
+
+Ethernet
+https://es.wikipedia.org/wiki/Ethernet
+
+ATM
+https://es.wikipedia.org/wiki/Modo_de_transferencia_as%C3%ADncrona
+Modo de transferencia asíncrona
+
+USB
+https://es.wikipedia.org/wiki/Universal_Serial_Bus
+Universal Serial Bus
+
+r'PCI Express
+https://es.wikipedia.org/wiki/PCI_Express
+
+ONC/RPC
+https://es.wikipedia.org/wiki/ONC_RPC
+Open Network Computing Remote Procedure Call
+
+L2TP
+https://es.wikipedia.org/wiki/L2TP
+Layer 2 Tunneling Protocol
+
+NetBIOS
+https://es.wikipedia.org/wiki/NetBIOS
+
+RPC
+https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remoto
+Llamada a procedimiento remoto

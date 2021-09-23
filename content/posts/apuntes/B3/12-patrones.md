@@ -452,6 +452,29 @@ La Inversión de control es el concepto central del Framework de Spring y usa la
 
 La mayoría de las bibliotecas para el desarrollo de aplicaciones con GUI, como GTK o QT usan inversión de control y están dirigidas por eventos.
 
+## Otros
+
+* Programación por capas
+* Arquitectura de microservicios
+* Arquitectura de microkernel
+* Invocación implícita
+* Layer-pattern
+* Arquitectura hexagonal
+* Arquitectura en pizarra (Blackboard)
+* Arquitectura dirigida por eventos
+* Peer-to-peer
+* Arquitectura orientada a servicios
+* Broker-pattern
+* Objetos desnudos
+* Modelo Vista Controlador
+* Presentación Abstracción Control
+* Modelo Vista Presentador
+* Modelo Vista Modelo de vista
+* Almacén operacional de los datos
+* Tuberías y Filtros
+* Esclavo-Maestro
+* Control centralizado y distribuido
+
 # Bibliografía
 
 * [refactoring.guru - El catálogo de patrones de diseño](https://refactoring.guru/es/design-patterns/catalog)

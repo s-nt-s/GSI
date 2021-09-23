@@ -150,7 +150,7 @@ class Abbr():
     def re(self):
         if self._re is not None:
             return re.compile(self._re)
-        if len(self.text) > 3 and self.text[0:2] in ("r'", "i'"):
+        if self.text is not None and len(self.text) > 3 and self.text[0:2] in ("r'", "i'"):
             flag = self.text[0]
             text = self.text[2:]
             a, z = self.get_limits(text)

@@ -144,6 +144,8 @@ figure.fig {
   display: table;
   border: 1px black solid;
   margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 figure.fig figcaption {
   display: table-caption;

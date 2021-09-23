@@ -162,7 +162,10 @@ def mod_content(content, *args, **kargv):
     if isinstance(content, contents.Static):
         return
 
-    soup = BeautifulSoup(content._content, 'html.parser')
+    _content = content._content
+    for k, v in content.metadata.get('replace', {}).items():
+        _content = _content.replace(k, v)
+    soup = BeautifulSoup(_content, 'html.parser')
 
     for td in soup.findAll(['th', 'td']):
         align = td.attrs.get("align", None)
@@ -328,8 +331,6 @@ def mod_content(content, *args, **kargv):
 
     soup.renderContents()
     _content = soup.decode()
-    for k, v in content.metadata.get('replace', {}).items():
-        _content = _content.replace(k, v)
 
     content._content = _content
 
@@ -339,11 +340,23 @@ def register():
 
 #########################
 
+def findBetween(soup, start, end, *args):
+    ini = False
+    for n in soup.findAll(args):
+        txt = n.get_text().strip()
+        if ini is False and txt != start:
+            continue
+        if ini is True and txt == end:
+            break
+        ini = True
+        yield n
+
+
 def hardCode(content, soup):
     if content.source_path.endswith("-patrones.md"):
         table = BeautifulSoup('''
         <table class="tabla_patrones">
-            <caption>Resumen de patrones</caption>
+            <caption>Resumen de patrones de diseño</caption>
             <thead>
                 <tr>
                 </tr>
@@ -354,18 +367,12 @@ def hardCode(content, soup):
             </tbody>
         </table>
         ''', "html.parser")
-        ini = False
         cur = None
         tip = {}
-        for n in soup.findAll(["h1", "h2", "ul"]):
+        for n in findBetween(soup, "Creacional", "Arquitectura", "h1", "h2", "ul"):
             txt = n.get_text().strip()
-            if txt == "Bibliografía":
-                break
-            if ini is False and txt!="Creacional":
-                continue
             if txt == "Otros":
                 continue
-            ini = True
             if n.name == "h1":
                 cur = str(txt)
                 tip[cur]=(n, [])

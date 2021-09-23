@@ -193,3 +193,48 @@ i'Circuit breaker
 https://apiumhub.com/es/tech-blog-barcelona/patron-circuit-breaker/
 https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern
 Patrón de diseño que evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar
+
+i'Programación por capas
+https://es.wikipedia.org/wiki/Programaci%C3%B3n_por_capas
+
+r'Arquitectura de [Mm]icroservicios|Microservicios
+https://es.wikipedia.org/wiki/Arquitectura_de_microservicios
+
+i'Arquitectura de microkernel
+https://es.wikipedia.org/wiki/Micron%C3%BAcleo
+
+i'Arquitectura dirigida por eventos
+https://es.wikipedia.org/wiki/Arquitectura_dirigida_por_eventos
+
+i'Peer-to-peer
+https://es.wikipedia.org/wiki/Peer-to-peer
+
+i'Arquitectura orientada a servicios
+https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios
+
+i'Broker(?P<rm>-pattern)
+https://en.wikipedia.org/wiki/Broker_pattern
+
+i'Invocación implícita
+https://en.wikipedia.org/wiki/Implicit_invocation
+
+i'Layer(?P<rm>-pattern)
+https://en.wikipedia.org/wiki/Layer_(object-oriented_design)
+
+i'Arquitectura hexagonal
+https://es.wikipedia.org/wiki/Arquitectura_hexagonal_(software)
+
+i'Presentación Abstracción Control
+https://es.wikipedia.org/wiki/Presentaci%C3%B3n%E2%80%93abstracci%C3%B3n%E2%80%93control
+
+i'Modelo Vista Presentador
+https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93presentador
+
+i'Modelo Vista Modelo de vista
+https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93modelo_de_vista
+
+i'Almacén operacional de los datos
+https://es.wikipedia.org/wiki/Almac%C3%A9n_operacional_de_los_datos
+
+r'Tuberías y Filtros
+https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)

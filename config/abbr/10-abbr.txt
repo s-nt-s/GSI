@@ -147,6 +147,10 @@ MDM
 https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_dispositivos_m%C3%B3viles
 Gestión de dispositivos móviles
 
+pila de protocolos TCP/IP
+https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet
+Familia de protocolos de internet
+
 r'([Mm]odelo )?TCP/IP
 https://es.wikipedia.org/wiki/Modelo_TCP/IP
 Modelo TCP/IP
@@ -1205,9 +1209,6 @@ OCR
 https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres
 Reconocimiento óptico de caracteres
 
-Microservicios
-https://es.wikipedia.org/wiki/Arquitectura_de_microservicios
-
 PWA
 https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_web_progresiva
 Aplicación web progresiva
@@ -1678,3 +1679,31 @@ Framework para el desarrollo de aplicaciones y contenedor de inversión de contr
 i'paradigma de programación modular
 https://es.wikipedia.org/wiki/Programaci%C3%B3n_modular
 Consiste en dividir un programa en módulos o subprogramas con el fin de hacerlo más legible y manejable
+
+Polimorfismo
+https://es.wikipedia.org/wiki/Polimorfismo_(inform%C3%A1tica)
+Propiedad por la que es posible enviar mensajes sintácticamente iguales a objetos de tipos distintos (no confundir con sobrecarga).
+
+BaaS
+https://es.wikipedia.org/wiki/Backend_as_a_service
+Backend as a service
+
+FERTSPA
+https://es.wikipedia.org/wiki/Modelo_OSI
+Capas OSI: Física, Enlace, Red, Transporte, Sesión, Presentación, Aplicación
+
+PDU
+https://es.wikipedia.org/wiki/Unidad_de_datos_de_protocolo
+Unidad de datos de protocolo, se utilizan para el intercambio de datos entre unidades disparejas, dentro de una capa del modelo OSI
+
+Datagrama
+https://es.wikipedia.org/wiki/Datagrama
+Mínimo bloque de información en una red de conmutación por datagramas
+
+i'Baudios?
+https://es.wikipedia.org/wiki/Baudio
+Unidad de medida utilizada en telecomunicaciones que representa el número de símbolos por segundo en un medio de transmisión
+
+ACK
+https://es.wikipedia.org/wiki/ACK
+Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje
