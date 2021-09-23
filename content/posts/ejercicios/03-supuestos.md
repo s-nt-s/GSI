@@ -21,8 +21,6 @@ han aportado ejemplos de supuestos prácticos resueltos.
 Aquí listo los que he podido recopilar. Los primeros 4 dígitos de cada
 item indican el año del curso INAP en el que se dio tal supuesto.
 
-**Nota**: No tengo ni idea de porque existen supuestos del bloque 1 y 2
-
 ## Bloque 1
 
 * 2019-B1_S01 RGPD 1
