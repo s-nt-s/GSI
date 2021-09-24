@@ -1707,3 +1707,66 @@ Unidad de medida utilizada en telecomunicaciones que representa el número de s�
 ACK
 https://es.wikipedia.org/wiki/ACK
 Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje
+
+i'Aprendizajes? (supervisado|\*\*supervisado\*\*)
+https://es.wikipedia.org/wiki/Aprendizaje_supervisado
+
+i'Aprendizajes? (no supervisado|\*\*no supervisado\*\*)
+https://es.wikipedia.org/wiki/Aprendizaje_no_supervisado
+
+Redes neuronales
+https://es.wikipedia.org/wiki/Red_neuronal_artificial
+
+Perceptrón multicapa
+https://es.wikipedia.org/wiki/Perceptr%C3%B3n_multicapa
+
+Perceptrón
+https://es.wikipedia.org/wiki/Perceptr%C3%B3n
+
+Regresión lineal
+https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal
+
+Árbol de decisión
+https://es.wikipedia.org/wiki/%C3%81rbol_de_decisi%C3%B3n
+
+r'([aA]lgoritmo )?ID3
+https://es.wikipedia.org/wiki/Algoritmo_ID3
+
+r'([aA]lgoritmo )?C4.5
+https://es.wikipedia.org/wiki/C4.5
+
+r'([aA]lgoritmo )?K-(means|medias)
+https://es.wikipedia.org/wiki/K-medias
+
+r'([aA]lgoritmo )?K-medoids
+https://es.wikipedia.org/wiki/K-medoids
+
+Reglas de asociación
+https://es.wikipedia.org/wiki/Reglas_de_asociaci%C3%B3n
+
+i'Algoritmo apriori
+https://es.wikipedia.org/wiki/Algoritmo_apriori
+
+i'(algoritmo )?Eclat
+https://en.wikipedia.org/wiki/Association_rule_learning#Eclat_algorithm
+Equivalence Class Transformation
+
+i'Análisis en Componentes Principales
+https://es.wikipedia.org/wiki/An%C3%A1lisis_de_componentes_principales
+
+i'Análisis factorial
+https://es.wikipedia.org/wiki/An%C3%A1lisis_factorial
+
+i'Análisis de Correspondencias?
+https://es.wikipedia.org/wiki/An%C3%A1lisis_de_correspondencias
+
+i'tablas? de contingencia
+https://es.wikipedia.org/wiki/Tabla_de_contingencia
+
+i'k-nearest neighbors
+https://es.wikipedia.org/wiki/K_vecinos_m%C3%A1s_pr%C3%B3ximos
+k vecinos más cercanos
+
+i'Clasificador bayesiano ingenuo|Naive Bayes
+https://es.wikipedia.org/wiki/Clasificador_bayesiano_ingenuo
+Clasificador bayesiano ingenuo

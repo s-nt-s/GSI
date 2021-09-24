@@ -124,21 +124,92 @@ Las características principales de la minería de datos son:
     * Agrupamientos
     * Pronósticos
 
-Algunas de las técnicas de aprendizaje automático usadas son:
+En minería de datos hay dos tipos de problemas:
 
-* Redes neuronales
-* Árboles de decisión
-* Algoritmos genéticos
-* Clustering o agrupamiento
+* Problemas **predictivos**:
+    * **Clasificación**: la variable a predecir tiene valores definidos y son
+    contables, es por tanto una variables categóricas.
+    Ej: determinar que clientes van a incurrir en impago y cuales no.
+    * **Regresión** o Predicción de valores: la variable a predecir es numérica.
+    Ej: probabilidad de que llueva.
+* Problemas **descriptivos**:
+    * **Clustering** (segmentación o agrupamiento): se busca encontrar grupos similares u homogéneos en los datos.
+    Ej: Clasificar animales.
+    * **Asociación**: se busca encontrar relaciones, tendencia, patrones, etc entre los datos.
+    Ej: ¿Qué productos del mercado suelen comprarse juntos?
+    * **Secuencia**: resumir las secuencias frecuentes o episodios en los datos.
+    Ej: navegación (secuencia de clicks) más usual de los usuarios en un sitio web
 
-Dichas técnicas se clasifican en:
+y dos tipos de aprendizajes:
 
-* De **verificación**: verifica la validez de la información que se le presenta
-* **Supervisados**: cuentan con una fase de entrenamiento para construir el modelo,
-es decir, predicen un dato desconocido a priori a patir de otros conocidos
-(regresión logística, árboles de decisión, redes neuronales, estadísticos, etc)
-* **No supervisados**: no cuentan con esa fase de entrenamiento, es decir,
-se descubren patrones y tendencias en los datos (clustering, k-means, redes de asociación, etc)
+* aprendizaje **supervisado**:
+    1. hay una fase de entrenamiento para construir el modelo
+    2. predicen un dato desconocido a priori a partir de otros conocidos
+    3. se usa en problemas **predictivos**
+* aprendizaje **no supervisado**:
+    1. no cuentan con esa fase de entrenamiento
+    2. se descubren patrones y tendencias en los datos
+    3. se usa en problemas **descriptivos**
+
+## Algoritmos
+
+### Redes neuronales
+
+Sistema de interconexión de neuronas en una red que colabora para producir un
+estímulo de salida. Ejemplos:
+
+* Perceptrón: red con una sola neurona (unidad básica de inferencia en forma de
+discriminador lineal), por lo tanto solo puede resolver problemas linealmente
+separables.
+* Perceptrón multicapa: red formada por múltiples capas, por lo tanto tiene más
+de una neurona y puede resolver problemas que no son linealmente separables.
+* Redes de Kohonen (mapas autoorganizados): red neuronal de aprendizaje no supervisado
+que usa una función de vecindad para preservar las propiedades topológicas del espacio
+de entrada.
+
+### Árbol de decisión
+
+Resuelve problemas de decisión a través de construcciones lógicas que
+representan y categorizan una serie de condiciones que suceden de forma sucesiva.
+Ejemplos:
+
+* Algoritmo ID3: clasifica (como *positivo* o *negativo*) en función de atributos discretos.
+* Algoritmo C4.5: extensión del anterior para poder usar atributos continuos.
+
+### Clustering
+
+Agrupa una serie de vectores según criterios habitualmente de distancia; intenta
+disponer los vectores de entrada de forma que estén más cercanos aquellos que
+tengan características comunes. Ejemplos:
+
+* Algoritmo K-means: partición de un conjunto de n observaciones en k grupos
+en el que cada observación pertenece al grupo cuyo valor medio es más cercano.
+* Algoritmo K-medoids: se diferenica del anterior en que escoge datapoints como
+centros y trabaja con una métrica arbitraria de distancias entre datapoints.
+* k-nearest neighbors: estima la probabilidad de que un elemento pertenezca a
+una clase.
+
+### Reglas de asociación
+
+Busca hechos que ocurren en común dentro de un determinado conjunto de datos.
+Ejemplos:
+
+* Algoritmo Apriori: utilizado sobre bases de datos transaccionales para encontrar
+conjuntos de ítems frecuentes.
+* Algoritmo Partition
+* Algoritmo Eclat
+
+### Otros
+
+* **Regresión lineal**: Forma más sencilla de regresión. Rápida y eficaz pero insuficiente
+en espacios multidimensionales donde puedan relacionarse más de 2 variables.
+* **Análisis en Componentes Principales**: busca reducir las dimensiones de un conjunto
+de datos, es decir, encontrar el menor grupo de variables que representan la información
+desechando las demás por estar autocontenidas en las otras. Trabaja con variables numéricas.
+* **Análisis Factorial**: como el anterior pero para variables cuantitativas.
+* **Análisis de Correspondencia**: técnica descriptiva para el estudio de tablas de contingencia.
+* **Naive Bayes**: clasificador probabilístico fundamentado en el teorema de Bayes
+simplificado al presuponer la independencia entre las variables predictoras.
 
 # Big Data
 
@@ -374,3 +445,4 @@ columnas. Ej: Cassandra, Hbase, etc.
 * [hadoop.apache.org - MapReduce Tutorial](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
 * [aprenderbigdata.com - ¿Qué es Hadoop Yarn?](https://aprenderbigdata.com/hadoop-yarn/)
 * [youtube.com - 019 MapReduce Daemons JobTracker and TaskTracker Explained](https://www.youtube.com/watch?v=doRS6xUoAyY)
+* [jorgeromero.net - Técnicas y algoritmos de Minería de Datos](https://jorgeromero.net/tecnicas-y-algoritmos-de-mineria-de-datos/)
