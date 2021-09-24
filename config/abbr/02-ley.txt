@@ -156,3 +156,11 @@ Reglamento General de Protección de Datos (Reglamento EU 2016/679)
 r'[Dd]irectiva \(?UE\)? 2019/1024
 https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32019L1024
 Datos abiertos y la reutilización de la información del sector público
+
+r'[Rr]eal [Dd]ecreto 1112/2018
+https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699
+Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público
+
+r'[Rr]eal [Dd]ecreto 920/2006
+https://www.boe.es/buscar/act.php?id=BOE-A-2006-15301
+Reglamento general de prestación del servicio de difusión de radio y televisión por cable

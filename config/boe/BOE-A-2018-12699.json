@@ -1,0 +1,1229 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20210329105601",
+  "metadatos": {
+    "identificador": "BOE-A-2018-12699",
+    "titulo": "Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles del sector p\u00fablico.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "227",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9569",
+      "#text": "Ministerio de la Presidencia, Relaciones con las Cortes e Igualdad"
+    },
+    "rango": {
+      "@codigo": "1340",
+      "#text": "Real Decreto"
+    },
+    "numero_oficial": "1112/2018",
+    "fecha_disposicion": "20180907",
+    "fecha_publicacion": "20180919",
+    "fecha_vigencia": "20180920",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "90533",
+    "pagina_final": "90549",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": "/diario_boe/epub.php?id=BOE-A-2018-12699",
+    "url_pdf": "/boe/dias/2018/09/19/pdfs/BOE-A-2018-12699.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2018/09/19/pdfs/BOE-A-2018-12699-C.pdf",
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": "/boe_gallego/dias/2018/09/19/pdfs/BOE-A-2018-12699-G.pdf",
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/rd/2018/09/07/1112"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2018-12699"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2018-09-07"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "1112"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2018-12699"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-09-07"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "1112"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112"
+              },
+              "eli:consolidated_by": [
+                {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20190812"
+                },{
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20180919"
+                }
+              ],
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Reial decret 1112/2018, de 7 de setembre, sobre accessibilitat dels llocs web i aplicacions per a dispositius m\u00f2bils del sector p\u00fablic."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2018-09-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles del sector p\u00fablico."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2018-09-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa/epub",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real decreto 1112/2018, do 7 de setembro, sobre accesibilidade dos sitios web e aplicaci\u00f3ns para dispositivos m\u00f3biles do sector p\u00fablico."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2018-09-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20190812",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2018-12699"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-09-07"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "1112"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2019-08-12"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20190812/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles del sector p\u00fablico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2019-08-12"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20190812"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20190812/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20190812/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20180919",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2018-12699"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-09-07"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "1112"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2018-09-19"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20180919/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles del sector p\u00fablico."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2018-09-19"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20180919"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20180919/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2018/09/07/1112/con/20180919/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": {
+      "nota": {
+        "@codigo": "9",
+        "@orden": "210",
+        "#text": "Entrada en vigor, con la salvedad indicada, el 20 de septiembre de 2018"
+      }
+    },
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "35",
+          "@orden": "",
+          "#text": "Acceso a la informaci\u00f3n"
+        },{
+          "@codigo": "78",
+          "@orden": "",
+          "#text": "Administraci\u00f3n de Justicia"
+        },{
+          "@codigo": "82",
+          "@orden": "",
+          "#text": "Administraci\u00f3n General del Estado"
+        },{
+          "@codigo": "85",
+          "@orden": "",
+          "#text": "Administraci\u00f3n Local"
+        },{
+          "@codigo": "93",
+          "@orden": "",
+          "#text": "Administraciones P\u00fablicas"
+        },{
+          "@codigo": "1320",
+          "@orden": "",
+          "#text": "Comunidades Aut\u00f3nomas"
+        },{
+          "@codigo": "5023",
+          "@orden": "",
+          "#text": "Discapacidad"
+        },{
+          "@codigo": "4506",
+          "@orden": "",
+          "#text": "Internet"
+        },{
+          "@codigo": "5159",
+          "@orden": "",
+          "#text": "Normalizaci\u00f3n"
+        },{
+          "@codigo": "6627",
+          "@orden": "",
+          "#text": "Servicios de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6851",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda"
+        },{
+          "@codigo": "6854",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        },{
+          "@codigo": "6858",
+          "@orden": "",
+          "#text": "Telefon\u00eda m\u00f3vil"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "138",
+          "@orden": "",
+          "#text": "Administraci\u00f3n de Justicia"
+        },{
+          "@codigo": "142",
+          "@orden": "",
+          "#text": "Discapacidad"
+        },{
+          "@codigo": "121",
+          "@orden": "",
+          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2007-19968",
+            "@orden": "1010",
+            "palabra": {
+              "@codigo": "210",
+              "#text": "DEROGA"
+            },
+            "texto": "los arts. 5, 6 y 7 y MODIFICA el art. 9 del Real Decreto 1494/2007, de 12 de noviembre"
+          },{
+            "@referencia": "DOUE-L-2016-82305",
+            "@orden": "3020",
+            "palabra": {
+              "@codigo": "426",
+              "#text": "TRANSPONE"
+            },
+            "texto": "la Directiva (UE) 2016/2102, de 26 de octubre"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2019-11912",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "470",
+              "#text": "SE DECLARA"
+            },
+            "texto": "la inconstitucionalidad y nulidad del inciso indicado en el art. 15.3 y en la disposici\u00f3n adicional 2; y la carencia del car\u00e1cter de legislaci\u00f3n b\u00e1sica de los preceptos indicados, por Sentencia 100/2019, de 18 de julio"
+          },{
+            "@referencia": "BOE-A-2019-3183",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "520",
+              "#text": "Conflicto"
+            },
+            "texto": "259/2019 promovido en relaci\u00f3n con determinados preceptos"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@class": "parrafo",
+        "#text": "La Directiva (UE) 2016/2102, del Parlamento Europeo y del Consejo, de\u00a026 de octubre de\u00a02016, sobre la accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles de los organismos del sector p\u00fablico tiene como objeto, a fin de mejorar el funcionamiento del mercado interior, aproximar las disposiciones legales, reglamentarias y administrativas de los Estados miembros relativas a los requisitos de accesibilidad, entendiendo la accesibilidad como un conjunto de principios y t\u00e9cnicas que se deben respetar a la hora de dise\u00f1ar, construir, mantener y actualizar los sitios web y las aplicaciones para dispositivos m\u00f3viles."
+      },{
+        "@class": "parrafo",
+        "#text": "La Directiva cubre todos los sitios web y aplicaciones m\u00f3viles del sector p\u00fablico, desde los de la Administraci\u00f3n estatal, Administraciones regionales y locales, Tribunales y \u00f3rganos constitucionales a los de los servicios gestionados por \u00e9stas como Hospitales, Colegios, Universidades, Bibliotecas p\u00fablicas, etc."
+      },{
+        "@class": "parrafo",
+        "#text": "En este contexto, la Directiva exige que los sitios web y las aplicaciones para dispositivos m\u00f3viles de los organismos del sector p\u00fablico se basen en requisitos comunes de accesibilidad establecidos a nivel europeo, poniendo fin a la fragmentaci\u00f3n del mercado y a la diferenciaci\u00f3n t\u00e9cnica hoy existente, evitando que los pa\u00edses apliquen diferentes versiones, niveles de cumplimiento o tengan diferencias t\u00e9cnicas a escala nacional, reduciendo la incertidumbre de los desarrolladores y fomentando la interoperabilidad. Aspectos todos, que deber\u00edan redundar en un aumento del potencial mercado interior de los productos y servicios relacionados con la accesibilidad de sitios web y aplicaciones para dispositivos m\u00f3viles y por ende, contribuir al crecimiento econ\u00f3mico y a la creaci\u00f3n de empleo en la Uni\u00f3n Europea."
+      },{
+        "@class": "parrafo",
+        "#text": "Para la consecuci\u00f3n de este objetivo y asegurar que los ciudadanos se beneficien de un acceso m\u00e1s amplio a los servicios del sector p\u00fablico mediante sitios web y aplicaciones para dispositivos m\u00f3viles cada vez m\u00e1s accesibles, la Directiva establece unos requisitos m\u00ednimos de accesibilidad obligatorios y adopta normas aplicables al dise\u00f1o, construcci\u00f3n, mantenimiento y actualizaci\u00f3n de tales sitios web y aplicaciones para dispositivos m\u00f3viles. A su vez, se impone la elaboraci\u00f3n, actualizaci\u00f3n peri\u00f3dica y publicaci\u00f3n de una declaraci\u00f3n de accesibilidad sobre la conformidad de sus sitios web y aplicaciones para dispositivos m\u00f3viles con los requisitos m\u00ednimos de accesibilidad que est\u00e9n establecidos, facilitando la adaptaci\u00f3n al estado de la t\u00e9cnica en cada momento. No obstante, la Directiva contempla excepciones al cumplimiento de estos requisitos cuando supongan una carga desproporcionada para el organismo, sin que en ning\u00fan caso la falta de prioridad, tiempo o conocimientos puedan ser considerados como motivos leg\u00edtimos para la excepci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otro lado, para garantizar el cumplimiento de las previsiones establecidas en esta directiva se exige a cada Estado miembro la creaci\u00f3n de un mecanismo de comunicaci\u00f3n vinculado a un procedimiento de aplicaci\u00f3n que permita, a cualquier persona usuaria de un sitio web o una aplicaci\u00f3n para dispositivos m\u00f3viles de un organismo del sector p\u00fablico, informar de la existencia de incumplimientos de los requisitos de accesibilidad, formular quejas y plantear sugerencias. As\u00ed como el establecimiento de un \u00f3rgano, responsable del procedimiento de aplicaci\u00f3n, que garantice que las comunicaciones y solicitudes recibidas se tratan de forma efectiva."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, la Directiva (UE) 2016/2102, de\u00a026 de octubre de\u00a02016, impone a los Estados miembros la obligaci\u00f3n de establecer un sistema de seguimiento y presentaci\u00f3n de informes peri\u00f3dicos a la Comisi\u00f3n Europea, la adopci\u00f3n de medidas de promoci\u00f3n, formaci\u00f3n y concienciaci\u00f3n en materia de accesibilidad de todos los implicados y responsables jer\u00e1rquicos y por \u00faltimo, invita a los Estados miembros a ampliar el \u00e1mbito de aplicaci\u00f3n de sus normas a otros tipos de sitios web y de aplicaciones para dispositivos m\u00f3viles."
+      },{
+        "@class": "parrafo",
+        "#text": "Desde el punto de vista normativo la necesidad de regular unas condiciones b\u00e1sicas de accesibilidad para la utilizaci\u00f3n de servicios relacionados con la sociedad de la informaci\u00f3n se reconoce por primera vez en nuestro ordenamiento interno en la Ley\u00a051/2003, de\u00a02 de diciembre, de igualdad de oportunidades, no discriminaci\u00f3n y accesibilidad universal de las personas con discapacidad, que fijaba al Gobierno un plazo de dos a\u00f1os para su establecimiento. Los preceptos de dicha ley, actualmente derogada, se encuentran incluidos en el Real Decreto Legislativo\u00a01/2013, de\u00a029 de noviembre, por el que se aprueba el texto refundido de la Ley General de las personas con discapacidad y de su inclusi\u00f3n social."
+      },{
+        "@class": "parrafo",
+        "#text": "Posteriormente, el\u00a04 de diciembre de\u00a02005, el Consejo de Ministros adopt\u00f3 mediante Acuerdo el Plan\u00a02006-2010 para el desarrollo de la sociedad de la informaci\u00f3n y de convergencia con Europa y entre comunidades aut\u00f3nomas y ciudades con Estatuto de autonom\u00eda (Plan Avanza), que inclu\u00eda un mandato dirigido a los entonces Ministerio de Trabajo y Asuntos Sociales, al Ministerio de Industria, Turismo y Comercio y al Ministerio de Administraciones P\u00fablicas para que elaborasen un proyecto de real decreto que regulase dichas condiciones b\u00e1sicas. Fruto de este mandato es el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social, aprobado por el Real Decreto\u00a01494/2007, de\u00a012 de noviembre, que incluye en su cap\u00edtulo III medidas espec\u00edficas en materia de accesibilidad para las p\u00e1ginas de Internet de las Administraciones P\u00fablicas o entidades con financiaci\u00f3n p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "Tambi\u00e9n existen otras normas que hacen referencia a los requisitos de accesibilidad de los sitios web de las Administraciones P\u00fablicas para las cu\u00e1les este nuevo real decreto asentar\u00e1 las bases. Algunas de ellas son la Ley\u00a034/2002, de\u00a011 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico, la Ley\u00a040/2015, de\u00a01 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, la Ley\u00a019/2013, de\u00a09 de diciembre, de transparencia, acceso a la informaci\u00f3n p\u00fablica y buen gobierno, la Ley\u00a018/2011, de\u00a05 de julio, reguladora del uso de las tecnolog\u00edas de la informaci\u00f3n y la comunicaci\u00f3n en la Administraci\u00f3n de Justicia, la Ley\u00a027/2007, de\u00a023 de octubre, por la que se reconocen las lenguas de signos espa\u00f1olas y se regulan los medios de apoyo a la comunicaci\u00f3n oral de las personas sordas, con discapacidad auditiva y sordociegas, y la Ley\u00a09/2017, de\u00a08 de noviembre, de Contratos del Sector P\u00fablico, por la que se transponen al ordenamiento jur\u00eddico espa\u00f1ol las Directivas del Parlamento Europeo y del Consejo\u00a02014/23/UE y\u00a02014/24/UE, de\u00a026 de febrero de\u00a02014. Este real decreto viene a complementar al Real Decreto\u00a01494/2007, de\u00a012 de noviembre, y para ello deroga los art\u00edculos del reglamento que hacen referencia a la accesibilidad de las p\u00e1ginas de internet, los art\u00edculos\u00a05, 6 y\u00a07, y los desarrolla con mayor detalle. Por lo tanto, este Reglamento recoge los aspectos relativos a los requisitos m\u00ednimos de accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles del sector p\u00fablico, adoptando las medidas necesarias para cumplir con las disposiciones de la Directiva (UE) 2016/2102, de\u00a026 de octubre de\u00a02016, y, de este modo, seguir garantizando que la accesibilidad y no discriminaci\u00f3n, en general y especialmente de las personas con discapacidad en sus relaciones con el sector p\u00fablico, sean reales y efectivas. A tal efecto, adem\u00e1s de establecer los requisitos m\u00ednimos que deben cumplirse e incorporar el resto de actuaciones previstas en la Directiva, este real decreto establece el sistema a trav\u00e9s del cual las personas usuarias podr\u00e1n comunicar al organismo del sector p\u00fablico cualquier posible incumplimiento por parte de su sitio web o de su aplicaci\u00f3n para dispositivos m\u00f3viles de los requisitos de accesibilidad establecidos y que tambi\u00e9n permita solicitar a las personas interesadas, previa solicitud razonable y leg\u00edtima, la informaci\u00f3n sobre contenidos que est\u00e1n excluidos del \u00e1mbito de aplicaci\u00f3n de este real decreto o exentos del cumplimiento de los requisitos de accesibilidad por imponer una carga desproporcionada."
+      },{
+        "@class": "parrafo",
+        "#text": "La posibilidad de acudir al Defensor del Pueblo como propone la Directiva en su art\u00edculo\u00a09, ya est\u00e1 recogSida en la regulaci\u00f3n espa\u00f1ola actual y se refleja en la Ley Org\u00e1nica\u00a03/1981, de\u00a06 de abril, del Defensor del Pueblo, que prev\u00e9 la posibilidad de interponer quejas ante el Defensor del Pueblo para la defensa de los derechos del t\u00edtulo\u00a0I de la Constituci\u00f3n Espa\u00f1ola, y referidas al funcionamiento de la Administraci\u00f3n, lo que incluye las actuaciones de todo el sector p\u00fablico en materia de accesibilidad con el nivel de obligaciones que imponga en cada momento la regulaci\u00f3n vigente."
+      },{
+        "@class": "parrafo",
+        "#text": "Tambi\u00e9n existe la Oficina de Atenci\u00f3n a la Discapacidad de acuerdo con lo previsto en el texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusi\u00f3n social, aprobado por Real Decreto Legislativo\u00a01/2013, de\u00a029 de noviembre. Dicha Oficina es el \u00f3rgano del Consejo Nacional de la Discapacidad, de car\u00e1cter permanente y especializado, encargado de promover la igualdad de oportunidades, no discriminaci\u00f3n y accesibilidad universal de las personas con discapacidad y realiza las funciones de asesoramiento, an\u00e1lisis y estudio de las quejas, denuncias y consultas presentadas por las personas con discapacidad en los \u00e1mbitos de las telecomunicaciones y de la sociedad de la informaci\u00f3n, entre otras."
+      },{
+        "@class": "parrafo",
+        "#text": "Por otro lado, este real decreto tambi\u00e9n incorpora, en una disposici\u00f3n adicional, los requisitos impuestos a las p\u00e1ginas de Internet de entidades, empresas y centros que prestan servicios p\u00fablicos a trav\u00e9s de una concesi\u00f3n p\u00fablica, o alguna otra v\u00eda contractual con la Administraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Asimismo, y tambi\u00e9n en una disposici\u00f3n adicional, se establecen los criterios de accesibilidad aplicables a los sitios web y aplicaciones para dispositivos m\u00f3viles de los \u00f3rganos constitucionales del Estado y de los \u00f3rganos legislativos y de control auton\u00f3micos, mediante la adecuaci\u00f3n de su normativa espec\u00edfica a lo establecido en este real decreto, y siempre, de acuerdo con lo establecido en la misma."
+      },{
+        "@class": "parrafo",
+        "#text": "Con respecto a su entrada en vigor, la Directiva da flexibilidad a los Estados Miembros exigiendo que como m\u00ednimo se apliquen todas las previsiones para sitios web nuevos antes del\u00a023 de septiembre de\u00a02019 y para todos los sitios web antes del\u00a023 de septiembre de\u00a02020. Considerando que en Espa\u00f1a se parte de una legislaci\u00f3n existente en la que para sitos web ya se estaban exigiendo gran parte de estos requisitos, se ha dise\u00f1ado la entrada en vigor de este real decreto dando continuidad a las previsiones del Real Decreto\u00a01494/2007, de\u00a012 de noviembre. De este modo, en el contexto espa\u00f1ol, se ha optado por una introducci\u00f3n escalonada en los mismos t\u00e9rminos que la Directiva \u00fanicamente para los aspectos relacionados con la gesti\u00f3n de las quejas y reclamaciones y las aplicaciones m\u00f3viles. Tambi\u00e9n, atendiendo a las solicitudes recibidas desde el sector de las personas con discapacidad se han adelantado algunos de los plazos previstos en la Directiva. En cualquier caso, las previsiones de este real decreto se han adaptado temporalmente para hacer posible dar respuesta en tiempo y forma a la Comisi\u00f3n Europea con respecto al seguimiento y presentaci\u00f3n de informes. El presente real decreto tiene car\u00e1cter de legislaci\u00f3n b\u00e1sica al amparo de lo dispuesto en el art\u00edculo\u00a0149.1.1.\u00aa y\u00a018.\u00aa de la Constituci\u00f3n Espa\u00f1ola."
+      },{
+        "@class": "parrafo",
+        "#text": "En la elaboraci\u00f3n de este real decreto se han recabado los informes del Consejo Territorial de Servicios Sociales y del Sistema para la Autonom\u00eda y Atenci\u00f3n a la Dependencia, del Consejo Estatal de las Personas Mayores, del Consejo Nacional de la Discapacidad, en el que tienen representaci\u00f3n las organizaciones representativas de personas con discapacidad, del Consejo de Consumidores y Usuarios, del Consejo Estatal de Organizaciones no Gubernamentales de Acci\u00f3n Social, de la Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica de la Conferencia Sectorial de Administraci\u00f3n P\u00fablica, de la Comisi\u00f3n de Estrategia TIC de la Administraci\u00f3n General del Estado y del Comit\u00e9 T\u00e9cnico Estatal de la Administraci\u00f3n Judicial Electr\u00f3nica."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente real decreto, que con arreglo al art\u00edculo\u00a025 de la Ley\u00a050/1997, de\u00a027 de noviembre, del Gobierno, est\u00e1 incluido en el Plan Anual Normativo de\u00a02018, asume el mandato de transposici\u00f3n de la Directiva (UE) 2016/2012, de\u00a026 de octubre de\u00a02016. La transposici\u00f3n se ha basado en los principios de la buena regulaci\u00f3n previstos en el art\u00edculo\u00a0129 de la Ley\u00a039/2015, de\u00a01 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas. En particular, se ajusta al principio de necesidad y eficacia al cumplir la obligaci\u00f3n de incorporaci\u00f3n al derecho nacional con fidelidad al texto de la directiva; as\u00ed como a los principios de proporcionalidad, al contener la regulaci\u00f3n imprescindible para el fin que se persigue, transparencia, en la medida en que refuerza las garant\u00edas que lo rodean y favorece su cumplimiento, as\u00ed como de seguridad jur\u00eddica, puesto que se realiza con el fin de mantener un marco normativo estable, predecible, integrado y claro."
+      },{
+        "@class": "parrafo",
+        "#text": "En su virtud, a propuesta de la Ministra de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica, de la Ministra de Econom\u00eda y Empresa y de la Ministra de Sanidad, Consumo y Bienestar Social, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda\u00a07 de septiembre de\u00a02018,"
+      },{
+        "@class": "centro_redonda",
+        "#text": "DISPONGO:"
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Disposiciones generales"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a01.\u2003Objeto."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Este real decreto tiene por objeto garantizar los requisitos de accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles de los organismos del sector p\u00fablico y otros obligados incluidos en el \u00e1mbito de aplicaci\u00f3n del art\u00edculo\u00a02."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003A los efectos de este real decreto se entiende por accesibilidad el conjunto de principios y t\u00e9cnicas que se deben respetar al dise\u00f1ar, construir, mantener y actualizar los sitios web y las aplicaciones para dispositivos m\u00f3viles para garantizar la igualdad y la no discriminaci\u00f3n en el acceso de las personas usuarias, en particular de las personas con discapacidad y de las personas mayores."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a02.\u2003\u00c1mbito subjetivo."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Este real decreto se aplica al sector p\u00fablico que comprende:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003La Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Las Administraciones de las comunidades aut\u00f3nomas."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Las entidades que integran la Administraci\u00f3n Local."
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003El sector p\u00fablico institucional, en los t\u00e9rminos establecidos en el art\u00edculo\u00a02.2 de la Ley\u00a039/2015, de\u00a01 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones p\u00fablicas"
+      },{
+        "@class": "parrafo",
+        "#text": "e)\u2003Las asociaciones constituidas por las Administraciones, entes, organismos y entidades que integran el sector p\u00fablico."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2.\u2003Lo dispuesto en este real decreto tambi\u00e9n ser\u00e1 de aplicaci\u00f3n a la Administraci\u00f3n de Justicia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a03.\u2003\u00c1mbito objetivo de aplicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Este real decreto se aplica tanto a los sitios web, independientemente del dispositivo empleado para acceder a ellos, como a las aplicaciones para dispositivos m\u00f3viles de los organismos del sector p\u00fablico y otros obligados incluidos en el \u00e1mbito de aplicaci\u00f3n del art\u00edculo\u00a02."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003El contenido accesible de los sitios web y de las aplicaciones para dispositivos m\u00f3viles incluye la informaci\u00f3n tanto textual como no textual, los documentos y formularios que se pueden descargar, los contenidos multimedia pregrabados de base temporal, las formas de interacci\u00f3n bidireccional, el tratamiento de formularios digitales y la cumplimentaci\u00f3n de los procesos de identificaci\u00f3n, autenticaci\u00f3n, firma y pago con independencia de la plataforma tecnol\u00f3gica que se use para su puesta a disposici\u00f3n del p\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Est\u00e1n excluidos de este real decreto y se regular\u00e1n por su normativa espec\u00edfica los contenidos multimedia en directo y pregrabado de base temporal de los sitios web y aplicaciones para dispositivos m\u00f3viles de prestadores del servicio p\u00fablico de radiodifusi\u00f3n y sus filiales, as\u00ed como los de otros organismos o sus filiales que cumplan un mandato de servicio p\u00fablico de radiodifusi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003Asimismo, quedan excluidos del \u00e1mbito de aplicaci\u00f3n del presente real decreto los siguientes contenidos:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Formatos de archivo de ofim\u00e1tica publicados antes de la entrada en vigor de este real decreto, salvo que los mismos sean necesarios para tareas administrativas activas relativas a las funciones realizadas por los sujetos obligados por este real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Contenido multimedia pregrabado de base temporal publicado antes de la entrada en vigor de este real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Contenido multimedia en directo de base temporal salvo lo dispuesto en otra legislaci\u00f3n espec\u00edfica que obligue al respecto."
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003Servicios de mapas y cartograf\u00eda en l\u00ednea, siempre y cuando la informaci\u00f3n esencial se proporcione de manera accesible digitalmente en el caso de mapas destinados a fines de navegaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "e)\u2003Contenidos de terceros que no est\u00e9n financiados ni desarrollados por el sujeto obligado ni est\u00e9n bajo su control."
+      },{
+        "@class": "parrafo",
+        "#text": "f)\u2003Reproducciones de bienes de colecciones del patrimonio que no puedan hacerse plenamente accesibles por alguna de las siguientes causas:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "1.\u00b0\u2003Incompatibilidad de los requisitos de accesibilidad con la conservaci\u00f3n del bien de que se trate o con la autenticidad de la reproducci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u00b0\u2003Indisponibilidad de soluciones automatizadas y rentables que permitan extraer el texto de manuscritos u otros bienes de colecciones del patrimonio y transformarlos en contenidos compatibles con los requisitos de accesibilidad."
+      },{
+        "@class": "parrafo_2",
+        "#text": "g)\u2003Contenidos de extranet e intranet entendidos como sitios web accesibles \u00fanicamente para un grupo restringido de personas y no para el p\u00fablico en general, publicados antes del\u00a023 de septiembre de\u00a02019, hasta que dichos sitios web sean objeto de una revisi\u00f3n sustancial."
+      },{
+        "@class": "parrafo",
+        "#text": "h)\u2003Contenidos de sitios web y aplicaciones para dispositivos m\u00f3viles que tengan la condici\u00f3n de archivos o herramientas de archivo por contener \u00fanicamente contenidos no necesarios para el desarrollo de cualesquiera tareas administrativas activas, siempre que no hayan sido actualizados ni editados con posterioridad a la entrada en vigor de este real decreto."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a04.\u2003Definiciones."
+      },{
+        "@class": "parrafo",
+        "#text": "A efectos del presente real decreto se entiende por:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Sitio web: Es un conjunto de archivos electr\u00f3nicos y p\u00e1ginas web referentes a un tema en particular bajo un nombre de dominio espec\u00edfico a los que se accede utilizando un navegador web."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Aplicaciones para dispositivos m\u00f3viles: Son las aplicaciones inform\u00e1ticas dise\u00f1adas y desarrolladas para ser usadas por el p\u00fablico en general en dispositivos m\u00f3viles, entre los que se incluyen los tel\u00e9fonos inteligentes y las tabletas. No incluyen el programa \u00absoftware\u00bb que controla dichos dispositivos (sistemas operativos para dispositivos m\u00f3viles) ni el equipo inform\u00e1tico."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Archivo ofim\u00e1tico: Son los documentos que no est\u00e1n destinados, en principio, a ser utilizados en la web, pero est\u00e1n incluidos en sitios web, pudiendo estar realizados, entre otros, en formato est\u00e1ndar Portable Document Format (PDF), o habiendo sido confeccionados mediante procesadores de texto, hojas de c\u00e1lculo o aplicaciones para la realizaci\u00f3n de presentaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003Bienes de colecciones de patrimonio: Son los bienes de propiedad p\u00fablica o privada que presentan un inter\u00e9s hist\u00f3rico, arqueol\u00f3gico, est\u00e9tico, cient\u00edfico o t\u00e9cnico y que forman parte de colecciones conservadas por instituciones culturales como bibliotecas, archivos y museos."
+      },{
+        "@class": "parrafo",
+        "#text": "e)\u2003Contenido de los sitios web y de las aplicaciones para dispositivos m\u00f3viles: Es la informaci\u00f3n tanto textual como no textual, los documentos y formularios que se pueden descargar, as\u00ed como las formas de interacci\u00f3n bidireccional, como el tratamiento de formularios digitales y la cumplimentaci\u00f3n de los procesos de identificaci\u00f3n, autenticaci\u00f3n, firma y pago."
+      },{
+        "@class": "parrafo",
+        "#text": "f)\u2003Contenido multimedia de base temporal: Son los ficheros multimedia que pueden ser de los siguientes tipos: Solo audio, solo v\u00eddeo, audio y v\u00eddeo, o cualquiera de los anteriores combinado con interacci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "g)\u2003Contenidos multimedia pregrabados: Son los contenidos multimedia de base temporal emitidos en directo que se mantienen en l\u00ednea o se vuelven a emitir tras su transmisi\u00f3n en directo, inmediatamente despu\u00e9s de la fecha de la emisi\u00f3n inicial o la nueva emisi\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "h)\u2003Datos de las mediciones: Son los resultados cuantificados de la actividad de seguimiento llevada a cabo a fin de comprobar la conformidad de los sitios web y las aplicaciones para dispositivos m\u00f3viles con los requisitos de accesibilidad exigidos. Incluyen tanto la informaci\u00f3n cuantitativa sobre las muestras de sitios web y aplicaciones para dispositivos m\u00f3viles comprobadas como la informaci\u00f3n cuantitativa sobre el nivel de accesibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "i)\u2003Norma: Son las especificaciones t\u00e9cnicas adoptadas por un organismo de normalizaci\u00f3n reconocido, de aplicaci\u00f3n repetida o continua, cuya observancia no es obligatoria."
+      },{
+        "@class": "parrafo",
+        "#text": "j)\u2003Norma europea: Es una norma adoptada por una organizaci\u00f3n europea de normalizaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "k)\u2003Norma armonizada: Es una norma europea adoptada a ra\u00edz de una petici\u00f3n de la Comisi\u00f3n Europea para la aplicaci\u00f3n de la legislaci\u00f3n de armonizaci\u00f3n de la Uni\u00f3n Europea."
+      },{
+        "@class": "parrafo",
+        "#text": "l)\u2003Perceptibilidad: Es el principio de la accesibilidad que exige que la informaci\u00f3n y los componentes de la interfaz de usuario se presenten a las personas usuarias de manera que pueda percibirlos."
+      },{
+        "@class": "parrafo",
+        "#text": "m)\u2003Operabilidad: Es el principio de la accesibilidad que exige que los componentes y la navegaci\u00f3n de la interfaz de usuario se puedan utilizar por cualquier persona usuaria."
+      },{
+        "@class": "parrafo",
+        "#text": "n)\u2003Comprensibilidad: Es el principio de la accesibilidad que exige que la informaci\u00f3n y el funcionamiento de la interfaz de usuario sean comprensibles por cualquier persona usuaria."
+      },{
+        "@class": "parrafo",
+        "#text": "\u00f1)\u2003Robustez: Es el principio de la accesibilidad que exige que los contenidos sean suficientemente s\u00f3lidos para poder ser interpretados de forma fiable por una gran variedad de agentes de usuario, incluidas las tecnolog\u00edas de asistencia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a05.\u2003Requisitos para la accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Los sitios web y aplicaciones para dispositivos m\u00f3viles de las entidades obligadas incluidas en el \u00e1mbito de aplicaci\u00f3n del presente real decreto deber\u00e1n ser accesibles para sus personas usuarias y, en particular, para las personas mayores y personas con discapacidad, de modo que sus contenidos sean perceptibles, operables, comprensibles y robustos teniendo en cuenta las normas del art\u00edculo\u00a06."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003La accesibilidad se tendr\u00e1 presente de forma integral en el proceso de dise\u00f1o, gesti\u00f3n, mantenimiento y actualizaci\u00f3n de contenidos de los sitios web y las aplicaciones para dispositivos m\u00f3viles."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Las entidades obligadas adoptar\u00e1n, siempre que sea posible, medidas para aumentar la accesibilidad de sus sitios web y aplicaciones para dispositivos m\u00f3viles respecto del nivel m\u00ednimo de accesibilidad que deba cumplirse en cada momento."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a06.\u2003Presunci\u00f3n de conformidad con los requisitos de accesibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Se presumir\u00e1 que el contenido de los sitios web y aplicaciones para dispositivos m\u00f3viles que cumpla las normas armonizadas o partes de \u00e9stas cuyas referencias hayan sido publicadas en el \u00abDiario Oficial de la Uni\u00f3n Europea\u00bb es conforme a los requisitos de accesibilidad establecidos en el art\u00edculo\u00a05 que est\u00e9n cubiertos por dichas normas o partes de ellas."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003En caso de que no se hayan publicado las referencias de las normas armonizadas a que se refiere el apartado\u00a01, se presumir\u00e1 que el contenido de las aplicaciones para dispositivos m\u00f3viles que cumpla las especificaciones t\u00e9cnicas o partes de \u00e9stas, que la Comisi\u00f3n haya adoptado mediante los correspondientes actos de ejecuci\u00f3n, es conforme a los requisitos de accesibilidad establecidos en el art\u00edculo\u00a05 que est\u00e9n cubiertos por dichas especificaciones t\u00e9cnicas o partes de ellas."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003En caso de que no se hayan publicado las referencias de las normas armonizadas a que se refiere el apartado\u00a01, se presumir\u00e1 que el contenido de los sitios web que cumpla los requisitos pertinentes de la norma EN\u00a0301 549 V1.1.2 (2015-04) o partes de estos, es conforme a los requisitos de accesibilidad establecidos en el art\u00edculo\u00a05 que est\u00e9n cubiertos por dichos requisitos o partes de ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "En caso de que no se hayan publicado las referencias de las normas armonizadas a que se refiere el apartado\u00a01, y en ausencia de las especificaciones t\u00e9cnicas a que se refiere el apartado\u00a02, se presumir\u00e1 que el contenido de aplicaciones para dispositivos m\u00f3viles que cumpla los requisitos pertinentes de la norma EN\u00a0301 549 V1.1.2 (2015-04) o partes de estos, es conforme a los requisitos de accesibilidad establecidos en el art\u00edculo\u00a05 que est\u00e9n cubiertos por dichos requisitos o partes de ellos."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003Se aplicar\u00e1n directamente las actualizaciones de referencias a la norma EN\u00a0301 549 V1.1.2 (2015-04) que la Comisi\u00f3n adopte mediante actos delegados para hacer referencia a una versi\u00f3n m\u00e1s reciente de dicha norma o a una norma europea que la sustituya."
+      },{
+        "@class": "parrafo",
+        "#text": "5.\u2003El \u00f3rgano encargado de realizar el seguimiento y presentaci\u00f3n de informes ante la Comisi\u00f3n Europea mantendr\u00e1 disponible en su sitio web la referencia concreta a las normas armonizadas, normas y especificaciones t\u00e9cnicas que sean de aplicaci\u00f3n en cada momento."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a07.\u2003Carga desproporcionada."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Con car\u00e1cter excepcional, en atenci\u00f3n a la carga desproporcionada que el cumplimiento de los requisitos de accesibilidad pueda suponer para la entidad obligada, se podr\u00e1 exceptuar el cumplimiento de los requisitos de accesibilidad recogidos en el presente real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "La excepci\u00f3n al cumplimiento de los requisitos de accesibilidad deber\u00e1 ser motivada y se limitar\u00e1 al contenido concreto y a lo estrictamente necesario para reducir la carga. No obstante, la entidad deber\u00e1 hacer estos contenidos lo m\u00e1s accesibles posible y cumplir todos los requisitos de accesibilidad en el resto de contenidos."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003Se considera carga desproporcionada aquella que impone a la entidad obligada una carga financiera y organizativa excesiva, o que compromete su capacidad para cumplir su cometido o para publicar la informaci\u00f3n necesaria y pertinente para sus tareas y servicios, teniendo en cuenta al mismo tiempo el posible beneficio o perjuicio para los ciudadanos, en particular para las personas con discapacidad y personas mayores."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003No se consideran motivos que permitan apreciar la excepci\u00f3n de la carga desproporcionada la falta de prioridad, de tiempo o de conocimientos. Asimismo, tampoco es posible justificar la necesidad de adquirir o desarrollar sistemas inform\u00e1ticos, para la gesti\u00f3n de contenidos de sitios web, y aplicaciones para dispositivos m\u00f3viles que no sean accesibles."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003A fin de evaluar en qu\u00e9 medida el cumplimiento de los requisitos de accesibilidad previstos en este real decreto impone una carga desproporcionada, las entidades obligadas deber\u00e1n tener en cuenta como m\u00ednimo las siguientes circunstancias:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003El tama\u00f1o, los recursos y la naturaleza del sujeto concreto obligado."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Los costes y beneficios estimados para el mismo, en relaci\u00f3n con los beneficios estimados para las personas con discapacidad y las personas mayores, teniendo en cuenta la frecuencia y la duraci\u00f3n del uso del sitio web o aplicaci\u00f3n para dispositivos m\u00f3viles en especial."
+      },{
+        "@class": "parrafo_2",
+        "#text": "5.\u2003La entidad obligada concreta que desee acogerse a la excepci\u00f3n contemplada en el apartado\u00a01 de este art\u00edculo deber\u00e1 llevar a cabo una evaluaci\u00f3n inicial de la medida en que el cumplimiento de los requisitos de accesibilidad previstos en este real decreto impone una carga desproporcionada debi\u00e9ndolo hacer constar por escrito mediante el correspondiente informe. Dicha evaluaci\u00f3n deber\u00e1 revisarse al menos una vez al a\u00f1o para contemplar los posibles cambios organizacionales o t\u00e9cnicos."
+      },{
+        "@class": "parrafo",
+        "#text": "6.\u2003En todo caso, en la declaraci\u00f3n de accesibilidad para el sitio web concreto o la aplicaci\u00f3n para dispositivos m\u00f3viles concreta, despu\u00e9s de realizar la correspondiente evaluaci\u00f3n, se har\u00e1 constar las partes de los requisitos de accesibilidad que no puede cumplir y, en su caso, se ofrecer\u00e1 alternativas accesibles seg\u00fan los t\u00e9rminos definidos en el art\u00edculo\u00a015."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a08.\u2003Promoci\u00f3n, concienciaci\u00f3n y formaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Los organismos del sector p\u00fablico y otros obligados incluidos en el \u00e1mbito de aplicaci\u00f3n del art\u00edculo\u00a02 adoptar\u00e1n medidas de sensibilizaci\u00f3n y divulgaci\u00f3n para incrementar la concienciaci\u00f3n dentro de las Administraciones P\u00fablicas y en la sociedad en general sobre los requisitos de accesibilidad y la universalidad de sus beneficios, as\u00ed como sobre todas las medidas puestas en pr\u00e1ctica con este real decreto, especialmente la posibilidad y medios para reclamar en caso de incumplimiento de las previsiones establecidas."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003En particular, las entidades obligadas velar\u00e1n por la concienciaci\u00f3n en materia de accesibilidad de todo el personal a su servicio y espec\u00edficamente de aquellos \u00f3rganos o Unidades con competencias en el desarrollo de los sitios web y las aplicaciones para dispositivos m\u00f3viles del sector p\u00fablico, as\u00ed como de los encargados de la edici\u00f3n y generaci\u00f3n de sus contenidos."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Las entidades obligadas fomentar\u00e1n y facilitar\u00e1n programas de formaci\u00f3n internos que garanticen conocimientos actualizados sobre las condiciones de accesibilidad en la creaci\u00f3n, gesti\u00f3n y actualizaci\u00f3n de los contenidos de los sitios web y aplicaciones para dispositivos m\u00f3viles. Para ello:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Los correspondientes institutos y organismos competentes en materia de formaci\u00f3n en la Funci\u00f3n P\u00fablica incluir\u00e1n en sus planes de formaci\u00f3n actividades en relaci\u00f3n con la accesibilidad de los sitios web y sus contenidos y de las aplicaciones para dispositivos m\u00f3viles."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Las entidades obligadas establecer\u00e1n, como complemento de los anteriores, programas de formaci\u00f3n espec\u00edficos en la materia para el personal a su servicio, especialmente, para quienes pertenezcan a \u00f3rganos o unidades con competencias en el desarrollo de los sitios web y las aplicaciones para dispositivos m\u00f3viles as\u00ed como, para las personas encargadas de la edici\u00f3n y generaci\u00f3n de contenidos."
+      },{
+        "@class": "parrafo_2",
+        "#text": "4.\u2003Los organismos del sector p\u00fablico y otros obligados incluidos en el \u00e1mbito de aplicaci\u00f3n del art\u00edculo\u00a02 promover\u00e1n medidas de sensibilizaci\u00f3n, divulgaci\u00f3n, educaci\u00f3n y formaci\u00f3n en el terreno de la accesibilidad, con objeto de lograr que los titulares de otros sitios web o aplicaciones m\u00f3viles distintas de aqu\u00e9llas a las que se refiere este real decreto, incorporen progresivamente y en la medida de lo posible los criterios de accesibilidad, particularmente aqu\u00e9llas cuyo contenido se refiera a bienes y servicios a disposici\u00f3n del p\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "5.\u2003Respecto de las webs y dispositivos m\u00f3viles, los organismos del sector p\u00fablico y otros obligados incluidos en el \u00e1mbito de aplicaci\u00f3n del art\u00edculo\u00a02 observar\u00e1n los mandatos sobre promoci\u00f3n de la accesibilidad universal contenidos en las disposiciones normativas espec\u00edficas en materia de contrataci\u00f3n p\u00fablica y har\u00e1n uso de las facultades y posibilidades que esta legislaci\u00f3n ofrece a los \u00f3rganos contratantes, para ampliar y elevar los niveles de accesibilidad digital en la adquisici\u00f3n de bienes, productos y servicios."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a09.\u2003Participaci\u00f3n de las personas interesadas."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Administraciones P\u00fablicas determinar\u00e1n los mecanismos de participaci\u00f3n de las personas interesadas y de las personas usuarias en el seguimiento de las pol\u00edticas de accesibilidad de los sitios web y las aplicaciones para dispositivos m\u00f3viles, teniendo en cuenta especialmente a las organizaciones representativas de personas con discapacidad y personas mayores, y sus familias."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Comunicaciones, quejas y reclamaciones"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a010.\u2003Mecanismos de comunicaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Las entidades obligadas deber\u00e1n ofrecer a las personas usuarias un mecanismo de comunicaci\u00f3n que permita a cualquier persona presentar sugerencias y quejas, as\u00ed como informar sobre cualquier posible incumplimiento por parte de su sitio web o de su aplicaci\u00f3n para dispositivos m\u00f3viles de los requisitos de accesibilidad y solicitar la informaci\u00f3n excluida."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003Se distinguen dos modalidades en funci\u00f3n de la naturaleza de la comunicaci\u00f3n y de los efectos y tratamiento que \u00e9sta vaya a tener:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Comunicaciones sobre requisitos de accesibilidad. Permite a cualquier persona f\u00edsica y jur\u00eddica informar sobre cualquier posible incumplimiento por parte del sitio web o de la aplicaci\u00f3n para dispositivos m\u00f3viles de los requisitos de accesibilidad establecidos. Tambi\u00e9n permite transmitir otras dificultades de acceso al contenido o formular cualquier otra consulta o sugerencia de mejora relativa a la accesibilidad del sitio web o aplicaci\u00f3n para dispositivos m\u00f3viles."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Solicitudes de informaci\u00f3n accesible y quejas. Permite a cualquier persona f\u00edsica o jur\u00eddica formular quejas relativas al cumplimiento de los requisitos de este real decreto y solicitar la informaci\u00f3n relativa a contenidos que est\u00e1n excluidos del \u00e1mbito de aplicaci\u00f3n de este real decreto seg\u00fan lo establecido por el art\u00edculo\u00a03, apartado\u00a04, o exentos del cumplimiento de los requisitos de accesibilidad por imponer una carga desproporcionada."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a011.\u2003Comunicaciones sobre requisitos de accesibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "Las comunicaciones sobre requisitos de accesibilidad podr\u00e1n presentarse mediante medios electr\u00f3nicos habilitando una direcci\u00f3n de correo electr\u00f3nico espec\u00edfica o un formulario que permita la presentaci\u00f3n telem\u00e1tica. Adicionalmente, se habilitar\u00e1 al menos uno de los siguientes canales complementarios al electr\u00f3nico: Un tel\u00e9fono o una oficina f\u00edsica de atenci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a012.\u2003Solicitudes de informaci\u00f3n accesible y quejas."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Las solicitudes de informaci\u00f3n accesible y quejas ser\u00e1n presentadas y registradas conforme a los requisitos establecidos en la Ley\u00a039/2015, de\u00a01 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003En el caso de las solicitudes de informaci\u00f3n accesible, la persona interesada deber\u00e1 concretar, con toda claridad, los hechos, razones y petici\u00f3n que permitan constatar que se trata de una solicitud razonable y leg\u00edtima."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Recibidas las solicitudes de informaci\u00f3n accesible y quejas, la entidad obligada deber\u00e1 responder a la persona interesada en el plazo de veinte d\u00edas h\u00e1biles."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003El transcurso de dicho plazo se podr\u00e1 suspender en el caso de que deba requerirse a la persona interesada para que, en un plazo de diez d\u00edas h\u00e1biles, formule las aclaraciones necesarias para la correcta tramitaci\u00f3n de la solicitud de informaci\u00f3n accesible o queja. Transcurrido dicho plazo sin que la persona interesada haya realizado las aclaraciones oportunas, se continuar\u00e1 con su tramitaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "5.\u2003La respuesta deber\u00e1 incluir la siguiente informaci\u00f3n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003La Unidad que emite la respuesta."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003La decisi\u00f3n que se ha adoptado."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003En su caso, la informaci\u00f3n accesible solicitada."
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003En su caso, el plazo estimativo y la Unidad responsable de llevar a cabo las medidas para corregir un posible incumplimiento, si las mismas no se pueden adoptar de inmediato."
+      },{
+        "@class": "parrafo",
+        "#text": "e)\u2003La Unidad ante la cual se puede reclamar y el procedimiento por el cual se puede hacer la reclamaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "6.\u2003Transcurrido el plazo m\u00e1ximo para resolver sin que se haya notificado la respuesta se entender\u00e1 que la solicitud de informaci\u00f3n accesible no ha sido aceptada o que la queja no ha sido considerada."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a013.\u2003Procedimiento de reclamaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Si una vez realizada una solicitud de informaci\u00f3n accesible o queja, \u00e9sta hubiera sido desestimada, no se estuviera de acuerdo con la decisi\u00f3n adoptada, o la respuesta no cumpliera los requisitos contemplados en el art\u00edculo\u00a012.5, la persona interesada podr\u00e1 iniciar una reclamaci\u00f3n para conocer y oponerse a los motivos de la desestimaci\u00f3n, instar la adopci\u00f3n de las medidas oportunas en el caso de no estar de acuerdo con la decisi\u00f3n adoptada, o exponer las razones por las que se considera que la respuesta no cumple con los requisitos exigidos."
+      },{
+        "@class": "parrafo",
+        "#text": "Igualmente se podr\u00e1 iniciar una reclamaci\u00f3n en el caso de que haya trascurrido el plazo de veinte d\u00edas h\u00e1biles sin haber obtenido respuesta."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003Dicha reclamaci\u00f3n deber\u00e1 ser presentada y registrada conforme a los requisitos establecidos en la Ley\u00a039/2015, de\u00a01 de octubre."
+      },{
+        "@class": "parrafo",
+        "#text": "La reclamaci\u00f3n deber\u00e1 dirigirse a la Unidad responsable de accesibilidad de ese \u00e1mbito competencial, o si la respuesta se hubiera realizado desde la propia Unidad responsable de accesibilidad, al superior jer\u00e1rquico de \u00e9sta."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Las entidades obligadas deber\u00e1n incluir en la declaraci\u00f3n de accesibilidad la Unidad a la cual elevar las reclamaciones junto con el enlace al sistema de registro en el que se deber\u00e1 realizar dicha reclamaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003Recibida la reclamaci\u00f3n, la Unidad responsable de atenderla deber\u00e1 responder a la persona interesada en el plazo m\u00e1ximo de dos meses."
+      },{
+        "@class": "parrafo",
+        "#text": "5.\u2003El transcurso de dicho plazo se podr\u00e1 suspender en el caso de que deba requerirse a la persona interesada para que, en un plazo de diez d\u00edas h\u00e1biles, formule las aclaraciones necesarias para la correcta tramitaci\u00f3n de la reclamaci\u00f3n. Transcurrido dicho plazo sin que la persona interesada haya realizado las aclaraciones oportunas, se continuar\u00e1 con la tramitaci\u00f3n de la reclamaci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "6.\u2003Transcurrido el plazo m\u00e1ximo para resolver la reclamaci\u00f3n sin que se haya notificado la resoluci\u00f3n de la misma, se entender\u00e1 que la reclamaci\u00f3n ha sido desestimada."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a014.\u2003Recursos."
+      },{
+        "@class": "parrafo",
+        "#text": "Contra la resoluci\u00f3n de la reclamaci\u00f3n regulada en los anteriores art\u00edculos se podr\u00e1n interponer los recursos administrativos que procedan, de conformidad con lo dispuesto en el art\u00edculo\u00a0112 de la Ley\u00a039/2015, de\u00a01 de octubre de\u00a02015."
+      },{
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@class": "capitulo_tit",
+        "#text": "Control, revisi\u00f3n, seguimiento y presentaci\u00f3n de informes"
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a015.\u2003Declaraci\u00f3n de accesibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Las entidades responsables de las webs y aplicaciones para m\u00f3viles proporcionar\u00e1n una declaraci\u00f3n de accesibilidad detallada, exhaustiva y clara sobre la conformidad de sus respectivos sitios web y aplicaciones para dispositivos m\u00f3viles con lo dispuesto en este real decreto. Dicha declaraci\u00f3n ser\u00e1 actualizada peri\u00f3dicamente, como m\u00ednimo una vez al a\u00f1o, o cada vez que se realice una revisi\u00f3n de accesibilidad conforme a lo especificado en el art\u00edculo\u00a017."
+      },{
+        "@class": "parrafo",
+        "#text": "Esta declaraci\u00f3n de accesibilidad se proporcionar\u00e1 en un formato accesible haciendo uso de las instrucciones y del modelo de declaraci\u00f3n de accesibilidad que se establezca conforme a lo dispuesto en el apartado\u00a03."
+      },{
+        "@class": "parrafo",
+        "#text": "En el caso de los sitios web, la declaraci\u00f3n se publicar\u00e1 en el sitio web correspondiente estando disponible su acceso desde todas las p\u00e1ginas del sitio web con un enlace denominado \u00abAccesibilidad\u00bb o su equivalente en el idioma en el que se encuentre disponible la p\u00e1gina."
+      },{
+        "@class": "parrafo",
+        "#text": "En el caso de las aplicaciones para dispositivos m\u00f3viles, la declaraci\u00f3n estar\u00e1 disponible en el sitio web de la entidad obligada que haya desarrollado la aplicaci\u00f3n concreta para dispositivos m\u00f3viles junto con el enlace para su descarga o bien se facilitar\u00e1 junto con otra informaci\u00f3n disponible al descargar la aplicaci\u00f3n de las plataformas de distribuci\u00f3n de aplicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003La declaraci\u00f3n de accesibilidad comprender\u00e1, como m\u00ednimo, la siguiente informaci\u00f3n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Una explicaci\u00f3n sobre aquellas partes del contenido que no sean accesibles y las razones de dicha inaccesibilidad, as\u00ed como, en su caso, las alternativas accesibles que se ofrezcan."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Un enlace y descripci\u00f3n del mecanismo de comunicaci\u00f3n en los t\u00e9rminos que se establecen en los art\u00edculos\u00a010, 11 y\u00a012 del presente real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Un enlace al procedimiento de reclamaci\u00f3n regulado en el art\u00edculo\u00a013 al que cualquier persona interesada pueda recurrir en caso de que la respuesta a la comunicaci\u00f3n o a la solicitud sea insatisfactoria."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3.\u2003Mediante Orden de la Ministra de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica se aprobar\u00e1n instrucciones espec\u00edficas para la generaci\u00f3n y puesta a disposici\u00f3n de las declaraciones de accesibilidad de aplicaci\u00f3n en todo el territorio nacional de acuerdo con los requisitos especificados en el modelo europeo."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a016.\u2003Unidad responsable de accesibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Cada entidad obligada determinar\u00e1 la Unidad responsable de garantizar el cumplimiento de los requisitos de accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles dentro de su \u00e1mbito competencial."
+      },{
+        "@class": "parrafo",
+        "#text": "En la Administraci\u00f3n General del Estado se designar\u00e1n las Unidades responsables de accesibilidad en el \u00e1mbito de las Subsecretar\u00edas de cada Departamento considerando todos los posibles organismos p\u00fablicos y entidades de derecho p\u00fablico dependientes de ese Departamento."
+      },{
+        "@class": "parrafo",
+        "#text": "En las comunidades aut\u00f3nomas se designar\u00e1 la Unidad responsable de accesibilidad para todo el \u00e1mbito auton\u00f3mico."
+      },{
+        "@class": "parrafo",
+        "#text": "En las entidades locales y dem\u00e1s organismos obligados se designar\u00e1, conforme a sus caracter\u00edsticas organizativas propias, la Unidad responsable de accesibilidad de su \u00e1mbito."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003La Unidad responsable de accesibilidad definir\u00e1 el modelo de funcionamiento dentro de su \u00e1mbito competencial actuando directamente sobre todo el \u00e1mbito o con un posible esquema de responsables de accesibilidad delegados en los diferentes organismos o entidades dependientes."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003La Unidad responsable de accesibilidad tendr\u00e1 las siguientes funciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Coordinar y velar por el funcionamiento efectivo de los mecanismos de comunicaci\u00f3n establecidos en el cap\u00edtulo II ayudando a la definici\u00f3n, emitiendo directrices y promoviendo la existencia de los medios y procedimientos para garantizar una adecuada gesti\u00f3n y atenci\u00f3n de cuantas consultas, sugerencias, comunicaciones, quejas y solicitudes de informaci\u00f3n accesible se reciban en cada uno de los \u00f3rganos, organismos o entidades bajo su competencia."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Atender y dar respuesta a las reclamaciones que, en aplicaci\u00f3n de lo dispuesto en el art\u00edculo\u00a013 le sean dirigidas."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Revisar las evaluaciones realizadas para acogerse a la excepci\u00f3n del cumplimiento de los requisitos de accesibilidad por imponer \u00e9stos una carga desproporcionada regulada en el art\u00edculo\u00a07."
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003Coordinar las revisiones peri\u00f3dicas de accesibilidad establecidas en el art\u00edculo\u00a017, con la colaboraci\u00f3n, en su caso, de las Unidades de tecnolog\u00edas de la informaci\u00f3n y comunicaciones."
+      },{
+        "@class": "parrafo",
+        "#text": "e)\u2003Coordinar y fomentar las actividades de promoci\u00f3n, concienciaci\u00f3n y formaci\u00f3n establecidas en el art\u00edculo\u00a08."
+      },{
+        "@class": "parrafo",
+        "#text": "f)\u2003Realizar los informes que se determinen para garantizar el cumplimiento de las previsiones establecidas en el art\u00edculo\u00a019."
+      },{
+        "@class": "parrafo",
+        "#text": "g)\u2003Actuar como punto de contacto con el organismo encargado de realizar el seguimiento y presentaci\u00f3n de informes y colaborar con las tareas que tiene asignadas"
+      },{
+        "@class": "parrafo",
+        "#text": "h)\u2003Cualesquiera otras, que en garant\u00eda de la accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles le puedan ser atribuidas."
+      },{
+        "@class": "parrafo_2",
+        "#text": "4.\u2003Se deber\u00e1 notificar al \u00f3rgano encargado de realizar el seguimiento y presentaci\u00f3n de informes al que se refiere el art\u00edculo\u00a018 las designaciones, modificaciones o bajas de las correspondientes Unidades responsables de accesibilidad."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a017.\u2003Revisi\u00f3n de la accesibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Las entidades obligadas por el presente real decreto realizar\u00e1n revisiones del cumplimiento de los requisitos de accesibilidad establecidos tanto en la fase de dise\u00f1o de los sitios web y aplicaciones para dispositivos m\u00f3viles como antes de su puesta en funcionamiento."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003Una vez puesto en funcionamiento un sitio web o aplicaci\u00f3n para dispositivos m\u00f3viles, las entidades obligadas realizar\u00e1n revisiones peri\u00f3dicas del cumplimiento de los requisitos de accesibilidad con el fin de garantizar el mantenimiento de su cumplimiento a lo largo del tiempo. Especialmente, se deber\u00e1 tener en cuenta el caso de los contenidos a\u00f1adidos o modificados durante el ciclo de vida de los sitios web as\u00ed como las actualizaciones tecnol\u00f3gicas de estos \u00faltimos y de las aplicaciones para dispositivos m\u00f3viles."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Las revisiones de accesibilidad deber\u00e1n abarcar todos los requisitos exigidos y tendr\u00e1n en consideraci\u00f3n tanto aspectos de revisi\u00f3n autom\u00e1tica como aspectos de revisi\u00f3n manual experta. El resultado de \u00e9stas deber\u00e1 quedar recogido en un informe de revisi\u00f3n de la accesibilidad."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003Mediante Orden de la Ministra de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica se podr\u00e1 aprobar un modelo y condiciones espec\u00edficas para realizar estas revisiones de accesibilidad que podr\u00e1n ampliar lo establecido en la metodolog\u00eda europea para el seguimiento de la conformidad. En cualquier caso, estas revisiones deber\u00e1n respetar las condiciones m\u00ednimas exigidas para las revisiones en profundidad de un sitio web o aplicaci\u00f3n m\u00f3vil que establezca la metodolog\u00eda europea."
+      },{
+        "@class": "parrafo",
+        "#text": "5.\u2003Las entidades obligadas podr\u00e1n certificar el cumplimiento de los requisitos de este real decreto en sus sitios web y aplicaciones para dispositivos m\u00f3viles por una entidad de certificaci\u00f3n cuya competencia t\u00e9cnica haya sido reconocida formalmente por la Entidad Nacional de Acreditaci\u00f3n (ENAC) o por otro organismo nacional de acuerdo al Reglamento (CE) n.\u00ba 765/2008 del Parlamento Europeo y del Consejo, de\u00a09 de julio de\u00a02008, por el que se establecen los requisitos de acreditaci\u00f3n y vigilancia del mercado relativos a la comercializaci\u00f3n de los productos y por el que se deroga el Reglamento (CEE) n.\u00ba 339/93."
+      },{
+        "@class": "parrafo",
+        "#text": "6.\u2003En cualquier caso, la primera revisi\u00f3n de accesibilidad deber\u00e1 haberse realizado en el caso de los sitios web antes de dos a\u00f1os desde la entrada en vigor de este real decreto, y, en el caso de las aplicaciones m\u00f3viles, antes de tres a\u00f1os desde la entrada en vigor de este real decreto."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a018.\u2003Seguimiento y presentaci\u00f3n de informes."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003El \u00f3rgano encargado de realizar el seguimiento y presentaci\u00f3n de informes ante la Comisi\u00f3n Europea es el Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003Este \u00f3rgano podr\u00e1 comprobar peri\u00f3dicamente el estado de situaci\u00f3n con respecto a la conformidad de los sitios web y las aplicaciones para dispositivos m\u00f3viles de los organismos del sector p\u00fablico con los requisitos de accesibilidad, bas\u00e1ndose en la metodolog\u00eda para el seguimiento de la conformidad prevista en el art\u00edculo\u00a08.2 de la Directiva (UE) 2016/2012, del Parlamento Europeo y del Consejo, de\u00a026 de octubre de\u00a02016, sobre la accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles de los organismos del sector p\u00fablico seg\u00fan sea determinado por la Comisi\u00f3n Europea en los correspondientes actos de ejecuci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "Este \u00f3rgano tambi\u00e9n podr\u00e1 realizar verificaciones sobre muestras aleatorias con respecto a la exactitud de los informes de revisi\u00f3n de la accesibilidad definidos en el art\u00edculo\u00a017."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Este \u00f3rgano presentar\u00e1 a la Comisi\u00f3n Europea, a m\u00e1s tardar el\u00a023 de diciembre de\u00a02021 y posteriormente cada tres a\u00f1os, un informe sobre el resultado del seguimiento que se har\u00e1 p\u00fablico en formato accesible."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003Dicho informe deber\u00e1 ajustarse a lo que se determine en los actos de ejecuci\u00f3n que adoptar\u00e1 la Comisi\u00f3n Europea para la presentaci\u00f3n de informes de Directiva (UE) 2016/2012, del Parlamento Europeo y del Consejo, de\u00a026 de octubre de\u00a02016. En cualquier caso deber\u00e1 incluir:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Los datos de las mediciones."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Informaci\u00f3n sobre el uso del procedimiento de reclamaci\u00f3n establecido en el art\u00edculo\u00a013."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Informaci\u00f3n sobre los elementos enumerados en el apartado\u00a05 cuando hayan sido objeto de cambios significativos respecto del informe anterior."
+      },{
+        "@class": "parrafo_2",
+        "#text": "5.\u2003El primer informe comprender\u00e1 tambi\u00e9n:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Una descripci\u00f3n de los mecanismos creados en Espa\u00f1a para consultar a las personas interesadas sobre la accesibilidad de los sitios web y las aplicaciones para dispositivos m\u00f3viles;"
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003procedimientos para hacer p\u00fablica cualquier evoluci\u00f3n de las pol\u00edticas de accesibilidad relacionada con los sitios web y las aplicaciones para dispositivos m\u00f3viles;"
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003experiencias y conclusiones extra\u00eddas de la aplicaci\u00f3n de las normas sobre conformidad con los requisitos de accesibilidad establecidos;"
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003informaci\u00f3n sobre actividades de formaci\u00f3n y concienciaci\u00f3n."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a019.\u2003Coordinaci\u00f3n para el seguimiento y presentaci\u00f3n de informes."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Cada Unidad responsable de accesibilidad preparar\u00e1 tres informes anuales sobre su \u00e1mbito de actuaci\u00f3n concreto que tendr\u00e1 disponibles antes del\u00a01 de octubre de cada a\u00f1o a partir del a\u00f1o\u00a02020:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Informe sobre la atenci\u00f3n de quejas y reclamaciones. Dicho informe incluir\u00e1 las medidas puestas en pr\u00e1ctica para atender las cuestiones planteadas en el art\u00edculo\u00a016.3.a) junto a un estudio de las comunicaciones, consultas, sugerencias, solicitudes de informaci\u00f3n accesible y quejas formuladas a trav\u00e9s del mismo. Tambi\u00e9n incluir\u00e1 un estudio de las reclamaciones atendidas y revisiones realizadas seg\u00fan el art\u00edculo\u00a016.3.b) y c)."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Informe de seguimiento sobre el cumplimiento de los requisitos de accesibilidad dentro de su \u00e1mbito competencial incluyendo las medidas puestas en marcha para atender las acciones contempladas en el art\u00edculo\u00a016.3.d) y los resultados derivados de ellas. Asimismo, se incluir\u00e1n todos los informes de revisi\u00f3n de la accesibilidad realizados seg\u00fan lo previsto en el art\u00edculo\u00a017."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Informe de seguimiento sobre la promoci\u00f3n, concienciaci\u00f3n y formaci\u00f3n dentro de su \u00e1mbito competencial incluyendo las medidas puestas en marcha para atender las acciones contempladas en el art\u00edculo\u00a016.3.e) y los resultados derivados de ellas."
+      },{
+        "@class": "parrafo_2",
+        "#text": "2.\u2003Para facilitar las tareas del Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica colaborar\u00e1n con \u00e9ste: La Red de Contactos de Accesibilidad Digital de las Administraciones P\u00fablicas del art\u00edculo\u00a020, todas las Unidades responsables de accesibilidad y todos los actores implicados en las diferentes actividades de revisi\u00f3n de la accesibilidad, procedimiento de reclamaci\u00f3n, promoci\u00f3n y concienciaci\u00f3n, formaci\u00f3n, y coordinaci\u00f3n previstas en el presente real decreto."
+      },{
+        "@class": "parrafo",
+        "#text": "Para ello deber\u00e1n suministrar la informaci\u00f3n espec\u00edfica en tales \u00e1reas con los modelos, condicionantes y procedimientos que establezca el Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "3.\u2003Para la definici\u00f3n de los modelos, condicionantes y procedimientos que permitan conocer regularmente e informar sobre estas materias, el Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica podr\u00e1 contar con la participaci\u00f3n de:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003La Red de Contactos de Accesibilidad Digital de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Los \u00f3rganos de coordinaci\u00f3n en materia de tecnolog\u00edas de la informaci\u00f3n de la Administraci\u00f3n General del Estado previstos en el Real Decreto\u00a0806/2014, de\u00a019 de septiembre."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003La Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica establecida en la disposici\u00f3n adicional novena de la Ley\u00a040/2015, de\u00a02 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003El Comit\u00e9 T\u00e9cnico Estatal De La Administraci\u00f3n Judicial Electr\u00f3nica establecido en el art\u00edculo\u00a044 de la Ley\u00a018/2011, de\u00a05 de julio, reguladora del uso de las tecnolog\u00edas de la informaci\u00f3n y la comunicaci\u00f3n en la Administraci\u00f3n de Justicia."
+      },{
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a020.\u2003Red de Contactos de Accesibilidad Digital\u00a0de las Administraciones P\u00fablicas."
+      },{
+        "@class": "parrafo",
+        "#text": "1.\u2003Se crea la Red de Contactos de Accesibilidad Digital\u00a0de las Administraciones P\u00fablicas con funciones de asistencia al Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica regulado en el art\u00edculo\u00a018, que tendr\u00e1 la consideraci\u00f3n de grupo de trabajo de los previstos en el art\u00edculo\u00a022.3 de la Ley\u00a040/2015, de\u00a01 de octubre."
+      },{
+        "@class": "parrafo",
+        "#text": "2.\u2003La Red de Contactos de Accesibilidad Digital de las Administraciones P\u00fablicas estar\u00e1 integrada por:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Las personas titulares de las Unidades responsables de accesibilidad de la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Las personas titulares de las Unidades responsables de accesibilidad de las comunidades aut\u00f3nomas."
+      },{
+        "@class": "parrafo",
+        "#text": "c) Al menos un punto de contacto provincial que agrupar\u00e1 a las entidades locales de esa provincia y que podr\u00e1 estar provisto por la correspondiente Diputaci\u00f3n Provincial, Comunidad Aut\u00f3noma, Consorcio o Federaci\u00f3n de municipios considerando sus caracter\u00edsticas territoriales concretas y de acuerdo con la normativa espec\u00edfica de r\u00e9gimen local."
+      },{
+        "@class": "parrafo",
+        "#text": "d)\u2003Una persona designada al respecto por parte de la Conferencia de Rectores para las Universidades espa\u00f1olas que agrupar\u00e1 a las Universidades."
+      },{
+        "@class": "parrafo",
+        "#text": "e)\u2003Una persona designada al respecto por parte del Comit\u00e9 T\u00e9cnico Estatal de la Administraci\u00f3n Judicial Electr\u00f3nica que agrupar\u00e1 a las entidades del \u00e1mbito judicial."
+      },{
+        "@class": "parrafo",
+        "#text": "f)\u2003Las personas titulares de las Unidades responsables de accesibilidad de los dem\u00e1s entes obligados que no est\u00e9n cubiertos por los anteriormente indicados."
+      },{
+        "@class": "parrafo",
+        "#text": "g)\u2003Las asociaciones comprendidas en el art\u00edculo\u00a02.1.e participar\u00e1n a trav\u00e9s de uno de los miembros anteriormente indicados considerando el tipo de la entidad con participaci\u00f3n mayoritaria en la asociaci\u00f3n."
+      },{
+        "@class": "parrafo_2",
+        "#text": "3.\u2003Los personas integrantes de esta red de contactos actuar\u00e1n como difusoras y agregadoras de la informaci\u00f3n disponible de todas las entidades a las que representen o agrupen."
+      },{
+        "@class": "parrafo",
+        "#text": "4.\u2003Las designaciones, modificaciones o bajas de las personas integrantes de esta red deber\u00e1n ser notificadas al Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera.\u2003Criterios de accesibilidad aplicables a los sitios web y aplicaciones para dispositivos m\u00f3viles con financiaci\u00f3n p\u00fablica."
+      },{
+        "@class": "parrafo",
+        "#text": "Las Administraciones P\u00fablicas exigir\u00e1n que se apliquen los criterios de accesibilidad de los art\u00edculos\u00a05 y\u00a06 del presente real decreto a:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "a)\u2003Los sitios web y aplicaciones para dispositivos m\u00f3viles que reciban financiaci\u00f3n p\u00fablica para su dise\u00f1o o mantenimiento."
+      },{
+        "@class": "parrafo",
+        "#text": "b)\u2003Los sitios web y aplicaciones para dispositivos m\u00f3viles, vinculados a la prestaci\u00f3n de servicios p\u00fablicos, de entidades y empresas que se encarguen, ya sea por v\u00eda concesional o a trav\u00e9s de otra v\u00eda contractual, de gestionar servicios p\u00fablicos, en especial, los que tengan car\u00e1cter educativo, sanitario, cultural, deportivo y de servicios sociales."
+      },{
+        "@class": "parrafo",
+        "#text": "c)\u2003Los sitios web y aplicaciones para dispositivos m\u00f3viles de los centros privados educativos, de formaci\u00f3n y universitarios sostenidos, total o parcialmente, con fondos p\u00fablicos."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda.\u2003Criterios de accesibilidad aplicables a los sitios web y aplicaciones para dispositivos m\u00f3viles de los \u00f3rganos constitucionales del Estado y de los \u00f3rganos legislativos y de control auton\u00f3micos."
+      },{
+        "@class": "parrafo",
+        "#text": "Los criterios de accesibilidad recogidos en el presente real decreto, ser\u00e1n de aplicaci\u00f3n a los sitios web y aplicaciones para dispositivos m\u00f3viles de los \u00f3rganos competentes del Congreso de los Diputados, del Senado, del Consejo de Estado, del Consejo Econ\u00f3mico y Social, del Consejo General del Poder Judicial, del Tribunal Constitucional, del Tribunal de Cuentas, del Defensor del Pueblo, del Banco de Espa\u00f1a, de las Asambleas legislativas de las comunidades aut\u00f3nomas, as\u00ed como a las instituciones auton\u00f3micas que realicen funciones an\u00e1logas, en relaci\u00f3n con sus actividades sujetas a Derecho Administrativo y con sujeci\u00f3n a su normativa espec\u00edfica."
+      },{
+        "@class": "parrafo",
+        "#text": "El titular de la Unidad responsable de accesibilidad de cada uno de estos \u00f3rganos podr\u00e1 formar parte, si as\u00ed lo decide la instituci\u00f3n concernida, de la Red de Contactos de Accesibilidad Digital de las Administraciones P\u00fablicas."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera.\u2003Lenguas de signos espa\u00f1olas y medios de apoyo a la comunicaci\u00f3n oral."
+      },{
+        "@class": "parrafo",
+        "#text": "Respecto de las lenguas de signos espa\u00f1olas y los medios de apoyo a la comunicaci\u00f3n oral, los sitios web y las aplicaciones m\u00f3viles tendr\u00e1n en cuenta lo que disponga espec\u00edficamente la Ley\u00a027/2007, de\u00a023 de octubre, por la que se reconocen las lenguas de signos espa\u00f1olas y se regulan los medios de apoyo a la comunicaci\u00f3n oral de las personas sordas, con discapacidad auditiva y sordociegas y sus normas de desarrollo."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta.\u2003No incremento de gastos de personal y Unidades responsables de accesibilidad en la Administraci\u00f3n General del Estado."
+      },{
+        "@class": "parrafo",
+        "#text": "Conforme a lo establecido en la disposici\u00f3n adicional trig\u00e9sima novena de la Ley\u00a06/2018, de\u00a03 de julio, de Presupuestos Generales del Estado para el a\u00f1o\u00a02018, las medidas incluidas en esta norma no podr\u00e1n suponer en el \u00e1mbito de la Administraci\u00f3n General del Estado incremento de dotaciones, ni de retribuciones, ni de otros gastos de personal."
+      },{
+        "@class": "parrafo",
+        "#text": "Las funciones que corresponda desarrollar a las Unidades responsables de accesibilidad ser\u00e1n asignadas a Unidades ya existentes."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica.\u2003Modelo de declaraci\u00f3n."
+      },{
+        "@class": "parrafo",
+        "#text": "En tanto no se publique el modelo de declaraci\u00f3n al que se refiere el art\u00edculo\u00a015, se aplicar\u00e1 por defecto el modelo de declaraci\u00f3n de accesibilidad que la Comisi\u00f3n Europea establezca mediante los correspondientes actos de ejecuci\u00f3n previstos en la Directiva (UE) 2016/2102, de\u00a026 de octubre de\u00a02016."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n derogatoria \u00fanica."
+      },{
+        "@class": "parrafo",
+        "#text": "Quedan derogadas las disposiciones de igual o inferior rango que se opongan a lo dispuesto en el presente real decreto y, espec\u00edficamente, los art\u00edculos\u00a05, 6 y\u00a07 del Real Decreto\u00a01494/2007, de\u00a012 de noviembre, por el que se aprueba el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera.\u2003Modificaci\u00f3n del Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social, aprobado por el Real Decreto\u00a01494/2007, de\u00a012 de noviembre."
+      },{
+        "@class": "parrafo",
+        "#text": "El art\u00edculo\u00a09 del Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social, aprobado por el Real Decreto\u00a01494/2007, de\u00a012 de noviembre, quedar\u00e1 redactado en la forma siguiente:"
+      },{
+        "@class": "sangrado_articulo",
+        "#text": "\u00abArt\u00edculo\u00a09.\u2003Condiciones b\u00e1sicas de accesibilidad en servicios y productos de confianza."
+      },{
+        "@class": "sangrado",
+        "#text": "Los servicios de confianza prestados y los productos para las personas usuarias finales utilizados en la prestaci\u00f3n de estos servicios deber\u00e1n ser accesibles para las personas mayores y personas con discapacidad. Excepcionalmente, esta obligaci\u00f3n no ser\u00e1 aplicable cuando el producto o servicio de confianza no disponga de una soluci\u00f3n tecnol\u00f3gica que permita su accesibilidad.\u00bb"
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda.\u2003T\u00edtulo competencial."
+      },{
+        "@class": "parrafo",
+        "#text": "La presente norma se dicta al amparo de lo dispuesto en el art\u00edculo\u00a0149.1.1.\u00aa y\u00a018.\u00aa de la Constituci\u00f3n, que atribuye al Estado las competencias para \u00abla regulaci\u00f3n de las condiciones b\u00e1sicas que garanticen la igualdad de todos los espa\u00f1oles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales\u00bb y, para regular \u00ablas bases del r\u00e9gimen jur\u00eddico de las Administraciones P\u00fablicas y el procedimiento administrativo com\u00fan\u00bb, respectivamente."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final tercera.\u2003Incorporaci\u00f3n de derecho comunitario."
+      },{
+        "@class": "parrafo",
+        "#text": "Mediante el presente real decreto se incorpora al ordenamiento jur\u00eddico la Directiva (UE) 2016/2102, del Parlamento Europeo y del Consejo, de\u00a026 de octubre de\u00a02016, sobre la accesibilidad de los sitios web y aplicaciones para dispositivos m\u00f3viles de los organismos del sector p\u00fablico."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final cuarta.\u2003Desarrollo normativo."
+      },{
+        "@class": "parrafo",
+        "#text": "Se faculta a los titulares del Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica y del Ministerio de Econom\u00eda y Empresa, en el \u00e1mbito de sus respectivas competencias, para dictar las disposiciones adicionales necesarias para la aplicaci\u00f3n y desarrollo de lo establecido en el presente real decreto, as\u00ed como para acordar las medidas precisas para garantizar su ejecuci\u00f3n e implantaci\u00f3n efectiva, sin perjuicio de las competencias propias de las comunidades aut\u00f3nomas de desarrollo y ejecuci\u00f3n de la legislaci\u00f3n b\u00e1sica del Estado."
+      },{
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final quinta.\u2003Entrada en vigor."
+      },{
+        "@class": "parrafo",
+        "#text": "El presente real decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb con las siguientes excepciones:"
+      },{
+        "@class": "parrafo_2",
+        "#text": "Para los sitios web, las disposiciones previstas en los art\u00edculos\u00a010.2.b), 12 y\u00a013 ser\u00e1n de aplicaci\u00f3n al a\u00f1o de la entrada en vigor de este real decreto, y a los dos a\u00f1os para los sitios web ya publicados."
+      },{
+        "@class": "parrafo",
+        "#text": "Todas las disposiciones relativas a aplicaciones para dispositivos m\u00f3viles ser\u00e1n de aplicaci\u00f3n desde el\u00a023 de junio de\u00a02021."
+      },{
+        "@class": "parrafo_2",
+        "#text": "Dado en Madrid, el\u00a07 de septiembre de\u00a02018."
+      },{
+        "@class": "firma_rey",
+        "#text": "FELIPE R."
+      },{
+        "@class": "firma_ministro",
+        "br": null,
+        "#text": "La Vicepresidenta del Gobierno y Ministra de la Presidencia,\nRelaciones con las Cortes e Igualdad,"
+      },{
+        "@class": "firma_ministro",
+        "#text": "CARMEN CALVO POYATO"
+      }
+    ]
+  }
+}
+}

@@ -77,8 +77,8 @@ class Abbr():
                 if abbr.text is None:
                     abbr._re = abbr.boe.re.pattern
                 else:
+                    n_abbr = deepcopy(abbr)
                     n_abbr.text = None
-                    n_abbr= deepcopy(abbr)
                     n_abbr._re = abbr.boe.re.pattern
                     r.append(n_abbr)
         return r
