@@ -1,0 +1,1223 @@
+{
+"documento": {
+  "@fecha_actualizacion": "20191216115601",
+  "metadatos": {
+    "identificador": "BOE-A-2016-8429",
+    "titulo": "Real Decreto 330/2016, de 9 de septiembre, relativo a medidas para reducir el coste del despliegue de las redes de comunicaciones electr\u00f3nicas de alta velocidad.",
+    "diario": {
+      "@codigo": "BOE",
+      "#text": "Bolet\u00edn Oficial del Estado"
+    },
+    "diario_numero": "223",
+    "seccion": "1",
+    "subseccion": null,
+    "departamento": {
+      "@codigo": "9219",
+      "#text": "Ministerio de Industria, Energ\u00eda y Turismo"
+    },
+    "rango": {
+      "@codigo": "1340",
+      "#text": "Real Decreto"
+    },
+    "numero_oficial": "330/2016",
+    "fecha_disposicion": "20160909",
+    "fecha_publicacion": "20160915",
+    "fecha_vigencia": "20160916",
+    "fecha_derogacion": null,
+    "letra_imagen": "A",
+    "pagina_inicial": "66294",
+    "pagina_final": "66307",
+    "suplemento_letra_imagen": null,
+    "suplemento_pagina_inicial": null,
+    "suplemento_pagina_final": null,
+    "estatus_legislativo": "L",
+    "origen_legislativo": {
+      "@codigo": "1",
+      "#text": "Estatal"
+    },
+    "estado_consolidacion": {
+      "@codigo": "3",
+      "#text": "Finalizado"
+    },
+    "judicialmente_anulada": "N",
+    "vigencia_agotada": "N",
+    "estatus_derogacion": "N",
+    "url_epub": "/diario_boe/epub.php?id=BOE-A-2016-8429",
+    "url_pdf": "/boe/dias/2016/09/15/pdfs/BOE-A-2016-8429.pdf",
+    "url_pdf_catalan": "/boe_catalan/dias/2016/09/15/pdfs/BOE-A-2016-8429-C.pdf",
+    "url_pdf_euskera": null,
+    "url_pdf_gallego": "/boe_gallego/dias/2016/09/15/pdfs/BOE-A-2016-8429-G.pdf",
+    "url_pdf_valenciano": null,
+    "url_eli": "https://www.boe.es/eli/es/rd/2016/09/09/330"
+  },
+  "metadata-eli": {
+    "rdf:RDF": {
+      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+      "eli:LegalResource": {
+        "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330",
+        "eli:jurisdiction": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+        },
+        "eli:type_document": {
+          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+        },
+        "eli:id_local": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "BOE-A-2016-8429"
+        },
+        "eli:date_document": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+          "#text": "2016-09-09"
+        },
+        "eli:number": {
+          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "#text": "330"
+        },
+        "eli:has_member": [
+          {
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2016-8429"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2016-09-09"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "330"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330"
+              },
+              "eli:consolidated_by": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/con/20160915"
+              },
+              "eli:is_realized_by": [
+                {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 330/2016, de 9 de septiembre, relativo a medidas para reducir el coste del despliegue de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2016-09-15"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa/epub",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa"
+                          }
+                        }
+                      },{
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/cat",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Reial decret 330/2016, de 9 de setembre, relatiu a mesures per reduir el cost del desplegament de les xarxes de comunicacions electr\u00f2niques d'alta velocitat."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2016-09-15"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/cat/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/cat"
+                        }
+                      }
+                    }
+                  }
+                },{
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/glg",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real decreto 330/2016, do 9 de setembro, relativo a medidas para reducir o custo do despregamento das redes de comunicaci\u00f3ns electr\u00f3nicas de alta velocidade."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2016-09-15"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/glg/pdf",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof/glg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },{
+            "eli:LegalResource": {
+              "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/con/20160915",
+              "eli:jurisdiction": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+              },
+              "eli:type_document": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+              },
+              "eli:id_local": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "BOE-A-2016-8429"
+              },
+              "eli:date_document": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2016-09-09"
+              },
+              "eli:number": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                "#text": "330"
+              },
+              "eli:version": {
+                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+              },
+              "eli:version_date": {
+                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                "#text": "2016-09-15"
+              },
+              "eli:is_member_of": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330"
+              },
+              "eli:consolidates": {
+                "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/dof"
+              },
+              "eli:is_realized_by": {
+                "eli:LegalExpression": {
+                  "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/con/20160915/spa",
+                  "eli:language": {
+                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                  },
+                  "eli:title": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                    "#text": "Real Decreto 330/2016, de 9 de septiembre, relativo a medidas para reducir el coste del despliegue de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+                  },
+                  "eli:publisher": {
+                    "@rdf:resource": "www.boe.es"
+                  },
+                  "eli:date_publication": {
+                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                    "#text": "2016-09-15"
+                  },
+                  "eli:realizes": {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/con/20160915"
+                  },
+                  "eli:is_embodied_by": {
+                    "eli:Format": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2016/09/09/330/con/20160915/spa/html",
+                      "eli:format": {
+                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                      },
+                      "eli:embodies": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2016/09/09/330/con/20160915/spa"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "analisis": {
+    "notas": null,
+    "materias": {
+      "materia": [
+        {
+          "@codigo": "397",
+          "@orden": "",
+          "#text": "Autorizaciones"
+        },{
+          "@codigo": "611",
+          "@orden": "",
+          "#text": "Capacitaci\u00f3n profesional"
+        },{
+          "@codigo": "7894",
+          "@orden": "",
+          "#text": "Comunicaciones electr\u00f3nicas"
+        },{
+          "@codigo": "1617",
+          "@orden": "",
+          "#text": "Construcciones"
+        },{
+          "@codigo": "3111",
+          "@orden": "",
+          "#text": "Edificaciones"
+        },{
+          "@codigo": "4165",
+          "@orden": "",
+          "#text": "Informaci\u00f3n"
+        },{
+          "@codigo": "4506",
+          "@orden": "",
+          "#text": "Internet"
+        },{
+          "@codigo": "5163",
+          "@orden": "",
+          "#text": "Normas de calidad"
+        },{
+          "@codigo": "5181",
+          "@orden": "",
+          "#text": "Obras"
+        },{
+          "@codigo": "5923",
+          "@orden": "",
+          "#text": "Redes de telecomunicaci\u00f3n"
+        },{
+          "@codigo": "6854",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "alertas": {
+      "alerta": [
+        {
+          "@codigo": "120",
+          "@orden": "",
+          "#text": "Obras y construcciones"
+        },{
+          "@codigo": "129",
+          "@orden": "",
+          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+        },{
+          "@codigo": "130",
+          "@orden": "",
+          "#text": "Telecomunicaciones"
+        }
+      ]
+    },
+    "referencias": {
+      "anteriores": {
+        "anterior": [
+          {
+            "@referencia": "BOE-A-2010-4851",
+            "@orden": "2015",
+            "palabra": {
+              "@codigo": "270",
+              "#text": "MODIFICA"
+            },
+            "texto": "el art. 2.1.a) del Reglamento aprobado por Real Decreto 244/2010, de 5 de marzo"
+          },{
+            "@referencia": "DOUE-L-2014-81073",
+            "@orden": "3020",
+            "palabra": {
+              "@codigo": "426",
+              "#text": "TRANSPONE"
+            },
+            "texto": "la Directiva 2014/61/UE, de 15 de mayo"
+          },{
+            "@referencia": "BOE-A-2014-4950",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "el art. 3 de la Ley 9/2014, de 9 de mayo"
+          }
+        ]
+      },
+      "posteriores": {
+        "posterior": [
+          {
+            "@referencia": "BOE-A-2019-16772",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "el art. 9.3, y se especifica la direcci\u00f3n del espacio habilitado: Resoluci\u00f3n de 30 de mayo de 2019"
+          },{
+            "@referencia": "BOE-A-2019-6997",
+            "@orden": "",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "SE DICTA DE CONFORMIDAD"
+            },
+            "texto": "sobre puesta en funcionamiento del Punto de Informaci\u00f3n \u00danico: Orden ECE/529/2019, de 26 de abril"
+          }
+        ]
+      }
+    }
+  },
+  "texto": {
+    "p": [
+      {
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Seg\u00fan datos de la Comisi\u00f3n Europea, los trabajos de obra civil, ascienden como media en la Uni\u00f3n Europea a un\u00a080% del coste total del despliegue de las redes de comunicaciones electr\u00f3nicas, lo que obliga a adoptar medidas que contribuyan al cumplimiento de los objetivos plasmados en la Agenda Digital para Europa aprobada en el a\u00f1o\u00a02010 y en la Agenda digital para Espa\u00f1a, aprobada por el Gobierno en febrero del a\u00f1o\u00a02013, mediante la reducci\u00f3n de dichos costes."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "La Directiva\u00a02014/61/UE, del Parlamento Europeo y del Consejo, de\u00a015 de mayo de\u00a02014, relativa a medidas para reducir el coste del despliegue de las redes de comunicaciones electr\u00f3nicas de alta velocidad introduce previsiones que, en l\u00ednea con los objetivos de promoci\u00f3n del despliegue de redes y fomento de la inversi\u00f3n eficiente en materia de infraestructuras, plasmados en el art\u00edculo\u00a03 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, pretenden reducir los costes de los trabajos de obra civil relacionados con el despliegue de redes de comunicaciones electr\u00f3nicas, mediante el establecimiento de derechos de acceso a infraestructuras f\u00edsicas existentes, la coordinaci\u00f3n de obras civiles y la mejora en el acceso a la informaci\u00f3n sobre infraestructuras existentes, obras civiles previstas y procedimientos aplicables a la concesi\u00f3n de permisos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "La Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, particularmente en su art\u00edculo\u00a045, y la normativa espa\u00f1ola sobre infraestructuras comunes de telecomunicaciones para el acceso a los servicios de telecomunicaci\u00f3n en el interior de las edificaciones, establecida mediante el Real Decreto-ley\u00a01/1998, de\u00a027 de febrero, sobre infraestructuras comunes en los edificios para el acceso a los servicios de telecomunicaci\u00f3n y su normativa de desarrollo, incorporan al ordenamiento jur\u00eddico espa\u00f1ol las previsiones de la Directiva\u00a02014/61/UE, en relaci\u00f3n con la infraestructura f\u00edsica en el interior del edificio."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Mediante este real decreto, se transponen los restantes preceptos de la mencionada Directiva, y se desarrollan determinados art\u00edculos de la Ley General de Telecomunicaciones, dirigidos a facilitar el despliegue de redes, para que los operadores que instalan o explotan redes de comunicaciones electr\u00f3nicas puedan ofrecer a los usuarios servicios m\u00e1s innovadores, de mayor calidad y cobertura, a precios competitivos y con mejores condiciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El cap\u00edtulo I de disposiciones generales recoge el objeto y \u00e1mbito de aplicaci\u00f3n del real decreto, con el que se pretende facilitar e incentivar el despliegue de redes de comunicaciones electr\u00f3nicas de alta velocidad, incluyendo tanto a redes fijas como m\u00f3viles capaces de prestar servicios de acceso de al menos\u00a030 Mbps (incluyendo, entre otras, tecnolog\u00edas como FTTH, HFC o LTE) a trav\u00e9s del fomento de la utilizaci\u00f3n conjunta de las infraestructuras f\u00edsicas existentes y del despliegue m\u00e1s eficiente de otras nuevas, de manera que resulte posible desplegar dichas redes a un menor coste."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El cap\u00edtulo II regula el derecho de acceso de los operadores de redes p\u00fablicas de comunicaciones electr\u00f3nicas a las infraestructuras f\u00edsicas susceptibles de alojar redes p\u00fablicas de comunicaciones electr\u00f3nicas de alta velocidad, estableciendo qui\u00e9nes son los sujetos obligados a prestar dicho acceso, el contenido de las solicitudes de acceso, el plazo para negociar dicha solicitud y los principios y elementos que la Comisi\u00f3n Nacional de los Mercados y la Competencia habr\u00e1 de tener en cuenta a la hora de resolver los conflictos que pudieran plantearse. El cap\u00edtulo II se completa con el establecimiento de medidas de transparencia que permiten que los operadores que instalan o explotan redes de comunicaciones electr\u00f3nicas puedan disponer de informaci\u00f3n m\u00ednima en relaci\u00f3n con las infraestructuras existentes, a fin de poder ejercer su derecho de acceso a las mismas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": "lex specialis",
+        "#text": "Lo establecido en el cap\u00edtulo II, de acuerdo con lo dispuesto por la Directiva\u00a02014/61/UE debe tener en cuenta el principio de : cuando sean de aplicaci\u00f3n medidas reguladoras m\u00e1s espec\u00edficas conformes con el Derecho de la Uni\u00f3n, estas deben prevalecer sobre los derechos y obligaciones m\u00ednimos previstos en la citada Directiva. Por tanto, este real decreto debe entenderse sin perjuicio del marco regulador de la Uni\u00f3n relativo a las comunicaciones electr\u00f3nicas establecido en la Directiva\u00a02002/21/CE del Parlamento Europeo y del Consejo, as\u00ed como en la Directiva\u00a02002/19/CE del Parlamento Europeo y del Consejo, la Directiva\u00a02002/20/CE del Parlamento Europeo y del Consejo, la Directiva\u00a02002/22/CE del Parlamento Europeo y del Consejo\u00a0y la Directiva\u00a02002/77/CE de la Comisi\u00f3n, incluidas las medidas nacionales adoptadas de conformidad con dicho marco regulador, como las medidas reguladoras espec\u00edficas sim\u00e9tricas o asim\u00e9tricas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El cap\u00edtulo III, relativo a la coordinaci\u00f3n de obras civiles susceptibles de alojar redes de comunicaciones electr\u00f3nicas de alta velocidad establece la obligaci\u00f3n de atender, en condiciones transparentes y no discriminatorias, las solicitudes de coordinaci\u00f3n de aqu\u00e9llas, siempre que las mismas hayan sido financiadas con recursos p\u00fablicos, correspondiendo a la Comisi\u00f3n Nacional de los Mercados y la Competencia la resoluci\u00f3n de los posibles conflictos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Asimismo, se recogen en este cap\u00edtulo III medidas de transparencia en relaci\u00f3n con la publicidad de las obras civiles previstas, recogi\u00e9ndose la obligaci\u00f3n establecida en la Directiva de que dicha informaci\u00f3n sea transmitida a un punto de informaci\u00f3n \u00fanico, que permita que sea puesta a disposici\u00f3n de los operadores de redes p\u00fablicas de comunicaciones electr\u00f3nicas de alta velocidad, de manera centralizada."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El cap\u00edtulo IV, por su parte, establece medidas dirigidas a garantizar la mayor brevedad posible en la resoluci\u00f3n de los procedimientos de concesi\u00f3n de permisos o licencias relacionados con las obras civiles necesarias para desplegar elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad, de modo que, sin perjuicio de lo dispuesto en la Ley General de Telecomunicaciones en materia de colaboraci\u00f3n de las Administraciones P\u00fablicas en el despliegue de redes y de utilizaci\u00f3n de la declaraci\u00f3n responsable en la tramitaci\u00f3n de permisos, se reduzca a cuatro meses el plazo de resoluci\u00f3n de los procedimientos relacionados con dichas obras."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Asimismo, en desarrollo de lo establecido en el art\u00edculo\u00a035.8 de la Ley General de Telecomunicaciones, el cap\u00edtulo IV de este real decreto regula el acceso de los operadores de redes p\u00fablicas de comunicaciones electr\u00f3nicas a la informaci\u00f3n pertinente relativa a las condiciones y procedimientos aplicables a la instalaci\u00f3n y despliegue de redes de comunicaciones electr\u00f3nicas y sus recursos asociados, de modo que dicha informaci\u00f3n est\u00e9 disponible a trav\u00e9s de un punto de informaci\u00f3n \u00fanico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En la tramitaci\u00f3n de este real decreto se ha dado audiencia al Consejo Asesor de las Telecomunicaciones y de la Sociedad de la Informaci\u00f3n. Asimismo, el proyecto ha sido informado por la Comisi\u00f3n Nacional de los Mercados y la Competencia, sometido a tr\u00e1mite de audiencia p\u00fablica e informado por el Consejo de Estado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Este real decreto se dicta al amparo de la competencia exclusiva del Estado en materia de telecomunicaciones reconocida en el art\u00edculo\u00a0149.1.21.\u00aa de la Constituci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En su virtud, a propuesta del Ministro de Econom\u00eda y Competitividad, por suplencia del Ministro de Industria, Energ\u00eda y Turismo, con la aprobaci\u00f3n previa del Ministro de Hacienda y Administraciones P\u00fablicas, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda\u00a09 de septiembre de\u00a02016,"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "centro_redonda",
+        "#text": "DISPONGO:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO I"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_tit",
+        "#text": "Disposiciones generales"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a01. Objeto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.Este real decreto tiene por objeto la incorporaci\u00f3n al ordenamiento jur\u00eddico espa\u00f1ol de diversas disposiciones contenidas en la Directiva\u00a02014/61/UE, del\u00a015 de mayo de\u00a02014, relativa a medidas para reducir el coste del despliegue de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. Mediante este real decreto se desarrollan los art\u00edculos\u00a035 a\u00a038 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, en lo relativo al acceso a infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas de alta velocidad, coordinaci\u00f3n de obras civiles y publicaci\u00f3n de informaci\u00f3n sobre concesi\u00f3n de permisos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Mediante este real decreto se regulan los derechos y obligaciones relativos a los accesos a infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas, de modo que se facilite el despliegue de redes p\u00fablicas de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Este real decreto establece medidas en relaci\u00f3n con la coordinaci\u00f3n de obras civiles para facilitar el despliegue de elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "5. Este real decreto establece medidas de transparencia en relaci\u00f3n con las condiciones y procedimientos aplicables a la concesi\u00f3n de permisos para la instalaci\u00f3n y despliegue de redes de comunicaciones electr\u00f3nicas y sus recursos asociados, fijando un plazo m\u00e1ximo para la resoluci\u00f3n de las solicitudes de concesi\u00f3n de permisos en relaci\u00f3n con las obras de civiles necesarias para desplegar elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a02. \u00c1mbito de aplicaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "1. Este real decreto se aplica a las infraestructuras f\u00edsicas susceptibles de alojar redes p\u00fablicas de comunicaciones electr\u00f3nicas de alta velocidad y a las obras civiles relativas a dichas infraestructuras."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. El \u00e1mbito de aplicaci\u00f3n de las medidas contenidas en el art\u00edculo\u00a09 se extiende a la informaci\u00f3n relativa a la instalaci\u00f3n y despliegue de redes p\u00fablicas de comunicaciones electr\u00f3nicas y sus recursos asociados."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. El acceso a la infraestructura f\u00edsica en el interior de un edificio susceptible de ser utilizada para el despliegue de los tramos finales de redes p\u00fablicas de comunicaciones electr\u00f3nicas se regir\u00e1 por su normativa espec\u00edfica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Las medidas a las que se refiere este real decreto se entender\u00e1n sin perjuicio de las obligaciones que puedan imponerse en virtud de lo dispuesto en el art\u00edculo\u00a013 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, a operadores con poder significativo en el mercado y en el art\u00edculo\u00a032 de dicha ley en relaci\u00f3n con la ubicaci\u00f3n y el uso compartido de la propiedad p\u00fablica y privada. En este sentido, en los casos en que la solicitud de acceso se produzca sobre una infraestructura gestionada o cuya titularidad o derecho de uso corresponda a un operador de comunicaciones electr\u00f3nicas sujeto a obligaciones motivadas por los art\u00edculos\u00a013 y\u00a014 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, el acceso a dichas infraestructuras f\u00edsicas ser\u00e1 coherente con tales obligaciones y la introducci\u00f3n de procedimientos y tareas nuevas se basar\u00e1n en las ya existentes."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a03. Definiciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "A efectos de este real decreto, se aplicar\u00e1n las siguientes definiciones:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "1. Infraestructura f\u00edsica: Cualquier elemento de una red pensado para albergar otros elementos de una red sin llegar a ser un elemento activo de ella, como tuber\u00edas, m\u00e1stiles, conductos, c\u00e1maras de acceso, bocas de inspecci\u00f3n, distribuidores, edificios o entradas a edificios, instalaciones de antenas, torres y postes. Los cables, incluida la fibra oscura, as\u00ed como los elementos de redes utilizados para el transporte de agua destinada al consumo humano, definida esta \u00faltima seg\u00fan lo establecido en el Real Decreto\u00a0140/2003, de\u00a07 de febrero, por el que se establecen los criterios sanitarios de la calidad del agua de consumo humano, no son infraestructura f\u00edsica en el sentido de este real decreto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. Red de comunicaciones electr\u00f3nicas de alta velocidad: red de comunicaciones electr\u00f3nicas, incluyendo tanto redes fijas como m\u00f3viles, capaz de prestar servicios de acceso de banda ancha a velocidades de al menos\u00a030 Mbps por abonado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Obras civiles: cada uno de los resultados de las obras de construcci\u00f3n o de ingenier\u00eda civil tomadas en conjunto que se basta para desempe\u00f1ar una funci\u00f3n econ\u00f3mica o t\u00e9cnica e implica uno o m\u00e1s elementos de una infraestructura f\u00edsica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Obras financiadas con recursos p\u00fablicos: obras civiles en las que se cumpla alguna de las siguientes condiciones:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) Que se haya promovido o ejecutado por Administraciones p\u00fablicas o por empresas p\u00fablicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) La empresa que la promueva o ejecute haya sido contratada por el sector p\u00fablico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) La empresa que la promueva o ejecute haya recibido dinero p\u00fablico u otro tipo de ayuda p\u00fablica econ\u00f3mica o financiera para su ejecuci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "d) Tengan la consideraci\u00f3n de ayudas de Estado con arreglo al art\u00edculo\u00a0107.1 del Tratado de Funcionamiento de la Uni\u00f3n Europea."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "e) Se realice en terrenos de titularidad p\u00fablica que hayan sido cedidos para albergar dicha obra civil."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "5. Sujetos obligados: Los siguientes propietarios, gestores o titulares de derechos de utilizaci\u00f3n de infraestructuras f\u00edsicas susceptibles de alojar redes p\u00fablicas de comunicaciones electr\u00f3nicas de alta velocidad:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) Operadores de redes que proporcionen una infraestructura f\u00edsica destinada a prestar un servicio de producci\u00f3n, transporte o distribuci\u00f3n de:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "i.\tGas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "ii.\tElectricidad, incluida la iluminaci\u00f3n p\u00fablica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "iii.\tCalefacci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "iv.\tAgua, incluidos los sistemas de saneamiento: evacuaci\u00f3n o tratamiento de aguas residuales y el alcantarillado y los sistemas de drenaje. No se incluye dentro de esta definici\u00f3n a los elementos de redes utilizados para el transporte de agua destinada al consumo humano, definida esta \u00faltima seg\u00fan lo establecido en el Real Decreto\u00a0140/2003, de\u00a07 de febrero, por el que se establecen los criterios sanitarios de la calidad del agua de consumo humano."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "b) Operadores que instalen o exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas disponibles para el p\u00fablico. Quedan expresamente excluidas del \u00e1mbito de este real decreto las redes privadas de comunicaciones electr\u00f3nicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) Empresas que proporcionen infraestructuras f\u00edsicas destinadas a prestar servicios de transporte, incluidos los ferrocarriles, las carreteras, los puertos y los aeropuertos, incluyendo a las entidades o sociedades encargadas de la gesti\u00f3n de infraestructuras de transporte de competencia estatal."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "d) Las administraciones p\u00fablicas titulares de infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO II"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_tit",
+        "#text": "Acceso a infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas de alta velocidad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a04. Acceso a infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.Los derechos y obligaciones a los que se refieren los apartados siguientes se aplican a los sujetos obligados enumerados en el art\u00edculo\u00a03.5."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. Los sujetos obligados deber\u00e1n atender y negociar las solicitudes de acceso a su infraestructura f\u00edsica al objeto de facilitar el despliegue de redes de comunicaciones electr\u00f3nicas de alta velocidad. En los casos en que la solicitud de acceso se produzca sobre una infraestructura gestionada o cuya titularidad o derecho de uso corresponda a un operador de comunicaciones electr\u00f3nicas sujeto a obligaciones motivadas por los art\u00edculos\u00a013 y\u00a014 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, el acceso a dichas infraestructuras f\u00edsicas ser\u00e1 coherente con tales obligaciones y la introducci\u00f3n de procedimientos y tareas nuevas se basar\u00e1 en las ya existentes."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Cuando un operador que instale o explote redes p\u00fablicas de comunicaciones electr\u00f3nicas disponibles al p\u00fablico realice una solicitud razonable, por escrito, de acceso a una infraestructura f\u00edsica a alguno de los sujetos obligados, \u00e9ste estar\u00e1 obligado a atender y negociar dicha solicitud de acceso, en condiciones equitativas y razonables, en particular en cuanto al precio, con vistas al despliegue de elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. La solicitud de acceso deber\u00e1 especificar, como m\u00ednimo:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) Motivo de acceso a la infraestructura."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) Descripci\u00f3n de elementos a desplegar en la infraestructura."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) Plazo en el que se produzca el despliegue en la infraestructura."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "d) Zona en la que se tiene intenci\u00f3n de desplegar elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "e) Declaraci\u00f3n de confidencialidad en relaci\u00f3n a cualquier informaci\u00f3n que se reciba como resultado del acceso a la infraestructura."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "5. No se estar\u00e1 obligado a negociar el acceso en relaci\u00f3n con aquellas infraestructuras vinculadas con la defensa nacional o la seguridad p\u00fablica, o cuando tengan la consideraci\u00f3n de cr\u00edticas en virtud de la Ley\u00a08/2011, de\u00a028 de abril, por la que se establecen medidas para la protecci\u00f3n de las infraestructuras cr\u00edticas. En este \u00faltimo caso, para la negociaci\u00f3n del acceso a dichas infraestructuras ser\u00e1 preceptivo el informe de la Secretar\u00eda de Estado de Seguridad del Ministerio del Interior."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "6. De acuerdo con lo establecido en el art\u00edculo\u00a037.1 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, el acceso a infraestructuras de titularidad de las Administraciones p\u00fablicas no podr\u00e1 ser otorgado o reconocido mediante procedimientos de licitaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "7. Cualquier denegaci\u00f3n de acceso deber\u00e1 justificarse de manera clara al solicitante, en el plazo m\u00e1ximo de dos meses a partir de la fecha de recepci\u00f3n de la solicitud de acceso completa, exponiendo los motivos en los que se fundamenta. La denegaci\u00f3n deber\u00e1 basarse en criterios objetivos, transparentes y proporcionados, tales como:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) La falta de idoneidad t\u00e9cnica de la infraestructura f\u00edsica a la que se ha solicitado acceso para albergar cualquiera de los elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad. Los motivos de denegaci\u00f3n basados en la falta de adecuaci\u00f3n t\u00e9cnica de la infraestructura ser\u00e1n determinadas por el Ministerio de Industria, Energ\u00eda y Turismo mediante orden, previo informe del departamento ministerial con competencia sectorial sobre dicha infraestructura."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) La falta de disponibilidad de espacio para acoger los elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad, incluidas las futuras necesidades de espacio del sujeto obligado, siempre y cuando esto quede suficientemente demostrado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) Los riesgos para la defensa nacional, la seguridad p\u00fablica, la salud p\u00fablica, la seguridad vial o la protecci\u00f3n civil."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "d) Los riesgos para la integridad y la seguridad de una red, en particular de las infraestructuras nacionales cr\u00edticas, sin perjuicio de lo dispuesto en el apartado\u00a05."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "e) Los riesgos de interferencias graves de los servicios de comunicaciones electr\u00f3nicas previstos con la prestaci\u00f3n de otros servicios a trav\u00e9s de la misma infraestructura f\u00edsica."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "f) La disponibilidad de medios alternativos viables de acceso a la infraestructura de red f\u00edsica al por mayor facilitados por el sujeto obligado y que sean adecuados para el suministro de redes de comunicaciones electr\u00f3nicas de alta velocidad, siempre que dicho acceso se ofrezca en condiciones justas y razonables."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "g) Garantizar que no se comprometa la continuidad y seguridad de la prestaci\u00f3n de los servicios que en dicha infraestructura realiza su titular, de acuerdo con lo previsto en el art\u00edculo\u00a037, apartados\u00a01 y\u00a02, de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "8. Cualquiera de las partes podr\u00e1 plantear el conflicto ante la Comisi\u00f3n Nacional de los Mercados y la Competencia cuando se deniegue el acceso o cuando transcurrido el plazo de dos meses mencionado en el apartado\u00a07, no se llegue a un acuerdo sobre las condiciones en las que debe producirse el mismo, incluidos los precios, sin perjuicio del posible sometimiento de la cuesti\u00f3n ante los tribunales."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "9. En caso de conflicto relativo al precio de acceso, la Comisi\u00f3n Nacional de los Mercados y la Competencia fijar\u00e1 dicho precio de manera que el suministrador del acceso tenga oportunidad de recuperar sus costes de manera justa, y tendr\u00e1 en cuenta:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) La incidencia del acceso solicitado en el plan de negocio del suministrador de acceso."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) Las inversiones realizadas por el suministrador del acceso, concretamente las inversiones realizadas en la infraestructura f\u00edsica a la cual se solicita acceso para la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) La imposici\u00f3n de soluciones anteriores por parte de la Comisi\u00f3n Nacional de los Mercados y la Competencia."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "d) Las circunstancias caracter\u00edsticas del \u00e1rea geogr\u00e1fica de que se trate."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "10. Sin perjuicio de lo dispuesto en el apartado anterior, cuando el conflicto est\u00e9 relacionado con el acceso a la infraestructura f\u00edsica de un operador de redes p\u00fablicas de comunicaciones electr\u00f3nicas, la Comisi\u00f3n Nacional de los Mercados y la Competencia deber\u00e1, en la resoluci\u00f3n del conflicto y en la fijaci\u00f3n de precios:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) Tomar en consideraci\u00f3n los objetivos y principios fijados en el art\u00edculo\u00a03 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) Contemplar la inversi\u00f3n realizada en la infraestructura f\u00edsica a la cual se solicita el acceso, de manera que se eviten situaciones que degraden o desequilibren la competencia por la falta de inversi\u00f3n de ciertos operadores cuyo negocio se base exclusiva o mayoritariamente en la utilizaci\u00f3n de infraestructuras de otros."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) Tener plenamente en cuenta la viabilidad econ\u00f3mica de esas inversiones realizadas por el suministrador del acceso en funci\u00f3n de:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "i.\tSu perfil de riesgo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "ii.\tEl calendario de recuperaci\u00f3n de la inversi\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "iii.\tLa incidencia del acceso sobre la competencia en mercados descendentes y por consiguiente en los precios y la recuperaci\u00f3n de la inversi\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "iv.\tLa depreciaci\u00f3n de los activos de la red en el momento de la solicitud de acceso."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "v.\tEl modelo de negocio que justifique la inversi\u00f3n realizada, en particular en las infraestructuras f\u00edsicas de reciente construcci\u00f3n utilizadas para la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "vi.\tLa posibilidad de despliegue conjunto que se haya ofrecido anteriormente al solicitante de acceso."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "11. La Comisi\u00f3n Nacional de los Mercados y la Competencia, teniendo plenamente en cuenta el principio de proporcionalidad, adoptar\u00e1, en el plazo m\u00e1ximo de cuatro meses desde la recepci\u00f3n de toda la informaci\u00f3n, una decisi\u00f3n para resolverlo, incluida la fijaci\u00f3n de condiciones y precios equitativos y no discriminatorios cuando proceda."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "12. El presente art\u00edculo se entender\u00e1 sin perjuicio del derecho de propiedad del propietario de la infraestructura f\u00edsica cuando el operador no sea propietario, y del derecho de propiedad de terceros, como los propietarios de tierras y los due\u00f1os de propiedades privadas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a05. Informaci\u00f3n m\u00ednima relativa a infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas y estudios sobre el terreno."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.A fin de solicitar el acceso a una infraestructura f\u00edsica de conformidad con el art\u00edculo\u00a04, los operadores que instalen o exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas tienen derecho a acceder, previa solicitud por escrito en la que se especifique la zona en la que tienen intenci\u00f3n de desplegar elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad a la siguiente informaci\u00f3n m\u00ednima relativa a las infraestructuras f\u00edsicas existentes de cualquiera de los sujetos obligados:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) localizaci\u00f3n y trazado de la infraestructura,"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) tipo y utilizaci\u00f3n de la misma, describiendo su grado de ocupaci\u00f3n actual,"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) punto de contacto al que dirigirse."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "2. El acceso a la informaci\u00f3n m\u00ednima podr\u00e1 estar limitado si es necesario por motivos de seguridad e integridad de las redes, de seguridad y defensa nacional, de salud o seguridad p\u00fablica, en el caso de infraestructuras cr\u00edticas o por motivos de confidencialidad o de secreto comercial u operativo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Sin perjuicio de las limitaciones a las que se refiere el apartado anterior, los sujetos obligados tienen la obligaci\u00f3n de atender las solicitudes de informaci\u00f3n m\u00ednima relativa a las infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas, otorgando el acceso a dicha informaci\u00f3n en condiciones proporcionadas, no discriminatorias y transparentes, en el plazo de dos meses a partir de la fecha de recepci\u00f3n de la solicitud."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Dicha informaci\u00f3n m\u00ednima deber\u00e1 entregarse en formato electr\u00f3nico, respetando los requisitos definidos en el Anexo I de este real decreto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "5. Sin perjuicio de las limitaciones a las que se refiere el apartado\u00a02, los sujetos obligados tienen la obligaci\u00f3n de atender las solicitudes razonables de realizaci\u00f3n de estudios sobre el terreno de elementos espec\u00edficos de sus infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas. La autorizaci\u00f3n para realizar estudios sobre el terreno se otorgar\u00e1 en el plazo de un mes desde la recepci\u00f3n de la solicitud, que habr\u00e1 de especificar los elementos de red afectados con vistas al despliegue de elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "6. Las solicitudes de informaci\u00f3n m\u00ednima y las solicitudes de estudios sobre el terreno podr\u00e1n ser denegadas de manera justificada, en el caso de infraestructuras nacionales cr\u00edticas o de infraestructuras que no se consideren t\u00e9cnicamente adecuadas para el despliegue de redes de comunicaciones electr\u00f3nicas de alta velocidad, as\u00ed como por motivos de defensa nacional, seguridad y salud p\u00fablica. Los motivos de denegaci\u00f3n basados en la falta de adecuaci\u00f3n t\u00e9cnica de la infraestructura ser\u00e1n determinados por el Ministerio de Industria, Energ\u00eda y Turismo mediante orden, previo informe del departamento ministerial con competencia sectorial sobre dicha infraestructura. Cuando las solicitudes de informaci\u00f3n m\u00ednima o la solicitud de estudios sobre el terreno tengan por objeto infraestructuras catalogadas como cr\u00edticas el operador que gestione dichas infraestructuras, antes de responder a dicha solicitud, deber\u00e1 recabar informe de la Secretar\u00eda de Estado de Seguridad del Ministerio del Interior, que podr\u00e1 acordar impedir el acceso a la informaci\u00f3n si de ella pudiera derivarse afectaci\u00f3n a la seguridad de dichas infraestructuras o a la seguridad nacional."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "7. Transcurridos los plazos a los que se refieren los apartados\u00a03 y\u00a05, sin perjuicio del posible sometimiento de la cuesti\u00f3n a los tribunales, cualquiera de las partes podr\u00e1 plantear los conflictos que pudieran surgir en relaci\u00f3n con los derechos y obligaciones establecidos en el presente art\u00edculo, ante la Comisi\u00f3n Nacional de los Mercados y la Competencia quien, teniendo plenamente en cuenta el principio de proporcionalidad, resolver\u00e1 la diferencia en un plazo m\u00e1ximo de dos meses desde la recepci\u00f3n de toda la informaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "8. El Ministerio de Industria, Energ\u00eda y Turismo podr\u00e1 habilitar un punto de informaci\u00f3n en materia de infraestructuras existentes a trav\u00e9s del cual los sujetos obligados podr\u00e1n poner a disposici\u00f3n de los operadores que instalen o exploten redes de comunicaciones electr\u00f3nicas, informaci\u00f3n relativa a sus infraestructuras susceptibles de alojar redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "9. Mediante orden ministerial podr\u00e1 regularse la manera en que los sujetos obligados o el Ministerio de Industria, Energ\u00eda y Turismo a trav\u00e9s del punto de informaci\u00f3n \u00fanico, informen sobre el punto de contacto del sujeto obligado al que los operadores que instalen o exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas puedan dirigir su solicitud inicial de acceso a la informaci\u00f3n m\u00ednima contemplada por este art\u00edculo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "10. Los operadores que instalen o exploten redes de comunicaciones electr\u00f3nicas que obtengan acceso a informaci\u00f3n en virtud del presente art\u00edculo adoptar\u00e1n las medidas adecuadas para garantizar el respeto de la confidencialidad y el secreto comercial u operativo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO III"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_tit",
+        "#text": "Coordinaci\u00f3n de obras civiles"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a06. Coordinaci\u00f3n de obras civiles."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.Todo sujeto obligado tendr\u00e1 derecho a negociar acuerdos relativos a la coordinaci\u00f3n de obras civiles con operadores que instalen o exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas, con vistas al despliegue de elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. Los sujetos obligados que realicen directa o indirectamente obras civiles, total o parcialmente financiadas con recursos p\u00fablicos deber\u00e1n atender y negociar las solicitudes de coordinaci\u00f3n de dichas obras civiles, al objeto de facilitar el despliegue de redes de comunicaciones electr\u00f3nicas de alta velocidad."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. A tal fin, cuando un operador que instale o explote redes p\u00fablicas de comunicaciones electr\u00f3nicas disponibles al p\u00fablico realice una solicitud razonable de coordinaci\u00f3n de las obras a las que se refiere el apartado anterior con vistas al despliegue de elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad, los sujetos obligados atender\u00e1n dicha solicitud en condiciones transparentes y no discriminatorias."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Las solicitudes de coordinaci\u00f3n de obras civiles a que se refiere el apartado\u00a02 se aceptar\u00e1n siempre que:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) ello no implique ning\u00fan coste adicional, incluso a causa de retrasos adicionales, para las obras civiles previstas inicialmente;"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) no impida el control de la coordinaci\u00f3n de las obras, y"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) la solicitud de coordinaci\u00f3n se presente lo antes posible, en particular si se presenta con anterioridad a la aprobaci\u00f3n del correspondiente proyecto, y, en cualquier caso, al menos un mes antes de la primera presentaci\u00f3n de solicitud de permiso, licencia o de la documentaci\u00f3n que la sustituya ante las autoridades competentes."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "5. Las obligaciones establecidas en el presente art\u00edculo no se aplicar\u00e1n en relaci\u00f3n con las infraestructuras nacionales cr\u00edticas y con las obras civiles de importancia insignificante. Mediante orden del Ministerio de Industria, Energ\u00eda y Turismo, previo informe del departamento ministerial con competencia sectorial sobre las obras, se determinar\u00e1 qu\u00e9 obras han de entenderse como de importancia insignificante en t\u00e9rminos de valor, tama\u00f1o o duraci\u00f3n de las mismas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "6. Lo establecido en el presente art\u00edculo se entender\u00e1 sin perjuicio de lo dispuesto en el apartado segundo del art\u00edculo\u00a036 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, o de cualquier obligaci\u00f3n de reservar capacidad para el despliegue de redes p\u00fablicas de comunicaciones electr\u00f3nicas, independientemente de la existencia o no de solicitudes de coordinaci\u00f3n de obra civil."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "7. Cuando en el plazo de un mes a partir de la fecha de recepci\u00f3n de la solicitud formal de coordinaci\u00f3n de obras civiles no se haya conseguido un acuerdo, cualquiera de las partes, sin perjuicio del sometimiento de la cuesti\u00f3n a los tribunales, podr\u00e1 plantear el conflicto ante la Comisi\u00f3n Nacional de los Mercados y la Competencia."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "8. La Comisi\u00f3n Nacional de los Mercados y la Competencia, teniendo plenamente en cuenta el principio de proporcionalidad, adoptar\u00e1, en el plazo m\u00e1ximo de dos meses desde la recepci\u00f3n de toda la informaci\u00f3n, una decisi\u00f3n para resolver el conflicto, incluida la fijaci\u00f3n de condiciones y precios equitativos y no discriminatorios cuando proceda."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a07. Informaci\u00f3n m\u00ednima relativa a obras civiles previstas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.A fin de negociar los acuerdos relativos a la coordinaci\u00f3n de obras civiles a que hace referencia el art\u00edculo\u00a06, los operadores que instalen o exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas tienen derecho a acceder, previa solicitud por escrito, en la que se especifique la zona en la que tienen intenci\u00f3n de desplegar elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad, a la siguiente informaci\u00f3n m\u00ednima relativa a las obras civiles relacionadas con la infraestructura f\u00edsica de los sujetos obligados, que est\u00e9n en curso, para las que se haya presentado solicitud de permiso y a\u00fan no haya sido concedido o para las que se prevea realizar la primera presentaci\u00f3n de solicitud de permiso, licencia o de la documentaci\u00f3n que la sustituya ante las autoridades competentes en los seis meses siguientes a la presentaci\u00f3n de la solicitud de coordinaci\u00f3n:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) localizaci\u00f3n y tipo de obra,"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) elementos de la red implicados,"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "c) fecha prevista de inicio de las obras y duraci\u00f3n de estas, y"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "d) punto de contacto al que dirigirse."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "2. Los sujetos obligados podr\u00e1n limitar el acceso a la informaci\u00f3n m\u00ednima si es necesario por motivos de seguridad e integridad de las redes, de seguridad y defensa nacional, de salud o seguridad p\u00fablica, de confidencialidad o de secreto comercial u operativo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Sin perjuicio de las limitaciones a las que se refiere el apartado anterior, los sujetos obligados tienen la obligaci\u00f3n de atender las solicitudes de informaci\u00f3n m\u00ednima relativa a las obras civiles en curso o previstas, otorgando el acceso a dicha informaci\u00f3n, en condiciones proporcionadas, no discriminatorias y transparentes, en el plazo de dos semanas a partir de la fecha de recepci\u00f3n de la solicitud."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Dicha informaci\u00f3n m\u00ednima deber\u00e1 entregarse en formato electr\u00f3nico, respetando los requisitos definidos en el Anexo II de este real decreto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "5. Las solicitudes de informaci\u00f3n m\u00ednima podr\u00e1n ser denegadas;"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) Cuando dicha informaci\u00f3n se haya hecho p\u00fablica en formato electr\u00f3nico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) Cuando dicha informaci\u00f3n sea accesible a trav\u00e9s del punto de informaci\u00f3n \u00fanico de coordinaci\u00f3n de obras civiles, que se describe en el apartado\u00a07 del presente art\u00edculo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Asimismo, las solicitudes de informaci\u00f3n podr\u00e1n ser denegadas, de manera justificada, en el caso de las infraestructuras nacionales cr\u00edticas o en relaci\u00f3n con las obras civiles de importancia insignificante, a las que se refiere el art\u00edculo\u00a06.5."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "6. Transcurrido el plazo al que se refiere el apartado\u00a03, sin perjuicio del posible sometimiento de la cuesti\u00f3n a los tribunales, cualquiera de las partes podr\u00e1 plantear los conflictos que pudieran surgir en relaci\u00f3n con los derechos y obligaciones establecidos en el presente art\u00edculo, ante la Comisi\u00f3n Nacional de los Mercados y la Competencia quien, teniendo plenamente en cuenta el principio de proporcionalidad, resolver\u00e1 la diferencia en un plazo m\u00e1ximo de dos meses desde la recepci\u00f3n de toda la informaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "7. El Ministerio de Industria, Energ\u00eda y Turismo habilitar\u00e1 un punto de informaci\u00f3n \u00fanico de coordinaci\u00f3n de obras civiles a trav\u00e9s del cual los operadores que instalen o exploten redes de comunicaciones electr\u00f3nicas podr\u00e1n acceder a la informaci\u00f3n m\u00ednima contemplada en el apartado\u00a01. Mediante orden ministerial se establecer\u00e1n, entre otros extremos, la identificaci\u00f3n de la direcci\u00f3n electr\u00f3nica del punto de informaci\u00f3n \u00fanico de coordinaci\u00f3n de obras civiles, el plazo y las condiciones en que los sujetos obligados han de proporcionar dicha informaci\u00f3n al mismo, la manera de solicitar electr\u00f3nicamente dicha informaci\u00f3n m\u00ednima y las condiciones de su entrega."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "8. Para las situaciones no previstas en el presente art\u00edculo, cualquier sujeto que tenga prevista la realizaci\u00f3n de obras civiles relacionadas con su infraestructura f\u00edsica susceptible de alojar redes de comunicaciones electr\u00f3nicas, de manera voluntaria, podr\u00e1 poner a disposici\u00f3n de los operadores que instalen o exploten redes de comunicaciones electr\u00f3nicas, informaci\u00f3n relativa a dichas obras a trav\u00e9s del punto de informaci\u00f3n \u00fanica al que se refiere el apartado\u00a07."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_num",
+        "#text": "CAP\u00cdTULO IV"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "capitulo_tit",
+        "#text": "Procedimientos de concesi\u00f3n de permisos"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a08. Medidas aplicables a los procedimientos de concesi\u00f3n de permisos de obras civiles."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "em": null,
+        "#text": "1.En aquellos supuestos en los que de acuerdo con lo establecido en la Ley General de Telecomunicaciones pueda exigirse la obtenci\u00f3n de permisos o licencias relativos a las obras civiles necesarias para desplegar elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad, las Administraciones P\u00fablicas conceder\u00e1n o denegar\u00e1n los mismos dentro de los cuatro meses siguientes a la fecha de recepci\u00f3n de la solicitud completa."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. El plazo de cuatro meses al que se refiere el apartado anterior podr\u00e1 ampliarse, con car\u00e1cter excepcional, conforme a lo previsto en la normativa del procedimiento administrativo com\u00fan."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Sin perjuicio de lo anterior, as\u00ed como de lo dispuesto en la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, toda denegaci\u00f3n de permisos o licencias relativos a las obras civiles necesarias para desplegar elementos de las redes de comunicaciones electr\u00f3nicas de alta velocidad habr\u00e1 de estar debidamente justificada, sobre la base de criterios objetivos, transparentes, no discriminatorios y proporcionados."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Art\u00edculo\u00a09. Transparencia en materia de procedimientos de concesi\u00f3n de permisos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "1. Las Administraciones P\u00fablicas deber\u00e1n publicar en su p\u00e1gina web toda la informaci\u00f3n relativa a las condiciones y procedimientos aplicables para la instalaci\u00f3n y despliegue de redes p\u00fablicas de comunicaciones electr\u00f3nicas y sus recursos asociados."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. La Secretar\u00eda de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n establecer\u00e1 un punto de informaci\u00f3n \u00fanico de permisos y licencias a trav\u00e9s del cual los operadores que instalen o exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas acceder\u00e1n por v\u00eda electr\u00f3nica a toda la informaci\u00f3n a la que se refiere el apartado anterior."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. A efecto de dar cumplimiento a lo dispuesto en el apartado anterior, las Administraciones P\u00fablicas deber\u00e1n comunicar a la Secretar\u00eda de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n en el plazo de\u00a06 meses desde la publicaci\u00f3n de este real decreto, la direcci\u00f3n concreta de la p\u00e1gina web en la que publican la informaci\u00f3n a la que se refiere el apartado\u00a01. Esta comunicaci\u00f3n se realizar\u00e1 electr\u00f3nicamente, a trav\u00e9s de un espacio espec\u00edficamente habilitado en la p\u00e1gina web de la Secretar\u00eda de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n, cuya direcci\u00f3n, requisitos de autenticaci\u00f3n para acceso al mismo y frecuencia de actualizaci\u00f3n de los datos aportados se especificar\u00e1n mediante resoluci\u00f3n de dicha Secretar\u00eda de Estado."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Mediante Orden Ministerial, de acuerdo con lo dispuesto en el art\u00edculo\u00a035.8 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, se podr\u00e1 regular la ampliaci\u00f3n del punto de informaci\u00f3n \u00fanico mencionado en el presente art\u00edculo con el fin de que los operadores de comunicaciones electr\u00f3nicas puedan presentar, a trav\u00e9s del mismo, las solicitudes de los permisos, licencias o documentos que los sustituyan, necesarios para acometer una obra civil asociada al despliegue de redes p\u00fablicas de comunicaciones electr\u00f3nicas de alta velocidad. Las comunidades aut\u00f3nomas y las corporaciones locales podr\u00e1n, mediante la suscripci\u00f3n del oportuno convenio de colaboraci\u00f3n con el Ministerio de Industria, Energ\u00eda y Turismo, adherirse al punto de informaci\u00f3n \u00fanico, conforme a lo establecido en el mencionado art\u00edculo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional primera. Obras civiles de importancia insignificante."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Hasta la aprobaci\u00f3n de la orden a la que se refiere el art\u00edculo\u00a06.5 de este real decreto, se considerar\u00e1n obras civiles de importancia insignificante aquellas obras civiles que supongan el despliegue de infraestructuras f\u00edsicas lineales de menos de\u00a010 metros de longitud."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional segunda. Umbrales de solicitudes de informaci\u00f3n m\u00ednima y de solicitudes de acceso a infraestructuras f\u00edsicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Mediante orden del Ministerio de Industria, Energ\u00eda y Turismo se podr\u00e1n fijar los umbrales de solicitudes de informaci\u00f3n m\u00ednima y de solicitudes de acceso a infraestructuras f\u00edsicas susceptibles de albergar redes de comunicaciones electr\u00f3nicas que un sujeto obligado debe atender mensualmente."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En los casos en que la solicitud de acceso se produzca sobre una infraestructura gestionada o cuya titularidad o derecho de uso corresponda a un operador de comunicaciones electr\u00f3nicas sujeto a obligaciones motivadas por los art\u00edculos\u00a013 y\u00a014 de la Ley\u00a09/2014, de\u00a09 de mayo, General de Telecomunicaciones, los umbrales anteriores se determinar\u00e1n respetando aquellos que ya fueron fijados debido a la aplicaci\u00f3n de dichas obligaciones para la infraestructura concreta."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional tercera. Control del gasto p\u00fablico."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Las medidas incluidas en esta norma no podr\u00e1n suponer incremento de dotaciones ni de retribuciones ni de otros gastos de personal."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n adicional cuarta. Normativa sectorial."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "En relaci\u00f3n con el tratamiento de los ingresos percibidos por los titulares de las infraestructuras en el ejercicio de la actividad como consecuencia de lo dispuesto en este real decreto, se estar\u00e1 a lo dispuesto en la legislaci\u00f3n sectorial correspondiente."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n transitoria \u00fanica. Coordinaci\u00f3n de obras civiles para las que se haya presentado la solicitud de permisos."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Lo establecido en el cap\u00edtulo III de este real decreto no se aplicar\u00e1 a las obras civiles para las que se hubiera presentado solicitud de permiso o licencia o documentaci\u00f3n que la sustituya ante las autoridades competentes, con anterioridad a su entrada en vigor."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final primera. Modificaci\u00f3n del Reglamento regulador de la actividad de instalaci\u00f3n y mantenimiento de equipos y sistemas de telecomunicaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Se modifica el art\u00edculo\u00a02.1.a) del Reglamento regulador de la actividad de instalaci\u00f3n y mantenimiento de equipos y sistemas de telecomunicaci\u00f3n, aprobado por Real Decreto\u00a0244/2010, de\u00a05 de marzo, que queda redactado como sigue:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "sangrado_2",
+        "#text": "\u00aba) Cualificaci\u00f3n t\u00e9cnica adecuada."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "sangrado_2",
+        "#text": "Se entender\u00e1 que dispone de una cualificaci\u00f3n t\u00e9cnica adecuada cualquier persona f\u00edsica que tenga la consideraci\u00f3n de profesional competente. Asimismo, se entender\u00e1 que una persona jur\u00eddica dispone de una cualificaci\u00f3n t\u00e9cnica adecuada cuando tenga dicha consideraci\u00f3n uno de los titulares de la empresa con una participaci\u00f3n igual o superior al\u00a020% del capital social, o un miembro de la plantilla con una dedicaci\u00f3n m\u00ednima efectiva de cuatro horas al d\u00eda o veinte horas semanales."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "sangrado",
+        "#text": "Ser\u00e1 profesional competente el que est\u00e9 en una de las siguientes situaciones:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "sangrado_2",
+        "#text": "a. Disponer de un t\u00edtulo universitario o de formaci\u00f3n profesional cuyo plan de estudios contenga las materias propias de la actividad de instalaci\u00f3n o mantenimiento de equipos o sistemas de telecomunicaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "sangrado",
+        "#text": "b. Disponer de un certificado de profesionalidad que acredite competencias profesionales incluidas en el Cat\u00e1logo Nacional de Cualificaciones Profesionales relativas a la actividad de instalaci\u00f3n o mantenimiento de equipos o sistemas de telecomunicaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "sangrado",
+        "#text": "c. Tener reconocida una competencia profesional adquirida por experiencia laboral o por v\u00edas no formales de formaci\u00f3n, de acuerdo con lo estipulado en el Real Decreto\u00a01224/2009, de\u00a017 de julio, de reconocimiento de las competencias profesionales adquiridas por experiencia laboral, en materias propias de la actividad de instalaci\u00f3n o mantenimiento de equipos o sistemas de telecomunicaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "sangrado_2",
+        "#text": "La Secretar\u00eda de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n aprobar\u00e1 y har\u00e1 p\u00fablicos los tipos de servicios de instalaci\u00f3n o mantenimiento de equipos o sistemas de telecomunicaci\u00f3n que se pueden prestar por raz\u00f3n de las competencias acreditadas, o del certificado de profesionalidad o t\u00edtulo acad\u00e9mico del que se disponga.\u00bb"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final segunda. Incorporaci\u00f3n de derecho de la Uni\u00f3n Europea."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Mediante este real decreto se incorpora al derecho espa\u00f1ol la Directiva\u00a02014/61/UE, del Parlamento y del Consejo, de\u00a015 de mayo de\u00a02014, relativa a medidas para reducir el coste del despliegue de las redes de comunicaciones electr\u00f3nicas de alta velocidad, con excepci\u00f3n de sus art\u00edculos\u00a08 y\u00a09."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final tercera. Fundamento constitucional."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "Este real decreto se dicta al amparo del art\u00edculo\u00a0149.1.21.\u00aa de la Constituci\u00f3n, que atribuye competencia exclusiva al Estado en materia de telecomunicaciones."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final cuarta. Facultades de desarrollo."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "1. Se autoriza al Ministro de Industria, Energ\u00eda y Turismo a dictar cuantas disposiciones resulten necesarias para el desarrollo y ejecuci\u00f3n de este real decreto."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "2. Mediante orden ministerial, podr\u00e1n introducirse variaciones al formato de informaci\u00f3n m\u00ednima descrito en los anexos I y II."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "articulo",
+        "#text": "Disposici\u00f3n final quinta. Entrada en vigor."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "El presente real decreto entrar\u00e1 en vigor al d\u00eda siguiente de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "Dado en Madrid, el\u00a09 de septiembre de\u00a02016."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "firma_rey",
+        "#text": "FELIPE R."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "firma_ministro",
+        "#text": "El Ministro de Industria, Energ\u00eda y Turismo,P. S. (Real Decreto\u00a0160/2016, de\u00a015 de abril),"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "firma_ministro",
+        "#text": "El Ministro de Econom\u00eda y Competitividad,"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "firma_ministro",
+        "#text": "LUIS DE GUINDOS JURADO"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_num",
+        "#text": "ANEXO I"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_tit",
+        "#text": "Informaci\u00f3n m\u00ednima relativa a infraestructuras f\u00edsicas susceptibles de alojar redes de comunicaciones electr\u00f3nicas de alta velocidad"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "1. Localizaci\u00f3n y trazado: se define como un punto de inicio, uno de fin y una serie de puntos intermedios, expresados todos ellos en las coordenadas del sistema establecido en el Real Decreto\u00a01071/2007, de\u00a027 de julio, por el que se regula el sistema geod\u00e9sico de referencia oficial en Espa\u00f1a. La localizaci\u00f3n deber\u00e1 ser expresada, alternativamente, de dos maneras distintas, dependiendo de los casos expuestos a continuaci\u00f3n:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) Entorno urbano: se deber\u00e1n proporcionar las coordenadas para el punto de inicio y punto final de la infraestructura, as\u00ed como para cada uno de los v\u00e9rtices que la misma presente, entendiendo como tales aquellos puntos en los que la infraestructura presente un cambio de direcci\u00f3n con respecto al tramo anterior de la misma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) Entorno rural: se deber\u00e1n dar las coordenadas para el punto de inicio de la infraestructura, el punto final de la misma y de puntos intermedios al menos cada kil\u00f3metro."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "2. Tipo y utilizaci\u00f3n de la infraestructura: dicho campo se refiere al servicio que se cubre mediante la infraestructura f\u00edsica susceptible de alojar redes de comunicaciones electr\u00f3nicas, as\u00ed como si la misma est\u00e1 proporcionando alg\u00fan servicio de manera activa en el momento de solicitar la informaci\u00f3n."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Grado de ocupaci\u00f3n: se expresar\u00e1 si en la infraestructura f\u00edsica queda o no espacio libre."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Punto de contacto: se proporcionar\u00e1 al menos, un n\u00famero de tel\u00e9fono y una direcci\u00f3n de correo electr\u00f3nico que permita a un operador que instale o explote redes p\u00fablicas de comunicaciones electr\u00f3nicas establecer contacto con el sujeto descrito en el art\u00edculo\u00a03 que sea responsable de la infraestructura f\u00edsica descrita por la informaci\u00f3n m\u00ednima."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_num",
+        "#text": "ANEXO II"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "anexo_tit",
+        "#text": "Informaci\u00f3n m\u00ednima relativa a las obras civiles previstas"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "1. Localizaci\u00f3n y trazado: se define como un punto de inicio, uno de fin y una serie de puntos intermedios, expresados todos ellos en las coordenadas del sistema establecido en el Real Decreto\u00a01071/2007, de\u00a027 de julio, por el que se regula el sistema geod\u00e9sico de referencia oficial en Espa\u00f1a. La localizaci\u00f3n deber\u00e1 ser expresada, alternativamente, de dos maneras distintas, en funci\u00f3n del tipo de suelo definido en el Real Decreto Legislativo\u00a07/2015, de\u00a030 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitaci\u00f3n Urbana:"
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "a) Suelo urbanizado: se deber\u00e1n proporcionar las coordenadas para el punto de inicio y punto final de la infraestructura, as\u00ed como para cada uno de los v\u00e9rtices que la misma presente, entendiendo como tales aquellos puntos en los que la infraestructura presente un cambio de direcci\u00f3n con respecto al tramo anterior de la misma."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "b) Suelo rural: se deber\u00e1n dar las coordenadas para el punto de inicio de la infraestructura, el punto final de la misma y de puntos intermedios al menos cada kil\u00f3metro."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo_2",
+        "#text": "2. Tipo y utilizaci\u00f3n de la infraestructura: dicho campo se refiere al servicio que se pretende cubrir mediante la construcci\u00f3n de la infraestructura f\u00edsica susceptible de alojar redes de comunicaciones electr\u00f3nicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "3. Elementos de infraestructura f\u00edsica implicados: este campo deber\u00e1 especificar qu\u00e9 elementos de obra civil est\u00e1 previsto que se instalen. Esto debe indicar la presencia de tubos, torres, postes, m\u00e1stiles, instalaciones de antenas, conductos, cajas, c\u00e1maras, arquetas, bocas de inspecci\u00f3n, armarios, y cualquier recurso asociado que permita alojar redes de comunicaciones electr\u00f3nicas."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "4. Fechas: se debe proporcionar una previsi\u00f3n de fecha de inicio y de fecha de fin en las que se ejecute la obra. Tambi\u00e9n se informar\u00e1 sobre la fecha en que se realizar\u00e1 la primera presentaci\u00f3n de solicitud de permiso, licencia o de la documentaci\u00f3n que la sustituya ante las autoridades competentes."
+      },{
+        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+        "@class": "parrafo",
+        "#text": "5. Punto de contacto: se proporcionar\u00e1 al menos, un n\u00famero de tel\u00e9fono y una direcci\u00f3n de correo electr\u00f3nico que permita a un operador que instale o explote redes p\u00fablicas de comunicaciones electr\u00f3nicas establecer contacto con el sujeto descrito el art\u00edculo\u00a03 que sea responsable de la infraestructura f\u00edsica descrita por la informaci\u00f3n m\u00ednima."
+      }
+    ]
+  }
+}
+}

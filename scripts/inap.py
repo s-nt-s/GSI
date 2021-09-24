@@ -10,7 +10,7 @@ from .core.web import FF, Web
 
 re_sp = re.compile(r"\s+")
 re_test = re.compile(r"\bTest\b", re.IGNORECASE)
-re_tema = re.compile(r"^\s*Tema\s+\d+\..+")
+re_tema = re.compile(r"^\s*Tema\s+\d+\s*[\.:\-\s]*(.+)", re.IGNORECASE)
 re_ley = re.compile(r"(Reglamento \(?UE\)?|Ley Org[aá]nica|Real Decreto|RD|Ley|Decreto|Reglamento|LO) (\d+/\d+)", re.IGNORECASE)
 
 def parse_ley(pre, num):
@@ -77,15 +77,34 @@ class CrawlInap:
                 done.add(url)
         return r
 
+    def get_text_nodes(self, tag, rg):
+        main = self.w.soup.select_one("#region-main")
+        for p in main.findAll(tag):
+            txt = p.get_text().strip()
+            txt = re_sp.sub(" ", txt)
+            if rg.match(txt):
+                txt = rg.sub(r"\1", txt)
+                yield txt.strip()
+
+
     def get_bloques(self):
+        def get_temas(node):
+            for p in node.findAll("p"):
+                txt = p.get_text().strip()
+                txt = re_sp.sub(" ", txt)
+                if re_tema.match(txt):
+                    txt = re_tema.sub(r"\1", txt)
+                    yield txt.strip()
         blq = 0
         URLS = self.get_urls("div.content h3.section-title a")
         for bloque, url in URLS:
+            print("")
+            print(bloque)
+            print(url)
             self.w.get(url)
             TEST = self.get_urls("div.content a.aalink", text=re_test)
             if TEST:
-                TEMAS = self.w.soup.select_one("#region-main").findAll("p", text=re_tema)
-                TEMAS = [re_sp.sub(" ", i.get_text().split(".", 1)[-1]).strip() for i in TEMAS]
+                TEMAS = list(self.get_text_nodes("p", re_tema))
                 blq = blq + 1
                 titulo = bloque.split("-", 1)[-1]
                 titulo = titulo.strip()
@@ -96,7 +115,9 @@ class CrawlInap:
                     url=url,
                     temas=[]
                 )
+                print(len(TEMAS), "temas", len(TEST), "test")
                 for (i, ((_, href), txt)) in enumerate(zip(TEST, TEMAS)):
+                    print(" ", "%2d" % (i+1), txt)
                     t = Munch(
                         tema=i+1,
                         titulo=txt,
