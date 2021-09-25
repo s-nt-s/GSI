@@ -65,6 +65,10 @@ X.25 PAD
 https://es.wikipedia.org/wiki/Norma_X.25
 Norma X.25
 
+r'[Ss]egmento TCP
+https://es.wikipedia.org/wiki/Segmento_TCP
+Unidad de datos del protocolo TCP
+
 ATP
 https://es.wikipedia.org/wiki/AppleTalk
 AppleTalk (obsoleto, se sustituyo por TCP/IP)
@@ -196,6 +200,7 @@ Línea de abonado digital
 
 Ethernet
 https://es.wikipedia.org/wiki/Ethernet
+Estándar de redes de área local para computadoras
 
 ATM
 https://es.wikipedia.org/wiki/Modo_de_transferencia_as%C3%ADncrona
@@ -222,3 +227,30 @@ https://es.wikipedia.org/wiki/NetBIOS
 RPC
 https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remoto
 Llamada a procedimiento remoto
+
+i'ARCnet
+https://es.wikipedia.org/wiki/ARCNET
+Attached Resource Computer NETwork (en desuso en favor de Ethernet)
+
+i'Token Ring
+https://es.wikipedia.org/wiki/Token_Ring
+Topología lógica en anillo y técnica de acceso de paso de testigo (en desuso en favor de Ethernet)
+
+TCP
+https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n
+Protocolo de control de transmisión (Transmission Control Protocol)
+
+UDP
+https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario
+Protocolo de datagramas de usuario (User Datagram Protocol)
+
+HTTP(s)
+HTTP y/o HTTPS
+
+FTPES
+https://en.wikipedia.org/wiki/FTPS#Explicit
+FTP con SSL y modo explicito
+
+BOOTP
+https://es.wikipedia.org/wiki/Protocolo_de_arranque
+Protocolo de arranque (Boot strap Protocol) sobre UDP utilizado por los clientes de red para obtener su dirección IP automáticamente

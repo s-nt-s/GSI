@@ -475,6 +475,100 @@ La mayoría de las bibliotecas para el desarrollo de aplicaciones con GUI, como 
 * Esclavo-Maestro
 * Control centralizado y distribuido
 
+# Antipatrones
+
+## Gestión de proyectos
+
+* Humo y espejos (smoke and mirrors): Mostrar cómo será una funcionalidad antes de que esté implementada.
+* Mala gestión (bad management)
+* Software inflado (software bloat): Permitir que las sucesivas versiones de un sistema exijan cada vez más recursos.
+
+## Diseño de software
+
+* Base de datos como comunicador de procesos (database as an IPC)
+* BOMQ (Batch Over MQ): Abuso en el empleo de integración basada en mensajes en tiempo real para transferencias esporádicas de gran tamaño en segundo plano.
+* Clase Gorda: Dotar a una clase con demasiados atributos y/o métodos, haciéndola responsable de la mayoría de la lógica de negocio.
+* Botón mágico (magic pushbutton): Tender, desarrollando interfaces, a programar la lógica de negocio en los métodos de interacción, implementando los resultados de las acciones del usuario en términos no suficientemente abstractos.
+* Carrera de obstáculos (race hazard): Incapacidad de prever las consecuencias de diferentes sucesiones de eventos.
+* Entrada chapuza (input kludge): No especificar e implementar el manejo de entradas inválidas.
+* Fábrica de combustible (gas factory): Diseñar de manera innecesariamente compleja.
+* Gran bola de lodo (big ball of mud): Construir un sistema sin estructura definida.
+* Interfaz inflada (interface bloat): Pretender que una interfaz sea tan potente que resulta extremadamente difícil de implementar.
+* Inversión de abstracción (abstraction inversion): No exponer las funcionalidades implementadas que los usuarios necesitan, forzando a que se reimplementen a más alto nivel.
+* Punto de vista ambiguo (ambiguous viewpoint): Presentar un modelo sin concretar ciertos aspectos, postergando así decisiones conflictivas.
+* Re-dependencia (re-coupling): Introducir dependencias innecesarias entre objetos.
+* Sistema de cañerías de calefacción (stovepipe system): Construir un sistema difícilmente mantenible, ensamblando componentes poco relacionados.
+* Seguridad por ofuscación: Generar sistemas que ocultan o hacen contra intuitivos los funcionamiento de los componentes en la entrada, en la respuesta o en los errores. Convirtiendo las herramientas o servicios de desarrollo en cajas mágicas.
+* Integración dependiente continua: Realizar procesos de control para cada paso del desarrollo que dependan de la validación de terceros.
+
+### Orientado a objetos
+
+* Acoplamiento secuencial (sequential coupling): Construir una clase que necesita que sus métodos se invoquen en un orden determinado.
+* BaseBean: Heredar funcionalidad de una clase utilidad en lugar de delegar en ella.
+* Fallo de clase vacía (empty subclass failure): Clase que no supera el test de la subclase vacía, es decir, que se comporta de manera diferente cuando se invoca desde una subclase que no añade modificación alguna.
+* Llamar a super (callsuper): Obligar a las subclases a llamar a un método de la superclase que ha sido sobrescrito.
+* Modelo de dominio anémico (anemic domain model): Usar un modelo del dominio sin ninguna lógica de negocio. Esto no es un enfoque orientado a objetos porque cada objeto debería tener tanto propiedades como comportamiento asociado.
+* Objeto sumidero (object cesspool): Reutilizar objetos no adecuados realmente para el fin que se persigue.
+* Objeto todopoderoso (god object): Concentrar demasiada funcionalidad en una única parte del diseño (clase).
+* Poltergeist (informática): Emplear objetos cuyo único propósito es pasar la información a terceros objetos.
+* Problema del círculo-elipse (circle-ellipse problem): Crear variables de tipo pensando en los valores de posibles subtipos.
+* Problema del yoyó (yo-yo problem): Construir estructuras (ej: de herencia) que son difíciles de comprender debido a su excesiva fragmentación.
+* Singletonitis: Abuso de la utilización del patrón singleton.
+* YAFL (yet another fucking layer, y otra maldita capa más) o *Código Lasagna*: Añadir capas innecesarias a un programa, biblioteca o framework.
+
+## Programación
+
+* Nomenclatura heroica (heroic naming): Los nombres de interfaces, clases, propiedades, métodos... dan a entender que el conjunto esta correctamente estandarizado con la ingeniería del software pero en realidad oculta una implementación anárquica.
+* Acción a distancia (action at a distance): Provocar la interacción no prevista de componentes muy distantes de un sistema.
+* Acumular y disparar (accumulate and fire): Establecer una colección de variables globales para ser usadas por un conjunto de subrutinas.
+* Ancla del barco (boat anchor): Retener partes del sistema que ya no tienen utilidad.
+* Bucle activo (busy spin): Utilizar espera activa cuando existen alternativas.
+* Código duro (hard code): Hacer supuestos sobre el entorno del sistema en demasiados lugares de la implementación.
+* Complejidad no indispensable (accidental complexity): Dotar de complejidad innecesaria a una solución.
+* Código espagueti (spaghetti code): Estructuras de código difícilmente comprensibles.
+* Código ravioli (ravioli code): Multitud de objetos muy débilmente conectados.
+* Comprobación de tipos en lugar de interfaz (checking type instead of interface): Comprobar que un objeto es de un tipo concreto cuando lo único que se necesita es verificar si cumple un contrato determinado.
+* Confianza ciega (blind faith): Descuidar la comprobación de los resultados que produce una subrutina, o bien de la efectividad de un parche o solución a un problema.
+* Lava seca (lava flow): Código muerto e información de diseño olvidada que permanecen congelados en un diseño cambiante.
+* Lógica super-booleana (superboolean logic): Emplear comparaciones o abstracciones de la lógica booleana innecesarias.
+* Manejo de excepciones (exception handling): Emplear el mecanismo de manejo de excepciones del lenguaje para implementar la lógica general del programa.
+* Manejo de excepciones inútil (useless exception handling): Introducir condiciones para evitar que se produzcan excepciones en tiempo de ejecución, pero lanzar manualmente una excepción si dicha condición falla.
+* Números mágicos (magic numbers): Incluir en los algoritmos números concretos sin explicación aparente.
+* Ocultación de errores (error hiding): Capturar un error antes de que se muestre al usuario, y reemplazarlo por un mensaje sin importancia o ningún mensaje en absoluto.
+* Packratting: Consumir memoria en exceso debido a no liberar objetos reservados dinámicamente una vez ya han dejado de ser necesarios.
+* Programación por excepción (coding by exception): Añadir trozos de código para tratar casos especiales a medida que se identifican.
+* Secuencia de bucle por casos (Loop-switch sequence): Programar un conjunto de pasos secuenciales usando un bucle en combinación con una estructura de control por casos.
+* Cadenas mágicas (magic strings): Incluir cadenas de caracteres determinadas en el código fuente para hacer comparaciones, como tipos de eventos, etc.
+* Código ñoqui (gnocchi code): Incluir código que realmente no hacen nada ni aportan al sistema.
+
+## Metodológicos
+
+* Bala de plata (silver bullet): Asumir que nuestra solución técnica favorita puede resolver un problema mucho mayor.
+* Desarrollo conducido por las pruebas/errores (tester/bug driven development): Permitir que un proyecto software avance a base de extraer sus nuevos requisitos de los informes de errores.
+* Desfactorización (de-factoring): Eliminar funcionalidad y reemplazarla con documentación.
+* Factor de improbabilidad (improbability factor): Asumir que es improbable que un error conocido cause verdaderos problemas.
+* Martillo de oro (golden hammer): Asumir que nuestra solución favorita es universalmente aplicable.
+* Optimización prematura (premature optimization): Realizar optimizaciones sin disponer de la información suficiente para hacerlo con garantías, sacrificando decisiones de diseño.
+* Programación de copiar y pegar (copy and paste programming): Programar copiando y modificando código existente en lugar de crear soluciones genéricas.
+* Programación por permutación (programming by permutation): Tratar de aproximarse a una solución modificando el código una y otra vez para ver si acaba por funcionar.
+* Reinventar la rueda (reinventing the wheel)
+* Reinventar la rueda cuadrada (reinventing the square wheel): Crear una solución pobre cuando ya existe una buena.
+
+## Gestión de la configuración
+
+* Conflicto de extensiones (extension conflict): Problemas con diferentes extensiones que tratan de gestionar las mismas partes del sistema (específico de Mac OS).
+* Infierno de dependencias (dependency hell): Escenario de problemas producidos por las versiones de otros productos que se necesitan para hacer funcionar un tercero:
+    * Infierno DLL (DLL hell): Específico de Microsoft Windows
+    * Infierno JAR (JAR hell): Típicamente causados por la falta de comprensión del modelo de carga de clases
+
+## Otros
+
+* Contenedor mágico (magic container): La implementación de métodos que intentan ser tan flexibles como para adaptar su comportamiento a multitud de circunstancias, sobrepasando el umbral de una mantenibilidad adecuada del mismo.
+* Descomposición funcional (functional decomposition): Traducir un programa de un lenguaje estructurado a uno OO usando una sola clase y muchos métodos privados.
+* Embudo de excepciones (exception funnel): Atrapar una excepción e ignorarla, sin reportarlo.
+* Moneda en punto flotante (floating point currency): Utilizar una representación en punto flotante para valores que representan dinero, lo que puede provocar pérdida de precisión.
+* Valor por defecto indefinido (zero means null): Escoger un valor arbitrario para representar la indefinición, sin garantizar que ese valor no puede realmente ocurrir.
+
 # Bibliografía
 
 * [refactoring.guru - El catálogo de patrones de diseño](https://refactoring.guru/es/design-patterns/catalog)

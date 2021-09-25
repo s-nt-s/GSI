@@ -54,7 +54,54 @@ Figura 1: Viaje de los datos a través del modelo OSI
 
 Tabla 2: Protocolos según capa
 
+## TCP y UDP
+
+TCP y UPD son los principales protocolos de transporte de la pila de protocolos TCP/IP.
+
+**TCP** es usado por aplicaciones como HTTP(s), POP3, SMTP, FTP, FTPES, SFTP, SSH etc.
+Sus características son:
+
+* garantiza que los datos serán entregados en su destino sin errores y en el mismo
+orden en que se transmitieron (reordena los paquetes antes pasar los datos a la capa de aplicación)
+* proporciona acuse de recibo (**ACK**)
+* los dos puntos anteriores posibilitan que los routers (capa de red) solo tienen
+que enviar los datos en forma de segmentos, sin preocuparse del monitoreo de datos
+* usa el concepto de número de **puerto** para identificar a las aplicaciones emisoras y receptoras. Hay 65536 puertos (16 bits) divididos en tres tipos de puertos:
+    1. `____0 - _1023` **bien conocidos**: asignados por la IANA y usados por el sistema o por procesos con privilegios.
+    Las aplicaciones que usan este tipo de puertos son ejecutadas como servidores y se quedan a la escucha de conexiones.
+    Ej: FTP (21), SSH (22), Telnet (23), SMTP (25) y HTTP (80)
+    2. `_1024 - 49151` **registrados**: para aplicaciones de usuario de forma temporal cuando conectan con los servidores, pero también pueden representar servicios que hayan sido registrados por un tercero
+    3. `49152 - 65535` **dinámicos/privados**: utilizados como puertos temporales, sobre todo por los clientes al comunicarse con los servidores.
+* permite el monitoreo del flujo de los datos y así evita la saturación de la red
+* permite que los datos se formen en segmentos de longitud variada para *entregarlos* al protocolo IP
+* permite multiplexar los datos, es decir, que la información que viene de diferentes fuentes (ej: aplicaciones) en la misma línea pueda circular simultáneamente
+* la unidad de datos es el segmento TCP, el cual tiene una sobrecarga de 20 bytes
+* es un protocolo orientad a la conexión ya que:
+    * el cliente y el servidor deben anunciarse y aceptar la conexión antes de comenzar a transmitir los datos
+    * permite comenzar y finalizar la comunicación amablemente
+    * se compone de las siguientes etapas:
+        1. Establecimiento de conexión (3-way handshake)
+        2. Transferencia de datos
+        3. Fin de la conexión.
+
+**UDP** es usado por aplicaciones como DHCP, BOOTP, DNS, NFS, RCP y de transmisión de audio
+y vídeo en tiempo real. Sus caracteristicas son:
+
+* no emplea ninguna sincronización entre el origen y el destino (no es *fiable*):
+    * permite el envío de datagramas sin que se haya establecido previamente una conexión
+    * no tiene confirmación ni control de flujo, por lo que los paquetes pueden adelantarse unos a otros
+    * no hay confirmación de llegada, por lo tanto no se sabe si se han perdido datagramas
+* trabaja con paquetes o datagramas enteros (no con bytes individuales como TCP) a los cuales solo se les añade una sobrecarga de 8 bytes
+* usa el mismo sistema de puertos que TCP
+
+Ya que tanto TCP como UDP circulan por la misma red, puede ocurrir que el aumento
+del tráfico UDP dañe el correcto funcionamiento de las aplicaciones TCP.
+Por defecto, TCP pasa a un segundo lugar para dejar a los datos en tiempo real
+usar la mayor parte del ancho de banda. El problema es que ambos son importantes
+para la mayor parte de las aplicaciones, por lo que encontrar el equilibrio entre
+ambos es crucial. 
 
 # Bibliografía
 
 * PreparaTic27 - Pack1/110
+* [redeszone.net - ¿Qué protocolo es mejor?: TCP vs UDP, descubre cuándo utilizar cada uno](https://www.redeszone.net/tutoriales/internet/tcp-udp-caracteristicas-uso-diferencias/)
