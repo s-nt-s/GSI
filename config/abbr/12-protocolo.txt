@@ -254,3 +254,18 @@ FTP con SSL y modo explicito
 BOOTP
 https://es.wikipedia.org/wiki/Protocolo_de_arranque
 Protocolo de arranque (Boot strap Protocol) sobre UDP utilizado por los clientes de red para obtener su dirección IP automáticamente
+
+NFS
+https://es.wikipedia.org/wiki/Network_File_System
+Sistema de archivos de red (Network File System)
+
+MSS
+https://es.wikipedia.org/wiki/Tama%C3%B1o_M%C3%A1ximo_de_Segmento
+Tamaño Máximo de Segmento TCP
+
+Puertos de red
+https://es.wikipedia.org/wiki/Anexo:Puertos_de_red
+
+IP
+https://es.wikipedia.org/wiki/Protocolo_de_internet
+Protocolo de Internet

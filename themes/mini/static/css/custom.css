@@ -88,3 +88,22 @@ table.tabla_patrones th {
 table.tabla_patrones tbody tr:hover {
   background-color: unset !important;
 }
+
+body.apuntes_b2_osi #tb3 thead th,
+body.apuntes_b2_osi #tb4 thead th,
+body.apuntes_b2_osi #tb6 thead th {
+  min-width: 1.2em;
+  text-align: center;
+}
+body.apuntes_b2_osi #tb3 td,
+body.apuntes_b2_osi #tb4 td,
+body.apuntes_b2_osi #tb6 td {
+  text-align: center;
+}
+
+body.apuntes_b2_osi #tb3 tbody tr:last-child td, body.apuntes_b2_osi #tb3 tbody tr:last-child th,
+body.apuntes_b2_osi #tb4 tbody tr:last-child td, body.apuntes_b2_osi #tb4 tbody tr:last-child th,
+body.apuntes_b2_osi #tb6 tbody tr:last-child td, body.apuntes_b2_osi #tb6 tbody tr:last-child th {
+  opacity: 0.5;
+  border: 1px dotted grey;
+}

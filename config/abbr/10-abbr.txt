@@ -1770,3 +1770,19 @@ k vecinos más cercanos
 i'Clasificador bayesiano ingenuo|Naive Bayes
 https://es.wikipedia.org/wiki/Clasificador_bayesiano_ingenuo
 Clasificador bayesiano ingenuo
+
+Checksum
+https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n
+Suma de verificación
+
+i'paquetes conmutados|Conmutación de paquetes
+https://es.wikipedia.org/wiki/Conmutaci%C3%B3n_de_paquetes
+Método de agrupar los datos transmitidos a través de una red digital
+
+best-effort delivery
+https://es.wikipedia.org/wiki/Entrega_de_mejor_esfuerzo
+Entrega de mejor esfuerzo
+
+MTU
+https://es.wikipedia.org/wiki/Unidad_m%C3%A1xima_de_transferencia
+Unidad máxima de transferencia (Maximum Transmission Unit)

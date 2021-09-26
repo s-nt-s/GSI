@@ -2,7 +2,7 @@
 title: Modelo OSI y TCP/IP
 status: draft
 replace:
-  "Segmento": '<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Segmentaci%C3%B3n_de_paquetes">Segmento</a>'
+  "Segmento<br/>": '<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Segmentaci%C3%B3n_de_paquetes">Segmento</a><br/>'
   "Trama": '<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Trama_de_red">Trama</a>'
 ---
 
@@ -44,7 +44,7 @@ Figura 1: Viaje de los datos a través del modelo OSI
 
 | # | Capa         | Protocolos |
 |--:|--------------|------------|
-| 7 | Aplicación   | FTP, DNS, DHCP, HTTP(s), POP3, SMTP, SSH, Telnet, TFTP, LDAP, XMPP |
+| 7 | Aplicación   | FTP, DNS, DHCP, HTTP(s), POP3, SNMP, SMTP, SSH, Telnet, TFTP, LDAP, XMPP |
 | 6 | Presentación | ASCII, XML, AFP, TLS, ICA, LPP, NCP, NDR, Tox, XDR, X.25 PAD |
 | 5 | Sesión       | ADSP, ASP, H.245, iSNS, L2F, L2TP, NetBIOS, PAP, PPTP, ONC/RPC, RTCP, SMPP, SCP, SOCKS, ZIP, SDP |
 | 4 | Transporte   | **TCP**, **UDP**, ATP, CUDP, DCCP, FCP, IL-Protocol, MPTCP, NORM, RDP, RUDP, SCTP, SPX, SST, µTP |
@@ -54,9 +54,7 @@ Figura 1: Viaje de los datos a través del modelo OSI
 
 Tabla 2: Protocolos según capa
 
-## TCP y UDP
-
-TCP y UPD son los principales protocolos de transporte de la pila de protocolos TCP/IP.
+## TCP
 
 **TCP** es usado por aplicaciones como HTTP(s), POP3, SMTP, FTP, FTPES, SFTP, SSH etc.
 Sus características son:
@@ -66,23 +64,71 @@ orden en que se transmitieron (reordena los paquetes antes pasar los datos a la 
 * proporciona acuse de recibo (**ACK**)
 * los dos puntos anteriores posibilitan que los routers (capa de red) solo tienen
 que enviar los datos en forma de segmentos, sin preocuparse del monitoreo de datos
-* usa el concepto de número de **puerto** para identificar a las aplicaciones emisoras y receptoras. Hay 65536 puertos (16 bits) divididos en tres tipos de puertos:
-    1. `____0 - _1023` **bien conocidos**: asignados por la IANA y usados por el sistema o por procesos con privilegios.
-    Las aplicaciones que usan este tipo de puertos son ejecutadas como servidores y se quedan a la escucha de conexiones.
-    Ej: FTP (21), SSH (22), Telnet (23), SMTP (25) y HTTP (80)
-    2. `_1024 - 49151` **registrados**: para aplicaciones de usuario de forma temporal cuando conectan con los servidores, pero también pueden representar servicios que hayan sido registrados por un tercero
-    3. `49152 - 65535` **dinámicos/privados**: utilizados como puertos temporales, sobre todo por los clientes al comunicarse con los servidores.
 * permite el monitoreo del flujo de los datos y así evita la saturación de la red
 * permite que los datos se formen en segmentos de longitud variada para *entregarlos* al protocolo IP
 * permite multiplexar los datos, es decir, que la información que viene de diferentes fuentes (ej: aplicaciones) en la misma línea pueda circular simultáneamente
-* la unidad de datos es el segmento TCP, el cual tiene una sobrecarga de 20 bytes
-* es un protocolo orientad a la conexión ya que:
+* la unidad de datos es el segmento TCP, el cual tiene una sobrecarga mínima de 20 bytes
+* es un protocolo orientado a la conexión ya que:
     * el cliente y el servidor deben anunciarse y aceptar la conexión antes de comenzar a transmitir los datos
     * permite comenzar y finalizar la comunicación amablemente
     * se compone de las siguientes etapas:
         1. Establecimiento de conexión (3-way handshake)
         2. Transferencia de datos
         3. Fin de la conexión.
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/98/Tcp-handshake.svg)
+
+Figura: 3-way handshake
+
+### Cabecera Segmento TCP
+
+| Octeto | Bit    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
+|-------:|-------:|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|  **0** |  **0** | Puerto origen                         |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<| Puerto destino                                  |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|  **4** | **32** | Número de secuencia                                                                   |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|  **8** | **64** | Nª de acuse de recibo (si ACK esta marcado)                                           |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **12** | **96** | Longitud de Cabecera |<|<|<| Resevado |<|<| <span class="vertical">NS</span> | <span class="vertical">CWR</span> | <span class="vertical">ECE</span> | <span class="vertical">URG</span> | <span class="vertical">ACK</span> | <span class="vertical">PSH</span> | <span class="vertical">RST</span> | <span class="vertical">SYN</span> | <span class="vertical">FIN</span> | Tamaño de ventana |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **16** |**128** | Checksum                              |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<| Puntero urgente (si URG esta marcado)           |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **20** |**160** | Opciones (si *Longitud de Cabecera* > 5, relleno con 0 al final si es necesario)      |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|**...** |**...** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **60** |**480** | *esto ya no es cabecera, aquí - como tarde - ya empezarían los datos*                 |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+
+Tabla 3: Cabecera de Segmento TCP
+
+* el número de secuencia identifica el primer byte del campo de datos que enviá
+el segmento, al primero se le llama ISN (Initial Sequence Number) y lo elige el servidor
+* el número ACK indica el próximo numero de secuencia que se esta dispuesto a recibir,
+por lo tanto significa que el `número ACK - 1` es el número de secuencia del último
+segmento recibido
+* el campo longitud de cabecera es necesario ya que el tamaño puede variar de
+20 a 60 bytes en función de cuanta información se añada en el campo opciones.
+El valor viene en *número de palabras de 32-bit*, es decir, 5 equivale a 160 bit o 20 bytes.
+* el campo reservado viene a `000` y se guarda para usos futuros
+* lo campos de control son cada uno de 1 bit y se consideran marcados cuando estan a `1`:
+    * URG: hay datos urgentes y el campo urgent pointer indica la cantidad de datos urgentes que se encuentran en el segmento
+    * ACK: solo viene a 0 en el primer mensaje para indicar que el campo ACK ha de ser ignorado
+    * PSH: invoca la función push en el protocolo, la cual consiste en entregar a la aplicación todos los datos que están en la memoria intermedia de recepción sin esperar a completarla con datos adicionales
+    * RST: hace un reset de la conexión (usado cuando hay algún problema, ej: paquetes perdidos)
+    * SYN: resincroniza los números de secuencia
+    * FIN: el transmisor ha acabado la conexión
+* el campo ventana informa sobre cuantos bytes se esta dispuesto a recibir en
+el paquete de respuesta
+* el campo urgent pointer indica (si URG=1) que los datos comprendidos desde el
+primer byte hasta el indicado por este campo son urgentes y debería procesarse
+lo antes posible
+* el campo opciones TCP permite añadir campos a la cabecera para:
+    * marcar con un timestamp el momento de la transmisión para monitorar los retrasos que experimentan los segmentos desde el origen hasta el destino
+    * aumentar el tamaño de la ventana
+    * indicar el MSS que el origen está preparado para recibir (se especifica durante el establecimiento de la conexión)
+
+Nota: Que el número de secuencia *identifique el primer byte del campo de datos*
+significa que si por ejemplo el número de secuencia de un paquete es el 12 y
+contiene 3 bytes de datos, ese 12 identifica el 1º byte del los 3 y por lo tanto
+el 2º byte sería el 13, el 3º byte el 14, y si todo va bien el paquete sería
+respondido con otro paquete donde el ACK sería 15 ya que el último número de
+secuencia del último byte recibido ha sido el 14.
+
+## UDP
 
 **UDP** es usado por aplicaciones como DHCP, BOOTP, DNS, NFS, RCP y de transmisión de audio
 y vídeo en tiempo real. Sus caracteristicas son:
@@ -92,16 +138,193 @@ y vídeo en tiempo real. Sus caracteristicas son:
     * no tiene confirmación ni control de flujo, por lo que los paquetes pueden adelantarse unos a otros
     * no hay confirmación de llegada, por lo tanto no se sabe si se han perdido datagramas
 * trabaja con paquetes o datagramas enteros (no con bytes individuales como TCP) a los cuales solo se les añade una sobrecarga de 8 bytes
-* usa el mismo sistema de puertos que TCP
+* solo añade multiplexado de aplicación y suma de verificación de la cabecera y la carga útil
 
 Ya que tanto TCP como UDP circulan por la misma red, puede ocurrir que el aumento
 del tráfico UDP dañe el correcto funcionamiento de las aplicaciones TCP.
 Por defecto, TCP pasa a un segundo lugar para dejar a los datos en tiempo real
 usar la mayor parte del ancho de banda. El problema es que ambos son importantes
 para la mayor parte de las aplicaciones, por lo que encontrar el equilibrio entre
-ambos es crucial. 
+ambos es crucial.
+
+### Cabecera Datagrama UDP
+
+| Octeto | Bit    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
+|-------:|-------:|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|  **0** |  **0** | Puerto origen                         |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<| Puerto destino                                  |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|  **4** | **32** | Longitud del Mensaje                  |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<| Checksum                                        |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|  **8** | **64** | *esto ya no es cabecera, aquí ya empezarían los datos*                                |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+
+Tabla 4: Datagrama UDP
+
+* el Puerto de origen es opcional siendo 0 el valor nulo
+* el campo Checksum:
+    * es opcional en IPv4 y obligatorio en IPv6
+    * se calcula con el datagrama completo más una pseudo-cabecera IP (IP origen y destino, protocolo y longitud del paquete UDP) rellenando con ceros hasta llegar a un multiplico de 16
+* el campo longitud indica la longitud en bytes del datagrama UDP, incluyendo la cabecera UDP
+* el campo checksum es opcional y protege tanto la cabecera como los datos UDP
+
+## Puertos de red
+
+Tanto TCP como UDP usan el concepto de número de **puerto** para identificar a las
+aplicaciones emisoras y receptoras.
+
+Hay 65536 puertos (16 bits) divididos en tres tipos de puertos:
+
+1. `____0 - _1023` **bien conocidos**: asignados por la IANA y usados por el sistema o por procesos con privilegios.
+Las aplicaciones que usan este tipo de puertos son ejecutadas como servidores y se quedan a la escucha de conexiones.
+Ej: FTP (21), SSH (22), Telnet (23), SMTP (25) y HTTP (80)
+2. `_1024 - 49151` **registrados**: para aplicaciones de usuario de forma temporal cuando conectan con los servidores, pero también pueden representar servicios que hayan sido registrados por un tercero
+3. `49152 - 65535` **dinámicos/privados**: utilizados como puertos temporales, sobre todo por los clientes al comunicarse con los servidores.
+
+Nota: una aplicación puede estar usando simultáneamente el mismo puerto para TCP y UDP
+ya que técnicamente son dos puertos separados aunque tengan el mismo numero.
+
+| UDP   | TCP   | Nombre | Descriptción |
+|------:|------:|--------|--------------|
+|       |     1 | tcpmux | Multiplexor TCP |
+|       |     7 | echo   | Responde con eco a llamadas remotas  |
+|       |    11 | systat | Servicio del sistema para listar los puertos conectados |
+|       |    13 | daytime | Envía la fecha y hora actuales |
+|       |    17 | qotd | Envía la cita del día |
+|       |    10 | ftpS-data | FTPS  |
+|       |    21 | ftp-data | FTP |
+|       |    22 | ssh | SSH, scp, SFTP |
+|       |    23 | telnet | Manejo remoto de equipo, inseguro |
+|       |    25 | smtp | Protocolo Simple de Transferencia de Correo |
+|       |    37 | time | Sincroniza hora y fecha |
+|       |    42 | nameserver | Servicio de nombres de Internet |
+|       |    43 | nickname | Servicio de directorio WHOIS |
+|    53 |    53 | domain | Sistema de Nombres de Dominio, por ejemplo BIND |
+|       |    63 | whois++ | Servicios extendidos de WHOIS |
+|    67 |       | bootps | BOOTP servidor, también usado por DHCP |
+|    68 |       | bootpc | BOOTP cliente, también usado por DHCP |
+|    69 |       | tftp | TFTP |
+|       |    70 | gopher | Gopher |
+|       |    80 | http | HTTP |
+|       |    88 | kerberos | Kerberos Agente de autenticación |
+|       |   101 | hostname | Servicios de nombres de host en máquinas SRI-NIC |
+|       |   107 | rtelnet | Telnet remoto |
+|       |   109 | pop2 | POP2 |
+|       |   110 | pop3 | POP3 |
+|       |   115 | sftp | [SFTP (Simple FTP)](https://en.wikipedia.org/wiki/File_Transfer_Protocol#Simple_File_Transfer_Protocol), con confundir con SFTP (SSH File Transfer Protocol) |
+|       |   119 | nntp | NNTP usado en los grupos de noticias de usenet  |
+|   123 |       | ntp | NTP Protocolo de sincronización de tiempo |
+|   137 |       | netbios-ns | NetBIOS Servicio de nombres |
+|   138 |       | netbios-dgm | NetBIOS Servicio de envío de datagramas |
+|       |   139 | netbios-ssn | NetBIOS Servicio de sesiones |
+|       |   143 | imap| IMAP4 Internet Message Access Protocol |
+|   161 |       | snmp | SNMP Simple Network Management Protocol |
+|   162 |       | snmptrap | SNMP-trap |
+|       |   177 | xdmcp | XDMCP Protocolo de gestión de displays en X11 |
+|       |   194 | irc | Internet Relay Chat  |
+|       |   199 | smux | SNMP UNIX Multiplexer |
+|       |   209 | qmtp | Protocolo de transferencia rápida de correo (QMTP) |
+|       |   220 | imap3 | INAP3 |
+|       |   389 | ldap | LDAP Protocolo de acceso ligero a Directorios  |
+|       |   443 | https | HTTPS/SSL |
+|       |   445 | microsoft-ds | Microsoft-DS (Active Directory) |
+|       |   465 | smtps | SMTP Sobre SSL |
+|   500 |       |  | IPSec ISAKMP, Autoridad de Seguridad Local  |
+|   514 |       |  | syslog usado para logs del sistema |
+|   520 |       | rip | RIP Protocolo de Información de Enrutamiento |
+|   521 |       | ripng | RIP para IPv6 |
+|       |   587 | smtp | SMTP sobre TLS |
+|       |   631 |  | CUPS sistema de impresión de Unix |
+|       |   993 | imaps | IMAP4 sobre SSL |
+|       |   995 |  | POP3 sobre SSL |
+|       |  1080 |  | SOCKS Proxy |
+|  1194 |       |  | OpenVPN Puerto por defecto en NAS Synology y QNAP |
+|       |  1352 |  | IBM Lotus Notes/Domino RCP |
+|       |  1433 |  | Microsoft-SQL-Server |
+|       |  1434 |  | Microsoft-SQL-Monitor |
+|       |  1494 |  | Citrix MetaFrame Cliente ICA |
+|       |  1521 |  | Oracle puerto de escucha por defecto |
+|  1701 |   |  | Enrutamiento y Acceso Remoto para VPN con L2TP |
+|  1720 |   |  | H.323 |
+|       |  1723 |  | Enrutamiento y Acceso Remoto para VPN con PPTP.  |
+|       |  1761 |  | Novell Zenworks Remote Control utility  |
+|       |  1883 |  | MQTT protocol |
+|       |  2049 |  | NFS Archivos del sistema de red |
+|       |  2082 |  | cPanel puerto por defecto  |
+|       |  2083 |  | cPanel puerto por defecto sobre SSL  |
+|  2427 |   |  | Cisco MGCP  |
+|       |  3128 |  | HTTP usado por web caches y por defecto en Squid cache  |
+|       |  3306 |  | MySQL sistema de gestión de bases de datos  |
+|       |  3389 |  | RDP (Remote Desktop Protocol) Terminal Server  |
+|       |  3396 |  | Novell agente de impresión NDPS  |
+|       |  3690 |  | Subversion  |
+|       |  4200 |  | Angular, puerto por defecto  |
+|       |  5000 |  | Universal plug-and-play |
+|  5060 |   |  | Session Initiation Protocol (SIP) |
+|       |  5222 |  | Jabber/XMPP conexión de cliente |
+|       |  5223 |  | Jabber/XMPP puerto por defecto para conexiones de cliente SSL |
+|       |  5269 |  | Jabber/XMPP conexión de servidor |
+|       |  5432 |  | PostgreSQL sistema de gestión de bases de datos  |
+|       |  5400 |  | VNC protocolo de escritorio remoto (usado sobre HTTP)  |
+|       |  5500 |  | ^ |
+|       |  5600 |  | ^ |
+|       |  5700 |  | ^ |
+|       |  5800 |  | ^ |
+|       |  5900 |  | VNC protocolo de escritorio remoto (conexión normal)  |
+|       |  6000 |  | X11 usado para X-windows  |
+|       |  6667 |  | IRC |
+|       |  6881 |  | BitTorrent puerto por defecto  |
+|       |  6969 |  | BitTorrent puerto de tracker  |
+|  7100 |  7100 |  | Servidor de Fuentes X11  |
+|       |  8080 |  | HTTP HTTP-ALT, Tomcat lo usa como puerto por defecto.  |
+|       |  8118 |  | privoxy  |
+|       | 10000 |  | Webmin |
+
+Tabla 5: Algunos puertos de red
+
+## IP
+
+IP es un protocolo de uso bidireccional y no orientado a conexión que transfiere
+paquetes conmutados.
+
+IP no puede garantizar la entrega de los paquetes pero siempre intentará usar
+la mejor ruta conocida para el envió (best-effort delivery).
+
+### Cabecera Datagrama IPv4
+
+| Octeto | Bit    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
+|-------:|-------:|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|  **0** |  **0** | Versión|<|<|<|Longitud de Cabecera|<|<|<|Tipo de Servicio|<|<|<|<|<|<|<| Longitud Total                               |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|  **4** | **32** | Identificador                         |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<| Flags    |<|<| Posición del Fragmento                 |<|<|<|<|<|<|<|<|<|<|<|<|
+|  **8** | **64** | Tiempo de vida    |<|<|<|<|<|<| Protocolo           |<|<|<|<|<|<|<|<| Checksum                                        |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **12** | **96** | Dirección IP de Origen                                                                |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **16** |**128** | Dirección IP de Destino                                                               |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **20** |**160** | Opciones (si *Longitud de Cabecera* > 5, relleno con 0 al final si es necesario)      |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|**...** |**...** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **60** |**480** | *esto ya no es cabecera, aquí - como tarde - ya empezarían los datos*                 |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+
+Tabla 6: Datagrama IPv4
+
+* Versión indica si es IPv4 (0100) o IPv6 (0110)
+* el campo longitud de cabecera es necesario ya que el tamaño puede variar de
+20 a 60 bytes en función de cuanta información se añada en el campo opciones.
+El valor viene en *número de palabras de 32-bit*, es decir, 5 equivale a 160 bit o 20 bytes.
+* tipo de servicio indica una serie de parámetros sobre la calidad de servicio deseada
+* el campo longitud total indica la longitud en bytes del datagrama IP, incluyendo la cabecera IP.
+El tamaño mínimo normalmente es de 576 octetos (64 de cabeceras y 512 de datos)
+* el identificador es único por `datagrama-origen-destino-tipo_de_protocolo` y se
+utiliza para en caso de fragmentación poder distinguir los fragmentos de un datagrama de otro
+* los flags son usados para especificar valores relativos a la fragmentación de paquetes:
+    * bit 0 = 0 (reservado)
+    * bit 1: 0 = divisible, 1 = no divisible
+    * bit 2: 0 = último fragmento, 1 = fragmento intermedio
+* posición del fragmento dentro del datagrama original, empezando por 0
+* el tiempo de vida (TTL) indica el número máximo de enrutadores que el paquete puede atravesar
+* el campo protocolo es un [número que indica el protocolo de la capa superior](https://es.wikipedia.org/wiki/Anexo:N%C3%BAmeros_de_protocolo_IP)
+* el relleno se usa para garantizar que el tamaño de la cabecera es múltiplo de 32
 
 # Bibliografía
 
 * PreparaTic27 - Pack1/110
+* PreparaTic27 - Pack1/114
 * [redeszone.net - ¿Qué protocolo es mejor?: TCP vs UDP, descubre cuándo utilizar cada uno](https://www.redeszone.net/tutoriales/internet/tcp-udp-caracteristicas-uso-diferencias/)
+* [youtube.com - Curso de Redes. 10.7. Protocolo TCP: números de secuencia](https://www.youtube.com/watch?v=drBwqN038vM)
+* [cv.uoc.edu - Protocolos del nivel de transporte ](http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_0.html)
+* [cv.uoc.edu - El protocolo UDP](http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_1.html)
+* [cv.uoc.edu - Formato del segmento TCP](http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_2_2.html)

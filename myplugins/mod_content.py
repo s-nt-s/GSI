@@ -187,7 +187,7 @@ def mod_content(content, *args, **kargv):
                 if m is None:
                     cpt.replaceWith(BeautifulSoup(str(cpt).replace("Tabla: ", ""), "html.parser"))
                 elif table.attrs.get("id") is None:
-                    table.attrs["id"]="tb"+m
+                    table.attrs["id"]="tb"+m.strip()
         if table.select_one("*[rowspan]") or table.select_one("*[colspan]"):
             continue
         for tbody in soup.findAll(["thead", "tbody"]):

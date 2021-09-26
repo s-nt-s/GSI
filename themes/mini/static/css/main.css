@@ -202,3 +202,11 @@ div.figgroup2 {
 div.figgroup > figure {
   margin: unset;
 }
+
+span.vertical, a.vertical, td.vertica, th.vertical, div.vertical {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  letter-spacing: -0.12em;
+  line-height:1em;
+  width:1em;
+}
