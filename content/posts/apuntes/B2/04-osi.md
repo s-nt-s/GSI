@@ -49,7 +49,7 @@ Figura 1: Viaje de los datos a través del modelo OSI
 | 5 | Sesión       | ADSP, ASP, H.245, iSNS, L2F, L2TP, NetBIOS, PAP, PPTP, ONC/RPC, RTCP, SMPP, SCP, SOCKS, ZIP, SDP |
 | 4 | Transporte   | **TCP**, **UDP**, ATP, CUDP, DCCP, FCP, IL-Protocol, MPTCP, NORM, RDP, RUDP, SCTP, SPX, SST, µTP |
 | 3 | Red          | **IP** (IPsec, IPv4, IPv6), OSPF, IS-IS, ICMP, IGMP, CLNS, DDP, EGP, EIGRP, IPX, PIM, RIP |
-| 2 | Enlace       | ARCnet, ATM, CDP, CAN, Econet, Ethernet, EAPS, FDDI, Frame Relay, HDLC, IEEE 802.2, IEEE 802.11 wireless LAN, I²C, LattisNet, LLDP, LocalTalk, MIL-STD-1553, MPLS, NDP, PPP, Profibus, SpaceWire, SMLT, IEEE 802.1aq, Spanning Tree Protocol, StarLan, Token Ring, UDLD, UNI/O, 1-Wire, USB, PCI Express |
+| 2 | Enlace       | ARCnet, ARP, ATM, CDP, CAN, Econet, Ethernet, EAPS, FDDI, Frame Relay, HDLC, IEEE 802.2, IEEE 802.11 wireless LAN, I²C, LattisNet, LLDP, LocalTalk, MIL-STD-1553, MPLS, NDP, PPP, Profibus, SpaceWire, SMLT, IEEE 802.1aq, Spanning Tree Protocol, StarLan, Token Ring, UDLD, UNI/O, 1-Wire, USB, PCI Express |
 | 1 | Fisica       | V.92, xDSL, IrDA, Firewire, EIA RS-232, EIA-422, EIA-423, RS-449, RS-485, DSL, ISDN, SONET/SDH, GSM |
 
 Tabla 2: Protocolos según capa
