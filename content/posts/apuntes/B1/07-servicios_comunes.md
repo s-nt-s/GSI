@@ -1,5 +1,6 @@
 ---
 title: Servicios comunes
+build_notas: True
 replace:
   "☑": '<abbr class="nou comun" title="Servicio declarado como compartido">☑</abbr>'
   "☐": '<abbr class="nou nocom" title="Servicio NO declarado como compartido">☐</abbr>'

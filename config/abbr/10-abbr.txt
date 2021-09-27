@@ -1786,3 +1786,37 @@ Entrega de mejor esfuerzo
 MTU
 https://es.wikipedia.org/wiki/Unidad_m%C3%A1xima_de_transferencia
 Unidad máxima de transferencia (Maximum Transmission Unit)
+
+TTL
+https://es.wikipedia.org/wiki/Tiempo_de_vida_(inform%C3%A1tica)
+Tiempo de vida (time to live)
+
+broadcast
+https://es.wikipedia.org/wiki/Difusi%C3%B3n_amplia
+Difusión amplia
+
+unicast
+https://es.wikipedia.org/wiki/Unidifusi%C3%B3n
+Unidifusión
+
+Anycast
+https://es.wikipedia.org/wiki/Difusi%C3%B3n_por_proximidad
+Difusión por proximidad
+
+multicast
+https://es.wikipedia.org/wiki/Multidifusi%C3%B3n
+Multidifusión
+
+geocast
+https://es.wikipedia.org/wiki/Geodifusi%C3%B3n
+Geodifusión
+
+Máscara de red
+https://es.wikipedia.org/wiki/M%C3%A1scara_de_red
+
+Loopback
+https://es.wikipedia.org/wiki/Loopback
+
+CIDR
+https://es.wikipedia.org/wiki/Classless_Inter-Domain_Routing
+Classless Inter-Domain Routing

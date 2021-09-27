@@ -273,3 +273,11 @@ Protocolo de Internet
 ARP
 https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones
 Protocolo de resolución de direcciones
+
+r'ToS
+https://en.wikipedia.org/wiki/Type_of_service
+Type of service
+
+DSCP
+https://es.wikipedia.org/wiki/Servicios_Diferenciados
+Servicios Diferenciados

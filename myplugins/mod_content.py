@@ -294,7 +294,8 @@ def mod_content(content, *args, **kargv):
         if rowspan:
             add_class(table, "hasRowspan")
 
-    set_notas(soup)
+    if content.metadata.get('build_notas', False):
+        set_notas(soup)
 
     for ul in find_in_bloque(soup.select_one("#bibliografia"), "ul"):
         if ul.find_parent(["ul", "ol", "li"]) in (None, ul):

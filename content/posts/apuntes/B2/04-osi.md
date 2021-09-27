@@ -50,7 +50,7 @@ Figura 1: Viaje de los datos a través del modelo OSI
 | 4 | Transporte   | **TCP**, **UDP**, ATP, CUDP, DCCP, FCP, IL-Protocol, MPTCP, NORM, RDP, RUDP, SCTP, SPX, SST, µTP |
 | 3 | Red          | **IP** (IPsec, IPv4, IPv6), OSPF, IS-IS, ICMP, IGMP, CLNS, DDP, EGP, EIGRP, IPX, PIM, RIP |
 | 2 | Enlace       | ARCnet, ARP, ATM, CDP, CAN, Econet, Ethernet, EAPS, FDDI, Frame Relay, HDLC, IEEE 802.2, IEEE 802.11 wireless LAN, I²C, LattisNet, LLDP, LocalTalk, MIL-STD-1553, MPLS, NDP, PPP, Profibus, SpaceWire, SMLT, IEEE 802.1aq, Spanning Tree Protocol, StarLan, Token Ring, UDLD, UNI/O, 1-Wire, USB, PCI Express |
-| 1 | Fisica       | V.92, xDSL, IrDA, Firewire, EIA RS-232, EIA-422, EIA-423, RS-449, RS-485, DSL, ISDN, SONET/SDH, GSM |
+| 1 | Física       | V.92, xDSL, IrDA, Firewire, EIA RS-232, EIA-422, EIA-423, RS-449, RS-485, DSL, ISDN, SONET/SDH, GSM |
 
 Tabla 2: Protocolos según capa
 
@@ -95,28 +95,28 @@ Figura: 3-way handshake
 
 Tabla 3: Cabecera de Segmento TCP
 
-* el número de secuencia identifica el primer byte del campo de datos que enviá
+* **Número de secuencia**: dentifica el primer byte del campo de datos que enviá
 el segmento, al primero se le llama ISN (Initial Sequence Number) y lo elige el servidor
-* el número ACK indica el próximo numero de secuencia que se esta dispuesto a recibir,
+* **Número ACK**: indica el próximo numero de secuencia que se esta dispuesto a recibir,
 por lo tanto significa que el `número ACK - 1` es el número de secuencia del último
 segmento recibido
-* el campo longitud de cabecera es necesario ya que el tamaño puede variar de
+* **Longitud de Cabecera**: necesario ya que el tamaño puede variar de
 20 a 60 bytes en función de cuanta información se añada en el campo opciones.
 El valor viene en *número de palabras de 32-bit*, es decir, 5 equivale a 160 bit o 20 bytes.
-* el campo reservado viene a `000` y se guarda para usos futuros
-* lo campos de control son cada uno de 1 bit y se consideran marcados cuando estan a `1`:
+* **Resevado**: viene a `000` y se guarda para usos futuros
+* **Campos de control**: son cada uno de 1 bit y se consideran marcados cuando están a `1`:
     * URG: hay datos urgentes y el campo urgent pointer indica la cantidad de datos urgentes que se encuentran en el segmento
     * ACK: solo viene a 0 en el primer mensaje para indicar que el campo ACK ha de ser ignorado
     * PSH: invoca la función push en el protocolo, la cual consiste en entregar a la aplicación todos los datos que están en la memoria intermedia de recepción sin esperar a completarla con datos adicionales
     * RST: hace un reset de la conexión (usado cuando hay algún problema, ej: paquetes perdidos)
     * SYN: resincroniza los números de secuencia
     * FIN: el transmisor ha acabado la conexión
-* el campo ventana informa sobre cuantos bytes se esta dispuesto a recibir en
+* **Tamaño de ventana**: informa sobre cuantos bytes se esta dispuesto a recibir en
 el paquete de respuesta
-* el campo urgent pointer indica (si URG=1) que los datos comprendidos desde el
+* **Puntero urgente**: indica (si URG=1) que los datos comprendidos desde el
 primer byte hasta el indicado por este campo son urgentes y debería procesarse
 lo antes posible
-* el campo opciones TCP permite añadir campos a la cabecera para:
+* **Opciones**: permite añadir campos a la cabecera para:
     * marcar con un timestamp el momento de la transmisión para monitorar los retrasos que experimentan los segmentos desde el origen hasta el destino
     * aumentar el tamaño de la ventana
     * indicar el MSS que el origen está preparado para recibir (se especifica durante el establecimiento de la conexión)
@@ -157,12 +157,11 @@ ambos es crucial.
 
 Tabla 4: Datagrama UDP
 
-* el Puerto de origen es opcional siendo 0 el valor nulo
-* el campo Checksum:
+* **Puerto origen**: es opcional siendo 0 el valor nulo
+* **Checksum**:
     * es opcional en IPv4 y obligatorio en IPv6
     * se calcula con el datagrama completo más una pseudo-cabecera IP (IP origen y destino, protocolo y longitud del paquete UDP) rellenando con ceros hasta llegar a un multiplico de 16
-* el campo longitud indica la longitud en bytes del datagrama UDP, incluyendo la cabecera UDP
-* el campo checksum es opcional y protege tanto la cabecera como los datos UDP
+* **Longitud del Mensaje**: longitud en bytes del datagrama UDP, incluyendo la cabecera UDP
 
 ## Puertos de red
 
@@ -299,25 +298,116 @@ la mejor ruta conocida para el envió (best-effort delivery).
 |**...** |**...** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 | **60** |**480** | *esto ya no es cabecera, aquí - como tarde - ya empezarían los datos*                 |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 
-Tabla 6: Datagrama IPv4
+Tabla 6: [Datagrama IPv4](https://es.wikipedia.org/wiki/Cabecera_IP)
 
-* Versión indica si es IPv4 (0100) o IPv6 (0110)
-* el campo longitud de cabecera es necesario ya que el tamaño puede variar de
+* **Versión**: indica si es IPv4 (0100) o IPv6 (0110)
+* **Longitud de Cabecera**: necesario ya que el tamaño puede variar de
 20 a 60 bytes en función de cuanta información se añada en el campo opciones.
 El valor viene en *número de palabras de 32-bit*, es decir, 5 equivale a 160 bit o 20 bytes.
-* tipo de servicio indica una serie de parámetros sobre la calidad de servicio deseada
-* el campo longitud total indica la longitud en bytes del datagrama IP, incluyendo la cabecera IP.
+* **Tipo de Servicio** (ToS o DSCP): indica una serie de parámetros sobre la calidad de servicio deseada
+    * Existe la posibilidad de que los últimos dos bits sean ocupados por el campo opcional
+    [ECN](https://en.wikipedia.org/wiki/Explicit_Congestion_Notification "Explicit Congestion Notification"){.abbr}
+    (ver [IPv4 Header](https://en.wikipedia.org/wiki/IPv4#Header))
+* **Longitud Total** (Total Length): longitud en bytes del datagrama IP, incluyendo la cabecera IP.
 El tamaño mínimo normalmente es de 576 octetos (64 de cabeceras y 512 de datos)
-* el identificador es único por `datagrama-origen-destino-tipo_de_protocolo` y se
+* **Identificador** (Identification): único por `datagrama-origen-destino-tipo_de_protocolo` y se
 utiliza para en caso de fragmentación poder distinguir los fragmentos de un datagrama de otro
-* los flags son usados para especificar valores relativos a la fragmentación de paquetes:
+* **Flags**: usados para especificar valores relativos a la fragmentación de paquetes:
     * bit 0 = 0 (reservado)
     * bit 1: 0 = divisible, 1 = no divisible
     * bit 2: 0 = último fragmento, 1 = fragmento intermedio
-* posición del fragmento dentro del datagrama original, empezando por 0
-* el tiempo de vida (TTL) indica el número máximo de enrutadores que el paquete puede atravesar
-* el campo protocolo es un [número que indica el protocolo de la capa superior](https://es.wikipedia.org/wiki/Anexo:N%C3%BAmeros_de_protocolo_IP)
-* el relleno se usa para garantizar que el tamaño de la cabecera es múltiplo de 32
+* **Posición del Fragmento** (Fragment Offset): marca la posición dentro del datagrama original, empezando por 0
+* **Tiempo de vida**: (TTL) indica el número máximo de enrutadores que el paquete puede atravesar
+* **Protocolo** (Protocol): un [número que indica el protocolo de la capa superior](https://es.wikipedia.org/wiki/Anexo:N%C3%BAmeros_de_protocolo_IP)
+* **Relleno**: se usa para garantizar que el tamaño de la cabecera es múltiplo de 32
+
+### Cabecera Datagrama IPv6
+
+| Octeto | Bit    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
+|-------:|-------:|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|  **0** |  **0** | Versión |<|<|<| Clase de tráfico       |<|<|<|<|<|<|<| Etiqueta de flujo                                      |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+|  **4** | **32** | Longitud del campo de datos           |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<| Cabecera siguiente      |<|<|<|<|<|<|<| Límite de saltos        |<|<|<|<|<|<|<|
+|  **8** | **64** | Dirección IP de Origen                                                                |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **12** | **96** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **16** |**128** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **20** |**160** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **24** |**192** | Dirección IP de Destino                                                               |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **28** |**224** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **32** |**256** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **36** |**288** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+| **40** |**320** | *esto ya no es cabecera, aquí ya empezarían los datos*                                |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
+
+Tabla 7: [Datagrama IPv6](https://es.wikipedia.org/wiki/IPv6#Cabecera_fija)
+
+* **Versión**: indica si es IPv4 (0100) o IPv6 (0110)
+* **Clase de Tráfico** (Traffic Class): también denominado Prioridad o simplemente Clase,
+indica una serie de parámetros sobre la calidad de servicio deseada (equivalente a ToS en IPv4)
+* **Etiqueta de Flujo** (Flow Label): para permitir tráficos con requisitos de tiempo real
+* **Longitud total de carga útil** (Payload Length): es la longitud de los propios datos (incluyendo cabeceras de extensión), y puede ser de hasta 65.536 bytes.
+* **Siguiente cabecera** (Next Header): ya no se usan cabeceras de longitud variable, si no que se encadenan sucesivas cabeceras
+    * por ello desaparece el campo opciones
+    * en muchos casos no es procesado por los encaminadores, sino tan sólo extremo a extremo
+* **Límite de saltos** (Hop Limit): indica el número máximo de enrutadores que el paquete puede atravesar (equivalente a TTL en IPv4)
+* Campos de IPv4 que ya no son necesarios:
+    * *Fragment Offset* y *Identification* desaparecen porque ya que la fragmentación (si es necesaria)
+    solo se hace de extremo a extremo y no por encaminadores intermedios
+    * *Options* desaparece porque *Next Header* permite añadir encadenar
+    [cabeceras de extensión](https://es.wikipedia.org/wiki/IPv6#Cabeceras_de_extensi%C3%B3n)
+
+## Direcciones IPv4
+
+Son direcciones de 32 bits (2³² direcciones posibles) organizadas en cinco clases
+(A, B, C, D y E).
+
+| Clase | Bits<br/>Iniciales | Intervalo       | Mascara de red   | CIDR  | broadcast       |
+|------:|-------------------:|----------------:|-----------------:|------:|----------------:|
+|     A |                `0` |   `0-127.*.*.*` |      `255.0.0.0` |  `/8` | `*.255.255.255` |
+|     B |               `10` | `128-191.*.*.*` |    `255.255.0.0` | `/16` |   `*.*.255.255` |
+|     C |              `110` | `192-223.*.*.*` |  `255.255.255.0` | `/24` |     `*.*.*.255` |
+|     D |             `1110` | `224-239.*.*.*` | *direcciones para multicast* | < | < |
+|     E |             `1111` | `240-255.*.*.*` | *direcciones para uso experimental* | < | < |
+
+Tabla 8: [Clases IPv4](https://en.wikipedia.org/wiki/Classful_network#Classful_addressing_definition)
+
+1. la dirección con los bit de host a 0 identifica la red
+2. la dirección con los bit de host a 1 es la dirección broadcast y sirve para
+enviar paquetes a todas los hots de esa red
+3. de la clase A hay que descartar:
+    * la dirección `0.0.0.0` que esta reservada por la IANA para identificación local
+    * las direcciones `127.*.*.*` porque se usan para loopback
+4. por lo tanto en cada clase hay `2^n` redes (siendo `n` el número de bits dedicados
+a la red que no están fijos) y `(2^h)-2` host (siendo `h` el número de bits dedicados al host):
+    * A: 128 redes (2⁽⁸⁻¹⁾) y 16.777.214 hosts (2²⁴-2) (a los que hay que descartar las ips `0.0.0.0` y `127.*.*.*`)
+    * B: 16.384 redes (2⁽¹⁶⁻²⁾) y 65.534 hosts (2¹⁶-2)
+    * C: 2.097.152 redes (2⁽²⁴⁻³⁾) y 254 hosts (2⁸-2)
+
+## [Direcciones IPv6](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6)
+
+Son direcciones de 126 bits (2¹²⁸ direcciones posibles) que se representan en ocho
+bloques de número hexadecimales separado por el caracter `:`.
+
+Para abreviar se pueden eliminar los ceros a la izquierda, o incluso comprimir
+todos los conjuntos de ceros consecutivos con `::`, de manera que las siguientes
+ips son la misma:
+
+* `2a01:0048:0000:0000:0000:0000:0000:0000`
+* `2a01:48:0:0:0:0:0:0`
+* `2a01:48::`
+
+Hay tres tipos de ips según su direccionamiento y encaminamiento:
+
+* **unicast**: identifica un único interfaz de red
+* **anycast**: identifica un grupo de interfaces (normalmente de nodos diferentes):
+    * Los paquetes enviados a una dirección anycast solo llega a uno de los miembros
+    (típicamente el más cercano)
+    * las direcciones anycast tienen el mismo formato que las unicast, simplemente
+    son direcciones que están en varios puntos de la red
+* **multicast**: identifica un grupo de interfaces (normalmente de nodos diferentes):
+    * un paquete enviado a una dirección multicast es entregado a todos los miembros
+
+Nótese que el tipo broadcast no existe. Se puede conseguir el mismo
+efecto enviando un paquete al dirección multicast del grupo all-nodes del enlace-local
+`ff02::1`. Sin embargo no se recomienda usar el grupo all-nodes.
 
 # Bibliografía
 
@@ -328,3 +418,5 @@ utiliza para en caso de fragmentación poder distinguir los fragmentos de un dat
 * [cv.uoc.edu - Protocolos del nivel de transporte ](http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_0.html)
 * [cv.uoc.edu - El protocolo UDP](http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_1.html)
 * [cv.uoc.edu - Formato del segmento TCP](http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_2_2.html)
+* [ipv6go.net - Cabecera IPv6](http://www.ipv6go.net/cabecera_ipv6.php)
+* [ramonmillan.com - El protocolo IPv6 (II)](https://www.ramonmillan.com/tutoriales/ipv6_parte2.php)
