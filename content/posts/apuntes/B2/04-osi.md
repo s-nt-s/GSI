@@ -313,8 +313,8 @@ El tamaño mínimo normalmente es de 576 octetos (64 de cabeceras y 512 de datos
 utiliza para en caso de fragmentación poder distinguir los fragmentos de un datagrama de otro
 * **Flags**: usados para especificar valores relativos a la fragmentación de paquetes:
     * bit 0 = 0 (reservado)
-    * bit 1: 0 = divisible, 1 = no divisible
-    * bit 2: 0 = último fragmento, 1 = fragmento intermedio
+    * bit 1 (<abbr class="abbr" title="Don't Fragment">DF</abbr>): 0 = divisible, 1 = no divisible
+    * bit 2 (<abbr class="abbr" title="More Fragments">MF</abbr>): 0 = último fragmento, 1 = fragmento intermedio
 * **Posición del Fragmento** (Fragment Offset): marca la posición dentro del datagrama original, empezando por 0
 * **Tiempo de vida**: (TTL) indica el número máximo de enrutadores que el paquete puede atravesar
 * **Protocolo** (Protocol): un [número que indica el protocolo de la capa superior](https://es.wikipedia.org/wiki/Anexo:N%C3%BAmeros_de_protocolo_IP)
