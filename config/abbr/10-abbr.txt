@@ -1820,3 +1820,7 @@ https://es.wikipedia.org/wiki/Loopback
 CIDR
 https://es.wikipedia.org/wiki/Classless_Inter-Domain_Routing
 Classless Inter-Domain Routing
+
+i'(Dirección de )?enlace-local
+https://es.wikipedia.org/wiki/Direcci%C3%B3n_de_Enlace-Local
+Dirección IP creada únicamente para comunicaciones dentro de una subred local

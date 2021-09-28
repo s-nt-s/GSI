@@ -89,24 +89,52 @@ table.tabla_patrones tbody tr:hover {
   background-color: unset !important;
 }
 
-body.apuntes_b2_osi #tb3 thead th,
-body.apuntes_b2_osi #tb4 thead th,
-body.apuntes_b2_osi #tb6 thead th,
-body.apuntes_b2_osi #tb7 thead th {
+body.apuntes_b2_osi table.cabecera_segmento th {
   min-width: 1.2em;
   text-align: center;
 }
-body.apuntes_b2_osi #tb3 td,
-body.apuntes_b2_osi #tb4 td,
-body.apuntes_b2_osi #tb6 td,
-body.apuntes_b2_osi #tb7 td {
+body.apuntes_b2_osi table.cabecera_segmento td {
   text-align: center;
 }
 
-body.apuntes_b2_osi #tb3 tbody tr:last-child td, body.apuntes_b2_osi #tb3 tbody tr:last-child th,
-body.apuntes_b2_osi #tb4 tbody tr:last-child td, body.apuntes_b2_osi #tb4 tbody tr:last-child th,
-body.apuntes_b2_osi #tb6 tbody tr:last-child td, body.apuntes_b2_osi #tb6 tbody tr:last-child th,
-body.apuntes_b2_osi #tb7 tbody tr:last-child td, body.apuntes_b2_osi #tb7 tbody tr:last-child th {
+body.apuntes_b2_osi table.cabecera_segmento tbody tr:last-child td, body.apuntes_b2_osi table.cabecera_segmento tbody tr:last-child th {
   opacity: 0.5;
   border: 1px dotted grey;
+}
+
+table.tb_ipv6 {
+  width: calc(128px *7);
+}
+
+table.ipv6_unicast th:nth-child(1) {
+  width: calc(48px *7);
+}
+table.ipv6_unicast th:nth-child(2) {
+  width: calc(16px *7);
+}
+table.ipv6_unicast th:nth-child(3) {
+  width: calc(64px *7);
+}
+
+table.ipv6_enlace_local th:nth-child(1) {
+  width: calc(10px *7);
+}
+table.ipv6_enlace_local th:nth-child(2) {
+  width: calc(54px *7);
+}
+table.ipv6_enlace_local th:nth-child(3) {
+  width: calc(64px *7);
+}
+
+table.ipv6_multicast th:nth-child(1) {
+  width: calc(8px *7);
+}
+table.ipv6_multicast th:nth-child(2) {
+  width: calc(4px *7);
+}
+table.ipv6_multicast th:nth-child(3) {
+  width: calc(4px *7);
+}
+table.ipv6_multicast th:nth-child(4) {
+  width: calc(112px *7);
 }

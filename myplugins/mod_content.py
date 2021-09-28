@@ -179,6 +179,9 @@ def mod_content(content, *args, **kargv):
             text = cpt.get_text().strip()
             m = re_tabcaption.match(text)
             if m:
+                spn = cpt.find(lambda x: x.name=="span" and len(x.get_text().strip())==0 and x.attrs.keys())
+                if spn:
+                    spn.extract()
                 cpt.name = "caption"
                 table.insert(0, cpt)
                 m = m.group(1)
@@ -188,6 +191,9 @@ def mod_content(content, *args, **kargv):
                     cpt.replaceWith(BeautifulSoup(str(cpt).replace("Tabla: ", ""), "html.parser"))
                 elif table.attrs.get("id") is None:
                     table.attrs["id"]="tb"+m.strip()
+                if spn:
+                    for k, v in spn.attrs.items():
+                        table.attrs[k]=v
         if table.select_one("*[rowspan]") or table.select_one("*[colspan]"):
             continue
         for tbody in soup.findAll(["thead", "tbody"]):
@@ -246,6 +252,9 @@ def mod_content(content, *args, **kargv):
         text = cpt.get_text().strip()
         m = re_figcaption.match(text)
         if m:
+            spn = cpt.find(lambda x: x.name=="span" and len(x.get_text().strip())==0 and x.attrs.keys())
+            if spn:
+                spn.extract()
             add_class(p, "fig")
             p.name = "figure"
             cpt.name = "figcaption"
@@ -261,6 +270,9 @@ def mod_content(content, *args, **kargv):
             for att in ("title", "alt"):
                 if not img.attrs.get(att):
                     img.attrs[att] = cap
+            if spn:
+                for k, v in spn.attrs.items():
+                    p.attrs[k]=v
 
     for img in soup.select("img"):
         t = img.attrs.get("title")

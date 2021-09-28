@@ -1,6 +1,5 @@
 ---
 title: Modelo OSI y TCP/IP
-status: draft
 replace:
   "Segmento<br/>": '<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Segmentaci%C3%B3n_de_paquetes">Segmento</a><br/>'
   "Trama": '<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Trama_de_red">Trama</a>'
@@ -93,7 +92,7 @@ Figura: 3-way handshake
 |**...** |**...** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 | **60** |**480** | *esto ya no es cabecera, aquí - como tarde - ya empezarían los datos*                 |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 
-Tabla 3: Cabecera de Segmento TCP
+Tabla 3: Cabecera de Segmento TCP <span class="cabecera_segmento"></span>
 
 * **Número de secuencia**: dentifica el primer byte del campo de datos que enviá
 el segmento, al primero se le llama ISN (Initial Sequence Number) y lo elige el servidor
@@ -155,7 +154,7 @@ ambos es crucial.
 |  **4** | **32** | Longitud del Mensaje                  |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<| Checksum                                        |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 |  **8** | **64** | *esto ya no es cabecera, aquí ya empezarían los datos*                                |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 
-Tabla 4: Datagrama UDP
+Tabla 4: Datagrama UDP <span class="cabecera_segmento"></span>
 
 * **Puerto origen**: es opcional siendo 0 el valor nulo
 * **Checksum**:
@@ -298,7 +297,7 @@ la mejor ruta conocida para el envió (best-effort delivery).
 |**...** |**...** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 | **60** |**480** | *esto ya no es cabecera, aquí - como tarde - ya empezarían los datos*                 |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 
-Tabla 6: [Datagrama IPv4](https://es.wikipedia.org/wiki/Cabecera_IP)
+Tabla 6: [Datagrama IPv4](https://es.wikipedia.org/wiki/Cabecera_IP) <span class="cabecera_segmento"></span>
 
 * **Versión**: indica si es IPv4 (0100) o IPv6 (0110)
 * **Longitud de Cabecera**: necesario ya que el tamaño puede variar de
@@ -337,7 +336,7 @@ utiliza para en caso de fragmentación poder distinguir los fragmentos de un dat
 | **36** |**288** | ^                                                                                     |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 | **40** |**320** | *esto ya no es cabecera, aquí ya empezarían los datos*                                |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|
 
-Tabla 7: [Datagrama IPv6](https://es.wikipedia.org/wiki/IPv6#Cabecera_fija)
+Tabla 7: [Datagrama IPv6](https://es.wikipedia.org/wiki/IPv6#Cabecera_fija) <span class="cabecera_segmento"></span>
 
 * **Versión**: indica si es IPv4 (0100) o IPv6 (0110)
 * **Clase de Tráfico** (Traffic Class): también denominado Prioridad o simplemente Clase,
@@ -377,24 +376,35 @@ enviar paquetes a todas los hots de esa red
     * las direcciones `127.*.*.*` porque se usan para loopback
 4. por lo tanto en cada clase hay `2^n` redes (siendo `n` el número de bits dedicados
 a la red que no están fijos) y `(2^h)-2` host (siendo `h` el número de bits dedicados al host):
-    * A: 128 redes (2⁽⁸⁻¹⁾) y 16.777.214 hosts (2²⁴-2) (a los que hay que descartar las ips `0.0.0.0` y `127.*.*.*`)
+    * A: 128 redes (2⁽⁸⁻¹⁾) y 16.777.214 hosts (2²⁴-2) (a los que hay que descartar las IPs `0.0.0.0` y `127.*.*.*`)
     * B: 16.384 redes (2⁽¹⁶⁻²⁾) y 65.534 hosts (2¹⁶-2)
     * C: 2.097.152 redes (2⁽²⁴⁻³⁾) y 254 hosts (2⁸-2)
 
+| CIDR           | Descripción |
+|---------------:|-------------|
+|    10.0.0.0/8  | Utilizado para las comunicaciones locales dentro de una red privada |
+|  172.16.0.0/12 | ^ |
+| 192.168.0.0/16 | ^ |
+|     0.0.0.0/8  | Red actual​ (solo válido como dirección de origen) |
+|   127.0.0.0/8  | Direcciones de loopback |
+| 169.254.0.0/16 | Direcciones de enlace local cuando no se puede conseguir una IP de otra manera (por ej con DHCP) |
+
+Table 9: Algunas [direcciones IPv4 especiales](https://es.wikipedia.org/wiki/IPv4#Direcciones_de_uso_especial)
+
 ## [Direcciones IPv6](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6)
 
-Son direcciones de 126 bits (2¹²⁸ direcciones posibles) que se representan en ocho
-bloques de número hexadecimales separado por el caracter `:`.
+Son direcciones de 128 bits (2¹²⁸ direcciones posibles) que se representan en ocho
+bloques de 16 bits en números hexadecimales separados por el caracter `:`.
 
 Para abreviar se pueden eliminar los ceros a la izquierda, o incluso comprimir
 todos los conjuntos de ceros consecutivos con `::`, de manera que las siguientes
-ips son la misma:
+IPs son la misma:
 
 * `2a01:0048:0000:0000:0000:0000:0000:0000`
 * `2a01:48:0:0:0:0:0:0`
 * `2a01:48::`
 
-Hay tres tipos de ips según su direccionamiento y encaminamiento:
+Hay tres tipos de IPs según su direccionamiento y encaminamiento:
 
 * **unicast**: identifica un único interfaz de red
 * **anycast**: identifica un grupo de interfaces (normalmente de nodos diferentes):
@@ -405,9 +415,43 @@ Hay tres tipos de ips según su direccionamiento y encaminamiento:
 * **multicast**: identifica un grupo de interfaces (normalmente de nodos diferentes):
     * un paquete enviado a una dirección multicast es entregado a todos los miembros
 
+| 48b o más       | 16b o menos | 64b                  |
+|:---------------:|:-----------:|:--------------------:|
+| routing prefix  | subnet id   | interface identifier |
+
+Tabla: IPv6 unicast/anycast (network prefix = routing prefix + subnet id) <span class="tb_ipv6 ipv6_unicast"></span>
+
+| 10b    | 54b          | 64b                  |
+|:------:|:------------:|:--------------------:|
+| prefix | ceros        | interface identifier |
+
+Tabla: IPv6 enlace-local (fe80::/10, prefix = 1111111010) <span class="tb_ipv6 ipv6_enlace_local"></span>
+
+| 8b     | 4b             | 4b             | 112b     |
+|:------:|:--------------:|:--------------:|:--------:|
+| prefix | flags<br/>0RPT | scope<br/>XXXX | group ID |
+
+Tabla: IPv6 unicast (ff00::/8, prefix = 11111111) <span class="tb_ipv6 ipv6_multicast"></span>
+
 Nótese que el tipo broadcast no existe. Se puede conseguir el mismo
 efecto enviando un paquete al dirección multicast del grupo all-nodes del enlace-local
-`ff02::1`. Sin embargo no se recomienda usar el grupo all-nodes.
+ff02::1. Sin embargo no se recomienda usar el grupo all-nodes.
+
+También se pude usar una notación equivalente a la CIDR en IPv4 para denotar
+grupos de IPs, de manera que `2a01:48::/32` son todas las IPs entre
+`2a01:0048:0000:0000:0000:0000:0000:0000` y `2a01:0048:ffff:ffff:ffff:ffff:ffff:ffff`.
+
+| IP o Prefijo      | Descripción |
+|------------------:|-------------|
+|            ::/128 | Dirección con todo ceros se utiliza para indicar la ausencia de dirección, y no se asigna ningún nodo |
+|           ::1/128 | dirección de loopback, equivalente a 127.0.0.1 de IPv4 |
+|      ::X.X.X.X/96 | Dirección IPv4 compatible (DEPRECADO) |
+| ::ffff:X.X.X.X/96 | Dirección IPv4 mapeada. Permite que las aplicaciones de IPv6 se comuniquen directamente con las aplicaciones de IPv4 |
+|         fe80::/10 | Prefijo de enlace local, específica que la dirección solamente es válida en el enlace físico local |
+|          fc00::/7 | Prefijo de [dirección local única](https://es.wikipedia.org/wiki/Unique_Local_Address) (dirección privada). Se divide en fc00::/8 (aún sin uso) y fd00::/8 |
+|          ff00::/8 | Prefijo de multicast |
+
+Tabla 10: [Tipos de direcciones IPv6](https://es.wikipedia.org/wiki/IPv6#Identificaci%C3%B3n_de_los_tipos_de_direcciones)
 
 # Bibliografía
 
@@ -420,3 +464,6 @@ efecto enviando un paquete al dirección multicast del grupo all-nodes del enlac
 * [cv.uoc.edu - Formato del segmento TCP](http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_2_2.html)
 * [ipv6go.net - Cabecera IPv6](http://www.ipv6go.net/cabecera_ipv6.php)
 * [ramonmillan.com - El protocolo IPv6 (II)](https://www.ramonmillan.com/tutoriales/ipv6_parte2.php)
+* [docs.oracle.com - Descripción general de las direcciones IPv6](https://docs.oracle.com/cd/E19957-01/820-2981/ipv6-overview-10/index.html)
+* [ipv6.mx - Fundamentos de IPv6](http://www.ipv6.mx/index.php/informacion/fundamentos/ipv6)
+* [docs.oracle.com - Using IPv4-Compatible Address Formats](https://docs.oracle.com/cd/E19683-01/816-5250/transition-4/index.html)
