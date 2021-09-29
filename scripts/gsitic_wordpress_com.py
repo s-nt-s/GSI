@@ -6,6 +6,7 @@ import re
 
 import bs4
 import html2markdown
+from markdownify import markdownify
 import requests
 import yaml
 from munch import Munch
@@ -134,6 +135,7 @@ class CrawlGstic:
             div.append(tema)
             tema.attrs.clear()
             tema.name = "article"
+            tema.unwrap()
 
         html = str(div)
         b.html = html
@@ -153,7 +155,10 @@ class CrawlGstic:
                 yml['summary'] = 'Contenido propiedad de [gsitic.wordpress.com]({source}).'.format(**dict(b))
                 yml = yaml.safe_dump(yml, allow_unicode=True)
                 yml = '\n'.join(('---', yml.strip(), '---'))
-                write(out+".md", yml+"\n\n"+html2markdown.convert(b.html))
+                #write(out+".md", yml+"\n\n"+html2markdown.convert(b.html))
+                txt_md = markdownify(b.html, heading_style="ATX", bullets="*")
+                txt_md = re.sub(r"\n\n\n+", "\n\n", txt_md)
+                write(out+".md", yml+"\n\n"+txt_md)
                 print("Creando MD del bloque " + str(b.bloque) + " 100%")
 
 
