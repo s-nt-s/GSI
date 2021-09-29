@@ -2,12 +2,12 @@
 Status: published
 author: gsitic.wordpress.com
 bloque: 3
-pdf_code: B3
 ebook-meta: -s gsitic.wordpress.com -i 3
 lang: es-ES
 meta:
   DC.creator: gsitic.wordpress.com
 pandoc: --toc-depth 2 --parse-raw --epub-chapter-level 2
+pdf_code: B3
 porcentaje: 63
 source: https://gsitic.wordpress.com/bloque-iii/
 summary: Contenido propiedad de [gsitic.wordpress.com](https://gsitic.wordpress.com/bloque-iii/).
@@ -2316,7 +2316,7 @@ sexo = * Masculino o Femenino *
        * valores: [ M | F ] *</pre>
 <p><em>Datos opcionales</em></p>
 <pre>Dirección_cliente = (dirección_entrega) + dirección_facturación)
-Dirección_cliente = [ dirección_entrega | dirección_facturación |
+Dirección_cliente = [ dirección_entrega | dirección_facturación | 
                       dirección entrega + dirección_facturación ]
 Dirección_cliente = dirección_entrega + (dirección_facturación)</pre>
 <p><em>Iteración</em></p>
@@ -2345,20 +2345,20 @@ carácter = [ A-Z | a-z | - ]</pre>
 <p><strong>Definición de datos secuenciales</strong></p>
 <p>Una definición se realiza mediante el símbolo = que significa <em>se define como</em> por lo tanto una expresión como A = B + C, se podría leer igual que de forma matemática, es decir, <em>A está compuesto de B y C</em>, pero para completarla se debería añadir: el significado de dicho dato en el contexto de la aplicación, el rango y tipo de valores que cada dato puede tomar.</p>
 <p>Por ejemplo: En un sistema informático de un hospital:</p>
-<pre>Datos_del_Paciente = nombre_completo +
-                     *nombre completo del paciente *
-                     *tipo: array de caracteres*
-                     dirección +
-                     *dirección completa del paciente*
-                     *tipo: array de caracteres*
-                     peso +
-                     *peso del paciente*
-                     *unidad: kilogramos; rango: 1-200*
-                     talla +
-                     *talla del paciente*
-                     *unidad: centímetros; rango: 20-250*
-                     fecha_ingreso +
-                     *fecha de entrada en el hospital *
+<pre>Datos_del_Paciente = nombre_completo + 
+                     *nombre completo del paciente * 
+                     *tipo: array de caracteres* 
+                     dirección + 
+                     *dirección completa del paciente* 
+                     *tipo: array de caracteres* 
+                     peso + 
+                     *peso del paciente* 
+                     *unidad: kilogramos; rango: 1-200* 
+                     talla + 
+                     *talla del paciente* 
+                     *unidad: centímetros; rango: 20-250* 
+                     fecha_ingreso + 
+                     *fecha de entrada en el hospital * 
                      *tipo: fecha*</pre>
 <p><strong>Definición de datos opcionales</strong></p>
 <p>Es aquel dato que puede o no formar parte de la composición de un dato compuesto.</p>
@@ -2366,23 +2366,23 @@ carácter = [ A-Z | a-z | - ]</pre>
 <ul><li>Única: tanto la dirección comercial como de administración están en el mismo lugar que producción o almacén.</li>
 <li>Dos direcciones: tiene el almacén y producción separado físicamente de la administración.</li>
 </ul><p>Esta situación en un DD se trataría así:</p>
-<pre>Cliente = nombre_completo + dni_cliente + dirección_comercial +
+<pre>Cliente = nombre_completo + dni_cliente + dirección_comercial + 
           (dirección_mercancías)</pre>
 <p><strong>Definición de selección</strong></p>
 <p>Sólo una de entre varias posibilidades será posible. Esta se define mediante [].</p>
 <p>Ejemplo: Un cliente puede ser una empresa o un particular, por lo tanto los tipos de datos son distintos según sea uno u otro.</p>
-<pre>cliente = [nombre_cliente | nombre_empresa] + [dni_cliente | cif_cliente] +
+<pre>cliente = [nombre_cliente | nombre_empresa] + [dni_cliente | cif_cliente] + 
           dirección_comercial + (dirección_mercancías)</pre>
 <p><strong>Definición de iteración</strong></p>
 <p>La iteración se expresa mediante {} y sirve para indicar la repetición de una cierta ocurrencia dentro de una definición.</p>
 <p>Ejemplo:</p>
-<pre>Factura = fecha_factura + nombre_cliente + numero_factura +
+<pre>Factura = fecha_factura + nombre_cliente + numero_factura + 
           {linea_factura} + total_factura</pre>
 <p>El dato línea_factura es un componente de la estructura de datos factura que puede tener una o varias ocurrencias, ya que una factura puede tener muchas líneas de facturación de artículos.</p>
 <p><strong>Alias (Sinónimos)</strong></p>
 <p>Son nombres que dentro del Sistema de información tienen el mismo significado, entonces lo que se hace es declarar los sinónimos por medio del símbolo =.</p>
 <p>Ejemplo:</p>
-<pre>Acreedor = cliente
+<pre>Acreedor = cliente 
            ** definido ya anteriormente.</pre>
 <p>Hemos visto el contenido del Diccionario de Datos, que deberá mostrarse al usuario siempre conjuntamente con las técnicas:</p>
 <ul><li>Diagrama de Flujo de Datos (DFD).</li>
@@ -2402,7 +2402,7 @@ carácter = [ A-Z | a-z | - ]</pre>
 </ul><p><strong>Ejemplo:</strong></p>
 <p><em>Dato Elemental</em></p>
 <pre>Nombre     : Estado_Civil
-Descripción: Código de una letra para indicar el estado civil de cada
+Descripción: Código de una letra para indicar el estado civil de cada 
              empleado.
 Long y tipo: 1 carácter alfabético.
 Sinónimos  : ESTADO (Personal)
@@ -2455,7 +2455,7 @@ Contenido       : Pedido =
 <p><em>Procesos</em></p>
 <pre>Nombre     : Verificar_crédito
 Ref        : 3
-Definición : Decidir donde van los pedidos sin pago previo,
+Definición : Decidir donde van los pedidos sin pago previo, 
              o si debe pedirle el pago al cliente.
 Entradas   : 1 - 3&nbsp; &nbsp; Pedidos
              D3 - 3&nbsp; &nbsp;Historia de pagos
@@ -2465,7 +2465,7 @@ Salidas    : 3 - C&nbsp; &nbsp; Pedido de pago previo
 Descripción: Recuperar historia de pago.
              Si el cliente es nuevo, enviar pedido de pago previo.
              Si el cliente corriente (promedio de dos pedidos mensuales)
-             , OK con el pedido, a menos que el balance esté vencido con
+             , OK con el pedido, a menos que el balance esté vencido con 
              más de dos meses. Para clientes anteriores (no corrientes)
              , OK, a menos que tengan cualquier balance vencido.</pre>
 <p>Hemos visto que para describir la lógica de un proceso, utilizaremos varias alternativas como son: narrativa, árboles de decisión, tablas de decisión y lenguaje estructurado.</p>
@@ -3162,14 +3162,14 @@ FUNCIONARIO (DNI, Nombre, Toma_Posesion)</pre>
 <li>Cuando una transacción T intenta leer un objeto, si su time-stamp es mayor o igual que el TSR del objeto, podrá leerlo, debiendo ser cancelada en caso contrario.</li>
 <li>Si una transacción T intenta escribir un objeto, se pueden producir las siguientes situaciones:</li>
 </ol><pre>TS (T) &gt;= TSW(Objeto):
-     Si TS(T) &gt;= TSR(Objeto), podrá escribir.
+     Si TS(T) &gt;= TSR(Objeto), podrá escribir. 
                               Si no, T tendrá que se cancelada
 Si TS(T) &lt;= TSW(Objeto):
-     Si TS(T) &gt;= TSR(Objeto), T puede seguir adelante saltándose la
-                              grabación, ya que la versión que habría
-                              grabado no sería la última y no habrá
-                              sido leída por ninguna transacción
-                              (regla de escritura de Thomas).
+     Si TS(T) &gt;= TSR(Objeto), T puede seguir adelante saltándose la 
+                              grabación, ya que la versión que habría 
+                              grabado no sería la última y no habrá 
+                              sido leída por ninguna transacción 
+                              (regla de escritura de Thomas). 
                               En caso contrario, T deberá ser cancelada.</pre>
 <p>El time-stamping básico no asegura que se eviten las anomalías de concurrencia, pero si que impide los efectos de las anomalías de la Actualización Perdida y los de la Lectura Sucia (ya que si la transacción no puede hacer un commit, tampoco podrán hacerlo las que hayan leído o escrito los objetos que ella ha actualizado).</p>
 <p>TIME-STAMPING DINÁMICO</p>
@@ -3240,7 +3240,7 @@ Si TS(T) &lt;= TSW(Objeto):
 <pre>(Ec. 2)&nbsp; &nbsp;Algoritmo = Algoritmo de datos + Algoritmo de control</pre>
 <p>Se entiende como <em>Algoritmo de datos</em> a la parte del algoritmo encargada de manipular las estructuras de datos del problema, y <em>Algoritmo de control</em> a la parte restante (la que representa en sí el método de solución del problema, también llamada <em>lógica de negocio</em>, independiente hasta cierto punto de las estructuras de datos seleccionadas).</p>
 <p>Con los TAD se identifican ciertas operaciones o partes del algoritmo que manipulan los datos. Además de proporcionar una estructura de datos, por lo que podemos sustituir el sumando “<em>Datos</em>” de la ecuación anterior por el sumando “<em>Estructura de Datos</em>“. De esta forma, podemos entonces escribir:</p>
-<pre>(Ec. 3)&nbsp; &nbsp;Programa = Estructura de Datos + Algoritmo de Datos
+<pre>(Ec. 3)&nbsp; &nbsp;Programa = Estructura de Datos + Algoritmo de Datos 
                      + Algoritmos de Control</pre>
 <p>Definiendo:</p>
 <pre>(Ec. 4)&nbsp; &nbsp;Implantación del TAD = Estructura de Datos + Algoritmos de Datos</pre>

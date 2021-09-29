@@ -2,12 +2,12 @@
 Status: published
 author: gsitic.wordpress.com
 bloque: 2
-pdf_code: B2
 ebook-meta: -s gsitic.wordpress.com -i 2
 lang: es-ES
 meta:
   DC.creator: gsitic.wordpress.com
 pandoc: --toc-depth 2 --parse-raw --epub-chapter-level 2
+pdf_code: B2
 porcentaje: 100
 source: https://gsitic.wordpress.com/bloque-ii/
 summary: Contenido propiedad de [gsitic.wordpress.com](https://gsitic.wordpress.com/bloque-ii/).
@@ -4465,10 +4465,10 @@ FROM &lt;lista_de_tablas&gt;
 <p>Como ya sabemos, una de las primeras pruebas a la hora de empezar con un lenguaje es el famoso “Hola mundo”.</p>
 <p>Así quedaría en <strong>VXML</strong> (es la extensión de los ficheros VoiceXML):</p>
 <pre>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
-&lt;vxml xmlns="http://www.w3.org/2001/vxml"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.w3.org/2001/vxml
-                          http://www.w3.org/TR/voicexml20/vxml.xsd"
+&lt;vxml xmlns="http://www.w3.org/2001/vxml" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:schemaLocation="http://www.w3.org/2001/vxml 
+                          http://www.w3.org/TR/voicexml20/vxml.xsd" 
       version="2.0"&gt;
 &lt;property name="xml:lang" value="es"/&gt;
 &lt;form id="saludo"&gt;

@@ -2,12 +2,12 @@
 Status: published
 author: gsitic.wordpress.com
 bloque: 4
-pdf_code: B4
 ebook-meta: -s gsitic.wordpress.com -i 4
 lang: es-ES
 meta:
   DC.creator: gsitic.wordpress.com
 pandoc: --toc-depth 2 --parse-raw --epub-chapter-level 2
+pdf_code: B4
 porcentaje: 42
 source: https://gsitic.wordpress.com/bloque-iv/
 summary: Contenido propiedad de [gsitic.wordpress.com](https://gsitic.wordpress.com/bloque-iv/).
@@ -2234,19 +2234,19 @@ Cola (modelo) &lt;=&gt; Cola (software) asociada al recurso</pre>
 <p>En nuestro ejemplo existen 26 posibles desplazamientos hacia delante, pues el desplazamiento 27 equivale al desplazamiento 0 (sin desplazamiento), el desplazamiento 28 equivale al desplazamiento 1, y así sucesivamente.</p>
 <pre>Por tanto:
 <strong>K</strong> = {1, 2, 3, ..., 26}
-En nuestro ejemplo es fácil ver que k=1. Esto lo indicaremos de la
+En nuestro ejemplo es fácil ver que k=1. Esto lo indicaremos de la 
 siguiente forma:
-<strong>E1</strong> = Cifrado por transposición con desplazamiento fijo hacia delante con
+<strong>E1</strong> = Cifrado por transposición con desplazamiento fijo hacia delante con 
      k=1
 De análoga forma, tendremos que:
-<strong>D</strong> = Transformaciones con desplazamiento fijo hacia atrás sobre palabras de
+<strong>D</strong> = Transformaciones con desplazamiento fijo hacia atrás sobre palabras de 
     8 letras en minúscula (abecedario de 27 letras).
-<strong>D1</strong> = Descifrado por transposición con desplazamiento fijo hacia atrás con
+<strong>D1</strong> = Descifrado por transposición con desplazamiento fijo hacia atrás con 
      k=1.
 
 Y esto es todo. Vemos pues que únicamente hemos dado una notación matemática
 a lo que ya teníamos en mente. Sin embargo, esta definición de criptosistema
-y la notación definida nos va a venir muy bien para analizar ciertas
+y la notación definida nos va a venir muy bien para analizar ciertas 
 propiedades de la criptografía. Por ejemplo, en nuestro caso tenemos:
 <strong>E1</strong>(antivirus) = boujwjsvt
 <strong>D1</strong>(boujwjsvt)=antivirus</pre>
@@ -2293,7 +2293,7 @@ propiedades de la criptografía. Por ejemplo, en nuestro caso tenemos:
 </ul><p>Es decir, el mensaje original se trocea en bloques o submensajes de 64 bits (8 bytes) de tamaño, que son las unidades que procesa el DES, y luego se unen a la salida para formar el mensaje cifrado.</p>
 <p>Gráficamente:</p>
 <pre><strong>m1, m2, ... mn</strong>: Bloques de 64 bits que conforman el mensaje cifrado.
-<strong>c1, c2, ..., cn</strong>: Bloques cifrados resultado de aplicar DES a los bloques
+<strong>c1, c2, ..., cn</strong>: Bloques cifrados resultado de aplicar DES a los bloques 
                  anteriores.</pre>
 <p><em>Funcionamiento global del algoritmo DES.</em></p>
 <p><img src="https://gsitic.files.wordpress.com/2018/04/funcionamiento_algoritmo_des.png?w=825"/></p>
