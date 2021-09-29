@@ -1,8 +1,11 @@
 from bs4 import BeautifulSoup, Tag, NavigableString
 from pelican import contents, signals
 import re
-from .core.util import get_dom, get_class_dom
+from munch import Munch
+from .core.util import get_dom, get_class_dom, readyaml
 from .core.boe import BoeApi
+from .core.abbr import Abbr
+from pathlib import Path
 
 import unidecode
 
@@ -10,6 +13,9 @@ re_tabcaption = re.compile(r"^Tabla( \d+)?: .+")
 re_figcaption = re.compile(r"^Figura( \d+)?: .+")
 re_sp = re.compile(r"\s+")
 heads=tuple("h"+str(i) for i in range(1,7))
+
+fake_sep = "@#~½$"
+fake_rem = "x@@@BORRAME@@@x"
 
 SUP="⁰¹²³⁴⁵⁶⁷⁸⁹"
 re_sup=re.compile(r"(["+SUP+"]+)")
@@ -347,7 +353,62 @@ def mod_content(content, *args, **kargv):
 
     content._content = _content
 
+
+def fake_sub(r, n, x):
+    nw = x.group(0)
+    doRm = None
+    if "rm" in r.groupindex and x.group("rm") not in (None, ""):
+        doRm = x.group("rm")
+    if doRm:
+        nw = nw.replace(x.group("rm"), fake_rem)
+        r = re.compile(r.pattern.replace("(?P<rm>", "(?P<rm>"+fake_rem+"|"), r.flags)
+
+    if n is not None:
+        nw = r.sub(n, nw)
+    if doRm:
+        nw = nw.replace(fake_rem, "")
+    nw = fake_sep.join(list(nw))
+    return fake_sep+nw+fake_sep
+
+def load_abbr(pelican_object):
+    abbr = []
+    for md in pelican_object.settings.get('CONTENT_MARKD', []):
+        meta = readyaml("content/"+md)
+        if meta is None:
+            continue
+        meta = meta.get('abbr')
+        if meta is None:
+            continue
+        ab = Abbr(**meta)
+        ab.add_url("{filename}/"+md, insert=0)
+        abbr.append(ab)
+
+    abbr.extend(Abbr.load(pelican_object.settings['ABBR_CONFIG']))
+    for a in abbr:
+        print(a.re)
+
+    pelican_object.settings['ABBR_CONFIG'] = abbr
+
+def do_abbr(soup):
+    if not abbrs:
+        return
+    for n in soup.findAll(text=True):
+        if n.find_parent("a"):
+            continue
+        if n.find_parent("abbr"):
+            continue
+        cd = n.find_parent("code")
+        if cd and cd.find_parent("pre"):
+            continue
+        txt = str(n)
+        for abbr in abbrs:
+            txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
+        txt = txt.replace(fake_sep, "")
+        if txt != str(n):
+            n.replaceWith(toTag(txt))
+
 def register():
+    #signals.initialized.connect(load_abbr)
     signals.content_object_init.connect(mod_content)
 
 

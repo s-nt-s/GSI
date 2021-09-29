@@ -1,5 +1,7 @@
 ---
 title: PAC y RJSP
+replace:
+  "<em>punto</em>": '<a class="abbr" href="http://administracion.gob.es/" title="Punto de Acceso General"><em>punto</em></a>'
 ---
 
 # Leyes

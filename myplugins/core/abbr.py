@@ -105,7 +105,7 @@ class Abbr():
         if re_az.match(aux[0]):
             a = r"\b"+a
         if re_az.match(aux[-1]):
-            z = z+r"\b"
+            z = z+r"(?=\b|[⁰¹²³⁴⁵⁶⁷⁸⁹])"
         return a, z
 
     @property
@@ -171,7 +171,9 @@ class Abbr():
             return self.title[2]
         if self.url:
             if self.title:
+                #return '<a class="{html_class}" href="{url.url}" title="{title}">\\1</a>'.format(**self.d)
                 return '[\\1]({url.url} "{title}"){{: {md_class} {url.attrs}}}'.format(**self.d)
+            #return '<a class="{html_class}" href="{url.url}">\\1</a>'.format(**self.d)
             return '[\\1]({url.url}){{: {md_class} {url.attrs}}}'.format(**self.d)
         return '<abbr class="{html_class}" title="{title}">\\1</abbr>'.format(**self.d)
 

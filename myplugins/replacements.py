@@ -12,50 +12,10 @@ from pelican import signals
 from os.path import join, dirname
 import unidecode
 from glob import glob
-from .core.util import get_dom, get_class_dom
+from .core.util import get_dom, get_class_dom, readyaml
 from .core.abbr import Abbr
 
 re_sp = re.compile(r"\s+")
-
-def readhead(file):
-    head = ''
-    firstLine = True
-    with open(file, "r") as f:
-        for l in f.readlines():
-            sl = unidecode.unidecode(l.strip())
-            if len(sl)==0 and firstLine:
-                continue
-            if firstLine and sl != '---':
-                return None
-            if firstLine and sl == '---':
-                firstLine = False
-                continue
-            if not firstLine and sl == '---':
-                break
-            head = head + l
-    if len(head.strip())==0:
-        return None
-    return head
-
-
-def readyaml(file):
-    if str(file).endswith(".md"):
-        head = readhead(file)
-        if head is None:
-            return None
-        return yaml.safe_load(head)
-    with open(file, 'r') as stream:
-        r = yaml.load_all(stream, Loader=yaml.FullLoader)
-        r = list(r)
-        if len(r) == 1:
-            return r[0]
-        return r
-
-
-def get_soup(url):
-    r = requests.get(url)
-    soup = bs4.BeautifulSoup(r.content, "lxml")
-    return soup
 
 class Replace:
     def __init__(self, delimiter, replacements, abbr):
@@ -69,6 +29,7 @@ class Replace:
             re.compile(r"<a[^>]*>[^<]*</a>"),
             re.compile(r"<https?://[^>]+>"),
             re.compile(r"`[^`]+`"),
+            re.compile(r'''\btitle=(["']).*?\1'''),
             self.re_num,
         ))
 

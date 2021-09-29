@@ -2,6 +2,42 @@ import subprocess
 import sys
 from urllib.parse import urlparse, urljoin
 import posixpath
+import unidecode
+import yaml
+
+def readhead(file):
+    head = ''
+    firstLine = True
+    with open(file, "r") as f:
+        for l in f.readlines():
+            sl = unidecode.unidecode(l.strip())
+            if len(sl)==0 and firstLine:
+                continue
+            if firstLine and sl != '---':
+                return None
+            if firstLine and sl == '---':
+                firstLine = False
+                continue
+            if not firstLine and sl == '---':
+                break
+            head = head + l
+    if len(head.strip())==0:
+        return None
+    return head
+
+
+def readyaml(file):
+    if str(file).endswith(".md"):
+        head = readhead(file)
+        if head is None:
+            return None
+        return yaml.safe_load(head)
+    with open(file, 'r') as stream:
+        r = yaml.load_all(stream, Loader=yaml.FullLoader)
+        r = list(r)
+        if len(r) == 1:
+            return r[0]
+        return r
 
 def run(*args, **kargv):
     output = subprocess.check_output(args, **kargv)
