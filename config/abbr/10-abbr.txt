@@ -1823,3 +1823,7 @@ Dirección IP creada únicamente para comunicaciones dentro de una subred local
 
 MMU
 Memory Management Unit
+
+TAD
+https://es.wikipedia.org/wiki/Tipo_de_dato_abstracto
+Tipo abstracto de datos

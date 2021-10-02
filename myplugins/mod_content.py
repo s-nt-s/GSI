@@ -202,6 +202,24 @@ def mod_content(content, *args, **kargv):
                         table.attrs[k]=v
         if table.select_one("*[rowspan]") or table.select_one("*[colspan]"):
             continue
+
+        changed = True
+        while changed:
+            changed = False
+            for table in soup.findAll("table"):
+                tbody = table.find("tbody")
+                thead = table.find("thead")
+                if None in (tbody, thead):
+                    continue
+                tr = tbody.find("tr")
+                if None in (tr, thead.find("tr")):
+                    continue
+                if tr.find(lambda n: n.name=="td" and n.get_text().strip()=="^"):
+                    for td in tr.findAll("td"):
+                        td.name = "th"
+                    table.find("thead").append(tr)
+                    changed = True
+
         for tbody in soup.findAll(["thead", "tbody"]):
             trs = list(tbody.findAll("tr"))
             for i, tr in reversed(list(enumerate(trs))):

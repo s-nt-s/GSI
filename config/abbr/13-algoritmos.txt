@@ -1,0 +1,47 @@
+Quicksort
+https://es.wikipedia.org/wiki/Quicksort
+
+Mergesort
+https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla
+Ordenación por mezcla
+
+Timsort
+http://en.wikipedia.org/wiki/Timsort
+
+Heapsort
+https://es.wikipedia.org/wiki/Heapsort
+
+Bubble Sort
+https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja
+Ordenamiento de burbuja
+
+Insertion Sort
+https://es.wikipedia.org/wiki/Ordenamiento_por_inserci%C3%B3n
+Ordenamiento por inserción
+
+Selection Sort
+https://es.wikipedia.org/wiki/Ordenamiento_por_selecci%C3%B3n
+Ordenamiento por selección
+
+Tree Sort
+https://es.wikipedia.org/wiki/Ordenamiento_con_%C3%A1rbol_binario
+Ordenamiento con árbol binario
+
+Shell Sort
+https://es.wikipedia.org/wiki/Ordenamiento_Shell
+Ordenamiento Shell
+
+Bucket Sort
+https://es.wikipedia.org/wiki/Ordenamiento_por_casilleros
+Ordenamiento por casilleros
+
+Radix Sort
+https://es.wikipedia.org/wiki/Ordenamiento_Radix
+Ordenamiento Radix
+
+Counting Sort
+https://es.wikipedia.org/wiki/Ordenamiento_por_cuentas
+Ordenamiento por cuentas
+
+Cubesort
+https://en.wikipedia.org/wiki/Cubesort
