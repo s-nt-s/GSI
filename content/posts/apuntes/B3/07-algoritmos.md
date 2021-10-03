@@ -101,6 +101,34 @@ Tienen tres tipos de operaciones:
 * Transformación: asignación de valores, permutas, etc
 * Análisis: consultar valor, búsquedas, recorridos, etc
 
+## Tablas
+
+## Listas
+
+## Árboles
+
+## Grafos
+
+# Algoritmos
+
+## Ordenación
+
+## Búsqueda
+
+* Quicksort
+* Mergesort
+* Timsort
+* Heapsort
+* Bubble Sort
+* Insertion Sort
+* Selection Sort
+* Tree Sort
+* Shell Sort
+* Bucket Sort
+* Radix Sort
+* Counting Sort
+* Cubesort
+
 # Bibliografía
 
 * [gsitic.wordpress.com - B3]({filename}/posts/gsitic.wordpress.com/bloque_3.md#tablas,-listas-y-arboles)
