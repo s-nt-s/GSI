@@ -21,7 +21,6 @@ class Replace:
     def __init__(self, delimiter, replacements, abbr):
         self.replacements = replacements
         self.delimiter = delimiter
-        self.abbr = abbr
         self.re_num = re.compile(r"[⁰¹²³⁴⁵⁶⁷⁸⁹]+")
         self.re_scape = tuple((
             re.compile(r'(\[[^\[\]]*\]\(\S+( "[^"]+")?\))'),
@@ -29,9 +28,17 @@ class Replace:
             re.compile(r"<a[^>]*>[^<]*</a>"),
             re.compile(r"<https?://[^>]+>"),
             re.compile(r"`[^`]+`"),
-            re.compile(r'''\btitle=(["']).*?\1'''),
-            self.re_num,
+            re.compile(r'''\btitle=(["']).*?\1''')
         ))
+        self.abbr = Munch(
+            fase1=[],
+            fase2=[]
+        )
+        for abbr in abbr:
+            if isinstance(abbr.text, str) and self.re_num.search(abbr.text):
+                self.abbr.fase1.append(abbr)
+            else:
+                self.abbr.fase2.append(abbr)
 
     def rpl(self, txt):
         fake_sep = "@#~½$"
@@ -53,14 +60,13 @@ class Replace:
             return fake_sep+nw+fake_sep
         for key, value in self.replacements.items():
             txt = txt.replace(self.delimiter + key + self.delimiter, value)
-        for abbr in self.abbr:
-            if isinstance(abbr.text, str) and self.re_num.search(abbr.text):
-                txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
         for re_sc in self.re_scape:
             txt = re_sc.sub(lambda x:fake_sub(re_sc, None, x), txt)
-        for abbr in self.abbr:
-            if not(isinstance(abbr.text, str) and self.re_num.search(abbr.text)):
-                txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
+        for abbr in self.abbr.fase1:
+            txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
+        txt = self.re_num.sub(lambda x:fake_sub(re_sc, None, x), txt)
+        for abbr in  self.abbr.fase2:
+            txt = abbr.re.sub(lambda x:fake_sub(abbr.re, abbr.new_text, x), txt)
         txt = txt.replace(fake_sep, "")
         return txt
 
