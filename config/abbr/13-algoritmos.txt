@@ -45,3 +45,36 @@ Ordenamiento por cuentas
 
 Cubesort
 https://en.wikipedia.org/wiki/Cubesort
+
+r'Array
+https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)
+
+i'Listas? enlazadas?
+https://es.wikipedia.org/wiki/Lista_enlazada
+
+i'Lista enlazada simple
+https://es.wikipedia.org/wiki/Lista_enlazada#Listas_simples_enlazadas
+
+i'Lista enlazada doblemente
+https://es.wikipedia.org/wiki/Lista_doblemente_enlazada
+
+LIFO
+https://es.wikipedia.org/wiki/Last_in,_first_out
+Last in, first out (pila)
+
+FIFO
+https://es.wikipedia.org/wiki/First_in,_first_out
+First in, first out (cola)
+
+grafo
+https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)
+
+i'Árbol(es)? (\**)binario(\3)
+https://es.wikipedia.org/wiki/%C3%81rbol_binario
+
+Árbol
+https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)
+
+Montículo
+https://es.wikipedia.org/wiki/Mont%C3%ADculo_(inform%C3%A1tica)
+Árbol en el que el nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos
