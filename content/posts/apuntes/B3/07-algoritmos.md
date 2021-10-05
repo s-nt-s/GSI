@@ -291,7 +291,7 @@ Su complejidad es `O(n log n)`.
 
 ## Búsqueda
 
-* Búsqueda **secuencial** `O(N)`
+* Búsqueda **secuencial**: complejidad `O(N)`
 * [Búsqueda **binaria**](https://es.wikipedia.org/wiki/B%C3%BAsqueda_binaria)
 o dicotómica: tiene como prerequisito que la lista este ordenada, complejidad `O(log n)`
 
