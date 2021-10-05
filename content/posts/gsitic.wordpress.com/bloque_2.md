@@ -163,7 +163,7 @@ Por ejemplo, si un programa necesita 20 horas en un solo núcleo y una porción 
 * [Escuela de Administración Pública de Castilla y León](http://www.eclap.jcyl.es).
 * [Danielside](http://danielside.nom.es/temariogsi2011/Bloque_II_Tema_01_Arquitectura_Ordenadores.html).
 
- # INTERNA. Conceptos de sistemas operativos: Características, evolución y tendencias. Estructuras, componentes y funciones. Sistemas operativos multiprocesador.
+# INTERNA. Conceptos de sistemas operativos: Características, evolución y tendencias. Estructuras, componentes y funciones. Sistemas operativos multiprocesador.
 
 ## Conceptos de Sistemas Operativos
 
@@ -1072,7 +1072,7 @@ Métodos para asignar espacio a cada fichero dentro del disco.
 * [Wikipedia](https://es.wikipedia.org/wiki/Desfragmentaci%C3%B3n)
 * [IES Serra Perenxisa](http://iesperenxisa.edu.gva.es/wordpress/)
 
- # Características técnicas y funcionales de los sistemas operativos: Windows, Linux, Unix y otros. Sistemas operativos para dispositivos móviles.
+# Características técnicas y funcionales de los sistemas operativos: Windows, Linux, Unix y otros. Sistemas operativos para dispositivos móviles.
 
 ## Sistemas Windows
 
@@ -1424,7 +1424,7 @@ Ubuntu Touch es un SO móvil basado en Linux. Se caracteriza por ser un sistema 
 * [RUA. Repositorio Institucional de la Universidad de Alicante](https://rua.ua.es/dspace/)
 * [Wikipedia. Sistemas operativos móviles](https://es.wikipedia.org/wiki/Categor%C3%ADa:Sistemas_operativos_m%C3%B3viles)
 
- # INTERNA. Características técnicas de los lenguajes y paradigmas actuales de programación.
+# INTERNA. Características técnicas de los lenguajes y paradigmas actuales de programación.
 
 ## Lenguajes y paradigmas actuales de programación.
 
@@ -1979,7 +1979,7 @@ Una definición de estructura forma una plantilla que se puede usar para crear v
 * [Apunte de Caramelo](http://apuntedecaramelo.blogspot.com.es/p/oposiciones.html)
 * [McGraw-Hill](https://www.mhe.es/universidad/informatica/8448136640/archivos/apendice_general_2.pdf)
 
- # Inteligencia de negocios: cuadros de mando integral, sistemas de soporte a las decisiones, sistemas de información ejecutiva y almacenes de datos. OLTP y OLAP.
+# Inteligencia de negocios: cuadros de mando integral, sistemas de soporte a las decisiones, sistemas de información ejecutiva y almacenes de datos. OLTP y OLAP.
 
 ## Introducción. Evolución de los sistemas tradicionales a las Bases de Datos.
 
@@ -2658,7 +2658,7 @@ La estructura física del almacén puede presentar cualquiera de las siguientes 
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/356384083/TICB1-Concepto-de-BD)
 
- # Sistemas de gestión de bases de datos relacionales: características y elementos constitutivos. Antecedentes históricos. El lenguaje SQL. Estándares de conectividad: ODBC y JDBC.
+# Sistemas de gestión de bases de datos relacionales: características y elementos constitutivos. Antecedentes históricos. El lenguaje SQL. Estándares de conectividad: ODBC y JDBC.
 
 ## Antecedentes históricos
 
@@ -3655,7 +3655,7 @@ Existen dos estándares de conectividad para SQL:
 
 * [Sribd (Ibiza Ales)](https://es.scribd.com/document/356384003/TICB1-SGBD-relacionales)
 
- # Arquitectura de sistemas cliente-servidor y multicapas: tipología. Componentes. Interoperabilidad de componentes. Ventajas e inconvenientes. Arquitectura de servicios web (WS).
+# Arquitectura de sistemas cliente-servidor y multicapas: tipología. Componentes. Interoperabilidad de componentes. Ventajas e inconvenientes. Arquitectura de servicios web (WS).
 
 ## Arquitecturas Cliente/Servidor
 
@@ -3782,7 +3782,7 @@ Durante todo el proceso intervienen una serie de tecnologías que hacen posible 
 
 * [Escuela de Administración Pública de Castilla y León](http://www.eclap.jcyl.es).
 
- # INTERNA. El modelo TCP/IP y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO: arquitectura, capas, interfaces, protocolos, direccionamiento y encaminamiento.
+# INTERNA. El modelo TCP/IP y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO: arquitectura, capas, interfaces, protocolos, direccionamiento y encaminamiento.
 
 ## El modelo OSI y los protocolos de red
 
@@ -4061,7 +4061,7 @@ La siguiente tabla describe brevemente cada uno de estos protocolos:
 
 * [::blyx::Blog::Toni de la Fuente::](https://blyx.com/)
 
- # Lenguajes de marca o etiqueta. Características y funcionalidades. SGML, HTML, XML y sus derivaciones. Lenguajes de script.
+# Lenguajes de marca o etiqueta. Características y funcionalidades. SGML, HTML, XML y sus derivaciones. Lenguajes de script.
 
 ## Lenguajes de Marca o Etiqueta
 
@@ -4886,7 +4886,7 @@ Con la aparición de la generación 4.x de los navegadores se introdujo el conce
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/357348970/TICB1-Lenguajes-de-Marca)
 
- # Análisis y gestión de riesgos de los sistemas de información. La metodología MAGERIT: método, elementos, técnicas.
+# Análisis y gestión de riesgos de los sistemas de información. La metodología MAGERIT: método, elementos, técnicas.
 
 ## Planes de Seguridad, Contingencias y Recuperación
 
@@ -5658,7 +5658,7 @@ Las actividades de esta etapa, y las tareas de cada una de ellas, son:
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/357351100/TICB3-Planes-de-Seguridad)
 
- # Auditoría Informática: objetivos, alcance y metodología. Técnicas y herramientas. Normas y estándares. Auditoría del ENS y de protección de datos. Auditoría de seguridad física.
+# Auditoría Informática: objetivos, alcance y metodología. Técnicas y herramientas. Normas y estándares. Auditoría del ENS y de protección de datos. Auditoría de seguridad física.
 
 ## Auditoria Informática
 
@@ -6863,7 +6863,7 @@ Para cada uno de estos 34 procesos, tiene un enlace a las metas de negocio y TI 
 * [Scribd (Jecazagu)](https://es.scribd.com/document/51725764/Auditoria-informatica)
 * [Biblioteca udenar](http://biblioteca.udenar.edu.co:8085/atenea/biblioteca/85139.pdf)
 
- # Gestión de la atención a clientes y usuarios: centros de contacto, CRM. Arquitectura multicanal. Sistemas de respuesta de voz interactiva (IVR). Voice XML.
+# Gestión de la atención a clientes y usuarios: centros de contacto, CRM. Arquitectura multicanal. Sistemas de respuesta de voz interactiva (IVR). Voice XML.
 
 ## Gestión de la atención a clientes y usuarios: centros de contacto, CRM.
 
@@ -7083,7 +7083,7 @@ El aumento de los sistemas de telefonía a través de Internet y los progresos e
 * [Scribd VoiceXML (Alex Ice)](https://es.scribd.com/doc/139997173/VoiceXML)
 * [Universidad de Oviedo](http://di002.edv.uniovi.es/~cueva/asignaturas/doctorado/2006/trabajos/VoiceXML.pdf)
 
- # Seguridad física y lógica de un sistema de información. Herramientas en ciberseguridad. Gestión de incidentes. Informática forense.
+# Seguridad física y lógica de un sistema de información. Herramientas en ciberseguridad. Gestión de incidentes. Informática forense.
 
 ## Seguridad Lógica de un Sistema de Información
 
@@ -7819,7 +7819,7 @@ Una auditoria de seguridad lógica debe centrarse en los siguientes aspectos:
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/357351063/TICB3-Seguridad-Logica)
 
- # Software libre y software propietario. Características y tipos de licencias. La protección jurídica de los programas de ordenador. Tecnologías de protección de derechos digitales.
+# Software libre y software propietario. Características y tipos de licencias. La protección jurídica de los programas de ordenador. Tecnologías de protección de derechos digitales.
 
 ## Software Libre versus Software Propietario
 
@@ -8056,7 +8056,7 @@ Diferencias entre licenciar y relicenciar versiones de una aplicación original 
 * [rebelión](http://www.rebelion.org/docs/32693.pdf)
 * [Informática.us.es](http://www.informatica.us.es/~ramon/articulos/LicenciasSoftware.pdf)
 
- # Técnicas de evaluación de alternativas y análisis de viabilidad. Personal, procedimientos, datos, software, hardware. Presupuestación y control de costes de un proyecto informático.
+# Técnicas de evaluación de alternativas y análisis de viabilidad. Personal, procedimientos, datos, software, hardware. Presupuestación y control de costes de un proyecto informático.
 
 ## Introducción
 
@@ -8897,7 +8897,7 @@ Los métodos de normalización más utilizados son los siguientes:
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/357349218/TICB2-Tecnicas-de-Evaluacion-de-Alternativas)
 
- # Documática. Gestión y archivo electrónico de documentos. Sistemas de gestión documental y de contenidos. Sindicación de contenido. Sistemas de gestión de flujos de trabajos. Búsqueda de información: robots, spiders, otros. Posicionamiento y buscadores (SEO)
+# Documática. Gestión y archivo electrónico de documentos. Sistemas de gestión documental y de contenidos. Sindicación de contenido. Sistemas de gestión de flujos de trabajos. Búsqueda de información: robots, spiders, otros. Posicionamiento y buscadores (SEO)
 
 ## Introducción
 

@@ -158,6 +158,7 @@ class CrawlGstic:
                 #write(out+".md", yml+"\n\n"+html2markdown.convert(b.html))
                 txt_md = markdownify(b.html, heading_style="ATX", bullets="*")
                 txt_md = re.sub(r"\n\n\n+", "\n\n", txt_md)
+                txt_md = re.sub(r"^[\t ]+#", "#", txt_md, flags=re.MULTILINE)
                 write(out+".md", yml+"\n\n"+txt_md)
                 print("Creando MD del bloque " + str(b.bloque) + " 100%")
 

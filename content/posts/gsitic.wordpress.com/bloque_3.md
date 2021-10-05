@@ -455,7 +455,7 @@ Tabla del Plan de Gestión del Riesgo del Software:
 
 * [Scribd (Ricardo Costanzi)](https://es.scribd.com/document/100553892/TICB2-Ciclo-de-Vida)
 
- # Gestión del proceso de desarrollo: objetivos, actores y actividades. Técnicas y prácticas de gestión de proyectos.
+# Gestión del proceso de desarrollo: objetivos, actores y actividades. Técnicas y prácticas de gestión de proyectos.
 
 ## Introducción a la Gestión del Proceso de Desarrollo
 
@@ -1138,7 +1138,7 @@ Las interacciones que tiene el jefe de proyecto con el cliente son:
 
 * [Scribd (tfandos)](https://es.scribd.com/document/93243574/TICB2-Gestion-Del-Proceso-de-Desarrollo)
 
- # Planificación del desarrollo. Técnicas de planificación. Metodologías de desarrollo. La metodología Métrica.
+# Planificación del desarrollo. Técnicas de planificación. Metodologías de desarrollo. La metodología Métrica.
 
 ## Técnicas de Planificación
 
@@ -2320,7 +2320,7 @@ A continuación se incluye una tabla resumen con las tareas de la presente activ
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/357349084/TICB2-Planificacion-Del-Desarrollo)
 
- # Estrategias de determinación de requerimientos: Entrevistas, Derivación de sistemas existentes, Análisis y Prototipos. La especificación de requisitos software.
+# Estrategias de determinación de requerimientos: Entrevistas, Derivación de sistemas existentes, Análisis y Prototipos. La especificación de requisitos software.
 
 ## Introducción a la Ingeniería de Requerimientos
 
@@ -2930,7 +2930,7 @@ Dentro del nivel de componentes se usan diversos tipos de lenguajes de programac
 
 * [Scribd (Alfredo Márquez)](https://es.scribd.com/document/245032580/TICB2-Estrategias-Determinacion-Requerimientos)
 
- # Análisis estructurado. Diagramas de flujo de datos. Diagramas de estructura. Diccionario de datos. Flujogramas.
+# Análisis estructurado. Diagramas de flujo de datos. Diagramas de estructura. Diccionario de datos. Flujogramas.
 
 ## Análisis Estructurado
 
@@ -3856,7 +3856,7 @@ Volumen        : Actualmente 25. Se espera llegar a 40.
 * [dlsi (Jaime)](ftp://dlsi.ua.es/people/jaime/apuntes/aesi_cap3.pdf)
 * [PAe](https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html#.Wtj023puZph)
 
- # Modelización conceptual. El modelo Entidad/Relación extendido (E/R): elementos. Reglas de modelización. Validación y construcción de modelos de datos.
+# Modelización conceptual. El modelo Entidad/Relación extendido (E/R): elementos. Reglas de modelización. Validación y construcción de modelos de datos.
 
 ## Modelo Conceptual de Datos
 
@@ -4380,7 +4380,7 @@ En el cruce de una fila y una columna (C), se tendrá el modo en que se relacion
 * [Junta de Castilla y León (SOP\_INF\_T09\_FINAL)](https://eclap.jcyl.es/web/jcyl/ECLAP/es/Plantilla66y33/1259395037582/_/_/_)
 * [PAe](https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html#.WtYfDnpuZpg)
 
- # Diseño de bases de datos.La arquitectura ANSI/SPARC. El modelo lógico relacional. Normalización. Diseño lógico. Diseño físico. Problemas de concurrencia de acceso. Mecanismos de resolución de conflictos.
+# Diseño de bases de datos.La arquitectura ANSI/SPARC. El modelo lógico relacional. Normalización. Diseño lógico. Diseño físico. Problemas de concurrencia de acceso. Mecanismos de resolución de conflictos.
 
 ## Introducción
 
@@ -5016,7 +5016,7 @@ Son métodos que, además de la sintaxis, utilizan la semántica de las acciones
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/356635763/Ticb2-Diseno-de-Bbdd-II)
 
- # Tipos abstractos de datos y estructuras de datos. Grafos. Tipos de algoritmos: ordenación y búsqueda. Estrategias de diseño de algoritmos. Organizaciones de ficheros.
+# Tipos abstractos de datos y estructuras de datos. Grafos. Tipos de algoritmos: ordenación y búsqueda. Estrategias de diseño de algoritmos. Organizaciones de ficheros.
 
 ## Tablas, listas y árboles
 
@@ -6046,7 +6046,7 @@ En muchos casos, las extensiones son  meras convenciones y no relacionadas con 
 
 * [Scribd (Ibiza Ales)](https://es.scribd.com/document/356393030/TICB1-Estructuras-de-Datos)
 
- # Diseño de programas. Diseño estructurado. Análisis de transformación y de transacción. Cohesión y acoplamiento.
+# Diseño de programas. Diseño estructurado. Análisis de transformación y de transacción. Cohesión y acoplamiento.
 
 ## Introducción al Diseño Estructurado
 
@@ -6567,7 +6567,7 @@ Acorde a esta definición, un gran número de situaciones encontradas en aplicac
 
 * [Universidad Tecnológica Nacional – F.R.R.](http://exa.unne.edu.ar/informatica/anasistem2/public_html/apuntes/de1.pdf)
 
- # Pruebas. Planificación y documentación. Utilización de datos de prueba. Pruebas de software, hardware, procedimientos y datos.
+# Pruebas. Planificación y documentación. Utilización de datos de prueba. Pruebas de software, hardware, procedimientos y datos.
 
 ## Documentación y Pruebas en el Desarrollo Tradicional del Software
 
@@ -6999,7 +6999,7 @@ Si se detecta alguna desviación en cuanto a sus especificaciones o a los están
 * [UBA (Universidad de Buenos Aires)](http://materias.fi.uba.ar/7507/content/20101/lecturas/documentacion_pruebas.pdf)
 * [PAe (Métrica 3)](https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html)
 
- # La calidad del software y su medida. Modelos, métricas,normas y estándares.
+# La calidad del software y su medida. Modelos, métricas,normas y estándares.
 
 ## Introducción a la Calidad del Software
 
