@@ -72,19 +72,19 @@ Tabla: Complejidad de algoritmos de ordenación <span class="complejidad_ordenac
 |-----|--------|----------|-----------|---------|
 | Array          | Θ(1) | Θ(n) | Θ(n) | Θ(n) |
 | Lista enlazada | Θ(n) | Θ(n) | Θ(1) | Θ(1) |
-| [Skip List](https://es.wikipedia.org/wiki/Skip_list) | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
+| Skip List | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
 | └─ *caso peor*                                       | O(n)      | O(n)      | O(n)      | O(n) |
-| [Tabla Hash](https://es.wikipedia.org/wiki/Tabla_hash) | | Θ(1) | Θ(1) | Θ(1) |
+| Tabla Hash | | Θ(1) | Θ(1) | Θ(1) |
 | └─ *caso peor*                                         | | O(n) | O(n) | O(n) |
-| [Árbol binario de busqueda](https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda) | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
+| Árbol binario de búsqueda | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
 | └─ *caso peor*                                                                                 | O(n)     | O(n)     | O(n)     | O(n) |
-| [Árbol cartesiano](https://es.wikipedia.org/wiki/%C3%81rbol_cartesiano) | | Θ(log n) | Θ(log n) | Θ(log n) |
+| Árbol cartesiano | | Θ(log n) | Θ(log n) | Θ(log n) |
 | └─ *caso peor*                                                          | | O(n)     | O(n)     | O(n) |
-| [B-Tree](https://es.wikipedia.org/wiki/%C3%81rbol-B) | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
-| [Árbol rojo-negro](https://es.wikipedia.org/wiki/%C3%81rbol_rojo-negro) | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
-| [Árbol biselado](https://es.wikipedia.org/wiki/%C3%81rbol_biselado) | | Θ(log n) | Θ(log n) | Θ(log n) |
-| [Árbol AVL](https://es.wikipedia.org/wiki/%C3%81rbol_AVL) | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
-| [Árbol KD](https://es.wikipedia.org/wiki/%C3%81rbol_kd) | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
+| B-Tree | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
+| Árbol rojo-negro | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
+| Árbol biselado | | Θ(log n) | Θ(log n) | Θ(log n) |
+| Árbol AVL | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
+| Árbol KD | Θ(log n) | Θ(log n) | Θ(log n) | Θ(log n) |
 | └─ *caso peor*                                          | O(n)     | O(n)     | O(n)     | O(n) |
 
 Tabla: Complejidad de operaciones sobre TAD (*caso peor* omitido cuando coincide con el *caso promedio*)  <span class="complejidad_tad"></span>
@@ -124,6 +124,8 @@ Según los enlaces entre nodos pueden ser:
 
 * **Lista enlazada simple**: cada nodo tiene un único enlace que apunta al siguiente nodo
 * **Lista enlazada doblemente**: cada nodo tienen dos enlaces, uno al siguiente nodo y otro al anterior
+* **Skip List**: lista enlazada que tienen capas de enlaces adicionales para ir
+de un elemento a otro mas alejado de manera directa
 
 De ambos tipos hay una versión **circular** que consiste en considerar el primer
 nodo como el *siguiente* del último nodo, y el último nodo como el *anterior* del primer nodo.
@@ -159,8 +161,8 @@ de aristas que contiene todos los nodos del grafo
 
 ## Árbol
 
-Es un tipo concreto de grafo en el que cada par de nodos solo existe un camino
-(esto implica que un nodo solo tiene como máximo un padre).
+Es un grafo conexo no dirigido que no tiene ciclos, o lo que es lo mismo, entre cada par de
+nodos solo existe un camino (esto implica que un nodo solo tiene como máximo un padre).
 Se utilizan habitualmente en búsquedas.
 
 El árbol empieza en el nodo raíz (nivel 0) y acaba en sus hojas (nodos sin hijos).
@@ -198,7 +200,42 @@ Para regenerar un árbol a partir de su recorrido se necesita:
 * si no se repiten nodos: 2 recorridos en profundidad
 * si se repiten: 3 recorridos en profundidad
 
+Algunos ejemplos de árboles son:
+
+* **Árbol binario de búsqueda**: para cada nodo, el subárbol izquierdo contiene
+valores menores que dicho nodo, y el subárbol derecho contiene valores superiores
+* **Montículo**: Árbol binario casi completo donde cada nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos
+* **Árbol cartesiano**: Representación de una lista de elemento mediante un montículo cuyo recorrido en inorder da dicha lista
+* **B-Tree**: Como un *árbol binario de búsqueda* pero pudiendo tener más de dos hijos
+(ej, `árbol-B 2-3` o `árbol 2-3` es un árbol que cada nodo puede tener 2 o 3 hijos)
+* **Árbol AVL**: Árbol binario de búsqueda equilibrado
+* **Árbol rojo-negro**: Árbol binario de búsqueda equilibrado donde la raíz es
+*negra*, todas las hojas son *rojas*, todo nodo *rojo* debe tener dos hijos *negros*
+y todo camino desde un nodo a sus hojas tiene el mismo número de nodos negros
+* **Árbol biselado**: Árbol binario de búsqueda equilibrado pensado para que los
+nodos accedidos recientemente sean más rápidos de volver acceder, es decir,
+cuando se lee un nodo el árbol se reordena (como el AVL) para *subir* ese nodo de nivel
+* **Árbol KD**: Árbol de K dimensiones
+
 # Algoritmos
+
+## [Técnicas](https://es.wikipedia.org/wiki/Categor%C3%ADa:Algoritmos)
+
+* **Divide y vencerás**
+* **Programación dinámica**: mientras divide el problema en subproblemas guarda
+el resultado de dichos subproblemas para en caso de volver a aparecer no tener
+que repetir el calculo, o incluso precalcular a priori soluciones de subproblemas
+para usarlas luego
+* **Algoritmo voraz**: en cada paso se toma el optimo local con la esperanza
+de que eso nos lleve a la mejor solución (lo cual no esta garantizado, pero
+nos conformarnos porque intentar obtener la mejor solución con certeza tendría
+un alto coste)
+* **Backtracking** o vuelta atrás: se van creando todas las posibles combinaciones
+de elementos para obtener una solución (no tiene porque ser la mejor, basta con
+que cumpla las condiciones exigidas), si se encuentra una alternativa incorrecta,
+la búsqueda retrocede hasta el paso anterior y toma la siguiente alternativa
+* **Ramificación y poda**: como *Backtracking* pero optimizado para no probar
+(podar) caminos que se prevén no llevaran a soluciones optimas
 
 ## Ordenación
 
@@ -298,6 +335,22 @@ y finalmente se devuelve los elementos de cada casillero en orden
 * Búsqueda **secuencial**: complejidad `O(N)`
 * [Búsqueda **binaria**](https://es.wikipedia.org/wiki/B%C3%BAsqueda_binaria)
 o dicotómica: tiene como prerequisito que la lista este ordenada, complejidad `O(log n)`
+* Dijkstra: encuentra el camino mínimo entre dos nodos de un grafo, complejidad
+`O(|A| + |V| log |V|)` usando un montículo de Fibonacci
+* [**Búsquedas no informadas**](https://es.wikipedia.org/wiki/B%C3%BAsquedas_no_informadas):
+se evalúa el siguiente estado sin conocer a priori si este es mejor o peor que el anterior
+    * **Búsqueda en profundidad** (DFS): consiste en ir expandiendo todos y cada uno de los
+    nodos que va localizando en un camino concreto y cuando no hay más en ese camino,
+    regresa (backtracking) para repetir el mismo proceso con cada uno de los hermanos
+    del nodo ya procesado, su complejidad es `O(b^m)` siendo `b` es el factor de
+    ramificación (número promedio de ramificaciones por nodo) y `m` la máxima profundidad
+    del espacio de estados. No es completo ni optimo
+    * **Búsqueda en anchura** (BFS): se visitan los nodos de izquierda a derecha y al
+    terminar se pasa al siguiente nivel. Es completo y optimo
+    * **Búsqueda en profundidad iterativa** (BPI): como el anterior pero llegando solo hasta
+    cierta profundidad limitada que luego se va aumentando sucesivamente hasta alcanzar
+    `d` la profundidad del estado objetivo de menor profundidad. La complejidad es `O(b^d)`.
+    Es completo y optimo
 
 # Bibliografía
 
@@ -307,3 +360,4 @@ o dicotómica: tiene como prerequisito que la lista este ordenada, complejidad `
 * [infor.uva.es - Complejidad algorítmica](https://www2.infor.uva.es/~jvalvarez/docencia/tema5.pdf)
 * [bigocheatsheet.com](https://www.bigocheatsheet.com/)
 * [youtube.com - BettaTech - 6 estructuras de datos que todo ingeniero debería conocer](https://www.youtube.com/watch?v=5k2DWMRTXMM)
+* [geeks.ms - ¿Qué significa un problema P o NP?](https://geeks.ms/etomas/2019/02/02/que-significa-un-problema-p-o-np/)

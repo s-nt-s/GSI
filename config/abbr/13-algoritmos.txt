@@ -49,6 +49,12 @@ https://en.wikipedia.org/wiki/Cubesort
 r'Array
 https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)
 
+Skip List
+https://es.wikipedia.org/wiki/Skip_list
+
+Tabla Hash
+https://es.wikipedia.org/wiki/Tabla_hash
+
 i'Listas? enlazadas?
 https://es.wikipedia.org/wiki/Lista_enlazada
 
@@ -69,6 +75,30 @@ First in, first out (cola)
 grafo
 https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)
 
+Árbol AVL
+https://es.wikipedia.org/wiki/%C3%81rbol_AVL
+
+i'Árbol rojo-negro
+https://es.wikipedia.org/wiki/%C3%81rbol_rojo-negro
+
+i'Árbol biselado
+https://es.wikipedia.org/wiki/%C3%81rbol_biselado
+
+Árbol KD
+https://es.wikipedia.org/wiki/%C3%81rbol_kd
+
+B-Tree
+https://es.wikipedia.org/wiki/%C3%81rbol-B
+
+Árbol cartesiano
+https://es.wikipedia.org/wiki/%C3%81rbol_cartesiano
+
+Árbol binario de búsqueda equilibrado
+https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda_auto-balanceable
+
+Árbol binario de búsqueda
+https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda
+
 i'Árbol(es)? (\**)binario(\3)
 https://es.wikipedia.org/wiki/%C3%81rbol_binario
 
@@ -78,3 +108,31 @@ https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)
 Montículo
 https://es.wikipedia.org/wiki/Mont%C3%ADculo_(inform%C3%A1tica)
 Árbol en el que el nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos
+
+Dijkstra
+https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra
+Encuentra el camino mínimo entre dos nodos de un grafo
+
+Divide y vencerás
+https://es.wikipedia.org/wiki/Algoritmo_divide_y_vencer%C3%A1s
+
+Backtracking
+https://es.wikipedia.org/wiki/Vuelta_atr%C3%A1s
+
+Programación dinámica
+https://es.wikipedia.org/wiki/Programaci%C3%B3n_din%C3%A1mica
+
+Algoritmo voraz
+https://es.wikipedia.org/wiki/Algoritmo_voraz
+
+Ramificación y poda
+https://es.wikipedia.org/wiki/Ramificaci%C3%B3n_y_poda
+
+Búsqueda en profundidad iterativa
+https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_profundidad_iterativa
+
+Búsqueda en profundidad
+https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_profundidad
+
+Búsqueda en anchura
+https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_anchura
