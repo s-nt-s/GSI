@@ -1,6 +1,5 @@
 ---
 title: Tipos y algoritmos
-status: draft
 ---
 
 # Conceptos básicos
@@ -42,8 +41,8 @@ de que dato en concreto es, por lo tanto [tenemos 3 casos](https://es.wikipedia.
 (ej: buscar secuencialmente un elemento en una lista):
 
 * el **caso mejor**: `Ω(1)` = el elemento buscado es el primero
-* el **caso peor**: `Θ(n)` = el elemento buscado es el último
-* el **caso esperado o promedio**: `O(n/2)` = puesto que todas la posiciones son equiprobables
+* el **caso peor**: `O(n)` = el elemento buscado es el último
+* el **caso esperado o promedio**: `Θ(n/2)` = puesto que todas la posiciones son equiprobables
 
 Por lo general, se considera el caso promedio.
 
@@ -282,12 +281,17 @@ montículo y luego extraer el nodo raíz en sucesivas iteraciones.
 
 Su complejidad es `O(n log n)`.
 
-* Timsort
-* Tree Sort
-* Bucket Sort
-* Radix Sort
-* Counting Sort
-* Cubesort
+### Otros
+
+* **Timsort**: Híbrido de Mergesort e Insertion Sort. Es el algoritmo por defecto
+en Python y, para arrays de tipos nos primitivos, Java
+* **Tree Sort**: Se construye un árbol binario de búsqueda y luego se recorre en *inorder*
+* **Bucket Sort**: Se dividen los elementos por intervalos en distintos casilleros,
+luego se ordena cada casillero (repitiendo el proceso o usando otro algoritmo de ordenación)
+y finalmente se devuelve los elementos de cada casillero en orden
+* **Radix Sort**: Ordena número enteros procesando sus dígitos de manera individual
+* **Counting Sort**: Ordena números enteros mediante el conteo de cuantas ocurrencias hay de cada uno
+* **Cubesort**: algoritmo paralelo que usa búsqueda binaria
 
 ## Búsqueda
 
