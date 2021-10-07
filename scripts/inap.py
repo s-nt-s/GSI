@@ -9,8 +9,8 @@ from .core.util import clean_url, read, url_key, write
 from .core.web import FF, Web
 
 re_sp = re.compile(r"\s+")
-re_test = re.compile(r"\bTest\b", re.IGNORECASE)
-re_tema = re.compile(r"^\s*Tema\s+\d+\s*[\.:\-\s]*(.+)", re.IGNORECASE)
+re_test = re.compile(r"\bTest\b|Simulacro de examen", re.IGNORECASE)
+re_tema = re.compile(r"^\s*Tema\s+\d+\s*[\.:\-\s]*(.+)|SIMULACRO DE EXAMEN", re.IGNORECASE)
 re_ley = re.compile(r"(Reglamento \(?UE\)?|Ley Org[aá]nica|Real Decreto|RD|Ley|Decreto|Reglamento|LO) (\d+/\d+)", re.IGNORECASE)
 
 def parse_ley(pre, num):
@@ -82,19 +82,13 @@ class CrawlInap:
         for p in main.findAll(tag):
             txt = p.get_text().strip()
             txt = re_sp.sub(" ", txt)
-            if rg.match(txt):
-                txt = rg.sub(r"\1", txt)
+            mtc = rg.match(txt)
+            if mtc:
+                if mtc.group(1):
+                    txt = mtc.group(1)
                 yield txt.strip()
 
-
     def get_bloques(self):
-        def get_temas(node):
-            for p in node.findAll("p"):
-                txt = p.get_text().strip()
-                txt = re_sp.sub(" ", txt)
-                if re_tema.match(txt):
-                    txt = re_tema.sub(r"\1", txt)
-                    yield txt.strip()
         blq = 0
         URLS = self.get_urls("div.content h3.section-title a")
         for bloque, url in URLS:
@@ -116,6 +110,8 @@ class CrawlInap:
                     temas=[]
                 )
                 print(len(TEMAS), "temas", len(TEST), "test")
+                while len(TEMAS)<len(TEST):
+                    TEMAS.append(TEST[len(TEMAS)-1][0])
                 for (i, ((_, href), txt)) in enumerate(zip(TEST, TEMAS)):
                     print(" ", "%2d" % (i+1), txt)
                     t = Munch(
