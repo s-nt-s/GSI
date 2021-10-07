@@ -51,6 +51,7 @@ function cln() {
   rnm $'\302\201' ""
   find . -name "*  *" -execdir rename "s|\s\s\s*| |g" "{}" +
   find . -type d -name "*_" -execdir rename "s|__*$||g" "{}" +
+  find . -type d -name "*An func de sist, CU e HU. Met de desrrll de sist. Met. agiles_ Scrum y Kanban*" -execdir rename "s|An func de sist, CU e HU. Met de desrrll de sist. Met. agiles_ Scrum y Kanban|Análisis funcional de sistemas, CU e HU. Metodologías de desarrollo de sistemas. Metodologías ágiles, Scrum y Kanban|g" "{}" +
 
   if [ "$2" == "Pack3 casos practicos.zip" ] || [ "$2" == "Audioapuntes_Pack1_01.7z" ]; then
   find . -type f -regextype posix-egrep -regex ".*/[^/]+\S\([0-9]*\)\.[^\.]+" \

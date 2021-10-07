@@ -48,15 +48,15 @@ ZP=$(basename "$ZP")
 if [ "$ZP" == "Pack_1_PreparaTIC27.zip" ]; then
   mkdir '000 Resumenes'
   cd '000 Resumenes'
-  find .. -ipath "*/contenidos/*resumen*" -iname "*amplio*" -print0 |
+  find .. \( -ipath "*/contenidos/*resumen*" -o -ipath "*/contenido/*resumen*" \) -iname "*amplio*" -print0 |
   while IFS= read -r -d '' file; do
     mklink "$file" "_amplio"
   done
-  find .. -ipath "*/contenidos/*resumen*" -iname "*express*" -print0 |
+  find .. \( -ipath "*/contenidos/*resumen*" -o -ipath "*/contenido/*resumen*" \) -iname "*express*" -print0 |
   while IFS= read -r -d '' file; do
     mklink "$file" "_express"
   done
-  find .. -ipath "*/contenidos/*resumen*" ! -iname "*amplio*" ! -iname "*express*" -print0 |
+  find .. \( -ipath "*/contenidos/*resumen*" -o -ipath "*/contenido/*resumen*" \) ! -iname "*amplio*" ! -iname "*express*" -print0 |
   while IFS= read -r -d '' file; do
     mklink "$file" ""
   done

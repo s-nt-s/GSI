@@ -1341,7 +1341,7 @@ abbr:
 │           ├── Planificación Estratégica de IT (I).pdf
 │           ├── Planificación Estratégica de IT (IV).pdf
 │           └── PLANIFICACION ESTRATEGICA DE S.I.C.pdf
-├── 087 An func de sist, CU e HU. Met de desrrll de sist. Met. agiles_ Scrum y Kanban
+├── 087 Análisis funcional de sistemas, CU e HU. Metodologías de desarrollo de sistemas. Metodologías ágiles, Scrum y Kanban
 │   ├── Contenidos
 │   │   ├── PreparaTIC_27_087 - Resumen Express.pdf
 │   │   └── PreparaTIC_27_087 - Resumen.pdf
