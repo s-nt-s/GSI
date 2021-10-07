@@ -136,3 +136,6 @@ https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_profundidad
 
 Búsqueda en anchura
 https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_anchura
+
+Búsqueda de costo uniforme
+https://es.wikipedia.org/wiki/B%C3%BAsqueda_de_costo_uniforme

@@ -161,7 +161,7 @@ de aristas que contiene todos los nodos del grafo
 
 ## Árbol
 
-Es un grafo conexo no dirigido que no tiene ciclos, o lo que es lo mismo, entre cada par de
+Es un grafo conexo dirigido que no tiene ciclos, o lo que es lo mismo, entre cada par de
 nodos solo existe un camino (esto implica que un nodo solo tiene como máximo un padre).
 Se utilizan habitualmente en búsquedas.
 
@@ -205,17 +205,24 @@ Algunos ejemplos de árboles son:
 * **Árbol binario de búsqueda**: para cada nodo, el subárbol izquierdo contiene
 valores menores que dicho nodo, y el subárbol derecho contiene valores superiores
 * **Montículo**: Árbol binario casi completo donde cada nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos
-* **Árbol cartesiano**: Representación de una lista de elemento mediante un montículo cuyo recorrido en inorder da dicha lista
+* **Árbol cartesiano**: Representación de una lista de elementos mediante un montículo cuyo recorrido en inorder da dicha lista
 * **B-Tree**: Como un *árbol binario de búsqueda* pero pudiendo tener más de dos hijos
 (ej, `árbol-B 2-3` o `árbol 2-3` es un árbol que cada nodo puede tener 2 o 3 hijos)
-* **Árbol AVL**: Árbol binario de búsqueda equilibrado
-* **Árbol rojo-negro**: Árbol binario de búsqueda equilibrado donde la raíz es
-*negra*, todas las hojas son *rojas*, todo nodo *rojo* debe tener dos hijos *negros*
+* **Árbol B+**: Un *B-Tree* donde la información solo se encuentra en los nodos
+hojas (siendo los demás punteros y claves), las cuales están todas en el mismo nivel
+* **Árbol AVL**: Árbol binario de búsqueda equilibrado (se equilibra con rotaciones)
+* **Árbol rojo-negro**: Árbol binario de búsqueda equilibrado donde la raíz y
+todas las hojas son *negras*, todo nodo *rojo* debe tener dos hijos *negros*
 y todo camino desde un nodo a sus hojas tiene el mismo número de nodos negros
 * **Árbol biselado**: Árbol binario de búsqueda equilibrado pensado para que los
 nodos accedidos recientemente sean más rápidos de volver acceder, es decir,
 cuando se lee un nodo el árbol se reordena (como el AVL) para *subir* ese nodo de nivel
 * **Árbol KD**: Árbol de K dimensiones
+
+## Otros
+
+* Conjunto
+* Bolsa: Como el conjunto pero puede tener elementos repetidos
 
 # Algoritmos
 
@@ -235,7 +242,7 @@ de elementos para obtener una solución (no tiene porque ser la mejor, basta con
 que cumpla las condiciones exigidas), si se encuentra una alternativa incorrecta,
 la búsqueda retrocede hasta el paso anterior y toma la siguiente alternativa
 * **Ramificación y poda**: como *Backtracking* pero optimizado para no probar
-(podar) caminos que se prevén no llevaran a soluciones optimas
+(podar) caminos que se prevén no llevarán a soluciones optimas
 
 ## Ordenación
 
@@ -321,7 +328,7 @@ Su complejidad es `O(n log n)`.
 ### Otros
 
 * **Timsort**: Híbrido de Mergesort e Insertion Sort. Es el algoritmo por defecto
-en Python y, para arrays de tipos nos primitivos, Java
+en Python y, para arrays de tipos no primitivos, en Java
 * **Tree Sort**: Se construye un árbol binario de búsqueda y luego se recorre en *inorder*
 * **Bucket Sort**: Se dividen los elementos por intervalos en distintos casilleros,
 luego se ordena cada casillero (repitiendo el proceso o usando otro algoritmo de ordenación)
@@ -351,6 +358,9 @@ se evalúa el siguiente estado sin conocer a priori si este es mejor o peor que 
     cierta profundidad limitada que luego se va aumentando sucesivamente hasta alcanzar
     `d` la profundidad del estado objetivo de menor profundidad. La complejidad es `O(b^d)`.
     Es completo y optimo
+    * **Búsqueda de costo uniforme** (BCU): busca el camino con costo más bajo en un
+    grafo ponderado (Dijkstra es igual pero no buscando un nodo en concreto, si no
+    trazando caminos mínimos para todos). Solo funciona si todos los pesos son `>=0`
 
 # Bibliografía
 
@@ -361,3 +371,6 @@ se evalúa el siguiente estado sin conocer a priori si este es mejor o peor que 
 * [bigocheatsheet.com](https://www.bigocheatsheet.com/)
 * [youtube.com - BettaTech - 6 estructuras de datos que todo ingeniero debería conocer](https://www.youtube.com/watch?v=5k2DWMRTXMM)
 * [geeks.ms - ¿Qué significa un problema P o NP?](https://geeks.ms/etomas/2019/02/02/que-significa-un-problema-p-o-np/)
+* [cs.us.es - Apuntes, temas y códigos de "Informática (2019-20)"](https://www.cs.us.es/~jalonso/cursos/i1m/temas.php)
+* [youtube.com - Rafael Rivera - Búsqueda por costo uniforme](https://www.youtube.com/watch?v=78yAPE5TwDI)
+* [/es.wikipedia.org- Glosario de teoría de grafos](https://es.wikipedia.org/wiki/Anexo:Glosario_de_teor%C3%ADa_de_grafos)
