@@ -1836,3 +1836,25 @@ r'([rR]euni[óo]n|[Ss]esi[oó]n)(es)? JAD'
 https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jad/
 https://es.wikipedia.org/wiki/Joint_Application_Design
 Joint Application Design, reunión entre usuarios finales y desarrolladores para obtener requisitos
+
+RUP
+https://es.wikipedia.org/wiki/Proceso_Unificado_de_Rational
+Proceso Unificado de Rational
+
+ROI
+https://es.wikipedia.org/wiki/Retorno_de_la_inversi%C3%B3n
+Retorno de la inversión
+
+i'scrum
+https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)
+
+i'Kanban
+https://es.wikipedia.org/wiki/Kanban_(desarrollo)
+
+FDD​
+https://es.wikipedia.org/wiki/Desarrollo_basado_en_funcionalidades
+Desarrollo basado en funcionalidades (Feature Driven Development)
+
+DSDM
+https://es.wikipedia.org/wiki/M%C3%A9todo_de_desarrollo_de_sistemas_din%C3%A1micos
+Método de desarrollo de sistemas dinámicos (Dynamic Systems Development Method)
