@@ -20,7 +20,13 @@ class MyConverter(MarkdownConverter):
         el.attrs.clear()
         if el.find("thead") is None:
             el.insert(0, BeautifulSoup("<thead></thead>", "html.parser"))
-            el.find("thead").append(el.find("tr"))
+            rs = 1
+            for tr in list(el.findAll("tr")):
+                rs = max(rs, *(int(td.attrs.get("rowspan", 0)) for td in tr.findAll("td")))
+                el.find("thead").append(tr)
+                rs = rs - 1
+                if rs == 0:
+                    break
             for th in el.select("thead td"):
                 th.name = "th"
                 for s in th.select("strong"):
