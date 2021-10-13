@@ -115,7 +115,6 @@ class CrawlMetrica:
             m = Munch(
                 title=tt,
                 url=url,
-                childrens=[]
             )
             if m.title.upper() == m.title:
                 lsU = url
@@ -127,6 +126,8 @@ class CrawlMetrica:
                 if lw in ("EVS", "ASI", "DSI", "CSI", "IAS"):
                     parent = "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/desarrollo/"
             if parent in hsh:
+                if "childrens" not in hsh[parent]:
+                    hsh[parent].childrens=[]
                 hsh[parent].childrens.append(m)
             else:
                 inx.append(m)
@@ -145,7 +146,7 @@ class CrawlMetrica:
                 l = l - 1
             else:
                 yield (l, i)
-            for x in i.childrens:
+            for x in i.get("childrens" , []):
                 yield from iter_level(l+1, x)
 
         for i in self.get_index():
@@ -229,7 +230,7 @@ class CrawlMetrica:
             author: Ministerio de Administraciones Pública
             description: MÉTRICA v3 es propiedad intelectual del Ministerio de Administraciones Públicas, ver http://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html
             lang: es-ES
-            pandoc: --toc-depth 2 --parse-raw --epub-chapter-level 2
+            pandoc: --toc-depth 3 --parse-raw --epub-chapter-level 2
             source: Ministerio de Administraciones Pública
             summary: Contenido propiedad del [Ministerio de Administraciones Públicas](http://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html).
             txt-cover: Métrica v3

@@ -2,11 +2,11 @@
   {
     "title": "INTRODUCCI\u00d3N",
     "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/",
+    "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:fa21fe9d-7790-4cb4-be89-023b6f8fe954/METRICA_V3_Introduccion.pdf",
     "childrens": [
       {
         "title": "Aportaciones de M\u00e9trica Versi\u00f3n 3",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/aportaciones/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/aportaciones/"
       },
       {
         "title": "PROCESOS PRINCIPALES DE M\u00c9TRICA VERSI\u00d3N 3",
@@ -14,8 +14,7 @@
         "childrens": [
           {
             "title": "Planificaci\u00f3n de Sistemas de Informaci\u00f3n (PSI)",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/psi/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/psi/"
           },
           {
             "title": "Desarrollo de Sistemas de Informaci\u00f3n",
@@ -23,35 +22,29 @@
             "childrens": [
               {
                 "title": "Estudio de Viabilidad del Sistema (EVS)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/evs/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/evs/"
               },
               {
                 "title": "An\u00e1lisis del Sistema de Informaci\u00f3n (ASI)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/asi/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/asi/"
               },
               {
                 "title": "Dise\u00f1o del Sistema de Informaci\u00f3n (DSI)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/dsi/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/dsi/"
               },
               {
                 "title": "Construcci\u00f3n del Sistema de Informaci\u00f3n (CSI)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/csi/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/csi/"
               },
               {
                 "title": "Implantaci\u00f3n y Aceptaci\u00f3n del Sistema (IAS)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/ias/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/ias/"
               }
             ]
           },
           {
             "title": "Mantenimiento de Sistemas de Informaci\u00f3n (MSI)",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/msi/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/msi/"
           }
         ]
       },
@@ -61,28 +54,23 @@
         "childrens": [
           {
             "title": "Gesti\u00f3n de Proyectos",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/gestion-de-proyectos/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/gestion-de-proyectos/"
           },
           {
             "title": "Seguridad",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/seguridad/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/seguridad/"
           },
           {
             "title": "Gesti\u00f3n de la Configuraci\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/gestion-de-la-configuracion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/gestion-de-la-configuracion/"
           },
           {
             "title": "Aseguramiento de la Calidad",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/aseguramiento-de-la-calidad/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/aseguramiento-de-la-calidad/"
           }
         ]
       }
-    ],
-    "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:fa21fe9d-7790-4cb4-be89-023b6f8fe954/METRICA_V3_Introduccion.pdf"
+    ]
   },
   {
     "title": "PROCESOS PRINCIPALES DE M\u00c9TRICA v3",
@@ -91,6 +79,7 @@
       {
         "title": "Planificaci\u00f3n de Sistemas de Informaci\u00f3n (PSI)",
         "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/",
+        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:8d2cfee5-5617-4dea-8cf8-7b7a0131de84/METRICA_V3_Panificacion_de_Sistemas_de_Informacion.pdf",
         "childrens": [
           {
             "title": "Actividad PSI 1: Inicio del Plan de Sistemas de Informaci\u00f3n",
@@ -98,18 +87,15 @@
             "childrens": [
               {
                 "title": "Tarea PSI 1.1: An\u00e1lisis de la Necesidad del PSI",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-1/"
               },
               {
                 "title": "Tarea PSI 1.2: Identificaci\u00f3n del Alcance del PSI",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-2/"
               },
               {
                 "title": "Tarea PSI 1.3: Determinaci\u00f3n de Responsables",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-3/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-3/"
               }
             ]
           },
@@ -119,23 +105,19 @@
             "childrens": [
               {
                 "title": "Tarea PSI 2.1: Especificaci\u00f3n del \u00c1mbito y Alcance",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-1/"
               },
               {
                 "title": "Tarea PSI 2.2: Organizaci\u00f3n del PSI",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-2/"
               },
               {
                 "title": "Tarea PSI 2.3: Definici\u00f3n del Plan de Trabajo",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-3/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-3/"
               },
               {
                 "title": "Tarea PSI 2.4: Comunicaci\u00f3n del Plan de Trabajo",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-4/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-4/"
               }
             ]
           },
@@ -145,13 +127,11 @@
             "childrens": [
               {
                 "title": "Tarea PSI 3.1: Selecci\u00f3n y An\u00e1lisis de Antecedentes",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-3/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-3/tarea-1/"
               },
               {
                 "title": "Tarea PSI 3.2: Valoraci\u00f3n de Antecedentes",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-3/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-3/tarea-2/"
               }
             ]
           },
@@ -161,18 +141,15 @@
             "childrens": [
               {
                 "title": "Tarea PSI 4.1: Estudio de los Procesos del PSI",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-1/"
               },
               {
                 "title": "Tarea PSI 4.2: An\u00e1lisis de las Necesidades de Informaci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-2/"
               },
               {
                 "title": "Tarea PSI 4.3: Catalogaci\u00f3n de Requisitos",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-3/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-3/"
               }
             ]
           },
@@ -182,18 +159,15 @@
             "childrens": [
               {
                 "title": "Tarea PSI 5.1: Alcance y Objetivos del Estudio de los Sistemas de Informaci\u00f3n Actuales",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-1/"
               },
               {
                 "title": "Tarea PSI 5.2: An\u00e1lisis de los Sistemas de Informaci\u00f3n Actuales",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-2/"
               },
               {
                 "title": "Tarea PSI 5.3: Valoraci\u00f3n de los Sistemas de Informaci\u00f3n Actuales",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-3/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-3/"
               }
             ]
           },
@@ -203,13 +177,11 @@
             "childrens": [
               {
                 "title": "Tarea PSI 6.1: Diagn\u00f3stico de la Situaci\u00f3n Actual",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-6/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-6/tarea-1/"
               },
               {
                 "title": "Tarea PSI 6.2: Definici\u00f3n del Modelo de Sistemas de Informaci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-6/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-6/tarea-2/"
               }
             ]
           },
@@ -219,13 +191,11 @@
             "childrens": [
               {
                 "title": "Tarea PSI 7.1: Identificaci\u00f3n de las Necesidades de Infraestructura Tecnol\u00f3gica",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-7/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-7/tarea-1/"
               },
               {
                 "title": "Tarea PSI 7.2: Selecci\u00f3n de la Arquitectura Tecnol\u00f3gica",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-7/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-7/tarea-2/"
               }
             ]
           },
@@ -235,13 +205,11 @@
             "childrens": [
               {
                 "title": "Tarea PSI 8.1: Definici\u00f3n de Proyectos a Realizar",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-8/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-8/tarea-1/"
               },
               {
                 "title": "Tarea PSI 8.2: Elaboraci\u00f3n del Plan de Mantenimiento del PSI",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-8/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-8/tarea-2/"
               }
             ]
           },
@@ -251,23 +219,19 @@
             "childrens": [
               {
                 "title": "Tarea PSI 9.1: Convocatoria de la Presentaci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-1/"
               },
               {
                 "title": "Tarea PSI 9.2: Evaluaci\u00f3n y Mejora de la Propuesta",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-2/"
               },
               {
                 "title": "Tarea PSI 9.3: Aprobaci\u00f3n del PSI",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-3/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-3/"
               }
             ]
           }
-        ],
-        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:8d2cfee5-5617-4dea-8cf8-7b7a0131de84/METRICA_V3_Panificacion_de_Sistemas_de_Informacion.pdf"
+        ]
       },
       {
         "title": "DESARROLLO DE SISTEMAS DE INFORMACI\u00d3N",
@@ -276,6 +240,7 @@
           {
             "title": "Estudio de Viabilidad del Sistema (EVS)",
             "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/",
+            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:75728be8-964e-45e8-865e-e3582c232cc8/METRICA_V3_Estudio_de_Viabilidad_del_Sistema.pdf",
             "childrens": [
               {
                 "title": "Actividad EVS 1: Establecimiento del Alcance del Sistema",
@@ -283,18 +248,15 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS 1.1: Estudio de la Solicitud",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS 1.2: Identificaci\u00f3n del Alcance del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-2/"
                   },
                   {
                     "title": "Tarea EVS 1.3: Especificaci\u00f3n del Alcance del EVS",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-3/"
                   }
                 ]
               },
@@ -304,23 +266,19 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS 2.1: Valoraci\u00f3n del Estudio de la Situaci\u00f3n Actual",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS 2.2: Identificaci\u00f3n de los Usuarios Participantes en el Estudio de la Situaci\u00f3n Actual",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-2/"
                   },
                   {
                     "title": "Tarea EVS 2.3: Descripci\u00f3n de los Sistemas de Informaci\u00f3n Existentes",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-3/"
                   },
                   {
                     "title": "Tarea EVS 2.4: Realizaci\u00f3n del Diagn\u00f3stico de la Situaci\u00f3n Actual",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-4/"
                   }
                 ]
               },
@@ -330,18 +288,15 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS 3.1: Identificaci\u00f3n de las Directrices T\u00e9cnicas y de Gesti\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS 3.2: Identificaci\u00f3n de Requisitos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-2/"
                   },
                   {
                     "title": "Tarea EVS 3.3: Catalogaci\u00f3n de Requisitos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-3/"
                   }
                 ]
               },
@@ -351,13 +306,11 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS 4.1: Preselecci\u00f3n de Alternativas de Soluci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-4/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS 4.2: Descripci\u00f3n de las Alternativas de Soluci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-4/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-4/tarea-2/"
                   }
                 ]
               },
@@ -367,18 +320,15 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS 5.1: Estudio de la Inversi\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS 5.2: Estudio de los Riesgos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-2/"
                   },
                   {
                     "title": "Tarea EVS 5.3: Planificaci\u00f3n de Alternativas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-3/"
                   }
                 ]
               },
@@ -388,27 +338,24 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS 6.1: Convocatoria de la Presentaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS 6.2: Evaluaci\u00f3n de las Alternativas y Selecci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-2/"
                   },
                   {
                     "title": "Tarea EVS 6.3: Aprobaci\u00f3n de la Soluci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-3/"
                   }
                 ]
               }
-            ],
-            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:75728be8-964e-45e8-865e-e3582c232cc8/METRICA_V3_Estudio_de_Viabilidad_del_Sistema.pdf"
+            ]
           },
           {
             "title": "An\u00e1lisis del Sistema de Informaci\u00f3n (ASI)",
             "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/",
+            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:ad870327-56b7-4dfa-af15-e62222f45b90/METRICA_V3_Analisis_del_Sistema_de_Informacion.pdf",
             "childrens": [
               {
                 "title": "Actividad ASI 1: Definici\u00f3n del Sistema",
@@ -416,23 +363,19 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 1.1: Determinaci\u00f3n del Alcance del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 1.2: Identificaci\u00f3n del Entorno Tecnol\u00f3gico",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-2/"
                   },
                   {
                     "title": "Tarea ASI 1.3: Especificaci\u00f3n de Est\u00e1ndares y Normas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-3/"
                   },
                   {
                     "title": "Tarea ASI 1.4: Identificaci\u00f3n de los Usuarios Participantes y Finales",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-4/"
                   }
                 ]
               },
@@ -442,23 +385,19 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 2.1: Obtenci\u00f3n de Requisitos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 2.2: Especificaci\u00f3n de Casos de Uso",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-2/"
                   },
                   {
                     "title": "Tarea ASI 2.3: An\u00e1lisis de Requisitos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-3/"
                   },
                   {
                     "title": "Tarea ASI 2.4: Validaci\u00f3n de Requisitos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-4/"
                   }
                 ]
               },
@@ -468,13 +407,11 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 3.1: Determinaci\u00f3n de Subsistemas de An\u00e1lisis",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 3.2: Integraci\u00f3n de Subsistemas de An\u00e1lisis",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-3/tarea-2/"
                   }
                 ]
               },
@@ -484,13 +421,11 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 4.1: Identificaci\u00f3n de Clases Asociadas a un Caso de Uso",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-4/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 4.2: Descripci\u00f3n de la Interacci\u00f3n de Objetos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-4/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-4/tarea-2/"
                   }
                 ]
               },
@@ -500,18 +435,15 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 5.1: Identificaci\u00f3n de Responsabilidades y Atributos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 5.2: Identificaci\u00f3n de Asociaciones y Agregaciones",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-2/"
                   },
                   {
                     "title": "Tarea ASI 5.3: Identificaci\u00f3n de Generalizaciones",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-3/"
                   }
                 ]
               },
@@ -521,23 +453,19 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 6.1: Elaboraci\u00f3n del Modelo Conceptual de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 6.2: Elaboraci\u00f3n del Modelo L\u00f3gico de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-2/"
                   },
                   {
                     "title": "Tarea ASI 6.3: Normalizaci\u00f3n del Modelo L\u00f3gico de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-3/"
                   },
                   {
                     "title": "Tarea ASI 6.4: Especificaci\u00f3n de Necesidades de Migraci\u00f3n de Datos y Carga Inicial",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-4/"
                   }
                 ]
               },
@@ -547,13 +475,11 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 7.1: Obtenci\u00f3n del Modelo de Procesos del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-7/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-7/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 7.2: Especificaci\u00f3n de Interfaces con otros Sistemas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-7/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-7/tarea-2/"
                   }
                 ]
               },
@@ -563,28 +489,23 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 8.1: Especificaci\u00f3n de Principios Generales de la Interfaz",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 8.2: Identificaci\u00f3n de Perfiles y Di\u00e1logos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-2/"
                   },
                   {
                     "title": "Tarea ASI 8.3: Especificaci\u00f3n de Formatos Individuales de la Interfaz de Pantalla",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-3/"
                   },
                   {
                     "title": "Tarea ASI 8.4: Especificaci\u00f3n del Comportamiento Din\u00e1mico de la Interfaz",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-4/"
                   },
                   {
                     "title": "Tarea ASI 8.5: Especificaci\u00f3n de Formatos de Impresi\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-5/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-5/"
                   }
                 ]
               },
@@ -594,23 +515,19 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 9.1: Verificaci\u00f3n de los Modelos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 9.2: An\u00e1lisis de Consistencia entre Modelos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-2/"
                   },
                   {
                     "title": "Tarea ASI 9.3: Validaci\u00f3n de los Modelos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-3/"
                   },
                   {
                     "title": "Tarea ASI 9.4: Elaboraci\u00f3n de la Especificaci\u00f3n de Requisitos Software (ERS)",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-4/"
                   }
                 ]
               },
@@ -620,18 +537,15 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 10.1: Definici\u00f3n del Alcance de las Pruebas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI 10.2: Definici\u00f3n de Requisitos del Entorno de Pruebas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-2/"
                   },
                   {
                     "title": "Tarea ASI 10.3: Definici\u00f3n de las Pruebas de Aceptaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-3/"
                   }
                 ]
               },
@@ -641,17 +555,16 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI 11.1",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-11/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-11/tarea-1/"
                   }
                 ]
               }
-            ],
-            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:ad870327-56b7-4dfa-af15-e62222f45b90/METRICA_V3_Analisis_del_Sistema_de_Informacion.pdf"
+            ]
           },
           {
             "title": "Dise\u00f1o del Sistema de Informaci\u00f3n (DSI)",
             "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/",
+            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:7f366cd1-6759-42d9-9e0b-31edce0256d9/METRICA_V3_Diseno_del_Sistema_de_Informacion.pdf",
             "childrens": [
               {
                 "title": "Actividad DSI 1: Definici\u00f3n de la Arquitectura del Sistema",
@@ -659,38 +572,31 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 1.1: Definici\u00f3n de Niveles de Arquitectura",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 1.2: Identificaci\u00f3n de Requisitos de Dise\u00f1o y Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 1.3: Especificaci\u00f3n de Excepciones",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-3/"
                   },
                   {
                     "title": "Tarea DSI 1.4: Especificaci\u00f3n de Est\u00e1ndares y Normas de Dise\u00f1o y Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-4/"
                   },
                   {
                     "title": "Tarea DSI 1.5: Identificaci\u00f3n de Subsistemas de Dise\u00f1o",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-5/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-5/"
                   },
                   {
                     "title": "Tarea DSI 1.6: Especificaci\u00f3n del Entorno Tecnol\u00f3gico",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-6/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-6/"
                   },
                   {
                     "title": "Tarea DSI 1.7: Especificaci\u00f3n de Requisitos de Operaci\u00f3n y Seguridad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-7/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-7/"
                   }
                 ]
               },
@@ -700,13 +606,11 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 2.1: Dise\u00f1o de Subsistemas de Soporte",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 2.2: Identificaci\u00f3n de Mecanismos Gen\u00e9ricos de Dise\u00f1o",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-2/tarea-2/"
                   }
                 ]
               },
@@ -716,23 +620,19 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 3.1: Identificaci\u00f3n de Clases Asociadas a un Caso de Uso",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 3.2: Dise\u00f1o de la Realizaci\u00f3n de los Casos de Uso",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 3.3: Revisi\u00f3n de la Interfaz de Usuario",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-3/"
                   },
                   {
                     "title": "Tarea DSI 3.4: Revisi\u00f3n de Subsistemas de Dise\u00f1o e Interfaces",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-4/"
                   }
                 ]
               },
@@ -742,38 +642,31 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 4.1: Identificaci\u00f3n de Clases Adicionales",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 4.2: Dise\u00f1o de Asociaciones y Agregaciones",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 4.3: Identificaci\u00f3n de Atributos de las Clases",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-3/"
                   },
                   {
                     "title": "Tarea DSI 4.4: Identificaci\u00f3n de Operaciones de las Clases",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-4/"
                   },
                   {
                     "title": "Tarea DSI 4.5: Dise\u00f1o de la Jerarqu\u00eda",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-5/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-5/"
                   },
                   {
                     "title": "Tarea DSI 4.6: Descripci\u00f3n de M\u00e9todos de las Operaciones",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-6/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-6/"
                   },
                   {
                     "title": "Tarea DSI 4.7: Especificaci\u00f3n de Necesidades de Migraci\u00f3n y Carga Inicial de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-7/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-7/"
                   }
                 ]
               },
@@ -783,18 +676,15 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 5.1: Dise\u00f1o de M\u00f3dulos del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 5.2: Dise\u00f1o de Comunicaciones entre M\u00f3dulos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 5.3: Revisi\u00f3n de la Interfaz de Usuario",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-3/"
                   }
                 ]
               },
@@ -804,23 +694,19 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 6.1: Dise\u00f1o del Modelo F\u00edsico de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 6.2: Especificaci\u00f3n de los Caminos de Acceso a los Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 6.3: Optimizaci\u00f3n del Modelo F\u00edsico de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-3/"
                   },
                   {
                     "title": "Tarea DSI 6.4: Especificaci\u00f3n de la Distribuci\u00f3n de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-4/"
                   }
                 ]
               },
@@ -830,18 +716,15 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 7.1: Verificaci\u00f3n de las Especificaciones de Dise\u00f1o",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 7.2: An\u00e1lisis de Consistencia de las Especificaciones de Dise\u00f1o",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 7.3: Aceptaci\u00f3n de la Arquitectura del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-3/"
                   }
                 ]
               },
@@ -851,23 +734,19 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 8.1: Especificaci\u00f3n del Entorno de Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 8.2: Definici\u00f3n de Componentes y Subsistemas de Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 8.3: Elaboraci\u00f3n de Especificaciones de Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-3/"
                   },
                   {
                     "title": "Tarea DSI 8.4: Elaboraci\u00f3n de Especificaciones del Modelo F\u00edsico de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-4/"
                   }
                 ]
               },
@@ -877,23 +756,19 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 9.1: Especificaci\u00f3n del Entorno de Migraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 9.2: Dise\u00f1o de Procedimientos de Migraci\u00f3n y Carga Inicial",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 9.3: Dise\u00f1o Detallado de Componentes de Migraci\u00f3n y Carga Inicial",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-3/"
                   },
                   {
                     "title": "Tarea DSI 9.4: Revisi\u00f3n de la Planificaci\u00f3n de la Migraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-4/"
                   }
                 ]
               },
@@ -903,18 +778,15 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 10.1: Especificaci\u00f3n del Entorno de Pruebas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 10.2: Especificaci\u00f3n T\u00e9cnica de Niveles de Prueba",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-2/"
                   },
                   {
                     "title": "Tarea DSI 10.3: Revisi\u00f3n de la Planificaci\u00f3n de Pruebas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-3/"
                   }
                 ]
               },
@@ -924,13 +796,11 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 11.1: Especificaci\u00f3n de Requisitos de Documentaci\u00f3n de Usuario",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-11/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-11/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI 11.2: Especificaci\u00f3n de Requisitos de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-11/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-11/tarea-2/"
                   }
                 ]
               },
@@ -940,17 +810,16 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI 12.1: Presentaci\u00f3n y Aprobaci\u00f3n del Dise\u00f1o del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-12/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-12/tarea-1/"
                   }
                 ]
               }
-            ],
-            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:7f366cd1-6759-42d9-9e0b-31edce0256d9/METRICA_V3_Diseno_del_Sistema_de_Informacion.pdf"
+            ]
           },
           {
             "title": "Construcci\u00f3n del Sistema de Informaci\u00f3n (CSI)",
             "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/",
+            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:19993efa-8c88-4205-b1a5-fb7fc0bd94de/METRICA_V3_Construccion_del_Sistema_de_Informacion.pdf",
             "childrens": [
               {
                 "title": "Actividad CSI 1: Preparaci\u00f3n del Entorno de Generaci\u00f3n y Construcci\u00f3n",
@@ -958,13 +827,11 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 1.1: Implantaci\u00f3n de la Base de Datos F\u00edsica o Ficheros",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI 1.2: Preparaci\u00f3n del Entorno de Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-1/tarea-2/"
                   }
                 ]
               },
@@ -974,13 +841,11 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 2.1: Generaci\u00f3n del C\u00f3digo de Componentes",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI 2.2: Generaci\u00f3n del C\u00f3digo de los Procedimientos de Operaci\u00f3n y Seguridad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-2/tarea-2/"
                   }
                 ]
               },
@@ -990,13 +855,11 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 3.1: Preparaci\u00f3n del Entorno de las Pruebas Unitarias",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI 3.2: Realizaci\u00f3n y Evaluaci\u00f3n de las Pruebas Unitarias",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-3/tarea-2/"
                   }
                 ]
               },
@@ -1006,18 +869,15 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 4.1: Preparaci\u00f3n del Entorno de las Pruebas de Integraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI 4.2: Realizaci\u00f3n de las Pruebas de Integraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-2/"
                   },
                   {
                     "title": "Tarea CSI 4.3: Evaluaci\u00f3n del Resultado de las Pruebas de Integraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-3/"
                   }
                 ]
               },
@@ -1027,18 +887,15 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 5.1: Preparaci\u00f3n del Entorno de las Pruebas del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI 5.2: Realizaci\u00f3n de las Pruebas del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-2/"
                   },
                   {
                     "title": "Tarea CSI 5.3: Evaluaci\u00f3n del Resultado de las Pruebas del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-3/"
                   }
                 ]
               },
@@ -1048,8 +905,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 6.1: Elaboraci\u00f3n de los Manuales de Usuario",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-6/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-6/tarea-1/"
                   }
                 ]
               },
@@ -1059,13 +915,11 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 7.1: Definici\u00f3n del Esquema de Formaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-7/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-7/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI 7.2: Especificaci\u00f3n de los Recursos y Entornos de Formaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-7/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-7/tarea-2/"
                   }
                 ]
               },
@@ -1075,18 +929,15 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 8.1: Preparaci\u00f3n del Entorno de Migraci\u00f3n y Carga Inicial de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI 8.2: Generaci\u00f3n del C\u00f3digo de los Componentes y Procedimientos de Migraci\u00f3n y Carga Inicial de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-2/"
                   },
                   {
                     "title": "Tarea CSI 8.3: Realizaci\u00f3n y Evaluaci\u00f3n de las Pruebas de Migraci\u00f3n y Carga Inicial de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-3/"
                   }
                 ]
               },
@@ -1096,17 +947,16 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI 9.1: Presentaci\u00f3n y Aprobaci\u00f3n del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-9/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-9/tarea-1/"
                   }
                 ]
               }
-            ],
-            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:19993efa-8c88-4205-b1a5-fb7fc0bd94de/METRICA_V3_Construccion_del_Sistema_de_Informacion.pdf"
+            ]
           },
           {
             "title": "Implantaci\u00f3n y Aceptaci\u00f3n del Sistema (IAS)",
             "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/",
+            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:507af1ff-0457-464d-b276-be26a8826b1c/METRICA_V3_Implantacion_y_Aceptacion_del_Sistema.pdf",
             "childrens": [
               {
                 "title": "Actividad IAS 1: Establecimiento del Plan de Implantaci\u00f3n",
@@ -1114,13 +964,11 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 1.1: Definici\u00f3n del Plan de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 1.2: Especificaci\u00f3n del Equipo de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-1/tarea-2/"
                   }
                 ]
               },
@@ -1130,23 +978,19 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 2.1: Preparaci\u00f3n de la Formaci\u00f3n del Equipo de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 2.2: Formaci\u00f3n del Equipo de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-2/"
                   },
                   {
                     "title": "Tarea IAS 2.3: Preparaci\u00f3n de la Formaci\u00f3n a Usuarios finales",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-3/"
                   },
                   {
                     "title": "Tarea IAS 2.4: Seguimiento de la Formaci\u00f3n a Usuarios Finales",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-4/"
                   }
                 ]
               },
@@ -1156,13 +1000,11 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 3.1: Preparaci\u00f3n de la Instalaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 3.2: Realizaci\u00f3n de la Instalaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-3/tarea-2/"
                   }
                 ]
               },
@@ -1172,8 +1014,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 4.1: Migraci\u00f3n y Carga inicial de Datos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-4/tarea-1/"
                   }
                 ]
               },
@@ -1183,18 +1024,15 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 5.1: Preparaci\u00f3n de las Pruebas de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 5.2: Realizaci\u00f3n de las Pruebas de implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-2/"
                   },
                   {
                     "title": "Tarea IAS 5.3: Evaluaci\u00f3n del Resultado de las Pruebas de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-3/"
                   }
                 ]
               },
@@ -1204,18 +1042,15 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 6.1: Preparaci\u00f3n de las Pruebas de Aceptaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 6.2: Realizaci\u00f3n de las Pruebas de Aceptaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-2/"
                   },
                   {
                     "title": "Tarea IAS 6.3: Evaluaci\u00f3n del Resultado de las Pruebas de Aceptaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-3/"
                   }
                 ]
               },
@@ -1225,13 +1060,11 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 7.1: Establecimiento de la Infraestructura para el Mantenimiento",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-7/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-7/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 7.2: Formalizaci\u00f3n del Plan de Mantenimiento",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-7/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-7/tarea-2/"
                   }
                 ]
               },
@@ -1241,18 +1074,15 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 8.1: Identificaci\u00f3n de los Servicios",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 8.2: Descripci\u00f3n de las Propiedades de cada Servicio",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-2/"
                   },
                   {
                     "title": "Tarea IAS 8.3: Determinaci\u00f3n del Acuerdo de Nivel de Servicio",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-3/"
                   }
                 ]
               },
@@ -1262,13 +1092,11 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 9.1: Convocatoria de la Presentaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-9/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-9/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 9.2: Aprobaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-9/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-9/tarea-2/"
                   }
                 ]
               },
@@ -1278,24 +1106,22 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS 10.1: Preparaci\u00f3n del Entorno de Producci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-10/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-10/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS 10.2: Activaci\u00f3n del Sistema en Producci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-10/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-10/tarea-2/"
                   }
                 ]
               }
-            ],
-            "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:507af1ff-0457-464d-b276-be26a8826b1c/METRICA_V3_Implantacion_y_Aceptacion_del_Sistema.pdf"
+            ]
           }
         ]
       },
       {
         "title": "Mantenimiento de Sistemas de Informaci\u00f3n (MSI)",
         "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/",
+        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:e15c0c5b-dd9c-4e48-82e3-9e36ba18e839/METRICA_V3_Mantenimiento_de_Sistemas_de_Informacion.pdf",
         "childrens": [
           {
             "title": "Actividad MSI 1: Registro de la Petici\u00f3n",
@@ -1303,13 +1129,11 @@
             "childrens": [
               {
                 "title": "Tarea MSI 1.1: Registro de la Petici\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-1/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-1/tarea-1/"
               },
               {
                 "title": "Tarea MSI 1.2: Asignaci\u00f3n de la Petici\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-1/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-1/tarea-2/"
               }
             ]
           },
@@ -1319,13 +1143,11 @@
             "childrens": [
               {
                 "title": "Tarea MSI 2.1: Verificaci\u00f3n y Estudio de la Petici\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-2/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-2/tarea-1/"
               },
               {
                 "title": "Tarea MSI 2.2: Estudio de la Propuesta de Soluci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-2/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-2/tarea-2/"
               }
             ]
           },
@@ -1335,18 +1157,15 @@
             "childrens": [
               {
                 "title": "Tarea MSI 3.1: Identificaci\u00f3n de Elementos Afectados",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-1/"
               },
               {
                 "title": "Tarea MSI 3.2: Establecimiento del Plan de Acci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-2/"
               },
               {
                 "title": "Tarea MSI 3.3: Especificaci\u00f3n del Plan de Pruebas de Regresi\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-3/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-3/"
               }
             ]
           },
@@ -1356,23 +1175,19 @@
             "childrens": [
               {
                 "title": "Tarea MSI 4.1: Seguimiento de los Cambios",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-1/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-1/"
               },
               {
                 "title": "Tarea MSI 4.2: Realizaci\u00f3n de las Pruebas de Regresi\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-2/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-2/"
               },
               {
                 "title": "Tarea MSI 4.3: Aprobaci\u00f3n y Cierre de la Petici\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-3/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-3/"
               }
             ]
           }
-        ],
-        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:e15c0c5b-dd9c-4e48-82e3-9e36ba18e839/METRICA_V3_Mantenimiento_de_Sistemas_de_Informacion.pdf"
+        ]
       }
     ]
   },
@@ -1383,6 +1198,7 @@
       {
         "title": "GESTI\u00d3N DE PROYECTOS",
         "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/",
+        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:0f07660d-1044-489e-a3be-3a94b80fbb16/METRICA_V3_Gestion_de_Proyectos.pdf",
         "childrens": [
           {
             "title": "ACTIVIDADES DE INICIO DEL PROYECTO",
@@ -1394,13 +1210,11 @@
                 "childrens": [
                   {
                     "title": "Tarea GPI 1.1: Identificaci\u00f3n de Elementos a Desarrollar",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea GPI 1.2: C\u00e1lculo del Esfuerzo",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-1/tarea-2/"
                   }
                 ]
               },
@@ -1410,28 +1224,23 @@
                 "childrens": [
                   {
                     "title": "Tarea GPI 2.1: Selecci\u00f3n de la Estrategia de Desarrollo",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea GPI 2.2: Selecci\u00f3n de la Estructura de Actividades, Tareas y Productos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-2/"
                   },
                   {
                     "title": "Tarea GPI 2.3: Establecimiento del Calendario de Hitos y Entregas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-3/"
                   },
                   {
                     "title": "Tarea GPI 2.4: Planificaci\u00f3n Detallada de Actividades y Recursos Necesarios",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-4/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-4/"
                   },
                   {
                     "title": "Tarea GPI 2.5: Presentaci\u00f3n y Aceptaci\u00f3n de la Planificaci\u00f3n General del Proyecto",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-5/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-5/"
                   }
                 ]
               }
@@ -1447,8 +1256,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GPS 1.1: Asignaci\u00f3n de Tarea",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -1458,8 +1266,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GPS 2.1: Informar al Equipo del Proyecto",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -1469,8 +1276,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GPS 3.1: Seguimiento de Tareas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -1484,18 +1290,15 @@
                     "childrens": [
                       {
                         "title": "Tarea GPS 4.1: Analizar Impacto",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-1/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-1/"
                       },
                       {
                         "title": "Tarea GPS 4.2: Propuesta de Soluci\u00f3n de la Incidencia",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-2/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-2/"
                       },
                       {
                         "title": "Tarea GPS 4.3: Registrar la Incidencia",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-3/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-3/"
                       }
                     ]
                   }
@@ -1511,8 +1314,7 @@
                     "childrens": [
                       {
                         "title": "Tarea GPS 5.1: Registro de la Petici\u00f3n de Cambio de Requisitos",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-5/tarea-1/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-5/tarea-1/"
                       }
                     ]
                   },
@@ -1522,18 +1324,15 @@
                     "childrens": [
                       {
                         "title": "Tarea GPS 6.1: Estudio de la Petici\u00f3n de Cambio de Requisitos",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-1/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-1/"
                       },
                       {
                         "title": "Tarea GPS 6.2: Impacto de la Petici\u00f3n de Cambio de Requisitos",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-2/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-2/"
                       },
                       {
                         "title": "Tarea GPS 6.3: Estudio de Alternativas y Propuesta de Soluci\u00f3n",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-3/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-3/"
                       }
                     ]
                   },
@@ -1543,8 +1342,7 @@
                     "childrens": [
                       {
                         "title": "Tarea GPS 7.1: Aprobaci\u00f3n de la Soluci\u00f3n",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-7/tarea-1/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-7/tarea-1/"
                       }
                     ]
                   },
@@ -1554,13 +1352,11 @@
                     "childrens": [
                       {
                         "title": "Tarea GPS 8.1: Estimaci\u00f3n de Esfuerzo para el Cambio",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-8/tarea-1/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-8/tarea-1/"
                       },
                       {
                         "title": "Tarea GPS 8.2: Planificaci\u00f3n de los Cambios",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-8/tarea-2/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-8/tarea-2/"
                       }
                     ]
                   },
@@ -1570,8 +1366,7 @@
                     "childrens": [
                       {
                         "title": "Tarea GPS 9.1: Registro del Cambio de Requisitos",
-                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-9/tarea-1/",
-                        "childrens": []
+                        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-9/tarea-1/"
                       }
                     ]
                   }
@@ -1583,8 +1378,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GPS 10.1: Comprobaci\u00f3n de la Tarea",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-10/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-10/tarea-1/"
                   }
                 ]
               },
@@ -1594,18 +1388,15 @@
                 "childrens": [
                   {
                     "title": "Tarea GPS 11.1: Actualizaci\u00f3n de Tareas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-1/"
                   },
                   {
                     "title": "Tarea GPS 11.2: Obtenci\u00f3n de la Extrapolaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-2/"
                   },
                   {
                     "title": "Tarea GPS 11.3: Elaboraci\u00f3n del Informe de Seguimiento",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-3/"
                   }
                 ]
               },
@@ -1615,8 +1406,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GPS 12.1: Reuni\u00f3n Interna de Seguimiento",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-12/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-12/tarea-1/"
                   }
                 ]
               },
@@ -1626,8 +1416,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GPS 13.1: Verificaci\u00f3n de Aceptaci\u00f3n Interna",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-13/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-13/tarea-1/"
                   }
                 ]
               }
@@ -1643,24 +1432,22 @@
                 "childrens": [
                   {
                     "title": "Tarea GPF 1.1: Inclusi\u00f3n en Hist\u00f3rico de Proyectos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea GPF 1.2: Archivo de la Documentaci\u00f3n de Gesti\u00f3n del Proyecto",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/actividad-1/tarea-2/"
                   }
                 ]
               }
             ]
           }
-        ],
-        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:0f07660d-1044-489e-a3be-3a94b80fbb16/METRICA_V3_Gestion_de_Proyectos.pdf"
+        ]
       },
       {
         "title": "SEGURIDAD",
         "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/",
+        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:55f92649-18e3-41cb-9102-0ae424631831/METRICA_V3_Seguridad.pdf",
         "childrens": [
           {
             "title": "PLANIFICACI\u00d3N DE SISTEMAS DE INFORMACI\u00d3N",
@@ -1672,13 +1459,11 @@
                 "childrens": [
                   {
                     "title": "Tarea PSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso Planificaci\u00f3n de Sistemas de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea PSI-SEG 1.2: Organizaci\u00f3n y Planificaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-1/tarea-2/"
                   }
                 ]
               },
@@ -1688,13 +1473,11 @@
                 "childrens": [
                   {
                     "title": "Tarea PSI-SEG 2.1: Estudio y Evaluaci\u00f3n del Riesgo de las Alternativas de Arquitectura Tecnol\u00f3gica",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea PSI-SEG 2.2: Revisi\u00f3n de la Evaluaci\u00f3n del Riesgo de las Alternativas de Arquitectura Tecnol\u00f3gica",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-2/tarea-2/"
                   }
                 ]
               },
@@ -1704,8 +1487,7 @@
                 "childrens": [
                   {
                     "title": "Tarea PSI-SEG 3.1: Determinaci\u00f3n de la Seguridad en el Plan de Acci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -1715,8 +1497,7 @@
                 "childrens": [
                   {
                     "title": "Tarea PSI-SEG 4.1: Clasificaci\u00f3n y Catalogaci\u00f3n de los Productos Generados durante el Proceso de Planificaci\u00f3n de Sistemas de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-4/tarea-1/"
                   }
                 ]
               }
@@ -1732,8 +1513,7 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso Estudio de Viabilidad del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -1743,8 +1523,7 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-SEG 2.1: Selecci\u00f3n del Equipo de Seguridad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -1754,8 +1533,7 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-SEG 3.1: Elaboraci\u00f3n de Recomendaciones de Seguridad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -1765,8 +1543,7 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-SEG 4.1: Valoraci\u00f3n y Evaluaci\u00f3n de la Seguridad de las Alternativas de Soluci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-4/tarea-1/"
                   }
                 ]
               },
@@ -1776,8 +1553,7 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-SEG 5.1: Descripci\u00f3n Detallada de la Seguridad de la Soluci\u00f3n Propuesta",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-5/tarea-1/"
                   }
                 ]
               },
@@ -1787,8 +1563,7 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-SEG 6.1: Clasificaci\u00f3n y Catalogaci\u00f3n de los Productos Generados durante el Proceso de Estudio de Viabilidad del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-6/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-6/tarea-1/"
                   }
                 ]
               }
@@ -1804,8 +1579,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de An\u00e1lisis del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -1815,8 +1589,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-SEG 2.1: Estudio de las Funciones y Mecanismos de Seguridad a Implantar",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -1826,8 +1599,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-SEG 3.1: Actualizaci\u00f3n del Plan de Pruebas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -1837,8 +1609,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-SEG 4.1: Clasificaci\u00f3n y Catalogaci\u00f3n de los Productos Generados Durante el Proceso de An\u00e1lisis del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-4/tarea-1/"
                   }
                 ]
               }
@@ -1854,8 +1625,7 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de Dise\u00f1o del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -1865,8 +1635,7 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-SEG 2.1: An\u00e1lisis de los Riesgos del Entorno Tecnol\u00f3gico",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -1876,8 +1645,7 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-SEG 3.1: Identificaci\u00f3n de los Requisitos de Seguridad del Entorno de Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -1887,8 +1655,7 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-SEG 4.1: Dise\u00f1o de las Pruebas de Seguridad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-4/tarea-1/"
                   }
                 ]
               },
@@ -1898,8 +1665,7 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-SEG 5.1: Clasificaci\u00f3n y Catalogaci\u00f3n de los Productos Generados durante el Proceso de Dise\u00f1o del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-5/tarea-1/"
                   }
                 ]
               }
@@ -1915,8 +1681,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de Construcci\u00f3n del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -1926,8 +1691,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-SEG 2.1: Estudio de los Resultados de Pruebas de Seguridad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -1937,8 +1701,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-SEG 3.1: Elaboraci\u00f3n del Plan de Formaci\u00f3n de Seguridad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -1948,8 +1711,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-SEG 4.1: Clasificaci\u00f3n y Catalogaci\u00f3n de los Productos Generados durante el Proceso de Construcci\u00f3n del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-4/tarea-1/"
                   }
                 ]
               }
@@ -1965,8 +1727,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de Implantaci\u00f3n y Aceptaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -1976,8 +1737,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-SEG 2.1: Revisi\u00f3n de Medidas de Seguridad del Entorno de Operaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -1987,8 +1747,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-SEG 3.1: Estudio de los Resultados de Pruebas de Seguridad de Implantaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -1998,8 +1757,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-SEG 4.1: Clasificaci\u00f3n y Catalogaci\u00f3n de los Productos Generados durante el Proceso Implantaci\u00f3n y Aceptaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-4/tarea-1/"
                   }
                 ]
               },
@@ -2009,8 +1767,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-SEG 5.1: Revisi\u00f3n de Medidas de Seguridad en el Entorno de Producci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-5/tarea-1/"
                   }
                 ]
               }
@@ -2026,8 +1783,7 @@
                 "childrens": [
                   {
                     "title": "Tarea MSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso Mantenimiento de Sistemas de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -2037,13 +1793,11 @@
                 "childrens": [
                   {
                     "title": "Tarea MSI-SEG 2.1: Estudio de la Petici\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea MSI-SEG 2.2: An\u00e1lisis de las Funciones y Mecanismos de Seguridad Afectados o Nuevos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-2/tarea-2/"
                   }
                 ]
               },
@@ -2053,19 +1807,18 @@
                 "childrens": [
                   {
                     "title": "Tarea MSI-SEG 3.1: Clasificaci\u00f3n y Catalogaci\u00f3n de los Productos Generados durante el Proceso de Mantenimiento de Sistemas de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-3/tarea-1/"
                   }
                 ]
               }
             ]
           }
-        ],
-        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:55f92649-18e3-41cb-9102-0ae424631831/METRICA_V3_Seguridad.pdf"
+        ]
       },
       {
         "title": "GESTI\u00d3N DE LA CONFIGURACI\u00d3N",
         "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/",
+        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:1f321d6d-fb6a-46ed-a369-617c0080c51d/METRICA_V3_Gestion_de_Configuracion.pdf",
         "childrens": [
           {
             "title": "ESTUDIO DE VIABILIDAD DEL SISTEMA",
@@ -2077,8 +1830,7 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-GC 1.1: Definici\u00f3n de los Requisitos de Gesti\u00f3n de Configuraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -2088,13 +1840,11 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-GC 2.1: Definici\u00f3n del Plan de Gesti\u00f3n de la Configuraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS-GC 2.2: Especificaci\u00f3n del Entorno Tecnol\u00f3gico para la Gesti\u00f3n de Configuraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-2/tarea-2/"
                   }
                 ]
               }
@@ -2110,8 +1860,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GC 1.1: Identificaci\u00f3n y Registro de los Productos de los Procesos en el Sistema de Gesti\u00f3n de la Configuraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -2121,8 +1870,7 @@
                 "childrens": [
                   {
                     "title": "Tarea GC 2.1: Registro en el Sistema de Gesti\u00f3n de la Configuraci\u00f3n del Producto Global de Proceso",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-2/tarea-1/"
                   }
                 ]
               }
@@ -2138,29 +1886,26 @@
                 "childrens": [
                   {
                     "title": "Tarea MSI-GC 1.1: Registro del Cambio en el Sistema de Gesti\u00f3n de la Configuraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea MSI-GC 1.2: Registro de la Nueva Versi\u00f3n de los Productos Afectados por el Cambio en el Sistema de Gesti\u00f3n de la Configuraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-2/"
                   },
                   {
                     "title": "Tarea MSI-GC 1.3: Registro de la Nueva Versi\u00f3n de los Sistemas de Informaci\u00f3n en el Sistema de Gesti\u00f3n de la Configuraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-3/"
                   }
                 ]
               }
             ]
           }
-        ],
-        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:1f321d6d-fb6a-46ed-a369-617c0080c51d/METRICA_V3_Gestion_de_Configuracion.pdf"
+        ]
       },
       {
         "title": "ASEGURAMIENTO DE LA CALIDAD",
         "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/",
+        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:6838aec9-835a-4562-bdc3-87a96fd9c743/METRICA_V3_Aseguramiento_de_la_Calidad.pdf",
         "childrens": [
           {
             "title": "ESTUDIO DE VIABILIDAD DEL SISTEMA",
@@ -2172,18 +1917,15 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-CAL 1.1: Constituci\u00f3n del Equipo de Aseguramiento de Calidad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS-CAL 1.2: Determinaci\u00f3n de los Sistemas de Informaci\u00f3n objeto de Aseguramiento de Calidad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-2/"
                   },
                   {
                     "title": "Tarea EVS-CAL 1.3: Identificaci\u00f3n de las Propiedades de Calidad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-3/"
                   }
                 ]
               },
@@ -2193,18 +1935,15 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-CAL 2.1: Necesidad del Plan de Aseguramiento de Calidad para las Alternativas Propuestas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS-CAL 2.2: Alcance del Plan de Aseguramiento de Calidad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-2/"
                   },
                   {
                     "title": "Tarea EVS-CAL 2.3: Impacto en el Coste del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-3/"
                   }
                 ]
               },
@@ -2214,13 +1953,11 @@
                 "childrens": [
                   {
                     "title": "Tarea EVS-CAL 3.1: Ajuste del Plan de Aseguramiento de Calidad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea EVS-CAL 3.2: Aprobaci\u00f3n del Plan de Aseguramiento de Calidad",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-3/tarea-2/"
                   }
                 ]
               }
@@ -2236,8 +1973,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-CAL 1.1: Definici\u00f3n del Plan de Aseguramiento de Calidad para el Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -2247,8 +1983,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-CAL 2.1: Contenido del Plan de Aseguramiento de Calidad para el Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -2258,13 +1993,11 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-CAL 3.1: Revisi\u00f3n del Cat\u00e1logo de Requisitos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea ASI-CAL 3.2: Revisi\u00f3n de la Consistencia entre Productos",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-3/tarea-2/"
                   }
                 ]
               },
@@ -2274,8 +2007,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-CAL 4.1: Revisi\u00f3n del Plan de Pruebas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-4/tarea-1/"
                   }
                 ]
               },
@@ -2285,8 +2017,7 @@
                 "childrens": [
                   {
                     "title": "Tarea ASI-CAL 5.1: Registro de la Aprobaci\u00f3n del An\u00e1lisis del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-5/tarea-1/"
                   }
                 ]
               }
@@ -2302,13 +2033,11 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-CAL 1.1: Revisi\u00f3n de la Consistencia entre Productos del Dise\u00f1o",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-1/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI-CAL 1.2: Registro de la Aceptaci\u00f3n de la Arquitectura del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-1/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-1/tarea-2/"
                   }
                 ]
               },
@@ -2318,13 +2047,11 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-CAL 2.1: Revisi\u00f3n del Dise\u00f1o de las Pruebas Unitarias, de Integraci\u00f3n y del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI-CAL 2.2: Revisi\u00f3n del Plan de Pruebas",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-2/tarea-2/"
                   }
                 ]
               },
@@ -2334,13 +2061,11 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-CAL 3.1: Revisi\u00f3n de los Requisitos de Documentaci\u00f3n de Usuario",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea DSI-CAL 3.2: Revisi\u00f3n de los Requisitos de Implantaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-3/tarea-2/"
                   }
                 ]
               },
@@ -2350,8 +2075,7 @@
                 "childrens": [
                   {
                     "title": "Tarea DSI-CAL 4.1: Registro de la Aprobaci\u00f3n del Dise\u00f1o del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-4/tarea-1/"
                   }
                 ]
               }
@@ -2367,8 +2091,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-CAL 1.1: Revisi\u00f3n de Normas de Construcci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -2378,18 +2101,15 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-CAL 2.1: Revisi\u00f3n de la Realizaci\u00f3n de las Pruebas Unitarias",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea CSI-CAL 2.2: Revisi\u00f3n de la Realizaci\u00f3n de las Pruebas de Integraci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-2/"
                   },
                   {
                     "title": "Tarea CSI-CAL 2.3: Revisi\u00f3n de la Realizaci\u00f3n de las Pruebas del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-3/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-3/"
                   }
                 ]
               },
@@ -2399,8 +2119,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-CAL 3.1: Revisi\u00f3n de los Manuales de Usuario",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-3/tarea-1/"
                   }
                 ]
               },
@@ -2410,8 +2129,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-CAL 4.1: Revisi\u00f3n de la Formaci\u00f3n a Usuarios Finales",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-4/tarea-1/"
                   }
                 ]
               },
@@ -2421,8 +2139,7 @@
                 "childrens": [
                   {
                     "title": "Tarea CSI-CAL 5.1: Registro de la Aprobaci\u00f3n del Sistema de Informaci\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-5/tarea-1/"
                   }
                 ]
               }
@@ -2438,8 +2155,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-CAL 1.1: Revisi\u00f3n del Plan de Implantaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -2449,13 +2165,11 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-CAL 2.1: Revisi\u00f3n de la Realizaci\u00f3n de las Pruebas de Implantaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-2/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS-CAL 2.2: Registro de la Aprobaci\u00f3n de las Pruebas de Implantaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-2/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-2/tarea-2/"
                   }
                 ]
               },
@@ -2465,13 +2179,11 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-CAL 3.1: Revisi\u00f3n de la Realizaci\u00f3n de las Pruebas de Aceptaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-3/tarea-1/"
                   },
                   {
                     "title": "Tarea IAS-CAL 3.2: Registro de la Aprobaci\u00f3n de las Pruebas de Aceptaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-3/tarea-2/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-3/tarea-2/"
                   }
                 ]
               },
@@ -2481,8 +2193,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-CAL 4.1: Revisi\u00f3n del Plan de Mantenimiento del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-4/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-4/tarea-1/"
                   }
                 ]
               },
@@ -2492,8 +2203,7 @@
                 "childrens": [
                   {
                     "title": "Tarea IAS-CAL 5.1: Registro de la Aprobaci\u00f3n de la Implantaci\u00f3n del Sistema",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-5/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-5/tarea-1/"
                   }
                 ]
               }
@@ -2509,8 +2219,7 @@
                 "childrens": [
                   {
                     "title": "Tarea MSI-CAL 1.1: Revisi\u00f3n del Mantenimiento",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-1/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-1/tarea-1/"
                   }
                 ]
               },
@@ -2520,8 +2229,7 @@
                 "childrens": [
                   {
                     "title": "Tarea MSI-CAL 2.1: Comprobaci\u00f3n de la Existencia del Plan de Pruebas de Regresi\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-2/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-2/tarea-1/"
                   }
                 ]
               },
@@ -2531,21 +2239,20 @@
                 "childrens": [
                   {
                     "title": "Tarea MSI-CAL 3.1: Revisi\u00f3n de la Realizaci\u00f3n de las Pruebas de Regresi\u00f3n",
-                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-3/tarea-1/",
-                    "childrens": []
+                    "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-3/tarea-1/"
                   }
                 ]
               }
             ]
           }
-        ],
-        "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:6838aec9-835a-4562-bdc3-87a96fd9c743/METRICA_V3_Aseguramiento_de_la_Calidad.pdf"
+        ]
       }
     ]
   },
   {
     "title": "T\u00c9CNICAS",
     "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/",
+    "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:da7d91fa-d6bd-467c-be32-a72e27c603b3/METRICA_V3_Tecnicas.pdf",
     "childrens": [
       {
         "title": "T\u00c9CNICAS DE DESARROLLO",
@@ -2553,38 +2260,31 @@
         "childrens": [
           {
             "title": "An\u00e1lisis Coste/Beneficio",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/analisis-coste-beneficio/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/analisis-coste-beneficio/"
           },
           {
             "title": "Casos de Uso",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/casos-de-uso/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/casos-de-uso/"
           },
           {
             "title": "Diagrama de Clases",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/"
           },
           {
             "title": "Diagrama de Componentes",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/"
           },
           {
             "title": "Diagrama de Descomposici\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-descomposicion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-descomposicion/"
           },
           {
             "title": "Diagrama de Despliegue",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/"
           },
           {
             "title": "Diagrama de Estructura",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-estructura/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-estructura/"
           },
           {
             "title": "Diagrama de Flujo de Datos (DFD)",
@@ -2592,13 +2292,11 @@
             "childrens": [
               {
                 "title": "Consistencia de los diagramas de flujo de datos",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/consistencia/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/consistencia/"
               },
               {
                 "title": "Ejemplo de construcci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/ejemplo/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/ejemplo/"
               }
             ]
           },
@@ -2608,25 +2306,21 @@
             "childrens": [
               {
                 "title": "Diagrama de secuencia",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia/"
               },
               {
                 "title": "Diagrama de colaboraci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-colaboracion/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-colaboracion/"
               }
             ]
           },
           {
             "title": "Diagrama de Paquetes",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/"
           },
           {
             "title": "Diagrama de Transici\u00f3n de Estados",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/"
           },
           {
             "title": "Modelado de Procesos de la Organizaci\u00f3n",
@@ -2634,40 +2328,33 @@
             "childrens": [
               {
                 "title": "SADT (Structured Analysis and Design Technique)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelado-de-procesos-de-la-organizacion/sadt/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelado-de-procesos-de-la-organizacion/sadt/"
               }
             ]
           },
           {
             "title": "Modelo Entidad/Relaci\u00f3n Extendido",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/"
           },
           {
             "title": "Normalizaci\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/normalizacion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/normalizacion/"
           },
           {
             "title": "Optimizaci\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/optimizacion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/optimizacion/"
           },
           {
             "title": "Reglas de Obtenci\u00f3n del Modelo F\u00edsico a partir del L\u00f3gico",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/obtencion-del-modelo-fisico-desde-el-logico/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/obtencion-del-modelo-fisico-desde-el-logico/"
           },
           {
             "title": "Reglas de Transformaci\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/reglas-de-transformacion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/reglas-de-transformacion/"
           },
           {
             "title": "T\u00e9cnicas Matriciales",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-matriciales/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-matriciales/"
           }
         ]
       },
@@ -2681,20 +2368,17 @@
             "childrens": [
               {
                 "title": "M\u00e9todo Albrecht para el An\u00e1lisis de los Puntos Funci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-albrecht/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-albrecht/"
               },
               {
                 "title": "M\u00e9todo MARK II para el An\u00e1lisis de los Puntos Funci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-mark-ii/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-mark-ii/"
               }
             ]
           },
           {
             "title": "Staffing Size (Orientaci\u00f3n a Objetos)",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/staffing-size/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/staffing-size/"
           },
           {
             "title": "Planificaci\u00f3n",
@@ -2702,23 +2386,19 @@
             "childrens": [
               {
                 "title": "Program Evaluation & Review Technique \u2013 PERT",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/pert/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/pert/"
               },
               {
                 "title": "Diagrama de Gantt",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-gantt/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-gantt/"
               },
               {
                 "title": "Estructura de Descomposici\u00f3n de Trabajo (WBS \u2013 Work Breakdown Structure)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/wbs/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/wbs/"
               },
               {
                 "title": "Diagrama de Extrapolaci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-extrapolacion/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-extrapolacion/"
               }
             ]
           }
@@ -2730,48 +2410,39 @@
         "childrens": [
           {
             "title": "An\u00e1lisis de Impacto",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/analisis-de-impacto/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/analisis-de-impacto/"
           },
           {
             "title": "Catalogaci\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/catalogacion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/catalogacion/"
           },
           {
             "title": "C\u00e1lculo de Accesos",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/calculo-de-accesos/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/calculo-de-accesos/"
           },
           {
             "title": "Caminos de Acceso",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/caminos-de-acceso/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/caminos-de-acceso/"
           },
           {
             "title": "Diagrama de Representaci\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-representacion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-representacion/"
           },
           {
             "title": "Factores Cr\u00edticos de \u00c9xito",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/"
           },
           {
             "title": "Impacto en la Organizaci\u00f3n",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/impacto-en-la-organizacion/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/impacto-en-la-organizacion/"
           },
           {
             "title": "Presentaciones",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/presentaciones/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/presentaciones/"
           },
           {
             "title": "Prototipado",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/prototipado/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/prototipado/"
           },
           {
             "title": "Pruebas",
@@ -2779,45 +2450,37 @@
             "childrens": [
               {
                 "title": "Pruebas Unitarias",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/"
               },
               {
                 "title": "Pruebas de Integraci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/"
               },
               {
                 "title": "Pruebas del Sistema",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/sistema/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/sistema/"
               },
               {
                 "title": "Pruebas de Implantaci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/implantacion/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/implantacion/"
               },
               {
                 "title": "Pruebas de Aceptaci\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/"
               },
               {
                 "title": "Pruebas de Regresi\u00f3n",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/regresion/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/regresion/"
               }
             ]
           },
           {
             "title": "Revisi\u00f3n Formal",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/revision-formal/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/revision-formal/"
           },
           {
             "title": "Revisi\u00f3n T\u00e9cnica",
-            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/revision-tecnica/",
-            "childrens": []
+            "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/revision-tecnica/"
           },
           {
             "title": "Sesiones de Trabajo",
@@ -2825,23 +2488,19 @@
             "childrens": [
               {
                 "title": "Entrevistas",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/entrevistas/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/entrevistas/"
               },
               {
                 "title": "Reuniones",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/reuniones/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/reuniones/"
               },
               {
                 "title": "JAD (Joint Application Design)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jad/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jad/"
               },
               {
                 "title": "JRP (Joint Requeriments Planning)",
-                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jrp/",
-                "childrens": []
+                "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jrp/"
               }
             ]
           }
@@ -2849,47 +2508,39 @@
       },
       {
         "title": "SOPORTE POR HERRAMIENTAS",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/soporte-por-herramientas/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/soporte-por-herramientas/"
       },
       {
         "title": "BIBLIOGRAF\u00cdA",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/bibliografia/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/bibliografia/"
       }
-    ],
-    "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:da7d91fa-d6bd-467c-be32-a72e27c603b3/METRICA_V3_Tecnicas.pdf"
+    ]
   },
   {
     "title": "PARTICIPANTES",
     "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/",
+    "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:d601853c-e255-4ade-a9f8-af1357e3a151/METRICA_V3_Participantes.pdf",
     "childrens": [
       {
         "title": "Perfil Directivo",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-directivo/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-directivo/"
       },
       {
         "title": "Perfil Jefe de Proyecto",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-jefe-de-proyecto/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-jefe-de-proyecto/"
       },
       {
         "title": "Perfil Consultor",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-consultor/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-consultor/"
       },
       {
         "title": "Perfil Analista",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-analista/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-analista/"
       },
       {
         "title": "Perfil Programador",
-        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-programador/",
-        "childrens": []
+        "url": "https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-programador/"
       }
-    ],
-    "source": "https://administracionelectronica.gob.es/pae_Home/dam/jcr:d601853c-e255-4ade-a9f8-af1357e3a151/METRICA_V3_Participantes.pdf"
+    ]
   }
 ]
