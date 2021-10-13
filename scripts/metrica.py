@@ -59,9 +59,12 @@ def fix_char(s):
         ("é", "é"),
         ("í", "í"),
         ("ó", "ó"),
-        ("ú", "ú")
+        ("ú", "ú"),
+        ("ñ", "ñ"),
+        ("ü", "ü")
     ):
         s = s.replace(a, b)
+        s = s.replace(a.upper(), b.upper())
     return s
 
 
