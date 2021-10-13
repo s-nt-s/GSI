@@ -1,6 +1,5 @@
 ---
 title: Métrica v3
-status: draft
 ---
 
 # [INTRODUCCIÓN](https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/)

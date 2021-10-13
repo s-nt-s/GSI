@@ -1,6 +1,5 @@
 ---
 title: Métrica v3
-status: draft
 ---
 
 # Conceptos básicos

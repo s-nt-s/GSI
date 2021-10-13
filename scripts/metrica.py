@@ -17,9 +17,31 @@ WEB=Web()
 class MyConverter(MarkdownConverter):
     HID=0
     def convert_table(self, el, text, convert_as_inline):
-        return "\n"+str(el)+"\n"
+        el.attrs.clear()
+        if el.find("thead") is None:
+            el.insert(0, BeautifulSoup("<thead></thead>", "html.parser"))
+            el.find("thead").append(el.find("tr"))
+            for th in el.select("thead td"):
+                th.name = "th"
+                for s in th.select("strong"):
+                    s.unwrap()
+        for x in el.select(":scope *"):
+            if x.name == "span":
+                x.unwrap()
+                continue
+            for k in list(x.attrs.keys()):
+                if k not in ("rowspan", "colspan", "id", "name", "href", "src"):
+                    del x.attrs[k]
+        md = str(el)
+        for t in ("table", "thead", "tbody", "tfoot", "tr"):
+            md = md.replace("<"+t, "\n<"+t)
+            if t != "tr":
+                md = md.replace("</"+t+">", "\n</"+t+">")
+        return "\n"+md.strip()+"\n"
         #return super().convert_table(el, text, convert_as_inline) + '\n\n'
     def convert_hn(self, n, el, text, convert_as_inline):
+        if n>6:
+            return "\n**{}**\n".format(text)
         md = super().convert_hn(n, el, text, convert_as_inline)
         MyConverter.HID = MyConverter.HID + 1
         id = el.name + "_" + str(MyConverter.HID)
@@ -118,7 +140,6 @@ class CrawlMetrica:
             f.write(dedent('''
             ---
             title: Métrica v3
-            status: draft
             ---
             ''').strip())
             spl_level = 2
@@ -141,8 +162,6 @@ class CrawlMetrica:
             id_url[norm_url(i.url)]="a%s" % (len(id_url)+1)
 
         def get_sp(level, i):
-            if level == 7:
-                print("WARNING level={} en {}".format(level, i.url))
             soup = self.get(i.url)
             for n in soup.findAll(HEAD+["p", "div", "table", "li", "ol", "ul"]):
                 txt = re_sp.sub("", n.get_text())
@@ -174,9 +193,13 @@ class CrawlMetrica:
                 hs = soup.findAll(h)
                 if hs:
                     heads.append(hs)
+
+            if level > 6:
+                print("WARNING level={} en {}".format(level, i.url), heads)
+
             for inx, hs in enumerate(heads):
                 l = level + inx
-                x = min(6, l)
+                x = l#min(6, l)
                 for h in hs:
                     h.name = "h%s" % x
             return soup
