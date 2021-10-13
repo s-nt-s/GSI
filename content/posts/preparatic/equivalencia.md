@@ -75,7 +75,7 @@ Nota: Los contenidos de [Preparatic27](http://www.preparatic.org/) corresponden 
 * T1:
     * Pack1 - 037 Agilismo
     * Pack1 - 085 Ciclos vida
-    * Pack1 - 087 An func de sist, CU e HU. Met de desrrll de sist. Met. agiles_ Scrum y Kanban
+    * Pack1 - 087 Análisis funcional de sistemas, CU e HU. Metodologías de desarrollo de sistemas. Metodologías ágiles, Scrum y Kanban
     * Pack3 - 06 Gestión de Proyectos/01 Metodologías y Ciclos de Vida
 * T2:
     * Pack1 - 035 Dirección y gestión proyectos
@@ -86,12 +86,12 @@ Nota: Los contenidos de [Preparatic27](http://www.preparatic.org/) corresponden 
     * Pack1 - 033 Herramientas Planificacion. CM
     * Pack1 - 036 Metodologias Gest Proy GANTT PERT
     * Pack1 - 086 Planificación estrategica
-    * Pack1 - 087 An func de sist, CU e HU. Met de desrrll de sist. Met. agiles_ Scrum y Kanban
+    * Pack1 - 087 Análisis funcional de sistemas, CU e HU. Metodologías de desarrollo de sistemas. Metodologías ágiles, Scrum y Kanban
     * Pack1 - 094 Metrica V3
     * Pack3 - 06 Gestión de Proyectos/01 Metodologías y Ciclos de Vida
     * Pack3 - 06 Gestión de Proyectos/02 Estimación y Planificación
 * T4:
-    * Pack1 - 087 An func de sist, CU e HU. Met de desrrll de sist. Met. agiles_ Scrum y Kanban
+    * Pack1 - 087 Análisis funcional de sistemas, CU e HU. Metodologías de desarrollo de sistemas. Metodologías ágiles, Scrum y Kanban
     * Pack1 - 090 Analisis de aspectos no funcionales
     * Pack1 - 093 Prototipos. Diseño de Interfaces
     * ...

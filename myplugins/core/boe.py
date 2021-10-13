@@ -1,4 +1,4 @@
-from .decorators import JsonCache
+from .decorators import Cache
 import requests
 import xmltodict
 import re
@@ -7,15 +7,11 @@ from urllib.parse import urlparse, parse_qs
 re_num = re.compile(r"\d+")
 re_sp = re.compile(r"\s+")
 
-class BoeCache(JsonCache):
-    def get_file_name(self, *args, **kargv):
-        return self.file.format(*args, **kargv)
-
 class BoeApi:
     def __init__(self):
         pass
 
-    @BoeCache(file="config/boe/{}.json")
+    @Cache(file="config/boe/{}.json")
     def get(self, id):
         r = requests.get("https://www.boe.es/diario_boe/xml.php?id="+id)
         js = xmltodict.parse(r.text)

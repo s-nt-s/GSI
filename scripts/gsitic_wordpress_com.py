@@ -62,9 +62,6 @@ class CrawlGstic:
         if len(temas) == 0:
             return b
 
-        b.meta = {
-            'DC.creator': 'gsitic.wordpress.com',
-        }
         b.pandoc = '--toc-depth 2 --parse-raw --epub-chapter-level 2'
         b.author = 'gsitic.wordpress.com'
         b.lang = 'es-ES'

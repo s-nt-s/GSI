@@ -1832,7 +1832,7 @@ r'(herramientas )?CASE
 https://es.wikipedia.org/wiki/Herramienta_CASE
 Ingeniería de Software Asistida por Computadora (Computer Aided Software Engineering)
 
-r'([rR]euni[óo]n|[Ss]esi[oó]n)(es)? JAD'
+r'([rR]euni[óo]n|[Ss]esi[oó]n)(es)? JAD|Joint Application Design
 https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jad/
 https://es.wikipedia.org/wiki/Joint_Application_Design
 Joint Application Design, reunión entre usuarios finales y desarrolladores para obtener requisitos
@@ -1858,3 +1858,24 @@ Desarrollo basado en funcionalidades (Feature Driven Development)
 DSDM
 https://es.wikipedia.org/wiki/M%C3%A9todo_de_desarrollo_de_sistemas_din%C3%A1micos
 Método de desarrollo de sistemas dinámicos (Dynamic Systems Development Method)
+
+i'Desarrollo en cascada|ciclo de vida en cascada
+https://es.wikipedia.org/wiki/Desarrollo_en_cascada
+
+i'Método en V|ciclo de vida en V
+https://es.wikipedia.org/wiki/M%C3%A9todo_en_V
+
+PMI
+https://es.wikipedia.org/wiki/Project_Management_Institute
+Project Management Institute
+
+PMBOK
+https://es.wikipedia.org/wiki/Gu%C3%ADa_de_los_fundamentos_para_la_direcci%C3%B3n_de_proyectos
+Guía de los fundamentos para la dirección de proyectos, del PMI
+
+i'Diagrama de Gantt
+https://es.wikipedia.org/wiki/Diagrama_de_Gantt
+
+PERT
+https://es.wikipedia.org/wiki/T%C3%A9cnica_de_revisi%C3%B3n_y_evaluaci%C3%B3n_de_programas
+Técnica de revisión y evaluación de programas

@@ -6,6 +6,9 @@ output
 tools/xsddiagram/
 TODO.md
 output.bak
+graby
+content/posts/otros/metrica_v3.md
+config/metrica/html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

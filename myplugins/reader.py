@@ -93,7 +93,7 @@ class MyReader(MarkReader):
             metadata['version'] = {}
         fileroot = filename.rsplit(".", 1)[0]+"."
         filebase = os.path.basename(fileroot)
-        for t in ("epub", "pdf"):
+        for t in ("epub", "pdf", "json"):
             if os.path.isfile(fileroot+t):
                 metadata['version'][t.upper()] = filebase+t
 

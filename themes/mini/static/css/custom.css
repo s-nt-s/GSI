@@ -166,3 +166,11 @@ table.complejidad_tad a {
   text-decoration-color: blue;
   color: inherit;
 }
+body.otros_metrica a {
+  text-decoration: none;
+  color: inherit;
+}
+body.otros_metrica li {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

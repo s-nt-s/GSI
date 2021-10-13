@@ -40,9 +40,7 @@ se aplica como si fuera estrictamente lineal.
 * **Ventajas**:
     * Pautas de trabajo claras
     * Facilita establecer hitos, estimación y seguimiento del progreso
-    * Proporciona entregales intermedios que en conjunto es el producto final
-    (documentos de análisis y diseño, etc)
-
+    * Proporciona entregales intermedios que en conjunto es el producto final (documentos de análisis y diseño, etc)
 * **Inconvenientes**:
     * Establecer todos los requisitos al inicio puede ser poco realista
     * Es muy rígido
@@ -75,7 +73,7 @@ DRA pretende ser una versión ultrarapida del modelo en cascada con un enfoque
 de construcción basado en componentes para obtener sistemas completamente
 funcionales en 60-90 días.
 
-Fases:
+**Fases**:
 
 1. Modelado de gestión
 2. Modelado de datos
@@ -83,14 +81,16 @@ Fases:
 4. Gestión de aplicaciones
 5. Pruebas y entrega
 
-Características:
+**Características**:
 
 * Equipos híbridos
 * Herramientas especializadas: control de versiones, componentes reutilizables,
 herramientas colaborativas, APIs, etc
 * Timeboxing: cada fase de desarrollo dura lo mismo
-* Prototipos iterativos y evolucionarios:
+* Prototipos iterativos y evolucionarios
 * Reunión JAD
+
+Ventajas e inconvenientes:
 
 * **Ventajas**:
     * Reutilización
@@ -103,11 +103,13 @@ herramientas colaborativas, APIs, etc
 
 ## [Modelo de construcción de prototipos](https://es.wikipedia.org/wiki/Modelo_de_prototipos)
 
-En cada iteración se van clarificando los requisitos mediante las fases:
+En cada iteración se van clarificando los requisitos mediante las **fases**:
 
 1. Escuchar al usuario
 2. Construir un prototipo
 3. El usuario prueba el prototipo
+
+Ventajas e inconvenientes:
 
 * **Ventajas**: Ideal para obtener requisitos cuando no están claros
 * **Inconvenientes**:
@@ -197,7 +199,7 @@ ni nada.
 * [**Modelo concurrente**](https://es.wikipedia.org/wiki/Ingenier%C3%ADa_de_software#Modelo_de_desarrollo_concurrente):
 No ordena las actividades de ingeniería de software a una secuencia de sucesos, si no que define una red de actividades, todas las actividades de la red existen simultáneamente con otras
 * [**Desarrollo adaptativo de software**](https://es.wikipedia.org/wiki/Desarrollo_adaptativo_de_software) (ASD):
-derivado de RAD que sustituye el *modelo en cascada* por una serie repetitiva de ciclos de especulación, colaboración y aprendizaje.
+derivado de DRA que sustituye el *modelo en cascada* por una serie repetitiva de ciclos de especulación, colaboración y aprendizaje.
 Esta enfocado a la misión, a basado en características, iterativo, planeado de acuerdo al tiempo, guiado por riesgos y tolerante al cambio
 * [**Modelo por etapas**](https://es.wikipedia.org/wiki/Desarrollo_por_etapas) (Stage-Wise):
 similar al *Modelo de prototipos* pero más enfocado a casos donde no son conocidas
@@ -205,8 +207,6 @@ en detalle al inicio del proyecto y por tanto se van desarrollando simultáneame
 con las diferentes versiones del código
 * **Modelos basados en transformaciones**: Convierten automáticamente una especificación
 formal de un producto software en un programa que satisfaga las especificaciones, utilizando herramientas 4G.
-* **SCRUM**
-* **Kaban**
 
 # Metodologías ágiles
 
@@ -278,6 +278,9 @@ del software potencialmente entregable (utilizable)
     1. subconjunto de *product backlog* que será implementado en el *sprint*
     2. otras tareas necesarias (deuda técnica, calidad, etc)
 * **sprint goal**: objetivo más importante del *sprint*
+* **Burndown chart**: gráfica mide la cantidad de requisitos en el Backlog del
+proyecto pendientes al comienzo de cada Sprint. Será una recta descendente
+salvo cuando se añadan nuevos requisitos.
 
 Scrum identifica los siguientes **roles** principales:
 
@@ -387,5 +390,3 @@ coordinar múltiples equipos que trabajan sobre una misma solución.
 * [youtube.com - Ágil Es - Por Cris Rúa - Lo mejor de Scrum y Kanban](https://www.youtube.com/watch?v=Kxz0_rDmRho)
 * [javiergarzas.com - Sprint Planning, claves y evitando malas interpretaciones](https://www.javiergarzas.com/2018/01/sprint-planning.html)
 * [javiergarzas.com - Los 7 errores más comunes de la Daily Scrum, ¿cómo evitarlos?](https://www.paradigmadigital.com/techbiz/los-7-errores-mas-comunes-la-daily-scrum-evitarlos/)
-* https://es.wikipedia.org/wiki/Kanban_(desarrollo)
-* https://es.wikipedia.org/wiki/Programaci%C3%B3n_extrema
