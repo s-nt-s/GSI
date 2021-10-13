@@ -53,10 +53,23 @@ class MyConverter(MarkdownConverter):
 def my_md(html, **options):
     return MyConverter(**options).convert(html)
 
+def fix_char(s):
+    for a,b in (
+        ("á", "á"),
+        ("é", "é"),
+        ("í", "í"),
+        ("ó", "ó"),
+        ("ú", "ú")
+    ):
+        s = s.replace(a, b)
+    return s
+
+
 def to_md(s):
     txt_md = my_md(str(s), heading_style="ATX_CLOSED", bullets="*")
     txt_md = re.sub(r"\n\s*\n\s*\n+", "\n\n", txt_md)
     txt_md = re.sub(r"\n+#", "\n\n#", txt_md)
+    txt_md = fix_char(txt_md)
     return txt_md
 
 def norm_url(url):
@@ -90,10 +103,10 @@ class CrawlMetrica:
             bread = soup.select_one("div.breadcrumb-trail")
             parent = bread.findAll("a")[-1]
             parent = parent.attrs["href"]
-            tt = re_sp.sub(" ",soup.find("h1").get_text()).strip()
+            tt = fix_char(re_sp.sub(" ",soup.find("h1").get_text()).strip())
             h2 = soup.select_one("section h2")
             if h2:
-                h2 = re_sp.sub(" ",h2.get_text()).strip()
+                h2 = fix_char(re_sp.sub(" ",h2.get_text()).strip())
                 if h2.startswith(tt):
                     tt = h2
             m = Munch(
