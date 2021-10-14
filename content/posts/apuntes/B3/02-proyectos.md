@@ -4,6 +4,7 @@ status: draft
 replace:
   "PDM": '<a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_diagrama_de_precedencias" title="Método del diagrama de precedencias" class="abbr">PDM</a>'
   "ADM": '<a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_diagrama_de_flechas" title="Método del diagrama de flechas" class="abbr">ADM</a>'
+  "FCE": '<a href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/" title="Factores críticos de éxito" class="abbr">FCE</a>'
 ---
 
 # PMBOK del PMI
@@ -101,6 +102,40 @@ Se necesita información histórica y es dependiente del lenguaje de programaci�
 * NCSS: líneas de código fuente sin tener en cuenta los comentarios
 * NSLOC: nuevas líneas de código fuente
 
+# Métodos de estimación
+
+* [**Método Albretch**](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-albrecht/): basado de puntos de función
+* [**Método MARK II**](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-mark-ii/): como el anterior pero pero con 23 atributos (el Albretch tiene 14)
+* Walston-Felix: modelo estadístico
+* Putnam: basado en teorías
+* COCOMO: combina intuición, análisis estadístico y juicio de experto y tiene tres
+niveles (básico, intermedio y detallado)
+* Esterling: modelo de estudio temporal, mide el tiempo de trabajo útil por jornada
+y persona
+* [Staffing Size](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/staffing-size/):
+conjunto de métricas para estimar el numero de personas necesarias para el proyecto
+y el tiempo que estarán dedicadas a él (se basa en nº de *clases clave* y *clases secundarías*)
+* Método Karner: estima basándose en [puntos de caso de uso](https://es.wikipedia.org/wiki/Puntos_de_caso_de_uso) (como el *Albretch* con *puntos de función* pero para *casos de uso*).
+
+# Herramientas automáticas de estimación
+
+* BYL, WICOMO y DECPlan: basadas en COCOMO
+* SLIM: se basa en la curva de Rayleigh-Norden para el ciclo de vida del software
+y en el modelo de estimación de Putnam
+* ESTIMACS: basado en Puntos de Función
+* SPQR/20: conjunto de sencillas preguntas y respuestas
+
+# Factores críticos de éxito (FCE)
+
+So los medios o condiciones que se deben cumplir si o si para poder alcanzar
+los objetivos. Los FCE son temporales, subjetivos, vitales y específicos de
+la organización, y están influenciados por el contexto.
+
+Todo proceso que pueda afectar a los FCE se considera estratégico. Los FCE
+están directamente relacionados con las Debilidades, Amenazas, Fortalezas y Oportunidades
+de la organización (DAFO).
+
+# EDT
 
 # Bibliografía
 

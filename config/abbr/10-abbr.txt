@@ -1879,3 +1879,11 @@ https://es.wikipedia.org/wiki/Diagrama_de_Gantt
 PERT
 https://es.wikipedia.org/wiki/T%C3%A9cnica_de_revisi%C3%B3n_y_evaluaci%C3%B3n_de_programas
 Técnica de revisión y evaluación de programas
+
+COCOMO
+https://es.wikipedia.org/wiki/COCOMO
+Modelo Constructivo de Costos (COnstructive COst MOdel)
+
+DAFO
+https://es.wikipedia.org/wiki/An%C3%A1lisis_FODA
+Debilidades, Amenazas, Fortalezas y Oportunidade
