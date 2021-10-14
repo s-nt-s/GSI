@@ -22,7 +22,7 @@ class MyConverter(MarkdownConverter):
             el.insert(0, BeautifulSoup("<thead></thead>", "html.parser"))
             rs = 1
             for tr in list(el.findAll("tr")):
-                rs = max(rs, *(int(td.attrs.get("rowspan", 0)) for td in tr.findAll("td")))
+                rs = max(rs, *(int(td.attrs.get("rowspan", 1)) for td in tr.findAll("td")))
                 el.find("thead").append(tr)
                 rs = rs - 1
                 if rs == 0:
