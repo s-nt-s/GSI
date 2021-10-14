@@ -167,6 +167,8 @@ def set_notas(soup):
 def mod_content(content, *args, **kargv):
     if isinstance(content, contents.Static):
         return
+    if content.metadata.get('changeable', False):
+        return
 
     _content = content._content
     for k, v in content.metadata.get('replace', {}).items():

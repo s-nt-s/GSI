@@ -16,6 +16,7 @@ WEB=Web()
 
 class MyConverter(MarkdownConverter):
     HID=0
+
     def convert_table(self, el, text, convert_as_inline):
         el.attrs.clear()
         if el.find("thead") is None:
@@ -45,6 +46,7 @@ class MyConverter(MarkdownConverter):
                 md = md.replace("</"+t+">", "\n</"+t+">")
         return "\n"+md.strip()+"\n"
         #return super().convert_table(el, text, convert_as_inline) + '\n\n'
+
     def convert_hn(self, n, el, text, convert_as_inline):
         if n>6:
             return "\n**{}**\n".format(text)
@@ -76,9 +78,10 @@ def fix_char(s):
 
 def to_md(s):
     txt_md = my_md(str(s), heading_style="ATX_CLOSED", bullets="*")
+    txt_md = fix_char(txt_md)
+    txt_md = re.sub(r"^(!\[[^\[\]\(\)]*\]\([^\[\]\(\)]+\))$", r"\n\1\n", txt_md, flags=re.MULTILINE)
     txt_md = re.sub(r"\n\s*\n\s*\n+", "\n\n", txt_md)
     txt_md = re.sub(r"\n+#", "\n\n#", txt_md)
-    txt_md = fix_char(txt_md)
     return txt_md
 
 def norm_url(url):
@@ -232,7 +235,7 @@ class CrawlMetrica:
             ---
             title: Métrica v3
             status: draft
-            harddraft: true
+            changeable: false
             author: Ministerio de Administraciones Pública
             description: MÉTRICA v3 es propiedad intelectual del Ministerio de Administraciones Públicas, ver http://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html
             lang: es-ES
