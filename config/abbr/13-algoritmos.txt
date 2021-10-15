@@ -75,6 +75,12 @@ First in, first out (cola)
 grafo
 https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)
 
+Árbol B+
+https://es.wikipedia.org/wiki/%C3%81rbol_B%2B
+
+Árbol-B*
+https://es.wikipedia.org/wiki/%C3%81rbol-B*
+
 Árbol AVL
 https://es.wikipedia.org/wiki/%C3%81rbol_AVL
 

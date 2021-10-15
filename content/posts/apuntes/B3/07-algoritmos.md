@@ -210,6 +210,9 @@ valores menores que dicho nodo, y el subárbol derecho contiene valores superior
 (ej, `árbol-B 2-3` o `árbol 2-3` es un árbol que cada nodo puede tener 2 o 3 hijos)
 * **Árbol B+**: Un *B-Tree* donde la información solo se encuentra en los nodos
 hojas (siendo los demás punteros y claves), las cuales están todas en el mismo nivel
+y estan unidos entre sí como una lista enlazada
+* **Árbol-B***: *B-Tree* en el que los nodos no raíz deben estar por lo menos a 2/3
+de ocupación en lugar de 1/2
 * **Árbol AVL**: Árbol binario de búsqueda equilibrado (se equilibra con rotaciones)
 * **Árbol rojo-negro**: Árbol binario de búsqueda equilibrado donde la raíz y
 todas las hojas son *negras*, todo nodo *rojo* debe tener dos hijos *negros*
