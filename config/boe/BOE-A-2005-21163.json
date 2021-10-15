@@ -1,122 +1,492 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20201112092601",
-  "metadatos": {
-    "identificador": "BOE-A-2005-21163",
-    "titulo": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20201112092601",
+    "metadatos": {
+      "identificador": "BOE-A-2005-21163",
+      "titulo": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "307",
+      "seccion": "1",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "7320",
+        "#text": "Ministerio del Interior"
+      },
+      "rango": {
+        "@codigo": "1340",
+        "#text": "Real Decreto"
+      },
+      "numero_oficial": "1553/2005",
+      "fecha_disposicion": "20051223",
+      "fecha_publicacion": "20051224",
+      "fecha_vigencia": "20051225",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "42090",
+      "pagina_final": "42093",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2005/12/24/pdfs/A42090-42093.pdf",
+      "url_pdf_catalan": "/boe_catalan/dias/2005/12/30/pdfs/A02931-02935.pdf",
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": "/boe_gallego/dias/2005/12/30/pdfs/A01907-01911.pdf",
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
     },
-    "diario_numero": "307",
-    "seccion": "1",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "7320",
-      "#text": "Ministerio del Interior"
-    },
-    "rango": {
-      "@codigo": "1340",
-      "#text": "Real Decreto"
-    },
-    "numero_oficial": "1553/2005",
-    "fecha_disposicion": "20051223",
-    "fecha_publicacion": "20051224",
-    "fecha_vigencia": "20051225",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "42090",
-    "pagina_final": "42093",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2005/12/24/pdfs/A42090-42093.pdf",
-    "url_pdf_catalan": "/boe_catalan/dias/2005/12/30/pdfs/A02931-02935.pdf",
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": "/boe_gallego/dias/2005/12/30/pdfs/A01907-01911.pdf",
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2005-21163"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2005-12-23"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "1553"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2005-21163"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2005-12-23"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "1553"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
-              },
-              "eli:consolidated_by": [
-                {
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224"
-                }
-              ],
-              "eli:is_realized_by": [
-                {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2005-21163"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2005-12-23"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "1553"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2005-21163"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2005-12-23"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1553"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
+                },
+                "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224"
+                  }
+                ],
+                "eli:is_realized_by": [
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2005-12-24"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                      },
+                      "eli:is_embodied_by": [
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa/html",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa/pdf",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa/xml",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/cat",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Reial decret 1553/2005, de 23 de desembre, pel qual es regula l'expedici\u00f3 del document nacional d'identitat i els seus certificats de signatura electr\u00f2nica."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2005-12-30"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/cat/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/cat"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/glg",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Real decreto 1553/2005, do 23 de decembro, polo que se regula a expedici\u00f3n do documento nacional de identidade e os certificados de sinatura electr\u00f3nica."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2005-12-30"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/glg/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/glg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2005-21163"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2005-12-23"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1553"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2015-05-30"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                },
+                "eli:is_realized_by": {
                   "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa",
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2015-05-30"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2005-21163"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2005-12-23"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1553"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2013-11-23"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2013-11-23"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2005-21163"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2005-12-23"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1553"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2009-11-03"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2009-11-03"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2005-21163"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2005-12-23"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1553"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2005-12-24"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224/spa",
                     "eli:language": {
                       "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
                     },
@@ -132,940 +502,723 @@
                       "#text": "2005-12-24"
                     },
                     "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
-                    },
-                    "eli:is_embodied_by": [
-                      {
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa/html",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa"
-                          }
-                        }
-                      },{
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa/pdf",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa"
-                          }
-                        }
-                      },{
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa/xml",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/spa"
-                          }
-                        }
-                      }
-                    ]
-                  }
-                },{
-                  "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/cat",
-                    "eli:language": {
-                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
-                    },
-                    "eli:title": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                      "#text": "Reial decret 1553/2005, de 23 de desembre, pel qual es regula l'expedici\u00f3 del document nacional d'identitat i els seus certificats de signatura electr\u00f2nica."
-                    },
-                    "eli:publisher": {
-                      "@rdf:resource": "www.boe.es"
-                    },
-                    "eli:date_publication": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                      "#text": "2005-12-30"
-                    },
-                    "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224"
                     },
                     "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/cat/pdf",
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224/spa/html",
                         "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/cat"
-                        }
-                      }
-                    }
-                  }
-                },{
-                  "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/glg",
-                    "eli:language": {
-                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
-                    },
-                    "eli:title": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                      "#text": "Real decreto 1553/2005, do 23 de decembro, polo que se regula a expedici\u00f3n do documento nacional de identidade e os certificados de sinatura electr\u00f3nica."
-                    },
-                    "eli:publisher": {
-                      "@rdf:resource": "www.boe.es"
-                    },
-                    "eli:date_publication": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                      "#text": "2005-12-30"
-                    },
-                    "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
-                    },
-                    "eli:is_embodied_by": {
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/glg/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof/glg"
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224/spa"
                         }
                       }
                     }
                   }
                 }
-              ]
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2005-21163"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2005-12-23"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "1553"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2015-05-30"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2015-05-30"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20150530/spa"
-                      }
-                    }
-                  }
-                }
               }
             }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2005-21163"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2005-12-23"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "1553"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2013-11-23"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2013-11-23"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20131123/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2005-21163"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2005-12-23"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "1553"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2009-11-03"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2009-11-03"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20091103/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2005-21163"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2005-12-23"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "1553"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2005-12-24"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 1553/2005, de 23 de diciembre, por el que se regula la expedici\u00f3n del documento nacional de identidad y sus certificados de firma electr\u00f3nica."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2005-12-24"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2005/12/23/1553/con/20051224/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": {
-      "nota": {
-        "@codigo": "9",
-        "@orden": "210",
-        "#text": "Entrada en vigor, con la salvedad indicada, el el 25 de diciembre de 2005."
+          ]
+        }
       }
     },
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "7879",
-          "@orden": "",
-          "#text": "Certificados telem\u00e1ticos"
-        },{
-          "@codigo": "2753",
-          "@orden": "",
-          "#text": "Direcci\u00f3n General de la Polic\u00eda"
-        },{
-          "@codigo": "3083",
-          "@orden": "",
-          "#text": "Documento Nacional de Identidad"
-        },{
-          "@codigo": "3716",
-          "@orden": "",
-          "#text": "Firma electr\u00f3nica"
-        },{
-          "@codigo": "5008",
-          "@orden": "",
-          "#text": "Ministerio del Interior"
-        },{
-          "@codigo": "6494",
-          "@orden": "",
-          "#text": "Seguridad ciudadana"
+    "analisis": {
+      "notas": {
+        "nota": {
+          "@codigo": "9",
+          "@orden": "210",
+          "#text": "Entrada en vigor, con la salvedad indicada, el el 25 de diciembre de 2005."
         }
-      ]
-    },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "126",
-          "@orden": "",
-          "#text": "Seguridad y Defensa"
-        },{
-          "@codigo": "129",
-          "@orden": "",
-          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+      },
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-1985-15606",
-            "@orden": "1010",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "DEROGA"
-            },
-            "texto": "el Real Decreto 1245/1985, de 17 de julio"
-          },{
-            "@referencia": "BOE-A-1982-22128",
-            "@orden": "1010",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "DEROGA"
-            },
-            "texto": "Real Decreto 2091/1982, de 12 de agosto"
-          },{
-            "@referencia": "BOE-A-1979-20607",
-            "@orden": "1010",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "DEROGA"
-            },
-            "texto": "el Real Decreto 2002/1979, de 20 de julio"
-          },{
-            "@referencia": "BOE-A-1978-14235",
-            "@orden": "1010",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "DEROGA"
-            },
-            "texto": "Real Decreto 1189/1978, de 2 de junio"
-          },{
-            "@referencia": "BOE-A-1976-3441",
-            "@orden": "1010",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "DEROGA"
-            },
-            "texto": "el Decreto 196/1976, de 6 de febrero"
-          },{
-            "@referencia": "BOE-A-1992-4252",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "el art. 9 de la Ley Org\u00e1nica 1/1992, de 21 de febrero"
-          },{
-            "@referencia": "BOE-A-2003-23399",
-            "@orden": "3070",
-            "palabra": {
-              "@codigo": "331",
-              "#text": "EN RELACI\u00d3N con"
-            },
-            "texto": "la Ley 59/2003, de 19 de diciembre"
+            "@codigo": "7879",
+            "@orden": "",
+            "#text": "Certificados telem\u00e1ticos"
+          },
+          {
+            "@codigo": "2753",
+            "@orden": "",
+            "#text": "Direcci\u00f3n General de la Polic\u00eda"
+          },
+          {
+            "@codigo": "3083",
+            "@orden": "",
+            "#text": "Documento Nacional de Identidad"
+          },
+          {
+            "@codigo": "3716",
+            "@orden": "",
+            "#text": "Firma electr\u00f3nica"
+          },
+          {
+            "@codigo": "5008",
+            "@orden": "",
+            "#text": "Ministerio del Interior"
+          },
+          {
+            "@codigo": "6494",
+            "@orden": "",
+            "#text": "Seguridad ciudadana"
           }
         ]
       },
-      "posteriores": {
-        "posterior": [
+      "alertas": {
+        "alerta": [
           {
-            "@referencia": "BOE-A-2015-5953",
+            "@codigo": "126",
             "@orden": "",
-            "palabra": {
-              "@codigo": "270",
-              "#text": "SE MODIFICA"
-            },
-            "texto": "el art. 12.1, por Real Decreto 414/2015, de 29 de mayo"
-          },{
-            "@referencia": "BOE-A-2013-12320",
+            "#text": "Seguridad y Defensa"
+          },
+          {
+            "@codigo": "129",
             "@orden": "",
-            "palabra": {
-              "@codigo": "270",
-              "#text": "SE MODIFICA"
-            },
-            "texto": "los arts. 1, 5, 6 y 9, por Real Decreto 869/2013, de 8 de noviembre"
-          },{
-            "@referencia": "BOE-A-2009-17429",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "270",
-              "#text": "SE MODIFICA"
-            },
-            "texto": "el art. 5.1.a) y b) , por Real Decreto 1586/2009, de 16 de octubre"
-          },{
-            "@referencia": "BOE-A-2007-3379",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "402",
-              "#text": "SE INTERPRETA"
-            },
-            "texto": "aspectos sobre la expedici\u00f3n de las certificaciones literales de nacimiento para la obtenci\u00f3n del DNI, por Instrucci\u00f3n de 7 de febrero de 2007"
-          },{
-            "@referencia": "BOE-A-2007-20487",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "SE DICTA DE CONFORMIDAD"
-            },
-            "texto": "implantando un sistema de cita previa telef\u00f3nica para la obtenci\u00f3n del D.N.I. y pasaporte: Resoluci\u00f3n de 20 de noviembre de 2007"
-          },{
-            "@referencia": "BOE-A-2006-4841",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "SE DICTA DE CONFORMIDAD"
-            },
-            "texto": "con el art. 13, aprobando la Declaraci\u00f3n de pr\u00e1cticas y pol\u00edticas de certificaci\u00f3n del Ministerio del Interior: Orden INT/738/2006, de 13 de marzo"
-          },{
-            "@referencia": "BOE-A-2006-17871",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "331",
-              "#text": "SE DICTA EN RELACION"
-            },
-            "texto": ", aprobando el logotipo identificador de la imagen promocional del DNI-e: Orden INT/3128/2006, de 29 de septiembre"
+            "#text": "Tecnolog\u00eda e investigaci\u00f3n"
           }
         ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-1985-15606",
+              "@orden": "1010",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "DEROGA"
+              },
+              "texto": "el Real Decreto 1245/1985, de 17 de julio"
+            },
+            {
+              "@referencia": "BOE-A-1982-22128",
+              "@orden": "1010",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "DEROGA"
+              },
+              "texto": "Real Decreto 2091/1982, de 12 de agosto"
+            },
+            {
+              "@referencia": "BOE-A-1979-20607",
+              "@orden": "1010",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "DEROGA"
+              },
+              "texto": "el Real Decreto 2002/1979, de 20 de julio"
+            },
+            {
+              "@referencia": "BOE-A-1978-14235",
+              "@orden": "1010",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "DEROGA"
+              },
+              "texto": "Real Decreto 1189/1978, de 2 de junio"
+            },
+            {
+              "@referencia": "BOE-A-1976-3441",
+              "@orden": "1010",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "DEROGA"
+              },
+              "texto": "el Decreto 196/1976, de 6 de febrero"
+            },
+            {
+              "@referencia": "BOE-A-1992-4252",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "el art. 9 de la Ley Org\u00e1nica 1/1992, de 21 de febrero"
+            },
+            {
+              "@referencia": "BOE-A-2003-23399",
+              "@orden": "3070",
+              "palabra": {
+                "@codigo": "331",
+                "#text": "EN RELACI\u00d3N con"
+              },
+              "texto": "la Ley 59/2003, de 19 de diciembre"
+            }
+          ]
+        },
+        "posteriores": {
+          "posterior": [
+            {
+              "@referencia": "BOE-A-2015-5953",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "el art. 12.1, por Real Decreto 414/2015, de 29 de mayo"
+            },
+            {
+              "@referencia": "BOE-A-2013-12320",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "los arts. 1, 5, 6 y 9, por Real Decreto 869/2013, de 8 de noviembre"
+            },
+            {
+              "@referencia": "BOE-A-2009-17429",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "el art. 5.1.a) y b) , por Real Decreto 1586/2009, de 16 de octubre"
+            },
+            {
+              "@referencia": "BOE-A-2007-3379",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "402",
+                "#text": "SE INTERPRETA"
+              },
+              "texto": "aspectos sobre la expedici\u00f3n de las certificaciones literales de nacimiento para la obtenci\u00f3n del DNI, por Instrucci\u00f3n de 7 de febrero de 2007"
+            },
+            {
+              "@referencia": "BOE-A-2007-20487",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "implantando un sistema de cita previa telef\u00f3nica para la obtenci\u00f3n del D.N.I. y pasaporte: Resoluci\u00f3n de 20 de noviembre de 2007"
+            },
+            {
+              "@referencia": "BOE-A-2006-4841",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "con el art. 13, aprobando la Declaraci\u00f3n de pr\u00e1cticas y pol\u00edticas de certificaci\u00f3n del Ministerio del Interior: Orden INT/738/2006, de 13 de marzo"
+            },
+            {
+              "@referencia": "BOE-A-2006-17871",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "331",
+                "#text": "SE DICTA EN RELACION"
+              },
+              "texto": ", aprobando el logotipo identificador de la imagen promocional del DNI-e: Orden INT/3128/2006, de 29 de septiembre"
+            }
+          ]
+        }
       }
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "parrafo",
+          "#text": "La Ley Org\u00e1nica 1/1992, de 21 de febrero, sobre Protecci\u00f3n de la Seguridad Ciudadana, en su art\u00edculo 9, reconoce el derecho de todos los espa\u00f1oles a que se les expida el Documento Nacional de Identidad, al que se atribuye el valor suficiente para acreditar, por s\u00ed solo, la identidad de las personas y le otorga la protecci\u00f3n que a los documentos p\u00fablicos y oficiales es reconocida por el ordenamiento jur\u00eddico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La misma norma dispone la obligatoriedad del Documento Nacional de Identidad para los mayores de catorce a\u00f1os, salvo en los supuestos en que, conforme a lo previsto en la Ley, haya de ser sustituido por otro documento, y establece tambi\u00e9n que en el mismo figurar\u00e1n la fotograf\u00eda y la firma del titular, as\u00ed como los datos personales que se determinen reglamentariamente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En cuanto a la competencia para su expedici\u00f3n y gesti\u00f3n, la Ley Org\u00e1nica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, atribuye al Cuerpo Nacional de Polic\u00eda, la de la expedici\u00f3n del Documento Nacional de Identidad, al recogerla expresamente entre las funciones que encomienda a este Instituto Policial, el cual la misma Ley dispone que depender\u00e1 del Ministerio del Interior."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Por otra parte, la Ley 59/2003, de 19 de diciembre, de firma electr\u00f3nica, ha venido a atribuir al Documento Nacional de Identidad nuevos efectos y utilidades, como son los de poder acreditar electr\u00f3nicamente la identidad y dem\u00e1s datos personales del titular que en \u00e9l consten, as\u00ed como la identidad del firmante y la integridad de los documentos firmados con los dispositivos de firma electr\u00f3nica, cuya incorporaci\u00f3n al mismo se establece."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La misma Ley, en el apartado primero de la disposici\u00f3n final segunda dispone que el Gobierno adaptar\u00e1 la regulaci\u00f3n reglamentar\u00eda del Documento Nacional de Identidad a las previsiones de la referida Ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Asimismo, ha de se\u00f1alarse que la normativa reglamentaria que regula los distintos aspectos del Documento Nacional de Identidad se encuentra dispersa en distintas disposiciones y data, en parte, de fechas anteriores a la vigencia de la Constituci\u00f3n, lo que genera disfunciones a la hora de su aplicaci\u00f3n, derivadas tanto de la propia antig\u00fcedad de las normas, como de la dispersi\u00f3n de estas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En este contexto, y a la vista del mandato legal contenido en la Ley 59/2003, antes citada, resulta imprescindible acometer la adecuaci\u00f3n y ordenaci\u00f3n de la normativa que regula el referido Documento, abordando aquellos aspectos derivados de las nuevas utilidades que se le atribuyen."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En su virtud, a propuesta del Ministro del Interior, con la aprobaci\u00f3n previa del Ministro de Administraciones P\u00fablicas, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros, en su reuni\u00f3n del d\u00eda 23 de diciembre de 2005,"
+        },
+        {
+          "@class": "subseccion",
+          "#text": "D I S P O N G O :"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 1. Naturaleza y funciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Documento Nacional de Identidad es un documento personal e intransferible emitido por el Ministerio del Interior que goza de la protecci\u00f3n que a los documentos p\u00fablicos y oficiales otorgan las leyes. Su titular estar\u00e1 obligado a la custodia y conservaci\u00f3n del mismo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Dicho Documento tiene suficiente valor, por s\u00ed solo, para acreditar la identidad y los datos personales de su titular que en \u00e9l se consignen, as\u00ed como la nacionalidad espa\u00f1ola del mismo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. A cada Documento Nacional de Identidad, se le asignar\u00e1 un n\u00famero personal que tendr\u00e1 la consideraci\u00f3n de identificador num\u00e9rico personal de car\u00e1cter general."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Igualmente, el Documento Nacional de Identidad permite a los espa\u00f1oles mayores de edad y que gocen de plena capacidad de obrar la identificaci\u00f3n electr\u00f3nica de su titular, as\u00ed como realizar la firma electr\u00f3nica de documentos, en los t\u00e9rminos previstos en la Ley 59/2003, de 19 de diciembre, de firma electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. La firma electr\u00f3nica realizada a trav\u00e9s del Documento Nacional de Identidad tendr\u00e1 respecto de los datos consignados en forma electr\u00f3nica el mismo valor que la firma manuscrita en relaci\u00f3n con los consignados en papel."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "6. Ning\u00fan espa\u00f1ol podr\u00e1 ser privado del Documento Nacional de Identidad, ni siquiera temporalmente, salvo en los casos y forma establecidos por las Leyes en los que haya de ser sustituido por otro documento."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 2. Derecho y obligaci\u00f3n de obtenerlo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Todos los espa\u00f1oles tendr\u00e1n derecho a que se les expida el Documento Nacional de Identidad, siendo obligatoria su obtenci\u00f3n por los mayores de catorce a\u00f1os residentes en Espa\u00f1a y para los de igual edad que, residiendo en el extranjero, se trasladen a Espa\u00f1a por tiempo no inferior a seis meses."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Todas las personas obligadas a obtener el Documento Nacional de Identidad lo est\u00e1n tambi\u00e9n a exhibirlo cuando fueren requeridas para ello por la Autoridad o sus Agentes."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 3. \u00d3rgano competente para la expedici\u00f3n y gesti\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Ser\u00e1 competencia del Ministerio del Interior el ejercicio de las funciones relativas a la gesti\u00f3n, direcci\u00f3n, organizaci\u00f3n, desarrollo y administraci\u00f3n de todos aquellos aspectos referentes a la expedici\u00f3n y confecci\u00f3n del Documento Nacional de Identidad, conforme a lo previsto en la legislaci\u00f3n en materia de seguridad ciudadana y de firma electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El ejercicio de las competencias a que se refiere el apartado anterior, incluida la emisi\u00f3n de los certificados de firma electr\u00f3nica reconocidos, ser\u00e1 realizado por la Direcci\u00f3n General de la Polic\u00eda, a quien corresponder\u00e1 tambi\u00e9n la custodia y responsabilidad de los archivos y ficheros, automatizados o no, relacionados con el Documento Nacional de Identidad. A tal efecto, la Direcci\u00f3n General de la Polic\u00eda quedar\u00e1 sometida a las obligaciones impuestas al responsable del fichero por la Ley Org\u00e1nica 15/1999, de 13 de septiembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 4. Procedimiento de expedici\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Documento Nacional de Identidad se expedir\u00e1 a solicitud del interesado en la forma y lugares que al efecto se determinen, para lo cual deber\u00e1 aportar los documentos que se establecen en el art\u00edculo 5.1 de este Real Decreto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. En orden a facilitar a los ciudadanos la obtenci\u00f3n del Documento Nacional de Identidad, el Ministerio del Interior en colaboraci\u00f3n con el Ministerio de Administraciones P\u00fablicas adoptar\u00e1 las medidas oportunas para el fomento de la cooperaci\u00f3n de los distintos \u00f3rganos de las Administraciones P\u00fablicas con la Direcci\u00f3n General de la Polic\u00eda."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 5. Requisitos para la expedici\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Para solicitar la expedici\u00f3n del Documento Nacional de Identidad ser\u00e1 imprescindible la presencia f\u00edsica de la persona a quien se haya de expedir, el abono de la tasa legalmente establecida en cada momento y la presentaci\u00f3n de los siguientes documentos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Certificaci\u00f3n literal de nacimiento expedida por el Registro Civil correspondiente. A estos efectos \u00fanicamente ser\u00e1n admitidas las certificaciones expedidas con una antelaci\u00f3n m\u00e1xima de tres meses a la fecha de presentaci\u00f3n de la solicitud de expedici\u00f3n del Documento Nacional de Identidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Una fotograf\u00eda reciente en color del rostro del solicitante, tama\u00f1o 32 por 26 mil\u00edmetros, con fondo uniforme claro liso, tomada de frente con la cabeza totalmente descubierta y sin gafas de cristales oscuros o cualquier otra prenda que pueda impedir o dificultar la identificaci\u00f3n de la persona."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Certificado de empadronamiento del Ayuntamiento donde el solicitante tenga su domicilio, expedido con una antelaci\u00f3n m\u00e1xima de tres meses a la fecha de la solicitud del Documento Nacional de Identidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Los espa\u00f1oles residentes en el extranjero acreditar\u00e1n el domicilio mediante certificaci\u00f3n de la Representaci\u00f3n Diplom\u00e1tica o Consular donde est\u00e9n inscritos como residentes."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2. Excepcionalmente, en los supuestos en que, por circunstancias ajenas al solicitante, no pudiera ser presentado alguno de los documentos a que se refiere el apartado primero de este art\u00edculo, y siempre que se acrediten por otros medios, suficientes a juicio del responsable del \u00f3rgano encargado de la expedici\u00f3n, los datos que consten en tales documentos, se le podr\u00e1 expedir un Documento Nacional de Identidad con la validez que se indica en el art\u00edculo siguiente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. En el momento de la solicitud, al interesado se le recoger\u00e1n las impresiones dactilares de los dedos \u00edndices de ambas manos. Si no fuere posible obtener la impresi\u00f3n dactilar de alguno de los dedos o de ambos, por mutilaci\u00f3n o defecto f\u00edsico de los mismos, se sustituir\u00e1, en relaci\u00f3n con la mano que corresponda, por otro dedo seg\u00fan el siguiente orden: medio, anular, auricular o pulgar. En estos casos se indicar\u00e1 el dedo al que se refiere, y si se careciese de todos ellos, se har\u00e1 constar en el lugar del soporte destinado a tal fin el motivo por el que no aparece dicha impresi\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 6. Validez."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Con car\u00e1cter general el Documento Nacional de Identidad tendr\u00e1 un per\u00edodo de validez, a contar desde la fecha de la expedici\u00f3n o de cada una de sus renovaciones, de:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Cinco a\u00f1os, cuando el titular no haya cumplido los treinta al momento de la expedici\u00f3n o renovaci\u00f3n"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Diez a\u00f1os, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Permanente cuando el titular haya cumplido los setenta a\u00f1os."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2. De forma excepcional se podr\u00e1 otorgar validez distinta al Documento Nacional de Identidad en los siguientes supuestos de expedici\u00f3n y renovaci\u00f3n:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Permanente, a personas mayores de treinta a\u00f1os que acrediten la condici\u00f3n de gran inv\u00e1lido."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Por un a\u00f1o, en los supuestos del apartado segundo del art\u00edculo 5 y del mismo apartado del art\u00edculo 7."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "3. No obstante lo dispuesto en este art\u00edculo, en cuanto a la validez de la utilidad inform\u00e1tica prevista en el art\u00edculo 1.4 se estar\u00e1 a lo que espec\u00edficamente se establece al respecto en el art\u00edculo 12 de este Real Decreto."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 7. Renovaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Transcurrido el per\u00edodo de validez que para cada supuesto se contempla en el art\u00edculo anterior, el Documento Nacional de Identidad se considerar\u00e1 caducado y quedar\u00e1n sin efecto las atribuciones y efectos que le reconoce el ordenamiento jur\u00eddico, estando su titular obligado a proceder a la renovaci\u00f3n del mismo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Dicha renovaci\u00f3n se llevar\u00e1 a cabo mediante la presencia f\u00edsica del titular del Documento, que deber\u00e1 abonar la tasa correspondiente y aportar una fotograf\u00eda con las caracter\u00edsticas se\u00f1aladas en el art\u00edculo 5.1.b). Tambi\u00e9n se le recoger\u00e1n las impresiones dactilares que se refieren en el apartado tercero del mismo art\u00edculo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Independientemente de los supuestos del apartado anterior se deber\u00e1 proceder a la renovaci\u00f3n del Documento Nacional de Identidad en los supuestos de variaci\u00f3n de los datos que se recogen en el mismo, en cuyo caso ser\u00e1 preciso aportar, adem\u00e1s de lo establecido en el apartado anterior, los documentos justificativos que acrediten dicha variaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 8. Expedici\u00f3n de duplicados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El extrav\u00edo, sustracci\u00f3n, destrucci\u00f3n o deterioro del Documento Nacional de Identidad, conllevar\u00e1 la obligaci\u00f3n de su titular de proveerse inmediatamente de un duplicado, que ser\u00e1 expedido en la forma y con los requisitos indicados para la renovaci\u00f3n prevista en el apartado primero del art\u00edculo anterior. La validez de estos duplicados ser\u00e1 la misma que ten\u00edan los Documentos a los que sustituyen, salvo que \u00e9stos se hallen dentro de los \u00faltimos 90 d\u00edas de su vigencia, en cuyo caso se expedir\u00e1n con la misma validez que si se tratara de una renovaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los documentos sustituidos perder\u00e1n el car\u00e1cter de Documento Nacional de Identidad, as\u00ed como los efectos que el ordenamiento jur\u00eddico atribuye a \u00e9ste con respecto a su titular."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 9. Entrega del Documento Nacional de Identidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La entrega del Documento Nacional de Identidad deber\u00e1 realizarse personalmente a su titular, y cuando \u00e9ste sea menor de 14 a\u00f1os o incapaz se llevar\u00e1 a cabo en presencia de la persona que tenga encomendada la patria potestad o tutela, o persona apoderada por estas \u00faltimas. En el momento de la entrega del Documento Nacional de Identidad se proporcionar\u00e1 la informaci\u00f3n a que se refiere el art\u00edculo 18. b) de la Ley 59/2003, de 19 de diciembre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La activaci\u00f3n de la utilidad inform\u00e1tica a que se refiere el art\u00edculo 1.4, que tendr\u00e1 car\u00e1cter voluntario, se llevar\u00e1 a cabo mediante una clave personal secreta, que el titular del Documento Nacional de Identidad podr\u00e1 introducir reservadamente en el sistema."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Al entregar el Documento renovado, se proceder\u00e1 a la retirada del anterior para su inutilizaci\u00f3n f\u00edsica. Una vez inutilizado podr\u00e1 ser devuelto a su titular si \u00e9ste lo solicita."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 10. Caracter\u00edsticas de la tarjeta soporte."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El material, formato y dise\u00f1o de la tarjeta soporte del Documento Nacional de Identidad se determinar\u00e1 por el Ministerio del Interior, teniendo en cuenta en su elaboraci\u00f3n la utilizaci\u00f3n de procedimientos y productos conducentes a la consecuci\u00f3n de condiciones de calidad e inalterabilidad y m\u00e1ximas garant\u00edas para impedir su falsificaci\u00f3n. Llevar\u00e1 incorporado un chip electr\u00f3nico al objeto de posibilitar la utilidad inform\u00e1tica a que se refiere el art\u00edculo 1.4 de este Real Decreto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La tarjeta soporte llevar\u00e1 estampados en el anverso, de forma destacada y preeminente los literales \u00abDocumento Nacional de Identidad\u00bb, \u00abEspa\u00f1a\u00bb y \u00abMinisterio del Interior\u00bb."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 11. Contenido."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Documento Nacional de Identidad recoger\u00e1 gr\u00e1ficamente los siguientes datos de su titular:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En el anverso:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Apellidos y nombre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Fecha de nacimiento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Sexo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Nacionalidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "N\u00famero personal del Documento Nacional de Identidad y car\u00e1cter de verificaci\u00f3n correspondiente al N\u00famero de Identificaci\u00f3n Fiscal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Fotograf\u00eda."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Firma."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "En el reverso:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Lugar de nacimiento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Provincia-Naci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Nombre de los padres."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Domicilio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Lugar de domicilio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Provincia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Naci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Caracteres OCR-B de lectura mec\u00e1nica."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Los datos de filiaci\u00f3n se reflejar\u00e1n en los mismos t\u00e9rminos en que consten en la certificaci\u00f3n a la que se alude en el art\u00edculo 5.1.a) de este Real Decreto, excepto en el campo de caracteres OCR-B de lectura mec\u00e1nica, en que por aplicaci\u00f3n de acuerdos o convenios internacionales la transcripci\u00f3n literal de aquellos datos impida o dificulte la lectura mec\u00e1nica y finalidad de aquellos caracteres."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Igualmente constar\u00e1n los siguientes datos referentes al propio Documento y a la tarjeta soporte:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Fecha de caducidad"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "N\u00famero de soporte."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "3. Los textos fijos se expresar\u00e1n en castellano y los expedidos en territorio de aquellas Comunidades Aut\u00f3nomas que tengan otra lengua oficial, ser\u00e1n tambi\u00e9n expresados en esta."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. El chip incorporado a la tarjeta soporte contendr\u00e1:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Datos de filiaci\u00f3n del titular."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Imagen digitalizada de la fotograf\u00eda."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Imagen digitalizada de la firma manuscrita."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Plantilla de la impresi\u00f3n dactilar del dedo \u00edndice de la mano derecha o, en su caso, del que corresponda seg\u00fan lo indicado en el art\u00edculo 5.3 de este Real Decreto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Certificados reconocidos de autenticaci\u00f3n y de firma, y certificado electr\u00f3nico de la autoridad emisora, que contendr\u00e1n sus respectivos per\u00edodos de validez."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Claves privadas necesarias para la activaci\u00f3n de los certificados mencionados anteriormente."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 12. Validez de los certificados electr\u00f3nicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Con independencia de lo que establece el art\u00edculo 6.1 sobre la validez del Documento Nacional de Identidad, los certificados electr\u00f3nicos reconocidos incorporados al mismo tendr\u00e1n un per\u00edodo de vigencia de treinta meses."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "A la extinci\u00f3n de la vigencia del certificado electr\u00f3nico, podr\u00e1 solicitarse la expedici\u00f3n de nuevos certificados reconocidos, manteniendo la misma tarjeta del Documento Nacional de Identidad mientras dicho Documento contin\u00fae vigente. Para la solicitud de un nuevo certificado deber\u00e1 mediar la presencia f\u00edsica del titular en la forma y con los requisitos que se determinen por el Ministerio del Interior, de acuerdo con lo previsto en la Ley 59/2003, de 19 de diciembre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El cumplimiento del per\u00edodo establecido en el apartado anterior implicar\u00e1 la inclusi\u00f3n de los certificados en la lista de certificados revocados que ser\u00e1 mantenida por la Direcci\u00f3n General de la Polic\u00eda, bien directamente o a trav\u00e9s de las entidades a las que encomiende su gesti\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. La p\u00e9rdida de validez del Documento Nacional de Identidad llevar\u00e1 aparejada la p\u00e9rdida de validez de los certificados reconocidos incorporados al mismo. La renovaci\u00f3n del Documento Nacional de Identidad o la expedici\u00f3n de duplicados del mismo implicar\u00e1, a su vez, la expedici\u00f3n de nuevos certificados electr\u00f3nicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Tambi\u00e9n ser\u00e1n causas de extinci\u00f3n de la vigencia del certificado reconocido las establecidas en la Ley 59/2003, de 19 de diciembre, que resulten de aplicaci\u00f3n, y, entre otras, el fallecimiento del titular del Documento Nacional de Identidad electr\u00f3nico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5.  En los supuestos previstos en el art\u00edculo 8.1 de este Real Decreto, el titular deber\u00e1 comunicar inmediatamente tales hechos a la Direcci\u00f3n General de la Polic\u00eda por los procedimientos y medios que al efecto habilite la misma, al objeto de su revocaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 13. Declaraci\u00f3n de Pr\u00e1cticas y Pol\u00edticas de Certificaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "De acuerdo y en cumplimiento del art\u00edculo 19 de la Ley 59/2003, de 19 de diciembre, el Ministerio del Interior formular\u00e1 una Declaraci\u00f3n de Pr\u00e1cticas y Pol\u00edticas de Certificaci\u00f3n. Dicha Declaraci\u00f3n de Pr\u00e1cticas y Pol\u00edticas de Certificaci\u00f3n estar\u00e1 disponible al p\u00fablico de manera permanente y f\u00e1cilmente accesible en la p\u00e1gina de Internet del Ministerio del Interior."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional primera. Documento de sustituci\u00f3n del Documento Nacional de Identidad en supuestos de retirada de \u00e9ste."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En los supuestos en que, de acuerdo con las previsiones establecidas en las Leyes, sea acordada por la Autoridad competente la retirada temporal de Documento Nacional de Identidad por los \u00f3rganos encargados de la expedici\u00f3n de \u00e9ste, se proceder\u00e1 a dotar al interesado de un documento identificador que tendr\u00e1 las caracter\u00edsticas y funcionalidades que determine el Ministerio del Interior, atendiendo a las causas de su retirada."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional segunda. Documento Nacional de Identidad de los menores de edad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La posesi\u00f3n del Documento Nacional de Identidad por los menores de edad no supone, por s\u00ed sola, autorizaci\u00f3n para desplazarse fuera del territorio nacional, debiendo ser suplida, a estos efectos, con la correspondiente autorizaci\u00f3n de quien ejerza la patria potestad o tutela."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional tercera. Imposibilidad de expedici\u00f3n o renovaci\u00f3n del Documento Nacional de Iden-tidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Cuando exista imposibilidad manifiesta para la expedici\u00f3n del Documento Nacional de Identidad, y sin perjuicio de que por las Autoridades y \u00d3rganos correspondientes se compruebe la personalidad del interesado por cualesquiera otros medios, excepcionalmente podr\u00e1 sustituirse aqu\u00e9l por certificaciones anuales en las que consten los motivos de tal imposibilidad, que en los supuestos de renovaci\u00f3n tendr\u00e1n \u00fanicamente el fin de prorrogar la validez del Documento caducado."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional cuarta. Remisi\u00f3n de informaci\u00f3n por v\u00eda telem\u00e1tica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La documentaci\u00f3n requerida para la expedici\u00f3n del Documento Nacional de Identidad en el art\u00edculo 5.1 de este Real Decreto no ser\u00e1 exigible cuando sea posible remitir \u00e9sta desde los \u00f3rganos competentes por medios telem\u00e1ticos a la Direcci\u00f3n General de la Polic\u00eda, de conformidad con lo que se establezca mediante Convenio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. En estos casos, por Orden del Ministro del Interior se establecer\u00e1 el r\u00e9gimen de aportaci\u00f3n de dichos documentos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n transitoria \u00fanica. Validez de los Documentos Nacionales de Identidad expedidos o renovados de conformidad con la normativa anterior a este Real Decreto y proceso de sustituci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los Documentos Nacionales de Identidad ya emitidos o los que se contin\u00faen expidiendo por el sistema anterior conforme a la normativa existente a la entrada en vigor de este Real Decreto seguir\u00e1n siendo v\u00e1lidos y eficaces de conformidad con dicha normativa en tanto no se proceda a su sustituci\u00f3n por el Documento Nacional de Identidad de acuerdo con lo que se establece en el apartado siguiente de esta disposici\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La Direcci\u00f3n General de la Polic\u00eda programar\u00e1 y organizar\u00e1, temporal y territorialmente el proceso de sustituci\u00f3n de las tarjetas soporte del Documento Nacional de Identidad emitidas con anterioridad a la entrada en vigor de este Real Decreto por el nuevo Documento Nacional de Identidad, pudiendo establecerse por razones de inter\u00e9s p\u00fablico programaciones especiales para determinados colectivos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. S\u00f3lo se podr\u00e1 solicitar la expedici\u00f3n del nuevo Documento Nacional de Identidad en el marco de la programaci\u00f3n a que se hace referencia en el apartado anterior."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n derogatoria \u00fanica. Derogaci\u00f3n normativa."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Quedan derogadas las siguientes disposiciones: Decreto 196/1976, de 6 de febrero, por el que se regula el Documento Nacional de Identidad, y las modificaciones llevadas a cabo en el mismo a trav\u00e9s de los Reales Decretos 1189/1978, de 2 de junio; 2002/1979, de 20 de julio; 2091/1982, de 12 de agosto; y 1245/1985, de 17 de julio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Asimismo, quedan derogadas todas aquellas normas de igual o inferior rango que se opongan a lo preceptuado en este Real Decreto."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final primera. T\u00edtulo competencial."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Este Real Decreto se dicta al amparo de las competencias atribuidas al Estado por el art\u00edculo 149.1.8.\u00aa,18.\u00aa, 21.\u00aa y 29.\u00aa de la Constituci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final segunda. Desarrollo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Ministerio del Interior adoptar\u00e1 las disposiciones necesarias para dar cumplimiento a lo previsto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, en materia de creaci\u00f3n y modificaci\u00f3n de ficheros de titularidad p\u00fablica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Se habilita a los Ministros del Interior, de Justicia, de Econom\u00eda y Hacienda, de Industria, Turismo y Comercio y de Administraciones P\u00fablicas para que dicten, en el \u00e1mbito de sus respectivas competencias, cuantas disposiciones sean necesarias para el desarrollo y aplicaci\u00f3n de este Real Decreto."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final tercera. Tasas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Gobierno promover\u00e1 la norma legal de rango adecuado para la adecuaci\u00f3n de la tasa que haya de percibirse por la expedici\u00f3n del Documento Nacional de Identidad, de acuerdo con su coste y en consideraci\u00f3n a los beneficios que proporciona a la comunidad."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final cuarta. Entrada en vigor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente Real Decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, excepto lo relativo al art\u00edculo 1.4 que entrar\u00e1 en vigor cuando lo haga el nuevo formato y dise\u00f1o del Documento Nacional de Identidad."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Dado en Madrid, el 23 de diciembre de 2005."
+        },
+        {
+          "@class": "firma_rey",
+          "#text": "JUAN CARLOS R."
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "El Ministro del Interior,"
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "JOS\u00c9 ANTONIO ALONSO SU\u00c1REZ"
+        }
+      ]
     }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "parrafo",
-        "#text": "La Ley Org\u00e1nica 1/1992, de 21 de febrero, sobre Protecci\u00f3n de la Seguridad Ciudadana, en su art\u00edculo 9, reconoce el derecho de todos los espa\u00f1oles a que se les expida el Documento Nacional de Identidad, al que se atribuye el valor suficiente para acreditar, por s\u00ed solo, la identidad de las personas y le otorga la protecci\u00f3n que a los documentos p\u00fablicos y oficiales es reconocida por el ordenamiento jur\u00eddico."
-      },{
-        "@class": "parrafo",
-        "#text": "La misma norma dispone la obligatoriedad del Documento Nacional de Identidad para los mayores de catorce a\u00f1os, salvo en los supuestos en que, conforme a lo previsto en la Ley, haya de ser sustituido por otro documento, y establece tambi\u00e9n que en el mismo figurar\u00e1n la fotograf\u00eda y la firma del titular, as\u00ed como los datos personales que se determinen reglamentariamente."
-      },{
-        "@class": "parrafo",
-        "#text": "En cuanto a la competencia para su expedici\u00f3n y gesti\u00f3n, la Ley Org\u00e1nica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad, atribuye al Cuerpo Nacional de Polic\u00eda, la de la expedici\u00f3n del Documento Nacional de Identidad, al recogerla expresamente entre las funciones que encomienda a este Instituto Policial, el cual la misma Ley dispone que depender\u00e1 del Ministerio del Interior."
-      },{
-        "@class": "parrafo",
-        "#text": "Por otra parte, la Ley 59/2003, de 19 de diciembre, de firma electr\u00f3nica, ha venido a atribuir al Documento Nacional de Identidad nuevos efectos y utilidades, como son los de poder acreditar electr\u00f3nicamente la identidad y dem\u00e1s datos personales del titular que en \u00e9l consten, as\u00ed como la identidad del firmante y la integridad de los documentos firmados con los dispositivos de firma electr\u00f3nica, cuya incorporaci\u00f3n al mismo se establece."
-      },{
-        "@class": "parrafo",
-        "#text": "La misma Ley, en el apartado primero de la disposici\u00f3n final segunda dispone que el Gobierno adaptar\u00e1 la regulaci\u00f3n reglamentar\u00eda del Documento Nacional de Identidad a las previsiones de la referida Ley."
-      },{
-        "@class": "parrafo",
-        "#text": "Asimismo, ha de se\u00f1alarse que la normativa reglamentaria que regula los distintos aspectos del Documento Nacional de Identidad se encuentra dispersa en distintas disposiciones y data, en parte, de fechas anteriores a la vigencia de la Constituci\u00f3n, lo que genera disfunciones a la hora de su aplicaci\u00f3n, derivadas tanto de la propia antig\u00fcedad de las normas, como de la dispersi\u00f3n de estas."
-      },{
-        "@class": "parrafo",
-        "#text": "En este contexto, y a la vista del mandato legal contenido en la Ley 59/2003, antes citada, resulta imprescindible acometer la adecuaci\u00f3n y ordenaci\u00f3n de la normativa que regula el referido Documento, abordando aquellos aspectos derivados de las nuevas utilidades que se le atribuyen."
-      },{
-        "@class": "parrafo",
-        "#text": "En su virtud, a propuesta del Ministro del Interior, con la aprobaci\u00f3n previa del Ministro de Administraciones P\u00fablicas, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros, en su reuni\u00f3n del d\u00eda 23 de diciembre de 2005,"
-      },{
-        "@class": "subseccion",
-        "#text": "D I S P O N G O :"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 1. Naturaleza y funciones."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Documento Nacional de Identidad es un documento personal e intransferible emitido por el Ministerio del Interior que goza de la protecci\u00f3n que a los documentos p\u00fablicos y oficiales otorgan las leyes. Su titular estar\u00e1 obligado a la custodia y conservaci\u00f3n del mismo."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Dicho Documento tiene suficiente valor, por s\u00ed solo, para acreditar la identidad y los datos personales de su titular que en \u00e9l se consignen, as\u00ed como la nacionalidad espa\u00f1ola del mismo."
-      },{
-        "@class": "parrafo",
-        "#text": "3. A cada Documento Nacional de Identidad, se le asignar\u00e1 un n\u00famero personal que tendr\u00e1 la consideraci\u00f3n de identificador num\u00e9rico personal de car\u00e1cter general."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Igualmente, el Documento Nacional de Identidad permite a los espa\u00f1oles mayores de edad y que gocen de plena capacidad de obrar la identificaci\u00f3n electr\u00f3nica de su titular, as\u00ed como realizar la firma electr\u00f3nica de documentos, en los t\u00e9rminos previstos en la Ley 59/2003, de 19 de diciembre, de firma electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "5. La firma electr\u00f3nica realizada a trav\u00e9s del Documento Nacional de Identidad tendr\u00e1 respecto de los datos consignados en forma electr\u00f3nica el mismo valor que la firma manuscrita en relaci\u00f3n con los consignados en papel."
-      },{
-        "@class": "parrafo",
-        "#text": "6. Ning\u00fan espa\u00f1ol podr\u00e1 ser privado del Documento Nacional de Identidad, ni siquiera temporalmente, salvo en los casos y forma establecidos por las Leyes en los que haya de ser sustituido por otro documento."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 2. Derecho y obligaci\u00f3n de obtenerlo."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Todos los espa\u00f1oles tendr\u00e1n derecho a que se les expida el Documento Nacional de Identidad, siendo obligatoria su obtenci\u00f3n por los mayores de catorce a\u00f1os residentes en Espa\u00f1a y para los de igual edad que, residiendo en el extranjero, se trasladen a Espa\u00f1a por tiempo no inferior a seis meses."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Todas las personas obligadas a obtener el Documento Nacional de Identidad lo est\u00e1n tambi\u00e9n a exhibirlo cuando fueren requeridas para ello por la Autoridad o sus Agentes."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 3. \u00d3rgano competente para la expedici\u00f3n y gesti\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Ser\u00e1 competencia del Ministerio del Interior el ejercicio de las funciones relativas a la gesti\u00f3n, direcci\u00f3n, organizaci\u00f3n, desarrollo y administraci\u00f3n de todos aquellos aspectos referentes a la expedici\u00f3n y confecci\u00f3n del Documento Nacional de Identidad, conforme a lo previsto en la legislaci\u00f3n en materia de seguridad ciudadana y de firma electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El ejercicio de las competencias a que se refiere el apartado anterior, incluida la emisi\u00f3n de los certificados de firma electr\u00f3nica reconocidos, ser\u00e1 realizado por la Direcci\u00f3n General de la Polic\u00eda, a quien corresponder\u00e1 tambi\u00e9n la custodia y responsabilidad de los archivos y ficheros, automatizados o no, relacionados con el Documento Nacional de Identidad. A tal efecto, la Direcci\u00f3n General de la Polic\u00eda quedar\u00e1 sometida a las obligaciones impuestas al responsable del fichero por la Ley Org\u00e1nica 15/1999, de 13 de septiembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 4. Procedimiento de expedici\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Documento Nacional de Identidad se expedir\u00e1 a solicitud del interesado en la forma y lugares que al efecto se determinen, para lo cual deber\u00e1 aportar los documentos que se establecen en el art\u00edculo 5.1 de este Real Decreto."
-      },{
-        "@class": "parrafo",
-        "#text": "2. En orden a facilitar a los ciudadanos la obtenci\u00f3n del Documento Nacional de Identidad, el Ministerio del Interior en colaboraci\u00f3n con el Ministerio de Administraciones P\u00fablicas adoptar\u00e1 las medidas oportunas para el fomento de la cooperaci\u00f3n de los distintos \u00f3rganos de las Administraciones P\u00fablicas con la Direcci\u00f3n General de la Polic\u00eda."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 5. Requisitos para la expedici\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Para solicitar la expedici\u00f3n del Documento Nacional de Identidad ser\u00e1 imprescindible la presencia f\u00edsica de la persona a quien se haya de expedir, el abono de la tasa legalmente establecida en cada momento y la presentaci\u00f3n de los siguientes documentos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Certificaci\u00f3n literal de nacimiento expedida por el Registro Civil correspondiente. A estos efectos \u00fanicamente ser\u00e1n admitidas las certificaciones expedidas con una antelaci\u00f3n m\u00e1xima de tres meses a la fecha de presentaci\u00f3n de la solicitud de expedici\u00f3n del Documento Nacional de Identidad."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Una fotograf\u00eda reciente en color del rostro del solicitante, tama\u00f1o 32 por 26 mil\u00edmetros, con fondo uniforme claro liso, tomada de frente con la cabeza totalmente descubierta y sin gafas de cristales oscuros o cualquier otra prenda que pueda impedir o dificultar la identificaci\u00f3n de la persona."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Certificado de empadronamiento del Ayuntamiento donde el solicitante tenga su domicilio, expedido con una antelaci\u00f3n m\u00e1xima de tres meses a la fecha de la solicitud del Documento Nacional de Identidad."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Los espa\u00f1oles residentes en el extranjero acreditar\u00e1n el domicilio mediante certificaci\u00f3n de la Representaci\u00f3n Diplom\u00e1tica o Consular donde est\u00e9n inscritos como residentes."
-      },{
-        "@class": "parrafo_2",
-        "#text": "2. Excepcionalmente, en los supuestos en que, por circunstancias ajenas al solicitante, no pudiera ser presentado alguno de los documentos a que se refiere el apartado primero de este art\u00edculo, y siempre que se acrediten por otros medios, suficientes a juicio del responsable del \u00f3rgano encargado de la expedici\u00f3n, los datos que consten en tales documentos, se le podr\u00e1 expedir un Documento Nacional de Identidad con la validez que se indica en el art\u00edculo siguiente."
-      },{
-        "@class": "parrafo",
-        "#text": "3. En el momento de la solicitud, al interesado se le recoger\u00e1n las impresiones dactilares de los dedos \u00edndices de ambas manos. Si no fuere posible obtener la impresi\u00f3n dactilar de alguno de los dedos o de ambos, por mutilaci\u00f3n o defecto f\u00edsico de los mismos, se sustituir\u00e1, en relaci\u00f3n con la mano que corresponda, por otro dedo seg\u00fan el siguiente orden: medio, anular, auricular o pulgar. En estos casos se indicar\u00e1 el dedo al que se refiere, y si se careciese de todos ellos, se har\u00e1 constar en el lugar del soporte destinado a tal fin el motivo por el que no aparece dicha impresi\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 6. Validez."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Con car\u00e1cter general el Documento Nacional de Identidad tendr\u00e1 un per\u00edodo de validez, a contar desde la fecha de la expedici\u00f3n o de cada una de sus renovaciones, de:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Cinco a\u00f1os, cuando el titular no haya cumplido los treinta al momento de la expedici\u00f3n o renovaci\u00f3n"
-      },{
-        "@class": "parrafo",
-        "#text": "b) Diez a\u00f1os, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Permanente cuando el titular haya cumplido los setenta a\u00f1os."
-      },{
-        "@class": "parrafo_2",
-        "#text": "2. De forma excepcional se podr\u00e1 otorgar validez distinta al Documento Nacional de Identidad en los siguientes supuestos de expedici\u00f3n y renovaci\u00f3n:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Permanente, a personas mayores de treinta a\u00f1os que acrediten la condici\u00f3n de gran inv\u00e1lido."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Por un a\u00f1o, en los supuestos del apartado segundo del art\u00edculo 5 y del mismo apartado del art\u00edculo 7."
-      },{
-        "@class": "parrafo_2",
-        "#text": "3. No obstante lo dispuesto en este art\u00edculo, en cuanto a la validez de la utilidad inform\u00e1tica prevista en el art\u00edculo 1.4 se estar\u00e1 a lo que espec\u00edficamente se establece al respecto en el art\u00edculo 12 de este Real Decreto."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 7. Renovaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Transcurrido el per\u00edodo de validez que para cada supuesto se contempla en el art\u00edculo anterior, el Documento Nacional de Identidad se considerar\u00e1 caducado y quedar\u00e1n sin efecto las atribuciones y efectos que le reconoce el ordenamiento jur\u00eddico, estando su titular obligado a proceder a la renovaci\u00f3n del mismo."
-      },{
-        "@class": "parrafo",
-        "#text": "Dicha renovaci\u00f3n se llevar\u00e1 a cabo mediante la presencia f\u00edsica del titular del Documento, que deber\u00e1 abonar la tasa correspondiente y aportar una fotograf\u00eda con las caracter\u00edsticas se\u00f1aladas en el art\u00edculo 5.1.b). Tambi\u00e9n se le recoger\u00e1n las impresiones dactilares que se refieren en el apartado tercero del mismo art\u00edculo."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Independientemente de los supuestos del apartado anterior se deber\u00e1 proceder a la renovaci\u00f3n del Documento Nacional de Identidad en los supuestos de variaci\u00f3n de los datos que se recogen en el mismo, en cuyo caso ser\u00e1 preciso aportar, adem\u00e1s de lo establecido en el apartado anterior, los documentos justificativos que acrediten dicha variaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 8. Expedici\u00f3n de duplicados."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El extrav\u00edo, sustracci\u00f3n, destrucci\u00f3n o deterioro del Documento Nacional de Identidad, conllevar\u00e1 la obligaci\u00f3n de su titular de proveerse inmediatamente de un duplicado, que ser\u00e1 expedido en la forma y con los requisitos indicados para la renovaci\u00f3n prevista en el apartado primero del art\u00edculo anterior. La validez de estos duplicados ser\u00e1 la misma que ten\u00edan los Documentos a los que sustituyen, salvo que \u00e9stos se hallen dentro de los \u00faltimos 90 d\u00edas de su vigencia, en cuyo caso se expedir\u00e1n con la misma validez que si se tratara de una renovaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los documentos sustituidos perder\u00e1n el car\u00e1cter de Documento Nacional de Identidad, as\u00ed como los efectos que el ordenamiento jur\u00eddico atribuye a \u00e9ste con respecto a su titular."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 9. Entrega del Documento Nacional de Identidad."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La entrega del Documento Nacional de Identidad deber\u00e1 realizarse personalmente a su titular, y cuando \u00e9ste sea menor de 14 a\u00f1os o incapaz se llevar\u00e1 a cabo en presencia de la persona que tenga encomendada la patria potestad o tutela, o persona apoderada por estas \u00faltimas. En el momento de la entrega del Documento Nacional de Identidad se proporcionar\u00e1 la informaci\u00f3n a que se refiere el art\u00edculo 18. b) de la Ley 59/2003, de 19 de diciembre."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La activaci\u00f3n de la utilidad inform\u00e1tica a que se refiere el art\u00edculo 1.4, que tendr\u00e1 car\u00e1cter voluntario, se llevar\u00e1 a cabo mediante una clave personal secreta, que el titular del Documento Nacional de Identidad podr\u00e1 introducir reservadamente en el sistema."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Al entregar el Documento renovado, se proceder\u00e1 a la retirada del anterior para su inutilizaci\u00f3n f\u00edsica. Una vez inutilizado podr\u00e1 ser devuelto a su titular si \u00e9ste lo solicita."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 10. Caracter\u00edsticas de la tarjeta soporte."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El material, formato y dise\u00f1o de la tarjeta soporte del Documento Nacional de Identidad se determinar\u00e1 por el Ministerio del Interior, teniendo en cuenta en su elaboraci\u00f3n la utilizaci\u00f3n de procedimientos y productos conducentes a la consecuci\u00f3n de condiciones de calidad e inalterabilidad y m\u00e1ximas garant\u00edas para impedir su falsificaci\u00f3n. Llevar\u00e1 incorporado un chip electr\u00f3nico al objeto de posibilitar la utilidad inform\u00e1tica a que se refiere el art\u00edculo 1.4 de este Real Decreto."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La tarjeta soporte llevar\u00e1 estampados en el anverso, de forma destacada y preeminente los literales \u00abDocumento Nacional de Identidad\u00bb, \u00abEspa\u00f1a\u00bb y \u00abMinisterio del Interior\u00bb."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 11. Contenido."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Documento Nacional de Identidad recoger\u00e1 gr\u00e1ficamente los siguientes datos de su titular:"
-      },{
-        "@class": "parrafo",
-        "#text": "En el anverso:"
-      },{
-        "@class": "parrafo",
-        "#text": "Apellidos y nombre."
-      },{
-        "@class": "parrafo",
-        "#text": "Fecha de nacimiento."
-      },{
-        "@class": "parrafo",
-        "#text": "Sexo."
-      },{
-        "@class": "parrafo",
-        "#text": "Nacionalidad."
-      },{
-        "@class": "parrafo",
-        "#text": "N\u00famero personal del Documento Nacional de Identidad y car\u00e1cter de verificaci\u00f3n correspondiente al N\u00famero de Identificaci\u00f3n Fiscal."
-      },{
-        "@class": "parrafo",
-        "#text": "Fotograf\u00eda."
-      },{
-        "@class": "parrafo",
-        "#text": "Firma."
-      },{
-        "@class": "parrafo_2",
-        "#text": "En el reverso:"
-      },{
-        "@class": "parrafo",
-        "#text": "Lugar de nacimiento."
-      },{
-        "@class": "parrafo",
-        "#text": "Provincia-Naci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Nombre de los padres."
-      },{
-        "@class": "parrafo",
-        "#text": "Domicilio."
-      },{
-        "@class": "parrafo",
-        "#text": "Lugar de domicilio."
-      },{
-        "@class": "parrafo",
-        "#text": "Provincia."
-      },{
-        "@class": "parrafo",
-        "#text": "Naci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Caracteres OCR-B de lectura mec\u00e1nica."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Los datos de filiaci\u00f3n se reflejar\u00e1n en los mismos t\u00e9rminos en que consten en la certificaci\u00f3n a la que se alude en el art\u00edculo 5.1.a) de este Real Decreto, excepto en el campo de caracteres OCR-B de lectura mec\u00e1nica, en que por aplicaci\u00f3n de acuerdos o convenios internacionales la transcripci\u00f3n literal de aquellos datos impida o dificulte la lectura mec\u00e1nica y finalidad de aquellos caracteres."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Igualmente constar\u00e1n los siguientes datos referentes al propio Documento y a la tarjeta soporte:"
-      },{
-        "@class": "parrafo",
-        "#text": "Fecha de caducidad"
-      },{
-        "@class": "parrafo",
-        "#text": "N\u00famero de soporte."
-      },{
-        "@class": "parrafo_2",
-        "#text": "3. Los textos fijos se expresar\u00e1n en castellano y los expedidos en territorio de aquellas Comunidades Aut\u00f3nomas que tengan otra lengua oficial, ser\u00e1n tambi\u00e9n expresados en esta."
-      },{
-        "@class": "parrafo",
-        "#text": "4. El chip incorporado a la tarjeta soporte contendr\u00e1:"
-      },{
-        "@class": "parrafo",
-        "#text": "Datos de filiaci\u00f3n del titular."
-      },{
-        "@class": "parrafo",
-        "#text": "Imagen digitalizada de la fotograf\u00eda."
-      },{
-        "@class": "parrafo",
-        "#text": "Imagen digitalizada de la firma manuscrita."
-      },{
-        "@class": "parrafo",
-        "#text": "Plantilla de la impresi\u00f3n dactilar del dedo \u00edndice de la mano derecha o, en su caso, del que corresponda seg\u00fan lo indicado en el art\u00edculo 5.3 de este Real Decreto."
-      },{
-        "@class": "parrafo",
-        "#text": "Certificados reconocidos de autenticaci\u00f3n y de firma, y certificado electr\u00f3nico de la autoridad emisora, que contendr\u00e1n sus respectivos per\u00edodos de validez."
-      },{
-        "@class": "parrafo",
-        "#text": "Claves privadas necesarias para la activaci\u00f3n de los certificados mencionados anteriormente."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 12. Validez de los certificados electr\u00f3nicos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Con independencia de lo que establece el art\u00edculo 6.1 sobre la validez del Documento Nacional de Identidad, los certificados electr\u00f3nicos reconocidos incorporados al mismo tendr\u00e1n un per\u00edodo de vigencia de treinta meses."
-      },{
-        "@class": "parrafo",
-        "#text": "A la extinci\u00f3n de la vigencia del certificado electr\u00f3nico, podr\u00e1 solicitarse la expedici\u00f3n de nuevos certificados reconocidos, manteniendo la misma tarjeta del Documento Nacional de Identidad mientras dicho Documento contin\u00fae vigente. Para la solicitud de un nuevo certificado deber\u00e1 mediar la presencia f\u00edsica del titular en la forma y con los requisitos que se determinen por el Ministerio del Interior, de acuerdo con lo previsto en la Ley 59/2003, de 19 de diciembre."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El cumplimiento del per\u00edodo establecido en el apartado anterior implicar\u00e1 la inclusi\u00f3n de los certificados en la lista de certificados revocados que ser\u00e1 mantenida por la Direcci\u00f3n General de la Polic\u00eda, bien directamente o a trav\u00e9s de las entidades a las que encomiende su gesti\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "3. La p\u00e9rdida de validez del Documento Nacional de Identidad llevar\u00e1 aparejada la p\u00e9rdida de validez de los certificados reconocidos incorporados al mismo. La renovaci\u00f3n del Documento Nacional de Identidad o la expedici\u00f3n de duplicados del mismo implicar\u00e1, a su vez, la expedici\u00f3n de nuevos certificados electr\u00f3nicos."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Tambi\u00e9n ser\u00e1n causas de extinci\u00f3n de la vigencia del certificado reconocido las establecidas en la Ley 59/2003, de 19 de diciembre, que resulten de aplicaci\u00f3n, y, entre otras, el fallecimiento del titular del Documento Nacional de Identidad electr\u00f3nico."
-      },{
-        "@class": "parrafo",
-        "#text": "5.  En los supuestos previstos en el art\u00edculo 8.1 de este Real Decreto, el titular deber\u00e1 comunicar inmediatamente tales hechos a la Direcci\u00f3n General de la Polic\u00eda por los procedimientos y medios que al efecto habilite la misma, al objeto de su revocaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 13. Declaraci\u00f3n de Pr\u00e1cticas y Pol\u00edticas de Certificaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "De acuerdo y en cumplimiento del art\u00edculo 19 de la Ley 59/2003, de 19 de diciembre, el Ministerio del Interior formular\u00e1 una Declaraci\u00f3n de Pr\u00e1cticas y Pol\u00edticas de Certificaci\u00f3n. Dicha Declaraci\u00f3n de Pr\u00e1cticas y Pol\u00edticas de Certificaci\u00f3n estar\u00e1 disponible al p\u00fablico de manera permanente y f\u00e1cilmente accesible en la p\u00e1gina de Internet del Ministerio del Interior."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional primera. Documento de sustituci\u00f3n del Documento Nacional de Identidad en supuestos de retirada de \u00e9ste."
-      },{
-        "@class": "parrafo",
-        "#text": "En los supuestos en que, de acuerdo con las previsiones establecidas en las Leyes, sea acordada por la Autoridad competente la retirada temporal de Documento Nacional de Identidad por los \u00f3rganos encargados de la expedici\u00f3n de \u00e9ste, se proceder\u00e1 a dotar al interesado de un documento identificador que tendr\u00e1 las caracter\u00edsticas y funcionalidades que determine el Ministerio del Interior, atendiendo a las causas de su retirada."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional segunda. Documento Nacional de Identidad de los menores de edad."
-      },{
-        "@class": "parrafo",
-        "#text": "La posesi\u00f3n del Documento Nacional de Identidad por los menores de edad no supone, por s\u00ed sola, autorizaci\u00f3n para desplazarse fuera del territorio nacional, debiendo ser suplida, a estos efectos, con la correspondiente autorizaci\u00f3n de quien ejerza la patria potestad o tutela."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional tercera. Imposibilidad de expedici\u00f3n o renovaci\u00f3n del Documento Nacional de Iden-tidad."
-      },{
-        "@class": "parrafo",
-        "#text": "Cuando exista imposibilidad manifiesta para la expedici\u00f3n del Documento Nacional de Identidad, y sin perjuicio de que por las Autoridades y \u00d3rganos correspondientes se compruebe la personalidad del interesado por cualesquiera otros medios, excepcionalmente podr\u00e1 sustituirse aqu\u00e9l por certificaciones anuales en las que consten los motivos de tal imposibilidad, que en los supuestos de renovaci\u00f3n tendr\u00e1n \u00fanicamente el fin de prorrogar la validez del Documento caducado."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional cuarta. Remisi\u00f3n de informaci\u00f3n por v\u00eda telem\u00e1tica."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La documentaci\u00f3n requerida para la expedici\u00f3n del Documento Nacional de Identidad en el art\u00edculo 5.1 de este Real Decreto no ser\u00e1 exigible cuando sea posible remitir \u00e9sta desde los \u00f3rganos competentes por medios telem\u00e1ticos a la Direcci\u00f3n General de la Polic\u00eda, de conformidad con lo que se establezca mediante Convenio."
-      },{
-        "@class": "parrafo",
-        "#text": "2. En estos casos, por Orden del Ministro del Interior se establecer\u00e1 el r\u00e9gimen de aportaci\u00f3n de dichos documentos."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n transitoria \u00fanica. Validez de los Documentos Nacionales de Identidad expedidos o renovados de conformidad con la normativa anterior a este Real Decreto y proceso de sustituci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los Documentos Nacionales de Identidad ya emitidos o los que se contin\u00faen expidiendo por el sistema anterior conforme a la normativa existente a la entrada en vigor de este Real Decreto seguir\u00e1n siendo v\u00e1lidos y eficaces de conformidad con dicha normativa en tanto no se proceda a su sustituci\u00f3n por el Documento Nacional de Identidad de acuerdo con lo que se establece en el apartado siguiente de esta disposici\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La Direcci\u00f3n General de la Polic\u00eda programar\u00e1 y organizar\u00e1, temporal y territorialmente el proceso de sustituci\u00f3n de las tarjetas soporte del Documento Nacional de Identidad emitidas con anterioridad a la entrada en vigor de este Real Decreto por el nuevo Documento Nacional de Identidad, pudiendo establecerse por razones de inter\u00e9s p\u00fablico programaciones especiales para determinados colectivos."
-      },{
-        "@class": "parrafo",
-        "#text": "3. S\u00f3lo se podr\u00e1 solicitar la expedici\u00f3n del nuevo Documento Nacional de Identidad en el marco de la programaci\u00f3n a que se hace referencia en el apartado anterior."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n derogatoria \u00fanica. Derogaci\u00f3n normativa."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Quedan derogadas las siguientes disposiciones: Decreto 196/1976, de 6 de febrero, por el que se regula el Documento Nacional de Identidad, y las modificaciones llevadas a cabo en el mismo a trav\u00e9s de los Reales Decretos 1189/1978, de 2 de junio; 2002/1979, de 20 de julio; 2091/1982, de 12 de agosto; y 1245/1985, de 17 de julio."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Asimismo, quedan derogadas todas aquellas normas de igual o inferior rango que se opongan a lo preceptuado en este Real Decreto."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final primera. T\u00edtulo competencial."
-      },{
-        "@class": "parrafo",
-        "#text": "Este Real Decreto se dicta al amparo de las competencias atribuidas al Estado por el art\u00edculo 149.1.8.\u00aa,18.\u00aa, 21.\u00aa y 29.\u00aa de la Constituci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final segunda. Desarrollo."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Ministerio del Interior adoptar\u00e1 las disposiciones necesarias para dar cumplimiento a lo previsto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, en materia de creaci\u00f3n y modificaci\u00f3n de ficheros de titularidad p\u00fablica."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Se habilita a los Ministros del Interior, de Justicia, de Econom\u00eda y Hacienda, de Industria, Turismo y Comercio y de Administraciones P\u00fablicas para que dicten, en el \u00e1mbito de sus respectivas competencias, cuantas disposiciones sean necesarias para el desarrollo y aplicaci\u00f3n de este Real Decreto."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final tercera. Tasas."
-      },{
-        "@class": "parrafo",
-        "#text": "El Gobierno promover\u00e1 la norma legal de rango adecuado para la adecuaci\u00f3n de la tasa que haya de percibirse por la expedici\u00f3n del Documento Nacional de Identidad, de acuerdo con su coste y en consideraci\u00f3n a los beneficios que proporciona a la comunidad."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final cuarta. Entrada en vigor."
-      },{
-        "@class": "parrafo",
-        "#text": "El presente Real Decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, excepto lo relativo al art\u00edculo 1.4 que entrar\u00e1 en vigor cuando lo haga el nuevo formato y dise\u00f1o del Documento Nacional de Identidad."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Dado en Madrid, el 23 de diciembre de 2005."
-      },{
-        "@class": "firma_rey",
-        "#text": "JUAN CARLOS R."
-      },{
-        "@class": "firma_ministro",
-        "#text": "El Ministro del Interior,"
-      },{
-        "@class": "firma_ministro",
-        "#text": "JOS\u00c9 ANTONIO ALONSO SU\u00c1REZ"
-      }
-    ]
   }
-}
 }

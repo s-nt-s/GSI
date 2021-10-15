@@ -1,509 +1,581 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190612132601",
-  "metadatos": {
-    "identificador": "BOE-A-2018-5370",
-    "titulo": "Resoluci\u00f3n de 13 de abril de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190612132601",
+    "metadatos": {
+      "identificador": "BOE-A-2018-5370",
+      "titulo": "Resoluci\u00f3n de 13 de abril de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "95",
+      "seccion": "3",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "9279",
+        "#text": "Ministerio de Hacienda y Funci\u00f3n P\u00fablica"
+      },
+      "rango": {
+        "@codigo": "1370",
+        "#text": "Resoluci\u00f3n"
+      },
+      "numero_oficial": null,
+      "fecha_disposicion": "20180413",
+      "fecha_publicacion": "20180419",
+      "fecha_vigencia": "20180420",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "40556",
+      "pagina_final": "40560",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2018/04/19/pdfs/BOE-A-2018-5370.pdf",
+      "url_pdf_catalan": null,
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": null,
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/res/2018/04/13/(2)"
     },
-    "diario_numero": "95",
-    "seccion": "3",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "9279",
-      "#text": "Ministerio de Hacienda y Funci\u00f3n P\u00fablica"
-    },
-    "rango": {
-      "@codigo": "1370",
-      "#text": "Resoluci\u00f3n"
-    },
-    "numero_oficial": null,
-    "fecha_disposicion": "20180413",
-    "fecha_publicacion": "20180419",
-    "fecha_vigencia": "20180420",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "40556",
-    "pagina_final": "40560",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2018/04/19/pdfs/BOE-A-2018-5370.pdf",
-    "url_pdf_catalan": null,
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": null,
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/res/2018/04/13/(2)"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2018-5370"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2018-04-13"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "(2)"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2018-5370"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2018-04-13"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(2)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)"
-              },
-              "eli:consolidated_by": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 13 de abril de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2018-04-19"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2018-5370"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2018-04-13"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "(2)"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2018-5370"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2018-04-13"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(2)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)"
+                },
+                "eli:consolidated_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 13 de abril de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2018-04-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2018-5370"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2018-04-13"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(2)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2018-04-19"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 13 de abril de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2018-04-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419/spa"
                         }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa"
-                        }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa/xml",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof/spa"
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2018-5370"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2018-04-13"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(2)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2018-04-19"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 13 de abril de 2018, de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2018-04-19"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/res/2018/04/13/(2)/con/20180419/spa"
                       }
                     }
                   }
                 }
               }
             }
-          }
-        ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": {
-      "nota": {
-        "@codigo": "37",
-        "@orden": "220",
-        "#text": "Aplicable desde el 20 de abril de 2018."
+          ]
+        }
       }
     },
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "1508",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "93",
-          "@orden": "",
-          "#text": "Administraciones P\u00fablicas"
-        },{
-          "@codigo": "3685",
-          "@orden": "",
-          "#text": "Ficheros con datos personales"
-        },{
-          "@codigo": "4165",
-          "@orden": "",
-          "#text": "Informaci\u00f3n"
-        },{
-          "@codigo": "4170",
-          "@orden": "",
-          "#text": "Inform\u00e1tica"
-        },{
-          "@codigo": "4506",
-          "@orden": "",
-          "#text": "Internet"
-        },{
-          "@codigo": "5163",
-          "@orden": "",
-          "#text": "Normas de calidad"
-        },{
-          "@codigo": "7872",
-          "@orden": "",
-          "#text": "Notificaciones telem\u00e1ticas"
-        },{
-          "@codigo": "5766",
-          "@orden": "",
-          "#text": "Programas inform\u00e1ticos"
-        },{
-          "@codigo": "5923",
-          "@orden": "",
-          "#text": "Redes de telecomunicaci\u00f3n"
-        },{
-          "@codigo": "6242",
-          "@orden": "",
-          "#text": "Riesgos"
-        },{
-          "@codigo": "4577",
-          "@orden": "",
-          "#text": "Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica"
-        },{
-          "@codigo": "4189",
-          "@orden": "",
-          "#text": "Seguridad inform\u00e1tica"
-        }
-      ]
-    },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "143",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "109",
-          "@orden": "",
-          "#text": "Derecho Administrativo"
-        },{
-          "@codigo": "121",
-          "@orden": "",
-          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": {
-          "@referencia": "BOE-A-2010-1330",
-          "@orden": "3060",
-          "palabra": {
-            "@codigo": "440",
-            "#text": "DE CONFORMIDAD con"
-          },
-          "texto": "el art. 29.2 del Real Decreto 3/2010, de 8 de enero"
+    "analisis": {
+      "notas": {
+        "nota": {
+          "@codigo": "37",
+          "@orden": "220",
+          "#text": "Aplicable desde el 20 de abril de 2018."
         }
       },
-      "posteriores": null
-    }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "parrafo",
-        "#text": "El Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica, ENS en adelante), al que se refiere el apartado segundo del art\u00edculo 156 de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, establece la pol\u00edtica de seguridad en la utilizaci\u00f3n de medios electr\u00f3nicos y est\u00e1 constituido por principios b\u00e1sicos y requisitos m\u00ednimos que permitan una protecci\u00f3n adecuada de la informaci\u00f3n. Dicho Real Decreto prev\u00e9, en su art\u00edculo 29, apartado 2, que el Ministerio de Hacienda y Funci\u00f3n P\u00fablica, a propuesta de la Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica y a iniciativa del Centro Criptol\u00f3gico Nacional, aprobar\u00e1 las instrucciones t\u00e9cnicas de seguridad de obligado cumplimiento, que se publicar\u00e1n mediante resoluci\u00f3n de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, constituyendo elementos esenciales para lograr una adecuada, homog\u00e9nea y coherente implantaci\u00f3n de los requisitos y medidas recogidos en el ENS."
-      },{
-        "@class": "parrafo",
-        "#text": "As\u00ed pues, tales instrucciones t\u00e9cnicas de seguridad, enumeradas en la Disposici\u00f3n Adicional cuarta del citado Real Decreto 3/2010, entran a regular aspectos concretos que la realidad cotidiana ha mostrado especialmente significativos, tales como: Informe del Estado de la Seguridad; Notificaci\u00f3n de Incidentes de Seguridad; Auditor\u00eda de la Seguridad; Conformidad con el Esquema Nacional de Seguridad; Adquisici\u00f3n de Productos de Seguridad; Criptolog\u00eda de empleo en el Esquema Nacional de Seguridad; Interconexi\u00f3n en el Esquema Nacional de Seguridad y Requisitos de Seguridad en entornos externalizados, sin perjuicio de las propuestas que pueda acordar la Comisi\u00f3n Sectorial de administraci\u00f3n electr\u00f3nica, seg\u00fan lo establecido en el citado art\u00edculo 29, en relaci\u00f3n con lo dispuesto en la Disposici\u00f3n derogatoria \u00fanica de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas y Disposici\u00f3n adicional novena de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
-      },{
-        "@class": "parrafo",
-        "#text": "Estas instrucciones t\u00e9cnicas de seguridad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n electr\u00f3nica, las infraestructuras que los apoyan, la evoluci\u00f3n tecnol\u00f3gica y los riesgos derivados de operar en el ciberespacio."
-      },{
-        "@class": "parrafo",
-        "#text": "En particular, la instrucci\u00f3n t\u00e9cnica de seguridad de Notificaci\u00f3n de Incidentes de Seguridad establece los criterios y procedimientos para la notificaci\u00f3n por parte de las entidades que forman parte de los \u00e1mbitos subjetivos de aplicaci\u00f3n de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas, y la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico al Centro Criptol\u00f3gico Nacional (CCN) de aquellos incidentes que tengan un impacto significativo en la seguridad de la informaci\u00f3n que manejan y los servicios que prestan en relaci\u00f3n con la categor\u00eda del sistema, al objeto de poder dar adecuada respuesta al mandato del Cap\u00edtulo VII, Respuesta a incidentes de seguridad, del Real Decreto 3/2010, de 8 de enero."
-      },{
-        "@class": "parrafo",
-        "#text": "Por otra parte, de acuerdo con el Real Decreto 769/2017, de 28 de julio, por el que se desarrolla la estructura org\u00e1nica b\u00e1sica del Ministerio de Hacienda y Funci\u00f3n P\u00fablica y se modifica el Real Decreto 424/2016, de 11 de noviembre, por el que se establece la estructura org\u00e1nica b\u00e1sica de los departamentos ministeriales corresponde a la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica el impulso, la programaci\u00f3n y la supervisi\u00f3n de las actuaciones en ejecuci\u00f3n de la pol\u00edtica de Gobierno en materia de Administraci\u00f3n Digital y del fomento de la administraci\u00f3n electr\u00f3nica, en especial lo referente al proceso de racionalizaci\u00f3n de las tecnolog\u00edas de la informaci\u00f3n y de las comunicaciones, y la adopci\u00f3n de soluciones digitales que permitan la prestaci\u00f3n eficiente de los servicios p\u00fablicos incluyendo los servicios p\u00fablicos esenciales. Adem\u00e1s, dado que la resoluci\u00f3n impone obligaciones no solo en el \u00e1mbito competencial de esta Secretaria de Estado sino tambi\u00e9n al Centro Criptol\u00f3gico Nacional (CCN) integrado en el CNI, organismo adscrito al Ministerio de la Presidencia y para las Administraciones Territoriales procede recabar el parecer del citado Departamento."
-      },{
-        "@class": "parrafo",
-        "#text": "Esta Resoluci\u00f3n se aprueba en aplicaci\u00f3n de lo dispuesto en el art\u00edculo 29, apartado 2 del Real Decreto 3/2010, de 8 de enero, a propuesta de la Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica y habi\u00e9ndose solicitado informe al Ministerio de la Presidencia y para las Administraciones Territoriales."
-      },{
-        "@class": "parrafo",
-        "#text": "En virtud de lo anterior, esta Secretar\u00eda de Estado resuelve:"
-      },{
-        "@class": "articulo",
-        "#text": "Primero."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Aprobar la Instrucci\u00f3n T\u00e9cnica de Seguridad \u00abNotificaci\u00f3n de incidentes de seguridad\u00bb, cuyo texto se incluye a continuaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Segundo."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Ordenar su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
-      },{
-        "@class": "parrafo",
-        "#text": "La Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de incidentes de seguridad de los sistemas de informaci\u00f3n que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Madrid, 13 de abril de 2018.\u2013La Secretaria de Estado de Funci\u00f3n P\u00fablica, Elena Collado Mart\u00ednez."
-      },{
-        "@class": "anexo",
-        "#text": "INSTRUCCI\u00d3N T\u00c9CNICA DE SEGURIDAD DE NOTIFICACI\u00d3N DE INCIDENTES DE SEGURIDAD"
-      },{
-        "@class": "centro_redonda",
-        "#text": "\u00cdNDICE"
-      },{
-        "@class": "parrafo_2",
-        "#text": "I.\u2003Objeto."
-      },{
-        "@class": "parrafo",
-        "#text": "II.\u2003\u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "III.\u2003Criterios de determinaci\u00f3n del nivel de impacto."
-      },{
-        "@class": "parrafo",
-        "#text": "IV.\u2003Notificaci\u00f3n obligatoria de los incidentes con nivel de impacto Alto, Muy alto y Cr\u00edtico."
-      },{
-        "@class": "parrafo",
-        "#text": "V.\u2003Evidencias a entregar en el caso de incidentes nivel Alto, Muy alto y Cr\u00edtico."
-      },{
-        "@class": "parrafo",
-        "#text": "VI.\u2003Obligaci\u00f3n de remisi\u00f3n de estad\u00edsticas de incidentes."
-      },{
-        "@class": "parrafo",
-        "#text": "VII.\u2003Notificaci\u00f3n de impactos recibidos."
-      },{
-        "@class": "parrafo",
-        "#text": "VIII.\u2003Desarrollo de herramientas automatizadas para facilitar las notificaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "IX.\u2003R\u00e9gimen legal de las notificaciones y comunicaci\u00f3n de informaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "X.\u2003Disposici\u00f3n adicional."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "I.\u2003Objeto"
-      },{
-        "@class": "parrafo_2",
-        "#text": "La Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad tiene por objeto, seg\u00fan lo dispuesto en el Cap\u00edtulo VII del Real Decreto 3/2010, de 8 de enero, la notificaci\u00f3n y gesti\u00f3n de incidentes de seguridad en los sistemas de informaci\u00f3n de las entidades del Sector P\u00fablico del \u00e1mbito de aplicaci\u00f3n de dicho cuerpo legal, cuando tales incidentes tengan un impacto significativo en la seguridad de la informaci\u00f3n que manejan o los servicios que prestan, en relaci\u00f3n con la categor\u00eda del sistema y con independencia de los requerimientos adicionales que cada organismo o entidad implemente para adaptarlos a sus entornos singulares."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "II.\u2003\u00c1mbito de aplicaci\u00f3n"
-      },{
-        "@class": "parrafo_2",
-        "#text": "La presente Instrucci\u00f3n T\u00e9cnica de Seguridad ser\u00e1 de aplicaci\u00f3n a los sistemas de informaci\u00f3n comprendidos en los \u00e1mbitos subjetivo y objetivo de aplicaci\u00f3n del Real Decreto 3/2010, de 8 de enero, seg\u00fan dispone el art\u00edculo 3 del mismo, as\u00ed como al resto de las entidades que forman parte de los \u00e1mbitos subjetivos de aplicaci\u00f3n de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas, y la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "III.\u2003Criterios de determinaci\u00f3n del nivel de Impacto"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Una vez detectado un incidente se utilizar\u00e1 la Gu\u00eda CCN-STIC 817 Esquema Nacional de Seguridad - Gesti\u00f3n de Ciberincidentes, para clasificarlo de acuerdo con su tabla Criterios de determinaci\u00f3n del nivel de impacto potencial. El nivel de impacto potencial de los ciberincidentes en la organizaci\u00f3n, ser\u00e1: Irrelevante, Bajo, Medio, Alto, Muy Alto y Cr\u00edtico."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "IV. Notificaci\u00f3n obligatoria de los incidentes con nivel de impacto Alto, Muy alto y Cr\u00edtico"
-      },{
-        "@class": "parrafo_2",
-        "#text": "IV.1\u2003Las notificaciones efectuadas por las entidades del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad al Centro Criptol\u00f3gico Nacional (CCN), en el marco de la articulaci\u00f3n de respuesta a los incidentes de seguridad y la prestaci\u00f3n de servicios de respuesta por parte del Equipo de Respuesta a Incidentes de Seguridad del CCN-CERT, (Centro Criptol\u00f3gico Nacional - Computer Emergency Response Team) se realizar\u00e1 en los t\u00e9rminos indicados en los art\u00edculos 36 y 37 del Real Decreto 3/2010, de 8 de enero."
-      },{
-        "@class": "parrafo",
-        "#text": "IV.2\u2003Para ello, se notificar\u00e1n los incidentes de seguridad que tengan un impacto significativo en la seguridad de la informaci\u00f3n manejada o los servicios prestados en relaci\u00f3n con la categor\u00eda del sistema, determinada de acuerdo con lo dispuesto en los art\u00edculos 43, 44 y Anexo I del Real Decreto 3/2010, de 8 de enero. Se dice que un incidente tiene impacto significativo cuando, por su magnitud o caracter\u00edsticas, impide el tratamiento de la informaci\u00f3n o los servicios prestados. A estos efectos, se considerar\u00e1 que tienen un impacto significativo los niveles Alto, Muy Alto y Cr\u00edtico recogidos en la tabla Criterios de Determinaci\u00f3n del Nivel de Impacto de la Gu\u00eda CCN-STIC 817."
-      },{
-        "@class": "parrafo",
-        "#text": "IV.3\u2003En todo caso, ser\u00e1n de obligatoria notificaci\u00f3n al CCN en el momento en que se produzcan, los incidentes de seguridad que por su nivel de impacto potencial sean calificados con el nivel de CR\u00cdTICO, MUY ALTO o ALTO, mediante el empleo de las herramientas desarrolladas al efecto de la notificaci\u00f3n de incidentes."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "V.\u2003Evidencias a entregar en el caso de incidentes nivel Alto, Muy alto y Cr\u00edtico"
-      },{
-        "@class": "parrafo_2",
-        "#text": "V.1\u2003Tras la detecci\u00f3n de un incidente de seguridad y con car\u00e1cter inmediato se recopilar\u00e1n evidencias del incidente, que ser\u00e1n documentadas y custodiadas de forma que se pueda determinar el modo de obtenci\u00f3n, se garantice la cadena de custodia, y respetando el ordenamiento jur\u00eddico que resulte de aplicaci\u00f3n. En la recolecci\u00f3n y custodia de evidencia se aplicar\u00e1n las recomendaciones establecidas al efecto en la Gu\u00eda CCN-STIC 817."
-      },{
-        "@class": "parrafo",
-        "#text": "V.2\u2003De acuerdo con lo dispuesto en el art\u00edculo 37 del Real Decreto 3/2010, de 8 de enero, el CCN podr\u00e1 recabar \u00e9stas y cualesquiera otras informaciones que se consideren relevantes para el an\u00e1lisis del incidente, as\u00ed como los soportes inform\u00e1ticos que se estimen necesarios para la investigaci\u00f3n, sin perjuicio de lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de car\u00e1cter personal y su normativa de desarrollo, as\u00ed como la posible confidencialidad de datos de car\u00e1cter institucional u organizativo."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "VI.\u2003Obligaci\u00f3n de remisi\u00f3n de estad\u00edsticas de incidentes"
-      },{
-        "@class": "parrafo_2",
-        "#text": "De conformidad con lo dispuesto en el art\u00edculo 24.2 del Real Decreto 3/2010, de 8 de enero, el registro de todos los incidentes de seguridad que se produzcan y de las acciones de tratamiento que se sigan, ser\u00e1 utilizado para la mejora continua de la seguridad del sistema, a cuyo fin las entidades del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad elaborar\u00e1n estad\u00edsticas de incidentes de seguridad que, al menos, con car\u00e1cter anual, remitir\u00e1n al CCN, incluyendo el resto de la antedicha informaci\u00f3n relativa a los incidentes."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "VII.\u2003Notificaci\u00f3n de impactos recibidos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Una vez determinado el impacto del ciberincidente y calificado como de car\u00e1cter significativo a los efectos de lo establecido en el art\u00edculo 36 del ENS, ser\u00e1 notificado al CCN en los t\u00e9rminos previsto en el art\u00edculo IV de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "VIII.\u2003Desarrollo de herramientas automatizadas para facilitar las notificaciones"
-      },{
-        "@class": "parrafo_2",
-        "#text": "El CCN ha desarrollado la herramienta LUCIA, Listado Unificado de Coordinaci\u00f3n de Incidentes y Amenazas) con el prop\u00f3sito de automatizar los mecanismos de notificaci\u00f3n, comunicaci\u00f3n e intercambio de informaci\u00f3n sobre incidentes de seguridad, de acuerdo a lo establecido en la Gu\u00eda CCN-STIC 817. Esta herramienta se mantendr\u00e1 permanentemente actualizada para atender dicho prop\u00f3sito."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "IX.\u2003R\u00e9gimen legal de las notificaciones y comunicaci\u00f3n de informaci\u00f3n"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Para la articulaci\u00f3n de respuesta a los incidentes de seguridad y gesti\u00f3n de ciberincidentes a los que se refiere la presente Resoluci\u00f3n, el suministro de informaci\u00f3n por las entidades del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad al CCN, motu proprio o a su requerimiento, se realizar\u00e1 teniendo en cuenta lo siguiente:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a)\u2003La comunicaci\u00f3n de informaci\u00f3n que tenga la consideraci\u00f3n de datos de car\u00e1cter personal se efectuar\u00e1 con pleno cumplimiento de lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre y su normativa de desarrollo, atendiendo a que la comunicaci\u00f3n de datos se realiza para el cumplimiento de fines directamente relacionados con la funci\u00f3n leg\u00edtima de las entidades cedentes y del CCN como cesionario, sin que sea preciso el consentimiento del afectado toda vez que tales datos han sido recabados para el ejercicio de las funciones propias de unos y otro, en los t\u00e9rminos previstos en el art\u00edculo 6.2 de la citada Ley Org\u00e1nica."
-      },{
-        "@class": "parrafo",
-        "#text": "Tampoco resultar\u00e1 de aplicaci\u00f3n lo dispuesto en los p\u00e1rrafos uno y dos del art\u00edculo 5 de la reiterada Ley Org\u00e1nica, en base a lo dispuesto en su art\u00edculo 24.1, por afectar a la Ciberseguridad, como \u00e1mbito de especial inter\u00e9s para la Seguridad Nacional."
-      },{
-        "@class": "parrafo",
-        "#text": "b)\u2003La comunicaci\u00f3n de informaci\u00f3n de datos de car\u00e1cter institucional u organizativo a la que se refiere el art\u00edculo 37.1.a) \u00faltimo p\u00e1rrafo, del Real Decreto 3/2010, de 8 de enero, ser\u00e1 suministrada y comunicada en funci\u00f3n de su confidencialidad, atendiendo a lo dispuesto en el art\u00edculo 43 y anexo I, en relaci\u00f3n con el citado art\u00edculo 37.1.a) del ENS."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "X.\u2003Disposici\u00f3n adicional"
-      },{
-        "@class": "parrafo_2",
-        "#text": "X.1\u2003Las referencias contenidas en la presente Instrucci\u00f3n a la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, y su normativa de desarrollo se entender\u00e1n hechas, a partir del 25 de mayo de 2018, al Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protecci\u00f3n de las personas f\u00edsicas en lo que respecta al tratamiento de datos personales y a la libre circulaci\u00f3n de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento General de Protecci\u00f3n de Datos)."
-      },{
-        "@class": "parrafo",
-        "#text": "X.2\u2003Se a\u00f1ade un segundo p\u00e1rrafo al apartado VII de la Instrucci\u00f3n, con efectos a partir del 25 de mayo de 2018, con la siguiente redacci\u00f3n:"
-      },{
-        "@class": "sangrado_2",
-        "#text": "\u00abCuando el incidente afecte a datos personales la notificaci\u00f3n a la autoridad de control competente se realizar\u00e1 con independencia del nivel de impacto del incidente en el Esquema Nacional de Seguridad. En aquellos casos en los que el impacto de un incidente o violaci\u00f3n de la seguridad afecte a datos personales, la notificaci\u00f3n se realizar\u00e1 seg\u00fan lo previsto en el art\u00edculo 33 del Reglamento General de Protecci\u00f3n de Datos.\u00bb"
-      },{
-        "@class": "parrafo_2",
-        "#text": "X.3\u2003La referencia contenida en el apartado IX, letra a), primer p\u00e1rrafo, de la Instrucci\u00f3n, al art\u00edculo 6.2 de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, se entender\u00e1 realizada, a partir del 25 de mayo de 2018, al art\u00edculo 6.1.c) del Reglamento General de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "X.4\u2003La referencia contenida en el apartado IX, letra a), segundo p\u00e1rrafo, a \u00ablos p\u00e1rrafos uno y dos del art\u00edculo 5 de la reiterada Ley Org\u00e1nica, en base a lo dispuesto en su art\u00edculo 24.1\u00bb, se entender\u00e1 sustituida, a partir del 25 de mayo de 2018, por \u00abel cap\u00edtulo III del Reglamento General de Protecci\u00f3n de Datos, en base a lo dispuesto en el art\u00edculo 23.1.a) del mismo\u00bb."
+      "materias": {
+        "materia": [
+          {
+            "@codigo": "1508",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "93",
+            "@orden": "",
+            "#text": "Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "3685",
+            "@orden": "",
+            "#text": "Ficheros con datos personales"
+          },
+          {
+            "@codigo": "4165",
+            "@orden": "",
+            "#text": "Informaci\u00f3n"
+          },
+          {
+            "@codigo": "4170",
+            "@orden": "",
+            "#text": "Inform\u00e1tica"
+          },
+          {
+            "@codigo": "4506",
+            "@orden": "",
+            "#text": "Internet"
+          },
+          {
+            "@codigo": "5163",
+            "@orden": "",
+            "#text": "Normas de calidad"
+          },
+          {
+            "@codigo": "7872",
+            "@orden": "",
+            "#text": "Notificaciones telem\u00e1ticas"
+          },
+          {
+            "@codigo": "5766",
+            "@orden": "",
+            "#text": "Programas inform\u00e1ticos"
+          },
+          {
+            "@codigo": "5923",
+            "@orden": "",
+            "#text": "Redes de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "6242",
+            "@orden": "",
+            "#text": "Riesgos"
+          },
+          {
+            "@codigo": "4577",
+            "@orden": "",
+            "#text": "Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica"
+          },
+          {
+            "@codigo": "4189",
+            "@orden": "",
+            "#text": "Seguridad inform\u00e1tica"
+          }
+        ]
+      },
+      "alertas": {
+        "alerta": [
+          {
+            "@codigo": "143",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "109",
+            "@orden": "",
+            "#text": "Derecho Administrativo"
+          },
+          {
+            "@codigo": "121",
+            "@orden": "",
+            "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+          },
+          {
+            "@codigo": "130",
+            "@orden": "",
+            "#text": "Telecomunicaciones"
+          }
+        ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": {
+            "@referencia": "BOE-A-2010-1330",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "el art. 29.2 del Real Decreto 3/2010, de 8 de enero"
+          }
+        },
+        "posteriores": null
       }
-    ]
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "parrafo",
+          "#text": "El Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica, ENS en adelante), al que se refiere el apartado segundo del art\u00edculo 156 de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, establece la pol\u00edtica de seguridad en la utilizaci\u00f3n de medios electr\u00f3nicos y est\u00e1 constituido por principios b\u00e1sicos y requisitos m\u00ednimos que permitan una protecci\u00f3n adecuada de la informaci\u00f3n. Dicho Real Decreto prev\u00e9, en su art\u00edculo 29, apartado 2, que el Ministerio de Hacienda y Funci\u00f3n P\u00fablica, a propuesta de la Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica y a iniciativa del Centro Criptol\u00f3gico Nacional, aprobar\u00e1 las instrucciones t\u00e9cnicas de seguridad de obligado cumplimiento, que se publicar\u00e1n mediante resoluci\u00f3n de la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica, constituyendo elementos esenciales para lograr una adecuada, homog\u00e9nea y coherente implantaci\u00f3n de los requisitos y medidas recogidos en el ENS."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "As\u00ed pues, tales instrucciones t\u00e9cnicas de seguridad, enumeradas en la Disposici\u00f3n Adicional cuarta del citado Real Decreto 3/2010, entran a regular aspectos concretos que la realidad cotidiana ha mostrado especialmente significativos, tales como: Informe del Estado de la Seguridad; Notificaci\u00f3n de Incidentes de Seguridad; Auditor\u00eda de la Seguridad; Conformidad con el Esquema Nacional de Seguridad; Adquisici\u00f3n de Productos de Seguridad; Criptolog\u00eda de empleo en el Esquema Nacional de Seguridad; Interconexi\u00f3n en el Esquema Nacional de Seguridad y Requisitos de Seguridad en entornos externalizados, sin perjuicio de las propuestas que pueda acordar la Comisi\u00f3n Sectorial de administraci\u00f3n electr\u00f3nica, seg\u00fan lo establecido en el citado art\u00edculo 29, en relaci\u00f3n con lo dispuesto en la Disposici\u00f3n derogatoria \u00fanica de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas y Disposici\u00f3n adicional novena de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Estas instrucciones t\u00e9cnicas de seguridad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n electr\u00f3nica, las infraestructuras que los apoyan, la evoluci\u00f3n tecnol\u00f3gica y los riesgos derivados de operar en el ciberespacio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En particular, la instrucci\u00f3n t\u00e9cnica de seguridad de Notificaci\u00f3n de Incidentes de Seguridad establece los criterios y procedimientos para la notificaci\u00f3n por parte de las entidades que forman parte de los \u00e1mbitos subjetivos de aplicaci\u00f3n de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas, y la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico al Centro Criptol\u00f3gico Nacional (CCN) de aquellos incidentes que tengan un impacto significativo en la seguridad de la informaci\u00f3n que manejan y los servicios que prestan en relaci\u00f3n con la categor\u00eda del sistema, al objeto de poder dar adecuada respuesta al mandato del Cap\u00edtulo VII, Respuesta a incidentes de seguridad, del Real Decreto 3/2010, de 8 de enero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Por otra parte, de acuerdo con el Real Decreto 769/2017, de 28 de julio, por el que se desarrolla la estructura org\u00e1nica b\u00e1sica del Ministerio de Hacienda y Funci\u00f3n P\u00fablica y se modifica el Real Decreto 424/2016, de 11 de noviembre, por el que se establece la estructura org\u00e1nica b\u00e1sica de los departamentos ministeriales corresponde a la Secretar\u00eda de Estado de Funci\u00f3n P\u00fablica el impulso, la programaci\u00f3n y la supervisi\u00f3n de las actuaciones en ejecuci\u00f3n de la pol\u00edtica de Gobierno en materia de Administraci\u00f3n Digital y del fomento de la administraci\u00f3n electr\u00f3nica, en especial lo referente al proceso de racionalizaci\u00f3n de las tecnolog\u00edas de la informaci\u00f3n y de las comunicaciones, y la adopci\u00f3n de soluciones digitales que permitan la prestaci\u00f3n eficiente de los servicios p\u00fablicos incluyendo los servicios p\u00fablicos esenciales. Adem\u00e1s, dado que la resoluci\u00f3n impone obligaciones no solo en el \u00e1mbito competencial de esta Secretaria de Estado sino tambi\u00e9n al Centro Criptol\u00f3gico Nacional (CCN) integrado en el CNI, organismo adscrito al Ministerio de la Presidencia y para las Administraciones Territoriales procede recabar el parecer del citado Departamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Esta Resoluci\u00f3n se aprueba en aplicaci\u00f3n de lo dispuesto en el art\u00edculo 29, apartado 2 del Real Decreto 3/2010, de 8 de enero, a propuesta de la Comisi\u00f3n Sectorial de Administraci\u00f3n Electr\u00f3nica y habi\u00e9ndose solicitado informe al Ministerio de la Presidencia y para las Administraciones Territoriales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En virtud de lo anterior, esta Secretar\u00eda de Estado resuelve:"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Primero."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Aprobar la Instrucci\u00f3n T\u00e9cnica de Seguridad \u00abNotificaci\u00f3n de incidentes de seguridad\u00bb, cuyo texto se incluye a continuaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Segundo."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Ordenar su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de incidentes de seguridad de los sistemas de informaci\u00f3n que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Madrid, 13 de abril de 2018.\u2013La Secretaria de Estado de Funci\u00f3n P\u00fablica, Elena Collado Mart\u00ednez."
+        },
+        {
+          "@class": "anexo",
+          "#text": "INSTRUCCI\u00d3N T\u00c9CNICA DE SEGURIDAD DE NOTIFICACI\u00d3N DE INCIDENTES DE SEGURIDAD"
+        },
+        {
+          "@class": "centro_redonda",
+          "#text": "\u00cdNDICE"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "I.\u2003Objeto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "II.\u2003\u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.\u2003Criterios de determinaci\u00f3n del nivel de impacto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IV.\u2003Notificaci\u00f3n obligatoria de los incidentes con nivel de impacto Alto, Muy alto y Cr\u00edtico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V.\u2003Evidencias a entregar en el caso de incidentes nivel Alto, Muy alto y Cr\u00edtico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VI.\u2003Obligaci\u00f3n de remisi\u00f3n de estad\u00edsticas de incidentes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII.\u2003Notificaci\u00f3n de impactos recibidos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VIII.\u2003Desarrollo de herramientas automatizadas para facilitar las notificaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IX.\u2003R\u00e9gimen legal de las notificaciones y comunicaci\u00f3n de informaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "X.\u2003Disposici\u00f3n adicional."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "I.\u2003Objeto"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad tiene por objeto, seg\u00fan lo dispuesto en el Cap\u00edtulo VII del Real Decreto 3/2010, de 8 de enero, la notificaci\u00f3n y gesti\u00f3n de incidentes de seguridad en los sistemas de informaci\u00f3n de las entidades del Sector P\u00fablico del \u00e1mbito de aplicaci\u00f3n de dicho cuerpo legal, cuando tales incidentes tengan un impacto significativo en la seguridad de la informaci\u00f3n que manejan o los servicios que prestan, en relaci\u00f3n con la categor\u00eda del sistema y con independencia de los requerimientos adicionales que cada organismo o entidad implemente para adaptarlos a sus entornos singulares."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "II.\u2003\u00c1mbito de aplicaci\u00f3n"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La presente Instrucci\u00f3n T\u00e9cnica de Seguridad ser\u00e1 de aplicaci\u00f3n a los sistemas de informaci\u00f3n comprendidos en los \u00e1mbitos subjetivo y objetivo de aplicaci\u00f3n del Real Decreto 3/2010, de 8 de enero, seg\u00fan dispone el art\u00edculo 3 del mismo, as\u00ed como al resto de las entidades que forman parte de los \u00e1mbitos subjetivos de aplicaci\u00f3n de la Ley 39/2015, de 1 de octubre, de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas, y la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "III.\u2003Criterios de determinaci\u00f3n del nivel de Impacto"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Una vez detectado un incidente se utilizar\u00e1 la Gu\u00eda CCN-STIC 817 Esquema Nacional de Seguridad - Gesti\u00f3n de Ciberincidentes, para clasificarlo de acuerdo con su tabla Criterios de determinaci\u00f3n del nivel de impacto potencial. El nivel de impacto potencial de los ciberincidentes en la organizaci\u00f3n, ser\u00e1: Irrelevante, Bajo, Medio, Alto, Muy Alto y Cr\u00edtico."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "IV. Notificaci\u00f3n obligatoria de los incidentes con nivel de impacto Alto, Muy alto y Cr\u00edtico"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "IV.1\u2003Las notificaciones efectuadas por las entidades del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad al Centro Criptol\u00f3gico Nacional (CCN), en el marco de la articulaci\u00f3n de respuesta a los incidentes de seguridad y la prestaci\u00f3n de servicios de respuesta por parte del Equipo de Respuesta a Incidentes de Seguridad del CCN-CERT, (Centro Criptol\u00f3gico Nacional - Computer Emergency Response Team) se realizar\u00e1 en los t\u00e9rminos indicados en los art\u00edculos 36 y 37 del Real Decreto 3/2010, de 8 de enero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IV.2\u2003Para ello, se notificar\u00e1n los incidentes de seguridad que tengan un impacto significativo en la seguridad de la informaci\u00f3n manejada o los servicios prestados en relaci\u00f3n con la categor\u00eda del sistema, determinada de acuerdo con lo dispuesto en los art\u00edculos 43, 44 y Anexo I del Real Decreto 3/2010, de 8 de enero. Se dice que un incidente tiene impacto significativo cuando, por su magnitud o caracter\u00edsticas, impide el tratamiento de la informaci\u00f3n o los servicios prestados. A estos efectos, se considerar\u00e1 que tienen un impacto significativo los niveles Alto, Muy Alto y Cr\u00edtico recogidos en la tabla Criterios de Determinaci\u00f3n del Nivel de Impacto de la Gu\u00eda CCN-STIC 817."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IV.3\u2003En todo caso, ser\u00e1n de obligatoria notificaci\u00f3n al CCN en el momento en que se produzcan, los incidentes de seguridad que por su nivel de impacto potencial sean calificados con el nivel de CR\u00cdTICO, MUY ALTO o ALTO, mediante el empleo de las herramientas desarrolladas al efecto de la notificaci\u00f3n de incidentes."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "V.\u2003Evidencias a entregar en el caso de incidentes nivel Alto, Muy alto y Cr\u00edtico"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "V.1\u2003Tras la detecci\u00f3n de un incidente de seguridad y con car\u00e1cter inmediato se recopilar\u00e1n evidencias del incidente, que ser\u00e1n documentadas y custodiadas de forma que se pueda determinar el modo de obtenci\u00f3n, se garantice la cadena de custodia, y respetando el ordenamiento jur\u00eddico que resulte de aplicaci\u00f3n. En la recolecci\u00f3n y custodia de evidencia se aplicar\u00e1n las recomendaciones establecidas al efecto en la Gu\u00eda CCN-STIC 817."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V.2\u2003De acuerdo con lo dispuesto en el art\u00edculo 37 del Real Decreto 3/2010, de 8 de enero, el CCN podr\u00e1 recabar \u00e9stas y cualesquiera otras informaciones que se consideren relevantes para el an\u00e1lisis del incidente, as\u00ed como los soportes inform\u00e1ticos que se estimen necesarios para la investigaci\u00f3n, sin perjuicio de lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de car\u00e1cter personal y su normativa de desarrollo, as\u00ed como la posible confidencialidad de datos de car\u00e1cter institucional u organizativo."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "VI.\u2003Obligaci\u00f3n de remisi\u00f3n de estad\u00edsticas de incidentes"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "De conformidad con lo dispuesto en el art\u00edculo 24.2 del Real Decreto 3/2010, de 8 de enero, el registro de todos los incidentes de seguridad que se produzcan y de las acciones de tratamiento que se sigan, ser\u00e1 utilizado para la mejora continua de la seguridad del sistema, a cuyo fin las entidades del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad elaborar\u00e1n estad\u00edsticas de incidentes de seguridad que, al menos, con car\u00e1cter anual, remitir\u00e1n al CCN, incluyendo el resto de la antedicha informaci\u00f3n relativa a los incidentes."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "VII.\u2003Notificaci\u00f3n de impactos recibidos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Una vez determinado el impacto del ciberincidente y calificado como de car\u00e1cter significativo a los efectos de lo establecido en el art\u00edculo 36 del ENS, ser\u00e1 notificado al CCN en los t\u00e9rminos previsto en el art\u00edculo IV de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "VIII.\u2003Desarrollo de herramientas automatizadas para facilitar las notificaciones"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "El CCN ha desarrollado la herramienta LUCIA, Listado Unificado de Coordinaci\u00f3n de Incidentes y Amenazas) con el prop\u00f3sito de automatizar los mecanismos de notificaci\u00f3n, comunicaci\u00f3n e intercambio de informaci\u00f3n sobre incidentes de seguridad, de acuerdo a lo establecido en la Gu\u00eda CCN-STIC 817. Esta herramienta se mantendr\u00e1 permanentemente actualizada para atender dicho prop\u00f3sito."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "IX.\u2003R\u00e9gimen legal de las notificaciones y comunicaci\u00f3n de informaci\u00f3n"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Para la articulaci\u00f3n de respuesta a los incidentes de seguridad y gesti\u00f3n de ciberincidentes a los que se refiere la presente Resoluci\u00f3n, el suministro de informaci\u00f3n por las entidades del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad al CCN, motu proprio o a su requerimiento, se realizar\u00e1 teniendo en cuenta lo siguiente:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a)\u2003La comunicaci\u00f3n de informaci\u00f3n que tenga la consideraci\u00f3n de datos de car\u00e1cter personal se efectuar\u00e1 con pleno cumplimiento de lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre y su normativa de desarrollo, atendiendo a que la comunicaci\u00f3n de datos se realiza para el cumplimiento de fines directamente relacionados con la funci\u00f3n leg\u00edtima de las entidades cedentes y del CCN como cesionario, sin que sea preciso el consentimiento del afectado toda vez que tales datos han sido recabados para el ejercicio de las funciones propias de unos y otro, en los t\u00e9rminos previstos en el art\u00edculo 6.2 de la citada Ley Org\u00e1nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Tampoco resultar\u00e1 de aplicaci\u00f3n lo dispuesto en los p\u00e1rrafos uno y dos del art\u00edculo 5 de la reiterada Ley Org\u00e1nica, en base a lo dispuesto en su art\u00edculo 24.1, por afectar a la Ciberseguridad, como \u00e1mbito de especial inter\u00e9s para la Seguridad Nacional."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b)\u2003La comunicaci\u00f3n de informaci\u00f3n de datos de car\u00e1cter institucional u organizativo a la que se refiere el art\u00edculo 37.1.a) \u00faltimo p\u00e1rrafo, del Real Decreto 3/2010, de 8 de enero, ser\u00e1 suministrada y comunicada en funci\u00f3n de su confidencialidad, atendiendo a lo dispuesto en el art\u00edculo 43 y anexo I, en relaci\u00f3n con el citado art\u00edculo 37.1.a) del ENS."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "X.\u2003Disposici\u00f3n adicional"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "X.1\u2003Las referencias contenidas en la presente Instrucci\u00f3n a la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, y su normativa de desarrollo se entender\u00e1n hechas, a partir del 25 de mayo de 2018, al Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protecci\u00f3n de las personas f\u00edsicas en lo que respecta al tratamiento de datos personales y a la libre circulaci\u00f3n de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento General de Protecci\u00f3n de Datos)."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "X.2\u2003Se a\u00f1ade un segundo p\u00e1rrafo al apartado VII de la Instrucci\u00f3n, con efectos a partir del 25 de mayo de 2018, con la siguiente redacci\u00f3n:"
+        },
+        {
+          "@class": "sangrado_2",
+          "#text": "\u00abCuando el incidente afecte a datos personales la notificaci\u00f3n a la autoridad de control competente se realizar\u00e1 con independencia del nivel de impacto del incidente en el Esquema Nacional de Seguridad. En aquellos casos en los que el impacto de un incidente o violaci\u00f3n de la seguridad afecte a datos personales, la notificaci\u00f3n se realizar\u00e1 seg\u00fan lo previsto en el art\u00edculo 33 del Reglamento General de Protecci\u00f3n de Datos.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "X.3\u2003La referencia contenida en el apartado IX, letra a), primer p\u00e1rrafo, de la Instrucci\u00f3n, al art\u00edculo 6.2 de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, se entender\u00e1 realizada, a partir del 25 de mayo de 2018, al art\u00edculo 6.1.c) del Reglamento General de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "X.4\u2003La referencia contenida en el apartado IX, letra a), segundo p\u00e1rrafo, a \u00ablos p\u00e1rrafos uno y dos del art\u00edculo 5 de la reiterada Ley Org\u00e1nica, en base a lo dispuesto en su art\u00edculo 24.1\u00bb, se entender\u00e1 sustituida, a partir del 25 de mayo de 2018, por \u00abel cap\u00edtulo III del Reglamento General de Protecci\u00f3n de Datos, en base a lo dispuesto en el art\u00edculo 23.1.a) del mismo\u00bb."
+        }
+      ]
+    }
   }
-}
 }

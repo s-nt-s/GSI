@@ -1,578 +1,670 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190612132601",
-  "metadatos": {
-    "identificador": "BOE-A-2012-10048",
-    "titulo": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190612132601",
+    "metadatos": {
+      "identificador": "BOE-A-2012-10048",
+      "titulo": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "178",
+      "seccion": "3",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "9216",
+        "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+      },
+      "rango": {
+        "@codigo": "1370",
+        "#text": "Resoluci\u00f3n"
+      },
+      "numero_oficial": null,
+      "fecha_disposicion": "20120628",
+      "fecha_publicacion": "20120726",
+      "fecha_vigencia": "20120727",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "53776",
+      "pagina_final": "53780",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2012/07/26/pdfs/BOE-A-2012-10048.pdf",
+      "url_pdf_catalan": null,
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": null,
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/res/2012/06/28/(3)"
     },
-    "diario_numero": "178",
-    "seccion": "3",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "9216",
-      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-    },
-    "rango": {
-      "@codigo": "1370",
-      "#text": "Resoluci\u00f3n"
-    },
-    "numero_oficial": null,
-    "fecha_disposicion": "20120628",
-    "fecha_publicacion": "20120726",
-    "fecha_vigencia": "20120727",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "53776",
-    "pagina_final": "53780",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2012/07/26/pdfs/BOE-A-2012-10048.pdf",
-    "url_pdf_catalan": null,
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": null,
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/res/2012/06/28/(3)"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2012-10048"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2012-06-28"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "(3)"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2012-10048"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-06-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(3)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)"
-              },
-              "eli:consolidated_by": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2012-07-26"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2012-10048"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2012-06-28"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "(3)"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2012-10048"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-06-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(3)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)"
+                },
+                "eli:consolidated_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2012-07-26"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2012-10048"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-06-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(3)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-07-26"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2012-07-26"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726/spa"
                         }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa"
-                        }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa/xml",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof/spa"
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2012-10048"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-06-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(3)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-07-26"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2012-07-26"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(3)/con/20120726/spa"
                       }
                     }
                   }
                 }
               }
             }
-          }
-        ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": {
-      "nota": {
-        "@codigo": "37",
-        "@orden": "220",
-        "#text": "Aplicable desde el 27 de julio de 2012."
+          ]
+        }
       }
     },
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "1508",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "93",
-          "@orden": "",
-          "#text": "Administraciones P\u00fablicas"
-        },{
-          "@codigo": "3086",
-          "@orden": "",
-          "#text": "Documentos p\u00fablicos"
-        },{
-          "@codigo": "5163",
-          "@orden": "",
-          "#text": "Normas de calidad"
-        },{
-          "@codigo": "5923",
-          "@orden": "",
-          "#text": "Redes de telecomunicaci\u00f3n"
-        },{
-          "@codigo": "6020",
-          "@orden": "",
-          "#text": "Reglamentaciones t\u00e9cnicas"
+    "analisis": {
+      "notas": {
+        "nota": {
+          "@codigo": "37",
+          "@orden": "220",
+          "#text": "Aplicable desde el 27 de julio de 2012."
         }
-      ]
-    },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "109",
-          "@orden": "",
-          "#text": "Derecho Administrativo"
-        },{
-          "@codigo": "121",
-          "@orden": "",
-          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
-        },{
-          "@codigo": "129",
-          "@orden": "",
-          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+      },
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-2010-1331",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
-          },{
-            "@referencia": "BOE-A-2007-12352",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "Ley 11/2007, de 22 de junio"
+            "@codigo": "1508",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "93",
+            "@orden": "",
+            "#text": "Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "3086",
+            "@orden": "",
+            "#text": "Documentos p\u00fablicos"
+          },
+          {
+            "@codigo": "5163",
+            "@orden": "",
+            "#text": "Normas de calidad"
+          },
+          {
+            "@codigo": "5923",
+            "@orden": "",
+            "#text": "Redes de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "6020",
+            "@orden": "",
+            "#text": "Reglamentaciones t\u00e9cnicas"
           }
         ]
       },
-      "posteriores": null
-    }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "parrafo",
-        "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
-      },{
-        "@class": "parrafo",
-        "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: Documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
-      },{
-        "@class": "parrafo",
-        "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, las normas relativas al documento electr\u00f3nico, al expediente electr\u00f3nico, a la digitalizaci\u00f3n de documentos en soporte papel, a los procedimientos de copiado aut\u00e9ntico y conversi\u00f3n y a la pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos responden a lo previsto en el citado Real Decreto 4/2010, de 8 de enero, sobre interoperabilidad, recuperaci\u00f3n y conservaci\u00f3n del documento electr\u00f3nico, a la luz de la necesidad de garantizar todos estos aspectos para el documento electr\u00f3nico a lo largo del tiempo."
-      },{
-        "@class": "parrafo",
-        "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos establece los conceptos relacionados con el desarrollo de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos, identifica los procesos de la gesti\u00f3n de documentos en el marco de la administraci\u00f3n electr\u00f3nica y establece los principios necesarios para el desarrollo y aplicaci\u00f3n de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos por parte de todos los \u00f3rganos de la Administraci\u00f3n y Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla."
-      },{
-        "@class": "parrafo",
-        "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero,"
-      },{
-        "@class": "parrafo",
-        "#text": "Esta Secretar\u00eda de Estado resuelve:"
-      },{
-        "@class": "articulo",
-        "#text": "[precepto]Primero."
-      },{
-        "@class": "parrafo",
-        "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos cuyo texto se incluye a continuaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "[precepto]Segundo."
-      },{
-        "@class": "parrafo",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la Disposici\u00f3n Transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Madrid, 28 de junio de 2012.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
-      },{
-        "@class": "anexo",
-        "#text": "[encabezado]Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Gesti\u00f3n de Documentos Electr\u00f3nicos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "[indice]\u00cdndice."
-      },{
-        "@class": "parrafo_2",
-        "#text": "I. Objeto."
-      },{
-        "@class": "parrafo",
-        "#text": "II. \u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "III. Contenido y contexto."
-      },{
-        "@class": "parrafo",
-        "#text": "IV. Actores involucrados."
-      },{
-        "@class": "parrafo",
-        "#text": "V. Programa de tratamiento de documentos electr\u00f3nicos."
-      },{
-        "@class": "parrafo",
-        "#text": "VI. Procesos de gesti\u00f3n de documentos electr\u00f3nicos."
-      },{
-        "@class": "parrafo",
-        "#text": "VII. Asignaci\u00f3n de metadatos."
-      },{
-        "@class": "parrafo",
-        "#text": "VIII. Documentaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "IX. Formaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "X. Supervisi\u00f3n y auditor\u00eda."
-      },{
-        "@class": "parrafo",
-        "#text": "XI. Actualizaci\u00f3n. [fin indice]"
-      },{
-        "@class": "centro_cursiva",
-        "em": "Objeto",
-        "#text": "[preambulo]I."
-      },{
-        "@class": "parrafo_2",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos tiene por objeto establecer las directrices para la definici\u00f3n de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos."
-      },{
-        "@class": "centro_cursiva",
-        "em": "\u00c1mbito de aplicaci\u00f3n",
-        "#text": "[precepto]II."
-      },{
-        "@class": "parrafo_2",
-        "#text": "II.1 El contenido de esta norma ser\u00e1 de aplicaci\u00f3n para el desarrollo de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "II.2 Las directrices establecidas en esta norma se podr\u00e1n aplicar en el desarrollo de pol\u00edticas de gesti\u00f3n de documentos en entornos h\u00edbridos en que convivan documentos en soporte papel y documentos electr\u00f3nicos."
-      },{
-        "@class": "centro_cursiva",
-        "em": "Contenido y contexto",
-        "#text": "[precepto]III."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.1 La pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos ser\u00e1 un documento que incluir\u00e1:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Definici\u00f3n del alcance y \u00e1mbito de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Roles de los actores involucrados."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Directrices para la estructuraci\u00f3n y desarrollo de los procedimientos de gesti\u00f3n documental."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Acciones de formaci\u00f3n relacionada contempladas."
-      },{
-        "@class": "parrafo",
-        "#text": "5. Actuaciones de supervisi\u00f3n y auditor\u00eda de los procesos de gesti\u00f3n de documentos."
-      },{
-        "@class": "parrafo",
-        "#text": "6. Proceso de revisi\u00f3n del contenido de la pol\u00edtica con el fin de garantizar su adecuaci\u00f3n a la evoluci\u00f3n de las necesidades de la gesti\u00f3n de documentos."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.2 La pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Se integrar\u00e1 en el marco general de gesti\u00f3n de documentos y en el contexto de cada organizaci\u00f3n junto al resto de pol\u00edticas implantadas para el desempe\u00f1o de sus actividades."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Aplicar\u00e1 los criterios, m\u00e9todos de trabajo y de conducta generalmente reconocidos, as\u00ed como los est\u00e1ndares y buenas pr\u00e1cticas nacionales e internacionales aplicables para la gesti\u00f3n documental atendiendo a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
-      },{
-        "@class": "centro_cursiva",
-        "em": "Actores involucrados",
-        "#text": "[precepto]IV."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Los actores involucrados en la definici\u00f3n, aprobaci\u00f3n e implantaci\u00f3n de la pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos en una organizaci\u00f3n, ser\u00e1n, al menos, los siguientes:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. La alta direcci\u00f3n que aprobar\u00e1 e impulsar\u00e1 la pol\u00edtica."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los responsables de procesos de gesti\u00f3n que aplicar\u00e1n la pol\u00edtica en el marco de los procesos de gesti\u00f3n a su cargo."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El personal responsable de la planificaci\u00f3n, implantaci\u00f3n y administraci\u00f3n del programa de tratamiento de documentos y sus operaciones, cualificado, dedicado e instruido en gesti\u00f3n y conservaci\u00f3n documental y que participar\u00e1 en el dise\u00f1o, implementaci\u00f3n y actualizaci\u00f3n de los sistemas de gesti\u00f3n y conservaci\u00f3n documental."
-      },{
-        "@class": "parrafo",
-        "#text": "4. El personal implicado en tareas de gesti\u00f3n de documentos electr\u00f3nicos que aplicar\u00e1 lo establecido en la pol\u00edtica a trav\u00e9s del programa de tratamiento implantado."
-      },{
-        "@class": "centro_cursiva",
-        "em": "Programa de tratamiento de documentos electr\u00f3nicos",
-        "#text": "[precepto]V."
-      },{
-        "@class": "parrafo_2",
-        "#text": "V.1 El dise\u00f1o, desarrollo e implantaci\u00f3n de los procesos, t\u00e9cnicas y operaciones de gesti\u00f3n de documentos electr\u00f3nicos se concretar\u00e1 en un programa de tratamiento espec\u00edfico para la gesti\u00f3n de documentos y expedientes electr\u00f3nicos."
-      },{
-        "@class": "parrafo",
-        "#text": "V.2 Dicho programa de tratamiento se aplicar\u00e1 de manera continua sobre todas las etapas o periodos del ciclo de vida de los documentos y expedientes electr\u00f3nicos para los que garantizar\u00e1 su autenticidad, integridad, confidencialidad, disponibilidad y trazabilidad; permitiendo la protecci\u00f3n, recuperaci\u00f3n y conservaci\u00f3n f\u00edsica y l\u00f3gica de los documentos y su contexto."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]VI. Procesos de gesti\u00f3n de documentos electr\u00f3nicos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Los procesos de gesti\u00f3n de documentos electr\u00f3nicos de una organizaci\u00f3n incluir\u00e1n, al menos, los siguientes:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Captura de documentos, que incluir\u00e1 el tratamiento de los metadatos m\u00ednimos obligatorios definidos en la Norma T\u00e9cnica de Interoperabilidad de Documento Electr\u00f3nico."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Registro legal de documentos, definido en la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan que, adem\u00e1s del tratamiento de documentos electr\u00f3nicos recibidos, atender\u00e1 a la posibilidad de digitalizar documentos en soporte papel seg\u00fan lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Digitalizaci\u00f3n de Documentos."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Clasificaci\u00f3n de documentos, que incluir\u00e1 los criterios de formaci\u00f3n de expedientes y agrupaciones de documentos electr\u00f3nicos seg\u00fan la Norma T\u00e9cnica de Interoperabilidad de Expediente Electr\u00f3nico, as\u00ed como la clasificaci\u00f3n funcional de acuerdo con el cuadro de clasificaci\u00f3n de la organizaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Descripci\u00f3n de documentos, que atender\u00e1 a lo establecido en el apartado VII de esta norma as\u00ed como a la posible redacci\u00f3n de un esquema institucional de metadatos."
-      },{
-        "@class": "parrafo",
-        "#text": "5. Acceso a los documentos, que contemplar\u00e1 la posible regulaci\u00f3n institucional de dicha pr\u00e1ctica as\u00ed como la trazabilidad de las acciones que se realizan sobre cada uno de ellos."
-      },{
-        "@class": "parrafo",
-        "#text": "6. Calificaci\u00f3n de los documentos, que incluir\u00e1:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "i.\tDeterminaci\u00f3n de los documentos esenciales."
-      },{
-        "@class": "parrafo",
-        "#text": "ii.\tValoraci\u00f3n de documentos y determinaci\u00f3n de plazos de conservaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "iii.\tDictamen de la autoridad calificadora."
-      },{
-        "@class": "parrafo_2",
-        "#text": "7. Conservaci\u00f3n de los documentos en funci\u00f3n de su valor y tipo de dictamen de la autoridad calificadora, a trav\u00e9s de la definici\u00f3n de calendarios de conservaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "8. Transferencia de documentos, que incluir\u00e1 las consideraciones para la transferencia entre repositorios as\u00ed como las responsabilidades en cuanto a su custodia."
-      },{
-        "@class": "parrafo",
-        "#text": "9. Destrucci\u00f3n o eliminaci\u00f3n de los documentos, que atender\u00e1 a la normativa aplicable en materia de eliminaci\u00f3n de Patrimonio Documental y contemplar\u00e1 la aplicaci\u00f3n de las medidas de seguridad relacionadas definidas en el Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica: Borrado y destrucci\u00f3n del cap\u00edtulo de \u00abProtecci\u00f3n de los soportes de informaci\u00f3n [mp.si]\u00bb y Limpieza de documentos del cap\u00edtulo de \u00abProtecci\u00f3n de la informaci\u00f3n [mp.info]\u00bb."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]VII. Asignaci\u00f3n de metadatos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "VII.1 Las organizaciones garantizar\u00e1n la disponibilidad e integridad de los metadatos de sus documentos electr\u00f3nicos, manteniendo de manera permanente las relaciones entre cada documento y sus metadatos."
-      },{
-        "@class": "parrafo",
-        "#text": "VII.2 La implementaci\u00f3n de los metadatos de gesti\u00f3n de documentos electr\u00f3nicos para su tratamiento y gesti\u00f3n a nivel interno ser\u00e1 dise\u00f1ada por cada organizaci\u00f3n en base a sus necesidades, criterios y normativa espec\u00edfica."
-      },{
-        "@class": "parrafo",
-        "#text": "VII.3 Los metadatos de gesti\u00f3n de documentos electr\u00f3nicos se articular\u00e1n en esquemas de metadatos que responder\u00e1n a las particularidades y necesidades espec\u00edficas de gesti\u00f3n de cada organizaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "VII.4 El Esquema de Metadatos para la Gesti\u00f3n del Documento Electr\u00f3nico (e-EMGDE), disponible en el Centro de Interoperabilidad Sem\u00e1ntica, que incluye los metadatos m\u00ednimos obligatorios, definidos en las Normas T\u00e9cnicas de Interoperabilidad de Documento electr\u00f3nico y Expediente electr\u00f3nico, as\u00ed como otros metadatos complementarios pertinentes en una pol\u00edtica de gesti\u00f3n y conservaci\u00f3n de documentos electr\u00f3nicos, podr\u00e1 ser utilizado como referencia para la adecuaci\u00f3n a los requisitos de interoperabilidad en materia de gesti\u00f3n documental."
-      },{
-        "@class": "centro_cursiva",
-        "em": "Documentaci\u00f3n",
-        "#text": "[precepto]VIII."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Cada organizaci\u00f3n elaborar\u00e1 y mantendr\u00e1 actualizados y documentados los procedimientos de gesti\u00f3n de documentos a seguir en los distintos procesos de gesti\u00f3n documental."
-      },{
-        "@class": "centro_cursiva",
-        "em": "Formaci\u00f3n",
-        "#text": "[precepto]IX."
-      },{
-        "@class": "parrafo_2",
-        "#text": "IX.1 El personal de las organizaciones recibir\u00e1 la formaci\u00f3n espec\u00edfica y adecuada a su rol necesaria para la gesti\u00f3n y conservaci\u00f3n de documentos y expedientes electr\u00f3nicos."
-      },{
-        "@class": "parrafo",
-        "#text": "IX.2 Las organizaciones exigir\u00e1n, de manera objetiva y no discriminatoria, que aquellos que les presten servicios relacionados con la gesti\u00f3n y conservaci\u00f3n documental cuenten con unos niveles id\u00f3neos de gesti\u00f3n y madurez en los servicios prestados."
-      },{
-        "@class": "centro_cursiva",
-        "em": "Supervisi\u00f3n y auditor\u00eda",
-        "#text": "[precepto]X."
-      },{
-        "@class": "parrafo_2",
-        "#text": "X.1 Los procedimientos y acciones seguidos en los distintos procesos de gesti\u00f3n documental generar\u00e1n registros con las evidencias de la correcta aplicaci\u00f3n de dichos procedimientos atendiendo a las necesidades de cada documento y organizaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "X.2 Las organizaciones realizar\u00e1n evaluaciones o auditor\u00edas peri\u00f3dicas, convenientemente documentadas, que garanticen la adecuaci\u00f3n de la pol\u00edtica de gesti\u00f3n documental y que los procesos de gesti\u00f3n de documentos electr\u00f3nicos se realizan conforme a lo establecido en la pol\u00edtica."
-      },{
-        "@class": "parrafo",
-        "#text": "X.3 Los resultados de dichas evaluaciones ser\u00e1n considerados para la actualizaci\u00f3n de la pol\u00edtica, programa de tratamiento y procesos de gesti\u00f3n de documentos electr\u00f3nicos."
-      },{
-        "@class": "centro_cursiva",
-        "em": "Actualizaci\u00f3n",
-        "#text": "[precepto]XI."
-      },{
-        "@class": "parrafo_2",
-        "#text": "La pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos, el programa de tratamiento y los procesos de gesti\u00f3n documental ser\u00e1n convenientemente actualizados con el fin de garantizar su adecuaci\u00f3n permanente a las necesidades reales de gesti\u00f3n de documentos electr\u00f3nicos y normativa aplicable."
+      "alertas": {
+        "alerta": [
+          {
+            "@codigo": "109",
+            "@orden": "",
+            "#text": "Derecho Administrativo"
+          },
+          {
+            "@codigo": "121",
+            "@orden": "",
+            "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+          },
+          {
+            "@codigo": "129",
+            "@orden": "",
+            "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+          },
+          {
+            "@codigo": "130",
+            "@orden": "",
+            "#text": "Telecomunicaciones"
+          }
+        ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-2010-1331",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
+            },
+            {
+              "@referencia": "BOE-A-2007-12352",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "Ley 11/2007, de 22 de junio"
+            }
+          ]
+        },
+        "posteriores": null
       }
-    ]
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "parrafo",
+          "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: Documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, las normas relativas al documento electr\u00f3nico, al expediente electr\u00f3nico, a la digitalizaci\u00f3n de documentos en soporte papel, a los procedimientos de copiado aut\u00e9ntico y conversi\u00f3n y a la pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos responden a lo previsto en el citado Real Decreto 4/2010, de 8 de enero, sobre interoperabilidad, recuperaci\u00f3n y conservaci\u00f3n del documento electr\u00f3nico, a la luz de la necesidad de garantizar todos estos aspectos para el documento electr\u00f3nico a lo largo del tiempo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos establece los conceptos relacionados con el desarrollo de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos, identifica los procesos de la gesti\u00f3n de documentos en el marco de la administraci\u00f3n electr\u00f3nica y establece los principios necesarios para el desarrollo y aplicaci\u00f3n de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos por parte de todos los \u00f3rganos de la Administraci\u00f3n y Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero,"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Esta Secretar\u00eda de Estado resuelve:"
+        },
+        {
+          "@class": "articulo",
+          "#text": "[precepto]Primero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos cuyo texto se incluye a continuaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "[precepto]Segundo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la Disposici\u00f3n Transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Madrid, 28 de junio de 2012.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
+        },
+        {
+          "@class": "anexo",
+          "#text": "[encabezado]Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Gesti\u00f3n de Documentos Electr\u00f3nicos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "[indice]\u00cdndice."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "I. Objeto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "II. \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III. Contenido y contexto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IV. Actores involucrados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V. Programa de tratamiento de documentos electr\u00f3nicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VI. Procesos de gesti\u00f3n de documentos electr\u00f3nicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII. Asignaci\u00f3n de metadatos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VIII. Documentaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IX. Formaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "X. Supervisi\u00f3n y auditor\u00eda."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "XI. Actualizaci\u00f3n. [fin indice]"
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Objeto",
+          "#text": "[preambulo]I."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos tiene por objeto establecer las directrices para la definici\u00f3n de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "\u00c1mbito de aplicaci\u00f3n",
+          "#text": "[precepto]II."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "II.1 El contenido de esta norma ser\u00e1 de aplicaci\u00f3n para el desarrollo de pol\u00edticas de gesti\u00f3n de documentos electr\u00f3nicos en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "II.2 Las directrices establecidas en esta norma se podr\u00e1n aplicar en el desarrollo de pol\u00edticas de gesti\u00f3n de documentos en entornos h\u00edbridos en que convivan documentos en soporte papel y documentos electr\u00f3nicos."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Contenido y contexto",
+          "#text": "[precepto]III."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.1 La pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos ser\u00e1 un documento que incluir\u00e1:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Definici\u00f3n del alcance y \u00e1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Roles de los actores involucrados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Directrices para la estructuraci\u00f3n y desarrollo de los procedimientos de gesti\u00f3n documental."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Acciones de formaci\u00f3n relacionada contempladas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. Actuaciones de supervisi\u00f3n y auditor\u00eda de los procesos de gesti\u00f3n de documentos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "6. Proceso de revisi\u00f3n del contenido de la pol\u00edtica con el fin de garantizar su adecuaci\u00f3n a la evoluci\u00f3n de las necesidades de la gesti\u00f3n de documentos."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.2 La pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Se integrar\u00e1 en el marco general de gesti\u00f3n de documentos y en el contexto de cada organizaci\u00f3n junto al resto de pol\u00edticas implantadas para el desempe\u00f1o de sus actividades."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Aplicar\u00e1 los criterios, m\u00e9todos de trabajo y de conducta generalmente reconocidos, as\u00ed como los est\u00e1ndares y buenas pr\u00e1cticas nacionales e internacionales aplicables para la gesti\u00f3n documental atendiendo a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Actores involucrados",
+          "#text": "[precepto]IV."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Los actores involucrados en la definici\u00f3n, aprobaci\u00f3n e implantaci\u00f3n de la pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos en una organizaci\u00f3n, ser\u00e1n, al menos, los siguientes:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. La alta direcci\u00f3n que aprobar\u00e1 e impulsar\u00e1 la pol\u00edtica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los responsables de procesos de gesti\u00f3n que aplicar\u00e1n la pol\u00edtica en el marco de los procesos de gesti\u00f3n a su cargo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El personal responsable de la planificaci\u00f3n, implantaci\u00f3n y administraci\u00f3n del programa de tratamiento de documentos y sus operaciones, cualificado, dedicado e instruido en gesti\u00f3n y conservaci\u00f3n documental y que participar\u00e1 en el dise\u00f1o, implementaci\u00f3n y actualizaci\u00f3n de los sistemas de gesti\u00f3n y conservaci\u00f3n documental."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. El personal implicado en tareas de gesti\u00f3n de documentos electr\u00f3nicos que aplicar\u00e1 lo establecido en la pol\u00edtica a trav\u00e9s del programa de tratamiento implantado."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Programa de tratamiento de documentos electr\u00f3nicos",
+          "#text": "[precepto]V."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "V.1 El dise\u00f1o, desarrollo e implantaci\u00f3n de los procesos, t\u00e9cnicas y operaciones de gesti\u00f3n de documentos electr\u00f3nicos se concretar\u00e1 en un programa de tratamiento espec\u00edfico para la gesti\u00f3n de documentos y expedientes electr\u00f3nicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V.2 Dicho programa de tratamiento se aplicar\u00e1 de manera continua sobre todas las etapas o periodos del ciclo de vida de los documentos y expedientes electr\u00f3nicos para los que garantizar\u00e1 su autenticidad, integridad, confidencialidad, disponibilidad y trazabilidad; permitiendo la protecci\u00f3n, recuperaci\u00f3n y conservaci\u00f3n f\u00edsica y l\u00f3gica de los documentos y su contexto."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]VI. Procesos de gesti\u00f3n de documentos electr\u00f3nicos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Los procesos de gesti\u00f3n de documentos electr\u00f3nicos de una organizaci\u00f3n incluir\u00e1n, al menos, los siguientes:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Captura de documentos, que incluir\u00e1 el tratamiento de los metadatos m\u00ednimos obligatorios definidos en la Norma T\u00e9cnica de Interoperabilidad de Documento Electr\u00f3nico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Registro legal de documentos, definido en la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan que, adem\u00e1s del tratamiento de documentos electr\u00f3nicos recibidos, atender\u00e1 a la posibilidad de digitalizar documentos en soporte papel seg\u00fan lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Digitalizaci\u00f3n de Documentos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Clasificaci\u00f3n de documentos, que incluir\u00e1 los criterios de formaci\u00f3n de expedientes y agrupaciones de documentos electr\u00f3nicos seg\u00fan la Norma T\u00e9cnica de Interoperabilidad de Expediente Electr\u00f3nico, as\u00ed como la clasificaci\u00f3n funcional de acuerdo con el cuadro de clasificaci\u00f3n de la organizaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Descripci\u00f3n de documentos, que atender\u00e1 a lo establecido en el apartado VII de esta norma as\u00ed como a la posible redacci\u00f3n de un esquema institucional de metadatos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. Acceso a los documentos, que contemplar\u00e1 la posible regulaci\u00f3n institucional de dicha pr\u00e1ctica as\u00ed como la trazabilidad de las acciones que se realizan sobre cada uno de ellos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "6. Calificaci\u00f3n de los documentos, que incluir\u00e1:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "i.\tDeterminaci\u00f3n de los documentos esenciales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii.\tValoraci\u00f3n de documentos y determinaci\u00f3n de plazos de conservaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "iii.\tDictamen de la autoridad calificadora."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "7. Conservaci\u00f3n de los documentos en funci\u00f3n de su valor y tipo de dictamen de la autoridad calificadora, a trav\u00e9s de la definici\u00f3n de calendarios de conservaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "8. Transferencia de documentos, que incluir\u00e1 las consideraciones para la transferencia entre repositorios as\u00ed como las responsabilidades en cuanto a su custodia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "9. Destrucci\u00f3n o eliminaci\u00f3n de los documentos, que atender\u00e1 a la normativa aplicable en materia de eliminaci\u00f3n de Patrimonio Documental y contemplar\u00e1 la aplicaci\u00f3n de las medidas de seguridad relacionadas definidas en el Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica: Borrado y destrucci\u00f3n del cap\u00edtulo de \u00abProtecci\u00f3n de los soportes de informaci\u00f3n [mp.si]\u00bb y Limpieza de documentos del cap\u00edtulo de \u00abProtecci\u00f3n de la informaci\u00f3n [mp.info]\u00bb."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]VII. Asignaci\u00f3n de metadatos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "VII.1 Las organizaciones garantizar\u00e1n la disponibilidad e integridad de los metadatos de sus documentos electr\u00f3nicos, manteniendo de manera permanente las relaciones entre cada documento y sus metadatos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII.2 La implementaci\u00f3n de los metadatos de gesti\u00f3n de documentos electr\u00f3nicos para su tratamiento y gesti\u00f3n a nivel interno ser\u00e1 dise\u00f1ada por cada organizaci\u00f3n en base a sus necesidades, criterios y normativa espec\u00edfica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII.3 Los metadatos de gesti\u00f3n de documentos electr\u00f3nicos se articular\u00e1n en esquemas de metadatos que responder\u00e1n a las particularidades y necesidades espec\u00edficas de gesti\u00f3n de cada organizaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII.4 El Esquema de Metadatos para la Gesti\u00f3n del Documento Electr\u00f3nico (e-EMGDE), disponible en el Centro de Interoperabilidad Sem\u00e1ntica, que incluye los metadatos m\u00ednimos obligatorios, definidos en las Normas T\u00e9cnicas de Interoperabilidad de Documento electr\u00f3nico y Expediente electr\u00f3nico, as\u00ed como otros metadatos complementarios pertinentes en una pol\u00edtica de gesti\u00f3n y conservaci\u00f3n de documentos electr\u00f3nicos, podr\u00e1 ser utilizado como referencia para la adecuaci\u00f3n a los requisitos de interoperabilidad en materia de gesti\u00f3n documental."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Documentaci\u00f3n",
+          "#text": "[precepto]VIII."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Cada organizaci\u00f3n elaborar\u00e1 y mantendr\u00e1 actualizados y documentados los procedimientos de gesti\u00f3n de documentos a seguir en los distintos procesos de gesti\u00f3n documental."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Formaci\u00f3n",
+          "#text": "[precepto]IX."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "IX.1 El personal de las organizaciones recibir\u00e1 la formaci\u00f3n espec\u00edfica y adecuada a su rol necesaria para la gesti\u00f3n y conservaci\u00f3n de documentos y expedientes electr\u00f3nicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IX.2 Las organizaciones exigir\u00e1n, de manera objetiva y no discriminatoria, que aquellos que les presten servicios relacionados con la gesti\u00f3n y conservaci\u00f3n documental cuenten con unos niveles id\u00f3neos de gesti\u00f3n y madurez en los servicios prestados."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Supervisi\u00f3n y auditor\u00eda",
+          "#text": "[precepto]X."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "X.1 Los procedimientos y acciones seguidos en los distintos procesos de gesti\u00f3n documental generar\u00e1n registros con las evidencias de la correcta aplicaci\u00f3n de dichos procedimientos atendiendo a las necesidades de cada documento y organizaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "X.2 Las organizaciones realizar\u00e1n evaluaciones o auditor\u00edas peri\u00f3dicas, convenientemente documentadas, que garanticen la adecuaci\u00f3n de la pol\u00edtica de gesti\u00f3n documental y que los procesos de gesti\u00f3n de documentos electr\u00f3nicos se realizan conforme a lo establecido en la pol\u00edtica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "X.3 Los resultados de dichas evaluaciones ser\u00e1n considerados para la actualizaci\u00f3n de la pol\u00edtica, programa de tratamiento y procesos de gesti\u00f3n de documentos electr\u00f3nicos."
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Actualizaci\u00f3n",
+          "#text": "[precepto]XI."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos, el programa de tratamiento y los procesos de gesti\u00f3n documental ser\u00e1n convenientemente actualizados con el fin de garantizar su adecuaci\u00f3n permanente a las necesidades reales de gesti\u00f3n de documentos electr\u00f3nicos y normativa aplicable."
+        }
+      ]
+    }
   }
-}
 }

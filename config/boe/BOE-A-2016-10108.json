@@ -1,422 +1,460 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190426165602",
-  "metadatos": {
-    "identificador": "BOE-A-2016-10108",
-    "titulo": "Resoluci\u00f3n de 7 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190426165602",
+    "metadatos": {
+      "identificador": "BOE-A-2016-10108",
+      "titulo": "Resoluci\u00f3n de 7 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "265",
+      "seccion": "3",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "9216",
+        "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+      },
+      "rango": {
+        "@codigo": "1370",
+        "#text": "Resoluci\u00f3n"
+      },
+      "numero_oficial": null,
+      "fecha_disposicion": "20161007",
+      "fecha_publicacion": "20161102",
+      "fecha_vigencia": "20161122",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "76363",
+      "pagina_final": "76364",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2016/11/02/pdfs/BOE-A-2016-10108.pdf",
+      "url_pdf_catalan": null,
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": null,
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/res/2016/10/07/(5)"
     },
-    "diario_numero": "265",
-    "seccion": "3",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "9216",
-      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-    },
-    "rango": {
-      "@codigo": "1370",
-      "#text": "Resoluci\u00f3n"
-    },
-    "numero_oficial": null,
-    "fecha_disposicion": "20161007",
-    "fecha_publicacion": "20161102",
-    "fecha_vigencia": "20161122",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "76363",
-    "pagina_final": "76364",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2016/11/02/pdfs/BOE-A-2016-10108.pdf",
-    "url_pdf_catalan": null,
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": null,
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/res/2016/10/07/(5)"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2016-10108"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2016-10-07"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "(5)"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2016-10108"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2016-10-07"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(5)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)"
-              },
-              "eli:consolidated_by": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 7 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2016-11-02"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2016-10108"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2016-10-07"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "(5)"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2016-10108"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2016-10-07"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(5)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)"
+                },
+                "eli:consolidated_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 7 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2016-11-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2016-10108"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2016-10-07"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(5)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2016-11-02"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 7 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2016-11-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102/spa"
                         }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa"
-                        }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa/xml",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof/spa"
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2016-10108"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2016-10-07"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(5)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2016-11-02"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 7 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2016-11-02"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/07/(5)/con/20161102/spa"
                       }
                     }
                   }
                 }
               }
             }
+          ]
+        }
+      }
+    },
+    "analisis": {
+      "notas": null,
+      "materias": {
+        "materia": [
+          {
+            "@codigo": "1508",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "93",
+            "@orden": "",
+            "#text": "Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "4165",
+            "@orden": "",
+            "#text": "Informaci\u00f3n"
+          },
+          {
+            "@codigo": "4170",
+            "@orden": "",
+            "#text": "Inform\u00e1tica"
+          },
+          {
+            "@codigo": "4506",
+            "@orden": "",
+            "#text": "Internet"
+          },
+          {
+            "@codigo": "5163",
+            "@orden": "",
+            "#text": "Normas de calidad"
+          },
+          {
+            "@codigo": "5923",
+            "@orden": "",
+            "#text": "Redes de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "9371",
+            "@orden": "",
+            "#text": "Secretar\u00eda de Estado de Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "4189",
+            "@orden": "",
+            "#text": "Seguridad inform\u00e1tica"
           }
         ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": null,
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "1508",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "93",
-          "@orden": "",
-          "#text": "Administraciones P\u00fablicas"
-        },{
-          "@codigo": "4165",
-          "@orden": "",
-          "#text": "Informaci\u00f3n"
-        },{
-          "@codigo": "4170",
-          "@orden": "",
-          "#text": "Inform\u00e1tica"
-        },{
-          "@codigo": "4506",
-          "@orden": "",
-          "#text": "Internet"
-        },{
-          "@codigo": "5163",
-          "@orden": "",
-          "#text": "Normas de calidad"
-        },{
-          "@codigo": "5923",
-          "@orden": "",
-          "#text": "Redes de telecomunicaci\u00f3n"
-        },{
-          "@codigo": "9371",
-          "@orden": "",
-          "#text": "Secretar\u00eda de Estado de Administraciones P\u00fablicas"
-        },{
-          "@codigo": "4189",
-          "@orden": "",
-          "#text": "Seguridad inform\u00e1tica"
-        }
-      ]
-    },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "143",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "121",
-          "@orden": "",
-          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": {
-          "@referencia": "BOE-A-2010-1330",
-          "@orden": "3060",
-          "palabra": {
-            "@codigo": "440",
-            "#text": "DE CONFORMIDAD con"
-          },
-          "texto": "el art. 29.2 del Real Decreto 3/2010, de 8 de enero"
-        }
       },
-      "posteriores": null
-    }
-  },
-  "texto": {
-    "p": [
-      {
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "La Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos estableci\u00f3 el Esquema Nacional de Seguridad que, aprobado mediante Real Decreto 3/2010, de 8 de enero, tiene por objeto determinar la pol\u00edtica de seguridad en la utilizaci\u00f3n de medios electr\u00f3nicos en su \u00e1mbito de aplicaci\u00f3n y estar\u00e1 constituido por los principios b\u00e1sicos y requisitos m\u00ednimos que permitan una protecci\u00f3n adecuada de la informaci\u00f3n. Posteriormente, la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, recoge el Esquema Nacional de Seguridad en su art\u00edculo 156 apartado 2 en similares t\u00e9rminos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "El Real Decreto 3/2010, de 8 de enero, prev\u00e9 en su art\u00edculo 29 apartado 2 que el Ministerio de Hacienda y Administraciones P\u00fablicas, a propuesta del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica previsto en el art\u00edculo 40 de la Ley 11/2007, de 22 de junio, y a iniciativa del Centro Criptol\u00f3gico Nacional, aprobar\u00e1 las instrucciones t\u00e9cnicas de seguridad de obligado cumplimiento y se publicar\u00e1n mediante resoluci\u00f3n de la Secretar\u00eda de Estado de Administraciones P\u00fablicas. Dichas instrucciones t\u00e9cnicas de seguridad son esenciales para lograr una adecuada, homog\u00e9nea y coherente implantaci\u00f3n de los requisitos y medidas recogidos en el Esquema."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "As\u00ed, estas instrucciones t\u00e9cnicas de seguridad, enumeradas en la Disposici\u00f3n Adicional cuarta del citado Real Decreto, entran a regular aspectos concretos que la realidad cotidiana ha mostrado especialmente significativos, tales como: Informe del Estado de la Seguridad; notificaci\u00f3n de incidentes de Seguridad; auditor\u00eda de la Seguridad; conformidad con el Esquema Nacional de Seguridad; adquisici\u00f3n de Productos de Seguridad; criptolog\u00eda de empleo en el Esquema Nacional de Seguridad; interconexi\u00f3n en el Esquema Nacional de Seguridad y Requisitos de Seguridad en entornos externalizados, sin perjuicio de las propuestas que pueda acordar el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica, seg\u00fan lo establecido en el citado art\u00edculo 29."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Estas instrucciones t\u00e9cnicas de seguridad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n electr\u00f3nica, las infraestructuras que los apoyan, la evoluci\u00f3n tecnol\u00f3gica y los riesgos derivados de operar en el ciberespacio."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "En particular, la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe Nacional del Estado de la Seguridad, establece las condiciones relativas a la recopilaci\u00f3n y comunicaci\u00f3n de datos que permita conocer las principales variables de la seguridad de la informaci\u00f3n de los sistemas comprendidos en el \u00e1mbito de aplicaci\u00f3n del Esquema Nacional de Seguridad, y confeccionar un perfil general del estado de la ciberseguridad en las Administraciones p\u00fablicas, al objeto de poder dar adecuada respuesta al mandato del art\u00edculo 35 del Real Decreto 3/2010, de 8 de enero."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Esta Resoluci\u00f3n se aprueba en aplicaci\u00f3n de lo dispuesto en el art\u00edculo 29 apartado 2 del Real Decreto 3/2010, de 8 de enero, a propuesta del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica y a iniciativa del Centro Criptol\u00f3gico Nacional. En virtud de lo anterior, esta Secretar\u00eda de Estado resuelve:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "articulo",
-        "#text": "Primero."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Aprobar la Instrucci\u00f3n T\u00e9cnica de Seguridad \u00abInforme del Estado de la Seguridad\u00bb, cuyo texto se incluye a continuaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "articulo",
-        "#text": "Segundo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Ordenar su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "Madrid, 7 de octubre de 2016.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "centro_negrita",
-        "#text": "INSTRUCCI\u00d3N T\u00c9CNICA DE SEGURIDAD DE INFORME DEL ESTADO DE LA SEGURIDAD"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "centro_redonda",
-        "#text": "\u00cdNDICE"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "I.\tObjeto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II.\t\u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.\tRecopilaci\u00f3n y comunicaci\u00f3n de datos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "IV.\tTratamiento de datos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "I. Objeto: La Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad tiene por objeto establecer las condiciones relativas a la recopilaci\u00f3n y comunicaci\u00f3n de datos que permita conocer las principales variables de la seguridad de la informaci\u00f3n de los sistemas comprendidos en el \u00e1mbito de aplicaci\u00f3n del Esquema Nacional de Seguridad, y confeccionar un perfil general del estado de la ciberseguridad en las Administraciones p\u00fablicas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II. \u00c1mbito de aplicaci\u00f3n: La presente Instrucci\u00f3n T\u00e9cnica de Seguridad ser\u00e1 de aplicaci\u00f3n a los sistemas de informaci\u00f3n comprendidos en lo dispuesto en el art\u00edculo 3 del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la administraci\u00f3n electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III. Recopilaci\u00f3n y comunicaci\u00f3n de datos:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.1 Las entidades p\u00fablicas comprendidas en el \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad recopilar\u00e1n los datos de las diferentes variables de seguridad conforme a lo dispuesto en la medida \u00absistema de m\u00e9tricas [op.mon.2]\u00bb del Anexo II del Real Decreto 3/2010, de 8 de enero."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.2 Las entidades p\u00fablicas a las que se refiere el punto anterior comunicar\u00e1n, al menos con car\u00e1cter anual, el estado de las principales variables de seguridad de aquellos sistemas de informaci\u00f3n que se encuentren bajo su responsabilidad."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.3 Para la comunicaci\u00f3n a la que se refiere el punto anterior, el Responsable de Seguridad de los sistemas de informaci\u00f3n afectados de la entidad p\u00fablica, o en quien este delegue, utilizar\u00e1 la herramienta relativa al Informe Nacional del Estado de la Seguridad (INES), al que tendr\u00e1 acceso, previa identificaci\u00f3n, en el siguiente enlace: https://www.ccn-cert.cni.es/herramientas-de-ciberseguridad/ines.html"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.4 El Centro Criptol\u00f3gico Nacional, en cumplimiento del art\u00edculo 29 apartado 1 del Real Decreto 3/2010, de 8 de enero mantendr\u00e1 un Manual de Usuario de la herramienta INES, permanentemente actualizado a trav\u00e9s de la gu\u00eda de seguridad CCN-STIC 844."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "IV. Tratamiento de datos:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "IV.1 Los datos que la herramienta INES requerir\u00e1 de la entidad p\u00fablica del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad son los que se se\u00f1alan en la gu\u00eda de seguridad CCN-STIC 824 Informe del Estado de Seguridad, que el Centro Criptol\u00f3gico Nacional mantendr\u00e1 permanentemente actualizada y, en general, estar\u00e1n referidos a identificaci\u00f3n de la entidad, datos generales, organizaci\u00f3n de la seguridad, procesos cr\u00edticos, concienciaci\u00f3n y formaci\u00f3n, gesti\u00f3n de incidentes, recursos y presupuestos, auditor\u00eda, indicadores cr\u00edticos de riesgo y medidas de seguridad, seg\u00fan lo descrito en la gu\u00eda de seguridad CCN-STIC-815 sobre M\u00e9tricas e Indicadores para el Esquema Nacional de Seguridad."
+      "alertas": {
+        "alerta": [
+          {
+            "@codigo": "143",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "121",
+            "@orden": "",
+            "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+          },
+          {
+            "@codigo": "130",
+            "@orden": "",
+            "#text": "Telecomunicaciones"
+          }
+        ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": {
+            "@referencia": "BOE-A-2010-1330",
+            "@orden": "3060",
+            "palabra": {
+              "@codigo": "440",
+              "#text": "DE CONFORMIDAD con"
+            },
+            "texto": "el art. 29.2 del Real Decreto 3/2010, de 8 de enero"
+          }
+        },
+        "posteriores": null
       }
-    ]
+    },
+    "texto": {
+      "p": [
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "La Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos estableci\u00f3 el Esquema Nacional de Seguridad que, aprobado mediante Real Decreto 3/2010, de 8 de enero, tiene por objeto determinar la pol\u00edtica de seguridad en la utilizaci\u00f3n de medios electr\u00f3nicos en su \u00e1mbito de aplicaci\u00f3n y estar\u00e1 constituido por los principios b\u00e1sicos y requisitos m\u00ednimos que permitan una protecci\u00f3n adecuada de la informaci\u00f3n. Posteriormente, la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, recoge el Esquema Nacional de Seguridad en su art\u00edculo 156 apartado 2 en similares t\u00e9rminos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "El Real Decreto 3/2010, de 8 de enero, prev\u00e9 en su art\u00edculo 29 apartado 2 que el Ministerio de Hacienda y Administraciones P\u00fablicas, a propuesta del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica previsto en el art\u00edculo 40 de la Ley 11/2007, de 22 de junio, y a iniciativa del Centro Criptol\u00f3gico Nacional, aprobar\u00e1 las instrucciones t\u00e9cnicas de seguridad de obligado cumplimiento y se publicar\u00e1n mediante resoluci\u00f3n de la Secretar\u00eda de Estado de Administraciones P\u00fablicas. Dichas instrucciones t\u00e9cnicas de seguridad son esenciales para lograr una adecuada, homog\u00e9nea y coherente implantaci\u00f3n de los requisitos y medidas recogidos en el Esquema."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "As\u00ed, estas instrucciones t\u00e9cnicas de seguridad, enumeradas en la Disposici\u00f3n Adicional cuarta del citado Real Decreto, entran a regular aspectos concretos que la realidad cotidiana ha mostrado especialmente significativos, tales como: Informe del Estado de la Seguridad; notificaci\u00f3n de incidentes de Seguridad; auditor\u00eda de la Seguridad; conformidad con el Esquema Nacional de Seguridad; adquisici\u00f3n de Productos de Seguridad; criptolog\u00eda de empleo en el Esquema Nacional de Seguridad; interconexi\u00f3n en el Esquema Nacional de Seguridad y Requisitos de Seguridad en entornos externalizados, sin perjuicio de las propuestas que pueda acordar el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica, seg\u00fan lo establecido en el citado art\u00edculo 29."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Estas instrucciones t\u00e9cnicas de seguridad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n electr\u00f3nica, las infraestructuras que los apoyan, la evoluci\u00f3n tecnol\u00f3gica y los riesgos derivados de operar en el ciberespacio."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "En particular, la Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe Nacional del Estado de la Seguridad, establece las condiciones relativas a la recopilaci\u00f3n y comunicaci\u00f3n de datos que permita conocer las principales variables de la seguridad de la informaci\u00f3n de los sistemas comprendidos en el \u00e1mbito de aplicaci\u00f3n del Esquema Nacional de Seguridad, y confeccionar un perfil general del estado de la ciberseguridad en las Administraciones p\u00fablicas, al objeto de poder dar adecuada respuesta al mandato del art\u00edculo 35 del Real Decreto 3/2010, de 8 de enero."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Esta Resoluci\u00f3n se aprueba en aplicaci\u00f3n de lo dispuesto en el art\u00edculo 29 apartado 2 del Real Decreto 3/2010, de 8 de enero, a propuesta del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica y a iniciativa del Centro Criptol\u00f3gico Nacional. En virtud de lo anterior, esta Secretar\u00eda de Estado resuelve:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "articulo",
+          "#text": "Primero."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Aprobar la Instrucci\u00f3n T\u00e9cnica de Seguridad \u00abInforme del Estado de la Seguridad\u00bb, cuyo texto se incluye a continuaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "articulo",
+          "#text": "Segundo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Ordenar su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "Madrid, 7 de octubre de 2016.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "centro_negrita",
+          "#text": "INSTRUCCI\u00d3N T\u00c9CNICA DE SEGURIDAD DE INFORME DEL ESTADO DE LA SEGURIDAD"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "centro_redonda",
+          "#text": "\u00cdNDICE"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "I.\tObjeto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II.\t\u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.\tRecopilaci\u00f3n y comunicaci\u00f3n de datos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "IV.\tTratamiento de datos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "I. Objeto: La Instrucci\u00f3n T\u00e9cnica de Seguridad de Informe del Estado de la Seguridad tiene por objeto establecer las condiciones relativas a la recopilaci\u00f3n y comunicaci\u00f3n de datos que permita conocer las principales variables de la seguridad de la informaci\u00f3n de los sistemas comprendidos en el \u00e1mbito de aplicaci\u00f3n del Esquema Nacional de Seguridad, y confeccionar un perfil general del estado de la ciberseguridad en las Administraciones p\u00fablicas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II. \u00c1mbito de aplicaci\u00f3n: La presente Instrucci\u00f3n T\u00e9cnica de Seguridad ser\u00e1 de aplicaci\u00f3n a los sistemas de informaci\u00f3n comprendidos en lo dispuesto en el art\u00edculo 3 del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la administraci\u00f3n electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III. Recopilaci\u00f3n y comunicaci\u00f3n de datos:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.1 Las entidades p\u00fablicas comprendidas en el \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad recopilar\u00e1n los datos de las diferentes variables de seguridad conforme a lo dispuesto en la medida \u00absistema de m\u00e9tricas [op.mon.2]\u00bb del Anexo II del Real Decreto 3/2010, de 8 de enero."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.2 Las entidades p\u00fablicas a las que se refiere el punto anterior comunicar\u00e1n, al menos con car\u00e1cter anual, el estado de las principales variables de seguridad de aquellos sistemas de informaci\u00f3n que se encuentren bajo su responsabilidad."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.3 Para la comunicaci\u00f3n a la que se refiere el punto anterior, el Responsable de Seguridad de los sistemas de informaci\u00f3n afectados de la entidad p\u00fablica, o en quien este delegue, utilizar\u00e1 la herramienta relativa al Informe Nacional del Estado de la Seguridad (INES), al que tendr\u00e1 acceso, previa identificaci\u00f3n, en el siguiente enlace: https://www.ccn-cert.cni.es/herramientas-de-ciberseguridad/ines.html"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.4 El Centro Criptol\u00f3gico Nacional, en cumplimiento del art\u00edculo 29 apartado 1 del Real Decreto 3/2010, de 8 de enero mantendr\u00e1 un Manual de Usuario de la herramienta INES, permanentemente actualizado a trav\u00e9s de la gu\u00eda de seguridad CCN-STIC 844."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "IV. Tratamiento de datos:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "IV.1 Los datos que la herramienta INES requerir\u00e1 de la entidad p\u00fablica del \u00e1mbito de aplicaci\u00f3n de la presente Instrucci\u00f3n T\u00e9cnica de Seguridad son los que se se\u00f1alan en la gu\u00eda de seguridad CCN-STIC 824 Informe del Estado de Seguridad, que el Centro Criptol\u00f3gico Nacional mantendr\u00e1 permanentemente actualizada y, en general, estar\u00e1n referidos a identificaci\u00f3n de la entidad, datos generales, organizaci\u00f3n de la seguridad, procesos cr\u00edticos, concienciaci\u00f3n y formaci\u00f3n, gesti\u00f3n de incidentes, recursos y presupuestos, auditor\u00eda, indicadores cr\u00edticos de riesgo y medidas de seguridad, seg\u00fan lo descrito en la gu\u00eda de seguridad CCN-STIC-815 sobre M\u00e9tricas e Indicadores para el Esquema Nacional de Seguridad."
+        }
+      ]
+    }
   }
-}
 }

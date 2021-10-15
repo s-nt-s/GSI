@@ -1,1381 +1,1663 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20210603001012",
-  "metadatos": {
-    "identificador": "BOE-A-1993-11252",
-    "titulo": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20210603001012",
+    "metadatos": {
+      "identificador": "BOE-A-1993-11252",
+      "titulo": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "106",
+      "seccion": "1",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "7730",
+        "#text": "Ministerio de Relaciones con las Cortes y de la Secretar\u00eda del Gobierno"
+      },
+      "rango": {
+        "@codigo": "1340",
+        "#text": "Real Decreto"
+      },
+      "numero_oficial": "428/1993",
+      "fecha_disposicion": "19930326",
+      "fecha_publicacion": "19930504",
+      "fecha_vigencia": "19930524",
+      "fecha_derogacion": "20210603",
+      "letra_imagen": "A",
+      "pagina_inicial": "13244",
+      "pagina_final": "13250",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "S",
+      "estatus_derogacion": "S",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/1993/05/04/pdfs/A13244-13250.pdf",
+      "url_pdf_catalan": null,
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": null,
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/rd/1993/03/26/428"
     },
-    "diario_numero": "106",
-    "seccion": "1",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "7730",
-      "#text": "Ministerio de Relaciones con las Cortes y de la Secretar\u00eda del Gobierno"
-    },
-    "rango": {
-      "@codigo": "1340",
-      "#text": "Real Decreto"
-    },
-    "numero_oficial": "428/1993",
-    "fecha_disposicion": "19930326",
-    "fecha_publicacion": "19930504",
-    "fecha_vigencia": "19930524",
-    "fecha_derogacion": "20210603",
-    "letra_imagen": "A",
-    "pagina_inicial": "13244",
-    "pagina_final": "13250",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "S",
-    "estatus_derogacion": "S",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/1993/05/04/pdfs/A13244-13250.pdf",
-    "url_pdf_catalan": null,
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": null,
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/rd/1993/03/26/428"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-1993-11252"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "1993-03-26"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "428"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-1993-11252"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "1993-03-26"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "428"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
-              },
-              "eli:consolidated_by": [
-                {
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504"
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-1993-11252"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "1993-03-26"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "428"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-1993-11252"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "1993-03-26"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "428"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
+                },
+                "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504"
+                  }
+                ],
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "1993-05-04"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
                 }
-              ],
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "1993-05-04"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-1993-11252"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "1993-03-26"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "428"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2021-06-02"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2021-06-02"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602/spa"
                         }
                       }
-                    },{
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-1993-11252"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "1993-03-26"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "428"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2008-11-05"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2008-11-05"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa/pdf",
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105/spa/html",
                         "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105/spa"
                         }
                       }
-                    },{
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-1993-11252"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "1993-03-26"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "428"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "1996-02-12"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "1996-02-12"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa/xml",
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212/spa/html",
                         "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212/spa"
                         }
                       }
                     }
-                  ]
+                  }
                 }
               }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-1993-11252"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "1993-03-26"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "428"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2021-06-02"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2021-06-02"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20210602/spa"
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-1993-11252"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "1993-03-26"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "428"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "1993-05-04"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "1993-05-04"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504/spa"
+                        }
                       }
                     }
                   }
                 }
               }
             }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-1993-11252"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "1993-03-26"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "428"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2008-11-05"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2008-11-05"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/20081105/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-1993-11252"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "1993-03-26"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "428"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "1996-02-12"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "1996-02-12"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19960212/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-1993-11252"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "1993-03-26"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "428"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "1993-05-04"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 428/1993, de 26 de marzo, por el que se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "1993-05-04"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/1993/03/26/428/con/19930504/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": null,
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "113",
-          "@orden": "1",
-          "#text": "Agencia de Protecci\u00f3n de Datos"
-        },{
-          "@codigo": "3685",
-          "@orden": "2",
-          "#text": "Ficheros con datos personales"
-        },{
-          "@codigo": "6000",
-          "@orden": "3",
-          "#text": "Registro General de Protecci\u00f3n de Datos"
+          ]
         }
-      ]
-    },
-    "alertas": {
-      "alerta": {
-        "@codigo": "111",
-        "@orden": "1",
-        "#text": "Derecho Constitucional"
       }
     },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+    "analisis": {
+      "notas": null,
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-1992-24189",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "el art. 34.2 y la disposici\u00f3n final 1 de la Ley Org\u00e1nica 5/1992, de 29 de octubre"
-          },{
-            "@referencia": "BOE-A-1992-26318",
-            "@orden": "5020",
-            "palabra": {
-              "@codigo": "330",
-              "#text": "CITA"
-            },
-            "texto": "Ley 30/1992, de 26 de noviembre"
-          },{
-            "@referencia": "BOE-A-1989-10767",
-            "@orden": "5020",
-            "palabra": {
-              "@codigo": "330",
-              "#text": "CITA"
-            },
-            "texto": "Ley 12/1989, de 9 de mayo"
-          },{
-            "@referencia": "BOE-A-1988-22572",
-            "@orden": "5020",
-            "palabra": {
-              "@codigo": "330",
-              "#text": "CITA"
-            },
-            "texto": "Ley General presupuestaria, texto refundido aprobado por Real Decreto Legislativo 1091/1988, de 23 de septiembre"
-          },{
-            "@referencia": "BOE-A-1985-23447",
-            "@orden": "5020",
-            "palabra": {
-              "@codigo": "330",
-              "#text": "CITA"
-            },
-            "texto": "Convenio de 28 de enero de 1981"
-          },{
-            "@referencia": "BOE-A-1984-1346",
-            "@orden": "5020",
-            "palabra": {
-              "@codigo": "330",
-              "#text": "CITA"
-            },
-            "texto": "plan aprobado por Resoluci\u00f3n de 11 de noviembre de 1983"
-          },{
-            "@referencia": "BOE-A-1983-33885",
-            "@orden": "5020",
-            "palabra": {
-              "@codigo": "330",
-              "#text": "CITA"
-            },
-            "texto": "Ley 25/1983, de 26 de diciembre"
+            "@codigo": "113",
+            "@orden": "1",
+            "#text": "Agencia de Protecci\u00f3n de Datos"
+          },
+          {
+            "@codigo": "3685",
+            "@orden": "2",
+            "#text": "Ficheros con datos personales"
+          },
+          {
+            "@codigo": "6000",
+            "@orden": "3",
+            "#text": "Registro General de Protecci\u00f3n de Datos"
           }
         ]
       },
-      "posteriores": {
-        "posterior": [
-          {
-            "@referencia": "BOE-A-2021-9175",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "SE DEROGA"
+      "alertas": {
+        "alerta": {
+          "@codigo": "111",
+          "@orden": "1",
+          "#text": "Derecho Constitucional"
+        }
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-1992-24189",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "el art. 34.2 y la disposici\u00f3n final 1 de la Ley Org\u00e1nica 5/1992, de 29 de octubre"
             },
-            "texto": ", por Real Decreto 389/2021, de 1 de junio"
-          },{
-            "@referencia": "BOE-A-2008-17711",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "407",
-              "#text": "SE A\u00d1ADE"
+            {
+              "@referencia": "BOE-A-1992-26318",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Ley 30/1992, de 26 de noviembre"
             },
-            "texto": "un art. 13 bis, por Real Decreto 1665/2008, de 17 de octubre"
-          },{
-            "@referencia": "BOE-A-1996-2991",
-            "@orden": "1",
-            "palabra": {
-              "@codigo": "407",
-              "#text": "SE A\u00d1ADE"
+            {
+              "@referencia": "BOE-A-1989-10767",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Ley 12/1989, de 9 de mayo"
             },
-            "texto": "un apartado 3 al art. 9, por Real Decreto 156/1996, de 2 de febrero"
-          },{
-            "@referencia": "BOE-A-2013-13231",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "SE DICTA DE CONFORMIDAD"
+            {
+              "@referencia": "BOE-A-1988-22572",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Ley General presupuestaria, texto refundido aprobado por Real Decreto Legislativo 1091/1988, de 23 de septiembre"
             },
-            "texto": "con el art. 5.b) y se regula el sistema de informaci\u00f3n para la Autonom\u00eda y Atenci\u00f3n a la Dependencia : Orden SSI/2371/2013, de 17 de diciembre"
-          },{
-            "@referencia": "BOE-A-2006-16580",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "SE DICTA DE CONFORMIDAD"
+            {
+              "@referencia": "BOE-A-1985-23447",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Convenio de 28 de enero de 1981"
             },
-            "texto": "con el art. 7, determinando la informaci\u00f3n que contiene el cat\u00e1logo de ficheros inscritos en el registro general: Resoluci\u00f3n de 1 de septiembre de 2006"
-          },{
-            "@referencia": "BOE-A-1994-3920",
-            "@orden": "2",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "SE DICTA DE CONFORMIDAD"
+            {
+              "@referencia": "BOE-A-1984-1346",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "plan aprobado por Resoluci\u00f3n de 11 de noviembre de 1983"
             },
-            "texto": ", sobre Creaci\u00f3n de Fichero Automatizado de Datos de car\u00e1cter personal: Orden de 11 de febrero de 1994"
-          }
-        ]
+            {
+              "@referencia": "BOE-A-1983-33885",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Ley 25/1983, de 26 de diciembre"
+            }
+          ]
+        },
+        "posteriores": {
+          "posterior": [
+            {
+              "@referencia": "BOE-A-2021-9175",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "SE DEROGA"
+              },
+              "texto": ", por Real Decreto 389/2021, de 1 de junio"
+            },
+            {
+              "@referencia": "BOE-A-2008-17711",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "407",
+                "#text": "SE A\u00d1ADE"
+              },
+              "texto": "un art. 13 bis, por Real Decreto 1665/2008, de 17 de octubre"
+            },
+            {
+              "@referencia": "BOE-A-1996-2991",
+              "@orden": "1",
+              "palabra": {
+                "@codigo": "407",
+                "#text": "SE A\u00d1ADE"
+              },
+              "texto": "un apartado 3 al art. 9, por Real Decreto 156/1996, de 2 de febrero"
+            },
+            {
+              "@referencia": "BOE-A-2013-13231",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "con el art. 5.b) y se regula el sistema de informaci\u00f3n para la Autonom\u00eda y Atenci\u00f3n a la Dependencia : Orden SSI/2371/2013, de 17 de diciembre"
+            },
+            {
+              "@referencia": "BOE-A-2006-16580",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "con el art. 7, determinando la informaci\u00f3n que contiene el cat\u00e1logo de ficheros inscritos en el registro general: Resoluci\u00f3n de 1 de septiembre de 2006"
+            },
+            {
+              "@referencia": "BOE-A-1994-3920",
+              "@orden": "2",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": ", sobre Creaci\u00f3n de Fichero Automatizado de Datos de car\u00e1cter personal: Orden de 11 de febrero de 1994"
+            }
+          ]
+        }
       }
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "parrafo",
+          "#text": "El t\u00edtulo VI de la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal, ha configurado la Agencia de Protecci\u00f3n de Datos como el ente independiente que debe garantizar el cumplimiento de las previsiones y mandatos en ella establecidos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Algunos aspectos de dicho ente han sido objeto de regulaci\u00f3n en la propia Ley que, no obstante, no ha agotado la materia y ha encomendado al Gobierno la regulaci\u00f3n de la estructura org\u00e1nica y la aprobaci\u00f3n del Estatuto de la Agencia de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Por medio de la presente disposici\u00f3n se procede a cumplimentar el doble mandato integrando la estructura del ente en su Estatuto propio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En su virtud, a propuesta de los Ministros de Justicia y para las Administraciones P\u00fablicas, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 26 de marzo de 1993,"
+        },
+        {
+          "@class": "subseccion",
+          "#text": "D I S P O N G O :"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo \u00fanico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "De conformidad con lo dispuesto en el art\u00edculo 34.2 y en la disposici\u00f3n final primera de la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal, se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos, cuyo texto se inserta a continuaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional \u00fanica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Por el Ministerio de Econom\u00eda y Hacienda se habilitar\u00e1n los cr\u00e9ditos necesarios para la instalaci\u00f3n y funcionamiento de la Agencia de Protecci\u00f3n de Datos, en tanto no sea aprobado el primer presupuesto de gastos e ingresos de la misma."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final \u00fanica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente Real Decreto entrar\u00e1 en vigor a los veinte d\u00edas de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Dado en Madrid a 26 de marzo de 1993."
+        },
+        {
+          "@class": "firma_rey",
+          "#text": "JUAN CARLOS R."
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "El Ministro de Relaciones con las Cortes"
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "y de la Secretar\u00eda del Gobierno,"
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "VIRGILIO ZAPATERO G\u00d3MEZ"
+        },
+        {
+          "@class": "anexo",
+          "#text": "[encabezado]ESTATUTO DE LA AGENCIA DE PROTECCI\u00d3N DE DATOS"
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "Cap\u00edtulo I"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Disposiciones generales"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 1. La Agencia de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos es un ente de Derecho p\u00fablico de los previstos en el art\u00edculo 6, apartado 5, del texto refundido de la Ley General Presupuestaria, aprobado por Real Decreto legislativo 1091/1988, de 23 de septiembre, que tiene por objeto la garant\u00eda del cumplimiento y aplicaci\u00f3n de las previsiones contenidas en la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La Agencia de Protecci\u00f3n de Datos act\u00faa con plena independencia de las Administraciones P\u00fablicas en el ejercicio de sus funciones y se relaciona con el Gobierno a trav\u00e9s del Ministerio de Justicia."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 2. R\u00e9gimen jur\u00eddico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos goza de personalidad jur\u00eddica propia y plena capacidad p\u00fablica y privada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La Agencia de Protecci\u00f3n de Datos se regir\u00e1 por las disposiciones legales y reglamentarias siguientes:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) El t\u00edtulo VI de la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) El presente Estatuto y las dem\u00e1s disposiciones de desarrollo de la Ley Org\u00e1nica 5/1992."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) En defecto de las anteriores, y para el ejercicio de sus funciones p\u00fablicas, las normas de procedimiento contenidas en la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Los preceptos de la Ley General Presupuestaria, texto refundido aprobado por Real Decreto legislativo 1091/1988, de 23 de septiembre, que resulten de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Cuantas otras disposiciones resulten de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. La Agencia ejercer\u00e1 sus funciones por medio del Director, a cuyo efecto los actos del Director se consideran actos de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Los actos dictados por el Director en el ejercicio de las funciones p\u00fablicas de la Agencia agotan la v\u00eda administrativa. Contra ellos se podr\u00e1n interponer los recursos contencioso-administrativos que resulten procedentes."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "Cap\u00edtulo II"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Funciones de la Agencia de Protecci\u00f3n de Datos"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 3. Funciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Corresponde a la Agencia de Protecci\u00f3n de Datos ejercer las funciones que le atribuye el art\u00edculo 36 de la Ley Org\u00e1nica 5/1992."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. A este efecto la Agencia de Protecci\u00f3n de Datos podr\u00e1 dirigirse directamente a los titulares y responsables de cualesquiera ficheros de datos de car\u00e1cter personal."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 4. Relaciones con los afectados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos informar\u00e1 a las personas de los derechos que la Ley les reconoce en relaci\u00f3n con el tratamiento automatizado de sus datos de car\u00e1cter personal y a tal efecto podr\u00e1 promover campa\u00f1as de difusi\u00f3n, vali\u00e9ndose de los medios de comunicaci\u00f3n social."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La Agencia atender\u00e1 las peticiones que le dirijan los afectados y resolver\u00e1 las reclamaciones formuladas por los mismos, sin perjuicio de las v\u00edas de recurso procedentes."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 5. Cooperaci\u00f3n en la elaboraci\u00f3n y aplicaci\u00f3n de las normas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Agencia de Protecci\u00f3n de Datos colaborar\u00e1 con los \u00f3rganos competentes en lo que respecta al desarrollo normativo y aplicaci\u00f3n de las normas que incidan en materia propia de la Ley Org\u00e1nica 5/1992, y a tal efecto:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Informar\u00e1 preceptivamente los proyectos de disposiciones generales de desarrollo de la Ley Org\u00e1nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Informar\u00e1 preceptivamente cualesquiera proyectos de ley o reglamento que incidan en la materia propia de la Ley Org\u00e1nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Dictar\u00e1 instrucciones y recomendaciones precisas para adecuar los tratamientos automatizados a los principios de la Ley Org\u00e1nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Dictar\u00e1 recomendaciones de aplicaci\u00f3n de las disposiciones legales y reglamentarias en materia de seguridad de los datos y control de acceso a los ficheros."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 6. Ficheros estad\u00edsticos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Agencia de Protecci\u00f3n de Datos ejercer\u00e1 el control de la observancia de lo dispuesto en los art\u00edculos 4, 7 y 10 a 22 de la Ley 12/1989, de 9 de mayo, de la Funci\u00f3n Estad\u00edstica P\u00fablica, y en especial:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Informar\u00e1 con car\u00e1cter preceptivo el contenido y formato de los cuestionarios, hojas censuales y otros documentos de recogida de datos con fines estad\u00edsticos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Dictaminar\u00e1 sobre los procesos de recogida y tratamiento automatizado de los datos personales a efectos estad\u00edsticos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Informar\u00e1 sobre los proyectos de ley por los que se exijan datos con car\u00e1cter obligatorio y su adecuaci\u00f3n a lo dispuesto en el art\u00edculo 7 de la Ley de la Funci\u00f3n Estad\u00edstica P\u00fablica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Dictaminar\u00e1 sobre las condiciones de seguridad de los ficheros constituidos con fines exclusivamente estad\u00edsticos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 7. Publicidad de los ficheros automatizados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Agencia de Protecci\u00f3n de Datos velar\u00e1 por la publicidad de la existencia de los ficheros automatizados de datos de car\u00e1cter personal, a cuyo efecto publicar\u00e1 y difundir\u00e1 un cat\u00e1logo anual de los ficheros inscritos en el Registro General de Protecci\u00f3n de Datos, con expresi\u00f3n de la informaci\u00f3n que al amparo de lo dispuesto en el art\u00edculo 36, j), de la Ley Org\u00e1nica 5/1992, determine el Director."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 8. Memoria anual."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos redactar\u00e1 una Memoria anual sobre la aplicaci\u00f3n de la Ley Org\u00e1nica 5/1992, y de las dem\u00e1s disposiciones legales y reglamentarias sobre protecci\u00f3n de datos, la cual comprender\u00e1, adem\u00e1s de la informaci\u00f3n necesaria sobre el funcionamiento de la Agencia:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Una relaci\u00f3n de los c\u00f3digos tipo depositados e inscritos en el Registro General de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Un an\u00e1lisis de las tendencias legislativas, jurisprudenciales y doctrinales de los distintos pa\u00edses en materia de protecci\u00f3n de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Un an\u00e1lisis y una valoraci\u00f3n de los problemas de la protecci\u00f3n de datos a escala nacional."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La Memoria anual ser\u00e1 remitida por el Director al Ministro de Justicia, para su ulterior env\u00edo a las Cortes Generales."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 9. Relaciones internacionales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Corresponde a la Agencia de Protecci\u00f3n de Datos la cooperaci\u00f3n con organismos internacionales y \u00f3rganos de las Comunidades Europeas en materia de protecci\u00f3n de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La Agencia prestar\u00e1 asistencia a las autoridades designadas por los Estados parte en el Convenio del Consejo de Europa de 28 de enero de 1981, sobre protecci\u00f3n de las personas en relaci\u00f3n con el tratamiento automatizado de los datos de car\u00e1cter personal, a los efectos previstos en el art\u00edculo 13 del Convenio."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 10. Sistema de Informaci\u00f3n Schengen."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos ejercer\u00e1 el control de los datos de car\u00e1cter personal introducidos en la parte nacional espa\u00f1ola de la base de datos del Sistema de Informaci\u00f3n Schengen (SIS)."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Director de la Agencia designar\u00e1 dos representantes para la autoridad de control com\u00fan de protecci\u00f3n de datos del Sistema de Informaci\u00f3n Schengen."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "Cap\u00edtulo III"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Organos de la Agencia de Protecci\u00f3n de Datos"
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 1. Estructura org\u00e1nica de la Agencia de Protecci\u00f3n de Datos"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 11. Estructura org\u00e1nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Agencia de Protecci\u00f3n de Datos se estructura en los siguientes \u00f3rganos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El Registro General de Protecci\u00f3n de Datos, la Inspecci\u00f3n de Datos y la Secretar\u00eda General, como \u00f3rganos jer\u00e1rquicamente dependientes del Director de la Agencia."
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 2. El Director de la Agencia de Protecci\u00f3n de Datos"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 12. Funciones de direcci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos dirige la Agencia y ostenta su representaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Corresponde al Director de la Agencia de Protecci\u00f3n de Datos dictar las resoluciones e instrucciones que requiera el ejercicio de las funciones de la Agencia y, en especial:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Resolver motivadamente sobre la procedencia o improcedencia de las inscripciones que deban practicarse en el Registro General de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Requerir a los responsables de ficheros de titularidad privada a que subsanen deficiencias de los c\u00f3digos tipo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Resolver motivadamente, previo informe del responsable del fichero, sobre la procedencia o improcedencia de la denegaci\u00f3n, total o parcial, del acceso a los ficheros policiales o tributarios automatizados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Autorizar transferencias temporales o definitivas de datos que hayan sido objeto de tratamiento automatizado o recogidos a tal efecto, con destino a pa\u00edses cuya legislaci\u00f3n no ofrezca un nivel de protecci\u00f3n equiparable al de la Ley Org\u00e1nica 5/1992 y el presente estatuto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Convocar regularmente a los \u00f3rganos competentes de las Comunidades Aut\u00f3nomas a efectos de cooperaci\u00f3n institucional y coordinaci\u00f3n de criterios o procedimientos de actuaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Recabar de las distintas Administraciones P\u00fablicas la informaci\u00f3n necesaria para el cumplimiento de sus funciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) Solicitar de los \u00f3rganos correspondientes de las Comunidades Aut\u00f3nomas, a que se refiere el art\u00edculo 40 de la Ley Org\u00e1nica 5/1992, la informaci\u00f3n necesaria para el cumplimiento de sus funciones, as\u00ed como facilitar a aqu\u00e9llos la informaci\u00f3n que le soliciten a id\u00e9nticos efectos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "h) Adoptar las medidas cautelares y provisionales que requiera el ejercicio de la potestad sancionadora de la Agencia con relaci\u00f3n a los responsables de los ficheros privados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) Iniciar, impulsar la instrucci\u00f3n y resolver los expedientes sancionadores referentes a los responsables de los ficheros privados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "j) Instar la incoaci\u00f3n de expedientes disciplinarios en los casos de infracciones cometidas por \u00f3rganos responsables de ficheros de las Administraciones P\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "k) Autorizar la entrada en los locales en los que se hallen los ficheros, con el fin de proceder a las inspecciones pertinentes, sin perjuicio de la aplicaci\u00f3n de las reglas que garantizan la inviolabilidad del domicilio."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 13. Funciones de gesti\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Corresponde asimismo al Director de la Agencia de Protecci\u00f3n de Datos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Adjudicar y formalizar los contratos que requiera la gesti\u00f3n de la Agencia y vigilar su cumplimiento y ejecuci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Aprobar gastos y ordenar pagos, dentro de los l\u00edmites de los cr\u00e9ditos del presupuesto de gastos de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Ejercer el control econ\u00f3mico-financiero de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Programar la gesti\u00f3n de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Elaborar el anteproyecto de presupuesto de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Proponer la relaci\u00f3n de puestos de trabajo de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) Aprobar la Memoria anual de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "h) Ordenar la convocatoria de las reuniones del Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Director podr\u00e1 delegar en el Secretario general el ejercicio de las funciones a que se refieren las letras a), b), d), e) y f) del apartado anterior."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 14. Nombramiento y mandato."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos ser\u00e1 nombrado por el Gobierno, mediante Real Decreto, a propuesta del Ministro de Justicia, de entre los miembros del Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Director de la Agencia de Protecci\u00f3n de Datos gozar\u00e1 de los mismos honores y tratamiento que los Subsecretarios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El mandato del Director de la Agencia de Protecci\u00f3n de Datos tendr\u00e1 una duraci\u00f3n de cuatro a\u00f1os contados desde su nombramiento y s\u00f3lo cesar\u00e1 por las causas previstas en el art\u00edculo 15 del presente Estatuto."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 15. Cese y separaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos cesar\u00e1 en el desempe\u00f1o de su cargo por la expiraci\u00f3n de su mandado o, con anterioridad, a petici\u00f3n propia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Gobierno s\u00f3lo podr\u00e1 acordar la separaci\u00f3n del Director de la Agencia de Protecci\u00f3n de Datos antes de que hubiera expirado el plazo de su mandato en los casos siguientes:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Incumplimiento grave de las obligaciones del cargo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Incapacidad sobrevenida para el ejercicio de sus funciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Incompatibilidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Condena por delito doloso."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La separaci\u00f3n se acordar\u00e1 por el Gobierno, mediante Real Decreto a propuesta del Ministro de Justicia, previa instrucci\u00f3n de expediente, en el cual ser\u00e1n o\u00eddos los restantes miembros del Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El cargo de Director de la Agencia de Protecci\u00f3n de Datos est\u00e1 sujeto a las incompatibilidades que para los altos cargos prev\u00e9 la Ley 25/1983, de 26 de diciembre."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 16. Independencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos desempe\u00f1ar\u00e1 su cargo con dedicaci\u00f3n absoluta, plena independencia y total objetividad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Director no estar\u00e1 sujeto a mandato imperativo, ni recibir\u00e1 instrucciones de autoridad alguna."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 17. Remuneraci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos percibir\u00e1 la remuneraci\u00f3n que en los Presupuestos Generales del Estado tengan asignada los subsecretarios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La remuneraci\u00f3n ser\u00e1 incompatible con la percepci\u00f3n de pensiones de derechos pasivos o de cualquier r\u00e9gimen de Seguridad Social p\u00fablico y obligatorio, quedando en suspenso dichas percepciones durante el plazo de mandato."
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 3. El Consejo Consultivo"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 18. El Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Consejo Consultivo de la Agencia de Protecci\u00f3n de Datos, establecido por el art\u00edculo 37 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, es un \u00f3rgano colegiado de asesoramiento del Director de la Agencia de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Consejo Consultivo emitir\u00e1 informe en todas las cuestiones que le someta el Director de la Agencia de Protecci\u00f3n de Datos y podr\u00e1 formular propuestas en temas relacionados con las materias de competencia de \u00e9sta."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 19. Propuesta y nombramiento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los miembros del Consejo Consultivo ser\u00e1n propuestos en la forma siguiente:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) El Congreso de los Diputados propondr\u00e1, como Vocal, a un Diputado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) El Senado propondr\u00e1, como Vocal, a un Senador."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) El Ministro de Justicia propondr\u00e1 al Vocal de la Administraci\u00f3n General del Estado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Las Comunidades Aut\u00f3nomas decidir\u00e1n, mediante acuerdo adoptado por mayor\u00eda simple, el Vocal a proponer."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) La Federaci\u00f3n Espa\u00f1ola de Municipios y Provincias propondr\u00e1 al Vocal de la Administraci\u00f3n Local."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) La Real Academia de la Historia propondr\u00e1, como Vocal, a un miembro de la Corporaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) El Consejo de Universidades propondr\u00e1 a un Vocal experto en la materia de entre los cuerpos docentes de ense\u00f1anza superior e investigadores con acreditado conocimiento en el tratamiento automatizado de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "h) El Consejo de Consumidores y Usuarios propondr\u00e1, mediante terna, al Vocal de los usuarios y consumidores."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) El Consejo Superior de C\u00e1maras de Comercio, Industria y Navegaci\u00f3n propondr\u00e1, mediante terna, al Vocal del sector de ficheros privados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Las propuestas ser\u00e1n elevadas al Gobierno por conducto del Ministro de Justicia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Los miembros del Consejo Consultivo ser\u00e1n nombrados y, en su caso, cesados por el Gobierno."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 20. Plazo y vacantes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los miembros del Consejo Consultivo desempe\u00f1ar\u00e1n su cargo durante cuatro a\u00f1os."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Se except\u00faan de lo establecido en el apartado anterior los siguientes supuestos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Nombramiento del Vocal como Director de la Agencia de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Renuncia anticipada del Vocal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) P\u00e9rdida de la condici\u00f3n que habilit\u00f3 al Vocal para ser propuesto, en los supuestos previstos en las letras a), b), f) y g) del apartado 1 del art\u00edculo anterior."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Propuesta de cese emanada de las instituciones, \u00f3rganos, corporaciones u organizaciones a las que se refiere el art\u00edculo anterior."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Las vacantes que se produzcan en el Consejo Consultivo antes de expirar el plazo a que se refiere el apartado 1 deber\u00e1n ser cubiertas dentro del mes siguiente a la fecha en que la vacante se hubiera producido, por el procedimiento previsto en el art\u00edculo anterior y por el tiempo que reste para completar el mandato de quien caus\u00f3 la vacante a cubrir."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Los miembros del Consejo Consultivo no percibir\u00e1n retribuci\u00f3n alguna, sin perjuicio del abono de los gastos, debidamente justificados, que les ocasione el ejercicio de su funci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 21. Renovaci\u00f3n del Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Antes de finalizar el mandato de los miembros del Consejo Consultivo, el Gobierno, por conducto del Ministro de Justicia, requerir\u00e1 a las instituciones, \u00f3rganos, corporaciones y organizaciones a que se refiere el art\u00edculo 19 del presente Estatuto, a fin de que le comuniquen los nombres de las personas que propongan para un nuevo mandato en el Consejo Consultivo, lo que deber\u00e1 efectuarse dentro del mes siguiente a la formulaci\u00f3n del referido requerimiento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Una vez transcurrido el plazo se\u00f1alado para cumplimentar el requerimiento, el Gobierno proceder\u00e1, sin m\u00e1s tr\u00e1mites, a nombrar como miembros del Consejo Consultivo a los propuestos, quienes tomar\u00e1n posesi\u00f3n de su condici\u00f3n en la misma fecha en que expire el anterior mandato de los miembros del Consejo."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 22. Funcionamiento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. En defecto de disposiciones espec\u00edficas del presente Estatuto, el Consejo Consultivo ajustar\u00e1 su actuaci\u00f3n, en lo que le sea de aplicaci\u00f3n, a las disposiciones del cap\u00edtulo II del t\u00edtulo II de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El Consejo Consultivo adoptar\u00e1 sus acuerdos en sesi\u00f3n plenaria."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Actuar\u00e1 como presidente del Consejo Consultivo el Director de la Agencia de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Actuar\u00e1 como secretario del Consejo Consultivo, con voz y sin voto, el titular de la Secretar\u00eda General de la Agencia de Protecci\u00f3n de Datos. En caso de vacante, ausencia o enfermedad, actuar\u00e1 de secretario un funcionario adscrito a la Secretar\u00eda General designado por el Director de la Agencia a tal efecto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. El Consejo Consultivo se reunir\u00e1 cuando as\u00ed lo decida el Director de la Agencia que, en todo caso, lo convocar\u00e1 una vez cada seis meses. Tambi\u00e9n se reunir\u00e1 cuando as\u00ed lo solicite la mayor\u00eda de sus miembros."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "6. El Secretario convocar\u00e1 las reuniones del Consejo Consultivo, de orden del Director de la Agencia, y trasladar\u00e1 la convocatoria a los miembros del Consejo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "7. El Consejo Consultivo quedar\u00e1 v\u00e1lidamente constituido, en primera convocatoria, si est\u00e1n presentes el presidente, el secretario y la mitad de los miembros del Consejo, y, en segunda convocatoria, si est\u00e1n presentes el presidente, el secretario y la tercera parte de los miembros del Consejo."
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 4. El Registro General de Protecci\u00f3n de Datos"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 23. El Registro General de Protecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Registro General de Protecci\u00f3n de Datos es el \u00f3rgano de la Agencia de Protecci\u00f3n de Datos al que corresponde velar por la publicidad de la existencia de los ficheros automatizados de datos de car\u00e1cter personal, con miras a hacer posible el ejercicio de los derechos de informaci\u00f3n, acceso, rectificaci\u00f3n y cancelaci\u00f3n de datos regulados en los art\u00edculos 13 a 15 de la Ley Org\u00e1nica 5/1992, de 29 de octubre."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 24. Ficheros inscribibles."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Ser\u00e1n objeto de inscripci\u00f3n en el Registro los ficheros automatizados que contengan datos personales y de los cuales sean titulares:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) La Administraci\u00f3n General del Estado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Las entidades y organismos de la Seguridad Social."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Los organismos aut\u00f3nomos del Estado, cualquiera que sea su clasificaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Las sociedades estatales y entes del sector p\u00fablico a que se refiere el art\u00edculo 6 de la Ley General Presupuestaria."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Las Administraciones de las Comunidades Aut\u00f3nomas y de sus Territorios Hist\u00f3ricos, as\u00ed como sus entes y organismos dependientes, sin perjuicio de que se inscriban adem\u00e1s en los registros a que se refiere el art\u00edculo 40.2 de la Ley Org\u00e1nica 5/1992."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Las entidades que integran la Administraci\u00f3n Local y los entes y organismos dependientes de la misma."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) Cualesquiera otras personas jur\u00eddico-p\u00fablicas, as\u00ed como las personas privadas, f\u00edsicas o jur\u00eddicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. En los asientos de inscripci\u00f3n de los ficheros de titularidad p\u00fablica figurar\u00e1, en todo caso, la informaci\u00f3n contenida en la disposici\u00f3n general de creaci\u00f3n o modificaci\u00f3n del fichero, de conformidad con lo previsto en el art\u00edculo 18.2 de la Ley Org\u00e1nica 5/1992, de 29 de octubre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. En los asientos de inscripci\u00f3n de los ficheros de titularidad privada figurar\u00e1n, en todo caso, la informaci\u00f3n contenida en la notificaci\u00f3n del fichero a excepci\u00f3n de las medidas de seguridad, as\u00ed como los cambios de finalidad del fichero, de responsable y de ubicaci\u00f3n del fichero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. En los asientos de inscripci\u00f3n de cualesquiera ficheros de datos de car\u00e1cter personal figurar\u00e1n los datos relativos a los ficheros que sean necesarios para el ejercicio de los derechos de informaci\u00f3n, acceso, rectificaci\u00f3n y cancelaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 25. Actos y documentos inscribibles."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se inscribir\u00e1n en el Registro General de Protecci\u00f3n de Datos los siguientes actos y documentos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Las autorizaciones de transferencia de datos personales a otros pa\u00edses, en los casos en que, a tenor de lo dispuesto en el art\u00edculo 32 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, sea preceptiva para la transferencia la autorizaci\u00f3n previa del Director."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Los c\u00f3digos tipo elaborados al amparo de lo previsto en el art\u00edculo 31 de la Ley Org\u00e1nica 5/1992."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 26. Inscripci\u00f3n y certificaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Corresponde al Registro General de Protecci\u00f3n de Datos instruir los expedientes de inscripci\u00f3n de los ficheros automatizados de titularidad privada y p\u00fablica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Corresponde asimismo al Registro General de Protecci\u00f3n de Datos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Instruir los expedientes de modificaci\u00f3n y cancelaci\u00f3n del contenido de los asientos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Instruir los expedientes de autorizaci\u00f3n de las transferencias internacionales de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Rectificar de oficio los errores materiales de los asientos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Expedir certificaciones de los asientos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Publicar una relaci\u00f3n anual de los ficheros notificados e inscritos."
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 5. La Inspecci\u00f3n de Datos"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 27. La Inspecci\u00f3n de Datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Inspecci\u00f3n de Datos es el \u00f3rgano de la Agencia de Protecci\u00f3n de Datos al cual competen las funciones inherentes al ejercicio de la potestad de inspecci\u00f3n que el art\u00edculo 39 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, atribuye a la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los funcionarios que ejerzan funciones inspectoras tendr\u00e1n la consideraci\u00f3n de autoridad p\u00fablica en el desempe\u00f1o de sus funciones, y estar\u00e1n obligados a guardar secreto sobre las informaciones que conozcan en el ejercicio de las mencionadas funciones, incluso despu\u00e9s de haber cesado en las mismas."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 28. Funciones inspectoras."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Compete, en particular, a la Inspecci\u00f3n de Datos efectuar inspecciones, peri\u00f3dicas o circunstanciales, de oficio o a instancia de los afectados, de cualesquiera ficheros, de titularidad p\u00fablica o privada, en los locales en los que se hallen los ficheros y los equipos inform\u00e1ticos correspondientes, y a tal efecto podr\u00e1:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Examinar los soportes de informaci\u00f3n que contengan los datos personales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Examinar los equipos f\u00edsicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Requerir el pase de programas y examinar la documentaci\u00f3n pertinente al objeto de determinar, en caso necesario, los algoritmos de los procesos de que los datos sean objeto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Examinar los sistemas de transmisi\u00f3n y acceso a los datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Realizar auditor\u00edas de los sistemas inform\u00e1ticos con miras a determinar su conformidad con las disposiciones de la Ley Org\u00e1nica 5/1992."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Requerir la exhibici\u00f3n de cualesquiera otros documentos pertinentes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) Requerir el env\u00edo de toda informaci\u00f3n precisa para el ejercicio de las funciones inspectoras."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El responsable del fichero estar\u00e1 obligado a permitir el acceso a los locales en los que se hallen los ficheros y los equipos inform\u00e1ticos previa exhibici\u00f3n por el funcionario actuante de la autorizaci\u00f3n expedida por el Director de la Agencia. Cuando dichos locales tengan la consideraci\u00f3n legal de domicilio, la labor inspectora deber\u00e1 ajustarse adem\u00e1s a las reglas que garantizan su inviolabilidad."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 29. Funciones instructoras."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Compete a la Inspecci\u00f3n de Datos el ejercicio de los actos de instrucci\u00f3n relativos a los expedientes sancionadores a los que se refiere el art\u00edculo 12.2.h) del presente Estatuto."
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 6. La Secretar\u00eda General"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 30. Funciones de apoyo y ejecuci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Corresponde a la Secretar\u00eda General:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Elaborar los informes y propuestas que le solicite el Director."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Notificar las resoluciones del Director."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Ejercer la Secretar\u00eda del Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Gestionar los medios personales y materiales adscritos a la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Atender a la gesti\u00f3n econ\u00f3mico-administrativa del presupuesto de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Llevar el inventario de bienes y derechos que se integren en el patrimonio de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) Gestionar los asuntos de car\u00e1cter general no atribuidos a otros \u00f3rganos de la Agencia."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 31. Otras funciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Corresponde asimismo a la Secretar\u00eda General:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Formar y actualizar un fondo de documentaci\u00f3n sobre legislaci\u00f3n, jurisprudencia y doctrina en materia de protecci\u00f3n de datos personales y cualesquiera materias conexas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Editar los repertorios oficiales de ficheros inscritos en el Registro General de Protecci\u00f3n de Datos, las Memorias anuales de la Agencia y cualesquiera publicaciones de la Agencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Organizar conferencias, seminarios y cualesquiera actividades de cooperaci\u00f3n internacional e interregional sobre protecci\u00f3n de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Facilitar la informaci\u00f3n a que se refiere el art\u00edculo 4.1 del presente Estatuto."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAPITULO IV"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "R\u00e9gimen econ\u00f3mico, patrimonial y de personal"
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 1. R\u00e9gimen econ\u00f3mico"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 32. Recursos econ\u00f3micos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Los recursos econ\u00f3micos de la Agencia de Protecci\u00f3n de Datos comprender\u00e1n:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Las asignaciones que anualmente se establezcan con cargo a los Presupuestos Generales del Estado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Las subvenciones y aportaciones que se concedan a su favor, procedentes de fondos espec\u00edficos de la Comunidad Econ\u00f3mica Europea."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Los ingresos, ordinarios y extraordinarios derivados del ejercicio de sus actividades."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Las rentas y productos de los bienes, derechos y valores integrantes de su patrimonio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) El producto de la enajenaci\u00f3n de sus activos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Cualesquiera otros que legalmente puedan serle atribuidos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 33. Contabilidad y control."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos ajustar\u00e1 su contabilidad al Plan General de Contabilidad P\u00fablica y a las dem\u00e1s disposiciones que sean de aplicaci\u00f3n, sin perjuicio de la obligaci\u00f3n de rendir cuentas al Tribunal de Cuentas por conducto de la Intervenci\u00f3n General de la Administraci\u00f3n del Estado, en los t\u00e9rminos previstos en la Ley General Presupuestaria."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El ejercicio anual se computar\u00e1 por a\u00f1os naturales, comenzando el d\u00eda 1 del mes de enero de cada a\u00f1o."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El control de las actividades econ\u00f3micas y financieras de la Agencia se ejercer\u00e1 de conformidad con lo establecido en el art\u00edculo 17.1 de la Ley General Presupuestaria, con car\u00e1cter permanente."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 34. Presupuestos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos elaborar\u00e1 anualmente un anteproyecto de presupuesto, con la estructura que se\u00f1ale el Ministerio de Econom\u00eda y Hacienda, y lo remitir\u00e1 a \u00e9ste para su ulterior elevaci\u00f3n al Gobierno a fin de que sea integrado con la debida independencia en los Presupuestos Generales del Estado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Las modificaciones del presupuesto de la Agencia ser\u00e1n autorizadas por el Director cuando se trate de modificaciones internas que no incrementen la cuant\u00eda del mismo y sean consecuencia de las necesidades surgidas durante el ejercicio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Los suplementos de cr\u00e9dito o cr\u00e9ditos extraordinarios de la Agencia ser\u00e1n autorizados por el Ministro de Econom\u00eda Hacienda cuando no excedan del 5 por 100 de su presupuesto de gastos y por el Gobierno en los dem\u00e1s casos."
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 2. R\u00e9gimen patrimonial"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 35. Patrimonio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos tendr\u00e1 un patrimonio propio, distinto del del Estado, formado por los bienes, derechos y valores que adquiera a t\u00edtulo oneroso o le sean cedidos o donados por cualquier persona o entidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los bienes que el Estado adscriba a la Agencia quedar\u00e1n afectados a su servicio y conservar\u00e1n la calificaci\u00f3n jur\u00eddica originaria, debiendo ser utilizados exclusivamente para los fines que determinaron la adscripci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 36. Adquisiciones y contrataci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos se regir\u00e1, en lo referente a las adquisiciones y enajenaciones de bienes, por las disposiciones del derecho privado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los bienes que adquiera la Agencia se integrar\u00e1n en su patrimonio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Los contratos que celebre la Agencia se regir\u00e1n por las disposiciones del derecho privado, sin perjuicio de que la adjudicaci\u00f3n de los contratos sea acordada previa publicidad y promoci\u00f3n de concurrencia."
+        },
+        {
+          "@class": "seccion",
+          "#text": "Secci\u00f3n 3. R\u00e9gimen del personal"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 37. Relaci\u00f3n de puestos de trabajo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos propondr\u00e1 a los \u00f3rganos competentes, a trav\u00e9s del Ministerio de Justicia, la relaci\u00f3n de puestos de trabajo de la misma."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La relaci\u00f3n de puestos de trabajo comprender\u00e1:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Los puestos de trabajo a desempe\u00f1ar por personal funcionario. Los titulares de los \u00f3rganos a que se refiere el art\u00edculo 11.3 tendr\u00e1n rango de Subdirector general."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Los puestos de trabajo a desempe\u00f1ar por personal laboral, con expresi\u00f3n de los factores que, en funci\u00f3n de las tareas integrantes de cada puesto de trabajo, determinen la imposibilidad de su desempe\u00f1o por personal funcionario."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Las descripciones de los puestos de trabajo indicar\u00e1n expresamente la obligaci\u00f3n que, a tenor de lo previsto en los art\u00edculos 10 y 39 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, corresponde al personal en lo relativo a la observancia de secreto sobre los datos personales, que los titulares de cada puesto conozcan en el desempe\u00f1o de sus tareas."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 38. Retribuciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las retribuciones del personal funcionario y laboral de la Agencia se ajustar\u00e1n a lo dispuesto en las leyes anuales de presupuestos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 39. Provisi\u00f3n de puestos de trabajo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La Agencia de Protecci\u00f3n de Datos proveer\u00e1 los puestos de trabajo adscritos al personal funcionario ajust\u00e1ndose a la legislaci\u00f3n de la Funci\u00f3n P\u00fablica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los puestos de trabajo adscritos al personal laboral se proveer\u00e1n mediante convocatoria p\u00fablica y de acuerdo con los principios de igualdad, m\u00e9rito y capacidad."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional primera. Plazo para efectuar las propuestas de nombramiento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En el plazo de un mes a contar de la entrada en vigor del presente Estatuto, las instituciones, \u00f3rganos, corporaciones y organizaciones a que se refiere el art\u00edculo 19 del mismo, comunicar\u00e1n los nombres de las personas que deban proponer para su nombramiento como miembros del Consejo Consultivo."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional segunda. Nombramiento de los miembros del Consejo Consultivo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Transcurrido el plazo establecido en la disposici\u00f3n adicional primera, el Gobierno nombrar\u00e1 sin m\u00e1s tr\u00e1mite a los miembros del Consejo Consultivo que hubieran sido propuestos y designar\u00e1 de entre ellos al Director de la Agencia."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional tercera. Ficheros excluidos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. En los t\u00e9rminos y con los l\u00edmites establecidos en los art\u00edculos 21.3 y 40 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, quedan excluidos del \u00e1mbito de aplicaci\u00f3n del presente Estatuto los ficheros automatizados de datos de car\u00e1cter personal creados o gestionados por las Comunidades Aut\u00f3nomas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Asimismo quedan excluidos del \u00e1mbito de aplicaci\u00f3n del presente Estatuto los ficheros a los que se refiere el art\u00edculo 2, apartados 2 y 3, de la Ley Org\u00e1nica 5/1992, de 29 de octubre, salvo lo establecido en este \u00faltimo apartado para los ficheros que sirvan a fines exclusivamente estad\u00edsticos."
+        }
+      ]
     }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "parrafo",
-        "#text": "El t\u00edtulo VI de la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal, ha configurado la Agencia de Protecci\u00f3n de Datos como el ente independiente que debe garantizar el cumplimiento de las previsiones y mandatos en ella establecidos."
-      },{
-        "@class": "parrafo",
-        "#text": "Algunos aspectos de dicho ente han sido objeto de regulaci\u00f3n en la propia Ley que, no obstante, no ha agotado la materia y ha encomendado al Gobierno la regulaci\u00f3n de la estructura org\u00e1nica y la aprobaci\u00f3n del Estatuto de la Agencia de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "Por medio de la presente disposici\u00f3n se procede a cumplimentar el doble mandato integrando la estructura del ente en su Estatuto propio."
-      },{
-        "@class": "parrafo",
-        "#text": "En su virtud, a propuesta de los Ministros de Justicia y para las Administraciones P\u00fablicas, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 26 de marzo de 1993,"
-      },{
-        "@class": "subseccion",
-        "#text": "D I S P O N G O :"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo \u00fanico."
-      },{
-        "@class": "parrafo",
-        "#text": "De conformidad con lo dispuesto en el art\u00edculo 34.2 y en la disposici\u00f3n final primera de la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal, se aprueba el Estatuto de la Agencia de Protecci\u00f3n de Datos, cuyo texto se inserta a continuaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional \u00fanica."
-      },{
-        "@class": "parrafo",
-        "#text": "Por el Ministerio de Econom\u00eda y Hacienda se habilitar\u00e1n los cr\u00e9ditos necesarios para la instalaci\u00f3n y funcionamiento de la Agencia de Protecci\u00f3n de Datos, en tanto no sea aprobado el primer presupuesto de gastos e ingresos de la misma."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final \u00fanica."
-      },{
-        "@class": "parrafo",
-        "#text": "El presente Real Decreto entrar\u00e1 en vigor a los veinte d\u00edas de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
-      },{
-        "@class": "parrafo",
-        "#text": "Dado en Madrid a 26 de marzo de 1993."
-      },{
-        "@class": "firma_rey",
-        "#text": "JUAN CARLOS R."
-      },{
-        "@class": "firma_ministro",
-        "#text": "El Ministro de Relaciones con las Cortes"
-      },{
-        "@class": "firma_ministro",
-        "#text": "y de la Secretar\u00eda del Gobierno,"
-      },{
-        "@class": "firma_ministro",
-        "#text": "VIRGILIO ZAPATERO G\u00d3MEZ"
-      },{
-        "@class": "anexo",
-        "#text": "[encabezado]ESTATUTO DE LA AGENCIA DE PROTECCI\u00d3N DE DATOS"
-      },{
-        "@class": "capitulo_num",
-        "#text": "Cap\u00edtulo I"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Disposiciones generales"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 1. La Agencia de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos es un ente de Derecho p\u00fablico de los previstos en el art\u00edculo 6, apartado 5, del texto refundido de la Ley General Presupuestaria, aprobado por Real Decreto legislativo 1091/1988, de 23 de septiembre, que tiene por objeto la garant\u00eda del cumplimiento y aplicaci\u00f3n de las previsiones contenidas en la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La Agencia de Protecci\u00f3n de Datos act\u00faa con plena independencia de las Administraciones P\u00fablicas en el ejercicio de sus funciones y se relaciona con el Gobierno a trav\u00e9s del Ministerio de Justicia."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 2. R\u00e9gimen jur\u00eddico."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos goza de personalidad jur\u00eddica propia y plena capacidad p\u00fablica y privada."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La Agencia de Protecci\u00f3n de Datos se regir\u00e1 por las disposiciones legales y reglamentarias siguientes:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) El t\u00edtulo VI de la Ley Org\u00e1nica 5/1992, de 29 de octubre, de Regulaci\u00f3n del Tratamiento Automatizado de los Datos de Car\u00e1cter Personal."
-      },{
-        "@class": "parrafo",
-        "#text": "b) El presente Estatuto y las dem\u00e1s disposiciones de desarrollo de la Ley Org\u00e1nica 5/1992."
-      },{
-        "@class": "parrafo",
-        "#text": "c) En defecto de las anteriores, y para el ejercicio de sus funciones p\u00fablicas, las normas de procedimiento contenidas en la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Los preceptos de la Ley General Presupuestaria, texto refundido aprobado por Real Decreto legislativo 1091/1988, de 23 de septiembre, que resulten de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Cuantas otras disposiciones resulten de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "3. La Agencia ejercer\u00e1 sus funciones por medio del Director, a cuyo efecto los actos del Director se consideran actos de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Los actos dictados por el Director en el ejercicio de las funciones p\u00fablicas de la Agencia agotan la v\u00eda administrativa. Contra ellos se podr\u00e1n interponer los recursos contencioso-administrativos que resulten procedentes."
-      },{
-        "@class": "capitulo_num",
-        "#text": "Cap\u00edtulo II"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Funciones de la Agencia de Protecci\u00f3n de Datos"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 3. Funciones."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Corresponde a la Agencia de Protecci\u00f3n de Datos ejercer las funciones que le atribuye el art\u00edculo 36 de la Ley Org\u00e1nica 5/1992."
-      },{
-        "@class": "parrafo",
-        "#text": "2. A este efecto la Agencia de Protecci\u00f3n de Datos podr\u00e1 dirigirse directamente a los titulares y responsables de cualesquiera ficheros de datos de car\u00e1cter personal."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 4. Relaciones con los afectados."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos informar\u00e1 a las personas de los derechos que la Ley les reconoce en relaci\u00f3n con el tratamiento automatizado de sus datos de car\u00e1cter personal y a tal efecto podr\u00e1 promover campa\u00f1as de difusi\u00f3n, vali\u00e9ndose de los medios de comunicaci\u00f3n social."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La Agencia atender\u00e1 las peticiones que le dirijan los afectados y resolver\u00e1 las reclamaciones formuladas por los mismos, sin perjuicio de las v\u00edas de recurso procedentes."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 5. Cooperaci\u00f3n en la elaboraci\u00f3n y aplicaci\u00f3n de las normas."
-      },{
-        "@class": "parrafo",
-        "#text": "La Agencia de Protecci\u00f3n de Datos colaborar\u00e1 con los \u00f3rganos competentes en lo que respecta al desarrollo normativo y aplicaci\u00f3n de las normas que incidan en materia propia de la Ley Org\u00e1nica 5/1992, y a tal efecto:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Informar\u00e1 preceptivamente los proyectos de disposiciones generales de desarrollo de la Ley Org\u00e1nica."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Informar\u00e1 preceptivamente cualesquiera proyectos de ley o reglamento que incidan en la materia propia de la Ley Org\u00e1nica."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Dictar\u00e1 instrucciones y recomendaciones precisas para adecuar los tratamientos automatizados a los principios de la Ley Org\u00e1nica."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Dictar\u00e1 recomendaciones de aplicaci\u00f3n de las disposiciones legales y reglamentarias en materia de seguridad de los datos y control de acceso a los ficheros."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 6. Ficheros estad\u00edsticos."
-      },{
-        "@class": "parrafo",
-        "#text": "La Agencia de Protecci\u00f3n de Datos ejercer\u00e1 el control de la observancia de lo dispuesto en los art\u00edculos 4, 7 y 10 a 22 de la Ley 12/1989, de 9 de mayo, de la Funci\u00f3n Estad\u00edstica P\u00fablica, y en especial:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Informar\u00e1 con car\u00e1cter preceptivo el contenido y formato de los cuestionarios, hojas censuales y otros documentos de recogida de datos con fines estad\u00edsticos."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Dictaminar\u00e1 sobre los procesos de recogida y tratamiento automatizado de los datos personales a efectos estad\u00edsticos."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Informar\u00e1 sobre los proyectos de ley por los que se exijan datos con car\u00e1cter obligatorio y su adecuaci\u00f3n a lo dispuesto en el art\u00edculo 7 de la Ley de la Funci\u00f3n Estad\u00edstica P\u00fablica."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Dictaminar\u00e1 sobre las condiciones de seguridad de los ficheros constituidos con fines exclusivamente estad\u00edsticos."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 7. Publicidad de los ficheros automatizados."
-      },{
-        "@class": "parrafo",
-        "#text": "La Agencia de Protecci\u00f3n de Datos velar\u00e1 por la publicidad de la existencia de los ficheros automatizados de datos de car\u00e1cter personal, a cuyo efecto publicar\u00e1 y difundir\u00e1 un cat\u00e1logo anual de los ficheros inscritos en el Registro General de Protecci\u00f3n de Datos, con expresi\u00f3n de la informaci\u00f3n que al amparo de lo dispuesto en el art\u00edculo 36, j), de la Ley Org\u00e1nica 5/1992, determine el Director."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 8. Memoria anual."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos redactar\u00e1 una Memoria anual sobre la aplicaci\u00f3n de la Ley Org\u00e1nica 5/1992, y de las dem\u00e1s disposiciones legales y reglamentarias sobre protecci\u00f3n de datos, la cual comprender\u00e1, adem\u00e1s de la informaci\u00f3n necesaria sobre el funcionamiento de la Agencia:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Una relaci\u00f3n de los c\u00f3digos tipo depositados e inscritos en el Registro General de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Un an\u00e1lisis de las tendencias legislativas, jurisprudenciales y doctrinales de los distintos pa\u00edses en materia de protecci\u00f3n de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Un an\u00e1lisis y una valoraci\u00f3n de los problemas de la protecci\u00f3n de datos a escala nacional."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La Memoria anual ser\u00e1 remitida por el Director al Ministro de Justicia, para su ulterior env\u00edo a las Cortes Generales."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 9. Relaciones internacionales."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Corresponde a la Agencia de Protecci\u00f3n de Datos la cooperaci\u00f3n con organismos internacionales y \u00f3rganos de las Comunidades Europeas en materia de protecci\u00f3n de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La Agencia prestar\u00e1 asistencia a las autoridades designadas por los Estados parte en el Convenio del Consejo de Europa de 28 de enero de 1981, sobre protecci\u00f3n de las personas en relaci\u00f3n con el tratamiento automatizado de los datos de car\u00e1cter personal, a los efectos previstos en el art\u00edculo 13 del Convenio."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 10. Sistema de Informaci\u00f3n Schengen."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos ejercer\u00e1 el control de los datos de car\u00e1cter personal introducidos en la parte nacional espa\u00f1ola de la base de datos del Sistema de Informaci\u00f3n Schengen (SIS)."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Director de la Agencia designar\u00e1 dos representantes para la autoridad de control com\u00fan de protecci\u00f3n de datos del Sistema de Informaci\u00f3n Schengen."
-      },{
-        "@class": "capitulo_num",
-        "#text": "Cap\u00edtulo III"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Organos de la Agencia de Protecci\u00f3n de Datos"
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 1. Estructura org\u00e1nica de la Agencia de Protecci\u00f3n de Datos"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 11. Estructura org\u00e1nica."
-      },{
-        "@class": "parrafo",
-        "#text": "La Agencia de Protecci\u00f3n de Datos se estructura en los siguientes \u00f3rganos:"
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El Registro General de Protecci\u00f3n de Datos, la Inspecci\u00f3n de Datos y la Secretar\u00eda General, como \u00f3rganos jer\u00e1rquicamente dependientes del Director de la Agencia."
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 2. El Director de la Agencia de Protecci\u00f3n de Datos"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 12. Funciones de direcci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos dirige la Agencia y ostenta su representaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Corresponde al Director de la Agencia de Protecci\u00f3n de Datos dictar las resoluciones e instrucciones que requiera el ejercicio de las funciones de la Agencia y, en especial:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Resolver motivadamente sobre la procedencia o improcedencia de las inscripciones que deban practicarse en el Registro General de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Requerir a los responsables de ficheros de titularidad privada a que subsanen deficiencias de los c\u00f3digos tipo."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Resolver motivadamente, previo informe del responsable del fichero, sobre la procedencia o improcedencia de la denegaci\u00f3n, total o parcial, del acceso a los ficheros policiales o tributarios automatizados."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Autorizar transferencias temporales o definitivas de datos que hayan sido objeto de tratamiento automatizado o recogidos a tal efecto, con destino a pa\u00edses cuya legislaci\u00f3n no ofrezca un nivel de protecci\u00f3n equiparable al de la Ley Org\u00e1nica 5/1992 y el presente estatuto."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Convocar regularmente a los \u00f3rganos competentes de las Comunidades Aut\u00f3nomas a efectos de cooperaci\u00f3n institucional y coordinaci\u00f3n de criterios o procedimientos de actuaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Recabar de las distintas Administraciones P\u00fablicas la informaci\u00f3n necesaria para el cumplimiento de sus funciones."
-      },{
-        "@class": "parrafo",
-        "#text": "g) Solicitar de los \u00f3rganos correspondientes de las Comunidades Aut\u00f3nomas, a que se refiere el art\u00edculo 40 de la Ley Org\u00e1nica 5/1992, la informaci\u00f3n necesaria para el cumplimiento de sus funciones, as\u00ed como facilitar a aqu\u00e9llos la informaci\u00f3n que le soliciten a id\u00e9nticos efectos."
-      },{
-        "@class": "parrafo",
-        "#text": "h) Adoptar las medidas cautelares y provisionales que requiera el ejercicio de la potestad sancionadora de la Agencia con relaci\u00f3n a los responsables de los ficheros privados."
-      },{
-        "@class": "parrafo",
-        "#text": "i) Iniciar, impulsar la instrucci\u00f3n y resolver los expedientes sancionadores referentes a los responsables de los ficheros privados."
-      },{
-        "@class": "parrafo",
-        "#text": "j) Instar la incoaci\u00f3n de expedientes disciplinarios en los casos de infracciones cometidas por \u00f3rganos responsables de ficheros de las Administraciones P\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "k) Autorizar la entrada en los locales en los que se hallen los ficheros, con el fin de proceder a las inspecciones pertinentes, sin perjuicio de la aplicaci\u00f3n de las reglas que garantizan la inviolabilidad del domicilio."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 13. Funciones de gesti\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Corresponde asimismo al Director de la Agencia de Protecci\u00f3n de Datos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Adjudicar y formalizar los contratos que requiera la gesti\u00f3n de la Agencia y vigilar su cumplimiento y ejecuci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Aprobar gastos y ordenar pagos, dentro de los l\u00edmites de los cr\u00e9ditos del presupuesto de gastos de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Ejercer el control econ\u00f3mico-financiero de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Programar la gesti\u00f3n de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Elaborar el anteproyecto de presupuesto de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Proponer la relaci\u00f3n de puestos de trabajo de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "g) Aprobar la Memoria anual de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "h) Ordenar la convocatoria de las reuniones del Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Director podr\u00e1 delegar en el Secretario general el ejercicio de las funciones a que se refieren las letras a), b), d), e) y f) del apartado anterior."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 14. Nombramiento y mandato."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos ser\u00e1 nombrado por el Gobierno, mediante Real Decreto, a propuesta del Ministro de Justicia, de entre los miembros del Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Director de la Agencia de Protecci\u00f3n de Datos gozar\u00e1 de los mismos honores y tratamiento que los Subsecretarios."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El mandato del Director de la Agencia de Protecci\u00f3n de Datos tendr\u00e1 una duraci\u00f3n de cuatro a\u00f1os contados desde su nombramiento y s\u00f3lo cesar\u00e1 por las causas previstas en el art\u00edculo 15 del presente Estatuto."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 15. Cese y separaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos cesar\u00e1 en el desempe\u00f1o de su cargo por la expiraci\u00f3n de su mandado o, con anterioridad, a petici\u00f3n propia."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Gobierno s\u00f3lo podr\u00e1 acordar la separaci\u00f3n del Director de la Agencia de Protecci\u00f3n de Datos antes de que hubiera expirado el plazo de su mandato en los casos siguientes:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Incumplimiento grave de las obligaciones del cargo."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Incapacidad sobrevenida para el ejercicio de sus funciones."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Incompatibilidad."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Condena por delito doloso."
-      },{
-        "@class": "parrafo",
-        "#text": "La separaci\u00f3n se acordar\u00e1 por el Gobierno, mediante Real Decreto a propuesta del Ministro de Justicia, previa instrucci\u00f3n de expediente, en el cual ser\u00e1n o\u00eddos los restantes miembros del Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El cargo de Director de la Agencia de Protecci\u00f3n de Datos est\u00e1 sujeto a las incompatibilidades que para los altos cargos prev\u00e9 la Ley 25/1983, de 26 de diciembre."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 16. Independencia."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos desempe\u00f1ar\u00e1 su cargo con dedicaci\u00f3n absoluta, plena independencia y total objetividad."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Director no estar\u00e1 sujeto a mandato imperativo, ni recibir\u00e1 instrucciones de autoridad alguna."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 17. Remuneraci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Director de la Agencia de Protecci\u00f3n de Datos percibir\u00e1 la remuneraci\u00f3n que en los Presupuestos Generales del Estado tengan asignada los subsecretarios."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La remuneraci\u00f3n ser\u00e1 incompatible con la percepci\u00f3n de pensiones de derechos pasivos o de cualquier r\u00e9gimen de Seguridad Social p\u00fablico y obligatorio, quedando en suspenso dichas percepciones durante el plazo de mandato."
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 3. El Consejo Consultivo"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 18. El Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Consejo Consultivo de la Agencia de Protecci\u00f3n de Datos, establecido por el art\u00edculo 37 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, es un \u00f3rgano colegiado de asesoramiento del Director de la Agencia de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Consejo Consultivo emitir\u00e1 informe en todas las cuestiones que le someta el Director de la Agencia de Protecci\u00f3n de Datos y podr\u00e1 formular propuestas en temas relacionados con las materias de competencia de \u00e9sta."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 19. Propuesta y nombramiento."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los miembros del Consejo Consultivo ser\u00e1n propuestos en la forma siguiente:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) El Congreso de los Diputados propondr\u00e1, como Vocal, a un Diputado."
-      },{
-        "@class": "parrafo",
-        "#text": "b) El Senado propondr\u00e1, como Vocal, a un Senador."
-      },{
-        "@class": "parrafo",
-        "#text": "c) El Ministro de Justicia propondr\u00e1 al Vocal de la Administraci\u00f3n General del Estado."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Las Comunidades Aut\u00f3nomas decidir\u00e1n, mediante acuerdo adoptado por mayor\u00eda simple, el Vocal a proponer."
-      },{
-        "@class": "parrafo",
-        "#text": "e) La Federaci\u00f3n Espa\u00f1ola de Municipios y Provincias propondr\u00e1 al Vocal de la Administraci\u00f3n Local."
-      },{
-        "@class": "parrafo",
-        "#text": "f) La Real Academia de la Historia propondr\u00e1, como Vocal, a un miembro de la Corporaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "g) El Consejo de Universidades propondr\u00e1 a un Vocal experto en la materia de entre los cuerpos docentes de ense\u00f1anza superior e investigadores con acreditado conocimiento en el tratamiento automatizado de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "h) El Consejo de Consumidores y Usuarios propondr\u00e1, mediante terna, al Vocal de los usuarios y consumidores."
-      },{
-        "@class": "parrafo",
-        "#text": "i) El Consejo Superior de C\u00e1maras de Comercio, Industria y Navegaci\u00f3n propondr\u00e1, mediante terna, al Vocal del sector de ficheros privados."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Las propuestas ser\u00e1n elevadas al Gobierno por conducto del Ministro de Justicia."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Los miembros del Consejo Consultivo ser\u00e1n nombrados y, en su caso, cesados por el Gobierno."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 20. Plazo y vacantes."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los miembros del Consejo Consultivo desempe\u00f1ar\u00e1n su cargo durante cuatro a\u00f1os."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Se except\u00faan de lo establecido en el apartado anterior los siguientes supuestos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Nombramiento del Vocal como Director de la Agencia de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Renuncia anticipada del Vocal."
-      },{
-        "@class": "parrafo",
-        "#text": "c) P\u00e9rdida de la condici\u00f3n que habilit\u00f3 al Vocal para ser propuesto, en los supuestos previstos en las letras a), b), f) y g) del apartado 1 del art\u00edculo anterior."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Propuesta de cese emanada de las instituciones, \u00f3rganos, corporaciones u organizaciones a las que se refiere el art\u00edculo anterior."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Las vacantes que se produzcan en el Consejo Consultivo antes de expirar el plazo a que se refiere el apartado 1 deber\u00e1n ser cubiertas dentro del mes siguiente a la fecha en que la vacante se hubiera producido, por el procedimiento previsto en el art\u00edculo anterior y por el tiempo que reste para completar el mandato de quien caus\u00f3 la vacante a cubrir."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Los miembros del Consejo Consultivo no percibir\u00e1n retribuci\u00f3n alguna, sin perjuicio del abono de los gastos, debidamente justificados, que les ocasione el ejercicio de su funci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 21. Renovaci\u00f3n del Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Antes de finalizar el mandato de los miembros del Consejo Consultivo, el Gobierno, por conducto del Ministro de Justicia, requerir\u00e1 a las instituciones, \u00f3rganos, corporaciones y organizaciones a que se refiere el art\u00edculo 19 del presente Estatuto, a fin de que le comuniquen los nombres de las personas que propongan para un nuevo mandato en el Consejo Consultivo, lo que deber\u00e1 efectuarse dentro del mes siguiente a la formulaci\u00f3n del referido requerimiento."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Una vez transcurrido el plazo se\u00f1alado para cumplimentar el requerimiento, el Gobierno proceder\u00e1, sin m\u00e1s tr\u00e1mites, a nombrar como miembros del Consejo Consultivo a los propuestos, quienes tomar\u00e1n posesi\u00f3n de su condici\u00f3n en la misma fecha en que expire el anterior mandato de los miembros del Consejo."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 22. Funcionamiento."
-      },{
-        "@class": "parrafo",
-        "#text": "1. En defecto de disposiciones espec\u00edficas del presente Estatuto, el Consejo Consultivo ajustar\u00e1 su actuaci\u00f3n, en lo que le sea de aplicaci\u00f3n, a las disposiciones del cap\u00edtulo II del t\u00edtulo II de la Ley 30/1992, de 26 de noviembre, de R\u00e9gimen Jur\u00eddico de las Administraciones P\u00fablicas y del Procedimiento Administrativo Com\u00fan."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El Consejo Consultivo adoptar\u00e1 sus acuerdos en sesi\u00f3n plenaria."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Actuar\u00e1 como presidente del Consejo Consultivo el Director de la Agencia de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Actuar\u00e1 como secretario del Consejo Consultivo, con voz y sin voto, el titular de la Secretar\u00eda General de la Agencia de Protecci\u00f3n de Datos. En caso de vacante, ausencia o enfermedad, actuar\u00e1 de secretario un funcionario adscrito a la Secretar\u00eda General designado por el Director de la Agencia a tal efecto."
-      },{
-        "@class": "parrafo",
-        "#text": "5. El Consejo Consultivo se reunir\u00e1 cuando as\u00ed lo decida el Director de la Agencia que, en todo caso, lo convocar\u00e1 una vez cada seis meses. Tambi\u00e9n se reunir\u00e1 cuando as\u00ed lo solicite la mayor\u00eda de sus miembros."
-      },{
-        "@class": "parrafo",
-        "#text": "6. El Secretario convocar\u00e1 las reuniones del Consejo Consultivo, de orden del Director de la Agencia, y trasladar\u00e1 la convocatoria a los miembros del Consejo."
-      },{
-        "@class": "parrafo",
-        "#text": "7. El Consejo Consultivo quedar\u00e1 v\u00e1lidamente constituido, en primera convocatoria, si est\u00e1n presentes el presidente, el secretario y la mitad de los miembros del Consejo, y, en segunda convocatoria, si est\u00e1n presentes el presidente, el secretario y la tercera parte de los miembros del Consejo."
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 4. El Registro General de Protecci\u00f3n de Datos"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 23. El Registro General de Protecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "El Registro General de Protecci\u00f3n de Datos es el \u00f3rgano de la Agencia de Protecci\u00f3n de Datos al que corresponde velar por la publicidad de la existencia de los ficheros automatizados de datos de car\u00e1cter personal, con miras a hacer posible el ejercicio de los derechos de informaci\u00f3n, acceso, rectificaci\u00f3n y cancelaci\u00f3n de datos regulados en los art\u00edculos 13 a 15 de la Ley Org\u00e1nica 5/1992, de 29 de octubre."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 24. Ficheros inscribibles."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Ser\u00e1n objeto de inscripci\u00f3n en el Registro los ficheros automatizados que contengan datos personales y de los cuales sean titulares:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) La Administraci\u00f3n General del Estado."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Las entidades y organismos de la Seguridad Social."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Los organismos aut\u00f3nomos del Estado, cualquiera que sea su clasificaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Las sociedades estatales y entes del sector p\u00fablico a que se refiere el art\u00edculo 6 de la Ley General Presupuestaria."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Las Administraciones de las Comunidades Aut\u00f3nomas y de sus Territorios Hist\u00f3ricos, as\u00ed como sus entes y organismos dependientes, sin perjuicio de que se inscriban adem\u00e1s en los registros a que se refiere el art\u00edculo 40.2 de la Ley Org\u00e1nica 5/1992."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Las entidades que integran la Administraci\u00f3n Local y los entes y organismos dependientes de la misma."
-      },{
-        "@class": "parrafo",
-        "#text": "g) Cualesquiera otras personas jur\u00eddico-p\u00fablicas, as\u00ed como las personas privadas, f\u00edsicas o jur\u00eddicas."
-      },{
-        "@class": "parrafo",
-        "#text": "2. En los asientos de inscripci\u00f3n de los ficheros de titularidad p\u00fablica figurar\u00e1, en todo caso, la informaci\u00f3n contenida en la disposici\u00f3n general de creaci\u00f3n o modificaci\u00f3n del fichero, de conformidad con lo previsto en el art\u00edculo 18.2 de la Ley Org\u00e1nica 5/1992, de 29 de octubre."
-      },{
-        "@class": "parrafo",
-        "#text": "3. En los asientos de inscripci\u00f3n de los ficheros de titularidad privada figurar\u00e1n, en todo caso, la informaci\u00f3n contenida en la notificaci\u00f3n del fichero a excepci\u00f3n de las medidas de seguridad, as\u00ed como los cambios de finalidad del fichero, de responsable y de ubicaci\u00f3n del fichero."
-      },{
-        "@class": "parrafo",
-        "#text": "4. En los asientos de inscripci\u00f3n de cualesquiera ficheros de datos de car\u00e1cter personal figurar\u00e1n los datos relativos a los ficheros que sean necesarios para el ejercicio de los derechos de informaci\u00f3n, acceso, rectificaci\u00f3n y cancelaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 25. Actos y documentos inscribibles."
-      },{
-        "@class": "parrafo",
-        "#text": "Se inscribir\u00e1n en el Registro General de Protecci\u00f3n de Datos los siguientes actos y documentos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Las autorizaciones de transferencia de datos personales a otros pa\u00edses, en los casos en que, a tenor de lo dispuesto en el art\u00edculo 32 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, sea preceptiva para la transferencia la autorizaci\u00f3n previa del Director."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Los c\u00f3digos tipo elaborados al amparo de lo previsto en el art\u00edculo 31 de la Ley Org\u00e1nica 5/1992."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 26. Inscripci\u00f3n y certificaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Corresponde al Registro General de Protecci\u00f3n de Datos instruir los expedientes de inscripci\u00f3n de los ficheros automatizados de titularidad privada y p\u00fablica."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Corresponde asimismo al Registro General de Protecci\u00f3n de Datos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Instruir los expedientes de modificaci\u00f3n y cancelaci\u00f3n del contenido de los asientos."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Instruir los expedientes de autorizaci\u00f3n de las transferencias internacionales de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Rectificar de oficio los errores materiales de los asientos."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Expedir certificaciones de los asientos."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Publicar una relaci\u00f3n anual de los ficheros notificados e inscritos."
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 5. La Inspecci\u00f3n de Datos"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 27. La Inspecci\u00f3n de Datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Inspecci\u00f3n de Datos es el \u00f3rgano de la Agencia de Protecci\u00f3n de Datos al cual competen las funciones inherentes al ejercicio de la potestad de inspecci\u00f3n que el art\u00edculo 39 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, atribuye a la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los funcionarios que ejerzan funciones inspectoras tendr\u00e1n la consideraci\u00f3n de autoridad p\u00fablica en el desempe\u00f1o de sus funciones, y estar\u00e1n obligados a guardar secreto sobre las informaciones que conozcan en el ejercicio de las mencionadas funciones, incluso despu\u00e9s de haber cesado en las mismas."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 28. Funciones inspectoras."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Compete, en particular, a la Inspecci\u00f3n de Datos efectuar inspecciones, peri\u00f3dicas o circunstanciales, de oficio o a instancia de los afectados, de cualesquiera ficheros, de titularidad p\u00fablica o privada, en los locales en los que se hallen los ficheros y los equipos inform\u00e1ticos correspondientes, y a tal efecto podr\u00e1:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Examinar los soportes de informaci\u00f3n que contengan los datos personales."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Examinar los equipos f\u00edsicos."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Requerir el pase de programas y examinar la documentaci\u00f3n pertinente al objeto de determinar, en caso necesario, los algoritmos de los procesos de que los datos sean objeto."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Examinar los sistemas de transmisi\u00f3n y acceso a los datos."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Realizar auditor\u00edas de los sistemas inform\u00e1ticos con miras a determinar su conformidad con las disposiciones de la Ley Org\u00e1nica 5/1992."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Requerir la exhibici\u00f3n de cualesquiera otros documentos pertinentes."
-      },{
-        "@class": "parrafo",
-        "#text": "g) Requerir el env\u00edo de toda informaci\u00f3n precisa para el ejercicio de las funciones inspectoras."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El responsable del fichero estar\u00e1 obligado a permitir el acceso a los locales en los que se hallen los ficheros y los equipos inform\u00e1ticos previa exhibici\u00f3n por el funcionario actuante de la autorizaci\u00f3n expedida por el Director de la Agencia. Cuando dichos locales tengan la consideraci\u00f3n legal de domicilio, la labor inspectora deber\u00e1 ajustarse adem\u00e1s a las reglas que garantizan su inviolabilidad."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 29. Funciones instructoras."
-      },{
-        "@class": "parrafo",
-        "#text": "Compete a la Inspecci\u00f3n de Datos el ejercicio de los actos de instrucci\u00f3n relativos a los expedientes sancionadores a los que se refiere el art\u00edculo 12.2.h) del presente Estatuto."
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 6. La Secretar\u00eda General"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 30. Funciones de apoyo y ejecuci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Corresponde a la Secretar\u00eda General:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Elaborar los informes y propuestas que le solicite el Director."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Notificar las resoluciones del Director."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Ejercer la Secretar\u00eda del Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Gestionar los medios personales y materiales adscritos a la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Atender a la gesti\u00f3n econ\u00f3mico-administrativa del presupuesto de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Llevar el inventario de bienes y derechos que se integren en el patrimonio de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "g) Gestionar los asuntos de car\u00e1cter general no atribuidos a otros \u00f3rganos de la Agencia."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 31. Otras funciones."
-      },{
-        "@class": "parrafo",
-        "#text": "Corresponde asimismo a la Secretar\u00eda General:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Formar y actualizar un fondo de documentaci\u00f3n sobre legislaci\u00f3n, jurisprudencia y doctrina en materia de protecci\u00f3n de datos personales y cualesquiera materias conexas."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Editar los repertorios oficiales de ficheros inscritos en el Registro General de Protecci\u00f3n de Datos, las Memorias anuales de la Agencia y cualesquiera publicaciones de la Agencia."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Organizar conferencias, seminarios y cualesquiera actividades de cooperaci\u00f3n internacional e interregional sobre protecci\u00f3n de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Facilitar la informaci\u00f3n a que se refiere el art\u00edculo 4.1 del presente Estatuto."
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAPITULO IV"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "R\u00e9gimen econ\u00f3mico, patrimonial y de personal"
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 1. R\u00e9gimen econ\u00f3mico"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 32. Recursos econ\u00f3micos."
-      },{
-        "@class": "parrafo",
-        "#text": "Los recursos econ\u00f3micos de la Agencia de Protecci\u00f3n de Datos comprender\u00e1n:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Las asignaciones que anualmente se establezcan con cargo a los Presupuestos Generales del Estado."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Las subvenciones y aportaciones que se concedan a su favor, procedentes de fondos espec\u00edficos de la Comunidad Econ\u00f3mica Europea."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Los ingresos, ordinarios y extraordinarios derivados del ejercicio de sus actividades."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Las rentas y productos de los bienes, derechos y valores integrantes de su patrimonio."
-      },{
-        "@class": "parrafo",
-        "#text": "e) El producto de la enajenaci\u00f3n de sus activos."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Cualesquiera otros que legalmente puedan serle atribuidos."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 33. Contabilidad y control."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos ajustar\u00e1 su contabilidad al Plan General de Contabilidad P\u00fablica y a las dem\u00e1s disposiciones que sean de aplicaci\u00f3n, sin perjuicio de la obligaci\u00f3n de rendir cuentas al Tribunal de Cuentas por conducto de la Intervenci\u00f3n General de la Administraci\u00f3n del Estado, en los t\u00e9rminos previstos en la Ley General Presupuestaria."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El ejercicio anual se computar\u00e1 por a\u00f1os naturales, comenzando el d\u00eda 1 del mes de enero de cada a\u00f1o."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El control de las actividades econ\u00f3micas y financieras de la Agencia se ejercer\u00e1 de conformidad con lo establecido en el art\u00edculo 17.1 de la Ley General Presupuestaria, con car\u00e1cter permanente."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 34. Presupuestos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos elaborar\u00e1 anualmente un anteproyecto de presupuesto, con la estructura que se\u00f1ale el Ministerio de Econom\u00eda y Hacienda, y lo remitir\u00e1 a \u00e9ste para su ulterior elevaci\u00f3n al Gobierno a fin de que sea integrado con la debida independencia en los Presupuestos Generales del Estado."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Las modificaciones del presupuesto de la Agencia ser\u00e1n autorizadas por el Director cuando se trate de modificaciones internas que no incrementen la cuant\u00eda del mismo y sean consecuencia de las necesidades surgidas durante el ejercicio."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Los suplementos de cr\u00e9dito o cr\u00e9ditos extraordinarios de la Agencia ser\u00e1n autorizados por el Ministro de Econom\u00eda Hacienda cuando no excedan del 5 por 100 de su presupuesto de gastos y por el Gobierno en los dem\u00e1s casos."
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 2. R\u00e9gimen patrimonial"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 35. Patrimonio."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos tendr\u00e1 un patrimonio propio, distinto del del Estado, formado por los bienes, derechos y valores que adquiera a t\u00edtulo oneroso o le sean cedidos o donados por cualquier persona o entidad."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los bienes que el Estado adscriba a la Agencia quedar\u00e1n afectados a su servicio y conservar\u00e1n la calificaci\u00f3n jur\u00eddica originaria, debiendo ser utilizados exclusivamente para los fines que determinaron la adscripci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 36. Adquisiciones y contrataci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos se regir\u00e1, en lo referente a las adquisiciones y enajenaciones de bienes, por las disposiciones del derecho privado."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los bienes que adquiera la Agencia se integrar\u00e1n en su patrimonio."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Los contratos que celebre la Agencia se regir\u00e1n por las disposiciones del derecho privado, sin perjuicio de que la adjudicaci\u00f3n de los contratos sea acordada previa publicidad y promoci\u00f3n de concurrencia."
-      },{
-        "@class": "seccion",
-        "#text": "Secci\u00f3n 3. R\u00e9gimen del personal"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 37. Relaci\u00f3n de puestos de trabajo."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos propondr\u00e1 a los \u00f3rganos competentes, a trav\u00e9s del Ministerio de Justicia, la relaci\u00f3n de puestos de trabajo de la misma."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La relaci\u00f3n de puestos de trabajo comprender\u00e1:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Los puestos de trabajo a desempe\u00f1ar por personal funcionario. Los titulares de los \u00f3rganos a que se refiere el art\u00edculo 11.3 tendr\u00e1n rango de Subdirector general."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Los puestos de trabajo a desempe\u00f1ar por personal laboral, con expresi\u00f3n de los factores que, en funci\u00f3n de las tareas integrantes de cada puesto de trabajo, determinen la imposibilidad de su desempe\u00f1o por personal funcionario."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Las descripciones de los puestos de trabajo indicar\u00e1n expresamente la obligaci\u00f3n que, a tenor de lo previsto en los art\u00edculos 10 y 39 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, corresponde al personal en lo relativo a la observancia de secreto sobre los datos personales, que los titulares de cada puesto conozcan en el desempe\u00f1o de sus tareas."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 38. Retribuciones."
-      },{
-        "@class": "parrafo",
-        "#text": "Las retribuciones del personal funcionario y laboral de la Agencia se ajustar\u00e1n a lo dispuesto en las leyes anuales de presupuestos."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 39. Provisi\u00f3n de puestos de trabajo."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La Agencia de Protecci\u00f3n de Datos proveer\u00e1 los puestos de trabajo adscritos al personal funcionario ajust\u00e1ndose a la legislaci\u00f3n de la Funci\u00f3n P\u00fablica."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los puestos de trabajo adscritos al personal laboral se proveer\u00e1n mediante convocatoria p\u00fablica y de acuerdo con los principios de igualdad, m\u00e9rito y capacidad."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional primera. Plazo para efectuar las propuestas de nombramiento."
-      },{
-        "@class": "parrafo",
-        "#text": "En el plazo de un mes a contar de la entrada en vigor del presente Estatuto, las instituciones, \u00f3rganos, corporaciones y organizaciones a que se refiere el art\u00edculo 19 del mismo, comunicar\u00e1n los nombres de las personas que deban proponer para su nombramiento como miembros del Consejo Consultivo."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional segunda. Nombramiento de los miembros del Consejo Consultivo."
-      },{
-        "@class": "parrafo",
-        "#text": "Transcurrido el plazo establecido en la disposici\u00f3n adicional primera, el Gobierno nombrar\u00e1 sin m\u00e1s tr\u00e1mite a los miembros del Consejo Consultivo que hubieran sido propuestos y designar\u00e1 de entre ellos al Director de la Agencia."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional tercera. Ficheros excluidos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. En los t\u00e9rminos y con los l\u00edmites establecidos en los art\u00edculos 21.3 y 40 de la Ley Org\u00e1nica 5/1992, de 29 de octubre, quedan excluidos del \u00e1mbito de aplicaci\u00f3n del presente Estatuto los ficheros automatizados de datos de car\u00e1cter personal creados o gestionados por las Comunidades Aut\u00f3nomas."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Asimismo quedan excluidos del \u00e1mbito de aplicaci\u00f3n del presente Estatuto los ficheros a los que se refiere el art\u00edculo 2, apartados 2 y 3, de la Ley Org\u00e1nica 5/1992, de 29 de octubre, salvo lo establecido en este \u00faltimo apartado para los ficheros que sirvan a fines exclusivamente estad\u00edsticos."
-      }
-    ]
   }
-}
 }

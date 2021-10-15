@@ -1,756 +1,909 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190612132601",
-  "metadatos": {
-    "identificador": "BOE-A-2012-10049",
-    "titulo": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190612132601",
+    "metadatos": {
+      "identificador": "BOE-A-2012-10049",
+      "titulo": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "178",
+      "seccion": "3",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "9216",
+        "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+      },
+      "rango": {
+        "@codigo": "1370",
+        "#text": "Resoluci\u00f3n"
+      },
+      "numero_oficial": null,
+      "fecha_disposicion": "20120628",
+      "fecha_publicacion": "20120726",
+      "fecha_vigencia": "20120727",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "53781",
+      "pagina_final": "53792",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2012/07/26/pdfs/BOE-A-2012-10049.pdf",
+      "url_pdf_catalan": null,
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": null,
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/res/2012/06/28/(4)"
     },
-    "diario_numero": "178",
-    "seccion": "3",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "9216",
-      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-    },
-    "rango": {
-      "@codigo": "1370",
-      "#text": "Resoluci\u00f3n"
-    },
-    "numero_oficial": null,
-    "fecha_disposicion": "20120628",
-    "fecha_publicacion": "20120726",
-    "fecha_vigencia": "20120727",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "53781",
-    "pagina_final": "53792",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2012/07/26/pdfs/BOE-A-2012-10049.pdf",
-    "url_pdf_catalan": null,
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": null,
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/res/2012/06/28/(4)"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2012-10049"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2012-06-28"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "(4)"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2012-10049"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-06-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(4)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)"
-              },
-              "eli:consolidated_by": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2012-07-26"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2012-10049"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2012-06-28"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "(4)"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2012-10049"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-06-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(4)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)"
+                },
+                "eli:consolidated_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2012-07-26"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2012-10049"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-06-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(4)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-07-26"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2012-07-26"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726/spa"
                         }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa"
-                        }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa/xml",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof/spa"
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2012-10049"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-06-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(4)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-07-26"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2012-07-26"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(4)/con/20120726/spa"
                       }
                     }
                   }
                 }
               }
             }
-          }
-        ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": {
-      "nota": {
-        "@codigo": "37",
-        "@orden": "220",
-        "#text": "Aplicable desde el 27 de julio de 2012."
+          ]
+        }
       }
     },
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "1508",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "93",
-          "@orden": "",
-          "#text": "Administraciones P\u00fablicas"
-        },{
-          "@codigo": "3086",
-          "@orden": "",
-          "#text": "Documentos p\u00fablicos"
-        },{
-          "@codigo": "3807",
-          "@orden": "",
-          "#text": "Formularios administrativos"
-        },{
-          "@codigo": "9350",
-          "@orden": "",
-          "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-        },{
-          "@codigo": "5163",
-          "@orden": "",
-          "#text": "Normas de calidad"
-        },{
-          "@codigo": "5923",
-          "@orden": "",
-          "#text": "Redes de telecomunicaci\u00f3n"
-        },{
-          "@codigo": "6020",
-          "@orden": "",
-          "#text": "Reglamentaciones t\u00e9cnicas"
+    "analisis": {
+      "notas": {
+        "nota": {
+          "@codigo": "37",
+          "@orden": "220",
+          "#text": "Aplicable desde el 27 de julio de 2012."
         }
-      ]
-    },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "109",
-          "@orden": "",
-          "#text": "Derecho Administrativo"
-        },{
-          "@codigo": "121",
-          "@orden": "",
-          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
-        },{
-          "@codigo": "129",
-          "@orden": "",
-          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+      },
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-2010-1331",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
-          },{
-            "@referencia": "BOE-A-2007-12352",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "Ley 11/2007, de 22 de junio"
+            "@codigo": "1508",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "93",
+            "@orden": "",
+            "#text": "Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "3086",
+            "@orden": "",
+            "#text": "Documentos p\u00fablicos"
+          },
+          {
+            "@codigo": "3807",
+            "@orden": "",
+            "#text": "Formularios administrativos"
+          },
+          {
+            "@codigo": "9350",
+            "@orden": "",
+            "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "5163",
+            "@orden": "",
+            "#text": "Normas de calidad"
+          },
+          {
+            "@codigo": "5923",
+            "@orden": "",
+            "#text": "Redes de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "6020",
+            "@orden": "",
+            "#text": "Reglamentaciones t\u00e9cnicas"
           }
         ]
       },
-      "posteriores": null
-    }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "parrafo",
-        "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
-      },{
-        "@class": "parrafo",
-        "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
-      },{
-        "@class": "parrafo",
-        "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, la norma relativa a la intermediaci\u00f3n de datos responde a lo previsto en el art\u00edculo 9 de la Ley 11/2007, de 22 de junio, y en el art\u00edculo 8 del citado Real Decreto 4/2010, de 8 de enero, sobre el acceso y utilizaci\u00f3n de servicios de intercambio de datos y documentos entre Administraciones P\u00fablicas; definiendo un modelo para el intercambio intermediado de datos. Los intercambios intermediados constituyen un modelo recomendado internacionalmente tanto por la UE, como por la OCDE o la ONU, dada su demostrada eficiencia como herramienta de interoperabilidad en tanto que permite la normalizaci\u00f3n y reutilizaci\u00f3n de los servicios de intercambio."
-      },{
-        "@class": "parrafo",
-        "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos, en primer lugar y con car\u00e1cter general, define los roles de los agentes que participan en los intercambios intermediados de datos; y, en segundo lugar, establece las condiciones relativas a los procesos de intercambio intermediado de datos a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas, condiciones asimismo aplicables a plataformas de intermediaci\u00f3n de otras Administraciones P\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "Dichos roles y condiciones se establecen en t\u00e9rminos de interoperabilidad tecnol\u00f3gica y se aplicar\u00e1n junto a las consideraciones que correspondan a la naturaleza de la informaci\u00f3n objeto del intercambio o cesi\u00f3n de datos, de conformidad con la legislaci\u00f3n que resulte de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero, esta Secretar\u00eda de Estado resuelve:"
-      },{
-        "@class": "articulo",
-        "#text": "[precepto]Primero."
-      },{
-        "@class": "parrafo",
-        "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos cuyo texto se incluye a continuaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "[precepto]Segundo."
-      },{
-        "@class": "parrafo",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la disposici\u00f3n transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Madrid, 28 de junio de 2012.\u2014El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
-      },{
-        "@class": "anexo",
-        "#text": "[encabezado]Norma T\u00e9cnica de Interoperabilidad de Protocolos de Intermediaci\u00f3n de Datos"
-      },{
-        "@class": "centro_redonda",
-        "#text": "[indice]\u00cdNDICE"
-      },{
-        "@class": "parrafo_2",
-        "#text": "I. Disposiciones generales"
-      },{
-        "@class": "parrafo",
-        "#text": "I.1 Objeto."
-      },{
-        "@class": "parrafo",
-        "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "II. Agentes en los intercambios intermediados de datos"
-      },{
-        "@class": "parrafo",
-        "#text": "II.1 Cedente y Emisor."
-      },{
-        "@class": "parrafo",
-        "#text": "II.2 Cesionario y Requirente."
-      },{
-        "@class": "parrafo",
-        "#text": "III. Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "III.1. Funciones."
-      },{
-        "@class": "parrafo",
-        "#text": "III.2. Gobernanza del sistema."
-      },{
-        "@class": "parrafo",
-        "#text": "III.3. Requisitos t\u00e9cnicos del intercambio."
-      },{
-        "@class": "parrafo",
-        "#text": "III.4. Aspectos generales de seguridad."
-      },{
-        "@class": "parrafo",
-        "#text": "III.5. Tecnolog\u00edas y est\u00e1ndares."
-      },{
-        "@class": "parrafo",
-        "#text": "III.6. Trazabilidad y auditor\u00eda de los intercambios."
-      },{
-        "@class": "parrafo",
-        "#text": "III.7. Cat\u00e1logo de servicios de intercambio de datos. [fin indice]"
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[preambulo]I. Disposiciones generales"
-      },{
-        "@class": "parrafo_2",
-        "#text": "I.1 Objeto."
-      },{
-        "@class": "parrafo_2",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos tiene por objeto establecer las especificaciones para el intercambio intemediado de datos entre Administraciones P\u00fablicas, o Entidades de Derecho P\u00fablico vinculadas o dependientes de aquellas (en adelante, organizaciones)."
-      },{
-        "@class": "parrafo_2",
-        "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. El contenido de esta norma ser\u00e1 de aplicaci\u00f3n para el intercambio intermediado de datos a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Las condiciones establecidas en esta norma relativas a los agentes participantes en los intercambios intermediados de datos se aplicar\u00e1n en otras plataformas de intermediaci\u00f3n en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Las condiciones establecidas en esta norma relativas a la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas podr\u00e1n aplicarse en el intercambio intermediado de datos a trav\u00e9s de otras plataformas de intermediaci\u00f3n en el \u00e1mbito referido en el apartado 2."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Las condiciones establecidas en esta norma se podr\u00e1n aplicar en intercambios de datos no intermediados as\u00ed como en otros nodos de interoperabilidad."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]II. Agentes en los intercambios intermediados de datos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "II.1 Cedente y Emisor."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Un Cedente ser\u00e1 cualquier organizaci\u00f3n que posea datos relativos a los ciudadanos que otra pueda necesitar consultar en el \u00e1mbito del ejercicio de sus competencias; es el responsable de los mismos seg\u00fan la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, y los ofrecer\u00e1 a posibles Cesionarios a trav\u00e9s de un Emisor."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Un Emisor ser\u00e1 el que facilita la cesi\u00f3n de los datos desde un punto de vista tecnol\u00f3gico."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Un Cedente que facilita la cesi\u00f3n de sus propios datos actuar\u00e1, en el \u00e1mbito de esta norma, como Emisor a la vez de ser Cedente."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Cualquier nodo de interoperabilidad que participe en la gesti\u00f3n de los tr\u00e1mites de emisi\u00f3n o cesi\u00f3n de datos de un Emisor, tomar\u00e1 tambi\u00e9n el rol de Emisor en el \u00e1mbito de esta norma, incluyendo las funciones relacionadas con la firma electr\u00f3nica de las comunicaciones que realiza."
-      },{
-        "@class": "parrafo",
-        "#text": "5. Rol del Cedente:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Facilitar\u00e1 la informaci\u00f3n para el cat\u00e1logo o registro de sus servicios de intercambio de datos disponibles bajo servicios de intercambio a disposici\u00f3n de otras organizaciones para su consulta."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Respecto a las autorizaciones de acceso a los servicios:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "b.1) Establecer\u00e1 los protocolos y condiciones de acceso a los servicios de intercambio de datos que ofrecen, los m\u00e9todos de consulta permitidos as\u00ed como la informaci\u00f3n a conocer de cada Requirente."
-      },{
-        "@class": "parrafo",
-        "#text": "b.2) Justificar\u00e1 los casos de rechazo o denegaci\u00f3n de una solicitud."
-      },{
-        "@class": "parrafo",
-        "#text": "b.3) Definir\u00e1 la pol\u00edtica de auditor\u00eda y realizar\u00e1 auditor\u00edas peri\u00f3dicas sobre el uso del sistema relativo a las consultas de sus datos."
-      },{
-        "@class": "parrafo_2",
-        "#text": "c) Podr\u00e1 delegar estas tareas en el Emisor o en un nodo de interoperabilidad."
-      },{
-        "@class": "parrafo_2",
-        "#text": "6. Rol del Emisor:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Establecer\u00e1 las condiciones t\u00e9cnicas de acceso a los servicios de intercambio de datos que ofrece, los m\u00e9todos de consulta permitidos y los controles y auditor\u00eda t\u00e9cnica, pudiendo delegar la ejecuci\u00f3n de dichas condiciones en un nodo de interoperabilidad."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Definir\u00e1 los controles y criterios de acceso a los datos necesarios para garantizar la confidencialidad de la informaci\u00f3n: pol\u00edticas y procedimientos de gesti\u00f3n y control de acceso de usuarios y \u00f3rganos."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Proporcionar\u00e1 los datos pertinentes a cada consulta con garant\u00eda de integridad y confidencialidad."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Informar\u00e1 sobre la disponibilidad de cada servicio de intercambio bajo su responsabilidad, as\u00ed como sobre los mecanismos de soporte y resoluci\u00f3n de incidencias disponibles en cada caso, incluyendo los datos de contacto para dichos servicios."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Definir\u00e1 Acuerdos de Nivel de Servicio (ANS) para regular las condiciones de prestaci\u00f3n de los servicios y mecanismos de respuesta a incidencias espec\u00edficos acorde a la criticidad del servicio que se est\u00e1 prestando."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Mantendr\u00e1 la traza de todas las peticiones recibidas y respuestas generadas."
-      },{
-        "@class": "parrafo_2",
-        "#text": "II.2 Cesionario y Requirente."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Un Cesionario ser\u00e1 cualquier organizaci\u00f3n autorizada a consultar determinados datos de los ciudadanos en poder de un Cedente."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Un Requirente ser\u00e1 el que facilita la consulta de los datos desde un punto de vista tecnol\u00f3gico."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Un Cesionario que realiza directamente la consulta de datos actuar\u00e1, en el \u00e1mbito de esta norma, como Requirente a la vez de ser Cesionario."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Cualquier nodo de interoperabilidad que participe en la gesti\u00f3n de los tr\u00e1mites de consulta de datos de un Requirente, tomar\u00e1 tambi\u00e9n el rol de Requirente en el \u00e1mbito de esta norma, incluyendo las funciones relacionadas con la firma electr\u00f3nica de las comunicaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "5. Rol del Cesionario:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Solicitar\u00e1 informaci\u00f3n siempre en relaci\u00f3n con los tr\u00e1mites y procedimientos autorizados por el cedente y dentro del marco de un procedimiento administrativo."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Cumplir\u00e1 las condiciones de acceso a los datos establecidas por el Cedente."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Recabar\u00e1 el consentimiento del interesado, salvo que una ley le exima de ello, y reflejar\u00e1 la respuesta obtenida del sistema, en el \u00e1mbito del expediente correspondiente."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Utilizar\u00e1 la informaci\u00f3n obtenida de cada consulta para la finalidad que corresponda en cada caso, realizando una misma consulta tantas veces como sea necesario y lo requiera el tr\u00e1mite a que se refiera la consulta, asumiendo expresamente la responsabilidad que pudiera derivar de posibles incumplimientos."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Colaborar\u00e1 en las labores de auditor\u00eda cuando sea requerido para ello, facilitando al Cedente la informaci\u00f3n o documentos necesarios para el control de las consultas."
-      },{
-        "@class": "parrafo_2",
-        "#text": "6. Rol del Requirente:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Cumplir\u00e1 las condiciones de acceso a los datos establecidas por el Emisor."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Asegurar\u00e1 que las peticiones de consulta contienen los datos de identificaci\u00f3n, la informaci\u00f3n solicitada y la especificaci\u00f3n del tr\u00e1mite o procedimiento en el que los datos ser\u00e1n usados y, si procede, los datos del Cesionario."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Mantendr\u00e1 la traza de las peticiones que realiza y de las respuestas recibidas."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Colaborar\u00e1 en las labores de auditor\u00eda cuando sea requerido para ello."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Realizar\u00e1 las labores de monitorizaci\u00f3n y control necesarias para mantener un correcto funcionamiento de su servicio de consulta."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Asegurar\u00e1 las m\u00e1ximas garant\u00edas de seguridad y confidencialidad de las consultas, preservando la privacidad de los datos consultados tanto en el propio intercambio como en el tratamiento posterior de la informaci\u00f3n obtenida. Para ello, establecer\u00e1 controles de autorizaci\u00f3n, acceso y uso por parte de los usuarios a las diferentes aplicaciones, mantendr\u00e1 actualizados los datos de los usuarios y aplicaciones que acceden al sistema, notificando cualquier cambio de estado y asegurando la tramitaci\u00f3n de su baja cuando corresponda."
-      },{
-        "@class": "parrafo",
-        "#text": "g) No almacenar\u00e1 informaci\u00f3n personal de ning\u00fan ciudadano salvo la imprescindible para el tr\u00e1mite que se solicita, para la organizaci\u00f3n en nombre de la cual ha sido recabada y s\u00f3lo durante el tiempo imprescindible."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]III. Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas"
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.1 Funciones."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. El Ministerio de Hacienda y Administraciones P\u00fablicas funcionar\u00e1 como un nodo de interoperabilidad mediante la plataforma de Intermediaci\u00f3n que, atendiendo a la definici\u00f3n de nodo de interoperabilidad recogida en el Real Decreto 4/2010, de 8 de enero, prestar\u00e1 funcionalidades comunes para el intercambio de informaci\u00f3n entre Emisores y Requirentes."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Rol de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Gestionar\u00e1 los Cesionarios y Requirentes seg\u00fan las condiciones establecidas por cada Cedente."
-      },{
-        "@class": "parrafo",
-        "#text": "b) No almacenar\u00e1 informaci\u00f3n personal de ning\u00fan ciudadano derivada de cualquier transacci\u00f3n de intercambio de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Asegurar\u00e1 la confidencialidad e integridad de la informaci\u00f3n intercambiada a trav\u00e9s de los mecanismos correspondientes."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Mantendr\u00e1 un portal web informativo con toda la documentaci\u00f3n relativa a la Plataforma, donde publicar\u00e1 al menos:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "d.1) El cat\u00e1logo de servicios de intercambio de datos disponibles por parte de las diferentes organizaciones, incluyendo: los protocolos de acceso a dichos servicios, los m\u00e9todos de consulta permitidos, la informaci\u00f3n t\u00e9cnica relevante, as\u00ed como la informaci\u00f3n que se requiere de cada Requirente."
-      },{
-        "@class": "parrafo",
-        "#text": "d.2) Formularios de solicitud de acceso a los servicios."
-      },{
-        "@class": "parrafo",
-        "#text": "d.3) Acuerdos de prestaci\u00f3n de cada servicio disponible y de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas en general."
-      },{
-        "@class": "parrafo",
-        "#text": "d.4) Novedades del servicio prestado por la Plataforma."
-      },{
-        "@class": "parrafo_2",
-        "#text": "e) Mantendr\u00e1 el sistema en funcionamiento 24x7."
-      },{
-        "@class": "parrafo",
-        "#text": "f) Dar\u00e1 soporte a las organizaciones y gestionar\u00e1 todas las comunicaciones e incidencias producidas colaborando para ello con Requirentes y Emisores."
-      },{
-        "@class": "parrafo",
-        "#text": "g) Mantendr\u00e1 un centro de atenci\u00f3n a usuarios e integradores que canalice todas las incidencias relativas al sistema e informar\u00e1 sobre los datos de contacto del mismo."
-      },{
-        "@class": "parrafo",
-        "#text": "h) Elaborar\u00e1 informes de actividad y uso de la Plataforma considerando las consultas realizadas desde y hacia cada organizaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "i) Evolucionar\u00e1 y mantendr\u00e1 sus sistemas garantizando la seguridad y privacidad de los datos acorde a la normativa aplicable."
-      },{
-        "@class": "parrafo",
-        "#text": "j) Colaborar\u00e1 en las labores de auditor\u00eda siempre que el Emisor o el Cedente as\u00ed lo requiera y defina, conservando los datos de trazabilidad y estad\u00edsticos acordados, proporcionando acceso a los mismos cuando sea necesario y permitiendo reproducir la secuencia de operaciones llevadas a cabo por el sistema."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.2 Gobernanza del sistema."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Cualquier organizaci\u00f3n podr\u00e1 acceder a informaci\u00f3n sobre servicios de intercambio de datos disponibles a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas o, en su caso, a trav\u00e9s del correspondiente nodo de interoperabilidad."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La incorporaci\u00f3n de nuevos servicios en la Plataforma de Intermediaci\u00f3n se coordinar\u00e1 entre el Ministerio de Hacienda y Administraciones P\u00fablicas y el organismo cedente correspondiente."
-      },{
-        "@class": "parrafo",
-        "#text": "En el caso de servicios comunes ofrecidos por las CCAAs, la incorporaci\u00f3n de nuevos servicios se aprobar\u00e1 previamente en el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Para el acceso a un servicio de intercambio de datos:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) El Requirente enviar\u00e1 al Emisor la solicitud de alta para el acceso al servicio aplicando el formulario del anexo 1 a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas. Esta operaci\u00f3n se realizar\u00e1 para cada Cesionario que gestione el Requirente."
-      },{
-        "@class": "parrafo",
-        "#text": "b) El Emisor remitir\u00e1 al Requirente la autorizaci\u00f3n del cesionario en respuesta a dicha solicitud. Dicha autorizaci\u00f3n contemplar\u00e1 la justificaci\u00f3n de la legitimidad y competencia del Requirente y ser\u00e1 registrada por la Plataforma de intermediaci\u00f3n."
-      },{
-        "@class": "parrafo_2",
-        "#text": "4. Las funciones de cada agente involucrado en la autorizaci\u00f3n podr\u00e1n ser realizadas por la propia Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas o, en su caso, por un nodo de interoperabilidad que haya subscrito el correspondiente convenio con este Ministerio a tal efecto."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.3 Requisitos t\u00e9cnicos."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. La Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas garantizar\u00e1 la interoperabilidad, disponibilidad, fiabilidad y seguridad de la informaci\u00f3n transmitida a trav\u00e9s de ella entre las diferentes organizaciones con las que interact\u00faa."
-      },{
-        "@class": "parrafo",
-        "#text": "2. En el acceso a la Plataforma de intermediaci\u00f3n de datos del Ministerio de Hacienda y Administraciones P\u00fablicas se utilizar\u00e1 la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas atendiendo a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.4 Aspectos generales de seguridad."
-      },{
-        "@class": "parrafo_2",
-        "#text": "El intercambio de datos entre la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas y las organizaciones se realizar\u00e1 en unas condiciones tales que garanticen la seguridad de la informaci\u00f3n que se transmite, proporcionando medidas para la autenticidad, confidencialidad, integridad, disponibilidad y trazabilidad adecuadas a la naturaleza de la misma:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Autenticidad. Se asegurar\u00e1 la identidad de todos los agentes que intervengan en el proceso de intercambio de datos, de forma que todos ellos est\u00e9n correctamente identificados en cada intercambio. Para ello, se aplicar\u00e1n las medidas de seguridad contempladas en el Real Decreto 3/2010, de 8 de enero, dentro del grupo \u00abmarco operacional\u00bb en el cap\u00edtulo relativo a \u00abControl de acceso\u00bb (op.acc); y del grupo \u00abmedidas de protecci\u00f3n\u00bb, en el cap\u00edtulo \u00abProtecci\u00f3n de la informaci\u00f3n\u00bb (mp.info)."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Confidencialidad e integridad de la informaci\u00f3n intercambiada, que ser\u00e1 protegida conforme al grupo de \u00abmedidas de protecci\u00f3n\u00bb, cap\u00edtulos \u00abProtecci\u00f3n de las comunicaciones\u00bb (mp.com) y \u00abProtecci\u00f3n de la informaci\u00f3n\u00bb (mp.info) definidas en el Real Decreto 3/2010, de 8 de enero, y con las medidas de seguridad dispuestas en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y normativa de desarrollo, asegurando que no se almacena informaci\u00f3n personal de ning\u00fan ciudadano."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Disponibilidad de la Plataforma, asegurada a trav\u00e9s de medidas establecidas en el cap\u00edtulo \u00abProtecci\u00f3n de los servicios\u00bb (mp.$) del grupo de \u00abmedidas de protecci\u00f3n\u00bb definidas en el Real Decreto 3/2010, de 8 de enero."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Trazabilidad, seg\u00fan lo establecido en el apartado 111.6 de esta norma."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.5 Tecnolog\u00edas y est\u00e1ndares."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Las tecnolog\u00edas utilizadas para los intercambios se implementar\u00e1n en base a est\u00e1ndares abiertos e interoperables seg\u00fan lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los intercambios de informaci\u00f3n se podr\u00e1n implementar a trav\u00e9s de servicios web, que, como conjunto de protocolos y est\u00e1ndares abiertos sobre los que desarrollar estructuras de datos espec\u00edficas para cada tipo de intercambio, incorporar\u00e1n los mecanismos de seguridad necesarios para la comunicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Los servicios web implementados se dise\u00f1ar\u00e1n en base a la utilizaci\u00f3n de:"
-      },{
-        "@class": "parrafo_2",
-        "em": "(Web Services Description Language).",
-        "#text": "a) Servicios definidos mediante un lenguaje WSDL"
-      },{
-        "@class": "parrafo",
-        "#text": "b) Mensajes en formato XML (eXtensible Mark-up Language) con estructuras basadas en esquemas XML publicados que faciliten su interpretaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "em": "(Transport Layer Security)",
-        "#text": "c) Est\u00e1ndares de seguridad en las comunicaciones a nivel de transporte punto a punto, mediante el uso del protocolo TLS con autenticaci\u00f3n de cliente a nivel de transporte, o a nivel de aplicaci\u00f3n mediante el uso de protocolos que garanticen la seguridad extremo a extremo en servicios Web."
-      },{
-        "@class": "parrafo_2",
-        "#text": "4. De forma general en servicios de intercambio se utilizar\u00e1 la versi\u00f3n 3.0 del protocolo SCSP (Sustituci\u00f3n de Certificados en Soporte Papel) cuya especificaci\u00f3n est\u00e1 disponible en el Portal de Administraci\u00f3n electr\u00f3nica PAE/CTT en la direcci\u00f3n http:// administracionelectronica.gob.es/es/ett/sesp."
-      },{
-        "@class": "parrafo",
-        "#text": "Se podr\u00e1 utilizar la versi\u00f3n 2 del protocolo SCSP en servicios ya existentes que no requieran mecanismos adicionales de seguridad sin perjuicio de que exista una versi\u00f3n actualizada del mismo servicio."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.6 Trazabilidad y auditor\u00eda de los intercambios."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. Emisores y Requirentes mantendr\u00e1n trazabilidad de los intercambios de datos producidos, para lo cual podr\u00e1n apoyarse en funcionalidades prestadas por la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas, y en lo previsto sobre trazabilidad en el Real Decreto 3/2010, de 8 de enero."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La conservaci\u00f3n de trazas por parte de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas, establecida atendiendo a las medidas de seguridad contempladas en el Real Decreto 3/2010, de 8 de enero: op.exp.10 \u00abProtecci\u00f3n de los registros de actividad\u00bb, op.exp.8 \u00abRegistro de la actividad de los usuarios\u00bb, mp.info.5 \u00abSellos de tiempo\u00bb, facilitar\u00e1 la auditor\u00eda de los intercambios. La informaci\u00f3n aportada por la Plataforma se completar\u00e1 con aquella que permita la recuperaci\u00f3n de los datos espec\u00edficos intercambiados que conservar\u00e1n Emisor y Requirente."
-      },{
-        "@class": "parrafo",
-        "#text": "3. La Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas no almacenar\u00e1 informaci\u00f3n sobre el contenido del intercambio ni asumir\u00e1 funciones relativas a la conservaci\u00f3n de trazas y auditor\u00eda, mas all\u00e1 de lo establecido en el apartado 111.6 y en cuyo caso la definici\u00f3n de funciones y mecanismos de puesta a disposici\u00f3n del agente interesado ser\u00e1 documentada convenientemente. El Cedente podr\u00e1 auditar la cesi\u00f3n de datos para comprobar el cumplimiento de los requisitos a que pudiera \u00e9sta estar sujeta."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Para garantizar la trazabilidad de los intercambios producidos, se asociar\u00e1 a cada petici\u00f3n o consulta un identificador \u00fanico que permitir\u00e1 reproducir la secuencia de operaciones llevadas a cabo."
-      },{
-        "@class": "parrafo",
-        "#text": "5. La informaci\u00f3n almacenada para la trazabilidad de cada consulta o intercambio contemplar\u00e1, al menos, lo siguiente:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Identificador de la transacci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Cesionario de la informaci\u00f3n, Requirente que la solicita y usuario final que la realiza especificando, si es posible, el empleado p\u00fablico o aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Tipo de informaci\u00f3n que se solicita."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Fecha y hora de realizaci\u00f3n de la consulta."
-      },{
-        "@class": "parrafo_2",
-        "#text": "III.7 Cat\u00e1logo de servicios de intercambio de datos."
-      },{
-        "@class": "parrafo_2",
-        "#text": "1. El cat\u00e1logo o registro de los servicios de intercambio de datos ofrecidos por cada Cedente ser\u00e1 incorporado al cat\u00e1logo de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas sirviendo de referencia a posibles Requirentes."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El cat\u00e1logo de servicios de intercambio de datos estar\u00e1 disponible para su consulta por las distintas organizaciones a trav\u00e9s de alguno de los siguientes medios:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Un punto informativo propio del Cedente o del Emisor, si se delega en \u00e9ste por parte del Cedente, que podr\u00e1 ser su sede electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "b) La Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Los instrumentos para la interoperabilidad establecidos en el Real Decreto 4/2010, de 8 de enero:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "i. Inventario de procedimientos administrativos y servicios prestados."
-      },{
-        "@class": "parrafo",
-        "#text": "ii. Centro de Interoperabilidad Sem\u00e1ntica de la Administraci\u00f3n."
-      },{
-        "@class": "parrafo_2",
-        "#text": "3. En el cat\u00e1logo o registro de servicios figurar\u00e1, para cada servicio disponible o supuesto gen\u00e9rico de intercambio, al menos, la informaci\u00f3n general definida en el anexo 11."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Para la publicaci\u00f3n de nuevos servicios en la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas se podr\u00e1 utilizar UDDI (Universal Description, Discovery and Integration) o un servicio de directorio como medio para facilitar el descubrimiento din\u00e1mico de nuevos servicios, aunque el uso de aquellos depender\u00e1 en cualquier caso de la formalizaci\u00f3n de las autorizaciones necesarias correspondientes."
+      "alertas": {
+        "alerta": [
+          {
+            "@codigo": "109",
+            "@orden": "",
+            "#text": "Derecho Administrativo"
+          },
+          {
+            "@codigo": "121",
+            "@orden": "",
+            "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+          },
+          {
+            "@codigo": "129",
+            "@orden": "",
+            "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+          },
+          {
+            "@codigo": "130",
+            "@orden": "",
+            "#text": "Telecomunicaciones"
+          }
+        ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-2010-1331",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
+            },
+            {
+              "@referencia": "BOE-A-2007-12352",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "Ley 11/2007, de 22 de junio"
+            }
+          ]
+        },
+        "posteriores": null
       }
-    ]
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "parrafo",
+          "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, la norma relativa a la intermediaci\u00f3n de datos responde a lo previsto en el art\u00edculo 9 de la Ley 11/2007, de 22 de junio, y en el art\u00edculo 8 del citado Real Decreto 4/2010, de 8 de enero, sobre el acceso y utilizaci\u00f3n de servicios de intercambio de datos y documentos entre Administraciones P\u00fablicas; definiendo un modelo para el intercambio intermediado de datos. Los intercambios intermediados constituyen un modelo recomendado internacionalmente tanto por la UE, como por la OCDE o la ONU, dada su demostrada eficiencia como herramienta de interoperabilidad en tanto que permite la normalizaci\u00f3n y reutilizaci\u00f3n de los servicios de intercambio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos, en primer lugar y con car\u00e1cter general, define los roles de los agentes que participan en los intercambios intermediados de datos; y, en segundo lugar, establece las condiciones relativas a los procesos de intercambio intermediado de datos a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas, condiciones asimismo aplicables a plataformas de intermediaci\u00f3n de otras Administraciones P\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Dichos roles y condiciones se establecen en t\u00e9rminos de interoperabilidad tecnol\u00f3gica y se aplicar\u00e1n junto a las consideraciones que correspondan a la naturaleza de la informaci\u00f3n objeto del intercambio o cesi\u00f3n de datos, de conformidad con la legislaci\u00f3n que resulte de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero, esta Secretar\u00eda de Estado resuelve:"
+        },
+        {
+          "@class": "articulo",
+          "#text": "[precepto]Primero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos cuyo texto se incluye a continuaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "[precepto]Segundo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la disposici\u00f3n transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Madrid, 28 de junio de 2012.\u2014El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
+        },
+        {
+          "@class": "anexo",
+          "#text": "[encabezado]Norma T\u00e9cnica de Interoperabilidad de Protocolos de Intermediaci\u00f3n de Datos"
+        },
+        {
+          "@class": "centro_redonda",
+          "#text": "[indice]\u00cdNDICE"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "I. Disposiciones generales"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "I.1 Objeto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "II. Agentes en los intercambios intermediados de datos"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "II.1 Cedente y Emisor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "II.2 Cesionario y Requirente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III. Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.1. Funciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.2. Gobernanza del sistema."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.3. Requisitos t\u00e9cnicos del intercambio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.4. Aspectos generales de seguridad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.5. Tecnolog\u00edas y est\u00e1ndares."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.6. Trazabilidad y auditor\u00eda de los intercambios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III.7. Cat\u00e1logo de servicios de intercambio de datos. [fin indice]"
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[preambulo]I. Disposiciones generales"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "I.1 Objeto."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Protocolos de intermediaci\u00f3n de datos tiene por objeto establecer las especificaciones para el intercambio intemediado de datos entre Administraciones P\u00fablicas, o Entidades de Derecho P\u00fablico vinculadas o dependientes de aquellas (en adelante, organizaciones)."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. El contenido de esta norma ser\u00e1 de aplicaci\u00f3n para el intercambio intermediado de datos a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Las condiciones establecidas en esta norma relativas a los agentes participantes en los intercambios intermediados de datos se aplicar\u00e1n en otras plataformas de intermediaci\u00f3n en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Las condiciones establecidas en esta norma relativas a la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas podr\u00e1n aplicarse en el intercambio intermediado de datos a trav\u00e9s de otras plataformas de intermediaci\u00f3n en el \u00e1mbito referido en el apartado 2."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Las condiciones establecidas en esta norma se podr\u00e1n aplicar en intercambios de datos no intermediados as\u00ed como en otros nodos de interoperabilidad."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]II. Agentes en los intercambios intermediados de datos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "II.1 Cedente y Emisor."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Un Cedente ser\u00e1 cualquier organizaci\u00f3n que posea datos relativos a los ciudadanos que otra pueda necesitar consultar en el \u00e1mbito del ejercicio de sus competencias; es el responsable de los mismos seg\u00fan la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, y los ofrecer\u00e1 a posibles Cesionarios a trav\u00e9s de un Emisor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Un Emisor ser\u00e1 el que facilita la cesi\u00f3n de los datos desde un punto de vista tecnol\u00f3gico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Un Cedente que facilita la cesi\u00f3n de sus propios datos actuar\u00e1, en el \u00e1mbito de esta norma, como Emisor a la vez de ser Cedente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Cualquier nodo de interoperabilidad que participe en la gesti\u00f3n de los tr\u00e1mites de emisi\u00f3n o cesi\u00f3n de datos de un Emisor, tomar\u00e1 tambi\u00e9n el rol de Emisor en el \u00e1mbito de esta norma, incluyendo las funciones relacionadas con la firma electr\u00f3nica de las comunicaciones que realiza."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. Rol del Cedente:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Facilitar\u00e1 la informaci\u00f3n para el cat\u00e1logo o registro de sus servicios de intercambio de datos disponibles bajo servicios de intercambio a disposici\u00f3n de otras organizaciones para su consulta."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Respecto a las autorizaciones de acceso a los servicios:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "b.1) Establecer\u00e1 los protocolos y condiciones de acceso a los servicios de intercambio de datos que ofrecen, los m\u00e9todos de consulta permitidos as\u00ed como la informaci\u00f3n a conocer de cada Requirente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b.2) Justificar\u00e1 los casos de rechazo o denegaci\u00f3n de una solicitud."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b.3) Definir\u00e1 la pol\u00edtica de auditor\u00eda y realizar\u00e1 auditor\u00edas peri\u00f3dicas sobre el uso del sistema relativo a las consultas de sus datos."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "c) Podr\u00e1 delegar estas tareas en el Emisor o en un nodo de interoperabilidad."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "6. Rol del Emisor:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Establecer\u00e1 las condiciones t\u00e9cnicas de acceso a los servicios de intercambio de datos que ofrece, los m\u00e9todos de consulta permitidos y los controles y auditor\u00eda t\u00e9cnica, pudiendo delegar la ejecuci\u00f3n de dichas condiciones en un nodo de interoperabilidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Definir\u00e1 los controles y criterios de acceso a los datos necesarios para garantizar la confidencialidad de la informaci\u00f3n: pol\u00edticas y procedimientos de gesti\u00f3n y control de acceso de usuarios y \u00f3rganos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Proporcionar\u00e1 los datos pertinentes a cada consulta con garant\u00eda de integridad y confidencialidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Informar\u00e1 sobre la disponibilidad de cada servicio de intercambio bajo su responsabilidad, as\u00ed como sobre los mecanismos de soporte y resoluci\u00f3n de incidencias disponibles en cada caso, incluyendo los datos de contacto para dichos servicios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Definir\u00e1 Acuerdos de Nivel de Servicio (ANS) para regular las condiciones de prestaci\u00f3n de los servicios y mecanismos de respuesta a incidencias espec\u00edficos acorde a la criticidad del servicio que se est\u00e1 prestando."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Mantendr\u00e1 la traza de todas las peticiones recibidas y respuestas generadas."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "II.2 Cesionario y Requirente."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Un Cesionario ser\u00e1 cualquier organizaci\u00f3n autorizada a consultar determinados datos de los ciudadanos en poder de un Cedente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Un Requirente ser\u00e1 el que facilita la consulta de los datos desde un punto de vista tecnol\u00f3gico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Un Cesionario que realiza directamente la consulta de datos actuar\u00e1, en el \u00e1mbito de esta norma, como Requirente a la vez de ser Cesionario."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Cualquier nodo de interoperabilidad que participe en la gesti\u00f3n de los tr\u00e1mites de consulta de datos de un Requirente, tomar\u00e1 tambi\u00e9n el rol de Requirente en el \u00e1mbito de esta norma, incluyendo las funciones relacionadas con la firma electr\u00f3nica de las comunicaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. Rol del Cesionario:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Solicitar\u00e1 informaci\u00f3n siempre en relaci\u00f3n con los tr\u00e1mites y procedimientos autorizados por el cedente y dentro del marco de un procedimiento administrativo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Cumplir\u00e1 las condiciones de acceso a los datos establecidas por el Cedente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Recabar\u00e1 el consentimiento del interesado, salvo que una ley le exima de ello, y reflejar\u00e1 la respuesta obtenida del sistema, en el \u00e1mbito del expediente correspondiente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Utilizar\u00e1 la informaci\u00f3n obtenida de cada consulta para la finalidad que corresponda en cada caso, realizando una misma consulta tantas veces como sea necesario y lo requiera el tr\u00e1mite a que se refiera la consulta, asumiendo expresamente la responsabilidad que pudiera derivar de posibles incumplimientos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Colaborar\u00e1 en las labores de auditor\u00eda cuando sea requerido para ello, facilitando al Cedente la informaci\u00f3n o documentos necesarios para el control de las consultas."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "6. Rol del Requirente:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Cumplir\u00e1 las condiciones de acceso a los datos establecidas por el Emisor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Asegurar\u00e1 que las peticiones de consulta contienen los datos de identificaci\u00f3n, la informaci\u00f3n solicitada y la especificaci\u00f3n del tr\u00e1mite o procedimiento en el que los datos ser\u00e1n usados y, si procede, los datos del Cesionario."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Mantendr\u00e1 la traza de las peticiones que realiza y de las respuestas recibidas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Colaborar\u00e1 en las labores de auditor\u00eda cuando sea requerido para ello."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Realizar\u00e1 las labores de monitorizaci\u00f3n y control necesarias para mantener un correcto funcionamiento de su servicio de consulta."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Asegurar\u00e1 las m\u00e1ximas garant\u00edas de seguridad y confidencialidad de las consultas, preservando la privacidad de los datos consultados tanto en el propio intercambio como en el tratamiento posterior de la informaci\u00f3n obtenida. Para ello, establecer\u00e1 controles de autorizaci\u00f3n, acceso y uso por parte de los usuarios a las diferentes aplicaciones, mantendr\u00e1 actualizados los datos de los usuarios y aplicaciones que acceden al sistema, notificando cualquier cambio de estado y asegurando la tramitaci\u00f3n de su baja cuando corresponda."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) No almacenar\u00e1 informaci\u00f3n personal de ning\u00fan ciudadano salvo la imprescindible para el tr\u00e1mite que se solicita, para la organizaci\u00f3n en nombre de la cual ha sido recabada y s\u00f3lo durante el tiempo imprescindible."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]III. Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.1 Funciones."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. El Ministerio de Hacienda y Administraciones P\u00fablicas funcionar\u00e1 como un nodo de interoperabilidad mediante la plataforma de Intermediaci\u00f3n que, atendiendo a la definici\u00f3n de nodo de interoperabilidad recogida en el Real Decreto 4/2010, de 8 de enero, prestar\u00e1 funcionalidades comunes para el intercambio de informaci\u00f3n entre Emisores y Requirentes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Rol de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Gestionar\u00e1 los Cesionarios y Requirentes seg\u00fan las condiciones establecidas por cada Cedente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) No almacenar\u00e1 informaci\u00f3n personal de ning\u00fan ciudadano derivada de cualquier transacci\u00f3n de intercambio de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Asegurar\u00e1 la confidencialidad e integridad de la informaci\u00f3n intercambiada a trav\u00e9s de los mecanismos correspondientes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Mantendr\u00e1 un portal web informativo con toda la documentaci\u00f3n relativa a la Plataforma, donde publicar\u00e1 al menos:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "d.1) El cat\u00e1logo de servicios de intercambio de datos disponibles por parte de las diferentes organizaciones, incluyendo: los protocolos de acceso a dichos servicios, los m\u00e9todos de consulta permitidos, la informaci\u00f3n t\u00e9cnica relevante, as\u00ed como la informaci\u00f3n que se requiere de cada Requirente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d.2) Formularios de solicitud de acceso a los servicios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d.3) Acuerdos de prestaci\u00f3n de cada servicio disponible y de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas en general."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d.4) Novedades del servicio prestado por la Plataforma."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "e) Mantendr\u00e1 el sistema en funcionamiento 24x7."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) Dar\u00e1 soporte a las organizaciones y gestionar\u00e1 todas las comunicaciones e incidencias producidas colaborando para ello con Requirentes y Emisores."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) Mantendr\u00e1 un centro de atenci\u00f3n a usuarios e integradores que canalice todas las incidencias relativas al sistema e informar\u00e1 sobre los datos de contacto del mismo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "h) Elaborar\u00e1 informes de actividad y uso de la Plataforma considerando las consultas realizadas desde y hacia cada organizaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) Evolucionar\u00e1 y mantendr\u00e1 sus sistemas garantizando la seguridad y privacidad de los datos acorde a la normativa aplicable."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "j) Colaborar\u00e1 en las labores de auditor\u00eda siempre que el Emisor o el Cedente as\u00ed lo requiera y defina, conservando los datos de trazabilidad y estad\u00edsticos acordados, proporcionando acceso a los mismos cuando sea necesario y permitiendo reproducir la secuencia de operaciones llevadas a cabo por el sistema."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.2 Gobernanza del sistema."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Cualquier organizaci\u00f3n podr\u00e1 acceder a informaci\u00f3n sobre servicios de intercambio de datos disponibles a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas o, en su caso, a trav\u00e9s del correspondiente nodo de interoperabilidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La incorporaci\u00f3n de nuevos servicios en la Plataforma de Intermediaci\u00f3n se coordinar\u00e1 entre el Ministerio de Hacienda y Administraciones P\u00fablicas y el organismo cedente correspondiente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En el caso de servicios comunes ofrecidos por las CCAAs, la incorporaci\u00f3n de nuevos servicios se aprobar\u00e1 previamente en el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Para el acceso a un servicio de intercambio de datos:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) El Requirente enviar\u00e1 al Emisor la solicitud de alta para el acceso al servicio aplicando el formulario del anexo 1 a trav\u00e9s de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas. Esta operaci\u00f3n se realizar\u00e1 para cada Cesionario que gestione el Requirente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) El Emisor remitir\u00e1 al Requirente la autorizaci\u00f3n del cesionario en respuesta a dicha solicitud. Dicha autorizaci\u00f3n contemplar\u00e1 la justificaci\u00f3n de la legitimidad y competencia del Requirente y ser\u00e1 registrada por la Plataforma de intermediaci\u00f3n."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "4. Las funciones de cada agente involucrado en la autorizaci\u00f3n podr\u00e1n ser realizadas por la propia Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas o, en su caso, por un nodo de interoperabilidad que haya subscrito el correspondiente convenio con este Ministerio a tal efecto."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.3 Requisitos t\u00e9cnicos."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. La Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas garantizar\u00e1 la interoperabilidad, disponibilidad, fiabilidad y seguridad de la informaci\u00f3n transmitida a trav\u00e9s de ella entre las diferentes organizaciones con las que interact\u00faa."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. En el acceso a la Plataforma de intermediaci\u00f3n de datos del Ministerio de Hacienda y Administraciones P\u00fablicas se utilizar\u00e1 la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas atendiendo a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Requisitos de conexi\u00f3n a la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.4 Aspectos generales de seguridad."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "El intercambio de datos entre la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas y las organizaciones se realizar\u00e1 en unas condiciones tales que garanticen la seguridad de la informaci\u00f3n que se transmite, proporcionando medidas para la autenticidad, confidencialidad, integridad, disponibilidad y trazabilidad adecuadas a la naturaleza de la misma:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Autenticidad. Se asegurar\u00e1 la identidad de todos los agentes que intervengan en el proceso de intercambio de datos, de forma que todos ellos est\u00e9n correctamente identificados en cada intercambio. Para ello, se aplicar\u00e1n las medidas de seguridad contempladas en el Real Decreto 3/2010, de 8 de enero, dentro del grupo \u00abmarco operacional\u00bb en el cap\u00edtulo relativo a \u00abControl de acceso\u00bb (op.acc); y del grupo \u00abmedidas de protecci\u00f3n\u00bb, en el cap\u00edtulo \u00abProtecci\u00f3n de la informaci\u00f3n\u00bb (mp.info)."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Confidencialidad e integridad de la informaci\u00f3n intercambiada, que ser\u00e1 protegida conforme al grupo de \u00abmedidas de protecci\u00f3n\u00bb, cap\u00edtulos \u00abProtecci\u00f3n de las comunicaciones\u00bb (mp.com) y \u00abProtecci\u00f3n de la informaci\u00f3n\u00bb (mp.info) definidas en el Real Decreto 3/2010, de 8 de enero, y con las medidas de seguridad dispuestas en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y normativa de desarrollo, asegurando que no se almacena informaci\u00f3n personal de ning\u00fan ciudadano."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Disponibilidad de la Plataforma, asegurada a trav\u00e9s de medidas establecidas en el cap\u00edtulo \u00abProtecci\u00f3n de los servicios\u00bb (mp.$) del grupo de \u00abmedidas de protecci\u00f3n\u00bb definidas en el Real Decreto 3/2010, de 8 de enero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Trazabilidad, seg\u00fan lo establecido en el apartado 111.6 de esta norma."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.5 Tecnolog\u00edas y est\u00e1ndares."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Las tecnolog\u00edas utilizadas para los intercambios se implementar\u00e1n en base a est\u00e1ndares abiertos e interoperables seg\u00fan lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los intercambios de informaci\u00f3n se podr\u00e1n implementar a trav\u00e9s de servicios web, que, como conjunto de protocolos y est\u00e1ndares abiertos sobre los que desarrollar estructuras de datos espec\u00edficas para cada tipo de intercambio, incorporar\u00e1n los mecanismos de seguridad necesarios para la comunicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Los servicios web implementados se dise\u00f1ar\u00e1n en base a la utilizaci\u00f3n de:"
+        },
+        {
+          "@class": "parrafo_2",
+          "em": "(Web Services Description Language).",
+          "#text": "a) Servicios definidos mediante un lenguaje WSDL"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Mensajes en formato XML (eXtensible Mark-up Language) con estructuras basadas en esquemas XML publicados que faciliten su interpretaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "em": "(Transport Layer Security)",
+          "#text": "c) Est\u00e1ndares de seguridad en las comunicaciones a nivel de transporte punto a punto, mediante el uso del protocolo TLS con autenticaci\u00f3n de cliente a nivel de transporte, o a nivel de aplicaci\u00f3n mediante el uso de protocolos que garanticen la seguridad extremo a extremo en servicios Web."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "4. De forma general en servicios de intercambio se utilizar\u00e1 la versi\u00f3n 3.0 del protocolo SCSP (Sustituci\u00f3n de Certificados en Soporte Papel) cuya especificaci\u00f3n est\u00e1 disponible en el Portal de Administraci\u00f3n electr\u00f3nica PAE/CTT en la direcci\u00f3n http:// administracionelectronica.gob.es/es/ett/sesp."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se podr\u00e1 utilizar la versi\u00f3n 2 del protocolo SCSP en servicios ya existentes que no requieran mecanismos adicionales de seguridad sin perjuicio de que exista una versi\u00f3n actualizada del mismo servicio."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.6 Trazabilidad y auditor\u00eda de los intercambios."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. Emisores y Requirentes mantendr\u00e1n trazabilidad de los intercambios de datos producidos, para lo cual podr\u00e1n apoyarse en funcionalidades prestadas por la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas, y en lo previsto sobre trazabilidad en el Real Decreto 3/2010, de 8 de enero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La conservaci\u00f3n de trazas por parte de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas, establecida atendiendo a las medidas de seguridad contempladas en el Real Decreto 3/2010, de 8 de enero: op.exp.10 \u00abProtecci\u00f3n de los registros de actividad\u00bb, op.exp.8 \u00abRegistro de la actividad de los usuarios\u00bb, mp.info.5 \u00abSellos de tiempo\u00bb, facilitar\u00e1 la auditor\u00eda de los intercambios. La informaci\u00f3n aportada por la Plataforma se completar\u00e1 con aquella que permita la recuperaci\u00f3n de los datos espec\u00edficos intercambiados que conservar\u00e1n Emisor y Requirente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. La Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas no almacenar\u00e1 informaci\u00f3n sobre el contenido del intercambio ni asumir\u00e1 funciones relativas a la conservaci\u00f3n de trazas y auditor\u00eda, mas all\u00e1 de lo establecido en el apartado 111.6 y en cuyo caso la definici\u00f3n de funciones y mecanismos de puesta a disposici\u00f3n del agente interesado ser\u00e1 documentada convenientemente. El Cedente podr\u00e1 auditar la cesi\u00f3n de datos para comprobar el cumplimiento de los requisitos a que pudiera \u00e9sta estar sujeta."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Para garantizar la trazabilidad de los intercambios producidos, se asociar\u00e1 a cada petici\u00f3n o consulta un identificador \u00fanico que permitir\u00e1 reproducir la secuencia de operaciones llevadas a cabo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. La informaci\u00f3n almacenada para la trazabilidad de cada consulta o intercambio contemplar\u00e1, al menos, lo siguiente:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Identificador de la transacci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Cesionario de la informaci\u00f3n, Requirente que la solicita y usuario final que la realiza especificando, si es posible, el empleado p\u00fablico o aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Tipo de informaci\u00f3n que se solicita."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Fecha y hora de realizaci\u00f3n de la consulta."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "III.7 Cat\u00e1logo de servicios de intercambio de datos."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "1. El cat\u00e1logo o registro de los servicios de intercambio de datos ofrecidos por cada Cedente ser\u00e1 incorporado al cat\u00e1logo de la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas sirviendo de referencia a posibles Requirentes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El cat\u00e1logo de servicios de intercambio de datos estar\u00e1 disponible para su consulta por las distintas organizaciones a trav\u00e9s de alguno de los siguientes medios:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Un punto informativo propio del Cedente o del Emisor, si se delega en \u00e9ste por parte del Cedente, que podr\u00e1 ser su sede electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) La Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Los instrumentos para la interoperabilidad establecidos en el Real Decreto 4/2010, de 8 de enero:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "i. Inventario de procedimientos administrativos y servicios prestados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii. Centro de Interoperabilidad Sem\u00e1ntica de la Administraci\u00f3n."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "3. En el cat\u00e1logo o registro de servicios figurar\u00e1, para cada servicio disponible o supuesto gen\u00e9rico de intercambio, al menos, la informaci\u00f3n general definida en el anexo 11."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Para la publicaci\u00f3n de nuevos servicios en la Plataforma de intermediaci\u00f3n del Ministerio de Hacienda y Administraciones P\u00fablicas se podr\u00e1 utilizar UDDI (Universal Description, Discovery and Integration) o un servicio de directorio como medio para facilitar el descubrimiento din\u00e1mico de nuevos servicios, aunque el uso de aquellos depender\u00e1 en cualquier caso de la formalizaci\u00f3n de las autorizaciones necesarias correspondientes."
+        }
+      ]
+    }
   }
-}
 }

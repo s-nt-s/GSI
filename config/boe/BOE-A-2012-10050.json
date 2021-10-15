@@ -1,717 +1,826 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190612132601",
-  "metadatos": {
-    "identificador": "BOE-A-2012-10050",
-    "titulo": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190612132601",
+    "metadatos": {
+      "identificador": "BOE-A-2012-10050",
+      "titulo": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "178",
+      "seccion": "3",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "9216",
+        "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+      },
+      "rango": {
+        "@codigo": "1370",
+        "#text": "Resoluci\u00f3n"
+      },
+      "numero_oficial": null,
+      "fecha_disposicion": "20120628",
+      "fecha_publicacion": "20120726",
+      "fecha_vigencia": "20120727",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "53793",
+      "pagina_final": "53807",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2012/07/26/pdfs/BOE-A-2012-10050.pdf",
+      "url_pdf_catalan": null,
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": null,
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/res/2012/06/28/(5)"
     },
-    "diario_numero": "178",
-    "seccion": "3",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "9216",
-      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-    },
-    "rango": {
-      "@codigo": "1370",
-      "#text": "Resoluci\u00f3n"
-    },
-    "numero_oficial": null,
-    "fecha_disposicion": "20120628",
-    "fecha_publicacion": "20120726",
-    "fecha_vigencia": "20120727",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "53793",
-    "pagina_final": "53807",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2012/07/26/pdfs/BOE-A-2012-10050.pdf",
-    "url_pdf_catalan": null,
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": null,
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/res/2012/06/28/(5)"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2012-10050"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2012-06-28"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "(5)"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2012-10050"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-06-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(5)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)"
-              },
-              "eli:consolidated_by": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2012-07-26"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2012-10050"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2012-06-28"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "(5)"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2012-10050"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-06-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(5)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)"
+                },
+                "eli:consolidated_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2012-07-26"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2012-10050"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-06-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(5)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2012-07-26"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2012-07-26"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726/spa"
                         }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa"
-                        }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa/xml",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof/spa"
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2012-10050"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-06-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(5)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2012-07-26"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 28 de junio de 2012, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2012-07-26"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/res/2012/06/28/(5)/con/20120726/spa"
                       }
                     }
                   }
                 }
               }
             }
-          }
-        ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": {
-      "nota": {
-        "@codigo": "37",
-        "@orden": "220",
-        "#text": "Aplicable desde el 27 de julio de 2012."
+          ]
+        }
       }
     },
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "1508",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "93",
-          "@orden": "",
-          "#text": "Administraciones P\u00fablicas"
-        },{
-          "@codigo": "473",
-          "@orden": "",
-          "#text": "Bases de datos"
-        },{
-          "@codigo": "3086",
-          "@orden": "",
-          "#text": "Documentos p\u00fablicos"
-        },{
-          "@codigo": "3716",
-          "@orden": "",
-          "#text": "Firma electr\u00f3nica"
-        },{
-          "@codigo": "9350",
-          "@orden": "",
-          "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-        },{
-          "@codigo": "5163",
-          "@orden": "",
-          "#text": "Normas de calidad"
-        },{
-          "@codigo": "5923",
-          "@orden": "",
-          "#text": "Redes de telecomunicaci\u00f3n"
-        },{
-          "@codigo": "6020",
-          "@orden": "",
-          "#text": "Reglamentaciones t\u00e9cnicas"
+    "analisis": {
+      "notas": {
+        "nota": {
+          "@codigo": "37",
+          "@orden": "220",
+          "#text": "Aplicable desde el 27 de julio de 2012."
         }
-      ]
-    },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "109",
-          "@orden": "",
-          "#text": "Derecho Administrativo"
-        },{
-          "@codigo": "121",
-          "@orden": "",
-          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
-        },{
-          "@codigo": "129",
-          "@orden": "",
-          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+      },
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-2010-1331",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
-          },{
-            "@referencia": "BOE-A-2007-12352",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "Ley 11/2007, de 22 de junio"
+            "@codigo": "1508",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "93",
+            "@orden": "",
+            "#text": "Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "473",
+            "@orden": "",
+            "#text": "Bases de datos"
+          },
+          {
+            "@codigo": "3086",
+            "@orden": "",
+            "#text": "Documentos p\u00fablicos"
+          },
+          {
+            "@codigo": "3716",
+            "@orden": "",
+            "#text": "Firma electr\u00f3nica"
+          },
+          {
+            "@codigo": "9350",
+            "@orden": "",
+            "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "5163",
+            "@orden": "",
+            "#text": "Normas de calidad"
+          },
+          {
+            "@codigo": "5923",
+            "@orden": "",
+            "#text": "Redes de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "6020",
+            "@orden": "",
+            "#text": "Reglamentaciones t\u00e9cnicas"
           }
         ]
       },
-      "posteriores": null
-    }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "parrafo",
-        "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
-      },{
-        "@class": "parrafo",
-        "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
-      },{
-        "@class": "parrafo",
-        "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, la norma relativa a la publicaci\u00f3n de modelos de datos responde a lo previsto en el art\u00edculo 10 del citado Real Decreto 4/2010, de 8 de enero, sobre activos sem\u00e1nticos."
-      },{
-        "@class": "parrafo",
-        "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos define las condiciones para establecer y publicar los modelos de datos a los que se refiere el citado art\u00edculo 10 relativas al formato, identificaci\u00f3n y documentaci\u00f3n asociada a los modelos de datos, a sus posibles usos as\u00ed como a sus definiciones y codificaciones asociadas, al objeto de facilitar la interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica, encargado de su publicaci\u00f3n. Este modelo de intercambio y publicaci\u00f3n de modelos de datos est\u00e1 alineado con pr\u00e1cticas y est\u00e1ndares reconocidos a nivel europeo promovidos desde SEMIC.EU: Semantic Interoperability Centre Europe."
-      },{
-        "@class": "parrafo",
-        "#text": "En cuanto a las definiciones y codificaciones asociadas a los modelos de datos, atendiendo al ep\u00edgrafe cuatro del citado art\u00edculo 10, la norma establece las condiciones para que, aquellas de inter\u00e9s estad\u00edstico, tengan en cuenta los modelos est\u00e1ndares establecidos por el Instituto Nacional de Estad\u00edstica con el fin de asegurar la aplicaci\u00f3n de sistemas normalizados de conceptos, definiciones, unidades estad\u00edsticas, clasificaciones, nomenclaturas y c\u00f3digos que hagan factible la comparaci\u00f3n, la integraci\u00f3n y el an\u00e1lisis de los datos y los resultados obtenidos, tal y como establece la Ley 12/1989, de 9 de mayo, de la Funci\u00f3n estad\u00edstica p\u00fablica. Por otra parte, la norma establece el uso de la codificaci\u00f3n de Unidades Org\u00e1nicas y Oficinas de la Administraci\u00f3n a trav\u00e9s del Directorio Com\u00fan gestionado por el Ministerio de Hacienda y Administraciones P\u00fablicas para la descripci\u00f3n de los modelos de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo",
-        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero,"
-      },{
-        "@class": "parrafo",
-        "#text": "Esta Secretar\u00eda de Estado resuelve:"
-      },{
-        "@class": "articulo",
-        "#text": "[precepto]Primero."
-      },{
-        "@class": "parrafo",
-        "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos cuyo texto se incluye a continuaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "[precepto]Segundo."
-      },{
-        "@class": "parrafo",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la Disposici\u00f3n Transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Madrid, 28 de junio de 2012.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
-      },{
-        "@class": "anexo",
-        "#text": "[encabezado]NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE RELACI\u00d3N DE MODELOS DE DATOS"
-      },{
-        "@class": "centro_redonda",
-        "#text": "[indice]\u00cdNDICE"
-      },{
-        "@class": "parrafo_2",
-        "#text": "I. Objeto."
-      },{
-        "@class": "parrafo",
-        "#text": "II. \u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "III. Modelos de datos a publicar."
-      },{
-        "@class": "parrafo",
-        "#text": "IV. Estructura de los modelos de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "V. Identificaci\u00f3n de los modelos de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "VI. Interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica."
-      },{
-        "@class": "parrafo",
-        "#text": "VII. Uso de los modelos de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "VIII. Codificaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "Anexo I. Esquemas XML para publicaci\u00f3n de modelos de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "Anexo II. Identificaci\u00f3n de los modelos de datos. [fin indice]"
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[preambulo]I. Objeto"
-      },{
-        "@class": "parrafo_2",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos tiene por objeto definir las condiciones para establecer y publicar modelos de datos que tengan el car\u00e1cter de comunes en la Administraci\u00f3n y aquellos que se refieran a materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y otras administraciones, as\u00ed como las definiciones y codificaciones asociadas, de cara a su publicaci\u00f3n en el Centro de Interoperabilidad Sem\u00e1ntica."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]II. \u00c1mbito de aplicaci\u00f3n"
-      },{
-        "@class": "parrafo_2",
-        "#text": "El contenido de esta norma ser\u00e1 de aplicaci\u00f3n en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]III. Modelos de datos a publicar"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Los \u00f3rganos de la Administraci\u00f3n p\u00fablica y las Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla establecer\u00e1n y compartir\u00e1n, junto a las definiciones y codificaciones asociadas, los modelos de datos de los que sean titulares y se refieran a:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y con otras Administraciones p\u00fablicas."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Infraestructuras, servicios y herramientas comunes, que no sean de uso exclusivamente interno a la organizaci\u00f3n."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]IV. Estructura de intercambio de los modelos de datos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Los modelos de datos a publicar en el Centro de Interoperabilidad Sem\u00e1ntica (CISE) se ajustar\u00e1n a la estructura de intercambio definida en el anexo I conteniendo:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Activos sem\u00e1nticos, en formato XSD (XML Schema Definition), clasificados seg\u00fan los servicios \u00f3 unidades de negocio de las diferentes administraciones."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Gu\u00edas explicativas, en formato PDF (Portable Document Format), atendiendo a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares, de los diferentes servicios \u00f3 sistemas de intercambio, que incluir\u00e1n:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "i. Descripci\u00f3n de los tipos y definiciones de datos que se intercambian bajo el modelo de datos de que se trate, as\u00ed como una descripci\u00f3n funcional de las operaciones que se pueden realizar."
-      },{
-        "@class": "parrafo",
-        "#text": "ii. Breve descripci\u00f3n de las condiciones de seguridad aplicables a los intercambios con dicho modelo."
-      },{
-        "@class": "parrafo",
-        "#text": "iii. Condiciones que deben cumplir lo receptores de la informaci\u00f3n a la que aplica el modelo en cuesti\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "iv. Ejemplos de implementaci\u00f3n de los diferentes servicios bajo el modelo de datos que corresponda."
-      },{
-        "@class": "parrafo",
-        "#text": "v. De forma opcional, manuales de ayuda del servicio de intercambio y juegos de pruebas."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]V. Identificaci\u00f3n de los modelos de datos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "V.1 Los \u00f3rganos de la Administraci\u00f3n p\u00fablica o Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla proporcionar\u00e1n una identificaci\u00f3n de la estructura de intercambio de sus modelos de datos, que permitir\u00e1 su clasificaci\u00f3n y facilitar\u00e1 al Centro de Interoperabilidad Sem\u00e1ntica las tareas de identificaci\u00f3n, localizaci\u00f3n y clasificaci\u00f3n de los modelos de datos cuya publicaci\u00f3n centraliza."
-      },{
-        "@class": "parrafo",
-        "#text": "V.2 La informaci\u00f3n para la identificaci\u00f3n de los modelos de datos incluir\u00e1, al menos, los datos descritos en el anexo II."
-      },{
-        "@class": "parrafo",
-        "#text": "V.3 La descripci\u00f3n de los modelos de datos se ajustar\u00e1 a los est\u00e1ndares establecidos en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
-      },{
-        "@class": "parrafo",
-        "#text": "V.4 Para darse de alta en el Centro de Interoperabilidad Sem\u00e1ntica, el \u00f3rgano responsable de los modelos de datos remitir\u00e1 un mensaje por correo electr\u00f3nico a la direcci\u00f3n \u00ab admin.cise@seap.minhap.es\u00bb, que antepondr\u00e1 como asunto del mismo el encabezamiento \u00abALTA CISE\u00bb + \u00abIdentificador Normalizado de \u00f3rgano extra\u00eddo del Directorio Com\u00fan de Organismos y Oficinas gestionado por el MINHAP\u00bb y contendr\u00e1 en el cuerpo del mensaje la siguiente informaci\u00f3n: \u00abNombre del organismo emisor\u00bb, \u00abDirecci\u00f3n URL\u00bb, \u00abDirecci\u00f3n de correo electr\u00f3nico\u00bb."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]VI. Interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Para su interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica, cada \u00f3rgano de la Administraci\u00f3n p\u00fablica o Entidad de Derecho P\u00fablico vinculada o dependiente de aqu\u00e9lla:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Identificar\u00e1 los modelos de datos susceptibles de ser intercambiados con el Centro de Interoperabilidad Sem\u00e1ntica, atendiendo a lo establecido en el apartado V de la presente norma t\u00e9cnica."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Facilitar\u00e1 la estructura de intercambio de los modelos de datos al Centro de Interoperabilidad Sem\u00e1ntica mediante uno de los siguientes procedimientos, asegurando en cualquier caso la actualizaci\u00f3n de la informaci\u00f3n facilitada:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "i. Recopilaci\u00f3n y dep\u00f3sito de los modelos de datos, estructurados seg\u00fan el apartado IV, en un entorno de intercambio accesible por el Centro de Interoperabilidad Sem\u00e1ntica a trav\u00e9s de la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, para su carga masiva."
-      },{
-        "@class": "parrafo",
-        "#text": "Dicho entorno ser\u00e1 convenientemente identificado a trav\u00e9s de la correspondiente URL (Uniform Resource Locator) definida por el propietario del modelo de datos y que atender\u00e1 a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
-      },{
-        "@class": "parrafo",
-        "#text": "ii. Publicaci\u00f3n de cada modelo de datos directamente a trav\u00e9s de las herramientas que disponga el Centro de Interoperabilidad Sem\u00e1ntica y atendiendo al procedimiento de utilizaci\u00f3n que \u00e9ste establezca."
-      },{
-        "@class": "parrafo_2",
-        "#text": "c) Actualizar\u00e1 de manera proactiva la informaci\u00f3n facilitada al Centro de Interoperabilidad Sem\u00e1ntica, bien a trav\u00e9s del entorno de intercambio o a trav\u00e9s de las herramientas que el Centro de Interoperabilidad Sem\u00e1ntica establezca a tal efecto."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Podr\u00e1 consultar los modelos de datos disponibles en el repositorio de informaci\u00f3n del Centro de Interoperabilidad Sem\u00e1ntica y recibir notificaciones autom\u00e1ticas de dicho Centro ante la publicaci\u00f3n y actualizaci\u00f3n de modelos de datos."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]VII. Uso de los modelos de datos"
-      },{
-        "@class": "parrafo_2",
-        "#text": "VII.1 Los modelos de datos comunes publicados en el Centro de Interoperabilidad Sem\u00e1ntica ser\u00e1n de preferente aplicaci\u00f3n seg\u00fan lo establecido en el art\u00edculo 10.1 del Real Decreto 4/2010, de 8 de enero."
-      },{
-        "@class": "parrafo",
-        "#text": "VII.2 Los modelos de datos de titulares de competencias en materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y con otras Administraciones p\u00fablicas, as\u00ed como en materia de infraestructuras, servicios y herramientas comunes publicados en el Centro de Interoperabilidad Sem\u00e1ntica ser\u00e1n de obligatoria aplicaci\u00f3n seg\u00fan lo establecido en el art\u00edculo 10.2 del Real Decreto 4/2010, de 8 de enero."
-      },{
-        "@class": "parrafo",
-        "#text": "VII.3 El Centro de Interoperabilidad Sem\u00e1ntica identificar\u00e1 convenientemente los modelos de datos comunes de obligatoria aplicaci\u00f3n, diferenci\u00e1ndolos de otros modelos de datos aportados por las diferentes administraciones."
-      },{
-        "@class": "parrafo",
-        "#text": "VII.4 En el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica se identificar\u00e1n, catalogar\u00e1n y priorizar\u00e1n los modelos de datos comunes."
-      },{
-        "@class": "centro_cursiva",
-        "#text": "[precepto]VIII. Codificaciones"
-      },{
-        "@class": "parrafo_2",
-        "#text": "VIII.1 Las definiciones y codificaciones de inter\u00e9s estad\u00edstico:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "a) Ser\u00e1n aquellas que dispongan de un modelo est\u00e1ndar definido por el Instituto Nacional de Estad\u00edstica disponible en el portal del Instituto y en el Centro de Interoperabilidad Sem\u00e1ntica."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Ser\u00e1n identificadas en los modelos de datos de las que formen parte seg\u00fan lo dispuesto en el apartado V de esta norma."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Ante su presencia en nuevos modelos o en actualizaciones de modelos de datos existentes publicados en el Centro de Interoperabilidad Sem\u00e1ntica, podr\u00e1n ser contrastadas por el Instituto Nacional de Estad\u00edstica con sus modelos est\u00e1ndar."
-      },{
-        "@class": "parrafo_2",
-        "#text": "En caso de que dichos modelos de datos no se ajusten a los modelos est\u00e1ndar definidos, el Instituto Nacional de Estad\u00edstica lo pondr\u00e1 en conocimiento del Ministerio de Hacienda y Administraciones P\u00fablicas, quien lo pondr\u00e1 en conocimiento de la Administraci\u00f3n o Entidad responsable a los efectos oportunos."
-      },{
-        "@class": "parrafo",
-        "#text": "VIII.2 La codificaci\u00f3n de Unidades Org\u00e1nicas y Oficinas de la Administraci\u00f3n en los modelos de datos aplicar\u00e1 las establecidas en el Directorio Com\u00fan de Organismos y Oficinas, que ser\u00e1 gestionado por el Ministerio de Hacienda y Administraciones P\u00fablicas y alimentado por todos los \u00f3rganos de la Administraci\u00f3n p\u00fablica o Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla."
-      },{
-        "@class": "parrafo",
-        "#text": "El Centro de Interoperabilidad Sem\u00e1ntica publicar\u00e1 toda la documentaci\u00f3n de integraci\u00f3n, procedimientos de colaboraci\u00f3n, y definici\u00f3n de atributos de la informaci\u00f3n del Directorio, teniendo en cuenta lo recogido en esta norma sobre intercambio de modelos de datos. Asimismo, dicho Centro publicar\u00e1 y mantendr\u00e1 actualizada una relaci\u00f3n de las fuentes colaboradoras y un enlace a la aplicaci\u00f3n de gesti\u00f3n del Directorio Com\u00fan."
-      },{
-        "@class": "anexo_num",
-        "#text": "[encabezado]ANEXO I"
-      },{
-        "@class": "anexo_tit",
-        "#text": "Esquemas XML para publicaci\u00f3n de modelos de datos"
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_001.png",
-          "@width": "800",
-          "@height": "960"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_002.png",
-          "@width": "800",
-          "@height": "632"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_003.png",
-          "@width": "800",
-          "@height": "880"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_004.png",
-          "@width": "800",
-          "@height": "669"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_005.png",
-          "@width": "800",
-          "@height": "793"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_006.png",
-          "@width": "800",
-          "@height": "998"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_007.png",
-          "@width": "800",
-          "@height": "594"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_008.png",
-          "@width": "800",
-          "@height": "1020"
-        }
-      },{
-        "@class": "imagen",
-        "img": {
-          "@src": "/datos/imagenes/disp/2012/178/10050_009.png",
-          "@width": "800",
-          "@height": "1010"
-        }
-      },{
-        "@class": "anexo_num",
-        "#text": "[encabezado]ANEXO II"
-      },{
-        "@class": "anexo_tit",
-        "#text": "Identificaci\u00f3n de los modelos de datos"
-      },{
-        "@class": "centro_cursiva",
-        "em": "Tabla 1.",
-        "#text": "Identificaci\u00f3n de los modelos de datos"
+      "alertas": {
+        "alerta": [
+          {
+            "@codigo": "109",
+            "@orden": "",
+            "#text": "Derecho Administrativo"
+          },
+          {
+            "@codigo": "121",
+            "@orden": "",
+            "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+          },
+          {
+            "@codigo": "129",
+            "@orden": "",
+            "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+          },
+          {
+            "@codigo": "130",
+            "@orden": "",
+            "#text": "Telecomunicaciones"
+          }
+        ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-2010-1331",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "Disposici\u00f3n adicional 1 del Real Decreto 4/2010, de 8 de enero"
+            },
+            {
+              "@referencia": "BOE-A-2007-12352",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "Ley 11/2007, de 22 de junio"
+            }
+          ]
+        },
+        "posteriores": null
       }
-    ],
-    "table": {
-      "@class": "tabla",
-      "tr": [
+    },
+    "texto": {
+      "p": [
         {
-          "td": [
-            {
-              "p": {
-                "@class": "cabeza_tabla",
-                "#text": "Informaci\u00f3n"
-              }
-            },{
-              "p": {
-                "@class": "cabeza_tabla",
-                "#text": "Descripci\u00f3n"
-              }
-            }
-          ]
-        },{
-          "td": [
-            {
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Nombre"
-              }
-            },{
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Nombre identificativo del modelo de datos."
-              }
-            }
-          ]
-        },{
-          "td": [
-            {
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "\u00d3rgano"
-              }
-            },{
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Identificador normalizado del \u00f3rgano o entidad de la Administraci\u00f3n que pone a disposici\u00f3n el activo, extra\u00eddo del Directorio Com\u00fan gestionado por el MINHAP."
-              }
-            }
-          ]
-        },{
-          "td": [
-            {
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Inter\u00e9s estad\u00edstico"
-              }
-            },{
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Denominaci\u00f3n de las definiciones y codificaciones de inter\u00e9s estad\u00edstico contenidas en el modelo."
-              }
-            }
-          ]
-        },{
-          "td": [
-            {
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Localizaci\u00f3n"
-              }
-            },{
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Localizaci\u00f3n del servicio de intercambio tipo URI (Uniform Resource Identifier). En caso de estar disponible, localizaci\u00f3n del Servicio web correspondiente."
-              }
-            }
-          ]
-        },{
-          "td": [
-            {
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Correo-e de la unidad generadora"
-              }
-            },{
-              "p": {
-                "@class": "cuerpo_tabla_izq",
-                "#text": "Correo electr\u00f3nico de la unidad generadora de los modelos de datos, necesario para gesti\u00f3n en la comunicaci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica."
-              }
-            }
-          ]
+          "@class": "parrafo",
+          "#text": "El Esquema Nacional de Interoperabilidad se establece en el apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y declaraci\u00f3n de conformidad; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, para dar cumplimiento al mandato del art\u00edculo 42.3 de la Ley 11/2007, de 22 de junio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Dentro de este conjunto de Normas T\u00e9cnicas de Interoperabilidad, la norma relativa a la publicaci\u00f3n de modelos de datos responde a lo previsto en el art\u00edculo 10 del citado Real Decreto 4/2010, de 8 de enero, sobre activos sem\u00e1nticos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos define las condiciones para establecer y publicar los modelos de datos a los que se refiere el citado art\u00edculo 10 relativas al formato, identificaci\u00f3n y documentaci\u00f3n asociada a los modelos de datos, a sus posibles usos as\u00ed como a sus definiciones y codificaciones asociadas, al objeto de facilitar la interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica, encargado de su publicaci\u00f3n. Este modelo de intercambio y publicaci\u00f3n de modelos de datos est\u00e1 alineado con pr\u00e1cticas y est\u00e1ndares reconocidos a nivel europeo promovidos desde SEMIC.EU: Semantic Interoperability Centre Europe."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En cuanto a las definiciones y codificaciones asociadas a los modelos de datos, atendiendo al ep\u00edgrafe cuatro del citado art\u00edculo 10, la norma establece las condiciones para que, aquellas de inter\u00e9s estad\u00edstico, tengan en cuenta los modelos est\u00e1ndares establecidos por el Instituto Nacional de Estad\u00edstica con el fin de asegurar la aplicaci\u00f3n de sistemas normalizados de conceptos, definiciones, unidades estad\u00edsticas, clasificaciones, nomenclaturas y c\u00f3digos que hagan factible la comparaci\u00f3n, la integraci\u00f3n y el an\u00e1lisis de los datos y los resultados obtenidos, tal y como establece la Ley 12/1989, de 9 de mayo, de la Funci\u00f3n estad\u00edstica p\u00fablica. Por otra parte, la norma establece el uso de la codificaci\u00f3n de Unidades Org\u00e1nicas y Oficinas de la Administraci\u00f3n a trav\u00e9s del Directorio Com\u00fan gestionado por el Ministerio de Hacienda y Administraciones P\u00fablicas para la descripci\u00f3n de los modelos de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La presente norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones p\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por la Comisi\u00f3n Permanente del Consejo Superior de Administraci\u00f3n Electr\u00f3nica y propuesta por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero,"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Esta Secretar\u00eda de Estado resuelve:"
+        },
+        {
+          "@class": "articulo",
+          "#text": "[precepto]Primero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos cuyo texto se incluye a continuaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "[precepto]Segundo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb, sin perjuicio de lo dispuesto en la Disposici\u00f3n Transitoria primera del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Madrid, 28 de junio de 2012.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
+        },
+        {
+          "@class": "anexo",
+          "#text": "[encabezado]NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE RELACI\u00d3N DE MODELOS DE DATOS"
+        },
+        {
+          "@class": "centro_redonda",
+          "#text": "[indice]\u00cdNDICE"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "I. Objeto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "II. \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "III. Modelos de datos a publicar."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "IV. Estructura de los modelos de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V. Identificaci\u00f3n de los modelos de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VI. Interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII. Uso de los modelos de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VIII. Codificaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Anexo I. Esquemas XML para publicaci\u00f3n de modelos de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Anexo II. Identificaci\u00f3n de los modelos de datos. [fin indice]"
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[preambulo]I. Objeto"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Relaci\u00f3n de modelos de datos tiene por objeto definir las condiciones para establecer y publicar modelos de datos que tengan el car\u00e1cter de comunes en la Administraci\u00f3n y aquellos que se refieran a materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y otras administraciones, as\u00ed como las definiciones y codificaciones asociadas, de cara a su publicaci\u00f3n en el Centro de Interoperabilidad Sem\u00e1ntica."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]II. \u00c1mbito de aplicaci\u00f3n"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "El contenido de esta norma ser\u00e1 de aplicaci\u00f3n en el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]III. Modelos de datos a publicar"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Los \u00f3rganos de la Administraci\u00f3n p\u00fablica y las Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla establecer\u00e1n y compartir\u00e1n, junto a las definiciones y codificaciones asociadas, los modelos de datos de los que sean titulares y se refieran a:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y con otras Administraciones p\u00fablicas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Infraestructuras, servicios y herramientas comunes, que no sean de uso exclusivamente interno a la organizaci\u00f3n."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]IV. Estructura de intercambio de los modelos de datos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Los modelos de datos a publicar en el Centro de Interoperabilidad Sem\u00e1ntica (CISE) se ajustar\u00e1n a la estructura de intercambio definida en el anexo I conteniendo:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Activos sem\u00e1nticos, en formato XSD (XML Schema Definition), clasificados seg\u00fan los servicios \u00f3 unidades de negocio de las diferentes administraciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Gu\u00edas explicativas, en formato PDF (Portable Document Format), atendiendo a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares, de los diferentes servicios \u00f3 sistemas de intercambio, que incluir\u00e1n:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "i. Descripci\u00f3n de los tipos y definiciones de datos que se intercambian bajo el modelo de datos de que se trate, as\u00ed como una descripci\u00f3n funcional de las operaciones que se pueden realizar."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii. Breve descripci\u00f3n de las condiciones de seguridad aplicables a los intercambios con dicho modelo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "iii. Condiciones que deben cumplir lo receptores de la informaci\u00f3n a la que aplica el modelo en cuesti\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "iv. Ejemplos de implementaci\u00f3n de los diferentes servicios bajo el modelo de datos que corresponda."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "v. De forma opcional, manuales de ayuda del servicio de intercambio y juegos de pruebas."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]V. Identificaci\u00f3n de los modelos de datos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "V.1 Los \u00f3rganos de la Administraci\u00f3n p\u00fablica o Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla proporcionar\u00e1n una identificaci\u00f3n de la estructura de intercambio de sus modelos de datos, que permitir\u00e1 su clasificaci\u00f3n y facilitar\u00e1 al Centro de Interoperabilidad Sem\u00e1ntica las tareas de identificaci\u00f3n, localizaci\u00f3n y clasificaci\u00f3n de los modelos de datos cuya publicaci\u00f3n centraliza."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V.2 La informaci\u00f3n para la identificaci\u00f3n de los modelos de datos incluir\u00e1, al menos, los datos descritos en el anexo II."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V.3 La descripci\u00f3n de los modelos de datos se ajustar\u00e1 a los est\u00e1ndares establecidos en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "V.4 Para darse de alta en el Centro de Interoperabilidad Sem\u00e1ntica, el \u00f3rgano responsable de los modelos de datos remitir\u00e1 un mensaje por correo electr\u00f3nico a la direcci\u00f3n \u00ab admin.cise@seap.minhap.es\u00bb, que antepondr\u00e1 como asunto del mismo el encabezamiento \u00abALTA CISE\u00bb + \u00abIdentificador Normalizado de \u00f3rgano extra\u00eddo del Directorio Com\u00fan de Organismos y Oficinas gestionado por el MINHAP\u00bb y contendr\u00e1 en el cuerpo del mensaje la siguiente informaci\u00f3n: \u00abNombre del organismo emisor\u00bb, \u00abDirecci\u00f3n URL\u00bb, \u00abDirecci\u00f3n de correo electr\u00f3nico\u00bb."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]VI. Interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Para su interacci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica, cada \u00f3rgano de la Administraci\u00f3n p\u00fablica o Entidad de Derecho P\u00fablico vinculada o dependiente de aqu\u00e9lla:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Identificar\u00e1 los modelos de datos susceptibles de ser intercambiados con el Centro de Interoperabilidad Sem\u00e1ntica, atendiendo a lo establecido en el apartado V de la presente norma t\u00e9cnica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Facilitar\u00e1 la estructura de intercambio de los modelos de datos al Centro de Interoperabilidad Sem\u00e1ntica mediante uno de los siguientes procedimientos, asegurando en cualquier caso la actualizaci\u00f3n de la informaci\u00f3n facilitada:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "i. Recopilaci\u00f3n y dep\u00f3sito de los modelos de datos, estructurados seg\u00fan el apartado IV, en un entorno de intercambio accesible por el Centro de Interoperabilidad Sem\u00e1ntica a trav\u00e9s de la Red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, para su carga masiva."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Dicho entorno ser\u00e1 convenientemente identificado a trav\u00e9s de la correspondiente URL (Uniform Resource Locator) definida por el propietario del modelo de datos y que atender\u00e1 a lo establecido en la Norma T\u00e9cnica de Interoperabilidad de Cat\u00e1logo de est\u00e1ndares."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii. Publicaci\u00f3n de cada modelo de datos directamente a trav\u00e9s de las herramientas que disponga el Centro de Interoperabilidad Sem\u00e1ntica y atendiendo al procedimiento de utilizaci\u00f3n que \u00e9ste establezca."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "c) Actualizar\u00e1 de manera proactiva la informaci\u00f3n facilitada al Centro de Interoperabilidad Sem\u00e1ntica, bien a trav\u00e9s del entorno de intercambio o a trav\u00e9s de las herramientas que el Centro de Interoperabilidad Sem\u00e1ntica establezca a tal efecto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Podr\u00e1 consultar los modelos de datos disponibles en el repositorio de informaci\u00f3n del Centro de Interoperabilidad Sem\u00e1ntica y recibir notificaciones autom\u00e1ticas de dicho Centro ante la publicaci\u00f3n y actualizaci\u00f3n de modelos de datos."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]VII. Uso de los modelos de datos"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "VII.1 Los modelos de datos comunes publicados en el Centro de Interoperabilidad Sem\u00e1ntica ser\u00e1n de preferente aplicaci\u00f3n seg\u00fan lo establecido en el art\u00edculo 10.1 del Real Decreto 4/2010, de 8 de enero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII.2 Los modelos de datos de titulares de competencias en materias sujetas a intercambio de informaci\u00f3n con los ciudadanos y con otras Administraciones p\u00fablicas, as\u00ed como en materia de infraestructuras, servicios y herramientas comunes publicados en el Centro de Interoperabilidad Sem\u00e1ntica ser\u00e1n de obligatoria aplicaci\u00f3n seg\u00fan lo establecido en el art\u00edculo 10.2 del Real Decreto 4/2010, de 8 de enero."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII.3 El Centro de Interoperabilidad Sem\u00e1ntica identificar\u00e1 convenientemente los modelos de datos comunes de obligatoria aplicaci\u00f3n, diferenci\u00e1ndolos de otros modelos de datos aportados por las diferentes administraciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VII.4 En el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica se identificar\u00e1n, catalogar\u00e1n y priorizar\u00e1n los modelos de datos comunes."
+        },
+        {
+          "@class": "centro_cursiva",
+          "#text": "[precepto]VIII. Codificaciones"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "VIII.1 Las definiciones y codificaciones de inter\u00e9s estad\u00edstico:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "a) Ser\u00e1n aquellas que dispongan de un modelo est\u00e1ndar definido por el Instituto Nacional de Estad\u00edstica disponible en el portal del Instituto y en el Centro de Interoperabilidad Sem\u00e1ntica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Ser\u00e1n identificadas en los modelos de datos de las que formen parte seg\u00fan lo dispuesto en el apartado V de esta norma."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Ante su presencia en nuevos modelos o en actualizaciones de modelos de datos existentes publicados en el Centro de Interoperabilidad Sem\u00e1ntica, podr\u00e1n ser contrastadas por el Instituto Nacional de Estad\u00edstica con sus modelos est\u00e1ndar."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "En caso de que dichos modelos de datos no se ajusten a los modelos est\u00e1ndar definidos, el Instituto Nacional de Estad\u00edstica lo pondr\u00e1 en conocimiento del Ministerio de Hacienda y Administraciones P\u00fablicas, quien lo pondr\u00e1 en conocimiento de la Administraci\u00f3n o Entidad responsable a los efectos oportunos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "VIII.2 La codificaci\u00f3n de Unidades Org\u00e1nicas y Oficinas de la Administraci\u00f3n en los modelos de datos aplicar\u00e1 las establecidas en el Directorio Com\u00fan de Organismos y Oficinas, que ser\u00e1 gestionado por el Ministerio de Hacienda y Administraciones P\u00fablicas y alimentado por todos los \u00f3rganos de la Administraci\u00f3n p\u00fablica o Entidades de Derecho P\u00fablico vinculadas o dependientes de aqu\u00e9lla."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Centro de Interoperabilidad Sem\u00e1ntica publicar\u00e1 toda la documentaci\u00f3n de integraci\u00f3n, procedimientos de colaboraci\u00f3n, y definici\u00f3n de atributos de la informaci\u00f3n del Directorio, teniendo en cuenta lo recogido en esta norma sobre intercambio de modelos de datos. Asimismo, dicho Centro publicar\u00e1 y mantendr\u00e1 actualizada una relaci\u00f3n de las fuentes colaboradoras y un enlace a la aplicaci\u00f3n de gesti\u00f3n del Directorio Com\u00fan."
+        },
+        {
+          "@class": "anexo_num",
+          "#text": "[encabezado]ANEXO I"
+        },
+        {
+          "@class": "anexo_tit",
+          "#text": "Esquemas XML para publicaci\u00f3n de modelos de datos"
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_001.png",
+            "@width": "800",
+            "@height": "960"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_002.png",
+            "@width": "800",
+            "@height": "632"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_003.png",
+            "@width": "800",
+            "@height": "880"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_004.png",
+            "@width": "800",
+            "@height": "669"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_005.png",
+            "@width": "800",
+            "@height": "793"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_006.png",
+            "@width": "800",
+            "@height": "998"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_007.png",
+            "@width": "800",
+            "@height": "594"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_008.png",
+            "@width": "800",
+            "@height": "1020"
+          }
+        },
+        {
+          "@class": "imagen",
+          "img": {
+            "@src": "/datos/imagenes/disp/2012/178/10050_009.png",
+            "@width": "800",
+            "@height": "1010"
+          }
+        },
+        {
+          "@class": "anexo_num",
+          "#text": "[encabezado]ANEXO II"
+        },
+        {
+          "@class": "anexo_tit",
+          "#text": "Identificaci\u00f3n de los modelos de datos"
+        },
+        {
+          "@class": "centro_cursiva",
+          "em": "Tabla 1.",
+          "#text": "Identificaci\u00f3n de los modelos de datos"
         }
-      ]
+      ],
+      "table": {
+        "@class": "tabla",
+        "tr": [
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Informaci\u00f3n"
+                }
+              },
+              {
+                "p": {
+                  "@class": "cabeza_tabla",
+                  "#text": "Descripci\u00f3n"
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Nombre"
+                }
+              },
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Nombre identificativo del modelo de datos."
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "\u00d3rgano"
+                }
+              },
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Identificador normalizado del \u00f3rgano o entidad de la Administraci\u00f3n que pone a disposici\u00f3n el activo, extra\u00eddo del Directorio Com\u00fan gestionado por el MINHAP."
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Inter\u00e9s estad\u00edstico"
+                }
+              },
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Denominaci\u00f3n de las definiciones y codificaciones de inter\u00e9s estad\u00edstico contenidas en el modelo."
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Localizaci\u00f3n"
+                }
+              },
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Localizaci\u00f3n del servicio de intercambio tipo URI (Uniform Resource Identifier). En caso de estar disponible, localizaci\u00f3n del Servicio web correspondiente."
+                }
+              }
+            ]
+          },
+          {
+            "td": [
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Correo-e de la unidad generadora"
+                }
+              },
+              {
+                "p": {
+                  "@class": "cuerpo_tabla_izq",
+                  "#text": "Correo electr\u00f3nico de la unidad generadora de los modelos de datos, necesario para gesti\u00f3n en la comunicaci\u00f3n con el Centro de Interoperabilidad Sem\u00e1ntica."
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   }
-}
 }

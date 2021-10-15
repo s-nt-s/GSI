@@ -1,118 +1,381 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190617172602",
-  "metadatos": {
-    "identificador": "BOE-A-2007-18243",
-    "titulo": "Ley 25/2007, de 18 de octubre, de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190617172602",
+    "metadatos": {
+      "identificador": "BOE-A-2007-18243",
+      "titulo": "Ley 25/2007, de 18 de octubre, de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "251",
+      "seccion": "1",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "7723",
+        "#text": "Jefatura del Estado"
+      },
+      "rango": {
+        "@codigo": "1300",
+        "#text": "Ley"
+      },
+      "numero_oficial": "25/2007",
+      "fecha_disposicion": "20071018",
+      "fecha_publicacion": "20071019",
+      "fecha_vigencia": "20071108",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "42517",
+      "pagina_final": "42523",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2007/10/19/pdfs/A42517-42523.pdf",
+      "url_pdf_catalan": "/boe_catalan/dias/2007/10/23/pdfs/A04171-04176.pdf",
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": "/boe_gallego/dias/2007/10/23/pdfs/A03094-03100.pdf",
+      "url_pdf_valenciano": "/boe_valenciano/dias/2007/10/31/pdfs/A00753-00758.pdf",
+      "url_eli": "https://www.boe.es/eli/es/l/2007/10/18/25"
     },
-    "diario_numero": "251",
-    "seccion": "1",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "7723",
-      "#text": "Jefatura del Estado"
-    },
-    "rango": {
-      "@codigo": "1300",
-      "#text": "Ley"
-    },
-    "numero_oficial": "25/2007",
-    "fecha_disposicion": "20071018",
-    "fecha_publicacion": "20071019",
-    "fecha_vigencia": "20071108",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "42517",
-    "pagina_final": "42523",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2007/10/19/pdfs/A42517-42523.pdf",
-    "url_pdf_catalan": "/boe_catalan/dias/2007/10/23/pdfs/A04171-04176.pdf",
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": "/boe_gallego/dias/2007/10/23/pdfs/A03094-03100.pdf",
-    "url_pdf_valenciano": "/boe_valenciano/dias/2007/10/31/pdfs/A00753-00758.pdf",
-    "url_eli": "https://www.boe.es/eli/es/l/2007/10/18/25"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2007-18243"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2007-10-18"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "25"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2007-18243"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2007-10-18"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "25"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25"
-              },
-              "eli:consolidated_by": [
-                {
-                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019"
-                }
-              ],
-              "eli:is_realized_by": [
-                {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2007-18243"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2007-10-18"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "25"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-18243"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-10-18"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "25"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25"
+                },
+                "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019"
+                  }
+                ],
+                "eli:is_realized_by": [
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Ley 25/2007, de 18 de octubre, de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2007-10-19"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
+                      },
+                      "eli:is_embodied_by": [
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa/html",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa/pdf",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa/xml",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/cat",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "LLEI 25/2007, de 18 d'octubre, de conservaci\u00f3 de dades relatives a les comunicacions electr\u00f2niques i a les xarxes p\u00fabliques de comunicacions."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2007-10-23"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/cat/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/cat"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/glg",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "LEI 25/2007, do 18 de outubro, de conservaci\u00f3n de datos relativos \u00e1s comunicaci\u00f3ns electr\u00f3nicas e \u00e1s redes p\u00fablicas de comunicaci\u00f3ns. (\u00abBOE\u00bb 251, do 19-10-2007.)"
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2007-10-23"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/glg/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/glg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/vci",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/vci"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "LLEI 25/2007, de 18 d'octubre, de conservaci\u00f3 de dades relatives a les comunicacions electr\u00f2niques i a les xarxes p\u00fabliques de comunicacions. (\u00abBOE\u00bb 251, de 19-10-2007.)"
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2007-10-31"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/vci/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/vci"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-18243"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-10-18"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "25"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2014-05-10"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
+                },
+                "eli:is_realized_by": {
                   "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa",
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 25/2007, de 18 de octubre, de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2014-05-10"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-18243"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-10-18"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "25"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-10-19"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019/spa",
                     "eli:language": {
                       "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
                     },
@@ -128,956 +391,897 @@
                       "#text": "2007-10-19"
                     },
                     "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
-                    },
-                    "eli:is_embodied_by": [
-                      {
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa/html",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa"
-                          }
-                        }
-                      },{
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa/pdf",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa"
-                          }
-                        }
-                      },{
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa/xml",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/spa"
-                          }
-                        }
-                      }
-                    ]
-                  }
-                },{
-                  "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/cat",
-                    "eli:language": {
-                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
-                    },
-                    "eli:title": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                      "#text": "LLEI 25/2007, de 18 d'octubre, de conservaci\u00f3 de dades relatives a les comunicacions electr\u00f2niques i a les xarxes p\u00fabliques de comunicacions."
-                    },
-                    "eli:publisher": {
-                      "@rdf:resource": "www.boe.es"
-                    },
-                    "eli:date_publication": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                      "#text": "2007-10-23"
-                    },
-                    "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019"
                     },
                     "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/cat/pdf",
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019/spa/html",
                         "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/cat"
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019/spa"
                         }
-                      }
-                    }
-                  }
-                },{
-                  "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/glg",
-                    "eli:language": {
-                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
-                    },
-                    "eli:title": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                      "#text": "LEI 25/2007, do 18 de outubro, de conservaci\u00f3n de datos relativos \u00e1s comunicaci\u00f3ns electr\u00f3nicas e \u00e1s redes p\u00fablicas de comunicaci\u00f3ns. (\u00abBOE\u00bb 251, do 19-10-2007.)"
-                    },
-                    "eli:publisher": {
-                      "@rdf:resource": "www.boe.es"
-                    },
-                    "eli:date_publication": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                      "#text": "2007-10-23"
-                    },
-                    "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
-                    },
-                    "eli:is_embodied_by": {
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/glg/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/glg"
-                        }
-                      }
-                    }
-                  }
-                },{
-                  "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/vci",
-                    "eli:language": {
-                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/vci"
-                    },
-                    "eli:title": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                      "#text": "LLEI 25/2007, de 18 d'octubre, de conservaci\u00f3 de dades relatives a les comunicacions electr\u00f2niques i a les xarxes p\u00fabliques de comunicacions. (\u00abBOE\u00bb 251, de 19-10-2007.)"
-                    },
-                    "eli:publisher": {
-                      "@rdf:resource": "www.boe.es"
-                    },
-                    "eli:date_publication": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                      "#text": "2007-10-31"
-                    },
-                    "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
-                    },
-                    "eli:is_embodied_by": {
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/vci/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof/vci"
-                        }
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2007-18243"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2007-10-18"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "25"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2014-05-10"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Ley 25/2007, de 18 de octubre, de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2014-05-10"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20140510/spa"
                       }
                     }
                   }
                 }
               }
             }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2007-18243"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2007-10-18"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "25"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2007-10-19"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Ley 25/2007, de 18 de octubre, de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2007-10-19"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/l/2007/10/18/25/con/20071019/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
-    }
-  },
-  "analisis": {
-    "notas": null,
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "7894",
-          "@orden": "",
-          "#text": "Comunicaciones electr\u00f3nicas"
-        },{
-          "@codigo": "1624",
-          "@orden": "",
-          "#text": "Consumidores y usuarios"
-        },{
-          "@codigo": "2339",
-          "@orden": "",
-          "#text": "Delitos"
-        },{
-          "@codigo": "3685",
-          "@orden": "",
-          "#text": "Ficheros con datos personales"
-        },{
-          "@codigo": "4165",
-          "@orden": "",
-          "#text": "Informaci\u00f3n"
-        },{
-          "@codigo": "4506",
-          "@orden": "",
-          "#text": "Internet"
-        },{
-          "@codigo": "5923",
-          "@orden": "",
-          "#text": "Redes de telecomunicaci\u00f3n"
-        },{
-          "@codigo": "6494",
-          "@orden": "",
-          "#text": "Seguridad ciudadana"
-        },{
-          "@codigo": "6858",
-          "@orden": "",
-          "#text": "Telefon\u00eda m\u00f3vil"
-        },{
-          "@codigo": "6860",
-          "@orden": "",
-          "#text": "Tel\u00e9fonos"
-        }
-      ]
     },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "106",
-          "@orden": "",
-          "#text": "Consumidores y usuarios"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+    "analisis": {
+      "notas": null,
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-2002-13758",
-            "@orden": "1010",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "DEROGA"
-            },
-            "texto": "los arts. 12, 38.2 c) y d) y 38.3 a) de la Ley 34/2002, de 11 de julio"
-          },{
-            "@referencia": "BOE-A-2003-20253",
-            "@orden": "2015",
-            "palabra": {
-              "@codigo": "270",
-              "#text": "MODIFICA"
-            },
-            "texto": "los arts. 33, 38.5, 53 y 54 de la Ley 32/2003, de 3 de noviembre"
-          },{
-            "@referencia": "DOUE-L-2006-80647",
-            "@orden": "3020",
-            "palabra": {
-              "@codigo": "426",
-              "#text": "TRANSPONE"
-            },
-            "texto": "la Directiva 2006/24/CE, de 15 de marzo"
-          },{
-            "@referencia": "BOE-A-1999-23750",
-            "@orden": "5020",
-            "palabra": {
-              "@codigo": "330",
-              "#text": "CITA"
-            },
-            "texto": "Ley Org\u00e1nica 15/1999, de 13 de diciembre"
+            "@codigo": "7894",
+            "@orden": "",
+            "#text": "Comunicaciones electr\u00f3nicas"
+          },
+          {
+            "@codigo": "1624",
+            "@orden": "",
+            "#text": "Consumidores y usuarios"
+          },
+          {
+            "@codigo": "2339",
+            "@orden": "",
+            "#text": "Delitos"
+          },
+          {
+            "@codigo": "3685",
+            "@orden": "",
+            "#text": "Ficheros con datos personales"
+          },
+          {
+            "@codigo": "4165",
+            "@orden": "",
+            "#text": "Informaci\u00f3n"
+          },
+          {
+            "@codigo": "4506",
+            "@orden": "",
+            "#text": "Internet"
+          },
+          {
+            "@codigo": "5923",
+            "@orden": "",
+            "#text": "Redes de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "6494",
+            "@orden": "",
+            "#text": "Seguridad ciudadana"
+          },
+          {
+            "@codigo": "6858",
+            "@orden": "",
+            "#text": "Telefon\u00eda m\u00f3vil"
+          },
+          {
+            "@codigo": "6860",
+            "@orden": "",
+            "#text": "Tel\u00e9fonos"
           }
         ]
       },
-      "posteriores": {
-        "posterior": [
+      "alertas": {
+        "alerta": [
           {
-            "@referencia": "BOE-A-2014-4950",
+            "@codigo": "106",
             "@orden": "",
-            "palabra": {
-              "@codigo": "270",
-              "#text": "SE MODIFICA"
-            },
-            "texto": "los arts. 6.2, 7.3, 10 y la disposici\u00f3n adicional \u00fanica.5, por Ley 9/2014, de 9 de mayo"
-          },{
-            "@referencia": "BOE-A-2013-1591",
+            "#text": "Consumidores y usuarios"
+          },
+          {
+            "@codigo": "130",
             "@orden": "",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "SE DICTA DE CONFORMIDAD"
-            },
-            "texto": "sobre la definici\u00f3n del formato de entrega de los datos conservados: Orden PRE/199/2013, de 29 de enero"
+            "#text": "Telecomunicaciones"
           }
         ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-2002-13758",
+              "@orden": "1010",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "DEROGA"
+              },
+              "texto": "los arts. 12, 38.2 c) y d) y 38.3 a) de la Ley 34/2002, de 11 de julio"
+            },
+            {
+              "@referencia": "BOE-A-2003-20253",
+              "@orden": "2015",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "MODIFICA"
+              },
+              "texto": "los arts. 33, 38.5, 53 y 54 de la Ley 32/2003, de 3 de noviembre"
+            },
+            {
+              "@referencia": "DOUE-L-2006-80647",
+              "@orden": "3020",
+              "palabra": {
+                "@codigo": "426",
+                "#text": "TRANSPONE"
+              },
+              "texto": "la Directiva 2006/24/CE, de 15 de marzo"
+            },
+            {
+              "@referencia": "BOE-A-1999-23750",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Ley Org\u00e1nica 15/1999, de 13 de diciembre"
+            }
+          ]
+        },
+        "posteriores": {
+          "posterior": [
+            {
+              "@referencia": "BOE-A-2014-4950",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "los arts. 6.2, 7.3, 10 y la disposici\u00f3n adicional \u00fanica.5, por Ley 9/2014, de 9 de mayo"
+            },
+            {
+              "@referencia": "BOE-A-2013-1591",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "sobre la definici\u00f3n del formato de entrega de los datos conservados: Orden PRE/199/2013, de 29 de enero"
+            }
+          ]
+        }
       }
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "subseccion",
+          "#text": "JUAN CARLOS I"
+        },
+        {
+          "@class": "subseccion",
+          "#text": "REY DE ESPA\u00d1A"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "A todos los que la presente vieren y entendieren."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley."
+        },
+        {
+          "@class": "subseccion",
+          "#text": "PRE\u00c1MBULO"
+        },
+        {
+          "@class": "subseccion",
+          "#text": "I"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La aplicaci\u00f3n de las nuevas tecnolog\u00edas desarrolladas en el marco de la sociedad de la informaci\u00f3n ha supuesto la superaci\u00f3n de las formas tradicionales de comunicaci\u00f3n, mediante una expansi\u00f3n de los contenidos transmitidos, que abarcan no s\u00f3lo la voz, sino tambi\u00e9n datos en soportes y formatos diversos. A su vez, esta extraordinaria expansi\u00f3n en cantidad y calidad ha venido acompa\u00f1ada de un descenso en los costes, haciendo que este tipo de comunicaciones se encuentre al alcance de cualquier persona y en cualquier rinc\u00f3n del mundo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La naturaleza neutra de los avances tecnol\u00f3gicos en telefon\u00eda y comunicaciones electr\u00f3nicas no impide que su uso pueda derivarse hacia la consecuci\u00f3n de fines indeseados, cuando no delictivos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Precisamente en el marco de este \u00faltimo objetivo se encuadra la Directiva 2006/24/CE, del Parlamento Europeo y del Consejo, de 15 de marzo, sobre la conservaci\u00f3n de datos generados o tratados en relaci\u00f3n con la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas de acceso p\u00fablico o de redes p\u00fablicas de comunicaciones, y por la que se modifica la Directiva 2002/58/CE, del Parlamento Europeo y del Consejo, de 12 de julio, cuya transposici\u00f3n a nuestro ordenamiento jur\u00eddico es el objetivo principal de esta Ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El objeto de esta Directiva es establecer la obligaci\u00f3n de los operadores de telecomunicaciones de retener determinados datos generados o tratados por los mismos, con el fin de posibilitar que dispongan de ellos los agentes facultados. Se entienden por agentes facultados los miembros de los Cuerpos Policiales autorizados para ello en el marco de una investigaci\u00f3n criminal por la comisi\u00f3n de un delito, el personal del Centro Nacional de Inteligencia para llevar a cabo una investigaci\u00f3n de seguridad amparada en la Ley 11/2002, de 6 de mayo, reguladora del Centro Nacional de Inteligencia, y en la Ley Org\u00e1nica 2/2002, de 6 de mayo, reguladora del control judicial previo del Centro Nacional de Inteligencia, as\u00ed como los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera, en el desarrollo de sus competencias como polic\u00eda judicial, de acuerdo con el apartado 1 del art\u00edculo 283 de la Ley de Enjuiciamiento Criminal. Se trata, pues, de que todos \u00e9stos puedan obtener los datos relativos a las comunicaciones que, relacionadas con una investigaci\u00f3n, se hayan podido efectuar por medio de la telefon\u00eda fija o m\u00f3vil, as\u00ed como por Internet. El establecimiento de esas obligaciones, justificado en aras de proteger la seguridad p\u00fablica, se ha efectuado buscando el imprescindible equilibrio con el respeto de los derechos individuales que puedan verse afectados, como son los relativos a la privacidad y la intimidad de las comunicaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En este sentido, la Ley es respetuosa con los pronunciamientos que, en relaci\u00f3n con el derecho al secreto de las comunicaciones, ha venido emitiendo el Tribunal Constitucional, respeto que, especialmente, se articula a trav\u00e9s de dos garant\u00edas: en primer lugar, que los datos sobre los que se establece la obligaci\u00f3n de conservaci\u00f3n son datos exclusivamente vinculados a la comunicaci\u00f3n, ya sea telef\u00f3nica o efectuada a trav\u00e9s de Internet, pero en ning\u00fan caso reveladores del contenido de \u00e9sta; y, en segundo lugar, que la cesi\u00f3n de tales datos que afecten a una comunicaci\u00f3n o comunicaciones concretas, exigir\u00e1, siempre, la autorizaci\u00f3n judicial previa."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En relaci\u00f3n con esta \u00faltima precisi\u00f3n, cabe se\u00f1alar que la Directiva se refiere, expresamente, a que los datos conservados deber\u00e1n estar disponibles a los fines de detecci\u00f3n o investigaci\u00f3n por delitos graves, definidos \u00e9stos de acuerdo con la legislaci\u00f3n interna de cada Estado miembro."
+        },
+        {
+          "@class": "subseccion",
+          "#text": "II"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "La Ley cuenta con diez art\u00edculos que se agrupan en tres cap\u00edtulos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Cap\u00edtulo I (\u00abDisposiciones Generales\u00bb) se inicia describiendo su objeto, que b\u00e1sicamente se circunscribe a la determinaci\u00f3n de la obligaci\u00f3n de conservar los datos enumerados en el art\u00edculo 3, que se hayan generado o tratado en el marco de una comunicaci\u00f3n de telefon\u00eda fija o m\u00f3vil, o realizada a trav\u00e9s de una comunicaci\u00f3n electr\u00f3nica de acceso p\u00fablico o mediante una red p\u00fablica de comunicaciones. Igualmente, se precisan los fines que, exclusivamente, justifican la obligaci\u00f3n de conservaci\u00f3n, y que se limitan a la detecci\u00f3n, investigaci\u00f3n y enjuiciamiento de un delito contemplado en el C\u00f3digo Penal o las leyes penales especiales, con los requisitos y cautelas que la propia Ley establece."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En este cap\u00edtulo tambi\u00e9n se precisan las limitaciones sobre el tipo de datos a retener, que son los necesarios para identificar el origen y destino de la comunicaci\u00f3n, as\u00ed como la identidad de los usuarios o abonados de ambos, pero nunca datos que revelen el contenido de la comunicaci\u00f3n. Igualmente, la Ley impone la obligaci\u00f3n de conservaci\u00f3n de datos que permitan determinar el momento y duraci\u00f3n de una determinada comunicaci\u00f3n, su tipo, as\u00ed como datos necesarios para identificar el equipo de comunicaci\u00f3n empleado y, en el caso de utilizaci\u00f3n de un equipo m\u00f3vil, los datos necesarios para su localizaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En relaci\u00f3n con los sujetos que quedan obligados a conservar los datos, \u00e9stos ser\u00e1n los operadores que presten servicios de comunicaciones electr\u00f3nicas disponibles al p\u00fablico, o que exploten una red p\u00fablica de comunicaciones electr\u00f3nicas en Espa\u00f1a."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Ley enumera en su art\u00edculo 3, de manera precisa y detallada, el listado de datos que quedan sujetos a la obligaci\u00f3n de conservaci\u00f3n en el marco de las comunicaciones por telefon\u00eda fija, m\u00f3vil o Internet. Estos datos, que, se repite, en ning\u00fan caso revelar\u00e1n el contenido de la comunicaci\u00f3n, son los necesarios para identificar el origen y destino de la comunicaci\u00f3n, su hora, fecha y duraci\u00f3n, el tipo de servicio utilizado y el equipo de comunicaci\u00f3n de los usuarios utilizado. En aplicaci\u00f3n de las previsiones contenidas en la Directiva 2006/24/CE, del Parlamento Europeo y del Consejo, de 15 de marzo, quedan incluidas tambi\u00e9n en el \u00e1mbito de aplicaci\u00f3n de la Ley las denominadas llamadas telef\u00f3nicas infructuosas. Igualmente se incluye la obligaci\u00f3n de conservar los elementos que sean suficientes para identificar el momento de activaci\u00f3n de los tel\u00e9fonos que funcionen bajo la modalidad de prepago."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En el Cap\u00edtulo II (\u00abConservaci\u00f3n y cesi\u00f3n de datos\u00bb) se establecen los l\u00edmites para efectuar la cesi\u00f3n de datos, el plazo de conservaci\u00f3n de los mismos, que ser\u00e1, con car\u00e1cter general, de doce meses desde que la comunicaci\u00f3n se hubiera establecido (si bien reglamentariamente se podr\u00e1 reducir a seis meses o ampliar a dos a\u00f1os, como permite la Directiva 2006/24/CE), y los instrumentos para garantizar el uso leg\u00edtimo de los datos conservados, cuya cesi\u00f3n y entrega exclusivamente se podr\u00e1 efectuar al agente facultado y para los fines establecidos en la Ley, estando cualquier uso indebido sometido a los mecanismos de control de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal y su normativa de desarrollo. Adem\u00e1s, se establecen previsiones espec\u00edficas respecto al r\u00e9gimen general regulador de los derechos de acceso, rectificaci\u00f3n y cancelaci\u00f3n de datos contenido en la referida Ley Org\u00e1nica 15/1999."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Cap\u00edtulo III, al referirse al r\u00e9gimen sancionador, remite, en cuanto a los incumplimientos de las obligaciones de conservaci\u00f3n y protecci\u00f3n y seguridad de los datos de car\u00e1cter personal, a la regulaci\u00f3n contenida en la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones. Por otro lado, los incumplimientos de la obligaci\u00f3n de puesta a disposici\u00f3n de los agentes facultados, en la medida en que las solicitudes estar\u00e1n siempre amparadas por orden judicial, constituir\u00edan la correspondiente infracci\u00f3n penal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En las disposiciones contenidas en la parte final se incluyen contenidos diversos. Por un lado, y a los efectos de poder establecer instrumentos para controlar el empleo para fines delictivos de los equipos de telefon\u00eda m\u00f3vil adquiridos mediante la modalidad de prepago, se establece, como obligaci\u00f3n de los operadores que comercialicen dicho servicio, la llevanza de un registro con la identidad de los compradores."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Por \u00faltimo, la Ley incorpora en las disposiciones finales una modificaci\u00f3n de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, para adaptarla al contenido de esta Ley, una referencia a su amparo competencial, una habilitaci\u00f3n general al Gobierno para su desarrollo y un per\u00edodo de seis meses para que las operadoras puedan adaptarse a su contenido."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO I"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Disposiciones generales"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 1. Objeto de la Ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Esta Ley tiene por objeto la regulaci\u00f3n de la obligaci\u00f3n de los operadores de conservar los datos generados o tratados en el marco de la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas o de redes p\u00fablicas de comunicaci\u00f3n, as\u00ed como el deber de cesi\u00f3n de dichos datos a los agentes facultados siempre que les sean requeridos a trav\u00e9s de la correspondiente autorizaci\u00f3n judicial con fines de detecci\u00f3n, investigaci\u00f3n y enjuiciamiento de delitos graves contemplados en el C\u00f3digo Penal o en las leyes penales especiales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Esta Ley se aplicar\u00e1 a los datos de tr\u00e1fico y de localizaci\u00f3n sobre personas f\u00edsicas y jur\u00eddicas y a los datos relacionados necesarios para identificar al abonado o usuario registrado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Se excluye del \u00e1mbito de aplicaci\u00f3n de esta Ley el contenido de las comunicaciones electr\u00f3nicas, incluida la informaci\u00f3n consultada utilizando una red de comunicaciones electr\u00f3nicas."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 2. Sujetos obligados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Son destinatarios de las obligaciones relativas a la conservaci\u00f3n de datos impuestas en esta Ley los operadores que presten servicios de comunicaciones electr\u00f3nicas disponibles al p\u00fablico o exploten redes p\u00fablicas de comunicaciones, en los t\u00e9rminos establecidos en la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 3. Datos objeto de conservaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los datos que deben conservarse por los operadores especificados en el art\u00edculo 2 de esta Ley, son los siguientes:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Datos necesarios para rastrear e identificar el origen de una comunicaci\u00f3n:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1.\u00b0 Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) N\u00famero de tel\u00e9fono de llamada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii) Nombre y direcci\u00f3n del abonado o usuario registrado."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2.\u00b0 Con respecto al acceso a Internet, correo electr\u00f3nico por Internet y telefon\u00eda por Internet:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) La identificaci\u00f3n de usuario asignada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii) La identificaci\u00f3n de usuario y el n\u00famero de tel\u00e9fono asignados a toda comunicaci\u00f3n que acceda a la red p\u00fablica de telefon\u00eda."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "iii) El nombre y direcci\u00f3n del abonado o del usuario registrado al que se le ha asignado en el momento de la comunicaci\u00f3n una direcci\u00f3n de Protocolo de Internet (IP), una identificaci\u00f3n de usuario o un n\u00famero de tel\u00e9fono."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "b) Datos necesarios para identificar el destino de una comunicaci\u00f3n:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1.\u00ba Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) El n\u00famero o n\u00fameros marcados (el n\u00famero o n\u00fameros de tel\u00e9fono de destino) y, en aquellos casos en que intervengan otros servicios, como el desv\u00edo o la transferencia de llamadas, el n\u00famero o n\u00fameros hacia los que se transfieren las llamadas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii) Los nombres y las direcciones de los abonados o usuarios registrados."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2.\u00ba Con respecto al correo electr\u00f3nico por Internet y la telefon\u00eda por Internet:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) La identificaci\u00f3n de usuario o el n\u00famero de tel\u00e9fono del destinatario o de los destinatarios de una llamada telef\u00f3nica por Internet."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii) Los nombres y direcciones de los abonados o usuarios registrados y la identificaci\u00f3n de usuario del destinatario de la comunicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "c) Datos necesarios para determinar la fecha, hora y duraci\u00f3n de una comunicaci\u00f3n:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1.\u00b0 Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil: la fecha y hora del comienzo y fin de la llamada o, en su caso, del servicio de mensajer\u00eda o del servicio multimedia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2.\u00b0 Con respecto al acceso a Internet, al correo electr\u00f3nico por Internet y a la telefon\u00eda por Internet:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) La fecha y hora de la conexi\u00f3n y desconexi\u00f3n del servicio de acceso a Internet registradas, basadas en un determinado huso horario, as\u00ed como la direcci\u00f3n del Protocolo Internet, ya sea din\u00e1mica o est\u00e1tica, asignada por el proveedor de acceso a Internet a una comunicaci\u00f3n, y la identificaci\u00f3n de usuario o del abonado o del usuario registrado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii) La fecha y hora de la conexi\u00f3n y desconexi\u00f3n del servicio de correo electr\u00f3nico por Internet o del servicio de telefon\u00eda por Internet, basadas en un determinado huso horario."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "d) Datos necesarios para identificar el tipo de comunicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1.\u00b0 Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil: el servicio telef\u00f3nico utilizado: tipo de llamada (transmisi\u00f3n de voz, buz\u00f3n vocal, conferencia, datos), servicios suplementarios (incluido el reenv\u00edo o transferencia de llamadas) o servicios de mensajer\u00eda o multimedia empleados (incluidos los servicios de mensajes cortos, servicios multimedia avanzados y servicios multimedia)."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2.\u00b0 Con respecto al correo electr\u00f3nico por Internet y a la telefon\u00eda por Internet: el servicio de Internet utilizado."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "e) Datos necesarios para identificar el equipo de comunicaci\u00f3n de los usuarios o lo que se considera ser el equipo de comunicaci\u00f3n:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1.\u00ba Con respecto a la telefon\u00eda de red fija: los n\u00fameros de tel\u00e9fono de origen y de destino."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2.\u00b0 Con respecto a la telefon\u00eda m\u00f3vil:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) Los n\u00fameros de tel\u00e9fono de origen y destino."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii) La identidad internacional del abonado m\u00f3vil (IMSI) de la parte que efect\u00faa la llamada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "iii) La identidad internacional del equipo m\u00f3vil (IMEI) de la parte que efect\u00faa la llamada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "iv) La IMSI de la parte que recibe la llamada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "v) La IMEI de la parte que recibe la llamada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "vi) En el caso de los servicios an\u00f3nimos de pago por adelantado, tales como los servicios con tarjetas prepago, fecha y hora de la primera activaci\u00f3n del servicio y la etiqueta de localizaci\u00f3n (el identificador de celda) desde la que se haya activado el servicio."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "3.\u00b0 Con respecto al acceso a Internet, correo electr\u00f3nico por Internet y telefon\u00eda por Internet:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "i) El n\u00famero de tel\u00e9fono de origen en caso de acceso mediante marcado de n\u00fameros."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "ii) La l\u00ednea digital de abonado (DSL) u otro punto terminal identificador del autor de la comunicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "f) Datos necesarios para identificar la localizaci\u00f3n del equipo de comunicaci\u00f3n m\u00f3vil:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1.\u00b0 La etiqueta de localizaci\u00f3n (identificador de celda) al inicio de la comunicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2.\u00b0 Los datos que permiten fijar la localizaci\u00f3n geogr\u00e1fica de la celda, mediante referencia a la etiqueta de localizaci\u00f3n, durante el per\u00edodo en el que se conservan los datos de las comunicaciones."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2. Ning\u00fan dato que revele el contenido de la comunicaci\u00f3n podr\u00e1 conservarse en virtud de esta Ley."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO II"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Conservaci\u00f3n y cesi\u00f3n de datos"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 4. Obligaci\u00f3n de conservar datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los sujetos obligados adoptar\u00e1n las medidas necesarias para garantizar que los datos especificados en el art\u00edculo 3 de esta Ley se conserven de conformidad con lo dispuesto en ella, en la medida en que sean generados o tratados por aqu\u00e9llos en el marco de la prestaci\u00f3n de los servicios de comunicaciones de que se trate."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En ning\u00fan caso, los sujetos obligados podr\u00e1n aprovechar o utilizar los registros generados, fuera de los supuestos de autorizaci\u00f3n fijados en el art\u00edculo 38 de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La citada obligaci\u00f3n de conservaci\u00f3n se extiende a los datos relativos a las llamadas infructuosas, en la medida que los datos son generados o tratados y conservados o registrados por los sujetos obligados. Se entender\u00e1 por llamada infructuosa aquella comunicaci\u00f3n en el transcurso de la cual se ha realizado con \u00e9xito una llamada telef\u00f3nica pero sin contestaci\u00f3n, o en la que ha habido una intervenci\u00f3n por parte del operador u operadores involucrados en la llamada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Los datos relativos a las llamadas no conectadas est\u00e1n excluidos de las obligaciones de conservaci\u00f3n contenidas en esta Ley. Se entender\u00e1 por llamada no conectada aquella comunicaci\u00f3n en el transcurso de la cual se ha realizado sin \u00e9xito una llamada telef\u00f3nica, sin que haya habido intervenci\u00f3n del operador u operadores involucrados."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 5. Per\u00edodo de conservaci\u00f3n de los datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La obligaci\u00f3n de conservaci\u00f3n de datos impuesta cesa a los doce meses computados desde la fecha en que se haya producido la comunicaci\u00f3n. Reglamentariamente, previa consulta a los operadores, se podr\u00e1 ampliar o reducir el plazo de conservaci\u00f3n para determinados datos o una categor\u00eda de datos hasta un m\u00e1ximo de dos a\u00f1os o un m\u00ednimo de seis meses, tomando en consideraci\u00f3n el coste del almacenamiento y conservaci\u00f3n de los datos, as\u00ed como el inter\u00e9s de los mismos para los fines de investigaci\u00f3n, detecci\u00f3n y enjuiciamiento de un delito grave, previa consulta a los operadores."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Lo dispuesto en el apartado anterior se entiende sin perjuicio de lo previsto en el art\u00edculo 16.3 de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, sobre la obligaci\u00f3n de conservar datos bloqueados en los supuestos legales de cancelaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 6. Normas generales sobre cesi\u00f3n de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los datos conservados de conformidad con lo dispuesto en esta Ley s\u00f3lo podr\u00e1n ser cedidos de acuerdo con lo dispuesto en ella para los fines que se determinan y previa autorizaci\u00f3n judicial."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La cesi\u00f3n de la informaci\u00f3n se efectuar\u00e1 \u00fanicamente a los agentes facultados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "A estos efectos, tendr\u00e1n la consideraci\u00f3n de agentes facultados:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Los miembros de las Fuerzas y Cuerpos de Seguridad, cuando desempe\u00f1en funciones de polic\u00eda judicial, de acuerdo con lo previsto en el art\u00edculo 547 de la Ley Org\u00e1nica 6/1985, de 1 de julio, del Poder Judicial."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera, en el desarrollo de sus competencias como polic\u00eda judicial, de acuerdo con el apartado 1 del art\u00edculo 283 de la Ley de Enjuiciamiento Criminal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) El personal del Centro Nacional de Inteligencia en el curso de las investigaciones de seguridad sobre personas o entidades, de acuerdo con lo previsto en la Ley 11/2002, de 6 de mayo, reguladora del Centro Nacional de Inteligencia, y en la Ley Org\u00e1nica 2/2002, de 6 de mayo, reguladora del control judicial previo del Centro Nacional de Inteligencia."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 7. Procedimiento de cesi\u00f3n de datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los operadores estar\u00e1n obligados a ceder al agente facultado los datos conservados a los que se refiere el art\u00edculo 3 de esta Ley concernientes a comunicaciones que identifiquen a personas, sin perjuicio de la resoluci\u00f3n judicial prevista en el apartado siguiente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La resoluci\u00f3n judicial determinar\u00e1, conforme a lo previsto en la Ley de Enjuiciamiento Criminal y de acuerdo con los principios de necesidad y proporcionalidad, los datos conservados que han de ser cedidos a los agentes facultados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El plazo de ejecuci\u00f3n de la orden de cesi\u00f3n ser\u00e1 el fijado por la resoluci\u00f3n judicial, atendiendo a la urgencia de la cesi\u00f3n y a los efectos de la investigaci\u00f3n de que se trate, as\u00ed como a la naturaleza y complejidad t\u00e9cnica de la operaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Si no se establece otro plazo distinto, la cesi\u00f3n deber\u00e1 efectuarse dentro de las setenta y dos horas contadas a partir de las 8:00 horas del d\u00eda laborable siguiente a aqu\u00e9l en que el sujeto obligado reciba la orden."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 8. Protecci\u00f3n y seguridad de los datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los sujetos obligados deber\u00e1n identificar al personal especialmente autorizado para acceder a los datos objeto de esta Ley, adoptar las medidas t\u00e9cnicas y organizativas que impidan su manipulaci\u00f3n o uso para fines distintos de los comprendidos en la misma, su destrucci\u00f3n accidental o il\u00edcita y su p\u00e9rdida accidental, as\u00ed como su almacenamiento, tratamiento, divulgaci\u00f3n o acceso no autorizados, con sujeci\u00f3n a lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y en su normativa de desarrollo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Las obligaciones relativas a las medidas para garantizar la calidad de los datos y la confidencialidad y seguridad en el tratamiento de los mismos ser\u00e1n las establecidas en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y su normativa de desarrollo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El nivel de protecci\u00f3n de los datos almacenados se determinar\u00e1 de conformidad con lo previsto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y en su normativa de desarrollo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. La Agencia Espa\u00f1ola de Protecci\u00f3n de Datos es la autoridad p\u00fablica responsable de velar por el cumplimiento de las previsiones de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y de la normativa de desarrollo aplicables a los datos contemplados en la presente Ley."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 9. Excepciones a los derechos de acceso y cancelaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El responsable del tratamiento de los datos no comunicar\u00e1 la cesi\u00f3n de datos efectuada de conformidad con esta Ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El responsable del tratamiento de los datos denegar\u00e1 el ejercicio del derecho de cancelaci\u00f3n en los t\u00e9rminos y condiciones previstos en la Ley Org\u00e1nica 15/1999, de 13 de diciembre."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO III"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Infracciones y sanciones"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 10. R\u00e9gimen aplicable al incumplimiento de obligaciones contempladas en esta Ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El incumplimiento de las obligaciones previstas en esta Ley se sancionar\u00e1 de acuerdo con lo dispuesto en la Ley 32/2003, de 3 de noviembre, sin perjuicio de las responsabilidades penales que pudieran derivar del incumplimiento de la obligaci\u00f3n de cesi\u00f3n de datos a los agentes facultados."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional \u00fanica. Servicios de telefon\u00eda mediante tarjetas de prepago."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los operadores de servicios de telefon\u00eda m\u00f3vil que comercialicen servicios con sistema de activaci\u00f3n mediante la modalidad de tarjetas de prepago, deber\u00e1n llevar un libro-registro en el que conste la identidad de los clientes que adquieran una tarjeta inteligente con dicha modalidad de pago."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Los operadores informar\u00e1n a los clientes, con car\u00e1cter previo a la venta, de la existencia y contenido del registro, de su disponibilidad en los t\u00e9rminos expresados en el n\u00famero siguiente y de los derechos recogidos en el art\u00edculo 38.6 de la Ley 32/2003."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La identificaci\u00f3n se efectuar\u00e1 mediante documento acreditativo de la personalidad, haci\u00e9ndose constar en el libro-registro el nombre, apellidos y nacionalidad del comprador, as\u00ed como el n\u00famero correspondiente al documento identificativo utilizado y la naturaleza o denominaci\u00f3n de dicho documento. En el supuesto de personas jur\u00eddicas, la identificaci\u00f3n se realizar\u00e1 aportando la tarjeta de identificaci\u00f3n fiscal, y se har\u00e1 constar en el libro-registro la denominaci\u00f3n social y el c\u00f3digo de identificaci\u00f3n fiscal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Desde la activaci\u00f3n de la tarjeta de prepago y hasta que cese la obligaci\u00f3n de conservaci\u00f3n a que se refiere el art\u00edculo 5 de esta Ley, los operadores ceder\u00e1n los datos identificativos previstos en el apartado anterior, cuando para el cumplimiento de sus fines les sean requeridos por los agentes facultados, los miembros de las Fuerzas y Cuerpos de Seguridad del Estado y de los Cuerpos Policiales de las Comunidades Aut\u00f3nomas con competencia para la protecci\u00f3n de las personas y bienes y para el mantenimiento de la seguridad p\u00fablica, el personal del Centro Nacional de Inteligencia en el curso de las investigaciones de seguridad sobre personas o entidades, as\u00ed como los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Los datos identificativos estar\u00e1n sometidos a las disposiciones de esta Ley, respecto a los sistemas que garanticen su conservaci\u00f3n, no manipulaci\u00f3n o acceso il\u00edcito, destrucci\u00f3n, cancelaci\u00f3n e identificaci\u00f3n de la persona autorizada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Los operadores deber\u00e1n ceder los datos identificativos previstos en el apartado 1 de esta disposici\u00f3n a los agentes facultados, a los miembros de las Fuerzas y Cuerpos de Seguridad del Estado y de los Cuerpos Policiales de las Comunidades Aut\u00f3nomas con competencia para la protecci\u00f3n de las personas y bienes y para el mantenimiento de la seguridad p\u00fablica, o al personal del Centro Nacional de Inteligencia, as\u00ed como a los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera, cuando les sean requeridos por \u00e9stos con fines de investigaci\u00f3n, detecci\u00f3n y enjuiciamiento de un delito contemplado en el C\u00f3digo Penal o en las leyes penales especiales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. Sin perjuicio del r\u00e9gimen sancionador establecido en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, constituyen infracciones a lo previsto en la presente disposici\u00f3n las siguientes:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Son infracciones muy graves tanto el incumplimiento de la llevanza del libro-registro referido, como la negativa a la cesi\u00f3n y entrega de los datos a las personas y en los casos previstos en esta disposici\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Son infracciones graves la llevanza incompleta de dicho libro-registro, as\u00ed como la demora injustificada, en m\u00e1s de setenta y dos horas, en la cesi\u00f3n y entrega de los datos a las personas y en los casos previstos en esta disposici\u00f3n."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "6. A las infracciones previstas en el apartado anterior les ser\u00e1 de aplicaci\u00f3n el r\u00e9gimen sancionador establecido en la Ley 32/2003, de 3 de noviembre, correspondiendo la competencia sancionadora al Secretario de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El procedimiento para sancionar las citadas infracciones se iniciar\u00e1 por acuerdo del Secretario de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n, pudiendo el Ministerio del Interior instar dicho inicio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En todo caso, se deber\u00e1 recabar del Ministerio del Interior informe preceptivo y determinante para la resoluci\u00f3n del procedimiento sancionador."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "7. La obligaci\u00f3n de inscripci\u00f3n en el libro-registro de los datos identificativos de los compradores que adquieran tarjetas inteligentes, as\u00ed como el resto de obligaciones contenidas en la presente disposici\u00f3n adicional, comenzar\u00e1n a ser exigibles a partir de la entrada en vigor de esta Ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "8. No obstante, por lo que se refiere a las tarjetas adquiridas con anterioridad a la entrada en vigor de esta Ley, los operadores de telefon\u00eda m\u00f3vil que comercialicen estos servicios dispondr\u00e1n de un plazo de dos a\u00f1os, a contar desde dicha entrada en vigor, para cumplir con las obligaciones de inscripci\u00f3n a que se refiere el apartado 1 de la presente disposici\u00f3n adicional."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Transcurrido el aludido plazo de dos a\u00f1os, los operadores vendr\u00e1n obligados a anular o a desactivar aquellas tarjetas de prepago respecto de las que no se haya podido cumplir con las obligaciones de inscripci\u00f3n del referido apartado 1 de esta disposici\u00f3n adicional, sin perjuicio de la compensaci\u00f3n que, en su caso, corresponda al titular de las mismas por el saldo pendiente de consumo."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n transitoria \u00fanica. Vigencia del r\u00e9gimen de interceptaci\u00f3n de telecomunicaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las normas dictadas en desarrollo del Cap\u00edtulo III del T\u00edtulo III de la Ley 32/2003, de 3 de noviembre, continuar\u00e1n en vigor en tanto no se opongan a lo dispuesto en esta Ley."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n derogatoria \u00fanica. Derogaci\u00f3n normativa."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Quedan derogados los art\u00edculos 12, 38.2 c) y d) y 38.3 a) de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Informaci\u00f3n y de Comercio Electr\u00f3nico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Asimismo, quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en esta Ley."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final primera. Modificaci\u00f3n de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, se modifica en los siguientes t\u00e9rminos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Uno. El art\u00edculo 33 queda redactado de la siguiente forma:"
+        },
+        {
+          "@class": "sangrado_articulo",
+          "#text": "\u00abArt\u00edculo 33. Secreto de las comunicaciones."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "1. Los operadores que exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas o que presten servicios de comunicaciones electr\u00f3nicas disponibles al p\u00fablico deber\u00e1n garantizar el secreto de las comunicaciones de conformidad con los art\u00edculos 18.3 y 55.2 de la Constituci\u00f3n, debiendo adoptar las medidas t\u00e9cnicas necesarias."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "2. Los operadores est\u00e1n obligados a realizar las interceptaciones que se autoricen de acuerdo con lo establecido en el art\u00edculo 579 de la Ley de Enjuiciamiento Criminal, en la Ley Org\u00e1nica 2/2002, de 6 de mayo, Reguladora del Control Judicial Previo del Centro Nacional de Inteligencia y en otras normas con rango de ley org\u00e1nica. Asimismo, deber\u00e1n adoptar a su costa las medidas que se establecen en este art\u00edculo y en los reglamentos correspondientes."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "3. La interceptaci\u00f3n a que se refiere el apartado anterior deber\u00e1 facilitarse para cualquier comunicaci\u00f3n que tenga como origen o destino el punto de terminaci\u00f3n de red o el terminal espec\u00edfico que se determine a partir de la orden de interceptaci\u00f3n legal, incluso aunque est\u00e9 destinada a dispositivo de almacenamiento o procesamiento de la informaci\u00f3n; asimismo, la interceptaci\u00f3n podr\u00e1 realizarse sobre un terminal conocido y con unos datos de ubicaci\u00f3n temporal para comunicaciones desde locales p\u00fablicos. Cuando no exista una vinculaci\u00f3n fija entre el sujeto de la interceptaci\u00f3n y el terminal utilizado, este podr\u00e1 ser determinado din\u00e1micamente cuando el sujeto de la interceptaci\u00f3n lo active para la comunicaci\u00f3n mediante un c\u00f3digo de identificaci\u00f3n personal."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "4. El acceso se facilitar\u00e1 para todo tipo de comunicaciones electr\u00f3nicas, en particular, por su penetraci\u00f3n y cobertura, para las que se realicen mediante cualquier modalidad de los servicios de telefon\u00eda y de transmisi\u00f3n de datos, se trate de comunicaciones de v\u00eddeo, audio, intercambio de mensajes, ficheros o de la transmisi\u00f3n de facs\u00edmiles."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "El acceso facilitado servir\u00e1 tanto para la supervisi\u00f3n como para la transmisi\u00f3n a los centros de recepci\u00f3n de las interceptaciones de la comunicaci\u00f3n electr\u00f3nica interceptada y la informaci\u00f3n relativa a la interceptaci\u00f3n, y permitir\u00e1 obtener la se\u00f1al con la que se realiza la comunicaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "5. Los sujetos obligados deber\u00e1n facilitar al agente facultado, salvo que por las caracter\u00edsticas del servicio no est\u00e9n a su disposici\u00f3n y sin perjuicio de otros datos que puedan ser establecidos mediante real decreto, los datos indicados en la orden de interceptaci\u00f3n legal, de entre los que se relacionan a continuaci\u00f3n:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "a) Identidad o identidades del sujeto objeto de la medida de la interceptaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "Se entiende por identidad: etiqueta t\u00e9cnica que puede representar el origen o el destino de cualquier tr\u00e1fico de comunicaciones electr\u00f3nicas, en general identificada mediante un n\u00famero de identidad de comunicaciones electr\u00f3nicas f\u00edsico (tal como un n\u00famero de tel\u00e9fono) o un c\u00f3digo de identidad de comunicaciones electr\u00f3nicas l\u00f3gico o virtual (tal como un n\u00famero personal) que el abonado puede asignar a un acceso f\u00edsico caso a caso."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "b) Identidad o identidades de las otras partes involucradas en la comunicaci\u00f3n electr\u00f3nica."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "c) Servicios b\u00e1sicos utilizados."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "d) Servicios suplementarios utilizados."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "e) Direcci\u00f3n de la comunicaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "f) Indicaci\u00f3n de respuesta."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "g) Causa de finalizaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "h) Marcas temporales."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "i) Informaci\u00f3n de localizaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "j) Informaci\u00f3n intercambiada a trav\u00e9s del canal de control o se\u00f1alizaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "6. Adem\u00e1s de la informaci\u00f3n relativa a la interceptaci\u00f3n prevista en el apartado anterior, los sujetos obligados deber\u00e1n facilitar al agente facultado, salvo que por las caracter\u00edsticas del servicio no est\u00e9n a su disposici\u00f3n y sin perjuicio de otros datos que puedan ser establecidos mediante real decreto, de cualquiera de las partes que intervengan en la comunicaci\u00f3n que sean clientes del sujeto obligado, los siguientes datos:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "a) Identificaci\u00f3n de la persona f\u00edsica o jur\u00eddica."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "b) Domicilio en el que el proveedor realiza las notificaciones."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "Y, aunque no sea abonado, si el servicio de que se trata permite disponer de alguno de los siguientes:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "c) N\u00famero de titular de servicio (tanto el n\u00famero de directorio como todas las identificaciones de comunicaciones electr\u00f3nicas del abonado)."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "d) N\u00famero de identificaci\u00f3n del terminal."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "e) N\u00famero de cuenta asignada por el proveedor de servicios Internet."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "f) Direcci\u00f3n de correo electr\u00f3nico."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "7. Junto con los datos previstos en los apartados anteriores, los sujetos obligados deber\u00e1n facilitar, salvo que por las caracter\u00edsticas del servicio no est\u00e9 a su disposici\u00f3n, informaci\u00f3n de la situaci\u00f3n geogr\u00e1fica del terminal o punto de terminaci\u00f3n de red origen de la llamada, y de la del destino de la llamada. En caso de servicios m\u00f3viles, se proporcionar\u00e1 una posici\u00f3n lo m\u00e1s exacta posible del punto de comunicaci\u00f3n y, en todo caso, la identificaci\u00f3n, localizaci\u00f3n y tipo de la estaci\u00f3n base afectada."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "8. Con car\u00e1cter previo a la ejecuci\u00f3n de la orden de interceptaci\u00f3n legal, los sujetos obligados deber\u00e1n facilitar al agente facultado informaci\u00f3n sobre los servicios y caracter\u00edsticas del sistema de telecomunicaci\u00f3n que utilizan los sujetos objeto de la medida de la interceptaci\u00f3n y, si obran en su poder, los correspondientes nombres de los abonados con sus n\u00fameros de documento nacional de identidad, tarjeta de residencia o pasaporte, en el caso de personas f\u00edsicas, o denominaci\u00f3n y c\u00f3digo de identificaci\u00f3n fiscal en el caso de personas jur\u00eddicas."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "9. Los sujetos obligados deber\u00e1n tener en todo momento preparadas una o m\u00e1s interfaces a trav\u00e9s de las cuales las comunicaciones electr\u00f3nicas interceptadas y la informaci\u00f3n relativa a la interceptaci\u00f3n se transmitir\u00e1n a los centros de recepci\u00f3n de las interceptaciones. Las caracter\u00edsticas de estas interfaces y el formato para la transmisi\u00f3n de las comunicaciones interceptadas a estos centros estar\u00e1n sujetas a las especificaciones t\u00e9cnicas que reglamentariamente se establezcan por el Ministerio de Industria, Turismo y Comercio."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "10. En el caso de que los sujetos obligados apliquen a las comunicaciones objeto de interceptaci\u00f3n legal alg\u00fan procedimiento de compresi\u00f3n, cifrado, digitalizaci\u00f3n o cualquier otro tipo de codificaci\u00f3n, deber\u00e1n entregar aquellas desprovistas de los efectos de tales procedimientos, siempre que sean reversibles."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "Las comunicaciones interceptadas deben proveerse al centro de recepci\u00f3n de las interceptaciones con una calidad no inferior a la que obtiene el destinatario de la comunicaci\u00f3n.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Dos. El \u00faltimo p\u00e1rrafo del apartado 5 del art\u00edculo 38 pasa a tener la siguiente redacci\u00f3n:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00abLo establecido en las letras a) y d) del apartado 3 de este art\u00edculo se entiende sin perjuicio de las obligaciones establecidas en la Ley de Conservaci\u00f3n de Datos relativos a las Comunicaciones Electr\u00f3nicas y a las Redes P\u00fablicas de Comunicaciones.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Tres. En el art\u00edculo 53, se modifican los p\u00e1rrafos o) y z), que quedan redactados de la siguiente forma:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00abo) El incumplimiento deliberado, por parte de los operadores, de las obligaciones en materia de interceptaci\u00f3n legal de comunicaciones impuestas en desarrollo del art\u00edculo 33 de esta Ley y el incumplimiento deliberado de las obligaciones de conservaci\u00f3n de los datos establecidas en la Ley de Conservaci\u00f3n de Datos relativos a las Comunicaciones Electr\u00f3nicas y a las Redes P\u00fablicas de Comunicaciones.\u00bb"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00abz) La vulneraci\u00f3n grave o reiterada de los derechos previstos en el art\u00edculo 38.3, salvo el previsto por el p\u00e1rrafo h), cuya infracci\u00f3n se regir\u00e1 por el r\u00e9gimen sancionador previsto en la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico, y el incumplimiento grave o reiterado de las obligaciones de protecci\u00f3n y seguridad de los datos almacenados establecidas en el art\u00edculo 8 de la Ley de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Cuatro. En el art\u00edculo 54 se modifican los p\u00e1rrafos \u00f1) y r), que quedan redactados de la siguiente forma:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00ab\u00f1) El incumplimiento, por parte de los operadores, de las obligaciones en materia de interceptaci\u00f3n legal de comunicaciones impuestas en desarrollo del art\u00edculo 33 de la presente Ley y el incumplimiento de las obligaciones de conservaci\u00f3n de los datos establecidas en la Ley de Conservaci\u00f3n de Datos relativos a las Comunicaciones Electr\u00f3nicas y a las Redes P\u00fablicas de Comunicaciones, salvo que deban considerarse como infracci\u00f3n muy grave, conforme a lo dispuesto en el art\u00edculo anterior.\u00bb"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00abr) La vulneraci\u00f3n de los derechos previstos en el art\u00edculo 38.3, salvo el previsto por el p\u00e1rrafo h), cuya infracci\u00f3n se regir\u00e1 por el r\u00e9gimen sancionador previsto en la Ley 34/2002, de 11 de julio, y el incumplimiento de las obligaciones de protecci\u00f3n y seguridad de los datos establecidas en el art\u00edculo 8 de la Ley de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones, salvo que deban considerarse como infracci\u00f3n muy grave.\u00bb"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final segunda. Competencia estatal."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Esta Ley se dicta al amparo de lo dispuesto en el art\u00edculo 149.1.29.\u00aa de la Constituci\u00f3n, que atribuye al Estado la competencia exclusiva en materia de seguridad p\u00fablica, y del art\u00edculo 149.1.21.\u00aa, que confiere al Estado competencia exclusiva en materia de telecomunicaciones."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final tercera. Desarrollo reglamentario."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se habilita al Gobierno a dictar cuantas disposiciones sean necesarias para el desarrollo y ejecuci\u00f3n de lo previsto en esta Ley."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final cuarta. Formato de entrega de los datos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La cesi\u00f3n a los agentes facultados de los datos cuya conservaci\u00f3n sea obligatoria, se efectuar\u00e1 en formato electr\u00f3nico, en la forma que se determine por Orden conjunta de los Ministros de Interior, de Defensa y de Econom\u00eda y Hacienda, que se aprobar\u00e1 en el plazo de tres meses desde la entrada en vigor de esta Ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los sujetos obligados a los que se refiere el art\u00edculo 2 de esta Ley, tendr\u00e1n un plazo de seis meses desde la entrada en vigor de la misma para configurar, a su costa, sus equipos y estar t\u00e9cnicamente en disposici\u00f3n de cumplir con las obligaciones de conservaci\u00f3n y cesi\u00f3n de datos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final quinta. Entrada en vigor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Esta Ley entrar\u00e1 en vigor a los veinte d\u00edas de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Por tanto,"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Mando a todos los espa\u00f1oles, particulares y autoridades que guarden y hagan guardar esta ley."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Madrid, 18 de octubre de 2007."
+        },
+        {
+          "@class": "firma_rey",
+          "#text": "JUAN CARLOS R."
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "El Presidente del Gobierno,"
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "JOS\u00c9 LUIS RODR\u00cdGUEZ ZAPATERO"
+        }
+      ]
     }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "subseccion",
-        "#text": "JUAN CARLOS I"
-      },{
-        "@class": "subseccion",
-        "#text": "REY DE ESPA\u00d1A"
-      },{
-        "@class": "parrafo_2",
-        "#text": "A todos los que la presente vieren y entendieren."
-      },{
-        "@class": "parrafo",
-        "#text": "Sabed: Que las Cortes Generales han aprobado y Yo vengo en sancionar la siguiente ley."
-      },{
-        "@class": "subseccion",
-        "#text": "PRE\u00c1MBULO"
-      },{
-        "@class": "subseccion",
-        "#text": "I"
-      },{
-        "@class": "parrafo_2",
-        "#text": "La aplicaci\u00f3n de las nuevas tecnolog\u00edas desarrolladas en el marco de la sociedad de la informaci\u00f3n ha supuesto la superaci\u00f3n de las formas tradicionales de comunicaci\u00f3n, mediante una expansi\u00f3n de los contenidos transmitidos, que abarcan no s\u00f3lo la voz, sino tambi\u00e9n datos en soportes y formatos diversos. A su vez, esta extraordinaria expansi\u00f3n en cantidad y calidad ha venido acompa\u00f1ada de un descenso en los costes, haciendo que este tipo de comunicaciones se encuentre al alcance de cualquier persona y en cualquier rinc\u00f3n del mundo."
-      },{
-        "@class": "parrafo",
-        "#text": "La naturaleza neutra de los avances tecnol\u00f3gicos en telefon\u00eda y comunicaciones electr\u00f3nicas no impide que su uso pueda derivarse hacia la consecuci\u00f3n de fines indeseados, cuando no delictivos."
-      },{
-        "@class": "parrafo",
-        "#text": "Precisamente en el marco de este \u00faltimo objetivo se encuadra la Directiva 2006/24/CE, del Parlamento Europeo y del Consejo, de 15 de marzo, sobre la conservaci\u00f3n de datos generados o tratados en relaci\u00f3n con la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas de acceso p\u00fablico o de redes p\u00fablicas de comunicaciones, y por la que se modifica la Directiva 2002/58/CE, del Parlamento Europeo y del Consejo, de 12 de julio, cuya transposici\u00f3n a nuestro ordenamiento jur\u00eddico es el objetivo principal de esta Ley."
-      },{
-        "@class": "parrafo",
-        "#text": "El objeto de esta Directiva es establecer la obligaci\u00f3n de los operadores de telecomunicaciones de retener determinados datos generados o tratados por los mismos, con el fin de posibilitar que dispongan de ellos los agentes facultados. Se entienden por agentes facultados los miembros de los Cuerpos Policiales autorizados para ello en el marco de una investigaci\u00f3n criminal por la comisi\u00f3n de un delito, el personal del Centro Nacional de Inteligencia para llevar a cabo una investigaci\u00f3n de seguridad amparada en la Ley 11/2002, de 6 de mayo, reguladora del Centro Nacional de Inteligencia, y en la Ley Org\u00e1nica 2/2002, de 6 de mayo, reguladora del control judicial previo del Centro Nacional de Inteligencia, as\u00ed como los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera, en el desarrollo de sus competencias como polic\u00eda judicial, de acuerdo con el apartado 1 del art\u00edculo 283 de la Ley de Enjuiciamiento Criminal. Se trata, pues, de que todos \u00e9stos puedan obtener los datos relativos a las comunicaciones que, relacionadas con una investigaci\u00f3n, se hayan podido efectuar por medio de la telefon\u00eda fija o m\u00f3vil, as\u00ed como por Internet. El establecimiento de esas obligaciones, justificado en aras de proteger la seguridad p\u00fablica, se ha efectuado buscando el imprescindible equilibrio con el respeto de los derechos individuales que puedan verse afectados, como son los relativos a la privacidad y la intimidad de las comunicaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "En este sentido, la Ley es respetuosa con los pronunciamientos que, en relaci\u00f3n con el derecho al secreto de las comunicaciones, ha venido emitiendo el Tribunal Constitucional, respeto que, especialmente, se articula a trav\u00e9s de dos garant\u00edas: en primer lugar, que los datos sobre los que se establece la obligaci\u00f3n de conservaci\u00f3n son datos exclusivamente vinculados a la comunicaci\u00f3n, ya sea telef\u00f3nica o efectuada a trav\u00e9s de Internet, pero en ning\u00fan caso reveladores del contenido de \u00e9sta; y, en segundo lugar, que la cesi\u00f3n de tales datos que afecten a una comunicaci\u00f3n o comunicaciones concretas, exigir\u00e1, siempre, la autorizaci\u00f3n judicial previa."
-      },{
-        "@class": "parrafo",
-        "#text": "En relaci\u00f3n con esta \u00faltima precisi\u00f3n, cabe se\u00f1alar que la Directiva se refiere, expresamente, a que los datos conservados deber\u00e1n estar disponibles a los fines de detecci\u00f3n o investigaci\u00f3n por delitos graves, definidos \u00e9stos de acuerdo con la legislaci\u00f3n interna de cada Estado miembro."
-      },{
-        "@class": "subseccion",
-        "#text": "II"
-      },{
-        "@class": "parrafo_2",
-        "#text": "La Ley cuenta con diez art\u00edculos que se agrupan en tres cap\u00edtulos."
-      },{
-        "@class": "parrafo",
-        "#text": "El Cap\u00edtulo I (\u00abDisposiciones Generales\u00bb) se inicia describiendo su objeto, que b\u00e1sicamente se circunscribe a la determinaci\u00f3n de la obligaci\u00f3n de conservar los datos enumerados en el art\u00edculo 3, que se hayan generado o tratado en el marco de una comunicaci\u00f3n de telefon\u00eda fija o m\u00f3vil, o realizada a trav\u00e9s de una comunicaci\u00f3n electr\u00f3nica de acceso p\u00fablico o mediante una red p\u00fablica de comunicaciones. Igualmente, se precisan los fines que, exclusivamente, justifican la obligaci\u00f3n de conservaci\u00f3n, y que se limitan a la detecci\u00f3n, investigaci\u00f3n y enjuiciamiento de un delito contemplado en el C\u00f3digo Penal o las leyes penales especiales, con los requisitos y cautelas que la propia Ley establece."
-      },{
-        "@class": "parrafo",
-        "#text": "En este cap\u00edtulo tambi\u00e9n se precisan las limitaciones sobre el tipo de datos a retener, que son los necesarios para identificar el origen y destino de la comunicaci\u00f3n, as\u00ed como la identidad de los usuarios o abonados de ambos, pero nunca datos que revelen el contenido de la comunicaci\u00f3n. Igualmente, la Ley impone la obligaci\u00f3n de conservaci\u00f3n de datos que permitan determinar el momento y duraci\u00f3n de una determinada comunicaci\u00f3n, su tipo, as\u00ed como datos necesarios para identificar el equipo de comunicaci\u00f3n empleado y, en el caso de utilizaci\u00f3n de un equipo m\u00f3vil, los datos necesarios para su localizaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "En relaci\u00f3n con los sujetos que quedan obligados a conservar los datos, \u00e9stos ser\u00e1n los operadores que presten servicios de comunicaciones electr\u00f3nicas disponibles al p\u00fablico, o que exploten una red p\u00fablica de comunicaciones electr\u00f3nicas en Espa\u00f1a."
-      },{
-        "@class": "parrafo",
-        "#text": "La Ley enumera en su art\u00edculo 3, de manera precisa y detallada, el listado de datos que quedan sujetos a la obligaci\u00f3n de conservaci\u00f3n en el marco de las comunicaciones por telefon\u00eda fija, m\u00f3vil o Internet. Estos datos, que, se repite, en ning\u00fan caso revelar\u00e1n el contenido de la comunicaci\u00f3n, son los necesarios para identificar el origen y destino de la comunicaci\u00f3n, su hora, fecha y duraci\u00f3n, el tipo de servicio utilizado y el equipo de comunicaci\u00f3n de los usuarios utilizado. En aplicaci\u00f3n de las previsiones contenidas en la Directiva 2006/24/CE, del Parlamento Europeo y del Consejo, de 15 de marzo, quedan incluidas tambi\u00e9n en el \u00e1mbito de aplicaci\u00f3n de la Ley las denominadas llamadas telef\u00f3nicas infructuosas. Igualmente se incluye la obligaci\u00f3n de conservar los elementos que sean suficientes para identificar el momento de activaci\u00f3n de los tel\u00e9fonos que funcionen bajo la modalidad de prepago."
-      },{
-        "@class": "parrafo",
-        "#text": "En el Cap\u00edtulo II (\u00abConservaci\u00f3n y cesi\u00f3n de datos\u00bb) se establecen los l\u00edmites para efectuar la cesi\u00f3n de datos, el plazo de conservaci\u00f3n de los mismos, que ser\u00e1, con car\u00e1cter general, de doce meses desde que la comunicaci\u00f3n se hubiera establecido (si bien reglamentariamente se podr\u00e1 reducir a seis meses o ampliar a dos a\u00f1os, como permite la Directiva 2006/24/CE), y los instrumentos para garantizar el uso leg\u00edtimo de los datos conservados, cuya cesi\u00f3n y entrega exclusivamente se podr\u00e1 efectuar al agente facultado y para los fines establecidos en la Ley, estando cualquier uso indebido sometido a los mecanismos de control de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal y su normativa de desarrollo. Adem\u00e1s, se establecen previsiones espec\u00edficas respecto al r\u00e9gimen general regulador de los derechos de acceso, rectificaci\u00f3n y cancelaci\u00f3n de datos contenido en la referida Ley Org\u00e1nica 15/1999."
-      },{
-        "@class": "parrafo",
-        "#text": "El Cap\u00edtulo III, al referirse al r\u00e9gimen sancionador, remite, en cuanto a los incumplimientos de las obligaciones de conservaci\u00f3n y protecci\u00f3n y seguridad de los datos de car\u00e1cter personal, a la regulaci\u00f3n contenida en la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones. Por otro lado, los incumplimientos de la obligaci\u00f3n de puesta a disposici\u00f3n de los agentes facultados, en la medida en que las solicitudes estar\u00e1n siempre amparadas por orden judicial, constituir\u00edan la correspondiente infracci\u00f3n penal."
-      },{
-        "@class": "parrafo",
-        "#text": "En las disposiciones contenidas en la parte final se incluyen contenidos diversos. Por un lado, y a los efectos de poder establecer instrumentos para controlar el empleo para fines delictivos de los equipos de telefon\u00eda m\u00f3vil adquiridos mediante la modalidad de prepago, se establece, como obligaci\u00f3n de los operadores que comercialicen dicho servicio, la llevanza de un registro con la identidad de los compradores."
-      },{
-        "@class": "parrafo",
-        "#text": "Por \u00faltimo, la Ley incorpora en las disposiciones finales una modificaci\u00f3n de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, para adaptarla al contenido de esta Ley, una referencia a su amparo competencial, una habilitaci\u00f3n general al Gobierno para su desarrollo y un per\u00edodo de seis meses para que las operadoras puedan adaptarse a su contenido."
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAP\u00cdTULO I"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Disposiciones generales"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 1. Objeto de la Ley."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Esta Ley tiene por objeto la regulaci\u00f3n de la obligaci\u00f3n de los operadores de conservar los datos generados o tratados en el marco de la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas o de redes p\u00fablicas de comunicaci\u00f3n, as\u00ed como el deber de cesi\u00f3n de dichos datos a los agentes facultados siempre que les sean requeridos a trav\u00e9s de la correspondiente autorizaci\u00f3n judicial con fines de detecci\u00f3n, investigaci\u00f3n y enjuiciamiento de delitos graves contemplados en el C\u00f3digo Penal o en las leyes penales especiales."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Esta Ley se aplicar\u00e1 a los datos de tr\u00e1fico y de localizaci\u00f3n sobre personas f\u00edsicas y jur\u00eddicas y a los datos relacionados necesarios para identificar al abonado o usuario registrado."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Se excluye del \u00e1mbito de aplicaci\u00f3n de esta Ley el contenido de las comunicaciones electr\u00f3nicas, incluida la informaci\u00f3n consultada utilizando una red de comunicaciones electr\u00f3nicas."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 2. Sujetos obligados."
-      },{
-        "@class": "parrafo",
-        "#text": "Son destinatarios de las obligaciones relativas a la conservaci\u00f3n de datos impuestas en esta Ley los operadores que presten servicios de comunicaciones electr\u00f3nicas disponibles al p\u00fablico o exploten redes p\u00fablicas de comunicaciones, en los t\u00e9rminos establecidos en la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 3. Datos objeto de conservaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los datos que deben conservarse por los operadores especificados en el art\u00edculo 2 de esta Ley, son los siguientes:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Datos necesarios para rastrear e identificar el origen de una comunicaci\u00f3n:"
-      },{
-        "@class": "parrafo",
-        "#text": "1.\u00b0 Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil:"
-      },{
-        "@class": "parrafo",
-        "#text": "i) N\u00famero de tel\u00e9fono de llamada."
-      },{
-        "@class": "parrafo",
-        "#text": "ii) Nombre y direcci\u00f3n del abonado o usuario registrado."
-      },{
-        "@class": "parrafo_2",
-        "#text": "2.\u00b0 Con respecto al acceso a Internet, correo electr\u00f3nico por Internet y telefon\u00eda por Internet:"
-      },{
-        "@class": "parrafo",
-        "#text": "i) La identificaci\u00f3n de usuario asignada."
-      },{
-        "@class": "parrafo",
-        "#text": "ii) La identificaci\u00f3n de usuario y el n\u00famero de tel\u00e9fono asignados a toda comunicaci\u00f3n que acceda a la red p\u00fablica de telefon\u00eda."
-      },{
-        "@class": "parrafo",
-        "#text": "iii) El nombre y direcci\u00f3n del abonado o del usuario registrado al que se le ha asignado en el momento de la comunicaci\u00f3n una direcci\u00f3n de Protocolo de Internet (IP), una identificaci\u00f3n de usuario o un n\u00famero de tel\u00e9fono."
-      },{
-        "@class": "parrafo_2",
-        "#text": "b) Datos necesarios para identificar el destino de una comunicaci\u00f3n:"
-      },{
-        "@class": "parrafo",
-        "#text": "1.\u00ba Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil:"
-      },{
-        "@class": "parrafo",
-        "#text": "i) El n\u00famero o n\u00fameros marcados (el n\u00famero o n\u00fameros de tel\u00e9fono de destino) y, en aquellos casos en que intervengan otros servicios, como el desv\u00edo o la transferencia de llamadas, el n\u00famero o n\u00fameros hacia los que se transfieren las llamadas."
-      },{
-        "@class": "parrafo",
-        "#text": "ii) Los nombres y las direcciones de los abonados o usuarios registrados."
-      },{
-        "@class": "parrafo_2",
-        "#text": "2.\u00ba Con respecto al correo electr\u00f3nico por Internet y la telefon\u00eda por Internet:"
-      },{
-        "@class": "parrafo",
-        "#text": "i) La identificaci\u00f3n de usuario o el n\u00famero de tel\u00e9fono del destinatario o de los destinatarios de una llamada telef\u00f3nica por Internet."
-      },{
-        "@class": "parrafo",
-        "#text": "ii) Los nombres y direcciones de los abonados o usuarios registrados y la identificaci\u00f3n de usuario del destinatario de la comunicaci\u00f3n."
-      },{
-        "@class": "parrafo_2",
-        "#text": "c) Datos necesarios para determinar la fecha, hora y duraci\u00f3n de una comunicaci\u00f3n:"
-      },{
-        "@class": "parrafo",
-        "#text": "1.\u00b0 Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil: la fecha y hora del comienzo y fin de la llamada o, en su caso, del servicio de mensajer\u00eda o del servicio multimedia."
-      },{
-        "@class": "parrafo",
-        "#text": "2.\u00b0 Con respecto al acceso a Internet, al correo electr\u00f3nico por Internet y a la telefon\u00eda por Internet:"
-      },{
-        "@class": "parrafo",
-        "#text": "i) La fecha y hora de la conexi\u00f3n y desconexi\u00f3n del servicio de acceso a Internet registradas, basadas en un determinado huso horario, as\u00ed como la direcci\u00f3n del Protocolo Internet, ya sea din\u00e1mica o est\u00e1tica, asignada por el proveedor de acceso a Internet a una comunicaci\u00f3n, y la identificaci\u00f3n de usuario o del abonado o del usuario registrado."
-      },{
-        "@class": "parrafo",
-        "#text": "ii) La fecha y hora de la conexi\u00f3n y desconexi\u00f3n del servicio de correo electr\u00f3nico por Internet o del servicio de telefon\u00eda por Internet, basadas en un determinado huso horario."
-      },{
-        "@class": "parrafo_2",
-        "#text": "d) Datos necesarios para identificar el tipo de comunicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1.\u00b0 Con respecto a la telefon\u00eda de red fija y a la telefon\u00eda m\u00f3vil: el servicio telef\u00f3nico utilizado: tipo de llamada (transmisi\u00f3n de voz, buz\u00f3n vocal, conferencia, datos), servicios suplementarios (incluido el reenv\u00edo o transferencia de llamadas) o servicios de mensajer\u00eda o multimedia empleados (incluidos los servicios de mensajes cortos, servicios multimedia avanzados y servicios multimedia)."
-      },{
-        "@class": "parrafo",
-        "#text": "2.\u00b0 Con respecto al correo electr\u00f3nico por Internet y a la telefon\u00eda por Internet: el servicio de Internet utilizado."
-      },{
-        "@class": "parrafo_2",
-        "#text": "e) Datos necesarios para identificar el equipo de comunicaci\u00f3n de los usuarios o lo que se considera ser el equipo de comunicaci\u00f3n:"
-      },{
-        "@class": "parrafo",
-        "#text": "1.\u00ba Con respecto a la telefon\u00eda de red fija: los n\u00fameros de tel\u00e9fono de origen y de destino."
-      },{
-        "@class": "parrafo",
-        "#text": "2.\u00b0 Con respecto a la telefon\u00eda m\u00f3vil:"
-      },{
-        "@class": "parrafo",
-        "#text": "i) Los n\u00fameros de tel\u00e9fono de origen y destino."
-      },{
-        "@class": "parrafo",
-        "#text": "ii) La identidad internacional del abonado m\u00f3vil (IMSI) de la parte que efect\u00faa la llamada."
-      },{
-        "@class": "parrafo",
-        "#text": "iii) La identidad internacional del equipo m\u00f3vil (IMEI) de la parte que efect\u00faa la llamada."
-      },{
-        "@class": "parrafo",
-        "#text": "iv) La IMSI de la parte que recibe la llamada."
-      },{
-        "@class": "parrafo",
-        "#text": "v) La IMEI de la parte que recibe la llamada."
-      },{
-        "@class": "parrafo",
-        "#text": "vi) En el caso de los servicios an\u00f3nimos de pago por adelantado, tales como los servicios con tarjetas prepago, fecha y hora de la primera activaci\u00f3n del servicio y la etiqueta de localizaci\u00f3n (el identificador de celda) desde la que se haya activado el servicio."
-      },{
-        "@class": "parrafo_2",
-        "#text": "3.\u00b0 Con respecto al acceso a Internet, correo electr\u00f3nico por Internet y telefon\u00eda por Internet:"
-      },{
-        "@class": "parrafo",
-        "#text": "i) El n\u00famero de tel\u00e9fono de origen en caso de acceso mediante marcado de n\u00fameros."
-      },{
-        "@class": "parrafo",
-        "#text": "ii) La l\u00ednea digital de abonado (DSL) u otro punto terminal identificador del autor de la comunicaci\u00f3n."
-      },{
-        "@class": "parrafo_2",
-        "#text": "f) Datos necesarios para identificar la localizaci\u00f3n del equipo de comunicaci\u00f3n m\u00f3vil:"
-      },{
-        "@class": "parrafo",
-        "#text": "1.\u00b0 La etiqueta de localizaci\u00f3n (identificador de celda) al inicio de la comunicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "2.\u00b0 Los datos que permiten fijar la localizaci\u00f3n geogr\u00e1fica de la celda, mediante referencia a la etiqueta de localizaci\u00f3n, durante el per\u00edodo en el que se conservan los datos de las comunicaciones."
-      },{
-        "@class": "parrafo_2",
-        "#text": "2. Ning\u00fan dato que revele el contenido de la comunicaci\u00f3n podr\u00e1 conservarse en virtud de esta Ley."
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAP\u00cdTULO II"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Conservaci\u00f3n y cesi\u00f3n de datos"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 4. Obligaci\u00f3n de conservar datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los sujetos obligados adoptar\u00e1n las medidas necesarias para garantizar que los datos especificados en el art\u00edculo 3 de esta Ley se conserven de conformidad con lo dispuesto en ella, en la medida en que sean generados o tratados por aqu\u00e9llos en el marco de la prestaci\u00f3n de los servicios de comunicaciones de que se trate."
-      },{
-        "@class": "parrafo",
-        "#text": "En ning\u00fan caso, los sujetos obligados podr\u00e1n aprovechar o utilizar los registros generados, fuera de los supuestos de autorizaci\u00f3n fijados en el art\u00edculo 38 de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La citada obligaci\u00f3n de conservaci\u00f3n se extiende a los datos relativos a las llamadas infructuosas, en la medida que los datos son generados o tratados y conservados o registrados por los sujetos obligados. Se entender\u00e1 por llamada infructuosa aquella comunicaci\u00f3n en el transcurso de la cual se ha realizado con \u00e9xito una llamada telef\u00f3nica pero sin contestaci\u00f3n, o en la que ha habido una intervenci\u00f3n por parte del operador u operadores involucrados en la llamada."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Los datos relativos a las llamadas no conectadas est\u00e1n excluidos de las obligaciones de conservaci\u00f3n contenidas en esta Ley. Se entender\u00e1 por llamada no conectada aquella comunicaci\u00f3n en el transcurso de la cual se ha realizado sin \u00e9xito una llamada telef\u00f3nica, sin que haya habido intervenci\u00f3n del operador u operadores involucrados."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 5. Per\u00edodo de conservaci\u00f3n de los datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La obligaci\u00f3n de conservaci\u00f3n de datos impuesta cesa a los doce meses computados desde la fecha en que se haya producido la comunicaci\u00f3n. Reglamentariamente, previa consulta a los operadores, se podr\u00e1 ampliar o reducir el plazo de conservaci\u00f3n para determinados datos o una categor\u00eda de datos hasta un m\u00e1ximo de dos a\u00f1os o un m\u00ednimo de seis meses, tomando en consideraci\u00f3n el coste del almacenamiento y conservaci\u00f3n de los datos, as\u00ed como el inter\u00e9s de los mismos para los fines de investigaci\u00f3n, detecci\u00f3n y enjuiciamiento de un delito grave, previa consulta a los operadores."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Lo dispuesto en el apartado anterior se entiende sin perjuicio de lo previsto en el art\u00edculo 16.3 de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, sobre la obligaci\u00f3n de conservar datos bloqueados en los supuestos legales de cancelaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 6. Normas generales sobre cesi\u00f3n de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los datos conservados de conformidad con lo dispuesto en esta Ley s\u00f3lo podr\u00e1n ser cedidos de acuerdo con lo dispuesto en ella para los fines que se determinan y previa autorizaci\u00f3n judicial."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La cesi\u00f3n de la informaci\u00f3n se efectuar\u00e1 \u00fanicamente a los agentes facultados."
-      },{
-        "@class": "parrafo",
-        "#text": "A estos efectos, tendr\u00e1n la consideraci\u00f3n de agentes facultados:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Los miembros de las Fuerzas y Cuerpos de Seguridad, cuando desempe\u00f1en funciones de polic\u00eda judicial, de acuerdo con lo previsto en el art\u00edculo 547 de la Ley Org\u00e1nica 6/1985, de 1 de julio, del Poder Judicial."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera, en el desarrollo de sus competencias como polic\u00eda judicial, de acuerdo con el apartado 1 del art\u00edculo 283 de la Ley de Enjuiciamiento Criminal."
-      },{
-        "@class": "parrafo",
-        "#text": "c) El personal del Centro Nacional de Inteligencia en el curso de las investigaciones de seguridad sobre personas o entidades, de acuerdo con lo previsto en la Ley 11/2002, de 6 de mayo, reguladora del Centro Nacional de Inteligencia, y en la Ley Org\u00e1nica 2/2002, de 6 de mayo, reguladora del control judicial previo del Centro Nacional de Inteligencia."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 7. Procedimiento de cesi\u00f3n de datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los operadores estar\u00e1n obligados a ceder al agente facultado los datos conservados a los que se refiere el art\u00edculo 3 de esta Ley concernientes a comunicaciones que identifiquen a personas, sin perjuicio de la resoluci\u00f3n judicial prevista en el apartado siguiente."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La resoluci\u00f3n judicial determinar\u00e1, conforme a lo previsto en la Ley de Enjuiciamiento Criminal y de acuerdo con los principios de necesidad y proporcionalidad, los datos conservados que han de ser cedidos a los agentes facultados."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El plazo de ejecuci\u00f3n de la orden de cesi\u00f3n ser\u00e1 el fijado por la resoluci\u00f3n judicial, atendiendo a la urgencia de la cesi\u00f3n y a los efectos de la investigaci\u00f3n de que se trate, as\u00ed como a la naturaleza y complejidad t\u00e9cnica de la operaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Si no se establece otro plazo distinto, la cesi\u00f3n deber\u00e1 efectuarse dentro de las setenta y dos horas contadas a partir de las 8:00 horas del d\u00eda laborable siguiente a aqu\u00e9l en que el sujeto obligado reciba la orden."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 8. Protecci\u00f3n y seguridad de los datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los sujetos obligados deber\u00e1n identificar al personal especialmente autorizado para acceder a los datos objeto de esta Ley, adoptar las medidas t\u00e9cnicas y organizativas que impidan su manipulaci\u00f3n o uso para fines distintos de los comprendidos en la misma, su destrucci\u00f3n accidental o il\u00edcita y su p\u00e9rdida accidental, as\u00ed como su almacenamiento, tratamiento, divulgaci\u00f3n o acceso no autorizados, con sujeci\u00f3n a lo dispuesto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y en su normativa de desarrollo."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Las obligaciones relativas a las medidas para garantizar la calidad de los datos y la confidencialidad y seguridad en el tratamiento de los mismos ser\u00e1n las establecidas en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y su normativa de desarrollo."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El nivel de protecci\u00f3n de los datos almacenados se determinar\u00e1 de conformidad con lo previsto en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y en su normativa de desarrollo."
-      },{
-        "@class": "parrafo",
-        "#text": "4. La Agencia Espa\u00f1ola de Protecci\u00f3n de Datos es la autoridad p\u00fablica responsable de velar por el cumplimiento de las previsiones de la Ley Org\u00e1nica 15/1999, de 13 de diciembre, y de la normativa de desarrollo aplicables a los datos contemplados en la presente Ley."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 9. Excepciones a los derechos de acceso y cancelaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El responsable del tratamiento de los datos no comunicar\u00e1 la cesi\u00f3n de datos efectuada de conformidad con esta Ley."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El responsable del tratamiento de los datos denegar\u00e1 el ejercicio del derecho de cancelaci\u00f3n en los t\u00e9rminos y condiciones previstos en la Ley Org\u00e1nica 15/1999, de 13 de diciembre."
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAP\u00cdTULO III"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Infracciones y sanciones"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 10. R\u00e9gimen aplicable al incumplimiento de obligaciones contempladas en esta Ley."
-      },{
-        "@class": "parrafo",
-        "#text": "El incumplimiento de las obligaciones previstas en esta Ley se sancionar\u00e1 de acuerdo con lo dispuesto en la Ley 32/2003, de 3 de noviembre, sin perjuicio de las responsabilidades penales que pudieran derivar del incumplimiento de la obligaci\u00f3n de cesi\u00f3n de datos a los agentes facultados."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional \u00fanica. Servicios de telefon\u00eda mediante tarjetas de prepago."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los operadores de servicios de telefon\u00eda m\u00f3vil que comercialicen servicios con sistema de activaci\u00f3n mediante la modalidad de tarjetas de prepago, deber\u00e1n llevar un libro-registro en el que conste la identidad de los clientes que adquieran una tarjeta inteligente con dicha modalidad de pago."
-      },{
-        "@class": "parrafo",
-        "#text": "Los operadores informar\u00e1n a los clientes, con car\u00e1cter previo a la venta, de la existencia y contenido del registro, de su disponibilidad en los t\u00e9rminos expresados en el n\u00famero siguiente y de los derechos recogidos en el art\u00edculo 38.6 de la Ley 32/2003."
-      },{
-        "@class": "parrafo",
-        "#text": "La identificaci\u00f3n se efectuar\u00e1 mediante documento acreditativo de la personalidad, haci\u00e9ndose constar en el libro-registro el nombre, apellidos y nacionalidad del comprador, as\u00ed como el n\u00famero correspondiente al documento identificativo utilizado y la naturaleza o denominaci\u00f3n de dicho documento. En el supuesto de personas jur\u00eddicas, la identificaci\u00f3n se realizar\u00e1 aportando la tarjeta de identificaci\u00f3n fiscal, y se har\u00e1 constar en el libro-registro la denominaci\u00f3n social y el c\u00f3digo de identificaci\u00f3n fiscal."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Desde la activaci\u00f3n de la tarjeta de prepago y hasta que cese la obligaci\u00f3n de conservaci\u00f3n a que se refiere el art\u00edculo 5 de esta Ley, los operadores ceder\u00e1n los datos identificativos previstos en el apartado anterior, cuando para el cumplimiento de sus fines les sean requeridos por los agentes facultados, los miembros de las Fuerzas y Cuerpos de Seguridad del Estado y de los Cuerpos Policiales de las Comunidades Aut\u00f3nomas con competencia para la protecci\u00f3n de las personas y bienes y para el mantenimiento de la seguridad p\u00fablica, el personal del Centro Nacional de Inteligencia en el curso de las investigaciones de seguridad sobre personas o entidades, as\u00ed como los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Los datos identificativos estar\u00e1n sometidos a las disposiciones de esta Ley, respecto a los sistemas que garanticen su conservaci\u00f3n, no manipulaci\u00f3n o acceso il\u00edcito, destrucci\u00f3n, cancelaci\u00f3n e identificaci\u00f3n de la persona autorizada."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Los operadores deber\u00e1n ceder los datos identificativos previstos en el apartado 1 de esta disposici\u00f3n a los agentes facultados, a los miembros de las Fuerzas y Cuerpos de Seguridad del Estado y de los Cuerpos Policiales de las Comunidades Aut\u00f3nomas con competencia para la protecci\u00f3n de las personas y bienes y para el mantenimiento de la seguridad p\u00fablica, o al personal del Centro Nacional de Inteligencia, as\u00ed como a los funcionarios de la Direcci\u00f3n Adjunta de Vigilancia Aduanera, cuando les sean requeridos por \u00e9stos con fines de investigaci\u00f3n, detecci\u00f3n y enjuiciamiento de un delito contemplado en el C\u00f3digo Penal o en las leyes penales especiales."
-      },{
-        "@class": "parrafo",
-        "#text": "5. Sin perjuicio del r\u00e9gimen sancionador establecido en la Ley Org\u00e1nica 15/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, constituyen infracciones a lo previsto en la presente disposici\u00f3n las siguientes:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Son infracciones muy graves tanto el incumplimiento de la llevanza del libro-registro referido, como la negativa a la cesi\u00f3n y entrega de los datos a las personas y en los casos previstos en esta disposici\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Son infracciones graves la llevanza incompleta de dicho libro-registro, as\u00ed como la demora injustificada, en m\u00e1s de setenta y dos horas, en la cesi\u00f3n y entrega de los datos a las personas y en los casos previstos en esta disposici\u00f3n."
-      },{
-        "@class": "parrafo_2",
-        "#text": "6. A las infracciones previstas en el apartado anterior les ser\u00e1 de aplicaci\u00f3n el r\u00e9gimen sancionador establecido en la Ley 32/2003, de 3 de noviembre, correspondiendo la competencia sancionadora al Secretario de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "El procedimiento para sancionar las citadas infracciones se iniciar\u00e1 por acuerdo del Secretario de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n, pudiendo el Ministerio del Interior instar dicho inicio."
-      },{
-        "@class": "parrafo",
-        "#text": "En todo caso, se deber\u00e1 recabar del Ministerio del Interior informe preceptivo y determinante para la resoluci\u00f3n del procedimiento sancionador."
-      },{
-        "@class": "parrafo",
-        "#text": "7. La obligaci\u00f3n de inscripci\u00f3n en el libro-registro de los datos identificativos de los compradores que adquieran tarjetas inteligentes, as\u00ed como el resto de obligaciones contenidas en la presente disposici\u00f3n adicional, comenzar\u00e1n a ser exigibles a partir de la entrada en vigor de esta Ley."
-      },{
-        "@class": "parrafo",
-        "#text": "8. No obstante, por lo que se refiere a las tarjetas adquiridas con anterioridad a la entrada en vigor de esta Ley, los operadores de telefon\u00eda m\u00f3vil que comercialicen estos servicios dispondr\u00e1n de un plazo de dos a\u00f1os, a contar desde dicha entrada en vigor, para cumplir con las obligaciones de inscripci\u00f3n a que se refiere el apartado 1 de la presente disposici\u00f3n adicional."
-      },{
-        "@class": "parrafo",
-        "#text": "Transcurrido el aludido plazo de dos a\u00f1os, los operadores vendr\u00e1n obligados a anular o a desactivar aquellas tarjetas de prepago respecto de las que no se haya podido cumplir con las obligaciones de inscripci\u00f3n del referido apartado 1 de esta disposici\u00f3n adicional, sin perjuicio de la compensaci\u00f3n que, en su caso, corresponda al titular de las mismas por el saldo pendiente de consumo."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n transitoria \u00fanica. Vigencia del r\u00e9gimen de interceptaci\u00f3n de telecomunicaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "Las normas dictadas en desarrollo del Cap\u00edtulo III del T\u00edtulo III de la Ley 32/2003, de 3 de noviembre, continuar\u00e1n en vigor en tanto no se opongan a lo dispuesto en esta Ley."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n derogatoria \u00fanica. Derogaci\u00f3n normativa."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Quedan derogados los art\u00edculos 12, 38.2 c) y d) y 38.3 a) de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Informaci\u00f3n y de Comercio Electr\u00f3nico."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Asimismo, quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en esta Ley."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final primera. Modificaci\u00f3n de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "La Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, se modifica en los siguientes t\u00e9rminos:"
-      },{
-        "@class": "parrafo",
-        "#text": "Uno. El art\u00edculo 33 queda redactado de la siguiente forma:"
-      },{
-        "@class": "sangrado_articulo",
-        "#text": "\u00abArt\u00edculo 33. Secreto de las comunicaciones."
-      },{
-        "@class": "sangrado",
-        "#text": "1. Los operadores que exploten redes p\u00fablicas de comunicaciones electr\u00f3nicas o que presten servicios de comunicaciones electr\u00f3nicas disponibles al p\u00fablico deber\u00e1n garantizar el secreto de las comunicaciones de conformidad con los art\u00edculos 18.3 y 55.2 de la Constituci\u00f3n, debiendo adoptar las medidas t\u00e9cnicas necesarias."
-      },{
-        "@class": "sangrado",
-        "#text": "2. Los operadores est\u00e1n obligados a realizar las interceptaciones que se autoricen de acuerdo con lo establecido en el art\u00edculo 579 de la Ley de Enjuiciamiento Criminal, en la Ley Org\u00e1nica 2/2002, de 6 de mayo, Reguladora del Control Judicial Previo del Centro Nacional de Inteligencia y en otras normas con rango de ley org\u00e1nica. Asimismo, deber\u00e1n adoptar a su costa las medidas que se establecen en este art\u00edculo y en los reglamentos correspondientes."
-      },{
-        "@class": "sangrado",
-        "#text": "3. La interceptaci\u00f3n a que se refiere el apartado anterior deber\u00e1 facilitarse para cualquier comunicaci\u00f3n que tenga como origen o destino el punto de terminaci\u00f3n de red o el terminal espec\u00edfico que se determine a partir de la orden de interceptaci\u00f3n legal, incluso aunque est\u00e9 destinada a dispositivo de almacenamiento o procesamiento de la informaci\u00f3n; asimismo, la interceptaci\u00f3n podr\u00e1 realizarse sobre un terminal conocido y con unos datos de ubicaci\u00f3n temporal para comunicaciones desde locales p\u00fablicos. Cuando no exista una vinculaci\u00f3n fija entre el sujeto de la interceptaci\u00f3n y el terminal utilizado, este podr\u00e1 ser determinado din\u00e1micamente cuando el sujeto de la interceptaci\u00f3n lo active para la comunicaci\u00f3n mediante un c\u00f3digo de identificaci\u00f3n personal."
-      },{
-        "@class": "sangrado",
-        "#text": "4. El acceso se facilitar\u00e1 para todo tipo de comunicaciones electr\u00f3nicas, en particular, por su penetraci\u00f3n y cobertura, para las que se realicen mediante cualquier modalidad de los servicios de telefon\u00eda y de transmisi\u00f3n de datos, se trate de comunicaciones de v\u00eddeo, audio, intercambio de mensajes, ficheros o de la transmisi\u00f3n de facs\u00edmiles."
-      },{
-        "@class": "sangrado",
-        "#text": "El acceso facilitado servir\u00e1 tanto para la supervisi\u00f3n como para la transmisi\u00f3n a los centros de recepci\u00f3n de las interceptaciones de la comunicaci\u00f3n electr\u00f3nica interceptada y la informaci\u00f3n relativa a la interceptaci\u00f3n, y permitir\u00e1 obtener la se\u00f1al con la que se realiza la comunicaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "5. Los sujetos obligados deber\u00e1n facilitar al agente facultado, salvo que por las caracter\u00edsticas del servicio no est\u00e9n a su disposici\u00f3n y sin perjuicio de otros datos que puedan ser establecidos mediante real decreto, los datos indicados en la orden de interceptaci\u00f3n legal, de entre los que se relacionan a continuaci\u00f3n:"
-      },{
-        "@class": "sangrado",
-        "#text": "a) Identidad o identidades del sujeto objeto de la medida de la interceptaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "Se entiende por identidad: etiqueta t\u00e9cnica que puede representar el origen o el destino de cualquier tr\u00e1fico de comunicaciones electr\u00f3nicas, en general identificada mediante un n\u00famero de identidad de comunicaciones electr\u00f3nicas f\u00edsico (tal como un n\u00famero de tel\u00e9fono) o un c\u00f3digo de identidad de comunicaciones electr\u00f3nicas l\u00f3gico o virtual (tal como un n\u00famero personal) que el abonado puede asignar a un acceso f\u00edsico caso a caso."
-      },{
-        "@class": "sangrado",
-        "#text": "b) Identidad o identidades de las otras partes involucradas en la comunicaci\u00f3n electr\u00f3nica."
-      },{
-        "@class": "sangrado",
-        "#text": "c) Servicios b\u00e1sicos utilizados."
-      },{
-        "@class": "sangrado",
-        "#text": "d) Servicios suplementarios utilizados."
-      },{
-        "@class": "sangrado",
-        "#text": "e) Direcci\u00f3n de la comunicaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "f) Indicaci\u00f3n de respuesta."
-      },{
-        "@class": "sangrado",
-        "#text": "g) Causa de finalizaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "h) Marcas temporales."
-      },{
-        "@class": "sangrado",
-        "#text": "i) Informaci\u00f3n de localizaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "j) Informaci\u00f3n intercambiada a trav\u00e9s del canal de control o se\u00f1alizaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "6. Adem\u00e1s de la informaci\u00f3n relativa a la interceptaci\u00f3n prevista en el apartado anterior, los sujetos obligados deber\u00e1n facilitar al agente facultado, salvo que por las caracter\u00edsticas del servicio no est\u00e9n a su disposici\u00f3n y sin perjuicio de otros datos que puedan ser establecidos mediante real decreto, de cualquiera de las partes que intervengan en la comunicaci\u00f3n que sean clientes del sujeto obligado, los siguientes datos:"
-      },{
-        "@class": "sangrado",
-        "#text": "a) Identificaci\u00f3n de la persona f\u00edsica o jur\u00eddica."
-      },{
-        "@class": "sangrado",
-        "#text": "b) Domicilio en el que el proveedor realiza las notificaciones."
-      },{
-        "@class": "sangrado",
-        "#text": "Y, aunque no sea abonado, si el servicio de que se trata permite disponer de alguno de los siguientes:"
-      },{
-        "@class": "sangrado",
-        "#text": "c) N\u00famero de titular de servicio (tanto el n\u00famero de directorio como todas las identificaciones de comunicaciones electr\u00f3nicas del abonado)."
-      },{
-        "@class": "sangrado",
-        "#text": "d) N\u00famero de identificaci\u00f3n del terminal."
-      },{
-        "@class": "sangrado",
-        "#text": "e) N\u00famero de cuenta asignada por el proveedor de servicios Internet."
-      },{
-        "@class": "sangrado",
-        "#text": "f) Direcci\u00f3n de correo electr\u00f3nico."
-      },{
-        "@class": "sangrado",
-        "#text": "7. Junto con los datos previstos en los apartados anteriores, los sujetos obligados deber\u00e1n facilitar, salvo que por las caracter\u00edsticas del servicio no est\u00e9 a su disposici\u00f3n, informaci\u00f3n de la situaci\u00f3n geogr\u00e1fica del terminal o punto de terminaci\u00f3n de red origen de la llamada, y de la del destino de la llamada. En caso de servicios m\u00f3viles, se proporcionar\u00e1 una posici\u00f3n lo m\u00e1s exacta posible del punto de comunicaci\u00f3n y, en todo caso, la identificaci\u00f3n, localizaci\u00f3n y tipo de la estaci\u00f3n base afectada."
-      },{
-        "@class": "sangrado",
-        "#text": "8. Con car\u00e1cter previo a la ejecuci\u00f3n de la orden de interceptaci\u00f3n legal, los sujetos obligados deber\u00e1n facilitar al agente facultado informaci\u00f3n sobre los servicios y caracter\u00edsticas del sistema de telecomunicaci\u00f3n que utilizan los sujetos objeto de la medida de la interceptaci\u00f3n y, si obran en su poder, los correspondientes nombres de los abonados con sus n\u00fameros de documento nacional de identidad, tarjeta de residencia o pasaporte, en el caso de personas f\u00edsicas, o denominaci\u00f3n y c\u00f3digo de identificaci\u00f3n fiscal en el caso de personas jur\u00eddicas."
-      },{
-        "@class": "sangrado",
-        "#text": "9. Los sujetos obligados deber\u00e1n tener en todo momento preparadas una o m\u00e1s interfaces a trav\u00e9s de las cuales las comunicaciones electr\u00f3nicas interceptadas y la informaci\u00f3n relativa a la interceptaci\u00f3n se transmitir\u00e1n a los centros de recepci\u00f3n de las interceptaciones. Las caracter\u00edsticas de estas interfaces y el formato para la transmisi\u00f3n de las comunicaciones interceptadas a estos centros estar\u00e1n sujetas a las especificaciones t\u00e9cnicas que reglamentariamente se establezcan por el Ministerio de Industria, Turismo y Comercio."
-      },{
-        "@class": "sangrado",
-        "#text": "10. En el caso de que los sujetos obligados apliquen a las comunicaciones objeto de interceptaci\u00f3n legal alg\u00fan procedimiento de compresi\u00f3n, cifrado, digitalizaci\u00f3n o cualquier otro tipo de codificaci\u00f3n, deber\u00e1n entregar aquellas desprovistas de los efectos de tales procedimientos, siempre que sean reversibles."
-      },{
-        "@class": "sangrado",
-        "#text": "Las comunicaciones interceptadas deben proveerse al centro de recepci\u00f3n de las interceptaciones con una calidad no inferior a la que obtiene el destinatario de la comunicaci\u00f3n.\u00bb"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Dos. El \u00faltimo p\u00e1rrafo del apartado 5 del art\u00edculo 38 pasa a tener la siguiente redacci\u00f3n:"
-      },{
-        "@class": "sangrado",
-        "#text": "\u00abLo establecido en las letras a) y d) del apartado 3 de este art\u00edculo se entiende sin perjuicio de las obligaciones establecidas en la Ley de Conservaci\u00f3n de Datos relativos a las Comunicaciones Electr\u00f3nicas y a las Redes P\u00fablicas de Comunicaciones.\u00bb"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Tres. En el art\u00edculo 53, se modifican los p\u00e1rrafos o) y z), que quedan redactados de la siguiente forma:"
-      },{
-        "@class": "sangrado",
-        "#text": "\u00abo) El incumplimiento deliberado, por parte de los operadores, de las obligaciones en materia de interceptaci\u00f3n legal de comunicaciones impuestas en desarrollo del art\u00edculo 33 de esta Ley y el incumplimiento deliberado de las obligaciones de conservaci\u00f3n de los datos establecidas en la Ley de Conservaci\u00f3n de Datos relativos a las Comunicaciones Electr\u00f3nicas y a las Redes P\u00fablicas de Comunicaciones.\u00bb"
-      },{
-        "@class": "sangrado",
-        "#text": "\u00abz) La vulneraci\u00f3n grave o reiterada de los derechos previstos en el art\u00edculo 38.3, salvo el previsto por el p\u00e1rrafo h), cuya infracci\u00f3n se regir\u00e1 por el r\u00e9gimen sancionador previsto en la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico, y el incumplimiento grave o reiterado de las obligaciones de protecci\u00f3n y seguridad de los datos almacenados establecidas en el art\u00edculo 8 de la Ley de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones.\u00bb"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Cuatro. En el art\u00edculo 54 se modifican los p\u00e1rrafos \u00f1) y r), que quedan redactados de la siguiente forma:"
-      },{
-        "@class": "sangrado",
-        "#text": "\u00ab\u00f1) El incumplimiento, por parte de los operadores, de las obligaciones en materia de interceptaci\u00f3n legal de comunicaciones impuestas en desarrollo del art\u00edculo 33 de la presente Ley y el incumplimiento de las obligaciones de conservaci\u00f3n de los datos establecidas en la Ley de Conservaci\u00f3n de Datos relativos a las Comunicaciones Electr\u00f3nicas y a las Redes P\u00fablicas de Comunicaciones, salvo que deban considerarse como infracci\u00f3n muy grave, conforme a lo dispuesto en el art\u00edculo anterior.\u00bb"
-      },{
-        "@class": "sangrado",
-        "#text": "\u00abr) La vulneraci\u00f3n de los derechos previstos en el art\u00edculo 38.3, salvo el previsto por el p\u00e1rrafo h), cuya infracci\u00f3n se regir\u00e1 por el r\u00e9gimen sancionador previsto en la Ley 34/2002, de 11 de julio, y el incumplimiento de las obligaciones de protecci\u00f3n y seguridad de los datos establecidas en el art\u00edculo 8 de la Ley de conservaci\u00f3n de datos relativos a las comunicaciones electr\u00f3nicas y a las redes p\u00fablicas de comunicaciones, salvo que deban considerarse como infracci\u00f3n muy grave.\u00bb"
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final segunda. Competencia estatal."
-      },{
-        "@class": "parrafo",
-        "#text": "Esta Ley se dicta al amparo de lo dispuesto en el art\u00edculo 149.1.29.\u00aa de la Constituci\u00f3n, que atribuye al Estado la competencia exclusiva en materia de seguridad p\u00fablica, y del art\u00edculo 149.1.21.\u00aa, que confiere al Estado competencia exclusiva en materia de telecomunicaciones."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final tercera. Desarrollo reglamentario."
-      },{
-        "@class": "parrafo",
-        "#text": "Se habilita al Gobierno a dictar cuantas disposiciones sean necesarias para el desarrollo y ejecuci\u00f3n de lo previsto en esta Ley."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final cuarta. Formato de entrega de los datos."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La cesi\u00f3n a los agentes facultados de los datos cuya conservaci\u00f3n sea obligatoria, se efectuar\u00e1 en formato electr\u00f3nico, en la forma que se determine por Orden conjunta de los Ministros de Interior, de Defensa y de Econom\u00eda y Hacienda, que se aprobar\u00e1 en el plazo de tres meses desde la entrada en vigor de esta Ley."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los sujetos obligados a los que se refiere el art\u00edculo 2 de esta Ley, tendr\u00e1n un plazo de seis meses desde la entrada en vigor de la misma para configurar, a su costa, sus equipos y estar t\u00e9cnicamente en disposici\u00f3n de cumplir con las obligaciones de conservaci\u00f3n y cesi\u00f3n de datos."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final quinta. Entrada en vigor."
-      },{
-        "@class": "parrafo",
-        "#text": "Esta Ley entrar\u00e1 en vigor a los veinte d\u00edas de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Por tanto,"
-      },{
-        "@class": "parrafo",
-        "#text": "Mando a todos los espa\u00f1oles, particulares y autoridades que guarden y hagan guardar esta ley."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Madrid, 18 de octubre de 2007."
-      },{
-        "@class": "firma_rey",
-        "#text": "JUAN CARLOS R."
-      },{
-        "@class": "firma_ministro",
-        "#text": "El Presidente del Gobierno,"
-      },{
-        "@class": "firma_ministro",
-        "#text": "JOS\u00c9 LUIS RODR\u00cdGUEZ ZAPATERO"
-      }
-    ]
   }
-}
 }

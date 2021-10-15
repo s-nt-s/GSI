@@ -1,1314 +1,1571 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190612132601",
-  "metadatos": {
-    "identificador": "BOE-A-2016-10146",
-    "titulo": "Resoluci\u00f3n de 27 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma y Sello Electr\u00f3nicos y de Certificados de la Administraci\u00f3n.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190612132601",
+    "metadatos": {
+      "identificador": "BOE-A-2016-10146",
+      "titulo": "Resoluci\u00f3n de 27 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma y Sello Electr\u00f3nicos y de Certificados de la Administraci\u00f3n.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "266",
+      "seccion": "3",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "9216",
+        "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+      },
+      "rango": {
+        "@codigo": "1370",
+        "#text": "Resoluci\u00f3n"
+      },
+      "numero_oficial": null,
+      "fecha_disposicion": "20161027",
+      "fecha_publicacion": "20161103",
+      "fecha_vigencia": "20161104",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "76503",
+      "pagina_final": "76516",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2016/11/03/pdfs/BOE-A-2016-10146.pdf",
+      "url_pdf_catalan": null,
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": null,
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/res/2016/10/27/(2)"
     },
-    "diario_numero": "266",
-    "seccion": "3",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "9216",
-      "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-    },
-    "rango": {
-      "@codigo": "1370",
-      "#text": "Resoluci\u00f3n"
-    },
-    "numero_oficial": null,
-    "fecha_disposicion": "20161027",
-    "fecha_publicacion": "20161103",
-    "fecha_vigencia": "20161104",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "76503",
-    "pagina_final": "76516",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2016/11/03/pdfs/BOE-A-2016-10146.pdf",
-    "url_pdf_catalan": null,
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": null,
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/res/2016/10/27/(2)"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2016-10146"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2016-10-27"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "(2)"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2016-10146"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2016-10-27"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(2)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)"
-              },
-              "eli:consolidated_by": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 27 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma y Sello Electr\u00f3nicos y de Certificados de la Administraci\u00f3n."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2016-11-03"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2016-10146"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2016-10-27"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "(2)"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2016-10146"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2016-10-27"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(2)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)"
+                },
+                "eli:consolidated_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 27 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma y Sello Electr\u00f3nicos y de Certificados de la Administraci\u00f3n."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2016-11-03"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2016-10146"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2016-10-27"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(2)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2016-11-03"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 27 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma y Sello Electr\u00f3nicos y de Certificados de la Administraci\u00f3n."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2016-11-03"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103/spa"
                         }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa"
-                        }
-                      }
-                    },{
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa/xml",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof/spa"
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2016-10146"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2016-10-27"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(2)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2016-11-03"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 27 de octubre de 2016, de la Secretar\u00eda de Estado de Administraciones P\u00fablicas, por la que se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma y Sello Electr\u00f3nicos y de Certificados de la Administraci\u00f3n."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2016-11-03"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/res/2016/10/27/(2)/con/20161103/spa"
                       }
                     }
                   }
                 }
               }
             }
-          }
-        ]
-      }
-    }
-  },
-  "analisis": {
-    "notas": {
-      "nota": {
-        "@codigo": "37",
-        "@orden": "220",
-        "#text": "Aplicable desde 4 de noviembre de 2016."
+          ]
+        }
       }
     },
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "1508",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "93",
-          "@orden": "",
-          "#text": "Administraciones P\u00fablicas"
-        },{
-          "@codigo": "817",
-          "@orden": "",
-          "#text": "Certificaciones"
-        },{
-          "@codigo": "7894",
-          "@orden": "",
-          "#text": "Comunicaciones electr\u00f3nicas"
-        },{
-          "@codigo": "3716",
-          "@orden": "",
-          "#text": "Firma electr\u00f3nica"
-        },{
-          "@codigo": "9350",
-          "@orden": "",
-          "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
-        },{
-          "@codigo": "5159",
-          "@orden": "",
-          "#text": "Normalizaci\u00f3n"
-        },{
-          "@codigo": "5163",
-          "@orden": "",
-          "#text": "Normas de calidad"
-        },{
-          "@codigo": "5923",
-          "@orden": "",
-          "#text": "Redes de telecomunicaci\u00f3n"
+    "analisis": {
+      "notas": {
+        "nota": {
+          "@codigo": "37",
+          "@orden": "220",
+          "#text": "Aplicable desde 4 de noviembre de 2016."
         }
-      ]
-    },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "143",
-          "@orden": "",
-          "#text": "Administraci\u00f3n electr\u00f3nica"
-        },{
-          "@codigo": "121",
-          "@orden": "",
-          "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
-        },{
-          "@codigo": "129",
-          "@orden": "",
-          "#text": "Tecnolog\u00eda e investigaci\u00f3n"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+      },
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-2011-13171",
-            "@orden": "1010",
-            "palabra": {
-              "@codigo": "210",
-              "#text": "DEROGA"
-            },
-            "texto": "la Resoluci\u00f3n de 19 de juliio de 2011"
-          },{
-            "@referencia": "BOE-A-2015-10566",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "el art. 156 de la Ley 40/2015, de 1 de octubre"
-          },{
-            "@referencia": "BOE-A-2010-1331",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "la disposici\u00f3n adicional 1.2 del Real Decreto 4/2010, de 8 de enero"
+            "@codigo": "1508",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "93",
+            "@orden": "",
+            "#text": "Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "817",
+            "@orden": "",
+            "#text": "Certificaciones"
+          },
+          {
+            "@codigo": "7894",
+            "@orden": "",
+            "#text": "Comunicaciones electr\u00f3nicas"
+          },
+          {
+            "@codigo": "3716",
+            "@orden": "",
+            "#text": "Firma electr\u00f3nica"
+          },
+          {
+            "@codigo": "9350",
+            "@orden": "",
+            "#text": "Ministerio de Hacienda y Administraciones P\u00fablicas"
+          },
+          {
+            "@codigo": "5159",
+            "@orden": "",
+            "#text": "Normalizaci\u00f3n"
+          },
+          {
+            "@codigo": "5163",
+            "@orden": "",
+            "#text": "Normas de calidad"
+          },
+          {
+            "@codigo": "5923",
+            "@orden": "",
+            "#text": "Redes de telecomunicaci\u00f3n"
           }
         ]
       },
-      "posteriores": null
-    }
-  },
-  "texto": {
-    "p": [
-      {
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "El Esquema Nacional de Interoperabilidad se establece en el art\u00edculo 156 de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, que sustituye al apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia, en el marco, entre otras normas, de la Ley 39/2015 de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma y sello, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, seg\u00fan se establece en el art\u00edculo 29 del Esquema Nacional de Interoperabilidad."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma Electr\u00f3nica y de certificados de la Administraci\u00f3n se aprob\u00f3 mediante Resoluci\u00f3n de 19 de julio de 2011\u00a0(BOE de 30 de julio), de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, para responder a lo previsto en el art\u00edculo 18 del citado Real Decreto 4/2010, de 8 de enero, sobre la interoperabilidad en materia de firma y sello electr\u00f3nicos y de certificados."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Posteriormente, la evoluci\u00f3n de las tecnolog\u00edas de aplicaci\u00f3n, la experiencia derivada de la aplicaci\u00f3n de la citada Norma T\u00e9cnica de Interoperabilidad, la entrada en vigor de la citada Ley 40/2015, de 1 de octubre, y la evoluci\u00f3n del contexto regulatorio europeo, particularmente por raz\u00f3n del Reglamento n.\u00ba 910/2014, del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior y por el que se deroga la Directiva 1999/93/CE, y su normativa de desarrollo, hacen necesario una actualizaci\u00f3n de esta Norma T\u00e9cnica de Interoperabilidad."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n, que sustituye a la anterior denominada de Pol\u00edtica de Firma Electr\u00f3nica y de certificados de la Administraci\u00f3n, establece el conjunto de criterios para el desarrollo o adopci\u00f3n de pol\u00edticas de firma y sello electr\u00f3nicos basada en certificados por parte de las Administraciones p\u00fablicas. Para ello, define el contenido de una pol\u00edtica de firma electr\u00f3nica y sello electr\u00f3nico basados en certificados, especificando las caracter\u00edsticas de las reglas comunes, como formatos, uso de algoritmos, creaci\u00f3n y validaci\u00f3n de firma para documentos electr\u00f3nicos, as\u00ed como de las reglas de confianza en certificados electr\u00f3nicos, sellos de tiempo y firmas longevas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Las condiciones establecidas en esta norma persiguen establecer un marco para la definici\u00f3n de pol\u00edticas de firma y sello electr\u00f3nicos basada en certificados alineada con actos europeos recientes como la Decisi\u00f3n de Ejecuci\u00f3n (UE) 2015/1506 de la Comisi\u00f3n de 8 de septiembre de 2015 por la que se establecen las especificaciones relativas a los formatos de las firmas electr\u00f3nicas avanzadas y los sellos avanzados que deben reconocer los organismos del sector p\u00fablico de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del Reglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior, compatible a su vez con sistemas de firma electr\u00f3nica ya implantados."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "La presente actualizaci\u00f3n de la norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones P\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por el Comit\u00e9 de Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones y por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero, esta Secretar\u00eda de Estado resuelve:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "articulo",
-        "#text": "Primero."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n, que sustituye completamente a la anterior Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma Electr\u00f3nica y de certificados de la Administraci\u00f3n, y cuyo texto se incluye a continuaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "articulo",
-        "#text": "Segundo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "Madrid, 27 de octubre de 2016.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "anexo",
-        "#text": "NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE POL\u00cdTICA DE FIRMA Y SELLO ELECTR\u00d3NICOS Y DE CERTIFICADOS DE LA ADMINISTRACI\u00d3N"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "centro_redonda",
-        "#text": "\u00cdNDICE"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "I. Consideraciones generales."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "I.1 Objeto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II La pol\u00edtica de firma y sello electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.1 Definici\u00f3n y contenido."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II.2 Datos identificativos de la pol\u00edtica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II.3 Actores involucrados en la firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II.4 Usos de la firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II.5 Interacci\u00f3n con otras pol\u00edticas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II.6 Gesti\u00f3n de la pol\u00edtica de firma y sello."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "II.7 Archivado y custodia."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III Reglas comunes."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.1 Reglas comunes."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.2 Formatos admitidos de firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.3 Firma electr\u00f3nica de transmisiones de datos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.4 Firma electr\u00f3nica de contenido."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.5 Reglas de uso de algoritmos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.6 Reglas de creaci\u00f3n de firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "III.7 Reglas de validaci\u00f3n de firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "IV Reglas de confianza."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "IV.1 Reglas de confianza para los certificados electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "IV.2 Reglas de confianza para sellos de tiempo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "IV.3 Reglas de confianza para firmas longevas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "centro_cursiva",
-        "#text": "I Consideraciones generales"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "I.1 Objeto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. La Norma T\u00e9cnica de Interoperabilidad (en adelante, NTI) de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n tiene por objeto establecer el conjunto de criterios comunes asumidos por la Administraci\u00f3n p\u00fablica en relaci\u00f3n con la autenticaci\u00f3n y el reconocimiento mutuo de firmas electr\u00f3nicas y sellos electr\u00f3nicos basados en certificados electr\u00f3nicos cualificados o reconocidos y que, como tales, ser\u00e1n desarrollados y consolidados a trav\u00e9s de las pol\u00edticas de firma y sello electr\u00f3nicos basados en certificados."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. El objetivo final de esta NTI es facilitar el uso de firmas electr\u00f3nicas y sellos electr\u00f3nicos seguros e interoperables entre las distintas organizaciones de la Administraci\u00f3n p\u00fablica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. El contenido de esta NTI ser\u00e1 de aplicaci\u00f3n para el desarrollo o adopci\u00f3n de pol\u00edticas de firma y sello electr\u00f3nicos basada en certificados por parte de cualquier \u00f3rgano de la Administraci\u00f3n p\u00fablica o Entidad de Derecho P\u00fablico vinculada o dependiente de aqu\u00e9lla (en adelante, organizaciones) seg\u00fan el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Las pol\u00edticas de firma y sello har\u00e1n referencia a un contexto concreto de car\u00e1cter horizontal donde sea necesario normalizar aspectos de las firmas electr\u00f3nicas de los Documentos Electr\u00f3nicos Administrativos para garantizar la interoperabilidad, no a una Administraci\u00f3n u organismo particular. Para establecer los aspectos t\u00e9cnicos de las firmas dentro de una Administraci\u00f3n u organismos concreto, se optar\u00e1 por la generaci\u00f3n de instrucciones t\u00e9cnicas internas, procedimientos o directrices de aplicaciones, que en todo caso deber\u00e1n ajustarse a lo establecido por el Esquema Nacional de Seguridad."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "centro_cursiva",
-        "#text": "II La pol\u00edtica de firma y sello electr\u00f3nicos"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.1 Definici\u00f3n y contenido."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Seg\u00fan la definici\u00f3n del Real Decreto 4/2010, de 8 de enero, una pol\u00edtica de firma electr\u00f3nica es el \u00abconjunto de normas de seguridad, de organizaci\u00f3n, t\u00e9cnicas y legales para determinar c\u00f3mo se generan, verifican y gestionan firmas electr\u00f3nicas, incluyendo las caracter\u00edsticas exigibles a los certificados de firma\u00bb. Es de aplicaci\u00f3n tanto a las firmas como a los sellos electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Una pol\u00edtica de firma y sello electr\u00f3nicos y de certificados definir\u00e1:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Los procesos de creaci\u00f3n, validaci\u00f3n y conservaci\u00f3n de firmas electr\u00f3nicas y sellos electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Caracter\u00edsticas y requisitos de los sistemas de firma electr\u00f3nica, sellos electr\u00f3nicos, certificados y sellos de tiempo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. Toda pol\u00edtica de firma y sello electr\u00f3nicos basada en certificados incluir\u00e1:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Definici\u00f3n del alcance y \u00e1mbito de aplicaci\u00f3n, que concretar\u00e1 su relaci\u00f3n con otras pol\u00edticas existentes, marco o particulares, as\u00ed como la identificaci\u00f3n de los actores involucrados y los usos de la firma electr\u00f3nica y sello electr\u00f3nico."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Datos para la identificaci\u00f3n del documento y del responsable de su gesti\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Reglas comunes para el firmante, el creador del sello, y el verificador de la firma o sello electr\u00f3nicos que incluir\u00e1n:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "i. Formatos admitidos de firma electr\u00f3nica y sello electr\u00f3nico, y reglas de uso de algoritmos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "ii. Reglas de creaci\u00f3n de firma o sello electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "iii. Reglas de validaci\u00f3n de firma o sello electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "d) Reglas de confianza, que incluir\u00e1n los requisitos establecidos para certificados, sellos de tiempo y firmas longevas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "e) Otras reglas opcionales a fijar por cada organizaci\u00f3n, como podr\u00e1n ser:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "i. Reglas espec\u00edficas de compromisos que cada organizaci\u00f3n podr\u00e1 establecer para cada uno de los servicios que presta, estableciendo requisitos espec\u00edficos necesarios para que la firma sea v\u00e1lida en cada caso."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "ii. Reglas de certificados de atributos mediante las que cada organizaci\u00f3n podr\u00e1 establecer informaci\u00f3n adicional a a\u00f1adir a los certificados digitales en funci\u00f3n de sus necesidades y del contexto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "f) Definici\u00f3n de condiciones para el archivado y custodia de firmas electr\u00f3nicas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "g) Descripci\u00f3n de consideraciones de gesti\u00f3n de la pol\u00edtica que se aplicar\u00e1n a dicho documento."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.2 Datos identificativos de la pol\u00edtica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. El documento de pol\u00edtica de firma y sello incluir\u00e1 la siguiente informaci\u00f3n para su identificaci\u00f3n:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Nombre del documento."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Versi\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Identificador (OID Object IDentifier) de la pol\u00edtica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "d) URI (Uniform Resource Identifier) de referencia de la pol\u00edtica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "e) Fecha de expedici\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "f) \u00c1mbito de aplicaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "2. La pol\u00edtica de firma y sello incluir\u00e1 la definici\u00f3n de su periodo de validez y las consideraciones respecto a los periodos de transici\u00f3n que procedan."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "3. Para la identificaci\u00f3n de su gestor, la pol\u00edtica de firma y sello electr\u00f3nicos basada en certificados incluir\u00e1:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Nombre del gestor de la pol\u00edtica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Direcci\u00f3n de contacto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) OID del gestor de la pol\u00edtica de firma."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.3 Actores involucrados en la firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "Los actores involucrados en el proceso de creaci\u00f3n y validaci\u00f3n de una firma electr\u00f3nica ser\u00e1n:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Firmante: Una persona f\u00edsica que crea una firma electr\u00f3nica utilizando datos de creaci\u00f3n de firma electr\u00f3nica que el firmante puede utilizar, con un alto nivel de confianza, bajo su control exclusivo, y que act\u00faa en nombre propio o en nombre de una persona f\u00edsica o jur\u00eddica a la que representa."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Creador de un sello: Una persona jur\u00eddica que crea un sello electr\u00f3nico."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Verificador: Entidad, ya sea persona f\u00edsica o jur\u00eddica, que valida o verifica una firma electr\u00f3nica apoy\u00e1ndose en las condiciones exigidas por la pol\u00edtica de firma y sello concreta por la que se rige la plataforma de relaci\u00f3n electr\u00f3nica o el servicio concreto al que se est\u00e9 invocando. Podr\u00e1 ser una entidad de validaci\u00f3n de confianza o una tercera parte que est\u00e9 interesada en la validez de una firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "d) Prestador de servicios de confianza (PSC): Una persona f\u00edsica o jur\u00eddica que presta uno o m\u00e1s servicios de confianza, bien como prestador cualificado o como prestador no cualificado de servicios de confianza."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "e) Emisor y gestor de la pol\u00edtica de firma: Entidad que se encarga de generar y gestionar el documento de pol\u00edtica de firma y sello, por el cual se deben regir el firmante, el verificador y los prestadores de servicios en los procesos de generaci\u00f3n y validaci\u00f3n de firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "En este documento que utilizar\u00e1 el t\u00e9rmino \u2018firmante\u2019, tanto para referirse al firmante como al creador de un sello. Puede tratarse de un proceso de actuaci\u00f3n administrativa automatizada."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Se usar\u00e1 el t\u00e9rmino \u2018firma\u2019 tanto para referirse a la firma electr\u00f3nica como a sello electr\u00f3nico."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.4 Usos de la firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "Las pol\u00edticas de firma y sello electr\u00f3nicos podr\u00e1n definir condiciones para la aplicaci\u00f3n de una firma electr\u00f3nica basada en certificados con los siguientes prop\u00f3sitos:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Firma de transmisiones de datos, como herramienta para proporcionar seguridad al intercambio, garantizando la autenticaci\u00f3n de los actores involucrados en el proceso, la integridad del contenido del mensaje de datos enviado y el no repudio de los mensajes en una comunicaci\u00f3n telem\u00e1tica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Firma de contenido como herramienta para garantizar la autenticidad, integridad y no repudio de aquel, con independencia de que forme parte de una transmisi\u00f3n de datos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.5 Interacci\u00f3n con otras pol\u00edticas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Las Administraciones P\u00fablicas se acoger\u00e1n preferentemente a la Pol\u00edtica Marco de Firma Electr\u00f3nica basada en Certificados"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a. Cada organizaci\u00f3n valorar\u00e1 la necesidad y conveniencia de desarrollar una pol\u00edtica propia frente a la posibilidad de utilizar una pol\u00edtica marco existente."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b. Las Administraciones P\u00fablicas podr\u00e1n aprobar otras pol\u00edticas de firma y sello electr\u00f3nicos dentro de sus \u00e1mbitos competenciales si las caracter\u00edsticas particulares de los procedimientos administrativos bajo su competencia lo hacen necesario. Las pol\u00edticas de firma y sello particulares estar\u00e1n orientadas a un contexto concreto, de car\u00e1cter horizontal, no a una organizaci\u00f3n concreta. En el caso de que en una organizaci\u00f3n se deseen normalizar \u00fanicamente aspectos t\u00e9cnicos de las firmas electr\u00f3nicas, se optar\u00e1 por otro instrumento distinto de una Pol\u00edtica de firma y sello, como instrucciones t\u00e9cnicas internas o directrices de aplicaciones."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c. Ser\u00e1n aprobadas con informe favorable del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica y del Comit\u00e9 Ejecutivo de la Comisi\u00f3n de Estrategia TIC, una vez verificada su interoperabilidad con la Pol\u00edtica Marco de Firma Electr\u00f3nica basada en Certificados."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "d. Con objeto de permitir la interoperabilidad de las firmas electr\u00f3nicas acordes a pol\u00edticas, las pol\u00edticas que las Administraciones P\u00fablicas aprueben deber\u00e1n ser comunicadas, junto con sus correspondientes ficheros de implementaci\u00f3n, a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones del Ministerio de Hacienda y Administraciones P\u00fablicas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "2. La definici\u00f3n del alcance y \u00e1mbito de aplicaci\u00f3n de una pol\u00edtica de firma y sello electr\u00f3nicos se realizar\u00e1 considerando su interacci\u00f3n con otras pol\u00edticas de firma y sello electr\u00f3nicos, y asegurando que:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Su desarrollo es interoperable con la pol\u00edtica marco, en caso de pol\u00edticas de firma y sello particulares."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Define las condiciones de utilizaci\u00f3n y convivencia con otras pol\u00edticas particulares, si se trata de una pol\u00edtica marco."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. En toda pol\u00edtica de firma y sello electr\u00f3nicos se asegurar\u00e1 que:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Las extensiones o restricciones establecidas para las reglas de creaci\u00f3n o validaci\u00f3n de firma atienden a la validaci\u00f3n de los formatos de firma establecidos en esta NTI y pol\u00edtica marco si procede, de forma que se garantice la interoperabilidad entre las diferentes organizaciones."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Incluye, si procede, la referencia a la URL de la pol\u00edtica marco de firma electr\u00f3nica en la que se inscribe, con indicaci\u00f3n expresa de la versi\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Las firmas que se generen siguiendo pol\u00edticas marco o particulares, incluyen un campo donde se indique de forma expl\u00edcita la pol\u00edtica a la que pertenecen."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "d) Para que otras aplicaciones puedan interpretar las reglas de una pol\u00edtica particular correctamente, dicha pol\u00edtica est\u00e1 disponible en formato XML (eXtensible Markup Language) y ASN.1 (Abstract Syntax Notation One)."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.6 Gesti\u00f3n de la pol\u00edtica de firma y sello."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. La pol\u00edtica de firma y sello electr\u00f3nicos incluir\u00e1 la descripci\u00f3n b\u00e1sica de su proceso de gesti\u00f3n, estableciendo las directrices para su mantenimiento, actualizaci\u00f3n y publicaci\u00f3n, e identificando al responsable de llevar a cabo estas tareas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. El gestor de la pol\u00edtica de firma mantendr\u00e1 actualizada la versi\u00f3n de la pol\u00edtica de firma y sello atendiendo a:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Modificaciones motivadas por necesidades propias de la organizaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Cambios en pol\u00edticas relacionadas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Cambios en los certificados electr\u00f3nicos emitidos por los prestadores de servicios de certificaci\u00f3n referenciados en la pol\u00edtica de firma y sello."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. Para facilitar la validaci\u00f3n de firmas electr\u00f3nicas creadas atendiendo a versiones anteriores de una pol\u00edtica, se podr\u00e1 mantener un repositorio con el historial de versiones anteriores que provea la ubicaci\u00f3n de cada versi\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "II.7 Archivado y custodia."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Atendiendo a las necesidades y normativa espec\u00edficas de su \u00e1mbito, las pol\u00edticas de firma y sello podr\u00e1n contemplar la definici\u00f3n de condiciones y responsabilidades para el archivado y custodia de las firmas electr\u00f3nicas en sus diferentes aplicaciones."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Para garantizar la fiabilidad de una firma electr\u00f3nica a lo largo del tiempo, se podr\u00e1n utilizar:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Firmas longevas mediante las que se a\u00f1adir\u00e1 informaci\u00f3n del estado del certificado asociado, incorporando un sello de tiempo, as\u00ed como los certificados que conforman la cadena de confianza, aplicando las reglas de confianza para firmas longevas descritas en el subapartado IV.3."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Otros m\u00e9todos t\u00e9cnicos que impedir\u00e1n la modificaci\u00f3n de la firma para la que se ha verificado su validez, de acuerdo a los requisitos establecidos en la pol\u00edtica de firma y sello correspondiente, y que habr\u00e1 sido almacenada en un sistema en un momento del tiempo determinado. Todos los cambios que se realicen sobre el sistema en el que se encuentra almacenada la firma podr\u00e1n auditarse para asegurar que dicha firma no ha sido modificada. Los requisitos de seguridad de dichos sistemas cumplir\u00e1n con las condiciones de los niveles de seguridad establecidos por el Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. Cada pol\u00edtica de firma y sello definir\u00e1 un servicio para mantener las evidencias de validez de las firmas longevas y gestionar la actualizaci\u00f3n de las firmas y sellos. Dicho servicio especificar\u00e1 los mecanismos y condiciones bajo los que se archiva y custodia tanto la propia firma o sello como los certificados e informaciones de estado utilizadas en su validaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "4. El almacenamiento de los certificados y las informaciones de estado podr\u00e1 realizarse dentro del fichero resultante de la firma electr\u00f3nica o en un dep\u00f3sito espec\u00edfico:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) En caso de almacenar los certificados y las informaciones de estado dentro de la firma, se sellar\u00e1n tambi\u00e9n dichas informaciones, siguiendo las modalidades de firmas recogidas en la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506 de la Comisi\u00f3n, de 8 de septiembre de 2015, por la que se establecen las especificaciones relativas a los formatos de las firmas electr\u00f3nicas avanzadas y los sellos avanzados que deben reconocer los organismos del sector p\u00fablico\u00bb, o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado\u00a05, y 37, apartado 5, del \u00abReglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior\u00bb."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Si los certificados y las informaciones de estado se almacenan en un dep\u00f3sito espec\u00edfico, se sellar\u00e1n de forma independiente."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "5. La protecci\u00f3n de la firma/sello electr\u00f3nico frente a la posible obsolescencia de los algoritmos y el aseguramiento de sus caracter\u00edsticas a lo largo del tiempo de validez, se realizar\u00e1 a trav\u00e9s de uno de los siguientes procesos:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Utilizaci\u00f3n de mecanismos de resellado de tiempo, para a\u00f1adir, cuando el anterior sellado este pr\u00f3ximo a su caducidad, un sello de fecha y hora de archivo con un algoritmo m\u00e1s robusto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b)  Se recomienda utilizar mecanismos de resellado/refirma, en el caso de obsolescencia de los algoritmos o formatos, con un algoritmo m\u00e1s robusto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Almacenamiento de la firma electr\u00f3nica en un dep\u00f3sito seguro, que garantice la protecci\u00f3n de la firma contra modificaciones y asegurando la fecha exacta en que se guard\u00f3 la firma electr\u00f3nica, y en la que se comprob\u00f3 la autenticidad y vigencia de los elementos que la conforman."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "d) Otros sistemas que garanticen la preservaci\u00f3n de las firmas y sellos a largo plazo con certeza de la comprobaci\u00f3n de su validez en el momento m\u00e1s pr\u00f3ximo que sea posible respecto a su generaci\u00f3n o admisi\u00f3n. Estos sistemas adicionales deber\u00e1n estar descritos minuciosamente en el documento de gesti\u00f3n de pol\u00edtica de custodia documental de la entidad, con indicaci\u00f3n de los plazos en los que los sistemas estuvieron vigentes y los archivos a los que estos sistemas se aplicaron, especialmente para el caso de valoraci\u00f3n documental a largo plazo por especialistas en archivos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "6. La definici\u00f3n de medidas y procedimientos para archivado y custodia de firmas/sellos electr\u00f3nicos se realizar\u00e1 atendiendo con proporcionalidad a los diferentes usos de la firma electr\u00f3nica contemplados en el alcance y \u00e1mbito de aplicaci\u00f3n de la pol\u00edtica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "7. Para archivado y gesti\u00f3n de documentos electr\u00f3nicos firmados o sellados, se atender\u00e1 a lo establecido en la NTI de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "centro_cursiva",
-        "#text": "III Reglas comunes"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.1 Reglas comunes."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Las reglas comunes permitir\u00e1n establecer responsabilidades respecto a la firma/sello electr\u00f3nicos sobre la persona o entidad que crea la firma y la persona o entidad que la verifica, definiendo los requisitos m\u00ednimos que deben presentarse, debiendo estar firmados si son requisitos para el firmante, o no firmados si son requisitos para el verificador."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Estas reglas se definir\u00e1n en base a los formatos de firma/sello electr\u00f3nico admitidos, teniendo en cuenta los diferentes usos de la firma electr\u00f3nica basada en certificados, al uso de algoritmos y a los procesos de creaci\u00f3n y validaci\u00f3n de firma y sello."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.2 Formatos admitidos de firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Los formatos admitidos por las organizaciones para las firmas/sellos electr\u00f3nicos basadas en certificados electr\u00f3nicos, se ajustar\u00e1n a:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506\u00bb o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del \u00abReglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior\u00bb."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) lo establecido en la NTI de Cat\u00e1logo de est\u00e1ndares."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) los formatos CAdES, XAdES y PAdES en las versiones establecidas en la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma del 2011."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "2. Los formatos de firma/sello electr\u00f3nico ser\u00e1n"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Si procede, interoperables con la pol\u00edtica marco en la que se basan."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.3 Formatos de firma electr\u00f3nica de transmisiones de datos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. La firma electr\u00f3nica de transmisiones de datos estar\u00e1 basada en est\u00e1ndares recogidos en la NTI de Cat\u00e1logo de est\u00e1ndares, siendo responsabilidad del emisor y gestor de la pol\u00edtica la definici\u00f3n de las consideraciones concretas a aplicar por cada organizaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Cada pol\u00edtica definir\u00e1 las versiones soportadas as\u00ed como los cambios en aquellas que pueden provocar una actualizaci\u00f3n de dicha pol\u00edtica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.4 Formatos de firma/sello electr\u00f3nica de contenido."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Los formatos para la firma/sello electr\u00f3nica de contenido se ajustar\u00e1n a la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506\u00bb o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del \u00abReglamento (UE) 910/2014\u00bb"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Por compatibilidad con las pol\u00edticas de firma anteriores, se permitir\u00e1n aunque no se recomiendan los siguientes formatos::"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) XAdES (XML Advanced Electronic Signatures), seg\u00fan la especificaci\u00f3n t\u00e9cnica ETSI TS 101 903, versi\u00f3n 1.2.2 y versi\u00f3n 1.3.2."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) CAdES (CMS Advanced Electronic Signatures), seg\u00fan la especificaci\u00f3n t\u00e9cnica ETSI TS 101 733, versi\u00f3n 1.6.3 y versi\u00f3n 1.7.4."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) PAdES (PDF Advanced Electronic Signatures), seg\u00fan la especificaci\u00f3n t\u00e9cnica ETSI TS 102 778-3."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. El perfil m\u00ednimo de formato que se utilizar\u00e1 para la generaci\u00f3n de firmas de contenido en el marco de una pol\u00edtica ser\u00e1 \u00ab-EPES\u00bb, esto es, clase b\u00e1sica (BES) a\u00f1adiendo informaci\u00f3n sobre la pol\u00edtica de firma y sello. En cualquier caso, cada organizaci\u00f3n podr\u00e1 definir en su pol\u00edtica de firma y sello las consideraciones adicionales que considere respecto a la interpretaci\u00f3n y utilizaci\u00f3n de diferentes perfiles y clases de los formatos siempre en consonancia con lo establecido en esta NTI."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "4. Las organizaciones aplicar\u00e1n consideraciones de casos particulares para firma de contenido, al menos, en los siguientes casos:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Los documentos electr\u00f3nicos a los que se aplique firma/sello basada en certificados de cara a su intercambio se ajustar\u00e1n a las especificaciones de formato y estructura establecidas en la NTI de Documento electr\u00f3nico."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "El formato de firma basada en certificados que acompa\u00f1a a un documento electr\u00f3nico se reflejar\u00e1 en el metadato m\u00ednimo obligatorio definido en la NTI de Documento electr\u00f3nico \u2018Tipo de firma\u2019, que, en este caso, podr\u00e1 tomar uno de los siguientes valores:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "i. XAdES internally detached signature."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "ii. XAdES enveloped signature."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "iii. CAdES detached/explicit signature."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "iv. CAdES attached/implicit signature."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "v. PAdES."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "vi. XAdES (Decision 1506) detached"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "vii. XAdES (Decision 1506) enveloped"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "viii. CAdES (Decision 1506) detached"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "ix. CAdES (Decision 1506) attached"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "x. PAdES (Decision 1506)"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "b) La firma/sello de facturas electr\u00f3nicas seg\u00fan el formato \u00abFacturae\u00bb se realizar\u00e1 conforme a lo regulado por la Orden PRE/2971/2007, de 5 de octubre, o normativa que la sustituya."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.5 Reglas de uso de algoritmos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. La pol\u00edtica de firma y sello especificar\u00e1 las reglas de uso de algoritmos en los diferentes formatos as\u00ed como la longitud de las claves asociadas a aqu\u00e9llos de forma proporcional a las necesidades detectadas en los diferentes usos de la firma/sello electr\u00f3nicos, cumpliendo en cualquier caso lo establecido en la NTI de Cat\u00e1logo de est\u00e1ndares y lo previsto en las normas que se definan en aplicaci\u00f3n del Reglamento (UE) 910/2014."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Para los entornos de seguridad regulados por la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas y Ley 40/ 2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, de aplicaci\u00f3n en los procedimientos de administraci\u00f3n electr\u00f3nica, se ajustar\u00e1n a la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506\u00bb o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del \u00abReglamento (UE) 910/2014\u00bb o las especificaciones t\u00e9cnicas publicadas por los organismos de Estandarizaci\u00f3n Europeos. La definici\u00f3n de usos de algoritmos podr\u00e1 contemplar diferentes posibilidades seg\u00fan lo establecido en las gu\u00edas aplicables, como la norma CCN-STIC 807 del Esquema Nacional de Seguridad relativa al uso de criptograf\u00eda, las normas ETSI TS 119 312 \u2018Criptographic Suites for secure electronic signatures\u2019, o aquellas que las sustituyan."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "3. Para los entornos de alta seguridad, de acuerdo con el criterio del Centro Criptol\u00f3gico Nacional (CCN) ser\u00e1n de aplicaci\u00f3n las recomendaciones revisadas de la CCN-STIC 405 as\u00ed como en la norma CCN-STIC 807 del Esquema Nacional de Seguridad relativa al uso de criptograf\u00eda."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.6 Reglas de creaci\u00f3n de firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Las pol\u00edticas de firma y sello definir\u00e1n las condiciones particulares bajo las que, en su \u00e1mbito, se generar\u00e1 la firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Las plataformas que presten el servicio de creaci\u00f3n de firma electr\u00f3nica proporcionar\u00e1n las funcionalidades necesarias para soportar un proceso de creaci\u00f3n de firmas y sellos basado en los siguientes puntos:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Selecci\u00f3n por parte del usuario firmante del fichero, formulario u otro objeto binario para ser firmado. Los formatos de ficheros atender\u00e1n a lo recogido en la NTI de Cat\u00e1logo de est\u00e1ndares."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "El firmante se asegurar\u00e1 de que el fichero que se quiere firmar no contiene contenido din\u00e1mico que afecte a su validez y que pudiese modificar el resultado de la firma/sello a lo largo del tiempo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) El servicio de firma electr\u00f3nica ejecutar\u00e1 las siguientes verificaciones previas a la creaci\u00f3n de la firma:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "i. La firma/sello electr\u00f3nicos pueden ser validados para el formato del fichero espec\u00edfico que va a ser firmado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "ii. Validez del certificado, comprobando si el certificado ha sido revocado, o suspendido, si entra dentro de su periodo de validez, y la validaci\u00f3n de la cadena de certificaci\u00f3n, incluyendo la validaci\u00f3n de todos los certificados en la cadena, y de su vigencia y estado de no revocaci\u00f3n, y si el certificado ha sido expedido por un Prestador de Servicios de Confianza Cualificado, incluido en la TSL del pa\u00eds emisor."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "Si alguna de estas verificaciones es err\u00f3nea, el proceso de firma se interrumpir\u00e1."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Si no fuese posible realizar estas comprobaciones en el momento de la firma, ser\u00e1 necesario, en todo caso, que los sistemas receptores de la firma asuman dicha validaci\u00f3n, antes de aceptar el fichero, formulario u otro objeto binario firmado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) El servicio crear\u00e1 un fichero con la firma/sello seg\u00fan corresponda en funci\u00f3n del formato utilizado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "En el momento de la firma, se incluir\u00e1 la referencia del identificador \u00fanico de la versi\u00f3n del documento de pol\u00edtica de firma y sello electr\u00f3nicos en el que se ha basado su creaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. La vinculaci\u00f3n del firmante se establecer\u00e1 a trav\u00e9s de etiquetas que, incluidas bajo la firma, y definidas seg\u00fan los est\u00e1ndares correspondientes (XAdES, CAdES y/o PAdES), proporcionar\u00e1n la siguiente informaci\u00f3n complementaria a \u00e9sta:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Fecha y hora de firma, que podr\u00e1 ser meramente indicativa en funci\u00f3n de c\u00f3mo se haya generado la firma."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Certificado del firmante."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Cadena de validaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "d) Pol\u00edtica de firma y sello sobre la que se basa el proceso de generaci\u00f3n de firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "e) Formato del objeto original."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "4. Como datos opcionales, la firma/sello electr\u00f3nicos podr\u00e1 incluir:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Lugar geogr\u00e1fico donde se ha realizado la firma del documento."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Rol de la persona firmante en la firma electr\u00f3nica."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Acci\u00f3n del firmante sobre el documento firmado (lo aprueba, lo informa, lo recibe, lo certifica, etc.)."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "d) Sello de tiempo sobre algunos o todos los objetos de la firma."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "5. En caso de creaci\u00f3n de firmas/sellos electr\u00f3nicos por distintos firmantes sobre un mismo objeto, donde el segundo firmante ratifica la firma del primero se utilizar\u00e1 la etiqueta correspondiente, CounterSignature, para contabilizarlas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "6. En el caso de que las m\u00faltiples firmas/sellos se realicen al mismo nivel, cada una de ellas se representar\u00e1 como una firma independiente."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "III.7 Reglas de validaci\u00f3n de firma/sello electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Las pol\u00edticas de firma y sello definir\u00e1n las condiciones particulares bajo las que, en su \u00e1mbito, ser\u00e1 posible validar la firma electr\u00f3nica de un documentosiguiendo los requisitos establecidos en el art\u00edculo 32.1 del Reglamento (UE) No 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. En el caso de documentos electr\u00f3nicos, para acceder a la visualizaci\u00f3n de la firma/sello, el usuario podr\u00e1 presentar dicho documento electr\u00f3nico, que contenga los datos, metadatos y firmas/sellos, en una sede electr\u00f3nica o en otros sistemas generales que proporcionen herramientas de reproducci\u00f3n de documentos electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "3. Las condiciones m\u00ednimas que se producir\u00e1n para la validaci\u00f3n de la firma/sello ser\u00e1n las siguientes:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Garant\u00eda de que la firma es v\u00e1lida para el fichero espec\u00edfico que est\u00e1 firmado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Validez de los certificados:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "i. El instante de tiempo que se tomar\u00e1 como referencia para la validaci\u00f3n ser\u00e1:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1) El momento en que se produjo la firma/sello si se da alguno de los siguientes supuestos:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a. los servicios de los prestadores facilitan los hist\u00f3ricos de estado de los certificados y la firma/sello lleva un sello de tiempo v\u00e1lido en el momento de la verificaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b. se trata de firmas/sellos longevos que incluyen las evidencias de la validez de la firma electr\u00f3nica en el momento de la generaci\u00f3n o primera validaci\u00f3n, y dichas evidencias se encuentran selladas con un sello de tiempo v\u00e1lido."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "2) En otros casos, el momento de la validaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "ii. Se comprobar\u00e1 que los certificados no fueron revocados ni suspendidos y que no han expirado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "iii. Se comprobar\u00e1 la validez de toda la cadena de certificaci\u00f3n, incluyendo todos los certificados que la componen, con independencia de que \u00e9stos se encuentren incluidos en la propia firma o no."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "iv. Se verificar\u00e1 que el certificado ha sido expedido por un prestador de servicios de certificaci\u00f3n de confianza bajo una Declaraci\u00f3n de Pr\u00e1cticas de Certificaci\u00f3n que cumplir\u00e1 la normativa y estar\u00e1 incluido en la pol\u00edtica de firma y sello aplicable, y ha sido expedido por un Prestador de Servicios de Confianza Cualificado, incluido en la TSL del pa\u00eds emisor."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "v. Verificaci\u00f3n, si existen y si as\u00ed lo requiere la pol\u00edtica de la plataforma de relaci\u00f3n electr\u00f3nica o un servicio concreto de dicha plataforma, de los sellos de tiempo de los formatos implementados, incluyendo la verificaci\u00f3n de los periodos de validez de los sellos de tiempo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "4. Para validar la firma electr\u00f3nica se considerar\u00e1 la siguiente informaci\u00f3n:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Fecha y hora de la firma/sello: Si se ha realizado el sellado de tiempo, el sello de tiempo m\u00e1s antiguo dentro de la estructura de la firma se utilizar\u00e1 para determinar la fecha de la firma/sello. En caso de que no existan sellos de tiempo, la fecha y hora de la firma tendr\u00e1n car\u00e1cter indicativo, pero no se utilizar\u00e1n para determinar el momento en que se realiz\u00f3 la firma. En caso de que no existan sellos de tiempo en la firma, la validaci\u00f3n del certificado se realizar\u00e1 en el momento de la validaci\u00f3n de la firma/sello."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Certificado del firmante. Este campo se utilizar\u00e1 para verificar el estado del certificado, y en su caso la cadena de certificaci\u00f3n, en la fecha de la generaci\u00f3n de la firma/sello."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "c) Pol\u00edtica de firma y sello sobre la que se basa el proceso de generaci\u00f3n de firma electr\u00f3nica. Se utilizar\u00e1 para identificar, mediante su hash y su identificador (OID), que la pol\u00edtica de firma y sello que se ha utilizado para la generaci\u00f3n de la firma se corresponde con la que se utilizar\u00e1 para el servicio en cuesti\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "Esta validaci\u00f3n de la pol\u00edtica de firma y sello, implicar\u00e1 que el verificador dispondr\u00e1 de los medios para verificar las condiciones impuestas en la pol\u00edtica de firma y sello concreta. La disponibilidad de la pol\u00edtica de firma y sello en un formato interpretable por medios automatizados (XML o ASN.1) y siguiendo los est\u00e1ndares europeos de representaci\u00f3n de pol\u00edticas de firma, indicada en el ep\u00edgrafe 3.d del subapartado II.5 de esta NTI, facilitar\u00e1 la labor de las aplicaciones receptoras de firmas electr\u00f3nicas en aplicar distintas pol\u00edticas de firma y sello."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "5. Si se han realizado varias firmas/sellos sobre un mismo documento, se seguir\u00e1 el mismo proceso de verificaci\u00f3n que con la primera firma/sello, comprobando cada firma o la etiqueta CounterSignature en el campo de propiedades no firmadas, donde se informa de los refrendos de firma generados."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "6. El encargado de la verificaci\u00f3n de la firma/sello podr\u00e1 definir sus procesos de validaci\u00f3n y de archivado, siempre en consonancia con los requisitos de la pol\u00edtica de firma y sello a la que se ajuste el servicio y con lo establecido en la NTI de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "7. Para la verificaci\u00f3n del estado de los certificados en el caso de formatos de firma longeva, la validez de la firma/sello vendr\u00e1 determinada por la validez del sello de tiempo de las evidencias de la validaci\u00f3n incluidas en la firma. En estos casos la validez de la firma/sello a lo largo del tiempo se mantendr\u00e1 resellando la firma/sello antes de la caducidad del certificado de la TSA (Autoridad de sellado de tiempo) que realiz\u00f3 el sello de tiempo anterior, de forma que siempre sea posible verificar que en el momento en que se realiz\u00f3 la firma/sello, el certificado era v\u00e1lido."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "8. En el caso de validaci\u00f3n por un tercero, el validador ofrecer\u00e1 a la parte usuaria el resultado correcto del proceso de validaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "centro_cursiva",
-        "#text": "IV Reglas de confianza"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "IV.1 Reglas de confianza para los certificados electr\u00f3nicos."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Las pol\u00edticas de firma y sello, marco o particulares, podr\u00e1n fijar limitaciones y restricciones espec\u00edficas para los certificados electr\u00f3nicos que admiten en cada uno de los servicios que corresponda, si el uso destinado del certificado establecido en su Pol\u00edtica de Certificaci\u00f3n no est\u00e1 acorde al \u00e1mbito de la Pol\u00edtica de firma y sello, siempre en consideraci\u00f3n de la normativa aplicable en cada caso."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Se presumir\u00e1n v\u00e1lidos los certificados cualificados que usen los ciudadanos en las firmas y sellos electr\u00f3nicos. Si una administraci\u00f3n apreciara alg\u00fan aspecto que cuestionara esta validez lo har\u00e1 saber al ciudadano que dispondr\u00e1 del plazo previsto en la normativa de procedimiento administrativo para subsanar lo que corresponda o ratificar por otra v\u00eda los documentos firmados electr\u00f3nicamente. El firmante no podr\u00e1 alegar que ha utilizado una firma inv\u00e1lida con arreglo a una determinada Declaraci\u00f3n de Pr\u00e1cticas de Certificaci\u00f3n como condici\u00f3n en la que se base un recurso de nulidad o anulabilidad de un acto."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "3. Los certificados v\u00e1lidos para ejecutar la firma/sello electr\u00f3nicos de contenido ser\u00e1n los certificados electr\u00f3nicos cualificados de firma y sello seg\u00fan el Reglamento (UE) 910/2014 del Parlamento europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza en las transacciones electr\u00f3nicas en el mercado interior y por el que se deroga la Directiva 1999/93/CE."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "4. La relaci\u00f3n de prestadores de servicios de certificaci\u00f3n que emiten certificados electr\u00f3nicos cualificados se consultar\u00e1 en la TSL (Lista de servicios de confianza) publicada en la sede electr\u00f3nica del Ministerio de Industria, Energ\u00eda y Turismo y en las TSL del resto de pa\u00edses de la UE, de conformidad con la Decisi\u00f3n de Ejecuci\u00f3n UE 2015/1505 de la Comisi\u00f3n, de 8 de septiembre de 2015, por la que se establecen las especificaciones t\u00e9cnicas y los formatos relacionados con las listas de confianza de conformidad con el art\u00edculo 22, apartado 5, del Reglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "5. La pol\u00edtica de firma y sello electr\u00f3nicos podr\u00e1 establecer el per\u00edodo de precauci\u00f3n o de gracia que corresponda aplicar para la validaci\u00f3n de los certificados. Este periodo podr\u00e1 ser, desde el momento en que se realiza la firma o el sellado de tiempo, como m\u00ednimo, el tiempo m\u00e1ximo permitido para el refresco completo de las CRLs (Certificate Revocation Lists) o el tiempo m\u00e1ximo de actualizaci\u00f3n del estado del certificado en el servicio OCSP (Online Certificate Status Protocol). Esta definici\u00f3n tendr\u00e1 en cuenta tambi\u00e9n la posibilidad de que estos tiempos var\u00eden seg\u00fan el Prestador de Servicios de Certificaci\u00f3n."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "6. El verificador validar\u00e1 los certificados electr\u00f3nicos en base a los procesos de validaci\u00f3n y archivado definidos en la pol\u00edtica de firma y sello a la que se ajuste el servicio en cada caso."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "IV.2 Reglas de confianza para sellos de tiempo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. Los sellos cualificados de tiempo cumplir\u00e1n los indicados en el art\u00edculo 42.1 del Reglamento (UE) No 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Los elementos b\u00e1sicos de un sello cualificado de tiempo ser\u00e1n los indicados en las Normas Europeas de estandarizaci\u00f3n:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) ETSI EN 319 422 V1.1.1Time-stamping protocol and time-stamp token profiles."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) ETSI EN 319 421 V1.1.1 Policy and Security Requirements for Trust Service Providers issuing Time-Stamps."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "O en las que las sustituyan."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. El sellado de tiempo y la informaci\u00f3n de validaci\u00f3n podr\u00e1n ser a\u00f1adidos por el emisor, el receptor o un tercero y se incluir\u00e1n como propiedades no firmadas en los campos correspondientes seg\u00fan el formato de firma utilizado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "4. En la pol\u00edtica de firma y sello se establecer\u00e1n las condiciones seg\u00fan las que determinar los sellos de tiempo admitidos atendiendo a sus necesidades particulares, y en base a la normativa y legislaci\u00f3n vigente. Esto incluye el establecimiento del tiempo m\u00e1ximo aceptable para realizar el sellado de tiempo, anterior, en cualquier caso, a la caducidad del certificado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "IV.3 Reglas de confianza para firmas longevas."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "1. En el caso de firmas longevas, el firmante o el verificador de la firma incluir\u00e1 un sello de tiempo que permita garantizar que el certificado era v\u00e1lido en el momento en que se realiz\u00f3 la firma. En el caso de que sea incluida por el firmante, se podr\u00e1 realizar una vez haya trascurrido el periodo de precauci\u00f3n o periodo de gracia."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "2. Para la conversi\u00f3n de una firma electr\u00f3nica a firma electr\u00f3nica longeva:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "a) Se verificar\u00e1 la firma electr\u00f3nica, validando la integridad de la firma acorde a las reglas de validaci\u00f3n de firma de electr\u00f3nica del ep\u00edgrafe III.7."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "b) Se realizar\u00e1 un proceso de completado de la firma electr\u00f3nica que consistir\u00e1 en la obtenci\u00f3n y almacenamiento de las referencias a:"
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "i. Certificados: Incluyendo los certificados del firmante y de la cadena de certificaci\u00f3n tanto del firmante como del sello de tiempo."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "ii. Informaciones de estado de los certificados, CRLs o las respuestas OCSP."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "c) Aplicaci\u00f3n del sellado de tiempo a las referencias a los certificados y a las informaciones de estado."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo_2",
-        "#text": "3. Para la incorporaci\u00f3n a la firma de la informaci\u00f3n completa de validaci\u00f3n, se usar\u00e1 validaci\u00f3n mediante CRLs u OCSP."
-      },{
-        "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
-        "@class": "parrafo",
-        "#text": "4. Las pol\u00edticas de firma y sello contemplar\u00e1n la definici\u00f3n de formatos y consideraciones de uso de firmas longevas conforme a las necesidades espec\u00edficas de su \u00e1mbito de aplicaci\u00f3n y a la normativa espec\u00edfica aplicable."
+      "alertas": {
+        "alerta": [
+          {
+            "@codigo": "143",
+            "@orden": "",
+            "#text": "Administraci\u00f3n electr\u00f3nica"
+          },
+          {
+            "@codigo": "121",
+            "@orden": "",
+            "#text": "Organizaci\u00f3n de la Administraci\u00f3n"
+          },
+          {
+            "@codigo": "129",
+            "@orden": "",
+            "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+          },
+          {
+            "@codigo": "130",
+            "@orden": "",
+            "#text": "Telecomunicaciones"
+          }
+        ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-2011-13171",
+              "@orden": "1010",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "DEROGA"
+              },
+              "texto": "la Resoluci\u00f3n de 19 de juliio de 2011"
+            },
+            {
+              "@referencia": "BOE-A-2015-10566",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "el art. 156 de la Ley 40/2015, de 1 de octubre"
+            },
+            {
+              "@referencia": "BOE-A-2010-1331",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "la disposici\u00f3n adicional 1.2 del Real Decreto 4/2010, de 8 de enero"
+            }
+          ]
+        },
+        "posteriores": null
       }
-    ]
+    },
+    "texto": {
+      "p": [
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "El Esquema Nacional de Interoperabilidad se establece en el art\u00edculo 156 de la Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, que sustituye al apartado 1 del art\u00edculo 42 de la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los Servicios P\u00fablicos. Su finalidad es la creaci\u00f3n de las condiciones necesarias para garantizar el adecuado nivel de interoperabilidad t\u00e9cnica, sem\u00e1ntica y organizativa de los sistemas y aplicaciones empleados por las Administraciones p\u00fablicas, que permitan el ejercicio de derechos y el cumplimiento de deberes a trav\u00e9s del acceso electr\u00f3nico a los servicios p\u00fablicos, a la vez que redunda en beneficio de la eficacia y la eficiencia, en el marco, entre otras normas, de la Ley 39/2015 de Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "El Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica establece, en su disposici\u00f3n adicional primera, el desarrollo de la serie de Normas T\u00e9cnicas de Interoperabilidad que son de obligado cumplimiento por parte de las Administraciones p\u00fablicas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Las Normas T\u00e9cnicas de Interoperabilidad desarrollan aspectos concretos de diversas cuestiones, tales como: documento electr\u00f3nico, digitalizaci\u00f3n, expediente electr\u00f3nico, copiado aut\u00e9ntico y conversi\u00f3n, pol\u00edtica de firma y sello, est\u00e1ndares, intermediaci\u00f3n de datos, modelos de datos, gesti\u00f3n de documentos electr\u00f3nicos, conexi\u00f3n a la red de comunicaciones de las Administraciones p\u00fablicas espa\u00f1olas, modelo de datos para el intercambio de asientos registrales y reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico; todos ellos necesarios para asegurar los aspectos m\u00e1s pr\u00e1cticos y operativos de la interoperabilidad entre las Administraciones p\u00fablicas y con el ciudadano. Estas Normas T\u00e9cnicas de Interoperabilidad se desarrollar\u00e1n y perfeccionar\u00e1n a lo largo del tiempo, en paralelo al progreso de los servicios de Administraci\u00f3n Electr\u00f3nica, de las infraestructuras que los apoyan y de la evoluci\u00f3n tecnol\u00f3gica, seg\u00fan se establece en el art\u00edculo 29 del Esquema Nacional de Interoperabilidad."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "En particular, la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma Electr\u00f3nica y de certificados de la Administraci\u00f3n se aprob\u00f3 mediante Resoluci\u00f3n de 19 de julio de 2011\u00a0(BOE de 30 de julio), de la Secretar\u00eda de Estado para la Funci\u00f3n P\u00fablica, para responder a lo previsto en el art\u00edculo 18 del citado Real Decreto 4/2010, de 8 de enero, sobre la interoperabilidad en materia de firma y sello electr\u00f3nicos y de certificados."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Posteriormente, la evoluci\u00f3n de las tecnolog\u00edas de aplicaci\u00f3n, la experiencia derivada de la aplicaci\u00f3n de la citada Norma T\u00e9cnica de Interoperabilidad, la entrada en vigor de la citada Ley 40/2015, de 1 de octubre, y la evoluci\u00f3n del contexto regulatorio europeo, particularmente por raz\u00f3n del Reglamento n.\u00ba 910/2014, del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior y por el que se deroga la Directiva 1999/93/CE, y su normativa de desarrollo, hacen necesario una actualizaci\u00f3n de esta Norma T\u00e9cnica de Interoperabilidad."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n, que sustituye a la anterior denominada de Pol\u00edtica de Firma Electr\u00f3nica y de certificados de la Administraci\u00f3n, establece el conjunto de criterios para el desarrollo o adopci\u00f3n de pol\u00edticas de firma y sello electr\u00f3nicos basada en certificados por parte de las Administraciones p\u00fablicas. Para ello, define el contenido de una pol\u00edtica de firma electr\u00f3nica y sello electr\u00f3nico basados en certificados, especificando las caracter\u00edsticas de las reglas comunes, como formatos, uso de algoritmos, creaci\u00f3n y validaci\u00f3n de firma para documentos electr\u00f3nicos, as\u00ed como de las reglas de confianza en certificados electr\u00f3nicos, sellos de tiempo y firmas longevas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Las condiciones establecidas en esta norma persiguen establecer un marco para la definici\u00f3n de pol\u00edticas de firma y sello electr\u00f3nicos basada en certificados alineada con actos europeos recientes como la Decisi\u00f3n de Ejecuci\u00f3n (UE) 2015/1506 de la Comisi\u00f3n de 8 de septiembre de 2015 por la que se establecen las especificaciones relativas a los formatos de las firmas electr\u00f3nicas avanzadas y los sellos avanzados que deben reconocer los organismos del sector p\u00fablico de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del Reglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior, compatible a su vez con sistemas de firma electr\u00f3nica ya implantados."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "La presente actualizaci\u00f3n de la norma t\u00e9cnica se ha elaborado con la participaci\u00f3n de todas las Administraciones P\u00fablicas a las que les es de aplicaci\u00f3n, ha sido informada favorablemente por el Comit\u00e9 de Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones y por el Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "En aplicaci\u00f3n de lo dispuesto en el apartado 2 de la disposici\u00f3n adicional primera del Real Decreto 4/2010, de 8 de enero, esta Secretar\u00eda de Estado resuelve:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "articulo",
+          "#text": "Primero."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Se aprueba la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n, que sustituye completamente a la anterior Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de Firma Electr\u00f3nica y de certificados de la Administraci\u00f3n, y cuyo texto se incluye a continuaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "articulo",
+          "#text": "Segundo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "La Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n que se aprueba mediante la presente Resoluci\u00f3n se aplicar\u00e1 desde el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "Madrid, 27 de octubre de 2016.\u2013El Secretario de Estado de Administraciones P\u00fablicas, Antonio Germ\u00e1n Beteta Barreda."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "anexo",
+          "#text": "NORMA T\u00c9CNICA DE INTEROPERABILIDAD DE POL\u00cdTICA DE FIRMA Y SELLO ELECTR\u00d3NICOS Y DE CERTIFICADOS DE LA ADMINISTRACI\u00d3N"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "centro_redonda",
+          "#text": "\u00cdNDICE"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "I. Consideraciones generales."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "I.1 Objeto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II La pol\u00edtica de firma y sello electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.1 Definici\u00f3n y contenido."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II.2 Datos identificativos de la pol\u00edtica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II.3 Actores involucrados en la firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II.4 Usos de la firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II.5 Interacci\u00f3n con otras pol\u00edticas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II.6 Gesti\u00f3n de la pol\u00edtica de firma y sello."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "II.7 Archivado y custodia."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III Reglas comunes."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.1 Reglas comunes."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.2 Formatos admitidos de firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.3 Firma electr\u00f3nica de transmisiones de datos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.4 Firma electr\u00f3nica de contenido."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.5 Reglas de uso de algoritmos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.6 Reglas de creaci\u00f3n de firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "III.7 Reglas de validaci\u00f3n de firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "IV Reglas de confianza."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "IV.1 Reglas de confianza para los certificados electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "IV.2 Reglas de confianza para sellos de tiempo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "IV.3 Reglas de confianza para firmas longevas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "centro_cursiva",
+          "#text": "I Consideraciones generales"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "I.1 Objeto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. La Norma T\u00e9cnica de Interoperabilidad (en adelante, NTI) de Pol\u00edtica de firma y sello electr\u00f3nicos y de certificados de la Administraci\u00f3n tiene por objeto establecer el conjunto de criterios comunes asumidos por la Administraci\u00f3n p\u00fablica en relaci\u00f3n con la autenticaci\u00f3n y el reconocimiento mutuo de firmas electr\u00f3nicas y sellos electr\u00f3nicos basados en certificados electr\u00f3nicos cualificados o reconocidos y que, como tales, ser\u00e1n desarrollados y consolidados a trav\u00e9s de las pol\u00edticas de firma y sello electr\u00f3nicos basados en certificados."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. El objetivo final de esta NTI es facilitar el uso de firmas electr\u00f3nicas y sellos electr\u00f3nicos seguros e interoperables entre las distintas organizaciones de la Administraci\u00f3n p\u00fablica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "I.2 \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. El contenido de esta NTI ser\u00e1 de aplicaci\u00f3n para el desarrollo o adopci\u00f3n de pol\u00edticas de firma y sello electr\u00f3nicos basada en certificados por parte de cualquier \u00f3rgano de la Administraci\u00f3n p\u00fablica o Entidad de Derecho P\u00fablico vinculada o dependiente de aqu\u00e9lla (en adelante, organizaciones) seg\u00fan el \u00e1mbito establecido en el art\u00edculo 3 del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Las pol\u00edticas de firma y sello har\u00e1n referencia a un contexto concreto de car\u00e1cter horizontal donde sea necesario normalizar aspectos de las firmas electr\u00f3nicas de los Documentos Electr\u00f3nicos Administrativos para garantizar la interoperabilidad, no a una Administraci\u00f3n u organismo particular. Para establecer los aspectos t\u00e9cnicos de las firmas dentro de una Administraci\u00f3n u organismos concreto, se optar\u00e1 por la generaci\u00f3n de instrucciones t\u00e9cnicas internas, procedimientos o directrices de aplicaciones, que en todo caso deber\u00e1n ajustarse a lo establecido por el Esquema Nacional de Seguridad."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "centro_cursiva",
+          "#text": "II La pol\u00edtica de firma y sello electr\u00f3nicos"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.1 Definici\u00f3n y contenido."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Seg\u00fan la definici\u00f3n del Real Decreto 4/2010, de 8 de enero, una pol\u00edtica de firma electr\u00f3nica es el \u00abconjunto de normas de seguridad, de organizaci\u00f3n, t\u00e9cnicas y legales para determinar c\u00f3mo se generan, verifican y gestionan firmas electr\u00f3nicas, incluyendo las caracter\u00edsticas exigibles a los certificados de firma\u00bb. Es de aplicaci\u00f3n tanto a las firmas como a los sellos electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Una pol\u00edtica de firma y sello electr\u00f3nicos y de certificados definir\u00e1:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Los procesos de creaci\u00f3n, validaci\u00f3n y conservaci\u00f3n de firmas electr\u00f3nicas y sellos electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Caracter\u00edsticas y requisitos de los sistemas de firma electr\u00f3nica, sellos electr\u00f3nicos, certificados y sellos de tiempo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. Toda pol\u00edtica de firma y sello electr\u00f3nicos basada en certificados incluir\u00e1:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Definici\u00f3n del alcance y \u00e1mbito de aplicaci\u00f3n, que concretar\u00e1 su relaci\u00f3n con otras pol\u00edticas existentes, marco o particulares, as\u00ed como la identificaci\u00f3n de los actores involucrados y los usos de la firma electr\u00f3nica y sello electr\u00f3nico."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Datos para la identificaci\u00f3n del documento y del responsable de su gesti\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Reglas comunes para el firmante, el creador del sello, y el verificador de la firma o sello electr\u00f3nicos que incluir\u00e1n:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "i. Formatos admitidos de firma electr\u00f3nica y sello electr\u00f3nico, y reglas de uso de algoritmos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "ii. Reglas de creaci\u00f3n de firma o sello electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "iii. Reglas de validaci\u00f3n de firma o sello electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "d) Reglas de confianza, que incluir\u00e1n los requisitos establecidos para certificados, sellos de tiempo y firmas longevas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "e) Otras reglas opcionales a fijar por cada organizaci\u00f3n, como podr\u00e1n ser:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "i. Reglas espec\u00edficas de compromisos que cada organizaci\u00f3n podr\u00e1 establecer para cada uno de los servicios que presta, estableciendo requisitos espec\u00edficos necesarios para que la firma sea v\u00e1lida en cada caso."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "ii. Reglas de certificados de atributos mediante las que cada organizaci\u00f3n podr\u00e1 establecer informaci\u00f3n adicional a a\u00f1adir a los certificados digitales en funci\u00f3n de sus necesidades y del contexto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "f) Definici\u00f3n de condiciones para el archivado y custodia de firmas electr\u00f3nicas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "g) Descripci\u00f3n de consideraciones de gesti\u00f3n de la pol\u00edtica que se aplicar\u00e1n a dicho documento."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.2 Datos identificativos de la pol\u00edtica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. El documento de pol\u00edtica de firma y sello incluir\u00e1 la siguiente informaci\u00f3n para su identificaci\u00f3n:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Nombre del documento."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Versi\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Identificador (OID Object IDentifier) de la pol\u00edtica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "d) URI (Uniform Resource Identifier) de referencia de la pol\u00edtica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "e) Fecha de expedici\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "f) \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "2. La pol\u00edtica de firma y sello incluir\u00e1 la definici\u00f3n de su periodo de validez y las consideraciones respecto a los periodos de transici\u00f3n que procedan."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "3. Para la identificaci\u00f3n de su gestor, la pol\u00edtica de firma y sello electr\u00f3nicos basada en certificados incluir\u00e1:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Nombre del gestor de la pol\u00edtica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Direcci\u00f3n de contacto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) OID del gestor de la pol\u00edtica de firma."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.3 Actores involucrados en la firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "Los actores involucrados en el proceso de creaci\u00f3n y validaci\u00f3n de una firma electr\u00f3nica ser\u00e1n:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Firmante: Una persona f\u00edsica que crea una firma electr\u00f3nica utilizando datos de creaci\u00f3n de firma electr\u00f3nica que el firmante puede utilizar, con un alto nivel de confianza, bajo su control exclusivo, y que act\u00faa en nombre propio o en nombre de una persona f\u00edsica o jur\u00eddica a la que representa."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Creador de un sello: Una persona jur\u00eddica que crea un sello electr\u00f3nico."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Verificador: Entidad, ya sea persona f\u00edsica o jur\u00eddica, que valida o verifica una firma electr\u00f3nica apoy\u00e1ndose en las condiciones exigidas por la pol\u00edtica de firma y sello concreta por la que se rige la plataforma de relaci\u00f3n electr\u00f3nica o el servicio concreto al que se est\u00e9 invocando. Podr\u00e1 ser una entidad de validaci\u00f3n de confianza o una tercera parte que est\u00e9 interesada en la validez de una firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "d) Prestador de servicios de confianza (PSC): Una persona f\u00edsica o jur\u00eddica que presta uno o m\u00e1s servicios de confianza, bien como prestador cualificado o como prestador no cualificado de servicios de confianza."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "e) Emisor y gestor de la pol\u00edtica de firma: Entidad que se encarga de generar y gestionar el documento de pol\u00edtica de firma y sello, por el cual se deben regir el firmante, el verificador y los prestadores de servicios en los procesos de generaci\u00f3n y validaci\u00f3n de firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "En este documento que utilizar\u00e1 el t\u00e9rmino \u2018firmante\u2019, tanto para referirse al firmante como al creador de un sello. Puede tratarse de un proceso de actuaci\u00f3n administrativa automatizada."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Se usar\u00e1 el t\u00e9rmino \u2018firma\u2019 tanto para referirse a la firma electr\u00f3nica como a sello electr\u00f3nico."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.4 Usos de la firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "Las pol\u00edticas de firma y sello electr\u00f3nicos podr\u00e1n definir condiciones para la aplicaci\u00f3n de una firma electr\u00f3nica basada en certificados con los siguientes prop\u00f3sitos:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Firma de transmisiones de datos, como herramienta para proporcionar seguridad al intercambio, garantizando la autenticaci\u00f3n de los actores involucrados en el proceso, la integridad del contenido del mensaje de datos enviado y el no repudio de los mensajes en una comunicaci\u00f3n telem\u00e1tica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Firma de contenido como herramienta para garantizar la autenticidad, integridad y no repudio de aquel, con independencia de que forme parte de una transmisi\u00f3n de datos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.5 Interacci\u00f3n con otras pol\u00edticas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Las Administraciones P\u00fablicas se acoger\u00e1n preferentemente a la Pol\u00edtica Marco de Firma Electr\u00f3nica basada en Certificados"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a. Cada organizaci\u00f3n valorar\u00e1 la necesidad y conveniencia de desarrollar una pol\u00edtica propia frente a la posibilidad de utilizar una pol\u00edtica marco existente."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b. Las Administraciones P\u00fablicas podr\u00e1n aprobar otras pol\u00edticas de firma y sello electr\u00f3nicos dentro de sus \u00e1mbitos competenciales si las caracter\u00edsticas particulares de los procedimientos administrativos bajo su competencia lo hacen necesario. Las pol\u00edticas de firma y sello particulares estar\u00e1n orientadas a un contexto concreto, de car\u00e1cter horizontal, no a una organizaci\u00f3n concreta. En el caso de que en una organizaci\u00f3n se deseen normalizar \u00fanicamente aspectos t\u00e9cnicos de las firmas electr\u00f3nicas, se optar\u00e1 por otro instrumento distinto de una Pol\u00edtica de firma y sello, como instrucciones t\u00e9cnicas internas o directrices de aplicaciones."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c. Ser\u00e1n aprobadas con informe favorable del Comit\u00e9 Sectorial de Administraci\u00f3n Electr\u00f3nica y del Comit\u00e9 Ejecutivo de la Comisi\u00f3n de Estrategia TIC, una vez verificada su interoperabilidad con la Pol\u00edtica Marco de Firma Electr\u00f3nica basada en Certificados."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "d. Con objeto de permitir la interoperabilidad de las firmas electr\u00f3nicas acordes a pol\u00edticas, las pol\u00edticas que las Administraciones P\u00fablicas aprueben deber\u00e1n ser comunicadas, junto con sus correspondientes ficheros de implementaci\u00f3n, a la Direcci\u00f3n de Tecnolog\u00edas de la Informaci\u00f3n y las Comunicaciones del Ministerio de Hacienda y Administraciones P\u00fablicas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "2. La definici\u00f3n del alcance y \u00e1mbito de aplicaci\u00f3n de una pol\u00edtica de firma y sello electr\u00f3nicos se realizar\u00e1 considerando su interacci\u00f3n con otras pol\u00edticas de firma y sello electr\u00f3nicos, y asegurando que:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Su desarrollo es interoperable con la pol\u00edtica marco, en caso de pol\u00edticas de firma y sello particulares."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Define las condiciones de utilizaci\u00f3n y convivencia con otras pol\u00edticas particulares, si se trata de una pol\u00edtica marco."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. En toda pol\u00edtica de firma y sello electr\u00f3nicos se asegurar\u00e1 que:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Las extensiones o restricciones establecidas para las reglas de creaci\u00f3n o validaci\u00f3n de firma atienden a la validaci\u00f3n de los formatos de firma establecidos en esta NTI y pol\u00edtica marco si procede, de forma que se garantice la interoperabilidad entre las diferentes organizaciones."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Incluye, si procede, la referencia a la URL de la pol\u00edtica marco de firma electr\u00f3nica en la que se inscribe, con indicaci\u00f3n expresa de la versi\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Las firmas que se generen siguiendo pol\u00edticas marco o particulares, incluyen un campo donde se indique de forma expl\u00edcita la pol\u00edtica a la que pertenecen."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "d) Para que otras aplicaciones puedan interpretar las reglas de una pol\u00edtica particular correctamente, dicha pol\u00edtica est\u00e1 disponible en formato XML (eXtensible Markup Language) y ASN.1 (Abstract Syntax Notation One)."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.6 Gesti\u00f3n de la pol\u00edtica de firma y sello."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. La pol\u00edtica de firma y sello electr\u00f3nicos incluir\u00e1 la descripci\u00f3n b\u00e1sica de su proceso de gesti\u00f3n, estableciendo las directrices para su mantenimiento, actualizaci\u00f3n y publicaci\u00f3n, e identificando al responsable de llevar a cabo estas tareas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. El gestor de la pol\u00edtica de firma mantendr\u00e1 actualizada la versi\u00f3n de la pol\u00edtica de firma y sello atendiendo a:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Modificaciones motivadas por necesidades propias de la organizaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Cambios en pol\u00edticas relacionadas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Cambios en los certificados electr\u00f3nicos emitidos por los prestadores de servicios de certificaci\u00f3n referenciados en la pol\u00edtica de firma y sello."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. Para facilitar la validaci\u00f3n de firmas electr\u00f3nicas creadas atendiendo a versiones anteriores de una pol\u00edtica, se podr\u00e1 mantener un repositorio con el historial de versiones anteriores que provea la ubicaci\u00f3n de cada versi\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "II.7 Archivado y custodia."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Atendiendo a las necesidades y normativa espec\u00edficas de su \u00e1mbito, las pol\u00edticas de firma y sello podr\u00e1n contemplar la definici\u00f3n de condiciones y responsabilidades para el archivado y custodia de las firmas electr\u00f3nicas en sus diferentes aplicaciones."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Para garantizar la fiabilidad de una firma electr\u00f3nica a lo largo del tiempo, se podr\u00e1n utilizar:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Firmas longevas mediante las que se a\u00f1adir\u00e1 informaci\u00f3n del estado del certificado asociado, incorporando un sello de tiempo, as\u00ed como los certificados que conforman la cadena de confianza, aplicando las reglas de confianza para firmas longevas descritas en el subapartado IV.3."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Otros m\u00e9todos t\u00e9cnicos que impedir\u00e1n la modificaci\u00f3n de la firma para la que se ha verificado su validez, de acuerdo a los requisitos establecidos en la pol\u00edtica de firma y sello correspondiente, y que habr\u00e1 sido almacenada en un sistema en un momento del tiempo determinado. Todos los cambios que se realicen sobre el sistema en el que se encuentra almacenada la firma podr\u00e1n auditarse para asegurar que dicha firma no ha sido modificada. Los requisitos de seguridad de dichos sistemas cumplir\u00e1n con las condiciones de los niveles de seguridad establecidos por el Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. Cada pol\u00edtica de firma y sello definir\u00e1 un servicio para mantener las evidencias de validez de las firmas longevas y gestionar la actualizaci\u00f3n de las firmas y sellos. Dicho servicio especificar\u00e1 los mecanismos y condiciones bajo los que se archiva y custodia tanto la propia firma o sello como los certificados e informaciones de estado utilizadas en su validaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "4. El almacenamiento de los certificados y las informaciones de estado podr\u00e1 realizarse dentro del fichero resultante de la firma electr\u00f3nica o en un dep\u00f3sito espec\u00edfico:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) En caso de almacenar los certificados y las informaciones de estado dentro de la firma, se sellar\u00e1n tambi\u00e9n dichas informaciones, siguiendo las modalidades de firmas recogidas en la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506 de la Comisi\u00f3n, de 8 de septiembre de 2015, por la que se establecen las especificaciones relativas a los formatos de las firmas electr\u00f3nicas avanzadas y los sellos avanzados que deben reconocer los organismos del sector p\u00fablico\u00bb, o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado\u00a05, y 37, apartado 5, del \u00abReglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior\u00bb."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Si los certificados y las informaciones de estado se almacenan en un dep\u00f3sito espec\u00edfico, se sellar\u00e1n de forma independiente."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "5. La protecci\u00f3n de la firma/sello electr\u00f3nico frente a la posible obsolescencia de los algoritmos y el aseguramiento de sus caracter\u00edsticas a lo largo del tiempo de validez, se realizar\u00e1 a trav\u00e9s de uno de los siguientes procesos:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Utilizaci\u00f3n de mecanismos de resellado de tiempo, para a\u00f1adir, cuando el anterior sellado este pr\u00f3ximo a su caducidad, un sello de fecha y hora de archivo con un algoritmo m\u00e1s robusto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b)  Se recomienda utilizar mecanismos de resellado/refirma, en el caso de obsolescencia de los algoritmos o formatos, con un algoritmo m\u00e1s robusto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Almacenamiento de la firma electr\u00f3nica en un dep\u00f3sito seguro, que garantice la protecci\u00f3n de la firma contra modificaciones y asegurando la fecha exacta en que se guard\u00f3 la firma electr\u00f3nica, y en la que se comprob\u00f3 la autenticidad y vigencia de los elementos que la conforman."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "d) Otros sistemas que garanticen la preservaci\u00f3n de las firmas y sellos a largo plazo con certeza de la comprobaci\u00f3n de su validez en el momento m\u00e1s pr\u00f3ximo que sea posible respecto a su generaci\u00f3n o admisi\u00f3n. Estos sistemas adicionales deber\u00e1n estar descritos minuciosamente en el documento de gesti\u00f3n de pol\u00edtica de custodia documental de la entidad, con indicaci\u00f3n de los plazos en los que los sistemas estuvieron vigentes y los archivos a los que estos sistemas se aplicaron, especialmente para el caso de valoraci\u00f3n documental a largo plazo por especialistas en archivos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "6. La definici\u00f3n de medidas y procedimientos para archivado y custodia de firmas/sellos electr\u00f3nicos se realizar\u00e1 atendiendo con proporcionalidad a los diferentes usos de la firma electr\u00f3nica contemplados en el alcance y \u00e1mbito de aplicaci\u00f3n de la pol\u00edtica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "7. Para archivado y gesti\u00f3n de documentos electr\u00f3nicos firmados o sellados, se atender\u00e1 a lo establecido en la NTI de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "centro_cursiva",
+          "#text": "III Reglas comunes"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.1 Reglas comunes."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Las reglas comunes permitir\u00e1n establecer responsabilidades respecto a la firma/sello electr\u00f3nicos sobre la persona o entidad que crea la firma y la persona o entidad que la verifica, definiendo los requisitos m\u00ednimos que deben presentarse, debiendo estar firmados si son requisitos para el firmante, o no firmados si son requisitos para el verificador."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Estas reglas se definir\u00e1n en base a los formatos de firma/sello electr\u00f3nico admitidos, teniendo en cuenta los diferentes usos de la firma electr\u00f3nica basada en certificados, al uso de algoritmos y a los procesos de creaci\u00f3n y validaci\u00f3n de firma y sello."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.2 Formatos admitidos de firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Los formatos admitidos por las organizaciones para las firmas/sellos electr\u00f3nicos basadas en certificados electr\u00f3nicos, se ajustar\u00e1n a:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506\u00bb o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del \u00abReglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior\u00bb."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) lo establecido en la NTI de Cat\u00e1logo de est\u00e1ndares."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) los formatos CAdES, XAdES y PAdES en las versiones establecidas en la Norma T\u00e9cnica de Interoperabilidad de Pol\u00edtica de firma del 2011."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "2. Los formatos de firma/sello electr\u00f3nico ser\u00e1n"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Si procede, interoperables con la pol\u00edtica marco en la que se basan."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.3 Formatos de firma electr\u00f3nica de transmisiones de datos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. La firma electr\u00f3nica de transmisiones de datos estar\u00e1 basada en est\u00e1ndares recogidos en la NTI de Cat\u00e1logo de est\u00e1ndares, siendo responsabilidad del emisor y gestor de la pol\u00edtica la definici\u00f3n de las consideraciones concretas a aplicar por cada organizaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Cada pol\u00edtica definir\u00e1 las versiones soportadas as\u00ed como los cambios en aquellas que pueden provocar una actualizaci\u00f3n de dicha pol\u00edtica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.4 Formatos de firma/sello electr\u00f3nica de contenido."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Los formatos para la firma/sello electr\u00f3nica de contenido se ajustar\u00e1n a la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506\u00bb o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del \u00abReglamento (UE) 910/2014\u00bb"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Por compatibilidad con las pol\u00edticas de firma anteriores, se permitir\u00e1n aunque no se recomiendan los siguientes formatos::"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) XAdES (XML Advanced Electronic Signatures), seg\u00fan la especificaci\u00f3n t\u00e9cnica ETSI TS 101 903, versi\u00f3n 1.2.2 y versi\u00f3n 1.3.2."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) CAdES (CMS Advanced Electronic Signatures), seg\u00fan la especificaci\u00f3n t\u00e9cnica ETSI TS 101 733, versi\u00f3n 1.6.3 y versi\u00f3n 1.7.4."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) PAdES (PDF Advanced Electronic Signatures), seg\u00fan la especificaci\u00f3n t\u00e9cnica ETSI TS 102 778-3."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. El perfil m\u00ednimo de formato que se utilizar\u00e1 para la generaci\u00f3n de firmas de contenido en el marco de una pol\u00edtica ser\u00e1 \u00ab-EPES\u00bb, esto es, clase b\u00e1sica (BES) a\u00f1adiendo informaci\u00f3n sobre la pol\u00edtica de firma y sello. En cualquier caso, cada organizaci\u00f3n podr\u00e1 definir en su pol\u00edtica de firma y sello las consideraciones adicionales que considere respecto a la interpretaci\u00f3n y utilizaci\u00f3n de diferentes perfiles y clases de los formatos siempre en consonancia con lo establecido en esta NTI."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "4. Las organizaciones aplicar\u00e1n consideraciones de casos particulares para firma de contenido, al menos, en los siguientes casos:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Los documentos electr\u00f3nicos a los que se aplique firma/sello basada en certificados de cara a su intercambio se ajustar\u00e1n a las especificaciones de formato y estructura establecidas en la NTI de Documento electr\u00f3nico."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "El formato de firma basada en certificados que acompa\u00f1a a un documento electr\u00f3nico se reflejar\u00e1 en el metadato m\u00ednimo obligatorio definido en la NTI de Documento electr\u00f3nico \u2018Tipo de firma\u2019, que, en este caso, podr\u00e1 tomar uno de los siguientes valores:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "i. XAdES internally detached signature."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "ii. XAdES enveloped signature."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "iii. CAdES detached/explicit signature."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "iv. CAdES attached/implicit signature."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "v. PAdES."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "vi. XAdES (Decision 1506) detached"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "vii. XAdES (Decision 1506) enveloped"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "viii. CAdES (Decision 1506) detached"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "ix. CAdES (Decision 1506) attached"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "x. PAdES (Decision 1506)"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "b) La firma/sello de facturas electr\u00f3nicas seg\u00fan el formato \u00abFacturae\u00bb se realizar\u00e1 conforme a lo regulado por la Orden PRE/2971/2007, de 5 de octubre, o normativa que la sustituya."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.5 Reglas de uso de algoritmos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. La pol\u00edtica de firma y sello especificar\u00e1 las reglas de uso de algoritmos en los diferentes formatos as\u00ed como la longitud de las claves asociadas a aqu\u00e9llos de forma proporcional a las necesidades detectadas en los diferentes usos de la firma/sello electr\u00f3nicos, cumpliendo en cualquier caso lo establecido en la NTI de Cat\u00e1logo de est\u00e1ndares y lo previsto en las normas que se definan en aplicaci\u00f3n del Reglamento (UE) 910/2014."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Para los entornos de seguridad regulados por la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas y Ley 40/ 2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico, de aplicaci\u00f3n en los procedimientos de administraci\u00f3n electr\u00f3nica, se ajustar\u00e1n a la \u00abDecisi\u00f3n de Ejecuci\u00f3n UE 2015/1506\u00bb o en la que la sustituya, de conformidad con los art\u00edculos 27, apartado 5, y 37, apartado 5, del \u00abReglamento (UE) 910/2014\u00bb o las especificaciones t\u00e9cnicas publicadas por los organismos de Estandarizaci\u00f3n Europeos. La definici\u00f3n de usos de algoritmos podr\u00e1 contemplar diferentes posibilidades seg\u00fan lo establecido en las gu\u00edas aplicables, como la norma CCN-STIC 807 del Esquema Nacional de Seguridad relativa al uso de criptograf\u00eda, las normas ETSI TS 119 312 \u2018Criptographic Suites for secure electronic signatures\u2019, o aquellas que las sustituyan."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "3. Para los entornos de alta seguridad, de acuerdo con el criterio del Centro Criptol\u00f3gico Nacional (CCN) ser\u00e1n de aplicaci\u00f3n las recomendaciones revisadas de la CCN-STIC 405 as\u00ed como en la norma CCN-STIC 807 del Esquema Nacional de Seguridad relativa al uso de criptograf\u00eda."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.6 Reglas de creaci\u00f3n de firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Las pol\u00edticas de firma y sello definir\u00e1n las condiciones particulares bajo las que, en su \u00e1mbito, se generar\u00e1 la firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Las plataformas que presten el servicio de creaci\u00f3n de firma electr\u00f3nica proporcionar\u00e1n las funcionalidades necesarias para soportar un proceso de creaci\u00f3n de firmas y sellos basado en los siguientes puntos:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Selecci\u00f3n por parte del usuario firmante del fichero, formulario u otro objeto binario para ser firmado. Los formatos de ficheros atender\u00e1n a lo recogido en la NTI de Cat\u00e1logo de est\u00e1ndares."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "El firmante se asegurar\u00e1 de que el fichero que se quiere firmar no contiene contenido din\u00e1mico que afecte a su validez y que pudiese modificar el resultado de la firma/sello a lo largo del tiempo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) El servicio de firma electr\u00f3nica ejecutar\u00e1 las siguientes verificaciones previas a la creaci\u00f3n de la firma:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "i. La firma/sello electr\u00f3nicos pueden ser validados para el formato del fichero espec\u00edfico que va a ser firmado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "ii. Validez del certificado, comprobando si el certificado ha sido revocado, o suspendido, si entra dentro de su periodo de validez, y la validaci\u00f3n de la cadena de certificaci\u00f3n, incluyendo la validaci\u00f3n de todos los certificados en la cadena, y de su vigencia y estado de no revocaci\u00f3n, y si el certificado ha sido expedido por un Prestador de Servicios de Confianza Cualificado, incluido en la TSL del pa\u00eds emisor."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "Si alguna de estas verificaciones es err\u00f3nea, el proceso de firma se interrumpir\u00e1."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Si no fuese posible realizar estas comprobaciones en el momento de la firma, ser\u00e1 necesario, en todo caso, que los sistemas receptores de la firma asuman dicha validaci\u00f3n, antes de aceptar el fichero, formulario u otro objeto binario firmado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) El servicio crear\u00e1 un fichero con la firma/sello seg\u00fan corresponda en funci\u00f3n del formato utilizado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "En el momento de la firma, se incluir\u00e1 la referencia del identificador \u00fanico de la versi\u00f3n del documento de pol\u00edtica de firma y sello electr\u00f3nicos en el que se ha basado su creaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. La vinculaci\u00f3n del firmante se establecer\u00e1 a trav\u00e9s de etiquetas que, incluidas bajo la firma, y definidas seg\u00fan los est\u00e1ndares correspondientes (XAdES, CAdES y/o PAdES), proporcionar\u00e1n la siguiente informaci\u00f3n complementaria a \u00e9sta:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Fecha y hora de firma, que podr\u00e1 ser meramente indicativa en funci\u00f3n de c\u00f3mo se haya generado la firma."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Certificado del firmante."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Cadena de validaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "d) Pol\u00edtica de firma y sello sobre la que se basa el proceso de generaci\u00f3n de firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "e) Formato del objeto original."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "4. Como datos opcionales, la firma/sello electr\u00f3nicos podr\u00e1 incluir:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Lugar geogr\u00e1fico donde se ha realizado la firma del documento."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Rol de la persona firmante en la firma electr\u00f3nica."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Acci\u00f3n del firmante sobre el documento firmado (lo aprueba, lo informa, lo recibe, lo certifica, etc.)."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "d) Sello de tiempo sobre algunos o todos los objetos de la firma."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "5. En caso de creaci\u00f3n de firmas/sellos electr\u00f3nicos por distintos firmantes sobre un mismo objeto, donde el segundo firmante ratifica la firma del primero se utilizar\u00e1 la etiqueta correspondiente, CounterSignature, para contabilizarlas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "6. En el caso de que las m\u00faltiples firmas/sellos se realicen al mismo nivel, cada una de ellas se representar\u00e1 como una firma independiente."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "III.7 Reglas de validaci\u00f3n de firma/sello electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Las pol\u00edticas de firma y sello definir\u00e1n las condiciones particulares bajo las que, en su \u00e1mbito, ser\u00e1 posible validar la firma electr\u00f3nica de un documentosiguiendo los requisitos establecidos en el art\u00edculo 32.1 del Reglamento (UE) No 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. En el caso de documentos electr\u00f3nicos, para acceder a la visualizaci\u00f3n de la firma/sello, el usuario podr\u00e1 presentar dicho documento electr\u00f3nico, que contenga los datos, metadatos y firmas/sellos, en una sede electr\u00f3nica o en otros sistemas generales que proporcionen herramientas de reproducci\u00f3n de documentos electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "3. Las condiciones m\u00ednimas que se producir\u00e1n para la validaci\u00f3n de la firma/sello ser\u00e1n las siguientes:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Garant\u00eda de que la firma es v\u00e1lida para el fichero espec\u00edfico que est\u00e1 firmado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Validez de los certificados:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "i. El instante de tiempo que se tomar\u00e1 como referencia para la validaci\u00f3n ser\u00e1:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1) El momento en que se produjo la firma/sello si se da alguno de los siguientes supuestos:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a. los servicios de los prestadores facilitan los hist\u00f3ricos de estado de los certificados y la firma/sello lleva un sello de tiempo v\u00e1lido en el momento de la verificaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b. se trata de firmas/sellos longevos que incluyen las evidencias de la validez de la firma electr\u00f3nica en el momento de la generaci\u00f3n o primera validaci\u00f3n, y dichas evidencias se encuentran selladas con un sello de tiempo v\u00e1lido."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "2) En otros casos, el momento de la validaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "ii. Se comprobar\u00e1 que los certificados no fueron revocados ni suspendidos y que no han expirado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "iii. Se comprobar\u00e1 la validez de toda la cadena de certificaci\u00f3n, incluyendo todos los certificados que la componen, con independencia de que \u00e9stos se encuentren incluidos en la propia firma o no."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "iv. Se verificar\u00e1 que el certificado ha sido expedido por un prestador de servicios de certificaci\u00f3n de confianza bajo una Declaraci\u00f3n de Pr\u00e1cticas de Certificaci\u00f3n que cumplir\u00e1 la normativa y estar\u00e1 incluido en la pol\u00edtica de firma y sello aplicable, y ha sido expedido por un Prestador de Servicios de Confianza Cualificado, incluido en la TSL del pa\u00eds emisor."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "v. Verificaci\u00f3n, si existen y si as\u00ed lo requiere la pol\u00edtica de la plataforma de relaci\u00f3n electr\u00f3nica o un servicio concreto de dicha plataforma, de los sellos de tiempo de los formatos implementados, incluyendo la verificaci\u00f3n de los periodos de validez de los sellos de tiempo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "4. Para validar la firma electr\u00f3nica se considerar\u00e1 la siguiente informaci\u00f3n:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Fecha y hora de la firma/sello: Si se ha realizado el sellado de tiempo, el sello de tiempo m\u00e1s antiguo dentro de la estructura de la firma se utilizar\u00e1 para determinar la fecha de la firma/sello. En caso de que no existan sellos de tiempo, la fecha y hora de la firma tendr\u00e1n car\u00e1cter indicativo, pero no se utilizar\u00e1n para determinar el momento en que se realiz\u00f3 la firma. En caso de que no existan sellos de tiempo en la firma, la validaci\u00f3n del certificado se realizar\u00e1 en el momento de la validaci\u00f3n de la firma/sello."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Certificado del firmante. Este campo se utilizar\u00e1 para verificar el estado del certificado, y en su caso la cadena de certificaci\u00f3n, en la fecha de la generaci\u00f3n de la firma/sello."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "c) Pol\u00edtica de firma y sello sobre la que se basa el proceso de generaci\u00f3n de firma electr\u00f3nica. Se utilizar\u00e1 para identificar, mediante su hash y su identificador (OID), que la pol\u00edtica de firma y sello que se ha utilizado para la generaci\u00f3n de la firma se corresponde con la que se utilizar\u00e1 para el servicio en cuesti\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "Esta validaci\u00f3n de la pol\u00edtica de firma y sello, implicar\u00e1 que el verificador dispondr\u00e1 de los medios para verificar las condiciones impuestas en la pol\u00edtica de firma y sello concreta. La disponibilidad de la pol\u00edtica de firma y sello en un formato interpretable por medios automatizados (XML o ASN.1) y siguiendo los est\u00e1ndares europeos de representaci\u00f3n de pol\u00edticas de firma, indicada en el ep\u00edgrafe 3.d del subapartado II.5 de esta NTI, facilitar\u00e1 la labor de las aplicaciones receptoras de firmas electr\u00f3nicas en aplicar distintas pol\u00edticas de firma y sello."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "5. Si se han realizado varias firmas/sellos sobre un mismo documento, se seguir\u00e1 el mismo proceso de verificaci\u00f3n que con la primera firma/sello, comprobando cada firma o la etiqueta CounterSignature en el campo de propiedades no firmadas, donde se informa de los refrendos de firma generados."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "6. El encargado de la verificaci\u00f3n de la firma/sello podr\u00e1 definir sus procesos de validaci\u00f3n y de archivado, siempre en consonancia con los requisitos de la pol\u00edtica de firma y sello a la que se ajuste el servicio y con lo establecido en la NTI de Pol\u00edtica de gesti\u00f3n de documentos electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "7. Para la verificaci\u00f3n del estado de los certificados en el caso de formatos de firma longeva, la validez de la firma/sello vendr\u00e1 determinada por la validez del sello de tiempo de las evidencias de la validaci\u00f3n incluidas en la firma. En estos casos la validez de la firma/sello a lo largo del tiempo se mantendr\u00e1 resellando la firma/sello antes de la caducidad del certificado de la TSA (Autoridad de sellado de tiempo) que realiz\u00f3 el sello de tiempo anterior, de forma que siempre sea posible verificar que en el momento en que se realiz\u00f3 la firma/sello, el certificado era v\u00e1lido."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "8. En el caso de validaci\u00f3n por un tercero, el validador ofrecer\u00e1 a la parte usuaria el resultado correcto del proceso de validaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "centro_cursiva",
+          "#text": "IV Reglas de confianza"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "IV.1 Reglas de confianza para los certificados electr\u00f3nicos."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Las pol\u00edticas de firma y sello, marco o particulares, podr\u00e1n fijar limitaciones y restricciones espec\u00edficas para los certificados electr\u00f3nicos que admiten en cada uno de los servicios que corresponda, si el uso destinado del certificado establecido en su Pol\u00edtica de Certificaci\u00f3n no est\u00e1 acorde al \u00e1mbito de la Pol\u00edtica de firma y sello, siempre en consideraci\u00f3n de la normativa aplicable en cada caso."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Se presumir\u00e1n v\u00e1lidos los certificados cualificados que usen los ciudadanos en las firmas y sellos electr\u00f3nicos. Si una administraci\u00f3n apreciara alg\u00fan aspecto que cuestionara esta validez lo har\u00e1 saber al ciudadano que dispondr\u00e1 del plazo previsto en la normativa de procedimiento administrativo para subsanar lo que corresponda o ratificar por otra v\u00eda los documentos firmados electr\u00f3nicamente. El firmante no podr\u00e1 alegar que ha utilizado una firma inv\u00e1lida con arreglo a una determinada Declaraci\u00f3n de Pr\u00e1cticas de Certificaci\u00f3n como condici\u00f3n en la que se base un recurso de nulidad o anulabilidad de un acto."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "3. Los certificados v\u00e1lidos para ejecutar la firma/sello electr\u00f3nicos de contenido ser\u00e1n los certificados electr\u00f3nicos cualificados de firma y sello seg\u00fan el Reglamento (UE) 910/2014 del Parlamento europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza en las transacciones electr\u00f3nicas en el mercado interior y por el que se deroga la Directiva 1999/93/CE."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "4. La relaci\u00f3n de prestadores de servicios de certificaci\u00f3n que emiten certificados electr\u00f3nicos cualificados se consultar\u00e1 en la TSL (Lista de servicios de confianza) publicada en la sede electr\u00f3nica del Ministerio de Industria, Energ\u00eda y Turismo y en las TSL del resto de pa\u00edses de la UE, de conformidad con la Decisi\u00f3n de Ejecuci\u00f3n UE 2015/1505 de la Comisi\u00f3n, de 8 de septiembre de 2015, por la que se establecen las especificaciones t\u00e9cnicas y los formatos relacionados con las listas de confianza de conformidad con el art\u00edculo 22, apartado 5, del Reglamento (UE) no 910/2014 del Parlamento Europeo y del Consejo, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "5. La pol\u00edtica de firma y sello electr\u00f3nicos podr\u00e1 establecer el per\u00edodo de precauci\u00f3n o de gracia que corresponda aplicar para la validaci\u00f3n de los certificados. Este periodo podr\u00e1 ser, desde el momento en que se realiza la firma o el sellado de tiempo, como m\u00ednimo, el tiempo m\u00e1ximo permitido para el refresco completo de las CRLs (Certificate Revocation Lists) o el tiempo m\u00e1ximo de actualizaci\u00f3n del estado del certificado en el servicio OCSP (Online Certificate Status Protocol). Esta definici\u00f3n tendr\u00e1 en cuenta tambi\u00e9n la posibilidad de que estos tiempos var\u00eden seg\u00fan el Prestador de Servicios de Certificaci\u00f3n."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "6. El verificador validar\u00e1 los certificados electr\u00f3nicos en base a los procesos de validaci\u00f3n y archivado definidos en la pol\u00edtica de firma y sello a la que se ajuste el servicio en cada caso."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "IV.2 Reglas de confianza para sellos de tiempo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. Los sellos cualificados de tiempo cumplir\u00e1n los indicados en el art\u00edculo 42.1 del Reglamento (UE) No 910/2014 del Parlamento Europeo y del Consejo, de 23 de julio de 2014, relativo a la identificaci\u00f3n electr\u00f3nica y los servicios de confianza para las transacciones electr\u00f3nicas en el mercado interior y por la que se deroga la Directiva 1999/93/CE."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Los elementos b\u00e1sicos de un sello cualificado de tiempo ser\u00e1n los indicados en las Normas Europeas de estandarizaci\u00f3n:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) ETSI EN 319 422 V1.1.1Time-stamping protocol and time-stamp token profiles."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) ETSI EN 319 421 V1.1.1 Policy and Security Requirements for Trust Service Providers issuing Time-Stamps."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "O en las que las sustituyan."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. El sellado de tiempo y la informaci\u00f3n de validaci\u00f3n podr\u00e1n ser a\u00f1adidos por el emisor, el receptor o un tercero y se incluir\u00e1n como propiedades no firmadas en los campos correspondientes seg\u00fan el formato de firma utilizado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "4. En la pol\u00edtica de firma y sello se establecer\u00e1n las condiciones seg\u00fan las que determinar los sellos de tiempo admitidos atendiendo a sus necesidades particulares, y en base a la normativa y legislaci\u00f3n vigente. Esto incluye el establecimiento del tiempo m\u00e1ximo aceptable para realizar el sellado de tiempo, anterior, en cualquier caso, a la caducidad del certificado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "IV.3 Reglas de confianza para firmas longevas."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "1. En el caso de firmas longevas, el firmante o el verificador de la firma incluir\u00e1 un sello de tiempo que permita garantizar que el certificado era v\u00e1lido en el momento en que se realiz\u00f3 la firma. En el caso de que sea incluida por el firmante, se podr\u00e1 realizar una vez haya trascurrido el periodo de precauci\u00f3n o periodo de gracia."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "2. Para la conversi\u00f3n de una firma electr\u00f3nica a firma electr\u00f3nica longeva:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "a) Se verificar\u00e1 la firma electr\u00f3nica, validando la integridad de la firma acorde a las reglas de validaci\u00f3n de firma de electr\u00f3nica del ep\u00edgrafe III.7."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "b) Se realizar\u00e1 un proceso de completado de la firma electr\u00f3nica que consistir\u00e1 en la obtenci\u00f3n y almacenamiento de las referencias a:"
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "i. Certificados: Incluyendo los certificados del firmante y de la cadena de certificaci\u00f3n tanto del firmante como del sello de tiempo."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "ii. Informaciones de estado de los certificados, CRLs o las respuestas OCSP."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "c) Aplicaci\u00f3n del sellado de tiempo a las referencias a los certificados y a las informaciones de estado."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo_2",
+          "#text": "3. Para la incorporaci\u00f3n a la firma de la informaci\u00f3n completa de validaci\u00f3n, se usar\u00e1 validaci\u00f3n mediante CRLs u OCSP."
+        },
+        {
+          "@xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+          "@class": "parrafo",
+          "#text": "4. Las pol\u00edticas de firma y sello contemplar\u00e1n la definici\u00f3n de formatos y consideraciones de uso de firmas longevas conforme a las necesidades espec\u00edficas de su \u00e1mbito de aplicaci\u00f3n y a la normativa espec\u00edfica aplicable."
+        }
+      ]
+    }
   }
-}
 }
