@@ -1,6 +1,5 @@
 ---
 title: Gestión de proyectos
-status: draft
 replace:
   "PDM": '<a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_diagrama_de_precedencias" title="Método del diagrama de precedencias" class="abbr">PDM</a>'
   "ADM": '<a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_diagrama_de_flechas" title="Método del diagrama de flechas" class="abbr">ADM</a>'
@@ -135,7 +134,48 @@ Todo proceso que pueda afectar a los FCE se considera estratégico. Los FCE
 están directamente relacionados con las Debilidades, Amenazas, Fortalezas y Oportunidades
 de la organización (DAFO).
 
-# EDT
+Los FCE se obtienen de la siguiente manera:
+
+1. Elaborar una lista de los objetivos de la organización
+2. Depurar la lista de objetivos
+3. Identificar los factores de éxito
+4. Eliminar los factores de éxito no críticos
+5. Agrupar los factores de éxito de acuerdo con los objetivos
+6. Identificar los componentes de estos factores de éxito
+7. Seleccionar los factores críticos de éxito
+8. Finalizar el estudio de los factores críticos de éxito
+
+# Estructura de Descomposición de Trabajo (WBS)
+
+Descomposición de las actividades de un proyecto según su naturaleza cuya
+forma jerárquica permite una
+fácil identificación de los elementos finales, llamados *Paquetes de Trabajo*.
+
+![](img/wbs.png)
+
+Figura: Ejemplo WBS
+
+El WBS cumple lo siguiente:
+
+* Regla del 100%: el WBS debe incluir el 100% del trabajo definido en el
+alcance del proyecto, incluyendo todos los entregables, y debe cumplirse
+en todos los niveles, es decir, la suma del trabajo de los procesos
+hijos debe ser igual al trabajo del proceso padre.
+* El WBS planifica entregables, no acciones
+* Se usa un esquema numerado: sirve para usar cada identificador
+numérico como si fuera una *cuenta* a la que se le asignan los costes
+* Elemento terminal: son las hojas del árbol lo que se estima (plazo,
+coste, requisitos y recursos) y se analizan las dependencias entre ellos
+
+# Diagrama de Extrapolación
+
+Técnica para realizar un seguimiento de los proyectos software.
+Con ella se obtienen previsiones de desviaciones en la duración
+del desarrollo del proyecto.
+
+![](img/extrapolacion.png)
+
+Figura: Un proyecto, estimado en 20 mil horas y 10 meses, es vuelto a estimar en el 5º mes obteniendo 22 mil horas, por lo tanto (tras calcular la desviación) el total de meses será ahora 12,2
 
 # Bibliografía
 
@@ -143,4 +183,4 @@ de la organización (DAFO).
 * PreparaTic27 - Pack1/036
 * PreparaTic27 - Pack1/098
 * PreparaTic27 - Pack1/033
-* PreparaTic27 - Pack1/086
+* <strike title="Se solapa con otros temas">PreparaTic27 - Pack1/086</strike>

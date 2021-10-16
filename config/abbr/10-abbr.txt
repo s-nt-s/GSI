@@ -1887,3 +1887,7 @@ Modelo Constructivo de Costos (COnstructive COst MOdel)
 DAFO
 https://es.wikipedia.org/wiki/An%C3%A1lisis_FODA
 Debilidades, Amenazas, Fortalezas y Oportunidade
+
+WBS
+https://es.wikipedia.org/wiki/Estructura_de_descomposici%C3%B3n_del_trabajo
+Estructura de Descomposición de Trabajo (Work Breakdown Structure)

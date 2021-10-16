@@ -19,6 +19,19 @@ del ENS
 **[Guías 800 de seguridad CCN-STIC](https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html)**:
 normas, instrucciones, guías y recomendaciones para aplicar el ENS.
 
+Según **MAGERIT v3**:
+
+* **Amenaza**: Causa potencial de un incidente que puede causar
+daños
+* **Riesgo**: Estimación del grado de exposición a que una amenaza se materialice
+* **Degradación**: Pérdida de valor de un activo como consecuencia de
+la materialización de una amenaza
+* **Impacto**: Consecuencia que sobre un activo tiene la materialización de una amenaza
+* **Salvaguarda**: Procedimiento o mecanismo tecnológico que reduce el riesgo
+* **Vulnerabilidad**: Defecto o debilidad que habilita o facilita la materialización de una amenaza
+* **Riesgo residual**: riesgo que persiste tras implementar las
+salvaguardas
+
 # [Principios básicos](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
 
 * Seguridad integral
@@ -300,6 +313,23 @@ Las medidas de seguridad se dividen en tres grupos:
 
 Tabla 3: [Medidas de seguridad ENS](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii)
 
+## Ejemplo con el análisis de riesgo
+
+Para los sistemas de categoría BÁSICA, bastará un análisis informal, realizado en
+lenguaje natural que indique:
+
+1. los activos más valiosos del sistema.
+2. las amenazas más probables
+3. las salvaguardas que protegen de dichas amenazas
+4. los principales riesgos residuales
+
+MEDIA: Análisis semi-formal (lenguaje específico, catálogo básico de amenazas, semántica definida)
+que, además de *indicar*, *valore* y *cuantifique*.
+
+ALTA: Análisis formal (lenguaje específico, fundamento matemático reconocido internacionalmente)
+que, además de lo aplicable para MEDIA, indique las vulnerabilidades habilitantes
+las amenazas.
+
 # Instrucciones Técnicas de Seguridad
 
 El [ENS incluye como de obligado cumplimiento las ITS](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#dacuaa):
@@ -447,8 +477,55 @@ coordinación con las AAPP durante las crisis
     * Comité de seguridad energética
     * Consejo de seguridad aeroespacial
 
+# Análisis y gestión del riesgo
+
+Pasos a seguir:
+
+1. Determinar los activos relevantes para la organización, su interrelación y su valor.
+2. Determinar a qué amenazas están expuestos aquellos activos.
+3. Determinar qué salvaguardas hay dispuestas y cuán eficaces son frente al riesgo.
+4. Estimar el impacto derivado de la materialización de la amenaza.
+5. Estimar el riesgo, definido como el impacto ponderado con la tasa de ocurrencia de la amenaza.
+
+Teniendo en cuenta que el **coste total** es la suma del Coste de Interrupción (relacionado con el tiempo de duración) y el Coste de Recuperación (asociado a la existencia de un plan de continuidad del negocio).
+
+Los controles que se pueden tomar son:
+
+* Preventivos
+* Directivos (detectar cuándo se ha producido un error, omisión
+o acto indebido e informar de ello)
+* Correctivos
+
+# Recuperación de desastres y continuidad del negocio
+
+**Tolerancia a desastre**: brecha de tiempo en la cual el negocio puede aceptar indisponibilidad de los servicios de Tecnologías de la Información (TI).
+
+**Ventana de interrupción**: tiempo que una organización puede esperar desde el punto de fallo hasta la recuperación de los servicios críticos. Después de este tiempo, las pérdidas progresivas
+causadas por la interrupción no son permisibles.
+
+**Objetivo de entrega de servicio** (**SDO** Service Delivery Objective):
+El nivel de servicios a proveer durante el modo de proceso alterno hasta que se restaure la situación normal.
+
+**Costes máximos tolerables**: Tiempo máximo que la organización puede soportar procesar en modo alterno. Después de este punto, pueden surgir diferentes problemas, en especial, si el SDO alterno es inferior al SDO habitual.
+
+**Objetivo de Punto de Recuperación** (**RPO** Recovery Point Objective): Se determina en base a la
+pérdida aceptable de datos en caso de interrupción de las operaciones.
+
+**Objetivo de Tiempo de Recuperación** (**RTO** Recovery Time Objective): Es el tiempo máximo
+tolerable de interrupción.
+
+## Estrategias de gestión de riesgos
+
+* Evitar: Eliminando la causa se elimina el riesgo.
+* Mitigar: Reducir la probabilidad o impacto de riesgo estableciendo los controles oportunos.
+* Compartir/transferir: Se comparte o transfiere el riesgo a través de la cobertura de un seguro,
+acuerdo contractual u otros métodos.
+* Aceptar: Reconocimiento formal de la existencia del riesgo y de las posibles consecuencias.
+
 # Bibliografía
 
 * PreparaTic27 - Pack1/048
+* PreparaTic27 - Pack1/047
 * [dsn.gob.es - Qué es la Seguridad Nacional](https://www.dsn.gob.es/es/sistema-seguridad-nacional/qu%C3%A9-es-seguridad-nacional)
 * [dsn.gob.es - Estrategia de Seguridad Nacional 2017](https://www.dsn.gob.es/es/estrategias-publicaciones/estrategias/estrategia-seguridad-nacional-2017#sthash.cOweiq8c.uxfs)
+* [zonademarrones.com - Preparando CISM Notas: Dominio 4](https://www.zonademarrones.com/preparando-cism-notas-dominio-4/)
