@@ -155,7 +155,7 @@ r'([Mm]odelo )?OSI
 https://es.wikipedia.org/wiki/Modelo_OSI
 Modelo OSI
 
-r'([Aa]rquitectura )?ANSI/SPARC
+r'([Aa]rquitectura )?ANSI/(X3/)?SPARC
 https://es.wikipedia.org/wiki/Arquitectura_ANSI-SPARC
 Arquitectura ANSI-SPARC
 
@@ -1891,3 +1891,7 @@ Debilidades, Amenazas, Fortalezas y Oportunidade
 WBS
 https://es.wikipedia.org/wiki/Estructura_de_descomposici%C3%B3n_del_trabajo
 Estructura de Descomposición de Trabajo (Work Breakdown Structure)
+
+i'(Diagrama de )?Ishikawa
+https://es.wikipedia.org/wiki/Diagrama_de_Ishikawa
+Diagrama usado para visualizar las causas de un problema

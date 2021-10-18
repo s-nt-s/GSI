@@ -18,11 +18,11 @@ obtención de un marco de referencia para el desarrollo de sistemas de informaci
 que responda a los objetivos estratégicos de la organización (básicamente es un
 el plan estratégico de la organización, no confundir con la planificación de un proyecto en particular)
 2. **EVS Estudio de Viabilidad del Sistema**: para una nueva necesidad se genera
-una solución técnica, con un lazo de resolución, unos costes asociados y un catálogo
-de requisitos..
+una solución técnica, con un plazo de resolución, unos costes asociados, un catálogo
+de requisitos...
 3. **ASI Análisis del Sistema de Información**: elaboración de Especificación de
 Requisitos Software (ERS), refinamiento, adicciones y confirmación del catalogo de requisitos,
-modelos conceptuales y planes de prueba..
+modelos conceptuales y planes de prueba...
 4. **DSI Diseño del Sistema de Información**: definición de la arquitectura del
 sistema y del entorno tecnológico, especificación detallada de los componentes
 del sistema de información, adicciones al catálogo de requisitos...

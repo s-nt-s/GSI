@@ -177,6 +177,14 @@ del desarrollo del proyecto.
 
 Figura: Un proyecto, estimado en 20 mil horas y 10 meses, es vuelto a estimar en el 5º mes obteniendo 22 mil horas, por lo tanto (tras calcular la desviación) el total de meses será ahora 12,2
 
+# Diagrama de Ishikawa (cola de pescado o espina de pez)
+
+Usado para visualizar las causas de un problema
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/5b/Diagrama-general-de-causa-efecto.svg)
+
+Figura: Diagrama de Ishikawa
+
 # Bibliografía
 
 * PreparaTic27 - Pack1/035

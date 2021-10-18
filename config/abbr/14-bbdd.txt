@@ -1,0 +1,15 @@
+DDL
+https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos
+Lenguaje de definición de datos (Data Definition Language)
+
+DML
+https://es.wikipedia.org/wiki/Lenguaje_de_manipulaci%C3%B3n_de_datos
+Lenguaje de manipulación de datos (Data Manipulation Language)
+
+DCL
+https://es.wikipedia.org/wiki/Lenguaje_de_control_de_datos
+Lenguaje de control de datos (Data Control Language)
+
+SGDB
+https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos
+Sistema de gestión de bases de datos
