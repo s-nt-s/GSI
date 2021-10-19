@@ -2,12 +2,6 @@
 title: Bases de datos relacionales
 replace:
   "DBA": '<abbr title="Administrador de la base de datos" class="abbr">abbr</a>'
-  "1FM": '<abbr title="1º forma normal" class="abbr">1FM</a>'
-  "2FM": '<abbr title="2º forma normal" class="abbr">2FM</a>'
-  "3FM": '<abbr title="3º forma normal" class="abbr">3FM</a>'
-  "FNBC": '<abbr title="Forma normal de Boyce-Codd" class="abbr">FNBC</a>'
-  "4FM": '<abbr title="4º forma normal" class="abbr">4FM</a>'
-  "5FM": '<abbr title="5º forma normal" class="abbr">5FM</a>'
   "PDO": '<abbr title="PHP Data Object" class="abbr">PDO</a>'
 ---
 # Conceptos básicos
@@ -118,18 +112,18 @@ Tabla: Equivalencia álgebra relacional - sentencias SQL
 
 ## Reglas de Codd
 
-1. La regla de la información: Toda la información en un RDBMS está explícitamente representada de una sola manera por valores en una tabla
-2. La regla del acceso garantizado: Cada ítem de datos debe ser lógicamente accesible al ejecutar una búsqueda que combine el nombre de la tabla, su clave primaria y el nombre de la columna
-3. Tratamiento sistemático de los valores nulos: La información inaplicable o faltante puede ser representada a través de valores nulos
-4. La regla de la descripción de la base de datos: La descripción de la base de datos es almacenada de la misma manera que los datos ordinarios, esto es, en tablas y columnas, y debe ser accesible a los usuarios autorizados
-5. La regla del sub-lenguaje integral: Debe haber al menos un lenguaje que sea integral para soportar la definición de datos, manipulación de datos, definición de vistas, restricciones de integridad, y control de autorizaciones y transacciones
-6. La regla de la actualización de vistas: Todas las vistas que son teóricamente actualizables, deben ser actualizables por el sistema mismo
-7. La regla de insertar y actualizar: La capacidad de manejar una base de datos con operandos simples se aplica no sólo para la recuperación o consulta de datos, sino también para la inserción, actualización y borrado de datos
-8. La regla de independencia física: El acceso de usuarios a la base de datos a través de terminales o programas de aplicación, debe permanecer consistente lógicamente cuando quiera que haya cambios en los datos almacenados, o sean cambiados los métodos de acceso a los datos
-9. La regla de independencia lógica: Los programas de aplicación y las actividades de acceso por terminal deben permanecer lógicamente inalteradas cuando quiera que se hagan cambios (según los permisos asignados) en las tablas de la base de datos
-10. La regla de la independencia de la integridad: Todas las restricciones de integridad deben ser definibles en los datos, y almacenables en el catálogo, no en el programa de aplicación
-11. La regla de la distribución: El sistema debe poseer un lenguaje de datos que pueda soportar que la base de datos esté distribuida físicamente en distintos lugares sin que esto afecte o altere a los programas de aplicación
-12. Regla de la no-subversión: Si el sistema tiene lenguajes de bajo nivel, estos lenguajes de ninguna manera pueden ser usados para violar la integridad de las reglas y restricciones expresadas en un lenguaje de alto nivel (como SQL)
+1. La regla de la **información**: Toda la información en un RDBMS está explícitamente representada de una sola manera por valores en una tabla
+2. La regla del **acceso garantizado**: Cada ítem de datos debe ser lógicamente accesible al ejecutar una búsqueda que combine el nombre de la tabla, su clave primaria y el nombre de la columna
+3. **Tratamiento sistemático de los valores nulos**: La información inaplicable o faltante puede ser representada a través de valores nulos
+4. La regla de la **descripción de la base de datos**: La descripción de la base de datos es almacenada de la misma manera que los datos ordinarios, esto es, en tablas y columnas, y debe ser accesible a los usuarios autorizados
+5. La regla del **sub-lenguaje integral**: Debe haber al menos un lenguaje que sea integral para soportar la definición de datos, manipulación de datos, definición de vistas, restricciones de integridad, y control de autorizaciones y transacciones
+6. La regla de la **actualización de vistas**: Todas las vistas que son teóricamente actualizables, deben ser actualizables por el sistema mismo
+7. La regla de **insertar y actualizar**: La capacidad de manejar una base de datos con operandos simples se aplica no sólo para la recuperación o consulta de datos, sino también para la inserción, actualización y borrado de datos
+8. La regla de **independencia física**: El acceso de usuarios a la base de datos a través de terminales o programas de aplicación, debe permanecer consistente lógicamente cuando quiera que haya cambios en los datos almacenados, o sean cambiados los métodos de acceso a los datos
+9. La regla de **independencia lógica**: Los programas de aplicación y las actividades de acceso por terminal deben permanecer lógicamente inalteradas cuando quiera que se hagan cambios (según los permisos asignados) en las tablas de la base de datos
+10. La regla de la **independencia de la integridad**: Todas las restricciones de integridad deben ser definibles en los datos, y almacenables en el catálogo, no en el programa de aplicación
+11. La regla de la **distribución**: El sistema debe poseer un lenguaje de datos que pueda soportar que la base de datos esté distribuida físicamente en distintos lugares sin que esto afecte o altere a los programas de aplicación
+12. Regla de la **no-subversión**: Si el sistema tiene lenguajes de bajo nivel, estos lenguajes de ninguna manera pueden ser usados para violar la integridad de las reglas y restricciones expresadas en un lenguaje de alto nivel (como SQL)
 
 ## [Normalización de una base de datos](https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos)
 
@@ -238,12 +232,11 @@ Estas extensiones dan lugar a jerarquías entre tipos y subtipos
 
 ![Jerarquías E/R](img/er_jerarquia.png)
 
-Figura:
-**d** = los subtipos son disjuntos<br/>
+Figura: **d** = los subtipos son disjuntos<br/>
 **O** = los subtipos pueden solaparse<br/>
-**U** = uniones por categorías.<br/>
+**U** = uniones por categorías<br/>
 La presencia de una jerarquía total se representa con una doble línea entre el
-supertipo y el triángulo.
+supertipo y el triángulo
 
 # Estándares ODBC, JDBC, .NET y PHP
 

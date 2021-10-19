@@ -21,3 +21,27 @@ Open Database Connectivity
 JDBC
 https://es.wikipedia.org/wiki/Java_Database_Connectivity
 Java Database Connectivity
+
+1FM
+https://es.wikipedia.org/wiki/Primera_forma_normal
+1º forma normal
+
+2FM
+https://es.wikipedia.org/wiki/Segunda_forma_normal
+2º forma normal
+
+3FM
+https://es.wikipedia.org/wiki/Tercera_forma_normal
+3º forma normal
+
+FNBC
+https://es.wikipedia.org/wiki/Forma_normal_de_Boyce-Codd
+Forma normal de Boyce-Codd
+
+4FM
+https://es.wikipedia.org/wiki/Cuarta_forma_normal
+4º forma normal
+
+5FM
+https://es.wikipedia.org/wiki/Quinta_forma_normal
+5º forma normal
