@@ -13,3 +13,11 @@ Lenguaje de control de datos (Data Control Language)
 SGDB
 https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos
 Sistema de gestión de bases de datos
+
+ODBC
+https://es.wikipedia.org/wiki/Open_Database_Connectivity
+Open Database Connectivity
+
+JDBC
+https://es.wikipedia.org/wiki/Java_Database_Connectivity
+Java Database Connectivity
