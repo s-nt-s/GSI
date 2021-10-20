@@ -136,7 +136,7 @@ class Convocatoria(MyMunch):
                 pass
             if tipo is None and ("cuestionario" in txt):
                 tipo = "test"
-            if txt in ("cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "enunciado del cuarto ejercicio y anexos"):
+            if txt in ("cuestionario primer ejercicio", "cuestionario", "enunciado del ejercicio", "cuestionario ejercicio único", "texto del ejercicio", "enunciado del cuarto ejercicio y anexos"):
                 exa.append(Examen(
                     ejercicio=ejercicio,
                     url=url,
