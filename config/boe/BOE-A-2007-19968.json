@@ -1,0 +1,1079 @@
+{
+  "documento": {
+    "@fecha_actualizacion": "20190617172602",
+    "metadatos": {
+      "identificador": "BOE-A-2007-19968",
+      "titulo": "Real Decreto 1494/2007, de 12 de noviembre, por el que se aprueba el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "279",
+      "seccion": "1",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "7710",
+        "#text": "Ministerio de la Presidencia"
+      },
+      "rango": {
+        "@codigo": "1340",
+        "#text": "Real Decreto"
+      },
+      "numero_oficial": "1494/2007",
+      "fecha_disposicion": "20071112",
+      "fecha_publicacion": "20071121",
+      "fecha_vigencia": "20071122",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "47567",
+      "pagina_final": "47572",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2007/11/21/pdfs/A47567-47572.pdf",
+      "url_pdf_catalan": "/boe_catalan/dias/2007/11/30/pdfs/A04967-04972.pdf",
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": "/boe_gallego/dias/2007/12/01/pdfs/A03803-03808.pdf",
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/rd/2007/11/12/1494"
+    },
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2007-19968"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2007-11-12"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "1494"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-19968"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-11-12"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1494"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494"
+                },
+                "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20180919"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20110917"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20071121"
+                  }
+                ],
+                "eli:is_realized_by": [
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/spa",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Real Decreto 1494/2007, de 12 de noviembre, por el que se aprueba el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2007-11-21"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof"
+                      },
+                      "eli:is_embodied_by": [
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/spa/html",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/spa/pdf",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/spa/xml",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/spa"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/cat",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Reial decret 1494/2007, de 12 de novembre, pel qual s'aprova el Reglament sobre les condicions b\u00e0siques per a l'acc\u00e9s de les persones amb discapacitat a les tecnologies, els productes i els serveis relacionats amb la societat de la informaci\u00f3 i els mitjans de comunicaci\u00f3 social."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2007-11-30"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/cat/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/cat"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/glg",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Real decreto 1494/2007, do 12 de novembro, polo que se aproba o Regulamento sobre as condici\u00f3ns b\u00e1sicas para o acceso das persoas con discapacidade \u00e1s tecnolox\u00edas, produtos e servizos relacionados coa sociedade da informaci\u00f3n e medios de comunicaci\u00f3n social. (\u00abBOE\u00bb 279, do 21-11-2007.)"
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2007-12-01"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/glg/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof/glg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20180919",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-19968"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-11-12"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1494"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2018-09-19"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20180919/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1494/2007, de 12 de noviembre, por el que se aprueba el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2018-09-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20180919"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20180919/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20180919/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20110917",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-19968"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-11-12"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1494"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2011-09-17"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20110917/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1494/2007, de 12 de noviembre, por el que se aprueba el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2011-09-17"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20110917"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20110917/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20110917/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20071121",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-19968"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-11-12"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "1494"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-11-21"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20071121/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 1494/2007, de 12 de noviembre, por el que se aprueba el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2007-11-21"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20071121"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20071121/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2007/11/12/1494/con/20071121/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "analisis": {
+      "notas": null,
+      "materias": {
+        "materia": [
+          {
+            "@codigo": "5023",
+            "@orden": "",
+            "#text": "Discapacidad"
+          },
+          {
+            "@codigo": "3254",
+            "@orden": "",
+            "#text": "Equipos de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "3716",
+            "@orden": "",
+            "#text": "Firma electr\u00f3nica"
+          },
+          {
+            "@codigo": "4506",
+            "@orden": "",
+            "#text": "Internet"
+          },
+          {
+            "@codigo": "5796",
+            "@orden": "",
+            "#text": "Publicidad institucional"
+          },
+          {
+            "@codigo": "6627",
+            "@orden": "",
+            "#text": "Servicios de telecomunicaci\u00f3n"
+          },
+          {
+            "@codigo": "6851",
+            "@orden": "",
+            "#text": "Tecnolog\u00eda"
+          },
+          {
+            "@codigo": "6860",
+            "@orden": "",
+            "#text": "Tel\u00e9fonos"
+          },
+          {
+            "@codigo": "6863",
+            "@orden": "",
+            "#text": "Televisi\u00f3n digital"
+          }
+        ]
+      },
+      "alertas": {
+        "alerta": [
+          {
+            "@codigo": "104",
+            "@orden": "",
+            "#text": "Asuntos sociales"
+          },
+          {
+            "@codigo": "129",
+            "@orden": "",
+            "#text": "Tecnolog\u00eda e investigaci\u00f3n"
+          },
+          {
+            "@codigo": "130",
+            "@orden": "",
+            "#text": "Telecomunicaciones"
+          }
+        ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-2005-6970",
+              "@orden": "2015",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "MODIFICA"
+              },
+              "texto": "los arts. 30.2, 32.4, 33.2 y 35.2.a) del Reglamento aprobado por Real Decreto 424/2005, de 15 de abril"
+            },
+            {
+              "@referencia": "BOE-A-2003-22066",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "la disposici\u00f3n final 7 de la Ley 51/2003, de 2 de diciembre"
+            },
+            {
+              "@referencia": "BOE-A-2002-13758",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "Disposici\u00f3n adicional 5 de la Ley 34/2002, de 11 de julio"
+            },
+            {
+              "@referencia": "BOE-A-2005-10069",
+              "@orden": "5020",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Ley 10/2005, de 14 de junio"
+            },
+            {
+              "@referencia": "BOE-A-2007-12352",
+              "@orden": "5021",
+              "palabra": {
+                "@codigo": "330",
+                "#text": "CITA"
+              },
+              "texto": "Ley 11/2007, de 22 de junio"
+            }
+          ]
+        },
+        "posteriores": {
+          "posterior": [
+            {
+              "@referencia": "BOE-A-2018-12699",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "SE DEROGA"
+              },
+              "texto": "los arts. 5, 6 y 7 y SE MODIFICA el art. 9, por Real Decreto 1112/2018, de 7 de septiembre"
+            },
+            {
+              "@referencia": "BOE-A-2011-14812",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "el art. 5, por Real Decreto 1276/2011, de 16 de septiembre"
+            }
+          ]
+        }
+      }
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "parrafo",
+          "#text": "La Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminaci\u00f3n y accesibilidad universal de las personas con discapacidad, contiene una disposici\u00f3n final s\u00e9ptima, que encomienda al Gobierno fijar, en el plazo de dos a\u00f1os desde su entrada en vigor, unas condiciones b\u00e1sicas de accesibilidad y no discriminaci\u00f3n para el acceso y utilizaci\u00f3n de las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y de cualquier medio de comunicaci\u00f3n social."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En el mismo sentido, la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la informaci\u00f3n y de comercio electr\u00f3nico, en su disposici\u00f3n adicional quinta, obliga a las administraciones p\u00fablicas a adoptar las medidas necesarias para que la informaci\u00f3n disponible en sus respectivas p\u00e1ginas de internet pueda ser accesible a personas mayores y con discapacidad de acuerdo con los criterios de accesibilidad al contenido generalmente reconocidos, antes del 31 de diciembre de 2005. La disposici\u00f3n adicional quinta establece, asimismo, que las administraciones p\u00fablicas deben promover la adopci\u00f3n de normas de accesibilidad por parte de los prestadores de servicios y los fabricantes de equipos y de programas de ordenador, para facilitar el acceso de las personas mayores o con discapacidad a los contenidos digitales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Consejo de Ministros de 4 de noviembre de 2005 adopt\u00f3 el Acuerdo por el que se aprueba el Plan 2006-2010 para el desarrollo de la sociedad de la informaci\u00f3n y de convergencia con Europa y entre comunidades aut\u00f3nomas y ciudades con estatuto de autonom\u00eda (Plan Avanza) que incluye un mandato dirigido al Ministerio de Trabajo y Asuntos Sociales, al Ministerio de Industria, Turismo y Comercio y al Ministerio de Administraciones P\u00fablicas para que elaboren un proyecto de real decreto por el que se regulen las condiciones de accesibilidad y no discriminaci\u00f3n para el acceso y utilizaci\u00f3n de los servicios relacionados con la sociedad de la informaci\u00f3n, tomando en consideraci\u00f3n, de manera particular, las recomendaciones europeas al respecto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente real decreto se inspira en los principios establecidos en la Ley 51/2003, de 2 de diciembre, fundamentalmente, accesibilidad universal y dise\u00f1o para todos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Unos criterios de accesibilidad aplicables a las p\u00e1ginas de Internet son los que se recogen, a nivel internacional, en la Iniciativa de Accesibilidad a la Web (Web Accessibility Iniciative) del Consorcio Mundial de la Web (World Wide Web Consortium), que los ha determinado en forma de pautas com\u00fanmente aceptadas en todas las esferas de internet, como las especificaciones de referencia cuando se trata de hacer que las p\u00e1ginas de Internet sean accesibles a las personas con discapacidad. En funci\u00f3n de dichas pautas, la Iniciativa de Accesibilidad a la Web ha determinado tres niveles de accesibilidad: b\u00e1sico, medio y alto, que se conocen como niveles A, AA o doble A y AAA o triple A. Dichas pautas han sido incorporadas en Espa\u00f1a a trav\u00e9s de la Norma UNE 139803:2004, que establece tres niveles de prioridades."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente real decreto especifica el grado de accesibilidad aplicable a las p\u00e1ginas de internet de las administraciones p\u00fablicas, estableciendo como nivel m\u00ednimo obligatorio el cumplimiento de las prioridades 1 y 2 de la citada Norma UNE."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En la misma direcci\u00f3n, la Ley 10/2005, de 14 de junio, de medidas urgentes para el impulso de la televisi\u00f3n digital terrestre, de liberalizaci\u00f3n de la televisi\u00f3n por cable y de fomento del pluralismo, en su disposici\u00f3n adicional 2.\u00aa, se refiere a la garant\u00eda de accesibilidad de la televisi\u00f3n digital terrestre para las personas con discapacidad, indicando que las administraciones competentes, previa audiencia a los representantes de los sectores afectados e interesados, adoptar\u00e1n las medidas necesarias para garantizar desde el inicio la accesibilidad de las personas con discapacidad a los servicios de televisi\u00f3n digital terrestre, concretando que para conseguir este fin, las medidas que se adopten se atendr\u00e1n a los principios de accesibilidad universal y dise\u00f1o para todas las personas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Asimismo, la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, en su art\u00edculo 3, \u00abObjetivos y principios\u00bb, contempla la defensa de los intereses y la satisfacci\u00f3n de las necesidades de las personas con necesidades especiales, tales como las personas con discapacidad, y, en su art\u00edculo 22, establece, dentro del \u00e1mbito del servicio universal, que los usuarios finales con discapacidad deben tener acceso al servicio telef\u00f3nico disponible al p\u00fablico desde una ubicaci\u00f3n fija y a los dem\u00e1s elementos del servicio universal en condiciones equiparables a las que se ofrecen al resto de usuarios finales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El reglamento de desarrollo de dicha ley, sobre las condiciones para la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas, el servicio universal y la protecci\u00f3n de los usuarios, aprobado por el Real Decreto 424/2005, de 15 de abril, concreta el \u00e1mbito del servicio universal, imponiendo obligaciones al operador designado en materia de accesibilidad, como las de garantizar la existencia de una oferta suficiente y tecnol\u00f3gicamente actualizada de terminales especiales adaptados a los diferentes tipos de discapacidades y realizar una difusi\u00f3n suficiente de la misma; la de poner a disposici\u00f3n de todos los usuarios, a trav\u00e9s de internet, la gu\u00eda telef\u00f3nica en formato accesible; la de poner a disposici\u00f3n de los usuarios ciegos, o con grave discapacidad visual, una determinada franquicia en las llamadas al servicio de consulta telef\u00f3nica sobre n\u00fameros de abonado, as\u00ed como la de facilitar, de forma gratuita, las facturas y las condiciones de prestaci\u00f3n del servicio, en sistema Braille o en letras grandes; la tarificaci\u00f3n especial de las llamadas que se realicen desde cualquier punto del territorio nacional al Centro de Inter-mediaci\u00f3n Telef\u00f3nica para personas sordas o con discapacidad auditiva y/o de fonaci\u00f3n del Ministerio de Trabajo y Asuntos Sociales; la obligaci\u00f3n de elaborar planes de adaptaci\u00f3n de las cabinas en la v\u00eda p\u00fablica para facilitar su accesibilidad por los usuarios con discapacidad, en particular, por los usuarios ciegos, en silla de ruedas o de talla baja."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Finalmente, la Ley 11/2007, de 22 de junio, de acceso electr\u00f3nico de los ciudadanos a los servicios p\u00fablicos, en su art\u00edculo 4.c), establece el principio de accesibilidad a la informaci\u00f3n y a los servicios por medios electr\u00f3nicos en los t\u00e9rminos establecidos por la normativa vigente en esta materia, a trav\u00e9s de sistemas que permitan obtenerlos de manera segura y comprensible, garantizando especialmente la accesibilidad universal y el dise\u00f1o para todos los soportes, canales y entornos con objeto de que todas las personas puedan ejercer sus derechos en igualdad de condiciones, incorporando las caracter\u00edsticas necesarias para garantizar la accesibilidad de aquellos colectivos que lo requieran."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente real decreto, en su disposici\u00f3n adicional primera, ampl\u00eda las prestaciones que el operador designado ha de ofrecer, modificando el reglamento del servicio universal. En concreto, se incorpora la obligaci\u00f3n de que la gu\u00eda telef\u00f3nica sea accesible a trav\u00e9s de internet con las condiciones de accesibilidad previstas para las p\u00e1ginas web de las administraciones p\u00fablicas; se ampl\u00edan las obligaciones relativas a la adaptaci\u00f3n de los tel\u00e9fonos p\u00fablicos de pago, de forma que en los citados planes se contemplen expresamente las medidas para facilitar el acceso por usuarios ciegos. Adem\u00e1s, dichos planes deber\u00e1n contemplar la accesibilidad para personas con grave discapacidad visual, tanto de la informaci\u00f3n visual que se exhiba en el visor del terminal, como de la que figura en la propia cabina. Finalmente, se refuerza la obligaci\u00f3n del operador designado en relaci\u00f3n con la oferta de terminales fijos adaptados a los distintos tipos de discapacidad y se menciona expresamente la inclusi\u00f3n de soluciones para que las personas con discapacidad visual puedan acceder a los contenidos de las pantallas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Por otra parte, en el Plan Nacional de Accesibilidad 2004-2012, adoptado por Acuerdo del Consejo de Ministros de 5 de julio de 2003, se pone de relieve que el uso que las personas con discapacidad hacen de las tecnolog\u00edas, sistemas, productos y servicios relacionados con la comunicaci\u00f3n, la informaci\u00f3n y la se\u00f1alizaci\u00f3n es superior al de la media espa\u00f1ola."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La utilizaci\u00f3n de los nuevos recursos tecnol\u00f3gicos est\u00e1 muy a menudo vinculada a la calidad de vida, la normalizaci\u00f3n y la integraci\u00f3n en la sociedad de las personas con discapacidad. Por esto, las barreras que se producen en este campo son de especial importancia y han de ser eliminadas de ra\u00edz. El presente real decreto se dicta con ese prop\u00f3sito."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente real decreto ha sido sometido a consulta de la XXXVI Conferencia Sectorial de Asuntos Sociales, del Consejo Nacional de la Discapacidad, de la Comisi\u00f3n del Mercado de las Telecomunicaciones, del Consejo Asesor de las Telecomunicaciones y para la Sociedad de la Informaci\u00f3n y del Consejo Superior de Administraci\u00f3n Electr\u00f3nica. Asimismo, ha participado en su elaboraci\u00f3n mediante consultas, el tejido social de la discapacidad articulado en torno al Comit\u00e9 Espa\u00f1ol de Representantes de Personas con Discapacidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En su virtud, a propuesta conjunta de los Ministros de Industria, Turismo y Comercio, de Trabajo y Asuntos Sociales y de Administraciones P\u00fablicas, de acuerdo con el Consejo de Estado y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 8 de noviembre de 2007,"
+        },
+        {
+          "@class": "subseccion",
+          "#text": "D I S P O N G O :"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo \u00fanico. Aprobaci\u00f3n del Reglamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se aprueba el Reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional primera. Modificaci\u00f3n del Real Decreto 424/2005, de 15 de abril, por el que se aprueba el Reglamento sobre las condiciones para la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas, el servicio universal y la protecci\u00f3n de los usuarios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Real Decreto 424/2005, de 15 de abril, por el que se aprueba el Reglamento sobre las condiciones para la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas, el servicio universal y la protecci\u00f3n de los usuarios, se modifica en los siguientes t\u00e9rminos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Uno. Se a\u00f1ade un segundo p\u00e1rrafo al art\u00edculo 30.2 en relaci\u00f3n con la accesibilidad de la gu\u00eda telef\u00f3nica universal a trav\u00e9s de internet:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00abEl operador designado deber\u00e1 ofrecer acceso a las gu\u00edas telef\u00f3nicas a trav\u00e9s de Internet, en formato accesible para usuarios con discapacidad, en las condiciones y plazos de accesibilidad establecidos para las p\u00e1ginas de internet de las administraciones p\u00fablicas, en el reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Dos. El p\u00e1rrafo segundo del apartado 4 del art\u00edculo 32, queda redactado de la siguiente manera:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00abPara ello, el operador designado presentar\u00e1, para su aprobaci\u00f3n por el Ministerio de Industria, Turismo y Comercio, planes de adaptaci\u00f3n de los tel\u00e9fonos p\u00fablicos de pago para facilitar su accesibilidad por los usuarios con discapacidad y, en particular, por los usuarios ciegos, en silla de ruedas o de talla baja. En relaci\u00f3n con los usuarios ciegos, los planes deber\u00e1n contemplar la accesibilidad, tanto de la informaci\u00f3n din\u00e1mica facilitada por el visor de terminal, como de la est\u00e1tica a la que se refiere el apartado 3.f) de este art\u00edculo. Dichos planes se deber\u00e1n presentar con un a\u00f1o de antelaci\u00f3n a la finalizaci\u00f3n del que estuviera vigente o cuando el Ministerio de Industria, Turismo y Comercio lo demande por considerar superado el vigente.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Tres. El p\u00e1rrafo primero del apartado 2 del art\u00edculo 33 queda redactado como sigue:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00abA los efectos de lo dispuesto en el apartado anterior, el operador designado garantizar\u00e1 la existencia de una oferta suficiente y tecnol\u00f3gicamente actualizada de terminales especiales, adaptados a los diferentes tipos de discapacidades, tales como tel\u00e9fonos de texto, videotel\u00e9fonos o tel\u00e9fonos con amplificaci\u00f3n para personas con discapacidad auditiva, o soluciones para que las personas con discapacidad visual puedan acceder a los contenidos de las pantallas de los terminales, y realizar\u00e1 una difusi\u00f3n suficiente de aqu\u00e9lla.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Cuatro. El p\u00e1rrafo 2.\u00ba del apartado 2.a) del art\u00edculo 35, queda redactado del siguiente modo:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00ab2.\u00ba Usuarios ciegos o con grave discapacidad visual. Consistir\u00e1 en la aplicaci\u00f3n de una determinada franquicia en las llamadas al servicio de consulta telef\u00f3nica sobre n\u00fameros de abonado, y en el establecimiento de las condiciones para la recepci\u00f3n gratuita de las facturas y de la publicidad e informaci\u00f3n suministrada a los dem\u00e1s abonados de telefon\u00eda fija sobre las condiciones de prestaci\u00f3n de los servicios, en sistema Braille o en letras o caracteres ampliados, sin menoscabo de la oferta que de esta informaci\u00f3n se pueda realizar en otros sistemas o formatos alternativos.\u00bb"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional segunda. Apoyos complementarios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "De acuerdo con lo ordenado por el art\u00edculo 10.2 c) de la Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminaci\u00f3n y accesibilidad universal de las personas con discapacidad, se establecen los siguientes apoyos complementarios:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Las personas con discapacidad y sus familias podr\u00e1n beneficiarse de las subvenciones y ayudas econ\u00f3micas que establezcan las administraciones p\u00fablicas para la adquisici\u00f3n o contrataci\u00f3n m\u00e1s ventajosa de elementos, bienes, productos y servicios de la sociedad de la informaci\u00f3n, en el \u00e1mbito de sus competencias."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Las personas mayores y con discapacidad tendr\u00e1n la consideraci\u00f3n de grupo de poblaci\u00f3n prioritario en el acceso a las iniciativas, programas y acciones de infoinclusi\u00f3n y de extensi\u00f3n de la sociedad de la informaci\u00f3n que desarrollen las administraciones p\u00fablicas. El Ministerio de Trabajo y Asuntos Sociales y el Ministerio de Industria, Turismo y Comercio, a trav\u00e9s de los mecanismos adecuados y, en su caso, del Instituto Nacional de Tecnolog\u00edas de la Comunicaci\u00f3n, promover\u00e1n el acceso regular y normalizado de las personas con discapacidad a la sociedad de la informaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) El Centro Estatal de Autonom\u00eda Personal y Ayudas T\u00e9cnicas del Ministerio de Trabajo y Asuntos Sociales y el Ministerio de Industria Turismo y Comercio habilitar\u00e1n una p\u00e1gina de internet, accesible a las personas con discapacidad y mayores, que contendr\u00e1 informaci\u00f3n global, completa y actualizada de todos los elementos, bienes, productos y servicios de la sociedad de la informaci\u00f3n, as\u00ed como de las iniciativas, programas y acciones que se desarrollen en el \u00e1mbito de la sociedad de la informaci\u00f3n y los medios de comunicaci\u00f3n social que tengan relevancia desde la perspectiva de las personas con discapacidad y mayores."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional tercera. Consejo Nacional de la Discapacidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Consejo Nacional de la Discapacidad, con base en el informe anual o en las medidas o decisiones propuestas por la Oficina Permanente Especializada al Pleno, informar\u00e1 sobre el grado de cumplimiento de las obligaciones en materia de accesibilidad regulada en este real decreto, para ser tenido en cuenta por el departamento ministerial responsable."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n transitoria \u00fanica. Plazos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Las obligaciones y medidas contenidas en este real decreto y el reglamento anexo ser\u00e1n exigibles desde el 4 de diciembre de 2009 para todos los productos y servicios nuevos, incluidas las campa\u00f1as institucionales que se difundan en soporte audiovisual y desde el 4 de diciembre de 2013 para todos aquellos existentes que sean susceptibles de ajustes razonables."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Las p\u00e1ginas de internet de las administraciones p\u00fablicas o con financiaci\u00f3n p\u00fablica deber\u00e1n adaptarse a lo dispuesto en el art\u00edculo 5 de dicho reglamento, en los siguientes plazos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Las p\u00e1ginas nuevas deber\u00e1n ajustarse a la prioridad 1 de la Norma UNE 139803:2004 desde la entrada en vigor del real decreto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Las p\u00e1ginas existentes deber\u00e1n adaptarse a la prioridad 1 de la Norma UNE 139803:2004 en el plazo de 6 meses desde la entrada en vigor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Todas las p\u00e1ginas, actualmente existentes o de nueva creaci\u00f3n, deber\u00e1n cumplir la prioridad 2 de la Norma UNE 139803:2004 a partir del 31 de diciembre de 2008. No obstante, este plazo de adaptaci\u00f3n y la citada norma t\u00e9cnica de referencia podr\u00e1n ser modificados a efectos de su actualizaci\u00f3n mediante orden ministerial conjunta, en los t\u00e9rminos establecidos en la disposici\u00f3n final tercera de este real decreto."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "3. Las obligaciones que la disposici\u00f3n adicional primera de este real decreto introduce en el reglamento aprobado por el Real Decreto 424/2005, de 15 de abril, deber\u00e1n ser cumplidas a partir de la entrada en vigor del presente real decreto, a excepci\u00f3n de lo en ella previsto para la accesibilidad a la gu\u00eda telef\u00f3nica universal a trav\u00e9s de Internet, a la que ser\u00e1n de aplicaci\u00f3n los plazos establecidos en el apartado anterior."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final primera. Financiaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las medidas previstas en el presente real decreto, ser\u00e1n financiadas con cargo a los cr\u00e9ditos ordinarios de los correspondientes departamentos y organismos p\u00fablicos competentes."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final segunda. T\u00edtulo competencial."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Este real decreto se dicta al amparo de las reglas 1.\u00aa y 21.\u00aa del art\u00edculo 149.1 de la Constituci\u00f3n, que reservan al Estado, respectivamente, competencias para la regulaci\u00f3n de las condiciones b\u00e1sicas que garanticen la igualdad de todos los espa\u00f1oles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales y en materia de telecomunicaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los art\u00edculos 5 y 8 del reglamento anexo al presente real decreto tienen el car\u00e1cter de legislaci\u00f3n b\u00e1sica sobre el r\u00e9gimen jur\u00eddico de las administraciones p\u00fablicas, de conformidad con lo dispuesto en el art\u00edculo 149.1.18.\u00aa de la Constituci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final tercera. Facultades de desarrollo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se autoriza a los Ministros de Econom\u00eda y Hacienda, de Trabajo y Asuntos Sociales, de Industria, Turismo y Comercio y de Administraciones P\u00fablicas, previa consulta al Consejo Nacional de la Discapacidad y al sector de operadores y empresas obligadas a cumplir las medidas del real decreto, a proponer al Ministro de la Presidencia la adopci\u00f3n mediante orden de cuantas disposiciones sean necesarias para la actualizaci\u00f3n de est\u00e1ndares determinados en el reglamento sobre las condiciones b\u00e1sicas para el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios relacionados con la sociedad de la informaci\u00f3n y medios de comunicaci\u00f3n social o el reconocimiento de otros nuevos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final cuarta. Accesibilidad de p\u00e1ginas de internet."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En al \u00e1mbito de la Administraci\u00f3n General del Estado, la excepcionalidad prevista en el art\u00edculo 5.2 del Reglamento, se determinar\u00e1 por Orden de la Ministra de la Presidencia dictada a propuesta conjunta de los Ministros de Econom\u00eda y Hacienda, de Trabajo y Asuntos Sociales, de Industria, Turismo y Comercio y de la Ministra de Administraciones P\u00fablicas."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final quinta. Entrada en vigor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente real decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Dado en Madrid, el 12 de noviembre de 2007."
+        },
+        {
+          "@class": "firma_rey",
+          "#text": "JUAN CARLOS R."
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "La Vicepresidenta Primera del Gobierno y Ministra de la Presidencia,"
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "MAR\u00cdA TERESA FERN\u00c1NDEZ DE LA VEGA SANZ"
+        },
+        {
+          "@class": "anexo",
+          "#text": "[encabezado]REGLAMENTO SOBRE LAS CONDICIONES B\u00c1SICAS PARA EL ACCESO DE LAS PERSONAS CON DISCAPACIDAD A LAS TECNOLOG\u00cdAS, PRODUCTOS Y SERVICIOS RELACIONADOS CON LA SOCIEDAD DE LA INFORMACI\u00d3N Y MEDIOS DE COMUNICACI\u00d3N SOCIAL"
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO I"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Disposiciones generales"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 1. Objeto del reglamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El objeto de este reglamento es establecer los criterios y las condiciones que se consideran b\u00e1sicos para garantizar el acceso de las personas con discapacidad a las tecnolog\u00edas, productos y servicios de la sociedad de la informaci\u00f3n y de cualquier medio de comunicaci\u00f3n social, de acuerdo con los principios de igualdad de oportunidades, no discriminaci\u00f3n y accesibilidad universal."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 2. \u00c1mbito de aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las administraciones p\u00fablicas, los operadores de telecomunicaciones, los prestadores de servicios de la sociedad de la informaci\u00f3n y los titulares de medios de comunicaci\u00f3n social que presten sus servicios bajo la jurisdicci\u00f3n espa\u00f1ola deber\u00e1n cumplir las condiciones b\u00e1sicas de accesibilidad que se establecen en el presente reglamento."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO II"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Condiciones b\u00e1sicas de accesibilidad y no discriminaci\u00f3n en materia de telecomunicaciones"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 3. Condiciones b\u00e1sicas de accesibilidad a los servicios de atenci\u00f3n al cliente y al contenido de los contratos, facturas y dem\u00e1s informaci\u00f3n exigida."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los operadores deber\u00e1n realizar los ajustes razonables que permitan el acceso por las personas con discapacidad al servicio de atenci\u00f3n al cliente, referido en el art\u00edculo 104 del reglamento, aprobado por el Real Decreto 424/2005, de 15 de abril, en los plazos establecidos en la disposici\u00f3n final s\u00e9ptima de la Ley 51/2003, de 2 de diciembre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Asimismo, los operadores deber\u00e1n facilitar a los abonados con discapacidad visual que lo soliciten, en condiciones y formatos accesibles, los contratos, facturas, y dem\u00e1s informaci\u00f3n suministrada a todos los abonados en cumplimiento de lo dispuesto en la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones y su normativa de desarrollo, en materia de derechos de los usuarios. Cuando la informaci\u00f3n o comunicaci\u00f3n se realice a trav\u00e9s de internet, ser\u00e1 de aplicaci\u00f3n lo dispuesto en este reglamento para las p\u00e1ginas de las administraciones p\u00fablicas o con financiaci\u00f3n p\u00fablica."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 4. Condiciones b\u00e1sicas de accesibilidad al servicio de telefon\u00eda m\u00f3vil."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Sin perjuicio de lo dispuesto en el Reglamento sobre las condiciones para la prestaci\u00f3n de servicios de comunicaciones electr\u00f3nicas, el servicio universal y la protecci\u00f3n de los usuarios, aprobado por el Real Decreto 424/2005, de 15 de abril, el Ministerio de Trabajo y Asuntos Sociales, a trav\u00e9s del Centro Estatal de Autonom\u00eda Personal y Ayudas T\u00e9cnicas, promover\u00e1 la existencia de una oferta suficiente y tecnol\u00f3gicamente actualizada de terminales de telefon\u00eda m\u00f3vil especiales, adaptados a los diferentes tipos de discapacidades. A estos efectos, se tendr\u00e1n en consideraci\u00f3n, entre otros, los siguientes elementos o facilidades:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Marcaci\u00f3n vocal y gesti\u00f3n de las funciones principales del tel\u00e9fono por voz."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Informaci\u00f3n, a trav\u00e9s de una s\u00edntesis de voz, de las diferentes opciones disponibles en cada momento o de cualquier cambio que se produzca en la pantalla."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Generaci\u00f3n de voz para facilitar la accesibilidad de los SMS."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Conectores para instalar equipos auxiliares tales como auriculares, amplificadores con bobina inductiva, pantallas externas, o teclados para enviar mensajes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Pantallas de alto contraste, con caracteres grandes o ampliados y posibilidad de configuraci\u00f3n por el usuario."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2. Cuando, de acuerdo con la Directiva 1999/5/CE del Parlamento Europeo y del Consejo, de 9 de marzo de 1999, sobre equipos radioel\u00e9ctricos y equipos terminales de telecomunicaciones y reconocimiento mutuo de su conformidad, la Comisi\u00f3n Europea decida la incorporaci\u00f3n de requisitos adicionales en los equipos terminales de telefon\u00eda m\u00f3vil, relativos a la compatibilidad de los mismos con las funcionalidades que faciliten su utilizaci\u00f3n por usuarios con discapacidad, su publicaci\u00f3n en Espa\u00f1a se har\u00e1 mediante resoluci\u00f3n de la Secretar\u00eda de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n, de acuerdo con lo dispuesto en el art\u00edculo 4 del Reglamento que establece el procedimiento para la evaluaci\u00f3n de la conformidad de los aparatos de telecomunicaciones, aprobado por el Real Decreto 1890/2000, de 20 de noviembre."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO III"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Criterios y condiciones b\u00e1sicas de accesibilidad y no discriminaci\u00f3n en materia de sociedad de la informaci\u00f3n"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 5. Criterios de accesibilidad aplicables a las p\u00e1ginas de internet de las administraciones p\u00fablicas o con financiaci\u00f3n p\u00fablica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La informaci\u00f3n disponible en las p\u00e1ginas de internet de las administraciones p\u00fablicas deber\u00e1 ser accesible a las personas mayores y personas con discapacidad, con un nivel m\u00ednimo de accesibilidad que cumpla las prioridades 1 y 2 de la Norma UNE 139803:2004."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Esta obligaci\u00f3n no ser\u00e1 aplicable cuando una informaci\u00f3n, funcionalidad o servicio no presente una alternativa tecnol\u00f3gica econ\u00f3micamente razonable y proporcionada que permita su accesibilidad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Asimismo, respecto a la lengua de signos, las citadas p\u00e1ginas de internet tendr\u00e1n en cuenta lo dispuesto en la Ley 27/2007, de 23 de octubre, por la que se reconocen las lenguas de signos espa\u00f1olas y se regulan los medios de apoyo a la comunicaci\u00f3n oral de las personas sordas, con discapacidad auditiva y sordociegas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Excepcionalmente, las administraciones p\u00fablicas podr\u00e1n reconocer la accesibilidad de p\u00e1ginas de internet conforme a normas t\u00e9cnicas distintas de las que figuran en el apartado 1 de este art\u00edculo, siempre que se compruebe que alcanzan una accesibilidad similar a la que estas normas garantizan."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Las p\u00e1ginas de Internet de las administraciones p\u00fablicas deber\u00e1n contener de forma clara la informaci\u00f3n sobre el grado de accesibilidad al contenido de las mismas que hayan aplicado, as\u00ed como la fecha en que se hizo la revisi\u00f3n del nivel de accesibilidad expresado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Para poder acceder a financiaci\u00f3n p\u00fablica para el dise\u00f1o o mantenimiento de p\u00e1ginas de internet ser\u00e1 necesario asumir el cumplimiento de los criterios de accesibilidad previstos en el apartado 1 del presente art\u00edculo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "De igual modo, ser\u00e1n exigibles, y en los mismos plazos, estos criterios de accesibilidad para las p\u00e1ginas de Internet de entidades y empresas que se encarguen, ya sea por v\u00eda concesional o a trav\u00e9s de otra v\u00eda contractual, de gestionar servicios p\u00fablicos, en especial, de los que tengan car\u00e1cter educativo sanitario y servicios sociales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Asimismo, ser\u00e1 obligatorio lo expresado en este apartado para las p\u00e1ginas de Internet y sus contenidos, de los centros p\u00fablicos educativos, de formaci\u00f3n y universitarios, as\u00ed como, de los centros privados sostenidos, total o parcialmente, con fondos p\u00fablicos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "5. Las p\u00e1ginas de internet de las administraciones p\u00fablicas deber\u00e1n ofrecer al usuario un sistema de contacto para que puedan transmitir las dificultades de acceso al contenido de las p\u00e1ginas de Internet, o formular cualquier queja, consulta o sugerencia de mejora. Los \u00f3rganos competentes realizar\u00e1n peri\u00f3dicamente estudios de car\u00e1cter p\u00fablico sobre las consultas, sugerencias y quejas formuladas."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 6. Criterios de accesibilidad a otras p\u00e1ginas de internet."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las administraciones p\u00fablicas promover\u00e1n medidas de sensibilizaci\u00f3n, divulgaci\u00f3n, educaci\u00f3n y, en especial, formaci\u00f3n en el terreno de la accesibilidad, con objeto de lograr que los titulares de otras p\u00e1ginas de internet distintas de aqu\u00e9llas a las que se refiere el art\u00edculo anterior, incorporen progresivamente y en la medida de lo posible los criterios de accesibilidad y mejoren los niveles mencionados en el mismo, particularmente aqu\u00e9llas cuyo contenido se refiera a bienes y servicios a disposici\u00f3n del p\u00fablico y, de forma prioritaria, las de contenido educativo, sanitario y de servicios sociales."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 7. Sistema de certificaci\u00f3n de p\u00e1ginas de internet."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. A los efectos de este real decreto, las p\u00e1ginas de internet se podr\u00e1n certificar por una entidad de certificaci\u00f3n cuya competencia t\u00e9cnica haya sido reconocida formalmente por una entidad de acreditaci\u00f3n de acuerdo con lo dispuesto en el cap\u00edtulo II del t\u00edtulo III, sobre calidad industrial, de la Ley 21/1992, de 16 de julio, de Industria y en sus correspondientes disposiciones de desarrollo contenidas en el Real Decreto 2200/1995, de 28 de diciembre, por el que se aprueba el Reglamento de la infraestructura para la calidad y la seguridad industrial."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. En los procedimientos de certificaci\u00f3n a los que se refiere el apartado anterior se emplear\u00e1n preferentemente normas t\u00e9cnicas espa\u00f1olas, normas aprobadas por organismos de normalizaci\u00f3n europeos y, en su defecto, otras normas internacionales aprobadas por organismos oficiales de normalizaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 8. Condiciones b\u00e1sicas de accesibilidad a los equipos inform\u00e1ticos y a los programas de ordenador."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los equipos inform\u00e1ticos y los programas de ordenador -independientemente de que sea libre o est\u00e9 sometido a derechos de patente o al pago de derechos-utilizados por las administraciones p\u00fablicas, cuyo destino sea el uso por el p\u00fablico en general, deber\u00e1n ser accesibles a las personas mayores y personas con discapacidad, de acuerdo con el principio rector de \u00abDise\u00f1o para todos\u00bb y los requisitos concretos de accesibilidad exigidos, preferentemente en las normas t\u00e9cnicas nacionales que incorporen normas europeas, normas internacionales, otros sistemas de referencias t\u00e9cnicas elaborados por los organismos europeos de normalizaci\u00f3n o, en su defecto, normas nacionales (Normas UNE 139801:2003 y 139802:2003), y en los plazos establecidos en el apartado 1 de la disposici\u00f3n transitoria \u00fanica del real decreto por el que se aprueba el presente reglamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Se deber\u00e1n promover medidas de sensibilizaci\u00f3n y difusi\u00f3n para que los fabricantes de equipos inform\u00e1ticos y de programas de ordenador incorporen a sus productos y servicios, progresivamente y en la medida de lo posible, los criterios de accesibilidad y de \u00abDise\u00f1o para todos\u00bb, que faciliten el acceso de las personas mayores y personas con discapacidad a la sociedad de la informaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 9. Condiciones b\u00e1sicas de accesibilidad en materia de firma electr\u00f3nica."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "De acuerdo con lo establecido en la disposici\u00f3n adicional novena de la Ley 59/2003, de 19 de diciembre, de firma electr\u00f3nica, los servicios, procesos, procedimientos y dispositivos de firma electr\u00f3nica deber\u00e1n ser plenamente accesibles a las personas mayores y personas con discapacidad, las cuales no podr\u00e1n ser, en ning\u00fan caso, discriminadas en el ejercicio de sus derechos y facultades por causas basadas en razones de discapacidad o edad avanzada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "A efectos del p\u00e1rrafo anterior ser\u00e1 de aplicaci\u00f3n lo establecido en los art\u00edculos 5, 6 y 8 de este reglamento a los servicios, procesos, procedimientos y dispositivos de firma electr\u00f3nica."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO IV"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Condiciones b\u00e1sicas de accesibilidad y no discriminaci\u00f3n en materia de medios de comunicaci\u00f3n social"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 10. Condiciones b\u00e1sicas de accesibilidad a los contenidos de la televisi\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Las personas con discapacidad tendr\u00e1n acceso a los contenidos de los medios de comunicaci\u00f3n audiovisual, con arreglo a las disponibilidades que permite el progreso t\u00e9cnico, los dise\u00f1os universales y los ajustes razonables que, para atender las singularidades que presentan estas personas, sea preciso llevar a cabo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los contenidos audiovisuales de la televisi\u00f3n ser\u00e1n accesibles a las personas con discapacidad mediante la incorporaci\u00f3n de la subtitulaci\u00f3n, la audiodescripci\u00f3n y la interpretaci\u00f3n en lengua de signos, en los t\u00e9rminos establecidos espec\u00edficamente en la legislaci\u00f3n general audiovisual, que regular\u00e1, con car\u00e1cter de norma b\u00e1sica, las condiciones de acceso y no discriminaci\u00f3n en los contenidos de la televisi\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 11. Condiciones b\u00e1sicas de accesibilidad a la televisi\u00f3n digital."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Las administraciones p\u00fablicas adoptar\u00e1n las medidas necesarias para garantizar el acceso de las personas con discapacidad a los servicios de televisi\u00f3n digital, de acuerdo con los principios de accesibilidad universal y dise\u00f1o para todas las personas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Las administraciones p\u00fablicas adoptar\u00e1n las medidas necesarias para garantizar a las personas con discapacidad la existencia de una oferta suficiente de equipos receptores de televisi\u00f3n digital que permitan recibir sus contenidos, faciliten la navegaci\u00f3n a trav\u00e9s de los men\u00fas de configuraci\u00f3n, las gu\u00edas electr\u00f3nicas de programaci\u00f3n, los servicios interactivos y otros contenidos textuales, as\u00ed como todas las prestaciones b\u00e1sicas que ofrecen los receptores de televisi\u00f3n digital, de acuerdo con los principios de accesibilidad universal y de dise\u00f1o para todos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las herramientas de accesibilidad, que a tal efecto se utilicen, podr\u00e1n integrar los siguientes elementos tecnol\u00f3gicos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Conversi\u00f3n de texto a voz para favorecer la navegabilidad de los men\u00fas de configuraci\u00f3n, las gu\u00edas electr\u00f3nicas de programaci\u00f3n y los servicios interactivos y otros contenidos textuales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Aplicaciones de reconocimiento de voz para efectuar operaciones de configuraci\u00f3n, de solicitud de informaci\u00f3n de las gu\u00edas electr\u00f3nicas de programaci\u00f3n o empleo de servicios interactivos u otros contenidos textuales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Ergonom\u00eda en los receptores de televisi\u00f3n digital, as\u00ed como en todos sus dispositivos asociados, y, muy especialmente, en el dise\u00f1o de los mandos a distancia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Aplicaciones de personalizaci\u00f3n para que, personas con discapacidad puedan configurar los receptores de televisi\u00f3n digital, y, muy particularmente, los par\u00e1metros de visualizaci\u00f3n: tama\u00f1o y color de la fuente de letras, color de fondo, contraste y otros."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Otras herramientas t\u00e9cnicas dise\u00f1adas para hacer accesibles los contenidos recibidos a trav\u00e9s de la televisi\u00f3n digital a las personas con discapacidad, facilitando el manejo del receptor y permitiendo una recepci\u00f3n de la televisi\u00f3n digital sin barreras y adecuada al tipo y grado de discapacidad."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Las administraciones p\u00fablicas, en la esfera de sus respectivas competencias, fomentar\u00e1n la difusi\u00f3n p\u00fablica de las medidas de accesibilidad a la televisi\u00f3n digital, coordinar\u00e1n actuaciones y sinergias entre todos los agentes implicados, y desarrollar\u00e1n planes de investigaci\u00f3n, desarrollo e innovaci\u00f3n (I+D+i), a fin de favorecer la implantaci\u00f3n y la puesta en pr\u00e1ctica de las tecnolog\u00edas necesarias para que las personas con discapacidad tengan pleno acceso a la televisi\u00f3n digital. Igualmente, las administraciones p\u00fablicas implicadas, promover\u00e1n el desarrollo de pol\u00edticas de normalizaci\u00f3n, c\u00f3digos de buenas pr\u00e1cticas y herramientas que incorporen requisitos de accesibilidad."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 12. Condiciones b\u00e1sicas de accesibilidad de la publicidad institucional en soporte audiovisual."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. De conformidad con lo dispuesto en la Ley 29/2005, de 29 de diciembre, de publicidad y comunicaci\u00f3n institucional, aquellas campa\u00f1as institucionales que se difundan en soporte audiovisual, prever\u00e1n siempre en sus pliegos de cl\u00e1usulas los procedimientos de acondicionamiento destinados a permitir que los mensajes contenidos sean accesibles para las personas con discapacidad y edad avanzada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. A los efectos de este art\u00edculo, la accesibilidad comprender\u00e1 la subtitulaci\u00f3n en abierto de los mensajes hablados. Para la emisi\u00f3n en lengua de signos de los mensajes hablados (sistema de ventana menor en \u00e1ngulo de la pantalla), la audiodescripci\u00f3n y la locuci\u00f3n de todos los mensajes escritos que aparezcan, se estar\u00e1 a lo regulado por la Ley 27/2007, de 23 de octubre, por la que se reconocen las lenguas de signos espa\u00f1olas y se regulan los medios de apoyo a la comunicaci\u00f3n oral de las personas sordas, con discapacidad auditiva y sordociegas. Todos estos procedimientos de acondicionamiento para permitir la accesibilidad se realizar\u00e1n con arreglo a las normas t\u00e9cnicas establecidas para cada caso."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El presente art\u00edculo ser\u00e1 de aplicaci\u00f3n exclusiva en el \u00e1mbito de la Administraci\u00f3n General del Estado y las dem\u00e1s entidades integrantes del sector p\u00fablico estatal."
+        }
+      ]
+    }
+  }
+}

@@ -164,3 +164,11 @@ Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del se
 r'[Rr]eal [Dd]ecreto 920/2006
 https://www.boe.es/buscar/act.php?id=BOE-A-2006-15301
 Reglamento general de prestación del servicio de difusión de radio y televisión por cable
+
+r'[Dd]irectiva \(?UE\)? 2016/2102
+https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32016L2102
+Accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público
+
+r'[Rr]eal [Dd]ecreto 1494/2007
+https://www.boe.es/buscar/act.php?id=BOE-A-2007-19968
+Reglamento sobre las condiciones básicas para el acceso de las personas con discapacidad a las tecnologías, productos y servicios relacionados con la sociedad de la información y medios de comunicación social

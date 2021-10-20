@@ -341,7 +341,8 @@ Tabla 7: [Datagrama IPv6](https://es.wikipedia.org/wiki/IPv6#Cabecera_fija) <spa
 * **Versión**: indica si es IPv4 (0100) o IPv6 (0110)
 * **Clase de Tráfico** (Traffic Class): también denominado Prioridad o simplemente Clase,
 indica una serie de parámetros sobre la calidad de servicio deseada (equivalente a ToS en IPv4)
-* **Etiqueta de Flujo** (Flow Label): para permitir tráficos con requisitos de tiempo real
+* **Etiqueta de Flujo** (Flow Label): manejo de la Calidad de Servicio, por ejemplo
+para permitir tráficos con requisitos de tiempo real
 * **Longitud total de carga útil** (Payload Length): es la longitud de los propios datos (incluyendo cabeceras de extensión), y puede ser de hasta 65.536 bytes.
 * **Siguiente cabecera** (Next Header): ya no se usan cabeceras de longitud variable, si no que se encadenan sucesivas cabeceras
     * por ello desaparece el campo opciones

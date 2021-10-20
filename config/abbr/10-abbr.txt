@@ -1895,3 +1895,32 @@ Estructura de Descomposición de Trabajo (Work Breakdown Structure)
 i'(Diagrama de )?Ishikawa
 https://es.wikipedia.org/wiki/Diagrama_de_Ishikawa
 Diagrama usado para visualizar las causas de un problema
+
+WAI-ARIA
+https://en.wikipedia.org/wiki/WAI-ARIA
+WAI Accessible Rich Internet Applications
+
+WAI
+https://es.wikipedia.org/wiki/Web_Accessibility_Initiative
+Web Accessibility Initiative
+
+WCAG 2.1
+https://www.w3.org/TR/WCAG21/
+http://accesibilidadweb.dlsi.ua.es/?menu=wcag-2.1
+Web Content Accessibility Guidelines 2.1 (2018)
+
+WCAG
+https://es.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines
+Web Content Accessibility Guidelines
+
+AWD
+https://en.wikipedia.org/wiki/Adaptive_web_design
+Diseño web adaptable (Adaptive Web Design)
+
+RWD
+https://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptable
+Diseño responsivo (Responsive web design)
+
+EN 301 549
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Accesibilidad/pae_normativa/pae_eInclusion_Normas_Accesibilidad.html?idioma=es
+Norma EN 301 549: Requisitos de accesibilidad para productos y servicios TIC (la última es la EN 301 549:2021 versión 3.2.1)
