@@ -3,21 +3,16 @@ title: Accesibilidad
 replace:
   "ATAG": '<abbr title="Authoring Tool Accessibility Guidelines" class="abbr">ATAG</a>'
   "UAAG": '<abbr title="User Agent Accessibility Guidelines">UAAG</a>'
+  "MWBP": '<abbr title="Mobile Web Best Practices">MWBP</a>'
 ---
 
 # Conceptos básicos
 
-**WAI**; comité integrado en W3C que tiene como objetivo promocionar cirterios
+**WAI**: comité integrado en W3C que tiene como objetivo promocionar criterios
 de accesibilidad para la Web.
 
-**WAI-ARIA**: Grupo de trabajo WAI centrado en desarrolla tecnologías que mejoran
-la accesibilidad de los contenidos web.
-
-Guiás WAI:
-
-* **ATAG**: para desarrolladores de herramientas de creación de páginas web
-* **UAAG**: para desarrolladores de navegadores web
-* **WCAG**: para desarrolladores de páginas webs
+**MWBP**: grupo de buenas practicas de la W3C para promover la accesibilidad de
+la web en los dispositivos móviles.
 
 **Directiva (UE) 2016/2102**: establece las condiciones de accesibilidad que
 deben cumplir todos los sitios webs y aplicaciones móviles del sector público
@@ -40,7 +35,26 @@ la **UNE-EN 301549**, estando ambas basadas en la WCAG.
 
 Tabla: Correspondencia estándares
 
-# WCAG 2.1
+# WAI
+
+Sus lineas de trabajo son:
+
+* Asegurar que las tecnologías web soporten la accesibilidad web.
+* Desarrollar guías de accesibilidad.
+* Mejorar las herramientas para evaluar y reparar la accesibilidad web.
+* Desarrollar material para educación y superación.
+* Coordinación de la investigación y desarrollo en estos temas.
+
+WAI desarrolla las siguientes guias:
+
+* **ATAG**: para desarrolladores de herramientas de creación de páginas web
+* **UAAG**: para desarrolladores de navegadores web
+* **WCAG**: para desarrolladores de páginas webs
+
+Entre sus grupos de trabajo se encuentra el **WAI-ARIA**, centrado en desarrollar
+tecnologías que mejoran la accesibilidad de los contenidos web.
+
+## WCAG 2.1
 
 Se compone de:
 
@@ -55,7 +69,7 @@ Las *pautas* no son verificables, pero proporcionan el marco y los objetivos gen
 que ayudan a los autores a comprender los *criterios de conformidad* (que si son verificables)
 y a implementar mejor las técnicas.
 
-## 1. Perceptible
+### 1. Perceptible
 
 La información y los componentes de la interfaz de usuario deben ser mostrados
 a los usuarios en formas que ellos puedan entender.
@@ -65,7 +79,7 @@ a los usuarios en formas que ellos puedan entender.
 * 1.3 **Adaptable**: Crear contenido que pueda ser presentado de diferentes formas sin perder ni información ni estructura.
 * 1.4 **Distinguible**: Facilitar a los usuarios ver y escuchar el contenido incluyendo la distinción entre lo más y menos importante.
 
-## 2. Operable
+### 2. Operable
 
 Los componentes de la interfaz de usuario y la navegación debe ser manejable.
 
@@ -75,7 +89,7 @@ Los componentes de la interfaz de usuario y la navegación debe ser manejable.
 * 2.4 **Navegación**: Proporciona formas para ayudar a los usuarios a navegar, a buscar contenido y a determinar donde están estos.
 * 2.5 **Modalidades de entrada**: Facilitar a los usuarios operar la funcionalidad a través de varios métodos de entrada además del teclado.
 
-## 3. Comprensible
+### 3. Comprensible
 
 La información y las operaciones de usuarios deben ser comprensibles.
 
@@ -83,14 +97,14 @@ La información y las operaciones de usuarios deben ser comprensibles.
 * 3.2 **Previsible**: Hacer la apariencia y la forma de utilizar las páginas web previsibles.
 * 3.3 **Asistencia a la entrada de datos**: ayudar a los usuarios a evitar y corregir errores.
 
-## 4. Robustez
+### 4. Robustez
 
 El contenido deber ser suficientemente robusto para que pueda ser bien interpretado
 por una gran variedad de agentes de usuario, incluyendo tecnologías de asistencia.
 
 * 4.1 **Compatible**: Maximiza la compatibilidad con los agentes de usuario actuales y futuros, incluyendo tecnologías de asistencia.
 
-## Conformidad
+### Conformidad
 
 Se considera que un contenido web es conforme con WCAG 2.1 si se cumplen los
 siguientes **5 requisitos**:
@@ -113,7 +127,7 @@ de un modo que si lo sea
 con la accesibilidad, o que no cumple con los demás requisitos de conformidad, este
 contenido no tiene que impedir el acceso al resto de contenidos de la página
 
-### Declaración de conformidad
+#### Declaración de conformidad
 
 Si una página, o grupo de páginas, cumple con todos los requisitos de conformidad,
 se puede incluir una declaración de conformidad que debe contener:
