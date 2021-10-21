@@ -158,7 +158,7 @@ Consta de **7 principios**:
 ## Diseño web líquido o fluido
 
 * Usa porcentajes o <abbr title="unidad de medida tipográfica">ems</abbr> en vez de pixeles
-* El resultado puede parecer atractivo en pantallas medianas (ordenadores y tablets]
+* El resultado puede parecer atractivo en pantallas medianas (ordenadores y tablets)
 pero se producen muchos problemas en las pantallas grandes y pequeñas (televisores y móviles)
 * No es recomendable usar este método ya que la usabilidad se ve muy perjudicada y
 representa un fallo de ergonomía que afecta negativamente a la experiencia de usuario
