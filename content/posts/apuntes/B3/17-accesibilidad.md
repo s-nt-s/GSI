@@ -74,7 +74,7 @@ y a implementar mejor las técnicas.
 La información y los componentes de la interfaz de usuario deben ser mostrados
 a los usuarios en formas que ellos puedan entender.
 
-* 1.1 **Texto alternativo**: Proporciona texto alternativo para el contenido que no sea textual, así podrá ser transformado en otros formatos que la gente necesite, como caracteres grandes, lenguaje braille (braile no es correcto), lenguaje oral, símbolos o lenguaje más simple.
+* 1.1 **Texto alternativo**: Proporciona texto alternativo para el contenido que no sea textual, así podrá ser transformado en otros formatos que la gente necesite, como caracteres grandes, lenguaje braille, lenguaje oral, símbolos o lenguaje más simple.
 * 1.2 **Contenido multimedia dependiente del tiempo**: Proporcione alternativas sincronizadas para contenidos multimedia sincronizados dependientes del tiempo.
 * 1.3 **Adaptable**: Crear contenido que pueda ser presentado de diferentes formas sin perder ni información ni estructura.
 * 1.4 **Distinguible**: Facilitar a los usuarios ver y escuchar el contenido incluyendo la distinción entre lo más y menos importante.
