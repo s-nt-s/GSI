@@ -1,9 +1,9 @@
 ---
 title: Accesibilidad
 replace:
-  "ATAG": '<abbr title="Authoring Tool Accessibility Guidelines" class="abbr">ATAG</a>'
-  "UAAG": '<abbr title="User Agent Accessibility Guidelines">UAAG</a>'
-  "MWBP": '<abbr title="Mobile Web Best Practices">MWBP</a>'
+  "ATAG": '<abbr title="Authoring Tool Accessibility Guidelines>ATAG</abbr>'
+  "UAAG": '<abbr title="User Agent Accessibility Guidelines">UAAG</abbr>'
+  "MWBP": '<abbr title="Mobile Web Best Practices">MWBP</abbr>'
 ---
 
 # Conceptos básicos
@@ -25,7 +25,7 @@ bibliotecas, tribunales, etc).
 Organismo responsable del seguimiento y presentación de informes con respecto al cumplimiento de este Real Decreto y de la Directiva 2016/2102.
 
 **EN 301 549**: estándar europeo de accesibilidad cuya versión española es
-la **UNE-EN 301549**, estando ambas basadas en la WCAG.
+la **UNE-EN 301549**, estando ambas basadas en la WCAG (el nivel exigido es el AA).
 
 | EN | UNE-EN | WCAG | Vigencia |
 |-|-|-|-|

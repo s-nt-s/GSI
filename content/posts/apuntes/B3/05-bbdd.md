@@ -274,3 +274,4 @@ objeto-relacional de Microsoft (La alternativa anterior era OLE DB y esta deprec
 * <strike title="Se solapa con otros temas">PreparaTic27 - Pack1/088</strike>
 * [manuel.cillero.es - Modelo Entidad/Relación Extendido](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/)
 * [glosarioit.co - Bloqueo de dos fases](https://www.glosarioit.com/Bloqueo_de_dos_fases)
+* [conceptosbasededatos-adsi.blogspot.com - Jerarquías: Generalizaciones y Especializaciones](http://conceptosbasededatos-adsi.blogspot.com/2013/11/jerarquias-generalizaciones-y.html)

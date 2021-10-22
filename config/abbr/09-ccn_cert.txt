@@ -1,0 +1,91 @@
+ADA
+https://www.ccn-cert.cni.es/soluciones-seguridad/ada.html
+Plataforma de análisis avanzado de malware (CCN-CERT)
+
+AMPARO
+https://www.ccn-cert.cni.es/soluciones-seguridad/amparo.html
+Implantación de seguridad y conformidad del ENS (CCN-CERT)
+
+ANA
+https://www.ccn-cert.cni.es/soluciones-seguridad/ana.html
+Automatización y normalización de auditorías (CCN-CERT)
+
+CARLA
+https://www.ccn-cert.cni.es/soluciones-seguridad/carla.html
+Protección y trazabilidad del dato (CCN-CERT)
+
+CARMEN
+https://www.ccn-cert.cni.es/soluciones-seguridad/carmen.html
+Defensa de ataques avanzados/APT (CCN-CERT)
+
+CCNDroid
+https://www.ccn-cert.cni.es/soluciones-seguridad/ccndroid-publico.html
+Seguridad para Android (CCN-CERT)
+
+CLARA
+https://www.ccn-cert.cni.es/soluciones-seguridad/clara.html
+Auditoría de Cumplimiento ENS/STIC en Sistemas Windows (CCN-CERT)
+
+CLAUDIA
+https://www.ccn-cert.cni.es/soluciones-seguridad/claudia.html
+Herramienta para la detección de amenazas complejas en el puesto de usuario (CCN-CERT)
+
+microCLAUDIA
+https://www.ccn-cert.cni.es/soluciones-seguridad/microclaudia.html
+Centro de vacunación (CCN-CERT)
+
+ELENA
+https://www.ccn-cert.cni.es/soluciones-seguridad/elena.html
+Simulador de Técnicas de Cibervigilancia (CCN-CERT)
+
+EMMA
+https://www.ccn-cert.cni.es/soluciones-seguridad/emma.html
+Visibilidad y control sobre la red (CCN-CERT)
+
+GLORIA
+https://www.ccn-cert.cni.es/soluciones-seguridad/gloria.html
+Gestor de logs para responder ante incidentes y amenazas (CCN-CERT)
+
+INES
+https://www.ccn-cert.cni.es/soluciones-seguridad/ines.html
+Informe Nacional del Estado de Seguridad, permite evaluar regularmente el estado de la seguridad de los sistemas TIC (CCN-CERT)
+
+IRIS
+https://www.ccn-cert.cni.es/soluciones-seguridad/iris.html
+Estado de la ciberseguridad (CCN-CERT)
+
+LORETO
+https://www.ccn-cert.cni.es/soluciones-seguridad/loreto.html
+Almacenamiento en la nube (CCN-CERT)
+
+LUCIA
+https://www.ccn-cert.cni.es/soluciones-seguridad/lucia.html
+Listado Unificado de Coordinación de Incidentes y Amenazas, herramienta para la Gestión de Ciberincidentes (CCN-CERT)
+
+MARIA
+https://www.ccn-cert.cni.es/soluciones-seguridad/maria-publico.html
+Plataforma Multiantivirus en tiempo real (CCN-CERT)
+
+MARTA
+https://www.ccn-cert.cni.es/soluciones-seguridad/marta.html
+Análisis avanzados de ficheros (CCN-CERT)
+
+MÓNICA
+https://www.ccn-cert.cni.es/soluciones-seguridad/monica.html
+Gestión de eventos e información de seguridad (CCN-CERT)
+
+PILAR
+https://pilar.ccn-cert.cni.es/
+Análisis y Gestión de Riesgos (CCN-CERT)
+
+REYES
+https://www.ccn-cert.cni.es/soluciones-seguridad/reyes.html
+Intercambio de Información de Ciberamenazas (CCN-CERT)
+
+ROCIO
+https://www.ccn-cert.cni.es/soluciones-seguridad/rocio.html
+Inspección de Operación. Auditoría de configuraciones de dispositivos de red (CCN-CERT)
+
+VANESA
+https://www.ccn-cert.cni.es/soluciones-seguridad/vanesa.html
+Grabaciones y emisiones de vídeo en streaming (CCN-CERT)

@@ -31,7 +31,7 @@ y 5 **grupos de procesos**:
 Ofrece dos técnicas de compresión de la planificación temporal:
 
 * **Fast tracking**: paralizar tareas
-* **Crashing**: meter más recursos
+* **Crashing** o compresión: meter más recursos
 
 # Diagrama de Gantt
 
@@ -167,6 +167,7 @@ numérico como si fuera una *cuenta* a la que se le asignan los costes
 * Elemento terminal: son las hojas del árbol lo que se estima (plazo,
 coste, requisitos y recursos) y se analizan las dependencias entre ellos
 
+
 # Diagrama de Extrapolación
 
 Técnica para realizar un seguimiento de los proyectos software.
@@ -184,6 +185,24 @@ Usado para visualizar las causas de un problema
 ![](https://upload.wikimedia.org/wikipedia/commons/5/5b/Diagrama-general-de-causa-efecto.svg)
 
 Figura: Diagrama de Ishikawa
+
+# [Análisis/Gestión del valor ganado](https://es.wikipedia.org/wiki/Gesti%C3%B3n_del_valor_ganado)
+
+Teniendo:
+
+* La estructura de tareas (WBS)
+* El calendario de ejecución (PMS) o diagrama de Gantt
+* El costo presupuestado del trabajo planificado (BCWS) o valor planificado (PV): *¿Cuánto trabajo debería estar terminado?*
+* El costo presupuestado del trabajo realizado (BCWP) o valor ganado (EV): *¿Cuánto trabajo está realmente terminado?*
+
+Se puede llevar a realizar una gestión del valor ganado que permite consiste
+en comparar la cantidad de trabajo ya completada en un momento dado con la estimación
+realizada antes del comienzo del proyecto.
+
+Con esta metodología se puede estimar en cuanto tiempo se completaría el proyecto
+si se mantienen las condiciones con las que se elaboró el cronograma o considerando
+si se mantienen las condiciones que se presentaron durante el desarrollo del proyecto.
+También se puede estimar el costo total del proyecto.
 
 # Bibliografía
 

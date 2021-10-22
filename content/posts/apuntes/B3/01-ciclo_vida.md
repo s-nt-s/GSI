@@ -207,6 +207,33 @@ en detalle al inicio del proyecto y por tanto se van desarrollando simultáneame
 con las diferentes versiones del código
 * **Modelos basados en transformaciones**: Convierten automáticamente una especificación
 formal de un producto software en un programa que satisfaga las especificaciones, utilizando herramientas 4G.
+* Ciclo de vida **Sashimi**: variación del ciclo de vida en cascada puro, en el
+cual las diferentes etapas pueden ser solapadas, permitiendo aumentar la
+eficiencia mediante la retroalimentación entre las etapas
+* Ciclo de vida **pinball**: la pelota del Pinball representaría el software a desarrollar,
+que pasa iterativamente por fases que ocurren casi en cualquier momento, saltando de una a otra
+* **Síntesis automática**:
+    * Los Requisitos se expresan en una especificación formal
+detallada expresada en notación matemática
+    * Los procesos (diseño, implementación y pruebas) se
+reemplazan por un proceso basado en transformaciones
+donde la especificación formal se refina.
+    * La implementación y la documentación es automática.
+    * El mantenimiento se realiza *por sustitución*, no mediante *parches*.
+* Ciclo de vida **remolino**: Proceso multicíclico no lineal con forma de remolino.
+Considera las siguientes dimensiones de iteración:
+    * Amplitud: Tamaño de desarrollo
+    * Profundidad: Nivel de abstracción o detalle
+    * Madurez: Grado de compleción, corrección y elegancia
+    * Alternativas: Diferentes soluciones a un problema
+    * Alcance: Objetivos del Sistema (requisitos cambiantes)
+* Ciclo de vida **agrupamiento**: Opera sobre conjuntos de clases relacionadas con un
+objetivo común (el *agrupamiento*) y se divide en varios subciclos, todos ellos con:
+    * Especificación
+    * Diseño
+    * Realización
+    * Validación
+    * Generalización
 
 # Metodologías ágiles
 
@@ -390,3 +417,5 @@ coordinar múltiples equipos que trabajan sobre una misma solución.
 * [youtube.com - Ágil Es - Por Cris Rúa - Lo mejor de Scrum y Kanban](https://www.youtube.com/watch?v=Kxz0_rDmRho)
 * [javiergarzas.com - Sprint Planning, claves y evitando malas interpretaciones](https://www.javiergarzas.com/2018/01/sprint-planning.html)
 * [javiergarzas.com - Los 7 errores más comunes de la Daily Scrum, ¿cómo evitarlos?](https://www.paradigmadigital.com/techbiz/los-7-errores-mas-comunes-la-daily-scrum-evitarlos/)
+* [javiergarzas.com - Los ciclos de vida software más raros y que hay vida más allá del cascada y el ágil y el iterativo](https://www.javiergarzas.com/2015/02/los-ciclos-de-vida-software-raros.html)
+* [ctr.unican.es - Procesos de Ingeniería del Software](https://www.ctr.unican.es/asignaturas/is1/is1-t02-trans.pdf)

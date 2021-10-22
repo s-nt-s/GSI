@@ -890,7 +890,6 @@ Dirección General para el Impulso de la Administración Electrónica
 r'PdP
 Punto de presencia
 
-
 ANCERT
 https://es.wikipedia.org/wiki/Agencia_Notarial_de_Certificaci%C3%B3n
 Agencia Notarial de Certificación
@@ -921,14 +920,6 @@ Tiempo objetivo de recuperación
 ITS
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/Instrucciones-Tecnicas.html
 Instrucciones Técnicas de Seguridad
-
-INES
-https://www.ccn-cert.cni.es/soluciones-seguridad/ines.html
-Informe Nacional del Estado de Seguridad, herramienta del CCN que permite evaluar regularmente el estado de la seguridad de los sistemas TIC
-
-LUCIA
-https://www.ccn-cert.cni.es/soluciones-seguridad/lucia.html
-Listado Unificado de Coordinación de Incidentes y Amenazas, herramienta desarrollada por el CCN-CERT para la Gestión de Ciberincidentes
 
 OWASP
 https://es.wikipedia.org/wiki/Open_Web_Application_Security_Project
@@ -1924,3 +1915,10 @@ Diseño responsivo (Responsive web design)
 EN 301 549
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Accesibilidad/pae_normativa/pae_eInclusion_Normas_Accesibilidad.html?idioma=es
 Norma EN 301 549: Requisitos de accesibilidad para productos y servicios TIC (la última es la EN 301 549:2021 versión 3.2.1)
+
+Dalvik
+https://es.wikipedia.org/wiki/Dalvik
+
+ART
+https://es.wikipedia.org/wiki/Android_Runtime
+Android Runtime
