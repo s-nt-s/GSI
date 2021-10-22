@@ -74,7 +74,7 @@ y a implementar mejor las técnicas.
 La información y los componentes de la interfaz de usuario deben ser mostrados
 a los usuarios en formas que ellos puedan entender.
 
-* 1.1 **Texto alternativo**: Proporciona texto alternativo para el contenido que no sea textual, así podrá ser transformado en otros formatos que la gente necesite, como caracteres grandes, lenguaje braille (braile no es correcto), lenguaje oral, símbolos o lenguaje más simple.
+* 1.1 **Texto alternativo**: Proporciona texto alternativo para el contenido que no sea textual, así podrá ser transformado en otros formatos que la gente necesite, como caracteres grandes, lenguaje braille, lenguaje oral, símbolos o lenguaje más simple.
 * 1.2 **Contenido multimedia dependiente del tiempo**: Proporcione alternativas sincronizadas para contenidos multimedia sincronizados dependientes del tiempo.
 * 1.3 **Adaptable**: Crear contenido que pueda ser presentado de diferentes formas sin perder ni información ni estructura.
 * 1.4 **Distinguible**: Facilitar a los usuarios ver y escuchar el contenido incluyendo la distinción entre lo más y menos importante.
@@ -158,7 +158,7 @@ Consta de **7 principios**:
 ## Diseño web líquido o fluido
 
 * Usa porcentajes o <abbr title="unidad de medida tipográfica">ems</abbr> en vez de pixeles
-* El resultado puede parecer atractivo en pantallas medianas (ordenadores y tablets]
+* El resultado puede parecer atractivo en pantallas medianas (ordenadores y tablets)
 pero se producen muchos problemas en las pantallas grandes y pequeñas (televisores y móviles)
 * No es recomendable usar este método ya que la usabilidad se ve muy perjudicada y
 representa un fallo de ergonomía que afecta negativamente a la experiencia de usuario
