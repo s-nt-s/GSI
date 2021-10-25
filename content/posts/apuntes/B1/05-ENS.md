@@ -530,3 +530,4 @@ acuerdo contractual u otros métodos.
 * [dsn.gob.es - Estrategia de Seguridad Nacional 2017](https://www.dsn.gob.es/es/estrategias-publicaciones/estrategias/estrategia-seguridad-nacional-2017#sthash.cOweiq8c.uxfs)
 * [zonademarrones.com - Preparando CISM Notas: Dominio 4](https://www.zonademarrones.com/preparando-cism-notas-dominio-4/)
 * [ccn-cert.cni.es - Soluciones de Ciberseguridad](https://www.ccn-cert.cni.es/soluciones-seguridad.html)
+* [swgreenhouse.com - RPO y RTO básicos para decidir soluciones de continuidad de negocio](https://www.swgreenhouse.com/conceptos-de-continuidad-de-negocio/rto-rpo)

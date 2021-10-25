@@ -1,125 +1,495 @@
 {
-"documento": {
-  "@fecha_actualizacion": "20190617172602",
-  "metadatos": {
-    "identificador": "BOE-A-2006-15301",
-    "titulo": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable.",
-    "diario": {
-      "@codigo": "BOE",
-      "#text": "Bolet\u00edn Oficial del Estado"
+  "documento": {
+    "@fecha_actualizacion": "20190617172602",
+    "metadatos": {
+      "identificador": "BOE-A-2006-15301",
+      "titulo": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable.",
+      "diario": {
+        "@codigo": "BOE",
+        "#text": "Bolet\u00edn Oficial del Estado"
+      },
+      "diario_numero": "210",
+      "seccion": "1",
+      "subseccion": null,
+      "departamento": {
+        "@codigo": "5251",
+        "#text": "Ministerio de Industria, Turismo y Comercio"
+      },
+      "rango": {
+        "@codigo": "1340",
+        "#text": "Real Decreto"
+      },
+      "numero_oficial": "920/2006",
+      "fecha_disposicion": "20060728",
+      "fecha_publicacion": "20060902",
+      "fecha_vigencia": "20061002",
+      "fecha_derogacion": null,
+      "letra_imagen": "A",
+      "pagina_inicial": "31532",
+      "pagina_final": "31538",
+      "suplemento_letra_imagen": null,
+      "suplemento_pagina_inicial": null,
+      "suplemento_pagina_final": null,
+      "estatus_legislativo": "L",
+      "origen_legislativo": {
+        "@codigo": "1",
+        "#text": "Estatal"
+      },
+      "estado_consolidacion": {
+        "@codigo": "3",
+        "#text": "Finalizado"
+      },
+      "judicialmente_anulada": "N",
+      "vigencia_agotada": "N",
+      "estatus_derogacion": "N",
+      "url_epub": null,
+      "url_pdf": "/boe/dias/2006/09/02/pdfs/A31532-31538.pdf",
+      "url_pdf_catalan": "/boe_catalan/dias/2006/09/16/pdfs/A02539-02545.pdf",
+      "url_pdf_euskera": null,
+      "url_pdf_gallego": "/boe_gallego/dias/2006/10/02/pdfs/A01747-01753.pdf",
+      "url_pdf_valenciano": null,
+      "url_eli": "https://www.boe.es/eli/es/rd/2006/07/28/920"
     },
-    "diario_numero": "210",
-    "seccion": "1",
-    "subseccion": null,
-    "departamento": {
-      "@codigo": "5251",
-      "#text": "Ministerio de Industria, Turismo y Comercio"
-    },
-    "rango": {
-      "@codigo": "1340",
-      "#text": "Real Decreto"
-    },
-    "numero_oficial": "920/2006",
-    "fecha_disposicion": "20060728",
-    "fecha_publicacion": "20060902",
-    "fecha_vigencia": "20061002",
-    "fecha_derogacion": null,
-    "letra_imagen": "A",
-    "pagina_inicial": "31532",
-    "pagina_final": "31538",
-    "suplemento_letra_imagen": null,
-    "suplemento_pagina_inicial": null,
-    "suplemento_pagina_final": null,
-    "estatus_legislativo": "L",
-    "origen_legislativo": {
-      "@codigo": "1",
-      "#text": "Estatal"
-    },
-    "estado_consolidacion": {
-      "@codigo": "3",
-      "#text": "Finalizado"
-    },
-    "judicialmente_anulada": "N",
-    "vigencia_agotada": "N",
-    "estatus_derogacion": "N",
-    "url_epub": null,
-    "url_pdf": "/boe/dias/2006/09/02/pdfs/A31532-31538.pdf",
-    "url_pdf_catalan": "/boe_catalan/dias/2006/09/16/pdfs/A02539-02545.pdf",
-    "url_pdf_euskera": null,
-    "url_pdf_gallego": "/boe_gallego/dias/2006/10/02/pdfs/A01747-01753.pdf",
-    "url_pdf_valenciano": null,
-    "url_eli": "https://www.boe.es/eli/es/rd/2006/07/28/920"
-  },
-  "metadata-eli": {
-    "rdf:RDF": {
-      "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
-      "eli:LegalResource": {
-        "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920",
-        "eli:jurisdiction": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-        },
-        "eli:type_document": {
-          "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-        },
-        "eli:id_local": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "BOE-A-2006-15301"
-        },
-        "eli:date_document": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "#text": "2006-07-28"
-        },
-        "eli:number": {
-          "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "#text": "920"
-        },
-        "eli:has_member": [
-          {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2006-15301"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2006-07-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "920"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:corrected_by": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/corrigendum/20061109/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
-              },
-              "eli:consolidated_by": [
-                {
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319"
-                },{
-                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902"
-                }
-              ],
-              "eli:is_realized_by": [
-                {
+    "metadata-eli": {
+      "rdf:RDF": {
+        "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@xmlns:eli": "http://data.europa.eu/eli/ontology#",
+        "eli:LegalResource": {
+          "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920",
+          "eli:jurisdiction": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+          },
+          "eli:type_document": {
+            "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+          },
+          "eli:id_local": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "BOE-A-2006-15301"
+          },
+          "eli:date_document": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+            "#text": "2006-07-28"
+          },
+          "eli:number": {
+            "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+            "#text": "920"
+          },
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2006-15301"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2006-07-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "920"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:corrected_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/corrigendum/20061109/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
+                },
+                "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319"
+                  },
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902"
+                  }
+                ],
+                "eli:is_realized_by": [
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2006-09-02"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                      },
+                      "eli:is_embodied_by": [
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa/html",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa/pdf",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa"
+                            }
+                          }
+                        },
+                        {
+                          "eli:Format": {
+                            "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa/xml",
+                            "eli:format": {
+                              "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                            },
+                            "eli:embodies": {
+                              "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/cat",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Reial decret 920/2006, de 28 de juliol, pel qual s'aprova el Reglament general de prestaci\u00f3 del servei de difusi\u00f3 de r\u00e0dio i televisi\u00f3 per cable."
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2006-09-16"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/cat/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/cat"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "eli:LegalExpression": {
+                      "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/glg",
+                      "eli:language": {
+                        "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
+                      },
+                      "eli:title": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                        "#text": "Real decreto 920/2006, do 28 de xullo, polo que se aproba o Regulamento xeral de prestaci\u00f3n do servizo de difusi\u00f3n de radio e televisi\u00f3n por cable. (\u00abBOE\u00bb 210, do 2-9-2006.)"
+                      },
+                      "eli:publisher": {
+                        "@rdf:resource": "www.boe.es"
+                      },
+                      "eli:date_publication": {
+                        "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                        "#text": "2006-10-02"
+                      },
+                      "eli:realizes": {
+                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                      },
+                      "eli:is_embodied_by": {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/glg/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/glg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2006-15301"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2006-07-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "920"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2010-03-08"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                },
+                "eli:is_realized_by": {
                   "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa",
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2010-03-08"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2006-15301"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2006-07-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "920"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2009-05-11"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2009-05-11"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2006-15301"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2006-07-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "920"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2009-03-19"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2009-03-19"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319/spa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2006-15301"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2006-07-28"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "920"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2006-09-02"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902/spa",
                     "eli:language": {
                       "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
                     },
@@ -135,1071 +505,909 @@
                       "#text": "2006-09-02"
                     },
                     "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
-                    },
-                    "eli:is_embodied_by": [
-                      {
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa/html",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa"
-                          }
-                        }
-                      },{
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa/pdf",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa"
-                          }
-                        }
-                      },{
-                        "eli:Format": {
-                          "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa/xml",
-                          "eli:format": {
-                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                          },
-                          "eli:embodies": {
-                            "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/spa"
-                          }
-                        }
-                      }
-                    ]
-                  }
-                },{
-                  "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/cat",
-                    "eli:language": {
-                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/cat"
-                    },
-                    "eli:title": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                      "#text": "Reial decret 920/2006, de 28 de juliol, pel qual s'aprova el Reglament general de prestaci\u00f3 del servei de difusi\u00f3 de r\u00e0dio i televisi\u00f3 per cable."
-                    },
-                    "eli:publisher": {
-                      "@rdf:resource": "www.boe.es"
-                    },
-                    "eli:date_publication": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                      "#text": "2006-09-16"
-                    },
-                    "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902"
                     },
                     "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/cat/pdf",
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902/spa/html",
                         "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/cat"
-                        }
-                      }
-                    }
-                  }
-                },{
-                  "eli:LegalExpression": {
-                    "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/glg",
-                    "eli:language": {
-                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/glg"
-                    },
-                    "eli:title": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                      "#text": "Real decreto 920/2006, do 28 de xullo, polo que se aproba o Regulamento xeral de prestaci\u00f3n do servizo de difusi\u00f3n de radio e televisi\u00f3n por cable. (\u00abBOE\u00bb 210, do 2-9-2006.)"
-                    },
-                    "eli:publisher": {
-                      "@rdf:resource": "www.boe.es"
-                    },
-                    "eli:date_publication": {
-                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                      "#text": "2006-10-02"
-                    },
-                    "eli:realizes": {
-                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
-                    },
-                    "eli:is_embodied_by": {
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/glg/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof/glg"
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902/spa"
                         }
                       }
                     }
                   }
                 }
-              ]
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2006-15301"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2006-07-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "920"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2010-03-08"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2010-03-08"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20100308/spa"
-                      }
-                    }
-                  }
-                }
               }
             }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2006-15301"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2006-07-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "920"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2009-05-11"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2009-05-11"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090511/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2006-15301"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2006-07-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "920"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2009-03-19"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2009-03-19"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20090319/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },{
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2006-15301"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2006-07-28"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "920"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
-              },
-              "eli:version_date": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2006-09-02"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920"
-              },
-              "eli:consolidates": {
-                "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/dof"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Real Decreto 920/2006, de 28 de julio, por el que se aprueba el Reglamento general de prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2006-09-02"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902"
-                  },
-                  "eli:is_embodied_by": {
-                    "eli:Format": {
-                      "@rdf:about": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902/spa/html",
-                      "eli:format": {
-                        "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
-                      },
-                      "eli:embodies": {
-                        "@rdf:resource": "https://www.boe.es/eli/es/rd/2006/07/28/920/con/20060902/spa"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
-    }
-  },
-  "analisis": {
-    "notas": null,
-    "materias": {
-      "materia": [
-        {
-          "@codigo": "397",
-          "@orden": "",
-          "#text": "Autorizaciones"
-        },{
-          "@codigo": "1624",
-          "@orden": "",
-          "#text": "Consumidores y usuarios"
-        },{
-          "@codigo": "2436",
-          "@orden": "",
-          "#text": "Derecho a la informaci\u00f3n"
-        },{
-          "@codigo": "5821",
-          "@orden": "",
-          "#text": "Radiodifusi\u00f3n"
-        },{
-          "@codigo": "5827",
-          "@orden": "",
-          "#text": "Radiotelevisi\u00f3n Espa\u00f1ola"
-        },{
-          "@codigo": "6855",
-          "@orden": "",
-          "#text": "Telecomunicaciones por cable"
-        },{
-          "@codigo": "6858",
-          "@orden": "",
-          "#text": "Telefon\u00eda m\u00f3vil"
-        },{
-          "@codigo": "6863",
-          "@orden": "",
-          "#text": "Televisi\u00f3n digital"
-        }
-      ]
     },
-    "alertas": {
-      "alerta": [
-        {
-          "@codigo": "106",
-          "@orden": "",
-          "#text": "Consumidores y usuarios"
-        },{
-          "@codigo": "130",
-          "@orden": "",
-          "#text": "Telecomunicaciones"
-        }
-      ]
-    },
-    "referencias": {
-      "anteriores": {
-        "anterior": [
+    "analisis": {
+      "notas": null,
+      "materias": {
+        "materia": [
           {
-            "@referencia": "BOE-A-2005-13113",
-            "@orden": "2015",
-            "palabra": {
-              "@codigo": "270",
-              "#text": "MODIFICA"
-            },
-            "texto": "Disposici\u00f3n adicional 2.7 del Real Decreto 944 /2005, de 29 de julio"
-          },{
-            "@referencia": "BOE-A-1999-19445",
-            "@orden": "2015",
-            "palabra": {
-              "@codigo": "270",
-              "#text": "MODIFICA"
-            },
-            "texto": "arts. 2 y 3 y del Reglamento aprobado por Real Decreto 1462/1999, de 17 de septiembre"
-          },{
-            "@referencia": "BOE-A-2003-20253",
-            "@orden": "3060",
-            "palabra": {
-              "@codigo": "440",
-              "#text": "DE CONFORMIDAD con"
-            },
-            "texto": "la disposici\u00f3n adicional 10 de la Ley 32/2003, de 3 de noviembre"
+            "@codigo": "397",
+            "@orden": "",
+            "#text": "Autorizaciones"
+          },
+          {
+            "@codigo": "1624",
+            "@orden": "",
+            "#text": "Consumidores y usuarios"
+          },
+          {
+            "@codigo": "2436",
+            "@orden": "",
+            "#text": "Derecho a la informaci\u00f3n"
+          },
+          {
+            "@codigo": "5821",
+            "@orden": "",
+            "#text": "Radiodifusi\u00f3n"
+          },
+          {
+            "@codigo": "5827",
+            "@orden": "",
+            "#text": "Radiotelevisi\u00f3n Espa\u00f1ola"
+          },
+          {
+            "@codigo": "6855",
+            "@orden": "",
+            "#text": "Telecomunicaciones por cable"
+          },
+          {
+            "@codigo": "6858",
+            "@orden": "",
+            "#text": "Telefon\u00eda m\u00f3vil"
+          },
+          {
+            "@codigo": "6863",
+            "@orden": "",
+            "#text": "Televisi\u00f3n digital"
           }
         ]
       },
-      "posteriores": {
-        "posterior": [
+      "alertas": {
+        "alerta": [
           {
-            "@referencia": "BOE-A-2006-19410",
+            "@codigo": "106",
             "@orden": "",
-            "palabra": {
-              "@codigo": "201",
-              "#text": "CORRECCI\u00d3N de errores"
-            },
-            "texto": "en BOE num. 268 de 9 de noviembre de 2006"
-          },{
-            "@referencia": "BOE-A-2010-3753",
+            "#text": "Consumidores y usuarios"
+          },
+          {
+            "@codigo": "130",
             "@orden": "",
-            "palabra": {
-              "@codigo": "470",
-              "#text": "SE DECLARA"
-            },
-            "texto": "la nulidad de la disposici\u00f3n transitoria 1, por Sentencia del TS de 18 de noviembre de 2009"
-          },{
-            "@referencia": "BOE-A-2010-3752",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "470",
-              "#text": "SE DECLARA"
-            },
-            "texto": "la nulidad de la disposici\u00f3n transitoria 1, por Sentencia del TS de 18 de noviembre de 2009"
-          },{
-            "@referencia": "BOE-A-2009-7765",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "470",
-              "#text": "SE DECLARA"
-            },
-            "texto": "la nulidad del inciso indicado del art. 10.2, por Sentencia del TS de 10 de febrero de 2009"
-          },{
-            "@referencia": "BOE-A-2009-4629",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "470",
-              "#text": "SE DECLARA"
-            },
-            "texto": "la nulidad del inciso final del art. 4.1, por Sentencia del TS de 11 de febrero de 2009"
+            "#text": "Telecomunicaciones"
           }
         ]
+      },
+      "referencias": {
+        "anteriores": {
+          "anterior": [
+            {
+              "@referencia": "BOE-A-2005-13113",
+              "@orden": "2015",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "MODIFICA"
+              },
+              "texto": "Disposici\u00f3n adicional 2.7 del Real Decreto 944 /2005, de 29 de julio"
+            },
+            {
+              "@referencia": "BOE-A-1999-19445",
+              "@orden": "2015",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "MODIFICA"
+              },
+              "texto": "arts. 2 y 3 y del Reglamento aprobado por Real Decreto 1462/1999, de 17 de septiembre"
+            },
+            {
+              "@referencia": "BOE-A-2003-20253",
+              "@orden": "3060",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "DE CONFORMIDAD con"
+              },
+              "texto": "la disposici\u00f3n adicional 10 de la Ley 32/2003, de 3 de noviembre"
+            }
+          ]
+        },
+        "posteriores": {
+          "posterior": [
+            {
+              "@referencia": "BOE-A-2006-19410",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "201",
+                "#text": "CORRECCI\u00d3N de errores"
+              },
+              "texto": "en BOE num. 268 de 9 de noviembre de 2006"
+            },
+            {
+              "@referencia": "BOE-A-2010-3753",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "470",
+                "#text": "SE DECLARA"
+              },
+              "texto": "la nulidad de la disposici\u00f3n transitoria 1, por Sentencia del TS de 18 de noviembre de 2009"
+            },
+            {
+              "@referencia": "BOE-A-2010-3752",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "470",
+                "#text": "SE DECLARA"
+              },
+              "texto": "la nulidad de la disposici\u00f3n transitoria 1, por Sentencia del TS de 18 de noviembre de 2009"
+            },
+            {
+              "@referencia": "BOE-A-2009-7765",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "470",
+                "#text": "SE DECLARA"
+              },
+              "texto": "la nulidad del inciso indicado del art. 10.2, por Sentencia del TS de 10 de febrero de 2009"
+            },
+            {
+              "@referencia": "BOE-A-2009-4629",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "470",
+                "#text": "SE DECLARA"
+              },
+              "texto": "la nulidad del inciso final del art. 4.1, por Sentencia del TS de 11 de febrero de 2009"
+            }
+          ]
+        }
       }
+    },
+    "texto": {
+      "p": [
+        {
+          "@class": "parrafo",
+          "#text": "El marco general de las telecomunicaciones en Espa\u00f1a qued\u00f3 constituido en 1987 por la Ley 31/1987, de 18 de diciembre, de Ordenaci\u00f3n de las Telecomunicaciones, cuyo art\u00edculo 1 se refer\u00eda someramente a las comunicaciones mediante cable y radiocomunicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las necesidades de desarrollo de este tipo de tecnolog\u00eda requirieron la aprobaci\u00f3n de una ley espec\u00edfica, la Ley 42/1995, de 22 de diciembre, de las telecomunicaciones por cable, que vino a configurar de forma m\u00e1s detallada el marco legal aplicable a este sector de los servicios de telecomunicaci\u00f3n, estableciendo unas normas de rango legal que regulaban, por primera vez en Espa\u00f1a, la prestaci\u00f3n conjunta de servicios de telecomunicaci\u00f3n y audiovisuales a trav\u00e9s de las nuevas tecnolog\u00edas del cable. La Ley 42/1995, de 22 de diciembre, defin\u00eda el servicio de telecomunicaciones por cable como un servicio p\u00fablico de titularidad estatal y determinaba que el t\u00edtulo para prestarlo se obtendr\u00eda mediante concurso p\u00fablico. A su vez la concesi\u00f3n del t\u00edtulo para la prestaci\u00f3n del servicio de telecomunicaciones llevaba aneja la concesi\u00f3n para la prestaci\u00f3n del servicio p\u00fablico de televisi\u00f3n por cable."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En su disposici\u00f3n transitoria tercera ordenaba al Gobierno la aprobaci\u00f3n del correspondiente reglamento t\u00e9cnico y de prestaci\u00f3n del servicio, que se llev\u00f3 a cabo mediante el Real Decreto 2066/1996, de 13 de septiembre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Ley 42/1995, de 22 de diciembre, de las telecomunicaciones por cable, fue derogada por la Ley 11/1998, de 24 de abril, General de Telecomunicaciones, a excepci\u00f3n de lo dispuesto para el r\u00e9gimen del servicio de difusi\u00f3n de televisi\u00f3n. En especial, seg\u00fan se se\u00f1alaba en su disposici\u00f3n derogatoria, manten\u00edan su vigencia el art\u00edculo 9.2, primer p\u00e1rrafo; el art\u00edculo 10; el art\u00edculo 11.1, e), f) y g), el art\u00edculo 12, y los apartados 1 y 2 de la disposici\u00f3n adicional tercera de la referida Ley de telecomunicaciones por cable."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El nuevo r\u00e9gimen oblig\u00f3 a transformar las anteriores concesiones en dos t\u00edtulos habilitantes de caracter\u00edsticas muy diferentes, uno de telecomunicaciones, que habilitaba para prestar servicios en este \u00e1mbito en un contexto ampliamente liberalizado, y otro de televisi\u00f3n, consistente en una concesi\u00f3n administrativa para la prestaci\u00f3n de un servicio p\u00fablico mediante gesti\u00f3n indirecta."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Durante los casi cinco a\u00f1os de vigencia de la Ley 11/1998, de 24 de abril, ello dio lugar al mantenimiento de una situaci\u00f3n singular en la que la liberalizaci\u00f3n de las telecomunicaciones por cable se produc\u00eda en paralelo al mantenimiento de las restricciones para prestar el servicio de difusi\u00f3n de televisi\u00f3n, restringido a aqu\u00e9llos que hubieran obtenido la concesi\u00f3n para la gesti\u00f3n indirecta del servicio p\u00fablico en el correspondiente concurso."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Finalmente, la Ley de las telecomunicaciones por cable fue derogada en su totalidad por la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, que, en su disposici\u00f3n adicional d\u00e9cima, declaraba plenamente liberalizada la prestaci\u00f3n del servicio de difusi\u00f3n de televisi\u00f3n por cable que dejaba de ser servicio p\u00fablico, si bien la disposici\u00f3n transitoria d\u00e9cima aplazaba la entrada en vigor de dicha liberalizaci\u00f3n hasta el 31 de diciembre de 2009."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La misma disposici\u00f3n adicional d\u00e9cima dispon\u00eda que el servicio se prestar\u00eda en r\u00e9gimen de libre competencia en las condiciones que se establecieran por el Gobierno mediante reglamento, \u00abque establecer\u00e1 las obligaciones de los titulares de las autorizaciones\u00bb."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Ley 10/2005, de 14 de junio, de Medidas Urgentes para el Impulso de la Televisi\u00f3n Digital Terrestre, de Liberalizaci\u00f3n de la Televisi\u00f3n por Cable y de Fomento del Pluralismo ha modificado la disposici\u00f3n transitoria d\u00e9cima de la citada Ley 32/2003, de 3 de noviembre, supeditando la entrada en vigor de la liberalizaci\u00f3n, no al cumplimiento de un plazo, sino a la publicaci\u00f3n del Reglamento al que se refer\u00eda la disposici\u00f3n adicional d\u00e9cima de la misma ley."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En consecuencia, el Reglamento que se aprueba por el presente real decreto viene a dar cumplimiento a las previsiones regulatorias de la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, y, al mismo tiempo, pone en vigor la liberalizaci\u00f3n efectiva del servicio prevista en dicha disposici\u00f3n, en la redacci\u00f3n dada por la Ley 10/2005."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Por otra parte, el apartado 3 de la disposici\u00f3n transitoria sexta de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones dispone que seguir\u00e1n siendo aplicables determinadas obligaciones de transmisi\u00f3n establecidas en la referida Ley de las telecomunicaciones por cable, pero hasta tanto no se supriman, modifiquen o sustituyan mediante un nuevo reglamento, conforme a lo dispuesto en el apartado 4 de la disposici\u00f3n adicional s\u00e9ptima de dicha Ley 32/2003, de 3 de noviembre. Dicha supresi\u00f3n se realiza en la disposici\u00f3n adicional primera de este real decreto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Cabe hacer notar que el reglamento a que se refiere la disposici\u00f3n transitoria sexta antes citada es de aplicaci\u00f3n a los operadores de telecomunicaciones titulares de redes de cable, por lo que se trata de una norma de telecomunicaciones cuya habilitaci\u00f3n constitucional es distinta de la que corresponde al reglamento aprobado por la presente norma."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Justamente por eso, la disposici\u00f3n transitoria primera del propio reglamento que se aprueba, introduce una obligaci\u00f3n de transmisi\u00f3n, que afectar\u00e1 a los canales anal\u00f3gicos nacionales y a los gestionados directamente por las comunidades aut\u00f3nomas, pero que se exige, no a los operadores de telecomunicaciones por cable, sino a los titulares del servicio de difusi\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La disposici\u00f3n adicional segunda, obliga a los operadores nacionales en anal\u00f3gico a presentar un calendario de implantaci\u00f3n de la tecnolog\u00eda digital que permita adelantar en determinadas \u00e1reas la fecha del cierre definitivo de las emisiones en anal\u00f3gico dentro del objetivo de acelerar la migraci\u00f3n de la televisi\u00f3n desde la tecnolog\u00eda anal\u00f3gica a la digital."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Adem\u00e1s, la disposici\u00f3n final primera del presente real decreto modifica el Reglamento que regula el derecho de los usuarios del servicio de televisi\u00f3n a ser informados de la programaci\u00f3n a emitir, y se desarrollan otros art\u00edculos de la Ley 25/1994, de 12 de julio, modificada por Ley 22/1999, de 7 de junio, aprobado por el Real Decreto 1462/1999, de 17 de septiembre, reduciendo el plazo en el que debe hacerse p\u00fablica la programaci\u00f3n anunciada, de acuerdo con la evoluci\u00f3n de la tecnolog\u00eda y el incremento de la oferta de canales de televisi\u00f3n a disposici\u00f3n de los usuarios."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La modificaci\u00f3n del reglamento aprobado por el Real Decreto 1462/1999, de 17 de septiembre, quiere reforzar adem\u00e1s los mecanismos de autorregulaci\u00f3n con objeto de que los operadores de televisi\u00f3n puedan llegar a acuerdos para facilitar a los medios interesados, con mayor anticipaci\u00f3n de la exigida legalmente y evitando cualquier discriminaci\u00f3n, la informaci\u00f3n sobre sus programas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La disposici\u00f3n final segunda del real decreto modifica el apartado 7 de la disposici\u00f3n adicional segunda del Real Decreto 944/2005, por el que se aprob\u00f3 el Plan T\u00e9cnico de Televisi\u00f3n Digital Terrestre, para incorporar con m\u00e1s precisi\u00f3n las previsiones sobre televisi\u00f3n a trav\u00e9s de tel\u00e9fonos m\u00f3viles,"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Mientras que el Reglamento, en s\u00ed mismo, es una norma de car\u00e1cter b\u00e1sico, las disposiciones adicionales primera y segunda y final segunda son preceptos que se dictan al amparo de la competencia exclusiva del Estado en materia de telecomunicaciones. En cuanto a la disposici\u00f3n final primera, viene a modificar una norma dictada por el Estado en el ejercicio de su potestad reglamentaria, en relaci\u00f3n con los operadores de televisi\u00f3n bajo su competencia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En su virtud, a propuesta del Ministro de Industria, Turismo y Comercio, de acuerdo con el Consejo de Estado, y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 28 de julio de 2006,"
+        },
+        {
+          "@class": "subseccion",
+          "#text": "D I S P O N G O :"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo \u00fanico. Aprobaci\u00f3n del Reglamento general de prestaci\u00f3n del servicio de radio y televisi\u00f3n por cable."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se aprueba el Reglamento general de prestaci\u00f3n del servicio de radio y televisi\u00f3n por cable, cuyo texto se inserta a continuaci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional primera. Obligaciones de transmisi\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "A efectos de lo dispuesto en el apartado 3 de la disposici\u00f3n transitoria sexta de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, se suprimen mediante esta disposici\u00f3n las obligaciones previstas en las letras e), f) y g) del art\u00edculo 11.1 de la Ley 42/1995, de 22 de diciembre, de las telecomunicaciones por cable."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n adicional segunda. Extensi\u00f3n de la cobertura de la televisi\u00f3n digital terrestre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Ente P\u00fablico Radiotelevisi\u00f3n Espa\u00f1ola, las entidades p\u00fablicas creadas de acuerdo con lo establecido en la Ley 46/1983, de 26 de diciembre, reguladora del tercer canal de televisi\u00f3n y las sociedades concesionarias del servicio p\u00fablico de televisi\u00f3n de \u00e1mbito estatal deber\u00e1n presentar, con la debida coordinaci\u00f3n entre las entidades y sociedades radiodifusoras, en su caso, ante la Secretar\u00eda de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n, un plan para alcanzar progresivamente la cobertura del servicio de televisi\u00f3n digital terrestre prevista en el art\u00edculo 6 del Plan t\u00e9cnico nacional de la televisi\u00f3n digital terrestre, aprobado por el Real Decreto 944/2005, de 29 de julio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El plan que se presente deber\u00e1 ser tal que se alcance progresivamente la siguiente cobertura, en su respectivo \u00e1mbito territorial:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) 85 por ciento de la poblaci\u00f3n antes del 31 de julio de 2007."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) 88 por ciento de la poblaci\u00f3n antes del 31 de julio de 2008."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) 93 por ciento de la poblaci\u00f3n antes del 31 de julio de 2009."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Dicho plan contendr\u00e1, al menos, la informaci\u00f3n relativa a las localidades a las que se dar\u00e1 cobertura de televisi\u00f3n digital terrestre y el calendario con las fechas de puesta en servicio de las estaciones con que puedan corresponderse."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El plan se presentar\u00e1 en dos fases, la primera en el plazo de seis meses, contados desde la publicaci\u00f3n del presente real decreto, para los porcentajes se\u00f1alados en los puntos a) y b) anteriores y del 90 por ciento y la segunda en el plazo de un a\u00f1o, contado desde la publicaci\u00f3n del presente real decreto, para el porcentaje del punto c) anterior y del 96 por ciento o 98 por ciento seg\u00fan corresponda."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n derogatoria \u00fanica. Derogaci\u00f3n normativa."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en el presente real decreto."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final primera. Modificaci\u00f3n del Reglamento que regula el derecho de los usuarios del servicio de televisi\u00f3n a ser informados de la programaci\u00f3n a emitir, y se desarrollan otros art\u00edculos de la Ley 25/1994, de 12 de julio, modificada por Ley 22/1999, de 7 de junio, aprobado por el Real Decreto 1462/1999, de 17 de septiembre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Los art\u00edculos 2 y 3 del Reglamento que regula el derecho de los usuarios del servicio de televisi\u00f3n a ser informados de la programaci\u00f3n a emitir, y se desarrollan otros art\u00edculos de la Ley 25/1994, de 12 de julio, modificada por Ley 22/1999, de 7 de junio, aprobado por Real Decre-to 1462/1999, de 17 de septiembre, se modifican en los siguientes t\u00e9rminos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Uno. Se modifica el art\u00edculo 2 del Reglamento, que queda con la redacci\u00f3n siguiente:"
+        },
+        {
+          "@class": "sangrado_articulo",
+          "#text": "\u00abArt\u00edculo 2. Alcance del derecho de informaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "1. Para hacer efectivo el derecho de informaci\u00f3n regulado en el vigente art\u00edculo 18 de la Ley 25/1994, de 12 de julio, los operadores de televisi\u00f3n habr\u00e1n de hacer p\u00fablica su programaci\u00f3n diaria con una antelaci\u00f3n de, al menos, tres d\u00edas respecto del d\u00eda al que la citada programaci\u00f3n se refiera."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "2. Se estimar\u00e1 cumplida la previsi\u00f3n establecida en el apartado anterior, desde el momento que el operador de televisi\u00f3n haga p\u00fablica su programaci\u00f3n en las p\u00e1ginas de teletexto, para la programaci\u00f3n de sus emisiones en anal\u00f3gico y la Gu\u00eda Electr\u00f3nica de Programas, para la programaci\u00f3n de sus emisiones en digital, o por cualquier otro medio, en el supuesto de que no hubiera sido posible hacerlo por alguno de los anteriores."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "3. Lo dispuesto en los apartados anteriores se entiende sin perjuicio de los acuerdos a los que puedan llegar los operadores de televisi\u00f3n para proporcionar, a cualquier persona interesada y sin discriminaci\u00f3n, dicha programaci\u00f3n con una antelaci\u00f3n mayor.\u00bb"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Dos. Se modifica el art\u00edculo 3 del Reglamento, que queda redactado como sigue:"
+        },
+        {
+          "@class": "sangrado_articulo",
+          "#text": "\u00abArt\u00edculo 3. Contenido de la informaci\u00f3n."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "1. La programaci\u00f3n a que se hace referencia en los apartados 1 y 2 del art\u00edculo anterior deber\u00e1 informar, como m\u00ednimo, sobre el t\u00edtulo y el tipo o el g\u00e9nero de todos los programas que se prev\u00e9 emitir, salvo los de duraci\u00f3n inferior a quince minutos. En el caso de largometrajes cinematogr\u00e1ficos, identificar\u00e1 concretamente el t\u00edtulo, el director y el a\u00f1o de producci\u00f3n. En las restantes obras de ficci\u00f3n, como pel\u00edculas para televisi\u00f3n, series, telecomedias y novelas, se indicar\u00e1 el t\u00edtulo de la obra o el episodio a emitir y, en el supuesto de retransmisiones, el espect\u00e1culo concreto y, si \u00e9ste fuere musical, los principales participantes que intervendr\u00e1n en \u00e9l."
+        },
+        {
+          "@class": "sangrado",
+          "#text": "2. Dicha programaci\u00f3n no podr\u00e1 ser modificada, salvo como consecuencia de sucesos ajenos a la voluntad del operador de televisi\u00f3n y que no hubieran podido ser razonablemente previstos, en el momento de hacerse p\u00fablica.\u00bb"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final segunda. Modificaci\u00f3n del Real Decre-to 944/2005, de 29 de julio, por el que se aprueba el Plan t\u00e9cnico nacional de la televisi\u00f3n digital terrestre."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se modifica el apartado 7 de la disposici\u00f3n adicional segunda del Real Decreto 944/2005, de 29 de julio, por el que se aprueba el Plan t\u00e9cnico nacional de la televisi\u00f3n digital terrestre, que queda redactado de la manera siguiente:"
+        },
+        {
+          "@class": "sangrado",
+          "#text": "\u00ab7. Asimismo, en la medida que las disponibilidades del espectro radioel\u00e9ctrico lo permitan, se planificar\u00e1 un m\u00faltiple digital para la prestaci\u00f3n del servicio de televisi\u00f3n digital terrestre en movilidad.\u00bb"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final tercera. Desarrollo reglamentario y aplicaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Sin perjuicio de las competencias que corresponden a las comunidades aut\u00f3nomas en sus respectivos \u00e1mbitos de competencia para el desarrollo y ejecuci\u00f3n de lo dispuesto en el reglamento aprobado por este real decreto, corresponde al Ministro de Industria, Turismo y Comercio dictar, en el \u00e1mbito de sus competencias, cuantas disposiciones y medidas sean necesarias para el desarrollo y aplicaci\u00f3n de lo establecido en el presente real decreto y en el reglamento que aprueba."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final cuarta. T\u00edtulo competencial."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El art\u00edculo \u00fanico y la disposici\u00f3n final tercera de este real decreto y el reglamento que aprueba, excepto su cap\u00edtulo IV, se dictan al amparo de lo dispuesto en el ar-t\u00edculo 149.1.27.\u00aa de la Constituci\u00f3n, que atribuye al Estado la competencia para establecer las normas b\u00e1sicas del r\u00e9gimen de prensa, radio y televisi\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Las disposiciones adicionales primera y segunda, as\u00ed como la disposici\u00f3n final segunda, de \u00e9ste se dictan al amparo de la competencia exclusiva en materia de telecomunicaciones, que al Estado atribuye el art\u00edculo 149.1.21.\u00aa de la Constituci\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n final quinta. Entrada en vigor."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El presente real decreto entrar\u00e1 en vigor un mes despu\u00e9s de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "Dado en Palma de Mallorca, el 28 de julio de 2006."
+        },
+        {
+          "@class": "firma_rey",
+          "#text": "JUAN CARLOS R."
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "El Ministro de Industria, Turismo y Comercio,"
+        },
+        {
+          "@class": "firma_ministro",
+          "#text": "JOS\u00c9 MONTILLA AGUILERA"
+        },
+        {
+          "@class": "libro",
+          "#text": "[encabezado]REGLAMENTO GENERAL DE PRESTACI\u00d3N DEL SERVICIO DE RADIO Y TELEVISI\u00d3N POR CABLE"
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO I"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Disposiciones generales"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 1. Objeto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Este reglamento tiene por objeto el establecimiento de las condiciones b\u00e1sicas para la prestaci\u00f3n de los servicios de difusi\u00f3n de radio y televisi\u00f3n por cable, en aplicaci\u00f3n de lo determinado en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 2. Forma de prestaci\u00f3n del servicio de radio y televisi\u00f3n por cable."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable se har\u00e1 en r\u00e9gimen de libre competencia, en las condiciones establecidas en el presente reglamento."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 3. R\u00e9gimen jur\u00eddico."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El r\u00e9gimen jur\u00eddico fundamental por el que se regir\u00e1n las autorizaciones del servicio de radio y televisi\u00f3n por cable est\u00e1 constituido por lo dispuesto en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, en la Ley 31/1987, de 18 de diciembre, de Ordenaci\u00f3n de las Telecomunicaciones, en la Ley 25/1994, de 12 de julio, por la que se incorpora al ordenamiento jur\u00eddico espa\u00f1ol la Directiva 89/552/CEE, sobre la coordinaci\u00f3n de disposiciones legales, reglamentarias y administrativas de los Estados miembros relativas al ejercicio de actividades de radiodifusi\u00f3n televisiva y en la Ley 10/2005, de 14 de junio, de Medidas Urgentes para el Impulso de la Televisi\u00f3n Digital Terrestre, de Liberalizaci\u00f3n de la Televisi\u00f3n por Cable y de Fomento del Pluralismo, as\u00ed como por lo establecido en el presente reglamento y en las normas de car\u00e1cter reglamentario dictadas en desarrollo de las leyes citadas y en aquellas que puedan dictar las comunidades aut\u00f3nomas en el ejercicio de sus competencias."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 4. T\u00edtulos habilitantes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable ser\u00e1 preceptiva la previa obtenci\u00f3n de una autorizaci\u00f3n administrativa, que habilitar\u00e1 a su titular para difundir por redes de comunicaciones electr\u00f3nicas terrestres que no utilicen de forma exclusiva o principalmente dominio p\u00fablico radioel\u00e9ctrico en un determinado \u00e1mbito geogr\u00e1fico, bajo su responsabilidad, servicios de radio y televisi\u00f3n, cualquiera que sea el responsable editorial de \u00e9stos, componiendo una oferta de canales de radio y televisi\u00f3n dirigida a sus clientes y abonados."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "A estos efectos, de acuerdo con lo dispuesto en la Ley 31/1987, de 18 de diciembre, de Ordenaci\u00f3n de las Telecomunicaciones, se consideran servicios de radio y televisi\u00f3n aqu\u00e9llos en los que la comunicaci\u00f3n se realiza en un solo sentido a varios puntos de recepci\u00f3n simult\u00e1neamente, con independencia de la forma de acceso previo a \u00e9stos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Esta autorizaci\u00f3n administrativa, que no habilitar\u00e1 para prestar el servicio de comunicaciones electr\u00f3nicas de transporte de la se\u00f1al por las redes de cable, precisar\u00e1 la notificaci\u00f3n fehaciente a la Comisi\u00f3n del Mercado de las telecomunicaciones antes del inicio de la actividad, tal y como establece el art\u00edculo 6.2 de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, y se regir\u00e1 por lo dispuesto en dicha Ley General de Telecomunicaciones y sus normas de desarrollo."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. De la misma forma, la habilitaci\u00f3n legal para prestar el servicio de comunicaciones electr\u00f3nicas no habilitar\u00e1 por s\u00ed misma para prestar los servicios de difusi\u00f3n de radio y televisi\u00f3n por cable, que requerir\u00e1n de la autorizaci\u00f3n a que se refiere el apartado 1."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 5. Reparto competencial."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La autorizaci\u00f3n administrativa para prestar el servi-cio de difusi\u00f3n de radio y televisi\u00f3n por cable en un \u00e1mbito territorial superior al de una comunidad aut\u00f3noma ser\u00e1 otorgada por el Ministerio de Industria, Turismo y Comercio. A este departamento ministerial corresponder\u00e1n tambi\u00e9n las competencias en materia de inspecci\u00f3n y control respecto del cumplimiento de las obligaciones previstas en el presente reglamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "El Ministerio de Industria, Turismo y Comercio remitir\u00e1 a la Comisi\u00f3n del Mercado de las Telecomunicaciones, los expedientes con las autorizaciones otorgadas para la inscripci\u00f3n de \u00e9stas en el registro a que se refiere el cap\u00edtulo IV."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Corresponde a las comunidades aut\u00f3nomas el otorgamiento de las autorizaciones administrativas para la prestaci\u00f3n de servicios de difusi\u00f3n de radio y televisi\u00f3n por cable cuyo \u00e1mbito territorial de actuaci\u00f3n no sobrepase el territorio de una comunidad aut\u00f3noma. La normativa auton\u00f3mica designar\u00e1 los \u00f3rganos responsables de la aplicaci\u00f3n del r\u00e9gimen jur\u00eddico previsto en el presente reglamento y del control de su cumplimiento en sus respectivos \u00e1mbitos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3.  Cuando a la vista de la documentaci\u00f3n a que se refiere el art\u00edculo 7.1, g) de este reglamento, se desprenda que el solicitante de una autorizaci\u00f3n de car\u00e1cter estatal, tiene previsto realizar ofertas espec\u00edficas de canales de radio y televisi\u00f3n para sus abonados de determinadas comunidades aut\u00f3nomas o de una parte de \u00e9stas, se remitir\u00e1n de oficio a cada comunidad aut\u00f3noma, para su tramitaci\u00f3n como autorizaci\u00f3n para prestar el servicio en ese \u00e1mbito, los datos relativos al solicitante as\u00ed como la relaci\u00f3n de los canales de radio y televisi\u00f3n que ser\u00e1n difundidos exclusivamente en un \u00e1mbito territorial coincidente o comprendido en el territorio de esa comunidad aut\u00f3noma."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En cualquier caso, la difusi\u00f3n de canales de radio y televisi\u00f3n cuyo \u00e1mbito territorial no sobrepase el de una comunidad aut\u00f3noma deber\u00e1 contar con la preceptiva autorizaci\u00f3n del servicio por parte de \u00e9sta."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En estos supuestos, las obligaciones previstas en este reglamento ser\u00e1n exigibles de forma independiente por la Administraci\u00f3n competente en cada caso, para el conjunto de canales amparados por cada autorizaci\u00f3n, excepto en lo que respecta al cumplimiento de lo previsto en el apartado 1 de la disposici\u00f3n transitoria primera del presente reglamente que ser\u00e1 exclusivamente exigible respecto de la autorizaci\u00f3n de \u00e1mbito estatal."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO II"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Autorizaciones"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 6. Requisitos para ser titular de una autorizaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Podr\u00e1n prestar el servicio de difusi\u00f3n de radio y televisi\u00f3n por cable, las personas que re\u00fanan los siguientes requisitos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) En el caso de personas f\u00edsicas, tener la nacionalidad de un Estado miembro del Espacio Econ\u00f3mico Europeo o la de cualquier Estado que, de acuerdo con su normativa interna, reconozca este derecho a los ciudadanos espa\u00f1oles."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) En el caso de personas jur\u00eddicas, tener establecido su domicilio social en un Estado miembro del Espacio Econ\u00f3mico Europeo o en cualquier Estado que, de acuerdo con su normativa interna, reconozca este derecho a las empresas espa\u00f1olas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) A efectos de notificaciones, cuando el solicitante no sea residente o no se encuentre establecido en Espa\u00f1a, deber\u00e1 designar un representante con domicilio en territorio espa\u00f1ol. En cualquier caso, el domicilio a efectos de notificaciones siempre estar\u00e1 en territorio espa\u00f1ol."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) No haber sido sancionado, en los \u00faltimos tres a\u00f1os, por la comisi\u00f3n de una infracci\u00f3n que lleve aparejada la retirada de la autorizaci\u00f3n como prestador del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 7. Procedimiento para otorgar las autorizaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Las personas f\u00edsicas o jur\u00eddicas interesadas en obtener una autorizaci\u00f3n para prestar el servicio de difusi\u00f3n de radio y televisi\u00f3n por cable dirigir\u00e1n sus solicitudes a la autoridad competente para su otorgamiento, conforme a lo previsto en el art\u00edculo 5, en funci\u00f3n del \u00e1mbito territorial al que afecte, aportando la documentaci\u00f3n que acredite fehacientemente los siguientes extremos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) La personalidad f\u00edsica o jur\u00eddica del solicitante."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) El nombre y dem\u00e1s datos personales de su representante, en su caso."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) El domicilio a efectos de notificaciones. En el caso de sociedades o personas f\u00edsicas extranjeras, se entender\u00e1 el domicilio del representante en Espa\u00f1a como domicilio a efectos de la sociedad representada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Cuando sus titulares adopten la forma de sociedades, su capital social, la identidad o denominaci\u00f3n social de las personas y entidades que sean titulares de participaciones superiores al 5 por ciento del capital o los derechos de voto y el porcentaje de capital que ostentaren."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) El \u00e1mbito de cobertura del servicio de difusi\u00f3n para el que se solicita autorizaci\u00f3n y la red de telecomunicaciones por cable que vaya a utilizar, as\u00ed como los par\u00e1metros t\u00e9cnicos que reglamentariamente se determinen para permitir la identificaci\u00f3n del servicio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "f) El nombre comercial del servicio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "g) El nombre comercial y las caracter\u00edsticas esenciales de cada uno de los canales radiof\u00f3nicos o de televisi\u00f3n que prevea incluir en su oferta, de acuerdo con lo dispuesto en el art\u00edculo 11.a)"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2. El \u00f3rgano competente dispondr\u00e1 de un plazo de treinta d\u00edas naturales para dictar resoluci\u00f3n otorgando o no la autorizaci\u00f3n solicitada. Las resoluciones denegatorias deber\u00e1n ser siempre motivadas. Si se produjese el vencimiento del plazo m\u00e1ximo se\u00f1alado sin haberse notificado resoluci\u00f3n expresa, por causa no imputable al interesado, \u00e9ste podr\u00e1 instar la inscripci\u00f3n de su servicio de difusi\u00f3n, como autorizado, en el correspondiente registro."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 8. Duraci\u00f3n, transmisi\u00f3n y cancelaci\u00f3n de la autorizaci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n por redes de cable se otorgar\u00e1 por plazo indefinido y ser\u00e1 transmisible."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El cambio de titular de una autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1 ser notificado a la autoridad que la otorg\u00f3, antes de transcurridas 48 horas desde que se produjo la transmisi\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Si la notificaci\u00f3n presentara defectos u omisiones que no fueran subsanados en plazo o el nuevo titular no reuniere los requisitos a que se refiere el art\u00edculo 6, el \u00f3rgano competente dispondr\u00e1 de 15 d\u00edas para dictar resoluci\u00f3n motivada anulando la transmisi\u00f3n de la autorizaci\u00f3n e instando al nuevo titular al cese inmediato en la prestaci\u00f3n del servicio desde la recepci\u00f3n de la mencionada resoluci\u00f3n, si \u00e9ste ya se hubiese iniciado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. La autorizaci\u00f3n para prestar el servicio de radio y televisi\u00f3n por cable podr\u00e1 cancelarse por la autoridad que la concedi\u00f3, por los siguientes motivos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) A petici\u00f3n de su titular, fehacientemente notificada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Por la p\u00e9rdida de alguno de los requisitos exigidos para su otorgamiento."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 9. Registro."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Las autorizaciones para la prestaci\u00f3n de difusi\u00f3n de radio y televisi\u00f3n por cable quedar\u00e1n inscritas de oficio en el registro que a tal efecto se llevar\u00e1 en la Comisi\u00f3n del Mercado de las Telecomunicaciones o las comunidades aut\u00f3nomas, de acuerdo con lo dispuesto en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones. Dentro de cada autorizaci\u00f3n se inscribir\u00e1n los datos declarados por el titular de la autorizaci\u00f3n a los que se refiere el art\u00edculo 7.1 de este reglamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. La inscripci\u00f3n de las autorizaciones y de los datos correspondientes en los registros establecidos al efecto por cada comunidad aut\u00f3noma deber\u00e1 comunicarse por su responsable al registro de la Comisi\u00f3n del Mercado de las Telecomunicaciones, a efectos meramente informativos. Telem\u00e1ticamente se garantizar\u00e1 el acceso directo e inmediato a este registro estatal desde los registros existentes en las comunidades aut\u00f3nomas y viceversa."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. El registro de autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable ser\u00e1 p\u00fablico."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO III"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Obligaciones"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 10. Obligaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los titulares de una autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n cumplir las obligaciones previstas en este cap\u00edtulo, y en las restantes normas de aplicaci\u00f3n y las que, en uso de sus competencias, dicten las comunidades aut\u00f3nomas para los servicios bajo su jurisdicci\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. De acuerdo con lo previsto en la Ley 25/1994, de 12 de julio, los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable ser\u00e1n responsables directos del contenido de los canales de radio y televisi\u00f3n cuya responsabilidad editorial asuman y ser\u00e1n responsables subsidiarios cuando se limiten a la mera difusi\u00f3n de canales cuya titularidad corresponda a un tercero."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 11. Oferta de canales."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Los prestadores del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n cumplir las siguientes obligaciones en relaci\u00f3n con su oferta de canales de televisi\u00f3n:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) De acuerdo con lo dispuesto en la disposici\u00f3n adicional quinta de la Ley 25/1994, de 12 de julio, deber\u00e1n informar preceptivamente sobre las caracter\u00edsticas de cada uno de los canales de televisi\u00f3n que ofrezcan, identificando si dichos canales son propios o han sido suministrados por un tercero y, en este \u00faltimo caso, el responsable editorial de \u00e9stos. Se informar\u00e1, igualmente, de si se trata de la retransmisi\u00f3n de un canal cuya emisi\u00f3n primaria se est\u00e1 realizando por otra v\u00eda, indicando, en ese caso, si el responsable editorial del mismo se encuentra o no bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En la informaci\u00f3n se precisar\u00e1 el \u00e1mbito territorial de cada canal dentro del servicio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) A estos efectos podr\u00e1n incluir dentro de su oferta:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Cualquier canal de televisi\u00f3n cuyo responsable editorial se encuentre establecido o bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea o que sea parte del Convenio Europeo de Televisi\u00f3n Transfronteriza."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La retransmisi\u00f3n de canales no amparados por lo dispuesto en el p\u00e1rrafo anterior y cuya difusi\u00f3n primaria se est\u00e9 realizando por otro medio, siempre que estos canales respeten los principios y valores del Convenio Europeo de Derechos Humanos y, en particular, no incluyan programas ni escenas o mensajes de cualquier tipo que puedan perjudicar seriamente el desarrollo f\u00edsico, mental o moral de los menores, ni programas que fomenten el odio, el desprecio o la discriminaci\u00f3n por motivos de nacimiento, raza, sexo, religi\u00f3n, nacionalidad, opini\u00f3n o cualquier otra circunstancia personal o social."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La difusi\u00f3n primaria de canales cuyo titular no se encuentre establecido o bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea o que sea parte del Convenio Europeo de Televisi\u00f3n Transfronteriza, si bien en este caso vendr\u00e1 obligado a que los contenidos de \u00e9ste se ajusten a lo previsto en la Ley 25/1994, de 12 de julio."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "c) Deber\u00e1n suspender la difusi\u00f3n de aquellos canales de televisi\u00f3n cuya difusi\u00f3n haya sido prohibida por sentencia judicial o por infringir lo dispuesto en el art\u00edcu-lo 17.1 de la Ley 25/1994, de 12 de julio, o en virtud de lo dispuesto en el apartado 1 de la disposici\u00f3n final segunda de esta norma legal, en un plazo m\u00e1ximo de 24 horas desde que les haya sido notificada esta circunstancia."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Deber\u00e1n organizar su oferta de canales de forma que aquellos destinados exclusivamente para adultos, por consistir en contenidos que puedan afectar a la protecci\u00f3n de la juventud y de la infancia y a otros bienes o derechos, sean identificados como tales y ofrecidos de manera independiente, sin que la suscripci\u00f3n a esos canales pueda ser condici\u00f3n para el acceso o la mejora en las condiciones de acceso a otros canales de televisi\u00f3n. Estos canales no podr\u00e1n ofrecerse nunca en abierto."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "e) Deber\u00e1n adoptar las previsiones necesarias para permitir el acceso a los contenidos de los canales difundidos cuyos titulares no se encuentren establecidos o bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea o que sea parte del Convenio Europeo de Televisi\u00f3n Transfronteriza, durante un plazo, como m\u00ednimo, de seis meses a contar desde la fecha de su difusi\u00f3n, a efectos de facilitar su inspecci\u00f3n por las autoridades competentes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Durante el mismo plazo deber\u00e1n conservar informaci\u00f3n escrita sobre la programaci\u00f3n incluida en los restantes canales a efectos de las comprobaciones oportunas."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 12. Protecci\u00f3n de menores y otras medidas de acceso."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. De acuerdo con lo dispuesto en la disposici\u00f3n adicional cuarta de la Ley 25/1994, de 12 de julio, los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n adoptar las medidas necesarias de car\u00e1cter f\u00edsico o virtual para hacer posible bloquear en los equipos de recepci\u00f3n el acceso total o parcial a cualquiera de sus canales por iniciativa del usuario, de una manera f\u00e1cil y c\u00f3moda."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Cuando dichos titulares proporcionen, por s\u00ed mismos o a trav\u00e9s de un tercero, servicios de Gu\u00eda Electr\u00f3nica de Programas, deber\u00e1n asegurar que la informaci\u00f3n contenida en \u00e9sta advierta de manera suficiente y veraz del contenido del programa a efectos de la protecci\u00f3n de los menores, de acuerdo con la informaci\u00f3n proporcionada por el titular del canal, en cumplimiento de lo dispuesto en el art\u00edculo 17.3 de la Ley 25/1994, de 12 de julio, por la que se incorpora al ordenamiento jur\u00eddico espa\u00f1ol la Directiva 89/552/CEE, sobre la coordinaci\u00f3n de disposiciones legales, reglamentarias y administrativas de los Estados miembros, relativas al ejercicio de actividades de radiodifusi\u00f3n televisiva."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Igualmente deber\u00e1n asegurar que las redes de comunicaciones electr\u00f3nicas que utilicen como servicio soporte del servicio de difusi\u00f3n, dispongan de los recursos t\u00e9cnicos necesarios para permitir la transmisi\u00f3n de los servicios de subtitulado, audiodescripci\u00f3n e interpretaci\u00f3n en la lengua de signos, de apoyo para el acceso de personas con discapacidad o con necesidades especiales, cuando \u00e9stos vinieran incluidos en los canales difundidos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 13. Obligaciones administrativas."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n facilitar a la Administraci\u00f3n competente en cada caso el acceso regular, libre y gratuito a sus servicios, en un n\u00famero no superior a cinco. Los costes espec\u00edficos de despliegue de red en los que pueda incurrir el operador de telecomunicaciones para conectar el servicio de difusi\u00f3n con la administraci\u00f3n que lo solicite ser\u00e1n por cuenta de esta \u00faltima."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n actualizar los datos a que se refiere el art\u00edculo 7.1, de la siguiente forma:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Los correspondientes a las letras a), b), c) y e), notificando al correspondiente registro los cambios que se produzcan en ellos, en el plazo de un mes desde que se produzcan."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Los correspondientes a la letra d) notificando al correspondiente registro los cambios producidos en dichos datos dentro de cada a\u00f1o, como muy tarde en los 15 primeros d\u00edas de cada a\u00f1o natural siguiente."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Los correspondientes a la letra g) notificando al registro correspondiente los cambios previstos con car\u00e1cter previo al inicio o fin de la difusi\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 14. Difusi\u00f3n de canales de operadores independientes."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Los servicios de difusi\u00f3n de radio y televisi\u00f3n por cable que distribuyan m\u00e1s de 30 canales de televisi\u00f3n, deber\u00e1n asegurar que al menos el 30 por ciento de los canales difundidos en una lengua espa\u00f1ola, correspondan a titulares de canales independientes, siempre que la oferta de \u00e9stos sea suficiente y de calidad adecuada, de acuerdo con lo establecido en el presente reglamento y en la normativa que las comunidades aut\u00f3nomas dicten en el \u00e1mbito de sus competencias."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Con car\u00e1cter supletorio, en el caso de ausencia de normativa espec\u00edfica de las comunidades aut\u00f3nomas, o cuando la competencia sea estatal, ser\u00e1 de aplicaci\u00f3n lo siguiente:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) El c\u00f3mputo se efectuar\u00e1 sobre el n\u00famero total de canales de televisi\u00f3n en una lengua espa\u00f1ola ofertados por el titular del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Corresponder\u00e1 al organismo competente de la comunidad aut\u00f3noma afectada, o al Ministerio de Industria, Turismo y Comercio, si \u00e9sta hubiera sido el organismo que otorg\u00f3 la autorizaci\u00f3n, resolver en los siguientes asuntos:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las dudas sobre la forma de contabilizar la oferta total de canales o el car\u00e1cter independiente de sus titulares."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Las alegaciones referidas a que la oferta de canales independientes es insuficiente o no re\u00fane la calidad adecuada."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "c) La resoluci\u00f3n del \u00f3rgano competente agotar\u00e1 la v\u00eda administrativa."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Se entender\u00e1 que el titular del canal es independiente del prestador del servicio de difusi\u00f3n cuando no se d\u00e9 ninguna de las circunstancias siguientes:"
+        },
+        {
+          "@class": "parrafo",
+          "#text": "a) Que el titular del servicio de difusi\u00f3n y el titular del canal formen parte del mismo grupo de sociedades de acuerdo con lo dispuesto en el art\u00edculo 42 del C\u00f3digo de Comercio."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "b) Que el titular del servicio de difusi\u00f3n y el del canal de televisi\u00f3n tengan, directa o indirectamente, accionistas comunes o que pertenezcan al mismo grupo, siempre que representen, al menos, el 10 por ciento de los derechos de voto en cada uno de ellos o hayan designado a un miembro del consejo de administraci\u00f3n de ambos."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "c) Que entre el titular del servicio de difusi\u00f3n y el titular del canal existan acuerdos de exclusividad que limiten la autonom\u00eda de las partes, tanto en la capacidad del titular del servicio de difusi\u00f3n para contratar con terceros la comercializaci\u00f3n de otros canales de televisi\u00f3n, como impidiendo al titular del canal negociar la difusi\u00f3n de sus canales por otros servicios de difusi\u00f3n o condicionando la misma a la previa aprobaci\u00f3n del titular del servicio de difusi\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "d) Que el \u00f3rgano competente, o\u00eddos los interesados y a la vista de otros antecedentes disponibles emita dictamen motivado estableciendo que entre el titular del servicio de difusi\u00f3n y el titular del canal se da una relaci\u00f3n de dependencia."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "4. Cuando el servicio de difusi\u00f3n por cable incluya dentro de su oferta uno o m\u00e1s canales exclusivamente destinados a la informaci\u00f3n, el titular del canal o de al menos uno de los canales de informaci\u00f3n editado en una de las lenguas oficiales de Espa\u00f1a deber\u00e1 cumplir la condici\u00f3n de independencia establecida en el apartado anterior, respecto del titular del servicio de difusi\u00f3n, siempre que exista una oferta de \u00e9stos de calidad adecuada."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Se entienden por canales dedicados exclusivamente a la informaci\u00f3n, aqu\u00e9llos cuya programaci\u00f3n consista, en m\u00e1s de un 80 por ciento, en noticias, entrevistas, reportajes de actualidad y debates."
+        },
+        {
+          "@class": "capitulo_num",
+          "#text": "CAP\u00cdTULO IV"
+        },
+        {
+          "@class": "capitulo_tit",
+          "#text": "Registro estatal de autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable"
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 15. Objeto del registro."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. El Registro estatal de autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable, de car\u00e1cter p\u00fablico y administrativo, tiene por objeto la inscripci\u00f3n de las autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable y sus modificaciones, de acuerdo con lo dispuesto en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, cuando el otorgamiento de las mismas corresponda al Estado de acuerdo con lo previsto en el art\u00edculo 5 de este reglamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. El registro estatal se llevar\u00e1 por la Comisi\u00f3n del Mercado de las Telecomunicaciones."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 16. Acceso al registro y expedici\u00f3n de certificaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Dicho registro estatal de autorizaciones ser\u00e1 p\u00fablico. Los asientos registrales contenidos en \u00e9l ser\u00e1n de libre acceso para su consulta por cualquier persona que lo solicite. El encargado del registro facilitar\u00e1 a los interesados la consulta de los asientos por medios inform\u00e1ticos instalados en la oficina del registro y, en su caso, a trav\u00e9s de la p\u00e1gina Web de la Comisi\u00f3n del Mercado de las Telecomunicaciones."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. Cualquier persona f\u00edsica o jur\u00eddica podr\u00e1 solicitar certificaciones de autorizaciones y dem\u00e1s actos inscritos. Las certificaciones registrales ser\u00e1n el \u00fanico medio de acreditar fehacientemente el contenido de los asientos registrales."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 17. Estructura del registro."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. En el registro se llevar\u00e1n libros de registro con la diligencia de apertura firmada por el Presidente de la Comisi\u00f3n del Mercado de las Telecomunicaciones y con expresi\u00f3n de los folios que contienen, que estar\u00e1n numerados, sellados y rubricados. Se abrir\u00e1, en principio, un folio para cada operador."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. A cada autorizaci\u00f3n se le asignar\u00e1 en el libro correspondiente un n\u00famero de inscripci\u00f3n que ser\u00e1 el del folio en el que se inscriba. Dicho folio ir\u00e1 seguido de cuantos otros sean necesarios, ordenados, a su vez, con indicaci\u00f3n del n\u00famero que haya correspondido al folio inicial, seguido de otro que reflejar\u00e1 el n\u00famero correlativo de folios que se precisen para la inscripci\u00f3n de las modificaciones que procedan."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Se podr\u00e1n utilizar los libros auxiliares, archivos, cuadernos o legajos que el encargado del registro considere oportunos para su buen funcionamiento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "4. Todo esto podr\u00e1 ser realizado por medios inform\u00e1ticos, siempre que \u00e9stos cuenten con el correspondiente soporte documental."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Art\u00edculo 18. Inscripci\u00f3n en el registro."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. La primera inscripci\u00f3n de las autorizaciones de \u00e1mbito estatal ser\u00e1 realizada de oficio por la Comisi\u00f3n del Mercado de las Telecomunicaciones, previa comunicaci\u00f3n del \u00f3rgano competente para su otorgamiento, o a instancia del interesado, si hubiese vencido el plazo m\u00e1ximo se\u00f1alado en el art\u00edculo 7.2 de este reglamento, sin haberse notificado resoluci\u00f3n expresa por el \u00f3rgano competente, por causa no imputable al interesado."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "2. En dicha inscripci\u00f3n se consignar\u00e1 la fecha de la resoluci\u00f3n de otorgamiento de la autorizaci\u00f3n o, en su caso, de la solicitud de inscripci\u00f3n en el Registro si dicha inscripci\u00f3n se instara por vencimiento del plazo, y los datos declarados por el titular de la autorizaci\u00f3n a los que se refiere el art\u00edculo 7.1 de este reglamento."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Igualmente se consignar\u00e1n los datos que determine la Comisi\u00f3n del Mercado de las Telecomunicaciones necesarios para permitir la identificaci\u00f3n de los titulares de la red de telecomunicaciones por cable utilizada y del servicio de comunicaciones electr\u00f3nicas soporte del servicio de difusi\u00f3n."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n transitoria primera. R\u00e9gimen transitorio de las obligaciones de difusi\u00f3n."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "1. Hasta el cese definitivo de las emisiones de televisi\u00f3n con tecnolog\u00eda anal\u00f3gica, los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de televisi\u00f3n por cable, vendr\u00e1n obligados a incluir en su oferta los siguientes canales de los operadores que se indican:"
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "TVE 1 de TVE, S. A."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Segunda de TVE, S. A."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Antena 3 TV de Antena 3 TV, S. A."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Telecinco de Gestevisi\u00f3n-Telecinco, S. A."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Cuatro de Sogecable, S. A."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "La Sexta de Gestora de Inversiones Audiovisuales La Sexta, S. A."
+        },
+        {
+          "@class": "parrafo_2",
+          "#text": "2. Adem\u00e1s, durante el mismo plazo, los titulares de autorizaci\u00f3n para prestar el servicio de difusi\u00f3n de televisi\u00f3n por cable en el \u00e1mbito auton\u00f3mico deber\u00e1n incluir en su oferta los canales en anal\u00f3gico gestionados directamente por la comunidad aut\u00f3noma donde desarrollen su actividad."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "3. Las contraprestaciones econ\u00f3micas por la distribuci\u00f3n de estos servicios, entre los titulares de las autorizaciones para prestar el servicio de difusi\u00f3n y los titulares de los canales mencionados en los apartados anteriores, ser\u00e1n acordadas libremente entre las partes, en el marco de la normativa que dicte el Estado o, en su caso, las comunidades aut\u00f3nomas con competencias en materia de medios de comunicaci\u00f3n social."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En caso de desacuerdo resolver\u00e1 la Administraci\u00f3n que en cada caso sea competente para autorizar la prestaci\u00f3n del servicio de televisi\u00f3n por las redes de cable afectadas."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n transitoria segunda. Requerimiento para ampliar la informaci\u00f3n registral."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "En relaci\u00f3n con las autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n derivadas de la transformaci\u00f3n de anteriores t\u00edtulos habilitantes, realizada al amparo de lo previsto en la disposici\u00f3n transitoria d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, su inscripci\u00f3n en el correspondiente registro reflejar\u00e1 los datos a que se refiere el art\u00edculo 7.1 de este reglamento, a partir de la informaci\u00f3n existente en el momento de la transformaci\u00f3n del respectivo t\u00edtulo. En el supuesto de que dicha informaci\u00f3n resultara insuficiente para completar dichos datos, el \u00f3rgano responsable del registro podr\u00e1 requerir al titular de la autorizaci\u00f3n los necesarios para completarlos."
+        },
+        {
+          "@class": "articulo",
+          "#text": "Disposici\u00f3n transitoria tercera. Incorporaci\u00f3n de facilidades de transmisi\u00f3n a las redes de cable."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "De acuerdo con lo previsto en la Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminaci\u00f3n y accesibilidad universal de las personas con discriminaci\u00f3n, lo dispuesto en el art\u00edculo 12.3 de este reglamento ser\u00e1 exigible a partir del 1 de enero de 2008, a los servicios de difusi\u00f3n que utilicen redes de cable, instaladas a partir de la entrada en vigor de este reglamento o que sean ampliaciones de las existentes, realizadas con posterioridad a esa misma fecha."
+        },
+        {
+          "@class": "parrafo",
+          "#text": "Los servicios de difusi\u00f3n que utilicen redes de cable que a la entrada en vigor de este reglamento ya se encontraran prestando el servicio soporte para la difusi\u00f3n de televisi\u00f3n, dispondr\u00e1n de un plazo, hasta el 1 de enero de 2010, para que las instalaciones de \u00e9stas se adapten a lo dispuesto en dicho art\u00edculo 12.3."
+        }
+      ]
     }
-  },
-  "texto": {
-    "p": [
-      {
-        "@class": "parrafo",
-        "#text": "El marco general de las telecomunicaciones en Espa\u00f1a qued\u00f3 constituido en 1987 por la Ley 31/1987, de 18 de diciembre, de Ordenaci\u00f3n de las Telecomunicaciones, cuyo art\u00edculo 1 se refer\u00eda someramente a las comunicaciones mediante cable y radiocomunicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Las necesidades de desarrollo de este tipo de tecnolog\u00eda requirieron la aprobaci\u00f3n de una ley espec\u00edfica, la Ley 42/1995, de 22 de diciembre, de las telecomunicaciones por cable, que vino a configurar de forma m\u00e1s detallada el marco legal aplicable a este sector de los servicios de telecomunicaci\u00f3n, estableciendo unas normas de rango legal que regulaban, por primera vez en Espa\u00f1a, la prestaci\u00f3n conjunta de servicios de telecomunicaci\u00f3n y audiovisuales a trav\u00e9s de las nuevas tecnolog\u00edas del cable. La Ley 42/1995, de 22 de diciembre, defin\u00eda el servicio de telecomunicaciones por cable como un servicio p\u00fablico de titularidad estatal y determinaba que el t\u00edtulo para prestarlo se obtendr\u00eda mediante concurso p\u00fablico. A su vez la concesi\u00f3n del t\u00edtulo para la prestaci\u00f3n del servicio de telecomunicaciones llevaba aneja la concesi\u00f3n para la prestaci\u00f3n del servicio p\u00fablico de televisi\u00f3n por cable."
-      },{
-        "@class": "parrafo",
-        "#text": "En su disposici\u00f3n transitoria tercera ordenaba al Gobierno la aprobaci\u00f3n del correspondiente reglamento t\u00e9cnico y de prestaci\u00f3n del servicio, que se llev\u00f3 a cabo mediante el Real Decreto 2066/1996, de 13 de septiembre."
-      },{
-        "@class": "parrafo",
-        "#text": "La Ley 42/1995, de 22 de diciembre, de las telecomunicaciones por cable, fue derogada por la Ley 11/1998, de 24 de abril, General de Telecomunicaciones, a excepci\u00f3n de lo dispuesto para el r\u00e9gimen del servicio de difusi\u00f3n de televisi\u00f3n. En especial, seg\u00fan se se\u00f1alaba en su disposici\u00f3n derogatoria, manten\u00edan su vigencia el art\u00edculo 9.2, primer p\u00e1rrafo; el art\u00edculo 10; el art\u00edculo 11.1, e), f) y g), el art\u00edculo 12, y los apartados 1 y 2 de la disposici\u00f3n adicional tercera de la referida Ley de telecomunicaciones por cable."
-      },{
-        "@class": "parrafo",
-        "#text": "El nuevo r\u00e9gimen oblig\u00f3 a transformar las anteriores concesiones en dos t\u00edtulos habilitantes de caracter\u00edsticas muy diferentes, uno de telecomunicaciones, que habilitaba para prestar servicios en este \u00e1mbito en un contexto ampliamente liberalizado, y otro de televisi\u00f3n, consistente en una concesi\u00f3n administrativa para la prestaci\u00f3n de un servicio p\u00fablico mediante gesti\u00f3n indirecta."
-      },{
-        "@class": "parrafo",
-        "#text": "Durante los casi cinco a\u00f1os de vigencia de la Ley 11/1998, de 24 de abril, ello dio lugar al mantenimiento de una situaci\u00f3n singular en la que la liberalizaci\u00f3n de las telecomunicaciones por cable se produc\u00eda en paralelo al mantenimiento de las restricciones para prestar el servicio de difusi\u00f3n de televisi\u00f3n, restringido a aqu\u00e9llos que hubieran obtenido la concesi\u00f3n para la gesti\u00f3n indirecta del servicio p\u00fablico en el correspondiente concurso."
-      },{
-        "@class": "parrafo",
-        "#text": "Finalmente, la Ley de las telecomunicaciones por cable fue derogada en su totalidad por la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, que, en su disposici\u00f3n adicional d\u00e9cima, declaraba plenamente liberalizada la prestaci\u00f3n del servicio de difusi\u00f3n de televisi\u00f3n por cable que dejaba de ser servicio p\u00fablico, si bien la disposici\u00f3n transitoria d\u00e9cima aplazaba la entrada en vigor de dicha liberalizaci\u00f3n hasta el 31 de diciembre de 2009."
-      },{
-        "@class": "parrafo",
-        "#text": "La misma disposici\u00f3n adicional d\u00e9cima dispon\u00eda que el servicio se prestar\u00eda en r\u00e9gimen de libre competencia en las condiciones que se establecieran por el Gobierno mediante reglamento, \u00abque establecer\u00e1 las obligaciones de los titulares de las autorizaciones\u00bb."
-      },{
-        "@class": "parrafo",
-        "#text": "La Ley 10/2005, de 14 de junio, de Medidas Urgentes para el Impulso de la Televisi\u00f3n Digital Terrestre, de Liberalizaci\u00f3n de la Televisi\u00f3n por Cable y de Fomento del Pluralismo ha modificado la disposici\u00f3n transitoria d\u00e9cima de la citada Ley 32/2003, de 3 de noviembre, supeditando la entrada en vigor de la liberalizaci\u00f3n, no al cumplimiento de un plazo, sino a la publicaci\u00f3n del Reglamento al que se refer\u00eda la disposici\u00f3n adicional d\u00e9cima de la misma ley."
-      },{
-        "@class": "parrafo",
-        "#text": "En consecuencia, el Reglamento que se aprueba por el presente real decreto viene a dar cumplimiento a las previsiones regulatorias de la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, y, al mismo tiempo, pone en vigor la liberalizaci\u00f3n efectiva del servicio prevista en dicha disposici\u00f3n, en la redacci\u00f3n dada por la Ley 10/2005."
-      },{
-        "@class": "parrafo",
-        "#text": "Por otra parte, el apartado 3 de la disposici\u00f3n transitoria sexta de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones dispone que seguir\u00e1n siendo aplicables determinadas obligaciones de transmisi\u00f3n establecidas en la referida Ley de las telecomunicaciones por cable, pero hasta tanto no se supriman, modifiquen o sustituyan mediante un nuevo reglamento, conforme a lo dispuesto en el apartado 4 de la disposici\u00f3n adicional s\u00e9ptima de dicha Ley 32/2003, de 3 de noviembre. Dicha supresi\u00f3n se realiza en la disposici\u00f3n adicional primera de este real decreto."
-      },{
-        "@class": "parrafo",
-        "#text": "Cabe hacer notar que el reglamento a que se refiere la disposici\u00f3n transitoria sexta antes citada es de aplicaci\u00f3n a los operadores de telecomunicaciones titulares de redes de cable, por lo que se trata de una norma de telecomunicaciones cuya habilitaci\u00f3n constitucional es distinta de la que corresponde al reglamento aprobado por la presente norma."
-      },{
-        "@class": "parrafo",
-        "#text": "Justamente por eso, la disposici\u00f3n transitoria primera del propio reglamento que se aprueba, introduce una obligaci\u00f3n de transmisi\u00f3n, que afectar\u00e1 a los canales anal\u00f3gicos nacionales y a los gestionados directamente por las comunidades aut\u00f3nomas, pero que se exige, no a los operadores de telecomunicaciones por cable, sino a los titulares del servicio de difusi\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "La disposici\u00f3n adicional segunda, obliga a los operadores nacionales en anal\u00f3gico a presentar un calendario de implantaci\u00f3n de la tecnolog\u00eda digital que permita adelantar en determinadas \u00e1reas la fecha del cierre definitivo de las emisiones en anal\u00f3gico dentro del objetivo de acelerar la migraci\u00f3n de la televisi\u00f3n desde la tecnolog\u00eda anal\u00f3gica a la digital."
-      },{
-        "@class": "parrafo",
-        "#text": "Adem\u00e1s, la disposici\u00f3n final primera del presente real decreto modifica el Reglamento que regula el derecho de los usuarios del servicio de televisi\u00f3n a ser informados de la programaci\u00f3n a emitir, y se desarrollan otros art\u00edculos de la Ley 25/1994, de 12 de julio, modificada por Ley 22/1999, de 7 de junio, aprobado por el Real Decreto 1462/1999, de 17 de septiembre, reduciendo el plazo en el que debe hacerse p\u00fablica la programaci\u00f3n anunciada, de acuerdo con la evoluci\u00f3n de la tecnolog\u00eda y el incremento de la oferta de canales de televisi\u00f3n a disposici\u00f3n de los usuarios."
-      },{
-        "@class": "parrafo",
-        "#text": "La modificaci\u00f3n del reglamento aprobado por el Real Decreto 1462/1999, de 17 de septiembre, quiere reforzar adem\u00e1s los mecanismos de autorregulaci\u00f3n con objeto de que los operadores de televisi\u00f3n puedan llegar a acuerdos para facilitar a los medios interesados, con mayor anticipaci\u00f3n de la exigida legalmente y evitando cualquier discriminaci\u00f3n, la informaci\u00f3n sobre sus programas."
-      },{
-        "@class": "parrafo",
-        "#text": "La disposici\u00f3n final segunda del real decreto modifica el apartado 7 de la disposici\u00f3n adicional segunda del Real Decreto 944/2005, por el que se aprob\u00f3 el Plan T\u00e9cnico de Televisi\u00f3n Digital Terrestre, para incorporar con m\u00e1s precisi\u00f3n las previsiones sobre televisi\u00f3n a trav\u00e9s de tel\u00e9fonos m\u00f3viles,"
-      },{
-        "@class": "parrafo",
-        "#text": "Mientras que el Reglamento, en s\u00ed mismo, es una norma de car\u00e1cter b\u00e1sico, las disposiciones adicionales primera y segunda y final segunda son preceptos que se dictan al amparo de la competencia exclusiva del Estado en materia de telecomunicaciones. En cuanto a la disposici\u00f3n final primera, viene a modificar una norma dictada por el Estado en el ejercicio de su potestad reglamentaria, en relaci\u00f3n con los operadores de televisi\u00f3n bajo su competencia."
-      },{
-        "@class": "parrafo",
-        "#text": "En su virtud, a propuesta del Ministro de Industria, Turismo y Comercio, de acuerdo con el Consejo de Estado, y previa deliberaci\u00f3n del Consejo de Ministros en su reuni\u00f3n del d\u00eda 28 de julio de 2006,"
-      },{
-        "@class": "subseccion",
-        "#text": "D I S P O N G O :"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo \u00fanico. Aprobaci\u00f3n del Reglamento general de prestaci\u00f3n del servicio de radio y televisi\u00f3n por cable."
-      },{
-        "@class": "parrafo",
-        "#text": "Se aprueba el Reglamento general de prestaci\u00f3n del servicio de radio y televisi\u00f3n por cable, cuyo texto se inserta a continuaci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional primera. Obligaciones de transmisi\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "A efectos de lo dispuesto en el apartado 3 de la disposici\u00f3n transitoria sexta de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, se suprimen mediante esta disposici\u00f3n las obligaciones previstas en las letras e), f) y g) del art\u00edculo 11.1 de la Ley 42/1995, de 22 de diciembre, de las telecomunicaciones por cable."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n adicional segunda. Extensi\u00f3n de la cobertura de la televisi\u00f3n digital terrestre."
-      },{
-        "@class": "parrafo",
-        "#text": "El Ente P\u00fablico Radiotelevisi\u00f3n Espa\u00f1ola, las entidades p\u00fablicas creadas de acuerdo con lo establecido en la Ley 46/1983, de 26 de diciembre, reguladora del tercer canal de televisi\u00f3n y las sociedades concesionarias del servicio p\u00fablico de televisi\u00f3n de \u00e1mbito estatal deber\u00e1n presentar, con la debida coordinaci\u00f3n entre las entidades y sociedades radiodifusoras, en su caso, ante la Secretar\u00eda de Estado de Telecomunicaciones y para la Sociedad de la Informaci\u00f3n, un plan para alcanzar progresivamente la cobertura del servicio de televisi\u00f3n digital terrestre prevista en el art\u00edculo 6 del Plan t\u00e9cnico nacional de la televisi\u00f3n digital terrestre, aprobado por el Real Decreto 944/2005, de 29 de julio."
-      },{
-        "@class": "parrafo",
-        "#text": "El plan que se presente deber\u00e1 ser tal que se alcance progresivamente la siguiente cobertura, en su respectivo \u00e1mbito territorial:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) 85 por ciento de la poblaci\u00f3n antes del 31 de julio de 2007."
-      },{
-        "@class": "parrafo",
-        "#text": "b) 88 por ciento de la poblaci\u00f3n antes del 31 de julio de 2008."
-      },{
-        "@class": "parrafo",
-        "#text": "c) 93 por ciento de la poblaci\u00f3n antes del 31 de julio de 2009."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Dicho plan contendr\u00e1, al menos, la informaci\u00f3n relativa a las localidades a las que se dar\u00e1 cobertura de televisi\u00f3n digital terrestre y el calendario con las fechas de puesta en servicio de las estaciones con que puedan corresponderse."
-      },{
-        "@class": "parrafo",
-        "#text": "El plan se presentar\u00e1 en dos fases, la primera en el plazo de seis meses, contados desde la publicaci\u00f3n del presente real decreto, para los porcentajes se\u00f1alados en los puntos a) y b) anteriores y del 90 por ciento y la segunda en el plazo de un a\u00f1o, contado desde la publicaci\u00f3n del presente real decreto, para el porcentaje del punto c) anterior y del 96 por ciento o 98 por ciento seg\u00fan corresponda."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n derogatoria \u00fanica. Derogaci\u00f3n normativa."
-      },{
-        "@class": "parrafo",
-        "#text": "Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en el presente real decreto."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final primera. Modificaci\u00f3n del Reglamento que regula el derecho de los usuarios del servicio de televisi\u00f3n a ser informados de la programaci\u00f3n a emitir, y se desarrollan otros art\u00edculos de la Ley 25/1994, de 12 de julio, modificada por Ley 22/1999, de 7 de junio, aprobado por el Real Decreto 1462/1999, de 17 de septiembre."
-      },{
-        "@class": "parrafo",
-        "#text": "Los art\u00edculos 2 y 3 del Reglamento que regula el derecho de los usuarios del servicio de televisi\u00f3n a ser informados de la programaci\u00f3n a emitir, y se desarrollan otros art\u00edculos de la Ley 25/1994, de 12 de julio, modificada por Ley 22/1999, de 7 de junio, aprobado por Real Decre-to 1462/1999, de 17 de septiembre, se modifican en los siguientes t\u00e9rminos:"
-      },{
-        "@class": "parrafo",
-        "#text": "Uno. Se modifica el art\u00edculo 2 del Reglamento, que queda con la redacci\u00f3n siguiente:"
-      },{
-        "@class": "sangrado_articulo",
-        "#text": "\u00abArt\u00edculo 2. Alcance del derecho de informaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "1. Para hacer efectivo el derecho de informaci\u00f3n regulado en el vigente art\u00edculo 18 de la Ley 25/1994, de 12 de julio, los operadores de televisi\u00f3n habr\u00e1n de hacer p\u00fablica su programaci\u00f3n diaria con una antelaci\u00f3n de, al menos, tres d\u00edas respecto del d\u00eda al que la citada programaci\u00f3n se refiera."
-      },{
-        "@class": "sangrado",
-        "#text": "2. Se estimar\u00e1 cumplida la previsi\u00f3n establecida en el apartado anterior, desde el momento que el operador de televisi\u00f3n haga p\u00fablica su programaci\u00f3n en las p\u00e1ginas de teletexto, para la programaci\u00f3n de sus emisiones en anal\u00f3gico y la Gu\u00eda Electr\u00f3nica de Programas, para la programaci\u00f3n de sus emisiones en digital, o por cualquier otro medio, en el supuesto de que no hubiera sido posible hacerlo por alguno de los anteriores."
-      },{
-        "@class": "sangrado",
-        "#text": "3. Lo dispuesto en los apartados anteriores se entiende sin perjuicio de los acuerdos a los que puedan llegar los operadores de televisi\u00f3n para proporcionar, a cualquier persona interesada y sin discriminaci\u00f3n, dicha programaci\u00f3n con una antelaci\u00f3n mayor.\u00bb"
-      },{
-        "@class": "parrafo_2",
-        "#text": "Dos. Se modifica el art\u00edculo 3 del Reglamento, que queda redactado como sigue:"
-      },{
-        "@class": "sangrado_articulo",
-        "#text": "\u00abArt\u00edculo 3. Contenido de la informaci\u00f3n."
-      },{
-        "@class": "sangrado",
-        "#text": "1. La programaci\u00f3n a que se hace referencia en los apartados 1 y 2 del art\u00edculo anterior deber\u00e1 informar, como m\u00ednimo, sobre el t\u00edtulo y el tipo o el g\u00e9nero de todos los programas que se prev\u00e9 emitir, salvo los de duraci\u00f3n inferior a quince minutos. En el caso de largometrajes cinematogr\u00e1ficos, identificar\u00e1 concretamente el t\u00edtulo, el director y el a\u00f1o de producci\u00f3n. En las restantes obras de ficci\u00f3n, como pel\u00edculas para televisi\u00f3n, series, telecomedias y novelas, se indicar\u00e1 el t\u00edtulo de la obra o el episodio a emitir y, en el supuesto de retransmisiones, el espect\u00e1culo concreto y, si \u00e9ste fuere musical, los principales participantes que intervendr\u00e1n en \u00e9l."
-      },{
-        "@class": "sangrado",
-        "#text": "2. Dicha programaci\u00f3n no podr\u00e1 ser modificada, salvo como consecuencia de sucesos ajenos a la voluntad del operador de televisi\u00f3n y que no hubieran podido ser razonablemente previstos, en el momento de hacerse p\u00fablica.\u00bb"
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final segunda. Modificaci\u00f3n del Real Decre-to 944/2005, de 29 de julio, por el que se aprueba el Plan t\u00e9cnico nacional de la televisi\u00f3n digital terrestre."
-      },{
-        "@class": "parrafo",
-        "#text": "Se modifica el apartado 7 de la disposici\u00f3n adicional segunda del Real Decreto 944/2005, de 29 de julio, por el que se aprueba el Plan t\u00e9cnico nacional de la televisi\u00f3n digital terrestre, que queda redactado de la manera siguiente:"
-      },{
-        "@class": "sangrado",
-        "#text": "\u00ab7. Asimismo, en la medida que las disponibilidades del espectro radioel\u00e9ctrico lo permitan, se planificar\u00e1 un m\u00faltiple digital para la prestaci\u00f3n del servicio de televisi\u00f3n digital terrestre en movilidad.\u00bb"
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final tercera. Desarrollo reglamentario y aplicaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Sin perjuicio de las competencias que corresponden a las comunidades aut\u00f3nomas en sus respectivos \u00e1mbitos de competencia para el desarrollo y ejecuci\u00f3n de lo dispuesto en el reglamento aprobado por este real decreto, corresponde al Ministro de Industria, Turismo y Comercio dictar, en el \u00e1mbito de sus competencias, cuantas disposiciones y medidas sean necesarias para el desarrollo y aplicaci\u00f3n de lo establecido en el presente real decreto y en el reglamento que aprueba."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final cuarta. T\u00edtulo competencial."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El art\u00edculo \u00fanico y la disposici\u00f3n final tercera de este real decreto y el reglamento que aprueba, excepto su cap\u00edtulo IV, se dictan al amparo de lo dispuesto en el ar-t\u00edculo 149.1.27.\u00aa de la Constituci\u00f3n, que atribuye al Estado la competencia para establecer las normas b\u00e1sicas del r\u00e9gimen de prensa, radio y televisi\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Las disposiciones adicionales primera y segunda, as\u00ed como la disposici\u00f3n final segunda, de \u00e9ste se dictan al amparo de la competencia exclusiva en materia de telecomunicaciones, que al Estado atribuye el art\u00edculo 149.1.21.\u00aa de la Constituci\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n final quinta. Entrada en vigor."
-      },{
-        "@class": "parrafo",
-        "#text": "El presente real decreto entrar\u00e1 en vigor un mes despu\u00e9s de su publicaci\u00f3n en el \u00abBolet\u00edn Oficial del Estado\u00bb."
-      },{
-        "@class": "parrafo_2",
-        "#text": "Dado en Palma de Mallorca, el 28 de julio de 2006."
-      },{
-        "@class": "firma_rey",
-        "#text": "JUAN CARLOS R."
-      },{
-        "@class": "firma_ministro",
-        "#text": "El Ministro de Industria, Turismo y Comercio,"
-      },{
-        "@class": "firma_ministro",
-        "#text": "JOS\u00c9 MONTILLA AGUILERA"
-      },{
-        "@class": "libro",
-        "#text": "[encabezado]REGLAMENTO GENERAL DE PRESTACI\u00d3N DEL SERVICIO DE RADIO Y TELEVISI\u00d3N POR CABLE"
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAP\u00cdTULO I"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Disposiciones generales"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 1. Objeto."
-      },{
-        "@class": "parrafo",
-        "#text": "Este reglamento tiene por objeto el establecimiento de las condiciones b\u00e1sicas para la prestaci\u00f3n de los servicios de difusi\u00f3n de radio y televisi\u00f3n por cable, en aplicaci\u00f3n de lo determinado en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 2. Forma de prestaci\u00f3n del servicio de radio y televisi\u00f3n por cable."
-      },{
-        "@class": "parrafo",
-        "#text": "La prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable se har\u00e1 en r\u00e9gimen de libre competencia, en las condiciones establecidas en el presente reglamento."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 3. R\u00e9gimen jur\u00eddico."
-      },{
-        "@class": "parrafo",
-        "#text": "El r\u00e9gimen jur\u00eddico fundamental por el que se regir\u00e1n las autorizaciones del servicio de radio y televisi\u00f3n por cable est\u00e1 constituido por lo dispuesto en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, en la Ley 31/1987, de 18 de diciembre, de Ordenaci\u00f3n de las Telecomunicaciones, en la Ley 25/1994, de 12 de julio, por la que se incorpora al ordenamiento jur\u00eddico espa\u00f1ol la Directiva 89/552/CEE, sobre la coordinaci\u00f3n de disposiciones legales, reglamentarias y administrativas de los Estados miembros relativas al ejercicio de actividades de radiodifusi\u00f3n televisiva y en la Ley 10/2005, de 14 de junio, de Medidas Urgentes para el Impulso de la Televisi\u00f3n Digital Terrestre, de Liberalizaci\u00f3n de la Televisi\u00f3n por Cable y de Fomento del Pluralismo, as\u00ed como por lo establecido en el presente reglamento y en las normas de car\u00e1cter reglamentario dictadas en desarrollo de las leyes citadas y en aquellas que puedan dictar las comunidades aut\u00f3nomas en el ejercicio de sus competencias."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 4. T\u00edtulos habilitantes."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable ser\u00e1 preceptiva la previa obtenci\u00f3n de una autorizaci\u00f3n administrativa, que habilitar\u00e1 a su titular para difundir por redes de comunicaciones electr\u00f3nicas terrestres que no utilicen de forma exclusiva o principalmente dominio p\u00fablico radioel\u00e9ctrico en un determinado \u00e1mbito geogr\u00e1fico, bajo su responsabilidad, servicios de radio y televisi\u00f3n, cualquiera que sea el responsable editorial de \u00e9stos, componiendo una oferta de canales de radio y televisi\u00f3n dirigida a sus clientes y abonados."
-      },{
-        "@class": "parrafo",
-        "#text": "A estos efectos, de acuerdo con lo dispuesto en la Ley 31/1987, de 18 de diciembre, de Ordenaci\u00f3n de las Telecomunicaciones, se consideran servicios de radio y televisi\u00f3n aqu\u00e9llos en los que la comunicaci\u00f3n se realiza en un solo sentido a varios puntos de recepci\u00f3n simult\u00e1neamente, con independencia de la forma de acceso previo a \u00e9stos."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Esta autorizaci\u00f3n administrativa, que no habilitar\u00e1 para prestar el servicio de comunicaciones electr\u00f3nicas de transporte de la se\u00f1al por las redes de cable, precisar\u00e1 la notificaci\u00f3n fehaciente a la Comisi\u00f3n del Mercado de las telecomunicaciones antes del inicio de la actividad, tal y como establece el art\u00edculo 6.2 de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, y se regir\u00e1 por lo dispuesto en dicha Ley General de Telecomunicaciones y sus normas de desarrollo."
-      },{
-        "@class": "parrafo",
-        "#text": "3. De la misma forma, la habilitaci\u00f3n legal para prestar el servicio de comunicaciones electr\u00f3nicas no habilitar\u00e1 por s\u00ed misma para prestar los servicios de difusi\u00f3n de radio y televisi\u00f3n por cable, que requerir\u00e1n de la autorizaci\u00f3n a que se refiere el apartado 1."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 5. Reparto competencial."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La autorizaci\u00f3n administrativa para prestar el servi-cio de difusi\u00f3n de radio y televisi\u00f3n por cable en un \u00e1mbito territorial superior al de una comunidad aut\u00f3noma ser\u00e1 otorgada por el Ministerio de Industria, Turismo y Comercio. A este departamento ministerial corresponder\u00e1n tambi\u00e9n las competencias en materia de inspecci\u00f3n y control respecto del cumplimiento de las obligaciones previstas en el presente reglamento."
-      },{
-        "@class": "parrafo",
-        "#text": "El Ministerio de Industria, Turismo y Comercio remitir\u00e1 a la Comisi\u00f3n del Mercado de las Telecomunicaciones, los expedientes con las autorizaciones otorgadas para la inscripci\u00f3n de \u00e9stas en el registro a que se refiere el cap\u00edtulo IV."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Corresponde a las comunidades aut\u00f3nomas el otorgamiento de las autorizaciones administrativas para la prestaci\u00f3n de servicios de difusi\u00f3n de radio y televisi\u00f3n por cable cuyo \u00e1mbito territorial de actuaci\u00f3n no sobrepase el territorio de una comunidad aut\u00f3noma. La normativa auton\u00f3mica designar\u00e1 los \u00f3rganos responsables de la aplicaci\u00f3n del r\u00e9gimen jur\u00eddico previsto en el presente reglamento y del control de su cumplimiento en sus respectivos \u00e1mbitos."
-      },{
-        "@class": "parrafo",
-        "#text": "3.  Cuando a la vista de la documentaci\u00f3n a que se refiere el art\u00edculo 7.1, g) de este reglamento, se desprenda que el solicitante de una autorizaci\u00f3n de car\u00e1cter estatal, tiene previsto realizar ofertas espec\u00edficas de canales de radio y televisi\u00f3n para sus abonados de determinadas comunidades aut\u00f3nomas o de una parte de \u00e9stas, se remitir\u00e1n de oficio a cada comunidad aut\u00f3noma, para su tramitaci\u00f3n como autorizaci\u00f3n para prestar el servicio en ese \u00e1mbito, los datos relativos al solicitante as\u00ed como la relaci\u00f3n de los canales de radio y televisi\u00f3n que ser\u00e1n difundidos exclusivamente en un \u00e1mbito territorial coincidente o comprendido en el territorio de esa comunidad aut\u00f3noma."
-      },{
-        "@class": "parrafo",
-        "#text": "En cualquier caso, la difusi\u00f3n de canales de radio y televisi\u00f3n cuyo \u00e1mbito territorial no sobrepase el de una comunidad aut\u00f3noma deber\u00e1 contar con la preceptiva autorizaci\u00f3n del servicio por parte de \u00e9sta."
-      },{
-        "@class": "parrafo",
-        "#text": "En estos supuestos, las obligaciones previstas en este reglamento ser\u00e1n exigibles de forma independiente por la Administraci\u00f3n competente en cada caso, para el conjunto de canales amparados por cada autorizaci\u00f3n, excepto en lo que respecta al cumplimiento de lo previsto en el apartado 1 de la disposici\u00f3n transitoria primera del presente reglamente que ser\u00e1 exclusivamente exigible respecto de la autorizaci\u00f3n de \u00e1mbito estatal."
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAP\u00cdTULO II"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Autorizaciones"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 6. Requisitos para ser titular de una autorizaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Podr\u00e1n prestar el servicio de difusi\u00f3n de radio y televisi\u00f3n por cable, las personas que re\u00fanan los siguientes requisitos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) En el caso de personas f\u00edsicas, tener la nacionalidad de un Estado miembro del Espacio Econ\u00f3mico Europeo o la de cualquier Estado que, de acuerdo con su normativa interna, reconozca este derecho a los ciudadanos espa\u00f1oles."
-      },{
-        "@class": "parrafo",
-        "#text": "b) En el caso de personas jur\u00eddicas, tener establecido su domicilio social en un Estado miembro del Espacio Econ\u00f3mico Europeo o en cualquier Estado que, de acuerdo con su normativa interna, reconozca este derecho a las empresas espa\u00f1olas."
-      },{
-        "@class": "parrafo",
-        "#text": "c) A efectos de notificaciones, cuando el solicitante no sea residente o no se encuentre establecido en Espa\u00f1a, deber\u00e1 designar un representante con domicilio en territorio espa\u00f1ol. En cualquier caso, el domicilio a efectos de notificaciones siempre estar\u00e1 en territorio espa\u00f1ol."
-      },{
-        "@class": "parrafo",
-        "#text": "d) No haber sido sancionado, en los \u00faltimos tres a\u00f1os, por la comisi\u00f3n de una infracci\u00f3n que lleve aparejada la retirada de la autorizaci\u00f3n como prestador del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 7. Procedimiento para otorgar las autorizaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Las personas f\u00edsicas o jur\u00eddicas interesadas en obtener una autorizaci\u00f3n para prestar el servicio de difusi\u00f3n de radio y televisi\u00f3n por cable dirigir\u00e1n sus solicitudes a la autoridad competente para su otorgamiento, conforme a lo previsto en el art\u00edculo 5, en funci\u00f3n del \u00e1mbito territorial al que afecte, aportando la documentaci\u00f3n que acredite fehacientemente los siguientes extremos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) La personalidad f\u00edsica o jur\u00eddica del solicitante."
-      },{
-        "@class": "parrafo",
-        "#text": "b) El nombre y dem\u00e1s datos personales de su representante, en su caso."
-      },{
-        "@class": "parrafo",
-        "#text": "c) El domicilio a efectos de notificaciones. En el caso de sociedades o personas f\u00edsicas extranjeras, se entender\u00e1 el domicilio del representante en Espa\u00f1a como domicilio a efectos de la sociedad representada."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Cuando sus titulares adopten la forma de sociedades, su capital social, la identidad o denominaci\u00f3n social de las personas y entidades que sean titulares de participaciones superiores al 5 por ciento del capital o los derechos de voto y el porcentaje de capital que ostentaren."
-      },{
-        "@class": "parrafo",
-        "#text": "e) El \u00e1mbito de cobertura del servicio de difusi\u00f3n para el que se solicita autorizaci\u00f3n y la red de telecomunicaciones por cable que vaya a utilizar, as\u00ed como los par\u00e1metros t\u00e9cnicos que reglamentariamente se determinen para permitir la identificaci\u00f3n del servicio."
-      },{
-        "@class": "parrafo",
-        "#text": "f) El nombre comercial del servicio."
-      },{
-        "@class": "parrafo",
-        "#text": "g) El nombre comercial y las caracter\u00edsticas esenciales de cada uno de los canales radiof\u00f3nicos o de televisi\u00f3n que prevea incluir en su oferta, de acuerdo con lo dispuesto en el art\u00edculo 11.a)"
-      },{
-        "@class": "parrafo_2",
-        "#text": "2. El \u00f3rgano competente dispondr\u00e1 de un plazo de treinta d\u00edas naturales para dictar resoluci\u00f3n otorgando o no la autorizaci\u00f3n solicitada. Las resoluciones denegatorias deber\u00e1n ser siempre motivadas. Si se produjese el vencimiento del plazo m\u00e1ximo se\u00f1alado sin haberse notificado resoluci\u00f3n expresa, por causa no imputable al interesado, \u00e9ste podr\u00e1 instar la inscripci\u00f3n de su servicio de difusi\u00f3n, como autorizado, en el correspondiente registro."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 8. Duraci\u00f3n, transmisi\u00f3n y cancelaci\u00f3n de la autorizaci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n por redes de cable se otorgar\u00e1 por plazo indefinido y ser\u00e1 transmisible."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El cambio de titular de una autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1 ser notificado a la autoridad que la otorg\u00f3, antes de transcurridas 48 horas desde que se produjo la transmisi\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "Si la notificaci\u00f3n presentara defectos u omisiones que no fueran subsanados en plazo o el nuevo titular no reuniere los requisitos a que se refiere el art\u00edculo 6, el \u00f3rgano competente dispondr\u00e1 de 15 d\u00edas para dictar resoluci\u00f3n motivada anulando la transmisi\u00f3n de la autorizaci\u00f3n e instando al nuevo titular al cese inmediato en la prestaci\u00f3n del servicio desde la recepci\u00f3n de la mencionada resoluci\u00f3n, si \u00e9ste ya se hubiese iniciado."
-      },{
-        "@class": "parrafo",
-        "#text": "3. La autorizaci\u00f3n para prestar el servicio de radio y televisi\u00f3n por cable podr\u00e1 cancelarse por la autoridad que la concedi\u00f3, por los siguientes motivos:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) A petici\u00f3n de su titular, fehacientemente notificada."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Por la p\u00e9rdida de alguno de los requisitos exigidos para su otorgamiento."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 9. Registro."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Las autorizaciones para la prestaci\u00f3n de difusi\u00f3n de radio y televisi\u00f3n por cable quedar\u00e1n inscritas de oficio en el registro que a tal efecto se llevar\u00e1 en la Comisi\u00f3n del Mercado de las Telecomunicaciones o las comunidades aut\u00f3nomas, de acuerdo con lo dispuesto en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones. Dentro de cada autorizaci\u00f3n se inscribir\u00e1n los datos declarados por el titular de la autorizaci\u00f3n a los que se refiere el art\u00edculo 7.1 de este reglamento."
-      },{
-        "@class": "parrafo",
-        "#text": "2. La inscripci\u00f3n de las autorizaciones y de los datos correspondientes en los registros establecidos al efecto por cada comunidad aut\u00f3noma deber\u00e1 comunicarse por su responsable al registro de la Comisi\u00f3n del Mercado de las Telecomunicaciones, a efectos meramente informativos. Telem\u00e1ticamente se garantizar\u00e1 el acceso directo e inmediato a este registro estatal desde los registros existentes en las comunidades aut\u00f3nomas y viceversa."
-      },{
-        "@class": "parrafo",
-        "#text": "3. El registro de autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable ser\u00e1 p\u00fablico."
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAP\u00cdTULO III"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Obligaciones"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 10. Obligaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los titulares de una autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n cumplir las obligaciones previstas en este cap\u00edtulo, y en las restantes normas de aplicaci\u00f3n y las que, en uso de sus competencias, dicten las comunidades aut\u00f3nomas para los servicios bajo su jurisdicci\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "2. De acuerdo con lo previsto en la Ley 25/1994, de 12 de julio, los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable ser\u00e1n responsables directos del contenido de los canales de radio y televisi\u00f3n cuya responsabilidad editorial asuman y ser\u00e1n responsables subsidiarios cuando se limiten a la mera difusi\u00f3n de canales cuya titularidad corresponda a un tercero."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 11. Oferta de canales."
-      },{
-        "@class": "parrafo",
-        "#text": "Los prestadores del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n cumplir las siguientes obligaciones en relaci\u00f3n con su oferta de canales de televisi\u00f3n:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) De acuerdo con lo dispuesto en la disposici\u00f3n adicional quinta de la Ley 25/1994, de 12 de julio, deber\u00e1n informar preceptivamente sobre las caracter\u00edsticas de cada uno de los canales de televisi\u00f3n que ofrezcan, identificando si dichos canales son propios o han sido suministrados por un tercero y, en este \u00faltimo caso, el responsable editorial de \u00e9stos. Se informar\u00e1, igualmente, de si se trata de la retransmisi\u00f3n de un canal cuya emisi\u00f3n primaria se est\u00e1 realizando por otra v\u00eda, indicando, en ese caso, si el responsable editorial del mismo se encuentra o no bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea."
-      },{
-        "@class": "parrafo",
-        "#text": "En la informaci\u00f3n se precisar\u00e1 el \u00e1mbito territorial de cada canal dentro del servicio."
-      },{
-        "@class": "parrafo",
-        "#text": "b) A estos efectos podr\u00e1n incluir dentro de su oferta:"
-      },{
-        "@class": "parrafo",
-        "#text": "Cualquier canal de televisi\u00f3n cuyo responsable editorial se encuentre establecido o bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea o que sea parte del Convenio Europeo de Televisi\u00f3n Transfronteriza."
-      },{
-        "@class": "parrafo",
-        "#text": "La retransmisi\u00f3n de canales no amparados por lo dispuesto en el p\u00e1rrafo anterior y cuya difusi\u00f3n primaria se est\u00e9 realizando por otro medio, siempre que estos canales respeten los principios y valores del Convenio Europeo de Derechos Humanos y, en particular, no incluyan programas ni escenas o mensajes de cualquier tipo que puedan perjudicar seriamente el desarrollo f\u00edsico, mental o moral de los menores, ni programas que fomenten el odio, el desprecio o la discriminaci\u00f3n por motivos de nacimiento, raza, sexo, religi\u00f3n, nacionalidad, opini\u00f3n o cualquier otra circunstancia personal o social."
-      },{
-        "@class": "parrafo",
-        "#text": "La difusi\u00f3n primaria de canales cuyo titular no se encuentre establecido o bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea o que sea parte del Convenio Europeo de Televisi\u00f3n Transfronteriza, si bien en este caso vendr\u00e1 obligado a que los contenidos de \u00e9ste se ajusten a lo previsto en la Ley 25/1994, de 12 de julio."
-      },{
-        "@class": "parrafo_2",
-        "#text": "c) Deber\u00e1n suspender la difusi\u00f3n de aquellos canales de televisi\u00f3n cuya difusi\u00f3n haya sido prohibida por sentencia judicial o por infringir lo dispuesto en el art\u00edcu-lo 17.1 de la Ley 25/1994, de 12 de julio, o en virtud de lo dispuesto en el apartado 1 de la disposici\u00f3n final segunda de esta norma legal, en un plazo m\u00e1ximo de 24 horas desde que les haya sido notificada esta circunstancia."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Deber\u00e1n organizar su oferta de canales de forma que aquellos destinados exclusivamente para adultos, por consistir en contenidos que puedan afectar a la protecci\u00f3n de la juventud y de la infancia y a otros bienes o derechos, sean identificados como tales y ofrecidos de manera independiente, sin que la suscripci\u00f3n a esos canales pueda ser condici\u00f3n para el acceso o la mejora en las condiciones de acceso a otros canales de televisi\u00f3n. Estos canales no podr\u00e1n ofrecerse nunca en abierto."
-      },{
-        "@class": "parrafo",
-        "#text": "e) Deber\u00e1n adoptar las previsiones necesarias para permitir el acceso a los contenidos de los canales difundidos cuyos titulares no se encuentren establecidos o bajo la jurisdicci\u00f3n de un Estado miembro de la Uni\u00f3n Europea o que sea parte del Convenio Europeo de Televisi\u00f3n Transfronteriza, durante un plazo, como m\u00ednimo, de seis meses a contar desde la fecha de su difusi\u00f3n, a efectos de facilitar su inspecci\u00f3n por las autoridades competentes."
-      },{
-        "@class": "parrafo",
-        "#text": "Durante el mismo plazo deber\u00e1n conservar informaci\u00f3n escrita sobre la programaci\u00f3n incluida en los restantes canales a efectos de las comprobaciones oportunas."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 12. Protecci\u00f3n de menores y otras medidas de acceso."
-      },{
-        "@class": "parrafo",
-        "#text": "1. De acuerdo con lo dispuesto en la disposici\u00f3n adicional cuarta de la Ley 25/1994, de 12 de julio, los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n adoptar las medidas necesarias de car\u00e1cter f\u00edsico o virtual para hacer posible bloquear en los equipos de recepci\u00f3n el acceso total o parcial a cualquiera de sus canales por iniciativa del usuario, de una manera f\u00e1cil y c\u00f3moda."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Cuando dichos titulares proporcionen, por s\u00ed mismos o a trav\u00e9s de un tercero, servicios de Gu\u00eda Electr\u00f3nica de Programas, deber\u00e1n asegurar que la informaci\u00f3n contenida en \u00e9sta advierta de manera suficiente y veraz del contenido del programa a efectos de la protecci\u00f3n de los menores, de acuerdo con la informaci\u00f3n proporcionada por el titular del canal, en cumplimiento de lo dispuesto en el art\u00edculo 17.3 de la Ley 25/1994, de 12 de julio, por la que se incorpora al ordenamiento jur\u00eddico espa\u00f1ol la Directiva 89/552/CEE, sobre la coordinaci\u00f3n de disposiciones legales, reglamentarias y administrativas de los Estados miembros, relativas al ejercicio de actividades de radiodifusi\u00f3n televisiva."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Igualmente deber\u00e1n asegurar que las redes de comunicaciones electr\u00f3nicas que utilicen como servicio soporte del servicio de difusi\u00f3n, dispongan de los recursos t\u00e9cnicos necesarios para permitir la transmisi\u00f3n de los servicios de subtitulado, audiodescripci\u00f3n e interpretaci\u00f3n en la lengua de signos, de apoyo para el acceso de personas con discapacidad o con necesidades especiales, cuando \u00e9stos vinieran incluidos en los canales difundidos."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 13. Obligaciones administrativas."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n facilitar a la Administraci\u00f3n competente en cada caso el acceso regular, libre y gratuito a sus servicios, en un n\u00famero no superior a cinco. Los costes espec\u00edficos de despliegue de red en los que pueda incurrir el operador de telecomunicaciones para conectar el servicio de difusi\u00f3n con la administraci\u00f3n que lo solicite ser\u00e1n por cuenta de esta \u00faltima."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable deber\u00e1n actualizar los datos a que se refiere el art\u00edculo 7.1, de la siguiente forma:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Los correspondientes a las letras a), b), c) y e), notificando al correspondiente registro los cambios que se produzcan en ellos, en el plazo de un mes desde que se produzcan."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Los correspondientes a la letra d) notificando al correspondiente registro los cambios producidos en dichos datos dentro de cada a\u00f1o, como muy tarde en los 15 primeros d\u00edas de cada a\u00f1o natural siguiente."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Los correspondientes a la letra g) notificando al registro correspondiente los cambios previstos con car\u00e1cter previo al inicio o fin de la difusi\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 14. Difusi\u00f3n de canales de operadores independientes."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Los servicios de difusi\u00f3n de radio y televisi\u00f3n por cable que distribuyan m\u00e1s de 30 canales de televisi\u00f3n, deber\u00e1n asegurar que al menos el 30 por ciento de los canales difundidos en una lengua espa\u00f1ola, correspondan a titulares de canales independientes, siempre que la oferta de \u00e9stos sea suficiente y de calidad adecuada, de acuerdo con lo establecido en el presente reglamento y en la normativa que las comunidades aut\u00f3nomas dicten en el \u00e1mbito de sus competencias."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Con car\u00e1cter supletorio, en el caso de ausencia de normativa espec\u00edfica de las comunidades aut\u00f3nomas, o cuando la competencia sea estatal, ser\u00e1 de aplicaci\u00f3n lo siguiente:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) El c\u00f3mputo se efectuar\u00e1 sobre el n\u00famero total de canales de televisi\u00f3n en una lengua espa\u00f1ola ofertados por el titular del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Corresponder\u00e1 al organismo competente de la comunidad aut\u00f3noma afectada, o al Ministerio de Industria, Turismo y Comercio, si \u00e9sta hubiera sido el organismo que otorg\u00f3 la autorizaci\u00f3n, resolver en los siguientes asuntos:"
-      },{
-        "@class": "parrafo",
-        "#text": "Las dudas sobre la forma de contabilizar la oferta total de canales o el car\u00e1cter independiente de sus titulares."
-      },{
-        "@class": "parrafo",
-        "#text": "Las alegaciones referidas a que la oferta de canales independientes es insuficiente o no re\u00fane la calidad adecuada."
-      },{
-        "@class": "parrafo_2",
-        "#text": "c) La resoluci\u00f3n del \u00f3rgano competente agotar\u00e1 la v\u00eda administrativa."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Se entender\u00e1 que el titular del canal es independiente del prestador del servicio de difusi\u00f3n cuando no se d\u00e9 ninguna de las circunstancias siguientes:"
-      },{
-        "@class": "parrafo",
-        "#text": "a) Que el titular del servicio de difusi\u00f3n y el titular del canal formen parte del mismo grupo de sociedades de acuerdo con lo dispuesto en el art\u00edculo 42 del C\u00f3digo de Comercio."
-      },{
-        "@class": "parrafo",
-        "#text": "b) Que el titular del servicio de difusi\u00f3n y el del canal de televisi\u00f3n tengan, directa o indirectamente, accionistas comunes o que pertenezcan al mismo grupo, siempre que representen, al menos, el 10 por ciento de los derechos de voto en cada uno de ellos o hayan designado a un miembro del consejo de administraci\u00f3n de ambos."
-      },{
-        "@class": "parrafo",
-        "#text": "c) Que entre el titular del servicio de difusi\u00f3n y el titular del canal existan acuerdos de exclusividad que limiten la autonom\u00eda de las partes, tanto en la capacidad del titular del servicio de difusi\u00f3n para contratar con terceros la comercializaci\u00f3n de otros canales de televisi\u00f3n, como impidiendo al titular del canal negociar la difusi\u00f3n de sus canales por otros servicios de difusi\u00f3n o condicionando la misma a la previa aprobaci\u00f3n del titular del servicio de difusi\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "d) Que el \u00f3rgano competente, o\u00eddos los interesados y a la vista de otros antecedentes disponibles emita dictamen motivado estableciendo que entre el titular del servicio de difusi\u00f3n y el titular del canal se da una relaci\u00f3n de dependencia."
-      },{
-        "@class": "parrafo_2",
-        "#text": "4. Cuando el servicio de difusi\u00f3n por cable incluya dentro de su oferta uno o m\u00e1s canales exclusivamente destinados a la informaci\u00f3n, el titular del canal o de al menos uno de los canales de informaci\u00f3n editado en una de las lenguas oficiales de Espa\u00f1a deber\u00e1 cumplir la condici\u00f3n de independencia establecida en el apartado anterior, respecto del titular del servicio de difusi\u00f3n, siempre que exista una oferta de \u00e9stos de calidad adecuada."
-      },{
-        "@class": "parrafo",
-        "#text": "Se entienden por canales dedicados exclusivamente a la informaci\u00f3n, aqu\u00e9llos cuya programaci\u00f3n consista, en m\u00e1s de un 80 por ciento, en noticias, entrevistas, reportajes de actualidad y debates."
-      },{
-        "@class": "capitulo_num",
-        "#text": "CAP\u00cdTULO IV"
-      },{
-        "@class": "capitulo_tit",
-        "#text": "Registro estatal de autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable"
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 15. Objeto del registro."
-      },{
-        "@class": "parrafo",
-        "#text": "1. El Registro estatal de autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable, de car\u00e1cter p\u00fablico y administrativo, tiene por objeto la inscripci\u00f3n de las autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n por cable y sus modificaciones, de acuerdo con lo dispuesto en la disposici\u00f3n adicional d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, cuando el otorgamiento de las mismas corresponda al Estado de acuerdo con lo previsto en el art\u00edculo 5 de este reglamento."
-      },{
-        "@class": "parrafo",
-        "#text": "2. El registro estatal se llevar\u00e1 por la Comisi\u00f3n del Mercado de las Telecomunicaciones."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 16. Acceso al registro y expedici\u00f3n de certificaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Dicho registro estatal de autorizaciones ser\u00e1 p\u00fablico. Los asientos registrales contenidos en \u00e9l ser\u00e1n de libre acceso para su consulta por cualquier persona que lo solicite. El encargado del registro facilitar\u00e1 a los interesados la consulta de los asientos por medios inform\u00e1ticos instalados en la oficina del registro y, en su caso, a trav\u00e9s de la p\u00e1gina Web de la Comisi\u00f3n del Mercado de las Telecomunicaciones."
-      },{
-        "@class": "parrafo",
-        "#text": "2. Cualquier persona f\u00edsica o jur\u00eddica podr\u00e1 solicitar certificaciones de autorizaciones y dem\u00e1s actos inscritos. Las certificaciones registrales ser\u00e1n el \u00fanico medio de acreditar fehacientemente el contenido de los asientos registrales."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 17. Estructura del registro."
-      },{
-        "@class": "parrafo",
-        "#text": "1. En el registro se llevar\u00e1n libros de registro con la diligencia de apertura firmada por el Presidente de la Comisi\u00f3n del Mercado de las Telecomunicaciones y con expresi\u00f3n de los folios que contienen, que estar\u00e1n numerados, sellados y rubricados. Se abrir\u00e1, en principio, un folio para cada operador."
-      },{
-        "@class": "parrafo",
-        "#text": "2. A cada autorizaci\u00f3n se le asignar\u00e1 en el libro correspondiente un n\u00famero de inscripci\u00f3n que ser\u00e1 el del folio en el que se inscriba. Dicho folio ir\u00e1 seguido de cuantos otros sean necesarios, ordenados, a su vez, con indicaci\u00f3n del n\u00famero que haya correspondido al folio inicial, seguido de otro que reflejar\u00e1 el n\u00famero correlativo de folios que se precisen para la inscripci\u00f3n de las modificaciones que procedan."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Se podr\u00e1n utilizar los libros auxiliares, archivos, cuadernos o legajos que el encargado del registro considere oportunos para su buen funcionamiento."
-      },{
-        "@class": "parrafo",
-        "#text": "4. Todo esto podr\u00e1 ser realizado por medios inform\u00e1ticos, siempre que \u00e9stos cuenten con el correspondiente soporte documental."
-      },{
-        "@class": "articulo",
-        "#text": "Art\u00edculo 18. Inscripci\u00f3n en el registro."
-      },{
-        "@class": "parrafo",
-        "#text": "1. La primera inscripci\u00f3n de las autorizaciones de \u00e1mbito estatal ser\u00e1 realizada de oficio por la Comisi\u00f3n del Mercado de las Telecomunicaciones, previa comunicaci\u00f3n del \u00f3rgano competente para su otorgamiento, o a instancia del interesado, si hubiese vencido el plazo m\u00e1ximo se\u00f1alado en el art\u00edculo 7.2 de este reglamento, sin haberse notificado resoluci\u00f3n expresa por el \u00f3rgano competente, por causa no imputable al interesado."
-      },{
-        "@class": "parrafo",
-        "#text": "2. En dicha inscripci\u00f3n se consignar\u00e1 la fecha de la resoluci\u00f3n de otorgamiento de la autorizaci\u00f3n o, en su caso, de la solicitud de inscripci\u00f3n en el Registro si dicha inscripci\u00f3n se instara por vencimiento del plazo, y los datos declarados por el titular de la autorizaci\u00f3n a los que se refiere el art\u00edculo 7.1 de este reglamento."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Igualmente se consignar\u00e1n los datos que determine la Comisi\u00f3n del Mercado de las Telecomunicaciones necesarios para permitir la identificaci\u00f3n de los titulares de la red de telecomunicaciones por cable utilizada y del servicio de comunicaciones electr\u00f3nicas soporte del servicio de difusi\u00f3n."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n transitoria primera. R\u00e9gimen transitorio de las obligaciones de difusi\u00f3n."
-      },{
-        "@class": "parrafo",
-        "#text": "1. Hasta el cese definitivo de las emisiones de televisi\u00f3n con tecnolog\u00eda anal\u00f3gica, los titulares de autorizaci\u00f3n para la prestaci\u00f3n del servicio de difusi\u00f3n de televisi\u00f3n por cable, vendr\u00e1n obligados a incluir en su oferta los siguientes canales de los operadores que se indican:"
-      },{
-        "@class": "parrafo_2",
-        "#text": "TVE 1 de TVE, S. A."
-      },{
-        "@class": "parrafo",
-        "#text": "La Segunda de TVE, S. A."
-      },{
-        "@class": "parrafo",
-        "#text": "Antena 3 TV de Antena 3 TV, S. A."
-      },{
-        "@class": "parrafo",
-        "#text": "Telecinco de Gestevisi\u00f3n-Telecinco, S. A."
-      },{
-        "@class": "parrafo",
-        "#text": "Cuatro de Sogecable, S. A."
-      },{
-        "@class": "parrafo",
-        "#text": "La Sexta de Gestora de Inversiones Audiovisuales La Sexta, S. A."
-      },{
-        "@class": "parrafo_2",
-        "#text": "2. Adem\u00e1s, durante el mismo plazo, los titulares de autorizaci\u00f3n para prestar el servicio de difusi\u00f3n de televisi\u00f3n por cable en el \u00e1mbito auton\u00f3mico deber\u00e1n incluir en su oferta los canales en anal\u00f3gico gestionados directamente por la comunidad aut\u00f3noma donde desarrollen su actividad."
-      },{
-        "@class": "parrafo",
-        "#text": "3. Las contraprestaciones econ\u00f3micas por la distribuci\u00f3n de estos servicios, entre los titulares de las autorizaciones para prestar el servicio de difusi\u00f3n y los titulares de los canales mencionados en los apartados anteriores, ser\u00e1n acordadas libremente entre las partes, en el marco de la normativa que dicte el Estado o, en su caso, las comunidades aut\u00f3nomas con competencias en materia de medios de comunicaci\u00f3n social."
-      },{
-        "@class": "parrafo",
-        "#text": "En caso de desacuerdo resolver\u00e1 la Administraci\u00f3n que en cada caso sea competente para autorizar la prestaci\u00f3n del servicio de televisi\u00f3n por las redes de cable afectadas."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n transitoria segunda. Requerimiento para ampliar la informaci\u00f3n registral."
-      },{
-        "@class": "parrafo",
-        "#text": "En relaci\u00f3n con las autorizaciones para la prestaci\u00f3n del servicio de difusi\u00f3n de radio y televisi\u00f3n derivadas de la transformaci\u00f3n de anteriores t\u00edtulos habilitantes, realizada al amparo de lo previsto en la disposici\u00f3n transitoria d\u00e9cima de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, su inscripci\u00f3n en el correspondiente registro reflejar\u00e1 los datos a que se refiere el art\u00edculo 7.1 de este reglamento, a partir de la informaci\u00f3n existente en el momento de la transformaci\u00f3n del respectivo t\u00edtulo. En el supuesto de que dicha informaci\u00f3n resultara insuficiente para completar dichos datos, el \u00f3rgano responsable del registro podr\u00e1 requerir al titular de la autorizaci\u00f3n los necesarios para completarlos."
-      },{
-        "@class": "articulo",
-        "#text": "Disposici\u00f3n transitoria tercera. Incorporaci\u00f3n de facilidades de transmisi\u00f3n a las redes de cable."
-      },{
-        "@class": "parrafo",
-        "#text": "De acuerdo con lo previsto en la Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminaci\u00f3n y accesibilidad universal de las personas con discriminaci\u00f3n, lo dispuesto en el art\u00edculo 12.3 de este reglamento ser\u00e1 exigible a partir del 1 de enero de 2008, a los servicios de difusi\u00f3n que utilicen redes de cable, instaladas a partir de la entrada en vigor de este reglamento o que sean ampliaciones de las existentes, realizadas con posterioridad a esa misma fecha."
-      },{
-        "@class": "parrafo",
-        "#text": "Los servicios de difusi\u00f3n que utilicen redes de cable que a la entrada en vigor de este reglamento ya se encontraran prestando el servicio soporte para la difusi\u00f3n de televisi\u00f3n, dispondr\u00e1n de un plazo, hasta el 1 de enero de 2010, para que las instalaciones de \u00e9stas se adapten a lo dispuesto en dicho art\u00edculo 12.3."
-      }
-    ]
   }
-}
 }

@@ -9,6 +9,7 @@ output.bak
 graby
 content/posts/otros/metrica_v3.md
 config/metrica/html
+debug/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
