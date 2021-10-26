@@ -2,7 +2,7 @@
 title: Fechas de exámenes
 ---
 
-| Examen | Fecha | <abbr title="Tiempo transcurrido desde el anterior examen en días">Días</abbr> |
+| Examen | Fecha | <abbr title="Días transcurridos desde el anterior examen">Días</abbr> |
 |-|-|-:|
 | 2015.1 | 20-02-2016 |     |
 | 2015.2 | 23-04-2016 |  61 |
