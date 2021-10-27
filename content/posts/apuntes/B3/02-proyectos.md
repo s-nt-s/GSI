@@ -204,6 +204,33 @@ si se mantienen las condiciones con las que se elaboró el cronograma o consider
 si se mantienen las condiciones que se presentaron durante el desarrollo del proyecto.
 También se puede estimar el costo total del proyecto.
 
+# [Matriz de asignación de responsabilidades](https://es.wikipedia.org/wiki/Matriz_de_asignaci%C3%B3n_de_responsabilidades)
+
+RACI se usa para relacionar actividades con recursos (individuos o equipos de trabajo).
+De esta manera se logra asegurar que cada uno de los componentes del alcance esté
+asignado a una persona o a un equipo.
+
+A cada tarea, actividad o grupo de tareas se le asigna uno de los siguientes roles RAC:
+
+* **Responsable**: quien efectivamente realiza la tarea
+* **Aprobador**: quien rinde cuentas sobre la ejecución de la tarea
+* **Consultado**: quien tiene información o capacidad necesaria para realizar la tarea
+* **Informado**: quien debe ser informado del avance y los resultados de la ejecución de la tarea
+
+| Actividad / Recurso | Fulano | Mengano | Zutano | Perengano |
+|-|-|-|-|-|
+| Investigación           | R | I | I | A |
+| Planificación           | C | A | R | I |
+| Desarrollo              |   |   | A | R |
+| Verificación de Errores | I | R |   | A |
+
+Tabla: Ejemplo de matriz RACI
+
+# Otros
+
+* [**Ciclo de Deming**](https://es.wikipedia.org/wiki/Ciclo_de_Deming): mejora continua
+basada en 4 fases: planificar, hacer, controlar o verificar y actuar
+
 # Bibliografía
 
 * PreparaTic27 - Pack1/035

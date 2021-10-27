@@ -1922,3 +1922,7 @@ https://es.wikipedia.org/wiki/Dalvik
 ART
 https://es.wikipedia.org/wiki/Android_Runtime
 Android Runtime
+
+RACI
+https://es.wikipedia.org/wiki/Matriz_de_asignaci%C3%B3n_de_responsabilidades
+Matriz de asignación de responsabilidades

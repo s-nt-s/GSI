@@ -164,6 +164,16 @@ X → A se ha de dar una de las siguientes condiciones:
 5. **5FN**: 4FN + no existen relaciones *join* no triviales que no se generen
 desde claves
 
+### Axiomas de Armstrong
+
+Las propiedades de la dependencia funcional vienen descritas por los 3 axiomas
+de Armstrong:
+
+* Dependencia funcional **reflexiva**: A partir de cualquier atributo o conjunto de atributos siempre puede deducirse él mismo. Ej: Si la dirección o el nombre de una persona están incluidos en el DNI, entonces con el DNI podemos determinar la dirección o su nombre.
+* Dependencia funcional **aumentativa**: Si con el DNI se determina el nombre de una persona, entonces con el DNI más la dirección también se determina el nombre y su dirección.
+* Dependencia funcional **transitiva**: Sean X, Y, Z tres atributos de la misma entidad. Si Y depende funcionalmente de X y Z de Y, pero X no depende funcionalmente de Y, se dice entonces que Z depende transitivamente de X
+
+
 ## Modelo Entidad/Relación Extendido
 
 Se compone de **Entidades**:
