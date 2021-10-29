@@ -37,23 +37,23 @@ Soluciones dirigidas al impulso de la administración digital y ofrecer servicio
 
 ## Identidad digital o firma electrónica
 
-☐ **[CL@VE](http://administracionelectronica.gob.es/ctt/clave)**: Cl@ve es la plataforma común del Sector Público Administrativo Estatal para la identificación, autenticación y firma electrónica mediante el uso de claves concertadas. Su utilización está abierta a todas las Administraciones Públicas.
+☐ **[CL@VE](http://administracionelectronica.gob.es/ctt/clave)**: Cl@ve es la plataforma común del Sector Público Administrativo Estatal para la identificación, autenticación y firma electrónica mediante el uso de claves concertadas. Su utilización está abierta a todas las AAPP.
 
 Ambito: AAPP || Organismo: SGAD, AEAT, Seg-Social, Policía
 
-☐ **[Cl@ve Firma](https://administracionelectronica.gob.es/ctt/clavefirma)**: Cl@ve Firma es la plataforma de firma electrónica basada en certificados centralizados para las Administraciones Públicas.
+☐ **[Cl@ve Firma](https://administracionelectronica.gob.es/ctt/clavefirma)**: Cl@ve Firma es la plataforma de firma electrónica basada en certificados centralizados para las AAPP.
 
 Ambito: AAPP || Organismo: SGAD
 
-☑ **[Plataforma @firma](http://administracionelectronica.gob.es/ctt/afirma)**: Es una plataforma de validación y firma electrónica multi-PKI, que se pone a disposición de las Administraciones Públicas, proporcionando servicios para implementar la autenticación y firma electrónica avanzada de una forma rápida y efectiva.
+☑ **[Plataforma @firma](http://administracionelectronica.gob.es/ctt/afirma)**: Es una plataforma de validación y firma electrónica multi-PKI, que se pone a disposición de las AAPP, proporcionando servicios para implementar la autenticación y firma electrónica avanzada de una forma rápida y efectiva.
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[TS@](http://administracionelectronica.gob.es/ctt/tsa)**: Es una Autoridad de Sellado de Tiempo puesta a disposición de todas las Administraciones Públicas con el objetivo de ofrecer los servicios de sellado, validación y resellado de sellos de tiempo.
+☐ **[TS@](http://administracionelectronica.gob.es/ctt/tsa)**: Es una Autoridad de Sellado de Tiempo puesta a disposición de todas las AAPP con el objetivo de ofrecer los servicios de sellado, validación y resellado de sellos de tiempo.
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[VALIDE](http://administracionelectronica.gob.es/ctt/valide)**: Servicio online que las Administraciones Públicas pueden ofrecer a los ciudadanos para la validación de certificados, y verificación y generación de firmas electrónicas.
+☐ **[VALIDE](http://administracionelectronica.gob.es/ctt/valide)**: Servicio online que las AAPP pueden ofrecer a los ciudadanos para la validación de certificados, y verificación y generación de firmas electrónicas.
 
 Ambito: AAPP y Ciudadanos || Organismo: SGAD
 
@@ -73,11 +73,11 @@ Ambito: AAPP || Organismo: SGAD
 
 Ambito: AAPP y Ciudadanos || Organismo: SGAD
 
-☐ **[Política de firma y certificados AGE](http://administracionelectronica.gob.es/es/ctt/politicafirma)**: El artículo 18 del Real Decreto 4/2010 por el que se regula el Esquema Nacional de Interoperabilidad, establece que la política de firma electrónica y de certificados de la Administración General del Estado, servirá de marco general de interoperabilidad para la autenticación y el reconocimiento mutuo de firmas electrónicas dentro de su ámbito de actuación. También establece que dicha política podrá ser utilizada como referencia por otras Administraciones públicas para definir las políticas de certificados y firmas a reconocer dentro de sus ámbitos competenciales.
+☐ **[Política de firma y certificados AGE](http://administracionelectronica.gob.es/es/ctt/politicafirma)**: El artículo 18 del Real Decreto 4/2010 por el que se regula el ENI, establece que la política de firma electrónica y de certificados de la AGE, servirá de marco general de interoperabilidad para la autenticación y el reconocimiento mutuo de firmas electrónicas dentro de su ámbito de actuación. También establece que dicha política podrá ser utilizada como referencia por otras AAPP para definir las políticas de certificados y firmas a reconocer dentro de sus ámbitos competenciales.
 
 Ambito: AGE || Organismo: SGAD
 
-☐ **[Autentica](http://administracionelectronica.gob.es/ctt/autentica)**: AutenticA es un servicio de autenticación, autorización y Single Sign On de empleados públicos, altos cargos y personal relacionado, para aplicaciones internas de las AA.PP. Dispone de un repositorio horizontal de usuarios provenientes de fuentes primarias. AutenticA provee atributos de los usuarios, como la unidad y el puesto.
+☐ **[Autentica](http://administracionelectronica.gob.es/ctt/autentica)**: AutenticA es un servicio de autenticación, autorización y Single Sign On de empleados públicos, altos cargos y personal relacionado, para aplicaciones internas de las AAPP Dispone de un repositorio horizontal de usuarios provenientes de fuentes primarias. AutenticA provee atributos de los usuarios, como la unidad y el puesto.
 
 Ambito: AAPP || Organismo: SGAD
 
@@ -113,7 +113,7 @@ ORVE permite digitalizar el papel que presenta el ciudadano en las oficinas de r
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[REA - Registro Electrónico de Apoderamientos](http://administracionelectronica.gob.es/ctt/rea)**: El proyecto consiste en la implementación de un registro electrónico de representación y apoderamientos, creado y regulado en el RD 1671/2009 (art. 15), para hacer constar y gestionar las representaciones que los interesados otorguen a terceros, con el fin de que éstos puedan actuar en su nombre de forma electrónica ante la Administración General del Estado y/o sus organismos públicos vinculados o dependientes (Orden HAP 1637/2012).
+☐ **[REA - Registro Electrónico de Apoderamientos](http://administracionelectronica.gob.es/ctt/rea)**: El proyecto consiste en la implementación de un registro electrónico de representación y apoderamientos, creado y regulado en el RD 1671/2009 (art. 15), para hacer constar y gestionar las representaciones que los interesados otorguen a terceros, con el fin de que éstos puedan actuar en su nombre de forma electrónica ante la AGE y/o sus organismos públicos vinculados o dependientes (Orden HAP 1637/2012).
 
 Ambito: AGE || Organismo: SGAD
 
@@ -133,7 +133,7 @@ Ambito: AAPP || Organismo: SGAD
 
 ## Información al ciudadano
 
-☐ **[Punto de Acceso General](http://administracionelectronica.gob.es/ctt/pag)**: Facilita la intercomunicación de los ciudadanos y empresas con las Administraciones Públicas (AAPP) actuando de forma centralizada como agregador de la información y servicios electrónicos relacionados con las AAPP. [administracion.gob.es](http://administracion.gob.es)
+☐ **[Punto de Acceso General](http://administracionelectronica.gob.es/ctt/pag)**: Facilita la intercomunicación de los ciudadanos y empresas con las AAPP (AAPP) actuando de forma centralizada como agregador de la información y servicios electrónicos relacionados con las AAPP. [administracion.gob.es](http://administracion.gob.es)
 
 Ambito: AAPP || Organismo: SGAD
 
@@ -181,7 +181,7 @@ Actualmente ofrece los servicios de verificación de datos de identidad, residen
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[Portfolio soluciones SCSP - Sustitución de Certificados en Papel](http://administracionelectronica.gob.es/ctt/scsp)**: Sustitución de Certificados en Soporte Papel es un conjunto de especificaciones orientadas al intercambio de datos entre Administraciones Públicas con el objetivo de eliminar los certificados administrativos en papel.
+☐ **[Portfolio soluciones SCSP - Sustitución de Certificados en Papel](http://administracionelectronica.gob.es/ctt/scsp)**: Sustitución de Certificados en Soporte Papel es un conjunto de especificaciones orientadas al intercambio de datos entre AAPP con el objetivo de eliminar los certificados administrativos en papel.
 Las librerías SCSP facilitan la integración con sistemas compatibles con la especificación SCSP 
 El Cliente ligero SCSP permite la interacción inmediata con todos los servicios ofrecidos por la plataforma de intermediación de datos.
 
@@ -195,7 +195,7 @@ Ambito: AAPP y Ciudadanos || Organismo: SGAD
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[SIA - Sistema de Información Administrativa](http://administracionelectronica.gob.es/ctt/SIA)**: El Sistema de Información Administrativa, SIA, es una aplicación cuya función básica es la de actuar como repositorio de información relevante en lo concerniente a la relación entre Administración y ciudadano. Así, la misma aspira a integrar los procedimientos administrativos y servicios electrónicos existentes en el conjunto de las Administraciones Públicas, si bien el foco actual está en el ámbito de la Administración General del Estado. 
+☐ **[SIA - Sistema de Información Administrativa](http://administracionelectronica.gob.es/ctt/SIA)**: El Sistema de Información Administrativa, SIA, es una aplicación cuya función básica es la de actuar como repositorio de información relevante en lo concerniente a la relación entre Administración y ciudadano. Así, la misma aspira a integrar los procedimientos administrativos y servicios electrónicos existentes en el conjunto de las AAPP, si bien el foco actual está en el ámbito de la AGE. 
 Da cumplimiento al Artículo 9 del RD 4/2010.
 
 Ambito: AAPP || Organismo: SGAD
@@ -216,7 +216,7 @@ Ambito: AAPP || Organismo: SGAD
 
 Ambito: AAPP y Ciudadanos || Organismo: SGAD
 
-☐ **[Dirección Electrónica Habilitada Única - Punto único de notificaciones para todas las Administraciones Públicas](http://administracionelectronica.gob.es/ctt/lema)**: El Punto único de notificaciones para todas las Administraciones Públicas o Dirección Electrónica Habilitada única facilita el acceso a los ciudadanos a las notificaciones y comunicaciones emitidas por las administraciones públicas en el ejercicio de su actividad.
+☐ **[Dirección Electrónica Habilitada Única - Punto único de notificaciones para todas las Administraciones Públicas](http://administracionelectronica.gob.es/ctt/lema)**: El Punto único de notificaciones para todas las AAPP o Dirección Electrónica Habilitada única facilita el acceso a los ciudadanos a las notificaciones y comunicaciones emitidas por las AAPP en el ejercicio de su actividad.
 
 Ambito: AAPP y Ciudadanos || Organismo: SGAD
 
@@ -232,7 +232,7 @@ Ambito: AGE || Organismo: SGAD
 
 Ambito: AAPP || Organismo: SGAD
 
-☑ **[ARCHIVE](http://administracionelectronica.gob.es/es/ctt/archive)**: Archive es una aplicación web de archivo definitivo de expedientes y documentos electrónicos, que cumple con lo dispuesto al respecto en el RD 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración electrónica.
+☑ **[ARCHIVE](http://administracionelectronica.gob.es/es/ctt/archive)**: Archive es una aplicación web de archivo definitivo de expedientes y documentos electrónicos, que cumple con lo dispuesto al respecto en el RD 4/2010, de 8 de enero, por el que se regula el ENI en el ámbito de la Administración electrónica.
 Archive proporciona las herramientas necesarias para la creación por parte de un super-administrador de un sistema de administración y gestión de Centros de Archivo multidepartamental, así como la integración en Archive de las correspondientes aplicaciones consumidoras y la gestión de los documentos y expedientes electrónicos remitidos por las mismas.
 
 Ambito: AAPP || Organismo: SGAD
@@ -257,7 +257,7 @@ Ambito: AAPP || Organismo: SGAD
 
 ## Tramitación y comunicación con ciudadanos
 
-☐ **[Pasarela de Pagos Centralizada](https://administracionelectronica.gob.es/ctt/pagos)**: Esta plataforma facilita la implantación del pago telemático en las aplicaciones que gestionan trámites que conlleven el pago de tasas, en los Organismos de la Administración General del Estado.
+☐ **[Pasarela de Pagos Centralizada](https://administracionelectronica.gob.es/ctt/pagos)**: Esta plataforma facilita la implantación del pago telemático en las aplicaciones que gestionan trámites que conlleven el pago de tasas, en los Organismos de la AGE.
 
 Ambito: AGE || Organismo: SGAD
 
@@ -277,11 +277,11 @@ Ambito: AAPP y Ciudadanos || Organismo: SGAD
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[CISE](http://administracionelectronica.gob.es/ctt/cise)**: Catálogo de diferentes activos semánticos para el intercambio de información que se produce entre las Administraciones Públicas y entre éstas y los ciudadanos.
+☐ **[CISE](http://administracionelectronica.gob.es/ctt/cise)**: Catálogo de diferentes activos semánticos para el intercambio de información que se produce entre las AAPP y entre éstas y los ciudadanos.
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[Portal datos.gob.es](http://administracionelectronica.gob.es/ctt/datosgob)**: Datos.gob.es es el portal de carácter nacional que organiza y gestiona el catálogo de información pública, el punto de acceso único a los conjuntos de datos de la Administración General del Estado. Asimismo, desde este portal se proporciona información general, materiales formativos y noticias de actualidad sobre la reutilización de la información del séctor público.
+☐ **[Portal datos.gob.es](http://administracionelectronica.gob.es/ctt/datosgob)**: Datos.gob.es es el portal de carácter nacional que organiza y gestiona el catálogo de información pública, el punto de acceso único a los conjuntos de datos de la AGE. Asimismo, desde este portal se proporciona información general, materiales formativos y noticias de actualidad sobre la reutilización de la información del séctor público.
 
 Ambito: AAPP || Organismo: SESIAD, SGAD
 
@@ -291,7 +291,7 @@ Ambito: AAPP || Organismo: SESIAD, SGAD
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[PTPLATA](https://administracionelectronica.gob.es/ctt/ptplata/)**: El portal de traducción automática PLATA  permite al usuario traducir textos y ficheros entre más de 360 combinaciones de idiomas. El portal utiliza la traducción del motor PLATA de la Administración General del Estado y del motor de traducciónMT@EC de la Comisión Europea para ofrecer los textos traducidos al usuario. Ambos sistemas de traducción son sistemas de traducción automática sin revisión o intervención humana. La calidad de las traducciones está dentro de los umbrales de calidad  marcados para este tipo de sistemas de traducción.
+☐ **[PTPLATA](https://administracionelectronica.gob.es/ctt/ptplata/)**: El portal de traducción automática PLATA  permite al usuario traducir textos y ficheros entre más de 360 combinaciones de idiomas. El portal utiliza la traducción del motor PLATA de la AGE y del motor de traducciónMT@EC de la Comisión Europea para ofrecer los textos traducidos al usuario. Ambos sistemas de traducción son sistemas de traducción automática sin revisión o intervención humana. La calidad de las traducciones está dentro de los umbrales de calidad  marcados para este tipo de sistemas de traducción.
 
 Ambito: AAPP || Organismo: SGAD
 
@@ -305,7 +305,7 @@ Ambito: AAPP || Organismo: SGAD
 
 ## Impulso Administración Digital-OTROS
 
-☐ **[OAW-Servicio de diagnóstico en línea](http://administracionelectronica.gob.es/PAe/accesibilidad)**: Servicio que proporciona a cada Departamento de las Administraciones Públicas la posibilidad de realizar, directamente, análisis automáticos de accesibilidad conformes al estudio del observatorio basado en la norma UNE 139803:2004 o/y en la norma UNE 139803:2012.
+☐ **[OAW-Servicio de diagnóstico en línea](http://administracionelectronica.gob.es/PAe/accesibilidad)**: Servicio que proporciona a cada Departamento de las AAPP la posibilidad de realizar, directamente, análisis automáticos de accesibilidad conformes al estudio del observatorio basado en la norma UNE 139803:2004 o/y en la norma UNE 139803:2012.
 
 Ambito: AAPP || Organismo: SGAD
 
@@ -313,7 +313,7 @@ Ambito: AAPP || Organismo: SGAD
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[ADISE](http://administracionelectronica.gob.es/ctt/adise)**: Sistema destinado a monitorizar la disponibilidad de los servicios electrónicos prestados por la Administración General del Estado y las diferentes Administraciones Públicas. Este sistema proporciona información sobre si el servicio o la página web monitorizada está accesible o no en base a múltiples parámetros.
+☐ **[ADISE](http://administracionelectronica.gob.es/ctt/adise)**: Sistema destinado a monitorizar la disponibilidad de los servicios electrónicos prestados por la AGE y las diferentes AAPP. Este sistema proporciona información sobre si el servicio o la página web monitorizada está accesible o no en base a múltiples parámetros.
 
 Ambito: AAPP || Organismo: SGAD
 
@@ -339,7 +339,7 @@ Soluciones que podrían ser utilizadas para prestar los servicios generales a un
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[Videoconferencia Reúnete](http://administracionelectronica.gob.es/ctt/reunete)**: Servicio Común de Reuniones Virtuales de la Administración General del Estado, desde el cual se ofrecen herramientas colaborativas a todas las Administraciones Públicas con el fin de rentabilizar el trabajo en equipo y contribuir a disminuir el gasto en las AA.PP.
+☐ **[Videoconferencia Reúnete](http://administracionelectronica.gob.es/ctt/reunete)**: Servicio Común de Reuniones Virtuales de la AGE, desde el cual se ofrecen herramientas colaborativas a todas las AAPP con el fin de rentabilizar el trabajo en equipo y contribuir a disminuir el gasto en las AAPP
 
 Ambito: AAPP || Organismo: SGAD
 
@@ -365,7 +365,7 @@ Ambito: AGE || Organismo: SGAD
 
 Ambito: AGE || Organismo: SGAD
 
-☐ **[Portal SIRES](http://administracionelectronica.gob.es/ctt/sires)**: El portal SIRES, es un portal de transferencia segura de ficheros entre Organismos de la Administración General del estado y la División del Registro Central de Personal para el envío a, o la obtención de datos de carácter personal procedentes del RCP.
+☐ **[Portal SIRES](http://administracionelectronica.gob.es/ctt/sires)**: El portal SIRES, es un portal de transferencia segura de ficheros entre Organismos de la AGE y la División del Registro Central de Personal para el envío a, o la obtención de datos de carácter personal procedentes del RCP.
 
 Ambito: AGE || Organismo: SGAD
 
@@ -441,7 +441,7 @@ IAAS: Infraestructuras como servicio
 
 ## Telecomunicaciones
 
-☐ **[Comunicaciones SARA](http://administracionelectronica.gob.es/ctt/redsara)**: La red SARA es un conjunto de infraestructuras tecnológicas que permiten la interconexión entre sí, de las administraciones públicas, facilitando el intercambio de información y servicios entre ellas.
+☐ **[Comunicaciones SARA](http://administracionelectronica.gob.es/ctt/redsara)**: La red SARA es un conjunto de infraestructuras tecnológicas que permiten la interconexión entre sí, de las AAPP, facilitando el intercambio de información y servicios entre ellas.
 
 Ambito: AAPP || Organismo: SGAD
 
@@ -479,15 +479,15 @@ Producción regulatoria así como guías, metodologías, buenas prácticas e inf
 
 ## Producción regulatoria
 
-☐ **[Esquema Nacional de Seguridad](http://administracionelectronica.gob.es/ctt/ens)**: El Esquema Nacional de Seguridad (ENS), regulado por el  Real Decreto 3/2010(Abre en nueva ventana) , de 8 de enero, determina la política de seguridad que se ha de aplicar en la utilización de los medios electrónicos. El ENS está constituido por los principios básicos y requisitos mínimos para una protección adecuada de la información. Será aplicado por las AA.PP. para asegurar el acceso, integridad, disponibilidad, autenticidad, confidencialidad, trazabilidad y conservación de los datos, informaciones y servicios utilizados en medios electrónicos que gestiones en el ejercicio de sus competencias.
+☐ **[Esquema Nacional de Seguridad](http://administracionelectronica.gob.es/ctt/ens)**: El ENS, regulado por el  Real Decreto 3/2010(Abre en nueva ventana) , de 8 de enero, determina la política de seguridad que se ha de aplicar en la utilización de los medios electrónicos. El ENS está constituido por los principios básicos y requisitos mínimos para una protección adecuada de la información. Será aplicado por las AAPP para asegurar el acceso, integridad, disponibilidad, autenticidad, confidencialidad, trazabilidad y conservación de los datos, informaciones y servicios utilizados en medios electrónicos que gestiones en el ejercicio de sus competencias.
 
 Ambito: AAPP || Organismo: SGAD, CCN, colaboración de todas las AAPP
 
-☐ **[Esquema Nacional de Interoperabilidad. Normas Técnicas de Interoperabilidad](http://administracionelectronica.gob.es/ctt/eni)**: El Esquema Nacional de Interoperabilidad (ENI), regulado por el Real Decreto 4/2010(Abre en nueva ventana) , de 8 de enero, establece el conjunto de criterios y recomendaciones que deberán ser tenidos en cuenta por las AA.PP. para la toma de decisiones tecnológicas que garanticen la interoperabilidad. Las normas técnicas de interoperabilidad previstas en su disposición adicional primera desarrollan ciertos aspectos concretos.
+☐ **[Esquema Nacional de Interoperabilidad. Normas Técnicas de Interoperabilidad](http://administracionelectronica.gob.es/ctt/eni)**: El ENI, regulado por el Real Decreto 4/2010(Abre en nueva ventana) , de 8 de enero, establece el conjunto de criterios y recomendaciones que deberán ser tenidos en cuenta por las AAPP para la toma de decisiones tecnológicas que garanticen la interoperabilidad. Las normas técnicas de interoperabilidad previstas en su disposición adicional primera desarrollan ciertos aspectos concretos.
 
 Ambito: AAPP || Organismo: SGAD con la colaboración de todas las AAPP
 
-☐ **[Plan de Transformación Digital de la AGE y sus OOPP. Estrategia TIC](http://administracionelectronica.gob.es/PAe/estrategiaTIC)**: El Plan de Transformación digital de la Administración General del Estado  y sus Organismos Públicos(Abre en nueva ventana) , la Estrategia TIC, constituye el marco estratégico global para avanzar en la transformación de la Administración, estableciendo sus principios rectores, los objetivos y las acciones para alcanzarlos, así como los hitos para el desarrollo gradual de la Administración Digital con un horizonte temporal hasta 2020.
+☐ **[Plan de Transformación Digital de la AGE y sus OOPP. Estrategia TIC](http://administracionelectronica.gob.es/PAe/estrategiaTIC)**: El Plan de Transformación digital de la AGE  y sus Organismos Públicos(Abre en nueva ventana) , la Estrategia TIC, constituye el marco estratégico global para avanzar en la transformación de la Administración, estableciendo sus principios rectores, los objetivos y las acciones para alcanzarlos, así como los hitos para el desarrollo gradual de la Administración Digital con un horizonte temporal hasta 2020.
 
 Ambito: AGE || Organismo: SGAD con la colaboración de los departamentos Ministeriales
 
@@ -509,7 +509,7 @@ Ambito: AAPP || Organismo: SGAD
 
 Ambito: AAPP || Organismo: SGAD
 
-☐ **[Guía de Comunicación Digital de la AGE](http://administracionelectronica.gob.es/PAe/guia_comunicacion_digital)**: La Guía de Comunicación Digital para la Administración General del Estado proporciona un marco de criterios, recomendaciones y buenas prácticas a tener en cuenta por sus Departamentos y organismos al crear, generar contenidos o evolucionar los sitios y portales web, las sedes electrónicas o los sitios relacionados con las nuevas tecnologías web2.0 (blogs, cuentas o perfiles de redes sociales a los que accede bajo los nombres oficiales de los Departamentos u organismos de la AGE).
+☐ **[Guía de Comunicación Digital de la AGE](http://administracionelectronica.gob.es/PAe/guia_comunicacion_digital)**: La Guía de Comunicación Digital para la AGE proporciona un marco de criterios, recomendaciones y buenas prácticas a tener en cuenta por sus Departamentos y organismos al crear, generar contenidos o evolucionar los sitios y portales web, las sedes electrónicas o los sitios relacionados con las nuevas tecnologías web2.0 (blogs, cuentas o perfiles de redes sociales a los que accede bajo los nombres oficiales de los Departamentos u organismos de la AGE).
 
 Ambito: AGE || Organismo: SGAD
 
@@ -519,11 +519,11 @@ Ambito: AGE || Organismo: SGAD
 
 Ambito: AGE || Organismo: SGAD, con la colaboración del resto de AGE
 
-☐ **[IRIA - Tecnologías de la Información y las Comunicaciones en las Administraciones Públicas](http://administracionelectronica.gob.es/PAe/IRIA)**: El informe IRIA presenta una visión global de la situación y uso de los Sistemas y Tecnologías de la Información y las Comunicaciones en las Administraciones Públicas, recogiendo los principales agregados del sector y su evolución, resaltando sus peculiaridades y favoreciendo así la creación de un marco general de actuación que oriente las futuras decisiones de planificación y adquisición de Sistemas y Tecnologías de la Información en el ámbito administrativo.
+☐ **[IRIA - Tecnologías de la Información y las Comunicaciones en las Administraciones Públicas](http://administracionelectronica.gob.es/PAe/IRIA)**: El informe IRIA presenta una visión global de la situación y uso de los Sistemas y Tecnologías de la Información y las Comunicaciones en las AAPP, recogiendo los principales agregados del sector y su evolución, resaltando sus peculiaridades y favoreciendo así la creación de un marco general de actuación que oriente las futuras decisiones de planificación y adquisición de Sistemas y Tecnologías de la Información en el ámbito administrativo.
 
 Ambito: AAPP || Organismo: SGAD, con la colaboración de AAPP
 
-☐ **[CAE - Administración Electrónica en CCAA](http://administracionelectronica.gob.es/PAe/CAE)**: Este informe integra anualmente la información sobre Administración Electrónica proporcionada por las Comunidades Autónomas en el ámbito de la Conferencia Sectorial de Administraciones Públicas, con el objeto de 
+☐ **[CAE - Administración Electrónica en CCAA](http://administracionelectronica.gob.es/PAe/CAE)**: Este informe integra anualmente la información sobre Administración Electrónica proporcionada por las Comunidades Autónomas en el ámbito de la Conferencia Sectorial de AAPP, con el objeto de 
 monitorizar el avance de la Administración Autonómica hacia la Administración electrónica ymantener una radiografía permanentemente actualizada sobre el estado de las diferentes administraciones en este tema.
 
 Ambito: CCAA || Organismo: SGAD, con la colaboración de las CCAA

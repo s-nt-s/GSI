@@ -22,6 +22,16 @@ def get_ods(url, ext):
         if url is not None and url.endswith(ext):
             return url
 
+class Item(Munch):
+    def __init__(self, *args, **kargv):
+        super().__init__(*args, **kargv)
+        for a, b in (
+            (r"Administración General del Estado|A\.G\.E\.", "AGE"),
+            (r"Administraciones públicas|AA\.PP\.", "AAPP"),
+            (r"Esquema Nacional de Interoperabilidad( \(ENI\))?", "ENI"),
+            ("Esquema Nacional de Seguridad( \(ENS\))?", "ENS"),
+        ):
+            self.descripcion = re.sub(a, b, self.descripcion, flags=re.IGNORECASE)
 
 class Catalogo:
     def __init__(self, url="https://www.administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/catalogo-servicios-admon-digital.html"):
@@ -135,7 +145,7 @@ class Catalogo:
                 comun = False
                 if sheet.get("comun") is not None:
                     comun = row[sheet.comun].lower() in ("si", "sí")
-                sheet.rows.append(Munch(
+                sheet.rows.append(Item(
                     tipo = tipo,
                     nombre = nombre,
                     ambito = ambito,
