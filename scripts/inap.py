@@ -109,6 +109,14 @@ class CrawlInap:
                 return 5
             return None
 
+        def ordS(s):
+            t = unidecode(s.titulo.lower())
+            if "enunciado" in t:
+                return 1
+            if "solucion" in t or "resolucion" in t or "respuesta" in t:
+                return 2
+            return 3
+
         blq = 0
         URLS = self.get_urls("div.content h3.section-title a")
         for bloque, url in URLS:
@@ -191,6 +199,9 @@ class CrawlInap:
                     for txt, href in self.get_urls("div[role='main'] a"):
                         if href != "#":
                             t.archivos.append(Munch(titulo=txt, url=href))
+                    t.archivos=sorted(t.archivos, key=ordS)
+                    if len(t.archivos)==2 and ordS(t.archivos[0])==2:
+                        t.archivos = list(reversed(t.archivos))
                     if descargar:
                         for fl in t.archivos:
                             trg = "debug/inap/B{}/{}/{}".format(b.bloque, t.titulo, fl.titulo)
