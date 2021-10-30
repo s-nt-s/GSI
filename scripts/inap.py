@@ -174,9 +174,14 @@ class CrawlInap:
                 )
                 SUPUESTOS = self.get_urls("div.single-section ul.section.img-text div.activityinstance a")
                 for i, (txt, href) in enumerate(SUPUESTOS):
+                    i = i + 1
                     print(" ", "%2d" % (i+1), txt)
+                    if txt != "Documentación común para resolución Supuestos 7 y 8 Carpeta":
+                        txt = txt.replace("Carpeta", "").strip()
+                        txt = re.sub(r"(bloque [IV]+)?[\s\-:_]*Supuesto\s*\d+[\s\-:_]*", "", txt, flags=re.IGNORECASE).strip()
+                        txt = ("S{:02d}".format(i) + " " + txt).strip()
                     t = Munch(
-                        supuesto=i+1,
+                        supuesto=i,
                         titulo=txt,
                         url=href,
                         archivos=[]
@@ -214,7 +219,7 @@ class CrawlInap:
                 dict_add(feedback, t.feedback)
                 dict_add(leyes, t.leyes)
             for t in b.supuestos:
-                MD.append("    {supuesto}. [Supuesto {supuesto}]({url})".format(**dict(t)))
+                MD.append("    {supuesto}. [{titulo}]({url})".format(**dict(t)))
                 for index, a in enumerate(t.archivos):
                     MD.append("        {i}. [{titulo}]({url})".format(i=index+1, **dict(a)))
 
