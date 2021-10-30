@@ -2,14 +2,17 @@
 DR=$(realpath "$(dirname "$0")/..")
 
 PYPANDOC_PANDOC="$HOME/bin/pandoc"
+export PYPANDOC_PANDOC
 
 cd "$DR/content/posts/gsitic.wordpress.com/"
 
 for md in *.md; do
-    epub="${md%.*}.epub"
-    if [ ! -f "$epub" ]; then
-      miepub --trim --width 1050 --out $epub $md
-      echo ""
+    if [ "$md" != "_.md" ]; then
+      epub="${md%.*}.epub"
+      if [ ! -f "$epub" ]; then
+        miepub --trim --width 1050 --out $epub $md
+        echo ""
+      fi
     fi
 done
 

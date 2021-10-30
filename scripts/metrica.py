@@ -58,6 +58,10 @@ class MyConverter(MarkdownConverter):
         return "\n"+md+"\n"
         #return '\n<h{0} id="{2}">{1}</h{0}>\n'.format(n, text, id)
 
+    def convert_img(self, *args, **kargv):
+        md = super().convert_img(*args, **kargv)
+        return "\n\n"+md.strip()+"\n\n"
+
 def my_md(html, **options):
     return MyConverter(**options).convert(html)
 
@@ -194,7 +198,7 @@ class CrawlMetrica:
                 if len(txt)==0 and n.select_one(":scope *") is None:
                     n.extract()
             for li in soup.findAll("li"):
-                for x in li.findAll(HEAD):
+                for x in li.findAll(HEAD+["p", "br"]):
                     x.unwrap()
             soup = soup.select_one("main section")
             h2 = soup.select_one("h2")
