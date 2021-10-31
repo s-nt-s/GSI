@@ -5,7 +5,6 @@ from textwrap import dedent
 
 import bs4
 import yaml
-from markdown import markdown
 from munch import Munch
 from weasyprint import CSS, HTML
 import sys

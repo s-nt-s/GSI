@@ -139,9 +139,9 @@ class CrawlMetrica:
                 if lw in ("EVS", "ASI", "DSI", "CSI", "IAS"):
                     parent = "https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/desarrollo/"
             if parent in hsh:
-                if "childrens" not in hsh[parent]:
-                    hsh[parent].childrens=[]
-                hsh[parent].childrens.append(m)
+                if "children" not in hsh[parent]:
+                    hsh[parent].children=[]
+                hsh[parent].children.append(m)
             else:
                 inx.append(m)
             source = self.get_source(soup.select_one("section"))
@@ -159,7 +159,7 @@ class CrawlMetrica:
                 l = l - 1
             else:
                 yield (l, i)
-            for x in i.get("childrens" , []):
+            for x in i.get("children" , []):
                 yield from iter_level(l+1, x)
 
         for i in self.get_index():

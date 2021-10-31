@@ -1,6 +1,6 @@
 import re
 from os import makedirs
-from os.path import dirname
+from os.path import dirname, isfile
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -46,6 +46,16 @@ def read(file):
         md.html = markdown(md.md)
         md.meta = yaml.safe_load(md.meta)
         md.meta = Munch.fromDict(md.meta)
+        if file.endswith("/metrica_v3.md"):
+            file = file.replace("/content/posts/", "/output/")
+            file = file.rsplit(".", 1)[0]+".html"
+            if isfile(file):
+                with open(file, "r") as f:
+                    html = f.read()
+                soup = bs4.BeautifulSoup(html, "lxml")
+                a = soup.find("article")
+                a.name = "div"
+                md.html = str(a)
         return md
 
     with open(file, "r") as f:
