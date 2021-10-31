@@ -174,3 +174,13 @@ body.otros_metrica li {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
+body.otros_diagramas div.figgroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  align-items: start;
+}
+body.otros_diagramas div.figgroup figure {
+  margin-top: 16px;
+}

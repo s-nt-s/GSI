@@ -1926,3 +1926,7 @@ Android Runtime
 RACI
 https://es.wikipedia.org/wiki/Matriz_de_asignaci%C3%B3n_de_responsabilidades
 Matriz de asignación de responsabilidades
+
+SADT
+https://es.wikipedia.org/wiki/T%C3%A9cnica_de_an%C3%A1lisis_y_dise%C3%B1o_estructurado
+Técnica de análisis y diseño estructurado (Structured Analysis and Design Technique)
