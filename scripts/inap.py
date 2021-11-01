@@ -202,6 +202,22 @@ class CrawlInap:
                     t.archivos=sorted(t.archivos, key=ordS)
                     if len(t.archivos)==2 and ordS(t.archivos[0])==2:
                         t.archivos = list(reversed(t.archivos))
+                    if len(t.archivos)>0 and len(t.titulo)==3:
+                        at = " ".join(a.titulo for a in t.archivos)
+                        if "RGPD" in at or "REGLAMENTO GENERAL DE PROTECCION DE DATOS" in at:
+                            t.titulo = t.titulo + " RGPD"
+                        elif "ENS" in at:
+                            t.titulo = t.titulo + " ENS"
+                        elif "ADHESIONES" in at:
+                            t.titulo = t.titulo + " Adhesiones"
+                        elif "PUNTO UNICO DE NOTIFICACIONES" in at:
+                            t.titulo = t.titulo + " Notificaciones"
+                        elif "Subvenciones Empleo Juvenil" in at:
+                            t.titulo = t.titulo + " Empleo Juvenil"
+                        elif "Ayudas Comedor" in at:
+                            t.titulo = t.titulo + " Comedor"
+                        elif "mediadores" in at:
+                            t.titulo = t.titulo + " Registro de Mediadores"
                     if descargar:
                         for fl in t.archivos:
                             trg = "debug/inap/B{}/{}/{}".format(b.bloque, t.titulo, fl.titulo)
