@@ -30,6 +30,7 @@ class Abbr():
         self.titles = []
         self._re = None
         self._class = "abbr"
+        self._title = None
         if title is not None:
             self.titles.append(title)
 
@@ -69,6 +70,8 @@ class Abbr():
             abbr.titles.append(l)
 
         for abbr in list(r):
+            if abbr.titles:
+                abbr._title = abbr.titles[0]
             if abbr.boe:
                 if abbr.boe.nula:
                     abbr._class = abbr._class+" "+abbr.boe.nula
@@ -185,3 +188,39 @@ class Abbr():
             dom = get_dom(url.url)
             txt=txt + '<sup class="extra_url"><a href="{url.url}" {url.attrs}>{dom}</a></sup>'.format(url=url, dom=dom[0])
         return txt
+
+if __name__ == "__main__":
+    from glob import glob
+    from os.path import basename
+    from textwrap import dedent
+    def sort_abbr(a):
+        if a.boe:
+            s = a.boe.id
+            s = s.split("-")
+            s = (int(i) if i.isdigit() else i for i in s)
+            return tuple(s)
+        return tuple()
+
+    abbrs = Abbr.load("config/abbr/02-ley.txt")
+    abbrs = sorted(abbrs, key=sort_abbr, reverse=True)
+
+    print(dedent('''
+    ---
+    title: Lesgilación
+    ---
+
+    Listado de Leyes referenciados en algún sitio de esta web.
+
+    | ID | Rango | Nombre |
+    |----|-------|--------|
+    ''').strip())
+    done = set()
+    for a in abbrs:
+        if a.url.url in done:
+            continue
+        done.add(a.url.url)
+        if a.boe:
+            b = a.boe
+            print("| {boe} | {rango} | {title} | ".format(boe=b.id, rango=b.title, title=a._title))
+        else:
+            print("|  |  | {title} | ".format(title=a.titles[0]))

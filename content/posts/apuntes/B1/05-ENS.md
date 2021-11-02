@@ -32,6 +32,12 @@ la materialización de una amenaza
 * **Riesgo residual**: riesgo que persiste tras implementar las
 salvaguardas
 
+Herramientas CCN-STIC relacionadas con el ENS:
+
+* INES: Informe de Estado de Seguridad en el ENS (permite evaluar la seguridad)
+* AMPARO: Implantación de medidas de seguridad y conformidad del ENS (prerequisito: sacar el Plan de Adecuación usando INES)
+* CLARA: Auditoría de Cumplimiento ENS/STIC (hay versión para sistemas Windows y para sistemas Linux)
+
 # [Principios básicos](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
 
 * Seguridad integral
@@ -402,6 +408,10 @@ Para dar publicidad a la conformidad se ha de publicar en la sede electrónica e
 ![Distintivo de certificación de conformidad, categoría ALTA](https://ens.ccn.cni.es/images/distintivo_ens_certificacion_ALTA.png){:style="max-width:480px"}
 
 Figura 2: Ejemplo de *distintivo de certificación de conformidad*.
+
+Con AMPARO se puede obtener automáticamente la Declaración de Conformidad del sistema
+para categoría BÁSICA, o solicitar una Auditoría de Conformidad a una
+Entidad de Certificación acreditada.
 
 # Seguridad Nacional
 
