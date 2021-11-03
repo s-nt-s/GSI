@@ -37,6 +37,7 @@ Herramientas CCN-STIC relacionadas con el ENS:
 * INES: Informe de Estado de Seguridad en el ENS (permite evaluar la seguridad)
 * AMPARO: Implantación de medidas de seguridad y conformidad del ENS (prerequisito: sacar el Plan de Adecuación usando INES)
 * CLARA: Auditoría de Cumplimiento ENS/STIC (hay versión para sistemas Windows y para sistemas Linux)
+* ROCIO: Auditorias de seguridad sobre configuraciones de equipos de comunicaciones (routers, cortafuetos, etc)
 
 # [Principios básicos](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
 

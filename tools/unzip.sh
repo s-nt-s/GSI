@@ -60,13 +60,18 @@ if [ "$ZP" == "Pack_1_PreparaTIC27.zip" ]; then
   while IFS= read -r -d '' file; do
     mklink "$file" ""
   done
-  find .. -maxdepth 1 -type d -print0 |
-  while IFS= read -r -d '' dr; do
+  find .. -maxdepth 1 -type d -print0 | while IFS= read -r -d '' dr; do
     bn=$(basename "$dr")
     if [ "$bn" != "000 Resumenes" ]; then
       if ! compgen -G "${bn}.*" > /dev/null; then
         if [ $(find "$dr" -type f | wc -l) -eq 1 ]; then
           file=$(find "$dr" -type f)
+          mklink "$file" ""
+        elif [ $(find "$dr" \( -ipath "*/contenidos/*" -o -ipath "*/contenido/*" \) -type f | wc -l) -eq 1 ]; then
+          file=$(find "$dr" \( -ipath "*/contenidos/*" -o -ipath "*/contenido/*" \) -type f)
+          mklink "$file" ""
+        elif [ $(find "$dr" -type f -name "Testing Mayo2017.pdf" | wc -l) -eq 1 ]; then
+          file=$(find "$dr" -type f -name "Testing Mayo2017.pdf")
           mklink "$file" ""
         fi
       fi
