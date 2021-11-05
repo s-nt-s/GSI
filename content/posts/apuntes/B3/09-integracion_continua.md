@@ -33,12 +33,12 @@ que se realiza todas las noches tras pasar pruebas automáticas. Sirve para:
 construcción del proyecto
 * Si la versión Nightly es pública, obtener feedback temprano
 
-**Cobertura de código**:medida porcentual que mide el grado en que el código
+**Cobertura de código**: medida porcentual que mide el grado en que el código
 fuente de un programa ha sido comprobado con pruebas de software.
 Sirve para determinar la calidad de los test​ y para determinar las partes
 críticas del código que no han sido comprobadas y las partes que ya lo fueron.
 
-**Code quality gates**:  mínimos de calidad requeridos que si no
+**Code quality gates**: mínimos de calidad requeridos que si no
 se superan provocan que la ejecución se considere fallida. Ejemplos:
 
 * un mínimo del 80% de cobertura de código
@@ -51,7 +51,7 @@ versiones no rompe nada
 * La entrega continua busca automatizar el despliegue en un entorno de
 preproducción/staging y automatiza el set de pruebas de aceptación
 * El despliegue continuo busca automatizar todos los pasos hasta el final,
-esto exige pruebas de gran calidad (no solo unit testing si no sobretodo
+esto exige pruebas de gran calidad (no solo unit testing si no sobre todo
 pruebas funcionales E2E). Habitualmente se se combina con Canary deployment.
 
 ![Diferencias entre CI, CD y DC](img/cicd.png)
@@ -173,7 +173,7 @@ Características principales de la herramienta:
 
 * Compatible con Maven, por lo que puede generarse un informe complementario dentro
 del ciclo de build y mediante el uso de un servidor de integración continua
-* Integra herramientas de medición de la calidad de código (Findbugs, PMD, Checkstyle, PMD, CPD)
+* Integra herramientas de medición de la calidad de código (Findbugs, Checkstyle, PMD, CPD)
 mediante plugins y ofreciendo un resumen tipo cuadro de mando. Clasifica las
 incidencias en base a su severidad y a su naturaleza: fiabilidad, usabilidad, eficiencia, mantenimiento,
 portabilidad (matriz de radar del gráfico)

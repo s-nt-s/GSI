@@ -1,7 +1,7 @@
 ---
 title: Gestión de proyectos
 replace:
-  "PDM": '<a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_diagrama_de_precedencias" title="Método del diagrama de precedencias" class="abbr">PDM</a>'
+  " PDM": ' <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_diagrama_de_precedencias" title="Método del diagrama de precedencias" class="abbr">PDM</a>'
   "ADM": '<a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_diagrama_de_flechas" title="Método del diagrama de flechas" class="abbr">ADM</a>'
   "FCE": '<a href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/" title="Factores críticos de éxito" class="abbr">FCE</a>'
 ---

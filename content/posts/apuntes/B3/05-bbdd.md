@@ -1,8 +1,8 @@
 ---
 title: Bases de datos relacionales
 replace:
-  "DBA": '<abbr title="Administrador de la base de datos" class="abbr">abbr</a>'
-  "PDO": '<abbr title="PHP Data Object" class="abbr">PDO</a>'
+  "DBA": '<abbr title="Administrador de la base de datos" class="abbr">DBA</abbr>'
+  "PDO": '<abbr title="PHP Data Object" class="abbr">PDO</abbr>'
 ---
 # Conceptos básicos
 

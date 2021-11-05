@@ -407,9 +407,9 @@ IPs son la misma:
 
 Hay tres tipos de IPs según su direccionamiento y encaminamiento:
 
-* **unicast**: identifica un único interfaz de red
+* **unicast**: identifica una única interfaz de red
 * **anycast**: identifica un grupo de interfaces (normalmente de nodos diferentes):
-    * Los paquetes enviados a una dirección anycast solo llega a uno de los miembros
+    * los paquetes enviados a una dirección anycast solo llega a uno de los miembros
     (típicamente el más cercano)
     * las direcciones anycast tienen el mismo formato que las unicast, simplemente
     son direcciones que están en varios puntos de la red

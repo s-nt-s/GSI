@@ -385,7 +385,7 @@ según la fase en la que estén. Permite detectar cuellos de botella.
 * **BDD**: Desarrollo guiado por comportamiento. Como TDD pero además de pruebas
 que verifican el código también hay pruebas que definen el comportamiento de la
 aplicación
-* **DSDM**: Método de desarrollo de sistemas dinámicos.Extensión de RAD
+* **DSDM**: Método de desarrollo de sistemas dinámicos. Extensión de RAD
 * [**Crystal**](https://en.wikiversity.org/wiki/Crystal_Methods): Familia de
 metodologías que incluye entre otras Crystal Clear, Crystal Yellow o Crystal Orange
 * [**LEAN**](https://es.wikipedia.org/wiki/Lean_software_development)

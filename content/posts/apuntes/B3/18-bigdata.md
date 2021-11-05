@@ -267,7 +267,7 @@ Para ello hace uso de tres servicios:
 * Hadoop Common: Conjunto de utilidades para la integración de subproyectos de Hadoop.
 Proporciona acceso a los sistemas de archivos soportados por Hadoop.
 
-Un clúster típico Hadoop incluye unodo maestro y múltiples nodos esclavo.
+Un clúster típico Hadoop incluye un nodo maestro y múltiples nodos esclavo.
 
 * El nodo maestro consiste en jobtracker (rastreador de trabajo), tasktracker (rastreador de tareas), namenode (nodo de nombres), y datanode (nodo de datos).
 * Un esclavo o compute node (nodo de cómputo) consisten en un nodo de datos

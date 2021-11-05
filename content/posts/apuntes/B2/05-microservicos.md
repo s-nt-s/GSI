@@ -58,7 +58,7 @@ Nota: Generalmente, cuando decimos *contenedor* a secas, nos referimos a un
 * Casi tan flexible como las máquinas virtuales tradicionales
 * Se puede implementar mecanismos de copy-on-write
 * No requiere un hipervisor ni ningún mecanismo de hardware
-* Permite mayor contro desde el anfitrión
+* Permite mayor control desde el anfitrión
 
 **Desventajas**
 
@@ -357,7 +357,7 @@ Cuando no se especifica que un volumen es persistente se sobreentiende
 que son volúmenes que se crean y destruyen con el pod.
 
 Nota: Un volumen solo puede ser montado como Read/Write en un único nodo,
-lo que significa que si una replica de nuestro nodo cae en otro nodo
+lo que significa que si una replica de nuestro aplicativo cae en otro nodo
 no podrá usar el volumen.
 
 ## Componentes Software
