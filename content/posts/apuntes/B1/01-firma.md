@@ -17,7 +17,7 @@ denominados como *mensaje*.
 los datos de validación de una firma con una persona física y confirma,
 al menos, el nombre o seudónimo de esa persona
 
-**Sello de electrónico**: Datos en formato electrónico anejos a otros datos,
+**Sello electrónico**: Datos en formato electrónico anejos a otros datos,
 o asociados de manera lógica con ellos, para garantizar el origen y
 la integridad de estos últimos.
 
@@ -315,7 +315,7 @@ El DNIe reparte su contenido en dos zonas:
     * Imagen de la firma manuscrita
     * Datos biométricos
 
-Para el DNIe hace de CA y la FNMT y MINHAC hace de VA.
+Para el DNIe el Ministerio de Interior (DGP) hace de CA y la FNMT y MINHAC hace de VA.
 
 # Regulación y Administración Pública
 
@@ -470,7 +470,7 @@ de la persona autenticada por ese medio (nodos eIDAS)
 | **sustancial**     | sustancial            | reducir sustancialmente      |
 | **alto**           | superior              | evitar                       |
 
-### Requisitos para los TSA
+### Requisitos para los TSP
 
 1. Aportar medidas técnicas y organizativas que gestiones los riesgos para la seguridad
 2. En un **plazo máximo de 24 horas** tras tener conocimiento de una violación de seguridad

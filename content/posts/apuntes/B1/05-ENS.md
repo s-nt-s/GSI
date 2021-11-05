@@ -38,6 +38,8 @@ Herramientas CCN-STIC relacionadas con el ENS:
 * AMPARO: Implantación de medidas de seguridad y conformidad del ENS (prerequisito: sacar el Plan de Adecuación usando INES)
 * CLARA: Auditoría de Cumplimiento ENS/STIC (hay versión para sistemas Windows y para sistemas Linux)
 * ROCIO: Auditorias de seguridad sobre configuraciones de equipos de comunicaciones (routers, cortafuetos, etc)
+* PILAR: Análisis y Gestión de Riesgos
+* LUCIA: Herramienta de Gestión de Ciberincidentes
 
 # [Principios básicos](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
 
@@ -196,7 +198,7 @@ por cada dimensión (la respuesta será una de las celdas de la tabla):
 | **Pérdidas económicas** | < | < 4% presupuesto anual | del 4% al 10% | > 10% |
 | **Reputación (daño)** | < | moderado | significativo | grave |
 | **Protestas** | < | individuales | públicas | masivas |
-| **Delitos** | < | favorecería el delitos | favorecería significativamente o<br/>dificultaría su investigación| incitaría al delito o>es un delito en si o<br/>dificultaría enormemente su investigación |
+| **Delitos** | < | favorecería el delitos | favorecería significativamente o<br/>dificultaría su investigación| incitaría al delito o es un delito en si o<br/>dificultaría enormemente su investigación |
 
 Tabla 2: Criterios comunes a información y servicios en todas las dimensiones
 
@@ -335,7 +337,7 @@ que, además de *indicar*, *valore* y *cuantifique*.
 
 ALTA: Análisis formal (lenguaje específico, fundamento matemático reconocido internacionalmente)
 que, además de lo aplicable para MEDIA, indique las vulnerabilidades habilitantes
-las amenazas.
+de las amenazas.
 
 # Instrucciones Técnicas de Seguridad
 
@@ -509,7 +511,7 @@ o acto indebido e informar de ello)
 
 # Recuperación de desastres y continuidad del negocio
 
-**Tolerancia a desastre**: brecha de tiempo en la cual el negocio puede aceptar indisponibilidad de los servicios de Tecnologías de la Información (TI).
+**Tolerancia a desastre**: brecha de tiempo en la cual el negocio puede aceptar indisponibilidad de los servicios de Tecnologías de la Información.
 
 **Ventana de interrupción**: tiempo que una organización puede esperar desde el punto de fallo hasta la recuperación de los servicios críticos. Después de este tiempo, las pérdidas progresivas
 causadas por la interrupción no son permisibles.

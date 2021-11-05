@@ -68,7 +68,7 @@ han sido obtenidos
 * El consentimiento debe ser libre, especifico para una determinada operación,
 informado e inequívoco
 * El tratamiento solo es lícito si se cumple al menos una de las siguientes condiciones:
-    * el interesado dio su consentimiento;
+    * el interesado dio su consentimiento
     * es necesario para la ejecución de un contrato en el que el interesado es parte
     * es necesario para el cumplimiento de una obligación legal del responsable
     * es necesario para proteger intereses vitales del interesado o de otra persona física
@@ -178,7 +178,7 @@ vincula jurídicamente a las partes de una transferencia internacional
 para ofrecer garantías suficientes cuando dicha transferencia es hacia un país
 sin un nivel adecuado.
 
-En España se puede acer transferencias internacionales sin autorización
+En España se puede hacer transferencias internacionales sin autorización
 de la AEPD si se cumple con el RGPD.
 ### Herramientas
 
@@ -195,7 +195,7 @@ de Tratamiento exigido por el RGPD
 Dicha aplicación consiste en el cumplimiento de cuestionarios a partir de
 los cuales se ofrece un informe y documentos que ayudan al cumplimiento del RGPD.
 
-#### Facilita RGPD
+#### [Facilita RGPD](https://www.aepd.es/es/guias-y-herramientas/herramientas/facilita-rgpd)
 
 Herramienta que mediante tres pantallas de preguntas permite valorar su
 situación con respecto al RGPD, a fin de determinar si debe realizar un análisis de riesgos.
@@ -238,14 +238,14 @@ En las AAPP:
 la estructura organizativa y tamaño de dichos organismos
 (competencias y funciones de carácter horizontal)
 * el nivel del puesto de trabajo debe ser el adecuado para poder relacionarse
-con la dirección de organismo en el que desempeñe sus funciones
+con la dirección del organismo en el que desempeñe sus funciones
 * el DPD puede estar a tiempo completo o a tiempo parcial
 * en entidades de menor tamaño podrá compaginar sus funciones con otras
 si no hay conflicto de intereses
 
 ## Reclamaciones, denuncias y sanciones
 
-* Los interesados presentar su reclamación en la Autoridad de Control de cualquier EM (ventanilla única)
+* Los interesados podrán presentar su reclamación en la Autoridad de Control de cualquier EM (ventanilla única)
 * Los organismos y asociaciones pueden denunciar en nombre del interesado (Legitimación activa)
 * El régimen económico-sancionador contempla sanciones de hasta 20 millones de €
 o el 4% de volumen de negocio total anual, aquello que tenga mayor cuantía.
@@ -347,7 +347,7 @@ a Internet, etc
 * **Plan de actuación**: acciones de formación, difusión y concienciación dirigidas
 a menores
 
-El gobierno deberá presentar un informe anual antes el congreso de los diputados
+El gobierno deberá presentar un informe anual ante el congreso de los diputados
 sobre la evolución de los derechos y las medidas necesarias para su impulso.
 
 # Implicaciones en el Procedimiento Administrativo Común

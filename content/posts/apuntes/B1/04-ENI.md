@@ -30,7 +30,7 @@ por razón de su elección tecnológica.
 * Proporcionar los **elementos comunes** para facilitar la interacción de las AAPP,
 y comunicar los requisitos de interoperabilidad a la industria.
 * Facilitar la **implantación de políticas de seguridad**, contribuyendo a una
-favoreciendo racionalidad técnica y economía de escala.
+racionalidad técnica y economía de escala.
 
 La interoperabilidad se concibe, al igual que la seguridad, desde una perspectiva integral.
 
@@ -257,7 +257,7 @@ Salvo acuerdo excepcional entre las AAPP, la estructura
 consiste en un XML (definido por esquemas XSD) dividido en tres bloques: contenido (normalmente en base64),
 metadatos obligatorios (salvo *Valor CSV* y *Definición generación CSV* que irán
 en el bloque firma) y firma (incluye los metadatos de firma).
-Preferentemente se usa la Red sARA como medio de transmisión.
+Preferentemente se usa la Red SARA como medio de transmisión.
 Si el eDoc forma parte de un asiento registral éste será tratado como un
 documento adjunto al mensaje de datos de intercambio.
 
@@ -500,7 +500,7 @@ podrían ser:
     * las reglas de la política deben estar disponible en XML y ASN.1.
     para que las aplicaciones puedan interpretarlas
 * Gestión de la política: mantener actualizada la política
-* Archivad y custodia: definición de condiciones y responsabilidades para el archivado y custodia de las firmas electrónicas en sus diferentes aplicaciones
+* Archivado y custodia: definición de condiciones y responsabilidades para el archivado y custodia de las firmas electrónicas en sus diferentes aplicaciones
 (ej: firmas longevas)
 
 Las **reglas comunes** para el firmante y verificador de la firma electrónica
@@ -597,7 +597,7 @@ donde, entre otras cosas, esta publicado el catalogo de servicios
 * los servicios web que implemente se diseñan en base a:
     * definiciones mediante WSDL
     * mensajes en formato XML con XSD públicos
-    * TSL con autenticación de cliente a nivel de transporte o aplicación
+    * TLS con autenticación de cliente a nivel de transporte o aplicación
 * de forma general, en los servicios de intercambio se utiliza la
 versión 3.0 del protocolo SCSP
 * para garantizar la trazabilidad de los intercambios producidos,
@@ -932,7 +932,7 @@ e informar de la situación usando [códigos HTTP](https://es.wikipedia.org/wiki
 semánticos porque una sola URI admite varios idiomas para el mismo recurso
 * Para facilitar la reutilización y publicación de vocabularios de metadatos se usará el CISE
 * En cuanto a los caracteres usados para las URIs:
-    * los identificadores alfanuméricos han de ser cortos únicos, representativos, intuitivos y semánticos
+    * los identificadores alfanuméricos han de ser cortos, únicos, representativos, intuitivos y semánticos
     * usar siempre minúsculas, salvo en los casos en los que se utilice el nombre de la clase o concepto
     (EjemploConcepto)
     * eliminar todos los acentos, diéresis y símbolos de puntuación, a excepción del guión (-)

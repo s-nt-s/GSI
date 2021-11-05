@@ -917,6 +917,9 @@ RTO
 https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n
 Tiempo objetivo de recuperación
 
+RPO
+Punto Objetivo de Recuperación
+
 ITS
 https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/Instrucciones-Tecnicas.html
 Instrucciones Técnicas de Seguridad
