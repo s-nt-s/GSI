@@ -120,7 +120,10 @@ class CrawlXSD:
         print("#", url)
         name = url.rsplit("/", 1)[-1]
         name = name.rsplit(".", 1)[0]
+        name = re.sub(r"\d+-", "", name)
         img = self.salida+name+"/"
+        if os.path.isdir(img):
+            return
         makedirs(img, exist_ok=True)
 
         cmds = []
