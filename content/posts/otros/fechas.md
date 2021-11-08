@@ -23,3 +23,14 @@ Donde YYYY.X es:
 * X el ejercicio, teniendo en cuenta que en:
     * en convocatoria libre el 2º ejercicio es de preguntas cortas y el 3º es el supuesto
     * en la convocatoria interna el 2º ejercicio es el supuesto y el 3º no existe
+
+| Test | <abbr title="Opositores por plazas">O/P</abbr> | < | <abbr title="Nota de corte">Corte</abbr> |
+|-|-:|-:|-:|
+| 2014 | 244/24 | 10.2 | 52 |
+| 2015 | 186/34 | 5.5 | 50 |
+| 2016 | 191/58 | 3.3 | 30 |
+| 2017 | 218/132 | 1.7 | 30 |
+| 2018 | 171/133 | 1.3 | 30 |
+
+Tabla: Notas de corte Interna General
+
