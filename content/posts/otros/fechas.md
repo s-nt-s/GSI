@@ -24,14 +24,14 @@ Donde YYYY.X es:
     * en convocatoria libre el 2º ejercicio es de preguntas cortas y el 3º es el supuesto
     * en la convocatoria interna el 2º ejercicio es el supuesto y el 3º no existe
 
-| Test | <abbr title="Opositores por plazas">O/P</abbr> | < | <abbr title="Nota de corte">Corte</abbr> |
+| Test | <abbr title="Opositores/P, siendo P el número de notas contabilizadas según los criterios de selección">O/P</abbr> | < | <abbr title="Nota de corte">Corte</abbr> |
 |-|-:|-:|-:|
 | 2014 | 244/24 | 10.2 | 52 |
-| 2015 | 186/34 | 5.5 | 50 |
-| 2016 | 191/58 | 3.3 | 30 |
-| 2017 | 218/132 | 1.7 | 30 |
-| 2018 | 171/133 | 1.3 | 30 |
-| 2019 | 290/190 | 1.5 |  |
+| 2015 | 186/50 | 3.7 | 50 |
+| 2016 | 191/87 | 2.2 | 30 |
+| 2017 | 218/175 | 1.2 | 30 |
+| 2018 | 171/176 | 1.0 | 30 |
+| 2019 | 290/260 | 1.1 |  |
 
-Tabla: Notas de corte Interna General
+Tabla: Notas de corte Interna General 1º examen
 
