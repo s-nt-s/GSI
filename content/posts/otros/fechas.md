@@ -31,6 +31,7 @@ Donde YYYY.X es:
 | 2016 | 191/58 | 3.3 | 30 |
 | 2017 | 218/132 | 1.7 | 30 |
 | 2018 | 171/133 | 1.3 | 30 |
+| 2019 | 290/190 | 1.5 |  |
 
 Tabla: Notas de corte Interna General
 
