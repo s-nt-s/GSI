@@ -269,7 +269,7 @@ class CrawlInap:
         MD = dedent('''
         ---
         title: {cod} {cur}
-        summary: Curso INAP [{cod} {cur}]({url}).
+        summary: Curso INAP [{cod} {cur}]({url}) ([foro](https://campus.inap.es/v3/mod/forum/view.php?id=110483)).
         ---
 
         ''').lstrip().format(cod=self.CODIGO, cur=self.CURSO, url=self.cfg.curso)+MD
