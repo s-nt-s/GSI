@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20211015125601",
+    "@fecha_actualizacion": "20211116085602",
     "metadatos": {
       "identificador": "BOE-A-2015-10566",
       "titulo": "Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico.",
@@ -1555,8 +1555,8 @@
               "@referencia": "BOE-A-2020-10923",
               "@orden": "",
               "palabra": {
-                "@codigo": "332",
-                "#text": "SE DICTA EN RELACI\u00d3N SOBRE"
+                "@codigo": "331",
+                "#text": "SE DICTA EN RELACI\u00d3N"
               },
               "texto": "la suspensi\u00f3n de la aplicaci\u00f3n de lo indicado del art.96.1.e) y 3, para las cuentas anuales aprobadas durante los ejercicios 2020, 2021 y 2022: Ley 3/2020, de 18 de septiembre"
             },
@@ -1564,8 +1564,8 @@
               "@referencia": "BOE-A-2020-4705",
               "@orden": "",
               "palabra": {
-                "@codigo": "332",
-                "#text": "SE DICTA EN RELACI\u00d3N SOBRE"
+                "@codigo": "331",
+                "#text": "SE DICTA EN RELACI\u00d3N"
               },
               "texto": "la suspensi\u00f3n de la aplicaci\u00f3n de lo indicado del art.96.1.e) y 3, para las cuentas anuales aprobadas durante los ejercicios 2020, 2021 y 2022: Real Decreto-ley 16/2020, de 28 de abril"
             },

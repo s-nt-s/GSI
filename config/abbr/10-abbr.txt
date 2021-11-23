@@ -476,10 +476,6 @@ DPD
 https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/persona-delegada-en-proteccion-de
 Delegado de Protección de Datos
 
-EIPD
-https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/evaluaciones-de-impacto
-Evaluaciones de impacto de protección de datos
-
 Espacio Económico Europeo
 https://es.wikipedia.org/wiki/Espacio_Econ%C3%B3mico_Europeo
 Unión Europea más Liechtenstein, Islandia y Noruega
@@ -1937,3 +1933,24 @@ Técnica de análisis y diseño estructurado (Structured Analysis and Design Tec
 IANA
 https://es.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority
 Internet Assigned Numbers Authority
+
+Gestiona EIPD
+https://www.aepd.es/es/guias-y-herramientas/herramientas/gestiona-eipd
+Asistente para el análisis de riesgos y evaluaciones de impacto en protección de datos
+
+Facilita RGPD
+https://www.aepd.es/es/guias-y-herramientas/herramientas/facilita-rgpd
+Herramienta de ayuda para empresas que realicen un tratamiento de datos personales de escaso riesgo para el cumplimiento del RGPD
+
+Comunica-Brecha RGPD
+https://www.aepd.es/es/guias-y-herramientas/herramientas/comunica-brecha-rgpd
+Valora la obligación de informar a las personas físicas afectadas por una brecha de seguridad de los datos personales
+
+RGPD
+https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679
+https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos
+Reglamento General de Protección de Datos (Reglamento EU 2016/679)
+
+EIPD
+https://www.aepd.es/es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/evaluaciones-de-impacto
+Evaluaciones de impacto de protección de datos

@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20211015125601",
+    "@fecha_actualizacion": "20211107202601",
     "metadatos": {
       "identificador": "BOE-A-2015-10565",
       "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas.",
@@ -208,7 +208,7 @@
                       },
                       "eli:title": {
                         "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                        "#text": "Llei 39/2015, d'1 d'octubre, del procediment administratiu com\u00fa de les administracions p\u00fabliques."
+                        "#text": "Llei 39/2015, d'1 d'octubre, del procediment administratiu com\u00fa de les administracions p\u00fabliques. [Traducci\u00f3 corregida el 18/10/2021]"
                       },
                       "eli:publisher": {
                         "@rdf:resource": "www.boe.es"

@@ -445,6 +445,10 @@ def findBetween(soup, start, end, *args):
         ini = True
         yield n
 
+def cdc(s, kv, df=None):
+    if df is None:
+        df = s
+    return kv.get(s, df)
 
 def hardCode(content, soup):
     if content.source_path.endswith("-patrones.md"):
@@ -491,3 +495,72 @@ def hardCode(content, soup):
             table.find("tbody").find("tr").append(toTag("<td><ul>{}</ul></td>", "\n".join(ptr)))
 
         soup.find(lambda x:x.name=="h1" and x.get_text().strip()=="Creacional").insert_before(table)
+
+    if content.source_path.endswith("normativa.md") and soup.select_one("table.articulos"):
+        for tr in soup.select("table.articulos tbody tr"):
+            tds = tr.findAll("td")
+            txt = [re_sp.sub(" ", (i.find("a") or i).get_text().strip()) for i in tds]
+            url = tr.find("a").attrs["href"]
+            art = txt[1]
+            atd = tds[1]
+            atd.string = ""
+            atd.append(BeautifulSoup('<a href="{}"></a>'.format(url), "html.parser"))
+            atd = atd.find("a")
+            atd.string = art
+            if txt[0] == "RGPD":
+                atd.attrs["href"] = cdc(art, {
+                    "6": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId10",
+                    "9": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId13",
+                    "25": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId37",
+                    "30": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId42",
+                    "35": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId49",
+                    "39": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId54"
+                })
+            else:
+                if txt[0] == "RD 203/2021":
+                    mrk = cdc(art, {
+                        "10": "a1-2",
+                        "11": "a1-3",
+                        "S2": "s2",
+                        "19": "a1-11",
+                        "20": "a2-2",
+                        "21": "a2-3",
+                        "22": "a2-4",
+                        "26": "a2-8",
+                        "29": "a2-11",
+                        "30": "a3-2",
+                        "31": "a3-3",
+                        "32": "a3-4",
+                        "33": "a3-5",
+                        "37": "a3-9",
+                        "38": "a3-10",
+                        "40": "a4-2",
+                        "41": "a4-3",
+                        "42": "a4-4",
+                        "43": "a4-5",
+                        "55": "a5-7",
+                        "60": "a6-2",
+                        "62": "a6-4",
+                    })
+                else:
+                    mrk = cdc(art, {
+                        "A2": "anii",
+                        "A3": "aniii",
+                        "DA4": "dacuaa"
+                    }, "a"+art)
+                atd.attrs["href"] = atd.attrs["href"]+"#"+mrk
+        for tbody in soup.select("table tbody"):
+            if tbody.select_one("*[rowspan]") or tbody.select_one("*[colspan]"):
+                continue
+            lstTxt = None
+            for tr in tbody.findAll("tr"):
+                tds = tr.findAll("td")
+                txt = [re_sp.sub(" ", i.get_text().strip()) for i in tds]
+                for i, t in enumerate(txt):
+                    if len(t.split())<2:
+                        add_class(tds[i], "word")
+                if lstTxt is not None:
+                    for i, (lst, cur) in enumerate(zip(lstTxt, txt)):
+                        if lst == cur:
+                            add_class(tds[i], "dup")
+                lstTxt = txt

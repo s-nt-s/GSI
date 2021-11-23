@@ -188,3 +188,18 @@ body.otros_diagramas div.figgroup figcaption {
     caption-side: top;
     border-top: 1px black solid;
 }
+
+body.practico_normativa table sup.extra_url {
+  display: none !important;
+}
+
+body.practico_normativa table a {
+  text-decoration: none !important;
+  color: unset;
+}
+body.practico_normativa table td.dup {
+  opacity: 0.3;
+}
+body.practico_normativa tr td:nth-child(1), body.practico_normativa tr td.word {
+  white-space: nowrap;
+}

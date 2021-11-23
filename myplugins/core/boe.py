@@ -109,12 +109,14 @@ class BOE:
             r.append("Procedimiento Administrativo Común")
             r.append("PACAP")
             r.append("PAC")
+            r.append("Ley 39/2015")
         if self.id == "BOE-A-2018-16673":
             r.append("LOPD-GDD")
             r.append("LOPDGDD")
         if self.id == "BOE-A-2015-10566":
             r.append("Régimen Jurídico del Sector Público")
             r.append("RJSP")
+            r.append("Ley 40/2015")
         if self.id == "BOE-A-2013-12887":
             r.append("LTAIBG")
         return tuple(r)

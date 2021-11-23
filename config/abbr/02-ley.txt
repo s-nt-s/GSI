@@ -1,3 +1,74 @@
+r'Art (\d+) Ley 39/2015
+s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a\2">\1</a>
+
+r'Art (\d+) Ley 40/2015
+s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a\2">\1</a>
+
+r'Art (\d+) RD 3/2010
+s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a\2">\1</a>
+
+r'Anexo 1 RD 3/2010
+s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#ani">\1</a>
+
+r'Anexo 2 RD 3/2010
+s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii">\1</a>
+
+Art 9 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a9
+Sedes electrónicas de las Administraciones Públicas
+
+Art 10 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a1-2
+Creación y supresión de las sedes electrónicas y sedes electrónicas asociadas
+
+Art 11 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a1-3
+Contenido y servicios de las sedes electrónicas y sedes asociadas
+
+Art 5 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a5
+Portales de internet de las Administraciones Públicas
+
+Art 6 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a6
+Creación y supresión de portales de internet en el ámbito estatal
+
+Art 62 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a6-4
+Plataformas de intermediación de datos
+
+Art 30 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a3-2
+Identificación o firma electrónica de las personas interesadas mediante personal funcionario público habilitado
+
+Art 32 RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a3-2
+Acreditación en la actuación por medio de representante
+
+Sección 2º RD 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#s2
+Identificación electrónica de las administraciones públicas y autenticación del ejercicio de su competencia
+
+Art 6 RGPD
+https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId10
+RGPD: Condiciones para el consentimiento
+
+Art 7 RGPD
+https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId11
+RGPD: Licitud del tratamiento
+
+Art 34 RGPD
+https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId47
+RGPD: Comunicación de una violación de la seguridad de los datos personales al interesado
+
+Art 35 RGPD
+https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN#tocId49
+RGPD: Evaluación de impacto relativa a la protección de datos
+
+DA1 LOPD-GDD
+https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#da
+DA1 LOPD-GDD: Medidas de seguridad en el ámbito del sector público
+
 https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814
 Reutilización de la información del sector público
 
@@ -15,9 +86,6 @@ Igualdad de entre mujeres y hombres
 
 https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760
 Violencia de género
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331
-Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica
 
 https://www.boe.es/buscar/doc.php?id=BOE-A-2017-8393
 Condiciones de uso de firma electrónica no criptográfica (SGAD)
@@ -48,10 +116,6 @@ Expedición del documento nacional de identidad y sus certificados de firma elec
 
 https://www.boe.es/buscar/act.php?id=BOE-A-1993-11252
 Estatuto de la Agencia de Protección de Datos
-
-https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673
-https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Protecci%C3%B3n_de_Datos_Personales_y_garant%C3%ADa_de_los_derechos_digitales
-Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD)
 
 https://www.boe.es/buscar/act.php?id=BOE-A-1996-1069
 Protección jurídica del menor
@@ -101,9 +165,6 @@ NTI Protocolos de intermediación de datos
 https://www.boe.es/buscar/act.php?id=BOE-A-2011-13173
 NTI requisitos de conexión a la red de comunicaciones de las AP
 
-https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330
-Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica
-
 https://www.boe.es/buscar/doc.php?id=BOE-A-2015-11881
 Modificación del ENS
 
@@ -148,7 +209,7 @@ r'[Dd]ecisión de [eE]jecución \(?UE\)? 2015/1506|Decisi[óo]n 1506
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv%3AOJ.L_.2015.235.01.0037.01.SPA
 Formatos de firmas electrónicas avanzadas y sellos avanzados que deben reconocer el sector público
 
-r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?|RGPD
+r'[Rr]eglamento \(?UE\)? 2016/679(, de 27 de abril)?|EU 2016/679
 https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679
 https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos
 Reglamento General de Protección de Datos (Reglamento EU 2016/679)
@@ -157,11 +218,11 @@ r'[Dd]irectiva \(?UE\)? 2019/1024
 https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32019L1024
 Datos abiertos y la reutilización de la información del sector público
 
-r'[Rr]eal [Dd]ecreto 1112/2018
+r'([Rr]eal [Dd]ecreto|RD) 1112/2018
 https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699
 Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público
 
-r'[Rr]eal [Dd]ecreto 920/2006
+r'([Rr]eal [Dd]ecreto|RD) 920/2006
 https://www.boe.es/buscar/act.php?id=BOE-A-2006-15301
 Reglamento general de prestación del servicio de difusión de radio y televisión por cable
 
@@ -169,6 +230,23 @@ r'[Dd]irectiva \(?UE\)? 2016/2102
 https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32016L2102
 Accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público
 
-r'[Rr]eal [Dd]ecreto 1494/2007
+r'([Rr]eal [Dd]ecreto|RD) 1494/2007
 https://www.boe.es/buscar/act.php?id=BOE-A-2007-19968
 Reglamento sobre las condiciones básicas para el acceso de las personas con discapacidad a las tecnologías, productos y servicios relacionados con la sociedad de la información y medios de comunicación social
+
+r'([Rr]eal [Dd]ecreto|RD) 203/2021
+https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032
+Reglamento de actuación y funcionamiento del sector público por medios electrónicos
+
+r'([Rr]eal [Dd]ecreto|RD) 3/2010
+https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330
+Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica
+
+r'([Ll]ey [oO]rgánica|LO) 3/2018
+https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673
+https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Protecci%C3%B3n_de_Datos_Personales_y_garant%C3%ADa_de_los_derechos_digitales
+Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD)
+
+r'([Rr]eal [Dd]ecreto|RD) 4/2010
+https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331
+Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica

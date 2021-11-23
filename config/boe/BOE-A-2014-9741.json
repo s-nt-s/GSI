@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20210910082601",
+    "@fecha_actualizacion": "20211115095601",
     "metadatos": {
       "identificador": "BOE-A-2014-9741",
       "titulo": "Real Decreto 806/2014, de 19 de septiembre, sobre organizaci\u00f3n e instrumentos operativos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones en la Administraci\u00f3n General del Estado y sus Organismos P\u00fablicos.",
@@ -333,6 +333,24 @@
         },
         "posteriores": {
           "posterior": [
+            {
+              "@referencia": "BOE-A-2021-18486",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "con el art. 7 y se crea y se regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital: Orden UNI/1231/2021, de 5 de noviembre de 2021"
+            },
+            {
+              "@referencia": "BOE-A-2021-18281",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "con el art. 7 y se crea y se regula la Comisi\u00f3n Ministerial de Administraci\u00f3n Digital: Orden TES/1214/2021, de 29 de octubre"
+            },
             {
               "@referencia": "BOE-A-2021-14758",
               "@orden": "",

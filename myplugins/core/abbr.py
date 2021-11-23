@@ -171,7 +171,7 @@ class Abbr():
 
     def get_new_text(self):
         if self.title is not None and len(self.title) > 3 and self.title[0:2] in ("s'",):
-            return self.title[2]
+            return self.title[2:]
         if self.url:
             if self.title:
                 #return '<a class="{html_class}" href="{url.url}" title="{title}">\\1</a>'.format(**self.d)

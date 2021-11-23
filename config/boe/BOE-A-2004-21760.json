@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20210804142601",
+    "@fecha_actualizacion": "20211110142602",
     "metadatos": {
       "identificador": "BOE-A-2004-21760",
       "titulo": "Ley Org\u00e1nica 1/2004, de 28 de diciembre, de Medidas de Protecci\u00f3n Integral contra la Violencia de G\u00e9nero.",
@@ -1464,9 +1464,9 @@
               "@orden": "",
               "palabra": {
                 "@codigo": "530",
-                "#text": "Cuestion"
+                "#text": "Cuesti\u00f3n"
               },
-              "texto": "208/2006, promovida por supuesta inconstitucionalidad del art. 171.4 de la Ley Org\u00e1nica 10/1995, de 23 de noviembre, en la redacci\u00f3n dada"
+              "texto": "208/2006 promovida por supuesta inconstitucionalidad del art. 171.4 de la Ley Org\u00e1nica 10/1995, de 23 de noviembre, en la redacci\u00f3n dada"
             }
           ]
         }

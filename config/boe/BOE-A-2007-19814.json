@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20190830082601",
+    "@fecha_actualizacion": "20211104092601",
     "metadatos": {
       "identificador": "BOE-A-2007-19814",
       "titulo": "Ley 37/2007, de 16 de noviembre, sobre reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico.",
@@ -103,6 +103,9 @@
                   "@rdf:resource": "https://www.boe.es/eli/es/l/2007/11/16/37"
                 },
                 "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2007/11/16/37/con/20211103"
+                  },
                   {
                     "@rdf:resource": "https://www.boe.es/eli/es/l/2007/11/16/37/con/20171109"
                   },
@@ -271,6 +274,75 @@
                     }
                   }
                 ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/l/2007/11/16/37/con/20211103",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2007-19814"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2007-11-16"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "37"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2021-11-03"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/11/16/37"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2007/11/16/37/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2007/11/16/37/con/20211103/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 37/2007, de 16 de noviembre, sobre reutilizaci\u00f3n de la informaci\u00f3n del sector p\u00fablico."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2021-11-03"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2007/11/16/37/con/20211103"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2007/11/16/37/con/20211103/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2007/11/16/37/con/20211103/spa"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             {
@@ -598,6 +670,15 @@
         },
         "posteriores": {
           "posterior": [
+            {
+              "@referencia": "BOE-A-2021-17910",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "determinados preceptos, SE A\u00d1ADE los arts. 3 bis, 3 ter y 10 bis,  SE SUPRIME la disposici\u00f3n adicional 3 y SE REENUMERA las disposiciones adicionales 4 y 5 como 3 y 4, por Real Decreto-ley 24/2021, de 2 de noviembre"
+            },
             {
               "@referencia": "BOE-A-2017-12902",
               "@orden": "",
