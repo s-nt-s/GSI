@@ -2,16 +2,19 @@
 title: Normativa y Guías
 ---
 
-| <abbr title="Normativa o Guía">N/G</abbr> | <abbr title="Abreviatura">Abr</abbr> | Titulo |
+| <abbr title="Normativa">N</abbr> | <abbr title="Abreviatura">Abr</abbr> | Titulo |
 |-------------:|------|-|
-|  Ley 39/2015 | PAC  | Procedimiento Administrativo Común de las AAPP |
-|  Ley 40/2015 | RJSP | Régimen Jurídico del Sector Público |
-|  RD 203/2021 |      | Reglamento de actuación y funcionamiento del sector público por medios electrónicos |
-|    RD 3/2010 | ENS  | Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica |
-|    RD 4/2010 | ENI  | Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica |
-| RD 1112/2018 |      | Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (EN 301 549 V3.2.1) |
+|  Ley 39/2006 |        | Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia |
+|   Ley 3/2007 |        | Igualdad efectiva de mujeres y hombres |
+|  Ley 19/2013 | LTAIBG | Transparencia, acceso a la información pública y buen gobierno |
+|  Ley 39/2015 | PAC    | Procedimiento Administrativo Común de las AAPP |
+|  Ley 40/2015 | RJSP   | Régimen Jurídico del Sector Público |
+|  RD 203/2021 |        | Reglamento de actuación y funcionamiento del sector público por medios electrónicos |
+|    RD 3/2010 | ENS    | Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica |
+|    RD 4/2010 | ENI    | Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica |
+| RD 1112/2018 |        | Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (EN 301 549 V3.2.1) |
 |    LO 3/2018 | LOPD-GDD | Protección de Datos Personales y garantía de los derechos digitales |
-|  EU 2016/679 | RGPD | Reglamento General de Protección de Datos |
+|  EU 2016/679 | RGPD   | Reglamento General de Protección de Datos |
 
 Tabla: Normativa
 
