@@ -199,6 +199,13 @@ div.figgroup2 {
   grid-column-gap: 15px;
   align-items: start;
 }
+div.figgroup4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  align-items: start;
+}
 div.figgroup > figure {
   margin: unset;
 }
@@ -209,4 +216,10 @@ span.vertical, a.vertical, td.vertica, th.vertical, div.vertical {
   letter-spacing: -0.12em;
   line-height:1em;
   width:1em;
+}
+div.col2 {
+  column-count: 2;
+}
+div.col2 > div {
+   break-inside: avoid-column;
 }

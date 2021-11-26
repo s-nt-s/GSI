@@ -807,6 +807,10 @@ i'Plataforma de Intermediación (MINHAP|del MINHAP|del Ministerio de Hacienda y 
 https://administracionelectronica.gob.es/ctt/svd
 Plataforma de Intermediación
 
+PID
+https://administracionelectronica.gob.es/ctt/svd
+Plataforma de Intermediación
+
 ANS
 https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio
 Acuerdo de nivel de servicio

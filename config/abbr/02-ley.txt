@@ -229,7 +229,7 @@ r'([Rr]eal [Dd]ecreto|RD) 920/2006
 https://www.boe.es/buscar/act.php?id=BOE-A-2006-15301
 Reglamento general de prestación del servicio de difusión de radio y televisión por cable
 
-r'[Dd]irectiva \(?UE\)? 2016/2102
+r'([Dd]irectiva )?\(?UE\)? 2016/2102
 https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX:32016L2102
 Accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público
 

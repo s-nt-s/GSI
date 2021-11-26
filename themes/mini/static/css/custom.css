@@ -181,10 +181,10 @@ body.otros_diagramas div.figgroup {
   grid-column-gap: 15px;
   align-items: start;
 }
-body.otros_diagramas div.figgroup figure {
+body.otros_diagramas div.figgroup figure, body.practico_administrativo div.figgroup figure{
   margin-top: 16px;
 }
-body.otros_diagramas div.figgroup figcaption {
+body.otros_diagramas div.figgroup figcaption, body.practico_administrativo div.figgroup figcaption{
     caption-side: top;
     border-top: 1px black solid;
 }

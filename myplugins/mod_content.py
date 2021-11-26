@@ -173,6 +173,9 @@ def mod_content(content, *args, **kargv):
     _content = content._content
     for k, v in content.metadata.get('replace', {}).items():
         _content = _content.replace(k, v)
+
+    _content = re.sub(r"<([a-z]+)\s+data-open([^>]*)></\1>", r"<\1 \2>", _content)
+    _content = re.sub(r"<([a-z]+)\s+data-close([^>]*)></\1>", r"</\1>", _content)
     soup = BeautifulSoup(_content, 'html.parser')
 
     for td in soup.findAll(['th', 'td']):

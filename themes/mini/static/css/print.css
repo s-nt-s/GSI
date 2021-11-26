@@ -31,3 +31,13 @@ body.enunciado main p:first-of-type {
   border-bottom: 5px solid black;
   padding-bottom: 10px;
 }
+body.practico_administrativo a {
+  text-decoration: none !important;
+  color: unset;
+}
+body.practico_administrativo #capa-de-presentacion {
+  margin-top: 0;
+}
+body.practico_administrativo #actores, #arquitectura-logica, #arquitectura-de-red, #expediente-administrativo {
+    break-before: always;
+}
