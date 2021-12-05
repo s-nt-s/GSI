@@ -24,6 +24,7 @@ re_normalize = tuple(
 )
 re_tags = tuple()
 re_normalize = tuple()
+re_slnu = re.compile(r"/([0-9]+|[A-Z]+)-")
 
 def get_date(file):
     dates = run("git", "log", "--format=%ai", file)

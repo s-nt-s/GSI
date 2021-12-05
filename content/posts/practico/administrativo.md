@@ -16,8 +16,9 @@ status: draft
 |  WEB |  EU 2016/2102 |      | Accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público |
 |  WEB |  RD 1112/2018 |      | Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (EN 301 549 V3.2.1) |
 |  WEB |      ISO 9241 |      | Recomendaciones sobre Usabilidad |
-|  ENI |     RD 4/2010 |   10 | Activos semánticos |
 |  ENS |     RD 3/2010 |      | Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica |
+|  ENI |     RD 4/2010 |   10 | Activos semánticos |
+|  ENI |     RD 4/2010 |   17 | Directorios de aplicaciones reutilizables |
 |  PAC |   Ley 39/2015 |    9 | Sistemas de identificación de los interesados en el procedimiento |
 |  PAC |   Ley 39/2015 |   12 | Asistencia en el uso de medios electrónicos a los interesados |
 |  PAC |   Ley 39/2015 |   15 | Lengua de los procedimientos |
@@ -43,7 +44,7 @@ status: draft
 | Acceda     | implementar e-sede / tramitación de expedientes / workflows pequeños / generación de formularios |
 
 Usar Acceda en vez de implementar tu propia e-sede es un ejemplo de cumplir
-el Art 157 Ley 40/2015, que implica haber consultado el CTT en busca de
+el Art 17 del ENI y el Art 157 Ley 40/2015, que implica haber consultado el CTT en busca de
 soluciones que podamos reutilizar.
 
 # Actores
@@ -100,7 +101,7 @@ Se puede preguntar bajo el nombre de:
     * Diseño web responsive
     * media-queries
 * Cumplir accesibilidad:
-    * EU 2016/2102
+    * Directiva EU 2016/2102
     * RD 1112/2018
     * AA WCAG 2.1 = EN 301 549 V3.2.1
 * Seguir recomendaciones de usabilidad:
@@ -143,6 +144,7 @@ Se puede preguntar bajo el nombre de:
 * Seguridad:
     * RGPD (Reglamento (EU) 2016/679)
     * ENS (ITS) (RD 3/2010)
+    * Guía CCN-STIC-812 (Seguridad en servicios web)
 * Interoperabilidad:
     * ENI (NTIs) (RD 4/2010)
     * Acceso a servicios comunes a través de red Sara, vía Área de conexión ([NTI Requisitos de conexión a la Red de comunicaciones de las AP]({filename}/posts/apuntes/B1/04-ENI.md#requisitos-de-conexion-a-la-red-de-comunicaciones-de-las-administraciones-publicas-espanolas))
@@ -174,6 +176,6 @@ un expediente.
 
 Figura: Diagrama de clases del Expediente electrónico
 
-![](img/clases-expediente.png)
+![](img/entidades-expediente.png)
 
 Figura: Diagrama Entidad/Relación del Expediente electrónico
