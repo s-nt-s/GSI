@@ -29,7 +29,7 @@
         #}
         {% if cr_cat !=0 and cr_cts!=pr_cts %}
           {% for c in article.categories %}
-          {% if loop.index>pr_cat or (pr_cts[loop.index-1]!=c) %}
+          {% if loop.index>1 and loop.index>pr_cat or (pr_cts[loop.index-1]!=c) %}
             <li>{{c.name}}:<ul>
           {% endif %}
           {%endfor%}
@@ -46,7 +46,7 @@
         #}
         {% if cr_cat !=0 and cr_cts!=nx_cts %}
           {% for c in article.categories %}
-          {% if loop.index>nx_cat or (nx_cts[loop.index-1]!=c) %}
+          {% if loop.index>1 and loop.index>nx_cat or (nx_cts[loop.index-1]!=c) %}
             </ul>
           {% endif %}
           {%endfor%}
