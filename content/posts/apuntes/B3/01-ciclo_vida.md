@@ -419,3 +419,4 @@ coordinar múltiples equipos que trabajan sobre una misma solución.
 * [javiergarzas.com - Los 7 errores más comunes de la Daily Scrum, ¿cómo evitarlos?](https://www.paradigmadigital.com/techbiz/los-7-errores-mas-comunes-la-daily-scrum-evitarlos/)
 * [javiergarzas.com - Los ciclos de vida software más raros y que hay vida más allá del cascada y el ágil y el iterativo](https://www.javiergarzas.com/2015/02/los-ciclos-de-vida-software-raros.html)
 * [ctr.unican.es - Procesos de Ingeniería del Software](https://www.ctr.unican.es/asignaturas/is1/is1-t02-trans.pdf)
+* [youtube.com - Q&A sobre Scrum en sector público](https://www.youtube.com/watch?v=vqjqxTdh8m8)
