@@ -24,7 +24,7 @@ status: draft
 |  PAC |   Ley 39/2015 |   15 | Lengua de los procedimientos |
 |  PAC |   Ley 39/2015 |   53 | Derechos del interesado en el procedimiento administrativo |
 | RJSP |   Ley 40/2015 |  157 | Reutilización de sistemas y aplicaciones de propiedad de la Administración |
-| RGPD |   EU 2016/679 |      | Reglamento General de Protección de Datos |
+| RGPD |   EU 2016/679 |   35 | Evaluación de impacto relativa a la protección de datos |
 | LOPD-GDD | LO 3/2018 |      | Protección de Datos Personales y garantía de los derechos digitales |
 
 # Servicios comunes
@@ -80,6 +80,14 @@ Figura: Representante
 ![](img/actor-funcionario-habilitado.png)
 
 Figura: Funcionario Habilitado
+
+![](img/actor-ciudadano-tramite.png)
+
+Figura: Ciudadano (tramite)
+
+![](img/actor-funcionario-tramite.png)
+
+Figura: Funcionario (tramite)
 
 # Arquitectura lógica
 
@@ -145,6 +153,9 @@ Se puede preguntar bajo el nombre de:
     * RGPD (Reglamento (EU) 2016/679)
     * ENS (ITS) (RD 3/2010)
     * Guía CCN-STIC-812 (Seguridad en servicios web)
+    * Guía CCN-STIC-803 (Valoración de Sistemas en el ENS)
+    * Guía CCN-STIC-804 (Guía de implantación) + [ENS Anexo II Medidas de seguridad](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii)
+    * Evaluación de impacto (Art 35 RGPD)
 * Interoperabilidad:
     * ENI (NTIs) (RD 4/2010)
     * Acceso a servicios comunes a través de red Sara, vía Área de conexión ([NTI Requisitos de conexión a la Red de comunicaciones de las AP]({filename}/posts/apuntes/B1/04-ENI.md#requisitos-de-conexion-a-la-red-de-comunicaciones-de-las-administraciones-publicas-espanolas))

@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20211025132602",
+    "@fecha_actualizacion": "20211217122601",
     "metadatos": {
       "identificador": "BOE-A-2021-5032",
       "titulo": "Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuaci\u00f3n y funcionamiento del sector p\u00fablico por medios electr\u00f3nicos.",
@@ -502,15 +502,35 @@
           ]
         },
         "posteriores": {
-          "posterior": {
-            "@referencia": "BOE-A-2021-16689",
-            "@orden": "",
-            "palabra": {
-              "@codigo": "520",
-              "#text": "Conflicto"
+          "posterior": [
+            {
+              "@referencia": "BOE-A-2021-20479",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "con el art. 33.5  y regula el Resgistro Electr\u00f3nico de apoderamientos en el \u00e1mbito de la Administraci\u00f3n General del Estado: Orden PCM/1384/2021, de 9 de diciembre de 2021"
             },
-            "texto": "5253/2021, promovido en relaci\u00f3n con los arts. 15.3 a), 26.2 c), 28.2, 29.4 y disposici\u00f3n adicional 9"
-          }
+            {
+              "@referencia": "BOE-A-2021-20478",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "y se regula el Registro de Funcionarios Habilitados en el \u00e1mbito de la Administraci\u00f3n General del Estado: Orden PCM/1383/2021, de 9 de diciembre"
+            },
+            {
+              "@referencia": "BOE-A-2021-16689",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "520",
+                "#text": "Conflicto"
+              },
+              "texto": "5253/2021, promovido en relaci\u00f3n con los arts. 15.3 a), 26.2 c), 28.2, 29.4 y disposici\u00f3n adicional 9"
+            }
+          ]
         }
       }
     },

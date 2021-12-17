@@ -199,7 +199,7 @@ div.figgroup2 {
   grid-column-gap: 15px;
   align-items: start;
 }
-div.figgroup4 {
+div.figgroup4, div.figgroup6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 15px;

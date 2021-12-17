@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20211107202601",
+    "@fecha_actualizacion": "20211217105602",
     "metadatos": {
       "identificador": "BOE-A-2015-10565",
       "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas.",
@@ -1350,6 +1350,15 @@
                 "#text": "SE DESARROLLA"
               },
               "texto": ", y se aprueba el Reglamento de actuaci\u00f3n y funcionamiento del sector p\u00fablico por medios electr\u00f3nicos: Real Decreto 203/2021, de 30 de marzo"
+            },
+            {
+              "@referencia": "BOE-A-2021-20477",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "con el art. 16, y regula el Registro Electr\u00f3nico General para la Administraci\u00f3n General del Estado: Orden PCM/1382/2021, de 9 de diciembre de 2021"
             },
             {
               "@referencia": "BOE-A-2021-4570",

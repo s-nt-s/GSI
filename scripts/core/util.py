@@ -43,7 +43,7 @@ def read(file):
                 md.meta.append(l)
         md.meta = "".join(md.meta)
         md.md = "".join(md.md)
-        md.html = markdown(md.md)
+        md.html = markdown(md.md, extensions=['extra'])
         md.meta = yaml.safe_load(md.meta)
         md.meta = Munch.fromDict(md.meta)
         if file.endswith("/metrica_v3.md"):
