@@ -60,6 +60,9 @@ for cod, file, name in sorted(guias,key=sort_keys):
     if cod in done:
         continue
     done.add(cod)
+    num = cod.rsplit("-", 1)[-1]
+    if not(num.isdigit() and 799 < int(num) < 900):
+        continue
     print(cod)
     print(file)
     print(name)

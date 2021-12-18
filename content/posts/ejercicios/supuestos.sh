@@ -2,7 +2,7 @@
 function dwn() {
     DR=$(dirname "$1")
     if [ ! -z "$DR" ] && [ "$DR" != "." ] && [ ! -e "$DR" ]; then
-        mkdir -p "DR"
+        mkdir -p "$DR"
     fi
     fil="$1"
     url="$2"
