@@ -20,9 +20,9 @@ Tabla: Normativa
 
 | <abbr title="Ambito">Amb</abbr> | <abbr title="Herramienta o Guía">H/G</abbr> | Titulo |
 |-|---------------|--------|
+| ENS  |  CCN-STIC-801 | Responsabilidades y Funciones |
 | ENS  |  CCN-STIC-803 | Valoración de Sistemas |
 | ENS  |  CCN-STIC-804 | Guía de implantación |
-| ENS  |  CCN-STIC-801 | Responsabilidades y Funciones |
 | ENS  |  CCN-STIC-812 | Seguridad en servicios web |
 | RGPD | Gestiona EIPD | Asistente para el análisis de riesgos y evaluaciones de impacto en protección de datos |
 | RGPD | Facilita RGPD | Herramienta para realizar un tratamiento de datos personales de escaso riesgo y cumplir el RGPD |
