@@ -53,30 +53,33 @@ Tabla 1: Supuestos GSI - bloque 3 desarrollo.
 
 ## B3: Preguntas habituales
 
-| Supuesto       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 |
-|----------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+<!--
 | 2007_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    |    |  x |  x |    |    |  x |  x |
-| 2007_A2.lib_s2 |   |   |   |   |   |   |   |   |   |  x |    |    |    |    |    |    |    |
-| 2008_A2.int_b3 |   |   |   |   | x | x |   |   | x |    |    |  x |  x |    |  x |    |    |
-| 2008_A2.lib_b3 |   |   | x |   |   |   |   | x |   |  x |    |    |    |  x |    |    |    |
-| 2009_A2.int_b3 |   | x |   |   | x |   |   | x |   |    |    |    |  x |    |    |    |    |
-| 2009_A2.lib_b3 |   |   |   |   | x |   | x |   | x |    |    |  x |  x |    |    |  x |  x |
-| 2010_A2.int_b3 | x |   |   |   | x | x | x |   |   |    |    |    |    |    |    |  x |    |
-| 2010_A2.lib_b3 |   |   |   | x | x | x | x |   |   |    |    |  x |    |    |    |  x |    |
-| 2011_A2.int_b3 |   |   |   | x | x |   |   |   |   |    |    |  x |  x |    |    |    |    |
-| 2011_A2.lib_b3 | x |   |   |   |   | x | x |   |   |    |    |  x |  x |    |  x |    |    |
-| 2013_A2.int_b3 |   |   |   | x | x |   | x |   |   |    |    |  x |  x |    |    |    |    |
-| 2013_A2.lib_b3 |   | x | x |   |   | x |   | x |   |  x |    |    |    |  x |    |    |    |
-| 2014_A2.int_b3 |   |   |   | x | x |   |   | x | x |    |  x |    |    |    |    |  x |    |
-| 2014_A2.lib_s1 | x | x | x |   |   |   |   | x | x |  x |    |    |  x |    |    |    |    |
-| 2015_A2.int_b3 | x | x | x |   | x | x |   |   |   |  x |    |    |    |    |    |    |    |
-| 2015_A2.lib_s1 | x |   |   | x | x |   |   | x |   |    |    |    |    |    |    |    |    |
-| 2016_A2.int_b3 | x |   | x |   | x |   |   | x |   |  x |    |    |    |    |    |    |    |
-| 2016_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    |    |  x |    |    |    |    |    |
-| 2017_A2.int_b3 | x |   |   |   | x | x |   |   | x |    |    |    |    |    |    |    |    |
-| 2017_A2.lib_s1 |   |   |   |   | x |   |   | x | x |    |  x |    |    |    |    |    |    |
-| 2018_A2.int_s1 |   |   | x |   |   | x | x |   | x |    |    |    |    |    |    |    |    |
-| 2018_A2.lib_s1 |   |   |   | x |   | x | x |   |   |    |    |  x |    |    |    |    |    |
+| 2007_A2.lib_s2 |   |   |   |   |   |   |   |   |   |  x |    |    |    |    |    |    |
+-->
+
+| Supuesto       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+|----------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 2008_A2.int_b3 |   |   |   |   | x | x |   |   | x |    |    |  x |  x |    |  x |    |
+| 2008_A2.lib_b3 |   |   | x |   |   |   |   | x |   |  x |    |    |    |  x |    |    |
+| 2009_A2.int_b3 |   | x |   |   | x |   |   | x |   |    |    |    |  x |    |    |    |
+| 2009_A2.lib_b3 |   |   |   |   | x |   | x |   | x |    |    |  x |  x |    |    |  x |
+| 2010_A2.int_b3 | x |   |   |   | x | x | x |   |   |    |    |    |    |    |    |  x |
+| 2010_A2.lib_b3 |   |   |   | x | x | x | x |   |   |    |    |  x |    |    |    |  x |
+| 2011_A2.int_b3 |   |   |   | x | x |   |   |   |   |    |    |  x |  x |    |    |    |
+| 2011_A2.lib_b3 | x |   |   |   |   | x | x |   |   |    |    |  x |  x |    |  x |    |
+| 2013_A2.int_b3 |   |   |   | x | x |   | x |   |   |    |    |  x |  x |    |    |    |
+| 2013_A2.lib_b3 |   | x | x |   |   | x |   | x |   |  x |    |    |    |  x |    |    |
+| 2014_A2.int_b3 |   |   |   | x | x |   |   | x | x |    |  x |    |    |    |    |  x |
+| 2014_A2.lib_s1 | x | x | x |   |   |   |   | x | x |  x |    |    |  x |    |    |    |
+| 2015_A2.int_b3 | x | x | x |   | x | x |   |   |   |  x |    |    |    |    |    |    |
+| 2015_A2.lib_s1 | x |   |   | x | x |   |   | x |   |    |    |    |    |    |    |    |
+| 2016_A2.int_b3 | x |   | x |   | x |   |   | x |   |  x |    |    |    |    |    |    |
+| 2016_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    |    |  x |    |    |    |    |
+| 2017_A2.int_b3 | x |   |   |   | x | x |   |   | x |    |    |    |    |    |    |    |
+| 2017_A2.lib_s1 |   |   |   |   | x |   |   | x | x |    |  x |    |    |    |    |    |
+| 2018_A2.int_s1 |   |   | x |   |   | x | x |   | x |    |    |    |    |    |    |    |
+| 2018_A2.lib_s1 |   |   |   | x |   | x | x |   |   |    |    |  x |    |    |    |    |
 
 Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 
@@ -96,21 +99,21 @@ Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 14. [Diagrama de transición de estados](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/)
 15. Diseño de pruebas
 16. Planificación del proyecto ([Gantt](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-gantt/))
-17. Recursos humanos
 
 ## B3: Otras preguntas
 
 1. 2008_A2.lib_b3: [Diagrama de estructura](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-estructura/)
 2. 2008_A2.int_b3: [Diagrama de descomposición](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-descomposicion/)
-3. 2010_A2.int_b3: Diseño arquitectónico
-4. 2011_A2.int_b3: [Diagrama de actividad](https://www.lucidchart.com/pages/es/tutorial-diagrama-de-actividades-uml)
-5. 2015_A2.lib_s1: Propuesta tecnológica
-6. 2015_A2.lib_s1: Plan de gestión del cambio y estrategias de sustitución
-7. 2016_A2.lib_s1: Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi
-8. 2016_A2.int_b3: [Modelos lógico de datos normalizado](https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos)
-9. 2017_A2.int_b3: Enumerar y explicar los servicios comunes y herramientas de seguridad que se van a usar
-10. 2017_A2.lib_s1: Diseño de las [capas de información sobre protección de datos](https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/)
-11. 2018_A2.int_s1: Categorizar el sistema por dimensiones según el ENS
+3. 2009_A2.lib_b3: Recursos humanos
+4. 2010_A2.int_b3: Diseño arquitectónico
+5. 2011_A2.int_b3: [Diagrama de actividad](https://www.lucidchart.com/pages/es/tutorial-diagrama-de-actividades-uml)
+6. 2015_A2.lib_s1: Propuesta tecnológica
+7. 2015_A2.lib_s1: Plan de gestión del cambio y estrategias de sustitución
+8. 2016_A2.lib_s1: Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi
+9. 2016_A2.int_b3: [Modelos lógico de datos normalizado](https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos)
+10. 2017_A2.int_b3: Enumerar y explicar los servicios comunes y herramientas de seguridad que se van a usar
+11. 2017_A2.lib_s1: Diseño de las [capas de información sobre protección de datos](https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/)
+12. 2018_A2.int_s1: Categorizar el sistema por dimensiones según el ENS
 
 # Bloque 4: Sistemas
 
