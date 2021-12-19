@@ -1,5 +1,5 @@
 ---
-title: Preguntas de supuesto GSI
+title: Preguntas del supuesto GSI
 ---
 
 Listado de preguntas recurrentes que pueden aparecer en el supuesto práctico GSI,
