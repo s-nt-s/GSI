@@ -215,3 +215,6 @@ table.preguntas_supuesto tbody td.td_x {
     color: white;
     font-weight: bold;
 }
+table.preguntas_supuesto caption {
+  display: none;
+}
