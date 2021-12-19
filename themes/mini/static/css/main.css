@@ -223,3 +223,6 @@ div.col2 {
 div.col2 > div {
    break-inside: avoid-column;
 }
+.center {
+  text-align: center;
+}

@@ -54,65 +54,64 @@ Tabla 1: Supuestos GSI - bloque 3 desarrollo.
 
 ## B3: Preguntas tipo
 
-1. [Factores críticos de éxito](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/)<br/>
-2010_A2.int_b3 2011_A2.lib_b3 2014_A2.lib_s1 2015_A2.int_b3 2015_A2.lib_s1 2016_A2.int_b3 2016_A2.lib_s2 2017_A2.int_b3
-2. Determinar el ámbito del sistema<br/>
-2009_A2.int_b3 2013_A2.lib_b3 2014_A2.lib_s1 2015_A2.int_b3
-3. [Diagrama de contexto (DFD nivel 0)](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/)<br/>
-2008_A2.lib_b3 2013_A2.lib_b3 2014_A2.lib_s1 2015_A2.int_b3 2016_A2.int_b3 2018_A2.int_s1
-4. Identificación de requisitos funcionales<br/>
-2010_A2.lib_b3 2011_A2.int_b3 2013_A2.int_b3 2014_A2.int_b3 2015_A2.lib_s1 2018_A2.lib_s1
-5. [Diagrama de casos de uso](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/casos-de-uso/)<br/>
-2007_A2.lib_s1 2008_A2.int_b3 2009_A2.int_b3 2009_A2.lib_b3 2010_A2.int_b3 2010_A2.lib_b3 2011_A2.int_b3 2013_A2.int_b3 2014_A2.int_b3 2015_A2.int_b3 2015_A2.lib_s1 2016_A2.int_b3 2016_A2.lib_s1 2017_A2.int_b3 2017_A2.lib_s1
-6. [Diagrama de clases](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/)<br/>
-2007_A2.lib_s1 2008_A2.int_b3 2010_A2.int_b3 2010_A2.lib_b3 2011_A2.lib_b3 2013_A2.lib_b3 2015_A2.int_b3 2016_A2.lib_s1 2017_A2.int_b3 2018_A2.int_s1 2018_A2.lib_s1
-8. [Diagrama de secuencia](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia)<br/>
-2007_A2.lib_s1 2009_A2.lib_b3 2010_A2.int_b3 2010_A2.lib_b3 2011_A2.lib_b3 2013_A2.int_b3 2016_A2.lib_s1 2018_A2.int_s1 2018_A2.lib_s1
-9. [Modelo entidad/relación](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/)<br/>
-2008_A2.lib_b3 2009_A2.int_b3 2013_A2.lib_b3 2014_A2.int_b3 2014_A2.lib_s1 2015_A2.lib_s1 2016_A2.int_b3 2017_A2.lib_s1
-11. [Diagramas de componentes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/)<br/>
-2008_A2.int_b3 2009_A2.lib_b3 2014_A2.int_b3 2014_A2.lib_s1 2017_A2.int_b3 2017_A2.lib_s1 2018_A2.int_s1
-13. [Diagrama de flujo de datos](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos) (1º nivel = subsistemas)<br/>
-2007_A2.lib_s2 2008_A2.lib_b3 2013_A2.lib_b3 2014_A2.lib_s1 2015_A2.int_b3 2016_A2.int_b3
-14. Definición de interfaces de usuario<br/>
-2014_A2.int_b3 2017_A2.lib_s1
-13. [Diagrama de paquetes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/)<br/>
-2007_A2.lib_s1 2008_A2.int_b3 2009_A2.lib_b3 2010_A2.lib_b3 2011_A2.int_b3 2011_A2.lib_b3 2013_A2.int_b3 2016_A2.lib_s1 2018_A2.lib_s1
-14. [Diagrama de despliegue](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/) / Arquitectura física<br/>
-2007_A2.lib_s1 2008_A2.int_b3 2009_A2.int_b3 2009_A2.lib_b3 2011_A2.int_b3 2011_A2.lib_b3 2013_A2.int_b3 2014_A2.lib_s1 2016_A2.lib_s2
-15. [Diagrama de transición de estados](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/)<br/>
-2008_A2.lib_b3 2013_A2.lib_b3
-15. Diseño de pruebas<br/>
-2008_A2.int_b3 2011_A2.lib_b3
-16. Propuesta tecnológica<br/>
-2015_A2.lib_s1 2016_A2.lib_s2
-17. Planificación del proyecto ([Gantt](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-gantt/))<br/>
-2007_A2.lib_s1 2009_A2.lib_b3 2010_A2.int_b3 2010_A2.lib_b3 2014_A2.int_b3
-18. Recursos humanos<br/>
-2007_A2.lib_s1 2009_A2.lib_b3
+| Supuesto       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 |
+|----------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 2007_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    |    |  x |  x |    |    |  x |  x |
+| 2007_A2.lib_s2 |   |   |   |   |   |   |   |   |   |  x |    |    |    |    |    |    |    |
+| 2008_A2.int_b3 |   |   |   |   | x | x |   |   | x |    |    |  x |  x |    |  x |    |    |
+| 2008_A2.lib_b3 |   |   | x |   |   |   |   | x |   |  x |    |    |    |  x |    |    |    |
+| 2009_A2.int_b3 |   | x |   |   | x |   |   | x |   |    |    |    |  x |    |    |    |    |
+| 2009_A2.lib_b3 |   |   |   |   | x |   | x |   | x |    |    |  x |  x |    |    |  x |  x |
+| 2010_A2.int_b3 | x |   |   |   | x | x | x |   |   |    |    |    |    |    |    |  x |    |
+| 2010_A2.lib_b3 |   |   |   | x | x | x | x |   |   |    |    |  x |    |    |    |  x |    |
+| 2011_A2.int_b3 |   |   |   | x | x |   |   |   |   |    |    |  x |  x |    |    |    |    |
+| 2011_A2.lib_b3 | x |   |   |   |   | x | x |   |   |    |    |  x |  x |    |  x |    |    |
+| 2013_A2.int_b3 |   |   |   | x | x |   | x |   |   |    |    |  x |  x |    |    |    |    |
+| 2013_A2.lib_b3 |   | x | x |   |   | x |   | x |   |  x |    |    |    |  x |    |    |    |
+| 2014_A2.int_b3 |   |   |   | x | x |   |   | x | x |    |  x |    |    |    |    |  x |    |
+| 2014_A2.lib_s1 | x | x | x |   |   |   |   | x | x |  x |    |    |  x |    |    |    |    |
+| 2015_A2.int_b3 | x | x | x |   | x | x |   |   |   |  x |    |    |    |    |    |    |    |
+| 2015_A2.lib_s1 | x |   |   | x | x |   |   | x |   |    |    |    |    |    |    |    |    |
+| 2016_A2.int_b3 | x |   | x |   | x |   |   | x |   |  x |    |    |    |    |    |    |    |
+| 2016_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    |    |  x |    |    |    |    |    |
+| 2017_A2.int_b3 | x |   |   |   | x | x |   |   | x |    |    |    |    |    |    |    |    |
+| 2017_A2.lib_s1 |   |   |   |   | x |   |   | x | x |    |  x |    |    |    |    |    |    |
+| 2018_A2.int_s1 |   |   | x |   |   | x | x |   | x |    |    |    |    |    |    |    |    |
+| 2018_A2.lib_s1 |   |   |   | x |   | x | x |   |   |    |    |  x |    |    |    |    |    |
+
+Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
+
+1. [Factores críticos de éxito](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/)
+2. Determinar el ámbito del sistema
+3. [Diagrama de contexto (DFD nivel 0)](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/)
+4. Identificación de requisitos funcionales
+5. [Diagrama de casos de uso](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/casos-de-uso/)
+6. [Diagrama de clases](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/)
+7. [Diagrama de secuencia](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia)
+8. [Modelo entidad/relación](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/)
+9. [Diagramas de componentes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/)
+10. [Diagrama de flujo de datos](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos) (1º nivel = subsistemas)
+11. Definición de interfaces de usuario
+12. [Diagrama de paquetes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/)
+13. [Diagrama de despliegue](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/) / Arquitectura física
+14. [Diagrama de transición de estados](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/)
+15. Diseño de pruebas
+16. Planificación del proyecto ([Gantt](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-gantt/))
+17. Recursos humanos
 
 ## B3: Otras preguntas
 
-1. [Diagrama de estructura](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-estructura/)<br/>
-2008_A2.lib_b3
-2. [Diagrama de descomposición](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-descomposicion/)<br/>
-2008_A2.int_b3
-3. Diseño arquitectónico<br/>
-2010_A2.int_b3
-4. [Diagrama de actividad](https://www.lucidchart.com/pages/es/tutorial-diagrama-de-actividades-uml)<br/>
-2011_A2.int_b3
-5. Plan de gestión del cambio y estrategias de sustitución<br/>
-2015_A2.lib_s1
-6. Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi<br/>
-2016_A2.lib_s1
-7. [Modelos lógico de datos normalizado](https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos)<br/>
-2016_A2.int_b3
-8. Enumerar y explicar los servicios comunes y herramientas de seguridad que se van a usar<br/>
-2017_A2.int_b3
-9. Diseño de las [capas de información sobre protección de datos](https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/)<br/>
-2017_A2.lib_s1
-10. Categorizar el sistema por dimensiones según el ENS<br/>
-2018_A2.int_s1
+1. 2008_A2.lib_b3: [Diagrama de estructura](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-estructura/)
+2. 2008_A2.int_b3: [Diagrama de descomposición](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-descomposicion/)
+3. 2010_A2.int_b3: Diseño arquitectónico
+4. 2011_A2.int_b3: [Diagrama de actividad](https://www.lucidchart.com/pages/es/tutorial-diagrama-de-actividades-uml)
+5. 2015_A2.lib_s1: Propuesta tecnológica
+6. 2015_A2.lib_s1: Plan de gestión del cambio y estrategias de sustitución
+7. 2016_A2.lib_s1: Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi
+8. 2016_A2.int_b3: [Modelos lógico de datos normalizado](https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos)
+9. 2017_A2.int_b3: Enumerar y explicar los servicios comunes y herramientas de seguridad que se van a usar
+10. 2017_A2.lib_s1: Diseño de las [capas de información sobre protección de datos](https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/)
+11. 2018_A2.int_s1: Categorizar el sistema por dimensiones según el ENS
 
 # Bloque 4: Sistemas
 

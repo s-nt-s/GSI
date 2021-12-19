@@ -203,3 +203,15 @@ body.practico_normativa table td.dup {
 body.practico_normativa tr td:nth-child(1), body.practico_normativa tr td.word {
   white-space: nowrap;
 }
+
+table.preguntas_supuesto th {
+    min-width: 1em;
+}
+table.preguntas_supuesto tbody tr:nth-child(2n) {
+    background-color: unset;
+}
+table.preguntas_supuesto tbody td.td_x {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}

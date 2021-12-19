@@ -263,6 +263,12 @@ def mod_content(content, *args, **kargv):
                 elif len(txt)>2 and txt[0] == txt[-1] and txt[0] == "▼":
                     td.name = "th"
                     changed = True
+
+
+    for td in soup.findAll("td"):
+        if td.get_text().strip().lower() == 'x':
+            add_class(td, "td_x")
+
     '''
     for td in soup.findAll("td"):
         st = td.find("strong")
