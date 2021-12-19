@@ -1,11 +1,10 @@
 ---
-title: Plantilla de supuesto GSI
+title: Preguntas de supuesto GSI
 ---
 
-Esta sección **no es** una plantilla de respuestas si no un esquema de las
-preguntas recurrentes que pueden aparecer en el supuesto práctico GSI.
+Listado de preguntas recurrentes que pueden aparecer en el supuesto práctico GSI,
+basado en los supuestos de años anteriores.
 
-Para ello me baso en los supuestos de años anteriores.  
 Ver [sede.inap](https://sede.inap.gob.es/gsi) y [baquedano](http://www.baquedano.es/todo.html)
 o [descargar](supuestos.sh).
 
@@ -118,7 +117,7 @@ Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 Pongo **aquí solo el esqueleto de esta sección** por si alguien quiere completarla
 vía [pull requests](https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ya que a mi esta parte no me interesa.
 
-Si te animas a ello, [el fichero que debes modificar es este](https://github.com/s-nt-s/GSI/tree/master/content/posts/ejercicios/plantilla.md).
+Si te animas a ello, [el fichero que debes modificar es este](https://github.com/s-nt-s/GSI/tree/master/content/posts/practico/preguntas.md).
 
 | Supuesto       | Descripción |
 |:---------------|:------------|
