@@ -177,6 +177,9 @@ Se puede preguntar bajo el nombre de:
 
 ![](img/red.png)
 
+El uso de lineas de defensa (FW) da cumplimiento al Art [4](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
+y [8](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a8) del ENS (RD 3/2010).
+
 # Expediente administrativo
 
 La idea básica es que un ciudadano realiza una solicitud, y esta inicia
