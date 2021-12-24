@@ -1,6 +1,5 @@
 ---
 title: Procedimiento Administrativo
-status: draft
 ---
 
 # ¿Cuando?
