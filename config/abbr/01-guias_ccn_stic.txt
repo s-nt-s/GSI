@@ -138,6 +138,38 @@ CCN-STIC-844
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/1063-ccn-stic-844-manual-de-usuario-de-ines/file.html
 Manual de usuario de INES
 
+CCN-STIC-845A
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1399-ccn-stic-845a-lucia-manual-de-usuario/file.html
+LUCIA. Manual de Usuario
+
+CCN-STIC-845B
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1402-ccn-stic-845b-lucia-manual-de-usuario-sat/file.html
+LUCIA. Manual de Usuario con Sistema de Alerta Temprana (SAT)
+
+CCN-STIC-845C
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1405-ccn-stic-845c-lucia-manual-instalacion-organismo/file.html
+LUCIA. Manual Instalación Organismo
+
+CCN-STIC-845D
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1408-ccn-stic-845d-lucia-manual-de-administrador/file.html
+LUCIA. Manual de Administrador
+
+CCN-STIC-850A
+https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/545-ccn-stic-850a-implantacion-del-ens-en-windows-7-cliente-en-dominio/file.html
+Implantación del ENS en Windows 7 (cliente en dominio)
+
+CCN-STIC-850B
+https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/547-ccn-stic-850b-implementacion-del-ens-en-windows-7-cliente-independiente/file.html
+Implementación del ENS en Windows 7 (cliente independiente)
+
+CCN-STIC-851A
+https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/551-ccn-stic-851a-impantacion-del-ens-en-windows-server-2008-r2-controlador-de-dominio-y-servidor-miembro/file.html
+Impantación del ENS en Windows Server 2008 R2 (controlador de dominio y servidor miembro)
+
+CCN-STIC-851B
+https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/556-ccn-stic-851b-implementacion-del-ens-en-widnwos-server-2008-r2-servidor-independiente/file.html
+Implementación del ENS en Windows Server 2008 R2 (servidor independiente)
+
 CCN-STIC-852
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4943-ccn-stic-852-aplicacion-del-ens-en-organismos-pagadores.html
 Aplicación del ENS en organismos pagadores
@@ -161,6 +193,14 @@ Seguridad en el Servicio Outlook Web App (OWA) de MS Exchange Server 2010
 CCN-STIC-869
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/1159-ccn-stic-869-implementacion-de-applocker-en-el-esquema-nacional-de-seguridad/file.html
 Implementación de AppLocker en el ENS
+
+CCN-STIC-870A
+https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/982-870a-implementacion-ens-windows-server-2012-r2-jul15/file.html
+Implementación del ENS en Windows Server 2012 R2 (controlador de dominio y servidor miembro)
+
+CCN-STIC-870B
+https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/994-ccn-stic-870b-implementacion-del-ens-en-windows-server-2012-r2-servidor-independiente/file.html
+Implementación del ENS en Windows Server 2012 R2 (servidor independiente)
 
 CCN-STIC-871
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2007-ccn-stic-871-implementacion-del-ens-en-servidor-de-impresion-sobre-windows-server-2012-r2/file.html
@@ -198,9 +238,57 @@ CCN-STIC-884
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4572-ccn-stic-884-perfil-de-cumplimiento-especifico-azure.html
 Perfil de cumplimiento específico para Azure Servicio de Cloud Corporativo
 
+CCN-STIC-884A
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4253-ccn-stic-884a-guia-de-configuracion-segura-para-azure.html
+Guía de configuración segura para Azure
+
+CCN-STIC-884B
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4324-ccn-stic-884b-guia-de-configuracion-segura-para-kubernetes-services.html
+Guía de configuración segura para Kubernetes Services
+
+CCN-STIC-884C
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4327-ccn-stic-884c-guia-de-configuracion-segura-para-sql-database.html
+Guía de configuración segura para SQL Database
+
+CCN-STIC-884D
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4330-ccn-stic-884d-guia-de-configuracion-segura-para-azure-cognitive-services.html
+Guía de configuración segura para Azure Cognitive Services
+
+CCN-STIC-884E
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6299-ccn-stic-884e-guia-de-configuracion-segura-para-azure-sentinel.html
+Guía de configuración segura para Azure Sentinel
+
 CCN-STIC-885
-https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5078-ccn-stic-885-office-365-specific-compliance-profile-corporate-cloud-service.html
-Office 365 Specific compliance profile Corporate Cloud Service
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4256-ccn-stic-885a-guia-de-configuracion-segura-para-office-365.html
+Guía de configuración segura para Office 365
+
+CCN-STIC-885A
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4256-ccn-stic-885a-guia-de-configuracion-segura-para-office-365.html
+Guía de configuración segura para Office 365
+
+CCN-STIC-885B
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4336-ccn-stic-885b-guia-de-configuracion-segura-para-sharepoint-online.html
+Guía de configuración segura para Sharepoint Online
+
+CCN-STIC-885C
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/4516-ccn-stic-885c-guia-de-configuracion-segura-para-exchange-online.html
+Guía de configuración segura para Exchange Online
+
+CCN-STIC-885D
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/4519-ccn-stic-885d-guia-de-configuracion-segura-para-microsoft-teams.html
+Guía de configuración segura para Microsoft Teams
+
+CCN-STIC-885E
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6254-ccn-stic-885e-guia-de-configuracion-segura-para-microsoft-defender-for-endpoint.html
+Guía de configuración segura para Microsoft Defender for Endpoint
+
+CCN-STIC-885F
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6302-ccn-stic-885f-guia-de-configuracion-segura-para-microsoft-defender-for-identity.html
+Guía de configuración segura para Microsoft Defender for Identity
+
+CCN-STIC-885G
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6350-ccn-stic-885g-gcs-para-microsoft-defender-for-office-365.html
+Guía de configuración segura para Microsoft Defender for Office 365
 
 CCN-STIC-886
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4578-ccn-stic-886-perfil-de-cumplimiento-especifico-de-cloud-privados.html
@@ -210,7 +298,39 @@ CCN-STIC-887
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5446-ccn-stic-887-perfil-de-cumplimiento-especifico-para-aws-servicio-de-cloud-corporativo.html
 Perfil de cumplimiento específico para AWS Servicio de Cloud Corporativo
 
+CCN-STIC-887A
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5449-ccn-stic-887a-guia-de-configuracion-segura-aws.html
+Guía de configuración segura AWS
+
+CCN-STIC-887B
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5452-ccn-stic-887b-guia-rapida-de-prowler.html
+Guía rápida de Prowler
+
+CCN-STIC-887C
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5762-ccn-stic-887c-guia-de-configuracion-segura-de-conectividad-hibrida-en-aws.html
+Guía de configuración segura de conectividad híbrida en AWS
+
+CCN-STIC-887D
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5876-ccn-stic-887d-guia-de-configuracion-segura-multi-cuenta-aws/file.html
+Guía de configuración segura Multi-Cuenta AWS
+
+CCN-STIC-887E
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5879-ccn-stic-887e-guia-de-configuracion-segura-amazon-workspaces/file.html
+Guía de configuración segura Amazon WorkSpaces
+
 CCN-STIC-888
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6200-ccn-stic-888-perfil-de-cumplimiento-especifico-para-google-cloud-servicio-de-cloud-corporativo.html
 Perfil de Cumplimiento Específico para Google Cloud Servicio de Cloud Corporativo
+
+CCN-STIC-888A
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6203-ccn-stic-888a-guia-de-configuracion-segura-para-google-workspace.html
+Guía de configuración segura para Google WorkSpace
+
+CCN-STIC-888B
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6206-ccn-stic-888b-guia-de-configuracion-segura-para-gcp.html
+Guía de configuración segura para GCP
+
+CCN-STIC-888C
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6269-ccn-stic-888c-guia-de-configuracion-segura-para-contenedores.html
+Guía de configuración segura para Contenedores
 
