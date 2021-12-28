@@ -3,7 +3,7 @@ import re
 from time import sleep
 
 re_sp = re.compile(r"\s+")
-re_cod = re.compile(r"^(CCN-STIC)\s+(\d+)")
+re_cod = re.compile(r"^(CCN-STIC)\s+(\d+)\S*")
 
 def get_session(url):
     f = FF()
@@ -61,7 +61,9 @@ for cod, file, name in sorted(guias,key=sort_keys):
         continue
     done.add(cod)
     num = cod.rsplit("-", 1)[-1]
-    if not(num.isdigit() and 799 < int(num) < 900):
+    while len(num)>0 and not num.isdigit():
+        num = num[:-1]
+    if len(num)==0 or not(num.isdigit() and 799 < int(num) < 900):
         continue
     print(cod)
     print(file)
