@@ -337,4 +337,3 @@ Guía de configuración segura para GCP
 CCN-STIC-888C
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6269-ccn-stic-888c-guia-de-configuracion-segura-para-contenedores.html
 Guía de configuración segura para Contenedores
-
