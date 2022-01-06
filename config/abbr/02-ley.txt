@@ -7,11 +7,13 @@ s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a\
 r'Art (\d+) RD 3/2010
 s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a\2">\1</a>
 
-r'Anexo 1 RD 3/2010
-s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#ani">\1</a>
+r'Anexo 1 RD 3/2010|RD 3/2010 A1|A1 RD 3/2010
+ENS: Categorías de los sistemas
+https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#ani
 
-r'Anexo 2 RD 3/2010
-s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii">\1</a>
+r'Anexo 2 RD 3/2010|RD 3/2010 A2|A2 RD 3/2010
+ENS: Medidas de seguridad
+https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii
 
 Art 9 RD 203/2021
 https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a9

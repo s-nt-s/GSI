@@ -35,6 +35,7 @@ Tabla: Herramientas o Guías
 | Ley         | <abbr title="Artículo">Art</abr> | Titulo |
 |------------:|----:|-----|
 |   RD 3/2010 |  34 | Auditoría de la seguridad |
+|   RD 3/2010 |  A1 | Categorías de los sistemas |
 |   RD 3/2010 |  A2 | Medidas de seguridad |
 |   RD 3/2010 |  A3 | Auditoría de la seguridad |
 |   RD 4/2010 |   6 | Carácter multidimensional de la interoperabilidad |

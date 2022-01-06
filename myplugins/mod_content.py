@@ -553,6 +553,7 @@ def hardCode(content, soup):
                     })
                 else:
                     mrk = cdc(art, {
+                        "A1": "ani",
                         "A2": "anii",
                         "A3": "aniii",
                         "DA4": "dacuaa"

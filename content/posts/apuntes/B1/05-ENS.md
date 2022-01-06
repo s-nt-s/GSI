@@ -539,6 +539,7 @@ acuerdo contractual u otros métodos.
 
 * PreparaTic27 - Pack1/048
 * PreparaTic27 - Pack1/047
+* PreparaTic27 - Pack3/05/02/Guía aplicación ENS Julio2019
 * [dsn.gob.es - Qué es la Seguridad Nacional](https://www.dsn.gob.es/es/sistema-seguridad-nacional/qu%C3%A9-es-seguridad-nacional)
 * [dsn.gob.es - Estrategia de Seguridad Nacional 2017](https://www.dsn.gob.es/es/estrategias-publicaciones/estrategias/estrategia-seguridad-nacional-2017#sthash.cOweiq8c.uxfs)
 * [zonademarrones.com - Preparando CISM Notas: Dominio 4](https://www.zonademarrones.com/preparando-cism-notas-dominio-4/)
