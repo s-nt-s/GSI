@@ -127,8 +127,9 @@ evaluado conforme a normas europeas o internacionales reconocidas por el Esquema
 
 Por categoría **MEDIA**:
 
-1. `[mp.com.2 C]` Protección de la confidencialidad usando VPN para conexiones foráneas y usando certificados acreditados por el CCN. En el nivel **ALTO** se usará
-preferentemente dispositivos HW
+1. `[mp.com.2 C]` Protección de la confidencialidad usando VPN para la comunicación
+por redes de fuera del propio dominio de seguridad, y usando certificados acreditados por el CCN.
+En el nivel **ALTO** se usará preferentemente dispositivos HW
 2. `[mp.sw.1]` Desarrollo de aplicaciones en un entorno diferente y separado de producción,
 utilizando una metodología de desarrollo reconocida que tome en consideración
 aspectos de seguridad, datos usados en pruebas y permita inspección de código
