@@ -35,12 +35,14 @@ Tabla: Herramientas o Guías
 | Ley         | <abbr title="Artículo">Art</abr> | Titulo |
 |------------:|----:|-----|
 |   RD 3/2010 |  34 | Auditoría de la seguridad |
+|   RD 3/2010 |  43 | Categorías |
 |   RD 3/2010 |  A1 | Categorías de los sistemas |
 |   RD 3/2010 |  A2 | Medidas de seguridad |
 |   RD 3/2010 |  A3 | Auditoría de la seguridad |
 |   RD 4/2010 |   6 | Carácter multidimensional de la interoperabilidad |
 |   RD 4/2010 |  10 | Activos semánticos |
 |   RD 4/2010 |  11 | Estándares aplicables |
+|   RD 4/2010 |  13 | Red SARA |
 |   RD 4/2010 |  16 | Condiciones de licenciamiento aplicables |
 |   RD 4/2010 |  17 | Directorios de aplicaciones reutilizables |
 | Ley 39/2015 |   5 | Representación |
@@ -73,12 +75,14 @@ Tabla: Herramientas o Guías
 | Ley 40/2015 | 157 | Reutilización de sistemas y aplicaciones de propiedad de la Administración |
 | Ley 40/2015 | 158 | Transferencia de tecnología entre Administraciones |
 |        RGPD |   6 | Licitud del tratamiento |
+|        RGPD |   7 | Condiciones para el consentimiento |
 |        RGPD |   9 | Tratamiento de categorías especiales de datos personales |
 |        RGPD |  25 | Protección de datos desde el diseño y por defecto |
 |        RGPD |  30 | Registro de las actividades de tratamiento |
 |        RGPD |  35 | Evaluación de impacto relativa a la protección de datos |
 |        RGPD |  37 | Designación del delegado de protección de datos |
 |        RGPD |  39 | Funciones del delegado de protección de datos |
+|    LOPD-GDD | DA1 | Medidas de seguridad en el ámbito del sector público |
 | RD 203/2021 |   4 | Canales de asistencia para el acceso a los servicios electrónicos |
 | RD 203/2021 |   5 | Portales de internet de las AAPP |
 | RD 203/2021 |   6 | Creación y supresión de portales de internet en el ámbito estatal |
@@ -112,13 +116,36 @@ Tabla: Artículos relevantes <span class="articulos"></span>
 
 # Artículos a mencionar
 
+| Articulo | Usar en... |
+|----------|--------------|
+| Art 5 Ley 39/2015<br/>Art 6 Ley 39/2015<br/>Art 32 RD 203/2021 | Identificación a través de representante |
+| Art 9 Ley 39/2015<br/>eIDAS | Identificar al interesado |
+| Art 12 Ley 39/2015<br/>Art 30 RD 203/2021 | Identificación a través de funcionario habilitado y recogida del consentimiento |
+| Art 15 Ley 39/2015 | Cambiar el idioma de una aplicación (PLATA) |
+| Art 53 Ley 39/2015 | Consultar el estado de un trámite |
+| Art 28 Ley 39/2015<br/>Art 62 RD 203/2021 | No aportar datos que ya tiene las AAPP (PID) |
+| RD 1112/2018<br/>EN 301 549 V3.2.1 | Accesibilidad |
+| Anexo 1 RD 3/2010<br/>CCN-STIC-803<br/>Art 43 RD 3/2010 | Categorizar sistema |
+| Anexo 2 RD 3/2010<br/>CCN-STIC-804 | Medidas ENS |
+| Art 6 RGPD | Motivos por los que es licito la recogida de datos |
+| Art 7 RGPD | Condiciones para obtener consentimiento para la recogida de datos |
+| Art 35 RGPD | Cuando se debe realzar una EIDP |
+| DA1 LOPD-GDD | Proteger datos personales con el ENS (PILAR, ASSI-RGPD) |
+| Art 16 Ley 39/2015 | Registro electrónico |
+| Art 43 Ley 39/2015 | Notificaciones electrónicas |
+| Art 44 Ley 40/2015<br/>Art 155 Ley 40/2015<br/>Art 13 RD 4/2010 | Red Sara |
+| Art 40 Ley 40/2015<br/>Art 42 Ley 40/2015<br/>Art 43 Ley 40/2015<br/>Sección 2º RD 203/2021 (Art 18-25) | Identificación y firma de las AAPP |
+| Art 157 Ley 40/2015<br/>Art 158 Ley 40/2015 | Reutilización |
+
+<!--
+
 * **Consultar el estado de un tramite** da cumplimiento al **Art 53 Ley 39/2015**
 * **Cambiar el idioma** de una aplicación (PLATA) da cumplimiento al **Art 15 Ley 39/2015**
 * La identificación a través de **funcionario habilitado** y la recogida del **consentimiento del interesado** da cumplimiento al **Art 12 Ley 39/2015** y al **Art 30 RD 203/2021**
 * La identificación a través **representare** da cumplimiento al **Art 5 Ley 39/2015**, **Art 6 Ley 39/2015** y al **Art 32 RD 203/2021**
 * El **nivel AA de WCAG 2.1** da cumplimiento al **RD 1112/2018** (EN 301 549 V3.2.1)
 * Al **categorizar un sistema** aplicamos el **Art 43 RD 3/2010 y Anexo 1 RD 3/2010** y la guía **CCN-STIC-803**
-* Al describir las **medidas ENS** usamos el **Anexo 2 RD 3/2010**
+* Al describir las **medidas ENS** usamos el **Anexo 2 RD 3/2010** y la guía **CCN-STIC-804**
 * Cuando hablamos de **Licitud del tratamiento** nos referimos al **Art 6 RGPD**
 * Al obtener el **consentimiento para recogida de datos personales** se esta aplicando el **Art 7 RGPD**
 * Realizar una **EIDP** da cumplimento al **Art 35 RGPD**
@@ -126,9 +153,11 @@ Tabla: Artículos relevantes <span class="articulos"></span>
 * **No aportar datos** que ya tiene las AAPP (PID) da cumplimiento al **Art 28 Ley 39/2015** y **Art 62 RD 203/2021**
 * Usando Cl@ve para **identificar al interesado** cumplimos el **Art 9 Ley 39/2015** y el **eIDAS**
 * La **identificación y firma de las AAPP** se rige por los **Sección 2º RD 203/2021** (Art 18-25) y **Art 40 Ley 40/2015**, **Art 42 Ley 40/2015** y **Art 43 Ley 40/2015**
-* La **creación/suspensión de sedes electrónicas** se rige en **Art 38 Ley 40/2015** y **Art 9 RD 203/2021**
-* Los portales de internet de las AP se rigen por el **Art 39 Ley 40/2015**, **Art 5 RD 203/2021** y **Art 6 RD 203/2021**
 * El **registro electrónico** se rige por el **Art 16 Ley 39/2015**
 * Las **Notificaciones electrónicas** se rigen por el **Art 43 Ley 39/2015**
-* La **Red Sara** se rige por el **Art 3 Ley 40/2015**, **Art 44 Ley 40/2015** y **Art 155 Ley 40/2015**
-* La **Reutilización** por el **Art 157 Ley 40/2015** y **Art 1587 Ley 40/2015**
+* La **Red Sara** se rige por el **Art 44 Ley 40/2015** y **Art 155 Ley 40/2015**
+* La **Reutilización** por el **Art 157 Ley 40/2015** y **Art 158 Ley 40/2015**
+* La **creación/suspensión de sedes electrónicas** se rige en **Art 38 Ley 40/2015** y **Art 9 RD 203/2021**
+* Los portales de internet de las AP se rigen por el **Art 39 Ley 40/2015**, **Art 5 RD 203/2021** y **Art 6 RD 203/2021**
+
+-->

@@ -550,7 +550,7 @@ def hardCode(content, soup):
                         "55": "a5-7",
                         "60": "a6-2",
                         "62": "a6-4",
-                    })
+                    }, "a"+art)
                 else:
                     mrk = cdc(art, {
                         "A1": "ani",

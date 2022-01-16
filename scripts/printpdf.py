@@ -81,11 +81,12 @@ class PDF:
 
         html = HTML(fuente).render(stylesheets=styles)
 
-        for i, page in enumerate(html.pages):
-            page_body = self.get_page_body(page._page_box.all_children())
-            if i % 2 == 0:
-                p = int((i / 2) + 1)
-                page_body.children += self.get_footer(styles, codigo, p)
+        if len(html.pages)>2:
+            for i, page in enumerate(html.pages):
+                page_body = self.get_page_body(page._page_box.all_children())
+                if i % 2 == 0:
+                    p = int((i / 2) + 1)
+                    page_body.children += self.get_footer(styles, codigo, p)
 
         html.write_pdf(target)
 
