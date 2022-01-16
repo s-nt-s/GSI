@@ -24,6 +24,11 @@ Tabla: Normativa
 | ENS  |  CCN-STIC-803 | Valoración de Sistemas |
 | ENS  |  CCN-STIC-804 | Guía de implantación |
 | ENS  |  CCN-STIC-812 | Seguridad en servicios web |
+| CCN-CERT |    AMPARO | Implantación y gestión de la seguridad (evaluación para declaración de conformidad) |
+| CCN-CERT |    GLORIA | Gestión de incidentes y amenazas de ciberseguridad (Monitorización, logs) |
+| CCN-CERT | INES e IRIS | Evaluar estado de la seguridad |
+| CCN-CERT |     LUCIA | Listado de ciberincidentes |
+| CCN-CERT |     PILAR | Análisis y gestión de riesgos |
 | RGPD | Gestiona EIPD | Asistente para el análisis de riesgos y evaluaciones de impacto en protección de datos |
 | RGPD | Facilita RGPD | Herramienta para realizar un tratamiento de datos personales de escaso riesgo y cumplir el RGPD |
 | RGPD |     ASSI-RGPD | Auditoría de Seguridad de los Sistemas de Información |
@@ -125,7 +130,7 @@ Tabla: Artículos relevantes <span class="articulos"></span>
 | Art 53 Ley 39/2015 | Consultar el estado de un trámite |
 | Art 28 Ley 39/2015<br/>Art 62 RD 203/2021 | No aportar datos que ya tiene las AAPP (PID) |
 | RD 1112/2018<br/>EN 301 549 V3.2.1 | Accesibilidad |
-| Anexo 1 RD 3/2010<br/>CCN-STIC-803<br/>Art 43 RD 3/2010 | Categorizar sistema |
+| Art 43 RD 3/2010<br/>Anexo 1 RD 3/2010<br/>CCN-STIC-803 | Categorizar sistema |
 | Anexo 2 RD 3/2010<br/>CCN-STIC-804 | Medidas ENS |
 | Art 6 RGPD | Motivos por los que es licito la recogida de datos |
 | Art 7 RGPD | Condiciones para obtener consentimiento para la recogida de datos |

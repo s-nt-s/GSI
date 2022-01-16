@@ -1,3 +1,6 @@
+Comunica-Brecha RGPD
+https://www.aepd.es/es/guias-y-herramientas/herramientas/comunica-brecha-rgpd
+
 r'Art (\d+) Ley 39/2015
 s'<a class="abbr" href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a\2">\1</a>
 

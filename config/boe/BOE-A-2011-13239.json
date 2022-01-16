@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20200114132602",
+    "@fecha_actualizacion": "20220105115602",
     "metadatos": {
       "identificador": "BOE-A-2011-13239",
       "titulo": "Ley 24/2011, de 1 de agosto, de contratos del sector p\u00fablico en los \u00e1mbitos de la defensa y de la seguridad.",
@@ -103,6 +103,9 @@
                   "@rdf:resource": "https://www.boe.es/eli/es/l/2011/08/01/24"
                 },
                 "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2011/08/01/24/con/20211231"
+                  },
                   {
                     "@rdf:resource": "https://www.boe.es/eli/es/l/2011/08/01/24/con/20191231"
                   },
@@ -291,6 +294,75 @@
                     }
                   }
                 ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/l/2011/08/01/24/con/20211231",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2011-13239"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2011-08-01"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "24"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2021-12-31"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2011/08/01/24"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2011/08/01/24/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2011/08/01/24/con/20211231/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 24/2011, de 1 de agosto, de contratos del sector p\u00fablico en los \u00e1mbitos de la defensa y de la seguridad."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2021-12-31"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2011/08/01/24/con/20211231"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2011/08/01/24/con/20211231/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2011/08/01/24/con/20211231/spa"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             {
@@ -811,6 +883,15 @@
         },
         "posteriores": {
           "posterior": [
+            {
+              "@referencia": "BOE-A-2021-21885",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "el art. 5.a) y b), por Orden HFP/1499/2021, de 28 de diciembre"
+            },
             {
               "@referencia": "BOE-A-2019-18748",
               "@orden": "",
