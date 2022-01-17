@@ -31,7 +31,7 @@ Donde YYYY.X es:
 | 2016 |  191/87 |  2.2 | 30 |
 | 2017 | 218/175 |  1.2 | 30 |
 | 2018 | 171/176 |  1.0 | 30 |
-| 2019 | 290/260 |  1.1 |    |
+| 2019 | 290/260 |  1.1 | 30 |
 
 Tabla: Notas de corte Interna General 1º examen
 
@@ -39,6 +39,6 @@ Tabla: Notas de corte Interna General 1º examen
 |--------------|-------:|---:|
 | Convocatoria |    190 | 10 |
 | Presentados  |    215 |  8 |
-| Aprobados 1º <abbr title="Examen">exa</abbr> |(*) 194 |  6 |
+| Aprobados 1º <abbr title="Examen">exa</abbr> |(*) 194 | [6](https://sede.inap.gob.es/documents/59312/1925742/1-GSI-PI-DM-SUP_CRD_154AB89SD658.pdf/2950488d-93a7-43f7-29e2-a4345b08743b)|
 
-Tabla: [inap.es/seleccion](https://www.inap.es/seleccion) - [Nota informativa](https://www.inap.es/documents/10136/1712229/Nota+CPS+opositores+diciembre+datos+y+fechas.pdf/4f5bc213-6257-6140-40ed-ae5653abfc4e)<br/>[Acceso general](https://sede.inap.gob.es/documents/59312/1925742/1-GSI-PI-DM-SUP_PG_154AB89SD658.pdf/f3815824-6242-e6fa-188f-d6e44a548823) - [Cupo reserva](https://sede.inap.gob.es/documents/59312/1925742/1-GSI-PI-DM-SUP_CRD_154AB89SD658.pdf/2950488d-93a7-43f7-29e2-a4345b08743b).<br/>(*) Se suman los [14 opositores con nota guardada de la convocatoria anterior](https://sede.inap.gob.es/documents/59312/1925742/ExentosGSI-P_154AB89SD658.pdf/7f732e10-df2d-5fab-c830-962129b5df9d).
+Tabla: [inap.es/seleccion](https://www.inap.es/seleccion) - [Nota informativa](https://www.inap.es/documents/10136/1712229/Nota+CPS+opositores+diciembre+datos+y+fechas.pdf/4f5bc213-6257-6140-40ed-ae5653abfc4e)<br/>[Acceso general](https://sede.inap.gob.es/documents/59312/1925742/1-GSI-PI-DM-SUP_PG_154AB89SD658.pdf/f3815824-6242-e6fa-188f-d6e44a548823) + [opositores con nota guardada de la convocatoria anterior](https://sede.inap.gob.es/documents/59312/1925742/ExentosGSI-P_154AB89SD658.pdf/7f732e10-df2d-5fab-c830-962129b5df9d).
