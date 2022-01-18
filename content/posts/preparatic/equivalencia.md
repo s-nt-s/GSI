@@ -9,12 +9,12 @@ Muchos de ellos tienen [una versión en audio](http://www.preparatic.org/2019/05
 * `Pack3` hace referencia a [los materiales del Pack3](http://www.preparatic.org/2021/03/25/disponibles-los-materiales-del-pack3-preparatic27/) de PreparaTic27 ([ver contenido](tree/pack3.materiales.txt)).<br/>
 También puede interesar [los volcados](http://www.preparatic.org/2021/01/24/disponible-volcados-pack3-de-preparatic27/) de dicho pack ([ver contenido](tree/pack3.volcados.txt)).
 
-Nota: Los contenidos de [PreparaTic27](http://www.preparatic.org/) corresponden al [temario CSSTIC (BOE-A-2020-8872 - Anexo II)](https://boe.es/diario_boe/txt.php?id=BOE-A-2020-8872)
+Nota: Los contenidos de [PreparaTic27](http://www.preparatic.org/) corresponden al [temario CSSTIC]({filename}../temario/BOE-A-2022-573/csstic.md)
 
 Provisionalmente puedes echar un vistazo a todos los resúmenes del [Pack1](http://www.preparatic.org/2020/11/14/disponible-el-pack-1-de-preparatic26/) de PreparaTic27
 en [PreparaTic.ml](https://preparatic.ml) (eventualmente la web dejará de funcionar).
 
-# Materiales para el [temario GSI interna](../temario/interna.html)
+# Materiales para el [temario GSI interna]({filename}../temario/interna.md)
 
 ## Bloque 1: Administración electrónica y políticas públicas de igualdad, dependencia y transparencia
 

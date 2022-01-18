@@ -17,7 +17,7 @@ sys.path.append('.')
 
 abspath = os.path.abspath(__file__)
 cur_dir = os.path.dirname(abspath)
-re_slnu = re.compile(r"/([0-9]+|[A-Z]+)-")
+re_slnu = re.compile(r"/([0-9]+|[A-Z]{1,2})-")
 
 class DynamicSetting(object):
     def __init__(self, f):
