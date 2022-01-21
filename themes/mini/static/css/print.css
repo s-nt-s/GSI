@@ -41,3 +41,6 @@ body.practico_administrativo #capa-de-presentacion {
 body.practico_administrativo #actores, #arquitectura-logica, #arquitectura-de-red, #expediente-administrativo {
     break-before: always;
 }
+body.practico_normativa h1, body.practico_normativa caption {
+  display: none;
+}
