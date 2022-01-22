@@ -60,26 +60,26 @@ Tabla 1: Supuestos GSI - bloque 3 desarrollo.
 
 | Supuesto       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
 |----------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 2008_A2.int_b3 |   |   |   |   | x | x |   |   | x |    |    |  x |  x |    |  x |    |
-| 2008_A2.lib_b3 |   |   | x |   |   |   |   | x |   |  x |    |    |    |  x |    |    |
-| 2009_A2.int_b3 |   | x |   |   | x |   |   | x |   |    |    |    |  x |    |    |    |
-| 2009_A2.lib_b3 |   |   |   |   | x |   | x |   | x |    |    |  x |  x |    |    |  x |
-| 2010_A2.int_b3 | x |   |   |   | x | x | x |   |   |    |    |    |    |    |    |  x |
-| 2010_A2.lib_b3 |   |   |   | x | x | x | x |   |   |    |    |  x |    |    |    |  x |
-| 2011_A2.int_b3 |   |   |   | x | x |   |   |   |   |    |    |  x |  x |    |    |    |
-| 2011_A2.lib_b3 | x |   |   |   |   | x | x |   |   |    |    |  x |  x |    |  x |    |
-| 2013_A2.int_b3 |   |   |   | x | x |   | x |   |   |    |    |  x |  x |    |    |    |
-| 2013_A2.lib_b3 |   | x | x |   |   | x |   | x |   |  x |    |    |    |  x |    |    |
-| 2014_A2.int_b3 |   |   |   | x | x |   |   | x | x |    |  x |    |    |    |    |  x |
-| 2014_A2.lib_s1 | x | x | x |   |   |   |   | x | x |  x |    |    |  x |    |    |    |
-| 2015_A2.int_b3 | x | x | x |   | x | x |   |   |   |  x |    |    |    |    |    |    |
-| 2015_A2.lib_s1 | x |   |   | x | x |   |   | x |   |    |    |    |    |    |    |    |
-| 2016_A2.int_b3 | x |   | x |   | x |   |   | x |   |  x |    |    |    |    |    |    |
-| 2016_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    |    |  x |    |    |    |    |
-| 2017_A2.int_b3 | x |   |   |   | x | x |   |   | x |    |    |    |    |    |    |    |
-| 2017_A2.lib_s1 |   |   |   |   | x |   |   | x | x |    |  x |    |    |    |    |    |
-| 2018_A2.int_s1 |   |   | x |   |   | x | x |   | x |    |    |    |    |    |    |    |
-| 2018_A2.lib_s1 |   |   |   | x |   | x | x |   |   |    |    |  x |    |    |    |    |
+| 2008_A2.int_b3 |   |   |   |   | x | x |   |   |   |  x | x  | x  |    |    | x  |    |
+| 2008_A2.lib_b3 |   |   | x |   |   |   |   | x | x |    |    |    |    | x  |    |    |
+| 2009_A2.int_b3 |   | x |   |   | x |   |   | x |   |    |    | x  |    |    |    |    |
+| 2009_A2.lib_b3 |   |   |   |   | x |   | x |   |   |  x | x  | x  |    |    |    | x  |
+| 2010_A2.int_b3 | x |   |   |   | x | x | x |   |   |    | x  | <  |    |    |    | x  |
+| 2010_A2.lib_b3 |   |   |   | x | x | x | x |   |   |    | x  |    |    |    |    | x  |
+| 2011_A2.int_b3 |   |   |   | x | x |   |   |   |   |    | x  | x  |    |    |    |    |
+| 2011_A2.lib_b3 | x |   |   |   |   | x | x |   |   |    | x  | x  |    |    | x  |    |
+| 2013_A2.int_b3 |   |   |   | x | x |   | x |   |   |    | x  | x  |    |    |    |    |
+| 2013_A2.lib_b3 |   | x | x |   |   | x |   | x | x |    |    |    |    | x  |    |    |
+| 2014_A2.int_b3 |   |   |   | x | x |   |   | x |   |  x |    |    | x  |    |    | x  |
+| 2014_A2.lib_s1 | x | x | x |   |   |   |   | x | x |  x |    | x  |    |    |    |    |
+| 2015_A2.int_b3 | x | x | x |   | x | x |   |   | x |    |    |    |    |    |    |    |
+| 2015_A2.lib_s1 | x |   |   | x | x |   |   | x |   |    | x  | <  |    |    |    |    |
+| 2016_A2.int_b3 | x |   | x |   | x |   |   | x | x |    |    |    |    |    |    |    |
+| 2016_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    | x  |    |    |    |    |    |
+| 2017_A2.int_b3 | x |   |   |   | x | x |   |   |   |  x |    |    |    |    |    |    |
+| 2017_A2.lib_s1 |   |   |   |   | x |   |   | x |   |  x |    |    | x  |    |    |    |
+| 2018_A2.int_s1 |   |   | x |   |   | x | x |   |   |  x |    |    |    |    |    |    |
+| 2018_A2.lib_s1 |   |   |   | x |   | x | x |   |   |    | x  |    |    |    |    |    |
 
 Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 
@@ -91,29 +91,32 @@ Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 6. [Diagrama de clases](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/)
 7. [Diagrama de secuencia](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia)
 8. [Modelo entidad/relación](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/)
-9. [Diagramas de componentes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/)
-10. [Diagrama de flujo de datos](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos) (1º nivel = subsistemas)
-11. Definición de interfaces de usuario
-12. [Diagrama de paquetes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/)
-13. [Diagrama de despliegue](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/) / Arquitectura física
+9. [Diagrama de flujo de datos](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos) (1º nivel = subsistemas)
+10. [Diagramas de componentes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/)
+11. [Diagrama de paquetes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/)
+12. [Diagrama de despliegue](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/) / Arquitectura física
+13. Definición de interfaces de usuario
 14. [Diagrama de transición de estados](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/)
 15. Diseño de pruebas
 16. Planificación del proyecto ([Gantt](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-gantt/))
+17. (10/11 + 12) Propuesta tecnológica / Diseño arquitectónico
 
 ## B3: Otras preguntas
 
 1. 2008_A2.lib_b3: [Diagrama de estructura](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-estructura/)
 2. 2008_A2.int_b3: [Diagrama de descomposición](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-descomposicion/)
 3. 2009_A2.lib_b3: Recursos humanos
-4. 2010_A2.int_b3: Diseño arquitectónico
 5. 2011_A2.int_b3: [Diagrama de actividad](https://www.lucidchart.com/pages/es/tutorial-diagrama-de-actividades-uml)
-6. 2015_A2.lib_s1: Propuesta tecnológica
 7. 2015_A2.lib_s1: Plan de gestión del cambio y estrategias de sustitución
 8. 2016_A2.lib_s1: Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi
 9. 2016_A2.int_b3: [Modelos lógico de datos normalizado](https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos)
 10. 2017_A2.int_b3: Enumerar y explicar los servicios comunes y herramientas de seguridad que se van a usar
 11. 2017_A2.lib_s1: Diseño de las [capas de información sobre protección de datos](https://www.aepd.es/es/derechos-y-deberes/conoce-tus-derechos/derecho-de-informacion)
 12. 2018_A2.int_s1: Categorizar el sistema por dimensiones según el ENS
+
+<!--
+4. 2010_A2.int_b3: Diseño arquitectónico
+-->
 
 # Bloque 4: Sistemas
 

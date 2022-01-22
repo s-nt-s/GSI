@@ -95,6 +95,7 @@ Se puede preguntar bajo el nombre de:
 * Arquitectura lógica
 * Diagrama de paquetes
 * Diagrama de componentes
+* Propuesta tecnología (incluye también arquitectura de red)
 
 ![](img/logica.png)
 
@@ -174,6 +175,7 @@ Se puede preguntar bajo el nombre de:
 * Arquitectura física
 * Diagrama de despliegue
 * Infraestructura
+* Propuesta tecnología (incluye también arquitectura lógica)
 
 ![](img/red.png)
 
