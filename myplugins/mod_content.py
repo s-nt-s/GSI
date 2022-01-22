@@ -323,6 +323,7 @@ def mod_content(content, *args, **kargv):
             if len(text)>0:
                 text = text.lower()
                 text = unidecode.unidecode(text)
+                text = text.replace(":", "")
                 text = text.strip()
                 h.attrs["id"]=text.replace(" ", "-")
         if h.attrs.get("id") not in (None, ""):
