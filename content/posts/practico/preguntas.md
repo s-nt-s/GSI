@@ -112,7 +112,7 @@ Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 8. 2016_A2.lib_s1: Recomendaciones al equipo encargado del desarrollo para evitar ataques SQLi
 9. 2016_A2.int_b3: [Modelos lógico de datos normalizado](https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos)
 10. 2017_A2.int_b3: Enumerar y explicar los servicios comunes y herramientas de seguridad que se van a usar
-11. 2017_A2.lib_s1: Diseño de las [capas de información sobre protección de datos](https://protecciondatos-lopd.com/empresas/informacion-por-capas-rgpd/)
+11. 2017_A2.lib_s1: Diseño de las [capas de información sobre protección de datos](https://www.aepd.es/es/derechos-y-deberes/conoce-tus-derechos/derecho-de-informacion)
 12. 2018_A2.int_s1: Categorizar el sistema por dimensiones según el ENS
 
 # Bloque 4: Sistemas
