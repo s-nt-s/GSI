@@ -461,6 +461,11 @@ def cdc(s, kv, df=None):
     return kv.get(s, df)
 
 def hardCode(content, soup):
+    if content.source_path.endswith("/csstic.md"):
+        num = 1
+        for ol in soup.findAll("ol"):
+            ol.attrs["start"] = str(num)
+            num = num + len(ol.findAll("li"))
     if content.source_path.endswith("-patrones.md"):
         table = BeautifulSoup('''
         <table class="tabla_patrones">
