@@ -6,6 +6,7 @@ title: Normativa y Guías
 |-------------:|------|-|
 |  Ley 39/2006 |        | Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia |
 |   Ley 3/2007 |        | Igualdad efectiva de mujeres y hombres |
+|  Ley 37/2007 | RISP   | Reutilización de la información del sector público |
 |  Ley 19/2013 | LTAIBG | Transparencia, acceso a la información pública y buen gobierno |
 |  Ley 39/2015 | PAC    | Procedimiento Administrativo Común de las AAPP |
 |  Ley 40/2015 | RJSP   | Régimen Jurídico del Sector Público |
@@ -141,6 +142,7 @@ Tabla: Artículos relevantes <span class="articulos"></span>
 | Art 44 Ley 40/2015<br/>Art 155 Ley 40/2015<br/>Art 13 RD 4/2010 | Red Sara |
 | Art 40 Ley 40/2015<br/>Art 42 Ley 40/2015<br/>Art 43 Ley 40/2015<br/>Sección 2º RD 203/2021 (Art 18-25) | Identificación y firma de las AAPP |
 | Art 157 Ley 40/2015<br/>Art 158 Ley 40/2015 | Reutilización |
+| Ley 37/2007 | Publicar datos en el portal de datos abiertos |
 
 <!--
 
