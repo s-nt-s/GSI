@@ -10,72 +10,12 @@ con su solución y yo te responderé enviándote los míos.
 
 * 2007_A2.lib_s1 - DGT
 * 2007_A2.lib_s2 - Agencia Estatal de Transportes y Postas
+* 2013_A2.lib_b3 - CONVOC@, Gestión documental para reuniones de comisiones
 * 2014_A2.lib_s1 - Centro Nacional de Información de Subvenciones y Ayudas (CeNaSyA)
+* 2016_A2.lib_s1 - Cartas de servicio (CdS) y Quejas y Sugerencias (QyS)
 * 2016_A2.lib_s2 - FONDE@, Gestión de Fondos Comunitarios
 
 # Supuestos cursos INAP
 
-Las ediciones anteriores del [curso INAP FSAP20000600000](https://campus.inap.es/v3/enrol/index.php?id=1808)
-han aportado ejemplos de supuestos prácticos resueltos.
-
-Aquí listo los que he podido recopilar. Los primeros 4 dígitos de cada
-item indican el año del curso INAP en el que se dio tal supuesto.
-
-## Bloque 1
-
-* 2019-B1_S01 RGPD 1
-* 2019-B1_S02 RGPD 2
-* 2019-B1_S03 PAC
-* 2019-B1_S04 ENS
-* 2019-B1_S05 MITRAMISS
-* 2019-B1_S06 Andalucia
-
-## Bloque 2
-
-* 2019-B2_S01 Seguridad social
-* 2019-B2_S02 Gestion informacion
-* 2019-B2_S03 Red
-* 2019-B2_S04 Computadoras remotas
-* 2019-B2_S05 Planes estrategicos
-* 2019-B2_S06 Muestreo
-
-## Bloque 3
-
-* 2016-B3_S01 Business angels
-* 2016-B3_S02 SEA
-* 2016-B3_S03 Oficinas consulares
-* 2016-B3_S04 Firma biometrica
-* 2016-B3_S05 Organismo publico
-* 2016-B3_S06 Becas turismo de España
-* 2016-B3_S07 Nacionalidad por residencia
-* 2016-B3_S08 Registro de contactos
-* 2016-B3_S09 Premios eTwinning
-* 2016-B3_S10 Etica en la Investigacion
-* 2018-B3_S01 Adhesiones
-* 2018-B3_S02 Procesos selectivos
-* 2018-B3_S03 Material oficina
-* 2018-B3_S04 Gestion presupuestaria
-* 2018-B3_S05 AYES
-* 2018-B3_S06 Notificaciones
-* 2019-B3_S01 Empleo juvenil
-* 2019-B3_S02 Compraventa
-
-## Bloque 4
-
-* 2016-B4_S01 PDS
-* 2016-B4_S02 Fibra optica
-* 2016-B4_S03 RRB
-* 2016-B4_S04 DGTIC
-* 2016-B4_S05 AEAT
-* 2016-B4_S06 CPD 1
-* 2016-B4_S07 Red
-* 2016-B4_S08 JOVENes
-* 2016-B4_S09 Smart city
-* 2018-B4_S01 OPI
-* 2018-B4_S02 Big data
-* 2018-B4_S03 Virtualizacion
-* 2018-B4_S04 Red
-* 2018-B4_S05 CPD 2
-* 2018-B4_S06 CPD 3
-* 2019-B4_S01 Traslado sede
-* 2019-B4_S02 Satisfaccion
+El [curso INAP FSAP20000600000](https://campus.inap.es/v3/enrol/index.php?id=1808)
+aporta [ejemplos resueltos que se pueden ver aquí]({filename}FSAP20000600000.md#supuestos).
