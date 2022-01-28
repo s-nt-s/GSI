@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20200722092601",
+    "@fecha_actualizacion": "20211227155602",
     "metadatos": {
       "identificador": "BOE-A-2017-12318",
       "titulo": "Orden ETU/1033/2017, de 25 de octubre, por la que se aprueba el cuadro nacional de atribuci\u00f3n de frecuencias.",
@@ -23,7 +23,7 @@
       "fecha_disposicion": "20171025",
       "fecha_publicacion": "20171027",
       "fecha_vigencia": "20171028",
-      "fecha_derogacion": null,
+      "fecha_derogacion": "20211225",
       "letra_imagen": "A",
       "pagina_inicial": "103115",
       "pagina_final": "103478",
@@ -40,8 +40,8 @@
         "#text": "Finalizado"
       },
       "judicialmente_anulada": "N",
-      "vigencia_agotada": "N",
-      "estatus_derogacion": "N",
+      "vigencia_agotada": "S",
+      "estatus_derogacion": "S",
       "url_epub": null,
       "url_pdf": "/boe/dias/2017/10/27/pdfs/BOE-A-2017-12318.pdf",
       "url_pdf_catalan": null,
@@ -103,6 +103,9 @@
                   "@rdf:resource": "https://www.boe.es/eli/es/o/2017/10/25/etu1033"
                 },
                 "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/con/20211224"
+                  },
                   {
                     "@rdf:resource": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/con/20200721"
                   },
@@ -168,6 +171,75 @@
                         }
                       }
                     ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/con/20211224",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/o"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2017-12318"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2017-10-25"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "etu1033"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2021-12-24"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/o/2017/10/25/etu1033"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/con/20211224/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Orden ETU/1033/2017, de 25 de octubre, por la que se aprueba el cuadro nacional de atribuci\u00f3n de frecuencias."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2021-12-24"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/con/20211224"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/con/20211224/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/o/2017/10/25/etu1033/con/20211224/spa"
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -462,12 +534,21 @@
                 "@codigo": "440",
                 "#text": "DE CONFORMIDAD con"
               },
-              "texto": "Real Decreto 123/2017, de 24 de febrero"
+              "texto": "el art. 6 del Reglamento aprobado por Real Decreto 123/2017, de 24 de febrero"
             }
           ]
         },
         "posteriores": {
           "posterior": [
+            {
+              "@referencia": "BOE-A-2021-21346",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "SE DEROGA"
+              },
+              "texto": ", por Orden ETD/1449/2021, de 16 de diciembre"
+            },
             {
               "@referencia": "BOE-A-2020-8286",
               "@orden": "",

@@ -60,26 +60,26 @@ Tabla 1: Supuestos GSI - bloque 3 desarrollo.
 
 | Supuesto       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
 |----------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 2008_A2.int_b3 |   |   |   |   | x | x |   |   |   |  x | x  | x  |    |    | x  |    |
+| 2008_A2.int_b3 |   |   |   |   | x |   | x |   |   | x  | x  | x  |    |    | x  |    |
 | 2008_A2.lib_b3 |   |   | x |   |   |   |   | x | x |    |    |    |    | x  |    |    |
 | 2009_A2.int_b3 |   | x |   |   | x |   |   | x |   |    |    | x  |    |    |    |    |
-| 2009_A2.lib_b3 |   |   |   |   | x |   | x |   |   |  x | x  | x  |    |    |    | x  |
+| 2009_A2.lib_b3 |   |   |   |   | x | x |   |   |   | x  | x  | x  |    |    |    | x  |
 | 2010_A2.int_b3 | x |   |   |   | x | x | x |   |   |    | x  | <  |    |    |    | x  |
 | 2010_A2.lib_b3 |   |   |   | x | x | x | x |   |   |    | x  |    |    |    |    | x  |
 | 2011_A2.int_b3 |   |   |   | x | x |   |   |   |   |    | x  | x  |    |    |    |    |
 | 2011_A2.lib_b3 | x |   |   |   |   | x | x |   |   |    | x  | x  |    |    | x  |    |
-| 2013_A2.int_b3 |   |   |   | x | x |   | x |   |   |    | x  | x  |    |    |    |    |
-| 2013_A2.lib_b3 |   | x | x |   |   | x |   | x | x |    |    |    |    | x  |    |    |
-| 2014_A2.int_b3 |   |   |   | x | x |   |   | x |   |  x |    |    | x  |    |    | x  |
-| 2014_A2.lib_s1 | x | x | x |   |   |   |   | x | x |  x |    | x  |    |    |    |    |
-| 2015_A2.int_b3 | x | x | x |   | x | x |   |   | x |    |    |    |    |    |    |    |
-| 2015_A2.lib_s1 | x |   |   | x | x |   |   | x |   |    | x  | <  |    |    |    |    |
+| 2013_A2.int_b3 |   |   |   | x | x | x |   |   |   |    | x  | x  |    |    |    |    |
+| 2013_A2.lib_b3 |   | x | x |   |   |   | x | < | x |    |    |    |    | x  |    |    |
+| 2014_A2.int_b3 |   |   |   | x | x |   |   | x |   | x  |    |    | x  |    |    | x  |
+| 2014_A2.lib_s1 | x | x | x |   |   |   |   | x | x | x  |    | x  |    |    |    |    |
+| 2015_A2.int_b3 | x | x | x |   | x |   | x |   | x |    |    |    |    |    |    |    |
+| 2015_A2.lib_s1 | x |   |   |   | x |   |   | x |   |    | x  | <  |    |    |    |    |
 | 2016_A2.int_b3 | x |   | x |   | x |   |   | x | x |    |    |    |    |    |    |    |
 | 2016_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    | x  |    |    |    |    |    |
-| 2017_A2.int_b3 | x |   |   |   | x | x |   |   |   |  x |    |    |    |    |    |    |
-| 2017_A2.lib_s1 |   |   |   |   | x |   |   | x |   |  x |    |    | x  |    |    |    |
-| 2018_A2.int_s1 |   |   | x |   |   | x | x |   |   |  x |    |    |    |    |    |    |
-| 2018_A2.lib_s1 |   |   |   | x |   | x | x |   |   |    | x  |    |    |    |    |    |
+| 2017_A2.int_b3 | x |   |   |   | x |   | x |   |   | x  |    |    |    |    |    |    |
+| 2017_A2.lib_s1 |   |   |   |   | x |   |   | x |   | x  |    |    | x  |    |    |    |
+| 2018_A2.int_s1 |   |   | x |   |   | x | x |   |   | x  |    |    |    |    |    |    |
+| 2018_A2.lib_s1 |   |   |   |   | x | x | x |   |   |    | x  |    |    |    |    |    |
 
 Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 
@@ -88,13 +88,13 @@ Tabla: Preguntas más repetidas <span class="preguntas_supuesto"></span>
 3. [Diagrama de contexto (DFD nivel 0)](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/)
 4. Identificación de requisitos funcionales
 5. [Diagrama de casos de uso](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/casos-de-uso/)
-6. [Diagrama de clases](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/)
-7. [Diagrama de secuencia](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia)
+6. [Diagrama de secuencia](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia)
+7. [Diagrama de clases](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/)
 8. [Modelo entidad/relación](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/)
 9. [Diagrama de flujo de datos](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos) (1º nivel = subsistemas)
 10. [Diagramas de componentes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/)
 11. [Diagrama de paquetes](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/)
-12. [Diagrama de despliegue](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/) / Arquitectura física
+12. [Diagrama de despliegue](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/) / Arquitectura física / Diagrama de red
 13. Definición de interfaces de usuario
 14. [Diagrama de transición de estados](https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/)
 15. Diseño de pruebas
