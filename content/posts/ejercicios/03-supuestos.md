@@ -18,4 +18,4 @@ con su solución y yo te responderé enviándote los míos.
 # Supuestos cursos INAP
 
 El [curso INAP FSAP20000600000](https://campus.inap.es/v3/enrol/index.php?id=1808)
-aporta [ejemplos resueltos que se pueden ver aquí]({filename}FSAP20000600000.md#supuestos).
+aporta [ejemplos resueltos que se pueden ver aquí]({filename}10-FSAP20000600000.md#supuestos).
