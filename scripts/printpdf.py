@@ -89,6 +89,7 @@ class PDF:
                     page_body.children += self.get_footer(styles, codigo, p)
 
         html.write_pdf(target)
+        print("+", target)
 
         if delFuente:
             remove(fuente)
@@ -99,6 +100,6 @@ if __name__ == "__main__":
     for md in rcglob(ROOT/"content/posts", "md"):
         MD = read(md)
         if MD.meta.get("pdf_code"):
-            print(md)
+            print(" ", md)
             pdf = PDF()
             pdf.to_pdf(md, overview=overview)

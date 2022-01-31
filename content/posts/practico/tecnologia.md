@@ -55,3 +55,4 @@ y el descubrimiento de servicios
 * Chatbot: Google Dialogflow, Watson Assistant de IBM (PLN), Rasa (python/tensorflow)
 * Apache Maven para construcción de proyectos
 * Licencias: EUPL, GPL
+* Trazabilidad: Stack ELK: Elasticsearch + Logstash + Kibana
