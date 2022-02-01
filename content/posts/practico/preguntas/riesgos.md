@@ -36,7 +36,7 @@ Los activos se clasifican en:
 
 | Activo | Amenaza | Vulnerabilidad | Impacto | Riesgo | Dimensión |
 |--------|---------|----------------|---------|--------|-----------|
-| Subsistama A | Que los organismos no cumplan la obligación | Baja | Alto | Medio | D |
+| Subsistema A | Que los organismos no cumplan la obligación | Baja | Alto | Medio | D |
 | ^ | Problemas de sincronización | Baja | Medio | Medio | ACID |
 | ^ | Código dañino en los datos | Baja | Medio | Medio | CID |
 | Subsistema B | Suplantación de identidad del usuario | Baja | Medio | Medio | ACI |
