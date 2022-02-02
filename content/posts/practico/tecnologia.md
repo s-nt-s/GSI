@@ -11,7 +11,7 @@ title: Tecnología
 * Istio para controlar el intercambio de datos entre los microservicios (service mesh)
 y el descubrimiento de servicios
 * Apache Kafka como bus de eventos (Message Broker) para comunicación asíncrono entre servicios
-* Openshift para cluster kubernetes autogestionado de nube privada (PaaS)
+* Openshift para cluster kubernetes autogestionado de nube privada (PaaS) con soporte profesional
 * AKS (Azuere), EKS (Amazon) para PaaS en nube pública
 * Estrategia maestro-detalle, carga perezosa (lazy)
 

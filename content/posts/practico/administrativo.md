@@ -88,6 +88,17 @@ Figura: Ciudadano (tramite)
 
 Figura: Funcionario (tramite)
 
+# Secuencia
+
+![](img/secuencia-ciudadano.png)
+
+Figura: Presentar solicitud
+
+
+![](img/secuencia-funcionario.png)
+
+Figura: Resolver expediente
+
 # Arquitectura lógica
 
 Se puede preguntar bajo el nombre de:
