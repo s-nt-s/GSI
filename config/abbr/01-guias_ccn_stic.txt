@@ -1,22 +1,22 @@
 CCN-STIC-800
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/499-ccn-stic-800-glosario-de-terminos-y-abreviaturas-del-ens/file.html
-Glosario de términos y abreviaturas del ENS
+Glosario de términos y abreviaturas
 
 CCN-STIC-801
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/501-ccn-stic-801-responsibilidades-y-funciones-en-el-ens/file.html
-Responsabilidades y Funciones en el ENS
+Responsabilidades y Funciones
 
 CCN-STIC-802
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/502-ccn-stic-802-auditoria-del-ens/file.html
-Auditoría del ENS
+Auditoría
 
 CCN-STIC-803
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/682-ccn-stic-803-valoracion-de-sistemas-en-el-ens-1/file.html
-Valoración de Sistemas en el ENS
+Valoración de Sistemas
 
 CCN-STIC-804
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/505-ccn-stic-804-medidas-de-implantancion-del-ens/file.html
-ENS. Guía de implantación
+Guía de implantación
 
 CCN-STIC-805
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/508-ccn-stic-805-politica-de-seguridad-de-la-informacion/file.html
@@ -24,15 +24,15 @@ Política de Seguridad de la Información
 
 CCN-STIC-806
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/511-ccn-stic-806-plan-de-adecuacion-al-ens/file.html
-Plan de Adecuación al ENS
+Plan de Adecuación
 
 CCN-STIC-807
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/513-ccn-stic-807-criptologia-de-empleo-en-el-ens/file.html
-Criptología de empleo en el ENS
+Criptología de empleo
 
 CCN-STIC-808
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/518-ccn-stic-808-verificacion-del-cumplimiento-de-las-medidas-en-el-ens-borrador/file.html
-Verificación del cumplimiento de las medidas en el ENS
+Verificación del cumplimiento de las medidas
 
 CCN-STIC-809
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/1279-ccn-stic-809-declaracion-de-conformidad-con-el-ens/file.html
@@ -44,7 +44,7 @@ Guía de Creación de CERT's
 
 CCN-STIC-811
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/521-ccn-stic-811-interconexion-en-el-ens/file.html
-Interconexión en el ENS
+Interconexión
 
 CCN-STIC-812
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/522-ccn-stic-812-seguridad-en-entornos-y-app-web/file.html
@@ -60,19 +60,19 @@ Seguridad en servicio de correo
 
 CCN-STIC-815
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/525-ccn-stic-815-indicadores-y-metricas-en-el-ens/file.html
-Indicadores y métricas en el ENS
+Indicadores y métricas
 
 CCN-STIC-816
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/2317-ccn-stic-816-seguridad-en-redes-inalambricas-en-el-ens/file.html
-Seguridad en Redes Inalámbricas en el ENS
+Seguridad en Redes Inalámbricas
 
 CCN-STIC-817
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/988-ccn-stic-817-gestion-de-ciberincidentes/file.html
-Esquema Nacional de Seguridad. Gestión de Ciberincidentes
+Gestión de Ciberincidentes
 
 CCN-STIC-818
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/527-ccn-stic-818-herramientas-de-seguridad-en-el-ens/file.html
-Herramientas de Seguridad en el ENS
+Herramientas de Seguridad
 
 CCN-STIC-819
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/3067-ccn-stic-819-medidas-compensatorias/file.html
@@ -84,7 +84,7 @@ Protección contra Denegación de Servicio
 
 CCN-STIC-821
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/529-ccn-stic-821-normas-de-seguridad-en-el-ens/file.html
-Normas de Seguridad en el ENS
+Normas de Seguridad
 
 CCN-STIC-822
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/537-ccn-stic-822-procedimientos-de-seguridad/file.html
@@ -99,8 +99,8 @@ https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-segurid
 Información del Estado de Seguridad
 
 CCN-STIC-825
-https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2148-ccn-stic-825-ens-national-security-framework-27001-certifications/file.html
-ENS - National Security Framework. Certifications 27001
+https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/543-ccn-stic-825-ens-iso27001/file.html
+Certificaciones 27001
 
 CCN-STIC-826
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4229-ccn-stic-826-implementacion-de-seguridad-nextcloud.html
@@ -112,7 +112,7 @@ Gestión y uso de dispositivos móviles
 
 CCN-STIC-830
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1674-ccn-stic-830-ambito-aplicacion-ens/file.html
-Ámbito de aplicación del Esquema Nacional de Seguridad
+Ámbito de aplicación
 
 CCN-STIC-831
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2728-ccn-stic-831-registro-de-la-actividad-de-los-usuarios/file.html
@@ -120,19 +120,19 @@ Registro de la actividad de los usuarios
 
 CCN-STIC-834
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/guias-de-acceso-publico-ccn-stic/3034-ccn-stic-834-proteccion-ante-codigo-danino-en-el-ens/file.html
-Protección ante Código Dañino en el ENS
+Protección ante Código Dañino
 
 CCN-STIC-835
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2031-ccn-stic-835-borrado-de-metadatos-en-el-marco-del-ens/file.html
-Borrado de metadatos en el marco del ENS
+Borrado de metadatos
 
 CCN-STIC-836
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2299-ccn-stic-836-seguridad-en-vpn-en-el-marco-del-ens/file.html
-ENS - Seguridad en VPN
+Seguridad en VPN
 
 CCN-STIC-837
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2707-ccn-stic-837-ens-seguridad-en-bluetooth/file.html
-ENS. Seguridad en Bluetooth
+Seguridad en Bluetooth
 
 CCN-STIC-844
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/1063-ccn-stic-844-manual-de-usuario-de-ines/file.html
@@ -176,7 +176,7 @@ Aplicación del ENS en organismos pagadores
 
 CCN-STIC-857
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5326-ccn-stic-857-requisitos-seguridad-para-aplicaciones-cibersalud.html
-Requisitos de seguridad para Aplicaciones de Cibersalud en el contexto del ENS
+Requisitos de seguridad para Aplicaciones de Cibersalud
 
 CCN-STIC-858
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/5099-ccn-stic-858-implantacion-de-sistemas-saas-en-modo-local-on-premise.html
@@ -192,7 +192,7 @@ Seguridad en el Servicio Outlook Web App (OWA) de MS Exchange Server 2010
 
 CCN-STIC-869
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/1159-ccn-stic-869-implementacion-de-applocker-en-el-esquema-nacional-de-seguridad/file.html
-Implementación de AppLocker en el ENS
+Implementación de AppLocker
 
 CCN-STIC-870A
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/982-870a-implementacion-ens-windows-server-2012-r2-jul15/file.html
@@ -257,6 +257,10 @@ Guía de configuración segura para Azure Cognitive Services
 CCN-STIC-884E
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6299-ccn-stic-884e-guia-de-configuracion-segura-para-azure-sentinel.html
 Guía de configuración segura para Azure Sentinel
+
+CCN-STIC-884F
+https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/6404-ccn-stic-884f-guia-de-configuracion-segura-para-microsoft-endpoint-manager.html
+Guía de configuración segura para Microsoft Endpoint Manager
 
 CCN-STIC-885
 https://www.ccn-cert.cni.es/pdf/guias/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/4256-ccn-stic-885a-guia-de-configuracion-segura-para-office-365.html

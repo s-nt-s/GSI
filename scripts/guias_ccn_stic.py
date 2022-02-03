@@ -4,6 +4,7 @@ from time import sleep
 
 re_sp = re.compile(r"\s+")
 re_cod = re.compile(r"^(CCN-STIC)\s+(\d+)\S*")
+re_trim = re.compile(r"^\s*(ENS\s*-|ENS\s*\.)\s*|\s+(en\s+el\s+(contexto|marco)\s+del\s+ENS|en\s+el\s+ENS|del\s+ENS|en\s+el\s+ENS|al\s+ENS)\s*$")
 
 def get_session(url):
     f = FF()
@@ -49,6 +50,8 @@ for url in urls:
         slp = cod.split(" ", 1)
         if len(slp)==2:
             cod, name = slp
+        name = name.replace("Esquema Nacional de Seguridad", "ENS")
+        name = re_trim.sub(r" ",name).strip()
         guias.add((cod.upper(), file, name))
 
 def sort_keys(x):
