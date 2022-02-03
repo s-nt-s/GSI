@@ -6,7 +6,7 @@ Listado de preguntas recurrentes que pueden aparecer en el supuesto práctico GS
 basado en los supuestos de años anteriores.
 
 Ver [sede.inap](https://sede.inap.gob.es/gsi) y [baquedano](http://www.baquedano.es/todo.html)
-o [descargar](supuestos.sh).
+o [descargar]({filename}/posts/practico/supuestos.sh).
 
 **NOTA**: Realmente solo tendré en cuenta de 2008 en adelante, ya que
 en los anteriores no se ve clara la actual distinción entre bloque 3
