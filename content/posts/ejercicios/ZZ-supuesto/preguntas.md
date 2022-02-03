@@ -1,1 +1,0 @@
-../../practico/preguntas.md
