@@ -2,38 +2,47 @@
 title: Normativa y Guías
 ---
 
-| <abbr title="Normativa">N</abbr> | <abbr title="Abreviatura">Abr</abbr> | Titulo |
-|-------------:|------|-|
+<!--
 |  Ley 39/2006 |        | Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia |
 |   Ley 3/2007 |        | Igualdad efectiva de mujeres y hombres |
-|  Ley 37/2007 | RISP   | Reutilización de la información del sector público |
-|  Ley 19/2013 | LTAIBG | Transparencia, acceso a la información pública y buen gobierno |
-|  Ley 39/2015 | PAC    | Procedimiento Administrativo Común de las AAPP |
-|  Ley 40/2015 | RJSP   | Régimen Jurídico del Sector Público |
-|  RD 203/2021 |        | Reglamento de actuación y funcionamiento del sector público por medios electrónicos |
-|    RD 3/2010 | ENS    | Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica |
-|    RD 4/2010 | ENI    | Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica |
-| RD 1112/2018 |        | Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (EN 301 549 V3.2.1) |
+--->
+
+| <abbr title="Normativa">N</abbr> | <abbr title="Abreviatura">Abr</abbr> | Titulo |
+|-------------:|----------|-|
+|  Ley 37/2007 | RISP     | Reutilización de la información del sector público |
+|  Ley 19/2013 | LTAIBG   | Transparencia, acceso a la información pública y buen gobierno |
+|  Ley 39/2015 | PAC      | Procedimiento Administrativo Común de las AAPP |
+|  Ley 40/2015 | RJSP     | Régimen Jurídico del Sector Público |
+|  RD 203/2021 |          | Reglamento de actuación y funcionamiento del sector público por medios electrónicos |
+|    RD 3/2010 | ENS      | Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica |
+|    RD 4/2010 | ENI      | Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica |
+| RD 1112/2018 |          | Accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (EN 301 549 V3.2.1) |
 |    LO 3/2018 | LOPD-GDD | Protección de Datos Personales y garantía de los derechos digitales |
-|  EU 2016/679 | RGPD   | Reglamento General de Protección de Datos |
+|  EU 2016/679 | RGPD     | Reglamento General de Protección de Datos |
 
 Tabla: Normativa
+
+<!--
+| RGPD |     ASSI-RGPD | Auditoría de Seguridad de los Sistemas de Información |
+-->
 
 | <abbr title="Ambito">Amb</abbr> | <abbr title="Herramienta o Guía">H/G</abbr> | Titulo |
 |-|---------------|--------|
 | ENS  |  CCN-STIC-801 | Responsabilidades y Funciones |
+| ENS  |  CCN-STIC-802 | Auditoría |
 | ENS  |  CCN-STIC-803 | Valoración de Sistemas |
 | ENS  |  CCN-STIC-804 | Guía de implantación |
 | ENS  |  CCN-STIC-812 | Seguridad en servicios web |
-| CCN-CERT |    AMPARO | Implantación y gestión de la seguridad (evaluación para declaración de conformidad) |
+| ENS  |  CCN-STIC-836 | Seguridad en VPN |
+| CCN-CERT |      INES | Asistente del Plan de Adecuación (categorizar) |
+| CCN-CERT |    AMPARO | Implantación y gestión de la seguridad (evaluación para declaración de conformidad, medidas de seguridad) |
 | CCN-CERT |    GLORIA | Gestión de incidentes y amenazas de ciberseguridad (Monitorización, logs) |
-| CCN-CERT | INES e IRIS | Evaluar estado de la seguridad |
 | CCN-CERT |     LUCIA | Listado de ciberincidentes |
 | CCN-CERT |     PILAR | Análisis y gestión de riesgos |
+| RGPD | Evalúa-Riesgo RGPD | Determina si hace falta una EIPD |
 | RGPD | Gestiona EIPD | Asistente para el análisis de riesgos y evaluaciones de impacto en protección de datos |
 | RGPD | Facilita RGPD | Herramienta para realizar un tratamiento de datos personales de escaso riesgo y cumplir el RGPD |
-| RGPD |     ASSI-RGPD | Auditoría de Seguridad de los Sistemas de Información |
-| RGPD | Comunica-Brecha<br/>RGPD | Valora la obligación de informar a las personas físicas afectadas por una brecha de seguridad de los datos personales (Art 34 RGPD) |
+| RGPD | <a class="abbr" href="https://www.aepd.es/es/guias-y-herramientas/herramientas/comunica-brecha-rgpd">Comunica-Brecha<br/>RGPD</a> | Valora la obligación de informar a las personas físicas afectadas por una brecha de seguridad de los datos personales (Art 34 RGPD) |
 |      | ISO 9241 | Recomendaciones sobre Usabilidad |
 
 Tabla: Herramientas o Guías
@@ -45,7 +54,7 @@ Tabla: Herramientas o Guías
 |   RD 3/2010 |  A1 | Categorías de los sistemas |
 |   RD 3/2010 |  A2 | Medidas de seguridad |
 |   RD 3/2010 |  A3 | Auditoría de la seguridad |
-|   RD 4/2010 |   6 | Carácter multidimensional de la interoperabilidad |
+|   RD 4/2010 |   6 | Carácter multidimensional de la interoperabilidad (organizativa, semántica y técnica) |
 |   RD 4/2010 |  10 | Activos semánticos |
 |   RD 4/2010 |  11 | Estándares aplicables |
 |   RD 4/2010 |  13 | Red SARA |
@@ -89,6 +98,7 @@ Tabla: Herramientas o Guías
 |        RGPD |  37 | Designación del delegado de protección de datos |
 |        RGPD |  39 | Funciones del delegado de protección de datos |
 |    LOPD-GDD | DA1 | Medidas de seguridad en el ámbito del sector público |
+| RD 203/2021 |   2 | Principios generales (neutralidad, accesibilidad, facilidad de uso, interoperabilidad, proporcionalidad, personalización) |
 | RD 203/2021 |   4 | Canales de asistencia para el acceso a los servicios electrónicos |
 | RD 203/2021 |   5 | Portales de internet de las AAPP |
 | RD 203/2021 |   6 | Creación y supresión de portales de internet en el ámbito estatal |
