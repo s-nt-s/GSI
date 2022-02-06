@@ -2,6 +2,10 @@ CMS
 https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos
 Sistema de gestión de contenidos
 
+Istio
+https://www.redhat.com/es/topics/microservices/what-is-istio
+Plataforma de malla de servicios que permite controlar el intercambio de datos entre los microservicios
+
 CCN-CERT
 https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional_Computer_Emergency_Response_Team
 Centro Criptológico Nacional Computer Emergency Response Team
