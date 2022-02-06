@@ -139,7 +139,7 @@ Tabla: Artículos relevantes <span class="articulos"></span>
 | Art 12 Ley 39/2015<br/>Art 30 RD 203/2021 | Identificación a través de funcionario habilitado y recogida del consentimiento |
 | Art 15 Ley 39/2015 | Cambiar el idioma de una aplicación (PLATA) |
 | Art 53 Ley 39/2015 | Consultar el estado de un trámite |
-| Art 28 Ley 39/2015<br/>Art 62 RD 203/2021 | No aportar datos que ya tiene las AAPP (PID) |
+| Art 28 Ley 39/2015<br/>Art 155 Ley 40/2015<br/>Art 62 RD 203/2021 | No aportar datos que ya tiene las AAPP (PID) |
 | RD 1112/2018<br/>EN 301 549 V3.2.1 | Accesibilidad |
 | Art 43 RD 3/2010<br/>Anexo 1 RD 3/2010<br/>CCN-STIC-803 | Categorizar sistema |
 | Anexo 2 RD 3/2010<br/>CCN-STIC-804 | Medidas ENS |
@@ -149,12 +149,14 @@ Tabla: Artículos relevantes <span class="articulos"></span>
 | DA1 LOPD-GDD | Proteger datos personales con el ENS (PILAR, ASSI-RGPD) |
 | Art 16 Ley 39/2015 | Registro electrónico |
 | Art 43 Ley 39/2015 | Notificaciones electrónicas |
+| Art 42 Ley 40/2015 | Sello electrónico y CSV (firma automatizada) |
 | Art 44 Ley 40/2015<br/>Art 155 Ley 40/2015<br/>Art 13 RD 4/2010 | Red Sara |
-| Art 40 Ley 40/2015<br/>Art 42 Ley 40/2015<br/>Art 43 Ley 40/2015<br/>Sección 2º RD 203/2021 (Art 18-25) | Identificación y firma de las AAPP |
-| Art 157 Ley 40/2015<br/>Art 158 Ley 40/2015 | Reutilización |
+| Art 157 Ley 40/2015<br/>Art 158 Ley 40/2015 | Reutilización (CTT, CISE) |
 | Ley 37/2007 | Publicar datos en el portal de datos abiertos |
 
 <!--
+| Art 40 Ley 40/2015<br/>Art 42 Ley 40/2015<br/>Art 43 Ley 40/2015<br/>Sección 2º RD 203/2021 (Art 18-25) | Identificación y firma de las AAPP |
+
 
 * **Consultar el estado de un tramite** da cumplimiento al **Art 53 Ley 39/2015**
 * **Cambiar el idioma** de una aplicación (PLATA) da cumplimiento al **Art 15 Ley 39/2015**
