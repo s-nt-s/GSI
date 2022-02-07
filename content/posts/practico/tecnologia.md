@@ -10,7 +10,7 @@ title: Tecnología
 * Kubernetes o Docker Swarm para orquestación
 * Istio para registro y motorización de microservicios (service mesh)
 y el descubrimiento de servicios
-* Apache Kafka como bus de eventos (Message Broker) para comunicación asíncrono entre servicios
+* Apache Kafka o RabbitMQ como bus de eventos (Message Broker) para comunicación asíncrona entre servicios
 * Openshift para cluster kubernetes autogestionado de nube privada (PaaS) con soporte profesional
 * AKS (Azuere), EKS (Amazon) para PaaS en nube pública
 * Estrategia maestro-detalle, carga perezosa (lazy)
