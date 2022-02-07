@@ -54,4 +54,4 @@ title: Tecnología
 * Chatbot: Google Dialogflow, Watson Assistant de IBM (PLN), Rasa (python/tensorflow)
 * Apache Maven para construcción de proyectos
 * Licencias: EUPL, GPL
-* Trazabilidad: Stack ELK: Elasticsearch + Logstash + Kibana
+* Trazabilidad: Elastic Stack: Elasticsearch + Logstash + Kibana
