@@ -8,8 +8,7 @@ title: Tecnología
 * Spring Cloud Gateway para la API REST
 * Docker para conterización
 * Kubernetes o Docker Swarm para orquestación
-* Istio para registro y motorización de microservicios (service mesh)
-y el descubrimiento de servicios
+* Istio para registro, motorización y descubrimiento de microservicios (service mesh)
 * Apache Kafka o RabbitMQ como bus de eventos (Message Broker) para comunicación asíncrona entre servicios
 * Openshift para cluster kubernetes autogestionado de nube privada (PaaS) con soporte profesional
 * AKS (Azuere), EKS (Amazon) para PaaS en nube pública
