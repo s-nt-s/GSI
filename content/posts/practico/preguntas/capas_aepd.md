@@ -26,7 +26,7 @@ En la 2º capa se incluirá:
 
 * contacto del representante y DPD (si existe), e identidad y contacto del representante (si existe)
 * descripción ampliada del tratamiento: Plazos, criterios de conservación, decisiones automatizadas, perfiles, lógica aplicada, etc
-* detalle de la base jurídica (obligación legal, iteres público o legitimo, etc)
+* detalle de la base jurídica (obligación legal, interes público o legitimo, etc)
 * destinatario o categorías de destinatarios, decisiones de adecuación, garantías, normas corporativas vinculantes, situaciones especificas aplicables, etc
 * Como ejercer los derechos de acceso, rectificación, supresión, potabilidad, oposición y limitación, derecho a retirar el consentimiento y reclamar ante la autoridad de control
 * en caso de tener datos no recogidos directamente del interesado:
