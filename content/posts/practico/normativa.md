@@ -146,7 +146,7 @@ Tabla: Artículos relevantes <span class="articulos"></span>
 | Art 6 RGPD | Motivos por los que es licito la recogida de datos |
 | Art 7 RGPD | Condiciones para obtener consentimiento para la recogida de datos |
 | Art 35 RGPD | Cuando se debe realzar una EIDP |
-| DA1 LOPD-GDD | Proteger datos personales con el ENS (PILAR, ASSI-RGPD) |
+| DA1 LOPD-GDD | Proteger datos personales con el ENS (PILAR) |
 | Art 16 Ley 39/2015 | Registro electrónico |
 | Art 43 Ley 39/2015 | Notificaciones electrónicas |
 | Art 42 Ley 40/2015 | Sello electrónico y CSV (firma automatizada) |
