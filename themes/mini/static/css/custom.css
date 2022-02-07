@@ -218,3 +218,15 @@ table.preguntas_supuesto tbody td.td_x {
 table.preguntas_supuesto caption {
   display: none;
 }
+
+body.practico_preguntas_planificacion table td, body.practico_preguntas_planificacion table th {
+  min-width: 1.5em;
+}
+body.practico_preguntas_planificacion table td.td_x {
+  background-color: violet;
+  color: transparent;
+}
+body.practico_preguntas_planificacion table td.td_X {
+  background-color: darkviolet;
+  color: transparent;
+}

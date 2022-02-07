@@ -267,7 +267,7 @@ def mod_content(content, *args, **kargv):
 
     for td in soup.findAll("td"):
         if td.get_text().strip().lower() == 'x':
-            add_class(td, "td_x")
+            add_class(td, "td_"+td.get_text().strip())
 
     '''
     for td in soup.findAll("td"):
