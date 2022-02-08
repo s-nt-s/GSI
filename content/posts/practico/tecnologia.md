@@ -55,3 +55,5 @@ title: Tecnología
 * Apache Maven para construcción de proyectos
 * Licencias: EUPL, GPL
 * Trazabilidad: Elastic Stack: Elasticsearch + Logstash + Kibana
+* Gestión y analisis de logs: GrayLog, Splunk
+* Estrategia de sustitución: [azul-verde](https://www.redhat.com/es/topics/devops/what-is-blue-green-deployment)
