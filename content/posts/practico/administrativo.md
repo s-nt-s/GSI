@@ -33,7 +33,7 @@ title: Procedimiento Administrativo
 | Cl@ve      | autenticar ciudadanos |
 | Autentica  | autenticar funcionarios |
 | Representa | funcionarios habilitados (Habilita) y apoderamientos (Apodera) |
-| Notifica   | enviar notificaciones y avisos |
+| Notifica   | enviar notificaciones y comunicaciones |
 | SIM        | enviar avisos (SMS, push, etc) |
 | Geiser     | registro electrónico |
 | Geiser+SIR | derivar a otro organismo |
@@ -98,6 +98,34 @@ Figura: Presentar solicitud
 ![](img/secuencia-funcionario.png)
 
 Figura: Resolver expediente
+
+# Expediente administrativo
+
+La idea básica es que un ciudadano realiza una solicitud, y esta inicia
+un expediente.
+
+![](img/clases-expediente.png)
+
+Figura: Diagrama de clases del Expediente electrónico
+
+![](img/entidades-expediente.png)
+
+Figura: Diagrama Entidad/Relación del Expediente electrónico
+
+# Arquitectura de red
+
+Se puede preguntar bajo el nombre de:
+
+* Arquitectura de red
+* Arquitectura física
+* Diagrama de despliegue
+* Infraestructura
+* Propuesta tecnología (incluye también arquitectura lógica)
+
+![](img/red.png)
+
+El uso de lineas de defensa (FW) da cumplimiento al Art [4](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
+y [8](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a8) del ENS (RD 3/2010).
 
 # Arquitectura lógica
 
@@ -177,31 +205,3 @@ Se puede preguntar bajo el nombre de:
 <div data-close></div>
 
 <div data-close></div>
-
-# Arquitectura de red
-
-Se puede preguntar bajo el nombre de:
-
-* Arquitectura de red
-* Arquitectura física
-* Diagrama de despliegue
-* Infraestructura
-* Propuesta tecnología (incluye también arquitectura lógica)
-
-![](img/red.png)
-
-El uso de lineas de defensa (FW) da cumplimiento al Art [4](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a4)
-y [8](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#a8) del ENS (RD 3/2010).
-
-# Expediente administrativo
-
-La idea básica es que un ciudadano realiza una solicitud, y esta inicia
-un expediente.
-
-![](img/clases-expediente.png)
-
-Figura: Diagrama de clases del Expediente electrónico
-
-![](img/entidades-expediente.png)
-
-Figura: Diagrama Entidad/Relación del Expediente electrónico
