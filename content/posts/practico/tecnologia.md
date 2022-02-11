@@ -17,7 +17,7 @@ title: Tecnología
 # Arquitecura 3 capas
 
 * Front: Angular, HTML5+JavaScript+CSS3
-* Back: Jakarta EE, Srping o Struts
+* Back: Jakarta EE, Spring o Struts
 * Servidor Web: Apache o Nginx
 * Servidor de aplicaciones: Wildfly, Apache Geronimo, Weblogic Application Server (Oracle), WebSphere App Server (IBM)
 * ORM: Hibernate o JPA
