@@ -16,14 +16,15 @@ title: Tecnología
 
 # Arquitecura 3 capas
 
-* Front: Angular, HTML5+JavaScript+CSS3
+* Front: Angular, Vue.js, React (HTML5+JavaScript+CSS3)
 * Back: Jakarta EE, Spring o Struts
 * Servidor Web: Apache o Nginx
 * Servidor de aplicaciones: Wildfly, Apache Geronimo, Weblogic Application Server (Oracle), WebSphere App Server (IBM)
 * ORM: Hibernate o JPA
-* Gestor documental: Alfresco, OpenKM, Nuxeo
+* Gestor documental: Alfresco, OpenKM, Nuxeo, Sharepoint, Documentum
+* Gestor de contenidos: Drupal, Joomla, Wordpress
 * Base de datos: PostgreSQL, MariaDB, Oracle, SQL Server
-* Alta disponibilidad en BD: Oracle RAC o Pgpool-II
+* Alta disponibilidad en BD: Pgpool-II, Galera, Oracle RAC
 * Web Services: SOAP + WSDL con WS-Security
 * Memcached para cache
 
@@ -33,7 +34,7 @@ title: Tecnología
 * Nativa: Android (Java/Kotlin), iOS (Objective-C/Swift)
 * Hibrida: React Native (Javascript), Xamarin (.NET), Ionic (Web Components, Apache Cordova)
 * Tiendas: Google Play y Apple Store
-* Firma: Cliente @firma móvil
+* Firma: Cliente @firma móvil, Cl@ve firma nube, DNIe/Smartcard, certificados SW en navegador
 
 # Cuadro de mando
 
