@@ -146,11 +146,11 @@ como la destrucción una vez transcurrido dicho plazo
 El responsable del tratamiento deberá realizar una **EIPD** cuando:
 
 * Se utilicen nuevas tecnologías y su naturaleza, alcance, contexto o fines
-del tratamiento prevean un alto riesgo.
-* El tratamiento se base en una elaboración de perfiles.
+del tratamiento prevean un alto riesgo
+* El tratamiento se base en una elaboración de perfiles
 * Se traten datos de categorías especiales
 * Tratamiento a gran escala basado en la observación sistemática de una
-zona de acceso público o en categorías especiales de datos.
+zona de acceso público
 
 Adicionalmente, en el caso de datos relacionados con la protección social y la salud pública
 se necesitará una autorización previa antes de realizar operaciones de tratamiento arriesgadas.
