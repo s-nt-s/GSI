@@ -352,7 +352,7 @@ sobre la evolución de los derechos y las medidas necesarias para su impulso.
 
 # Implicaciones en el Procedimiento Administrativo Común
 
-Salvo oposición del interesado, las AAPP deben recavar los documentos que
+Salvo oposición del interesado, las AAPP deben recabar los documentos que
 necesiten mediante la plataforma de intermediación ya que
 **es un derecho del interesado no aportar documentación**
 que ya se encuentra en posesión de alguna AP.
