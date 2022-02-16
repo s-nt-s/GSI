@@ -113,3 +113,7 @@ Supuesto práctico A2 2018 (convocatoria interna)
 r'\b2018_A2\.lib
 https://sede.inap.gob.es/documents/59312/1767342/EXAMEN_3jer_GSILI_+OEP18_154AB89SD658.pdf/97634bc6-7c4d-122c-b239-ef2d0fb70399 download="2018_A2.lib"
 Supuesto práctico A2 2018 (convocatoria libre)
+
+r'\b2019_A2\.int
+https://sede.inap.gob.es/documents/59312/1925742/COMPLETOGSI-PI_E9H6S4WGF3_154AB89SD658.pdf/2c0a8001-3e97-a165-4cd8-0c942ea10b18
+Supuesto práctico A2 2019 (convocatoria interna)
