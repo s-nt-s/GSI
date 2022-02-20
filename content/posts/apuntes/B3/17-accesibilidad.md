@@ -29,11 +29,11 @@ la **UNE-EN 301549**, estando ambas basadas en la WCAG (el nivel exigido es el A
 
 | EN | UNE-EN | WCAG | Vigencia |
 |-|-|-|-|
-| [EN 301 549 v3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf):2021 | | WCAG 2.1 | |
-| [EN 301 549 v3.1.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf):2019 | [UNE-EN 301549:2020](https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma/?c=N0063691) | WCAG 2.1 | 2020-04-22 .. Vigente |
-| [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf):2018 | [UNE-EN 301549:2019](https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma/?c=N0061677) | WCAG 2.1 | 2019-04-10 .. 2020-04-22 |
+| [EN 301 549 v3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf):2021 | [UNE-EN 301549:2022](https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma?c=N0068037) | WCAG 2.1 | 2022-01-05 .. Vigente |
+| [EN 301 549 v3.1.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf):2019 | [UNE-EN 301549:2020](https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma?c=N0063691) | WCAG 2.1 | 2020-04-22 .. 2022-02-11 |
+| [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf):2018 | [UNE-EN 301549:2019](https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma?c=N0061677) | WCAG 2.1 | 2019-04-10 .. 2020-04-22 |
 
-Tabla: Correspondencia estándares
+Tabla: Correspondencia estándares ([última en español](http://administracionelectronica.gob.es/PAe/accesibilidad/une-en-301549-2020.pdf))
 
 # WAI
 
