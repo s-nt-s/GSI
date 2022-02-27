@@ -61,7 +61,7 @@ class PDF:
         footer_body = footer_body.copy_with_children(footer_body.all_children())
         return footer_body.all_children()
 
-    def to_pdf(self, fuente, codigo=None, body_class=None, overview=False):
+    def to_pdf(self, fuente, codigo=None, body_class=None, overview=False, pag_code=0, pag_mod=2):
         fuente = str(fuente)
         target = fuente.rsplit(".", 1)[0] + ".pdf"
         if isfile(target) and not overview:
@@ -81,11 +81,11 @@ class PDF:
 
         html = HTML(fuente).render(stylesheets=styles)
 
-        if len(html.pages)>2:
+        if len(html.pages)>pag_mod:
             for i, page in enumerate(html.pages):
                 page_body = self.get_page_body(page._page_box.all_children())
-                if i % 2 == 0:
-                    p = int((i / 2) + 1)
+                if i % pag_mod == pag_code:
+                    p = int((i / pag_mod) + 1)
                     page_body.children += self.get_footer(styles, codigo, p)
 
         html.write_pdf(target)
@@ -102,4 +102,9 @@ if __name__ == "__main__":
         if MD.meta.get("pdf_code"):
             print(" ", md)
             pdf = PDF()
-            pdf.to_pdf(md, overview=overview)
+            pdf.to_pdf(
+                md,
+                overview=overview,
+                pag_code=int(MD.meta.get('pag_code',0)),
+                pag_mod=int(MD.meta.get('pag_mod',2)),
+            )
