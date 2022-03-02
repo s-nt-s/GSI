@@ -40,7 +40,7 @@ realizar desde la web.
 
 ## 4. ¿Cómo solventa la debilidad de la poca experiencia en el desarrollo de aplicaciones móviles?
 
-Para una necesidad inmediata será tendrá que contratar asistencia
+Para una necesidad inmediata se tendrá que contratar asistencia
 técnica con experiencia demostrable en el desarrollo de aplicaciones móviles.
 
 Mientras tanto se podrán realizar cursos de formación que capaciten al
@@ -49,7 +49,7 @@ personal propio para el desarrollo de aplicaciones móviles.
 ## 5. ¿En qué se basa para decir que hay suficientes recursos económicos?
 
 He supuesto que la AEAT, por su volumen de actividad, dispone de suficientes
-recursos para este tipo de proyecto. Además el proyecto esta en sintoniza con el Plan de Digitalización de las AAPP y España Digital 2025, por lo que
+recursos para este tipo de proyecto. Además el proyecto esta en sintonía con el Plan de Digitalización de las AAPP (2021-2025) y el plan España Digital 2025, por lo que
 tendrá facilidades para obtener los fondos necesarios.
 
 NOTA: Realmente no se si lo de la App Factory consiste en que te van
@@ -234,6 +234,14 @@ ser desplegada en nuestros propios servidores.
 
 En la parte servidor, cuando se genere el borrador la AEAT podrá consultar a través de la PID los datos del ciudadano que obren en manos de otras AAPP y puedan servir para completar el borrador.
 
+Para el caso de esta aplicación podemos usar:
+
+* Servicios de Verificación y Consulta de Datos de Identidad (SVDI) que consulta datos de la DGP
+* Servicio de Verificación de Datos de Residencia (SVDR) que consulta en el ENI datos de empadronamiento
+* Servicio de Verificación de Datos de Prestación de Desempleo (SVDP) que obtiene datos del SEPE
+* Servicio de Verificación de Datos Catastrales para obtener datos sobre las propiedades del declarante
+
+
 ## 21. ¿Dónde viene regulado el multilingüismo?
 
 El multilingüismo viene regulado en la ley 39/2015, en concreto
@@ -327,8 +335,7 @@ Si, viene recogido en el articulo 53, Derechos del interesado en el procedimient
 
 ## 29. ¿Ha contemplado la posibilidad de recibir notificaciones?
 
-Si, entre los casos de uso del sistema habría uno que sería enviar notificaciones, el cual usaría el servicio compartido SIM. Esto se traduce en que la app del usuario recibiría una notificación push, de manera que el usuario puede desencadenar el caso de uso 'Consultar', que extiende de 'Gestionar avisos y notificaciones',
-para leerla.
+Si, entre los casos de uso del sistema habría uno que sería enviar notificaciones, el cual usaría el servicio compartido SIM. Esto se traduce en que la app del usuario recibiría una notificación push, de manera que el usuario puede desencadenar el caso de uso 'Consultar', que extiende de 'Gestionar avisos y notificaciones', para leerla.
 
 ## 30. ¿Qué es un CSV?
 
@@ -465,6 +472,9 @@ posible.
 En todos los casos existe la opción de firmar en nube, o firmar en cliente
 a través de la aplicación de firma instalada en el dispositivo móvil.
 
+Por otro lado, tal como dice el articulo 10.4 de la ley 39/2015, si existe una la normativa reguladora aplicable que lo disponga expresamente se podrá admitir el sistema de identificación como sistema de firma cuando permitan acreditar la autenticidad de la expresión de la voluntad y consentimiento de los interesados.
+Es decir, podríamos presentar una ventana recogiendo la voluntad y consentimiento de firmar del interesado, y como este ya ha sido previamente autenticado, dar por realizada la firma.
+
 # Pregunta 5
 
 ## 44. ¿Cómo realiza las pruebas automáticas de código?
@@ -487,7 +497,7 @@ Podemos usar para ello:
 * iOS: XCUITest
 * Ambos: Appium, EarlGrey (Android, y con XCUITest iOS)
 
-<strike>
+<strike title="Tachado porque no lo tengo claro">
 * Android: Espresso con AccessibilityChecks, Accessibility Test Framework for Android, Accessibility Insights, Accessibility Scanner
 * iOS: xiblint, UBKAccessibilityKit, A11yUITests, Accessibility Verifier
 </strike>
@@ -557,7 +567,7 @@ Estos se diferencian de errores que han de ser revisados por humanos, como:
 la falta de un mecanismo para saltar bloques en una pantalla que no los necesita.
 
 
-------
+----------------------------------------
 
 # 1 DAFO y Normativa
 
@@ -599,17 +609,6 @@ las cuales serían avisos enviados con SIM.
 
 # 2 Caso de uso
 
-## ¿Sólo se puede usar Clave para autenticarse? ¿Con certificados en el móvil? ¿Y Clave PIN?
-
-Cl@ve permite autenticarse con:
-
-* Cl@ve PIN (AEAT): código elegido por el usuario y un PIN comunicado al teléfono mediante la app Cl@ve PIN o SMS
-* Cl@ve Permanente (GISS): usuario y contraseña reforzado con una que se obtiene vía SMS (OTP)
-* Certificado Electrónico (incluyendo DNIe)
-* Otros reconocidos por el eIDAS (SGAD)
-
-Por lo tanto con Cl@ve se da cumplimiento al articulo 9, Sistemas de identificación de los interesados en el procedimiento, de la ley 39/2015
-
 ## ¿No firmaría el PDF de la declaración?
 
 Si, el PDF de la declaración podría ir firmado con CSV para poder ser cotejado
@@ -627,17 +626,6 @@ que se hizo la declaración.
 
 Se vinculan al ciudadano para un acceso más rápido, ya que su consulta es uno
 de los tramites que se quiere ofrecer de forma ágil y sencilla desde la aplicación.
-
-## Si aparece DIR3 en las clases ¿Por qué no aparece como servicio en los casos de uso?
-
-Porque ningún caso de uso desencadenado por el usuario provoca una consulta
-en el servicio común Dir3, ya las oficinas son de la propia AEAT y por tanto
-ese dato ya lo tenemos sin necesidad de consultar Dir3.
-
-En cualquier caso, si hiciera falta consultar Dir3, esto no se haría
-al vuelo por cada petición del usuario, si no que sería un trabajo
-batch periódico del sistema para cargar dichos datos en su propia
-base de datos.
 
 ## ¿Cómo se obtiene el apartado 505 de la declaración?
 
@@ -660,3 +648,9 @@ por la creación de un .ics que por defecto será abierto por la aplicación del
 
 ¹ En Android 11 (API 30) o posterior este permiso puede ser
 un 'premiso único', es decir, se otorga para 'solo esta vez'.
+
+# Otras
+
+## ¿Es un procedimiento administrativo?
+
+Si

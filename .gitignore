@@ -11,6 +11,7 @@ content/posts/otros/metrica_v3.md
 config/metrica/html
 debug/
 *btic
+*.backup
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
