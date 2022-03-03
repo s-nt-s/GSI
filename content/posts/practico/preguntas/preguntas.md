@@ -537,7 +537,7 @@ ISO 9241 es una norma enfocada a la calidad en usabilidad y ergonomía creada po
 Esta norma esta dividida en varias partes, siendo la parte 11 la centrada en guiás de usabilidad. En ella se definen tres componentes:
 
 * eficacia: examina la habilidad del usuario para completar una tarea, considerando que la tarea se ha completado exitosamente cuando no se produce ningún error y no se pide asistencia
-* efectividad: examina los recursos necesarios para completar una tarea.
+* eficiencia: examina los recursos necesarios para completar una tarea.
 Se puede recoger información del usuario con la Pregunta de facilidad única (SEQ) en la que se evaluá la dificultad de la tarea (1=muy fácil, 7=muy difícil)
 * satisfacción: examina la opinión y feedback del usuario.
 Se pude recoger información del usuario a través de Escala de usabilidad del sistema (SUS), 10 sentencias evaluadas del 1 (muy en desacuerdo) al 5 (muy de acuerdo).
