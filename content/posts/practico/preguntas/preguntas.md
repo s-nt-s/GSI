@@ -3,7 +3,7 @@ title: Preguntas
 summary: 'Preparación de la defensa de 2019_A2.int.s1'
 pdf_code: PR
 pag_code: 1
-pag_mod: 4
+pag_mod: 2
 status: draft
 ---
 
@@ -23,7 +23,7 @@ El DAFO es realizado por el Jefe de proyecto.
 
 Si nuestro equipo tiene una larga trayectoria en el desarrollo de
 aplicaciones tradicionales, puede resistirse a cambiar a una arquitectura
-basada en apps, debido ha los cambios que supone, como:
+basada en apps, debido a los cambios que supone, como:
 
 * Pasar a una arquitectura basada en apis REST
 * Tener que someterse a las condiciones y requisitos de las App Stores
@@ -90,7 +90,7 @@ el registro electrónico, las notificaciones, etc
 
 ## 9. ¿Qué es el RGPD?
 
-El RGPD es el reglamento general de protección de datos, el cual es una normativa a nivel de Unión Europea.
+El RGPD es el reglamento general de protección de datos, el cual es una normativa a nivel de Unión Europea (Reglamento (UE) 2016/679).
 
 Este reglamento se aplica cuando quien controla o procesa los datos
 tienen sede en la UE, o cuando - aún no teniendo sede en la UE - se recopilan
@@ -113,14 +113,13 @@ Las directivas son normas que vinculan a los estados miembros en cuanto al resul
 ### 9b. ¿Qué es una evaluación de impacto y por qué es necesario?
 
 La necesidad o no de realizar una EIPD viene dada por el resultado de un
-análisis de riesgos para determinar el posible impacto de los tratamientos
-de datos sobre los derechos y libertades de las personas.
+análisis de riesgos para determinar el tratamiento de datos representa un alto riesgo sobre los derechos y libertades de las personas.
 
 La EIPD será necesaria cuando en el análisis de riesgos se detecte que:
 
 * se utilizan nuevas tecnologías que entrañen un alto riesgo
 * el tratamiento se basa en elaboración de perfiles
-* se traten datos de categorías especiales (origen étnico, opiniones políticas, convicciones religiosas/filosóficas/sindicales, datos genéticos, meretricios, relativos a la salud, vida u orientación sexual)
+* se traten datos de categorías especiales (origen étnico, opiniones políticas, convicciones religiosas/filosóficas/sindicales, datos genéticos, biométricos, relativos a la salud, vida u orientación sexual)
 * se haga un tratamiento a gran escala basado en la observación sistemática de zonas de acceso público
 
 La EIPD debe contender una descripción de las operaciones de tratamiento previstas y sus fines, las medidas para afrontar los riesgos y los mecanismos que garanticen la protección de datos.
@@ -131,7 +130,7 @@ Se podrá consultar con el DPD si se necesita asesoramiento.
 
 ## 10. ¿Cómo aplica el RD 1112/2018 al sistema?
 
-Se aplicará a siguiendo la norma UNE-EN 301549:2022, que corresponde
+Se aplicará siguiendo la norma UNE-EN 301549:2022, que corresponde
 al nivel AA de las WCAG 2.1
 
 Para ello podemos utilizar las herramientas de referencia del mercado
@@ -140,6 +139,12 @@ perceptible, operable, comprensible y robusto.
 
 Además haremos pruebas con usuarios con distintos grados de discapacidad
 para asegurar que el resultado final es satisfactorio.
+
+Para dejar constancia del nivel de accesibilidad alcanzado se debe redactar una declaración de accesibilidad incluyendo un mecanismo para reclamaciones, reportar errores y solicitar información.
+
+Dicha declaración debe ser actualizada como mínimo una vez al año o cuando se realice una revisión de accesibilidad.
+
+Tales revisiones contemplan pruebas automáticas y revisión manual experta exponiendo sus resultados en un informe de revisión de accesibilidad.
 
 ## 11. ¿Qué es una norma UNE?
 
@@ -193,14 +198,14 @@ por la aplicación para la descarga de la declaración presentada.
 ## 13. ¿Qué es el CTT y dónde viene regulado?
 
 Es el centro de transferencia tecnológica, el cual consiste en
-un directorio general de aplicaciones o/y soluciones para fomentar
+un directorio general de aplicaciones y/o soluciones para fomentar
 la reutilización entre las AAPP.
 
 Sirve de repositorio común de software y servicios, siendo
 una base común de conocimiento.
 
 El CTT surge del ENI, RD 4/2010, y esta regido en el
-artículo 158 de la ley 40/2015.
+artículo 157 y 158 de la ley 40/2015.
 
 ## 14. ¿Qué es el CISE y donde viene regulado?
 
@@ -213,9 +218,9 @@ que permiten describir los datos para su intercambio,
 lo cual constituye el fundamento de la dimensión semántica de la
 interoperabilidad.
 
-Esta regulado por la NTI de Relación de modelos de datos.
+Esta regulado por la NTI de Relación de modelos de datos, y en el articulo 10 (activos semánticos) y la disposición adicional 1º del ENI.
 
-## 16. ¿Qué es un chatbot?
+## 15. ¿Qué es un chatbot?
 
 Es una aplicación software capaz de mantener una conversación,
 normalmente a través de mensajes de texto.
@@ -224,25 +229,25 @@ Los más avanzados usan tecnologías de procesamiento del
 lenguaje natural e inteligencia artificial, en concreto
 algoritmos de aprendizaje automático.
 
-### 18. ¿Por qué tecnología se decantaría?
+### 16. ¿Por qué tecnología se decantaría?
 
 Elegiría Rasa, al ser una solución de código abierto
-y que nos permite mantener el control y los datos, que que puede
+y que nos permite mantener el control y los datos, ya que puede
 ser desplegada en nuestros propios servidores.
 
-## 20. ¿Para qué usa la PID?
+## 17. ¿Para qué usa la PID?
 
 En la parte servidor, cuando se genere el borrador la AEAT podrá consultar a través de la PID los datos del ciudadano que obren en manos de otras AAPP y puedan servir para completar el borrador.
 
 Para el caso de esta aplicación podemos usar:
 
 * Servicios de Verificación y Consulta de Datos de Identidad (SVDI) que consulta datos de la DGP
-* Servicio de Verificación de Datos de Residencia (SVDR) que consulta en el ENI datos de empadronamiento
+* Servicio de Verificación de Datos de Residencia (SVDR) que consulta en el INE datos de empadronamiento
 * Servicio de Verificación de Datos de Prestación de Desempleo (SVDP) que obtiene datos del SEPE
 * Servicio de Verificación de Datos Catastrales para obtener datos sobre las propiedades del declarante
 
 
-## 21. ¿Dónde viene regulado el multilingüismo?
+## 18. ¿Dónde viene regulado el multilingüismo?
 
 El multilingüismo viene regulado en la ley 39/2015, en concreto
 en el articulo 13 Derechos de las personas en sus relaciones con las AAPP
@@ -266,7 +271,7 @@ Las formas de autenticación que admite son:
 * Cl@ve PIN (AEAT): código elegido por el usuario y un PIN comunicado al teléfono mediante la app Cl@ve PIN o SMS
 * Cl@ve Permanente (GISS): usuario y contraseña reforzado con una OTP que se obtiene vía SMS
 * Certificado Electrónico (incluyendo DNIe)
-* Otros reconocidos por el eIDAS (SGAD)
+* Otros reconocidos por el eIDAS (SGAD): Sistema europeo de reconocimiento de identidades electrónicas
 
 Por lo tanto con Cl@ve se da cumplimiento al articulo 9, Sistemas de identificación de los interesados en el procedimiento, de la ley 39/2015
 
@@ -292,7 +297,7 @@ Si
 ## 24. ¿Ha contemplado la solicitud de cita previa? ¿cómo sería?
 
 La solicitud de cita previa se haría consultando la disponibilidad de horarios
-libres, permitiendo al ciudadano reservar una fecha y hora.
+libres, permitiendo al ciudadano reservar una fecha, hora y lugar.
 
 Para ello podemos usar el servicio común Cita Previa, en concreto su componete PCP que es el backend del servicio, ya que el componente ICP, su front, no será
 necesario pues usaremos la propia app como front.
@@ -309,6 +314,8 @@ Cubre la gestión de oficinas de registro de entrada/salida y la recepción y en
 La aplicación permite la digitalización de la documentación presentada por el ciudadano en las oficinas.
 
 Además cumple la norma SICRES, por lo tanto permite el intercambio de registros con otros organismos conectados a la plataforma SIR.
+
+Da cumplimiento al Art 16 de la Ley 39/2015.
 
 ## 27. ¿Qué es fire?
 
@@ -381,14 +388,14 @@ El NRP es el número de registro personal. Cada funcionario tiene asignado uno q
 
 ## 36. ¿Cómo se mide el rendimiento?
 
-En Android se puede usar herramientas como systrace para examinar
-problemas de latencia, Sumpleperf para determinar las funciones que
-consumen más CPU, y se pueden generar perfiles de memoria para
-identificar fugas y perdidas de memoria.
+El rendimiento se mide observando los tiempos de latencia, el consumo de CPU y las fugas o perdidas de memoria.
 
-Estas herramientas y otras están integradas en Android Profiler
-para proporcionan datos en tiempo real. Se puede hacer correr
-la aplicación tanto en móviles reales como en máquinas virtuales.
+En Android podemos hacer esto mediante Android Profiler que proporciona datos en tiempo real corriendo aplicaciones móviles tanto en dispositivos reales como máquinas virtuales.
+
+Integra la herramienta systrace para examinar
+problemas de latencia, Sumpleperf para determinar las funciones que
+consumen más CPU y se pueden generar perfiles de memoria para
+identificar fugas y perdidas de memoria.
 
 También se puede usar Jetpack Macrobenchmark para escribir pruebas
 de rendimiento como código.
@@ -449,11 +456,13 @@ de las peculiaridades de cada sistema.
 La mejor experiencia de usuario proporcionada por un mejor rendimiento
 y una mayor compatibilidad con los dispositivos móviles y sus funciones.
 
+Además será más compatible con la capa de accesibilidad del S.O. lo que repercutirá en la experiencia de usuario de las personas que necesitan herramientas de apoyo.
+
 ## 42. Hable de los costes para las alternativas.
 
 En el caso de una Aplicación Web Progresiva el coste es el mismo que en
 el desarrollo de una aplicación web, simplemente se ha de tener en consideración
-los estándares que debe cumplir una web para ser progresiva.
+los estándares que debe cumplir una web para ser progresiva, como el uso de Service worker y manifest.
 
 Las aplicaciones híbridas y nativas tienen en común los costes de publicar
 en las tiendas oficiales de las principales plataformas.
@@ -470,10 +479,11 @@ posible.
 ## 43. Hable de la firma para las tres alternativas.
 
 En todos los casos existe la opción de firmar en nube, o firmar en cliente
-a través de la aplicación de firma instalada en el dispositivo móvil.
+a través de la aplicación de firma instalada en el dispositivo móvil (Cliente @firma móvil).
 
 Por otro lado, tal como dice el articulo 10.4 de la ley 39/2015, si existe una la normativa reguladora aplicable que lo disponga expresamente se podrá admitir el sistema de identificación como sistema de firma cuando permitan acreditar la autenticidad de la expresión de la voluntad y consentimiento de los interesados.
-Es decir, podríamos presentar una ventana recogiendo la voluntad y consentimiento de firmar del interesado, y como este ya ha sido previamente autenticado, dar por realizada la firma.
+
+Esto significa que la aplicación recoge evidencias de la autenticidad de la identidad del usuario y de su voluntad y consentimiento para firmar, las vincula la documento a firmar y sella dicha información con el sello del organismo.
 
 # Pregunta 5
 
@@ -487,7 +497,7 @@ para XCode (iOS).
 
 Por otro lado tendremos un esquema de integración continua,
 que realice una serie de pruebas automáticas cada vez que
-se realice una integración.
+se haga una integración.
 
 Las pruebas analizarán el código y ejecutarán la aplicación en entornos virtuales para hacer test más complejos.
 
@@ -532,7 +542,7 @@ Es la cualidad por la cual un sistema puede ser usado por las personas con indep
 
 ## 48. ¿De qué trata la ISO 9241?
 
-ISO 9241 es una norma enfocada a la calidad en usabilidad y ergonomía creada por la ISO y la IEC (Comisión Electrotécnica Internacional).
+ISO 9241 es una norma enfocada a la calidad en usabilidad y ergonomía creada por la ISO (Organización Internacional de Normalización) y la IEC (Comisión Electrotécnica Internacional).
 
 Esta norma esta dividida en varias partes, siendo la parte 11 la centrada en guiás de usabilidad. En ella se definen tres componentes:
 
@@ -544,7 +554,7 @@ Se pude recoger información del usuario a través de Escala de usabilidad del s
 
 ## 49. ¿Cómo va a realizar las encuestas de satisfacción?
 
-Los usuarios realizaran una batería de tarea durante una o más sesiones.
+Los usuarios realizaran una batería de tareas durante una o más sesiones.
 
 Después de cada tarea se registrará el grado de eficacia, y se les hará la Pregunta de facilidad única (SEQ), que consiste en evaluar la dificultad de la tarea desde 1 (muy fácil) a 7 (muy difícil).
 
@@ -654,3 +664,5 @@ un 'premiso único', es decir, se otorga para 'solo esta vez'.
 ## ¿Es un procedimiento administrativo?
 
 Si
+
+## ¿Falta algún servicio común?
