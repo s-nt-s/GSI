@@ -97,7 +97,7 @@ La información y las operaciones de usuarios deben ser comprensibles.
 * 3.2 **Previsible**: Hacer la apariencia y la forma de utilizar las páginas web previsibles.
 * 3.3 **Asistencia a la entrada de datos**: ayudar a los usuarios a evitar y corregir errores.
 
-### 4. Robustez
+### 4. Robusto
 
 El contenido deber ser suficientemente robusto para que pueda ser bien interpretado
 por una gran variedad de agentes de usuario, incluyendo tecnologías de asistencia.
