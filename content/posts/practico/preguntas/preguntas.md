@@ -59,7 +59,7 @@ Si es lo 2º, mi argumento se cae.
 
 ## 6. ¿Cómo solventa la amenaza de poco uso? ¿por qué la van a usar poco?
 
-La app debería ir acompañada de una campaña de publicidad que la de a conocer
+La app debería ir acompañada de una campaña de comunicación que la de a conocer
 entre el público objetivo, siendo recomendable anunciarla en el actual
 aplicación web para presentar la declaración de la renta, pero también por
 otros medios como pagando publicidad en redes sociales.
@@ -280,7 +280,15 @@ Por lo tanto con Cl@ve se da cumplimiento al articulo 9, Sistemas de identificac
 ## 21. ¿Se puede usar la funcionalidad biométrica para autenticarse?
 
 Si, en caso de estar disponible en el dispositivo, se podrá usar esta
-funcionalidad para autenticarse.
+funcionalidad para autenticarse. Para ello se seguirán los siguientes pasos:
+
+1. La aplicación móvil accede a la URL pública del servidor de autenticación
+2. El servidor de autenticación redirige a Cl@ve
+3. Cl@ve devuelve la respuesta
+4. El SP genera un token OAuth 2.0 (JWT) y lo retorna a la aplicación para que lo almacene
+5. Este token almacenado, permitirá que los ciudadanos accedan con sus datos barométricos sin necesidad de lograse en Cl@ve cada vez que accedan a la app.
+6. Este token será configurable para ponerle una duración determinada, es decir, caducará al cabo de un tiempo y el ciudadano tendrá que volver a logarse en Cl@ve para generar un nuevo token. Por defecto, se recomienda una duración de 30 días
+7. La seguridad esta garantizada puesto que el token se almacena en un espacio propio de la app, no permitiéndose el acceso a otras apps que el ciudadano pueda tener instaladas en el teléfono
 
 Opción 1: En el diagrama debería haber un caso de uso extendiendo Autenticarse y ser este el que use Cl@ve para dejar claro que existen dos posibilidades, autenticarse con cl@ve o con dato biometrico.
 
