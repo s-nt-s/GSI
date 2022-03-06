@@ -64,6 +64,8 @@ entre el público objetivo, siendo recomendable anunciarla en el actual
 aplicación web para presentar la declaración de la renta, pero también por
 otros medios como pagando publicidad en redes sociales.
 
+También se puede aprovechar la tradicional campaña anual de la declaración de la renta para añadir información sobre la nueva app.
+
 Los principales motivos para que se use poco, son la falta de publicidad
 y una primera versión con errores o deficiencias de usabilidad que provoque
 una mala puntuación en las App Stores siendo difícil ganarse nuevos usuarios.
@@ -624,6 +626,14 @@ las cuales serían avisos enviados con SIM.
 Si, el PDF de la declaración podría ir firmado con CSV para poder ser cotejado
 posteriormente.
 
+## ¿En que CU se ratifica el Domicilio fiscal?
+
+En el CU Registro del actor Ciudadano sin registro.
+
+## ¿En que CU se añaden justificaciones?
+
+En modificar borrador del actor Ciudadano con registro.
+
 # 3 Clases dominio con atributos
 
 ## ¿El patrimonio es relativo al borrador o al ciudadano?
@@ -665,4 +675,49 @@ un 'premiso único', es decir, se otorga para 'solo esta vez'.
 
 Si
 
-## ¿Falta algún servicio común?
+## ¿Algún elemento más en el DAFO?
+
+Debilidades:
+
+* Requisitos de accesibilidad y seguridad exigentes
+
+Amenazas:
+
+* Riesgos de seguridad por la naturaleza de los datos tratados
+* La evolución de Android e iOS puede requerir adaptaciones de las apps
+* Cambios legislativos que impliquen adaptaciones
+
+Fortalezas:
+
+* Se puede reutilizar el backend del servicio web
+* Existen servicios comunes para algunas necesidades
+
+Oportunidades:
+
+* Posibilidad de añadir nuevos tramites
+* Posibilidad de llegar a más gente
+
+## ¿Que servicios comunes podemos usar?
+
+* Cl@ve para identificación
+* Fire para firma
+* Notifica para notificaciones y comunicaciones
+* SIM para avisos
+* Geiser para registro
+* Cita previa (PCP) para cita
+* PID para obtención y verificación de datos
+* EGEO para visualización de mapas
+* CSV Broker para cotejo de documentos con CSV
+* ¿Servidor de sellado y CSV?
+
+## ¿Qué contiene una muestra representativa?
+
+Una muestra representativa de una aplicación para revisar su accesibilidad contiene:
+
+* Paginas de inicio, inicio de sesión, mapa del sitio, contacto, ayuda e información legal
+* Una página de cada tipo de servicio prestado
+* pagina de la declaración de accesibilidad y mecanismo de comunicación
+* ejemplos de páginas con apariencia o y tipo de contenido sustancialmente diferente
+* un documento descargable de cada tipo
+* un 10% de páginas seleccionadas al azar
+* si alguna de las anteriores es parte de un proceso, se deberá incluir el resto de pantallas de dicho proceso.
