@@ -3,7 +3,7 @@ title: Preguntas
 summary: 'Preparación de la defensa de 2019_A2.int.s1'
 pdf_code: PR
 pag_code: 1
-pag_mod: 2
+pag_mod: 4
 status: draft
 ---
 
@@ -631,8 +631,9 @@ las cuales serían avisos enviados con SIM.
 
 ## ¿No firmaría el PDF de la declaración?
 
-Si, el PDF de la declaración podría ir firmado con CSV para poder ser cotejado
-posteriormente.
+Si, el PDF de la declaración seria firmado por el servidor de sellado y CSV del organismo, cumpliendo el articulo 42 de la ley 40/2015.
+
+Con este CSV podrá ser cotejado posteriormente.
 
 ## ¿En que CU se ratifica el Domicilio fiscal?
 
@@ -662,6 +663,10 @@ Se obtendría de la clase Borrador, con estado confirmado, del ejercicio corresp
 ## ¿Cuál es la declaración, el borrador confirmado o el expediente?
 
 El borrador confirmado.
+
+## ¿Donde esta el acuse de recibo, la resolución, etc?
+
+Son documentos del expediente
 
 # 4 Opciones tecnológicas app
 
