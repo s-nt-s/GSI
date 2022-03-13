@@ -3,7 +3,7 @@ title: Preguntas
 summary: 'Preparación de la defensa de 2019_A2.int.s1'
 pdf_code: PR
 pag_code: 1
-pag_mod: 4
+pag_mod: 2
 status: draft
 ---
 
@@ -106,11 +106,15 @@ y define la figura del delegado de protección de datos.
 También se definen los derechos del interesado (ARCOPOL):
 acceso, rectificación, supresión u olvido, potabilidad, oposición y limitación.
 
-### 9a. ¿Cuál es la diferencia entre reglamento y directiva?
+### 9a. ¿Cuál es la diferencia entre reglamento, directiva y decisión?
 
 Los Reglamentos tienen un alcance general, son obligatorios en todos sus elementos y directamente aplicables en cada estado miembro, y cualquier particular puede reclamar su cumplimiento ante los tribunales nacionales. Por lo tanto no requieren de transposición a la legislación nacional.
 
 Las directivas son normas que vinculan a los estados miembros en cuanto al resultado que hay que alcanzar, pero dejan a instancias nacionales la facultad de escoger la forma y los medios, por lo tanto requiere de transposición a la legislación nacional.
+
+Las decisiones son vinculantes para aquellos a quienes se dirigen (un país de la UE o una empresa concreta) y son directamente aplicables.
+
+https://european-union.europa.eu/institutions-law-budget/law/types-legislation_es
 
 ### 9b. ¿Qué es una evaluación de impacto y por qué es necesario?
 
@@ -247,7 +251,7 @@ Para el caso de esta aplicación podemos usar:
 * Servicio de Verificación de Datos de Residencia (SVDR) que consulta en el INE datos de empadronamiento
 * Servicio de Verificación de Datos de Prestación de Desempleo (SVDP) que obtiene datos del SEPE
 * Servicio de Verificación de Datos Catastrales para obtener datos sobre las propiedades del declarante
-
+* Violencia de genero, terrorista...
 
 ## 18. ¿Dónde viene regulado el multilingüismo?
 
@@ -495,6 +499,8 @@ Por otro lado, tal como dice el articulo 10.4 de la ley 39/2015, si existe una l
 
 Esto significa que la aplicación recoge evidencias de la autenticidad de la identidad del usuario y de su voluntad y consentimiento para firmar, las vincula la documento a firmar y sella dicha información con el sello del organismo.
 
+Así lo contempla la Resolución de 17 de noviembre de 2011 de la presidencia de la AEAT, mediante clave o número de referencia, información conocida por ambas partes o registro previo como usuario.
+
 # Pregunta 5
 
 ## 44. ¿Cómo realiza las pruebas automáticas de código?
@@ -558,7 +564,7 @@ Esta norma esta dividida en varias partes, siendo la parte 11 la centrada en gui
 
 * eficacia: examina la habilidad del usuario para completar una tarea, considerando que la tarea se ha completado exitosamente cuando no se produce ningún error y no se pide asistencia
 * eficiencia: examina los recursos necesarios para completar una tarea.
-Se puede recoger información del usuario con la Pregunta de facilidad única (SEQ) en la que se evaluá la dificultad de la tarea (1=muy fácil, 7=muy difícil)
+Se puede recoger información del usuario con la Pregunta de facilidad única (SEQ) en la que se evaluá la dificultad de la tarea (1=muy difícil, 7=muy fácil)
 * satisfacción: examina la opinión y feedback del usuario.
 Se pude recoger información del usuario a través de Escala de usabilidad del sistema (SUS), 10 sentencias evaluadas del 1 (muy en desacuerdo) al 5 (muy de acuerdo).
 
@@ -566,7 +572,7 @@ Se pude recoger información del usuario a través de Escala de usabilidad del s
 
 Los usuarios realizaran una batería de tareas durante una o más sesiones.
 
-Después de cada tarea se registrará el grado de eficacia, y se les hará la Pregunta de facilidad única (SEQ), que consiste en evaluar la dificultad de la tarea desde 1 (muy fácil) a 7 (muy difícil).
+Después de cada tarea se registrará el grado de eficacia, y se les hará la Pregunta de facilidad única (SEQ), que consiste en evaluar la dificultad de la tarea desde 1 (muy difícil) a 7 (muy fácil).
 
 Al final de la sesión se les realizara una encuesta de Escala de usabilidad del sistema (SUS), que consiste en evaluar de 1 (muy desacuerdo) al 5 (muy de acuerdo) 10 sentencias sobre la facilidad de uso, la consistencia del sistema, el esfuerzo requerido, etc.
 
@@ -631,9 +637,8 @@ las cuales serían avisos enviados con SIM.
 
 ## ¿No firmaría el PDF de la declaración?
 
-Si, el PDF de la declaración seria firmado por el servidor de sellado y CSV del organismo, cumpliendo el articulo 42 de la ley 40/2015.
-
-Con este CSV podrá ser cotejado posteriormente.
+Si, el PDF de la declaración podría ir firmado con CSV para poder ser cotejado
+posteriormente.
 
 ## ¿En que CU se ratifica el Domicilio fiscal?
 
@@ -663,10 +668,6 @@ Se obtendría de la clase Borrador, con estado confirmado, del ejercicio corresp
 ## ¿Cuál es la declaración, el borrador confirmado o el expediente?
 
 El borrador confirmado.
-
-## ¿Donde esta el acuse de recibo, la resolución, etc?
-
-Son documentos del expediente
 
 # 4 Opciones tecnológicas app
 
@@ -730,7 +731,28 @@ Una muestra representativa de una aplicación para revisar su accesibilidad cont
 * Paginas de inicio, inicio de sesión, mapa del sitio, contacto, ayuda e información legal
 * Una página de cada tipo de servicio prestado
 * pagina de la declaración de accesibilidad y mecanismo de comunicación
-* ejemplos de páginas con apariencia o y tipo de contenido sustancialmente diferente
+* ejemplos de páginas con apariencia y tipo de contenido sustancialmente diferente
 * un documento descargable de cada tipo
 * un 10% de páginas seleccionadas al azar
 * si alguna de las anteriores es parte de un proceso, se deberá incluir el resto de pantallas de dicho proceso.
+
+## ¿Cuáles son los principios en los que se agrupan estas pautas?
+
+Perceptible, Operable, Comprensible y Robusto
+
+### Ejemplos de pautas para cada uno de los principios.
+
+1. Perceptible: texto alternativo, contenido multimedia dependiente del
+tiempo, adaptable, distinguible
+2. Operable: accesible por teclado, tiempo suficiente, convulsiones o
+reacciones físicas, navegable, modalidades de entrada
+3. Comprensible: legible, previsible, asistencia a la entrada de datos (ej criterio: el idioma se puede detectar programáticamente)
+4. Robusto: compatible con agentes de usuario y asistentes (ej criterio: el nombre y rol de cada componete se puede detectar programáticamente)
+
+## ¿Qué Decisión establece la aplicación de EN 301 549 v3.2.1? 
+
+La Decisión de Ejecución (UE) 2021/1339 de la Comisión, de 11 de agosto de 2021 por la que se modifica la Decisión de Ejecución (UE) 2018/2048 en lo que atañe a la norma armonizada aplicable a los sitios web y a las aplicaciones para dispositivos móviles
+
+## ¿Donde se guarda el acuse de recibo?
+
+Es uno de los documentos del expediente.
