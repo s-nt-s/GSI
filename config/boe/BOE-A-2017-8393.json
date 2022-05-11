@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20210726115601",
+    "@fecha_actualizacion": "20220419102602",
     "metadatos": {
       "identificador": "BOE-A-2017-8393",
       "titulo": "Resoluci\u00f3n de 14 de julio de 2017, de la Secretar\u00eda General de Administraci\u00f3n Digital, por la que se establecen las condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica, en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos.",
@@ -36,7 +36,8 @@
         "#text": "Estatal"
       },
       "estado_consolidacion": {
-        "@codigo": ""
+        "@codigo": "3",
+        "#text": "Finalizado"
       },
       "judicialmente_anulada": "N",
       "vigencia_agotada": "N",
@@ -73,103 +74,177 @@
             "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
             "#text": "(2)"
           },
-          "eli:has_member": {
-            "eli:LegalResource": {
-              "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof",
-              "eli:jurisdiction": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
-              },
-              "eli:type_document": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
-              },
-              "eli:id_local": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "BOE-A-2017-8393"
-              },
-              "eli:date_document": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                "#text": "2017-07-14"
-              },
-              "eli:number": {
-                "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                "#text": "(2)"
-              },
-              "eli:version": {
-                "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
-              },
-              "eli:is_member_of": {
-                "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)"
-              },
-              "eli:is_realized_by": {
-                "eli:LegalExpression": {
-                  "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa",
-                  "eli:language": {
-                    "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
-                  },
-                  "eli:title": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
-                    "#text": "Resoluci\u00f3n de 14 de julio de 2017, de la Secretar\u00eda General de Administraci\u00f3n Digital, por la que se establecen las condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica, en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos."
-                  },
-                  "eli:publisher": {
-                    "@rdf:resource": "www.boe.es"
-                  },
-                  "eli:date_publication": {
-                    "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
-                    "#text": "2017-07-18"
-                  },
-                  "eli:realizes": {
-                    "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof"
-                  },
-                  "eli:is_embodied_by": [
-                    {
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/epub",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+          "eli:has_member": [
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2017-8393"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2017-07-14"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(2)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/dof"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)"
+                },
+                "eli:consolidated_by": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/con/20170718"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 14 de julio de 2017, de la Secretar\u00eda General de Administraci\u00f3n Digital, por la que se establecen las condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica, en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2017-07-18"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof"
+                    },
+                    "eli:is_embodied_by": [
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/epub",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/epub+zip"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/html",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/pdf",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                          }
+                        }
+                      },
+                      {
+                        "eli:Format": {
+                          "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/xml",
+                          "eli:format": {
+                            "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
+                          },
+                          "eli:embodies": {
+                            "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                          }
                         }
                       }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/con/20170718",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/res"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2017-8393"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2017-07-14"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "(2)"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2017-07-18"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/con/20170718/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
                     },
-                    {
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Resoluci\u00f3n de 14 de julio de 2017, de la Secretar\u00eda General de Administraci\u00f3n Digital, por la que se establecen las condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica, en las relaciones de los interesados con los \u00f3rganos administrativos de la Administraci\u00f3n General del Estado y sus organismos p\u00fablicos."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2017-07-18"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/con/20170718"
+                    },
+                    "eli:is_embodied_by": {
                       "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/html",
+                        "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/con/20170718/spa/html",
                         "eli:format": {
                           "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
                         },
                         "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
-                        }
-                      }
-                    },
-                    {
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/pdf",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/pdf"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
-                        }
-                      }
-                    },
-                    {
-                      "eli:Format": {
-                        "@rdf:about": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa/xml",
-                        "eli:format": {
-                          "@rdf:resource": "http://www.iana.org/assignments/media-types/application/xml"
-                        },
-                        "eli:embodies": {
-                          "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/dof/spa"
+                          "@rdf:resource": "https://www.boe.es/eli/es/res/2017/07/14/(2)/con/20170718/spa"
                         }
                       }
                     }
-                  ]
+                  }
                 }
               }
             }
-          }
+          ]
         }
       }
     },

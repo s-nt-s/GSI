@@ -1,6 +1,6 @@
 ---
-title: Supuesto 2019
-summary: 'Preparación de la defensa de 2019_A2.int.s1'
+title: Teoría para la defensa
+summary: 'Preparación de la defensa de 2019_A2.int_s1'
 status: draft
 ---
 

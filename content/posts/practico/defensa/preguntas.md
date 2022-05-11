@@ -1,6 +1,6 @@
 ---
-title: Preguntas
-summary: 'Preparación de la defensa de 2019_A2.int.s1'
+title: Preguntas para la defensa
+summary: 'Preparación de la defensa de 2019_A2.int_s1'
 pdf_code: PR
 pag_code: 1
 pag_mod: 2
@@ -592,7 +592,6 @@ Estos se diferencian de errores que han de ser revisados por humanos, como:
 * posibles falsos positivos de las herramientas automáticas, como como reportar
 la falta de un mecanismo para saltar bloques en una pantalla que no los necesita.
 
-
 ----------------------------------------
 
 # 1 DAFO y Normativa
@@ -749,7 +748,7 @@ reacciones físicas, navegable, modalidades de entrada
 3. Comprensible: legible, previsible, asistencia a la entrada de datos (ej criterio: el idioma se puede detectar programáticamente)
 4. Robusto: compatible con agentes de usuario y asistentes (ej criterio: el nombre y rol de cada componete se puede detectar programáticamente)
 
-## ¿Qué Decisión establece la aplicación de EN 301 549 v3.2.1? 
+## ¿Qué Decisión establece la aplicación de EN 301 549 v3.2.1?
 
 La Decisión de Ejecución (UE) 2021/1339 de la Comisión, de 11 de agosto de 2021 por la que se modifica la Decisión de Ejecución (UE) 2018/2048 en lo que atañe a la norma armonizada aplicable a los sitios web y a las aplicaciones para dispositivos móviles
 

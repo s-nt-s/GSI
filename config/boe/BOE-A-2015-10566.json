@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20220216092601",
+    "@fecha_actualizacion": "20220509082601",
     "metadatos": {
       "identificador": "BOE-A-2015-10566",
       "titulo": "Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico.",
@@ -106,6 +106,9 @@
                   "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/40"
                 },
                 "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/40/con/20220330"
+                  },
                   {
                     "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/40/con/20211229"
                   },
@@ -339,6 +342,75 @@
                     }
                   }
                 ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/l/2015/10/01/40/con/20220330",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2015-10566"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2015-10-01"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "40"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2022-03-30"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/40"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/40/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2015/10/01/40/con/20220330/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 40/2015, de 1 de octubre, de R\u00e9gimen Jur\u00eddico del Sector P\u00fablico."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2022-03-30"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/40/con/20220330"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2015/10/01/40/con/20220330/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/40/con/20220330/spa"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             {
@@ -1534,6 +1606,15 @@
               "texto": "la disposici\u00f3n final 5, por Real Decreto Legislativo 1/2020, de 5 de mayo"
             },
             {
+              "@referencia": "BOE-A-2022-4972",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "el art. 142 y SE A\u00d1ADE la disposici\u00f3n adicional 30, por Real Decreto-ley 6/2022, de 29 de marzo"
+            },
+            {
               "@referencia": "BOE-A-2021-21653",
               "@orden": "",
               "palabra": {
@@ -1612,7 +1693,7 @@
                 "@codigo": "203",
                 "#text": "SE CORRIGEN errores"
               },
-              "texto": ", con variaci\u00f3n de preceptos modificadores, en el Real Decreto-ley 36/2020, de 30 de diciembre, en BOE n\u00fam. 22 de 26 de enero de 2021"
+              "texto": "en el Real Decreto-ley 36/2020, de 30 de diciembre, en BOE n\u00fam. 22 de 26 de enero de 2021"
             },
             {
               "@referencia": "BOE-A-2021-5032",

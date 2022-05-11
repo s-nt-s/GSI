@@ -35,10 +35,15 @@
 {% endif %}
 {%set CURRENT_URL = SITEURL + "/" + output_file | replace("/index.html", "") %}
 <body id="index" class="home {{body_class}} {{output_file | path_to_plain}}">
-  <header id="banner"><div  class="body">
-    {% block header %}
-    {%endblock%}
-  </div></header>
+  <header id="banner">
+    <div class="body">
+      <p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+      {% block header %}
+      {%endblock%}
+    </div>
+  </header>
   <main><div class="body">
   {% block beforecontent %}
   {% endblock %}

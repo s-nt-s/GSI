@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20211022092601",
+    "@fecha_actualizacion": "20220505132601",
     "metadatos": {
       "identificador": "BOE-A-2010-1330",
       "titulo": "Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica.",
@@ -23,7 +23,7 @@
       "fecha_disposicion": "20100108",
       "fecha_publicacion": "20100129",
       "fecha_vigencia": "20100130",
-      "fecha_derogacion": null,
+      "fecha_derogacion": "20220505",
       "letra_imagen": "A",
       "pagina_inicial": "8089",
       "pagina_final": "8138",
@@ -40,8 +40,8 @@
         "#text": "Finalizado"
       },
       "judicialmente_anulada": "N",
-      "vigencia_agotada": "N",
-      "estatus_derogacion": "N",
+      "vigencia_agotada": "S",
+      "estatus_derogacion": "S",
       "url_epub": "/diario_boe/epub.php?id=BOE-A-2010-1330",
       "url_pdf": "/boe/dias/2010/01/29/pdfs/BOE-A-2010-1330.pdf",
       "url_pdf_catalan": "/boe_catalan/dias/2010/01/29/pdfs/BOE-A-2010-1330-C.pdf",
@@ -106,6 +106,9 @@
                   "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/3"
                 },
                 "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/3/con/20220504"
+                  },
                   {
                     "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/3/con/20151104"
                   },
@@ -252,6 +255,75 @@
                     }
                   }
                 ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/3/con/20220504",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/rd"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2010-1330"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2010-01-08"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "3"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2022-05-04"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/3"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/3/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/3/con/20220504/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2022-05-04"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/3/con/20220504"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/rd/2010/01/08/3/con/20220504/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/rd/2010/01/08/3/con/20220504/spa"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             {
@@ -551,6 +623,15 @@
         "posteriores": {
           "posterior": [
             {
+              "@referencia": "BOE-A-2022-7191",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "210",
+                "#text": "SE DEROGA"
+              },
+              "texto": ", por Real Decreto 311/2022, de 3 de mayo"
+            },
+            {
               "@referencia": "BOE-A-2015-11881",
               "@orden": "",
               "palabra": {
@@ -569,13 +650,22 @@
               "texto": "en BOE num. 61 de 11 de marzo de 2010"
             },
             {
+              "@referencia": "BOE-A-2022-3527",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "440",
+                "#text": "SE DICTA DE CONFORMIDAD"
+              },
+              "texto": "y se establecen las condiciones de uso de firma electr\u00f3nica no criptogr\u00e1fica vinculada a \"AutenticA\": Resoluci\u00f3n  de 23 de febrero de 2022"
+            },
+            {
               "@referencia": "BOE-A-2018-5370",
               "@orden": "",
               "palabra": {
                 "@codigo": "440",
                 "#text": "SE DICTA DE CONFORMIDAD"
               },
-              "texto": ", sobre aprobaci\u00f3n de la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad: Resoluci\u00f3n  de 13 de abril de 2018"
+              "texto": ", y se aprueba la Instrucci\u00f3n T\u00e9cnica de Seguridad de Notificaci\u00f3n de Incidentes de Seguridad: Resoluci\u00f3n de 13 de abril de 2018"
             },
             {
               "@referencia": "BOE-A-2018-4573",
@@ -593,7 +683,7 @@
                 "@codigo": "440",
                 "#text": "SE DICTA DE CONFORMIDAD"
               },
-              "texto": "con el art. 29.2, y aprueba la instrucci\u00f3n t\u00e9cnica de informe del Estado de la seguridad: Resoluci\u00f3n  de 7 de octubre de 2016"
+              "texto": "con el art. 29.2, y se aprueba la Instrucci\u00f3n T\u00e9cnica de informe del Estado de la seguridad: Resoluci\u00f3n  de 7 de octubre de 2016"
             },
             {
               "@referencia": "BOE-A-2014-5111",

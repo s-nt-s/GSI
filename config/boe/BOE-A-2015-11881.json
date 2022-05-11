@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20200629142601",
+    "@fecha_actualizacion": "20220505001007",
     "metadatos": {
       "identificador": "BOE-A-2015-11881",
       "titulo": "Real Decreto 951/2015, de 23 de octubre, de modificaci\u00f3n del Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el \u00e1mbito de la Administraci\u00f3n Electr\u00f3nica.",
@@ -23,7 +23,7 @@
       "fecha_disposicion": "20151023",
       "fecha_publicacion": "20151104",
       "fecha_vigencia": "20151105",
-      "fecha_derogacion": null,
+      "fecha_derogacion": "20220505",
       "letra_imagen": "A",
       "pagina_inicial": "104246",
       "pagina_final": "104267",
@@ -39,8 +39,8 @@
         "@codigo": ""
       },
       "judicialmente_anulada": "N",
-      "vigencia_agotada": "N",
-      "estatus_derogacion": "N",
+      "vigencia_agotada": "S",
+      "estatus_derogacion": "S",
       "url_epub": "/diario_boe/epub.php?id=BOE-A-2015-11881",
       "url_pdf": "/boe/dias/2015/11/04/pdfs/BOE-A-2015-11881.pdf",
       "url_pdf_catalan": "/boe_catalan/dias/2015/11/04/pdfs/BOE-A-2015-11881-C.pdf",
@@ -242,7 +242,13 @@
       }
     },
     "analisis": {
-      "notas": null,
+      "notas": {
+        "nota": {
+          "@codigo": "149",
+          "@orden": "340",
+          "#text": "Esta norma se entiende impl\u00edcitamente derogada por el Real Decreto 311/2022, de 3 de mayo, BOE-A-2022-7191."
+        }
+      },
       "materias": {
         "materia": [
           {

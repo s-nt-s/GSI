@@ -1,6 +1,6 @@
 {
   "documento": {
-    "@fecha_actualizacion": "20220217135602",
+    "@fecha_actualizacion": "20220505102601",
     "metadatos": {
       "identificador": "BOE-A-2015-10565",
       "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas.",
@@ -103,6 +103,9 @@
                   "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/39"
                 },
                 "eli:consolidated_by": [
+                  {
+                    "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/39/con/20220330"
+                  },
                   {
                     "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/39/con/20210710"
                   },
@@ -333,6 +336,75 @@
                     }
                   }
                 ]
+              }
+            },
+            {
+              "eli:LegalResource": {
+                "@rdf:about": "https://www.boe.es/eli/es/l/2015/10/01/39/con/20220330",
+                "eli:jurisdiction": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/jurisdiction/1/es"
+                },
+                "eli:type_document": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/resource-type/1/l"
+                },
+                "eli:id_local": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "BOE-A-2015-10565"
+                },
+                "eli:date_document": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2015-10-01"
+                },
+                "eli:number": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                  "#text": "39"
+                },
+                "eli:version": {
+                  "@rdf:resource": "http://www.elidata.es/mdr/authority/version/con"
+                },
+                "eli:version_date": {
+                  "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                  "#text": "2022-03-30"
+                },
+                "eli:is_member_of": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/39"
+                },
+                "eli:consolidates": {
+                  "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/39/dof"
+                },
+                "eli:is_realized_by": {
+                  "eli:LegalExpression": {
+                    "@rdf:about": "https://www.boe.es/eli/es/l/2015/10/01/39/con/20220330/spa",
+                    "eli:language": {
+                      "@rdf:resource": "http://www.elidata.es/mdr/authority/language/spa"
+                    },
+                    "eli:title": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#string",
+                      "#text": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Com\u00fan de las Administraciones P\u00fablicas."
+                    },
+                    "eli:publisher": {
+                      "@rdf:resource": "www.boe.es"
+                    },
+                    "eli:date_publication": {
+                      "@rdf:datatype": "http://www.w3.org/2001/XMLSchema#date",
+                      "#text": "2022-03-30"
+                    },
+                    "eli:realizes": {
+                      "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/39/con/20220330"
+                    },
+                    "eli:is_embodied_by": {
+                      "eli:Format": {
+                        "@rdf:about": "https://www.boe.es/eli/es/l/2015/10/01/39/con/20220330/spa/html",
+                        "eli:format": {
+                          "@rdf:resource": "http://www.iana.org/assignments/media-types/text/html"
+                        },
+                        "eli:embodies": {
+                          "@rdf:resource": "https://www.boe.es/eli/es/l/2015/10/01/39/con/20220330/spa"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             {
@@ -1287,6 +1359,15 @@
                 "#text": "SE DEJA SIN EFECTO"
               },
               "texto": "la modificaci\u00f3n de la disposici\u00f3n final 7, por Resoluci\u00f3n de 10 de septiembre de 2020"
+            },
+            {
+              "@referencia": "BOE-A-2022-4972",
+              "@orden": "",
+              "palabra": {
+                "@codigo": "270",
+                "#text": "SE MODIFICA"
+              },
+              "texto": "el art. 32, por Real Decreto-ley 6/2022, de 29 de marzo"
             },
             {
               "@referencia": "BOE-A-2021-11472",
