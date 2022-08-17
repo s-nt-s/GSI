@@ -1,7 +1,7 @@
 ---
 title: Volcado del examen 2019_A2.int_s1
 summary: 'Preparación de la defensa de 2019_A2.int_s1'
-status: draft
+status: hidden
 ---
 
 *El examen real fueron unas 8 o 9 páginas.*
