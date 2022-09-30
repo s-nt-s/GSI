@@ -1,5 +1,5 @@
 beautifulsoup4==4.9.3
-joblib==0.13.2
+joblib==1.2.0
 lxml==4.6.5
 Markdown==3.2.1
 munch==2.5.0
