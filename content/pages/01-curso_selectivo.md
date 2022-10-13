@@ -1,18 +1,17 @@
 ---
 Title: Curso selectivo
 Status: published
+summary: [FS22001000000 Curso selectivo de GSI de la AGE](https://campus.inap.es/v3/enrol/index.php?id=2199).
 replace:
   "Plenaria": '<a title="Sala para las sesiones plenarias" href="https://campus.inap.es/v3/mod/url/view.php?id=137304">Plenaria</a>'
   "Grupo": '<a title="Sala para el Grupo 2" href="https://campus.inap.es/v3/mod/url/view.php?id=137294">Grupo</a>'
 ---
 
-* Campus: [campus.inap.es](https://campus.inap.es/v3/my/)
-* Curso: [FS22001000000](https://campus.inap.es/v3/enrol/index.php?id=2199) Curso selectivo de GSI de la AGE
 * Horario general: 9:00 a 14:30
-* Organización: grupo -> equipo
-    * Un tutor por grupo y modulo
-    * 4 grupos [PI](https://campus.inap.es/v3/pluginfile.php/2163690/mod_resource/content/2/Listado grupos y equipos GSIPI.pdf), 5 grupos [L](https://campus.inap.es/v3/pluginfile.php/2163691/mod_resource/content/1/Listado grupos y equipos GSIL.pdf)
-    * 5/6 personas por equipo
+* 4 grupos [PI](https://campus.inap.es/v3/pluginfile.php/2163690/mod_resource/content/2/Listado grupos y equipos GSIPI.pdf) y 5 grupos [L](https://campus.inap.es/v3/pluginfile.php/2163691/mod_resource/content/1/Listado grupos y equipos GSIL.pdf)
+* Un tutor por grupo y modulo
+* 5 equipos por grupo
+* 5/6 personas por equipo
 
 # Documentos
 
@@ -54,8 +53,7 @@ y evaluación de actividades.
 2. Principios y valores de las AP 2: Igualdad de género y de oportunidades
     * Igualdad de género
     * Violencia de género
-    * Igualdad de oportunidades y no discriminación de las personas: discapacidad,
-    racismo y LGTBI
+    * Igualdad de oportunidades y no discriminación de las personas: discapacidad, racismo y LGTBI
 3. La organización, los procesos y los servicios desde la perspectiva de la
 transformación digital
     * Administración electrónica y digitalización en la AGE
