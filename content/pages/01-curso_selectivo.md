@@ -39,9 +39,9 @@ replace:
 
 | # | Horas | Fechas | <abbr title="Puntuación máxima">P. max.</abbr> | Denominación |
 |--:|------:|-------:|-----------------------------------------------:|--------------|
-| 1 | 10 | 17-18 | 10 | [FS22001001001](#) Principios y valores de las AP 1: Integridad y desarrollo sostenible |
-| 2 | 15 | 19-21 | 25 | [FS22001002001](#) Principios y valores de las AP 2: Igualdad de género y de oportunidades |
-| 3 | 25 | 24-28 | 40 | [FS22001003001](#) La organización, los procesos y los servicios desde la perspectiva de la transformación digital |
+| 1 | 10 | 17-18 | 10 | FS22001001001 Principios y valores de las AP 1: Integridad y desarrollo sostenible |
+| 2 | 15 | 19-21 | 25 | FS22001002001 Principios y valores de las AP 2: Igualdad de género y de oportunidades |
+| 3 | 25 | 24-28 | 40 | FS22001003001 La organización, los procesos y los servicios desde la perspectiva de la transformación digital |
 
 Al inicio de cada módulo se proporcionará una guía didáctica que contendrá la
 objetivos, contenido, programación de sesiones y de actividades a realizar cada día,
