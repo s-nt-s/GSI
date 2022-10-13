@@ -68,7 +68,7 @@ transformación digital
 |  9:00 |              | Trabajo individual asíncrono | |
 | 10:30 | Chat         | Sesión síncrona conjunta | Plenaria |
 | 11:30 | **Descanso** | < | < |
-| 12:00 | Interactiva  | Sesión grupal tutorizada | Equipo |
+| 12:00 | Interactiva  | Sesión grupal tutorizada | Grupo |
 | 14:30 | **Fin**      | < | < |
 
 ## Evaluación
