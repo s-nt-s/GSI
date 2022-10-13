@@ -3,14 +3,18 @@ Title: Curso selectivo
 Status: published
 replace:
   "Plenaria": '<a title="Sala para las sesiones plenarias" href="https://campus.inap.es/v3/mod/url/view.php?id=137304">Plenaria</a>'
+  "Grupo": '<a title="Sala para el Grupo 2" href="https://campus.inap.es/v3/mod/url/view.php?id=137294">Grupo</a>'
+
+
+
 ---
 
 * Campus: [campus.inap.es](https://campus.inap.es/v3/my/)
 * Curso: [FS22001000000](https://campus.inap.es/v3/enrol/index.php?id=2199) Curso selectivo de GSI de la AGE
 * Horario general: 9:00 a 14:30
-* Organización: Grupo -> equipo
+* Organización: grupo -> equipo
     * Un tutor por grupo y modulo
-    * 4 grupos [GSIPI](https://campus.inap.es/v3/mod/resource/view.php?id=137857), 5 grupos [GSIL](https://campus.inap.es/v3/mod/resource/view.php?id=137858)
+    * 4 grupos [GSIPI](https://campus.inap.es/v3/pluginfile.php/2163690/mod_resource/content/2/Listado grupos y equipos GSIPI.pdf), 5 grupos [GSIL](https://campus.inap.es/v3/pluginfile.php/2163691/mod_resource/content/1/Listado grupos y equipos GSIL.pdf)
     * 5/6 personas por equipo
 
 # Documentos
