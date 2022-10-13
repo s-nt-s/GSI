@@ -11,7 +11,7 @@ replace:
 * Horario general: 9:00 a 14:30
 * Organización: grupo -> equipo
     * Un tutor por grupo y modulo
-    * 4 grupos [GSIPI](https://campus.inap.es/v3/pluginfile.php/2163690/mod_resource/content/2/Listado grupos y equipos GSIPI.pdf), 5 grupos [GSIL](https://campus.inap.es/v3/pluginfile.php/2163691/mod_resource/content/1/Listado grupos y equipos GSIL.pdf)
+    * 4 grupos [PI](https://campus.inap.es/v3/pluginfile.php/2163690/mod_resource/content/2/Listado grupos y equipos GSIPI.pdf), 5 grupos [L](https://campus.inap.es/v3/pluginfile.php/2163691/mod_resource/content/1/Listado grupos y equipos GSIL.pdf)
     * 5/6 personas por equipo
 
 # Documentos
