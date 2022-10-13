@@ -5,7 +5,7 @@ Status: published
 
 * Campus: [campus.inap.es](https://campus.inap.es/v3/my/)
 * Curso: [FS22001000000](https://campus.inap.es/v3/enrol/index.php?id=2199) Curso selectivo de GSI de la AGE
-* Horario: 9:00 a 14:30
+* Horario general: 9:00 a 14:30
 * Organización: Grupo -> equipo
     * Un tutor por grupo y modulo
     * 4 grupos GSIPI, 5 grupos GSIL
