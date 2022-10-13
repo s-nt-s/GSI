@@ -1,6 +1,8 @@
 ---
 Title: Curso selectivo
 Status: published
+replace:
+  "Plenaria": '<a title="Sala para las sesiones plenarias" href="https://campus.inap.es/v3/mod/url/view.php?id=137304">Plenaria</a>'
 ---
 
 * Campus: [campus.inap.es](https://campus.inap.es/v3/my/)
@@ -8,8 +10,14 @@ Status: published
 * Horario general: 9:00 a 14:30
 * Organización: Grupo -> equipo
     * Un tutor por grupo y modulo
-    * 4 grupos GSIPI, 5 grupos GSIL
+    * 4 grupos [GSIPI](https://campus.inap.es/v3/mod/resource/view.php?id=137857), 5 grupos [GSIL](https://campus.inap.es/v3/mod/resource/view.php?id=137858)
     * 5/6 personas por equipo
+
+# Documentos
+
+* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2169072/mod_resource/content/2/Gu%C3%ADa%20did%C3%A1ctica%20curso%20selectivo%20GSIPI%20GSIL.pdf)
+* [Autorización de grabación](https://campus.inap.es/v3/pluginfile.php/2148913/mod_assign/introattachment/0/MODELO_AUTORIZACION%20GRABACION%20GSIL%20GSIPI.DOCX)
+* [Adhesión al código ético](https://campus.inap.es/v3/pluginfile.php/2148914/mod_assign/introattachment/0/Adhesi%C3%B3n%20C%C3%B3digo%20%C3%A9tico%20INAP.docx)
 
 # Jornada inaugural
 
@@ -30,7 +38,7 @@ Status: published
 # Módulos
 
 | # | Horas | Fechas | <abbr title="Puntuación máxima">P. max.</abbr> | Denominación |
-|--:|------:|--------|-----------------------------------------------:|--------------|
+|--:|------:|-------:|-----------------------------------------------:|--------------|
 | 1 | 10 | 17-18 | 10 | [FS22001001001](#) Principios y valores de las AP 1: Integridad y desarrollo sostenible |
 | 2 | 15 | 19-21 | 25 | [FS22001002001](#) Principios y valores de las AP 2: Igualdad de género y de oportunidades |
 | 3 | 25 | 24-28 | 40 | [FS22001003001](#) La organización, los procesos y los servicios desde la perspectiva de la transformación digital |
