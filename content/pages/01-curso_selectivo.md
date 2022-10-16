@@ -17,6 +17,7 @@ replace:
 * [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2169072/mod_resource/content/2/Gu%C3%ADa%20did%C3%A1ctica%20curso%20selectivo%20GSIPI%20GSIL.pdf)
 * [Autorización de grabación](https://campus.inap.es/v3/pluginfile.php/2148913/mod_assign/introattachment/0/MODELO_AUTORIZACION%20GRABACION%20GSIL%20GSIPI.DOCX)
 * [Adhesión al código ético](https://campus.inap.es/v3/pluginfile.php/2148914/mod_assign/introattachment/0/Adhesi%C3%B3n%20C%C3%B3digo%20%C3%A9tico%20INAP.docx)
+* [Justificante de falta de asistencia](https://campus.inap.es/v3/pluginfile.php/2169554/mod_resource/content/2/Justificante%20de%20falta%20GSIL%20GSIPI.docx)
 
 # Jornada inaugural
 
@@ -62,13 +63,13 @@ transformación digital
 
 ## Horario
 
-|  Hora | Modalidad    | Clase | Sala |
-|------:|--------------|-------|------|
-|  9:00 |              | Trabajo individual asíncrono | |
-| 10:30 | Chat         | Sesión síncrona conjunta | Plenaria |
-| 11:30 | **Descanso** | < | < |
-| 12:00 | Interactiva  | Sesión grupal tutorizada | Grupo |
-| 14:30 | **Fin**      | < | < |
+|  Hora | Sala         | Clase |
+|------:|--------------|-------|
+|  9:00 |              | Trabajo individual asíncrono |
+| 10:30 | Plenaria     | Sesión síncrona conjunta |
+| 11:30 | **Descanso** | < |
+| 12:00 | Grupo        | Sesión grupal tutorizada |
+| 14:30 | **Fin**      | < |
 
 ## Evaluación
 
