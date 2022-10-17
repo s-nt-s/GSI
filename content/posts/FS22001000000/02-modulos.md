@@ -1,5 +1,5 @@
 ---
-title: Curso selectivo
+title: Módulos
 summary: FS22001000000 [Curso selectivo de GSI de la AGE](https://campus.inap.es/v3/course/view.php?id=2199).
 replace:
   "Plenaria": '<a title="Sala para las sesiones plenarias" href="https://campus.inap.es/v3/mod/url/view.php?id=137304">Plenaria</a>'
