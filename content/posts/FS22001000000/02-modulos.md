@@ -8,7 +8,7 @@ replace:
 
 NOTA: Las referencias a *Grupo* son concretamente al *Grupo 2*.
 
-# Horario
+# Horario general
 
 |  Hora | Sala         | Clase |
 |------:|--------------|-------|
@@ -36,7 +36,7 @@ NOTA: Las referencias a *Grupo* son concretamente al *Grupo 2*.
     * [Administración 2030. Una visión transformadora](https://campus.inap.es/v3/pluginfile.php/2166925/mod_folder/content/0/Doc.%204%20-%20Administraci%C3%B3n%202030.%20Una%20visi%C3%B3n%20transformadora.pdf)
     * [De la gobernanza, liderazgo y ética pública](https://campus.inap.es/v3/pluginfile.php/2166925/mod_folder/content/0/Doc.%205%20-%20De%20la%20gobernanza%2C%20liderazgo%20y%20%C3%A9tica%20p%C3%BAblica.pdf)
     * [Códigos éticos y de conducta pública JJJV y CLHT](https://campus.inap.es/v3/pluginfile.php/2166925/mod_folder/content/0/Doc.%206%20-%20C%C3%B3digos%20%C3%A9ticos%20y%20de%20conducta%20p%C3%BAblica%20JJJV%20y%20CLHT.pdf)
-4. Mesa Redonda de Expertos: Administraciones y Servicios Públicos de calidad y para las personas
+4. **10:00-11:30** Mesa Redonda de Expertos: Administraciones y Servicios Públicos de calidad y para las personas
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Documento explicativo de la Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/1.-%20Documento%20Explicativo%20Actividad%20Pr%C3%A1ctica%201.pdf)
     * [Documento WORD para la Entrega Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/2.-%20Documento%20para%20la%20Entrega%20Actividad%20Pr%C3%A1ctica%201.docx?forcedownload=1)
