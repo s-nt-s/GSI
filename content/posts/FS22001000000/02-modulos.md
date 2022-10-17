@@ -39,6 +39,6 @@ NOTA: Las referencias a *Grupo* son concretamente al *Grupo 2*.
 4. **10:00-11:30** Mesa Redonda de Expertos: Administraciones y Servicios Públicos de calidad y para las personas
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Documento explicativo de la Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/1.-%20Documento%20Explicativo%20Actividad%20Pr%C3%A1ctica%201.pdf)
-    * [Documento WORD para la Entrega Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/2.-%20Documento%20para%20la%20Entrega%20Actividad%20Pr%C3%A1ctica%201.docx?forcedownload=1)
+    * [Documento WORD para la Entrega Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/2.-%20Documento%20para%20la%20Entrega%20Actividad%20Pr%C3%A1ctica%201.docx)
     * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=137823)
     * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=138358)
