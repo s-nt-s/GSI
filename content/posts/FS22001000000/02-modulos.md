@@ -50,6 +50,7 @@ NOTA: Los links de *Grupo* son concretamente al *Grupo 2*.
 1. Presentación:
     * [youtube.com/watch?v=8vMP5nktWRI](https://www.youtube.com/watch?v=8vMP5nktWRI)
 2. Lecturas básicas:
+    * [Presentación Integridad Pública](https://campus.inap.es/v3/pluginfile.php/2167051/mod_resource/content/1/Integridad%20P%C3%BAblica.-%20Presentaci%C3%B3n.pdf)
     * [Sistemas Preventivos Integridad](https://campus.inap.es/v3/pluginfile.php/2167048/mod_resource/content/1/INFORME_SOBRE_INTEGRIDAD_PUBLICA_AGE_JUNIO2021.pdf)
     * [Plan Medidas Antifraude PRTR Ministerio Hacienda y Función Públic](https://campus.inap.es/v3/pluginfile.php/2167066/mod_resource/content/1/220603-PLAN-ANTIFRAUDE.pdf)
     * [IV Plan Gobierno Abierto 2020-2024](https://campus.inap.es/v3/pluginfile.php/2167063/mod_resource/content/1/IVPlanGobiernoAbierto-ES_2020-2024.pdf)
