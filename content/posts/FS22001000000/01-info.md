@@ -47,7 +47,7 @@ Al inicio de cada módulo se proporcionará una guía didáctica que contendrá 
 objetivos, contenido, programación de sesiones y de actividades a realizar cada día,
 y evaluación de actividades.
 
-1. Principios y valores de las AP 1: Integridad y desarrollo sostenible:
+1. Principios y valores de las AP 1: Integridad y desarrollo sostenible
     * Integridad pública
     * Desarrollo sostenible y Agenda 2030
 2. Principios y valores de las AP 2: Igualdad de género y de oportunidades
