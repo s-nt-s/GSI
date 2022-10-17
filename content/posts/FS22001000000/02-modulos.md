@@ -6,17 +6,17 @@ replace:
   "Mesa Redonda de Expertos": '<a title="Sala para las sesiones plenarias" href="https://campus.inap.es/v3/mod/url/view.php?id=137304">Mesa Redonda de Expertos</a>'
 ---
 
-NOTA: Las referencias a *Grupo* son concretamente al *Grupo 2*.
+NOTA: Los links de *Grupo* son concretamente al *Grupo 2*.
 
 # Horario general
 
-|  Hora | Sala         | Clase |
-|------:|--------------|-------|
-|  9:00 |              | Trabajo individual asíncrono |
-| 10:00 | Plenaria     | Sesión síncrona conjunta |
-| 11:30 | **Descanso** | < |
-| 12:00 | [Grupo](https://campus.inap.es/v3/mod/url/view.php?id=137294) | Sesión grupal tutorizada |
-| 14:30 | **Fin**      | < |
+|  Hora | Clase                        |
+|------:|------------------------------|
+|  9:00 | Trabajo individual asíncrono |
+| 10:00 | [Sesión síncrona conjunta](https://campus.inap.es/v3/mod/url/view.php?id=137304) |
+| 11:30 | **Descanso**                 |
+| 12:00 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
+| 14:30 | **Fin**                      |
 
 # [1. Principios y valores de las AP 1: Integridad y desarrollo sostenible](https://campus.inap.es/v3/course/view.php?id=2199&section=2)
 
