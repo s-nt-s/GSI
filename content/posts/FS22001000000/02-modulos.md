@@ -42,3 +42,22 @@ NOTA: Las referencias a *Grupo* son concretamente al *Grupo 2*.
     * [Documento WORD para la Entrega Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/2.-%20Documento%20para%20la%20Entrega%20Actividad%20Pr%C3%A1ctica%201.docx)
     * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=137823)
     * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=138358)
+
+## Día 18: Integridad pública
+
+1. Presentación:
+    * [youtube.com/watch?v=8vMP5nktWRI](https://www.youtube.com/watch?v=8vMP5nktWRI)
+2. Lecturas básicas:
+    * [Sistemas Preventivos Integridad](https://campus.inap.es/v3/pluginfile.php/2167048/mod_resource/content/1/INFORME_SOBRE_INTEGRIDAD_PUBLICA_AGE_JUNIO2021.pdf)
+    * [Plan Medidas Antifraude PRTR Ministerio Hacienda y Función Públic](https://campus.inap.es/v3/pluginfile.php/2167066/mod_resource/content/1/220603-PLAN-ANTIFRAUDE.pdf)
+    * [IV Plan Gobierno Abierto 2020-2024](https://campus.inap.es/v3/pluginfile.php/2167063/mod_resource/content/1/IVPlanGobiernoAbierto-ES_2020-2024.pdf)
+    * [Legislación de interes](https://campus.inap.es/v3/mod/folder/view.php?id=138185)
+3. Lecturas complementarias:
+    * [9 lecturas Integridad Pública](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/9%20lecturas%20Integridad%20P%C3%BAblica.pdf)
+    * [De la gobernanza, liderazgo y ética pública](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/De%20la%20gobernanza%2C%20liderazgo%20y%20%C3%A9tica%20p%C3%BAblica.pdf)
+    * [Etica Organos Seleccion JJ Jimenez Vacas](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/Etica%20Organos%20Seleccion%20JJ%20Jimenez%20Vacas%20%281%29.pdf)
+    * [Gabilex nº 31 Códigos éticos y de conducta pública JJJV y CLHT](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/Gabilex%20n%C2%BA31%20C%C3%B3digos%20%C3%A9ticos%20y%20de%20conducta%20p%C3%BAblica%20JJJV%20y%20CLHT.pdf)
+    * [J. Vacas y Larrea HT Códigos éticos conducta pública](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/J.%20Vacas%20y%20Larrea%20HT%20C%C3%B3digos%20%C3%A9ticos%20conducta%20p%C3%BAblica.pdf)
+5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2167156/mod_resource/content/2/Enunciado%20caso%20pr%C3%A1ctico%2018.10.22.pdf)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137419)
