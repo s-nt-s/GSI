@@ -20,6 +20,8 @@ NOTA: Los links de *Grupo* son concretamente al *Grupo 2*.
 
 # [1. Principios y valores de las AP 1: Integridad y desarrollo sostenible](https://campus.inap.es/v3/course/view.php?id=2199&section=2)
 
+[Foro de debate](https://campus.inap.es/v3/mod/forum/view.php?id=138359)
+
 ## Día 17: Integridad pública
 
 1. Presentación:
