@@ -15,7 +15,7 @@ NOTA: Las referencias a *Grupo* son concretamente al *Grupo 2*.
 |  9:00 |              | Trabajo individual asíncrono |
 | 10:30 | Plenaria     | Sesión síncrona conjunta |
 | 11:30 | **Descanso** | < |
-| 12:00 | [Grupo](https://campus.inap.es/v3/mod/url/view.php?id=137294)      | Sesión grupal tutorizada |
+| 12:00 | [Grupo](https://campus.inap.es/v3/mod/url/view.php?id=137294) | Sesión grupal tutorizada |
 | 14:30 | **Fin**      | < |
 
 # 1. Principios y valores de las AP 1: Integridad y desarrollo sostenible
