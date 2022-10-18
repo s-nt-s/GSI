@@ -88,19 +88,19 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 2. Lecturas básicas:
     * [Teoría Igualdad de Género](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/Unidad%201%20Parte%20te%C3%B3rica%20Igualdad%20de%20G%C3%A9nero.pdf)
 3. Lecturas complementarias:
-    * [Ley Orgánica 32007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…%20la%20igualdad%20efectiva%20de%20mujeres%20y%20hombres.pdf)
-    * [Texto refundido Estatuto básico empleado público](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…ndido%20Estatuto%20b%C3%A1sico%20empleado%20p%C3%BAblico.pdf)
-    * [Real Decreto Ley Medidas Urgentes Igualdad](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…3%20Real%20Decreto%20Ley%20Medidas%20Urgentes%20Igualdad.pdf)
-    * [III Plan de Igualdad de Género AGE](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…_4%20III%20Plan%20de%20Igualdad%20de%20G%C3%A9nero%20AGE.pdf)
-    * [III Plan_Estrategico_2022_2025](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…F%C3%8DA/Unidad%201_5%20III%20Plan_Estrategico_2022_2025.pdf)
-    * [Real Decreto de igualdad retributiva](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…nidad_1_6%20Real%20Decreto%20de%20igualdad%20retributiva.pdf)
-    * [Real Decreto de Planes de Igualdad](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…dad%201_7%20Real%20Decreto%20de%20Planes%20de%20Igualdad.pdf)
-    * [Gender_equality_index_2021](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…LIOGRAF%C3%8DA/Unidad%201_8%20Gender_equality_index_2021.pdf)
-    * [gender-equality-strategy-2020-2025_en](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…/Unidad%201_%209%20gender-equality-strategy-2020-2025_en.pdf)
-    * [2022 repotr on gender equality in the EU](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…202022%20repotr%20on%20gender%20equality%20in%20the%20EU.pdf)
+    * [Ley Orgánica 32007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_1%20Ley%20Org%C3%A1nica%2032007%2C%20de%2022%20de%20marzo%2C%20para%20la%20igualdad%20efectiva%20de%20mujeres%20y%20hombres.pdf)
+    * [Texto refundido Estatuto básico empleado público](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad_1_2%20Texto%20refundido%20Estatuto%20b%C3%A1sico%20empleado%20p%C3%BAblico.pdf)
+    * [Real Decreto Ley Medidas Urgentes Igualdad](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_3%20Real%20Decreto%20Ley%20Medidas%20Urgentes%20Igualdad.pdf)
+    * [III Plan de Igualdad de Género AGE](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_4%20III%20Plan%20de%20Igualdad%20de%20G%C3%A9nero%20AGE.pdf)
+    * [III Plan_Estrategico_2022_2025](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_5%20III%20Plan_Estrategico_2022_2025.pdf)
+    * [Real Decreto de igualdad retributiva](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad_1_6%20Real%20Decreto%20de%20igualdad%20retributiva.pdf)
+    * [Real Decreto de Planes de Igualdad](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_7%20Real%20Decreto%20de%20Planes%20de%20Igualdad.pdf)
+    * [Gender_equality_index_2021](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_8%20Gender_equality_index_2021.pdf)
+    * [gender-equality-strategy-2020-2025_en](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_%209%20gender-equality-strategy-2020-2025_en.pdf)
+    * [2022 repotr on gender equality in the EU](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_10%202022%20repotr%20on%20gender%20equality%20in%20the%20EU.pdf)
 4. Mesa Redonda de Expertos: Políticas públicas de igualdad de género: avances y desafío
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
-    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…IGATORIO/Unidad%201%20Ejercicio%20pr%C3%A1ctico%20grupal.pdf)
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/Unidad%201%20Ejercicio%20pr%C3%A1ctico%20grupal.pdf)
     * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=138089)
     * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=137865)
 
@@ -111,13 +111,13 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 2. Lecturas básicas:
     * [La erradicación de la violencia contra las mujeres](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/LA%20ERRADICACI%C3%93N%20DE%20LA%20VIOLENCIA%20CONTRA%20LAS%20MUJERES.pdf)
 3. Lecturas complementarias:
-    * [Instrumento de ratificación del convenio de Estambul](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…ficaci%C3%B3n%20del%20convenio%20de%20Estambul%20%281%29.pdf)
-    * [Ley Orgánica 1 2004 de MPIVG](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…%20Ley%20Org%C3%A1nica%201%202004%20de%20MPIVG%20%281%29.pdf)
-    * [Macroencuesta violencia contra la mujer 2019](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…uesta%20violencia%20contra%20la%20mujer%202019%20%281%29.pdf)
-    * [Guía derechos mujeres víctimas violencia género](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…eres%20v%C3%ADctimas%20violencia%20g%C3%A9nero%20%281%29.pdf)
-    * [Ley Orgánica 10-2022 Garantia Integral de la Libertad Sexual](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…2022%20Garantia%20Integral%20de%20la%20Libertad%20Sexual.pdf)
-    * [Nota de Prensa del Plan Camino 20-09-2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…%20Nota%20de%20Prensa%20del%20Plan%20Camino%2020-09-2022.pdf)
-    * [Plan Camino DEF 19 09 2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…UNIDAD%2002%2007.%20Plan%20Camino%20DEF%2019%2009%202022.pdf)
+    * [Instrumento de ratificación del convenio de Estambul](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2001.%20Instrumento%20de%20ratificaci%C3%B3n%20del%20convenio%20de%20Estambul%20%281%29.pdf)
+    * [Ley Orgánica 1 2004 de MPIVG](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2002.%20Ley%20Org%C3%A1nica%201%202004%20de%20MPIVG%20%281%29.pdf)
+    * [Macroencuesta violencia contra la mujer 2019](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2003.%20Macroencuesta%20violencia%20contra%20la%20mujer%202019%20%281%29.pdf)
+    * [Guía derechos mujeres víctimas violencia género](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2004.%20Gu%C3%ADa%20derechos%20mujeres%20v%C3%ADctimas%20violencia%20g%C3%A9nero%20%281%29.pdf)
+    * [Ley Orgánica 10-2022 Garantia Integral de la Libertad Sexual](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2005.%20Ley%20Org%C3%A1nica%2010-2022%20Garantia%20Integral%20de%20la%20Libertad%20Sexual.pdf)
+    * [Nota de Prensa del Plan Camino 20-09-2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2006.%20Nota%20de%20Prensa%20del%20Plan%20Camino%2020-09-2022.pdf)
+    * [Plan Camino DEF 19 09 2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2007.%20Plan%20Camino%20DEF%2019%2009%202022.pdf)
 4. Mesa Redonda de Expertos: Los hijos e hijas de las mujeres víctimas de violencia de género
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/UNIDAD%202%20TRABAJANDO%20EN%20EQUIPO.pdf)
@@ -130,8 +130,8 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/CONTENIDO%20TE%C3%93RICO%20UNIDAD%203.pdf)
 3. Lecturas complementarias:
-    * [Ley 82021, de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/…%20el%20ejercicio%20de%20su%20capacidad%20jur%C3%ADdica..pdf)
-    * [Ley 152022, de 12 de julio, integral para la igualdad de trato y la no discriminación](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/…ualdad%20de%20trato%20y%20la%20no%20discriminaci%C3%B3n..pdf)
+    * [Ley 82021, de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Ley%2082021%2C%20de%202%20de%20junio%2C%20por%20la%20que%20se%20reforma%20la%20legislaci%C3%B3n%20civil%20y%20procesal%20para%20el%20apoyo%20a%20las%20personas%20con%20discapacidad%20en%20el%20ejercicio%20de%20su%20capacidad%20jur%C3%ADdica..pdf)
+    * [Ley 152022, de 12 de julio, integral para la igualdad de trato y la no discriminación](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Ley%20152022%2C%20de%2012%20de%20julio%2C%20integral%20para%20la%20igualdad%20de%20trato%20y%20la%20no%20discriminaci%C3%B3n..pdf)
 4. Mesa Redonda de Expertos: Racismos cotidianos
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/EJERCICIO%20POR%20EQUIPOS%20UNIDAD%203.pdf)
