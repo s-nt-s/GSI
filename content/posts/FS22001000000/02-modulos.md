@@ -20,6 +20,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 * [Foro de debate](https://campus.inap.es/v3/mod/forum/view.php?id=138359).
 * [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2151644/mod_resource/content/3/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%201.pdf)
+* [Foro con tutores](https://campus.inap.es/v3/mod/forum/view.php?id=136984)
 
 ## Día 17: Hacia una Administración Pública para las personas
 
@@ -77,6 +78,8 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 * [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2161149/mod_resource/content/7/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%202.pdf)
 * [Presentación equipo de coordinación](https://www.youtube.com/watch?v=VN7_DCpypos)
+* [Foro con tutores](https://campus.inap.es/v3/mod/forum/view.php?id=137863)
+* [Foro de reflexiones](https://campus.inap.es/v3/mod/forum/view.php?id=137864)
 
 ## Día 19: Igualdad de genero
 
@@ -98,7 +101,8 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 4. Mesa Redonda de Expertos: Políticas públicas de igualdad de género: avances y desafío
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…IGATORIO/Unidad%201%20Ejercicio%20pr%C3%A1ctico%20grupal.pdf)
-    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=138089)
+    * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=138089)
+    * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=137865)
 
 ## Día 20: Violencia de genero
 
@@ -131,4 +135,5 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 4. Mesa Redonda de Expertos: Racismos cotidianos
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/EJERCICIO%20POR%20EQUIPOS%20UNIDAD%203.pdf)
-    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=138091)
+    * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=138091)
+    * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=137865)
