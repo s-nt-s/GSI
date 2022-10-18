@@ -1,4 +1,5 @@
 config/inap.yml
+config/inap.json
 notas.txt
 runtree.sh
 output

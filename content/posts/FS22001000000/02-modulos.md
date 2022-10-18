@@ -6,9 +6,9 @@ replace:
   "Mesa Redonda de Expertos": '<a title="Sala para las sesiones plenarias" href="https://campus.inap.es/v3/mod/url/view.php?id=137304">Mesa Redonda de Expertos</a>'
 ---
 
-NOTA: Los links de *Grupo* son concretamente al *Grupo 2*.
+NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.es/v3/course/view.php?id=2199&section=6).
 
-# Horario general
+# [1. Principios y valores de las AP 1: Integridad y desarrollo sostenible](https://campus.inap.es/v3/course/view.php?id=2199&section=2)
 
 |  Hora | Clase                        |
 |------:|------------------------------|
@@ -18,11 +18,10 @@ NOTA: Los links de *Grupo* son concretamente al *Grupo 2*.
 | 12:00 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
 | 14:30 | **Fin**                      |
 
-# [1. Principios y valores de las AP 1: Integridad y desarrollo sostenible](https://campus.inap.es/v3/course/view.php?id=2199&section=2)
+* [Foro de debate](https://campus.inap.es/v3/mod/forum/view.php?id=138359).
+* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2151644/mod_resource/content/3/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%201.pdf)
 
-[Foro de debate](https://campus.inap.es/v3/mod/forum/view.php?id=138359).
-
-## Día 17: Integridad pública
+## Día 17: Hacia una Administración Pública para las personas
 
 1. Presentación:
     * [Estructura Jornada 17](https://campus.inap.es/v3/pluginfile.php/2166911/mod_resource/content/2/A%20modo%20de%20presentaci%C3%B3n....pdf)
@@ -61,7 +60,75 @@ NOTA: Los links de *Grupo* son concretamente al *Grupo 2*.
     * [Etica Organos Seleccion JJ Jimenez Vacas](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/Etica%20Organos%20Seleccion%20JJ%20Jimenez%20Vacas%20%281%29.pdf)
     * [Gabilex nº 31 Códigos éticos y de conducta pública JJJV y CLHT](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/Gabilex%20n%C2%BA31%20C%C3%B3digos%20%C3%A9ticos%20y%20de%20conducta%20p%C3%BAblica%20JJJV%20y%20CLHT.pdf)
     * [J. Vacas y Larrea HT Códigos éticos conducta pública](https://campus.inap.es/v3/pluginfile.php/2167052/mod_folder/content/0/J.%20Vacas%20y%20Larrea%20HT%20C%C3%B3digos%20%C3%A9ticos%20conducta%20p%C3%BAblica.pdf)
-4. Mesa Redonda de Expertos: [youtube.com/watch?v=XJ5iK2G8Dq4](https://www.youtube.com/watch?v=XJ5iK2G8Dq4)
+4. Mesa Redonda de Expertos: [Horizontes de futuro en la regulación de la integridad pública](https://www.youtube.com/watch?v=XJ5iK2G8Dq4)
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2167156/mod_resource/content/2/Enunciado%20caso%20pr%C3%A1ctico%2018.10.22.pdf)
     * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137419)
+
+# 2. Principios y valores de las AP 2: Igualdad de género y de oportunidades
+
+|  Hora | Clase                        |
+|------:|------------------------------|
+|  9:00 | Trabajo individual asíncrono |
+| 10:30 | [Sesión síncrona conjunta](https://campus.inap.es/v3/mod/url/view.php?id=137304) |
+| 11:30 | **Descanso**                 |
+| 12:00 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
+| 14:30 | **Fin**                      |
+
+* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2161149/mod_resource/content/7/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%202.pdf)
+* [Presentación equipo de coordinación](https://www.youtube.com/watch?v=VN7_DCpypos)
+
+## Día 19: Igualdad de genero
+
+1. Presentación:
+    * [youtube.com/watch?v=k5AKlj5BD1I](https://www.youtube.com/watch?v=k5AKlj5BD1I)
+2. Lecturas básicas:
+    * [Unidad 1 Parte teórica Igualdad de Género.pdf](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…201%20Parte%20te%C3%B3rica%20Igualdad%20de%20G%C3%A9nero.pdf)
+3. Lecturas complementarias:
+    * [Ley Orgánica 32007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…%20la%20igualdad%20efectiva%20de%20mujeres%20y%20hombres.pdf)
+    * [Texto refundido Estatuto básico empleado público](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…ndido%20Estatuto%20b%C3%A1sico%20empleado%20p%C3%BAblico.pdf)
+    * [Real Decreto Ley Medidas Urgentes Igualdad](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…3%20Real%20Decreto%20Ley%20Medidas%20Urgentes%20Igualdad.pdf)
+    * [III Plan de Igualdad de Género AGE](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…_4%20III%20Plan%20de%20Igualdad%20de%20G%C3%A9nero%20AGE.pdf)
+    * [III Plan_Estrategico_2022_2025](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…F%C3%8DA/Unidad%201_5%20III%20Plan_Estrategico_2022_2025.pdf)
+    * [Real Decreto de igualdad retributiva](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…nidad_1_6%20Real%20Decreto%20de%20igualdad%20retributiva.pdf)
+    * [Real Decreto de Planes de Igualdad](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…dad%201_7%20Real%20Decreto%20de%20Planes%20de%20Igualdad.pdf)
+    * [Gender_equality_index_2021](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…LIOGRAF%C3%8DA/Unidad%201_8%20Gender_equality_index_2021.pdf)
+    * [gender-equality-strategy-2020-2025_en](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…/Unidad%201_%209%20gender-equality-strategy-2020-2025_en.pdf)
+    * [2022 repotr on gender equality in the EU](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…202022%20repotr%20on%20gender%20equality%20in%20the%20EU.pdf)
+4. Mesa Redonda de Expertos: Políticas públicas de igualdad de género: avances y desafío
+5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…IGATORIO/Unidad%201%20Ejercicio%20pr%C3%A1ctico%20grupal.pdf)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=138089)
+
+## Día 20: Violencia de genero
+
+1. Presentación:
+    * [youtube.com/watch?v=d5J4Y-8PL68](https://www.youtube.com/watch?v=d5J4Y-8PL68)
+2. Lecturas básicas:
+    * [La erradicación de la violencia contra las mujeres](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/LA%20ERRADICACI%C3%93N%20DE%20LA%20VIOLENCIA%20CONTRA%20LAS%20MUJERES.pdf)
+3. Lecturas complementarias:
+    * [Instrumento de ratificación del convenio de Estambul](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…ficaci%C3%B3n%20del%20convenio%20de%20Estambul%20%281%29.pdf)
+    * [Ley Orgánica 1 2004 de MPIVG](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…%20Ley%20Org%C3%A1nica%201%202004%20de%20MPIVG%20%281%29.pdf)
+    * [Macroencuesta violencia contra la mujer 2019](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…uesta%20violencia%20contra%20la%20mujer%202019%20%281%29.pdf)
+    * [Guía derechos mujeres víctimas violencia género](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…eres%20v%C3%ADctimas%20violencia%20g%C3%A9nero%20%281%29.pdf)
+    * [Ley Orgánica 10-2022 Garantia Integral de la Libertad Sexual](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…2022%20Garantia%20Integral%20de%20la%20Libertad%20Sexual.pdf)
+    * [Nota de Prensa del Plan Camino 20-09-2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…%20Nota%20de%20Prensa%20del%20Plan%20Camino%2020-09-2022.pdf)
+    * [Plan Camino DEF 19 09 2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/…UNIDAD%2002%2007.%20Plan%20Camino%20DEF%2019%2009%202022.pdf)
+4. Mesa Redonda de Expertos: Los hijos e hijas de las mujeres víctimas de violencia de género
+5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/UNIDAD%202%20TRABAJANDO%20EN%20EQUIPO.pdf)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=138090)
+
+## Día 21: Igualdad de oportunidades y no discriminación
+
+1. Presentación:
+    * [youtube.com/watch?v=PKjeCKjo6J8](https://www.youtube.com/watch?v=PKjeCKjo6J8)
+2. Lecturas básicas:
+    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/CONTENIDO%20TE%C3%93RICO%20UNIDAD%203.pdf)
+3. Lecturas complementarias:
+    * [Ley 82021, de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/…%20el%20ejercicio%20de%20su%20capacidad%20jur%C3%ADdica..pdf)
+    * [Ley 152022, de 12 de julio, integral para la igualdad de trato y la no discriminación](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/…ualdad%20de%20trato%20y%20la%20no%20discriminaci%C3%B3n..pdf)
+4. Mesa Redonda de Expertos: Racismos cotidianos
+5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/EJERCICIO%20POR%20EQUIPOS%20UNIDAD%203.pdf)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=138091)
