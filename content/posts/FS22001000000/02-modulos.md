@@ -86,7 +86,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 1. Presentación:
     * [youtube.com/watch?v=k5AKlj5BD1I](https://www.youtube.com/watch?v=k5AKlj5BD1I)
 2. Lecturas básicas:
-    * [Unidad 1 Parte teórica Igualdad de Género.pdf](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…201%20Parte%20te%C3%B3rica%20Igualdad%20de%20G%C3%A9nero.pdf)
+    * [Teoría Igualdad de Género](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/Unidad%201%20Parte%20te%C3%B3rica%20Igualdad%20de%20G%C3%A9nero.pdf)
 3. Lecturas complementarias:
     * [Ley Orgánica 32007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…%20la%20igualdad%20efectiva%20de%20mujeres%20y%20hombres.pdf)
     * [Texto refundido Estatuto básico empleado público](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/…ndido%20Estatuto%20b%C3%A1sico%20empleado%20p%C3%BAblico.pdf)
