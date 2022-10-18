@@ -66,7 +66,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2167156/mod_resource/content/2/Enunciado%20caso%20pr%C3%A1ctico%2018.10.22.pdf)
     * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137419)
 
-# 2. Principios y valores de las AP 2: Igualdad de género y de oportunidades
+# [2. Principios y valores de las AP 2: Igualdad de género y de oportunidades](https://campus.inap.es/v3/course/view.php?id=2199&section=3)
 
 |  Hora | Clase                        |
 |------:|------------------------------|
