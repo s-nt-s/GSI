@@ -18,7 +18,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 | 12:00 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
 | 14:30 | **Fin**                      |
 
-* [Foro de debate](https://campus.inap.es/v3/mod/forum/view.php?id=138359).
+* [Foro de debate](https://campus.inap.es/v3/mod/forum/view.php?id=138359)
 * [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2151644/mod_resource/content/3/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%201.pdf)
 * [Foro con tutores](https://campus.inap.es/v3/mod/forum/view.php?id=136984)
 
@@ -98,7 +98,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
     * [Gender_equality_index_2021](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_8%20Gender_equality_index_2021.pdf)
     * [gender-equality-strategy-2020-2025_en](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_%209%20gender-equality-strategy-2020-2025_en.pdf)
     * [2022 repotr on gender equality in the EU](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Unidad%201_10%202022%20repotr%20on%20gender%20equality%20in%20the%20EU.pdf)
-4. Mesa Redonda de Expertos: Políticas públicas de igualdad de género: avances y desafío
+4. Mesa Redonda de Expertos: [Políticas públicas de igualdad de género: avances y desafío](https://www.youtube.com/watch?v=uN0rnMyWS2I)
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/Unidad%201%20Ejercicio%20pr%C3%A1ctico%20grupal.pdf)
     * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=138089)
