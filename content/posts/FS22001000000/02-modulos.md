@@ -132,7 +132,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 3. Lecturas complementarias:
     * [Ley 82021, de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Ley%2082021%2C%20de%202%20de%20junio%2C%20por%20la%20que%20se%20reforma%20la%20legislaci%C3%B3n%20civil%20y%20procesal%20para%20el%20apoyo%20a%20las%20personas%20con%20discapacidad%20en%20el%20ejercicio%20de%20su%20capacidad%20jur%C3%ADdica..pdf)
     * [Ley 152022, de 12 de julio, integral para la igualdad de trato y la no discriminación](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/BIBLIOGRAF%C3%8DA/Ley%20152022%2C%20de%2012%20de%20julio%2C%20integral%20para%20la%20igualdad%20de%20trato%20y%20la%20no%20discriminaci%C3%B3n..pdf)
-4. Mesa Redonda de Expertos: Racismos cotidianos
+4. Mesa Redonda de Expertos: [Racismos cotidianos](https://www.youtube.com/watch?v=8mQM8BWPA1M)
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/EJERCICIO%20POR%20EQUIPOS%20UNIDAD%203.pdf)
     * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=138091)
