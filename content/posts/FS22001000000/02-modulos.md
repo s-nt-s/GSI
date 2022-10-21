@@ -42,7 +42,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Documento explicativo de la Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/1.-%20Documento%20Explicativo%20Actividad%20Pr%C3%A1ctica%201.pdf)
     * [Documento WORD para la Entrega Actividad Práctica 1](https://campus.inap.es/v3/pluginfile.php/2166926/mod_folder/content/0/2.-%20Documento%20para%20la%20Entrega%20Actividad%20Pr%C3%A1ctica%201.docx)
-    * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=137823)
+    * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=137823)
     * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=138358)
 
 ## Día 18: Integridad pública
@@ -101,7 +101,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 4. Mesa Redonda de Expertos: [Políticas públicas de igualdad de género: avances y desafío](https://www.youtube.com/watch?v=uN0rnMyWS2I)
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2162737/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/Unidad%201%20Ejercicio%20pr%C3%A1ctico%20grupal.pdf)
-    * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=138089)
+    * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=138089)
     * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=137865)
 
 ## Día 20: Violencia de genero
@@ -118,7 +118,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
     * [Ley Orgánica 10-2022 Garantia Integral de la Libertad Sexual](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2005.%20Ley%20Org%C3%A1nica%2010-2022%20Garantia%20Integral%20de%20la%20Libertad%20Sexual.pdf)
     * [Nota de Prensa del Plan Camino 20-09-2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2006.%20Nota%20de%20Prensa%20del%20Plan%20Camino%2020-09-2022.pdf)
     * [Plan Camino DEF 19 09 2022](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/BIBLIOGRAF%C3%8DA/UNIDAD%2002%2007.%20Plan%20Camino%20DEF%2019%2009%202022.pdf)
-4. Mesa Redonda de Expertos: Los hijos e hijas de las mujeres víctimas de violencia de género
+4. Mesa Redonda de Expertos: [Los hijos e hijas de las mujeres víctimas de violencia de género](https://www.youtube.com/watch?v=UASY3qBXSQQ)
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2164067/mod_folder/content/0/CONTENIDO%20OBLIGATORIO/UNIDAD%202%20TRABAJANDO%20EN%20EQUIPO.pdf)
     * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=138090)
@@ -135,5 +135,5 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 4. Mesa Redonda de Expertos: Racismos cotidianos
 5. Practica por [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/EJERCICIO%20POR%20EQUIPOS%20UNIDAD%203.pdf)
-    * [Entrega en Aula Virtual](https://campus.inap.es/v3/mod/assign/view.php?id=138091)
+    * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=138091)
     * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=137865)
