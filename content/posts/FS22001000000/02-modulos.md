@@ -137,3 +137,27 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2161493/mod_folder/content/0/CONTENIDOS/EJERCICIO%20POR%20EQUIPOS%20UNIDAD%203.pdf)
     * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=138091)
     * [Entrega en Grupo](https://campus.inap.es/v3/mod/forum/view.php?id=137865)
+
+# [3. La organización, los procesos y los servicios desde la perspectiva de la transformación digital](https://campus.inap.es/v3/course/view.php?id=2199&section=4)
+
+
+|  Hora | Clase                        |
+|------:|------------------------------|
+|  9:00 | Trabajo individual asíncrono |
+| 10:30 | [Sesión síncrona conjunta](https://campus.inap.es/v3/mod/url/view.php?id=137304) |
+| 11:30 | **Descanso**                 |
+| 12:00 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
+| 14:30 | **Fin**                      |
+
+* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2159094/mod_resource/content/11/Guia%20didactica%20M3.pdf)
+* [Presentación](https://campus.inap.es/v3/pluginfile.php/2165409/mod_resource/content/11/Presentaci%C3%B3n%20M%C3%B3dulo%203.pdf)
+
+# Día 24: Administración electrónica y digitalización en la AGE (1)
+
+# Día 25: Administración electrónica y digitalización en la AGE (2)
+
+# Día 26: Transformación organizativa y nuevas formas de trabajo (1)
+
+# Día 27: Transformación organizativa y nuevas formas de trabajo (2)
+
+# Día 28: Gestión de personas y equipos y competencias digitales
