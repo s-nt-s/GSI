@@ -162,12 +162,12 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 3. Mesa Redonda de Expertos
 4. Ejercicio:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158512/mod_resource/content/1/Ejercicio%20No%20Evaluable%20Obsae%20Alumnos.pdf)
-    * [Contestar preguntas en foro](javascript:alert('not yet'))
+    * Contestar preguntas en foro
 
 ## Día 25: Administración electrónica y digitalización en la AGE (2)
 
 1. Lecturas básicas:
-    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157801/mod_resource/content/2/Contenidos%20Unidad%20Didactica%201.1.pdf)
+    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2167197/mod_resource/content/1/contenidos%20Unidad%20Didactica%201.2.pdf)
 2. Mesa Redonda de Expertos
 3. Ejercicio:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2159190/mod_resource/content/6/Actividad%20no%20evaluable%20sobre%20registros%20y%20gestion%20documental%20%283%29.pdf)
