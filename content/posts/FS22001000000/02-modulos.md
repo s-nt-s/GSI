@@ -140,7 +140,6 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 # [3. La organización, los procesos y los servicios desde la perspectiva de la transformación digital](https://campus.inap.es/v3/course/view.php?id=2199&section=4)
 
-
 |  Hora | Clase                        |
 |------:|------------------------------|
 |  9:00 | Trabajo individual asíncrono |
@@ -151,13 +150,50 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 * [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2159094/mod_resource/content/11/Guia%20didactica%20M3.pdf)
 * [Presentación](https://campus.inap.es/v3/pluginfile.php/2165409/mod_resource/content/11/Presentaci%C3%B3n%20M%C3%B3dulo%203.pdf)
+* Trabajo en Grupo Evaluable:
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158033/mod_resource/content/3/Trabajo%20en%20grupo%20Transformaci%C3%B3n%20digital%20AGE-%20GTIC_alumnos.pdf)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137421)
 
-# Día 24: Administración electrónica y digitalización en la AGE (1)
+## Día 24: Administración electrónica y digitalización en la AGE (1)
 
-# Día 25: Administración electrónica y digitalización en la AGE (2)
+1. [Presentación](https://www.youtube.com/watch?v=OYV52UFIVYY)
+2. Lecturas básicas:
+    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157801/mod_resource/content/2/Contenidos%20Unidad%20Didactica%201.1.pdf)
+3. Mesa Redonda de Expertos
+4. Ejercicio:
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158512/mod_resource/content/1/Ejercicio%20No%20Evaluable%20Obsae%20Alumnos.pdf)
+    * [Contestar preguntas en foro](javascript:alert('not yet'))
 
-# Día 26: Transformación organizativa y nuevas formas de trabajo (1)
+## Día 25: Administración electrónica y digitalización en la AGE (2)
 
-# Día 27: Transformación organizativa y nuevas formas de trabajo (2)
+1. Lecturas básicas:
+    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157801/mod_resource/content/2/Contenidos%20Unidad%20Didactica%201.1.pdf)
+2. Mesa Redonda de Expertos
+3. Ejercicio:
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2159190/mod_resource/content/6/Actividad%20no%20evaluable%20sobre%20registros%20y%20gestion%20documental%20%283%29.pdf)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137503)
 
-# Día 28: Gestión de personas y equipos y competencias digitales
+## Día 26: Transformación organizativa y nuevas formas de trabajo (1)
+
+1. [Presentación](https://www.youtube.com/watch?v=T8zBqSCZks8)
+2. Lecturas básicas:
+    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157769/mod_resource/content/3/Contenidos%20Unidad%20Didactica%202.1%20%281%29.pdf)
+3. Mesa Redonda de Expertos
+
+## Día 27: Transformación organizativa y nuevas formas de trabajo (2)
+
+1. Lecturas básicas:
+    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2158862/mod_resource/content/2/Contenidos%20unidad%20didactica%202.2%20dia%204%20%282%29.pdf)
+2. Mesa Redonda de Expertos
+3. Ejercicio:
+    * [Lecciones de la pandemia](https://campus.inap.es/v3/pluginfile.php/2158906/mod_resource/content/2/Ejercicio%20lecciones%20de%20la%20pandemia.pdf)
+    * [Protección de datos](https://campus.inap.es/v3/pluginfile.php/2158523/mod_resource/content/1/Ejercicio%20No%20Evaluable%20SW_AEPD%20Alumnos.pdf)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137504)
+
+## Día 28: Gestión de personas y equipos y competencias digitales
+
+1. [Presentación](https://campus.inap.es/v3/pluginfile.php/2159865/mod_resource/content/2/unidad 3 - módulo3.mp4)
+2. Lecturas básicas:
+    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157781/mod_resource/content/4/Contenidos%20Unidad%20Didactica%203%20%286%29.pdf)
+3. Mesa Redonda de Expertos
+4. Trabajo en grupo evaluable
