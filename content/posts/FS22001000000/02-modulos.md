@@ -166,7 +166,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 3. Lecturas opcionales:
     * [Las Apps en los Servicios Públicos](https://www.ospi.es/export/sites/ospi/documents/informes/Las-Apps-en-los-Servicios-Publicos-OSPI.pdf)
     * [Manual de Simplificación y Reducción de Cargas](https://www.mptfp.gob.es/dam/es/portal/funcionpublica/gobernanza-publica/simplificacion/doc-referencia/14_Manual_Simplificacion_Administrativa_y_reduccion_de_cargas_AGE.pdf)
-4. Mesa Redonda de Expertos
+4. Mesa Redonda de Expertos: [Introducción al sistema de Registros: registros de entrada, apoderamientos y habilitados](https://www.youtube.com/watch?v=E4qbISrLvdw) - [diapositivas](https://campus.inap.es/v3/pluginfile.php/2174529/mod_resource/content/4/Registros%20Curso%20gestion%20TIC.pdf)
 5. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 6. Ejercicio OBSAE:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158512/mod_resource/content/1/Ejercicio%20No%20Evaluable%20Obsae%20Alumnos.pdf)
@@ -181,7 +181,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 2. Mesa Redonda de Expertos
 3. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 4. Ejercicio Registros Electrónicos y Archivo CTT:
-    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2159190/mod_resource/content/6/Actividad%20no%20evaluable%20sobre%20registros%20y%20gestion%20documental%20%283%29.pdf)
+    * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2174425/mod_resource/content/1/ALUMNO%20Actividad%20no%20evaluable%20sobre%20registros%20y%20gestion%20documental.pdf)
     * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=137503)
     * [Entrega grupal](https://campus.inap.es/v3/mod/forum/view.php?id=137543)
 5. Ejercicio Portales de Datos Abiertos:
