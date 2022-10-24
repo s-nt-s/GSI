@@ -157,21 +157,33 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 ## Día 24: Administración electrónica y digitalización en la AGE (1)
 
 1. [Presentación](https://www.youtube.com/watch?v=OYV52UFIVYY)
-2. Lecturas básicas:
-    * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157801/mod_resource/content/2/Contenidos%20Unidad%20Didactica%201.1.pdf)
+2. [Lecturas básicas](https://campus.inap.es/v3/pluginfile.php/2157801/mod_resource/content/2/Contenidos%20Unidad%20Didactica%201.1.pdf):
+    * [Registros electrónicos de la AGE. #Habilita, #Apodera, #REG](https://www.youtube.com/watch?v=qvMcTYwqHTE)
+    * [Índice de Economía y Sociedad Digital (DESI)](https://espanadigital.gob.es/sites/espanadigital/files/2022-08/DESI%202022%20Espa%C3%B1a.pdf)
+    * [Catálogo de Servicios de Administración Electrónica](https://administracionelectronica.gob.es/pae_Home/dam/jcr:736d93af-5aef-457c-bad8-f5496ffa1734/Catalogo-servicios-administracion-digital-version-2018.pdf)
+    * [IA y Gobierno Abierto 7:23-13:04](https://www.youtube.com/watch?v=C1AT3fuoPl0&t=461s)
+    * [Catálogo de servicios de la Plataforma de Intermediación](https://administracionelectronica.gob.es/ctt/resources/Soluciones/223/Descargas/Catalogo%20Servicios%20de%20Verificacion%20y%20consulta%20de%20Datos%20SCSP.pdf)
+4. Lecturas opcionales:
+    * [Las Apps en los Servicios Públicos](https://www.ospi.es/export/sites/ospi/documents/informes/Las-Apps-en-los-Servicios-Publicos-OSPI.pdf)
+    * [Manual de Simplificación y Reducción de Cargas](https://www.mptfp.gob.es/dam/es/portal/funcionpublica/gobernanza-publica/simplificacion/doc-referencia/14_Manual_Simplificacion_Administrativa_y_reduccion_de_cargas_AGE.pdf)
 3. Mesa Redonda de Expertos
-4. Ejercicio:
+4. Ejercicio OBSAE:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158512/mod_resource/content/1/Ejercicio%20No%20Evaluable%20Obsae%20Alumnos.pdf)
-    * Contestar preguntas en foro
+    * [Entrega](https://campus.inap.es/v3/mod/forum/view.php?id=137544)
+5. Ejercicio Carpeta Ciudadana:
+    * [Enunciado y entrega](https://campus.inap.es/v3/mod/forum/view.php?id=137547)
 
 ## Día 25: Administración electrónica y digitalización en la AGE (2)
 
 1. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2167197/mod_resource/content/1/contenidos%20Unidad%20Didactica%201.2.pdf)
 2. Mesa Redonda de Expertos
-3. Ejercicio:
+3. Ejercicio Registros Electrónicos y Archivo CTT:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2159190/mod_resource/content/6/Actividad%20no%20evaluable%20sobre%20registros%20y%20gestion%20documental%20%283%29.pdf)
-    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137503)
+    * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=137503)
+    * [Entrega grupal](https://campus.inap.es/v3/mod/forum/view.php?id=137543)
+4. Ejercicio Portales de Datos Abiertos:
+    * [Enunciado y entrega](https://campus.inap.es/v3/mod/forum/discuss.php?d=80332)
 
 ## Día 26: Transformación organizativa y nuevas formas de trabajo (1)
 
@@ -179,16 +191,22 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157769/mod_resource/content/3/Contenidos%20Unidad%20Didactica%202.1%20%281%29.pdf)
 3. Mesa Redonda de Expertos
+4. Ejercicio:
+    * Enunciado: [1](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%201.docx) - [2](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%202.docx) - [3](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%203.docx) - [4](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%204.docx)
+    * [Entrega](https://campus.inap.es/v3/mod/forum/view.php?id=137545)
 
 ## Día 27: Transformación organizativa y nuevas formas de trabajo (2)
 
 1. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2158862/mod_resource/content/2/Contenidos%20unidad%20didactica%202.2%20dia%204%20%282%29.pdf)
 2. Mesa Redonda de Expertos
+3. Ejercicio Trabajo a Distancia versus Teletrabajo:
+    * [Enunciado](https://campus.inap.es/v3/mod/forum/view.php?id=138201)
+    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137504)
 3. Ejercicio:
     * [Lecciones de la pandemia](https://campus.inap.es/v3/pluginfile.php/2158906/mod_resource/content/2/Ejercicio%20lecciones%20de%20la%20pandemia.pdf)
     * [Protección de datos](https://campus.inap.es/v3/pluginfile.php/2158523/mod_resource/content/1/Ejercicio%20No%20Evaluable%20SW_AEPD%20Alumnos.pdf)
-    * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137504)
+    * ¿Entrega?
 
 ## Día 28: Gestión de personas y equipos y competencias digitales
 
