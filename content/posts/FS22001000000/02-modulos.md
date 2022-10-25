@@ -182,10 +182,10 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 3. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 4. Ejercicio Registros Electrónicos y Archivo CTT:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2174425/mod_resource/content/1/ALUMNO%20Actividad%20no%20evaluable%20sobre%20registros%20y%20gestion%20documental.pdf)
-    * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=137503)
     * [Entrega grupal](https://campus.inap.es/v3/mod/forum/view.php?id=137543)
 5. Ejercicio Portales de Datos Abiertos:
     * [Enunciado y entrega](https://campus.inap.es/v3/mod/forum/discuss.php?d=80332)
+    * [Entrega individual](https://campus.inap.es/v3/mod/assign/view.php?id=137503)
 
 ## Día 26: Transformación organizativa y nuevas formas de trabajo (1)
 
