@@ -148,7 +148,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 | 12:00 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
 | 14:30 | **Fin**                      |
 
-* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2159094/mod_resource/content/11/Guia%20didactica%20M3.pdf)
+* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2159094/mod_resource/content/13/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%203%20V5.pdf)
 * [Presentación](https://campus.inap.es/v3/pluginfile.php/2165409/mod_resource/content/11/Presentaci%C3%B3n%20M%C3%B3dulo%203.pdf)
 * Trabajo en Grupo Evaluable:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158033/mod_resource/content/3/Trabajo%20en%20grupo%20Transformaci%C3%B3n%20digital%20AGE-%20GTIC_alumnos.pdf)
