@@ -192,7 +192,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 1. [Presentación](https://www.youtube.com/watch?v=T8zBqSCZks8)
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157769/mod_resource/content/3/Contenidos%20Unidad%20Didactica%202.1%20%281%29.pdf)
-3. Mesa Redonda de Expertos
+3. Mesa Redonda de Expertos: Puesto de trabajo deslocalizado
 4. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 5. Ejercicio:
     * Enunciado: [1](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%201.docx) - [2](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%202.docx) - [3](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%203.docx) - [4](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%204.docx)
@@ -202,13 +202,13 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 1. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2158862/mod_resource/content/2/Contenidos%20unidad%20didactica%202.2%20dia%204%20%282%29.pdf)
-2. Mesa Redonda de Expertos
+2. Mesa Redonda de Expertos: Actuación frente a incidentes de ciberseguridad
 3. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 4. Ejercicio Trabajo a Distancia versus Teletrabajo:
     * [Enunciado](https://campus.inap.es/v3/mod/forum/view.php?id=138201)
     * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137504)
 5. Ejercicio:
-    * [Lecciones de la pandemia](https://campus.inap.es/v3/pluginfile.php/2158906/mod_resource/content/2/Ejercicio%20lecciones%20de%20la%20pandemia.pdf)
+    * [Lecciones de la pandemia](https://campus.inap.es/v3/pluginfile.php/2174440/mod_resource/content/1/ALUMNO%20Ejercicio%20lecciones%20de%20la%20pandemia.pdf)
     * [Protección de datos](https://campus.inap.es/v3/pluginfile.php/2158523/mod_resource/content/1/Ejercicio%20No%20Evaluable%20SW_AEPD%20Alumnos.pdf)
     * ¿Entrega?
 
@@ -217,6 +217,6 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 1. [Presentación](https://campus.inap.es/v3/pluginfile.php/2159865/mod_resource/content/2/unidad 3 - módulo3.mp4)
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157781/mod_resource/content/4/Contenidos%20Unidad%20Didactica%203%20%286%29.pdf)
-3. Mesa Redonda de Expertos
+3. Mesa Redonda de Expertos: La transformación digital en el Ministerio de Justicia.
 4. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 5. Trabajo en grupo evaluable
