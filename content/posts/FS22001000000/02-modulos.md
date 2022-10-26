@@ -178,7 +178,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 1. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2167197/mod_resource/content/1/contenidos%20Unidad%20Didactica%201.2.pdf)
-2. Mesa Redonda de Expertos
+2. Mesa Redonda de Expertos: [Ciclo de vida del documento y el expediente electrónico](https://www.youtube.com/watch?v=UrM0SD1JBLQ)
 3. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 4. Ejercicio Portales de Datos Abiertos:
     * [Enunciado y entrega](https://campus.inap.es/v3/mod/forum/discuss.php?d=80332)
