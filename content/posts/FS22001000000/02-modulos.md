@@ -207,11 +207,11 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 4. Ejercicio Trabajo a Distancia versus Teletrabajo:
     * [Enunciado](https://campus.inap.es/v3/mod/forum/view.php?id=138201)
     * [Entrega](https://campus.inap.es/v3/mod/assign/view.php?id=137504)
-5. Ejercicio:
-    * [Lecciones de la pandemia](https://campus.inap.es/v3/pluginfile.php/2174440/mod_resource/content/1/ALUMNO%20Ejercicio%20lecciones%20de%20la%20pandemia.pdf)
-6. Ejercicio protección de datos:
+5. Ejercicio protección de datos:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158523/mod_resource/content/1/Ejercicio%20No%20Evaluable%20SW_AEPD%20Alumnos.pdf)
     * [Entrega](https://campus.inap.es/v3/mod/forum/view.php?id=137546)
+6. Ejercicio:
+    * [Lecciones de la pandemia](https://campus.inap.es/v3/pluginfile.php/2174440/mod_resource/content/1/ALUMNO%20Ejercicio%20lecciones%20de%20la%20pandemia.pdf)
 
 ## Día 28: Gestión de personas y equipos y competencias digitales
 
