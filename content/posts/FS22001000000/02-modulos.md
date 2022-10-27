@@ -148,7 +148,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 | 12:00 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
 | 14:30 | **Fin**                      |
 
-* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2159094/mod_resource/content/13/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%203%20V5.pdf)
+* [Guía didáctica](https://campus.inap.es/v3/pluginfile.php/2159094/mod_resource/content/14/Gu%C3%ADa%20Did%C3%A1ctica%20m%C3%B3dulo%203%20V6.pdf)
 * [Presentación](https://campus.inap.es/v3/pluginfile.php/2165409/mod_resource/content/11/Presentaci%C3%B3n%20M%C3%B3dulo%203.pdf)
 * Trabajo en Grupo Evaluable:
     * [Enunciado](https://campus.inap.es/v3/pluginfile.php/2158033/mod_resource/content/3/Trabajo%20en%20grupo%20Transformaci%C3%B3n%20digital%20AGE-%20GTIC_alumnos.pdf)
@@ -202,7 +202,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 1. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2158862/mod_resource/content/2/Contenidos%20unidad%20didactica%202.2%20dia%204%20%282%29.pdf)
-2. Mesa Redonda de Expertos: Actuación frente a incidentes de ciberseguridad
+2. Mesa Redonda de Expertos: [Actuación frente a incidentes de ciberseguridad](https://www.youtube.com/watch?v=s9MN-fT4TvE)
 3. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 4. Ejercicio Trabajo a Distancia versus Teletrabajo:
     * [Enunciado](https://campus.inap.es/v3/mod/forum/view.php?id=138201)
