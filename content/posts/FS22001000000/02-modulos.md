@@ -178,7 +178,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 1. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2167197/mod_resource/content/1/contenidos%20Unidad%20Didactica%201.2.pdf)
-2. Mesa Redonda de Expertos: [Ciclo de vida del documento y el expediente electrónico](https://www.youtube.com/watch?v=UrM0SD1JBLQ)
+2. Mesa Redonda de Expertos: [Ciclo de vida del documento y el expediente electrónico](https://www.youtube.com/watch?v=UrM0SD1JBLQ) - [presentación](https://campus.inap.es/v3/pluginfile.php/2175303/mod_resource/content/1/GBustos%20documento_e%20Oct_2022%20INAP%20V1.pdf)
 3. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 4. Ejercicio Portales de Datos Abiertos:
     * [Enunciado y entrega](https://campus.inap.es/v3/mod/forum/discuss.php?d=80332)
@@ -192,7 +192,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 1. [Presentación](https://www.youtube.com/watch?v=T8zBqSCZks8)
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157769/mod_resource/content/3/Contenidos%20Unidad%20Didactica%202.1%20%281%29.pdf)
-3. Mesa Redonda de Expertos: [Puesto de trabajo deslocalizado](https://www.youtube.com/watch?v=B1mLXEitcLM) - [presentación](https://campus.inap.es/v3/pluginfile.php/2175303/mod_resource/content/1/GBustos%20documento_e%20Oct_2022%20INAP%20V1.pdf)
+3. Mesa Redonda de Expertos: [Puesto de trabajo deslocalizado](https://www.youtube.com/watch?v=B1mLXEitcLM)
 4. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 5. Ejercicio:
     * Enunciado: [1](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%201.docx) - [2](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%202.docx) - [3](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%203.docx) - [4](https://campus.inap.es/v3/pluginfile.php/2157771/mod_folder/content/0/Caso%20practico%20parte%204.docx)
