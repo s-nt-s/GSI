@@ -216,6 +216,17 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 ## Día 28: Gestión de personas y equipos y competencias digitales
 
+|  Hora | Clase                        |
+|------:|------------------------------|
+|  9:00 | Trabajo individual asíncrono |
+| 10:30 | [Sesión síncrona conjunta](https://campus.inap.es/v3/mod/url/view.php?id=137304) |
+| 11:30 | **Descanso**                 |
+| 12:00 | [Sesión síncrona conjunta](https://campus.inap.es/v3/mod/url/view.php?id=137304) |
+| 13:00 | **Descanso**                 |
+| 13:15 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
+| 14:00 | Sesión de cierre del curso selectivo |
+| 14:30 | **Fin**                      |
+
 1. [Presentación](https://campus.inap.es/v3/pluginfile.php/2159865/mod_resource/content/2/unidad 3 - módulo3.mp4)
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157781/mod_resource/content/4/Contenidos%20Unidad%20Didactica%203%20%286%29.pdf)
