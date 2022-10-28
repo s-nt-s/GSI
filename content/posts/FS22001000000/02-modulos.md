@@ -224,7 +224,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 | 12:00 | [Sesión síncrona conjunta](https://campus.inap.es/v3/mod/url/view.php?id=137304) |
 | 13:00 | **Descanso**                 |
 | 13:15 | [Sesión grupal tutorizada](https://campus.inap.es/v3/mod/url/view.php?id=137294) |
-| 14:00 | Sesión de cierre del curso selectivo |
+| 14:00 | [Sesión de cierre del curso selectivo](https://campus.inap.es/v3/mod/url/view.php?id=137304) |
 | 14:30 | **Fin**                      |
 
 1. [Presentación](https://www.youtube.com/watch?v=LX1huLd3c7o)
