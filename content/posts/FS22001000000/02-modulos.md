@@ -230,6 +230,8 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 1. [Presentación](https://www.youtube.com/watch?v=LX1huLd3c7o)
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157781/mod_resource/content/4/Contenidos%20Unidad%20Didactica%203%20%286%29.pdf)
-3. Mesa Redonda de Expertos: La transformación digital en el Ministerio de Justicia.
+3. Mesa Redonda de Expertos:
+    * La transformación digital en el Ministerio de Justicia
+    * Director General de Transformación Digital en el Ministerio de Justicia
 4. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 5. Trabajo en grupo evaluable
