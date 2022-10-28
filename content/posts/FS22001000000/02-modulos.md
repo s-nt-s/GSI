@@ -202,7 +202,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 
 1. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2158862/mod_resource/content/2/Contenidos%20unidad%20didactica%202.2%20dia%204%20%282%29.pdf)
-2. Mesa Redonda de Expertos: [Actuación frente a incidentes de ciberseguridad](https://www.youtube.com/watch?v=s9MN-fT4TvE)
+2. Mesa Redonda de Expertos: [Actuación frente a incidentes de ciberseguridad](https://www.youtube.com/watch?v=s9MN-fT4TvE) - [presentación](https://campus.inap.es/v3/pluginfile.php/2176518/mod_resource/content/1/20221027-gestion%20de%20incidentes%2099.pdf)
 3. Sesión en [grupos](https://campus.inap.es/v3/mod/url/view.php?id=137294)
 4. Ejercicio Trabajo a Distancia versus Teletrabajo:
     * [Enunciado](https://campus.inap.es/v3/mod/forum/view.php?id=138201)
@@ -227,7 +227,7 @@ NOTA: Los links de *Grupo* son concretamente al [*Grupo 2*](https://campus.inap.
 | 14:00 | Sesión de cierre del curso selectivo |
 | 14:30 | **Fin**                      |
 
-1. [Presentación](https://campus.inap.es/v3/pluginfile.php/2159865/mod_resource/content/2/unidad 3 - módulo3.mp4)
+1. [Presentación](https://www.youtube.com/watch?v=LX1huLd3c7o)
 2. Lecturas básicas:
     * [Contenido teórico](https://campus.inap.es/v3/pluginfile.php/2157781/mod_resource/content/4/Contenidos%20Unidad%20Didactica%203%20%286%29.pdf)
 3. Mesa Redonda de Expertos: La transformación digital en el Ministerio de Justicia.
