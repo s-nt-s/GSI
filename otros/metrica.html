@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Métrica v3</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home otros_metrica" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="..">Apuntes GSI</a></li>
+<li><a href="../category/otros.html">Otros recursos</a></li>
+<li>Métrica v3</li>
+<li>
+[<a href="metrica.epub">EPUB</a>]
+ | [<a href="metrica.json">JSON</a>]
+  </li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="introduccion">
+<a aria-hidden="true" class="anchormark" href="#introduccion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/" target="_blank">INTRODUCCIÓN</a></h1>
+<ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/aportaciones/" target="_blank">Aportaciones de Métrica Versión 3</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/" target="_blank">PROCESOS PRINCIPALES DE MÉTRICA VERSIÓN 3</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/psi/" target="_blank">Planificación de Sistemas de Información (PSI)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/" target="_blank">Desarrollo de Sistemas de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/evs/" target="_blank">Estudio de Viabilidad del Sistema (EVS)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/asi/" target="_blank">Análisis del Sistema de Información (ASI)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/dsi/" target="_blank">Diseño del Sistema de Información (DSI)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/csi/" target="_blank">Construcción del Sistema de Información (CSI)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/desarrollo/ias/" target="_blank">Implantación y Aceptación del Sistema (IAS)</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/procesos-principales/msi/" target="_blank">Mantenimiento de Sistemas de Información (MSI)</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/" target="_blank">INTERFACES DE MÉTRICA VERSIÓN 3</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/gestion-de-proyectos/" target="_blank">Gestión de Proyectos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/seguridad/" target="_blank">Seguridad</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/gestion-de-la-configuracion/" target="_blank">Gestión de la Configuración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/introduccion/interfaces/aseguramiento-de-la-calidad/" target="_blank">Aseguramiento de la Calidad</a></li>
+</ul>
+</li>
+</ul>
+<h1 class="anchormark" id="procesos-principales-de-metrica-v3">
+<a aria-hidden="true" class="anchormark" href="#procesos-principales-de-metrica-v3"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/" target="_blank">PROCESOS PRINCIPALES DE MÉTRICA v3</a></h1>
+<ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/" target="_blank">Planificación de Sistemas de Información (PSI)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/" target="_blank">Actividad PSI 1: Inicio del Plan de Sistemas de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-1/" target="_blank">Tarea PSI 1.1: Análisis de la Necesidad del PSI</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-2/" target="_blank">Tarea PSI 1.2: Identificación del Alcance del PSI</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-1/tarea-3/" target="_blank">Tarea PSI 1.3: Determinación de Responsables</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/" target="_blank">Actividad PSI 2: Definición y Organización del PSI</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-1/" target="_blank">Tarea PSI 2.1: Especificación del Ámbito y Alcance</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-2/" target="_blank">Tarea PSI 2.2: Organización del PSI</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-3/" target="_blank">Tarea PSI 2.3: Definición del Plan de Trabajo</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-2/tarea-4/" target="_blank">Tarea PSI 2.4: Comunicación del Plan de Trabajo</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-3/" target="_blank">Actividad PSI 3: Estudio de la Información Relevante</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-3/tarea-1/" target="_blank">Tarea PSI 3.1: Selección y Análisis de Antecedentes</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-3/tarea-2/" target="_blank">Tarea PSI 3.2: Valoración de Antecedentes</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/" target="_blank">Actividad PSI 4: Identificación de Requisitos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-1/" target="_blank">Tarea PSI 4.1: Estudio de los Procesos del PSI</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-2/" target="_blank">Tarea PSI 4.2: Análisis de las Necesidades de Información</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-4/tarea-3/" target="_blank">Tarea PSI 4.3: Catalogación de Requisitos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/" target="_blank">Actividad PSI 5: Estudio de los Sistemas de Información Actuales</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-1/" target="_blank">Tarea PSI 5.1: Alcance y Objetivos del Estudio de los Sistemas de Información Actuales</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-2/" target="_blank">Tarea PSI 5.2: Análisis de los Sistemas de Información Actuales</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-5/tarea-3/" target="_blank">Tarea PSI 5.3: Valoración de los Sistemas de Información Actuales</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-6/" target="_blank">Actividad PSI 6: Diseño del Modelo de Sistemas de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-6/tarea-1/" target="_blank">Tarea PSI 6.1: Diagnóstico de la Situación Actual</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-6/tarea-2/" target="_blank">Tarea PSI 6.2: Definición del Modelo de Sistemas de Información</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-7/" target="_blank">Actividad PSI 7: Definición de la Arquitectura Tecnológica</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-7/tarea-1/" target="_blank">Tarea PSI 7.1: Identificación de las Necesidades de Infraestructura Tecnológica</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-7/tarea-2/" target="_blank">Tarea PSI 7.2: Selección de la Arquitectura Tecnológica</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-8/" target="_blank">Actividad PSI 8: Definición del Plan de Acción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-8/tarea-1/" target="_blank">Tarea PSI 8.1: Definición de Proyectos a Realizar</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-8/tarea-2/" target="_blank">Tarea PSI 8.2: Elaboración del Plan de Mantenimiento del PSI</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/" target="_blank">Actividad PSI 9: Revisión y Aprobación del PSI</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-1/" target="_blank">Tarea PSI 9.1: Convocatoria de la Presentación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-2/" target="_blank">Tarea PSI 9.2: Evaluación y Mejora de la Propuesta</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/psi/actividad-9/tarea-3/" target="_blank">Tarea PSI 9.3: Aprobación del PSI</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/desarrollo/" target="_blank">DESARROLLO DE SISTEMAS DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/" target="_blank">Estudio de Viabilidad del Sistema (EVS)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/" target="_blank">Actividad EVS 1: Establecimiento del Alcance del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-1/" target="_blank">Tarea EVS 1.1: Estudio de la Solicitud</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-2/" target="_blank">Tarea EVS 1.2: Identificación del Alcance del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-1/tarea-3/" target="_blank">Tarea EVS 1.3: Especificación del Alcance del EVS</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/" target="_blank">Actividad EVS 2: Estudio de la Situación Actual</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-1/" target="_blank">Tarea EVS 2.1: Valoración del Estudio de la Situación Actual</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-2/" target="_blank">Tarea EVS 2.2: Identificación de los Usuarios Participantes en el Estudio de la Situación Actual</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-3/" target="_blank">Tarea EVS 2.3: Descripción de los Sistemas de Información Existentes</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-2/tarea-4/" target="_blank">Tarea EVS 2.4: Realización del Diagnóstico de la Situación Actual</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/" target="_blank">Actividad EVS 3: Definición de Requisitos del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-1/" target="_blank">Tarea EVS 3.1: Identificación de las Directrices Técnicas y de Gestión</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-2/" target="_blank">Tarea EVS 3.2: Identificación de Requisitos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-3/tarea-3/" target="_blank">Tarea EVS 3.3: Catalogación de Requisitos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-4/" target="_blank">Actividad EVS 4: Estudio de Alternativas de Solución</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-4/tarea-1/" target="_blank">Tarea EVS 4.1: Preselección de Alternativas de Solución</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-4/tarea-2/" target="_blank">Tarea EVS 4.2: Descripción de las Alternativas de Solución</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/" target="_blank">Actividad EVS 5: Valoración de las Alternativas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-1/" target="_blank">Tarea EVS 5.1: Estudio de la Inversión</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-2/" target="_blank">Tarea EVS 5.2: Estudio de los Riesgos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-5/tarea-3/" target="_blank">Tarea EVS 5.3: Planificación de Alternativas</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/" target="_blank">Actividad EVS 6: Selección de la Solución</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-1/" target="_blank">Tarea EVS 6.1: Convocatoria de la Presentación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-2/" target="_blank">Tarea EVS 6.2: Evaluación de las Alternativas y Selección</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/evs/actividad-6/tarea-3/" target="_blank">Tarea EVS 6.3: Aprobación de la Solución</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/" target="_blank">Análisis del Sistema de Información (ASI)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/" target="_blank">Actividad ASI 1: Definición del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-1/" target="_blank">Tarea ASI 1.1: Determinación del Alcance del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-2/" target="_blank">Tarea ASI 1.2: Identificación del Entorno Tecnológico</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-3/" target="_blank">Tarea ASI 1.3: Especificación de Estándares y Normas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-1/tarea-4/" target="_blank">Tarea ASI 1.4: Identificación de los Usuarios Participantes y Finales</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/" target="_blank">Actividad ASI 2: Establecimiento de Requisitos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-1/" target="_blank">Tarea ASI 2.1: Obtención de Requisitos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-2/" target="_blank">Tarea ASI 2.2: Especificación de Casos de Uso</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-3/" target="_blank">Tarea ASI 2.3: Análisis de Requisitos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-2/tarea-4/" target="_blank">Tarea ASI 2.4: Validación de Requisitos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-3/" target="_blank">Actividad ASI 3: Identificación de Subsistemas de Análisis</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-3/tarea-1/" target="_blank">Tarea ASI 3.1: Determinación de Subsistemas de Análisis</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-3/tarea-2/" target="_blank">Tarea ASI 3.2: Integración de Subsistemas de Análisis</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-4/" target="_blank">Actividad ASI 4: Análisis de los Casos de Uso</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-4/tarea-1/" target="_blank">Tarea ASI 4.1: Identificación de Clases Asociadas a un Caso de Uso</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-4/tarea-2/" target="_blank">Tarea ASI 4.2: Descripción de la Interacción de Objetos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/" target="_blank">Actividad ASI 5: Análisis de Clases</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-1/" target="_blank">Tarea ASI 5.1: Identificación de Responsabilidades y Atributos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-2/" target="_blank">Tarea ASI 5.2: Identificación de Asociaciones y Agregaciones</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-5/tarea-3/" target="_blank">Tarea ASI 5.3: Identificación de Generalizaciones</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/" target="_blank">Actividad ASI 6: Elaboración del Modelo de Datos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-1/" target="_blank">Tarea ASI 6.1: Elaboración del Modelo Conceptual de Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-2/" target="_blank">Tarea ASI 6.2: Elaboración del Modelo Lógico de Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-3/" target="_blank">Tarea ASI 6.3: Normalización del Modelo Lógico de Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-6/tarea-4/" target="_blank">Tarea ASI 6.4: Especificación de Necesidades de Migración de Datos y Carga Inicial</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-7/" target="_blank">Actividad ASI 7: Elaboración del Modelo de Procesos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-7/tarea-1/" target="_blank">Tarea ASI 7.1: Obtención del Modelo de Procesos del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-7/tarea-2/" target="_blank">Tarea ASI 7.2: Especificación de Interfaces con otros Sistemas</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/" target="_blank">Actividad ASI 8: Definición de Interfaces de Usuario</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-1/" target="_blank">Tarea ASI 8.1: Especificación de Principios Generales de la Interfaz</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-2/" target="_blank">Tarea ASI 8.2: Identificación de Perfiles y Diálogos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-3/" target="_blank">Tarea ASI 8.3: Especificación de Formatos Individuales de la Interfaz de Pantalla</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-4/" target="_blank">Tarea ASI 8.4: Especificación del Comportamiento Dinámico de la Interfaz</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-8/tarea-5/" target="_blank">Tarea ASI 8.5: Especificación de Formatos de Impresión</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/" target="_blank">Actividad ASI 9: Análisis de Consistencia y Especificación de Requisitos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-1/" target="_blank">Tarea ASI 9.1: Verificación de los Modelos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-2/" target="_blank">Tarea ASI 9.2: Análisis de Consistencia entre Modelos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-3/" target="_blank">Tarea ASI 9.3: Validación de los Modelos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-9/tarea-4/" target="_blank">Tarea ASI 9.4: Elaboración de la Especificación de Requisitos Software (ERS)</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/" target="_blank">Actividad ASI 10: Especificación del Plan de Pruebas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-1/" target="_blank">Tarea ASI 10.1: Definición del Alcance de las Pruebas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-2/" target="_blank">Tarea ASI 10.2: Definición de Requisitos del Entorno de Pruebas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-10/tarea-3/" target="_blank">Tarea ASI 10.3: Definición de las Pruebas de Aceptación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-11/" target="_blank">Actividad ASI 11: Aprobación del Análisis del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/asi/actividad-11/tarea-1/" target="_blank">Tarea ASI 11.1</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/" target="_blank">Diseño del Sistema de Información (DSI)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/" target="_blank">Actividad DSI 1: Definición de la Arquitectura del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-1/" target="_blank">Tarea DSI 1.1: Definición de Niveles de Arquitectura</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-2/" target="_blank">Tarea DSI 1.2: Identificación de Requisitos de Diseño y Construcción</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-3/" target="_blank">Tarea DSI 1.3: Especificación de Excepciones</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-4/" target="_blank">Tarea DSI 1.4: Especificación de Estándares y Normas de Diseño y Construcción</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-5/" target="_blank">Tarea DSI 1.5: Identificación de Subsistemas de Diseño</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-6/" target="_blank">Tarea DSI 1.6: Especificación del Entorno Tecnológico</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-1/tarea-7/" target="_blank">Tarea DSI 1.7: Especificación de Requisitos de Operación y Seguridad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-2/" target="_blank">Actividad DSI 2: Diseño de la Arquitectura de Soporte</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-2/tarea-1/" target="_blank">Tarea DSI 2.1: Diseño de Subsistemas de Soporte</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-2/tarea-2/" target="_blank">Tarea DSI 2.2: Identificación de Mecanismos Genéricos de Diseño</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/" target="_blank">Actividad DSI 3: Diseño de Casos de Uso Reales</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-1/" target="_blank">Tarea DSI 3.1: Identificación de Clases Asociadas a un Caso de Uso</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-2/" target="_blank">Tarea DSI 3.2: Diseño de la Realización de los Casos de Uso</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-3/" target="_blank">Tarea DSI 3.3: Revisión de la Interfaz de Usuario</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-3/tarea-4/" target="_blank">Tarea DSI 3.4: Revisión de Subsistemas de Diseño e Interfaces</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/" target="_blank">Actividad DSI 4: Diseño de Clases</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-1/" target="_blank">Tarea DSI 4.1: Identificación de Clases Adicionales</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-2/" target="_blank">Tarea DSI 4.2: Diseño de Asociaciones y Agregaciones</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-3/" target="_blank">Tarea DSI 4.3: Identificación de Atributos de las Clases</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-4/" target="_blank">Tarea DSI 4.4: Identificación de Operaciones de las Clases</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-5/" target="_blank">Tarea DSI 4.5: Diseño de la Jerarquía</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-6/" target="_blank">Tarea DSI 4.6: Descripción de Métodos de las Operaciones</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-4/tarea-7/" target="_blank">Tarea DSI 4.7: Especificación de Necesidades de Migración y Carga Inicial de Datos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/" target="_blank">Actividad DSI 5: Diseño de la Arquitectura de Módulos del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-1/" target="_blank">Tarea DSI 5.1: Diseño de Módulos del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-2/" target="_blank">Tarea DSI 5.2: Diseño de Comunicaciones entre Módulos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-5/tarea-3/" target="_blank">Tarea DSI 5.3: Revisión de la Interfaz de Usuario</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/" target="_blank">Actividad DSI 6: Diseño Físico de Datos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-1/" target="_blank">Tarea DSI 6.1: Diseño del Modelo Físico de Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-2/" target="_blank">Tarea DSI 6.2: Especificación de los Caminos de Acceso a los Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-3/" target="_blank">Tarea DSI 6.3: Optimización del Modelo Físico de Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-6/tarea-4/" target="_blank">Tarea DSI 6.4: Especificación de la Distribución de Datos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/" target="_blank">Actividad DSI 7: Verificación y Aceptación de la Arquitectura del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-1/" target="_blank">Tarea DSI 7.1: Verificación de las Especificaciones de Diseño</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-2/" target="_blank">Tarea DSI 7.2: Análisis de Consistencia de las Especificaciones de Diseño</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-7/tarea-3/" target="_blank">Tarea DSI 7.3: Aceptación de la Arquitectura del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/" target="_blank">Actividad DSI 8: Generación de Especificaciones de Construcción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-1/" target="_blank">Tarea DSI 8.1: Especificación del Entorno de Construcción</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-2/" target="_blank">Tarea DSI 8.2: Definición de Componentes y Subsistemas de Construcción</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-3/" target="_blank">Tarea DSI 8.3: Elaboración de Especificaciones de Construcción</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-8/tarea-4/" target="_blank">Tarea DSI 8.4: Elaboración de Especificaciones del Modelo Físico de Datos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/" target="_blank">Actividad DSI 9: Diseño de la Migración y Carga Inicial de Datos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-1/" target="_blank">Tarea DSI 9.1: Especificación del Entorno de Migración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-2/" target="_blank">Tarea DSI 9.2: Diseño de Procedimientos de Migración y Carga Inicial</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-3/" target="_blank">Tarea DSI 9.3: Diseño Detallado de Componentes de Migración y Carga Inicial</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-9/tarea-4/" target="_blank">Tarea DSI 9.4: Revisión de la Planificación de la Migración</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/" target="_blank">Actividad DSI 10: Especificación Técnica del Plan de Pruebas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-1/" target="_blank">Tarea DSI 10.1: Especificación del Entorno de Pruebas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-2/" target="_blank">Tarea DSI 10.2: Especificación Técnica de Niveles de Prueba</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-10/tarea-3/" target="_blank">Tarea DSI 10.3: Revisión de la Planificación de Pruebas</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-11/" target="_blank">Actividad DSI 11: Establecimiento de Requisitos de Implantación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-11/tarea-1/" target="_blank">Tarea DSI 11.1: Especificación de Requisitos de Documentación de Usuario</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-11/tarea-2/" target="_blank">Tarea DSI 11.2: Especificación de Requisitos de Implantación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-12/" target="_blank">Actividad DSI 12: Aprobación del Diseño del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/dsi/actividad-12/tarea-1/" target="_blank">Tarea DSI 12.1: Presentación y Aprobación del Diseño del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/" target="_blank">Construcción del Sistema de Información (CSI)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-1/" target="_blank">Actividad CSI 1: Preparación del Entorno de Generación y Construcción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-1/tarea-1/" target="_blank">Tarea CSI 1.1: Implantación de la Base de Datos Física o Ficheros</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-1/tarea-2/" target="_blank">Tarea CSI 1.2: Preparación del Entorno de Construcción</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-2/" target="_blank">Actividad CSI 2: Generación del Código de los Componentes y Procedimientos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-2/tarea-1/" target="_blank">Tarea CSI 2.1: Generación del Código de Componentes</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-2/tarea-2/" target="_blank">Tarea CSI 2.2: Generación del Código de los Procedimientos de Operación y Seguridad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-3/" target="_blank">Actividad CSI 3: Ejecución de las Pruebas Unitarias</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-3/tarea-1/" target="_blank">Tarea CSI 3.1: Preparación del Entorno de las Pruebas Unitarias</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-3/tarea-2/" target="_blank">Tarea CSI 3.2: Realización y Evaluación de las Pruebas Unitarias</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/" target="_blank">Actividad CSI 4: Ejecución de las Pruebas de Integración</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-1/" target="_blank">Tarea CSI 4.1: Preparación del Entorno de las Pruebas de Integración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-2/" target="_blank">Tarea CSI 4.2: Realización de las Pruebas de Integración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-4/tarea-3/" target="_blank">Tarea CSI 4.3: Evaluación del Resultado de las Pruebas de Integración</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/" target="_blank">Actividad CSI 5: Ejecución de las Pruebas del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-1/" target="_blank">Tarea CSI 5.1: Preparación del Entorno de las Pruebas del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-2/" target="_blank">Tarea CSI 5.2: Realización de las Pruebas del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-5/tarea-3/" target="_blank">Tarea CSI 5.3: Evaluación del Resultado de las Pruebas del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-6/" target="_blank">Actividad CSI 6: Elaboración de los Manuales de Usuario</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-6/tarea-1/" target="_blank">Tarea CSI 6.1: Elaboración de los Manuales de Usuario</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-7/" target="_blank">Actividad CSI 7: Definición de la Formación de Usuarios Finales</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-7/tarea-1/" target="_blank">Tarea CSI 7.1: Definición del Esquema de Formación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-7/tarea-2/" target="_blank">Tarea CSI 7.2: Especificación de los Recursos y Entornos de Formación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/" target="_blank">Actividad CSI 8: Construcción de los Componentes y Procedimientos de Migración y Carga Inicial de Datos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-1/" target="_blank">Tarea CSI 8.1: Preparación del Entorno de Migración y Carga Inicial de Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-2/" target="_blank">Tarea CSI 8.2: Generación del Código de los Componentes y Procedimientos de Migración y Carga Inicial de Datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-8/tarea-3/" target="_blank">Tarea CSI 8.3: Realización y Evaluación de las Pruebas de Migración y Carga Inicial de Datos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-9/" target="_blank">Actividad CSI 9: Aprobación del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/csi/actividad-9/tarea-1/" target="_blank">Tarea CSI 9.1: Presentación y Aprobación del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/" target="_blank">Implantación y Aceptación del Sistema (IAS)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-1/" target="_blank">Actividad IAS 1: Establecimiento del Plan de Implantación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-1/tarea-1/" target="_blank">Tarea IAS 1.1: Definición del Plan de Implantación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-1/tarea-2/" target="_blank">Tarea IAS 1.2: Especificación del Equipo de Implantación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/" target="_blank">Actividad IAS 2: Formación Necesaria para la Implantación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-1/" target="_blank">Tarea IAS 2.1: Preparación de la Formación del Equipo de Implantación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-2/" target="_blank">Tarea IAS 2.2: Formación del Equipo de Implantación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-3/" target="_blank">Tarea IAS 2.3: Preparación de la Formación a Usuarios finales</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-2/tarea-4/" target="_blank">Tarea IAS 2.4: Seguimiento de la Formación a Usuarios Finales</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-3/" target="_blank">Actividad IAS 3: Incorporación del Sistema al Entorno de Operación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-3/tarea-1/" target="_blank">Tarea IAS 3.1: Preparación de la Instalación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-3/tarea-2/" target="_blank">Tarea IAS 3.2: Realización de la Instalación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-4/" target="_blank">Actividad IAS 4: Carga de Datos al Entorno de Operación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-4/tarea-1/" target="_blank">Tarea IAS 4.1: Migración y Carga inicial de Datos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/" target="_blank">Actividad IAS 5: Pruebas de Implantación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-1/" target="_blank">Tarea IAS 5.1: Preparación de las Pruebas de Implantación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-2/" target="_blank">Tarea IAS 5.2: Realización de las Pruebas de implantación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-5/tarea-3/" target="_blank">Tarea IAS 5.3: Evaluación del Resultado de las Pruebas de Implantación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/" target="_blank">Actividad IAS 6: Pruebas de Aceptación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-1/" target="_blank">Tarea IAS 6.1: Preparación de las Pruebas de Aceptación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-2/" target="_blank">Tarea IAS 6.2: Realización de las Pruebas de Aceptación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-6/tarea-3/" target="_blank">Tarea IAS 6.3: Evaluación del Resultado de las Pruebas de Aceptación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-7/" target="_blank">Actividad IAS 7: Preparación del Mantenimiento del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-7/tarea-1/" target="_blank">Tarea IAS 7.1: Establecimiento de la Infraestructura para el Mantenimiento</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-7/tarea-2/" target="_blank">Tarea IAS 7.2: Formalización del Plan de Mantenimiento</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/" target="_blank">Actividad IAS 8: Establecimiento del Acuerdo de Nivel de Servicio</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-1/" target="_blank">Tarea IAS 8.1: Identificación de los Servicios</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-2/" target="_blank">Tarea IAS 8.2: Descripción de las Propiedades de cada Servicio</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-8/tarea-3/" target="_blank">Tarea IAS 8.3: Determinación del Acuerdo de Nivel de Servicio</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-9/" target="_blank">Actividad IAS 9: Presentación y Aprobación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-9/tarea-1/" target="_blank">Tarea IAS 9.1: Convocatoria de la Presentación del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-9/tarea-2/" target="_blank">Tarea IAS 9.2: Aprobación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-10/" target="_blank">Actividad IAS 10: Paso a Producción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-10/tarea-1/" target="_blank">Tarea IAS 10.1: Preparación del Entorno de Producción</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/ias/actividad-10/tarea-2/" target="_blank">Tarea IAS 10.2: Activación del Sistema en Producción</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/" target="_blank">Mantenimiento de Sistemas de Información (MSI)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-1/" target="_blank">Actividad MSI 1: Registro de la Petición</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-1/tarea-1/" target="_blank">Tarea MSI 1.1: Registro de la Petición</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-1/tarea-2/" target="_blank">Tarea MSI 1.2: Asignación de la Petición</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-2/" target="_blank">Actividad MSI 2: Análisis de la Petición</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-2/tarea-1/" target="_blank">Tarea MSI 2.1: Verificación y Estudio de la Petición</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-2/tarea-2/" target="_blank">Tarea MSI 2.2: Estudio de la Propuesta de Solución</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/" target="_blank">Actividad MSI 3: Preparación de la Implementación de la Modificación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-1/" target="_blank">Tarea MSI 3.1: Identificación de Elementos Afectados</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-2/" target="_blank">Tarea MSI 3.2: Establecimiento del Plan de Acción</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-3/tarea-3/" target="_blank">Tarea MSI 3.3: Especificación del Plan de Pruebas de Regresión</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/" target="_blank">Actividad MSI 4: Seguimiento y Evaluación de los Cambios hasta la Aceptación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-1/" target="_blank">Tarea MSI 4.1: Seguimiento de los Cambios</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-2/" target="_blank">Tarea MSI 4.2: Realización de las Pruebas de Regresión</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/procesos-principales/msi/actividad-4/tarea-3/" target="_blank">Tarea MSI 4.3: Aprobación y Cierre de la Petición</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 class="anchormark" id="interfaces-de-metrica-v3">
+<a aria-hidden="true" class="anchormark" href="#interfaces-de-metrica-v3"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/" target="_blank">INTERFACES DE MÉTRICA v3</a></h1>
+<ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/" target="_blank">GESTIÓN DE PROYECTOS</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/" target="_blank">ACTIVIDADES DE INICIO DEL PROYECTO</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-1/" target="_blank">Actividad GPI 1: Estimación de Esfuerzo</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-1/tarea-1/" target="_blank">Tarea GPI 1.1: Identificación de Elementos a Desarrollar</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-1/tarea-2/" target="_blank">Tarea GPI 1.2: Cálculo del Esfuerzo</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/" target="_blank">Actividad GPI 2: Planificación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-1/" target="_blank">Tarea GPI 2.1: Selección de la Estrategia de Desarrollo</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-2/" target="_blank">Tarea GPI 2.2: Selección de la Estructura de Actividades, Tareas y Productos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-3/" target="_blank">Tarea GPI 2.3: Establecimiento del Calendario de Hitos y Entregas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-4/" target="_blank">Tarea GPI 2.4: Planificación Detallada de Actividades y Recursos Necesarios</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpi/actividad-2/tarea-5/" target="_blank">Tarea GPI 2.5: Presentación y Aceptación de la Planificación General del Proyecto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/" target="_blank">ACTIVIDADES DE SEGUIMIENTO Y CONTROL</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-1/" target="_blank">Actividad GPS 1: Asignación Detallada de Tareas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-1/tarea-1/" target="_blank">Tarea GPS 1.1: Asignación de Tarea</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-2/" target="_blank">Actividad GPS 2: Comunicación al Equipo del Proyecto</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-2/tarea-1/" target="_blank">Tarea GPS 2.1: Informar al Equipo del Proyecto</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-3/" target="_blank">Actividad GPS 3: Seguimiento de Tareas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-3/tarea-1/" target="_blank">Tarea GPS 3.1: Seguimiento de Tareas</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/" target="_blank">Gestión de Incidencias</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/" target="_blank">Actividad GPS 4: Análisis y Registro de la Incidencia</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-1/" target="_blank">Tarea GPS 4.1: Analizar Impacto</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-2/" target="_blank">Tarea GPS 4.2: Propuesta de Solución de la Incidencia</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gdi/actividad-4/tarea-3/" target="_blank">Tarea GPS 4.3: Registrar la Incidencia</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/" target="_blank">Gestión de Cambios en los Requisitos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-5/" target="_blank">Actividad GPS 5: Petición de Cambio de Requisitos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-5/tarea-1/" target="_blank">Tarea GPS 5.1: Registro de la Petición de Cambio de Requisitos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/" target="_blank">Actividad GPS 6: Análisis de la Petición de Cambio de Requisitos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-1/" target="_blank">Tarea GPS 6.1: Estudio de la Petición de Cambio de Requisitos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-2/" target="_blank">Tarea GPS 6.2: Impacto de la Petición de Cambio de Requisitos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-6/tarea-3/" target="_blank">Tarea GPS 6.3: Estudio de Alternativas y Propuesta de Solución</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-7/" target="_blank">Actividad GPS 7: Aprobación de la Solución</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-7/tarea-1/" target="_blank">Tarea GPS 7.1: Aprobación de la Solución</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-8/" target="_blank">Actividad GPS 8: Estimación del Esfuerzo y Planificación de la Solución</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-8/tarea-1/" target="_blank">Tarea GPS 8.1: Estimación de Esfuerzo para el Cambio</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-8/tarea-2/" target="_blank">Tarea GPS 8.2: Planificación de los Cambios</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-9/" target="_blank">Actividad GPS 9: Registro del Cambio de Requisitos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/gcr/actividad-9/tarea-1/" target="_blank">Tarea GPS 9.1: Registro del Cambio de Requisitos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-10/" target="_blank">Actividad GPS 10: Finalización de la Tarea</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-10/tarea-1/" target="_blank">Tarea GPS 10.1: Comprobación de la Tarea</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/" target="_blank">Actividad GPS 11: Actualización de la Planificación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-1/" target="_blank">Tarea GPS 11.1: Actualización de Tareas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-2/" target="_blank">Tarea GPS 11.2: Obtención de la Extrapolación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-11/tarea-3/" target="_blank">Tarea GPS 11.3: Elaboración del Informe de Seguimiento</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-12/" target="_blank">Actividad GPS 12: Reuniones de Seguimiento</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-12/tarea-1/" target="_blank">Tarea GPS 12.1: Reunión Interna de Seguimiento</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-13/" target="_blank">Actividad GPS 13: Aceptación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gps/actividad-13/tarea-1/" target="_blank">Tarea GPS 13.1: Verificación de Aceptación Interna</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/" target="_blank">ACTIVIDADES DE FINALIZACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/actividad-1/" target="_blank">Actividad GPF 1: Cierre del Proyecto</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/actividad-1/tarea-1/" target="_blank">Tarea GPF 1.1: Inclusión en Histórico de Proyectos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-proyectos/gpf/actividad-1/tarea-2/" target="_blank">Tarea GPF 1.2: Archivo de la Documentación de Gestión del Proyecto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/" target="_blank">SEGURIDAD</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/" target="_blank">PLANIFICACIÓN DE SISTEMAS DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-1/" target="_blank">Actividad PSI-SEG 1: Planificación de la Seguridad Requerida en el Proceso Planificación de Sistemas de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-1/tarea-1/" target="_blank">Tarea PSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso Planificación de Sistemas de Información</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-1/tarea-2/" target="_blank">Tarea PSI-SEG 1.2: Organización y Planificación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-2/" target="_blank">Actividad PSI-SEG 2: Evaluación del Riesgo para la Arquitectura Tecnológica</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-2/tarea-1/" target="_blank">Tarea PSI-SEG 2.1: Estudio y Evaluación del Riesgo de las Alternativas de Arquitectura Tecnológica</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-2/tarea-2/" target="_blank">Tarea PSI-SEG 2.2: Revisión de la Evaluación del Riesgo de las Alternativas de Arquitectura Tecnológica</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-3/" target="_blank">Actividad PSI-SEG 3: Determinación de la Seguridad en el Plan de Acción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-3/tarea-1/" target="_blank">Tarea PSI-SEG 3.1: Determinación de la Seguridad en el Plan de Acción</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-4/" target="_blank">Actividad PSI-SEG 4: Catalogación de los Productos Generados Durante el Proceso de Planificación de Sistemas de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/psi/actividad-4/tarea-1/" target="_blank">Tarea PSI-SEG 4.1: Clasificación y Catalogación de los Productos Generados durante el Proceso de Planificación de Sistemas de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/" target="_blank">ESTUDIO DE VIABILIDAD DEL SISTEMA</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-1/" target="_blank">Actividad EVS-SEG 1: Estudio de la Seguridad Requerida en el Proceso Estudio de Viabilidad del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-1/tarea-1/" target="_blank">Tarea EVS-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso Estudio de Viabilidad del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-2/" target="_blank">Actividad EVS-SEG 2: Selección del Equipo de Seguridad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-2/tarea-1/" target="_blank">Tarea EVS-SEG 2.1: Selección del Equipo de Seguridad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-3/" target="_blank">Actividad EVS-SEG 3: Recomendaciones Adicionales de Seguridad para el Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-3/tarea-1/" target="_blank">Tarea EVS-SEG 3.1: Elaboración de Recomendaciones de Seguridad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-4/" target="_blank">Actividad EVS-SEG 4: Evaluación de la Seguridad de las Alternativas de Solución</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-4/tarea-1/" target="_blank">Tarea EVS-SEG 4.1: Valoración y Evaluación de la Seguridad de las Alternativas de Solución</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-5/" target="_blank">Actividad EVS-SEG 5: Evaluación Detallada de la Seguridad de la Solución Propuesta</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-5/tarea-1/" target="_blank">Tarea EVS-SEG 5.1: Descripción Detallada de la Seguridad de la Solución Propuesta</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-6/" target="_blank">Actividad EVS-SEG 6: Catalogación de los Productos Generados Durante el Proceso de Estudio de Viabilidad del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/evs/actividad-6/tarea-1/" target="_blank">Tarea EVS-SEG 6.1: Clasificación y Catalogación de los Productos Generados durante el Proceso de Estudio de Viabilidad del Sistema</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/" target="_blank">ANÁLISIS DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-1/" target="_blank">Actividad ASI-SEG 1: Estudio de la Seguridad Requerida en el Proceso de Análisis del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-1/tarea-1/" target="_blank">Tarea ASI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de Análisis del Sistema de Información</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-2/" target="_blank">Actividad ASI-SEG 2: Descripción de las Funciones y Mecanismos de Seguridad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-2/tarea-1/" target="_blank">Tarea ASI-SEG 2.1: Estudio de las Funciones y Mecanismos de Seguridad a Implantar</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-3/" target="_blank">Actividad ASI-SEG 3: Definición de los Criterios de Aceptación de la Seguridad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-3/tarea-1/" target="_blank">Tarea ASI-SEG 3.1: Actualización del Plan de Pruebas</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-4/" target="_blank">Actividad ASI-SEG 4: Catalogación de los Productos Generados Durante el Proceso de Análisis del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/asi/actividad-4/tarea-1/" target="_blank">Tarea ASI-SEG 4.1: Clasificación y Catalogación de los Productos Generados Durante el Proceso de Análisis del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/" target="_blank">DISEÑO DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-1/" target="_blank">Actividad DSI-SEG 1: Estudio de la Seguridad Requerida en el Proceso de Diseño del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-1/tarea-1/" target="_blank">Tarea DSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de Diseño del Sistema de Información</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-2/" target="_blank">Actividad DSI-SEG 2: Especificación de Requisitos de Seguridad del Entorno Tecnológico</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-2/tarea-1/" target="_blank">Tarea DSI-SEG 2.1: Análisis de los Riesgos del Entorno Tecnológico</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-3/" target="_blank">Actividad DSI-SEG 3: Requisitos de Seguridad del Entorno de Construcción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-3/tarea-1/" target="_blank">Tarea DSI-SEG 3.1: Identificación de los Requisitos de Seguridad del Entorno de Construcción</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-4/" target="_blank">Actividad DSI-SEG 4: Diseño de Pruebas de Seguridad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-4/tarea-1/" target="_blank">Tarea DSI-SEG 4.1: Diseño de las Pruebas de Seguridad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-5/" target="_blank">Actividad DSI-SEG 5: Catalogación de los Productos Generados Durante el Proceso de Diseño del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/dsi/actividad-5/tarea-1/" target="_blank">Tarea DSI-SEG 5.1: Clasificación y Catalogación de los Productos Generados durante el Proceso de Diseño del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/" target="_blank">CONSTRUCCIÓN DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-1/" target="_blank">Actividad CSI-SEG 1: Estudio de la Seguridad Requerida en el Proceso de Construcción del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-1/tarea-1/" target="_blank">Tarea CSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de Construcción del Sistema de Información</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-2/" target="_blank">Actividad CSI-SEG 2: Evaluación de los Resultados de Pruebas de Seguridad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-2/tarea-1/" target="_blank">Tarea CSI-SEG 2.1: Estudio de los Resultados de Pruebas de Seguridad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-3/" target="_blank">Actividad CSI-SEG 3: Elaboración del Plan de Formación de Seguridad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-3/tarea-1/" target="_blank">Tarea CSI-SEG 3.1: Elaboración del Plan de Formación de Seguridad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-4/" target="_blank">Actividad CSI-SEG 4: Catalogación de los Productos Generados Durante el Proceso de Construcción del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/csi/actividad-4/tarea-1/" target="_blank">Tarea CSI-SEG 4.1: Clasificación y Catalogación de los Productos Generados durante el Proceso de Construcción del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/" target="_blank">IMPLANTACIÓN Y ACEPTACIÓN DEL SISTEMA</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-1/" target="_blank">Actividad IAS-SEG 1: Estudio de la Seguridad Requerida en el Proceso de Implantación y Aceptación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-1/tarea-1/" target="_blank">Tarea IAS-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso de Implantación y Aceptación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-2/" target="_blank">Actividad IAS-SEG 2: Revisión de Medidas de Seguridad del Entorno de Operación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-2/tarea-1/" target="_blank">Tarea IAS-SEG 2.1: Revisión de Medidas de Seguridad del Entorno de Operación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-3/" target="_blank">Actividad IAS-SEG 3: Evaluación de Resultados de Pruebas de Seguridad de Implantación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-3/tarea-1/" target="_blank">Tarea IAS-SEG 3.1: Estudio de los Resultados de Pruebas de Seguridad de Implantación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-4/" target="_blank">Actividad IAS-SEG 4: Catalogación de los Productos Generados Durante el Proceso de Implantación y Aceptación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-4/tarea-1/" target="_blank">Tarea IAS-SEG 4.1: Clasificación y Catalogación de los Productos Generados durante el Proceso Implantación y Aceptación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-5/" target="_blank">Actividad IAS-SEG 5: Revisión de Medidas de Seguridad en el Entorno de Producción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/ias/actividad-5/tarea-1/" target="_blank">Tarea IAS-SEG 5.1: Revisión de Medidas de Seguridad en el Entorno de Producción</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/" target="_blank">MANTENIMIENTO DE SISTEMAS DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-1/" target="_blank">Actividad MSI-SEG 1: Estudio de la Seguridad Requerida en el Proceso Mantenimiento de Sistemas de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-1/tarea-1/" target="_blank">Tarea MSI-SEG 1.1: Estudio de la Seguridad Requerida en el Proceso Mantenimiento de Sistemas de Información</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-2/" target="_blank">Actividad MSI-SEG 2: Especificación e Identificación de las Funciones y Mecanismos de Seguridad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-2/tarea-1/" target="_blank">Tarea MSI-SEG 2.1: Estudio de la Petición</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-2/tarea-2/" target="_blank">Tarea MSI-SEG 2.2: Análisis de las Funciones y Mecanismos de Seguridad Afectados o Nuevos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-3/" target="_blank">Actividad MSI-SEG 3: Catalogación de los Productos Generados Durante el Proceso de Mantenimiento de Sistemas de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/seguridad/msi/actividad-3/tarea-1/" target="_blank">Tarea MSI-SEG 3.1: Clasificación y Catalogación de los Productos Generados durante el Proceso de Mantenimiento de Sistemas de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/" target="_blank">GESTIÓN DE LA CONFIGURACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/" target="_blank">ESTUDIO DE VIABILIDAD DEL SISTEMA</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-1/" target="_blank">Actividad EVS-GC 1: Definición de los Requisitos de Gestión de Configuración</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-1/tarea-1/" target="_blank">Tarea EVS-GC 1.1: Definición de los Requisitos de Gestión de Configuración</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-2/" target="_blank">Actividad EVS-GC 2: Establecimiento del Plan de Gestión de la Configuración</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-2/tarea-1/" target="_blank">Tarea EVS-GC 2.1: Definición del Plan de Gestión de la Configuración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/evs/actividad-2/tarea-2/" target="_blank">Tarea EVS-GC 2.2: Especificación del Entorno Tecnológico para la Gestión de Configuración</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/" target="_blank">ANÁLISIS, DISEÑO, CONSTRUCCIÓN E IMPLANTACIÓN Y ACEPTACIÓN DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-1/" target="_blank">Actividad GC 1: Identificación y Registro de Productos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-1/tarea-1/" target="_blank">Tarea GC 1.1: Identificación y Registro de los Productos de los Procesos en el Sistema de Gestión de la Configuración</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-2/" target="_blank">Actividad GC 2: Identificación y Registro del Producto Global</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/gc/actividad-2/tarea-1/" target="_blank">Tarea GC 2.1: Registro en el Sistema de Gestión de la Configuración del Producto Global de Proceso</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/" target="_blank">MANTENIMIENTO DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/" target="_blank">Actividad MSI-GC 1: Registro del Cambio en el Sistema de Gestión de la Configuración</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-1/" target="_blank">Tarea MSI-GC 1.1: Registro del Cambio en el Sistema de Gestión de la Configuración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-2/" target="_blank">Tarea MSI-GC 1.2: Registro de la Nueva Versión de los Productos Afectados por el Cambio en el Sistema de Gestión de la Configuración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/gestion-de-la-configuracion/msi/actividad-1/tarea-3/" target="_blank">Tarea MSI-GC 1.3: Registro de la Nueva Versión de los Sistemas de Información en el Sistema de Gestión de la Configuración</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/" target="_blank">ASEGURAMIENTO DE LA CALIDAD</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/" target="_blank">ESTUDIO DE VIABILIDAD DEL SISTEMA</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/" target="_blank">Actividad EVS-CAL 1: Identificación de las Propiedades de Calidad para el Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-1/" target="_blank">Tarea EVS-CAL 1.1: Constitución del Equipo de Aseguramiento de Calidad</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-2/" target="_blank">Tarea EVS-CAL 1.2: Determinación de los Sistemas de Información objeto de Aseguramiento de Calidad</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-1/tarea-3/" target="_blank">Tarea EVS-CAL 1.3: Identificación de las Propiedades de Calidad</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/" target="_blank">Actividad EVS-CAL 2: Establecimiento del Plan de Aseguramiento de Calidad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-1/" target="_blank">Tarea EVS-CAL 2.1: Necesidad del Plan de Aseguramiento de Calidad para las Alternativas Propuestas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-2/" target="_blank">Tarea EVS-CAL 2.2: Alcance del Plan de Aseguramiento de Calidad</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-2/tarea-3/" target="_blank">Tarea EVS-CAL 2.3: Impacto en el Coste del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-3/" target="_blank">Actividad EVS-CAL 3: Adecuación del Plan de Aseguramiento de Calidad a la Solución</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-3/tarea-1/" target="_blank">Tarea EVS-CAL 3.1: Ajuste del Plan de Aseguramiento de Calidad</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/evs/actividad-3/tarea-2/" target="_blank">Tarea EVS-CAL 3.2: Aprobación del Plan de Aseguramiento de Calidad</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/" target="_blank">ANÁLISIS DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-1/" target="_blank">Actividad ASI-CAL 1: Especificación Inicial del Plan de Aseguramiento de Calidad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-1/tarea-1/" target="_blank">Tarea ASI-CAL 1.1: Definición del Plan de Aseguramiento de Calidad para el Sistema de Información</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-2/" target="_blank">Actividad ASI-CAL 2: Especificación Detallada del Plan de Aseguramiento de Calidad</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-2/tarea-1/" target="_blank">Tarea ASI-CAL 2.1: Contenido del Plan de Aseguramiento de Calidad para el Sistema de Información</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-3/" target="_blank">Actividad ASI-CAL 3: Revisión del Análisis de Consistencia</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-3/tarea-1/" target="_blank">Tarea ASI-CAL 3.1: Revisión del Catálogo de Requisitos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-3/tarea-2/" target="_blank">Tarea ASI-CAL 3.2: Revisión de la Consistencia entre Productos</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-4/" target="_blank">Actividad ASI-CAL 4: Revisión del Plan de Pruebas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-4/tarea-1/" target="_blank">Tarea ASI-CAL 4.1: Revisión del Plan de Pruebas</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-5/" target="_blank">Actividad ASI-CAL 5: Registro de la Aprobación del Análisis del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/asi/actividad-5/tarea-1/" target="_blank">Tarea ASI-CAL 5.1: Registro de la Aprobación del Análisis del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/" target="_blank">DISEÑO DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-1/" target="_blank">Actividad DSI-CAL 1: Revisión de la Verificación de la Arquitectura del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-1/tarea-1/" target="_blank">Tarea DSI-CAL 1.1: Revisión de la Consistencia entre Productos del Diseño</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-1/tarea-2/" target="_blank">Tarea DSI-CAL 1.2: Registro de la Aceptación de la Arquitectura del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-2/" target="_blank">Actividad DSI-CAL 2: Revisión de la Especificación Técnica del Plan de Pruebas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-2/tarea-1/" target="_blank">Tarea DSI-CAL 2.1: Revisión del Diseño de las Pruebas Unitarias, de Integración y del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-2/tarea-2/" target="_blank">Tarea DSI-CAL 2.2: Revisión del Plan de Pruebas</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-3/" target="_blank">Actividad DSI-CAL 3: Revisión de los Requisitos de Implantación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-3/tarea-1/" target="_blank">Tarea DSI-CAL 3.1: Revisión de los Requisitos de Documentación de Usuario</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-3/tarea-2/" target="_blank">Tarea DSI-CAL 3.2: Revisión de los Requisitos de Implantación</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-4/" target="_blank">Actividad DSI-CAL 4: Registro de la Aprobación del Diseño del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/dsi/actividad-4/tarea-1/" target="_blank">Tarea DSI-CAL 4.1: Registro de la Aprobación del Diseño del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/" target="_blank">CONSTRUCCIÓN DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-1/" target="_blank">Actividad CSI-CAL 1: Revisión del Código de Componentes y Procedimientos</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-1/tarea-1/" target="_blank">Tarea CSI-CAL 1.1: Revisión de Normas de Construcción</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/" target="_blank">Actividad CSI-CAL 2: Revisión de las Pruebas Unitarias, de Integración y del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-1/" target="_blank">Tarea CSI-CAL 2.1: Revisión de la Realización de las Pruebas Unitarias</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-2/" target="_blank">Tarea CSI-CAL 2.2: Revisión de la Realización de las Pruebas de Integración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-2/tarea-3/" target="_blank">Tarea CSI-CAL 2.3: Revisión de la Realización de las Pruebas del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-3/" target="_blank">Actividad CSI-CAL 3: Revisión de los Manuales de Usuario</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-3/tarea-1/" target="_blank">Tarea CSI-CAL 3.1: Revisión de los Manuales de Usuario</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-4/" target="_blank">Actividad CSI-CAL 4: Revisión de la Formación a Usuarios Finales</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-4/tarea-1/" target="_blank">Tarea CSI-CAL 4.1: Revisión de la Formación a Usuarios Finales</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-5/" target="_blank">Actividad CSI-CAL 5: Registro de la Aprobación del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/csi/actividad-5/tarea-1/" target="_blank">Tarea CSI-CAL 5.1: Registro de la Aprobación del Sistema de Información</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/" target="_blank">IMPLANTACIÓN Y ACEPTACIÓN DEL SISTEMA</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-1/" target="_blank">Actividad IAS-CAL 1: Revisión del Plan de Implantación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-1/tarea-1/" target="_blank">Tarea IAS-CAL 1.1: Revisión del Plan de Implantación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-2/" target="_blank">Actividad IAS-CAL 2: Revisión de las Pruebas de Implantación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-2/tarea-1/" target="_blank">Tarea IAS-CAL 2.1: Revisión de la Realización de las Pruebas de Implantación del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-2/tarea-2/" target="_blank">Tarea IAS-CAL 2.2: Registro de la Aprobación de las Pruebas de Implantación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-3/" target="_blank">Actividad IAS-CAL 3: Revisión de las Pruebas de Aceptación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-3/tarea-1/" target="_blank">Tarea IAS-CAL 3.1: Revisión de la Realización de las Pruebas de Aceptación del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-3/tarea-2/" target="_blank">Tarea IAS-CAL 3.2: Registro de la Aprobación de las Pruebas de Aceptación del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-4/" target="_blank">Actividad IAS-CAL 4: Revisión del Plan de Mantenimiento del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-4/tarea-1/" target="_blank">Tarea IAS-CAL 4.1: Revisión del Plan de Mantenimiento del Sistema</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-5/" target="_blank">Actividad IAS-CAL 5: Registro de la Aprobación de la Implantación del Sistema</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/ias/actividad-5/tarea-1/" target="_blank">Tarea IAS-CAL 5.1: Registro de la Aprobación de la Implantación del Sistema</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/" target="_blank">MANTENIMIENTO DEL SISTEMA DE INFORMACIÓN</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-1/" target="_blank">Actividad MSI-CAL 1: Revisión del Mantenimiento del Sistema de Información</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-1/tarea-1/" target="_blank">Tarea MSI-CAL 1.1: Revisión del Mantenimiento</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-2/" target="_blank">Actividad MSI-CAL 2: Revisión del Plan de Pruebas de Regresión</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-2/tarea-1/" target="_blank">Tarea MSI-CAL 2.1: Comprobación de la Existencia del Plan de Pruebas de Regresión</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-3/" target="_blank">Actividad MSI-CAL 3: Revisión de la Realización de las Pruebas de Regresión</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/interfaces/aseguramiento-de-la-calidad/msi/actividad-3/tarea-1/" target="_blank">Tarea MSI-CAL 3.1: Revisión de la Realización de las Pruebas de Regresión</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 class="anchormark" id="tecnicas">
+<a aria-hidden="true" class="anchormark" href="#tecnicas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/" target="_blank">TÉCNICAS</a></h1>
+<ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-desarrollo/" target="_blank">TÉCNICAS DE DESARROLLO</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/analisis-coste-beneficio/" target="_blank">Análisis Coste/Beneficio</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/casos-de-uso/" target="_blank">Casos de Uso</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-clases/" target="_blank">Diagrama de Clases</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-componentes/" target="_blank">Diagrama de Componentes</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-descomposicion/" target="_blank">Diagrama de Descomposición</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-despliegue/" target="_blank">Diagrama de Despliegue</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-estructura/" target="_blank">Diagrama de Estructura</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/" target="_blank">Diagrama de Flujo de Datos (DFD)</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/consistencia/" target="_blank">Consistencia de los diagramas de flujo de datos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-flujo-de-datos/ejemplo/" target="_blank">Ejemplo de construcción</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/" target="_blank">Diagrama de Interacción</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-secuencia/" target="_blank">Diagrama de secuencia</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-interaccion/diagrama-de-colaboracion/" target="_blank">Diagrama de colaboración</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-paquetes/" target="_blank">Diagrama de Paquetes</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-transicion-de-estados/" target="_blank">Diagrama de Transición de Estados</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelado-de-procesos-de-la-organizacion/" target="_blank">Modelado de Procesos de la Organización</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelado-de-procesos-de-la-organizacion/sadt/" target="_blank">SADT (Structured Analysis and Design Technique)</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/" target="_blank">Modelo Entidad/Relación Extendido</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/normalizacion/" target="_blank">Normalización</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/optimizacion/" target="_blank">Optimización</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/obtencion-del-modelo-fisico-desde-el-logico/" target="_blank">Reglas de Obtención del Modelo Físico a partir del Lógico</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/reglas-de-transformacion/" target="_blank">Reglas de Transformación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-matriciales/" target="_blank">Técnicas Matriciales</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-gestion-de-proyectos/" target="_blank">TÉCNICAS DE GESTIÓN DE PROYECTOS</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/" target="_blank">Técnicas de Estimación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-albrecht/" target="_blank">Método Albrecht para el Análisis de los Puntos Función</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/tecnicas-de-estimacion/metodo-mark-ii/" target="_blank">Método MARK II para el Análisis de los Puntos Función</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/staffing-size/" target="_blank">Staffing Size (Orientación a Objetos)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/" target="_blank">Planificación</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/pert/" target="_blank">Program Evaluation &amp; Review Technique – PERT</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-gantt/" target="_blank">Diagrama de Gantt</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/wbs/" target="_blank">Estructura de Descomposición de Trabajo (WBS – Work Breakdown Structure)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/planificacion/diagrama-de-extrapolacion/" target="_blank">Diagrama de Extrapolación</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/practicas/" target="_blank">PRÁCTICAS</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/analisis-de-impacto/" target="_blank">Análisis de Impacto</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/catalogacion/" target="_blank">Catalogación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/calculo-de-accesos/" target="_blank">Cálculo de Accesos</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/caminos-de-acceso/" target="_blank">Caminos de Acceso</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/diagrama-de-representacion/" target="_blank">Diagrama de Representación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/factores-criticos-de-exito/" target="_blank">Factores Críticos de Éxito</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/impacto-en-la-organizacion/" target="_blank">Impacto en la Organización</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/presentaciones/" target="_blank">Presentaciones</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/prototipado/" target="_blank">Prototipado</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/" target="_blank">Pruebas</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank">Pruebas Unitarias</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/" target="_blank">Pruebas de Integración</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/sistema/" target="_blank">Pruebas del Sistema</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/implantacion/" target="_blank">Pruebas de Implantación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/" target="_blank">Pruebas de Aceptación</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/regresion/" target="_blank">Pruebas de Regresión</a></li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/revision-formal/" target="_blank">Revisión Formal</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/revision-tecnica/" target="_blank">Revisión Técnica</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/" target="_blank">Sesiones de Trabajo</a><ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/entrevistas/" target="_blank">Entrevistas</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/reuniones/" target="_blank">Reuniones</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jad/" target="_blank">JAD (Joint Application Design)</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jrp/" target="_blank">JRP (Joint Requeriments Planning)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/soporte-por-herramientas/" target="_blank">SOPORTE POR HERRAMIENTAS</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/bibliografia/" target="_blank">BIBLIOGRAFÍA</a></li>
+</ul>
+<h1 class="anchormark" id="participantes">
+<a aria-hidden="true" class="anchormark" href="#participantes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/" target="_blank">PARTICIPANTES</a></h1>
+<ul>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-directivo/" target="_blank">Perfil Directivo</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-jefe-de-proyecto/" target="_blank">Perfil Jefe de Proyecto</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-consultor/" target="_blank">Perfil Consultor</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-analista/" target="_blank">Perfil Analista</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/participantes/perfil-programador/" target="_blank">Perfil Programador</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/otros/metrica.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

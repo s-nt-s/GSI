@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Evaluación de riesgos</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home practico_preguntas_riesgos" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/practico.html">Material práctico</a></li>
+<li>Evaluación de riesgos</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<p>El análisis de riesgos consiste en el estudio de las posibles amenazas así como
+los daños que estos puedan producir en los activos de la organización.</p>
+<p>Para la evaluación de riesgos se utilizará la metodología <a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html" target="_blank" title="Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información">Magerit</a>
+por ser la más extendida en la Administración. Para facilitar su realización se
+utilizará la herramienta MicroPilar del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional_Computer_Emergency_Response_Team" target="_blank" title="Centro Criptológico Nacional Computer Emergency Response Team">CCN-CERT</a> que que se adaptada al <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Esquema_Nacional_de_Seguridad" target="_blank" title="Esquema Nacional de Seguridad">ENS</a>.</p>
+<p>Los pasos a seguir serán determinar:</p>
+<ol>
+<li>los activos relevantes para la organización: servicios, información, etc</li>
+<li>amenazas: causa potencial de un incidente que puede causar daños</li>
+<li>vulnerabilidad: defecto o debilidad que habilita o facilita la materialización de una amenaza</li>
+<li>impacto: consecuencia que sobre un activo tiene la materialización de una amenaza</li>
+<li>riesgo: estimación del grado de exposición a que una amenaza se materialice</li>
+</ol>
+<p>Los activos se clasifican en:</p>
+<ul>
+<li>Esenciales:<ul>
+<li>servicios</li>
+<li>información</li>
+</ul>
+</li>
+<li>Subordinados:<ul>
+<li>datos que materializan la información</li>
+<li>servicios auxiliares que se necesitan para poder organizar el sistema</li>
+<li>aplicaciones informáticas (software) que permiten manejar los datos</li>
+<li>equipos informáticos (hardware) que permiten hospedar datos, aplicaciones
+y servicios</li>
+<li>soportes de información que son dispositivos de almacenamiento de datos</li>
+<li>equipamiento auxiliar que complementa el material informático</li>
+<li>redes de comunicaciones que permiten intercambiar datos</li>
+<li>instalaciones que acogen equipos informáticos y de comunicaciones</li>
+<li>personas que explota u operan todos los elementos anteriores</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Activo</th>
+<th>Amenaza</th>
+<th>Vulnerabilidad</th>
+<th>Impacto</th>
+<th>Riesgo</th>
+<th>Dimensión</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<td rowspan="3">Subsistema A</td>
+<td>Que los organismos no cumplan la obligación</td>
+<td>Baja</td>
+<td>Alto</td>
+<td>Medio</td>
+<td>D</td>
+</tr>
+<tr>
+<td>Problemas de sincronización</td>
+<td>Baja</td>
+<td>Medio</td>
+<td>Medio</td>
+<td>ACID</td>
+</tr>
+<tr>
+<td>Código dañino en los datos</td>
+<td>Baja</td>
+<td>Medio</td>
+<td>Medio</td>
+<td>CID</td>
+</tr>
+<tr>
+<td rowspan="3">Subsistema B</td>
+<td>Suplantación de identidad del usuario</td>
+<td>Baja</td>
+<td>Medio</td>
+<td>Medio</td>
+<td>ACI</td>
+</tr>
+<tr>
+<td>Ataques externos</td>
+<td>Media</td>
+<td>Medio</td>
+<td>Medio</td>
+<td>D</td>
+</tr>
+<tr>
+<td>Corrupción de datos</td>
+<td>Baja</td>
+<td>Bajo</td>
+<td>Medio</td>
+<td>AI</td>
+</tr>
+<tr>
+<td rowspan="2">Información</td>
+<td>Manipulación o perdida de datos</td>
+<td>Media</td>
+<td>Medio</td>
+<td>Medio</td>
+<td>IDT</td>
+</tr>
+<tr>
+<td>Destrucción de la información</td>
+<td>Media</td>
+<td>Alto</td>
+<td>Medio</td>
+<td>D</td>
+</tr>
+<tr>
+<td rowspan="3">Comunicaciones y Hardware</td>
+<td>Desastres naturales</td>
+<td>Baja</td>
+<td>Alto</td>
+<td>Medio</td>
+<td>IDT</td>
+</tr>
+<tr>
+<td>Caídas de las redes</td>
+<td>Media</td>
+<td>Bajo</td>
+<td>Medio</td>
+<td>D</td>
+</tr>
+<tr>
+<td>Interceptación de información</td>
+<td>Media</td>
+<td>Medio</td>
+<td>Bajo</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Sistemas externos</td>
+<td>Interrupción de los servicios</td>
+<td>Media</td>
+<td>Alto</td>
+<td>Alto</td>
+<td>D</td>
+</tr>
+</tbody>
+</table>
+<h1 class="anchormark" id="ejemplos-de-amenazas">
+<a aria-hidden="true" class="anchormark" href="#ejemplos-de-amenazas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="ccn-cert_cni_es" href="https://www.ccn-cert.cni.es/documentos-publicos/1791-magerit-libro-ii-catalogo/file.html" target="_blank">Ejemplos de amenazas</a></h1>
+<ol>
+<li>Desastres naturales<ol>
+<li>Fuego</li>
+<li>Daños por agua</li>
+<li>Desastres naturales</li>
+</ol>
+</li>
+<li>De origen industrial<ol>
+<li>Fuego</li>
+<li>Daños por agua</li>
+<li>Desastres industriales</li>
+<li>Contaminación mecánica</li>
+<li>Contaminación electromagnética</li>
+<li>Avería de origen físico o lógico</li>
+<li>Corte del suministro eléctrico</li>
+<li>Condiciones inadecuadas de temperatura o humedad</li>
+<li>Fallo de servicios de comunicaciones</li>
+<li>Interrupción de otros servicios y suministros esenciales</li>
+<li>Degradación de los soportes de almacenamiento de la información</li>
+<li>Emanaciones electromagnéticas</li>
+</ol>
+</li>
+<li>Errores y fallos no intencionados<ol>
+<li>Errores de los usuarios</li>
+<li>Errores del administrador</li>
+<li>Errores de monitorización (log)</li>
+<li>Errores de configuración</li>
+<li>Deficiencias en la organización</li>
+<li>Difusión de software dañino</li>
+<li>Errores de [re-]encaminamiento</li>
+<li>Errores de secuencia</li>
+<li>Escapes de información</li>
+<li>Alteración accidental de la información</li>
+<li>Destrucción de información</li>
+<li>Fugas de información</li>
+<li>Vulnerabilidades de los programas (software)</li>
+<li>Errores de mantenimiento / actualización de programas (software)</li>
+<li>Errores de mantenimiento / actualización de equipos (hardware)</li>
+<li>Caída del sistema por agotamiento de recursos</li>
+<li>Pérdida de equipos</li>
+<li>Indisponibilidad del personal</li>
+</ol>
+</li>
+<li>Ataques intencionados<ol>
+<li>Manipulación de los registros de actividad (log)</li>
+<li>Manipulación de la configuración</li>
+<li>Suplantación de la identidad del usuario</li>
+<li>Abuso de privilegios de acceso</li>
+<li>Uso no previsto</li>
+<li>Difusión de software dañino</li>
+<li>[Re-]encaminamiento de mensajes</li>
+<li>Alteración de secuencia</li>
+<li>Acceso no autorizado</li>
+<li>Análisis de tráfico</li>
+<li>Repudio</li>
+<li>Interceptación de información (escucha)</li>
+<li>Modificación deliberada de la información</li>
+<li>Destrucción de información</li>
+<li>Divulgación de información</li>
+<li>Manipulación de programas</li>
+<li>Manipulación de los equipos</li>
+<li>Denegación de servicio</li>
+<li>Robo</li>
+<li>Ataque destructivo</li>
+<li>Ocupación enemiga</li>
+<li>Indisponibilidad del personal</li>
+<li>Extorsión</li>
+<li>Ingeniería social (picaresca)</li>
+</ol>
+</li>
+</ol>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/practico/preguntas/riesgos.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

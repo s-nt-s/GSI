@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Personas>
+<Persona>
+    <TipoRegistro>01</TipoRegistro>
+    <Nombre>JOSE</Nombre>
+    <PrimerApellido>LUIS</PrimerApellido>
+    <SegundoApellido>GOMEZ</SegundoApellido>
+    <DNI>5232451</DNI>
+  </Persona>
+  <Persona>
+    <TipoRegistro>01</TipoRegistro>
+    <Nombre>ANTONIO</Nombre>
+    <PrimerApellido>ORTIZ</PrimerApellido>
+    <SegundoApellido>TRABUJO</SegundoApellido>
+    <DNI>7896543</DNI>
+  </Persona>
+  <Persona>
+    <TipoRegistro>01</TipoRegistro>
+    <Nombre>JAIME</Nombre>
+    <PrimerApellido>TREMUNTO</PrimerApellido>
+    <SegundoApellido>LAZARO</SegundoApellido>
+    <DNI>678954</DNI>
+  </Persona>
+</Personas>

@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Modelo OSI y TCP/IP</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b2_osi" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Modelo OSI y TCP/IP</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">Modelo OSI</a></strong> modelo de referencia para protocolos de red.
+No es la definición de una topología ni un modelo de red en sí mismo.
+Tampoco especifica ni define los protocolos que se utilizan en la comunicación,
+ya que estos se implementa de forma independiente a este modelo.
+El <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">modelo OSI</a> simplemente define la funcionalidad esperada para conseguir un estándar.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_TCP/IP" target="_blank" title="Modelo TCP/IP">Modelo TCP/IP</a></strong>: conjunto de protocolos de red (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet" target="_blank" title="Familia de protocolos de internet">pila de protocolos TCP/IP</a>)
+que se ha convertido en un estándar de facto aunque no coincide exactamente con el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">modelo OSI</a>.</p>
+<p><strong>Capas</strong>: la base de estos modelos es su división en diferentes capas o niveles
+de abstracción. Cada uno de estas capas concentra funciones específicas en cada
+nivel de operación, lo que hace posible la intercomunicación de protocolos
+distintos.</p>
+<h1 class="anchormark" id="equivalencia-modelo-osi---modelo-tcp/ip">
+<a aria-hidden="true" class="anchormark" href="#equivalencia-modelo-osi---modelo-tcp/ip"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Equivalencia <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">modelo OSI</a> - <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_TCP/IP" target="_blank" title="Modelo TCP/IP">modelo TCP/IP</a></h1>
+<table id="tb1"><caption>Tabla 1: Capas del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">modelo OSI</a> y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_TCP/IP" target="_blank" title="Modelo TCP/IP">modelo TCP/IP</a></caption>
+<thead>
+<tr>
+<th class="right">#</th>
+<th>Capas <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_TCP/IP" target="_blank" title="Modelo TCP/IP">TCP/IP</a></th>
+<th class="right">#</th>
+<th>Capas <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">OSI</a><br/>(<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Capas OSI: Física, Enlace, Red, Transporte, Sesión, Presentación, Aplicación">FERTSPA</a>)</th>
+<th><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Unidad_de_datos_de_protocolo" target="_blank" title="Unidad de datos de protocolo, se utilizan para el intercambio de datos entre unidades disparejas, dentro de una capa del modelo OSI">PDU</a></th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<td class="right" rowspan="3">4</td>
+<td rowspan="3">Aplicación</td>
+<td class="right">7</td>
+<td>Aplicación</td>
+<td rowspan="3">Datos</td>
+<td>APIs de alto nivel<br/>(ej: compartir recursos, acceso remoto a archivos)</td>
+</tr>
+<tr>
+<td class="right">6</td>
+<td>Presentación</td>
+<td>Traducción de datos entre un servicio de red y una aplicación<br/>(ej: codificación de caracteres, compresión de datos, cifrado y descifrado)</td>
+</tr>
+<tr>
+<td class="right">5</td>
+<td>Sesión</td>
+<td>Manejo de sesiones de comunicación<br/>(ej: intercambio de información en forma de múltiples transmisiones hacia ambos lados entre dos nodos)</td>
+</tr>
+<tr>
+<td class="right">3</td>
+<td>Transporte</td>
+<td class="right">4</td>
+<td>Transporte</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Segmentaci%C3%B3n_de_paquetes" target="_blank">Segmento</a><br/><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">Datagrama</a></td>
+<td>Transporte confiable y control del flujo a través de la red<br/>(ej: segmentación, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a>, multiplexación)</td>
+</tr>
+<tr>
+<td class="right">2</td>
+<td>Internet</td>
+<td class="right">3</td>
+<td>Red</td>
+<td>Paquete</td>
+<td>Estructura y manejo de una red multinodo<br/>(ej: direccionamiento, ruteo, control de tráfico)</td>
+</tr>
+<tr>
+<td class="right" rowspan="2">1</td>
+<td rowspan="2">Acceso al medio</td>
+<td class="right">2</td>
+<td>Enlace de datos</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Trama_de_red" target="_blank">Trama</a></td>
+<td>Direccionamiento físico y procedimientos de acceso a medios</td>
+</tr>
+<tr>
+<td class="right">1</td>
+<td>Física</td>
+<td>Bit<br/><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Baudio" target="_blank" title="Unidad de medida utilizada en telecomunicaciones que representa el número de símbolos por segundo en un medio de transmisión">Baudios</a></td>
+<td>Especificaciones eléctricas y físicas de los dispositivo</td>
+</tr>
+</tbody>
+</table>
+<figure class="fig" id="fg 1"><img alt="Viaje de los datos a través del modelo OSI" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/PDUs.PNG" title="Viaje de los datos a través del modelo OSI"/><figcaption>Figura 1: Viaje de los datos a través del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">modelo OSI</a></figcaption></figure>
+<h1 class="anchormark" id="protocolos">
+<a aria-hidden="true" class="anchormark" href="#protocolos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Protocolos</h1>
+<table id="tb2"><caption>Tabla 2: Protocolos según capa</caption>
+<thead>
+<tr>
+<th class="right">#</th>
+<th>Capa</th>
+<th>Protocolos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">7</td>
+<td>Aplicación</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_archivos" target="_blank" title="Protocolo de transferencia de archivos">FTP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio" target="_blank" title="Sistema de nombres de dominio">DNS</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host" target="_blank" title="Protocolo de configuración dinámica de host">DHCP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>(s), <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_oficina_de_correo" target="_blank" title="Protocolo de oficina de correo">POP3</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red" target="_blank" title="Protocolo simple de administración de red">SNMP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_para_transferencia_simple_de_correo" target="_blank" title="Protocolo para transferencia simple de correo">SMTP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Secure_Shell" target="_blank" title="Secure Shell">SSH</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Telnet" target="_blank">Telnet</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/TFTP" target="_blank" title="Trivial file transfer Protocol">TFTP</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios" target="_blank" title="Protocolo ligero de acceso a directorios (derivado de X.500)">LDAP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol" target="_blank" title="Extensible Messaging and Presence Protocol">XMPP</a></td>
+</tr>
+<tr>
+<td class="right">6</td>
+<td>Presentación</td>
+<td>ASCII, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Apple_Filing_Protocol" target="_blank" title="Apple Filing Protocol">AFP</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte" target="_blank" title="Seguridad de la capa de transporte">TLS</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Independent_Computing_Architecture" target="_blank" title="Arquitectura de Cómputo Independiente (Citrix)">ICA</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Lightweight_Presentation_Protocol" target="_blank" title="Lightweight Presentation Protocol">LPP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/NetWare_Core_Protocol" target="_blank" title="NetWare Core Protocol (Novell, Inc)">NCP</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Network_Data_Representation" target="_blank" title="Network Data Representation">NDR</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Tox_(inform%C3%A1tica)" target="_blank" title="Protocolo p2p de mensajería instantánea y videollamadas con cifrado de extremo a extremo">Tox</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/External_Data_Representation" target="_blank" title="External Data Representation">XDR</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Norma_X.25" target="_blank" title="Norma X.25">X.25 PAD</a></td>
+</tr>
+<tr>
+<td class="right">5</td>
+<td>Sesión</td>
+<td>ADSP, ASP, H.245, iSNS, L2F, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/L2TP" target="_blank" title="Layer 2 Tunneling Protocol">L2TP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/NetBIOS" target="_blank">NetBIOS</a>, PAP, PPTP, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/ONC_RPC" target="_blank" title="Open Network Computing Remote Procedure Call">ONC/RPC</a>, RTCP, SMPP, SCP, SOCKS, ZIP, SDP</td>
+</tr>
+<tr>
+<td class="right">4</td>
+<td>Transporte</td>
+<td><strong><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a></strong>, <strong><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a></strong>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/AppleTalk" target="_blank" title="AppleTalk (obsoleto, se sustituyo por TCP/IP)">ATP</a>, <abbr class="abbr protocolo" title="Cyclic UDP">CUDP</abbr>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_Control_de_Congesti%C3%B3n_de_Datagramas" target="_blank" title="Protocolo de Control de Congestión de Datagramas">DCCP</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Fibre_Channel_Protocol" target="_blank" title="Fibre Channel Protocol">FCP</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/IL_(network_protocol)" target="_blank" title="IL Transport Protocol, protocolo diseñado por Bell Labs para el sistema operativo Plan 9">IL</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Multipath_TCP" target="_blank" title="Multipath TCP">MPTCP</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/NACK-Oriented_Reliable_Multicast" target="_blank" title="NACK-Oriented Reliable Multicast">NORM</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Reliable_Data_Protocol" target="_blank" title="Reliable Data Protocol">RDP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Reliable_User_Datagram_Protocol" target="_blank" title="Reliable User Datagram Protocol">RUDP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Stream_Control_Transmission_Protocol" target="_blank" title="Stream Control Transmission Protocol">SCTP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Sequenced_Packet_Exchange" target="_blank" title="Sequenced Packet Exchange">SPX</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Structured_Stream_Transport" target="_blank" title="Structured Stream Transport">SST</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Micro_Transport_Protocol" target="_blank" title="Micro Transport Protocol, protocolo diseñado para ser usado en las conexiones P2P del protocolo BitTorrent">µTP</a></td>
+</tr>
+<tr>
+<td class="right">3</td>
+<td>Red</td>
+<td><strong><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a></strong> (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/IPsec" target="_blank" title="Internet Protocol security">IPsec</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a>), <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Open_Shortest_Path_First" target="_blank" title="Abrir el camino más corto primero (Open Shortest Path First), enruta con Dijkstra">OSPF</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IS-IS" target="_blank" title="Intermediate System to intermediate System">IS-IS</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet" target="_blank" title="Protocolo de control de mensajes de Internet (lo usa ping y traceroute)">ICMP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Internet_Group_Management_Protocol" target="_blank" title="Internet Group Management Protocol">IGMP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/CLNS" target="_blank" title="Servicio No Orientado a Conexión">CLNS</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Datagram_Delivery_Protocol" target="_blank" title="Datagram Delivery Protocol">DDP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Exterior_Gateway_Protocol" target="_blank" title="Exterior Gateway Protocol">EGP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol" target="_blank" title="Enhanced Interior Gateway Routing Protocol">EIGRP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Internetwork_Packet_Exchange" target="_blank" title="Internetwork Packet Exchange">IPX</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocol_Independent_Multicast" target="_blank" title="Protocol Independent Multicast">PIM</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Routing_Information_Protocol" target="_blank" title="Routing Information Protocol">RIP</a></td>
+</tr>
+<tr>
+<td class="right">2</td>
+<td>Enlace</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/ARCNET" target="_blank" title="Attached Resource Computer NETwork (en desuso en favor de Ethernet)">ARCnet</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones" target="_blank" title="Protocolo de resolución de direcciones">ARP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Modo_de_transferencia_as%C3%ADncrona" target="_blank" title="Modo de transferencia asíncrona">ATM</a>, <abbr class="abbr" title="Punto de distribución de CRL">CDP</abbr>, CAN, Econet, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Ethernet" target="_blank" title="Estándar de redes de área local para computadoras">Ethernet</a>, EAPS, FDDI, Frame Relay, HDLC, IEEE 802.2, IEEE 802.11 wireless LAN, I²C, LattisNet, LLDP, LocalTalk, MIL-STD-1553, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Multiprotocol_Label_Switching" target="_blank" title="Conmutación de etiquetas multiprotocolo​">MPLS</a>, NDP, PPP, Profibus, SpaceWire, SMLT, IEEE 802.1aq, Spanning Tree Protocol, StarLan, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Token_Ring" target="_blank" title="Topología lógica en anillo y técnica de acceso de paso de testigo (en desuso en favor de Ethernet)">Token Ring</a>, UDLD, UNI/O, 1-Wire, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Universal_Serial_Bus" target="_blank" title="Universal Serial Bus">USB</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/PCI_Express" target="_blank">PCI Express</a></td>
+</tr>
+<tr>
+<td class="right">1</td>
+<td>Física</td>
+<td>V.92, <abbr class="abbr" title="x - línea de abonado digital (DSL)">xDSL</abbr>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Infrared_Data_Association" target="_blank" title="Infrared Data Association">IrDA</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IEEE_1394" target="_blank" title="IEEE 1394">Firewire</a>, EIA RS-232, EIA-422, EIA-423, RS-449, RS-485, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/L%C3%ADnea_de_abonado_digital" target="_blank" title="Línea de abonado digital">DSL</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Red_digital_de_servicios_integrados" target="_blank" title="Red digital de servicios integrados">ISDN</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_digital_s%C3%ADncrona" target="_blank" title="Jerarquía digital síncrona">SONET/SDH</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Sistema_global_para_las_comunicaciones_m%C3%B3viles" target="_blank" title="Sistema global para las comunicaciones móviles">GSM</a></td>
+</tr>
+</tbody>
+</table>
+<h2 class="anchormark" id="tcp">
+<a aria-hidden="true" class="anchormark" href="#tcp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a></h2>
+<p><strong><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a></strong> es usado por aplicaciones como <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>(s), <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_oficina_de_correo" target="_blank" title="Protocolo de oficina de correo">POP3</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_para_transferencia_simple_de_correo" target="_blank" title="Protocolo para transferencia simple de correo">SMTP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_archivos" target="_blank" title="Protocolo de transferencia de archivos">FTP</a>, <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/FTPS#Explicit" target="_blank" title="FTP con SSL y modo explicito">FTPES</a>, SFTP, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Secure_Shell" target="_blank" title="Secure Shell">SSH</a> etc.
+Sus características son:</p>
+<ul>
+<li>garantiza que los datos serán entregados en su destino sin errores y en el mismo
+orden en que se transmitieron (reordena los paquetes antes pasar los datos a la capa de aplicación)</li>
+<li>proporciona acuse de recibo (<strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a></strong>)</li>
+<li>los dos puntos anteriores posibilitan que los routers (capa de red) solo tienen
+que enviar los datos en forma de segmentos, sin preocuparse del monitoreo de datos</li>
+<li>permite el monitoreo del flujo de los datos y así evita la saturación de la red</li>
+<li>permite que los datos se formen en segmentos de longitud variada para <em>entregarlos</em> al protocolo <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a></li>
+<li>permite multiplexar los datos, es decir, que la información que viene de diferentes fuentes (ej: aplicaciones) en la misma línea pueda circular simultáneamente</li>
+<li>la unidad de datos es el <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Segmento_TCP" target="_blank" title="Unidad de datos del protocolo TCP">segmento TCP</a>, el cual tiene una sobrecarga mínima de 20 bytes</li>
+<li>es un protocolo orientado a la conexión ya que:<ul>
+<li>el cliente y el servidor deben anunciarse y aceptar la conexión antes de comenzar a transmitir los datos</li>
+<li>permite comenzar y finalizar la comunicación amablemente</li>
+<li>se compone de las siguientes etapas:<ol>
+<li>Establecimiento de conexión (3-way handshake)</li>
+<li>Transferencia de datos</li>
+<li>Fin de la conexión.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="fig"><img alt="3-way handshake" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Tcp-handshake.svg" title="3-way handshake"/><figcaption>3-way handshake</figcaption></figure>
+<h3 class="anchormark" id="cabecera-segmento-tcp">
+<a aria-hidden="true" class="anchormark" href="#cabecera-segmento-tcp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Cabecera <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Segmento_TCP" target="_blank" title="Unidad de datos del protocolo TCP">Segmento TCP</a></h3>
+<table class="cabecera_segmento" id="tb3"><caption>Tabla 3: Cabecera de <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Segmento_TCP" target="_blank" title="Unidad de datos del protocolo TCP">Segmento TCP</a> </caption>
+<thead>
+<tr>
+<th class="right">Octeto</th>
+<th class="right">Bit</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>16</th>
+<th>17</th>
+<th>18</th>
+<th>19</th>
+<th>20</th>
+<th>21</th>
+<th>22</th>
+<th>23</th>
+<th>24</th>
+<th>25</th>
+<th>26</th>
+<th>27</th>
+<th>28</th>
+<th>29</th>
+<th>30</th>
+<th>31</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<th class="right">0</th>
+<th class="right">0</th>
+<td colspan="16">Puerto origen</td>
+<td colspan="16">Puerto destino</td>
+</tr>
+<tr>
+<th class="right">4</th>
+<th class="right">32</th>
+<td colspan="32">Número de secuencia</td>
+</tr>
+<tr>
+<th class="right">8</th>
+<th class="right">64</th>
+<td colspan="32">Nª de acuse de recibo (si <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a> esta marcado)</td>
+</tr>
+<tr>
+<th class="right">12</th>
+<th class="right">96</th>
+<td colspan="4">Longitud de Cabecera</td>
+<td colspan="3">Resevado</td>
+<td><span class="vertical">NS</span></td>
+<td><span class="vertical">CWR</span></td>
+<td><span class="vertical">ECE</span></td>
+<td><span class="vertical">URG</span></td>
+<td><span class="vertical"><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a></span></td>
+<td><span class="vertical">PSH</span></td>
+<td><span class="vertical">RST</span></td>
+<td><span class="vertical">SYN</span></td>
+<td><span class="vertical">FIN</span></td>
+<td colspan="16">Tamaño de ventana</td>
+</tr>
+<tr>
+<th class="right">16</th>
+<th class="right">128</th>
+<td colspan="16"><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" target="_blank" title="Suma de verificación">Checksum</a></td>
+<td colspan="16">Puntero urgente (si URG esta marcado)</td>
+</tr>
+<tr>
+<th class="right">20</th>
+<th class="right">160</th>
+<td colspan="32" rowspan="2">Opciones (si <em>Longitud de Cabecera</em> &gt; 5, relleno con 0 al final si es necesario)</td>
+</tr>
+<tr>
+<th class="right">...</th>
+<th class="right">...</th>
+</tr>
+<tr>
+<th class="right">60</th>
+<th class="right">480</th>
+<td colspan="32"><em>esto ya no es cabecera, aquí - como tarde - ya empezarían los datos</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Número de secuencia</strong>: dentifica el primer byte del campo de datos que enviá
+el segmento, al primero se le llama ISN (Initial Sequence Number) y lo elige el servidor</li>
+<li><strong>Número <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a></strong>: indica el próximo numero de secuencia que se esta dispuesto a recibir,
+por lo tanto significa que el <code>número ACK - 1</code> es el número de secuencia del último
+segmento recibido</li>
+<li><strong>Longitud de Cabecera</strong>: necesario ya que el tamaño puede variar de
+20 a 60 bytes en función de cuanta información se añada en el campo opciones.
+El valor viene en <em>número de palabras de 32-bit</em>, es decir, 5 equivale a 160 bit o 20 bytes.</li>
+<li><strong>Resevado</strong>: viene a <code>000</code> y se guarda para usos futuros</li>
+<li><strong>Campos de control</strong>: son cada uno de 1 bit y se consideran marcados cuando están a <code>1</code>:<ul>
+<li>URG: hay datos urgentes y el campo urgent pointer indica la cantidad de datos urgentes que se encuentran en el segmento</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a>: solo viene a 0 en el primer mensaje para indicar que el campo <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a> ha de ser ignorado</li>
+<li>PSH: invoca la función push en el protocolo, la cual consiste en entregar a la aplicación todos los datos que están en la memoria intermedia de recepción sin esperar a completarla con datos adicionales</li>
+<li>RST: hace un reset de la conexión (usado cuando hay algún problema, ej: paquetes perdidos)</li>
+<li>SYN: resincroniza los números de secuencia</li>
+<li>FIN: el transmisor ha acabado la conexión</li>
+</ul>
+</li>
+<li><strong>Tamaño de ventana</strong>: informa sobre cuantos bytes se esta dispuesto a recibir en
+el paquete de respuesta</li>
+<li><strong>Puntero urgente</strong>: indica (si URG=1) que los datos comprendidos desde el
+primer byte hasta el indicado por este campo son urgentes y debería procesarse
+lo antes posible</li>
+<li><strong>Opciones</strong>: permite añadir campos a la cabecera para:<ul>
+<li>marcar con un timestamp el momento de la transmisión para monitorar los retrasos que experimentan los segmentos desde el origen hasta el destino</li>
+<li>aumentar el tamaño de la ventana</li>
+<li>indicar el <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Tama%C3%B1o_M%C3%A1ximo_de_Segmento" target="_blank" title="Tamaño Máximo de Segmento TCP">MSS</a> que el origen está preparado para recibir (se especifica durante el establecimiento de la conexión)</li>
+</ul>
+</li>
+</ul>
+<p>Nota: Que el número de secuencia <em>identifique el primer byte del campo de datos</em>
+significa que si por ejemplo el número de secuencia de un paquete es el 12 y
+contiene 3 bytes de datos, ese 12 identifica el 1º byte del los 3 y por lo tanto
+el 2º byte sería el 13, el 3º byte el 14, y si todo va bien el paquete sería
+respondido con otro paquete donde el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ACK" target="_blank" title="Acuse de recibo (acknowledgement), mensaje que el destino de la comunicación envía al origen de esta para confirmar la recepción de un mensaje">ACK</a> sería 15 ya que el último número de
+secuencia del último byte recibido ha sido el 14.</p>
+<h2 class="anchormark" id="udp">
+<a aria-hidden="true" class="anchormark" href="#udp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a></h2>
+<p><strong><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a></strong> es usado por aplicaciones como <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host" target="_blank" title="Protocolo de configuración dinámica de host">DHCP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_arranque" target="_blank" title="Protocolo de arranque (Boot strap Protocol) sobre UDP utilizado por los clientes de red para obtener su dirección IP automáticamente">BOOTP</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio" target="_blank" title="Sistema de nombres de dominio">DNS</a>, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Network_File_System" target="_blank" title="Sistema de archivos de red (Network File System)">NFS</a>, <a class="abbr mptfp_gob_es" href="https://www.mptfp.gob.es/portal/funcionpublica/funcion-publica/rcp.html" target="_blank" title="Registro Central de Personal">RCP</a> y de transmisión de audio
+y vídeo en tiempo real. Sus caracteristicas son:</p>
+<ul>
+<li>no emplea ninguna sincronización entre el origen y el destino (no es <em>fiable</em>):<ul>
+<li>permite el envío de datagramas sin que se haya establecido previamente una conexión</li>
+<li>no tiene confirmación ni control de flujo, por lo que los paquetes pueden adelantarse unos a otros</li>
+<li>no hay confirmación de llegada, por lo tanto no se sabe si se han perdido datagramas</li>
+</ul>
+</li>
+<li>trabaja con paquetes o datagramas enteros (no con bytes individuales como <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a>) a los cuales solo se les añade una sobrecarga de 8 bytes</li>
+<li>solo añade multiplexado de aplicación y suma de verificación de la cabecera y la carga útil</li>
+</ul>
+<p>Ya que tanto <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a> como <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a> circulan por la misma red, puede ocurrir que el aumento
+del tráfico <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a> dañe el correcto funcionamiento de las aplicaciones <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a>.
+Por defecto, <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a> pasa a un segundo lugar para dejar a los datos en tiempo real
+usar la mayor parte del ancho de banda. El problema es que ambos son importantes
+para la mayor parte de las aplicaciones, por lo que encontrar el equilibrio entre
+ambos es crucial.</p>
+<h3 class="anchormark" id="cabecera-datagrama-udp">
+<a aria-hidden="true" class="anchormark" href="#cabecera-datagrama-udp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Cabecera <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">Datagrama</a> <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a></h3>
+<table class="cabecera_segmento" id="tb4"><caption>Tabla 4: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">Datagrama</a> <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a> </caption>
+<thead>
+<tr>
+<th class="right">Octeto</th>
+<th class="right">Bit</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>16</th>
+<th>17</th>
+<th>18</th>
+<th>19</th>
+<th>20</th>
+<th>21</th>
+<th>22</th>
+<th>23</th>
+<th>24</th>
+<th>25</th>
+<th>26</th>
+<th>27</th>
+<th>28</th>
+<th>29</th>
+<th>30</th>
+<th>31</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="right">0</th>
+<th class="right">0</th>
+<td colspan="16">Puerto origen</td>
+<td colspan="16">Puerto destino</td>
+</tr>
+<tr>
+<th class="right">4</th>
+<th class="right">32</th>
+<td colspan="16">Longitud del Mensaje</td>
+<td colspan="16"><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" target="_blank" title="Suma de verificación">Checksum</a></td>
+</tr>
+<tr>
+<th class="right">8</th>
+<th class="right">64</th>
+<td colspan="32"><em>esto ya no es cabecera, aquí ya empezarían los datos</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Puerto origen</strong>: es opcional siendo 0 el valor nulo</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" target="_blank" title="Suma de verificación">Checksum</a></strong>:<ul>
+<li>es opcional en <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> y obligatorio en <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a></li>
+<li>se calcula con el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">datagrama</a> completo más una pseudo-cabecera <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> (<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> origen y destino, protocolo y longitud del paquete <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a>) rellenando con ceros hasta llegar a un multiplico de 16</li>
+</ul>
+</li>
+<li><strong>Longitud del Mensaje</strong>: longitud en bytes del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">datagrama</a> <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a>, incluyendo la cabecera <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a></li>
+</ul>
+<h2 class="anchormark" id="puertos-de-red">
+<a aria-hidden="true" class="anchormark" href="#puertos-de-red"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Anexo:Puertos_de_red" target="_blank">Puertos de red</a></h2>
+<p>Tanto <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a> como <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a> usan el concepto de número de <strong>puerto</strong> para identificar a las
+aplicaciones emisoras y receptoras.</p>
+<p>Hay 65536 puertos (16 bits) divididos en tres tipos de puertos:</p>
+<ol>
+<li><code>____0 - _1023</code> <strong>bien conocidos</strong>: asignados por la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority" target="_blank" title="Internet Assigned Numbers Authority">IANA</a> y usados por el sistema o por procesos con privilegios.
+Las aplicaciones que usan este tipo de puertos son ejecutadas como servidores y se quedan a la escucha de conexiones.
+Ej: <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_archivos" target="_blank" title="Protocolo de transferencia de archivos">FTP</a> (21), <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Secure_Shell" target="_blank" title="Secure Shell">SSH</a> (22), <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Telnet" target="_blank">Telnet</a> (23), <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_para_transferencia_simple_de_correo" target="_blank" title="Protocolo para transferencia simple de correo">SMTP</a> (25) y <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a> (80)</li>
+<li><code>_1024 - 49151</code> <strong>registrados</strong>: para aplicaciones de usuario de forma temporal cuando conectan con los servidores, pero también pueden representar servicios que hayan sido registrados por un tercero</li>
+<li><code>49152 - 65535</code> <strong>dinámicos/privados</strong>: utilizados como puertos temporales, sobre todo por los clientes al comunicarse con los servidores.</li>
+</ol>
+<p>Nota: una aplicación puede estar usando simultáneamente el mismo puerto para <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a> y <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a>
+ya que técnicamente son dos puertos separados aunque tengan el mismo numero.</p>
+<table id="tb5"><caption>Tabla 5: Algunos <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Anexo:Puertos_de_red" target="_blank">puertos de red</a></caption>
+<thead>
+<tr>
+<th class="right"><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario" target="_blank" title="Protocolo de datagramas de usuario (User Datagram Protocol)">UDP</a></th>
+<th class="right"><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a></th>
+<th>Nombre</th>
+<th>Descriptción</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<td class="right"></td>
+<td class="right">1</td>
+<td>tcpmux</td>
+<td>Multiplexor <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" target="_blank" title="Protocolo de control de transmisión (Transmission Control Protocol)">TCP</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">7</td>
+<td>echo</td>
+<td>Responde con eco a llamadas remotas</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">11</td>
+<td>systat</td>
+<td>Servicio del sistema para listar los puertos conectados</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">13</td>
+<td>daytime</td>
+<td>Envía la fecha y hora actuales</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">17</td>
+<td>qotd</td>
+<td>Envía la cita del día</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">10</td>
+<td>ftpS-data</td>
+<td>FTPS</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">21</td>
+<td>ftp-data</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_archivos" target="_blank" title="Protocolo de transferencia de archivos">FTP</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">22</td>
+<td>ssh</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Secure_Shell" target="_blank" title="Secure Shell">SSH</a>, scp, SFTP</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">23</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Telnet" target="_blank">telnet</a></td>
+<td>Manejo remoto de equipo, inseguro</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">25</td>
+<td>smtp</td>
+<td>Protocolo Simple de Transferencia de Correo</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">37</td>
+<td>time</td>
+<td>Sincroniza hora y fecha</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">42</td>
+<td>nameserver</td>
+<td>Servicio de nombres de Internet</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">43</td>
+<td>nickname</td>
+<td>Servicio de directorio WHOIS</td>
+</tr>
+<tr>
+<td class="right">53</td>
+<td class="right">53</td>
+<td>domain</td>
+<td>Sistema de Nombres de Dominio, por ejemplo BIND</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">63</td>
+<td>whois++</td>
+<td>Servicios extendidos de WHOIS</td>
+</tr>
+<tr>
+<td class="right">67</td>
+<td class="right"></td>
+<td>bootps</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_arranque" target="_blank" title="Protocolo de arranque (Boot strap Protocol) sobre UDP utilizado por los clientes de red para obtener su dirección IP automáticamente">BOOTP</a> servidor, también usado por <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host" target="_blank" title="Protocolo de configuración dinámica de host">DHCP</a></td>
+</tr>
+<tr>
+<td class="right">68</td>
+<td class="right"></td>
+<td>bootpc</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_arranque" target="_blank" title="Protocolo de arranque (Boot strap Protocol) sobre UDP utilizado por los clientes de red para obtener su dirección IP automáticamente">BOOTP</a> cliente, también usado por <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host" target="_blank" title="Protocolo de configuración dinámica de host">DHCP</a></td>
+</tr>
+<tr>
+<td class="right">69</td>
+<td class="right"></td>
+<td>tftp</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/TFTP" target="_blank" title="Trivial file transfer Protocol">TFTP</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">70</td>
+<td>gopher</td>
+<td>Gopher</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">80</td>
+<td>http</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">88</td>
+<td>kerberos</td>
+<td>Kerberos Agente de autenticación</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">101</td>
+<td>hostname</td>
+<td>Servicios de nombres de host en máquinas SRI-NIC</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">107</td>
+<td>rtelnet</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Telnet" target="_blank">Telnet</a> remoto</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">109</td>
+<td>pop2</td>
+<td>POP2</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">110</td>
+<td>pop3</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_oficina_de_correo" target="_blank" title="Protocolo de oficina de correo">POP3</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">115</td>
+<td>sftp</td>
+<td><a class="wikipedia" href="https://en.wikipedia.org/wiki/File_Transfer_Protocol#Simple_File_Transfer_Protocol" target="_blank">SFTP (Simple FTP)</a>, con confundir con SFTP (<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Secure_Shell" target="_blank" title="Secure Shell">SSH</a> File Transfer Protocol)</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">119</td>
+<td>nntp</td>
+<td>NNTP usado en los grupos de noticias de usenet</td>
+</tr>
+<tr>
+<td class="right">123</td>
+<td class="right"></td>
+<td>ntp</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Network_Time_Protocol" target="_blank" title="Network Time Protocol">NTP</a> Protocolo de sincronización de tiempo</td>
+</tr>
+<tr>
+<td class="right">137</td>
+<td class="right"></td>
+<td>netbios-ns</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/NetBIOS" target="_blank">NetBIOS</a> Servicio de nombres</td>
+</tr>
+<tr>
+<td class="right">138</td>
+<td class="right"></td>
+<td>netbios-dgm</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/NetBIOS" target="_blank">NetBIOS</a> Servicio de envío de datagramas</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">139</td>
+<td>netbios-ssn</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/NetBIOS" target="_blank">NetBIOS</a> Servicio de sesiones</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">143</td>
+<td>imap</td>
+<td>IMAP4 Internet Message Access Protocol</td>
+</tr>
+<tr>
+<td class="right">161</td>
+<td class="right"></td>
+<td>snmp</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red" target="_blank" title="Protocolo simple de administración de red">SNMP</a> Simple Network Management Protocol</td>
+</tr>
+<tr>
+<td class="right">162</td>
+<td class="right"></td>
+<td>snmptrap</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red" target="_blank" title="Protocolo simple de administración de red">SNMP</a>-trap</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">177</td>
+<td>xdmcp</td>
+<td>XDMCP Protocolo de gestión de displays en X11</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">194</td>
+<td>irc</td>
+<td>Internet Relay Chat</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">199</td>
+<td>smux</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_simple_de_administraci%C3%B3n_de_red" target="_blank" title="Protocolo simple de administración de red">SNMP</a> UNIX Multiplexer</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">209</td>
+<td>qmtp</td>
+<td>Protocolo de transferencia rápida de correo (QMTP)</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">220</td>
+<td>imap3</td>
+<td>INAP3</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">389</td>
+<td>ldap</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios" target="_blank" title="Protocolo ligero de acceso a directorios (derivado de X.500)">LDAP</a> Protocolo de acceso ligero a Directorios</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">443</td>
+<td>https</td>
+<td>HTTPS/SSL</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">445</td>
+<td>microsoft-ds</td>
+<td>Microsoft-DS (Active Directory)</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">465</td>
+<td>smtps</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_para_transferencia_simple_de_correo" target="_blank" title="Protocolo para transferencia simple de correo">SMTP</a> Sobre SSL</td>
+</tr>
+<tr>
+<td class="right">500</td>
+<td class="right"></td>
+<td></td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/IPsec" target="_blank" title="Internet Protocol security">IPSec</a> ISAKMP, Autoridad de Seguridad Local</td>
+</tr>
+<tr>
+<td class="right">514</td>
+<td class="right"></td>
+<td></td>
+<td>syslog usado para logs del sistema</td>
+</tr>
+<tr>
+<td class="right">520</td>
+<td class="right"></td>
+<td>rip</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Routing_Information_Protocol" target="_blank" title="Routing Information Protocol">RIP</a> Protocolo de Información de Enrutamiento</td>
+</tr>
+<tr>
+<td class="right">521</td>
+<td class="right"></td>
+<td>ripng</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Routing_Information_Protocol" target="_blank" title="Routing Information Protocol">RIP</a> para <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">587</td>
+<td>smtp</td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_para_transferencia_simple_de_correo" target="_blank" title="Protocolo para transferencia simple de correo">SMTP</a> sobre <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte" target="_blank" title="Seguridad de la capa de transporte">TLS</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">631</td>
+<td></td>
+<td>CUPS sistema de impresión de Unix</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">993</td>
+<td>imaps</td>
+<td>IMAP4 sobre SSL</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">995</td>
+<td></td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_oficina_de_correo" target="_blank" title="Protocolo de oficina de correo">POP3</a> sobre SSL</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1080</td>
+<td></td>
+<td>SOCKS Proxy</td>
+</tr>
+<tr>
+<td class="right">1194</td>
+<td class="right"></td>
+<td></td>
+<td>OpenVPN Puerto por defecto en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red" target="_blank" title="Almacenamiento conectado en red">NAS</a> Synology y QNAP</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1352</td>
+<td></td>
+<td>IBM Lotus Notes/Domino <a class="abbr mptfp_gob_es" href="https://www.mptfp.gob.es/portal/funcionpublica/funcion-publica/rcp.html" target="_blank" title="Registro Central de Personal">RCP</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1433</td>
+<td></td>
+<td>Microsoft-SQL-Server</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1434</td>
+<td></td>
+<td>Microsoft-SQL-Monitor</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1494</td>
+<td></td>
+<td>Citrix MetaFrame Cliente <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Independent_Computing_Architecture" target="_blank" title="Arquitectura de Cómputo Independiente (Citrix)">ICA</a></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1521</td>
+<td></td>
+<td>Oracle puerto de escucha por defecto</td>
+</tr>
+<tr>
+<td class="right">1701</td>
+<td class="right"></td>
+<td></td>
+<td>Enrutamiento y Acceso Remoto para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Red_privada_virtual" target="_blank" title="Red privada virtual">VPN</a> con <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/L2TP" target="_blank" title="Layer 2 Tunneling Protocol">L2TP</a></td>
+</tr>
+<tr>
+<td class="right">1720</td>
+<td class="right"></td>
+<td></td>
+<td>H.323</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1723</td>
+<td></td>
+<td>Enrutamiento y Acceso Remoto para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Red_privada_virtual" target="_blank" title="Red privada virtual">VPN</a> con PPTP.</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1761</td>
+<td></td>
+<td>Novell Zenworks Remote Control utility</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">1883</td>
+<td></td>
+<td>MQTT protocol</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">2049</td>
+<td></td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Network_File_System" target="_blank" title="Sistema de archivos de red (Network File System)">NFS</a> Archivos del sistema de red</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">2082</td>
+<td></td>
+<td>cPanel puerto por defecto</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">2083</td>
+<td></td>
+<td>cPanel puerto por defecto sobre SSL</td>
+</tr>
+<tr>
+<td class="right">2427</td>
+<td class="right"></td>
+<td></td>
+<td>Cisco MGCP</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">3128</td>
+<td></td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a> usado por web caches y por defecto en Squid cache</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">3306</td>
+<td></td>
+<td>MySQL sistema de gestión de bases de datos</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">3389</td>
+<td></td>
+<td><a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Reliable_Data_Protocol" target="_blank" title="Reliable Data Protocol">RDP</a> (Remote Desktop Protocol) Terminal Server</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">3396</td>
+<td></td>
+<td>Novell agente de impresión NDPS</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">3690</td>
+<td></td>
+<td>Subversion</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">4200</td>
+<td></td>
+<td>Angular, puerto por defecto</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5000</td>
+<td></td>
+<td>Universal plug-and-play</td>
+</tr>
+<tr>
+<td class="right">5060</td>
+<td class="right"></td>
+<td></td>
+<td>Session Initiation Protocol (SIP)</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5222</td>
+<td></td>
+<td>Jabber/<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol" target="_blank" title="Extensible Messaging and Presence Protocol">XMPP</a> conexión de cliente</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5223</td>
+<td></td>
+<td>Jabber/<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol" target="_blank" title="Extensible Messaging and Presence Protocol">XMPP</a> puerto por defecto para conexiones de cliente SSL</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5269</td>
+<td></td>
+<td>Jabber/<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol" target="_blank" title="Extensible Messaging and Presence Protocol">XMPP</a> conexión de servidor</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5432</td>
+<td></td>
+<td>PostgreSQL sistema de gestión de bases de datos</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5400</td>
+<td></td>
+<td rowspan="5">VNC protocolo de escritorio remoto (usado sobre <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>)</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5500</td>
+<td></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5600</td>
+<td></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5700</td>
+<td></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5800</td>
+<td></td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">5900</td>
+<td></td>
+<td>VNC protocolo de escritorio remoto (conexión normal)</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">6000</td>
+<td></td>
+<td>X11 usado para X-windows</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">6667</td>
+<td></td>
+<td>IRC</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">6881</td>
+<td></td>
+<td>BitTorrent puerto por defecto</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">6969</td>
+<td></td>
+<td>BitTorrent puerto de tracker</td>
+</tr>
+<tr>
+<td class="right">7100</td>
+<td class="right">7100</td>
+<td></td>
+<td>Servidor de Fuentes X11</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">8080</td>
+<td></td>
+<td><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a> <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>-ALT, Tomcat lo usa como puerto por defecto.</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">8118</td>
+<td></td>
+<td>privoxy</td>
+</tr>
+<tr>
+<td class="right"></td>
+<td class="right">10000</td>
+<td></td>
+<td>Webmin</td>
+</tr>
+</tbody>
+</table>
+<h2 class="anchormark" id="ip">
+<a aria-hidden="true" class="anchormark" href="#ip"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a></h2>
+<p><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> es un protocolo de uso bidireccional y no orientado a conexión que transfiere
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Conmutaci%C3%B3n_de_paquetes" target="_blank" title="Método de agrupar los datos transmitidos a través de una red digital">paquetes conmutados</a>.</p>
+<p><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> no puede garantizar la entrega de los paquetes pero siempre intentará usar
+la mejor ruta conocida para el envió (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Entrega_de_mejor_esfuerzo" target="_blank" title="Entrega de mejor esfuerzo">best-effort delivery</a>).</p>
+<h3 class="anchormark" id="cabecera-datagrama-ipv4">
+<a aria-hidden="true" class="anchormark" href="#cabecera-datagrama-ipv4"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Cabecera <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">Datagrama</a> <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a></h3>
+<table class="cabecera_segmento" id="tb6"><caption>Tabla 6: <a class="wikipedia" href="https://es.wikipedia.org/wiki/Cabecera_IP" target="_blank">Datagrama IPv4</a> </caption>
+<thead>
+<tr>
+<th class="right">Octeto</th>
+<th class="right">Bit</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>16</th>
+<th>17</th>
+<th>18</th>
+<th>19</th>
+<th>20</th>
+<th>21</th>
+<th>22</th>
+<th>23</th>
+<th>24</th>
+<th>25</th>
+<th>26</th>
+<th>27</th>
+<th>28</th>
+<th>29</th>
+<th>30</th>
+<th>31</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<th class="right">0</th>
+<th class="right">0</th>
+<td colspan="4">Versión</td>
+<td colspan="4">Longitud de Cabecera</td>
+<td colspan="8">Tipo de Servicio</td>
+<td colspan="16">Longitud Total</td>
+</tr>
+<tr>
+<th class="right">4</th>
+<th class="right">32</th>
+<td colspan="16">Identificador</td>
+<td colspan="3">Flags</td>
+<td colspan="13">Posición del Fragmento</td>
+</tr>
+<tr>
+<th class="right">8</th>
+<th class="right">64</th>
+<td colspan="7">Tiempo de vida</td>
+<td colspan="9">Protocolo</td>
+<td colspan="16"><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n" target="_blank" title="Suma de verificación">Checksum</a></td>
+</tr>
+<tr>
+<th class="right">12</th>
+<th class="right">96</th>
+<td colspan="32">Dirección <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> de Origen</td>
+</tr>
+<tr>
+<th class="right">16</th>
+<th class="right">128</th>
+<td colspan="32">Dirección <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> de Destino</td>
+</tr>
+<tr>
+<th class="right">20</th>
+<th class="right">160</th>
+<td colspan="32" rowspan="2">Opciones (si <em>Longitud de Cabecera</em> &gt; 5, relleno con 0 al final si es necesario)</td>
+</tr>
+<tr>
+<th class="right">...</th>
+<th class="right">...</th>
+</tr>
+<tr>
+<th class="right">60</th>
+<th class="right">480</th>
+<td colspan="32"><em>esto ya no es cabecera, aquí - como tarde - ya empezarían los datos</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Versión</strong>: indica si es <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> (0100) o <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a> (0110)</li>
+<li><strong>Longitud de Cabecera</strong>: necesario ya que el tamaño puede variar de
+20 a 60 bytes en función de cuanta información se añada en el campo opciones.
+El valor viene en <em>número de palabras de 32-bit</em>, es decir, 5 equivale a 160 bit o 20 bytes.</li>
+<li><strong>Tipo de Servicio</strong> (<a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Type_of_service" target="_blank" title="Type of service">ToS</a> o <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Servicios_Diferenciados" target="_blank" title="Servicios Diferenciados">DSCP</a>): indica una serie de parámetros sobre la calidad de servicio deseada<ul>
+<li>Existe la posibilidad de que los últimos dos bits sean ocupados por el campo opcional
+<a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Explicit_Congestion_Notification" target="_blank" title="Explicit Congestion Notification">ECN</a>
+(ver <a class="wikipedia" href="https://en.wikipedia.org/wiki/IPv4#Header" target="_blank">IPv4 Header</a>)</li>
+</ul>
+</li>
+<li><strong>Longitud Total</strong> (Total Length): longitud en bytes del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">datagrama</a> <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a>, incluyendo la cabecera <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a>.
+El tamaño mínimo normalmente es de 576 octetos (64 de cabeceras y 512 de datos)</li>
+<li><strong>Identificador</strong> (Identification): único por <code>datagrama-origen-destino-tipo_de_protocolo</code> y se
+utiliza para en caso de fragmentación poder distinguir los fragmentos de un <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">datagrama</a> de otro</li>
+<li><strong>Flags</strong>: usados para especificar valores relativos a la fragmentación de paquetes:<ul>
+<li>bit 0 = 0 (reservado)</li>
+<li>bit 1 (<abbr class="abbr" title="Don't Fragment">DF</abbr>): 0 = divisible, 1 = no divisible</li>
+<li>bit 2 (<abbr class="abbr" title="More Fragments">MF</abbr>): 0 = último fragmento, 1 = fragmento intermedio</li>
+</ul>
+</li>
+<li><strong>Posición del Fragmento</strong> (Fragment Offset): marca la posición dentro del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">datagrama</a> original, empezando por 0</li>
+<li><strong>Tiempo de vida</strong>: (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tiempo_de_vida_(inform%C3%A1tica)" target="_blank" title="Tiempo de vida (time to live)">TTL</a>) indica el número máximo de enrutadores que el paquete puede atravesar</li>
+<li><strong>Protocolo</strong> (Protocol): un <a class="wikipedia" href="https://es.wikipedia.org/wiki/Anexo:N%C3%BAmeros_de_protocolo_IP" target="_blank">número que indica el protocolo de la capa superior</a></li>
+<li><strong>Relleno</strong>: se usa para garantizar que el tamaño de la cabecera es múltiplo de 32</li>
+</ul>
+<h3 class="anchormark" id="cabecera-datagrama-ipv6">
+<a aria-hidden="true" class="anchormark" href="#cabecera-datagrama-ipv6"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Cabecera <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Datagrama" target="_blank" title="Mínimo bloque de información en una red de conmutación por datagramas">Datagrama</a> <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a></h3>
+<table class="cabecera_segmento" id="tb7"><caption>Tabla 7: <a class="wikipedia" href="https://es.wikipedia.org/wiki/IPv6#Cabecera_fija" target="_blank">Datagrama IPv6</a> </caption>
+<thead>
+<tr>
+<th class="right">Octeto</th>
+<th class="right">Bit</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>16</th>
+<th>17</th>
+<th>18</th>
+<th>19</th>
+<th>20</th>
+<th>21</th>
+<th>22</th>
+<th>23</th>
+<th>24</th>
+<th>25</th>
+<th>26</th>
+<th>27</th>
+<th>28</th>
+<th>29</th>
+<th>30</th>
+<th>31</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<th class="right">0</th>
+<th class="right">0</th>
+<td colspan="4">Versión</td>
+<td colspan="8">Clase de tráfico</td>
+<td colspan="20">Etiqueta de flujo</td>
+</tr>
+<tr>
+<th class="right">4</th>
+<th class="right">32</th>
+<td colspan="16">Longitud del campo de datos</td>
+<td colspan="8">Cabecera siguiente</td>
+<td colspan="8">Límite de saltos</td>
+</tr>
+<tr>
+<th class="right">8</th>
+<th class="right">64</th>
+<td colspan="32" rowspan="4">Dirección <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> de Origen</td>
+</tr>
+<tr>
+<th class="right">12</th>
+<th class="right">96</th>
+</tr>
+<tr>
+<th class="right">16</th>
+<th class="right">128</th>
+</tr>
+<tr>
+<th class="right">20</th>
+<th class="right">160</th>
+</tr>
+<tr>
+<th class="right">24</th>
+<th class="right">192</th>
+<td colspan="32" rowspan="4">Dirección <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> de Destino</td>
+</tr>
+<tr>
+<th class="right">28</th>
+<th class="right">224</th>
+</tr>
+<tr>
+<th class="right">32</th>
+<th class="right">256</th>
+</tr>
+<tr>
+<th class="right">36</th>
+<th class="right">288</th>
+</tr>
+<tr>
+<th class="right">40</th>
+<th class="right">320</th>
+<td colspan="32"><em>esto ya no es cabecera, aquí ya empezarían los datos</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Versión</strong>: indica si es <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> (0100) o <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a> (0110)</li>
+<li><strong>Clase de Tráfico</strong> (Traffic Class): también denominado Prioridad o simplemente Clase,
+indica una serie de parámetros sobre la calidad de servicio deseada (equivalente a <a class="abbr protocolo wikipedia" href="https://en.wikipedia.org/wiki/Type_of_service" target="_blank" title="Type of service">ToS</a> en <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a>)</li>
+<li><strong>Etiqueta de Flujo</strong> (Flow Label): manejo de la Calidad de Servicio, por ejemplo
+para permitir tráficos con requisitos de tiempo real</li>
+<li><strong>Longitud total de carga útil</strong> (Payload Length): es la longitud de los propios datos (incluyendo cabeceras de extensión), y puede ser de hasta 65.536 bytes.</li>
+<li><strong>Siguiente cabecera</strong> (Next Header): ya no se usan cabeceras de longitud variable, si no que se encadenan sucesivas cabeceras<ul>
+<li>por ello desaparece el campo opciones</li>
+<li>en muchos casos no es procesado por los encaminadores, sino tan sólo extremo a extremo</li>
+</ul>
+</li>
+<li><strong>Límite de saltos</strong> (Hop Limit): indica el número máximo de enrutadores que el paquete puede atravesar (equivalente a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tiempo_de_vida_(inform%C3%A1tica)" target="_blank" title="Tiempo de vida (time to live)">TTL</a> en <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a>)</li>
+<li>Campos de <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> que ya no son necesarios:<ul>
+<li><em>Fragment Offset</em> y <em>Identification</em> desaparecen porque ya que la fragmentación (si es necesaria)
+solo se hace de extremo a extremo y no por encaminadores intermedios</li>
+<li><em>Options</em> desaparece porque <em>Next Header</em> permite añadir encadenar
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/IPv6#Cabeceras_de_extensi%C3%B3n" target="_blank">cabeceras de extensión</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="direcciones-ipv4">
+<a aria-hidden="true" class="anchormark" href="#direcciones-ipv4"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Direcciones <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a></h2>
+<p>Son direcciones de 32 bits (<abbr class="abbr nodecorate" title="4.294.967.296">2³²</abbr> direcciones posibles) organizadas en cinco clases
+(A, B, C, D y E).</p>
+<table id="tb8"><caption>Tabla 8: <a class="wikipedia" href="https://en.wikipedia.org/wiki/Classful_network#Classful_addressing_definition" target="_blank">Clases IPv4</a></caption>
+<thead>
+<tr>
+<th class="right">Clase</th>
+<th>Bits<br/>Iniciales</th>
+<th class="right">Intervalo</th>
+<th class="right">Mascara de red</th>
+<th class="right"><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Classless_Inter-Domain_Routing" target="_blank" title="Classless Inter-Domain Routing">CIDR</a></th>
+<th class="right"><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Difusi%C3%B3n_amplia" target="_blank" title="Difusión amplia">broadcast</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">A</td>
+<td><code>0</code></td>
+<td class="right"><code>0-127.*.*.*</code></td>
+<td class="right"><code>255.0.0.0</code></td>
+<td class="right"><code>/8</code></td>
+<td class="right"><code>*.255.255.255</code></td>
+</tr>
+<tr>
+<td class="right">B</td>
+<td><code>10</code></td>
+<td class="right"><code>128-191.*.*.*</code></td>
+<td class="right"><code>255.255.0.0</code></td>
+<td class="right"><code>/16</code></td>
+<td class="right"><code>*.*.255.255</code></td>
+</tr>
+<tr>
+<td class="right">C</td>
+<td><code>110</code></td>
+<td class="right"><code>192-223.*.*.*</code></td>
+<td class="right"><code>255.255.255.0</code></td>
+<td class="right"><code>/24</code></td>
+<td class="right"><code>*.*.*.255</code></td>
+</tr>
+<tr>
+<td class="right">D</td>
+<td><code>1110</code></td>
+<td class="right"><code>224-239.*.*.*</code></td>
+<td class="right" colspan="3"><em>direcciones para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Multidifusi%C3%B3n" target="_blank" title="Multidifusión">multicast</a></em></td>
+</tr>
+<tr>
+<td class="right">E</td>
+<td><code>1111</code></td>
+<td class="right"><code>240-255.*.*.*</code></td>
+<td class="right" colspan="3"><em>direcciones para uso experimental</em></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>la dirección con los bit de host a 0 identifica la red</li>
+<li>la dirección con los bit de host a 1 es la dirección <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Difusi%C3%B3n_amplia" target="_blank" title="Difusión amplia">broadcast</a> y sirve para
+enviar paquetes a todas los hots de esa red</li>
+<li>de la clase A hay que descartar:<ul>
+<li>la dirección <code>0.0.0.0</code> que esta reservada por la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority" target="_blank" title="Internet Assigned Numbers Authority">IANA</a> para identificación local</li>
+<li>las direcciones <code>127.*.*.*</code> porque se usan para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Loopback" target="_blank">loopback</a></li>
+</ul>
+</li>
+<li>por lo tanto en cada clase hay <code>2^n</code> redes (siendo <code>n</code> el número de bits dedicados
+a la red que no están fijos) y <code>(2^h)-2</code> host (siendo <code>h</code> el número de bits dedicados al host):<ul>
+<li>A: 128 redes (2⁽⁸⁻¹⁾) y 16.777.214 hosts (2²⁴-2) (a los que hay que descartar las IPs <code>0.0.0.0</code> y <code>127.*.*.*</code>)</li>
+<li>B: 16.384 redes (2⁽¹⁶⁻²⁾) y 65.534 hosts (2¹⁶-2)</li>
+<li>C: 2.097.152 redes (2⁽²⁴⁻³⁾) y 254 hosts (2⁸-2)</li>
+</ul>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th class="right"><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Classless_Inter-Domain_Routing" target="_blank" title="Classless Inter-Domain Routing">CIDR</a></th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<td class="right">10.0.0.0/8</td>
+<td rowspan="3">Utilizado para las comunicaciones locales dentro de una red privada</td>
+</tr>
+<tr>
+<td class="right">172.16.0.0/12</td>
+</tr>
+<tr>
+<td class="right">192.168.0.0/16</td>
+</tr>
+<tr>
+<td class="right">0.0.0.0/8</td>
+<td>Red actual​ (solo válido como dirección de origen)</td>
+</tr>
+<tr>
+<td class="right">127.0.0.0/8</td>
+<td>Direcciones de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Loopback" target="_blank">loopback</a></td>
+</tr>
+<tr>
+<td class="right">169.254.0.0/16</td>
+<td>Direcciones de enlace local cuando no se puede conseguir una <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> de otra manera (por ej con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host" target="_blank" title="Protocolo de configuración dinámica de host">DHCP</a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Table 9: Algunas <a class="wikipedia" href="https://es.wikipedia.org/wiki/IPv4#Direcciones_de_uso_especial" target="_blank">direcciones IPv4 especiales</a></p>
+<h2 class="anchormark" id="direcciones-ipv6">
+<a aria-hidden="true" class="anchormark" href="#direcciones-ipv6"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_IPv6" target="_blank">Direcciones IPv6</a></h2>
+<p>Son direcciones de 128 bits (<abbr class="abbr nodecorate" title="340.282.366.920.938.463.374.607.432.768.211.456 (~10³⁸)">2¹²⁸</abbr> direcciones posibles) que se representan en ocho
+bloques de 16 bits en números hexadecimales separados por el caracter <code>:</code>.</p>
+<p>Para abreviar se pueden eliminar los ceros a la izquierda, o incluso comprimir
+todos los conjuntos de ceros consecutivos con <code>::</code>, de manera que las siguientes
+IPs son la misma:</p>
+<ul>
+<li><code>2a01:0048:0000:0000:0000:0000:0000:0000</code></li>
+<li><code>2a01:48:0:0:0:0:0:0</code></li>
+<li><code>2a01:48::</code></li>
+</ul>
+<p>Hay tres tipos de IPs según su direccionamiento y encaminamiento:</p>
+<ul>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Unidifusi%C3%B3n" target="_blank" title="Unidifusión">unicast</a></strong>: identifica una única interfaz de red</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Difusi%C3%B3n_por_proximidad" target="_blank" title="Difusión por proximidad">anycast</a></strong>: identifica un grupo de interfaces (normalmente de nodos diferentes):<ul>
+<li>los paquetes enviados a una dirección <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Difusi%C3%B3n_por_proximidad" target="_blank" title="Difusión por proximidad">anycast</a> solo llega a uno de los miembros
+(típicamente el más cercano)</li>
+<li>las direcciones <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Difusi%C3%B3n_por_proximidad" target="_blank" title="Difusión por proximidad">anycast</a> tienen el mismo formato que las <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Unidifusi%C3%B3n" target="_blank" title="Unidifusión">unicast</a>, simplemente
+son direcciones que están en varios puntos de la red</li>
+</ul>
+</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Multidifusi%C3%B3n" target="_blank" title="Multidifusión">multicast</a></strong>: identifica un grupo de interfaces (normalmente de nodos diferentes):<ul>
+<li>un paquete enviado a una dirección <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Multidifusi%C3%B3n" target="_blank" title="Multidifusión">multicast</a> es entregado a todos los miembros</li>
+</ul>
+</li>
+</ul>
+<table class="tb_ipv6 ipv6_unicast"><caption><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a> <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Unidifusi%C3%B3n" target="_blank" title="Unidifusión">unicast</a>/<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Difusi%C3%B3n_por_proximidad" target="_blank" title="Difusión por proximidad">anycast</a> (network prefix = routing prefix + subnet id) </caption>
+<thead>
+<tr>
+<th class="center">48b o más</th>
+<th class="center">16b o menos</th>
+<th class="center">64b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="center">routing prefix</td>
+<td class="center">subnet id</td>
+<td class="center">interface identifier</td>
+</tr>
+</tbody>
+</table>
+<table class="tb_ipv6 ipv6_enlace_local"><caption><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a> <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_de_Enlace-Local" target="_blank" title="Dirección IP creada únicamente para comunicaciones dentro de una subred local">enlace-local</a> (<abbr class="abbr nodecorate" title="1111111010">fe80::/10</abbr>, prefix = 1111111010) </caption>
+<thead>
+<tr>
+<th class="center">10b</th>
+<th class="center">54b</th>
+<th class="center">64b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="center">prefix</td>
+<td class="center">ceros</td>
+<td class="center">interface identifier</td>
+</tr>
+</tbody>
+</table>
+<table class="tb_ipv6 ipv6_multicast"><caption><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a> <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Unidifusi%C3%B3n" target="_blank" title="Unidifusión">unicast</a> (<abbr class="abbr nodecorate" title="11111111">ff00::/8</abbr>, prefix = 11111111) </caption>
+<thead>
+<tr>
+<th class="center">8b</th>
+<th class="center">4b</th>
+<th class="center">4b</th>
+<th class="center">112b</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="center">prefix</td>
+<td class="center">flags<br/>0RPT</td>
+<td class="center">scope<br/>XXXX</td>
+<td class="center">group ID</td>
+</tr>
+</tbody>
+</table>
+<p>Nótese que el tipo <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Difusi%C3%B3n_amplia" target="_blank" title="Difusión amplia">broadcast</a> no existe. Se puede conseguir el mismo
+efecto enviando un paquete al dirección <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Multidifusi%C3%B3n" target="_blank" title="Multidifusión">multicast</a> del grupo all-nodes del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_de_Enlace-Local" target="_blank" title="Dirección IP creada únicamente para comunicaciones dentro de una subred local">enlace-local</a>
+<abbr class="abbr nodecorate" title="1111111100000010::1">ff02::1</abbr>. Sin embargo no se recomienda usar el grupo all-nodes.</p>
+<p>También se pude usar una notación equivalente a la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Classless_Inter-Domain_Routing" target="_blank" title="Classless Inter-Domain Routing">CIDR</a> en <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> para denotar
+grupos de IPs, de manera que <code>2a01:48::/32</code> son todas las IPs entre
+<code>2a01:0048:0000:0000:0000:0000:0000:0000</code> y <code>2a01:0048:ffff:ffff:ffff:ffff:ffff:ffff</code>.</p>
+<table id="tb10"><caption>Tabla 10: <a class="wikipedia" href="https://es.wikipedia.org/wiki/IPv6#Identificaci%C3%B3n_de_los_tipos_de_direcciones" target="_blank">Tipos de direcciones IPv6</a></caption>
+<thead>
+<tr>
+<th class="right"><a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> o Prefijo</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">::/128</td>
+<td>Dirección con todo ceros se utiliza para indicar la ausencia de dirección, y no se asigna ningún nodo</td>
+</tr>
+<tr>
+<td class="right">::1/128</td>
+<td>dirección de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Loopback" target="_blank">loopback</a>, equivalente a 127.0.0.1 de <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a></td>
+</tr>
+<tr>
+<td class="right">::X.X.X.X/96</td>
+<td>Dirección <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> compatible (DEPRECADO)</td>
+</tr>
+<tr>
+<td class="right">::ffff:X.X.X.X/96</td>
+<td>Dirección <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a> mapeada. Permite que las aplicaciones de <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv6" target="_blank">IPv6</a> se comuniquen directamente con las aplicaciones de <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/IPv4" target="_blank">IPv4</a></td>
+</tr>
+<tr>
+<td class="right"><abbr class="abbr nodecorate" title="1111111010">fe80::/10</abbr></td>
+<td>Prefijo de enlace local, específica que la dirección solamente es válida en el enlace físico local</td>
+</tr>
+<tr>
+<td class="right"><abbr class="abbr nodecorate" title="1111110">fc00::/7</abbr></td>
+<td>Prefijo de <a class="wikipedia" href="https://es.wikipedia.org/wiki/Unique_Local_Address" target="_blank">dirección local única</a> (dirección privada). Se divide en <abbr class="abbr nodecorate" title="11111100">fc00::/8</abbr> (aún sin uso) y <abbr class="abbr nodecorate" title="11111101">fd00::/8</abbr></td>
+</tr>
+<tr>
+<td class="right"><abbr class="abbr nodecorate" title="11111111">ff00::/8</abbr></td>
+<td>Prefijo de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Multidifusi%C3%B3n" target="_blank" title="Multidifusión">multicast</a></td>
+</tr>
+</tbody>
+</table>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/110</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/114</a></li>
+<li><a class="redeszone_net" href="https://www.redeszone.net/tutoriales/internet/tcp-udp-caracteristicas-uso-diferencias/" target="_blank">redeszone.net - ¿Qué protocolo es mejor?: TCP vs UDP, descubre cuándo utilizar cada uno</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=drBwqN038vM" target="_blank">youtube.com - Curso de Redes. 10.7. Protocolo TCP: números de secuencia</a></li>
+<li><a class="cv_uoc_edu" href="http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_0.html" target="_blank">cv.uoc.edu - Protocolos del nivel de transporte </a></li>
+<li><a class="cv_uoc_edu" href="http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_1.html" target="_blank">cv.uoc.edu - El protocolo UDP</a></li>
+<li><a class="cv_uoc_edu" href="http://cv.uoc.edu/UOC/a/moduls/90/90_329/web/main/m2/v4_2_2.html" target="_blank">cv.uoc.edu - Formato del segmento TCP</a></li>
+<li><a class="ipv6go_net" href="http://www.ipv6go.net/cabecera_ipv6.php" target="_blank">ipv6go.net - Cabecera IPv6</a></li>
+<li><a class="ramonmillan_com" href="https://www.ramonmillan.com/tutoriales/ipv6_parte2.php" target="_blank">ramonmillan.com - El protocolo IPv6 (II)</a></li>
+<li><a class="docs_oracle_com" href="https://docs.oracle.com/cd/E19957-01/820-2981/ipv6-overview-10/index.html" target="_blank">docs.oracle.com - Descripción general de las direcciones IPv6</a></li>
+<li><a class="ipv6_mx" href="http://www.ipv6.mx/index.php/informacion/fundamentos/ipv6" target="_blank">ipv6.mx - Fundamentos de IPv6</a></li>
+<li><a class="docs_oracle_com" href="https://docs.oracle.com/cd/E19683-01/816-5250/transition-4/index.html" target="_blank">docs.oracle.com - Using IPv4-Compatible Address Formats</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B2/04-osi.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

@@ -1,0 +1,232 @@
+body.packtree h1 {
+  margin-bottom: 0;
+}
+body.packtree pre {
+  margin-top: 0;
+}
+
+fieldset.firma_ades {
+  width: 0;
+}
+fieldset.firma_ades legend {
+  margin: 0 0 0 auto;
+  font-weight: bold;
+}
+fieldset.firma_ades p {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0px;
+}
+fieldset.firma_ades div {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto 7em;
+}
+/*
+fieldset.firma_ades fieldset.firma_ades_leaf {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 6em 6em 6em 6em 6em;
+}
+*/
+fieldset.firma_ades_leaf p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+fieldset.nivel_conformidad_eidas {
+  border-color: blue;
+  border-style: solid;
+}
+fieldset.nivel_conformidad_eidas > legend {
+  border-color: blue;
+  border-style: solid;
+}
+
+#bibliografia {
+  border-top: 1px solid black;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+body.apuntes_b1_ens #tb3 thead th:last-child {
+  text-align: center;
+}
+body.apuntes_b1_ens #tb3 tbody th {
+  text-align: center;
+}
+body.apuntes_b1_ens tbody tr:nth-child(2n) {
+    background-color: unset;
+}
+body.apuntes_b1_firma div.figgroup2 img {
+  max-height: 222px;
+}
+a.derogada, a.agotada, a.anulada, a.antiguo, abbr.antiguo {
+  color: red;
+}
+body.ejercicios_plantilla tbody th {
+  text-align: center;
+}
+body.ejercicios_plantilla table tr > td:first-child a.abbr {
+  color: blue;
+  text-decoration:none;
+}
+body.ejercicios_plantilla table tr > td:first-child a.abbr[target='_blank'] {
+  text-decoration:none;
+  color:unset;
+}
+
+table.tabla_patrones td {
+  vertical-align: top;
+}
+table.tabla_patrones td ul {
+  padding-left: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+table.tabla_patrones th {
+  text-align: center;
+}
+table.tabla_patrones tbody tr:hover {
+  background-color: unset !important;
+}
+
+body.apuntes_b2_osi table.cabecera_segmento th {
+  min-width: 1.2em;
+  text-align: center;
+}
+body.apuntes_b2_osi table.cabecera_segmento td {
+  text-align: center;
+}
+
+body.apuntes_b2_osi table.cabecera_segmento tbody tr:last-child td, body.apuntes_b2_osi table.cabecera_segmento tbody tr:last-child th {
+  opacity: 0.5;
+  border: 1px dotted grey;
+}
+
+table.tb_ipv6 {
+  width: calc(128px *7);
+}
+
+table.ipv6_unicast th:nth-child(1) {
+  width: calc(48px *7);
+}
+table.ipv6_unicast th:nth-child(2) {
+  width: calc(16px *7);
+}
+table.ipv6_unicast th:nth-child(3) {
+  width: calc(64px *7);
+}
+
+table.ipv6_enlace_local th:nth-child(1) {
+  width: calc(10px *7);
+}
+table.ipv6_enlace_local th:nth-child(2) {
+  width: calc(54px *7);
+}
+table.ipv6_enlace_local th:nth-child(3) {
+  width: calc(64px *7);
+}
+
+table.ipv6_multicast th:nth-child(1) {
+  width: calc(8px *7);
+}
+table.ipv6_multicast th:nth-child(2) {
+  width: calc(4px *7);
+}
+table.ipv6_multicast th:nth-child(3) {
+  width: calc(4px *7);
+}
+table.ipv6_multicast th:nth-child(4) {
+  width: calc(112px *7);
+}
+pre code .err {
+  border: unset;
+}
+
+table.complejidad_ordenacion thead th {
+  text-align: center;
+}
+table.complejidad_ordenacion tbody td {
+  font-family: monospace;
+}
+table.complejidad_ordenacion tbody tr td:first-child {
+  font-family: unset;
+}
+table.complejidad_nombre tbody td:first-child {
+  font-family: monospace;
+}
+table.complejidad_tad tbody td {
+  font-family: monospace;
+}
+table.complejidad_tad tbody tr td:first-child {
+  font-family: unset;
+}
+table.complejidad_tad article a {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: blue;
+  color: inherit;
+}
+body.otros_metrica article a {
+  text-decoration: none;
+  color: inherit;
+}
+body.otros_metrica li {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+body.otros_diagramas div.figgroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  align-items: start;
+}
+body.otros_diagramas div.figgroup figure, body.practico_administrativo div.figgroup figure{
+  margin-top: 16px;
+}
+body.otros_diagramas div.figgroup figcaption, body.practico_administrativo div.figgroup figcaption{
+    caption-side: top;
+    border-top: 1px black solid;
+}
+
+body.practico_normativa table sup.extra_url {
+  display: none !important;
+}
+
+body.practico_normativa table a {
+  text-decoration: none !important;
+  color: unset;
+}
+body.practico_normativa table td.dup {
+  opacity: 0.3;
+}
+body.practico_normativa tr td:nth-child(1), body.practico_normativa tr td.word {
+  white-space: nowrap;
+}
+
+table.preguntas_supuesto th {
+    min-width: 1em;
+}
+table.preguntas_supuesto tbody tr:nth-child(2n) {
+    background-color: unset;
+}
+table.preguntas_supuesto tbody td.td_x {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+table.preguntas_supuesto caption {
+  display: none;
+}
+
+body.practico_preguntas_planificacion table td, body.practico_preguntas_planificacion table th {
+  min-width: 1.5em;
+}
+body.practico_preguntas_planificacion table td.td_x {
+  background-color: violet;
+  color: transparent;
+}
+body.practico_preguntas_planificacion table td.td_X {
+  background-color: darkviolet;
+  color: transparent;
+}

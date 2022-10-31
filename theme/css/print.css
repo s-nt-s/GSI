@@ -1,0 +1,46 @@
+@page
+{
+    size: auto;
+    margin: 5mm 5mm 5mm 5mm;
+}
+body > header, body > footer {
+  display:none;
+}
+img {
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+}
+div.pag {
+    font-family: monospace;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 0.7em;
+    margin-right: -1mm;
+}
+div.pag span {
+    font-size: 0.6em;
+}
+body.enunciado main h1:first-of-type {
+  display: none;
+}
+body.enunciado main p:first-of-type {
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
+}
+body.practico_administrativo a {
+  text-decoration: none !important;
+  color: unset;
+}
+body.practico_administrativo #capa-de-presentacion {
+  margin-top: 0;
+}
+body.practico_administrativo #actores, #arquitectura-logica, #arquitectura-de-red, #expediente-administrativo {
+    break-before: always;
+}
+body.practico_normativa h1, body.practico_normativa caption {
+  display: none;
+}

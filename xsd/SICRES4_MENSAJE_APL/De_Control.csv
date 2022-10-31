@@ -1,0 +1,12 @@
+PATH,NAME,TYPE,NAMESPACE,COMMENT
+/De_Control,De_Control,element,,
+/De_Control/Codigo_Entidad_Registral_Origen,Codigo_Entidad_Registral_Origen,element,,
+/De_Control/Codigo_Entidad_Registral_Destino,Codigo_Entidad_Registral_Destino,element,,
+/De_Control/Identificador_Intercambio,Identificador_Intercambio,element,,
+/De_Control/Tipo_Mensaje,Tipo_Mensaje,element,,
+/De_Control/Descripcion_Mensaje,Descripcion_Mensaje,element,,
+/De_Control/Numero_Registro_Entrada_Destino,Numero_Registro_Entrada_Destino,element,,
+/De_Control/Fecha_Hora_Entrada_Destino,Fecha_Hora_Entrada_Destino,element,,
+/De_Control/Indicador_Prueba,Indicador_Prueba,element,,
+/De_Control/Identificador_Fichero,Identificador_Fichero,element,,
+/De_Control/Codigo_Error,Codigo_Error,element,,

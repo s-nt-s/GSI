@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Microservicios y contenedores</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b2_microservicos" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Microservicios y contenedores</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><strong>Contenedor</strong>: unidad de software estándar que empaqueta el código y todas sus
+dependencias para que la aplicación se ejecute de manera rápida y se pueda portar
+entre entornos.</p>
+<p><strong>Microservicio</strong>: Pequeño servicio que se ejecuta de forma independiente
+y se comunica a través de una API definida.</p>
+<p><em>Nota</em>: Es habitual ver arquitecturas de microservicios que usan contenedores,
+pero hay que recordar que no son sinónimos y que se puede implementar
+microservicios sin usar contenedores.</p>
+<h1 class="anchormark" id="evolucion-historica">
+<a aria-hidden="true" class="anchormark" href="#evolucion-historica"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Evolución histórica</h1>
+<table>
+<thead>
+<tr>
+<th>Escenario</th>
+<th>Arquitectura</th>
+<th>Despliegue</th>
+<th>Infraestructura</th>
+<th>Metodología<br/>de trabajo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Tradicional</th>
+<td>Monolítica</td>
+<td>Servidor físico</td>
+<td>Local</td>
+<td>En cascada</td>
+</tr>
+<tr>
+<th>Vritualizado</th>
+<td>Monolítica<br/>multicapa</td>
+<td>Servidor virtual</td>
+<td>Hosting</td>
+<td>Ágil</td>
+</tr>
+<tr>
+<th>Conterizado</th>
+<td><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_de_microservicios" target="_blank">Microservicios</a></td>
+<td>Contenedores</td>
+<td>Nube</td>
+<td><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/DevOps" target="_blank" title="Conjunto de prácticas que agrupan el desarrollo de software (Dev) y las operaciones de TI (Ops)">DevOps</a></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Evolución histórica" src="img/container_evolution.svg" title="Evolución histórica"/></p>
+<h1 class="anchormark" id="virtualizacion-basada-en-contenedores">
+<a aria-hidden="true" class="anchormark" href="#virtualizacion-basada-en-contenedores"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Virtualización basada en contenedores</h1>
+<p>Método de virtualización en el que, sobre el núcleo del sistema operativo,
+se ejecuta una capa que permite que existan múltiples instancias
+aisladas de espacios de usuario, en lugar de solo uno.</p>
+<p>Estas instancias, llamadas contenedores, pueden verse y sentirse como un servidor
+real desde el punto de vista de sus dueños y usuarios.</p>
+<h2 class="anchormark" id="tipos-de-contenedores">
+<a aria-hidden="true" class="anchormark" href="#tipos-de-contenedores"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Tipos de contenedores</h2>
+<ul>
+<li>Contenedores de infraestructura o sistema de contenedores:
+Ofrecen un servicio que permite ejecutar múltiples instancias de sistemas operativos
+de manera aislada. Es similar a una máquina virtual pero más rápido y ligero. (ej: LXC y LXD)</li>
+<li>Contenedores de procesos o <strong>Contenedores de aplicaciones</strong>: Ofrecen un sistema
+para empaquetar aplicaciones y todas sus dependencias y, por tanto, son muy útiles
+para el desarrollo y distribución de aplicaciones. (ej: Docker y systemd-nspawn)</li>
+<li>Contenedores sandbox. Enfocados en proveer aislamiento mediante un entorno que
+permita ejecutar contenedores en un espacio escapsulado donde tiene acceso
+restringido a recursos del sistema operativo o datos del usuario (sandbox).
+(ej: Firejail​, nsroot​, nsjail​, FreeBSD jail, sandboxie​ y Bubblewrap)</li>
+</ul>
+<p>Nota: Generalmente, cuando decimos <em>contenedor</em> a secas, nos referimos a un
+<em>contenedor de aplicacion</em>.</p>
+<h2 class="anchormark" id="ventajas-e-inconvenientes">
+<a aria-hidden="true" class="anchormark" href="#ventajas-e-inconvenientes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ventajas e inconvenientes</h2>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Poca o ninguna sobrecarga porque no hay emulación ni máquina virtual intermedia</li>
+<li>Casi tan flexible como las máquinas virtuales tradicionales</li>
+<li>Se puede implementar mecanismos de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Copy-on-write" target="_blank" title="Política por la cuando un proceso pide un recurso se les devuelve un puntero a él evitando hacer una copia real hasta que el proceso vaya a realizar una modificación en el recurso (si es que llega a hacerla)">copy-on-write</a></li>
+<li>No requiere un <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hipervisor" target="_blank" title="Monitor de máquina virtual, capa de software para realizar una virtualización de hardware">hipervisor</a> ni ningún mecanismo de hardware</li>
+<li>Permite mayor control desde el anfitrión</li>
+</ul>
+<p><strong>Desventajas</strong></p>
+<ul>
+<li>Un fallo en el kernel del anfitrión puede hacer caer a todos sus contenedores</li>
+<li>No se puede hospedar un sistema operativo o kernel distinto al del anfitrión, aunque:<ul>
+<li>en algunos casos se puede alojar distintas versiones de la misma distribución
+o incluso distintas distribuciones Linux</li>
+<li>Docker en Windows puede jecutar contenedores Linux gracias a la capa
+de compatibilidad <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Windows_Subsystem_for_Linux" target="_blank" title="Windows Subsystem for Linux">WSL</a></li>
+</ul>
+</li>
+<li>Las librerías, etc que ejecuten los servidores virtuales deben estar compilados
+para el mismo juego de instrucciones y hardware que utiliza el sistema anfitrión.</li>
+</ul>
+<h2 class="anchormark" id="orquestacion-y-coreografia">
+<a aria-hidden="true" class="anchormark" href="#orquestacion-y-coreografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Orquestación y coreografía</h2>
+<p>Las aplicaciones en contenedores habitualmente utilizan una plataforma de
+orquestación/coreografía de contenedores</p>
+<h1 class="anchormark" id="microservicios">
+<a aria-hidden="true" class="anchormark" href="#microservicios"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_de_microservicios" target="_blank">Microservicios</a></h1>
+<p>La arquitectura de microservicios consiste en construir una aplicación como un
+conjunto de pequeños servicios, los cuales se ejecutan en su propio
+proceso y se comunican con mecanismos ligeros (normalmente una API de recursos <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>).</p>
+<p>Cada servicio se encarga de implementar una funcionalidad completa del negocio,
+es desplegado de forma independiente y puede estar programado en distintos
+lenguajes y usar diferentes tecnologías de almacenamiento de datos.</p>
+<h2 class="anchormark" id="ventajas-e-inconvenientes">
+<a aria-hidden="true" class="anchormark" href="#ventajas-e-inconvenientes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ventajas e inconvenientes</h2>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Despliegue: los ciclos de desarrollo pueden ser más cortos</li>
+<li>Fiabilidad: los fallos en un microservicio no tienen porque afectar al resto</li>
+<li>Disponibilidad: se puede desplegar una nueva versión de un microservicio sin
+reiniciar la aplicación/servidor.</li>
+<li>Escalabilidad: en cada momento se pueden aumentar las instancias de los
+microservicios que soporten más carga de trabajo</li>
+<li>Modificabilidad: los microservicio tienen bajo acoplamiento por lo que se pueden
+usar distintos frameworks</li>
+<li>Gestión: los equipos grandes pueden dividirse en tareas independientes y pasar
+a ser autonomos</li>
+<li>Facilidad para comprender cada microservicio individualmente</li>
+<li>Facilidad para probar y desplegar un microservicio individualmente (<a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>)</li>
+</ul>
+<p><strong>Inconvenientes</strong>:</p>
+<ul>
+<li>Despliegue:<ul>
+<li>se necesitas más scripts, archivos de configuración, etc.</li>
+<li>se necesitan perfiles <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/DevOps" target="_blank" title="Conjunto de prácticas que agrupan el desarrollo de software (Dev) y las operaciones de TI (Ops)">DevOps</a> o <abbr class="abbr" title="Integración continua + Entrega continua o Despliegue continuo">CI/CD</abbr></li>
+<li>en algunos casos, no se puede desplegar una funcionalidad de forma independiente
+debido a la interdependencia entre servicios</li>
+</ul>
+</li>
+<li>Rendimiento: los microservicios emplean colas para comunicarse, mientras que los
+módulos monolíticos invocan métodos</li>
+<li>Testeabilidad: las <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/" target="_blank" title="Prueban es que todos los elementos unitarios que componen el software, funcionan juntos correctamente en grupo">pruebas de integración</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_de_integraci%C3%B3n" target="_blank">w</a></sup> pueden ser más complejas si los
+microservicios emplean diferentes entornos</li>
+<li>Gestión: aumenta el esfuerzo de gestión al tener más logs, runtimes y componentes</li>
+<li>Duplicidades: librerías y componentes pueden estar replicados en varios microservicios</li>
+<li>Mayor dificultad de comprender el sistema de manera global</li>
+</ul>
+<h2 class="anchormark" id="micro-frontends">
+<a aria-hidden="true" class="anchormark" href="#micro-frontends"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr micro-frontends-es_org" href="https://micro-frontends-es.org/" target="_blank" title="Enfoque micorservicios para fronteds">Micro-frontends</a></h2>
+<p>Tradicionalmente las interfaces de usuario en una arquitectura microservicios
+seguían siendo un monolito (por ejemplo, una servidor web MVC que genera un <code>front</code>
+HTML + JavaScript, mientras que el <code>backend</code> es una arquitectura microservicios)
+pero existe la alternativa de tratar la interfaz también como microservicios.</p>
+<p>A esto se le llama <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/composite" target="_blank">Composite</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Composite_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> UI o <a class="abbr micro-frontends-es_org" href="https://micro-frontends-es.org/" target="_blank" title="Enfoque micorservicios para fronteds">micro-frontends</a> y consiste en dividir la
+interfaz en piezas que son generadas por separado como microservicios.</p>
+<p>Sus <strong>ventajas</strong> son:</p>
+<ul>
+<li>Evita que el <code>fronted</code> pueda ser un cuello de botella</li>
+<li>Escala bien</li>
+<li>Los equipos de desarrollo puedan desarrollar su negocio de extremo
+a extremo (desde el backend hasta el frontend).</li>
+</ul>
+<figure class="fig" id="fg 2"><img alt="Organización de los equipos según el enfoque" src="img/micro-frontend.png" title="Organización de los equipos según el enfoque"/><figcaption>Figura 2: Organización de los equipos según el enfoque</figcaption></figure>
+<p>Tecnologías que pueden intervenir en el enfoque <a class="abbr micro-frontends-es_org" href="https://micro-frontends-es.org/" target="_blank" title="Enfoque micorservicios para fronteds">micro-frontends</a>:</p>
+<ul>
+<li><a class="abbr developer_mozilla_org" href="https://developer.mozilla.org/es/docs/Web/Web_Components/Using_custom_elements" target="_blank" title="Elementos personalizados, conjunto de APIs de JavaScript que permiten definir elementos (etiquetas HTML) personalizados y su comportamiento">Custom Elements</a>: conjunto de APIs de JavaScript que permiten definir elementos (etiquetas HTML) personalizados y su comportamiento</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Server_Side_Includes" target="_blank" title="Conjunto de directivas que se escriben en las páginas HTML y que se evalúan en el servidor web cuando se solicita la página HTML, ej &lt;!--#include ... --&gt;">Server Side Includes</a>: conjunto de directivas que se escriben en las páginas HTML y que se evalúan en el servidor web cuando se solicita la página HTML (en especial <code>&lt;!--#include ... --&gt;</code>)</li>
+<li><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Edge_Side_Includes" target="_blank" title="Permite a los servidores de edge (como las cachés de Varnish) mezclar y matchear contenido procedente de múltiples direcciones URL.">Edge Side Includes</a>: permite a los servidores de edge (como las cachés de Varnish) mezclar y matchear contenido procedente de múltiples direcciones <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme" target="_blank" title="Localizador de recursos uniforme">URL</a> (<code>&lt;esi:include ... /&gt;</code>)</li>
+</ul>
+<p>Como <strong>inconveniente</strong> tiene que puede ser dificil mantener la consistencia de
+la presentación.</p>
+<h2 class="anchormark" id="comunicacion-con-los-microservicios">
+<a aria-hidden="true" class="anchormark" href="#comunicacion-con-los-microservicios"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Comunicación con los microservicios</h2>
+<h3 class="anchormark" id="tipos-de-comunicacion">
+<a aria-hidden="true" class="anchormark" href="#tipos-de-comunicacion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Tipos de comunicación</h3>
+<p>La comunicación realizada puede ser:</p>
+<p><strong>Síncrona</strong> mediante petición/respuesta a la API (ej: <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>-<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional" target="_blank" title="Transferencia de Estado Representacional">REST</a>).</p>
+<ul>
+<li>Ventajas:<ul>
+<li>interactuá bien con una interfaz web</li>
+<li>los desarrolladores están familiarizados con <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>-<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional" target="_blank" title="Transferencia de Estado Representacional">REST</a></li>
+<li>es fácil de depurar</li>
+<li>facilita ofrecer APIs a terceros</li>
+</ul>
+</li>
+<li>Desventajas:<ul>
+<li>No ofrece las ventajas de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol" target="_blank" title="Advanced Message Queuing Protocol, protocolo de estándar abierto en la capa de aplicaciones de un sistema de comunicación">AMQP</a></li>
+</ul>
+</li>
+</ul>
+<figure class="fig" id="fg 1"><img alt="Comunicación sincronía one-to-one" src="https://i0.wp.com/www.dineshonjava.com/wp-content/uploads/2019/05/one-to-one-sync.png" title="Comunicación sincronía one-to-one"/><figcaption>Figura 1: Comunicación sincronía one-to-one</figcaption></figure>
+<p><strong>Asíncrona</strong> mediante un broker de mensajes como RabbitMQ (implementa <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol" target="_blank" title="Advanced Message Queuing Protocol, protocolo de estándar abierto en la capa de aplicaciones de un sistema de comunicación">AMQP</a>) o Kafka</p>
+<ul>
+<li>Ventajas:<ul>
+<li>es muy rápido</li>
+<li>es flexible</li>
+<li>consume pocos recursos</li>
+<li>puede priorizar unos mensajes sobre otros en la cola</li>
+<li>es compatible con <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Distributed_transaction" target="_blank" title="Transacciones distribuidas">XA transactions</a></li>
+<li>es tolerante a fallos</li>
+<li>puede asegurar que el mensaje es entregado una sola vez</li>
+<li>ofrece <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" target="_blank" title="Patrón de mensajería donde los publishers no envían mensajes directamente a destinatarios, si no que los categorizan en clases y son los subscribers quienes se suscriben a dichas clases para recibirlos">pub/sub interface</a></li>
+<li>permite segmentación de mensajes y agrupado de mensajes</li>
+<li>puedes tener un hilo separado para escuchar las respuestas</li>
+</ul>
+</li>
+<li>Desventajas:<ul>
+<li>El broker pasa a ser un servicio critico</li>
+</ul>
+</li>
+</ul>
+<div class="figgroup figgroup2"><figure class="fig" id="fg 2"><img alt="Comunicación asíncrona one-to-one" src="https://i1.wp.com/www.dineshonjava.com/wp-content/uploads/2019/05/asynchronous-one-to-one.png" title="Comunicación asíncrona one-to-one"/><figcaption>Figura 2: Comunicación asíncrona one-to-one</figcaption></figure><figure class="fig" id="fg 3"><img alt="Comunicación asíncrona one-to-many" src="https://i2.wp.com/www.dineshonjava.com/wp-content/uploads/2019/05/asynchronous-one-to-many.png" title="Comunicación asíncrona one-to-many"/><figcaption>Figura 3: Comunicación asíncrona one-to-many</figcaption></figure></div>
+<h3 class="anchormark" id="api-gateway">
+<a aria-hidden="true" class="anchormark" href="#api-gateway"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+API Gateway</h3>
+<p>El API Gateway implementa el patrón de diseño <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/facade" target="_blank" title="Patrón de diseño estructural que proporciona una interfaz simple para un subsistema complejo">Facade</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> para el acceso a las funcionalidades de negocio
+por parte de los clientes, abstrayendo la coreografía de servicios subyacente.</p>
+<p>Físicamente esta conformado por una serie de archivos de configuración (ej YAML)
+sobre un servidor web (ej nginx) que indican la forma de diseccionar las solicitudes.
+Es decir, actuá como un proxy inverso que redirige las peticiones al microservicio
+adecuado.</p>
+<p>Además puede incluir funciones de:</p>
+<ul>
+<li>autenticación</li>
+<li>logs</li>
+<li>cumplimiento de la política de seguridad</li>
+<li>balanceo de carga</li>
+<li>gestión de contratos y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio" target="_blank" title="Acuerdo de nivel de servicio">SLA</a></li>
+<li>gestión de caché</li>
+<li>resolución de dependencias</li>
+</ul>
+<p>En <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a>, esta funcionalidad es realizada por el componente <a class="abbr kubernetes_io" href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank" title="Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL">Ingress</a>.</p>
+<p>Ejemplo: Spring Cloud Zuul en Netflix</p>
+<h2 class="anchormark" id="descubrimiento-de-servicios">
+<a aria-hidden="true" class="anchormark" href="#descubrimiento-de-servicios"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Descubrimiento de servicios</h2>
+<p>La arquitectura de microservicios tiene la capacidad de balanceo de carga automática
+mediante la creación de distintas replicas del microservio. Esto hace necesario
+varios servidores de descubrimientos de servicios para asegurar la disponibilidad
+de dichos servicios.</p>
+<p>Cada servidor de descubrimiento mantiene las rutas de las distintas instancias
+de cada microservicio y comprueba su disponibilidad a través de <em>latidos</em> para
+almacenar internamente el estado de cada microservicio.</p>
+<p>Los servicios de descubrimiento pueden ser a su ver clientes de otros
+servidores de descubrimiento.</p>
+<p>Ejemplo: Spring Cloud Eureka en Netflix</p>
+<h2 class="anchormark" id="balanceador-de-cliente">
+<a aria-hidden="true" class="anchormark" href="#balanceador-de-cliente"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Balanceador de cliente</h2>
+<p>A diferencia de otras arquitecturas, el balanceo de carga en una arquitectura de
+microservicios se lleva a cabo por parte del cliente, no del servidor.
+Es el cliente quien elije a qué instancia del microservicio enviar la
+petición entre los disponibles de acuerdo a una serie de criterios de
+balanceo definidos: de carga, geográficos,
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Planificaci%C3%B3n_Round-robin" target="_blank" title="Método para seleccionar todos los elementos en un grupo de manera equitativa y en un orden racional, normalmente comenzando por el primer elemento de la lista hasta llegar al último y empezando de nuevo desde el primer elemento">Round-robin</a>, tiempo de respuesta ponderado, etc.</p>
+<p>El balance se puede hacer a través de un mecanismo software o hardware. En ambos casos hay un
+intermediario que define la política de balanceo y hace la petición al servicio.</p>
+<p>Ejemplo: Spring Cloud Ribbon en Netflix</p>
+<h2 class="anchormark" id="gestion-de-errores-en-cascada">
+<a aria-hidden="true" class="anchormark" href="#gestion-de-errores-en-cascada"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Gestión de errores en cascada</h2>
+<p>En sistemas distribuidos como una arquitectura de microservicios un punto crítico
+del diseño es la gestión de errores.
+Los servicios se llaman unos a otros y un error en un servicio puede deshabilitar varios servicios
+por no recibir peticiones o porque estén continuamente llamando a un servicio no disponible.</p>
+<p>Para evitar esto se puede usar el patrón de diseño <strong><a class="abbr patron apiumhub_com" href="https://apiumhub.com/es/tech-blog-barcelona/patron-circuit-breaker/" target="_blank" title="Patrón de diseño que evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar">Circuit Breaker</a><sup class="extra_url"><a class="wikipedia" href="https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern" target="_blank">w</a></sup></strong>
+que evita que una aplicación intente de manera reiterada una operación
+que con probabilidad va a fallar devolviendo el error directamente sin
+hacer la llamada.</p>
+<p>Ejemplo: Spring Cloud Histrix en Netflix</p>
+<h2 class="anchormark" id="ejemplo-arquitectura-netflix">
+<a aria-hidden="true" class="anchormark" href="#ejemplo-arquitectura-netflix"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ejemplo arquitectura Netflix</h2>
+<figure class="fig" id="fg 4"><img alt="Arquitectura Netflix" src="https://lh3.googleusercontent.com/aubes0y1QW7_BQFRpFVNXSxOcNsFZgvattDu95i1fV_BzzBhUp9fN4ogfkcfmFS__ntSMKS_xyP8sSX65FCouZwzL_rFDL8B19kaRKQf4qYqUoLqfjwymEJLaQPYFtZM0jxyAdgO" title="Arquitectura Netflix"/><figcaption>Figura 4: Arquitectura Netflix</figcaption></figure>
+<p>Se puede ver una descripción más en detalle en <em><a class="josephcodes_dev" href="https://josephcodes.dev/2020/11/04/netflix-y-la-nueva-arquitectura-de-microservicios/" target="_blank">josephcodes.dev - Netflix y la nueva arquitectura de microservicios</a></em>,
+a lo que se puede añadir que además se usa Feign para abstraer los detalles de
+implementación de los API <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional" target="_blank" title="Transferencia de Estado Representacional">REST</a> y del propio protocolo <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>, de forma que los
+servicios se enfoquen en la lógica de negocio y cuando consuman otros servicios
+el código no gestione peticiones <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a> explícitamente,
+desacoplando la lógica de negocio de la capa de comunicación. Un ejemplo
+de su uso se puede ver en <em><a class="adictosaltrabajo_com" href="https://www.adictosaltrabajo.com/2017/09/26/spring-cloud-feign-declarative-rest-client/" target="_blank">adictosaltrabajo.com - Spring Cloud Feign: declarative REST client</a></em>.</p>
+<h1 class="anchormark" id="orquestacion-y-coreografia">
+<a aria-hidden="true" class="anchormark" href="#orquestacion-y-coreografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Orquestación y Coreografía</h1>
+<p>Tanto para contenedores como para microservicios hay dos técnicas para coordinar
+su comportamiento en conjunto, la Orquestación y la Coreografía</p>
+<figure class="fig" id="fg 5"><img alt="Orquestación vs Coreografía" src="https://refactorizando.com/wp-content/uploads/2020/04/Untitled-Diagram-10.png" title="Orquestación vs Coreografía"/><figcaption>Figura 5: Orquestación vs Coreografía</figcaption></figure>
+<h2 class="anchormark" id="orquestacion">
+<a aria-hidden="true" class="anchormark" href="#orquestacion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Orquestación</h2>
+<p>En la orquestación un <em>director de orquesta</em> gestiona todas las interacciones
+en espera de una respuesta antes de solicitar el siguiente servicio.
+Es decir, la orquestación sigue un paradigma de solicitud/respuesta.</p>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Fácil de gestionar mediante la centralización de los procesos empresariales</li>
+<li>El flujo de la aplicación se coordina eficientemente usando un procesamiento <strong>sincrónico</strong></li>
+</ul>
+<p><strong>Desventajas</strong></p>
+<ul>
+<li>Se genera dependencias entre servicios</li>
+<li>Si cae el orquestador todo se detiene</li>
+</ul>
+<h2 class="anchormark" id="coreografia">
+<a aria-hidden="true" class="anchormark" href="#coreografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Coreografía</h2>
+<p>En la Coreografía es un enfoque <strong>asíncrono</strong> en el que los servicios actúan
+independientemente reaccionando a eventos. Nadie les dice que eventos escuchar
+ni que hacer cuando ocurre dicho evento si no que ellos mismos están programados
+para suscribirse a los eventos que deben escuchar y para reaccionar a ellos.</p>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Procesamiento rápido ya que los servicios no esperan a un orquestador</li>
+<li>Es simple agregar servicios o actualizar desde el flujo de eventos.</li>
+<li>Elimina cualquier punto de falla</li>
+<li>Se alinea con un modelo de entrega ágil en el que los equipos pueden centrarse
+en servicios específicos en lugar de toda la aplicación</li>
+</ul>
+<p><strong>Desventajas</strong>:</p>
+<ul>
+<li>Aumenta la complejidad de la gestión global del sistema</li>
+</ul>
+<h1 class="anchormark" id="kubernetes">
+<a aria-hidden="true" class="anchormark" href="#kubernetes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a></h1>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a> es un orquestador de contenedores, donde prácticamente todo
+se puede crear y configurar mediante manifiestos yaml.</p>
+<h2 class="anchormark" id="componentes-hardware">
+<a aria-hidden="true" class="anchormark" href="#componentes-hardware"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Componentes Hardware</h2>
+<h3 class="anchormark" id="nodos">
+<a aria-hidden="true" class="anchormark" href="#nodos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Nodos</h3>
+<p>Es la unidad más pequeña del hardware informático de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a>.
+Se le puede considerar una máquina individual.</p>
+<h3 class="anchormark" id="cluster">
+<a aria-hidden="true" class="anchormark" href="#cluster"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Clúster</h3>
+<p>Es una colección de nodos que se agrupan para ofrecer un uso compartido
+y un equilibrio inteligente de los recursos.</p>
+<p>Cuando despliegas un programa en un cluster, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a> distribuye el trabajo
+entre los nodos de ese cluster. Si un nodo cae, es eliminado o se añade el cluster
+requilibrara el trabajo automáticamente.</p>
+<p>Esto es transparente y al programador no le debe importar en que nodo en
+particular se esta ejecutando el código.</p>
+<h3 class="anchormark" id="persistent-volumes">
+<a aria-hidden="true" class="anchormark" href="#persistent-volumes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Persistent Volumes</h3>
+<p>Proporcionan un sistema de archivos que se puede
+montar en el clúster, sin estar asociado con ningún nodo en particular.</p>
+<p>Son necesarios ya que:</p>
+<ol>
+<li>Cualquier dato guardado en un nodo se pierde cuando este finaliza</li>
+<li>No se puede saber a priori (ni debe importarnos) en que nodo en particular
+se va a ejecutar nuestra aplicación</li>
+</ol>
+<p>Cuando no se especifica que un volumen es persistente se sobreentiende
+que son volúmenes que se crean y destruyen con el pod.</p>
+<p>Nota: Un volumen solo puede ser montado como Read/Write en un único nodo,
+lo que significa que si una replica de nuestro aplicativo cae en otro nodo
+no podrá usar el volumen.</p>
+<h2 class="anchormark" id="componentes-software">
+<a aria-hidden="true" class="anchormark" href="#componentes-software"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Componentes Software</h2>
+<h3 class="anchormark" id="contenedores">
+<a aria-hidden="true" class="anchormark" href="#contenedores"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Contenedores</h3>
+<p>Conjunto de uno o más procesos (idealmente debería ser solo uno) que incluye todos
+los archivos necesarios para su ejecución, por lo que se pueden trasladar de una
+máquina a otra.</p>
+<h3 class="anchormark" id="pods">
+<a aria-hidden="true" class="anchormark" href="#pods"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Pods</h3>
+<p>Conjunto de uno o más contenedores (cuantos menos mejor), los cuales se empaquetan
+de manera que comparten los mismos recursos y red local. Esto hace que los
+contenedores de un mismo pod pueda comunicarse fácilmente pues están en la mismo nodo.</p>
+<p>El pod es la unidad de replicación, es decir, cuando <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">kubernetes</a> crea nuevas replicas
+para atender un pico de demanda lo que se va a replicar son los pods.</p>
+<p>Hay que tener en cuenta que cada replica de un mismo pod tiene una <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> distinta,
+y que todos los contenedores que están dentro de un mismo pod comparte la <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a>
+de su pod, por lo tanto hay que evitar que dos contenedores de un mismo pod
+intenten usar un mismo puerto porque eso produciría una colisión.</p>
+<p>Ejemplos: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/01-pod.yaml" target="_blank">01-pod.yaml</a>, <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/02-pod.yaml" target="_blank">02-pod.yaml</a>, <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/06-randompod.yaml" target="_blank">06-randompod.yaml</a></p>
+<h3 class="anchormark" id="deploymets">
+<a aria-hidden="true" class="anchormark" href="#deploymets"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Deploymets</h3>
+<p>Aunque los pods se puede crear directamente, lo optimo es es hacerlo a través
+de la abstracción deployment.</p>
+<p>El principal propósito de un deployment es especificar cuantas replicas debería
+haber en todo momento de un pod, de manera que si alguna replica cae <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">kubernetes</a>
+automáticamente cree nuevas instancias hasta llegar al numero deseado.</p>
+<p>Ejemplo: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/04-deployment.yaml" target="_blank">04-deployment.yaml</a></p>
+<p>Variantes:</p>
+<ul>
+<li><strong>DaemonSet</strong>: Igual que Deploymets pero garantiza crear un pod en cada nodo
+(útil para agentes de monitoreo). Ejemplo: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/03-daemonset.yaml" target="_blank">03-daemonset.yaml</a></li>
+<li><strong>StatefulSet</strong>: Es un Deploymets que necesita garantizar el orden y unicidad
+de los pods (sus volúmenes han de ser persistentes). Ejemplo: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/05-statefulset.yaml" target="_blank">05-statefulset.yaml</a></li>
+</ul>
+<h3 class="anchormark" id="service">
+<a aria-hidden="true" class="anchormark" href="#service"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Service</h3>
+<p>Por defecto <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">kubernetes</a> aislá los pods del exterior, por lo tanto para
+poder comunicarse con un servicio que corre en un pod hace falta abrir
+un canal de comunicación.</p>
+<p>Para ello existen distintos tipos de Service:</p>
+<ul>
+<li>ClusterIP: crea una <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> (accesible desde cualquier nodo de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a>) con un puerto que redirige
+a los pods. Ejemplo: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/07-hello-deployment-svc-clusterIP.yaml" target="_blank">07-hello-deployment-svc-clusterIP.yaml</a></li>
+<li>NodePort: crea un puerto en cada nodo que será redirigido a los pods. Esto nos permite acceder al pod sabiendo la <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> del nodo (si el nodo tiene <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> pública también podremos
+acceder desde fuera de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a>).
+Ejemplo: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/08-hello-deployment-svc-nodePort.yaml" target="_blank">08-hello-deployment-svc-nodePort.yaml</a></li>
+<li>LoadBalancer: crea un balanceador de carga en un proveedor de nube que redirige
+el tráfico recibido en un puerto a los pods.
+Esto nos permite acceder al servicio sabiendo la <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> del balanceador, la cual puede
+ser accesible desde internet.
+Ejemplo: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/09-hello-deployment-svc-loadBalancer.yaml" target="_blank">09-hello-deployment-svc-loadBalancer.yaml</a></li>
+</ul>
+<p>Nota: cuando digo "redirige a los pods" quiero decir que en cada petición se
+redirigirá el tráfico a una de las replicas del pod pudiendo ser cada vez una
+distinta.</p>
+<h3 class="anchormark" id="ingress">
+<a aria-hidden="true" class="anchormark" href="#ingress"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr kubernetes_io" href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank" title="Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL">Ingress</a></h3>
+<p>Conjunto de reglas que permite redirigir peticiones a distintos servicios en
+función de distintos criterios, por ejemplo la ruta de la petición.
+Ejemplo: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/10-hello-v1-v2-deployment-svc.yaml" target="_blank">10-hello-v1-v2-deployment-svc.yaml</a> + <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/11-hello-ingress.yaml" target="_blank">11-hello-ingress.yaml</a>.</p>
+<p>Esta característica no viene en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a> por defecto si no que se instala
+como un controlador habiendo varias posibilidades, una de ellas sería
+<a class="abbr kubernetes_github_io" href="https://kubernetes.github.io/ingress-nginx/" target="_blank" title="Controlador Ingress para Kubernetes usando Nginx">ingress-nginx</a> que usara un nginx configurado con las reglas que determina
+<a class="abbr kubernetes_io" href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank" title="Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL">ingress</a> para obtener el efecto deseado.</p>
+<p>Por lo general <a class="abbr kubernetes_io" href="https://kubernetes.io/docs/concepts/services-networking/ingress/" target="_blank" title="Componente de Kubernetes que permite acceso HTTP(s) a los pods, pudiendo además configurar balanceo de carga o terminación SSL">ingress</a> va a crear también un LoadBalancer y esto nos proporcionará
+una <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_internet" target="_blank" title="Protocolo de Internet">IP</a> pública.</p>
+<h3 class="anchormark" id="configmap-y-secrets">
+<a aria-hidden="true" class="anchormark" href="#configmap-y-secrets"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+ConfigMap y Secrets</h3>
+<p>Básicamente son configuraciones que pueden ser referenciadas desde otros
+manifiestos. Ejemplos: <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/12-configmap.yaml" target="_blank">12-configmap.yaml</a> + <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/13-pod-configmap.yaml" target="_blank">13-pod-configmap.yaml</a>, <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/14-secret.yaml" target="_blank">14-secret.yaml</a> + <a class="github_com" href="https://github.com/pablokbs/peladonerd/blob/master/kubernetes/35/15-pod-secret.yaml" target="_blank">15-pod-secret.yaml</a>.</p>
+<p>Secrets esta pensada para valores como contraseñas ya que guarda la información
+es codificada en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Base64" target="_blank">base64</a>, pero hay que recordar que esto es fácilmente reversible
+por lo tanto no se deben hacer cosas como subir estos ficheros a un repositorio.</p>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack3/02</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack3/03</a></li>
+<li><a class="docs_microsoft_com" href="https://docs.microsoft.com/es-es/dotnet/architecture/microservices/architect-microservice-container-applications/microservice-based-composite-ui-shape-layout" target="_blank">docs.microsoft.com - Creación de interfaces de usuario compuestas basadas en microservicios</a></li>
+<li><a class="micro-frontends-es_org" href="https://micro-frontends-es.org/" target="_blank">micro-frontends-es.org - Micro Frontends</a></li>
+<li><a class="desarrolloweb_com" href="https://desarrolloweb.com/articulos/desarrollo-custom-elements-javascript-estandar.html" target="_blank">desarrolloweb.com - Especificación Custom Elements, explicaciones y práctica</a></li>
+<li><a class="docs_microsoft_com" href="https://docs.microsoft.com/es-es/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern" target="_blank">docs.microsoft.com - Diferencias entre el patrón de puerta de enlace de API y la comunicación directa de cliente a microservicio</a></li>
+<li><a class="searchdatacenter_techtarget_com" href="https://searchdatacenter.techtarget.com/es/definicion/API-Gateway-o-puerta-de-enlace-API" target="_blank">techtarget.com - API Gateway</a></li>
+<li><a class="stackoverflow_com" href="https://stackoverflow.com/questions/16838416/service-oriented-architecture-amqp-or-http" target="_blank">stackoverflow.com - Service Oriented Architecture - AMQP or HTTP</a></li>
+<li><a class="programmerclick_com" href="https://programmerclick.com/article/1059308994/" target="_blank">programmerclick.com - Descubrimiento de servicios en microservicios</a></li>
+<li><a class="medium_com" href="https://medium.com/swlh/a-design-analysis-of-cloud-based-microservices-architecture-at-netflix-98836b2da45f" target="_blank">medium.com/swlh - A Design Analysis of Cloud-based Microservices Architecture at Netflix</a></li>
+<li><a class="bigdatadummy_wordpress_com" href="https://bigdatadummy.wordpress.com/2020/03/04/arquitectura-de-microservicios-con-netflix/" target="_blank">bigdatadummy.wordpress.com - Arquitectura de Microservicios con Netflix</a></li>
+<li><a class="josephcodes_dev" href="https://josephcodes.dev/2020/11/04/netflix-y-la-nueva-arquitectura-de-microservicios/" target="_blank">josephcodes.dev - Netflix y la nueva arquitectura de microservicios</a></li>
+<li><a class="adictosaltrabajo_com" href="https://www.adictosaltrabajo.com/2017/09/26/spring-cloud-feign-declarative-rest-client/" target="_blank">adictosaltrabajo.com - Spring Cloud Feign: declarative REST client</a></li>
+<li><a class="redhat_com" href="https://www.redhat.com/es/topics/containers/what-is-kubernetes-pod" target="_blank">redhat.com - ¿Qué es un pod de Kubernetes?</a></li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Virtualización_a_nivel_de_sistema_operativo" target="_blank">wikipedia.org - Virtualización a nivel de sistema operativo</a></li>
+<li><a class="dineshonjava_com" href="https://www.dineshonjava.com/microservices-inter-service-communication/" target="_blank">dineshonjava.com - Microservices Inter-Service Communication</a></li>
+<li><a class="processmaker_com" href="https://www.processmaker.com/es/blog/process-orchestration-vs-choreography-microservices/" target="_blank">processmaker.com - Orquestación de procesos vs. coreografía en microservicios</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=DCoBcpOA7W4" target="_blank">youtube.com - Pelado Nerd - Kubernetes 2021 - De novato a pro!</a></li>
+<li><a class="medium_com" href="https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16" target="_blank">medium.com/google-cloud - Kubernetes 101: Pods, Nodes, Containers, and Clusters</a></li>
+<li><a class="redhat_com" href="https://www.redhat.com/es/topics/containers/what-is-a-kubernetes-cluster" target="_blank">redhat.com - ¿Qué es un clúster de Kubernetes?</a></li>
+<li><a class="github_com" href="https://github.com/pablokbs/peladonerd/tree/master/kubernetes/35" target="_blank">github.com/pablokbs - ejemplos de plantillas</a></li>
+<li><a class="maquinasvirtuales_eu" href="https://www.maquinasvirtuales.eu/kubernetes-servicios-clusterip-ingress-nodeport-y-loadbalancer/" target="_blank">maquinasvirtuales.eu - Kubernetes: Servicios ClusterIP, Ingress, NodePort y LoadBalancer</a></li>
+<li><a class="kubernetes_io" href="https://kubernetes.io/es/docs/concepts/workloads/controllers/statefulset/" target="_blank">kubernetes.io - StatefulSets</a></li>
+<li><a class="kubernetes_io" href="https://kubernetes.io/es/docs/concepts/workloads/controllers/daemonset/" target="_blank">kubernetes.io - DaemonSet</a></li>
+<li><a class="platform9_com" href="https://platform9.com/blog/tutorial-dynamic-provisioning-of-persistent-storage-in-kubernetes-with-minikube/" target="_blank">platform9.com - Tutorial: Dynamic Provisioning of Persistent Storage in Kubernetes with Minikube</a></li>
+<li><a class="medium_com" href="https://medium.com/swlh/quick-fix-sharing-persistent-disks-on-multiple-nodes-in-kubernetes-ef5541fd8376" target="_blank">medium.com/swlh - Quick Fix: Sharing Persistent Disks on Multiple Nodes in Kubernetes Using NFS</a></li>
+<li><a class="refactorizando_com" href="https://refactorizando.com/stateful-vs-stateless-arquitectura/" target="_blank">refactorizando.com - Stateful vs Stateless en Arquitectura</a></li>
+<li><a class="refactorizando_com" href="https://refactorizando.com/orquestacion-vs-coreografia-microservicios/" target="_blank">refactorizando.com - Orquestación vs Coreografía en microservicios</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B2/05-microservicos.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Sistema AYES</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home enunciado ejercicios_inap_b3.15" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/ejercicios.html">Ejercicios</a></li>
+<li>Sistema AYES</li>
+<li>
+[<a href="B3.15.pdf">PDF</a>]
+  </li>
+</ol>
+</nav>
+<p>Fuente: <a href="https://campus.inap.es/v3/pluginfile.php/1664943/mod_folder/content/0/Bloque_3_Supuesto_5_AYES_Enunciado.pdf" target="_blank">FSAP20000600000 B3 S15</a> (<a href="https://campus.inap.es/v3/pluginfile.php/1664943/mod_folder/content/0/Bloque_3_Supuesto_15_AYES_Solucion.Revision11Junio_mod2021.pdf" target="_blank">Solución</a>)</p> </div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<p><strong>Bloque 3, supuesto 15</strong> del INAP (2018).</p>
+<h1 class="anchormark" id="enunciado">
+<a aria-hidden="true" class="anchormark" href="#enunciado"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Enunciado</h1>
+<p>España está dividida administrativamente en demarcaciones hidrográficas,
+que son zonas compuestas por una o varias cuencas hidrográficas vecinas.
+La gestión de estas demarcaciones hidrográficas está repartida entre la
+Administración General del Estado (en adelante, <abbr class="abbr" title="Administración General del Estado">AGE</abbr>) y las Comunidades
+Autónomas (en adelante, <abbr class="abbr" title="Comunidades Autónomas">CCAA</abbr>). La <abbr class="abbr" title="Administración General del Estado">AGE</abbr> gestiona las demarcaciones
+hidrográficas que abarcan más de una Comunidad Autónoma; mientras que
+las <abbr class="abbr" title="Comunidades Autónomas">CCAA</abbr> gestionan aquellas cuya extensión total queda geográficamente
+enmarcada en el interior de sus límites autonómicos.</p>
+<p>A nivel estatal, la gestión de las demarcaciones hidrográficas está
+encomendada a las Confederaciones Hidrográficas, organismos autónomos
+creados en 1926 y actualmente adscritos orgánicamente a la Dirección
+General del Agua (en adelante, DGA) del Ministerio de Agricultura y Pesca,
+Alimentación y Medio Ambiente (en adelante, MAPAMA).</p>
+<p>Desde hace varios años, una importante tarea que han venido desarrollando
+estos organismos es la gestión de la sequía. Cuando se produce una
+situación de sequía en alguna demarcación hidrográfica estatal, el Gobierno
+puede declarar, mediante Real Decreto, la situación de sequía en dicha
+demarcación. Un Real Decreto declara la sequía para una demarcación
+concreta e implica la puesta en marcha de medidas extraordinarias por
+parte de la Confederación Hidrográfica correspondiente así como la
+concesión de ayudas para los afectados. Cuando la situación de sequía
+desparece, el Gobierno deroga la declaración del estado de sequía mediante
+otro Real Decreto.</p>
+<p>Debido a las recurrentes sequías que se producen en España, la DGA ha
+decidido desarrollar AYES (AYudas Estatales para la Sequía), un sistema de
+información para centralizar la tramitación de ayudas para paliar los efectos
+producidos por la sequía en las demarcaciones hidrográficas estatales. Se
+busca el máximo nivel de automatización posible.</p>
+<p>Los requisitos generales para poder solicitar las ayudas son los siguientes:</p>
+<ul>
+<li>Ser titular de una explotación agrícola. Este requisito puede
+comprobarse mediante la consulta del Registro General de la
+Producción Agrícola. El titular de una explotación agrícola puede ser
+una persona física o jurídica.</li>
+<li>La explotación agrícola debe estar ubicada en el ámbito de una
+demarcación hidrográfica para la que esté vigente el estado de
+sequía, declarado mediante Real Decreto.</li>
+</ul>
+<p>Las ayudas consistirán en una contraprestación económica destinada a
+compensar las pérdidas producidas por la sequía en las explotaciones
+agrícolas afectadas. La ayuda se pagará mensualmente y se mantendrá
+mientras esté vigente el Real Decreto de declaración del estado de sequía.</p>
+<p>Para poder disfrutar de esta ayuda, además de cumplir los requisitos
+generales, se deberá tener en cuenta lo siguiente:</p>
+<ul>
+<li>El solicitante no puede haber recibido una subvención en el presente
+año.</li>
+<li>El solicitante no podrá recibir subvenciones mientras esté disfrutando
+de esta ayuda. En caso de incumplimiento de este requisito, el
+afectado dejará de recibir la ayuda.</li>
+<li>Un perito deberá valorar los daños sufridos por la explotación agrícola
+como consecuencia de la sequía. En base a la valoración realizada, se
+establecerá la cantidad mensual que recibirá el afectado, que no
+podrá superar la cantidad mensual máxima establecida en el Real
+Decreto correspondiente.</li>
+</ul>
+<p>El acceso al sistema por parte de los afectados se realizará a través de la
+sede electrónica del MAPAMA. La solicitud de ayudas estará abierta mientras
+haya algún Real Decreto de sequía vigente para alguna demarcación
+hidrográfica. Los afectados adjuntarán, en su caso, la documentación que
+sea necesaria. Recibida la solicitud en el sistema, se abre el correspondiente
+expediente administrativo.</p>
+<p>El personal tramitador de la DGA será el encargado de configurar en el
+sistema los plazos de las convocatorias de ayudas vinculados al Real
+Decreto correspondiente.</p>
+<p>Para la tramitación de los expedientes de solicitud, la DGA contará con la
+colaboración de las Confederaciones Hidrográficas. Cada Confederación
+realizará la valoración de daños de las solicitudes que estén dentro del
+ámbito de su demarcación.</p>
+<p>En primer lugar, las solicitudes serán asignadas al personal tramitador de la
+DGA; dicho personal comprobará si la documentación recibida es correcta
+de cara a la concesión o no de la ayuda. Posteriormente, el expediente será
+asignado a un perito de la Confederación correspondiente, el cual deberá
+valorar los daños sufridos por la explotación del solicitante. Para ello podrá
+desplazarse a la explotación si así lo estima oportuno. Cada perito deberá
+rellenar el correspondiente informe de valoración que formará parte del
+expediente administrativo. Para llevar a cabo la valoración es importante
+que los peritos tengan acceso a cuanta documentación del expediente sea
+precisa. Una vez realizada la valoración, el expediente volverá a asignarse
+al personal tramitador de la DGA para proceder a su resolución.</p>
+<p>La DGA valora positivamente que el sistema permita la obtención de
+estadísticas e informes con los datos de concesión de ayudas.</p>
+<p>La información de las ayudas concedidas deberá ser remitida a la Agencia
+Tributaria y al Sistema Nacional de Publicidad de Subvenciones, que cuenta
+con un registro de subvenciones. Debido a que muchas de las competencias
+en agricultura están transferidas a las <abbr class="abbr" title="Comunidades Autónomas">CCAA</abbr>, éstas también deberán ser
+informadas sobre las ayudas concedidas. En el sistema quedará constancia
+de todas las remisiones realizadas.</p>
+<p>Recuerde que la DGA busca que el sistema tenga el mayor nivel de
+automatización posible. Puede efectuar las suposiciones que considere
+conveniente, debiendo siempre hacerlas constar en su propuesta de
+solución.</p>
+<p>Se pide:</p>
+<ol>
+<li>Diagrama de contexto del sistema.</li>
+<li>Modelo conceptual de datos del sistema.</li>
+<li>Represente los estados por los que pasa una solicitud de
+ayuda. Utilice para ello el diagrama que crea conveniente.</li>
+<li>Diagramas de casos de uso.</li>
+<li>Proponga una arquitectura lógica para el sistema. Utilice el
+diagrama que crea conveniente.</li>
+</ol>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/ejercicios/ZZ-inap/B3.15.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

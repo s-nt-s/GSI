@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Ciclo de vida</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b3_ciclo_vida" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Ciclo de vida</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><strong>Ciclo de vida</strong>: etapas por las que pasa el software desde que se concibe
+un nuevo proyecto hasta que se deja de usar. Fases:</p>
+<ol>
+<li>Definición: obtención de requisitos</li>
+<li>Desarrollo: análisis, diseño, codificación, pruebas e implantación</li>
+<li>Mantenimiento</li>
+</ol>
+<p>Las dos primeras comprenden el <strong>ciclo de desarrollo</strong>.</p>
+<p><strong>Metodología de desarrollo</strong>: define los pasos, productos, técnicas y métodos a seguir.</p>
+<p>NOTA: Una metodología puede seguir uno o más ciclos de vida.
+Al igual, un ciclo de vida no es exclusivo de una metodología, por lo que varias
+metodologías pueden seguir el mismo ciclo de vida.</p>
+<h1 class="anchormark" id="modelos-de-ciclo-de-vida">
+<a aria-hidden="true" class="anchormark" href="#modelos-de-ciclo-de-vida"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Modelos de ciclo de vida</h1>
+<h2 class="anchormark" id="ciclo-de-vida-en-cascada-(waterfall)">
+<a aria-hidden="true" class="anchormark" href="#ciclo-de-vida-en-cascada-(waterfall)"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_en_cascada" target="_blank">Ciclo de vida en cascada</a> (waterfall)</h2>
+<p>Fases en cascada (cada fase se completa antes de pasar a la siguiente):</p>
+<ol>
+<li>Análisis de requisitos</li>
+<li>Diseño del sistema</li>
+<li>Diseño del programa</li>
+<li>Codificación</li>
+<li>Pruebas</li>
+<li>Mantenimiento</li>
+</ol>
+<p>Puede haber retroalimentación de una fase a otras anteriores, pero a menudo
+se aplica como si fuera estrictamente lineal.</p>
+<ul>
+<li><strong>Ventajas</strong>:<ul>
+<li>Pautas de trabajo claras</li>
+<li>Facilita establecer hitos, estimación y seguimiento del progreso</li>
+<li>Proporciona entregales intermedios que en conjunto es el producto final (documentos de análisis y diseño, etc)</li>
+</ul>
+</li>
+<li><strong>Inconvenientes</strong>:<ul>
+<li>Establecer todos los requisitos al inicio puede ser poco realista</li>
+<li>Es muy rígido</li>
+<li>Los problemas se detectan al final</li>
+<li>Nada esta hecho hasta que todo esta hecho</li>
+<li>Un cambio puede suponer un gran coste</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="ciclo-de-vida-en-v">
+<a aria-hidden="true" class="anchormark" href="#ciclo-de-vida-en-v"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/M%C3%A9todo_en_V" target="_blank">Ciclo de vida en V</a></h2>
+<p>Como el de <em>cascada</em> pero divide las fases en dos ramas:</p>
+<ul>
+<li><strong>actividades de desarrollo</strong> (rama descendente): además de hacer lo propio
+de esa fase, genera pruebas que en la rama ascendente sirvan para validar
+lo definido en esta fase</li>
+<li><strong>actividades de prueba</strong> (rama ascendente): además de hacer lo propio de
+esa fase, valida los resultados usando las pruebas generadas en la rama descendente</li>
+</ul>
+<figure class="fig"><img alt="Ciclo de vida en V" src="img/ciclov.png" title="Ciclo de vida en V"/><figcaption><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/M%C3%A9todo_en_V" target="_blank">Ciclo de vida en V</a></figcaption></figure>
+<ul>
+<li><strong>Ventajas</strong>: las del cascada + que se consideran las pruebas lo antes posible</li>
+<li><strong>Inconvenientes</strong>: casi tan rígido como el de cascada</li>
+</ul>
+<h2 class="anchormark" id="ciclo-de-vida-rad-o-dra">
+<a aria-hidden="true" class="anchormark" href="#ciclo-de-vida-rad-o-dra"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ciclo de vida <abbr title="Rapid Application Development">RAD</abbr> o <abbr title="Desarrolo Rápido de Aplicaciones">DRA</abbr></h2>
+<p>Combina desarrollo iterativo, construcción de prototipos y uso de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Herramienta_CASE" target="_blank" title="Ingeniería de Software Asistida por Computadora (Computer Aided Software Engineering)">herramientas CASE</a>.</p>
+<p><abbr title="Desarrolo Rápido de Aplicaciones">DRA</abbr> pretende ser una versión ultrarapida del modelo en cascada con un enfoque
+de construcción basado en componentes para obtener sistemas completamente
+funcionales en 60-90 días.</p>
+<p><strong>Fases</strong>:</p>
+<ol>
+<li>Modelado de gestión</li>
+<li>Modelado de datos</li>
+<li>Modelado de proceso</li>
+<li>Gestión de aplicaciones</li>
+<li>Pruebas y entrega</li>
+</ol>
+<p><strong>Características</strong>:</p>
+<ul>
+<li>Equipos híbridos</li>
+<li>Herramientas especializadas: control de versiones, componentes reutilizables,
+herramientas colaborativas, APIs, etc</li>
+<li>Timeboxing: cada fase de desarrollo dura lo mismo</li>
+<li>Prototipos iterativos y evolucionarios</li>
+<li><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/sesiones-de-trabajo/jad/" target="_blank" title="Joint Application Design, reunión entre usuarios finales y desarrolladores para obtener requisitos">Reunión JAD</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Joint_Application_Design" target="_blank">w</a></sup></li>
+</ul>
+<p>Ventajas e inconvenientes:</p>
+<ul>
+<li><strong>Ventajas</strong>:<ul>
+<li>Reutilización</li>
+<li>Paralelismo en el desarrollos</li>
+<li>Adecuado para tecnología orientada a objetos</li>
+</ul>
+</li>
+<li><strong>Inconvenientes</strong>:<ul>
+<li>En proyectos grandes se necesitan muchos recursos humanos</li>
+<li>Requiere compromiso de clientes y desarrolladores para llegar a tiempo</li>
+<li>No adecuado para sistemas no descomponibles modularmente o con elevados riesgos técnicos</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="modelo-de-construccion-de-prototipos">
+<a aria-hidden="true" class="anchormark" href="#modelo-de-construccion-de-prototipos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Modelo_de_prototipos" target="_blank">Modelo de construcción de prototipos</a></h2>
+<p>En cada iteración se van clarificando los requisitos mediante las <strong>fases</strong>:</p>
+<ol>
+<li>Escuchar al usuario</li>
+<li>Construir un prototipo</li>
+<li>El usuario prueba el prototipo</li>
+</ol>
+<p>Ventajas e inconvenientes:</p>
+<ul>
+<li><strong>Ventajas</strong>: Ideal para obtener requisitos cuando no están claros</li>
+<li><strong>Inconvenientes</strong>:<ul>
+<li>el usuario puede creer que el trabajo ya esta hecho cuando no es así</li>
+<li>decisiones de baja calidad tomadas para agilizar el desarrollo del
+prototipo pueden persistir en la implementación final</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="modelo-incremental">
+<a aria-hidden="true" class="anchormark" href="#modelo-incremental"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Modelo incremental</h2>
+<p>Como el <em>cascada</em> pero incremental.</p>
+<ul>
+<li><strong>Ventajas</strong>:<ul>
+<li>mayor facilidad para determinar los requerimientos para el siguiente nivel</li>
+<li>los errores se detectan antes</li>
+<li>mayor flexibilidad ya que el software se construye de forma que facilite
+la incorporación de nuevos requisitos</li>
+</ul>
+</li>
+<li><strong>Inconvenientes</strong>:<ul>
+<li>dificultad para determinar que es el núcleo que formará el primer incremento</li>
+<li>dificultad de la definición de los incrementos</li>
+<li>la solución de los incrementos anteriores pueden no ser validas para los posteriores</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="modelo-en-espiral">
+<a aria-hidden="true" class="anchormark" href="#modelo-en-espiral"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_en_espiral" target="_blank">Modelo en espiral</a></h2>
+<p>Cada ciclo de la espiral representa una fase del desarrollo (no fijas) que
+normalmente tienen 4 pasos:</p>
+<ol>
+<li>Determinar objetivos, alternativas y restricciones</li>
+<li>Evaluar alternativas, considerando el análisis de riesgos</li>
+<li>Desarrollo del siguiente nivel del producto</li>
+<li>Planificación del siguiente ciclo</li>
+</ol>
+<figure class="fig"><img alt="Modelo en espiral" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Spiral_model_%28Boehm%2C_1988%29.svg" title="Modelo en espiral"/><figcaption>Modelo en espiral</figcaption></figure>
+<p>La dimensión radial en la figura refleja los costes acumulativos en los que incurre
+el proyecto, y la dimensión angular el progreso del mismo.
+Durante cada fase se puede seleccionar el ciclo de desarrollo
+que se desee: cascada, V etc.</p>
+<ul>
+<li><strong>Ventajas</strong>:<ul>
+<li>Permite adaptar el proceso de desarrollo a las necesidades cambiantes del proyecto y al
+conocimiento que se va adquiriendo</li>
+<li>Permite el manejo de prototipos, enlazándolo con el análisis de riesgos</li>
+<li>Gestiona los riesgos de forma explícita</li>
+</ul>
+</li>
+<li><strong>Inconvenientes</strong>:<ul>
+<li>Requiere de una considerable habilidad para la consideración del riesgo</li>
+<li>La evaluación de riesgos puede disparar el coste</li>
+<li>Complejidad del modelo</li>
+<li>Incertidumbre en el número de iteraciones necesarias</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="proceso-unificado-(rup)">
+<a aria-hidden="true" class="anchormark" href="#proceso-unificado-(rup)"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Proceso_unificado" target="_blank">Proceso unificado</a> (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Proceso_Unificado_de_Rational" target="_blank" title="Proceso Unificado de Rational">RUP</a>)</h2>
+<p>El modelo de proceso unificado más conocido es el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Proceso_Unificado_de_Rational" target="_blank" title="Proceso Unificado de Rational">RUP</a>, fuertemente ligado a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lenguaje_unificado_de_modelado" target="_blank" title="Lenguaje de modelado unificado">UML</a>
+y ampliamente utilizado en sistemas orientados a objetos.</p>
+<p><strong>Características</strong>:</p>
+<ul>
+<li>Iterativo e Incremental</li>
+<li>Dirigido por los casos de uso</li>
+<li>Centrado en la arquitectura</li>
+<li>Enfocado en los riesgos</li>
+</ul>
+<p><strong>Fases</strong>:</p>
+<ul>
+<li>Inicio</li>
+<li>Elaboración</li>
+<li>Construcción</li>
+<li>Transición</li>
+</ul>
+<p>En cada fase se tiene un <em>ciclo en cascada</em> cuyas partes tienen más o menos
+peso según en que fase estemos, y puede haber más de una iteración.</p>
+<figure class="fig"><img alt="Fases y ciclos del Proceso unificado" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Fases_y_Flujos_de_trabajo_en_PUR.svg" title="Fases y ciclos del Proceso unificado"/><figcaption>Fases y ciclos del Proceso unificado</figcaption></figure>
+<h2 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h2>
+<ul>
+<li><strong>Codificación directa</strong> (code and fix): consiste en no aplicar ningún modelo
+de ciclo de vida, es decir, en empezar a codificar a lo loco, sin documentación
+ni nada.</li>
+<li><strong>Modelo evolutivo</strong>: tiene en cuenta la naturaleza evolutiva del software
+(se puede combinar con modelos incrementales)</li>
+<li><strong>Agile Inception</strong>: más que una metodología en si es un conjunto de dinámicas
+(Elevator Pitch, caja de producto, etc) para prepararse para implementar una metodología ágil</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_de_software#Modelo_de_desarrollo_concurrente" target="_blank"><strong>Modelo concurrente</strong></a>:
+No ordena las actividades de ingeniería de software a una secuencia de sucesos, si no que define una red de actividades, todas las actividades de la red existen simultáneamente con otras</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_adaptativo_de_software" target="_blank"><strong>Desarrollo adaptativo de software</strong></a> (ASD):
+derivado de <abbr title="Desarrolo Rápido de Aplicaciones">DRA</abbr> que sustituye el <em>modelo en cascada</em> por una serie repetitiva de ciclos de especulación, colaboración y aprendizaje.
+Esta enfocado a la misión, a basado en características, iterativo, planeado de acuerdo al tiempo, guiado por riesgos y tolerante al cambio</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_por_etapas" target="_blank"><strong>Modelo por etapas</strong></a> (Stage-Wise):
+similar al <em>Modelo de prototipos</em> pero más enfocado a casos donde no son conocidas
+en detalle al inicio del proyecto y por tanto se van desarrollando simultáneamente
+con las diferentes versiones del código</li>
+<li><strong>Modelos basados en transformaciones</strong>: Convierten automáticamente una especificación
+formal de un producto software en un programa que satisfaga las especificaciones, utilizando herramientas 4G.</li>
+<li>Ciclo de vida <strong>Sashimi</strong>: variación del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_en_cascada" target="_blank">ciclo de vida en cascada</a> puro, en el
+cual las diferentes etapas pueden ser solapadas, permitiendo aumentar la
+eficiencia mediante la retroalimentación entre las etapas</li>
+<li>Ciclo de vida <strong>pinball</strong>: la pelota del Pinball representaría el software a desarrollar,
+que pasa iterativamente por fases que ocurren casi en cualquier momento, saltando de una a otra</li>
+<li><strong>Síntesis automática</strong>:<ul>
+<li>Los Requisitos se expresan en una especificación formal
+detallada expresada en notación matemática</li>
+<li>Los procesos (diseño, implementación y pruebas) se
+reemplazan por un proceso basado en transformaciones
+donde la especificación formal se refina.</li>
+<li>La implementación y la documentación es automática.</li>
+<li>El mantenimiento se realiza <em>por sustitución</em>, no mediante <em>parches</em>.</li>
+</ul>
+</li>
+<li>Ciclo de vida <strong>remolino</strong>: Proceso multicíclico no lineal con forma de remolino.
+Considera las siguientes dimensiones de iteración:<ul>
+<li>Amplitud: Tamaño de desarrollo</li>
+<li>Profundidad: Nivel de abstracción o detalle</li>
+<li>Madurez: Grado de compleción, corrección y elegancia</li>
+<li>Alternativas: Diferentes soluciones a un problema</li>
+<li>Alcance: Objetivos del Sistema (requisitos cambiantes)</li>
+</ul>
+</li>
+<li>Ciclo de vida <strong>agrupamiento</strong>: Opera sobre conjuntos de clases relacionadas con un
+objetivo común (el <em>agrupamiento</em>) y se divide en varios subciclos, todos ellos con:<ul>
+<li>Especificación</li>
+<li>Diseño</li>
+<li>Realización</li>
+<li>Validación</li>
+<li>Generalización</li>
+</ul>
+</li>
+</ul>
+<h1 class="anchormark" id="metodologias-agiles">
+<a aria-hidden="true" class="anchormark" href="#metodologias-agiles"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Metodologías ágiles</h1>
+<p>Surgen del <a class="wikipedia" href="https://es.wikipedia.org/wiki/Manifiesto_%C3%A1gil" target="_blank">manifiesto ágil</a> en contraposición a las metodologías tradicionales.
+Sus <strong>4 valores</strong> son:</p>
+<ul>
+<li>Individuos e interacciones sobre procesos y herramientas</li>
+<li>Software funcionando sobre documentación extensiva</li>
+<li>Colaboración con el cliente sobre negociación contractual</li>
+<li>Respuesta ante el cambio sobre seguir un plan</li>
+</ul>
+<p>y sus <strong>12 principios</strong>:</p>
+<ul>
+<li>Nuestra principal prioridad es satisfacer al cliente a través de la entrega temprana y continua de software con valor</li>
+<li>Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Los procesos ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente</li>
+<li>Entregamos software funcional frecuentemente, entre dos semanas y dos meses, con preferencia al período de tiempo más corto posible</li>
+<li>Los responsables del negocio y los desarrolladores trabajamos juntos de forma cotidiana durante todo el proyecto</li>
+<li>Los proyectos se desarrollan en torno a individuos motivados. Hay que darles el entorno y el apoyo que necesitan, y confiarles la ejecución del trabajo</li>
+<li>El método más eficiente y efectivo de comunicar información al equipo de desarrollo y entre sus miembros es la conversación cara a cara</li>
+<li>El software funcionando es la medida principal de progreso</li>
+<li>Los procesos ágiles promueven el desarrollo sostenido. Los promotores, desarrolladores y usuarios debemos mantener un ritmo constante de forma indefinida</li>
+<li>La atención continua a la excelencia técnica y al buen diseño mejora la agilidad</li>
+<li>La simplicidad, o el arte de maximizar la cantidad de trabajo no realizado, es esencial</li>
+<li>Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados</li>
+<li>A intervalos regulares, el equipo reflexiona sobre cómo ser más efectivo para, a continuación, ajustar y perfeccionar su comportamiento en consecuencia</li>
+</ul>
+<h2 class="anchormark" id="historias-de-usuario">
+<a aria-hidden="true" class="anchormark" href="#historias-de-usuario"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">Historias de usuario</a></h2>
+<p>En las metodologías ágiles se suele usar las <a class="wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank">historias de usuario</a>
+para describir los requisitos (normalmente funcionales).</p>
+<p>La <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">historia de usuario</a> debe responder a tres preguntas, ¿Quién se beneficia?, ¿qué se quiere? y ¿cuál es el beneficio?,
+por lo que se suele usar la formula <code>Como (rol) quiero (algo) para poder (beneficio)</code>.</p>
+<p>Sus características forman el acrónimo <strong>INVEST</strong> (Independent, Negociable, Valuable, Estimable, Small, Testable). Las historias demasiado largas (<em>epic</em>) han de ser divididas en otras
+más pequeñas.</p>
+<p>Las <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">historias de usuario</a> deben desarrollarse hasta cumplir con los <strong>criterios de aceptación</strong>,
+que definen su calidad bajo el <a class="wikipedia" href="https://en.wikipedia.org/wiki/SMART_criteria" target="_blank">método SMART</a>
+(Specific, Measurable, Achievable, Relevant, Time-bound).</p>
+<p>Estos criterios de aceptación se describen mediante una de estas dos técnicas:</p>
+<ul>
+<li>Técnica de comportamiento: <code>DADO &lt;condiciones&gt; CUANDO &lt;evento&gt; ENTONCES &lt;resultado&gt;</code></li>
+<li>Técnica de escenarios: se define <em>el trayecto feliz</em> y los <em>corner case</em> restringiéndose
+a describir la forma en que el usuario procede y el sistema responde.</li>
+</ul>
+<table><caption><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">Historias de usuario</a> vs. Casos de uso</caption>
+<thead>
+<tr>
+<th><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">Historias de usuario</a></th>
+<th>Casos de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Más <strong>cortas</strong>, fáciles de estimar</td>
+<td>Más <strong>largos</strong>, difíciles de estimar</td>
+</tr>
+<tr>
+<td>Se pueden ir <strong>refinando y completando</strong></td>
+<td>Debería estar <strong>completa desde el principio</strong></td>
+</tr>
+<tr>
+<td><strong>Desechables</strong> tras su implementación</td>
+<td>Perviven en el tiempo</td>
+</tr>
+<tr>
+<td>No están completas sin las <strong>pruebas de validación</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Los escenarios alternativos se expresan<br/>como condiciones en las pruebas de validación</td>
+<td>Los escenarios alternativos se expresan<br/>en la sección de flujos alternativos</td>
+</tr>
+<tr>
+<td>Pueden especificar requisitos no funcionales</td>
+<td>siempre se refieren a requisitos funcionales</td>
+</tr>
+</tbody>
+</table>
+<h2 class="anchormark" id="scrum">
+<a aria-hidden="true" class="anchormark" href="#scrum"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">SCRUM</a></h2>
+<p>Proceso iterativo e incremental, que gira en torno a los conceptos:</p>
+<ul>
+<li><strong>sprint</strong>: periodo de duración fija (de 1 a 4 semanas) en el que el equipo crea un incremento
+del software potencialmente entregable (utilizable)</li>
+<li><strong>product backlog</strong>: conjunto de...<ol>
+<li>principalmente requisitos (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">historias de usuario</a>) de alto nivel priorizados según el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Retorno_de_la_inversi%C3%B3n" target="_blank" title="Retorno de la inversión">ROI</a></li>
+<li>pero <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">SCRUM</a> solo habla de <em>items</em> en genérico, es decir, puede haber otro tipo de trabajos</li>
+</ol>
+</li>
+<li><strong>sprint backlog</strong>: se compone de:<ol>
+<li>subconjunto de <em>product backlog</em> que será implementado en el <em>sprint</em></li>
+<li>otras tareas necesarias (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Deuda_t%C3%A9cnica" target="_blank" title="Concepto que refleja el costo implícito del retrabajo adicional causado por elegir una solución fácil en lugar de utilizar un enfoque que llevaría más tiempo en su desarrollo e implementación">deuda técnica</a>, calidad, etc)</li>
+</ol>
+</li>
+<li><strong>sprint goal</strong>: objetivo más importante del <em>sprint</em></li>
+<li><strong>Burndown chart</strong>: gráfica mide la cantidad de requisitos en el Backlog del
+proyecto pendientes al comienzo de cada Sprint. Será una recta descendente
+salvo cuando se añadan nuevos requisitos.</li>
+</ul>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a> identifica los siguientes <strong>roles</strong> principales:</p>
+<ul>
+<li><strong>Product Owner</strong>: representa la voz del cliente y sus tareas son:<ul>
+<li>generar y mantener actualizado el <strong>product backlog</strong></li>
+<li>proponer los items del <em>product backlog</em> que deberían pasar <strong>sprint backlog</strong> de la siguiente iteración</li>
+<li>maximizar el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Retorno_de_la_inversi%C3%B3n" target="_blank" title="Retorno de la inversión">ROI</a> del equipo de desarrollo</li>
+</ul>
+</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a> Master</strong>: ejerce de facilitador para el equipo de desarrollo y sus tareas son:<ul>
+<li>proteger al equipo de desarrollo de injerencias externas</li>
+<li>asegurarse de que <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a> es correctamente implementado</li>
+<li>gestionar riesgos y problemas que el equipo vaya encontrando</li>
+</ul>
+</li>
+<li><strong>Development Team</strong> (desarrolladores, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a> Team): equipo de 5 a 9 personas
+autogestionado y multidiscilinar que desarrolla el producto, cuyas tareas son:<ul>
+<li>convertir el backlog a un producto entregale</li>
+<li>asegurar la calidad del producto</li>
+<li>hacer demostraciones del trabajo realizado</li>
+<li>aplicar mejora continua</li>
+</ul>
+</li>
+</ul>
+<p>A estos roles se les llama <strong>cerdos</strong> porque son los que están comprometidos
+con el proyecto, mientras que todos los demás (expertos de negocio, stakeholders, etc)
+se les llama <strong>gallinas</strong> porque solo están implicados, es decir, son personas
+o entidades que tienen algún interés en el producto y/o que puede ofrecer feedback
+valioso.</p>
+<p>El flujo de trabajo es el siguiente:</p>
+<ol>
+<li><strong>Sprint 0</strong>: sirve para identificar roles y compartir entre todos la misma visión
+y objetivos del proyecto<ul>
+<li>se realizan los preparativos organizativos y tecnológicas</li>
+<li>el <strong>Product Owner</strong> elabora el <strong>product backlog</strong></li>
+<li>establecer las definiciones:<ul>
+<li><strong>ready</strong>: cuando una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">historia de usuario</a> esta los suficientemente definida para entrar en el <strong>sprint backlog</strong></li>
+<li><strong>done</strong>: cuando una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">historia de usuario</a> ha sido completada</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Sprint Planning Meeting</strong> (&lt;2h para sprint de una semana):<ol>
+<li>El <strong>Product Owner</strong> explica al <strong>Development Team</strong> el <strong>product backlog</strong>
+y propone ítems para el <strong>Sprint Backlog</strong></li>
+<li>el <strong>Development Team</strong> elige y/o descompone en tareas los ítems que pasan
+al <strong>Sprint Backlog</strong> del siguiente sprint</li>
+<li>entre <strong>Product Owner</strong> y <strong>Development Team</strong> se acuerda cual es el <strong>Sprint Goal</strong></li>
+<li>el <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a> Master</strong> ejerce de facilitador</li>
+</ol>
+</li>
+<li><strong>Sprint</strong>: mientras dura:<ol>
+<li>no se debería modificar el <strong>Sprint Backlog</strong></li>
+<li>el <strong>Development Team</strong> realiza el <strong>Daily <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a></strong> de entre 5 y 15 minutos para que:<ul>
+<li>los miembros del equipo se mantengan actualizados unos a otros sobre el trabajo</li>
+<li>se detecten problemas</li>
+<li>según algunos autores, se explica:<ul>
+<li>qué tareas se han hecho desde la última reunión</li>
+<li>qué tareas se van a hacer hasta la próxima</li>
+<li>que impedimentos se tiene o se prevé encontrar</li>
+</ul>
+</li>
+<li>según otros el objetivo se ciñe a analizar el estado del Sprint Goal</li>
+<li>el <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a> Master</strong> puede asistir para recoger los problemas detectados</li>
+<li>el <strong>Product Owner</strong> si asiste solo lo hara de oyente</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Final del Sprint: consiste en dos reuniones (1h por sprint de una semana)
+en las que participa todo el equipo<ol>
+<li><strong>Sprint Review</strong>: se presentan los trabajos completados y su duración no debería ser superior a 4 horas para un Sprint de 1 mes</li>
+<li><strong>Sprint Retrospective</strong>: se comparten impresiones sobre el sprint
+recién superado con fin de realizar una mejora continua de la implementación de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a></li>
+</ol>
+</li>
+<li>Se vuelve a empezar por el paso 2</li>
+</ol>
+<p>En algunos casos se añade la <strong>reunión de refinamiento del Product Backlog</strong> previa
+al <em>Sprint Planning Meeting</em> para su preparación.</p>
+<h2 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h2>
+<ul>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kanban_(desarrollo)" target="_blank">Kanban</a></strong>: Tablero con tres columnas (To-Do, Doing y Done) en el que se van colocando tareas
+según la fase en la que estén. Permite detectar cuellos de botella.</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_extrema" target="_blank"><strong>Extreme Programming</strong></a> (XP):<ul>
+<li>valores: simplicidad, comunicación, retroalimentación, coraje o valentía, respeto.</li>
+<li>programación por parejas</li>
+<li><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup> conjuntas</li>
+<li>refactorización de código</li>
+<li>propiedad del código compartida y rotación interna del equipo</li>
+</ul>
+</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_basado_en_funcionalidades" target="_blank" title="Desarrollo basado en funcionalidades (Feature Driven Development)">FDD​</a></strong>: Desarrollo basado en funcionalidades</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas" target="_blank" title="Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza">TDD</a></strong>: Desarrollo guiado por pruebas, los requisitos se traducen a pruebas y luego se hace el código que pase la prueba</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento" target="_blank" title="Desarrollo guiado por comportamiento (behavior-driven development): combina las técnicas generales y los principios del TDD, junto con ideas del diseño guiado por el dominio y el análisis y diseño orientado a objetos">BDD</a></strong>: Desarrollo guiado por comportamiento. Como <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas" target="_blank" title="Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza">TDD</a> pero además de pruebas
+que verifican el código también hay pruebas que definen el comportamiento de la
+aplicación</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/M%C3%A9todo_de_desarrollo_de_sistemas_din%C3%A1micos" target="_blank" title="Método de desarrollo de sistemas dinámicos (Dynamic Systems Development Method)">DSDM</a></strong>: Método de desarrollo de sistemas dinámicos. Extensión de RAD</li>
+<li><a class="en_wikiversity_org" href="https://en.wikiversity.org/wiki/Crystal_Methods" target="_blank"><strong>Crystal</strong></a>: Familia de
+metodologías que incluye entre otras Crystal Clear, Crystal Yellow o Crystal Orange</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Lean_software_development" target="_blank"><strong>LEAN</strong></a></li>
+</ul>
+<h2 class="anchormark" id="agile-a-gran-escala">
+<a aria-hidden="true" class="anchormark" href="#agile-a-gran-escala"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Agile a gran escala</h2>
+<p>Para usar agile en proyectos grandes con varios equipos trabajando a la vez
+en subproyectos existen algunas alternativas como:</p>
+<ul>
+<li><a class="wikipedia" href="https://en.wikipedia.org/wiki/Scaled_agile_framework" target="_blank"><strong>SAFe</strong> (Scaled agile framework)</a>:​ Estructurado en cuatro niveles (equipo, programa, gran
+solución y portfolio). A nivel de equipo se aplican principios <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a>, XP, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kanban_(desarrollo)" target="_blank">Kanban</a> y Lean.
+A otros niveles existen conceptos como​ Program Increment o ​Agile Release Train​ para
+coordinar múltiples equipos que trabajan sobre una misma solución.</li>
+<li><a class="wikipedia" href="https://en.wikipedia.org/wiki/Scrum_(software_development)#Scrum_of_scrums" target="_blank"><strong>Scrum de scrums</strong></a></li>
+<li><a class="wikipedia" href="https://en.wikipedia.org/wiki/Scrum_(software_development)#Large-scale_Scrum" target="_blank"><strong>LeSS</strong>​</a>
+ (Large-Scale <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" target="_blank">Scrum</a>)</li>
+</ul>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/037</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/085</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/087</a></li>
+<li><a class="miniprogramacion_blogspot_com" href="http://miniprogramacion.blogspot.com/2014/12/modelos-basados-en-transformaciones.html" target="_blank">miniprogramacion.blogspot.com - Modelos basados en Transformaciones</a></li>
+<li><a class="proyectosagiles_org" href="https://proyectosagiles.org/beneficios-de-scrum/" target="_blank">proyectosagiles.org - Beneficios de Scrum</a></li>
+<li><a class="andaira_es" href="https://andaira.es/Formacion/Scrum/Scrum-Roles/" target="_blank">andaira.es - Scrum Roles - Una breve introducción</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=i8CPD1dW88k" target="_blank">youtube.com - Cristian Henao - #1 Que son las metodologias tradicionales en el desarrollo de software</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=fHKsufzM7qQ" target="_blank">youtube.com - Cristian Henao - #2 Que son las metodologias tradicionales en el desarrollo de software</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=HhC75IonpOU" target="_blank">youtube.com - Cristian Henao - #3 SCRUM en 6 minutos</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=Kxz0_rDmRho" target="_blank">youtube.com - Ágil Es - Por Cris Rúa - Lo mejor de Scrum y Kanban</a></li>
+<li><a class="javiergarzas_com" href="https://www.javiergarzas.com/2018/01/sprint-planning.html" target="_blank">javiergarzas.com - Sprint Planning, claves y evitando malas interpretaciones</a></li>
+<li><a class="paradigmadigital_com" href="https://www.paradigmadigital.com/techbiz/los-7-errores-mas-comunes-la-daily-scrum-evitarlos/" target="_blank">javiergarzas.com - Los 7 errores más comunes de la Daily Scrum, ¿cómo evitarlos?</a></li>
+<li><a class="javiergarzas_com" href="https://www.javiergarzas.com/2015/02/los-ciclos-de-vida-software-raros.html" target="_blank">javiergarzas.com - Los ciclos de vida software más raros y que hay vida más allá del cascada y el ágil y el iterativo</a></li>
+<li><a class="ctr_unican_es" href="https://www.ctr.unican.es/asignaturas/is1/is1-t02-trans.pdf" target="_blank">ctr.unican.es - Procesos de Ingeniería del Software</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=vqjqxTdh8m8" target="_blank">youtube.com - Q&amp;A sobre Scrum en sector público</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B3/01-ciclo_vida.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>
