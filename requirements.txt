@@ -5,5 +5,5 @@ Markdown==3.2.1
 munch==2.5.0
 pelican==4.7.0
 PyYAML==5.4.1
-requests==2.20.0
+requests==2.31.0
 xmltodict==0.12.0
