@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Patrones de diseño</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b3_patrones" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Patrones de diseño</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o" target="_blank"><strong>Patrones de diseño</strong></a>: técnicas para resolver problemas comunes en el desarrollo
+de software y otros ámbitos referentes al diseño de interacción o interfaces.</p>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o" target="_blank"><strong>Antipatrón de diseño</strong></a>: patrón de diseño que invariablemente conduce a una mala
+solución para un problema.</p>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Patrones_de_arquitectura" target="_blank"><strong>Patrones de arquitectura</strong></a>: esquema de organización estructural esencial para
+un sistema de software, que consta de subsistemas, sus responsabilidades e
+interrelaciones. En comparación con los patrones de diseño, los patrones
+arquitectónicos tienen un nivel de abstracción mayor.</p>
+<p>Tipos de patrones:</p>
+<ul>
+<li><strong>Patrón creacional</strong>: proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.</li>
+<li><strong>Patrón estructural</strong>: explican cómo ensamblar objetos y clases en estructuras más grandes, mientras se mantiene la flexibilidad y eficiencia de la estructura.</li>
+<li><strong>Patrón de comportamiento</strong>: tratan con algoritmos y la asignación de responsabilidades entre objetos.</li>
+</ul>
+<table class="tabla_patrones">
+<caption>Resumen de patrones de diseño</caption>
+<thead>
+<tr>
+<th>Creacional</th><th>Estructural</th><th>Comportamiento</th><th>Concurrencia</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><ul><li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/abstract-factory" target="_blank">Abstract Factory</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Abstract_Factory" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/builder" target="_blank">Builder</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Builder_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/factory-method" target="_blank">Factory Method</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Factory_Method_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inyecci%C3%B3n_de_dependencias" target="_blank" title="Patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase la que cree dichos objetos">Inyección de dependencias</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Lazy_initialization" target="_blank">Lazy initialization</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador" target="_blank">Modelo vista controlador</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Multiton_pattern" target="_blank">Multiton</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Object_pool_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Object Pool</a> o piscina de objetos</li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/prototype" target="_blank">Prototype</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prototipo_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/RAII" target="_blank" title="Patron adquirir recursos es inicializar (resource acquisition is initialization)">RAII</a>: adquirir recursos es inicializar</li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/singleton" target="_blank">Singleton</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Singleton" target="_blank">w</a></sup></li></ul></td><td><ul><li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/adapter" target="_blank">Adapter</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Adaptador_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup>, Wrapper o Translator</li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/bridge" target="_blank">Bridge</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Bridge_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/composite" target="_blank">Composite</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Composite_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/decorator" target="_blank">Decorator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Decorator_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li>Extension object</li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/facade" target="_blank" title="Patrón de diseño estructural que proporciona una interfaz simple para un subsistema complejo">Facade</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/flyweight" target="_blank">Flyweight</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Flyweight_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron w3big_com" href="http://www.w3big.com/es/design-pattern/front-controller-pattern.html" target="_blank">Front controller</a><sup class="extra_url"><a class="wikipedia" href="https://en.wikipedia.org/wiki/Front_controller" target="_blank">w</a></sup></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Marker_interface_pattern" target="_blank">Marker</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/M%C3%B3dulo_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Module</a></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/proxy" target="_blank">Proxy</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Proxy_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Twin_pattern" target="_blank">Twin</a></li></ul></td><td><ul><li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/chain-of-responsibility" target="_blank">Chain of Responsibility</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Cadena_de_responsabilidad" target="_blank">w</a></sup></li>
+<li><a class="abbr patron apiumhub_com" href="https://apiumhub.com/es/tech-blog-barcelona/patron-circuit-breaker/" target="_blank" title="Patrón de diseño que evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar">Circuit Breaker</a><sup class="extra_url"><a class="wikipedia" href="https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/command" target="_blank">Command</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Command_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Interpreter_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Interpreter</a></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/iterator" target="_blank">Iterator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Iterador_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/mediator" target="_blank">Mediator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Mediator_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/memento" target="_blank">Memento</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Memento_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Null object</a></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/observer" target="_blank">Observer</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> o <a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" target="_blank">Publish-subscribe</a></li>
+<li>Pizarra o <a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Blackboard_(design_pattern)" target="_blank">Blackboard</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_en_pizarra_(inform%C3%A1tica)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/state" target="_blank">State</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/State_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/strategy" target="_blank">Strategy</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Strategy_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/template-method" target="_blank">Template Method</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_m%C3%A9todo_de_la_plantilla" target="_blank">w</a></sup></li>
+<li><a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/visitor" target="_blank">Visitor</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Visitor_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Servant_(design_pattern)" target="_blank">Servant</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Specification_pattern" target="_blank">Specification</a></li></ul></td><td><ul><li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Cierre_de_exclusi%C3%B3n_mutua" target="_blank">Cierre de exclusión mutua</a> (lock)</li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Monitor_(concurrencia)" target="_blank">Monitor object</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Reactor_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Reactor</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Active_object" target="_blank">Active object</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Balking_pattern" target="_blank">Balking</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Binding_properties_pattern" target="_blank">Binding properties</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Compute_kernel" target="_blank">Compute kernel</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Double-checked_locking" target="_blank">Double-checked locking</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Asynchronous_method_invocation" target="_blank">Event-based asynchronous</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Guarded_suspension" target="_blank">Guarded suspension</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Join-pattern" target="_blank">Join</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Messaging_pattern" target="_blank">Messaging</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock" target="_blank">Readers-writer lock</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Planificador" target="_blank">Scheduling</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Thread_pool" target="_blank">Thread pool</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Thread-local_storage" target="_blank">Thread-local storage</a></li></ul></td></tr>
+</tbody>
+</table>
+<h1 class="anchormark" id="creacional">
+<a aria-hidden="true" class="anchormark" href="#creacional"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Creacional</h1>
+<h2 class="anchormark" id="modelo-vista-controlador">
+<a aria-hidden="true" class="anchormark" href="#modelo-vista-controlador"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador" target="_blank">Modelo vista controlador</a></h2>
+<p><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/ModelViewControllerDiagram_es.svg"/></p>
+<p>A veces también es considerado un patrón de arquitectura.</p>
+<h2 class="anchormark" id="prototypew">
+<a aria-hidden="true" class="anchormark" href="#prototypew"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/prototype" target="_blank">Prototype</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prototipo_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/ProtipoEstructura.png"/></p>
+<h2 class="anchormark" id="builderw">
+<a aria-hidden="true" class="anchormark" href="#builderw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/builder" target="_blank">Builder</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Builder_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Ejemplo genérico patrón Builderw" src="https://refactoring.guru/images/patterns/diagrams/builder/structure.png" title="Ejemplo genérico patrón Builderw"/><figcaption>Ejemplo genérico patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/builder" target="_blank">Builder</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Builder_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Ejemplo de una construcción paso a paso de automóviles y de los manuales de usuario para esos modelos de automóvil." src="https://refactoring.guru/images/patterns/diagrams/builder/example-es.png" title="Ejemplo de una construcción paso a paso de automóviles y de los manuales de usuario para esos modelos de automóvil."/><figcaption>Ejemplo de una construcción paso a paso de automóviles y de los manuales de usuario para esos modelos de automóvil.</figcaption></figure></div>
+<h2 class="anchormark" id="factory-methodw">
+<a aria-hidden="true" class="anchormark" href="#factory-methodw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/factory-method" target="_blank">Factory Method</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Factory_Method_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Ejemplo genérico patrón Factory Methodw" src="https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png" title="Ejemplo genérico patrón Factory Methodw"/><figcaption>Ejemplo genérico patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/factory-method" target="_blank">Factory Method</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Factory_Method_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Ejemplo del diálogo multiplataforma." src="https://refactoring.guru/images/patterns/diagrams/factory-method/example.png" title="Ejemplo del diálogo multiplataforma."/><figcaption>Ejemplo del diálogo multiplataforma.</figcaption></figure></div>
+<h2 class="anchormark" id="abstract-factoryw">
+<a aria-hidden="true" class="anchormark" href="#abstract-factoryw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/abstract-factory" target="_blank">Abstract Factory</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Abstract_Factory" target="_blank">w</a></sup></h2>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Ejemplo genérico patrón Abstract Factoryw" src="https://refactoring.guru/images/patterns/diagrams/abstract-factory/structure.png" title="Ejemplo genérico patrón Abstract Factoryw"/><figcaption>Ejemplo genérico patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/abstract-factory" target="_blank">Abstract Factory</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Abstract_Factory" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Ejemplo del diálogo multiplataforma." src="https://refactoring.guru/images/patterns/diagrams/abstract-factory/example.png" title="Ejemplo del diálogo multiplataforma."/><figcaption>Ejemplo del diálogo multiplataforma.</figcaption></figure></div>
+<h2 class="anchormark" id="singletonw">
+<a aria-hidden="true" class="anchormark" href="#singletonw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/singleton" target="_blank">Singleton</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Singleton" target="_blank">w</a></sup></h2>
+<p><img alt="" src="https://refactoring.guru/images/patterns/diagrams/singleton/structure-es.png"/></p>
+<h2 class="anchormark" id="multiton">
+<a aria-hidden="true" class="anchormark" href="#multiton"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Multiton_pattern" target="_blank">Multiton</a></h2>
+<p>Igual que <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/singleton" target="_blank">Singleton</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Singleton" target="_blank">w</a></sup> pero con un <code>Map&lt;key, Multiton&gt;</code> para permitir varias instancias.</p>
+<p><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Multiton.svg"/></p>
+<h2 class="anchormark" id="object-pool-o-piscina-de-objetos">
+<a aria-hidden="true" class="anchormark" href="#object-pool-o-piscina-de-objetos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Object_pool_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Object Pool</a> o piscina de objetos</h2>
+<p>El pool es un conjunto de objetos inicializados preparados para su uso,
+evitando tener que crear y destruirlos bajo demanda.</p>
+<p>Un cliente del pool le pedirá un objeto para realizar las operaciones con el objeto.
+Cuando el cliente termina retorna el objeto al pool para que lo retenga hasta que vuelva a necesitar usarse.
+Es decir, los objetos no se crean (salvo la primera vez) ni se destruyen, simplemente se van reciclando.</p>
+<h2 class="anchormark" id="lazy-initialization">
+<a aria-hidden="true" class="anchormark" href="#lazy-initialization"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Lazy_initialization" target="_blank">Lazy initialization</a></h2>
+<p>Consiste en retrasar la creación de un objeto, el calculo de un valor o
+cualquier otro proceso costoso hasta la primera vez que sea necesitado.</p>
+<p>También evita repetir la misma operación si ya ha sido realizada antes.
+Es decir, mantiene una cache (por ejemplo usando un <code>HashMap</code>) para devolver
+el objeto directamente si ya se inicializo anteriormente.</p>
+<h2 class="anchormark" id="raii-adquirir-recursos-es-inicializar">
+<a aria-hidden="true" class="anchormark" href="#raii-adquirir-recursos-es-inicializar"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/RAII" target="_blank" title="Patron adquirir recursos es inicializar (resource acquisition is initialization)">RAII</a>: adquirir recursos es inicializar</h2>
+<p>Patrón especialmente pensado para <code>C++</code>. Consiste en aprovechar que los destructures
+son siempre ejecutados (cuando hay una excepción, cuando se sale de la función, etc)
+para usar objetos en las operaciones de incializar y liberar recursos, garantizando
+con ello que siempre se liberará cualquier recurso inicializado.</p>
+<h2 class="anchormark" id="inyeccion-de-dependencias">
+<a aria-hidden="true" class="anchormark" href="#inyeccion-de-dependencias"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inyecci%C3%B3n_de_dependencias" target="_blank" title="Patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase la que cree dichos objetos">Inyección de dependencias</a></h2>
+<p>Se trata de suministrar objetos a una clase en lugar de que sea la propia clase la que cree dichos objetos.
+Es decir, extrae la responsabilidad de la creación de instancias de un componente para delegarla en otro.</p>
+<p>El <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Spring_Framework" target="_blank" title="Framework para el desarrollo de aplicaciones y contenedor de inversión de control">framework Spring</a> implementa este patrón.</p>
+<h1 class="anchormark" id="estructural">
+<a aria-hidden="true" class="anchormark" href="#estructural"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Estructural</h1>
+<h2 class="anchormark" id="adapterw,-wrapper-o-translator">
+<a aria-hidden="true" class="anchormark" href="#adapterw,-wrapper-o-translator"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/adapter" target="_blank">Adapter</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Adaptador_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup>, Wrapper o Translator</h2>
+<p>Transforma una interfaz en otra, de tal modo que una clase que no pueda utilizar la primera haga uso de ella a través de la segunda.</p>
+<figure class="fig"><img alt="Adapter adapta Adaptee para que se pueda usar por clientes que esperan objetos tipo Target" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Adapter_using_inheritance_UML_class_diagram.svg" title="Adapter adapta Adaptee para que se pueda usar por clientes que esperan objetos tipo Target"/><figcaption><code>Adapter</code> adapta <code>Adaptee</code> para que se pueda usar por clientes que esperan objetos tipo <code>Target</code></figcaption></figure>
+<h2 class="anchormark" id="bridgew">
+<a aria-hidden="true" class="anchormark" href="#bridgew"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/bridge" target="_blank">Bridge</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Bridge_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Permite dividir una clase grande, o un grupo de clases estrechamente relacionadas,
+en dos jerarquías separadas (abstracción e implementación) que pueden desarrollarse
+independientemente la una de la otra.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Ejemplo genérico patrón Bridgew" src="https://refactoring.guru/images/patterns/diagrams/bridge/structure-es.png" title="Ejemplo genérico patrón Bridgew"/><figcaption>Ejemplo genérico patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/bridge" target="_blank">Bridge</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Bridge_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Ejemplo mando a distancia, radio y televisión con patrón Bridgew" src="https://refactoring.guru/images/patterns/diagrams/bridge/example-es.png" title="Ejemplo mando a distancia, radio y televisión con patrón Bridgew"/><figcaption>Ejemplo mando a distancia, radio y televisión con patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/bridge" target="_blank">Bridge</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Bridge_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure></div>
+<h2 class="anchormark" id="compositew">
+<a aria-hidden="true" class="anchormark" href="#compositew"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/composite" target="_blank">Composite</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Composite_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Sirve para construir objetos complejos a partir de otros más simples y similares entre sí, gracias a la composición recursiva y a una estructura en forma de árbol.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Ejemplo genérico patrón Compositew" src="https://refactoring.guru/images/patterns/diagrams/composite/structure-es.png" title="Ejemplo genérico patrón Compositew"/><figcaption>Ejemplo genérico patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/composite" target="_blank">Composite</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Composite_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Ejemplo de un gráfico que a su vez se compone de otros gráficos" src="https://refactoring.guru/images/patterns/diagrams/composite/example.png" title="Ejemplo de un gráfico que a su vez se compone de otros gráficos"/><figcaption>Ejemplo de un gráfico que a su vez se compone de otros gráficos</figcaption></figure></div>
+<h2 class="anchormark" id="decoratorw">
+<a aria-hidden="true" class="anchormark" href="#decoratorw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/decorator" target="_blank">Decorator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Decorator_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Añade dinámicamente funcionalidad a un Objeto. Esto nos permite no tener que crear
+sucesivas clases que hereden de la primera incorporando la nueva funcionalidad,
+sino otras que la implementan y se asocian a la primera.</p>
+<p><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/DecoradorGenerico2.jpg"/></p>
+<h2 class="anchormark" id="facadew">
+<a aria-hidden="true" class="anchormark" href="#facadew"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/facade" target="_blank" title="Patrón de diseño estructural que proporciona una interfaz simple para un subsistema complejo">Facade</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Proporciona una interfaz simplificada a un grupo complejo de clases.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Estructura patrón Facadew" src="https://refactoring.guru/images/patterns/diagrams/facade/structure.png" title="Estructura patrón Facadew"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/facade" target="_blank" title="Patrón de diseño estructural que proporciona una interfaz simple para un subsistema complejo">Facade</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Facade_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Ejemplo de fachada para un sistema complejo de conversión de formatos." src="https://refactoring.guru/images/patterns/diagrams/facade/example.png" title="Ejemplo de fachada para un sistema complejo de conversión de formatos."/><figcaption>Ejemplo de fachada para un sistema complejo de conversión de formatos.</figcaption></figure></div>
+<h2 class="anchormark" id="flyweightw">
+<a aria-hidden="true" class="anchormark" href="#flyweightw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/flyweight" target="_blank">Flyweight</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Flyweight_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Elimina o reduce la redundancia entre objetos que contienen información idéntica,
+logrando un equilibrio entre flexibilidad y uso de recursos.</p>
+<p>A ser básicamente una optimización de uso de RAM, antes de aplicarlo hay que
+preguntarse si realmente tenemos un problema de RAM que solucionar, en caso
+contrario sería añadir complejidad para nada.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="El Flyweightw tiene el estado intrínseco (la parte del objeto original que se repite),
+el Context tiene el estado extrínseco (la parte que nos e repite), el FlyweightFactory
+fabrica Flyweightw solo cuando no se ha creado uno igual antes." src="https://refactoring.guru/images/patterns/diagrams/flyweight/structure.png" title="El Flyweightw tiene el estado intrínseco (la parte del objeto original que se repite),
+el Context tiene el estado extrínseco (la parte que nos e repite), el FlyweightFactory
+fabrica Flyweightw solo cuando no se ha creado uno igual antes."/><figcaption>El <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/flyweight" target="_blank">Flyweight</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Flyweight_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> tiene el estado intrínseco (la parte del objeto original que se repite),
+el Context tiene el estado extrínseco (la parte que nos e repite), el FlyweightFactory
+fabrica <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/flyweight" target="_blank">Flyweight</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Flyweight_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> solo cuando no se ha creado uno igual antes.</figcaption></figure><figure class="fig"><img alt="Ejemplo de Flyweightw que evita repetir la información común de los arboles
+(name, color, texture) de un bosque." src="https://refactoring.guru/images/patterns/diagrams/flyweight/example.png" title="Ejemplo de Flyweightw que evita repetir la información común de los arboles
+(name, color, texture) de un bosque."/><figcaption>Ejemplo de <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/flyweight" target="_blank">Flyweight</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Flyweight_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> que evita repetir la información común de los arboles
+(name, color, texture) de un bosque.</figcaption></figure></div>
+<h2 class="anchormark" id="proxyw">
+<a aria-hidden="true" class="anchormark" href="#proxyw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/proxy" target="_blank">Proxy</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Proxy_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Proporciona un subrogado o intermediario de un objeto para controlar su acceso.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Estructura patrón Proxyw" src="https://refactoring.guru/images/patterns/diagrams/proxy/structure.png" title="Estructura patrón Proxyw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/proxy" target="_blank">Proxy</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Proxy_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="CachedYouTubeClass es un Proxyw de ThirdPartyYouTubeLib que hace lo mismo que ThirdPartyYouTube pero con una cache." src="https://refactoring.guru/images/patterns/diagrams/proxy/example.png" title="CachedYouTubeClass es un Proxyw de ThirdPartyYouTubeLib que hace lo mismo que ThirdPartyYouTube pero con una cache."/><figcaption><code>CachedYouTubeClass</code> es un <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/proxy" target="_blank">Proxy</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Proxy_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> de <code>ThirdPartyYouTubeLib</code> que hace lo mismo que <code>ThirdPartyYouTube</code> pero con una cache.</figcaption></figure></div>
+<h2 class="anchormark" id="module">
+<a aria-hidden="true" class="anchormark" href="#module"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/M%C3%B3dulo_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Module</a></h2>
+<p>Implementa el concepto de módulos de software definidos por el
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_modular" target="_blank" title="Consiste en dividir un programa en módulos o subprogramas con el fin de hacerlo más legible y manejable">paradigma de programación modular</a>, en un lenguaje de programación que no lo soporta,
+o lo soporta parcialmente.</p>
+<p>Este patrón se puede considerar una variante del <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/singleton" target="_blank">singleton</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Singleton" target="_blank">w</a></sup> o instancia única,
+con un propósito, más específico.</p>
+<h2 class="anchormark" id="front-controllerw">
+<a aria-hidden="true" class="anchormark" href="#front-controllerw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron w3big_com" href="http://www.w3big.com/es/design-pattern/front-controller-pattern.html" target="_blank">Front controller</a><sup class="extra_url"><a class="wikipedia" href="https://en.wikipedia.org/wiki/Front_controller" target="_blank">w</a></sup></h2>
+<p>Proporcionar un mecanismo centralizado para manejar solicitudes, es decir,
+todas las solicitudes son procesadas por un solo controlador.
+Puede referirse al controlador del <a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador" target="_blank">Modelo vista controlador</a>.</p>
+<p><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Front_Controller.svg"/></p>
+<h2 class="anchormark" id="marker">
+<a aria-hidden="true" class="anchormark" href="#marker"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Marker_interface_pattern" target="_blank">Marker</a></h2>
+<p>Proporciona información de tipo en tiempo de ejecución sobre los objetos.
+Es una manera de "asociar metadatos" a una clase en un lenguaje de programación
+que no tiene soporte para tales metadatos.</p>
+<p>Un ejemplo típico es la interfaz <code>Serializable</code> de Java que básicamente sirve
+para que otras clases, como <code>ObjectOutputStream</code> en su método <code>writeObject(Object)</code>,
+hagan <code>object instanceof Serializable</code> y lancen <code>NotSerializableException</code> en caso
+negativo.</p>
+<h2 class="anchormark" id="twin">
+<a aria-hidden="true" class="anchormark" href="#twin"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Twin_pattern" target="_blank">Twin</a></h2>
+<p>Permite modelar herencia múltiple en lenguajes de programación que no la admiten
+directamente.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Herencia múltiple" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/T%C3%B6bbsz%C3%B6r%C3%B6s_%C3%B6r%C3%B6kl%C3%A9s_%28iker_minta_n%C3%A9lk%C3%BCl%29.png" title="Herencia múltiple"/><figcaption>Herencia múltiple</figcaption></figure><figure class="fig"><img alt="Herencia múltiple implementada con patrón Twin" src="https://upload.wikimedia.org/wikipedia/commons/2/28/Iker_minta.png" title="Herencia múltiple implementada con patrón Twin"/><figcaption>Herencia múltiple implementada con patrón <a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Twin_pattern" target="_blank">Twin</a></figcaption></figure></div>
+<h2 class="anchormark" id="extension-object">
+<a aria-hidden="true" class="anchormark" href="#extension-object"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Extension object</h2>
+<p>Agregar funcionalidad a una jerarquía sin cambiar la jerarquía.</p>
+<figure class="fig"><img alt="Fuente stackoverflow.com/a/39346147" src="https://i.stack.imgur.com/GoIQ6.jpg" title="Fuente stackoverflow.com/a/39346147"/><figcaption>Fuente <a class="stackoverflow_com" href="https://stackoverflow.com/a/39346147" target="_blank">stackoverflow.com/a/39346147</a></figcaption></figure>
+<h1 class="anchormark" id="comportamiento">
+<a aria-hidden="true" class="anchormark" href="#comportamiento"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Comportamiento</h1>
+<h2 class="anchormark" id="chain-of-responsibilityw">
+<a aria-hidden="true" class="anchormark" href="#chain-of-responsibilityw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/chain-of-responsibility" target="_blank">Chain of Responsibility</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Cadena_de_responsabilidad" target="_blank">w</a></sup></h2>
+<p>Evita acoplar el emisor de una petición a su receptor dando a más de un objeto
+la posibilidad de responder a una petición. Para ello, se encadenan los receptores
+y pasa la petición a través de la cadena hasta que es procesada por algún objeto.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Cada manejador (ConcreteHandlers) intenta resolver la petición, y si no
+puede se la pasa al manejador de la capa superior." src="https://refactoring.guru/images/patterns/diagrams/chain-of-responsibility/structure.png" title="Cada manejador (ConcreteHandlers) intenta resolver la petición, y si no
+puede se la pasa al manejador de la capa superior."/><figcaption>Cada manejador (<code>ConcreteHandlers</code>) intenta resolver la petición, y si no
+puede se la pasa al manejador de la capa superior.</figcaption></figure><figure class="fig"><img alt="GUI en la que pedir la ayuda de un elemento tiene como resultado obtener
+la de dicho elemento si la tiene, y si no la del padre, y si no la del abuelo, y si no..." src="https://refactoring.guru/images/patterns/diagrams/chain-of-responsibility/example-es.png" title="GUI en la que pedir la ayuda de un elemento tiene como resultado obtener
+la de dicho elemento si la tiene, y si no la del padre, y si no la del abuelo, y si no..."/><figcaption>GUI en la que pedir la ayuda de un elemento tiene como resultado obtener
+la de dicho elemento si la tiene, y si no la del padre, y si no la del abuelo, y si no...</figcaption></figure></div>
+<h2 class="anchormark" id="commandw">
+<a aria-hidden="true" class="anchormark" href="#commandw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/command" target="_blank">Command</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Command_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Convierte una solicitud en un objeto independiente que contiene toda la
+información sobre la solicitud. Esta transformación te permite parametrizar
+los métodos con diferentes solicitudes, retrasar o poner en cola la ejecución
+de una solicitud y soportar operaciones que no se pueden realizar.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Estructura patrón Commandw" src="https://refactoring.guru/images/patterns/diagrams/command/structure.png" title="Estructura patrón Commandw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/command" target="_blank">Command</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Command_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Operaciones que se pueden deshacer en un editor de texto" src="https://refactoring.guru/images/patterns/diagrams/command/example.png" title="Operaciones que se pueden deshacer en un editor de texto"/><figcaption>Operaciones que se pueden deshacer en un editor de texto</figcaption></figure></div>
+<h2 class="anchormark" id="iteratorw">
+<a aria-hidden="true" class="anchormark" href="#iteratorw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/iterator" target="_blank">Iterator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Iterador_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Permite recorrer elementos de una colección sin exponer su representación subyacente (lista, pila, árbol, etc.).</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Estructura patrón Iteratorw" src="https://refactoring.guru/images/patterns/diagrams/iterator/structure.png" title="Estructura patrón Iteratorw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/iterator" target="_blank">Iterator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Iterador_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Itenrador de perfiles de una red social" src="https://refactoring.guru/images/patterns/diagrams/iterator/example.png" title="Itenrador de perfiles de una red social"/><figcaption>Itenrador de perfiles de una red social</figcaption></figure></div>
+<h2 class="anchormark" id="mediatorw">
+<a aria-hidden="true" class="anchormark" href="#mediatorw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/mediator" target="_blank">Mediator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Mediator_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Restringe las comunicaciones directas entre los objetos, forzándolos a colaborar
+únicamente a través de un objeto mediador.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Estructura patrón Mediatorw" src="https://refactoring.guru/images/patterns/diagrams/mediator/structure.png" title="Estructura patrón Mediatorw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/mediator" target="_blank">Mediator</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Mediator_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="GUI que usa un mediador para gestionar una página de login." src="https://refactoring.guru/images/patterns/diagrams/mediator/example.png" title="GUI que usa un mediador para gestionar una página de login."/><figcaption>GUI que usa un mediador para gestionar una página de login.</figcaption></figure></div>
+<h2 class="anchormark" id="mementow">
+<a aria-hidden="true" class="anchormark" href="#mementow"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/memento" target="_blank">Memento</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Memento_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Permite guardar y restaurar el estado previo de un objeto sin revelar los detalles de su implementación.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Originator puede guardar y restaurar su propio estado guardando
+y cargando objetos Memento. En Caretaker lleva un histórico de estados
+que puede usar para ir del esado actual al previo." src="https://refactoring.guru/images/patterns/diagrams/memento/structure1.png" title="Originator puede guardar y restaurar su propio estado guardando
+y cargando objetos Memento. En Caretaker lleva un histórico de estados
+que puede usar para ir del esado actual al previo."/><figcaption><code>Originator</code> puede guardar y restaurar su propio estado guardando
+y cargando objetos <code>Memento</code>. En <code>Caretaker</code> lleva un histórico de estados
+que puede usar para ir del esado actual al previo.</figcaption></figure><figure class="fig"><img alt="Patrón Mementow + patrón Commandw para implementar undo en un editor de texto." src="https://refactoring.guru/images/patterns/diagrams/memento/example.png" title="Patrón Mementow + patrón Commandw para implementar undo en un editor de texto."/><figcaption>Patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/memento" target="_blank">Memento</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Memento_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> + patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/command" target="_blank">Command</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Command_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> para implementar <code>undo</code> en un editor de texto.</figcaption></figure></div>
+<h2 class="anchormark" id="observerw-o-publish-subscribe">
+<a aria-hidden="true" class="anchormark" href="#observerw-o-publish-subscribe"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/observer" target="_blank">Observer</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup> o <a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" target="_blank">Publish-subscribe</a></h2>
+<p>Define un mecanismo de suscripción para notificar a varios objetos sobre cualquier
+evento que le suceda al objeto que están observando.</p>
+<figure class="fig"><img alt="Estructura patrón Observerw" src="https://refactoring.guru/images/patterns/diagrams/observer/structure.png" title="Estructura patrón Observerw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/observer" target="_blank">Observer</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Observer_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure>
+<h2 class="anchormark" id="statew">
+<a aria-hidden="true" class="anchormark" href="#statew"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/state" target="_blank">State</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/State_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Implementación de un objeto de manera que su comportamiento cambia si su estado
+cambia.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="El objeto Context hace esto o aquello según su estado (ConcreteStates)." src="https://refactoring.guru/images/patterns/diagrams/state/structure-es.png" title="El objeto Context hace esto o aquello según su estado (ConcreteStates)."/><figcaption>El objeto <code>Context</code> hace esto o aquello según su estado (<code>ConcreteStates</code>).</figcaption></figure><figure class="fig"><img alt="Reproductor de música que al darle a play hará cosas distintas
+según su estado." src="https://refactoring.guru/images/patterns/diagrams/state/example.png" title="Reproductor de música que al darle a play hará cosas distintas
+según su estado."/><figcaption>Reproductor de música que al darle a <code>play</code> hará cosas distintas
+según su estado.</figcaption></figure></div>
+<h2 class="anchormark" id="strategyw">
+<a aria-hidden="true" class="anchormark" href="#strategyw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/strategy" target="_blank">Strategy</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Strategy_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Implementa un conjunto de algoritmos de manera que un objeto cliente puede elegir
+el que quiera e incluso cambiarlo dinámicamente según sus necesidades.</p>
+<figure class="fig"><img alt="Estructura patrón Strategyw" src="https://refactoring.guru/images/patterns/diagrams/strategy/structure.png" title="Estructura patrón Strategyw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/strategy" target="_blank">Strategy</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Strategy_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure>
+<h2 class="anchormark" id="template-methodw">
+<a aria-hidden="true" class="anchormark" href="#template-methodw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/template-method" target="_blank">Template Method</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_m%C3%A9todo_de_la_plantilla" target="_blank">w</a></sup></h2>
+<p>Define el esqueleto de un algoritmo en la superclase pero permite que las subclases
+sobrescriban pasos del algoritmo sin cambiar su estructura.</p>
+<figure class="fig"><img alt="Estructura patrón Template Methodw" src="https://refactoring.guru/images/patterns/diagrams/template-method/structure.png" title="Estructura patrón Template Methodw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/template-method" target="_blank">Template Method</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_m%C3%A9todo_de_la_plantilla" target="_blank">w</a></sup></figcaption></figure>
+<h2 class="anchormark" id="visitorw">
+<a aria-hidden="true" class="anchormark" href="#visitorw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/visitor" target="_blank">Visitor</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Visitor_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></h2>
+<p>Separa algoritmos de los objetos sobre los que operan.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Estructura patrón Visitorw" src="https://refactoring.guru/images/patterns/diagrams/visitor/structure-es.png" title="Estructura patrón Visitorw"/><figcaption>Estructura patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/visitor" target="_blank">Visitor</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Visitor_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">w</a></sup></figcaption></figure><figure class="fig"><img alt="Cada tipo de Shape al aceptar un visitante (Visitor) ejecuta
+el método visit***(this) que corresponda y genera su exportación a XML" src="https://refactoring.guru/images/patterns/diagrams/visitor/example.png" title="Cada tipo de Shape al aceptar un visitante (Visitor) ejecuta
+el método visit***(this) que corresponda y genera su exportación a XML"/><figcaption>Cada tipo de <code>Shape</code> al aceptar un visitante (<code>Visitor</code>) ejecuta
+el método <code>visit***(this)</code> que corresponda y genera su exportación a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a></figcaption></figure></div>
+<h2 class="anchormark" id="pizarra-o-blackboardw">
+<a aria-hidden="true" class="anchormark" href="#pizarra-o-blackboardw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Pizarra o <a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Blackboard_(design_pattern)" target="_blank">Blackboard</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_en_pizarra_(inform%C3%A1tica)" target="_blank">w</a></sup></h2>
+<p>A veces también es considerado un patrón de arquitectura.
+Es habitualmente utilizado en sistemas expertos, sistemas multiagente y, en general, sistemas basados en el conocimiento.</p>
+<p>Consta de múltiples elementos funcionales, denominados agentes, y un instrumento de control denominado pizarra.
+Los agentes suelen estar especializados en una tarea concreta o elemental. Todos ellos cooperan para alcanzar una meta común, si bien, sus objetivos individuales no están aparentemente coordinados.</p>
+<p>El comportamiento básico de cualquier agente consiste en examinar la pizarra, realizar su tarea y escribir sus conclusiones en la misma pizarra. De esta manera, otro agente puede trabajar sobre los resultados generados por otro.</p>
+<h2 class="anchormark" id="interpreter">
+<a aria-hidden="true" class="anchormark" href="#interpreter"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Interpreter_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Interpreter</a></h2>
+<p>Define una representación para su gramática junto con un intérprete del lenguaje.</p>
+<p>Un ejemplo seria un código que evaluá Notación polaca inversa de manera
+que se le pase el string <code>"42 2 1 - +"</code> t devuelva <code>43</code>.</p>
+<h2 class="anchormark" id="null-object">
+<a aria-hidden="true" class="anchormark" href="#null-object"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Null_object_pattern" target="_blank">Null object</a></h2>
+<p>Crear un objeto que representa el valor neutral <code>null</code>.
+La idea es que si tenemos una interfaz <code>MyObject</code> con un método <code>doSomething</code>
+no haga falta validar si una variable <code>MyObject</code> es <code>null</code> antes de
+ejecutar <code>doSomething</code> porque en vez de eso tenemos una implementación
+<code>MyObjectNull</code> que tiene un método <code>doSomething</code> que no hace nada.</p>
+<h2 class="anchormark" id="circuit-breakerw">
+<a aria-hidden="true" class="anchormark" href="#circuit-breakerw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron apiumhub_com" href="https://apiumhub.com/es/tech-blog-barcelona/patron-circuit-breaker/" target="_blank" title="Patrón de diseño que evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar">Circuit Breaker</a><sup class="extra_url"><a class="wikipedia" href="https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern" target="_blank">w</a></sup></h2>
+<p>Evita que una aplicación intente de manera reiterada una operación que con probabilidad va a fallar.</p>
+<h2 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h2>
+<ul>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Servant_(design_pattern)" target="_blank">Servant</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Specification_pattern" target="_blank">Specification</a></li>
+</ul>
+<h1 class="anchormark" id="concurrencia">
+<a aria-hidden="true" class="anchormark" href="#concurrencia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Concurrencia</h1>
+<h2 class="anchormark" id="cierre-de-exclusion-mutua-(lock)">
+<a aria-hidden="true" class="anchormark" href="#cierre-de-exclusion-mutua-(lock)"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Cierre_de_exclusi%C3%B3n_mutua" target="_blank">Cierre de exclusión mutua</a> (lock)</h2>
+<p>Mecanismo de sincronización que limita el acceso a un recurso compartido por
+varios procesos o hilos en un ambiente de ejecución concurrente, permitiendo
+así la exclusión mutua.</p>
+<h2 class="anchormark" id="monitor-object">
+<a aria-hidden="true" class="anchormark" href="#monitor-object"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Monitor_(concurrencia)" target="_blank">Monitor object</a></h2>
+<p>Estructuras de datos abstractas destinadas a ser usadas sin peligro por más de un hilo de ejecución.
+La característica que principalmente los define es que sus métodos son ejecutados con exclusión mutua.</p>
+<h2 class="anchormark" id="reactor">
+<a aria-hidden="true" class="anchormark" href="#reactor"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Reactor_(patr%C3%B3n_de_dise%C3%B1o)" target="_blank">Reactor</a></h2>
+<p>El manejador de servicio demultiplexa los pedidos entrantes y los entrega de forma
+sincrónica a los manejadores de pedidos asociados.</p>
+<h2 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h2>
+<ul>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Active_object" target="_blank">Active object</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Balking_pattern" target="_blank">Balking</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Binding_properties_pattern" target="_blank">Binding properties</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Compute_kernel" target="_blank">Compute kernel</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Double-checked_locking" target="_blank">Double-checked locking</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Asynchronous_method_invocation" target="_blank">Event-based asynchronous</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Guarded_suspension" target="_blank">Guarded suspension</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Join-pattern" target="_blank">Join</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Messaging_pattern" target="_blank">Messaging</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock" target="_blank">Readers-writer lock</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Planificador" target="_blank">Scheduling</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Thread_pool" target="_blank">Thread pool</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Thread-local_storage" target="_blank">Thread-local storage</a></li>
+</ul>
+<h1 class="anchormark" id="arquitectura">
+<a aria-hidden="true" class="anchormark" href="#arquitectura"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Arquitectura</h1>
+<h2 class="anchormark" id="inversion-de-control">
+<a aria-hidden="true" class="anchormark" href="#inversion-de-control"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control" target="_blank" title="Principio de diseño de Software en el que se especifican respuestas deseadas a sucesos o solicitudes de datos concretas, dejando que algún tipo de entidad o arquitectura externa lleve a cabo las acciones de control que se requieran en el orden necesario y para el conjunto de sucesos que tengan que ocurrir">Inversión de control</a></h2>
+<p>Principio de diseño de software en el que el flujo de ejecución de un programa se invierte respecto a los métodos de programación tradicionales.</p>
+<p>Tradicionalmente el programador especifica la secuencia de decisiones y procedimientos que pueden darse durante el ciclo de vida de un programa mediante llamadas a funciones.
+En su lugar, en la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control" target="_blank" title="Principio de diseño de Software en el que se especifican respuestas deseadas a sucesos o solicitudes de datos concretas, dejando que algún tipo de entidad o arquitectura externa lleve a cabo las acciones de control que se requieran en el orden necesario y para el conjunto de sucesos que tengan que ocurrir">inversión de control</a> se especifican respuestas deseadas a sucesos
+o solicitudes de datos concretas, dejando que algún tipo de entidad o arquitectura
+externa lleve a cabo las acciones de control que se requieran en el orden necesario
+y para el conjunto de sucesos que tengan que ocurrir.</p>
+<p>La <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control" target="_blank" title="Principio de diseño de Software en el que se especifican respuestas deseadas a sucesos o solicitudes de datos concretas, dejando que algún tipo de entidad o arquitectura externa lleve a cabo las acciones de control que se requieran en el orden necesario y para el conjunto de sucesos que tengan que ocurrir">Inversión de control</a> es el concepto central del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Spring_Framework" target="_blank" title="Framework para el desarrollo de aplicaciones y contenedor de inversión de control">Framework de Spring</a> y usa la implementación por <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inyecci%C3%B3n_de_dependencias" target="_blank" title="Patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase la que cree dichos objetos">Inyección de dependencias</a>, ya que implementa un "Contenedor" que se encarga de gestionar las instancias (así como sus creaciones y destrucciones) de los objetos del usuario.</p>
+<p>La mayoría de las bibliotecas para el desarrollo de aplicaciones con GUI, como GTK o QT usan <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control" target="_blank" title="Principio de diseño de Software en el que se especifican respuestas deseadas a sucesos o solicitudes de datos concretas, dejando que algún tipo de entidad o arquitectura externa lleve a cabo las acciones de control que se requieran en el orden necesario y para el conjunto de sucesos que tengan que ocurrir">inversión de control</a> y están dirigidas por eventos.</p>
+<h2 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h2>
+<ul>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_por_capas" target="_blank">Programación por capas</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_de_microservicios" target="_blank">Arquitectura de microservicios</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Micron%C3%BAcleo" target="_blank">Arquitectura de microkernel</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Implicit_invocation" target="_blank">Invocación implícita</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Layer_(object-oriented_design)" target="_blank">Layer</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_hexagonal_(software)" target="_blank">Arquitectura hexagonal</a></li>
+<li>Arquitectura en pizarra (<a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Blackboard_(design_pattern)" target="_blank">Blackboard</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_en_pizarra_(inform%C3%A1tica)" target="_blank">w</a></sup>)</li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_dirigida_por_eventos" target="_blank">Arquitectura dirigida por eventos</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Peer-to-peer" target="_blank">Peer-to-peer</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios" target="_blank">Arquitectura orientada a servicios</a></li>
+<li><a class="abbr patron wikipedia" href="https://en.wikipedia.org/wiki/Broker_pattern" target="_blank">Broker</a></li>
+<li>Objetos desnudos</li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador" target="_blank">Modelo Vista Controlador</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Presentaci%C3%B3n%E2%80%93abstracci%C3%B3n%E2%80%93control" target="_blank">Presentación Abstracción Control</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93presentador" target="_blank">Modelo Vista Presentador</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93modelo_de_vista" target="_blank">Modelo Vista Modelo de vista</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_operacional_de_los_datos" target="_blank">Almacén operacional de los datos</a></li>
+<li><a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)" target="_blank">Tuberías y Filtros</a></li>
+<li>Esclavo-Maestro</li>
+<li>Control centralizado y distribuido</li>
+</ul>
+<h1 class="anchormark" id="antipatrones">
+<a aria-hidden="true" class="anchormark" href="#antipatrones"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o" target="_blank">Antipatrones</a></h1>
+<h2 class="anchormark" id="gestion-de-proyectos">
+<a aria-hidden="true" class="anchormark" href="#gestion-de-proyectos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Gestión de proyectos</h2>
+<ul>
+<li>Humo y espejos (smoke and mirrors): Mostrar cómo será una funcionalidad antes de que esté implementada.</li>
+<li>Mala gestión (bad management)</li>
+<li>Software inflado (software bloat): Permitir que las sucesivas versiones de un sistema exijan cada vez más recursos.</li>
+</ul>
+<h2 class="anchormark" id="diseno-de-software">
+<a aria-hidden="true" class="anchormark" href="#diseno-de-software"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Diseño de software</h2>
+<ul>
+<li>Base de datos como comunicador de procesos (database as an IPC)</li>
+<li>BOMQ (Batch Over MQ): Abuso en el empleo de integración basada en mensajes en tiempo real para transferencias esporádicas de gran tamaño en segundo plano.</li>
+<li>Clase Gorda: Dotar a una clase con demasiados atributos y/o métodos, haciéndola responsable de la mayoría de la lógica de negocio.</li>
+<li>Botón mágico (magic pushbutton): Tender, desarrollando interfaces, a programar la lógica de negocio en los métodos de interacción, implementando los resultados de las acciones del usuario en términos no suficientemente abstractos.</li>
+<li>Carrera de obstáculos (race hazard): Incapacidad de prever las consecuencias de diferentes sucesiones de eventos.</li>
+<li>Entrada chapuza (input kludge): No especificar e implementar el manejo de entradas inválidas.</li>
+<li>Fábrica de combustible (gas factory): Diseñar de manera innecesariamente compleja.</li>
+<li>Gran bola de lodo (big ball of mud): Construir un sistema sin estructura definida.</li>
+<li>Interfaz inflada (interface bloat): Pretender que una interfaz sea tan potente que resulta extremadamente difícil de implementar.</li>
+<li>Inversión de abstracción (abstraction inversion): No exponer las funcionalidades implementadas que los usuarios necesitan, forzando a que se reimplementen a más alto nivel.</li>
+<li>Punto de vista ambiguo (ambiguous viewpoint): Presentar un modelo sin concretar ciertos aspectos, postergando así decisiones conflictivas.</li>
+<li>Re-dependencia (re-coupling): Introducir dependencias innecesarias entre objetos.</li>
+<li>Sistema de cañerías de calefacción (stovepipe system): Construir un sistema difícilmente mantenible, ensamblando componentes poco relacionados.</li>
+<li>Seguridad por ofuscación: Generar sistemas que ocultan o hacen contra intuitivos los funcionamiento de los componentes en la entrada, en la respuesta o en los errores. Convirtiendo las herramientas o servicios de desarrollo en cajas mágicas.</li>
+<li>Integración dependiente continua: Realizar procesos de control para cada paso del desarrollo que dependan de la validación de terceros.</li>
+</ul>
+<h3 class="anchormark" id="orientado-a-objetos">
+<a aria-hidden="true" class="anchormark" href="#orientado-a-objetos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Orientado a objetos</h3>
+<ul>
+<li>Acoplamiento secuencial (sequential coupling): Construir una clase que necesita que sus métodos se invoquen en un orden determinado.</li>
+<li>BaseBean: Heredar funcionalidad de una clase utilidad en lugar de delegar en ella.</li>
+<li>Fallo de clase vacía (empty subclass failure): Clase que no supera el test de la subclase vacía, es decir, que se comporta de manera diferente cuando se invoca desde una subclase que no añade modificación alguna.</li>
+<li>Llamar a super (callsuper): Obligar a las subclases a llamar a un método de la superclase que ha sido sobrescrito.</li>
+<li>Modelo de dominio anémico (anemic domain model): Usar un modelo del dominio sin ninguna lógica de negocio. Esto no es un enfoque orientado a objetos porque cada objeto debería tener tanto propiedades como comportamiento asociado.</li>
+<li>Objeto sumidero (object cesspool): Reutilizar objetos no adecuados realmente para el fin que se persigue.</li>
+<li>Objeto todopoderoso (god object): Concentrar demasiada funcionalidad en una única parte del diseño (clase).</li>
+<li>Poltergeist (informática): Emplear objetos cuyo único propósito es pasar la información a terceros objetos.</li>
+<li>Problema del círculo-elipse (circle-ellipse problem): Crear variables de tipo pensando en los valores de posibles subtipos.</li>
+<li>Problema del yoyó (yo-yo problem): Construir estructuras (ej: de herencia) que son difíciles de comprender debido a su excesiva fragmentación.</li>
+<li>Singletonitis: Abuso de la utilización del patrón <a class="abbr patron refactoring_guru" href="https://refactoring.guru/es/design-patterns/singleton" target="_blank">singleton</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Singleton" target="_blank">w</a></sup>.</li>
+<li>YAFL (yet another fucking layer, y otra maldita capa más) o <em>Código Lasagna</em>: Añadir capas innecesarias a un programa, biblioteca o framework.</li>
+</ul>
+<h2 class="anchormark" id="programacion">
+<a aria-hidden="true" class="anchormark" href="#programacion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Programación</h2>
+<ul>
+<li>Nomenclatura heroica (heroic naming): Los nombres de interfaces, clases, propiedades, métodos... dan a entender que el conjunto esta correctamente estandarizado con la ingeniería del software pero en realidad oculta una implementación anárquica.</li>
+<li>Acción a distancia (action at a distance): Provocar la interacción no prevista de componentes muy distantes de un sistema.</li>
+<li>Acumular y disparar (accumulate and fire): Establecer una colección de variables globales para ser usadas por un conjunto de subrutinas.</li>
+<li>Ancla del barco (boat anchor): Retener partes del sistema que ya no tienen utilidad.</li>
+<li>Bucle activo (busy spin): Utilizar espera activa cuando existen alternativas.</li>
+<li>Código duro (hard code): Hacer supuestos sobre el entorno del sistema en demasiados lugares de la implementación.</li>
+<li>Complejidad no indispensable (accidental complexity): Dotar de complejidad innecesaria a una solución.</li>
+<li>Código espagueti (spaghetti code): Estructuras de código difícilmente comprensibles.</li>
+<li>Código ravioli (ravioli code): Multitud de objetos muy débilmente conectados.</li>
+<li>Comprobación de tipos en lugar de interfaz (checking type instead of interface): Comprobar que un objeto es de un tipo concreto cuando lo único que se necesita es verificar si cumple un contrato determinado.</li>
+<li>Confianza ciega (blind faith): Descuidar la comprobación de los resultados que produce una subrutina, o bien de la efectividad de un parche o solución a un problema.</li>
+<li>Lava seca (lava flow): Código muerto e información de diseño olvidada que permanecen congelados en un diseño cambiante.</li>
+<li>Lógica super-booleana (superboolean logic): Emplear comparaciones o abstracciones de la lógica booleana innecesarias.</li>
+<li>Manejo de excepciones (exception handling): Emplear el mecanismo de manejo de excepciones del lenguaje para implementar la lógica general del programa.</li>
+<li>Manejo de excepciones inútil (useless exception handling): Introducir condiciones para evitar que se produzcan excepciones en tiempo de ejecución, pero lanzar manualmente una excepción si dicha condición falla.</li>
+<li>Números mágicos (magic numbers): Incluir en los algoritmos números concretos sin explicación aparente.</li>
+<li>Ocultación de errores (error hiding): Capturar un error antes de que se muestre al usuario, y reemplazarlo por un mensaje sin importancia o ningún mensaje en absoluto.</li>
+<li>Packratting: Consumir memoria en exceso debido a no liberar objetos reservados dinámicamente una vez ya han dejado de ser necesarios.</li>
+<li>Programación por excepción (coding by exception): Añadir trozos de código para tratar casos especiales a medida que se identifican.</li>
+<li>Secuencia de bucle por casos (Loop-switch sequence): Programar un conjunto de pasos secuenciales usando un bucle en combinación con una estructura de control por casos.</li>
+<li>Cadenas mágicas (magic strings): Incluir cadenas de caracteres determinadas en el código fuente para hacer comparaciones, como tipos de eventos, etc.</li>
+<li>Código ñoqui (gnocchi code): Incluir código que realmente no hacen nada ni aportan al sistema.</li>
+</ul>
+<h2 class="anchormark" id="metodologicos">
+<a aria-hidden="true" class="anchormark" href="#metodologicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Metodológicos</h2>
+<ul>
+<li>Bala de plata (silver bullet): Asumir que nuestra solución técnica favorita puede resolver un problema mucho mayor.</li>
+<li>Desarrollo conducido por las pruebas/errores (tester/bug driven development): Permitir que un proyecto software avance a base de extraer sus nuevos requisitos de los informes de errores.</li>
+<li>Desfactorización (de-factoring): Eliminar funcionalidad y reemplazarla con documentación.</li>
+<li>Factor de improbabilidad (improbability factor): Asumir que es improbable que un error conocido cause verdaderos problemas.</li>
+<li>Martillo de oro (golden hammer): Asumir que nuestra solución favorita es universalmente aplicable.</li>
+<li>Optimización prematura (premature optimization): Realizar optimizaciones sin disponer de la información suficiente para hacerlo con garantías, sacrificando decisiones de diseño.</li>
+<li>Programación de copiar y pegar (copy and paste programming): Programar copiando y modificando código existente en lugar de crear soluciones genéricas.</li>
+<li>Programación por permutación (programming by permutation): Tratar de aproximarse a una solución modificando el código una y otra vez para ver si acaba por funcionar.</li>
+<li>Reinventar la rueda (reinventing the wheel)</li>
+<li>Reinventar la rueda cuadrada (reinventing the square wheel): Crear una solución pobre cuando ya existe una buena.</li>
+</ul>
+<h2 class="anchormark" id="gestion-de-la-configuracion">
+<a aria-hidden="true" class="anchormark" href="#gestion-de-la-configuracion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Gestión de la configuración</h2>
+<ul>
+<li>Conflicto de extensiones (extension conflict): Problemas con diferentes extensiones que tratan de gestionar las mismas partes del sistema (específico de Mac OS).</li>
+<li>Infierno de dependencias (dependency hell): Escenario de problemas producidos por las versiones de otros productos que se necesitan para hacer funcionar un tercero:<ul>
+<li>Infierno DLL (DLL hell): Específico de Microsoft Windows</li>
+<li>Infierno JAR (JAR hell): Típicamente causados por la falta de comprensión del modelo de carga de clases</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h2>
+<ul>
+<li>Contenedor mágico (magic container): La implementación de métodos que intentan ser tan flexibles como para adaptar su comportamiento a multitud de circunstancias, sobrepasando el umbral de una mantenibilidad adecuada del mismo.</li>
+<li>Descomposición funcional (functional decomposition): Traducir un programa de un lenguaje estructurado a uno OO usando una sola clase y muchos métodos privados.</li>
+<li>Embudo de excepciones (exception funnel): Atrapar una excepción e ignorarla, sin reportarlo.</li>
+<li>Moneda en punto flotante (floating point currency): Utilizar una representación en punto flotante para valores que representan dinero, lo que puede provocar pérdida de precisión.</li>
+<li>Valor por defecto indefinido (zero means null): Escoger un valor arbitrario para representar la indefinición, sin garantizar que ese valor no puede realmente ocurrir.</li>
+</ul>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="refactoring_guru" href="https://refactoring.guru/es/design-patterns/catalog" target="_blank">refactoring.guru - El catálogo de patrones de diseño</a></li>
+<li><a class="w3big_com" href="http://www.w3big.com/es/design-pattern/default.html" target="_blank">w3big.com - Patrones de diseño</a></li>
+<li><a class="books_studygolang_com" href="https://books.studygolang.com/go-patterns/#anti-patterns" target="_blank">books.studygolang.com - Go Patterns</a></li>
+<li><a class="java-design-patterns_com" href="https://java-design-patterns.com/patterns/" target="_blank">java-design-patterns.com - Java Design Patterns</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B3/12-patrones.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

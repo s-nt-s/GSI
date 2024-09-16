@@ -1,0 +1,13 @@
+PATH	NAME	TYPE	NAMESPACE	COMMENT
+/IndiceContenido	IndiceContenido	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/FechaIndiceElectronico	FechaIndiceElectronico	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/DocumentoIndizado	DocumentoIndizado	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/DocumentoIndizado/IdentificadorDocumento	IdentificadorDocumento	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/DocumentoIndizado/ValorHuella	ValorHuella	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/DocumentoIndizado/FuncionResumen	FuncionResumen	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/DocumentoIndizado/FechaIncorporacionExpediente	FechaIncorporacionExpediente	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/DocumentoIndizado/OrdenDocumentoExpediente	OrdenDocumentoExpediente	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/ExpedienteIndizado	ExpedienteIndizado	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/ExpedienteIndizado/FechaIndiceElectronico	FechaIndiceElectronico	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/CarpetaIndizada	CarpetaIndizada	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	
+/IndiceContenido/CarpetaIndizada/IdentificadorCarpeta	IdentificadorCarpeta	element	http://administracionelectronica.gob.es/ENI/XSD/v1.0/expediente-e/indice-e/contenido	

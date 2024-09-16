@@ -1,0 +1,228 @@
+@import url("pygment.css");
+
+body {
+  font-family: arial,sans serif;
+  font-size: 11pt;
+  margin: 0;
+}
+main {
+  margin: 0;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+header, footer {
+  margin: 0;
+  padding: 1em;
+  clear: both;
+  color: #fff !important;
+  background-color: #3a3a3a !important;
+}
+div.body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  margin-top: 16px !important;
+}
+footer p:first-child {
+	margin-top: 0;
+}
+footer p:last-child {
+	margin-bottom: 0;
+}
+header p:first-child {
+  margin-bottom: 0;
+}
+header p:last-child {
+  margin-bottom: 0;
+}
+header a, footer a {
+  color: inherit;
+}
+
+nav.breadcrumb ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+main ul, main ol {
+  padding-left: 30px;
+  margin-left: 0;
+}
+
+
+nav.breadcrumb li {
+  display: inline;
+}
+
+nav.breadcrumb li + li::before {
+  margin: 0 0.25em;
+  content: '»';
+}
+
+nav.breadcrumb [aria-current="page"] {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+  padding: 10px;
+}
+
+
+table {
+	margin-top: 14px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+  caption-side: bottom;
+}
+table > caption {
+  margin-top: 5px;
+}
+thead, tbody tr th {
+	background-color: lightblue;
+}
+td, th {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+  text-align: left;
+}
+table tbody tr:nth-child(even) {
+	background-color: #ddd;
+}
+tbody.hasRowspan tr {
+	background-color: unset !important;
+}
+td > p, th > p {
+	margin-top:7px;
+	margin-bottom:7px;
+}
+td > p:first-child, th > p:first-child  {
+	margin-top:0;
+}
+td > p:last-child, td > p:last-child {
+	margin-bottom:0;
+}
+tr > td:first-child {
+	white-space: nowrap;
+}
+tbody tr:hover {
+	background-color: lightyellow !important;
+}
+td.strong {
+  font-weight: bold;
+}
+
+h1 { font-size: 2em }
+abbr.nou {
+  text-decoration-line: none;
+}
+a.abbr {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: blue;
+  color: inherit;
+}
+div.highlight, div.widthscroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+
+figure.fig {
+  margin: 0;
+  display: table;
+  border: 1px black solid;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+figure.fig figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  border-bottom: 1px black solid;
+  padding: 5px;
+}
+
+a.anchormark {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+  text-decoration: none;
+}
+a.anchormark path {
+  visibility: hidden;
+}
+.anchormark:hover > a.anchormark path {
+  visibility: revert;
+}
+td.right, th.right {
+  text-align: right;
+}
+main img {
+  max-width: 100%
+}
+sup {
+  cursor: help;
+  vertical-align: text-top;
+  font-size: 0.7em;
+}
+sup.nota a, sup.extra_url a {
+  text-decoration: none;
+}
+a.nodecorate, abbr.nodecorate {
+  text-decoration: none;
+}
+sup.extra_url {
+  display: none;
+}
+*:hover + sup.extra_url, sup.extra_url:hover {
+  display: unset;
+}
+
+div.figgroup2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  align-items: start;
+}
+div.figgroup4, div.figgroup6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  align-items: start;
+}
+div.figgroup > figure {
+  margin: unset;
+}
+
+span.vertical, a.vertical, td.vertica, th.vertical, div.vertical {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  letter-spacing: -0.12em;
+  line-height:1em;
+  width:1em;
+}
+div.col2 {
+  column-count: 2;
+}
+div.col2 > div {
+   break-inside: avoid-column;
+}
+.center {
+  text-align: center;
+}

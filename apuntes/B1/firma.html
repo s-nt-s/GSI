@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Identidad y firma electrónica. Reglamento eIDAS. DNI electrónico</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b1_firma" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Identidad y firma electrónica. Reglamento eIDAS. DNI electrónico</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><strong>Firma electrónica</strong> (concepto jurídico): Conjunto de datos en forma electrónica,
+consignados junto a otros o asociados con ellos,
+que pueden ser utilizados como medio de identificación del firmante.</p>
+<p><strong>Firma digital</strong> (concepto tecnológico): Valor o conjunto de caracteres,
+calculado criptográficamente a partir de unos datos,
+que permiten verificar la integridad, autenticidad y no repudio de dichos datos,
+denominados como <em>mensaje</em>.</p>
+<p><strong>Certificado de firma electrónica</strong>: declaración electrónica que vincula
+los datos de validación de una firma con una persona física y confirma,
+al menos, el nombre o seudónimo de esa persona</p>
+<p><strong><a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico" target="_blank" title="Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.">Sello electrónico</a></strong>: Datos en formato electrónico anejos a otros datos,
+o asociados de manera lógica con ellos, para garantizar el origen y
+la integridad de estos últimos.</p>
+<p><strong><a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">Sello de tiempo electrónico</a></strong>: <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico" target="_blank" title="Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.">Sello electrónico</a> que vincula unos datos a un
+instante concreto, aportando la prueba de que estos datos existían en ese instante.
+Una firma que incluye un <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">sello de tiempo</a> con el resultado de la validación del
+certificado es una <strong><abbr class="abbr" title="Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez">firma longeva</abbr></strong>, siendo esta longevidad determinada
+por el sellado y por lo tanto requerirá resellado antes de que caduque
+el certificado que se usó para el <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">sello de tiempo</a>.</p>
+<p><strong>Certificado de autenticación de sitio web</strong>: declaración que autentica
+un sitio web y lo vincula a la persona física o jurídica a quien se
+ha expedido el certificado</p>
+<p><strong>Servicio de confianza</strong>: servicio electrónico, prestado habitualmente a cambio
+de remuneración, consistente en creación, verificación y/o validación de
+firmas electrónicas, sellos electrónicos, sellos de tiempo electrónicos,
+servicios de entrega electrónica certificada, certificados para la autenticación
+de sitios web y/o certificados relativos a estos servicios.<br/>
+Las personas físicas o jurídicas que prestan estos servicios son <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza" target="_blank" title="Prestador de servicios de confianza">TSP</a>.</p>
+<h2 class="anchormark" id="clave-publica/privada-(pki)-y-tercero-de-confianza">
+<a aria-hidden="true" class="anchormark" href="#clave-publica/privada-(pki)-y-tercero-de-confianza"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Clave pública/privada (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Infraestructura_de_clave_p%C3%BAblica" target="_blank" title="Infraestructura de clave pública">PKI</a>) y tercero de confianza</h2>
+<ul>
+<li><strong>Clave privada</strong>: Parte que se utiliza para firmar y no se debe compartir</li>
+<li><strong>Clave pública</strong>: Parte que se comparte para que el receptor pueda desencriptar
+y verificar que el emisor posee la clave privada.</li>
+</ul>
+<p>Pasos para realizar una firma y verificarla en el receptor:</p>
+<ol>
+<li>Se calcula el hash del mensaje</li>
+<li>Se encripta el hash del mensaje con la clave privada del emisor (esta es la firma)</li>
+<li>Se envían al receptor el documento junto con la firma</li>
+<li>En el receptor, se calcula de nuevo el hash del mensaje original</li>
+<li>Se utiliza la clave pública del emisor para desencriptar la firma</li>
+<li>Se compara el hash calculado con el desencriptado,
+si coinciden se ha mantenido la integridad y se garantiza el no repudio</li>
+</ol>
+<p><strong>Tercero de confianza</strong>: Actor externo que, aportando su firma, acredita que
+la clave realmente es de quien dice ser. Puede implementarse de dos maneras:</p>
+<ul>
+<li>Redes de confianza: la confianza se asigna de manera descentralizada, siendo
+los propios usuarios los que firmar los certificados de otros usuarios.</li>
+<li>Autoridades de certificación centralizadas (organizadas de forma jerárquica)
+que gestionan certificados <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.509" target="_blank" title="También conocido como PKIX">X.509</a></strong> firmados por ellos mismos.
+Este modelo se compone de:<ul>
+<li>Autoridades de certificación (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a>): expide, gestiona y revoca los certificados</li>
+<li>Autoridad de registro (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_registro" target="_blank" title="Autoridad de Registro">RA</a>): Auxilia a la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a> en el proceso de Verificación
+de identidad del titular que solicita un certificado a la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a>.</li>
+<li>Autoridad de validación (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_validaci%C3%B3n" target="_blank" title="Autoridad de Validación">VA</a>): Valida el estado de los certificados mediante <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> u <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a></li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Servicio_de_directorio" target="_blank">Servicio de directorio</a>: empleado por las <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CAs</a> para almacenamiento y distribución de certificados y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRLs</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchormark" id="certificado-digital-x.509-v3">
+<a aria-hidden="true" class="anchormark" href="#certificado-digital-x.509-v3"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Certificado digital <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.509" target="_blank" title="También conocido como PKIX">X.509</a> v3</h2>
+<p>El certificado digital es un documento electrónico, expedido y firmado
+por una tercera parte de confianza (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">AC</a>), que vincula una clave pública
+con la identidad del propietario de la clave privada complementaria.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.509" target="_blank" title="También conocido como PKIX">X.509</a> v3</strong> (o <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.509" target="_blank" title="También conocido como X.509">PKIX</a>) es el estándar de la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Sector_de_Normalizaci%C3%B3n_de_las_Telecomunicaciones_de_la_UIT" target="_blank" title="Comité Consultivo Internacional Telegráfico y Telefónico">ITU-T</a> (adoptado por la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Grupo_de_Trabajo_de_Ingenier%C3%ADa_de_Internet" target="_blank" title="Grupo de Trabajo de Ingeniería de Internet">IETF</a>, <a class="abbr ietf_org" href="https://www.ietf.org/rfc/rfc5280.txt" target="_blank">RFC5280</a>)
+para infraestructuras de clave pública.
+Especifica la estructura y formato de los certificados digitales de clave pública,
+de las listas de revocación de certificados (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a>) y de los certificados de atributos.</p>
+<p>Su sintaxis se define en lenguaje <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ASN.1" target="_blank" title="Notación sintáctica abstracta 1">ASN.1</a> y tiene la siguiente estructura:</p>
+<ul>
+<li>Version</li>
+<li>Serial number: identificador del certificado, único para cada <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a>.</li>
+<li>Signature algorithm: algoritmo empleado por la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a> para firmar el certificado</li>
+<li>Issuer: nombre de la tercera parte de confianza (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a>) que lo expide</li>
+<li>Validity period: periodo de validez de las claves (desde - hasta)</li>
+<li>Subject: sujeto titular vinculado a la clave pública (en <abbr class="abbr" title="Nombre distinguido (usado en LDAP y X.509)">notación DN</abbr>)</li>
+<li>Subject Public Key Information: clave pública y algoritmo usado para
+crearla (lo que la ley incluye en los "datos de verificación de firma")</li>
+<li>Campos opcionales:<ul>
+<li>Issuer unique identifier: Permite reutilizar nombres de emisor</li>
+<li>Subject unique identifier: Permite reutilizar nombres de sujeto</li>
+</ul>
+</li>
+<li>Extensions: Permiten asociar información adicional a sujetos, claves públicas, etc
+y se componen de tres partes:<ul>
+<li>Extensión ID: Identificador que proporciona la semántica y el tipo de información (texto, fecha, etc) del valor de la extensión</li>
+<li>Critical: flag que indica si es seguro o no ignorar el campo de extensión si no se reconoce el tipo</li>
+<li>Value: valor de la extensión</li>
+</ul>
+</li>
+<li>Ejemplos de extensiones:<ul>
+<li>Subject Alternative Name (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_de_almacenamiento" target="_blank" title="Red de área de almacenamiento">SAN</a>): identidades adicionales, seudónimos</li>
+<li>Authority Information Access: enlaces al servidor <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a> de la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_validaci%C3%B3n" target="_blank" title="Autoridad de Validación">VA</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> distribution points (<abbr class="abbr" title="Punto de distribución de CRL">CDP</abbr>) y Freshest <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> (Delta <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> dist. point):
+enlaces a las <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> y a la Delta-<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a></li>
+<li><a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/KeyUsage" target="_blank">Key Usage</a>: Restringe el propósito de la clave pública certificada, indicando, por ejemplo,<ul>
+<li><a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/DigitalSignature" target="_blank" title="Al firmar con este certificado queda acreditada la identidad del firmante (KeyUsage)">digitalSignature</a>: uso para autenticación</li>
+<li><a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/NonRepudiation" target="_blank" title="Un documento firmado por este certificado no puede repudiarse (KeyUsage actualmente renombrado como contentCommitment)">nonRepudiation</a> / <a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/ContentCommitment" target="_blank" title="Un documento firmado por este certificado no puede repudiarse (KeyUsage anteriormente llamado nonRepudiation)">ContentCommitment</a>: uso para firma digital</li>
+<li><a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/KeyCertSign" target="_blank" title="Este certificado puede usarse para verificar firmas">keyCertSign</a>: para certificados de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Issuer digital signature: firma de la tercera parte de confianza (autofirmado)</li>
+</ul>
+<h3 class="anchormark" id="validacion-de-firma-con-certificado">
+<a aria-hidden="true" class="anchormark" href="#validacion-de-firma-con-certificado"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Validación de firma con certificado</h3>
+<p>La validación de una firma con certificado conlleva a su vez
+la validación del certificado, para ello hay que comprobar:</p>
+<ul>
+<li>Los limites de su uso (<a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/KeyUsage" target="_blank">Key Usage</a>)</li>
+<li>El periodo de validez (Validity period)</li>
+<li>El estado de vigencia del certificado, pues puede estar revocado o temporalmente
+suspendido antes de vencer el periodo de validez</li>
+</ul>
+<p>Para comprobar este último punto hay dos tecnicas diferentes:</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a></strong>: Listas mantenidas por las <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CAs</a> donde aparecen los número de serie
+de los certificados revocados antes de expirar y la fecha de revocación.
+Se acceden a ellas a través de repositorios <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a> o <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios" target="_blank" title="Protocolo ligero de acceso a directorios (derivado de X.500)">LDAP</a> cuya ubicación
+esta indicada en la extensión <abbr class="abbr" title="Punto de distribución de CRL">CDP</abbr> del certificado.</p>
+<p>Para mitigar el problema que supone el crecimiento de la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> se emplean los delta-<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a>
+(extensión Freshest <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a>) que solo contienen los certificados revocados desde
+la publicación de la última <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> de base.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a></strong>: Protocolo que permite consultar a una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_validaci%C3%B3n" target="_blank" title="Autoridad de Validación">VA</a> el estado de un certificado.
+Usa mensajes codificados en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ASN.1" target="_blank" title="Notación sintáctica abstracta 1">ASN.1</a> y se envían sobre <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto" target="_blank" title="Protocolo de transferencia de hipertexto">HTTP</a>. Las respuestas pueden
+ser <em>good</em>, <em>unknown</em> o <em>revocked</em> y van firmadas y con <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">sello de tiempo</a>.</p>
+<p>Consultar directamente a las <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CAs</a>, vía <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a>, conlleva problemas de rendimiento
+tanto para la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a> como para el cliente. Como solución a esto se usa <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a> Stapling,
+una técnica por la que el propio servidor web (que esta visitando el cliente)
+consulta el servido <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a> periódicamente de manera que cuando un cliente
+va a hacer el <a class="wikipedia" href="https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte#Handshake_TLS" target="_blank">TLS/SSL handshake</a> con él puede adjuntar (grapa)
+las respuestas del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a> en ese mismo proceso.</p>
+<h2 class="anchormark" id="sello-de-tiempo-y-firma-longeva">
+<a aria-hidden="true" class="anchormark" href="#sello-de-tiempo-y-firma-longeva"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">Sello de tiempo</a> y <abbr class="abbr" title="Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez">firma longeva</abbr></h2>
+<p>El <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">sello de tiempo</a> soluciona el problema de dar un falso negativo al validar unos datos
+que fueron firmados con un certificado que era valido cuando se uso pero que
+ahora (cuando se esta volviendo a validar) se encuentra revocado.</p>
+<p>La <strong><abbr class="abbr" title="Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez">firma longeva</abbr></strong>, al incluir el resultado de la validación del
+certificado, soluciona el problema de que los <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_certificaci%C3%B3n" target="_blank" title="Prestador de servicios de certificación">PSCs</a> eliminen los certificados
+de las <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRLs</a> una vez que el certificado ha caducado, lo que impedía saber después
+de su fecha de caducidad si alguna vez fueron revocados y cuando.</p>
+<h2 class="anchormark" id="formatos-de-firma-(hash-y-cifrado-asimetrico)">
+<a aria-hidden="true" class="anchormark" href="#formatos-de-firma-(hash-y-cifrado-asimetrico)"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Formatos de firma (hash y cifrado asimétrico)</h2>
+<p>La terminación <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_avanzada" target="_blank" title="Firma electrónica avanzada">AdES</a> denota que es una <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada" target="_blank" title="Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.">firma electrónica avanzada</a>.</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/PKCS" target="_blank" title="Estándar de criptografía de clave pública">PKCS</a>#7 / <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax" target="_blank" title="Cryptographic Message Syntax">CMS</a>: Permite diferentes tipos de objetos (data, signed-data, enveloped-data, signed-and-enveloped-data, digested-data y encrypted-data)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)" target="_blank" title="Firmas Electrónicas Avanzadas CMS">CAdES</a>: Permite tanto attached signature, como detached signature.</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Firma_XML" target="_blank" title="Firma XML">XMLDsig</a>:<ul>
+<li>Define una sintaxis <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a> para soporte a la firma digital.</li>
+<li>Permite firmar cualquier tipo de recurso, no solo <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a>.</li>
+<li>Existen varios modos: detached signature, enveloped signature y enveloping signature.</li>
+</ul>
+</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/PAdES" target="_blank" title="Firmas Electrónicas Avanzadas de PDF">PAdES</a> (PDF Advanced Electronic Signature)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/S/MIME" target="_blank" title="Extensiones de Correo de Internet de Propósitos Múltiples / Seguro">S/MIME</a> (Secure / Multipurpose Internet Mail Extensions)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Contenedores_de_firmas_asociadas" target="_blank" title="Contenedores de firmas asociadas">ASiC</a> (Associated Signature Container)<ul>
+<li>Define una estructura de contenedor para englobar: archivo, firma y <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">sello de tiempo</a></li>
+<li>El contenedor está basado en zip</li>
+</ul>
+</li>
+</ul>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)" target="_blank" title="Firmas Electrónicas Avanzadas CMS">CAdES</a> y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a> son respectivamente versiones <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_avanzada" target="_blank" title="Firma electrónica avanzada">AdES</a> de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Cryptographic_Message_Syntax" target="_blank" title="Cryptographic Message Syntax">CMS</a> y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Firma_XML" target="_blank" title="Firma XML">XMLDsig</a>.</p>
+<p>En <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)" target="_blank" title="Firmas Electrónicas Avanzadas CMS">CAdES</a> y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a>, según donde se guarde la firma, tenemos:</p>
+<ul>
+<li>El fichero firma incluye el documento original (en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Base64" target="_blank">base64</a> o una
+referencia con un hash del documento):<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)" target="_blank" title="Firmas Electrónicas Avanzadas CMS">CAdES</a> attached/implicit (implícita): el fichero de firma envuelve el propio contenido firmado de forma que, para acceder al contenido, es necesario interpretar la firma</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a> internally detached (desplegada): documento y firma son nodos al mismo
+nivel del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a>, vinculados por una relación interna</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a> enveloping (envolvente): el nodo de la firma contiene el nodo del
+contenido</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a> enveloped (envuelta): el nodo del contenido contiene el nodo de la
+firma (ej: Factura electrónica)</li>
+</ul>
+</li>
+<li>El fichero firma no incluye el documento original:<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)" target="_blank" title="Firmas Electrónicas Avanzadas CMS">CAdES</a> detached/explicit (explicita)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a> externally detached (despegada): similar al <em>internally detached</em> pero
+realmente no incluye el documento original, si no una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme" target="_blank" title="Localizador de recursos uniforme">URL</a> a su localización
+sin hash.</li>
+</ul>
+</li>
+</ul>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)" target="_blank" title="Firmas Electrónicas Avanzadas CMS">CAdES</a> y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a> permiten los siguientes <span id="prefil-formato">perfiles de formato</span>:</p>
+<ul>
+<li>BES (Basic Electronic Signature): firma con un formato básico, incluyendo los atributos necesarios para la firma electrónica</li>
+<li>EPES (Explicit Policy Electronic Signature): firma BES más un atributo con el identificador de la política de firma a aplicar (por ejemplo: política de firma de la <abbr class="abbr" title="Administración General del Estado">AGE</abbr> v1.9 urn:oid:2.16.724.1.3.1.1.2.1.9)</li>
+<li>T (Timestamped): añade un <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">sello de tiempo</a> sobre cualquiera de las anteriores.</li>
+<li>C (Complete): añade referencias a datos de verificación (certificados y listas de revocación).</li>
+<li>X (Extended): añade un <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-de-tiempo" target="_blank" title="Asignación por medios electrónicos de una fecha y hora a un documento electrónico con la intervención de un prestador de servicios de certificación que asegure la exactitud e integridad de la marca de tiempo del documento.">sello de tiempo</a> a C (Complete) para proteger contra el posible compromiso de validez en el futuro.</li>
+<li>XL (eXtended Long-term): añade certificados y evidencias de revocación (ej. <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_revocaci%C3%B3n_de_certificados" target="_blank" title="Listas de revocación de certificados">CRL</a> o respuestas <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Online_Certificate_Status_Protocol" target="_blank" title="Protocolo de comprobación del Estado de un Certificado En línea">OCSP</a>), para permitir la verificación en el futuro, incluso si su fuente original no estuviera disponible.</li>
+<li>A (Archival): añade sellos de tiempo posteriores periódicamente (re-sellado)
+para garantizar la integridad de la firma, ya que de otro modo el paso del tiempo
+haría que tarde o temprano el algoritmo con que se firmo quedara obsoleto.</li>
+</ul>
+<p>Las dos últimas son una forma de implementar la <em><abbr class="abbr" title="Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez">firma longeva</abbr></em>, aunque la <code>XL</code>
+solo dura lo que dure su sello, mientras que la <code>A</code> durara mientras se siga
+re-sellando.</p>
+<fieldset class="firma_ades">
+<legend>A</legend><div>
+<fieldset class="nivel_conformidad_eidas">
+<legend>X-L</legend><div>
+<fieldset>
+<legend>X</legend><div>
+<fieldset>
+<legend>C</legend><div>
+<fieldset class="nivel_conformidad_eidas">
+<legend>T</legend><div>
+<fieldset class="firma_ades_leaf nivel_conformidad_eidas">
+<legend>BES</legend>
+<p>Signed info</p>
+<p>Signature</p>
+<p>Key info</p>
+<p>Signed properties</p>
+<p>Unsigned properties</p>
+</fieldset>
+<p>Sellado de tiempo sobre la firma electrónica</p>
+</div></fieldset>
+<p>Referencias a las listas de revocación y a los certificados</p>
+</div></fieldset>
+<p>Sellado de tiempo sobre las referencias a los certificados y las listas de revocación</p>
+</div></fieldset>
+<p>Certificados y listas de revocación</p>
+</div></fieldset>
+<p>Secuencia de sellados de tiempo</p>
+</div></fieldset>
+<p>(*) En azul los niveles de conformidad que deben ser admitidos según el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/EIDAS" target="_blank" title="Sistema europeo de reconocimiento de identidades electrónicas">eIDAS</a> (más detalles abajo).</p>
+<h2 class="anchormark" id="protocolos-de-directorio">
+<a aria-hidden="true" class="anchormark" href="#protocolos-de-directorio"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Protocolos de directorio</h2>
+<p>Un servicio de directorio es una aplicación que almacena de forma organizada
+información sobre los usuarios de un sistema y sobre el sistema en sí. Ejemplos:</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.500" target="_blank" title="Estandar ITU-T para servicios de directorio (parecido a LDAP)">X.500</a></strong> es el estándar de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Sector_de_Normalizaci%C3%B3n_de_las_Telecomunicaciones_de_la_UIT" target="_blank" title="Comité Consultivo Internacional Telegráfico y Telefónico">ITU-T</a>, se caracteriza por ser flexible pero complejo.
+Caracteristicas:</p>
+<ul>
+<li>Su arquitectura se divide en DIB (Directory Information Base), DSA
+(Directory System Agent) y DUA (Directory User Agent)</li>
+<li>La información se organiza como un árbol jerarquizado
+y se almacena como objetos atributo-valor en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ASN.1" target="_blank" title="Notación sintáctica abstracta 1">ASN.1</a></li>
+<li>Un <abbr class="abbr" title="Nombre distinguido relativo (usado en LDAP y X.509)">RDN</abbr> (Relative Distinguish Name) identifica un nivel del árblol</li>
+<li>Un <abbr class="abbr" title="Nombre distinguido (usado en LDAP y X.509)">DN</abbr> (Distinguish Name) es un identificador completo y único de cada entrada del árbol</li>
+</ul>
+<div class="figgroup figgroup2"><figure class="fig" id="fg 1"><img alt="Arquitectura X.500" src="https://networkencyclopedia.com/wp-content/uploads/2019/08/x500-directory-service.jpg?ezimgfmt=ng:webp/ngcb2" title="Esquema de arquitectura X.500"/><figcaption>Figura 1: Esquema de arquitectura <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.500" target="_blank" title="Estandar ITU-T para servicios de directorio (parecido a LDAP)">X.500</a></figcaption></figure><figure class="fig" id="fg 2"><img alt="Ejemplo de RDN y DN en LDAP" src="img/ldap.png" title="Ejemplo de RDN y DN en LDAP"/><figcaption>Figura 2: Ejemplo de <abbr class="abbr" title="Nombre distinguido relativo (usado en LDAP y X.509)">RDN</abbr> y <abbr class="abbr" title="Nombre distinguido (usado en LDAP y X.509)">DN</abbr> en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios" target="_blank" title="Protocolo ligero de acceso a directorios (derivado de X.500)">LDAP</a></figcaption></figure></div>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Protocolo_ligero_de_acceso_a_directorios" target="_blank" title="Protocolo ligero de acceso a directorios (derivado de X.500)">LDAP</a></strong> fue originalmente un protocolo alternativo para acceder
+a servicios de directorio <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.500" target="_blank" title="Estandar ITU-T para servicios de directorio (parecido a LDAP)">X.500</a> a través de la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet" target="_blank" title="Familia de protocolos de internet">pila de protocolos TCP/IP</a>
+en vez de usar el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Modelo_OSI" target="_blank" title="Modelo OSI">modelo OSI</a> (requisito de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Directory_Access_Protocol" target="_blank" title="Directory Access Protocol">DAP</a> en aquel entonces)
+pero actualmente cubre toda la solución, no solo el protocolo entre usuario
+y servidor.</p>
+<ul>
+<li>Es compatible con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/X.500" target="_blank" title="Estandar ITU-T para servicios de directorio (parecido a LDAP)">X.500</a>, usa la misma estructura y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ASN.1" target="_blank" title="Notación sintáctica abstracta 1">ASN.1</a></li>
+<li>Usa el puerto 389, y para <abbr class="abbr" title="LDAP sobre SSL">LDAPS</abbr> el puerto 636</li>
+<li>Además de <abbr class="abbr" title="Nombre distinguido relativo (usado en LDAP y X.509)">RDN</abbr> y <abbr class="abbr" title="Nombre distinguido (usado en LDAP y X.509)">DN</abbr> permite alias y registros referenciales</li>
+<li>Es estándar de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Grupo_de_Trabajo_de_Ingenier%C3%ADa_de_Internet" target="_blank" title="Grupo de Trabajo de Ingeniería de Internet">IETF</a> (<a class="abbr ietf_org" href="https://www.ietf.org/rfc/rfc2251.txt" target="_blank">RFC 2251</a> y <a class="abbr ietf_org" href="https://www.ietf.org/rfc/rfc2256.txt" target="_blank">RFC 2256</a>) y abierto</li>
+<li>Se puede usar con <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format" target="_blank" title="LDAP Data Interchange Format">LDIF</a> para trabajar con los datos en formato ASCII (lo que no sea texto lo codificará en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Base64" target="_blank">Base64</a>)</li>
+</ul>
+<h2 class="anchormark" id="mecanismos-de-identificacion-y-control-de-acceso">
+<a aria-hidden="true" class="anchormark" href="#mecanismos-de-identificacion-y-control-de-acceso"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Mecanismos de identificación y control de acceso</h2>
+<p>El <strong>control de acceso</strong> consta de tres procesos (AAA):</p>
+<ul>
+<li><strong>Autenticación</strong>: verificar la identidad del usuario que solicita acceso</li>
+<li><strong>Autorización</strong>: determinar las acciones permitidas al usuario. <a class="wikipedia" href="https://es.wikipedia.org/wiki/Control_de_acceso" target="_blank">Políticas de acceso</a>:<ul>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Control_de_acceso_discrecional" target="_blank" title="Control de acceso discrecional">DAC</a>:
+Cada objeto esta asociado a una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lista_de_control_de_acceso" target="_blank" title="Lista de control de acceso">ACL</a> que contiene el nivel de acceso de cada usuario/grupo.</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Control_de_acceso_obligatorio" target="_blank" title="Control de acceso obligatorio">MAC</a>:
+Los derechos de acceso son establecidos por una entidad central</li>
+<li><a class="wikipedia" href="https://en.wikipedia.org/wiki/Role-based_access_control" target="_blank" title="Acceso basado en roles">RBAC</a>:
+El nivel de acceso esta asociado a roles de manera que los usuarios tienen el acceso
+del rol que este ocupando en ese momento, el cual puede cambiar</li>
+</ul>
+</li>
+<li><strong>Trazabilidad</strong>: monitorizar y registrar los permisos concedidos y los recursos accedidos</li>
+</ul>
+<p>Los métodos de autenticanción usan uno o más de los siguientes <strong>factores de autenticanción</strong>:</p>
+<ul>
+<li><strong>Factor de conocimiento</strong>: algo que el usuario sabe (ej: contraseña)</li>
+<li><strong>Factor de posesión</strong>: algo que el usuario tiene (ej: móvil)</li>
+<li><strong>Factor de inherencia</strong>: algo que el usuario es (ej: huella dactilar)</li>
+<li><strong>Factor de conducta</strong>: algo que el usuario hace</li>
+</ul>
+<p>Una <strong>autenticanción fuerte</strong> ha de usar al menos dos factores.</p>
+<p>Un <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/HSM" target="_blank" title="Módulo de Seguridad de Hardware">HSM</a></strong> es un dispositivo criptográfico basado en hardware que genera, almacena y protege
+claves criptográficas. Puede ser empleado para realizar firmas remotas o firmas en la nube.
+Un ejemplo es <em><a class="abbr clave_gob_es" href="https://clave.gob.es/clave_Home/dnin/queEs.html" target="_blank" title="Permite realizar firma electrónica mediante certificados electrónicos centralizados (almacenados y custodiados por la AP)">Cl@ve Firma</a></em>.</p>
+<h3 class="anchormark" id="dni-electronico">
+<a aria-hidden="true" class="anchormark" href="#dni-electronico"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+DNI electrónico</h3>
+<p>El <strong>DNI electrónico</strong> permite acreditar la identidad
+y firmar documentos otorgándoles validez jurídica,
+pero no permite cifrado de datos del usuario.
+El <a class="abbr dnielectronico_es" href="https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_103&amp;id_menu=1" target="_blank" title="DNI electrónico">DNIe</a> reparte su contenido en dos zonas:</p>
+<ul>
+<li>Zona pública: accesible en solo lectura y sin más restricciones:<ul>
+<li>Claves <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Diffie-Hellman" target="_blank" title="Protocolo de establecimiento de claves entre partes sin contacto previo, utilizando un canal inseguro y de manera anónima">Diffie-Hellman</a></li>
+<li>Certificado cualificado <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a> emisora (clave pública de root <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a> para certificados <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Card_Verifiable_Certificate" target="_blank" title="Certificados verificable por tarjeta (ej de uso: tarjetas inteligentes)">card-verifiables</a>)</li>
+<li>Certificado cualificado de autenticación (<a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/DigitalSignature" target="_blank" title="Al firmar con este certificado queda acreditada la identidad del firmante (KeyUsage)">digitalSignature</a>)</li>
+<li>Certificado cualificado de firma (<a class="abbr ldapwiki_com" href="https://ldapwiki.com/wiki/NonRepudiation" target="_blank" title="Un documento firmado por este certificado no puede repudiarse (KeyUsage actualmente renombrado como contentCommitment)">nonRepudiation</a>)</li>
+</ul>
+</li>
+<li>Zona seguridad: accesible en solo lectura y sólo en puntos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_General_de_la_Polic%C3%ADa" target="_blank" title="Dirección General de la Policía (Ministerio del Interior)">DGP</a>:<ul>
+<li>Datos de filiación e ID</li>
+<li>Imagen de la fotografiá</li>
+<li>Imagen de la firma manuscrita</li>
+<li>Datos biométricos</li>
+</ul>
+</li>
+</ul>
+<p>Para el <a class="abbr dnielectronico_es" href="https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_103&amp;id_menu=1" target="_blank" title="DNI electrónico">DNIe</a> el Ministerio de Interior (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_General_de_la_Polic%C3%ADa" target="_blank" title="Dirección General de la Policía (Ministerio del Interior)">DGP</a>) hace de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a> y la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/F%C3%A1brica_Nacional_de_Moneda_y_Timbre" target="_blank" title="Fábrica Nacional de Moneda y Timbre">FNMT</a> y <a class="abbr antiguo wikipedia" href="https://es.wikipedia.org/wiki/Ministerio_de_Hacienda_(Espa%C3%B1a)" target="_blank" title="Hasta 2021 fue el Ministerio de Hacienda">MINHAC</a> hace de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_validaci%C3%B3n" target="_blank" title="Autoridad de Validación">VA</a>.</p>
+<h1 class="anchormark" id="regulacion-y-administracion-publica">
+<a aria-hidden="true" class="anchormark" href="#regulacion-y-administracion-publica"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Regulación y Administración Pública</h1>
+<h2 class="anchormark" id="conceptos-eidas">
+<a aria-hidden="true" class="anchormark" href="#conceptos-eidas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/EIDAS" target="_blank" title="Sistema europeo de reconocimiento de identidades electrónicas">eIDAS</a></h2>
+<p>Del cumplimiento del <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/EIDAS" target="_blank" title="Sistema europeo de reconocimiento de identidades electrónicas">eIDAS</a></strong> (<a class="abbr ley eur-lex_europa_eu" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32014R0910" target="_blank" title="Identificación electrónica y servicios de confianza">reglamento UE 910/2014</a>) se derivan las siguientes
+definiciones:</p>
+<p><strong><a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada" target="_blank" title="Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.">Firma avanzada</a></strong>: firma electrónica que cumple los requisitos:</p>
+<ul>
+<li>estar vinculada al firmante de manera única</li>
+<li>permitir la identificación del firmante</li>
+<li>haber sido creada utilizando datos de creación de la firma electrónica que el firmante puede utilizar,
+con un alto nivel de confianza, bajo su control exclusivo</li>
+<li>estar vinculada con los datos firmados por la misma de modo tal que cualquier modificación ulterior
+de los mismos sea detectable</li>
+</ul>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_cualificada" target="_blank">Firma electrónica cualificada</a></strong>: <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada" target="_blank" title="Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.">firma electrónica avanzada</a> que se crea
+mediante un dispositivo cualificado de creación de firmas electrónicas
+y que se basa en un certificado cualificado de firma electrónica.
+A efectos jurídicos este tipo de firma:</p>
+<ul>
+<li>tendrá un efecto equivalente al de una firma manuscrita</li>
+<li>y si además esta basada en un certificado cualificado emitido en un estado
+miembro será reconocida como una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_cualificada" target="_blank">firma electrónica cualificada</a>
+en todos los demás <abbr class="abbr" title="Estados miembros">EEMM</abbr>.</li>
+</ul>
+<p><strong>Dispositivo cualificado de creación de firma electrónica</strong>:
+dispositivo de creación de firmas electrónicas que cumple los requisitos:</p>
+<ul>
+<li>estar garantizada razonablemente la confidencialidad de los datos de creación
+de firma electrónica utilizados para la creación de firmas electrónicas</li>
+<li>los datos de creación de firma electrónica utilizados para la creación de
+firma electrónica solo puedan aparecer una vez en la práctica</li>
+<li>existe la seguridad razonable de que los datos de creación de firma electrónica utilizados para la
+creación de firma electrónica no pueden ser hallados por deducción y de que la firma está protegida
+con seguridad contra la falsificación mediante la tecnología disponible en el momento</li>
+<li>los datos de creación de la firma electrónica utilizados para la creación de firma electrónica puedan
+ser protegidos por el firmante legítimo de forma fiable frente a su utilización por otros</li>
+</ul>
+<p><strong>Certificado cualificado de firma electrónica</strong>: certificado de firma electrónica
+que ha sido expedido por un prestador cualificado de servicios de confianza
+y que cumple, entre otros, los requisitos siguientes:</p>
+<ul>
+<li>Indicar si ha sido expedido como certificado cualificado</li>
+<li>Indicar si los datos de validación se encuentran en un dispositivo cualificado
+de firma.</li>
+<li>Contener el nombre del firmante o, en su caso, un seudónimo claramente establecido como tal</li>
+</ul>
+<p><strong><a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico-cualificado" target="_blank" title="Sello electrónico avanzado que se crea mediante un dispositivo cualificado de creación de sellos electrónicos y que se basa en un certificado cualificado de sello electrónico.">Sello cualificado</a> de tiempo electrónico</strong>:
+<a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico" target="_blank" title="Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.">Sello electrónico</a> avanzado que cumple con los siguientes requisitos:</p>
+<ul>
+<li>Vincular la fecha y hora con los datos de forma que se elimine
+la posibilidad de modificar los datos sin que se detecte.</li>
+<li>Basarse en una fuente de información temporal vinculada al Tiempo Universal Coordinado.</li>
+<li>Haber sido firmada mediante el uso de <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada" target="_blank" title="Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.">firma electrónica avanzada</a> o sellada
+con un <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico" target="_blank" title="Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.">sello electrónico</a> avanzado del prestador cualificado de servicios de
+confianza o por cualquier método equivalente.</li>
+</ul>
+<p>Un <strong>certificado cualificado de <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico" target="_blank" title="Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.">sello electrónico</a></strong> debe contener al menos,
+el nombre del creador y, cuando proceda, su número de registro oficial.</p>
+<p><strong>Certificado cualificado de autenticación de sitio web</strong>: Certificado de
+autenticación de sitio web que cumple con los siguientes requisitos:</p>
+<ul>
+<li>se expide a una persona física o jurídica, identificada en el propio certificado</li>
+<li>deberá aparecer al menos su ciudad y estado</li>
+<li>contiene el/los nombre/s de dominio explotados por la persona física o
+jurídica a la que se expida el certificado</li>
+</ul>
+<p><strong>Servicio de confianza cualificado</strong>: servicio de confianza que cumple los
+requisitos aplicables del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/EIDAS" target="_blank" title="Sistema europeo de reconocimiento de identidades electrónicas">eIDAS</a>.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza#Funci%C3%B3n_de_un_prestador_de_servicio_de_confianza_cualificado" target="_blank" title="Prestador cualificado de servicios de confianza">QTSP</a></strong>: prestador de servicios de confianza que presta servicios
+de confianza cualificados y al que el organismo de supervisión ha concedido la
+cualificación.</p>
+<p><strong>Lista de servicios de confianza <a class="abbr sede_serviciosmin_gob_es" href="https://sede.serviciosmin.gob.es/prestadores/paginas/inicio.aspx" target="_blank" title="Lista de confianza de prestadores cualificados de servicios electrónicos de confianza">TSL</a></strong>: Lista de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza" target="_blank" title="Prestador de servicios de confianza">TSPs</a> que expiden certificados
+cualificados (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza#Funci%C3%B3n_de_un_prestador_de_servicio_de_confianza_cualificado" target="_blank" title="Prestador cualificado de servicios de confianza">QTSP</a>). Cada <abbr class="abbr" title="Estado miembro">EM</abbr> de la <abbr class="abbr" title="Unión Europea">UE</abbr> debe publicar y mantener su propia lista.
+Ejemplos del sector público:</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n" target="_blank" title="Autoridad de certificación">CA</a> de confianza: Ministerio del Interior <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_General_de_la_Polic%C3%ADa" target="_blank" title="Dirección General de la Policía (Ministerio del Interior)">DGP</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_validaci%C3%B3n" target="_blank" title="Autoridad de Validación">VA</a> de confianza: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/F%C3%A1brica_Nacional_de_Moneda_y_Timbre" target="_blank" title="Fábrica Nacional de Moneda y Timbre">FNMT</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Autoridad_de_registro" target="_blank" title="Autoridad de Registro">RA</a> de confianza: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Agencia_Estatal_de_Administraci%C3%B3n_Tributaria" target="_blank" title="Agencia Estatal de Administración Tributaria">AEAT</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Direcci%C3%B3n_General_de_la_Polic%C3%ADa" target="_blank" title="Dirección General de la Policía (Ministerio del Interior)">DGP</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Seguridad_social" target="_blank" title="Seguridad Social">SegSoc</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Correos_(Espa%C3%B1a)" target="_blank" title="Sociedad Estatal Correos y Telégrafos">SocEst Correos y Telégrafos</a></li>
+</ul>
+<h2 class="anchormark" id="regulacion">
+<a aria-hidden="true" class="anchormark" href="#regulacion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Regulación</h2>
+<p>Los tipos de firma exigidos por el sector público son, de menor a mayor
+nivel de garantía:</p>
+<ol>
+<li><a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada" target="_blank" title="Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.">firma electrónica avanzada</a></li>
+<li><a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/firma-electr%C3%B3nica-avanzada" target="_blank" title="Firma electrónica que permite identificar al firmante y detectar cualquier cambio ulterior de los datos firmados, que está vinculada al firmante de manera única y a los datos a que se refiere y que ha sido creada por medios que el firmante puede mantener bajo su exclusivo control.">firma electrónica avanzada</a> basada en un certificado cualificada de firma electrónica</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Firma_electr%C3%B3nica_cualificada" target="_blank">firma electrónica cualificada</a></li>
+</ol>
+<p>Siendo normalmente exigido el nivel 1 o 2, y siempre aceptándose cualquier
+certificado de nivel superior al exigido pero nunca exigiendo una firma
+superior a la cualificada.</p>
+<p>En la <a class="abbr ley eur-lex_europa_eu" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=uriserv%3AOJ.L_.2015.235.01.0037.01.SPA" target="_blank" title="Formatos de firmas electrónicas avanzadas y sellos avanzados que deben reconocer el sector público">decisión de ejecución UE 2015/1506</a> se establece que <strong>los formatos</strong> de firmas
+electrónicas avanzadas y sellos avanzados <strong>que deben reconocer el sector público</strong>
+son <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Xades" target="_blank" title="Firma electrónica avanzada XML">XAdES</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/CAdES_(inform%C3%A1tica)" target="_blank" title="Firmas Electrónicas Avanzadas CMS">CAdES</a> o <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/PAdES" target="_blank" title="Firmas Electrónicas Avanzadas de PDF">PAdES</a> en niveles de conformidad B, T o LT (XL), y los
+contenedores <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Contenedores_de_firmas_asociadas" target="_blank" title="Contenedores de firmas asociadas">ASiC</a>.</p>
+<p>Adicionalmente, los sistemas de <strong>clave concertada</strong> se aceptan como sistema de
+identificación en el Art. 9 de la <a class="abbr ley boe_es" href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565" target="_blank" title="Procedimiento Administrativo Común de las AAPP (Ley 39/2015)">Ley 39/2015</a> y se basan en el registro previo del usuario,
+durante el cual se acuerda una clave a usar con el proveedor y que garantiza la
+identidad del usuario, sin ser necesario un certificado electrónico.<br/>
+Un ejemplo sería <a class="abbr clave_gob_es" href="https://clave.gob.es/clave_Home/Clave-Permanente/queEs.html" target="_blank" title="Acceso mediante usuario y contraseña, reforzado con claves de un solo uso por SMS (permite firma en nube)">Cl@ve Permanente</a> o cualquier otro sistema de usuario-contraseña.</p>
+<p>En la <a class="abbr ley boe_es" href="https://www.boe.es/buscar/doc.php?id=BOE-A-2017-8393" target="_blank" title="Condiciones de uso de firma electrónica no criptográfica (SGAD) (Resolución de 14 de julio de 2017)">resolución de 14 de julio de 2017</a> de la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Secretar%C3%ADa_General_de_Administraci%C3%B3n_Digital" target="_blank" title="Secretaría General de Administración Digital">SGAD</a> se establece que el uso de
+firma electrónica no criptográfica ha de garantizar igualmente la autenticidad,
+integridad y no repudio cumpliendo lo siguiente:</p>
+<ul>
+<li>Utilizar un <a class="abbr dpej_rae_es" href="https://dpej.rae.es/lema/sello-electr%C3%B3nico" target="_blank" title="Sello electrónico: datos en formato electrónico anejos a otros datos con este mismo formato, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos.">sello electrónico</a> cualificado del organismo que incluya un sello
+de tiempo</li>
+<li>Garantizar la autenticidad del firmante vía <a class="abbr clave_gob_es" href="https://clave.gob.es/clave_Home/clave/queEs.html" target="_blank" title="Sistema orientado a unificar y simplificar el acceso electrónico de los ciudadanos a los servicios públicos">Cl@ve</a></li>
+<li>Recoger evidencias para la verificación de identidad. Dichas evidencias también
+han de sellarse</li>
+<li>Devolver un justificante <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/C%C3%B3digo_Seguro_de_Verificaci%C3%B3n" target="_blank" title="Código Seguro de Verificación">CSV</a> verificable en sede</li>
+<li>Incluir un campo check para que el interesado exprese consentimiento y voluntad
+de firma</li>
+</ul>
+<h3 class="anchormark" id="identificacion-electronica-transfronteriza">
+<a aria-hidden="true" class="anchormark" href="#identificacion-electronica-transfronteriza"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Identificación electrónica transfronteriza</h3>
+<p>El <strong>reconocimiento mutuo</strong> entre <abbr class="abbr" title="Estados miembros">EEMM</abbr> implica que cuando se necesite acceder
+a un servicio en linea del sector público se debe reconocer los medios de
+identificación electrónica expedidos por otros <abbr class="abbr" title="Estados miembros">EEMM</abbr> siempre que:</p>
+<ol>
+<li>el medio de identificación haya sido expedido por un sistema incluido
+en la <strong><a class="administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Identidad_y_firmaelectronica/Nodo-eIDAS/Sistemas-de-identificacion-electronica-notificados.html" target="_blank">lista publicada por la Comisión Europea</a></strong></li>
+<li>el servicio en linea use un nivel de seguridad <strong>sustancial o alto</strong></li>
+<li>el <strong>nivel de seguridad</strong> del medio de identificación es igual o superior
+al requerido por el servicio en linea</li>
+</ol>
+<p>Este reconocimiento debe producirse a más tardar 12 meses después de que
+la Comisión publique la lista.</p>
+<p>Opcionalmente, un <abbr class="abbr" title="Estado miembro">EM</abbr> podrá aceptar también medios de identificación
+con nivel de seguridad bajo que estén incluidos en la lista de la Comisión.</p>
+<p>Un sistema de identificación electrónica podrá ser incluido en la lista
+(a esto lo llaman <strong>ser objeto de notificación</strong>) cuando:</p>
+<ol>
+<li>el <abbr class="abbr" title="Estado miembro">EM</abbr> responsable garantiza la disponibilidad de la autenticacíon
+en linea de manera que otro <abbr class="abbr" title="Estado miembro">EM</abbr> pueda obtener y confirmar los datos de identificación
+de la persona autenticada por ese medio (nodos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/EIDAS" target="_blank" title="Sistema europeo de reconocimiento de identidades electrónicas">eIDAS</a>)</li>
+<li>cumple con los requisitos de al menos uno de los <strong>niveles de seguridad</strong> previstos:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Nivel de seguridad</th>
+<th>Grado de confianza en<br/> la identidad declarada<br/> del usuario</th>
+<th>El objetivo es [...]<br/> el riesgo de uso indebido<br/> o alteración de la identidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>bajo</th>
+<td>limitado</td>
+<td>reducir</td>
+</tr>
+<tr>
+<th>sustancial</th>
+<td>sustancial</td>
+<td>reducir sustancialmente</td>
+</tr>
+<tr>
+<th>alto</th>
+<td>superior</td>
+<td>evitar</td>
+</tr>
+</tbody>
+</table>
+<h3 class="anchormark" id="requisitos-para-los-tsp">
+<a aria-hidden="true" class="anchormark" href="#requisitos-para-los-tsp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Requisitos para los <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza" target="_blank" title="Prestador de servicios de confianza">TSP</a></h3>
+<ol>
+<li>Aportar medidas técnicas y organizativas que gestiones los riesgos para la seguridad</li>
+<li>En un <strong>plazo máximo de 24 horas</strong> tras tener conocimiento de una violación de seguridad
+o perdida de integridad debe:<ul>
+<li>notificarla al <strong>organismo de supervisión</strong> y, en caso pertinente, a otros
+organismos relevantes como el <strong>organismo nacional de seguridad</strong> o la
+<strong>autoridad de protección de datos</strong>.</li>
+<li>notificarla a la persona física o jurídica que puedan haberse visto afectadas
+por el fallo</li>
+<li>a su vez el organismo de supervisión notificado:<ul>
+<li>avisara a <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Agencia_Europea_de_Seguridad_de_las_Redes_y_de_la_Informaci%C3%B3n" target="_blank" title="Agencia Europea de Seguridad de las Redes y de la Información">ENISA</a></strong> y a los organismos de supervisión de otros <abbr class="abbr" title="Estados miembros">EEMM</abbr> que
+pudieran haber sido afectados</li>
+<li>informará al público (o exigirá al prestador que lo haga) si considera
+que la violación reviste interés general</li>
+<li>facilitará a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Agencia_Europea_de_Seguridad_de_las_Redes_y_de_la_Informaci%C3%B3n" target="_blank" title="Agencia Europea de Seguridad de las Redes y de la Información">ENISA</a> un resumen anual de notificaciones de violaciones de
+seguridad recibidas</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Además de lo anterior, los <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza#Funci%C3%B3n_de_un_prestador_de_servicio_de_confianza_cualificado" target="_blank" title="Prestador cualificado de servicios de confianza">QTSP</a> deberán también:</p>
+<ol>
+<li>informar al organismo de supervisión de cualquier cambio en la prestación del servicio</li>
+<li>contar con personal y subcontratistas con conocimientos especializados,
+fiabilidad, experiencia, cualificación y formación necesarias</li>
+<li>mantener <strong>recursos financieros</strong> suficientes o <strong>pólizas de seguros</strong> de responsabilidad</li>
+<li>informar de manera clara y comprensible a los potenciales usuarios de las
+condiciones y limitaciones de su servicio</li>
+<li>utilizar sistemas y productos fiables que estén protegidos contra toda
+alteración y que garanticen la seguridad y fiabilidad técnica</li>
+<li>utilizar sistemas fiables para almacenar los datos de forma verificable</li>
+<li>implementar medidas contra la falsificación y el robo del dato</li>
+<li><strong>registrar</strong> y mantener toda información pertinente sobre <strong>datos expedidos y recibidos</strong></li>
+<li>tener un <strong>plan de cese actualizado</strong></li>
+<li>garantizar un tratamiento licito de datos personales</li>
+</ol>
+<p>y si expiden certificados cualificados:</p>
+<ol>
+<li>mantener una <strong>base de datos de certificados cualificados expedidos</strong></li>
+<li>informaran de forma automatizada, fiable y gratuita a cualquier usuario
+del estado de validez o revocación de los certificados</li>
+<li>cumplir en un plazo máximo de <strong>24 horas</strong> con las <strong>solicitudes de revocación</strong>,
+dejando registro de dicha revocación en su base de datos y publicando el
+estado de la revocación, momento en el cual se hace efectiva</li>
+</ol>
+<p>El <strong>organismo de supervisión</strong> de cada <abbr class="abbr" title="Estado miembro">EM</abbr> supervisa los <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza#Funci%C3%B3n_de_un_prestador_de_servicio_de_confianza_cualificado" target="_blank" title="Prestador cualificado de servicios de confianza">QTSP</a> tanto
+preventivamente como cuando surge una incidencia, mientras que con los demás
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza" target="_blank" title="Prestador de servicios de confianza">TSP</a> solo interviene a posteriori, tras recibir información de que no se cumple
+la regulación.</p>
+<p>Los <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prestador_de_servicios_de_confianza#Funci%C3%B3n_de_un_prestador_de_servicio_de_confianza_cualificado" target="_blank" title="Prestador cualificado de servicios de confianza">QTSP</a> deben pasar (y pagar) <strong>una auditoria al menos cada 2 años</strong>.
+Adicionalmente el organismo supervisor puede ordenar (y pagar)
+una auditoria en cualquier momento.</p>
+<p>El incumplimiento de los requisitos puede acarrear la perdida de la cualificación.</p>
+<h2 class="anchormark" id="servicios-comunes-para-firma-electronica">
+<a aria-hidden="true" class="anchormark" href="#servicios-comunes-para-firma-electronica"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Servicios comunes para firma electrónica</h2>
+<p><strong>Suite <a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Servicios_Comunes_Firma_Electronica/FAQ-AFIRMA.html" target="_blank" title="Solución tecnológica en la que se basa la Plataforma de validación y firma electrónica">@firma</a></strong>, la cual se compone de:</p>
+<ul>
+<li>Plataforma <a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Servicios_Comunes_Firma_Electronica/FAQ-AFIRMA.html" target="_blank" title="Solución tecnológica en la que se basa la Plataforma de validación y firma electrónica">@firma</a>: permite la validación de certificados digitales mediante
+llamadas a WS</li>
+<li><a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/ctt/valide" target="_blank" title="Servicio de Validación de Firmas y Certificados Online">VALIDe</a>: permite la validación manual de firmas, certificados, y visualizar y
+realizar firmas</li>
+<li><a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/ctt/tsa" target="_blank" title="Plataforma de Sellado de Tiempo TS@">TS@</a>: permite realizar sellados y resellados de tiempo (<abbr class="abbr" title="Firma que incluye un sello de tiempo, el cual se actualiza periódicamente, que da fe de su validez">firma longeva</abbr>)</li>
+<li><a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/ctt/clienteafirma" target="_blank" title="Herramienta de firma electrónica en entornos de escritorio y dispositivos móviles">Cliente @firma</a> (<a class="abbr firmaelectronica_gob_es" href="https://firmaelectronica.gob.es/Home/Descargas.html" target="_blank" title="Aplicación de firma electrónica">Autofirma</a>): permite la realización firmas en el cliente</li>
+<li><a class="abbr clave_gob_es" href="https://clave.gob.es/clave_Home/dnin/queEs.html" target="_blank" title="Permite realizar firma electrónica mediante certificados electrónicos centralizados (almacenados y custodiados por la AP)">Cl@ve firma</a>: permite la realización de firmas con certificado electrónico en la nube</li>
+<li><a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/ctt/integra" target="_blank" title="Librería para la integración de una aplicación con los servicios WS de @Firma">Integr@</a>: facilita la integración con <a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Racionaliza_y_Comparte/elementos_comunes/Servicios_Comunes_Firma_Electronica/FAQ-AFIRMA.html" target="_blank" title="Solución tecnológica en la que se basa la Plataforma de validación y firma electrónica">@firma</a> y la realización de firma en
+servidor (sello del organismo) para entornos Java</li>
+</ul>
+<p><strong><a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/ctt/fire" target="_blank" title="Solución que simplifica el uso y realización de firmas electrónicas de usuario">FIRe</a></strong>: solución que simplifica el uso y realización de
+firmas electrónicas de usuario al concentrar en un solo
+componente todos los requisitos de creación de firmas
+basadas tanto en certificados locales como en certificados en
+la nube.</p>
+<p><img alt="Descripción técnica de FIRe" src="https://administracionelectronica.gob.es/ctt/resources/Soluciones/2331/Info%20Adicional/Imagen/Arquitectura%20FIRe.jpg" title="Descripción técnica de FIRe"/></p>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/080</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/081</a></li>
+<li><a class="uv_es" href="https://www.uv.es/sto/articulos/BEI-2003-11/certificados_digitales.html" target="_blank">www.uv.es - Introducción a los certificados digitales</a></li>
+<li><a class="blog_mozilla_org" href="https://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox/" target="_blank">mozilla.org - OCSP Stapling in Firefox</a></li>
+<li><a class="wikipedia" href="https://en.wikipedia.org/wiki/OCSP_stapling" target="_blank">wikipedia.org - OCSP stapling</a></li>
+<li><a class="blog_signaturit_com" href="https://blog.signaturit.com/es/firma-electronica-simple-vs-avanzada" target="_blank">blog.signaturit.com - Firma electrónica avanzada, simple o cualificada, ¿sabes distinguirlas?</a></li>
+<li><a class="avancedigital_mineco_gob_es" href="https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/preguntas-frecuentes.aspx" target="_blank">mineco.gob.es - FAQ Reglamento (UE) Nº 910/2014 y eIDAS</a></li>
+<li><a class="clave_gob_es" href="https://clave.gob.es/clave_Home/dnin/definiciones.html" target="_blank">Cl@ve - definiciones</a></li>
+<li><a class="sede_serviciosmin_gob_es" href="https://sede.serviciosmin.gob.es/es-es/firmaelectronica/paginas/Prestadores-de-servicios-electronicos-de-confianza.aspx" target="_blank">serviciosmin.gob.es - Prestadores de servicios electrónicos de confianza</a></li>
+<li><a class="networkencyclopedia_com" href="https://networkencyclopedia.com/x-500/" target="_blank">networkencyclopedia.com - X.500</a></li>
+<li><a class="firmaelectronica_gob_es" href="https://firmaelectronica.gob.es/Home/Ciudadanos/Formatos-Firma.html" target="_blank">firmaelectronica.gob.es - Formatos de Firma</a></li>
+<li><a class="webs_um_es" href="https://webs.um.es/danielsm/miwiki/lib/exe/fetch.php?id=inicio&amp;cache=cache&amp;media=cursocarm-tema3.pdf" target="_blank">webs.um.es - Formatos de firma electrónica</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B1/01-firma.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

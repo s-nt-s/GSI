@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Bases de datos relacionales</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b3_bbdd" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Bases de datos relacionales</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p>Lenguaje de definición/manipulación/control de datos:</p>
+<ul>
+<li><strong><a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos" target="_blank" title="Lenguaje de definición de datos (Data Definition Language)">DDL</a></strong>: creación, manipulación o borrado de tablas y de todo lo relacionado con ellas como
+los atributos, índices o reglas de integridad (ej: CREATE, DROP, ALTER)</li>
+<li><strong><a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Lenguaje_de_manipulaci%C3%B3n_de_datos" target="_blank" title="Lenguaje de manipulación de datos (Data Manipulation Language)">DML</a></strong>: consultas, inserciones, modificaciones o borrados de los datos
+(ej: SELECT, INSERT, UPDATE, DELETE)</li>
+<li><strong><a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Lenguaje_de_control_de_datos" target="_blank" title="Lenguaje de control de datos (Data Control Language)">DCL</a></strong>: controla el acceso a los datos (ej: GRANT, REVOKE)</li>
+</ul>
+<p>Propiedades <strong>ACID</strong>:</p>
+<ul>
+<li><strong>A</strong>tomicidad: la transacción tiene efecto o no en su totalidad, nunca parcialmente</li>
+<li><strong>C</strong>onsistencia: se debe preservar la integridad y consistencia de la BD</li>
+<li>A<strong>i</strong>slamiento: los cambios no son visibles hasta ejecutar el <em>commit</em></li>
+<li><strong>D</strong>uradero: los cambios se hacen persistente una vez ejecutado el <em>commit</em></li>
+</ul>
+<h1 class="anchormark" id="sgdb">
+<a aria-hidden="true" class="anchormark" href="#sgdb"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos" target="_blank" title="Sistema de gestión de bases de datos">SGDB</a></h1>
+<h2 class="anchormark" id="arquitectura-ansi/x3/sparc">
+<a aria-hidden="true" class="anchormark" href="#arquitectura-ansi/x3/sparc"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_ANSI-SPARC" target="_blank" title="Arquitectura ANSI-SPARC">Arquitectura ANSI/X3/SPARC</a></h2>
+<ol>
+<li><strong>Nivel físico</strong> o interno: describe cómo los datos se almacenan en la base
+de datos y en el hardware del equipo</li>
+<li><strong>Nivel conceptual</strong>: describe los datos que se almacenan dentro de la BD y
+cómo los datos están relacionados entre sí (el <abbr class="abbr" title="Administrador de la base de datos">DBA</abbr> trabaja en este nivel)</li>
+<li><strong>Nivel lógico</strong> o externo: formado por las <em>vistas de usuario</em>, que excluye datos
+irrelevantes y datos que el usuario no está autorizado a acceder (el usuario trabaja en este nivel)</li>
+</ol>
+<p>ANSI establece 3 familias de modelos de datos:</p>
+<ul>
+<li>Modelo <strong>relacional</strong>: al que nos referimos cuando hablamos de <a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos" target="_blank" title="Sistema de gestión de bases de datos">SGDB</a> sin concretar</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/CODASYL" target="_blank">Modelo <strong>codasyl</strong></a>: estructura en red
+donde se establecen relaciones n:m</li>
+<li>Modelo <strong>jerárquico</strong>: presenta una estructura en árbol donde nodos y ramas siguen una relación
+del tipo 1:n</li>
+</ul>
+<h2 class="anchormark" id="concurrencia">
+<a aria-hidden="true" class="anchormark" href="#concurrencia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Concurrencia</h2>
+<p>Los problemas que pueden surgir a raíz de distintas transacciones concurrentes
+(T1 y T2):</p>
+<ul>
+<li><strong>Lectura no repetible</strong>: T1 lee dos veces un valor y no coincide porque entre
+medias T2 lo ha cambiado</li>
+<li><strong>Lectura sucia</strong>: T1 lee un dato modificado por T2 antes de que este haya hecho
+el <em>commit</em> de manera que si T2 falla (rollback) o vuelve a modificar el dato, T1
+habría leído un dato que nunca llego a ser valido</li>
+<li><strong>Lectura fantasma</strong>: T1 hace dos veces la misma consulta y en la segunda obtiene
+más datos porque entre medias T2 añadió nuevas filas</li>
+</ul>
+<p>Esto esta relacionado con los niveles de aislamiento:</p>
+<ul>
+<li><strong>Lectura no comprometida</strong>: Los cambios realizados por las transacciones se encuentran
+disponibles inmediatamente</li>
+<li><strong>Lectura comprometida</strong>: Los cambios solo están disponibles después del <em>commit</em>.
+Precie <em>lecturas sucias</em></li>
+<li><strong>Lectura repetible</strong>: las filas leídas o actualizadas por una transacción quedan
+bloqueadas hasta que finaliza dicha transacción. Previene la <em>lectura sucia</em> y
+la <em>lectura no repetible</em></li>
+<li><strong>Serializable</strong>: las transacciones ejecutadas de manera simultanea producen los
+mismos efectos que si se ejecutaran en serie. Previene todos los problemas</li>
+</ul>
+<table><caption>Niveles de aislamiento</caption>
+<thead>
+<tr>
+<th rowspan="2">Nivel de<br/>aislamiento</th>
+<th colspan="3">Lectura</th>
+</tr>
+<tr>
+<th>sucia</th>
+<th>no repetible</th>
+<th>fantasma</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Lectura <strong>no</strong><br/>comprometida</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+<tr>
+<td>Lectura<br/>comprometida</td>
+<td>NO</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+<tr>
+<td>Lectura<br/>repetible</td>
+<td>NO</td>
+<td>NO</td>
+<td>SI</td>
+</tr>
+<tr>
+<td>Serializable</td>
+<td>NO</td>
+<td>NO</td>
+<td>NO</td>
+</tr>
+</tbody>
+</table>
+<p>El mecanismo de control más usado es el <a class="wikipedia" href="https://es.wikipedia.org/wiki/Bloqueo_de_dos_fases" target="_blank"><strong>Two-phase-locking</strong></a> que garantiza la serialización de las transaciones.
+Su funcionamiento consiste en que cada transacción debe emitir todas las solicitudes
+de bloqueo antes de que pueda emitir cualquier solicitud de desbloqueo. Las <strong>fases</strong> son:</p>
+<ul>
+<li>Fase de expansión (crecimiento): la transacción emite cualquier nueva solicitud
+de bloqueo que se requiera. Las solicitudes de desbloqueo no están permitidas en esta fase.</li>
+<li>Fase de reducción: la transacción libera bloqueos adquiridos en la fase de expansión.
+Las nuevas solicitudes de bloqueo no están permitidas en esta fase.</li>
+</ul>
+<h1 class="anchormark" id="modelo-relacional">
+<a aria-hidden="true" class="anchormark" href="#modelo-relacional"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Modelo_relacional" target="_blank">Modelo relacional</a></h1>
+<p>Propuesto por E.F. Codd en 1970, es un modelo basado en el concepto matemático
+de la teoría de conjuntos, donde los datos se estructuran en forma de relaciones
+modeladas mediante tablas.</p>
+<p>Para manipular la información se utiliza un lenguaje relacional:</p>
+<ul>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/%C3%81lgebra_relacional" target="_blank"><strong>Álgebra relacional</strong></a> permite describir la forma de realizar una consulta</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/C%C3%A1lculo_relacional" target="_blank"><strong>Cálculo relacional</strong></a>
+lenguaje declarativo que permite construir expresiones equivalentes a
+las del álgebra relacional y es la base del lenguaje SQL</li>
+</ul>
+<table><caption>Equivalencia álgebra relacional - sentencias SQL</caption>
+<thead>
+<tr>
+<th>Álgebra relacional</th>
+<th>SQL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selección <code>c(R)</code></td>
+<td>select * from R where c</td>
+</tr>
+<tr>
+<td>Proyección <code>a1, a2 ... an (R)</code></td>
+<td>select a1, a2 ... an from R</td>
+</tr>
+<tr>
+<td>Producto cartesiano <code>RxS</code></td>
+<td>select * from R, S</td>
+</tr>
+<tr>
+<td>Join natural <code>R ⋈ S</code></td>
+<td>select * from R,S where Pk(R)=Fk(S)</td>
+</tr>
+<tr>
+<td>Unon <code>R ∪ S</code></td>
+<td>select * from R union select * from S</td>
+</tr>
+<tr>
+<td>Intersección <code>R ∩ S</code></td>
+<td>select * from R instersect select * from S</td>
+</tr>
+<tr>
+<td>Diferencia <code>R - S</code></td>
+<td>select * from R minus select * from S</td>
+</tr>
+<tr>
+<td>Cociente <code>R/S</code></td>
+<td>no existe en sql, hay que hacerlo combinando otros operadores</td>
+</tr>
+</tbody>
+</table>
+<h2 class="anchormark" id="reglas-de-codd">
+<a aria-hidden="true" class="anchormark" href="#reglas-de-codd"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Reglas de Codd</h2>
+<ol>
+<li>La regla de la <strong>información</strong>: Toda la información en un RDBMS está explícitamente representada de una sola manera por valores en una tabla</li>
+<li>La regla del <strong>acceso garantizado</strong>: Cada ítem de datos debe ser lógicamente accesible al ejecutar una búsqueda que combine el nombre de la tabla, su clave primaria y el nombre de la columna</li>
+<li><strong>Tratamiento sistemático de los valores nulos</strong>: La información inaplicable o faltante puede ser representada a través de valores nulos</li>
+<li>La regla de la <strong>descripción de la base de datos</strong>: La descripción de la base de datos es almacenada de la misma manera que los datos ordinarios, esto es, en tablas y columnas, y debe ser accesible a los usuarios autorizados</li>
+<li>La regla del <strong>sub-lenguaje integral</strong>: Debe haber al menos un lenguaje que sea integral para soportar la definición de datos, manipulación de datos, definición de vistas, restricciones de integridad, y control de autorizaciones y transacciones</li>
+<li>La regla de la <strong>actualización de vistas</strong>: Todas las vistas que son teóricamente actualizables, deben ser actualizables por el sistema mismo</li>
+<li>La regla de <strong>insertar y actualizar</strong>: La capacidad de manejar una base de datos con operandos simples se aplica no sólo para la recuperación o consulta de datos, sino también para la inserción, actualización y borrado de datos</li>
+<li>La regla de <strong>independencia física</strong>: El acceso de usuarios a la base de datos a través de terminales o programas de aplicación, debe permanecer consistente lógicamente cuando quiera que haya cambios en los datos almacenados, o sean cambiados los métodos de acceso a los datos</li>
+<li>La regla de <strong>independencia lógica</strong>: Los programas de aplicación y las actividades de acceso por terminal deben permanecer lógicamente inalteradas cuando quiera que se hagan cambios (según los permisos asignados) en las tablas de la base de datos</li>
+<li>La regla de la <strong>independencia de la integridad</strong>: Todas las restricciones de integridad deben ser definibles en los datos, y almacenables en el catálogo, no en el programa de aplicación</li>
+<li>La regla de la <strong>distribución</strong>: El sistema debe poseer un lenguaje de datos que pueda soportar que la base de datos esté distribuida físicamente en distintos lugares sin que esto afecte o altere a los programas de aplicación</li>
+<li>Regla de la <strong>no-subversión</strong>: Si el sistema tiene lenguajes de bajo nivel, estos lenguajes de ninguna manera pueden ser usados para violar la integridad de las reglas y restricciones expresadas en un lenguaje de alto nivel (como SQL)</li>
+</ol>
+<h2 class="anchormark" id="normalizacion-de-una-base-de-datos">
+<a aria-hidden="true" class="anchormark" href="#normalizacion-de-una-base-de-datos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos" target="_blank">Normalización de una base de datos</a></h2>
+<p>Es el proceso de rediseño de las tablas de una BD con el objetivo de minimizar
+la redundancia de datos.</p>
+<p>Siendo:</p>
+<ul>
+<li>Una <strong>superclave</strong> es cualquier conjunto de atributos que permita distinguir a
+todas las filas de una tabla</li>
+<li>Una <strong>clave candidata</strong> es una superclave mínima, es decir, que si se le quita
+algún atributo deja de ser superclave</li>
+<li>Un <strong>atributo primario</strong> es aquel que pertenece a una <em>clave candidata</em> y un
+<strong>atributo secundario</strong> el que no</li>
+<li>una dependencia transitiva es una dependencia funcional X → Z en la cual Z
+no es inmediatamente dependiente de X, pero sí de un tercer conjunto de
+atributos Y, que a su vez depende de X, es decir, X → Z por virtud de X → Y e Y → Z</li>
+<li>un <strong>determinante</strong> es un atributo que determina completamente a otro</li>
+<li>una tabla con una <strong>dependencia multivaluada</strong> es una donde la existencia de
+dos o más relaciones independientes muchos a muchos causa redundancia</li>
+</ul>
+<p>Tenemos que:</p>
+<ol>
+<li><strong><a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Primera_forma_normal" target="_blank" title="1º forma normal">1FM</a></strong>:<ul>
+<li>todos los atributos son atómicos</li>
+<li>no debe existir variación en el número de columnas</li>
+<li>los campos no clave deben identificarse por la clave (dependencia funcional)</li>
+<li>el significado es independiente del orden de filas o columnas</li>
+</ul>
+</li>
+<li><strong><a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Segunda_forma_normal" target="_blank" title="2º forma normal">2FM</a></strong>: <a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Primera_forma_normal" target="_blank" title="1º forma normal">1FM</a> + todos los atributos dependen de forma completa de la clave (dependencia completamente funcional)</li>
+<li><strong><a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Tercera_forma_normal" target="_blank" title="3º forma normal">3FM</a></strong>: <a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Segunda_forma_normal" target="_blank" title="2º forma normal">2FM</a> + ningún atributo secundario depende transitivamente de la clave.
+Otra forma de definirlo es que para cada una de sus dependencias funcionales
+X → A se ha de dar una de las siguientes condiciones:<ul>
+<li>X contiene A, ó</li>
+<li>X es una superclave, ó</li>
+<li>A es un atributo primario</li>
+</ul>
+</li>
+<li><strong><a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Forma_normal_de_Boyce-Codd" target="_blank" title="Forma normal de Boyce-Codd">FNBC</a></strong>: <a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Tercera_forma_normal" target="_blank" title="3º forma normal">3FM</a> + todo determinante es clave candidata</li>
+<li><strong>4FN</strong>: (<a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Tercera_forma_normal" target="_blank" title="3º forma normal">3FM</a> o <a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Forma_normal_de_Boyce-Codd" target="_blank" title="Forma normal de Boyce-Codd">FNBC</a>) + no poseer dependencias multivaluadas no triviales</li>
+<li><strong>5FN</strong>: 4FN + no existen relaciones <em>join</em> no triviales que no se generen
+desde claves</li>
+</ol>
+<h3 class="anchormark" id="axiomas-de-armstrong">
+<a aria-hidden="true" class="anchormark" href="#axiomas-de-armstrong"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Axiomas de Armstrong</h3>
+<p>Las propiedades de la dependencia funcional vienen descritas por los 3 axiomas
+de Armstrong:</p>
+<ul>
+<li>Dependencia funcional <strong>reflexiva</strong>: A partir de cualquier atributo o conjunto de atributos siempre puede deducirse él mismo. Ej: Si la dirección o el nombre de una persona están incluidos en el DNI, entonces con el DNI podemos determinar la dirección o su nombre.</li>
+<li>Dependencia funcional <strong>aumentativa</strong>: Si con el DNI se determina el nombre de una persona, entonces con el DNI más la dirección también se determina el nombre y su dirección.</li>
+<li>Dependencia funcional <strong>transitiva</strong>: Sean X, Y, Z tres atributos de la misma entidad. Si Y depende funcionalmente de X y Z de Y, pero X no depende funcionalmente de Y, se dice entonces que Z depende transitivamente de X</li>
+</ul>
+<h2 class="anchormark" id="modelo-entidad/relacion-extendido">
+<a aria-hidden="true" class="anchormark" href="#modelo-entidad/relacion-extendido"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Modelo Entidad/Relación Extendido</h2>
+<p>Se compone de <strong>Entidades</strong>:</p>
+<ul>
+<li>regulares: existe por si mismas</li>
+<li>débiles: su existencia depende de otra entidad</li>
+</ul>
+<p><img alt="" src="img/entidad.png"/></p>
+<p>y <strong>Relaciones</strong>:</p>
+<ul>
+<li>relaciones regulares</li>
+<li>relaciones débiles:<ul>
+<li>dependencia de existencia: las ocurrencias de la entidad débil
+no pueden existir sin la ocurrencia de la entidad regular de la que dependen</li>
+<li>dependencia de identificación: además de lo anterior, las ocurrencias del
+la entidad débil no se pueden identificar sólo mediante sus propios atributos,
+sino que se les tiene que añadir el identificador de la entidad regular de la
+que dependen</li>
+</ul>
+</li>
+<li>relaciones exclusivas: su existencia entre dos entidades implica la no existencia
+de otras relaciones</li>
+</ul>
+<p><img alt="" src="img/relacion_exclusividad.png"/></p>
+<p>Las <strong>relaciones</strong> se caracterizan por su:</p>
+<ul>
+<li><strong>Tipo de correspondencia</strong>: número máximo de ocurrencias de una entidad que
+pueden intervenir en una ocurrencia de la relación:<ul>
+<li>relaciones <strong>1:1</strong>: cada ocurrencia de una entidad se relaciona con una y
+solo una ocurrencia de la otra entidad</li>
+<li>relaciones <strong>1:N</strong>: cada ocurrencia de una entidad puede estar relacionada
+con cero, una o varias ocurrencias de la otra entidad</li>
+<li>relaciones <strong>M:N</strong>: cada ocurrencia de una entidad puede estar relacionada
+con cero, una o varias ocurrencias de la otra entidad y viceversa</li>
+</ul>
+</li>
+<li><strong>Cardinalidad</strong>: el número máximo y mínimo de ocurrencias de una entidad que
+pueden estar interrelacionadas con una ocurrencia de otro entidad</li>
+</ul>
+<p>La <strong>cardinalidad máxima</strong> coincide con el <strong>tipo de correspondencia</strong>.</p>
+<div class="figgroup figgroup2"><figure class="fig"><img alt="Representación de la correspondencia" src="img/relacion_correspondencia.png" title="Representación de la correspondencia"/><figcaption>Representación de la correspondencia</figcaption></figure><figure class="fig"><img alt="Representación de la cardinalidad" src="img/relacion_cardinalidad.png" title="Representación de la cardinalidad"/><figcaption>Representación de la cardinalidad</figcaption></figure></div>
+<p>Las extensiones del modelo E/R consisten en:</p>
+<ul>
+<li><strong>Generalización</strong>: se abstrae una entidad de nivel superior a partir de
+varias entidades (ej: de <em>profesor</em> y <em>estudiante</em> a <em>persona</em>)</li>
+<li><strong>Especialización</strong>: inversa de <em>generalización</em> (ej: de <em>empleado</em> a
+<em>secretario</em>, <em>técnico</em> e <em>ingeniero</em>)</li>
+<li><strong>Categorías</strong>: subtipo que aparece como resultado de la unión de varios
+tipos de entidad (ej: teniendo <em>persona</em> y <em>compañia</em> se crea subtipo
+<em>propietario</em> para relacionarlo con <em>vehículo</em>)</li>
+<li><strong>Agregación</strong>: construir un nuevo tipo de entidad como composición de otros
+y sus relaciones (ej: teniendo <em>empresa</em> y <em>solicitante</em> relacionados por
+<em>entrevista</em> se crea el tipo compuesta <em>empresa-entrevista-solicitante</em> para
+relacionarla con <em>oferta</em>)</li>
+<li><strong>Desagregación</strong>: inverso de la <em>agregación</em></li>
+<li><strong>Asociación</strong>: relacionar dos tipos de entidades que normalmente son de dominios
+independientes, pero coyunturalmente se asocian</li>
+</ul>
+<p>Estas extensiones dan lugar a jerarquías entre tipos y subtipos</p>
+<figure class="fig"><img alt="Jerarquías E/R" src="img/er_jerarquia.png" title="d = los subtipos son disjuntos
+O = los subtipos pueden solaparse
+U = uniones por categorías
+La presencia de una jerarquía total se representa con una doble línea entre el
+supertipo y el triángulo"/><figcaption><strong>d</strong> = los subtipos son disjuntos<br/>
+<strong>O</strong> = los subtipos pueden solaparse<br/>
+<strong>U</strong> = uniones por categorías<br/>
+La presencia de una jerarquía total se representa con una doble línea entre el
+supertipo y el triángulo</figcaption></figure>
+<h1 class="anchormark" id="estandares-odbc,-jdbc,-.net-y-php">
+<a aria-hidden="true" class="anchormark" href="#estandares-odbc,-jdbc,-.net-y-php"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Estándares <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Open_Database_Connectivity" target="_blank" title="Open DataBase Connectivity">ODBC</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a>, .NET y PHP</h1>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Open_Database_Connectivity" target="_blank" title="Open DataBase Connectivity">ODBC</a></strong>: estándar de acceso a BD que proporciona una interfaz a las aplicaciones.
+Para ello necesita una capa intermedia (<abbr title="Call-Level Interface">CLI</abbr>)
+entre la aplicación y el <a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos" target="_blank" title="Sistema de gestión de bases de datos">SGDB</a>, que se encarga de traducir las consultas de datos
+desde la aplicación a comandos para ese <a class="abbr bbdd wikipedia" href="https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_bases_de_datos" target="_blank" title="Sistema de gestión de bases de datos">SGDB</a> concreto.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a></strong>: conecta aplicaciones Java con un gestor de BD desde el lenguaje de
+programación Java. Tipos de drivers:</p>
+<ul>
+<li>Tipo 1 (Puente <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a>-<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Open_Database_Connectivity" target="_blank" title="Open DataBase Connectivity">ODBC</a>): convierte el método <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a> a una llamada a una función <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Open_Database_Connectivity" target="_blank" title="Open DataBase Connectivity">ODBC</a>.
+Utiliza los drivers <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Open_Database_Connectivity" target="_blank" title="Open DataBase Connectivity">ODBC</a> para conectar con la BD.</li>
+<li>Tipo 2 (Driver parcialmente nativo): convierte el método <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a> a llamadas a una API nativa que
+debe estar en el cliente que accede a la BD.</li>
+<li>Tipo 3 (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a> middleware): el cliente cuenta con un driver <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a> puro que conecta con un
+servidor intermedio encargado de traducir los métodos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a> al lenguaje específico del SGBD.</li>
+<li>Tipo 4 (Driver Java puro): desarrollado en Java, utiliza directamente el protocolo de la BD.
+Ofrece mejor rendimiento pero está ligado a un SGBD concreto.</li>
+</ul>
+<figure class="fig"><img alt="Tipos de drives JDBC" src="img/jdbc.png" title="Tipos de drives JDBC"/><figcaption>Tipos de drives <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Java_Database_Connectivity" target="_blank" title="Java Database Connectivity">JDBC</a></figcaption></figure>
+<p><strong>.NET</strong> ofrece ADO.NET que incorpora la posibilidad de cachear la información
+obtenida, y es habitual que se integre con Entity Framework que es un mapeador
+objeto-relacional de Microsoft (La alternativa anterior era OLE DB y esta deprecada).</p>
+<p><strong>PHP</strong> ofrece <abbr class="abbr" title="PHP Data Object">PDO</abbr> para drivers para las bases de datos más habituales.</p>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/063</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/064</a></li>
+<li><strike title="Se solapa con otros temas"><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/088</a></strike></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/modelo-entidad-relacion-extendido/" target="_blank">manuel.cillero.es - Modelo Entidad/Relación Extendido</a></li>
+<li><a class="glosarioit_com" href="https://www.glosarioit.com/Bloqueo_de_dos_fases" target="_blank">glosarioit.co - Bloqueo de dos fases</a></li>
+<li><a class="conceptosbasededatos-adsi_blogspot_com" href="http://conceptosbasededatos-adsi.blogspot.com/2013/11/jerarquias-generalizaciones-y.html" target="_blank">conceptosbasededatos-adsi.blogspot.com - Jerarquías: Generalizaciones y Especializaciones</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B3/05-bbdd.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

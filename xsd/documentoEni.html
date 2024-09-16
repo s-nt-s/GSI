@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>documento (documentoEni)</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home xsd_documentoeni" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="..">Apuntes GSI</a></li>
+<li><a href="../category/xsd.html">Diagramas XSD</a></li>
+<li>documento (documentoEni)</li>
+</ol>
+</nav>
+<p>Fuente: <a href="http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/documentoEni.xsd" target="_blank">administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/documentoEni.xsd</a></p> </div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<div class="widthscroll" id="documento">
+<pre><code><a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r documento -e 5 -o <a href="documentoEni/documento.csv">documento.csv</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/documentoEni.xsd
+<a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r documento -e 5 -o <a href="documentoEni/documento.txt">documento.txt</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/documentoEni.xsd
+<a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r documento -e 5 -o <a href="documentoEni/documento.png">documento.png</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/documentoEni.xsd
+<a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r documento -e 5 -o <a href="documentoEni/documento.svg">documento.svg</a> http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/documentoEni.xsd</code></pre>
+</div>
+<p><img alt="Diagrama de documento (documentoEni.xsd)" src="documentoEni/documento.png" title="Diagrama de documento (documentoEni.xsd)"/></p>
+<div class="highlight"><pre><span></span><code><span class="go">curl -L http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/documentoEni.xsd</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;xsd:schema</span><span class="w"> </span>
+<span class="na">xmlns:xsd=</span><span class="s">"http://www.w3.org/2001/XMLSchema"</span><span class="w"> </span>
+<span class="na">xmlns:enids=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma"</span><span class="w"> </span>
+<span class="na">xmlns:enidocmeta=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos"</span><span class="w"> </span>
+<span class="na">xmlns:enifile=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido"</span><span class="w"> </span>
+<span class="na">xmlns:enidoc=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e"</span><span class="w"> </span>
+<span class="na">targetNamespace=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e"</span><span class="w"> </span>
+<span class="na">elementFormDefault=</span><span class="s">"qualified"</span><span class="w"> </span><span class="na">attributeFormDefault=</span><span class="s">"unqualified"</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsd:annotation&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xsd:documentation</span><span class="w"> </span><span class="na">xml:lang=</span><span class="s">"es"</span><span class="nt">&gt;</span>XSD<span class="w"> </span>DOCUMENTO<span class="w"> </span>ENI<span class="w"> </span>(v1.0)<span class="nt">&lt;/xsd:documentation&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xsd:annotation&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsd:import</span><span class="w"> </span><span class="na">namespace=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos"</span><span class="w"> </span><span class="na">schemaLocation=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/metadatos/metadatosDocumentoEni.xsd"</span><span class="nt">/&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsd:import</span><span class="w"> </span><span class="na">namespace=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma"</span><span class="w"> </span><span class="na">schemaLocation=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/firma/firmasEni.xsd"</span><span class="nt">/&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsd:import</span><span class="w"> </span><span class="na">namespace=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido"</span><span class="w"> </span><span class="na">schemaLocation=</span><span class="s">"http://administracionelectronica.gob.es/ENI/XSD/v1.0/documento-e/contenido/contenidoDocumentoEni.xsd"</span><span class="nt">/&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsd:element</span><span class="w"> </span><span class="na">name=</span><span class="s">"documento"</span><span class="w"> </span><span class="na">type=</span><span class="s">"enidoc:TipoDocumento"</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xsd:annotation&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xsd:documentation</span><span class="w"> </span><span class="na">xml:lang=</span><span class="s">"es"</span><span class="nt">&gt;</span>El<span class="w"> </span>elemento<span class="w"> </span>"documento"<span class="w"> </span>podrá<span class="w"> </span>aparecer<span class="w"> </span>como<span class="w"> </span>elemento<span class="w"> </span>raíz<span class="w"> </span>de<span class="w"> </span>un<span class="w"> </span>documento<span class="w"> </span>XML<span class="w"> </span>objeto<span class="w"> </span>de<span class="w"> </span>intercambio<span class="w"> </span>o<span class="w"> </span>como<span class="w"> </span>elemento<span class="w"> </span>no<span class="w"> </span>raíz<span class="w"> </span>(elemento<span class="w"> </span>hijo).<span class="nt">&lt;/xsd:documentation&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xsd:annotation&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xsd:element&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsd:complexType</span><span class="w"> </span><span class="na">name=</span><span class="s">"TipoDocumento"</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xsd:sequence&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xsd:element</span><span class="w"> </span><span class="na">ref=</span><span class="s">"enifile:contenido"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xsd:element</span><span class="w"> </span><span class="na">ref=</span><span class="s">"enidocmeta:metadatos"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xsd:element</span><span class="w"> </span><span class="na">ref=</span><span class="s">"enids:firmas"</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"0"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xsd:annotation&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;xsd:documentation</span><span class="w"> </span><span class="na">xml:lang=</span><span class="s">"es"</span><span class="nt">&gt;</span>La<span class="w"> </span>firma<span class="w"> </span>es<span class="w"> </span>obligatoria<span class="w"> </span>para<span class="w"> </span>el<span class="w"> </span>documento<span class="w"> </span>administrativo<span class="w"> </span>electrónico<span class="w"> </span>y<span class="w"> </span>para<span class="w"> </span>todo<span class="w"> </span>aquel<span class="w"> </span>documento<span class="w"> </span>electrónico<span class="w"> </span>susceptible<span class="w"> </span>de<span class="w"> </span>ser<span class="w"> </span>incorporado<span class="w"> </span>en<span class="w"> </span>un<span class="w"> </span>expediente<span class="w"> </span>electrónico.<span class="nt">&lt;/xsd:documentation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/xsd:annotation&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xsd:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xsd:sequence&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xsd:attribute</span><span class="w"> </span><span class="na">name=</span><span class="s">"Id"</span><span class="w"> </span><span class="na">type=</span><span class="s">"xsd:ID"</span><span class="w"> </span><span class="na">use=</span><span class="s">"optional"</span><span class="nt">/&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xsd:complexType&gt;</span>
+<span class="nt">&lt;/xsd:schema&gt;</span>
+</code></pre></div>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/xsd/documentoEni.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

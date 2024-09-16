@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Integración continua</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b3_integracion_continua" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Integración continua</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_blank" title="Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes">Integración continua</a></strong>: es una práctica de desarrollo de software mediante la
+cual los desarrolladores combinan los cambios en el código en un repositorio
+central de forma periódica, tras lo cual se ejecutan versiones y pruebas automáticas.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Entrega_continua" target="_blank" title="Enfoque en el que los equipos de desarrollo producen software en ciclos cortos, asegurando que el software puede ser liberado en cualquier momento de forma confiable">Entrega continua</a></strong>: consiste en que los equipos de desarrollo producen software en ciclos cortos, asegurando que el software puede ser liberado en cualquier momento de forma confiable
+(no implica necesariamente un despliegue).</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Despliegue_continuo" target="_blank" title="Enfoque en el que los equipos de desarrollo entregan funcionalidades de software de forma frecuente a través de la automatización de despliegues">Despliegue continuo</a></strong>: consiste en que los equipos de desarrollo entregan funcionalidades de software de forma frecuente a través de la automatización de despliegues.</p>
+<p><strong><abbr class="abbr" title="Integración continua + Entrega continua o Despliegue continuo">CI/CD</abbr></strong>: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_blank" title="Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes">Integración continua</a> + <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Entrega_continua" target="_blank" title="Enfoque en el que los equipos de desarrollo producen software en ciclos cortos, asegurando que el software puede ser liberado en cualquier momento de forma confiable">Entrega continua</a> o <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Despliegue_continuo" target="_blank" title="Enfoque en el que los equipos de desarrollo entregan funcionalidades de software de forma frecuente a través de la automatización de despliegues">Despliegue continuo</a>.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/DevOps" target="_blank" title="Conjunto de prácticas que agrupan el desarrollo de software (Dev) y las operaciones de TI (Ops)">DevOps</a></strong>: conjunto de prácticas que agrupan el desarrollo de software (Dev) y
+las operaciones de TI (Ops). Su objetivo es hacer más rápido el ciclo de vida del
+desarrollo de software y proporcionar una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Entrega_continua" target="_blank" title="Enfoque en el que los equipos de desarrollo producen software en ciclos cortos, asegurando que el software puede ser liberado en cualquier momento de forma confiable">entrega continua</a>.</p>
+<p><strong>Metodologías de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software" target="_blank" title="Enfoque para la toma de decisiones en los proyectos de software, basados en el desarrollo iterativo e incremental, donde los requisitos y soluciones evolucionan con el tiempo">desarrollo ágil</a></strong>: enfoque para la toma de decisiones en los
+proyectos de software, basados en el desarrollo iterativo e incremental,
+donde los requisitos y soluciones evolucionan con el tiempo.
+El trabajo es realizado mediante la colaboración de equipos autoorganizados
+y multidisciplinarios, inmersos en un proceso compartido de toma de decisiones
+a corto plazo.</p>
+<p><strong><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Daily_build" target="_blank" title="Construcción de la última versión de un programa que se realiza todas las noches">Nightly build</a></strong>: construcción de la última versión de un programa
+que se realiza todas las noches tras pasar pruebas automáticas. Sirve para:</p>
+<ul>
+<li>Saber que en el último día no se ha introducido ningún error que impida la
+construcción del proyecto</li>
+<li>Si la versión Nightly es pública, obtener feedback temprano</li>
+</ul>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Cobertura_de_c%C3%B3digo" target="_blank" title="Medida (porcentual) en las pruebas de software que mide el grado en que el código fuente de un programa ha sido comprobado con pruebas de software">Cobertura de código</a></strong>: medida porcentual que mide el grado en que el código
+fuente de un programa ha sido comprobado con pruebas de software.
+Sirve para determinar la calidad de los test​ y para determinar las partes
+críticas del código que no han sido comprobadas y las partes que ya lo fueron.</p>
+<p><strong>Code quality gates</strong>: mínimos de calidad requeridos que si no
+se superan provocan que la ejecución se considere fallida. Ejemplos:</p>
+<ul>
+<li>un mínimo del 80% de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Cobertura_de_c%C3%B3digo" target="_blank" title="Medida (porcentual) en las pruebas de software que mide el grado en que el código fuente de un programa ha sido comprobado con pruebas de software">cobertura de código</a></li>
+<li>un máximo de 10 días de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Deuda_t%C3%A9cnica" target="_blank" title="Concepto que refleja el costo implícito del retrabajo adicional causado por elegir una solución fácil en lugar de utilizar un enfoque que llevaría más tiempo en su desarrollo e implementación">Deuda Técnica</a> según Sonar</li>
+</ul>
+<h1 class="anchormark" id="objetivos-de-ci/cd">
+<a aria-hidden="true" class="anchormark" href="#objetivos-de-ci/cd"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Objetivos de <abbr class="abbr" title="Integración continua + Entrega continua o Despliegue continuo">CI/CD</abbr></h1>
+<ul>
+<li>La <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_blank" title="Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes">integración continua</a> busca asegurar que el código subido al control de
+versiones no rompe nada</li>
+<li>La <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Entrega_continua" target="_blank" title="Enfoque en el que los equipos de desarrollo producen software en ciclos cortos, asegurando que el software puede ser liberado en cualquier momento de forma confiable">entrega continua</a> busca automatizar el despliegue en un entorno de
+preproducción/staging y automatiza el set de <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/" target="_blank" title="Valida que el sistema cumpla con el funcionamiento esperado y permite al usuario que determine su aceptación, desde el punto de vista de su funcionalidad y rendimiento">pruebas de aceptación</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_aceptaci%C3%B3n_(inform%C3%A1tica)" target="_blank">w</a></sup></li>
+<li>El <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Despliegue_continuo" target="_blank" title="Enfoque en el que los equipos de desarrollo entregan funcionalidades de software de forma frecuente a través de la automatización de despliegues">despliegue continuo</a> busca automatizar todos los pasos hasta el final,
+esto exige pruebas de gran calidad (no solo <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">unit testing</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup> si no sobre todo
+<a class="abbr es_myservername_com" href="https://es.myservername.com/what-is-end-end-testing" target="_blank" title="Pruebas end-to-end, comprueban el flujo de una aplicación de principio a fin simulado el comportamiento del usuario real">pruebas funcionales E2E</a>). Habitualmente se se combina con <a class="abbr semaphoreci_com" href="https://semaphoreci.com/blog/what-is-canary-deployment" target="_blank" title="Técnica que redirige un pequeño porcentaje de los usuarios a la nueva versión del producto software para comprobar que funciona antes de desplegarla para todos los usuarios">Canary deployment</a>.</li>
+</ul>
+<figure class="fig" id="fg 1"><img alt="Diferencias entre CI, CD y DC" src="img/cicd.png" title="Diferencias entre CI, CD y DC"/><figcaption>Figura 1: Diferencias entre CI, CD y DC</figcaption></figure>
+<h1 class="anchormark" id="ventajas-e-inconvenientes">
+<a aria-hidden="true" class="anchormark" href="#ventajas-e-inconvenientes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ventajas e inconvenientes</h1>
+<h2 class="anchormark" id="ventajas">
+<a aria-hidden="true" class="anchormark" href="#ventajas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ventajas</h2>
+<ul>
+<li>La automatización de tareas disminuye los errores humanos</li>
+<li>La automatización de pruebas conlleva la posibilidad de realizar análisis
+sobre los resultados y verlo en un tablero de control</li>
+<li>Se establecen métricas y procedimientos para optimizar tiempos y calidad</li>
+<li>Facilita la obtención de informes de cada prueba, lo que permite informar
+fácilmente del estado del proyecto</li>
+<li>Mejora la visibilidad de todos los proyectos y sus dependencias</li>
+<li>Proporciona un repositorio centralizado tanto de códigos fuentes como
+de artefactos finales, y permite diferenciar entre versiones en desarrollo
+y versiones liberadas</li>
+<li>Reduce el tiempo necesario para liberar cambios a producción</li>
+</ul>
+<h2 class="anchormark" id="desventajas">
+<a aria-hidden="true" class="anchormark" href="#desventajas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Desventajas</h2>
+<ul>
+<li>Se requiere invertir tiempo adicional en preparación de herramientas antes de
+comenzar a desarrollar el proyecto en si</li>
+<li>Se requiere desarrollar una buena colección de test automáticos, tanto
+<a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">unit-test</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup> como test funcionales</li>
+</ul>
+<h1 class="anchormark" id="herramientas-para-implementar-ci/cd">
+<a aria-hidden="true" class="anchormark" href="#herramientas-para-implementar-ci/cd"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Herramientas para implementar <abbr class="abbr" title="Integración continua + Entrega continua o Despliegue continuo">CI/CD</abbr></h1>
+<ol>
+<li><strong>Herramientas para construcción de proyectos</strong>: automatiza la compilación
+y/o construcción del proyecto. Algunos son:<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Make" target="_blank">Make</a> (el más antiguo)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Ant" target="_blank">Apache Ant</a> (Java):<ul>
+<li>el fichero de configuración se llama <code>build.xml</code></li>
+<li>integra fácilmente <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/JUnit" target="_blank" title="Conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java">JUnit</a></li>
+<li>tiene soporte de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a></li>
+</ul>
+</li>
+<li>Apache <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> (Java, .Net Framework, C/C++, etc)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Gradle" target="_blank">Gradle</a> (Java, Groovy y Scala, etc)</li>
+<li><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Rake_(software)" target="_blank">Rake</a> (Ruby)</li>
+</ul>
+</li>
+<li><strong>Sistema de control de versiones</strong>: git, Subversion, Mercurial, ClearCase, Perforce, etc</li>
+<li><strong>Repositorio de artefactos</strong>: almacena archivos binarios o paquetes compilados
+derivados del código construido con la herramienta de construcción. Ejemplos:<ul>
+<li>Sonatype Nexus (soporta Bower, Docker, Git LFS, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a>, npm, NuGet, PyPI, Ruby Gems, Yum, APT, Conan, R, CPAN, Raw (Universal), P2, Helm, ELPA, Go)</li>
+<li>JFrog Artifactory (soporta paquetes de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Gradle" target="_blank">Gradle</a> e Ivy, etc)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Archiva" target="_blank">Apache Archiva</a> (soporta paquetes <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a>, Continuum y Continuum Ant, etc)</li>
+</ul>
+</li>
+<li><strong>Herramienta para pruebas</strong> de calidad y análisis de código. Ejemplo: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/SonarQube" target="_blank" title="Plataforma para evaluar código fuente">SonarQube</a>.</li>
+<li><strong>Servidor de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_blank" title="Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes">integración continua</a></strong>: orquestado de CI que automatiza, por ejemplo,
+la construcción y la ejecución de pruebas mostrando los resultados. Ejemplos:<ul>
+<li>Open Soruce: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hudson_(software)" target="_blank">Hudson</a>, <strike title="descontinuado"><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/CruiseControl" target="_blank">CruiseControl</a></strike>, <strike title="descontinuado"><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Apache_Continuum" target="_blank">Apache Continuum</a></strike></li>
+<li>Propietario: Bamboo, <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Azure_DevOps_Server" target="_blank">Azure DevOps Server</a></li>
+</ul>
+</li>
+</ol>
+<h2 class="anchormark" id="apache-maven">
+<a aria-hidden="true" class="anchormark" href="#apache-maven"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Apache <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a></h2>
+<p>Es similar en su funcionalidad a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Ant" target="_blank">Apache Ant</a>, pero con un modelo de configuración
+de construcción más simple.</p>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> utiliza un Project Object Model (POM) para describir el proyecto de software
+a construir, sus dependencias de otros módulos y componentes externos,
+y el orden de construcción de los elementos. Para ello cada proyecto tiene la
+información de su ciclo de vida en un descriptor <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a> llamado por defecto <code>pom.xml</code>.</p>
+<p>Su arquitectura esta basada en plugins y le permite utilizar cualquier aplicación
+controlable a través de la entrada estándar. Por lo tanto se pueden crear
+plugins para compiladores, herramientas de <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>, cualquier lenguaje, etc.</p>
+<p>Las partes principales del ciclo de vida de un proyecto <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> son:</p>
+<ol>
+<li><strong>compile</strong>: genera los ficheros <code>.class</code> compilando los fuentes <code>.java</code></li>
+<li><strong>test</strong>: ejecuta los test automáticos de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/JUnit" target="_blank" title="Conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java">JUnit</a>, abortando el proceso si alguno de ellos falla</li>
+<li><strong>package</strong>: genera el fichero <code>.jar</code> con los <code>.class</code> compilados</li>
+<li><strong>install</strong>: copia el fichero <code>.jar</code> a un repositorio local de forma que esos
+<code>.jar</code> pueden utilizarse en otros proyectos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> en el mismo equipo</li>
+<li><strong>deploy</strong>: copia el fichero <code>.jar</code> a un servidor remoto, poniéndolo disponible
+para cualquier proyecto <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> con acceso a ese servidor remoto</li>
+</ol>
+<p>Los objetivos perseguidos con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> son:</p>
+<ul>
+<li>Facilitar el proceso de construcción.</li>
+<li>Proporcionar un sistema de construcción uniforme: todos los proyectos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a>
+funcionan de la misma forma, por lo que el esfuerzo de aprendizaje sólo se hace una vez</li>
+<li>Proporcionar información útil sobre el proyecto:<ul>
+<li>lista de cambios desde el control de versiones</li>
+<li>dependencias transitivas</li>
+<li>informes de la ejecución de <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>, etc</li>
+</ul>
+</li>
+<li>Ayudar a utilizar las mejores prácticas de desarrollo</li>
+<li>Permitir introducir nuevos servicios de forma sencilla</li>
+</ul>
+<h2 class="anchormark" id="repositorios-de-artefactos">
+<a aria-hidden="true" class="anchormark" href="#repositorios-de-artefactos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Repositorios de artefactos</h2>
+<p>Se usan tanto para subir tus propios artefactos como para descargar librerías
+de terceros que podemos usar como dependencias.</p>
+<p>Estos repositorios permiten tener distintas versiones de cada artefacto.</p>
+<p>Los repositorios de artefactos como Nexus o Artifactory se utilizan para no tener
+que depender de algo externo siempre y poder mantener controladas las librerías
+propias de la organización. También pueden usarse como caches de manera que no
+haga falta siempre acudir al exterior de la organización para obtener una librería.</p>
+<figure class="fig" id="fg 2"><img alt="Repositorio de artefactos interno" src="img/nexus.png" title="Repositorio de artefactos interno"/><figcaption>Figura 2: Repositorio de artefactos interno</figcaption></figure>
+<h2 class="anchormark" id="sonarqube">
+<a aria-hidden="true" class="anchormark" href="#sonarqube"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/SonarQube" target="_blank" title="Plataforma para evaluar código fuente">SonarQube</a></h2>
+<p>Herramienta de análisis de código en base a un conjunto de reglas adoptadas por
+la comunidad. El análisis nos dice cómo de bueno es nuestro código,
+los errores que tiene, los tipos de errores encontrados y las causas, y añade una
+serie de posibles soluciones.</p>
+<p>También, califica la calidad del código, valor que se actualiza continuamente tras cada
+modificación del código del proyecto, por lo que puede evolucionar tanto positiva
+como negativamente. Esto permite supervisar de forma continua la calidad del código
+del software de cada proyecto, y analizar tendencias.</p>
+<p>Características principales de la herramienta:</p>
+<ul>
+<li>Compatible con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a>, por lo que puede generarse un informe complementario dentro
+del ciclo de build y mediante el uso de un servidor de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_blank" title="Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes">integración continua</a></li>
+<li>Integra herramientas de medición de la calidad de código (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/FindBugs" target="_blank" title="Herramienta que busca potenciales errores analizando Java bytecode">Findbugs</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Checkstyle" target="_blank" title="Herramienta de análisis de código estático para Java">Checkstyle</a>, <a class="abbr maven_apache_org" href="https://maven.apache.org/plugins/maven-pmd-plugin/" target="_blank" title="Apache Maven PMD (plugin de verificación de reglas de codificación), que incluye CPD (copy-paste-detector) para detectar código duplicado">PMD, CPD</a>)
+mediante plugins y ofreciendo un resumen tipo cuadro de mando. Clasifica las
+incidencias en base a su severidad y a su naturaleza: fiabilidad, usabilidad, eficiencia, mantenimiento,
+portabilidad (matriz de radar del gráfico)</li>
+<li>Permite navegar por el código y ver los errores dentro del mismo,
+ayudando a disponer de un entorno de mejora continua</li>
+<li>Dispone de medidas de:<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Complejidad_ciclom%C3%A1tica" target="_blank" title="Medición de la complejidad lógica de un programa contando el número de caminos independientes de un código">complejidad ciclomática</a></li>
+<li><a class="abbr jummp_wordpress_com" href="https://jummp.wordpress.com/2010/05/22/lcom4-y-la-falta-de-cohesion-en-las-clases/" target="_blank" title="Falta de cohesión de métodos (Lack of cohesion of methods) 4, métrica de SonarQube">LCOM4</a> (medida de cohesión de métodos)</li>
+<li>RFC (<a class="abbr oreilly_com" href="https://www.oreilly.com/library/view/sonar-code-quality/9781849517867/ch09s04.html" target="_blank" title="Cuenta todos los métodos de una clase que pueden ser potencialmente ejecutados en respuesta a un mensaje recibido por el objeto">Response for Class</a>)</li>
+<li>nº de comentarios</li>
+<li>nº de las líneas de código que no se ejecutan</li>
+<li>código duplicado</li>
+</ul>
+</li>
+<li>Permite disponer de una matriz de dependencia entre paquetes, donde
+fácilmente se encuentran referencias cíclicas (falta de desacoplo en el diseño de nuestra aplicación)</li>
+<li>Permite disponer de medidas de cobertura de las clases de prueba sobre código
+de la aplicación</li>
+<li>Informa sobre estándares de codificación, <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>, posibles errores y diseño del software</li>
+</ul>
+<h1 class="anchormark" id="ejemplo-de-secuencia-tipica-de-trabajo-en-jenkins">
+<a aria-hidden="true" class="anchormark" href="#ejemplo-de-secuencia-tipica-de-trabajo-en-jenkins"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ejemplo de secuencia típica de trabajo en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a></h1>
+<ol>
+<li>Se configura el repositorio del GIT que almacenará el proyecto.</li>
+<li>Se sube el código al repositorio de control de versiones GIT (push)</li>
+<li>El anterior paso anterior dispara un job en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a>.</li>
+<li>El job invoca un <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> para realizar la construcción del software,
+lo que incluye la descarga de las dependencias del repositorio de artefactos.</li>
+<li>El plugin <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/JUnit" target="_blank" title="Conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java">JUnit</a> de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a> realiza las <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>.</li>
+<li>El plugin Sonar de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a> analiza el código para determinar su calidad,
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Complejidad_ciclom%C3%A1tica" target="_blank" title="Medición de la complejidad lógica de un programa contando el número de caminos independientes de un código">complejidad ciclomática</a>, nº de comentarios o partes de código que no se ejecutan.</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a> realiza el despliegue en el servidor donde se van a realizar las pruebas.</li>
+<li>Se realiza la ejecución automatizada de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_funcionales" target="_blank" title="Prueba de tipo caja negra basada en la ejecución, revisión y retroalimentación de las funcionalidades previamente diseñadas para el software">pruebas funcionales</a> y <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/regresion" target="_blank" title="Valida que los cambios sobre un componente no introducen nuevos errores o un comportamiento no deseado en otros componentes no modificados.">pruebas de regresión</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_regresi%C3%B3n" target="_blank">w</a></sup> (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Selenium" target="_blank" title="Entorno de pruebas de software para aplicaciones basadas en la web">Selenium</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Espresso_(framework)" target="_blank" title="Framework de testing para pruebas de interfaz de usuario en aplicaciones Android">Espresso</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Appium" target="_blank" title="Herramienta de automatización para ejecutar pruebas de aplicaciones nativas, aplicaciones web y aplicaciones híbridas sobre Android o iOS">Appium</a>).</li>
+<li>Una vez validado todo, se sube al repositorio de artefactos la nueva versión recién validada.</li>
+</ol>
+<p>Adicionalmente:</p>
+<ul>
+<li>Se mantiene un historial de las ejecuciones para ver quién lo realizo y cuáles archivos fueron manipulados</li>
+<li>Se publican reportes de los resultados de las pruebas realizadas</li>
+<li>si hay errores o el resultado no es el esperado en alguno de los pasos,
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a> lanza una notificación para que se solucione lo antes posible</li>
+</ul>
+<figure class="fig" id="fg 3"><img alt="Ejemplo Jenkins" src="img/jenkins.png" title="Cuando el programador hace push en la rama main del repositorio remoto,
+Jenkins lo detecta, compila la aplicación, llama a Sonar para ejecutar los test
+y realizar el análisis de la calidad del código y, si todo ha ido bien,
+publica un WAR del proyecto en Nexus."/><figcaption>Figura 3: Cuando el programador hace <code>push</code> en la rama <code>main</code> del repositorio remoto,
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">Jenkins</a> lo detecta, compila la aplicación, llama a Sonar para ejecutar los test
+y realizar el análisis de la calidad del código y, si todo ha ido bien,
+publica un WAR del proyecto en Nexus.</figcaption></figure>
+<h1 class="anchormark" id="estrategias-de-despliegue">
+<a aria-hidden="true" class="anchormark" href="#estrategias-de-despliegue"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Estrategias de despliegue</h1>
+<h2 class="anchormark" id="blue/green-deployment">
+<a aria-hidden="true" class="anchormark" href="#blue/green-deployment"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Blue-green_deployment" target="_blank">Blue/Green deployment</a></h2>
+<ol>
+<li>El despliegue de la nueva versión se hace sobre un entorno de producción <em>oculto</em></li>
+<li>Se realizan las pruebas en dicho entorno, y si todo va bien</li>
+<li>Mediante un balanceador de carga se mueve el tráfico de usuario al nuevo entorno</li>
+</ol>
+<p>Con esto se consigue un despliegue sin pérdida de servicio (Zero Downtime), y si
+algo sale mal se puede volver rápidamente al estado anterior.</p>
+<h2 class="anchormark" id="dog-fooding">
+<a aria-hidden="true" class="anchormark" href="#dog-fooding"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Dogfooding" target="_blank">Dog Fooding</a></h2>
+<p>Técnicamente similar al anterior, pero permitiendo a los propios empleados
+acceder a las nuevas funcionalidades antes que nadie para recoger feedback
+interno antes de abrir a usuarios finales.</p>
+<h2 class="anchormark" id="canary-deployment">
+<a aria-hidden="true" class="anchormark" href="#canary-deployment"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr semaphoreci_com" href="https://semaphoreci.com/blog/what-is-canary-deployment" target="_blank" title="Técnica que redirige un pequeño porcentaje de los usuarios a la nueva versión del producto software para comprobar que funciona antes de desplegarla para todos los usuarios">Canary deployment</a></h2>
+<p>En vez de abrir las nuevas funcionalidades a todos los usuarios finales,
+se hace de forma progresiva y controlada. Por ejemplo, se abre la nueva
+funcionalidad a sólo el 5% de usuarios finales y toma feedback
+antes de seguir abriendo progresivamente al resto de usuarios.</p>
+<p>En caso de problemas se vuelve a la anterior versión sin que el resto de
+usuarios note nada.</p>
+<h1 class="anchormark" id="automatizacion-de-la-seguridad">
+<a aria-hidden="true" class="anchormark" href="#automatizacion-de-la-seguridad"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Automatización de la seguridad</h1>
+<p>En los últimos años la Integración Continua ha evolucionado para introducir
+análisis automatizado de Seguridad mediante dos tipos de herramientas:</p>
+<ul>
+<li>Análisis estático de seguridad del código: similar a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/SonarQube" target="_blank" title="Plataforma para evaluar código fuente">SonarQube</a>, pero analizando vulnerabilidades conocidas</li>
+<li>Análisis dinámico de seguridad: sobre el aplicativo desplegado, se lanzan ataques automatizados</li>
+</ul>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/096</a></li>
+<li><a class="ilimit_com" href="https://www.ilimit.com/blog/integracion-continua-entrega-continua-despliegue-continuo/" target="_blank">ilimit.com - Integración continua, entrega continua y despliegue continuo</a></li>
+<li><a class="programacionymas_com" href="https://programacionymas.com/blog/tipos-de-testing-en-desarrollo-de-software" target="_blank">programacionymas.com - Los diferentes tipos de testing en el desarrollo de software</a></li>
+<li><a class="paradigmadigital_com" href="https://www.paradigmadigital.com/dev/estrategias-desplegar-exito-produccion/" target="_blank">paradigmadigital.com - Estrategias para desplegar con éxito en producción</a></li>
+<li><a class="semaphoreci_com" href="https://semaphoreci.com/blog/what-is-canary-deployment" target="_blank">semaphoreci.com - What Is Canary Deployment?</a></li>
+<li><a class="redhat_com" href="https://www.redhat.com/es/topics/devops/what-is-ci-cd" target="_blank">redhat.com - ¿Qué son la integración/distribución continuas (CI/CD)?</a></li>
+<li><a class="alexmarket_medium_com" href="https://alexmarket.medium.com/herramientas-para-construcci%C3%B3n-de-proyectos-en-java-7cd8733b1ca9" target="_blank">alexmarket.medium.com - Herramientas para construcción de proyectos en Java</a></li>
+<li><a class="bogotobogo_com" href="https://www.bogotobogo.com/DevOps/DevOps_Artifacts_Artifactory_Sonatype_Nexus_Maven_Artifact_Repository_Apache_Archiva.php" target="_blank">bogotobogo.com - DevOps Artifacts - Artifactory, Sonatype Nexus, Maven Artifact Repository, and Apache Archiva</a></li>
+<li><a class="blog_irontec_com" href="https://blog.irontec.com/utilizando-repositorio-artefactos-privado-nexus-oss/" target="_blank">irontec.com - Seleccionando y utilizando un repositorio de artefactos privado: Nexus OSS</a></li>
+<li><a class="itdo_com" href="https://www.itdo.com/blog/integracion-continua-con-jenkins/" target="_blank">itdo.com - Te presento a Jenkins, ¿conoces la Integración Continua?</a></li>
+<li><a class="ndepend_com" href="https://www.ndepend.com/docs/quality-gates" target="_blank">ndepend.com - Quality Gates and Build Failure</a></li>
+<li><a class="softwareengineering_stackexchange_com" href="https://softwareengineering.stackexchange.com/questions/56490/what-does-nightly-builds-mean" target="_blank">stackexchange.com - What does 'Nightly Builds' mean?</a></li>
+<li><a class="jummp_wordpress_com" href="https://jummp.wordpress.com/2010/05/22/lcom4-y-la-falta-de-cohesion-en-las-clases/" target="_blank">ummp.wordpress.com - LCOM4 y la falta de cohesión en las clases</a></li>
+<li><a class="oreilly_com" href="https://www.oreilly.com/library/view/sonar-code-quality/9781849517867/ch09s04.html" target="_blank">oreilly.com - The Response for Class metric</a></li>
+<li><a class="aivosto_com" href="https://www.aivosto.com/project/help/pm-oo-cohesion.html" target="_blank">aivosto.com - Cohesion metrics</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B3/09-integracion_continua.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

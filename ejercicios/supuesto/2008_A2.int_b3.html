@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>2008 Subasta de vehículos</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home enunciado ejercicios_supuesto_2008_a2.int_b3" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/ejercicios.html">Ejercicios</a></li>
+<li>2008 Subasta de vehículos</li>
+<li>
+[<a href="2008_A2.int_b3.pdf">PDF</a>]
+  </li>
+</ol>
+</nav>
+<p>Fuente: <a class="abbr supuestos" download="2008_A2.lib" href="http://www.zonacondeduque.com/B_ejer_3_libre_AGE_2008.pdf" target="_blank" title="Supuesto práctico A2 2008 (convocatoria libre)">2008_A2.lib</a> (texto obtenido con <a class="abbr" href="https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres" target="_blank" title="Reconocimiento óptico de caracteres">OCR</a> y <span style="color:red; font-weight: bold;">sin revisar</span>)</p> </div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<p><strong>GSI 2008 bloque 3</strong> convocatoria interna.</p>
+<h1 class="anchormark" id="enunciado">
+<a aria-hidden="true" class="anchormark" href="#enunciado"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Enunciado</h1>
+<p>Cada año el Parque Móvil del Estado (PME), Organismo autónomo adscrito al
+Ministerio de Hacienda, administra los servicios de automovilismo de la
+Administración General del Estado, organismos públicos y demás entidades de
+Derecho Publico, vinculadas o dependientes de la Administración General del
+Estado, así como los de los Órganos Constitucionales del Estado. Cuando
+éstos así lo demanden enajena vehículos que ya han cumplido su servicio en
+los ministerios los cuales se trata, normalmente, de vehículos de gama media y
+alta, con pocos kilómetros (una media de 8.000 a 10.000 anuales) de entre 10 y
+13 años de antigüedad y que han gozado de una buena conservación. Estos
+automóviles han estado siempre en manos de conductores profesionales y
+revisados por el propio taller del PME, que tiene la obligación de mantenerlos
+impecables y en perfectas condiciones de uso.</p>
+<p>Estos vehículos pasan a un sistema publico de subastas en el que de manera
+transparente y en un periodo de tiempo cerrado se le adjudicara al ciudadano
+que haya presentado la mayor oferta por dicho vehículo superando por
+supuesto el precio inicial de salida.</p>
+<p>Para gestionar la subasta de estos vehículos tele11Játicamente a través de una
+aplicación WEB cuyo propósito sea mejorar la transparencia y calidad del
+proceso, así como facilitar el proceso de presentación de ofertas y adjudicación
+de vehículos, se requiere realizar un análisis del sistema de información de
+acuerdo con la metodología <a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html" target="_blank" title="Metodología que ofrece a las un instrumento para la sistematización de las actividades que dan soporte al ciclo de vida del software">Métrica v3</a>.</p>
+<p>Para la realización de este análisis se han de tener en cuenta las siguientes
+especificaciones:</p>
+<ul>
+<li>Existirán dos tipos de usuarios: los clientes que son los que se han
+registrado y los ofertantes que tienen permisos para poder pujar
+sobre los automóviles.</li>
+<li>Para poder darse de alta como cliente el ciudadano debe introducir un
+nombre de usuario y un e-mail. En el caso de los compradores además
+debe introducir un número de tarjeta sobre el que se descontará el
+precio final que alcance la puja.</li>
+<li>La aplicación WEB debe permitir la consulta de los vehículos que se
+encuentran en la subasta, la introducción de una puja y finalmente la
+publicación de una adjudicación, notificando al ganador de la puja y a
+todos los participantes del resultado de la misma.</li>
+</ul>
+<p>Para la realización de este análisis a usted <strong>se le pide</strong> la elaboración de un
+modelo orientado a objetos utilizando el lenguaje <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Lenguaje_unificado_de_modelado" target="_blank" title="Lenguaje de modelado unificado">UML</a> que deberá incluir:</p>
+<ol>
+<li>Una relación de casos de Uso.</li>
+<li>Diagrama de clases.</li>
+<li>Diagrama de componentes.</li>
+<li>Diagrama de descomposición.</li>
+<li>Diagrama de paquetes.</li>
+<li>Diagrama de Despliegue.</li>
+<li>Diseño de pruebas.</li>
+</ol>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/ejercicios/ZZ-supuesto/2008_A2.int_b3.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

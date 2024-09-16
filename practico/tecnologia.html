@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Tecnología</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home practico_tecnologia" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="..">Apuntes GSI</a></li>
+<li><a href="../category/practico.html">Material práctico</a></li>
+<li>Tecnología</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="microservicios">
+<a aria-hidden="true" class="anchormark" href="#microservicios"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr patron wikipedia" href="https://es.wikipedia.org/wiki/Arquitectura_de_microservicios" target="_blank">Microservicios</a></h1>
+<ul>
+<li>Spring Boot para los microservicios</li>
+<li>Spring Cloud Gateway para la API <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional" target="_blank" title="Transferencia de Estado Representacional">REST</a></li>
+<li>Docker para conterización</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">Kubernetes</a> o Docker Swarm para orquestación</li>
+<li><a class="abbr redhat_com" href="https://www.redhat.com/es/topics/microservices/what-is-istio" target="_blank" title="Plataforma de malla de servicios que permite controlar el intercambio de datos entre los microservicios">Istio</a> para registro, motorización y descubrimiento de microservicios (service mesh)</li>
+<li>Apache Kafka o RabbitMQ como bus de eventos (Message Broker) para comunicación asíncrona entre servicios</li>
+<li>Openshift para cluster <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank" title="Sistema para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores">kubernetes</a> autogestionado de nube privada (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Plataforma_como_servicio_(PaaS)" target="_blank" title="Plataforma como servicio">PaaS</a>) con soporte profesional</li>
+<li>AKS (Azuere), EKS (Amazon) para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube#Plataforma_como_servicio_(PaaS)" target="_blank" title="Plataforma como servicio">PaaS</a> en nube pública</li>
+<li>Estrategia maestro-detalle, carga perezosa (lazy)</li>
+</ul>
+<h1 class="anchormark" id="arquitecura-3-capas">
+<a aria-hidden="true" class="anchormark" href="#arquitecura-3-capas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Arquitecura 3 capas</h1>
+<ul>
+<li>Front: Angular, Vue.js, React (HTML5+JavaScript+CSS3)</li>
+<li>Back: Jakarta EE, Spring o Struts</li>
+<li>Servidor Web: Apache o Nginx</li>
+<li>Servidor de aplicaciones: Wildfly, Apache Geronimo, Weblogic Application Server (Oracle), WebSphere App Server (IBM)</li>
+<li>ORM: Hibernate o JPA</li>
+<li>Gestor documental: Alfresco, OpenKM, Nuxeo, Sharepoint, Documentum</li>
+<li>Gestor de contenidos: Drupal, Joomla, Wordpress</li>
+<li>Base de datos: PostgreSQL, MariaDB, Oracle, SQL Server</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Alta_disponibilidad" target="_blank">Alta disponibilidad</a> en BD: Pgpool-II, Galera, Oracle RAC</li>
+<li>Web Services: SOAP + <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/WSDL" target="_blank" title="Web Services Description Language">WSDL</a> con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/WS-Security" target="_blank" title="Seguridad en Servicios Web">WS-Security</a></li>
+<li>Memcached para cache</li>
+</ul>
+<h1 class="anchormark" id="movilidad">
+<a aria-hidden="true" class="anchormark" href="#movilidad"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Movilidad</h1>
+<ul>
+<li>Mencionar la medida <a class="administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/Estrategia-TIC/Plan-Digitalizacion-AAPP.html" target="_blank">App Factory del eje 1 del Plan de Digitalización de las AAPP</a></li>
+<li>Nativa: Android (Java/Kotlin), iOS (Objective-C/Swift)</li>
+<li>Hibrida: React Native (Javascript), Xamarin (.NET), Ionic (Web Components, Apache Cordova)</li>
+<li>Tiendas: Google Play y Apple Store</li>
+<li>Firma: <a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/ctt/clienteafirma" target="_blank" title="Herramienta de firma electrónica en entornos de escritorio y dispositivos móviles">Cliente @firma</a> móvil, <a class="abbr clave_gob_es" href="https://clave.gob.es/clave_Home/dnin/queEs.html" target="_blank" title="Permite realizar firma electrónica mediante certificados electrónicos centralizados (almacenados y custodiados por la AP)">Cl@ve firma</a> nube, <a class="abbr dnielectronico_es" href="https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_103&amp;id_menu=1" target="_blank" title="DNI electrónico">DNIe</a>/Smartcard, certificados SW en navegador</li>
+</ul>
+<h1 class="anchormark" id="cuadro-de-mando">
+<a aria-hidden="true" class="anchormark" href="#cuadro-de-mando"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Cuadro de mando</h1>
+<ul>
+<li>Pentaho/Mondrian (opensource), Power <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inteligencia_empresarial" target="_blank" title="Business Intelligence, estrategias, aplicaciones, datos, productos, tecnologías y arquitectura técnicas, los cuales están enfocados a la administración y creación de conocimiento sobre el medio, a través del análisis de los datos existentes en una organización o empresa">BI</a> (Microsoft), Tableau, QlikView, Oracle <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inteligencia_empresarial" target="_blank" title="Business Intelligence, estrategias, aplicaciones, datos, productos, tecnologías y arquitectura técnicas, los cuales están enfocados a la administración y creación de conocimiento sobre el medio, a través del análisis de los datos existentes en una organización o empresa">BI</a></li>
+<li>Informes: JasperReports, Suite Oracle <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inteligencia_empresarial" target="_blank" title="Business Intelligence, estrategias, aplicaciones, datos, productos, tecnologías y arquitectura técnicas, los cuales están enfocados a la administración y creación de conocimiento sobre el medio, a través del análisis de los datos existentes en una organización o empresa">Bi</a>, Qlik</li>
+<li>Data Warehose</li>
+</ul>
+<h1 class="anchormark" id="pruebas">
+<a aria-hidden="true" class="anchormark" href="#pruebas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Pruebas</h1>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/JUnit" target="_blank" title="Conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java">JUnit</a> para <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup></li>
+<li>JMeter para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_rendimiento_del_software" target="_blank">pruebas de rendimiento</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Selenium" target="_blank" title="Entorno de pruebas de software para aplicaciones basadas en la web">Selenium</a> para pruebas de comportamiento</li>
+<li>MoSKito para monitorización</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_blank" title="Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes">Integración continua</a>: Jenkis, Travis CI</li>
+</ul>
+<h1 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h1>
+<ul>
+<li>Chatbot: Google Dialogflow, Watson Assistant de IBM (PLN), Rasa (python/tensorflow)</li>
+<li>Apache <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Maven" target="_blank">Maven</a> para construcción de proyectos</li>
+<li>Licencias: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/European_Union_Public_License" target="_blank" title="Licencia Pública de la Unión Europea">EUPL</a>, GPL</li>
+<li>Trazabilidad: Elastic Stack: Elasticsearch + Logstash + Kibana</li>
+<li>Gestión y analisis de logs: GrayLog, Splunk</li>
+<li>Estrategia de sustitución: <a class="redhat_com" href="https://www.redhat.com/es/topics/devops/what-is-blue-green-deployment" target="_blank">azul-verde</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/practico/tecnologia.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

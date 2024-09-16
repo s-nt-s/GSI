@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Big Data</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b3_bigdata" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Big Data</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><strong><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Data_lake" target="_blank" title="Repositorio de datos al natural, tanto estructurados como semi-estructurados como binarios">Data lake</a></strong>: repositorio de datos al natural (sin modificaciones)
+de todo tipo (estructurados, semi-estructurados, no estructurados, binarios, etc).</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">Data Warehouse</a></strong> (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a>): base de datos corporativa caracterizada por la
+integración y depuración de información procedente de múltiples fuentes de datos
+tanto internas como externas a la organización.
+Su fin es el de procesar la información para poder analizarla.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Data_mart" target="_blank" title="Versión específica de un data warehouse centrado en un tema o un área de negocio dentro de una organización">Data Mart</a></strong>: almacenes de datos especializados por áreas o temas.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Macrodatos" target="_blank" title="Conjuntos de datos tan grandes y complejos que precisan de aplicaciones informáticas no tradicionales de procesamiento de datos para tratarlos adecuadamente">Big data</a></strong>: conjuntos de datos tan grandes y complejos que precisan de aplicaciones
+informáticas no tradicionales de procesamiento de datos para tratarlos adecuadamente.</p>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos" target="_blank" title="Campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos">Minería de datos</a></strong>: extracción de patrones o de información implícita u oculta
+contenida en los datos.</p>
+<h1 class="anchormark" id="data-warehouse">
+<a aria-hidden="true" class="anchormark" href="#data-warehouse"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">Data Warehouse</a></h1>
+<p>Un <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a> se caracteriza por ser <strong>OVNI</strong>:</p>
+<ul>
+<li>estar <strong>O</strong>rientado a temas</li>
+<li>son <strong>V</strong>arriantes en el tiempo: toda información tiene una referencia temporal</li>
+<li>son <strong>N</strong>o volátiles, pues la información solo es de consulta, ni se puede borrar
+ni modificar.</li>
+<li>son una solución <strong>I</strong>ntegral, pues la información procedente de diversas fuentes.</li>
+</ul>
+<h2 class="anchormark" id="aprovisionamiento-del-dw">
+<a aria-hidden="true" class="anchormark" href="#aprovisionamiento-del-dw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Aprovisionamiento del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a></h2>
+<p>Para poblar de datos un <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a> desde distintas fuentes se hace uso de herramientas <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extract,_transform_and_load" target="_blank" title="Extraer, transformar y carga: proceso que permite mover datos desde múltiples fuentes, reformatearlos, limpiarlos y cargarlos en otra base de datos">ETL</a>:
+(ej: Pentaho Data Integration, Scriptella, Ab Initio o AWS Glue).</p>
+<p>Hay dos enfoques posibles:</p>
+<ul>
+<li>Bottom Up: Se aprovisionan almacenes temáticos (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Data_mart" target="_blank" title="Versión específica de un data warehouse centrado en un tema o un área de negocio dentro de una organización">Data Mart</a>) y del conjunto de ellos se crea
+el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a>.</li>
+<li>Top Down: Se aprovisiona el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a> y, si se requiere especialización temática, se aprovisionan a
+partir del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a> los <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Data_mart" target="_blank" title="Versión específica de un data warehouse centrado en un tema o un área de negocio dentro de una organización">Data Marts</a>.</li>
+</ul>
+<h2 class="anchormark" id="explotacion-del-dw">
+<a aria-hidden="true" class="anchormark" href="#explotacion-del-dw"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Explotación del <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a></h2>
+<p>Los <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">DW</a>, a diferencia de los sistemas transaccionales (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/OLTP" target="_blank" title="Procesamiento de Transacciones En Línea">OLTP</a>), se basan en
+el uso de estructuras multidimensionales que permiten la manipulación y
+visualización de los datos de manera más eficiente (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/OLAP" target="_blank" title="Procesamiento analítico en línea">OLAP</a>).
+Son una variante de los modelos relacionales tradicionales y se componen de:</p>
+<ul>
+<li>Tablas de <strong>hechos</strong>: donde se almacena la información propiamente dicha (ej: Ventas)</li>
+<li>Tablas de <strong>dimensiones</strong>: perspectivas de alto nivel acerca de los datos
+(ej: Marcas, Productos, Clientes y Tiempo).</li>
+</ul>
+<figure class="fig" id="fg 1"><img alt="Tablas de hechos y dimensiones" src="img/dw.png" title="Tablas de hechos y dimensiones"/><figcaption>Figura 1: Tablas de hechos y dimensiones</figcaption></figure>
+<p>Este modelo permite representar la información mediante <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Cubo_OLAP" target="_blank" title="Base de datos multidimensional, en la cual el almacenamiento físico de los datos se realiza en un vector multidimensional; los cubos OLAP se pueden considerar como una ampliación de las dos dimensiones de una hoja de cálculo">Cubos OLAP</a> (o dimensionales)
+donde cada eje representa las dimensiones requeridas para las búsquedas.</p>
+<p>Las operaciones  habituales de este modelo son:</p>
+<ul>
+<li><strong>Slice-and-dice</strong>: permite obtener los datos seleccionando un valor fijo de una dimensión</li>
+<li><strong>Drill-down</strong>: permite ver datos de nivel inferior (aumenta nivel de detalle)</li>
+<li><strong>Roll-up</strong>: permite ver datos con mayor nivel de agregación (disminuye nivel de detalle)</li>
+<li><strong>Pivot</strong>: permite cambiar los ejes</li>
+<li><strong>Drill-across</strong>: similar a drill-down, con la diferencia de que su forma de ir de lo general a lo
+específico es agregar un atributo a la consulta como nuevo criterio de análisis</li>
+<li><strong>Drill-through</strong>: permite visualizar los datos relacionados al valor de un Indicador en su máximo
+nivel de detalle</li>
+</ul>
+<figure class="fig" id="fg 2"><img alt="Operaciones OLAP Roll Up, Drill Down, Slice and Dice" src="img/rollup-drilldown.png" title="Operaciones OLAP Roll Up, Drill Down, Slice and Dice"/><figcaption>Figura 2: Operaciones <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/OLAP" target="_blank" title="Procesamiento analítico en línea">OLAP</a> Roll Up, Drill Down, Slice and Dice</figcaption></figure>
+<h1 class="anchormark" id="arquitectura-olap">
+<a aria-hidden="true" class="anchormark" href="#arquitectura-olap"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Arquitectura <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/OLAP" target="_blank" title="Procesamiento analítico en línea">OLAP</a></h1>
+<p>Su objetivo es agilizar la consulta de grandes cantidades de datos, por lo que es
+lo más rápido para ejecutar sentencias SQL de tipo SELECT.</p>
+<p>Se usa en:</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" target="_blank" title="Almacén de datos, colección de datos orientada a un determinado ámbito (empresa, organización, etc.), integrado, no volátil y variable en el tiempo, que ayuda a la toma de decisiones en la entidad en la que se utiliza">Data Warehouse</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Sistemas_de_soporte_a_decisiones" target="_blank">Sistemas de soporte a decisiones</a> (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Sistemas_de_soporte_a_decisiones" target="_blank">DSS</a>)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Sistemas_de_informaci%C3%B3n_ejecutiva" target="_blank">Sistemas de información ejecutiva</a> (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Sistemas_de_informaci%C3%B3n_ejecutiva" target="_blank">EIS</a>)</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inteligencia_empresarial" target="_blank" title="Business Intelligence, estrategias, aplicaciones, datos, productos, tecnologías y arquitectura técnicas, los cuales están enfocados a la administración y creación de conocimiento sobre el medio, a través del análisis de los datos existentes en una organización o empresa">Inteligencia de negocios</a> (o <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inteligencia_empresarial" target="_blank" title="Business Intelligence, estrategias, aplicaciones, datos, productos, tecnologías y arquitectura técnicas, los cuales están enfocados a la administración y creación de conocimiento sobre el medio, a través del análisis de los datos existentes en una organización o empresa">Business Intelligence</a>)</li>
+</ul>
+<p>Tipos de sistemas <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/OLAP" target="_blank" title="Procesamiento analítico en línea">OLAP</a>:</p>
+<ul>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/ROLAP" target="_blank" title="Procesamiento Analítico OnLine Relacional (Procesamiento Analítico OnLine): herramienta OLAP sobre construidos contruida sobre una base de datos relacional">ROLAP</a></strong>: a nivel físico la información se almacena de forma relacional,
+pero para su explotación se construyen cubos dinámicamente.</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MOLAP" target="_blank" title="Procesamiento analítico multidimensional en línea (multi-dimensional online analytical processing) almacena datos en una matriz de almacenamiento multidimensional optimizada">MOLAP</a></strong>: la información se almacena directamente de forma multidimensional (cubos).</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/HOLAP" target="_blank" title="Procesamiento analítico en línea híbrido (Hybrid Online Analytical Process): permite almacenar una parte de los datos como en un sistema MOLAP y el resto como en uno ROLAP">HOLAP</a></strong>: mezcla de los dos anteriores.</li>
+</ul>
+<p>Algunos ejemplos de BBDD que permiten almacenar cubos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MOLAP" target="_blank" title="Procesamiento analítico multidimensional en línea (multi-dimensional online analytical processing) almacena datos en una matriz de almacenamiento multidimensional optimizada">MOLAP</a>/<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/HOLAP" target="_blank" title="Procesamiento analítico en línea híbrido (Hybrid Online Analytical Process): permite almacenar una parte de los datos como en un sistema MOLAP y el resto como en uno ROLAP">HOLAP</a> son:
+Hbase, Oracle <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/OLAP" target="_blank" title="Procesamiento analítico en línea">OLAP</a> o SQL Server Analysis Services.</p>
+<h1 class="anchormark" id="mineria-de-datos">
+<a aria-hidden="true" class="anchormark" href="#mineria-de-datos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos" target="_blank" title="Campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos">Minería de datos</a></h1>
+<p>El concepto <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos" target="_blank" title="Campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos">minería de datos</a> abarca:</p>
+<ul>
+<li>la etapa de análisis en bruto</li>
+<li>aspectos de gestión de datos y de bases de datos</li>
+<li>el procesamiento de los datos, del modelo y de las consideraciones de inferencia</li>
+<li>la generación de métricas de intereses</li>
+<li>el post-procesamiento de las estructuras descubiertas, su visualización y la actualización en línea</li>
+</ul>
+<p>Para definir modelos relacionados con los análisis predictivos y la minería de
+datos que puedan ser intercambiados por distintas aplicaciones se usa
+el lenguaje de marcado <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Predictive_Model_Markup_Language" target="_blank" title="Predictive Model Markup Language, lenguaje de marcado de texto XML para definir modelos relacionados con los análisis predictivos y la minería de datos intercambiables entre aplicaciones PMML">PMML</a></strong> creado por el Data Mining Group.</p>
+<p>Las características principales de la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos" target="_blank" title="Campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos">minería de datos</a> son:</p>
+<ul>
+<li>Trabaja con la información oculta</li>
+<li>Suelen ser soluciones con una arquitectura cliente-servidor</li>
+<li>Poseen gran variedad de herramientas para la extracción de la información</li>
+<li>Es habitual hacer uso de un procesamiento paralelo que acelere el proceso</li>
+<li>Produce cinco tipos de información:<ul>
+<li>Asociaciones</li>
+<li>Secuencias</li>
+<li>Clasificaciones</li>
+<li>Agrupamientos</li>
+<li>Pronósticos</li>
+</ul>
+</li>
+</ul>
+<p>En <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos" target="_blank" title="Campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos">minería de datos</a> hay dos tipos de problemas:</p>
+<ul>
+<li>Problemas <strong>predictivos</strong>:<ul>
+<li><strong>Clasificación</strong>: la variable a predecir tiene valores definidos y son
+contables, es por tanto una variables categóricas.
+Ej: determinar que clientes van a incurrir en impago y cuales no.</li>
+<li><strong>Regresión</strong> o Predicción de valores: la variable a predecir es numérica.
+Ej: probabilidad de que llueva.</li>
+</ul>
+</li>
+<li>Problemas <strong>descriptivos</strong>:<ul>
+<li><strong>Clustering</strong> (segmentación o agrupamiento): se busca encontrar grupos similares u homogéneos en los datos.
+Ej: Clasificar animales.</li>
+<li><strong>Asociación</strong>: se busca encontrar relaciones, tendencia, patrones, etc entre los datos.
+Ej: ¿Qué productos del mercado suelen comprarse juntos?</li>
+<li><strong>Secuencia</strong>: resumir las secuencias frecuentes o episodios en los datos.
+Ej: navegación (secuencia de clicks) más usual de los usuarios en un sitio web</li>
+</ul>
+</li>
+</ul>
+<p>y dos tipos de aprendizajes:</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Aprendizaje_supervisado" target="_blank">aprendizaje <strong>supervisado</strong></a>:<ol>
+<li>hay una fase de entrenamiento para construir el modelo</li>
+<li>predicen un dato desconocido a priori a partir de otros conocidos</li>
+<li>se usa en problemas <strong>predictivos</strong></li>
+</ol>
+</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Aprendizaje_no_supervisado" target="_blank">aprendizaje <strong>no supervisado</strong></a>:<ol>
+<li>no cuentan con esa fase de entrenamiento</li>
+<li>se descubren patrones y tendencias en los datos</li>
+<li>se usa en problemas <strong>descriptivos</strong></li>
+</ol>
+</li>
+</ul>
+<h2 class="anchormark" id="algoritmos">
+<a aria-hidden="true" class="anchormark" href="#algoritmos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Algoritmos</h2>
+<h3 class="anchormark" id="redes-neuronales">
+<a aria-hidden="true" class="anchormark" href="#redes-neuronales"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Red_neuronal_artificial" target="_blank">Redes neuronales</a></h3>
+<p>Sistema de interconexión de neuronas en una red que colabora para producir un
+estímulo de salida. Ejemplos:</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Perceptr%C3%B3n" target="_blank">Perceptrón</a>: red con una sola neurona (unidad básica de inferencia en forma de
+discriminador lineal), por lo tanto solo puede resolver problemas linealmente
+separables.</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Perceptr%C3%B3n_multicapa" target="_blank">Perceptrón multicapa</a>: red formada por múltiples capas, por lo tanto tiene más
+de una neurona y puede resolver problemas que no son linealmente separables.</li>
+<li>Redes de Kohonen (mapas autoorganizados): <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Red_neuronal_artificial" target="_blank">red neuronal</a> de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Aprendizaje_no_supervisado" target="_blank">aprendizaje no supervisado</a>
+que usa una función de vecindad para preservar las propiedades topológicas del espacio
+de entrada.</li>
+</ul>
+<h3 class="anchormark" id="arbol-de-decision">
+<a aria-hidden="true" class="anchormark" href="#arbol-de-decision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_de_decisi%C3%B3n" target="_blank">Árbol de decisión</a></h3>
+<p>Resuelve problemas de decisión a través de construcciones lógicas que
+representan y categorizan una serie de condiciones que suceden de forma sucesiva.
+Ejemplos:</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_ID3" target="_blank">Algoritmo ID3</a>: clasifica (como <em>positivo</em> o <em>negativo</em>) en función de atributos discretos.</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/C4.5" target="_blank">Algoritmo C4.5</a>: extensión del anterior para poder usar atributos continuos.</li>
+</ul>
+<h3 class="anchormark" id="clustering">
+<a aria-hidden="true" class="anchormark" href="#clustering"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Clustering</h3>
+<p>Agrupa una serie de vectores según criterios habitualmente de distancia; intenta
+disponer los vectores de entrada de forma que estén más cercanos aquellos que
+tengan características comunes. Ejemplos:</p>
+<ul>
+<li>Algoritmo <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/K-medias" target="_blank">K-means</a>: partición de un conjunto de n observaciones en k grupos
+en el que cada observación pertenece al grupo cuyo valor medio es más cercano.</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/K-medoids" target="_blank">Algoritmo K-medoids</a>: se diferenica del anterior en que escoge datapoints como
+centros y trabaja con una métrica arbitraria de distancias entre datapoints.</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/K_vecinos_m%C3%A1s_pr%C3%B3ximos" target="_blank" title="k vecinos más cercanos">k-nearest neighbors</a>: estima la probabilidad de que un elemento pertenezca a
+una clase.</li>
+</ul>
+<h3 class="anchormark" id="reglas-de-asociacion">
+<a aria-hidden="true" class="anchormark" href="#reglas-de-asociacion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Reglas_de_asociaci%C3%B3n" target="_blank">Reglas de asociación</a></h3>
+<p>Busca hechos que ocurren en común dentro de un determinado conjunto de datos.
+Ejemplos:</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_apriori" target="_blank">Algoritmo Apriori</a>: utilizado sobre bases de datos transaccionales para encontrar
+conjuntos de ítems frecuentes.</li>
+<li>Algoritmo Partition</li>
+<li><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Association_rule_learning#Eclat_algorithm" target="_blank" title="Equivalence Class Transformation">Algoritmo Eclat</a></li>
+</ul>
+<h3 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h3>
+<ul>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal" target="_blank">Regresión lineal</a></strong>: Forma más sencilla de regresión. Rápida y eficaz pero insuficiente
+en espacios multidimensionales donde puedan relacionarse más de 2 variables.</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/An%C3%A1lisis_de_componentes_principales" target="_blank">Análisis en Componentes Principales</a></strong>: busca reducir las dimensiones de un conjunto
+de datos, es decir, encontrar el menor grupo de variables que representan la información
+desechando las demás por estar autocontenidas en las otras. Trabaja con variables numéricas.</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/An%C3%A1lisis_factorial" target="_blank">Análisis Factorial</a></strong>: como el anterior pero para variables cuantitativas.</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/An%C3%A1lisis_de_correspondencias" target="_blank">Análisis de Correspondencia</a></strong>: técnica descriptiva para el estudio de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tabla_de_contingencia" target="_blank">tablas de contingencia</a>.</li>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Clasificador_bayesiano_ingenuo" target="_blank" title="Clasificador bayesiano ingenuo">Naive Bayes</a></strong>: clasificador probabilístico fundamentado en el teorema de Bayes
+simplificado al presuponer la independencia entre las variables predictoras.</li>
+</ul>
+<h1 class="anchormark" id="big-data">
+<a aria-hidden="true" class="anchormark" href="#big-data"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Macrodatos" target="_blank" title="Conjuntos de datos tan grandes y complejos que precisan de aplicaciones informáticas no tradicionales de procesamiento de datos para tratarlos adecuadamente">Big Data</a></h1>
+<p>Se caracteriza por las siguientes <strong>V</strong>s (principalmente las 3 primeras):</p>
+<ul>
+<li><strong>Volumen</strong>: se trabaja con gran cantidad de datos</li>
+<li><strong>Velocidad</strong>: los datos están en movimiento como consecuencia de la creación de datos en tiempo real</li>
+<li><strong>Variedad</strong>: diferentes tipos de fuentes y de datos</li>
+<li><strong>Veracidad de los datos</strong>: en referencia a la incertidumbre de los datos, es decir, al grado de
+fiabilidad de la información</li>
+<li><strong>Viabilidad</strong>: capacidad de una organización para utilizar de forma eficaz el gran volumen de datos
+que maneja</li>
+<li><strong>Visualización de los datos</strong>: la forma en que los datos son presentados una vez que se procesan</li>
+<li><strong>Valor de los datos</strong>: se refiere al valor que se puede obtener de ellos cuando se transforman en
+información</li>
+</ul>
+<p>Los datos puedes ser:</p>
+<ul>
+<li>estructurados: bases de datos</li>
+<li>semi-estructurados: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a>, JSON, etc</li>
+<li>no estructurados: texto random, contenido multimedia, etc</li>
+</ul>
+<p>y pueden ser procesados mediante:</p>
+<ul>
+<li><strong>batch</strong> o lotes: procesamiento de forma espaciada en el tiempo (ej: cada 15 minutos)</li>
+<li><strong>stream</strong> o tiempo (semi-)real: procesamiento de los datos (casi) en el momento
+en que estos se producen (ej: cada segundo)</li>
+</ul>
+<h2 class="anchormark" id="fases-y-procesos-de-big-data">
+<a aria-hidden="true" class="anchormark" href="#fases-y-procesos-de-big-data"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Fases y procesos de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Macrodatos" target="_blank" title="Conjuntos de datos tan grandes y complejos que precisan de aplicaciones informáticas no tradicionales de procesamiento de datos para tratarlos adecuadamente">Big Data</a></h2>
+<ol>
+<li><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extract,_transform_and_load" target="_blank" title="Extraer, transformar y carga: proceso que permite mover datos desde múltiples fuentes, reformatearlos, limpiarlos y cargarlos en otra base de datos">ETL</a></strong></li>
+<li><strong>Análisis de los datos</strong>. Algunos tipos:<ul>
+<li>Análisis <strong>descriptivo</strong>: explica la situación de lo qué ha pasado</li>
+<li>Análisis <strong>diagnóstico</strong>: explica la situación del por qué ha pasado</li>
+<li>Análisis <strong>predictivo</strong>: anticipa lo qué pasará</li>
+<li>Análisis <strong>prescriptivo</strong>: recomienda qué podemos hacer para que pase</li>
+</ul>
+</li>
+<li>Visualización de datos. Ejemplo de herramientas a tal propósito:<ul>
+<li>Tableau</li>
+<li>IBM Watson Analytics</li>
+<li>MS Power <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Inteligencia_empresarial" target="_blank" title="Business Intelligence, estrategias, aplicaciones, datos, productos, tecnologías y arquitectura técnicas, los cuales están enfocados a la administración y creación de conocimiento sobre el medio, a través del análisis de los datos existentes en una organización o empresa">BI</a></li>
+<li>Qilk</li>
+<li>Microstrategy</li>
+</ul>
+</li>
+</ol>
+<h1 class="anchormark" id="apache-hadoop">
+<a aria-hidden="true" class="anchormark" href="#apache-hadoop"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Apache Hadoop</a></h1>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> es un entorno de trabajo para programar aplicaciones distribuidas que manejen
+grandes volúmenes de datos. Su objetivo es acercar el procesamiento al lugar en
+donde se encuentran almacenados para reducir el tráfico de red y el tiempo invertido
+en él.</p>
+<p>Para ello hace uso de tres servicios:</p>
+<ul>
+<li>Almacenamiento fiable de datos utilizando <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a></li>
+<li>Procesamiento de datos en paralelo para sistemas de alto rendimiento mediante <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> Common: Conjunto de utilidades para la integración de subproyectos de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a>.
+Proporciona acceso a los sistemas de archivos soportados por <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a>.</li>
+</ul>
+<p>Un clúster típico <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> incluye un nodo maestro y múltiples nodos esclavo.</p>
+<ul>
+<li>El nodo maestro consiste en jobtracker (rastreador de trabajo), tasktracker (rastreador de tareas), namenode (nodo de nombres), y datanode (nodo de datos).</li>
+<li>Un esclavo o compute node (nodo de cómputo) consisten en un nodo de datos
+(datanode) y un rastreador de tareas.</li>
+</ul>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> requiere JRE 1.6 o superior, y los scripts de arranque y apagado
+requiere tener habilitado <a class="abbr protocolo wikipedia" href="https://es.wikipedia.org/wiki/Secure_Shell" target="_blank" title="Secure Shell">SSH</a> entre los nodos del cluster.</p>
+<figure class="fig" id="fg 3"><img alt="Cluster Hadoop multinodo" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Hadoop_1.png" title="Cluster Hadoop multinodo"/><figcaption>Figura 3: Cluster <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> multinodo</figcaption></figure>
+<h2 class="anchormark" id="hdfs">
+<a aria-hidden="true" class="anchormark" href="#hdfs"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a></h2>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a> es un sistema de archivos distribuidos en cada nodo de un clúster.
+Es escalable, tolerante a fallos y permite alta concurrencia y un intenso
+acceso a datos.</p>
+<p>Esta pensado principalmente para programas batch donde los datos no son en tiempo
+real. Divide archivos en bloques de tamaño fijo y los distribuye en distintos nodos
+del clúster. La <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Alta_disponibilidad" target="_blank">alta disponibilidad</a> se consigue a través de la replicación de
+archivos en el cúster.</p>
+<p>En <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a> se distinguen dos tipos de máquinas:</p>
+<ul>
+<li><strong>Namenode</strong>: Actúa como máster y almacena todos los metadatos necesarios para
+construir el sistema de ficheros a partir de los datos que almacenan los
+<em>datanodes</em>, es decir, almacena la estructura de directorios y de ficheros y
+los metadatos necesarios para componer cada fichero a partir de sus bloques.
+La localización de los bloques en el clúster la almacena en memoria RAM,
+a partir de la información que le proporcionan los <em>datanodes</em> al arrancar el sistema de archivos.</li>
+<li><strong>Datanonde</strong>: Se pueden considerar esclavos, se limitan casi prácticamente a
+almacenar los bloques que componen cada fichero, así como, a proporcionarlos
+al <em>namenode</em> o a los clientes que lo solicitan.</li>
+</ul>
+<p>Además, el <em>namenode</em> proporciona:</p>
+<ul>
+<li>balanceo: al distribuir los bloques entre los diferentes <em>datanodes</em></li>
+<li>tolerancia a fallos: detectando mediante heartbeat si un <em>datanode</em> ha caído
+y en tal caso replicando sus datos a otro</li>
+</ul>
+<h2 class="anchormark" id="mapreduce-en-hadoop">
+<a aria-hidden="true" class="anchormark" href="#mapreduce-en-hadoop"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a> en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a></h2>
+<ol>
+<li>Fase <strong>Map</strong>: se ejecuta en subtareas llamadas mappers, que son los
+responsables de generar pares clave-valor filtrando, agrupando, ordenando o
+transformando los datos originales. Los pares de datos intermedios no se almacenan en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a>.</li>
+<li>Fase <strong>Shuffle</strong> (sort): paso intermedio (si es necesario) entre Map y Reduce
+que ayuda a recoger los datos y ordenarlos de manera conveniente para el
+procesamiento. Se busca agregar las ocurrencias repetidas en cada uno de los mappers.</li>
+<li>Fase <strong>Reduce</strong>: gestiona la agregación de los valores producidos por todos
+los mappers del sistema (o por la fase shuffle) de tipo clave-valor en función
+de su clave. Cada reducer finaliza generando un fichero de salida de forma
+independiente, generalmente escrito en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a>.</li>
+</ol>
+<figure class="fig" id="fg 4"><img alt="MapReduce en Hadoop" src="https://aprenderbigdata.com/wp-content/uploads/MapReduce-esquema-1024x615.png" title="MapReduce en Hadoop"/><figcaption>Figura 4: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a> en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a></figcaption></figure>
+<h3 class="anchormark" id="job-tracker-y-task-tracker">
+<a aria-hidden="true" class="anchormark" href="#job-tracker-y-task-tracker"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Job Tracker y Task Tracker</h3>
+<p>El motor <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a> de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> consiste en un unico <em>job tracker</em> (master) que
+recibe los trabajos enviados por los clientes y múltiples <em>task tracker</em>
+(slave, hay uno en cada workernode).</p>
+<p>El <em>job tracker</em> divide un <em>job</em> en múltiples trabajos repartido entre los <em>task tracker</em>
+disponibles en el clúster, intentando mantener el trabajo lo más cerca posible de los datos.
+El <em>task tracker</em> a su vez, asigna cada tarea (una operación <em>map</em> o una operación <em>reduce</em>)
+a uno de los <em>task slot</em> disponibles en el nodo.</p>
+<p>Si el trabajo no puede ser almacenado en el nodo que tiene los datos, se da prioridad
+a los nodos del mismo rack.</p>
+<p>Si un trabajo no llega a tiempo o falla, es reprogramado. El <em>task tracker</em>
+genera en cada nodo un proceso separado para evitar que el propio <em>task tracker</em>
+falle si falla un trabajo.</p>
+<p>El <em>task tracker</em> manda periódicamente información al <em>job tracker</em> para que este
+sepa su estado.</p>
+<p>El <em>job tracker</em> es capaz de reanudar un trabajo por donde lo dejo en caso de fallo,
+a partir de la versión <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> 0.21.</p>
+<h2 class="anchormark" id="yarn">
+<a aria-hidden="true" class="anchormark" href="#yarn"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr aprenderbigdata_com" href="https://aprenderbigdata.com/hadoop-yarn/" target="_blank" title="Yet Another Resource Negotiator, framework que permite a Hadoop soportar varios motores de ejecución incluyendo MapReduce, y proporciona un planificador agnóstico a los trabajos que se encuentran en ejecución en el clúster">YARN</a></h2>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> <a class="abbr aprenderbigdata_com" href="https://aprenderbigdata.com/hadoop-yarn/" target="_blank" title="Yet Another Resource Negotiator, framework que permite a Hadoop soportar varios motores de ejecución incluyendo MapReduce, y proporciona un planificador agnóstico a los trabajos que se encuentran en ejecución en el clúster">YARN</a> permite a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> soportar varios motores de ejecución y proporciona
+un planificador agnóstico a los trabajos que se encuentran en ejecución en el clúster.</p>
+<p>Esta mejora es también conocida como <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> 2 y permite usar motores de ejecución
+distintos a <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a>.</p>
+<figure class="fig" id="fg 5"><img alt="Evolución de Hadoop 1 a 2" src="https://aprenderbigdata.com/wp-content/uploads/Apache-Hadoop-1-vs-2-768x350.png" title="Evolución de Hadoop 1 a 2"/><figcaption>Figura 5: Evolución de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> 1 a 2</figcaption></figure>
+<p>Se divide en tres componentes principales: Resource Manager, Node Manager y Application Master.</p>
+<h2 class="anchormark" id="proyectos-relacionados-con-hadoop">
+<a aria-hidden="true" class="anchormark" href="#proyectos-relacionados-con-hadoop"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Proyectos relacionados con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a></h2>
+<p>Apache <strong><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Apache_Ambari" target="_blank">Ambari</a></strong>: herramienta basada en web para el aprovisionamiento, administración y
+seguimiento de clústeres <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Apache Hadoop</a>, que incluye soporte para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a> <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hive" target="_blank">Hive</a>, <a class="abbr cwiki_apache_org" href="https://cwiki.apache.org/confluence/display/Hive/HCatalog" target="_blank">HCatalog</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_HBase" target="_blank">HBase</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_ZooKeeper" target="_blank">ZooKeeper</a>, <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Apache_Oozie" target="_blank">Oozie</a>, <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Pig" target="_blank">Pig</a> y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Sqoop" target="_blank">Sqoop</a>.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Apache_Avro" target="_blank">Avro</a></strong>: sistema de serialización de datos que provee estructuras de
+datos, un formato de datos binario compacto y rápido, un archivo contenedor para almacenar
+datos persistentes e integración con lenguajes dinámicos.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Cassandra" target="_blank">Cassandra</a></strong>: base de datos distribuida de segunda generación altamente
+escalable, que tiene un diseño totalmente distribuido de Dynamo y el modelo de datos basado
+en ColumnFamily de Bigtable.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Flume" target="_blank">Flume</a></strong>: se utiliza para almacenar datos (semiestructurados o no estructurados) en streaming en
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Hadoop_Distributed_File_System" target="_blank" title="Sistema de ficheros distribuido de Hadoop (Hadoop Distributed File System)">HDFS</a>. Es muy útil cuando existe múltiples servidores generando datos de forma continua.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_HBase" target="_blank">HBase</a></strong>: una base de datos escalable y distribuida que soporta el almacenamiento de datos
+estructurados en tablas. Permite la realización de tablas a partir de ficheros de datos.</p>
+<p>Apache <strong><a class="abbr cwiki_apache_org" href="https://cwiki.apache.org/confluence/display/Hive/HCatalog" target="_blank">HCatalog</a></strong>: proyecto para gestionar los metadatos de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hive" target="_blank">Hive</a> con el fin de que puedan
+accederse a ellos con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Pig" target="_blank">Pig</a> y <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a>.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hive" target="_blank">Hive</a></strong>: facilita la consulta y gestión de grandes conjuntos de datos que residen en
+almacenamientos distribuidos. <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hive" target="_blank">Hive</a> proporciona un mecanismo para la ver la estructura de los
+datos utilizando un lenguaje similar a SQL llamado HiveQL.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Apache_Mahout" target="_blank">Mahout</a></strong>: software libre centrado en la implementación de algoritmos de
+machine learning distribuidos.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Apache_Oozie" target="_blank">Oozie</a></strong>: gestor de flujos de trabajo que permite planificar la ejecución de jobs <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/MapReduce" target="_blank" title="Modelo de programación para dar soporte a la computación paralela sobre grandes colecciones de datos en grupos de computadoras y al commodity computing">MapReduce</a>
+(ej: de forma programada en un momento dado, cuando lleguen nuevos datos).</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Pig" target="_blank">Pig</a></strong>: plataforma para el análisis de grandes conjuntos de datos que se
+caracteriza por un lenguaje de alto nivel para la creación de los programas de análisis de datos,
+junto con la infraestructura necesaria para la evaluación de estos programas.
+Su estructura es susceptible de una paralelización
+sustancial, lo que a su vez permite manejar grandes conjuntos de datos.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Spark" target="_blank">Spark</a></strong>: motor de cálculo rápido y general para datos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Hadoop" target="_blank" title="Entorno de trabajo para programar aplicaciones distribuidas que manejen grandes volúmenes de datos (big data)">Hadoop</a>. Proporciona
+un modelo de programación sencillo y expresivo que soporta una amplia gama de aplicaciones,
+incluyendo <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extract,_transform_and_load" target="_blank" title="Extraer, transformar y carga: proceso que permite mover datos desde múltiples fuentes, reformatearlos, limpiarlos y cargarlos en otra base de datos">ETL</a>, machine learning, procesamiento de flujo, y computación gráfica.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_ZooKeeper" target="_blank">ZooKeeper</a></strong>: servicio centralizado construido para mantener la información de
+configuración, proporcionar sincronización distribuida y la prestación de servicios de grupo.</p>
+<p>Apache <strong><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Apache_Parquet" target="_blank">Parquet</a></strong> y Apache <strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres" target="_blank" title="Reconocimiento óptico de caracteres">OCR</a></strong>: formatos de almacenamiento de datos orientado a columnas.</p>
+<p>Apache <strong><a class="abbr chukwa_apache_org" href="http://chukwa.apache.org/" target="_blank">Chukwa</a></strong>: sistema de recopilación de datos de código abierto para el seguimiento de
+grandes sistemas distribuidos. Incluye un conjunto de herramientas para la visualización,
+seguimiento y análisis de resultados.</p>
+<h1 class="anchormark" id="tipos-de-bases-de-datos-nosql">
+<a aria-hidden="true" class="anchormark" href="#tipos-de-bases-de-datos-nosql"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Tipos de bases de datos <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/NoSQL" target="_blank" title="Sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR">NoSQL</a></h1>
+<ul>
+<li><strong>Clave-valor</strong>: cada elemento se asocia con una clave única. Ej: Redis, DynamoDB, Aerospike, etc.</li>
+<li><strong>Documentales</strong>: almacenan la información como si fueran documentos utilizando estructuras
+como JSON o <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank" title="Lenguaje de Marcado Extensible">XML</a>. Ej: Mongo DB, Couch DB, Raven DB, etc.</li>
+<li>Orientadas a <strong>Grafos</strong>: la información se almacena como nodos y las relaciones a través de las
+aristas del <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a>. Ej: Neo4j, Orient DB, Arango DB, etc.</li>
+<li>Orientadas a <strong>Objetos</strong>: la información se almacena como objetos. Ej: Versant, Object DB, etc.</li>
+<li><strong>Columnares</strong>: estos sistemas almacenan los datos cambiando el enfoque transaccional de filas a
+columnas. Ej: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Apache_Cassandra" target="_blank">Cassandra</a>, Hbase, etc.</li>
+</ul>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><strike title="Inteligencia artificial es un tema relacionado con BigData, pero en el temario no aparece explícitamente"><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/070</a></strike></li>
+<li><strike title="Conocimiento experto es un tema relacionado con BigData, pero en el temario no aparece explícitamente"><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/071</a></strike></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/075</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack1/076</a></li>
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack3/07/23</a></li>
+<li><a class="blog_powerdata_es" href="https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/data-lake-vs-data-warehouse.-veamos-sus-principales-diferencias" target="_blank">blog.powerdata.es - Data Lake vs Data Warehouse. Veamos sus principales diferencias</a></li>
+<li><a class="campusbigdata_com" href="https://www.campusbigdata.com/big-data-blog/item/82-data-mining-vs-big-data" target="_blank">campusbigdata.com- Data Mining vs Big Data</a></li>
+<li><a class="geographica_com" href="https://geographica.com/es/blog/business-intelligence-se-relaciona-big-data/" target="_blank">geographica.com - Qué es Business Intelligence y cómo se relaciona con el Big Data</a></li>
+<li><a class="autoritas_net" href="https://www.autoritas.net/2016/05/16/escala-de-valor-en-la-analitica-de-datos-by-gartner/" target="_blank">autoritas.net - Escala de valor en la analítica de datos. By Gartner</a></li>
+<li><a class="docplayer_net" href="https://docplayer.net/8988314-Ibm-big-data-platform.html" target="_blank">docplayer.net - IBM Big Data Platform</a></li>
+<li><a class="thuyct89_wordpress_com" href="https://thuyct89.wordpress.com/2016/08/31/overview-about-big-data-course/" target="_blank">thuyct89.wordpress.com - Overview about Big Data course</a></li>
+<li><a class="aprenderbigdata_com" href="https://aprenderbigdata.com/hadoop-mapreduce/" target="_blank">aprenderbigdata.com - ¿Qué es Hadoop MapReduce?</a></li>
+<li><a class="aprenderbigdata_com" href="https://aprenderbigdata.com/introduccion-cloudera-hadoop/" target="_blank">aprenderbigdata.com - Introducción a Cloudera y Componentes</a></li>
+<li><a class="hadoop_apache_org" href="https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html" target="_blank">hadoop.apache.org - MapReduce Tutorial</a></li>
+<li><a class="aprenderbigdata_com" href="https://aprenderbigdata.com/hadoop-yarn/" target="_blank">aprenderbigdata.com - ¿Qué es Hadoop Yarn?</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=doRS6xUoAyY" target="_blank">youtube.com - 019 MapReduce Daemons JobTracker and TaskTracker Explained</a></li>
+<li><a class="jorgeromero_net" href="https://jorgeromero.net/tecnicas-y-algoritmos-de-mineria-de-datos/" target="_blank">jorgeromero.net - Técnicas y algoritmos de Minería de Datos</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B3/18-bigdata.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

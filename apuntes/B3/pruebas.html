@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Pruebas de software</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b3_pruebas" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Pruebas de software</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="tipos-de-pruebas-segun-metrica-v3">
+<a aria-hidden="true" class="anchormark" href="#tipos-de-pruebas-segun-metrica-v3"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Tipos de pruebas según <a class="abbr administracionelectronica_gob_es" href="https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Metrica_v3.html" target="_blank" title="Metodología que ofrece a las un instrumento para la sistematización de las actividades que dan soporte al ciclo de vida del software">Métrica v3</a></h1>
+<p><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">Pruebas <strong>unitarias</strong></a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>: compruebas el correcto funcionamiento de una unidad de código</p>
+<p><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/" target="_blank" title="Prueban es que todos los elementos unitarios que componen el software, funcionan juntos correctamente en grupo">Pruebas de <strong>integración</strong></a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_de_integraci%C3%B3n" target="_blank">w</a></sup>: compruebas que las unidades de código funcionan
+correctamente en grupo.  Se centra principalmente en probar la comunicación
+entre los componentes y sus comunicaciones ya sea hardware o software.</p>
+<p><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/sistema" target="_blank" title="Pruebas de integración del sistema de información completo, y permiten probar el sistema en su conjunto y con otros sistemas con los que se relaciona para verificar que las especificaciones funcionales y técnicas se cumplen">Pruebas del <strong>sistema</strong></a>: <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/" target="_blank" title="Prueban es que todos los elementos unitarios que componen el software, funcionan juntos correctamente en grupo">Pruebas de integración</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_de_integraci%C3%B3n" target="_blank">w</a></sup> del sistema de información completo, y permiten probar el sistema en su conjunto y con otros sistemas con los que se relaciona para verificar que las especificaciones funcionales y técnicas se cumplen.</p>
+<p><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/implantacion/" target="_blank" title="Comprueban el funcionamiento correcto del sistema integrado de hardware y software en el entorno de operación, y permiten que el usuario realice la aceptación del sistema, desde el punto de vista de operación">Pruebas de <strong>implantación</strong></a>: comprueban el funcionamiento correcto del sistema
+integrado de hardware y software en el entorno de operación, y permiten al usuario
+que, desde el punto de vista de operación, realice la aceptación del sistema
+una vez instalado en su entorno real y en base al cumplimiento de los requisitos
+no funcionales especificados.</p>
+<p><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/" target="_blank" title="Valida que el sistema cumpla con el funcionamiento esperado y permite al usuario que determine su aceptación, desde el punto de vista de su funcionalidad y rendimiento">Pruebas de <strong>aceptación</strong></a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_aceptaci%C3%B3n_(inform%C3%A1tica)" target="_blank">w</a></sup>: Valida que el sistema cumpla con el funcionamiento
+esperado y permite al usuario que determine su aceptación, desde el punto de
+vista de su funcionalidad y rendimiento.</p>
+<p><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/regresion" target="_blank" title="Valida que los cambios sobre un componente no introducen nuevos errores o un comportamiento no deseado en otros componentes no modificados.">Pruebas de <strong>regresión</strong></a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_regresi%C3%B3n" target="_blank">w</a></sup>: Valida que los cambios sobre un componente no
+introducen nuevos errores o un comportamiento no deseado en otros componentes
+no modificados.</p>
+<h1 class="anchormark" id="pruebas-de-caja...">
+<a aria-hidden="true" class="anchormark" href="#pruebas-de-caja..."><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Pruebas de caja...</h1>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_caja_blanca" target="_blank" title="Se centran en los detalles procedimentales del software, por lo que su diseño está fuertemente ligado al código fuente">Pruebas de <strong>caja blanca</strong></a>: el esfuerzo se concentra en encontrar casos de
+prueba que permitan comprobar cómo funciona el código en cualquier situación,
+lo que supone, como mínimo, recorrer todos sus caminos con un conjunto tan
+amplio de datos de prueba como sea necesario. En resumen, se trataría de
+recorrer exhaustivamente todos los caminos posibles.</p>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Caja_negra_(sistemas)" target="_blank" title="Pruebas desde el punto de vista de las entradas que recibe y las salidas que produce, sin tener en cuenta su funcionamiento interno">Pruebas de <strong>caja negra</strong></a>: Se trata al programa desde el punto de vista de las
+entradas que recibe y las salidas que produce, sin tener en cuenta su
+funcionamiento interno, buscando circunstancias en las que el programa no se
+comporte de acuerdo con las especificaciones.</p>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_caja_gris" target="_blank" title="El tester tiene un conocimiento limitado de los detalles internos del programa, se utilizan comúnmente en las pruebas de penetración">Pruebas de <strong>caja gris</strong></a>: El tester tiene un conocimiento limitado de los
+detalles internos del programa, se utilizan comúnmente en las
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Examen_de_penetraci%C3%B3n" target="_blank" title="Ataque a un sistema informático con la intención de encontrar las debilidades de seguridad y todo lo que podría tener acceso a ella, su funcionalidad y datos">pruebas de <strong>penetración</strong></a>.</p>
+<h1 class="anchormark" id="pruebas-estaticas-y-dinamicas">
+<a aria-hidden="true" class="anchormark" href="#pruebas-estaticas-y-dinamicas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Pruebas estáticas y dinámicas</h1>
+<p>Pruebas <strong>estáticas</strong>: se realizan sin ejecutar el código de la aplicación.</p>
+<p>Pruebas <strong>dinámicas</strong>: requieren la ejecución de la aplicación, permitiendo
+medir con mayor precisión el comportamiento de la aplicación desarrollada.</p>
+<h1 class="anchormark" id="funcionales-y-no-funcionales">
+<a aria-hidden="true" class="anchormark" href="#funcionales-y-no-funcionales"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Funcionales y no funcionales</h1>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_funcionales" target="_blank" title="Prueba de tipo caja negra basada en la ejecución, revisión y retroalimentación de las funcionalidades previamente diseñadas para el software">Pruebas <strong>funcionales</strong></a>: basadas en la ejecución, revisión y retroalimentación
+de las funcionalidades previamente diseñadas para el software (requisitos funcionales).
+Pueden ser:</p>
+<ul>
+<li><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">Pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup></li>
+<li><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/integracion/" target="_blank" title="Prueban es que todos los elementos unitarios que componen el software, funcionan juntos correctamente en grupo">Pruebas de integración</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_de_integraci%C3%B3n" target="_blank">w</a></sup></li>
+<li><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/sistema" target="_blank" title="Pruebas de integración del sistema de información completo, y permiten probar el sistema en su conjunto y con otros sistemas con los que se relaciona para verificar que las especificaciones funcionales y técnicas se cumplen">Pruebas de sistema</a></li>
+<li><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/" target="_blank" title="Valida que el sistema cumpla con el funcionamiento esperado y permite al usuario que determine su aceptación, desde el punto de vista de su funcionalidad y rendimiento">Pruebas de aceptación</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_aceptaci%C3%B3n_(inform%C3%A1tica)" target="_blank">w</a></sup></li>
+<li><a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/regresion" target="_blank" title="Valida que los cambios sobre un componente no introducen nuevos errores o un comportamiento no deseado en otros componentes no modificados.">Pruebas de regresión</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_regresi%C3%B3n" target="_blank">w</a></sup></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_alpha" target="_blank" title="Realizadas cuando el sistema está en desarrollo y cuyo objetivo es asegurar que lo que estamos desarrollando es probablemente correcto y útil para el cliente">Pruebas <strong>alpha</strong></a>: hay varias definiciones<ul>
+<li>pruebas realizadas por el usuario con el desarrollador como observador en un entorno
+controlado</li>
+<li>pruebas para validar un prototipo antes de implementar la versión real</li>
+<li>última prueba realizada por los equipos de prueba en el sitio de desarrollo después de la <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/aceptacion/" target="_blank" title="Valida que el sistema cumpla con el funcionamiento esperado y permite al usuario que determine su aceptación, desde el punto de vista de su funcionalidad y rendimiento">prueba de aceptación</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_aceptaci%C3%B3n_(inform%C3%A1tica)" target="_blank">w</a></sup> y antes de lanzar el software para la <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_beta" target="_blank" title="Realizadas cuando el sistema está teóricamente correcto y pasa a ejecutarse en un entorno real">prueba beta</a></li>
+</ul>
+</li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_beta" target="_blank" title="Realizadas cuando el sistema está teóricamente correcto y pasa a ejecutarse en un entorno real">Pruebas <strong>beta</strong></a>: pruebas realizadas sobre una <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Ciclo_de_vida_del_lanzamiento_de_software#Beta" target="_blank" title="Primera versión completa de un programa que es posiblemente inestable pero útil para que sea considerada como una versión preliminar">versión beta</a> por usuarios finales
+o betatester.</li>
+</ul>
+<p><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Non-functional_testing" target="_blank" title="Verifican criterios usados para juzgar la operación de un sistema (requisitos no funcionales)">Pruebas <strong>no funcionales</strong></a>: verifican criterios usados para juzgar la operación
+de un sistema (requisitos no funcionales) como por ejemplo la disponibilidad,
+accesibilidad, usabilidad, mantenibilidad, seguridad, rendimiento.
+Se pueden clasificar según el tipo de requisito que abarcan:</p>
+<ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_compatibilidad" target="_blank">Pruebas de compatibilidad</a></li>
+<li>Pruebas de seguridad</li>
+<li><a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Load_testing" target="_blank">Pruebas de carga</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Prueba_de_usabilidad" target="_blank">Pruebas de usabilidad</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_rendimiento_del_software" target="_blank">Pruebas de rendimiento</a></li>
+<li>Pruebas de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Internacionalizaci%C3%B3n_y_localizaci%C3%B3n" target="_blank" title="Proceso de diseñar software de manera tal que pueda adaptarse a diferentes idiomas y regiones sin la necesidad de realizar cambios de ingeniería ni en el código">internacionalización y localización</a></li>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_escalabilidad" target="_blank">Pruebas de escalabilidad</a></li>
+<li>Pruebas de mantenibilidad</li>
+<li>Pruebas de instalabilidad</li>
+<li><a class="abbr qalovers_com" href="https://www.qalovers.com/2016/02/pruebas-de-portabilidad_42.html" target="_blank">Pruebas de portabilidad</a></li>
+</ul>
+<h1 class="anchormark" id="desarrollo-guiado-por-pruebas-(tdd)">
+<a aria-hidden="true" class="anchormark" href="#desarrollo-guiado-por-pruebas-(tdd)"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Desarrollo guiado por pruebas (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas" target="_blank" title="Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza">TDD</a>)</h1>
+<p>El <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas" target="_blank" title="Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza">TDD</a> es una técnica de desarrollo donde los pasos a seguir son:</p>
+<ol>
+<li>Se elige un requisito</li>
+<li>Se escriben las pruebas que validan el requisito que se debe implementar.
+Generalmente son <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>.</li>
+<li>Se verifica que la prueba falla, lo cual significa que el requisito aún no se
+ha implementado</li>
+<li>Se escribe el código que hace que la pruebas no fallen</li>
+<li>Se valida el código con las pruebas</li>
+<li>Se refactoriza para eliminar duplicidades y obtener la versión final
+(por cada cambio se vuelven a lanzar las pruebas para verificar que todos
+sigue bien)</li>
+<li>Se actualiza la lista de requisitos</li>
+</ol>
+<p>Este enfoque se complementa bien con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_blank" title="Técnica que consiste en hacer integraciones automáticas de un proyecto lo más a menudo posible para así poder detectar fallos cuanto antes">integración continua</a> y metodologías ágiles
+ya que se puede automatizar ejecutar toda la batería de pruebas en cada subida
+de código al repositorio central.</p>
+<h2 class="anchormark" id="ventajas-e-inconvenientes">
+<a aria-hidden="true" class="anchormark" href="#ventajas-e-inconvenientes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ventajas e inconvenientes</h2>
+<p><strong>Ventajas</strong>:</p>
+<ul>
+<li>Además de validad requisitos, guiá el diseño del programa</li>
+<li>Hacer primero las pruebas implica un análisis en profundidad de los requisitos
+y escenarios</li>
+<li>Busca implementar unicamente el código necesario para resolver cada caso,
+por lo cual en principio hay menos redundancia y código superfluo</li>
+</ul>
+<p><strong>Desventajas</strong>:</p>
+<ul>
+<li>Implica un mayor esfuerzo inicial (aunque luego se puede ir más rápido)</li>
+<li>No todos los requisitos se pueden validar con <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>, y otros
+tipos de prueba pueden ser muy costosas o lentas</li>
+</ul>
+<h1 class="anchormark" id="desarrollo-guiado-por-comportamiento-(bdd)">
+<a aria-hidden="true" class="anchormark" href="#desarrollo-guiado-por-comportamiento-(bdd)"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Desarrollo guiado por comportamiento (<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento" target="_blank" title="Desarrollo guiado por comportamiento (behavior-driven development): combina las técnicas generales y los principios del TDD, junto con ideas del diseño guiado por el dominio y el análisis y diseño orientado a objetos">BDD</a>)</h1>
+<p>El <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento" target="_blank" title="Desarrollo guiado por comportamiento (behavior-driven development): combina las técnicas generales y los principios del TDD, junto con ideas del diseño guiado por el dominio y el análisis y diseño orientado a objetos">BDD</a> es una técnica de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software" target="_blank" title="Enfoque para la toma de decisiones en los proyectos de software, basados en el desarrollo iterativo e incremental, donde los requisitos y soluciones evolucionan con el tiempo">desarrollo ágil</a> con las misma filosofía y fases que <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas" target="_blank" title="Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza">TDD</a>
+(1º pruebas, 2º código, 3º refactorizar) pero con pruebas que verifican el
+código desde el punto de vista del negocio, es decir, del comportamiento de la
+aplicación.</p>
+<p><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento" target="_blank" title="Desarrollo guiado por comportamiento (behavior-driven development): combina las técnicas generales y los principios del TDD, junto con ideas del diseño guiado por el dominio y el análisis y diseño orientado a objetos">BDD</a> puede ser combinado con <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas" target="_blank" title="Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza">TDD</a> (más enfocado en <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup>).</p>
+<figure class="fig" id="fg 1"><img alt="BDD + TDD" src="img/bdd_tdd.png" title="BDD + TDD"/><figcaption>Figura 1: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_comportamiento" target="_blank" title="Desarrollo guiado por comportamiento (behavior-driven development): combina las técnicas generales y los principios del TDD, junto con ideas del diseño guiado por el dominio y el análisis y diseño orientado a objetos">BDD</a> + <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas" target="_blank" title="Desarrollo guiado por pruebas (Test-driven development): Primero se escriben las pruebas, luego se codifica la solución y finalmente se refactoriza">TDD</a></figcaption></figure>
+<p>El comportamiento deseado de la aplicación se describe en una plantilla
+(basándose en <em><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">historias de usuario</a></em>) con las siguientes partes:</p>
+<ol>
+<li>Titulo: breve, claro y explico</li>
+<li>Narrativa: la <em><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Historias_de_usuario" target="_blank" title="Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario">historia de usuario</a></em>, típicamente formulada como
+«Como (rol) quiero (algo) para poder (beneficio)» y que responde a las preguntas:<ul>
+<li>¿quién se beneficia?</li>
+<li>¿qué se quiere?</li>
+<li>¿cuál es el beneficio?</li>
+</ul>
+</li>
+<li>Criterios de aceptación o escenarios, típicamente formulado como
+«Dado (1) Cuando (2) Entonces (3)» siendo:<ol>
+<li>Condición inicial, la cual es asumida como verdadera al inicio del escenario.
+Esto puede consistir en una causa o varias</li>
+<li>Declaración de cuál es el evento que causa el inicio del escenario</li>
+<li>Declaración del resultado esperado, en una o más cláusulas</li>
+</ol>
+</li>
+</ol>
+<h1 class="anchormark" id="herramientas">
+<a aria-hidden="true" class="anchormark" href="#herramientas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Herramientas</h1>
+<h2 class="anchormark" id="open-soruce">
+<a aria-hidden="true" class="anchormark" href="#open-soruce"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Open Soruce</h2>
+<ol>
+<li>Herramientas de gestión de pruebas:<ul>
+<li>Bugzilla Testopia</li>
+<li>FitNesse</li>
+<li>qaManager</li>
+<li>qaBook</li>
+<li>RTH (open source)</li>
+<li>Salome-tmf</li>
+<li>Squash TM</li>
+<li>Test Environment Toolkit</li>
+<li>TestLink</li>
+<li>Testitool</li>
+<li>XQual Studio</li>
+<li>Radi-testdir</li>
+<li>Data Generator</li>
+</ul>
+</li>
+<li>Herramientas para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_funcionales" target="_blank" title="Prueba de tipo caja negra basada en la ejecución, revisión y retroalimentación de las funcionalidades previamente diseñadas para el software">pruebas funcionales</a><ul>
+<li><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Selenium" target="_blank" title="Entorno de pruebas de software para aplicaciones basadas en la web">Selenium</a></li>
+<li>Soapui</li>
+<li>Watir (Pruebas de aplicaciones web en Ruby)</li>
+<li>WatiN (Pruebas de aplicaciones web en .Net)</li>
+<li>Capedit</li>
+<li>Canoo WebTest</li>
+<li>Solex</li>
+<li>Imprimatur</li>
+<li>SAMIE</li>
+<li>ITP</li>
+<li>WET</li>
+<li>WebInject</li>
+</ul>
+</li>
+<li>Herramientas para <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Load_testing" target="_blank">pruebas de carga</a> y rendimiento<ul>
+<li>FunkLoad</li>
+<li>FWPTT load testing</li>
+<li>loadUI</li>
+<li>JMeter</li>
+</ul>
+</li>
+<li>Entre los frameworks para realizar <a class="abbr manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/unitarias/" target="_blank" title="Forma de comprobar el correcto funcionamiento de una unidad de código">pruebas unitarias</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Prueba_unitaria" target="_blank">w</a></sup><ul>
+<li>XUnit: <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/JUnit" target="_blank" title="Conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java">JUnit</a>, NUnit, RUnit, PHPUnit...</li>
+<li>TestNG: Creado para suplir algunas deficiencias en <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/JUnit" target="_blank" title="Conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java">JUnit</a>.</li>
+<li>JTiger: Basado en anotaciones, como TestNG.</li>
+<li>CPPUnit</li>
+<li>Visual Studio UnitTesting</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchormark" id="comerciales">
+<a aria-hidden="true" class="anchormark" href="#comerciales"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Comerciales</h2>
+<ol>
+<li>Herramientas de gestión de pruebas<ul>
+<li>HP Quality Center/ALM</li>
+<li>QA Complete</li>
+<li>qaBook</li>
+<li>T-Plan Professional</li>
+<li>SMARTS</li>
+<li>QAS.Test Case Studio</li>
+<li>PractiTest</li>
+<li>SpiraTest</li>
+<li>TestLog</li>
+<li>ApTest Manager</li>
+<li>Zephyr</li>
+</ul>
+</li>
+<li>Herramientas para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_funcionales" target="_blank" title="Prueba de tipo caja negra basada en la ejecución, revisión y retroalimentación de las funcionalidades previamente diseñadas para el software">pruebas funcionales</a><ul>
+<li>QuickTest Pro</li>
+<li>Rational Robot</li>
+<li>Sahi</li>
+<li>SoapTest</li>
+<li>Test Complete</li>
+<li>QA Wizard</li>
+<li>Squish</li>
+<li>vTest</li>
+<li>Internet Macros</li>
+</ul>
+</li>
+<li>Herramientas para <a class="abbr wikipedia" href="https://en.wikipedia.org/wiki/Load_testing" target="_blank">pruebas de carga</a> y rendimiento<ul>
+<li>HP LoadRunner</li>
+<li>LoadStorm</li>
+<li>NeoLoad</li>
+<li>WebLOAD Professional</li>
+<li>Forecast</li>
+<li>ANTS - Advanced .NET Testing System</li>
+<li>Webserver Stress Tool</li>
+<li>Load Impact</li>
+</ul>
+</li>
+</ol>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a class="abbr" href="../../preparatic/packs.html">PreparaTic27 - Pack3/07/21</a></li>
+<li><a class="manuel_cillero_es" href="https://manuel.cillero.es/doc/metodologia/metrica-3/tecnicas/pruebas/" target="_blank">manuel.cillero.es - Pruebas</a></li>
+<li><a class="testermoderno_com" href="https://www.testermoderno.com/caja-blanca-vs-caja-negra/" target="_blank">testermoderno.com - Caja blanca vs Caja negra</a></li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_software" target="_blank">wikipedia.org - Pruebas de software</a></li>
+<li><a class="es_myservername_com" href="https://es.myservername.com/alpha-testing-beta-testing" target="_blank">myservername.com - Pruebas alfa y beta (una guía completa)</a></li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pruebas_de_validaci%C3%B3n" target="_blank">wikipedia.org - Pruebas de validación</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B3/10-pruebas.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Medidas de seguridad</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home practico_preguntas_seguridad" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/practico.html">Material práctico</a></li>
+<li>Medidas de seguridad</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<!--
+
+| Ley/Guía     | Título |
+|--------------|----------|
+| RD 3/2010    | Esquema Nacional de Seguridad |
+| CCN-STIC-801 | Responsabilidades y Funciones |
+| CCN-STIC-805 | Política de Seguridad de la Información |
+| RD 3/2010 A1 | Categorías de los sistemas |
+| CCN-STIC-803 | Valoración de Sistemas |
+| RD 3/2010 A2 | Medidas de seguridad |
+| CCN-STIC-804 | Guía de implantación |
+| RGPD         | Reglamento (UE) 2016/679: Reglamento General de Protección de Datos |
+| LOPD-GDD     | LO 3/2018: Protección de Datos Personales y garantía de los derechos digitales |
+
+-->
+<h1 class="anchormark" id="valoracion-del-sistema">
+<a aria-hidden="true" class="anchormark" href="#valoracion-del-sistema"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Valoración del sistema</h1>
+<p>Usar <a class="abbr derogada ley boe_es" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#ani" target="_blank" title="Derogada: ENS: Categorías de los sistemas (Real Decreto 3/2010)">RD 3/2010 A1</a> y <a class="abbr guias_ccn_stic ccn-cert_cni_es" href="https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/682-ccn-stic-803-valoracion-de-sistemas-en-el-ens-1/file.html" target="_blank" title="Valoración de Sistemas">CCN-STIC-803</a></p>
+<p><strong>1.</strong> Valorar los criterios de la siguiente tabla haciéndose pregunta
+<em>¿Qué consecuencias tendría...</em>
+por cada dimensión (la respuesta será una de las celdas de la tabla o <em>no aplica</em>):</p>
+<ul>
+<li>Confidencialidad: ...la revelación de información a personas no autorizadas?</li>
+<li>Integridad: ...la modificación de información por alguien no autorizado?</li>
+<li>Trazabilidad: ...no poder comprobar a posteriori quien ha accedido o modificado cierta información?</li>
+<li>Autenticidad: ...que la información no fuera auténtica?</li>
+<li>Disponibilidad: ...que una persona o sistema autorizado no pudiera usar
+el servicio?</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th colspan="2">Criterio</th>
+<th>BAJO</th>
+<th>MEDIO</th>
+<th>ALTO</th>
+</tr>
+</thead>
+<tbody class="hasRowspan">
+<tr>
+<th colspan="2">Perjuicio directo al ciudadano</th>
+<td>alguno</td>
+<td>importante pero subsanable</td>
+<td>grave de difícil o imposible reparación</td>
+</tr>
+<tr>
+<th rowspan="4">Incumplimiento<br/>de una norma</th>
+<th>legal/administrativa</th>
+<td>leve subsanable</td>
+<td>material o formal no subsanable</td>
+<td>material y formal grave</td>
+</tr>
+<tr>
+<th>regulatoria</th>
+<td>incumplimiento</td>
+<td>sanción significativa</td>
+<td>sanción grave y/o perdida de licencia para operar</td>
+</tr>
+<tr>
+<th>contractual</th>
+<td rowspan="2">formal leve</td>
+<td rowspan="2">material o formal</td>
+<td rowspan="2">material o formal grave</td>
+</tr>
+<tr>
+<th>interna</th>
+</tr>
+<tr>
+<th colspan="2">Pérdidas económicas</th>
+<td>&lt; 4% presupuesto anual</td>
+<td>del 4% al 10%</td>
+<td>&gt; 10%</td>
+</tr>
+<tr>
+<th colspan="2">Reputación (daño)</th>
+<td>moderado</td>
+<td>significativo</td>
+<td>grave</td>
+</tr>
+<tr>
+<th colspan="2">Protestas</th>
+<td>individuales</td>
+<td>públicas</td>
+<td>masivas</td>
+</tr>
+<tr>
+<th colspan="2">Delitos</th>
+<td>favorecería el delitos</td>
+<td>favorecería significativamente o<br/>dificultaría su investigación</td>
+<td>incitaría al delito o es un delito en si o<br/>dificultaría enormemente su investigación</td>
+</tr>
+</tbody>
+</table>
+<p><strong>2.</strong> Valorar la dimensión <strong>disponibilidad</strong> según <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n" target="_blank" title="Tiempo objetivo de recuperación">RTO</a>:</p>
+<ul>
+<li>si <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n" target="_blank" title="Tiempo objetivo de recuperación">RTO</a> &gt; 5 días: N/A</li>
+<li>si <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n" target="_blank" title="Tiempo objetivo de recuperación">RTO</a> &lt;= 5 días: BAJO</li>
+<li>si <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n" target="_blank" title="Tiempo objetivo de recuperación">RTO</a> &lt;= 1 día: MEDIO</li>
+<li>si <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tiempo_objetivo_de_recuperaci%C3%B3n" target="_blank" title="Tiempo objetivo de recuperación">RTO</a> &lt;= 4 horas: ALTO</li>
+</ul>
+<p>Con ello rellenamos la tabla:</p>
+<table>
+<thead>
+<tr>
+<th>Activo</th>
+<th>Tipo</th>
+<th>C</th>
+<th>I</th>
+<th>T</th>
+<th>A</th>
+<th>D</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ej 1</td>
+<td>servicio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ej 2</td>
+<td>información</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="2">Valor máximo</th>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 class="anchormark" id="medidas-de-seguridad">
+<a aria-hidden="true" class="anchormark" href="#medidas-de-seguridad"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Medidas de seguridad</h1>
+<p>Usar <a class="abbr derogada ley boe_es" href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-1330#anii" target="_blank" title="Derogada: ENS: Medidas de seguridad (Real Decreto 3/2010)">RD 3/2010 A2</a> y <a class="abbr guias_ccn_stic ccn-cert_cni_es" href="https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/505-ccn-stic-804-medidas-de-implantancion-del-ens/file.html" target="_blank" title="Guía de implantación">CCN-STIC-804</a> para <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Esquema_Nacional_de_Seguridad" target="_blank" title="Esquema Nacional de Seguridad">ENS</a>, y <a class="abbr eur-lex_europa_eu" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679" target="_blank" title="Reglamento General de Protección de Datos (Reglamento EU 2016/679)">RGPD</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos" target="_blank">w</a></sup> y <a class="abbr ley boe_es" href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#da" target="_blank" title="DA1 LOPD-GDD: Medidas de seguridad en el ámbito del sector público (Ley Orgánica 3/2018)">LOPD-GDD</a> protección de datos
+(realizar evaluación de impacto - <a class="abbr ley eur-lex_europa_eu" href="https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504&amp;from=EN#tocId49" target="_blank" title="RGPD: Evaluación de impacto relativa a la protección de datos">Art 35 RGPD</a> - si corresponde).</p>
+<h2 class="anchormark" id="marco-organizativo">
+<a aria-hidden="true" class="anchormark" href="#marco-organizativo"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Marco organizativo</h2>
+<ol>
+<li><code>[org.1]</code> Incluir el sistema dentro de la Política de Seguridad (<a class="abbr guias_ccn_stic ccn-cert_cni_es" href="https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/508-ccn-stic-805-politica-de-seguridad-de-la-informacion/file.html" target="_blank" title="Política de Seguridad de la Información">CCN-STIC-805</a>) del organismo</li>
+<li><code>[org.4]</code> Establecer un proceso formal de autorización que cubra todos los elementos del sistema</li>
+</ol>
+<h2 class="anchormark" id="marco-operacional">
+<a aria-hidden="true" class="anchormark" href="#marco-operacional"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Marco operacional</h2>
+<ol>
+<li><code>[op.pl.1]</code> Realizar un análisis de riesgo: informal (BAJO), semiformal (MEDIO) y formal (ALTO)</li>
+<li><code>[op.acc.1 AT]</code> Definir controles de identificación que:<ul>
+<li>permita saber quién recibe y qué derechos de acceso recibe, y quién ha hecho algo y qué ha hecho</li>
+<li>se deshabiliten las cuentas cuando el usuario cese en sus funciones o quien autorizo revoque dicha autorización</li>
+<li>cumpla la siguiente correspondencia entere nivel de <strong>autenticidad</strong> y los nivel de seguridad:<ul>
+<li>autenticidad BAJO -&gt; nivel de seguridad bajo, sustancial o alto (ej: login/password)</li>
+<li>autenticidad MEDIO -&gt; nivel de seguridad sustancial o alto (ej: login/password + OTP, certificado electrónico SW)</li>
+<li>autenticidad ALTO -&gt; nivel de seguridad alto (ej: certificado electrónico cualificado en soporte HW)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>[op.acc.2 ICAT]</code> Definir requisitos de acceso que garanticen que únicamente las personas autorizadas pueden consultar información o interactuar con el sistema</li>
+<li><code>[op.acc.5 ICAT]</code> Uso de Mecanismo de autenticación adecuado al Reglamento <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/EIDAS" target="_blank" title="Sistema europeo de reconocimiento de identidades electrónicas">eIDAS</a>:<ul>
+<li>BAJO: un solo factor, y si este es <em>algo que se sabe</em> se aplicará reglas básicas de calidad</li>
+<li>MEDIO: dos factores, y si alguno es <em>algo que se sabe</em> se establecerán exigencias rigurosas de calidad y renovación</li>
+<li>ALTO: las credenciales<ul>
+<li>se obtienen tras un registro presencial o telemático usando certificado cualificado en dispositivo cualificado de creación de firma</li>
+<li>caducan</li>
+<li>para <em>algo que se tiene</em>, se requerirá el uso de elementos criptográficos HW usando algoritmos y parámetros acreditados por el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional" target="_blank" title="Centro Criptológico Nacional">CCN</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>[op.exp.1]</code> Realizar Inventario de activos detallando su naturaleza e identificando a su responsable</li>
+<li><code>[op.exp.6]</code> Protección frente a código dañino:<ul>
+<li>Monitorizar puntos de entrada y salida</li>
+<li>Uso firewalls</li>
+</ul>
+</li>
+<li><code>[op.exp.8 T]</code> Registro de la actividad de los usuarios que incluye <em>qué</em>, <em>quién</em>, <em>cuando</em> y
+si tuvo éxito o error. Según el nivel de <strong>trazabilidad</strong>:<ul>
+<li>BAJO -&gt; registros de actividad en los servidores</li>
+<li>MEDIO -&gt; revisión informal de los registros de actividad buscando patrones anormales</li>
+<li>ALTO -&gt; sistema automático de recolección de registros y correlación de eventos</li>
+</ul>
+</li>
+</ol>
+<p>Para categoría <strong>MEDIA</strong>:</p>
+<ol>
+<li><code>[op.exp.5]</code> Gestión de cambios para evitar modificaciones no controladas o errores</li>
+<li><code>[op.exp.7y9]</code> Realizar Gestión de incidentes y un Registro de la gestión de incidentes que:<ul>
+<li>incluye reporte inicial, las actuaciones de emergencia y las modificaciones del sistema derivadas del incidente</li>
+<li>incluye evidencia que pueda, posteriormente, sustentar una demanda judicial, o hacer frente a ella</li>
+<li>tras su análisis se revisará la determinación de los eventos auditables</li>
+</ul>
+</li>
+<li><code>[op.acc.3 ICAT]</code> Segregar funciones y tareas (<a class="abbr guias_ccn_stic ccn-cert_cni_es" href="https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/501-ccn-stic-801-responsibilidades-y-funciones-en-el-ens/file.html" target="_blank" title="Responsabilidades y Funciones">CCN-STIC-801</a>) que garantice que se separen mediante controles lógicos suficientes las tareas incompatibles</li>
+<li><code>[op.mon.1]</code> Uso de herramientas de detección o prevención de intrusión</li>
+</ol>
+<p>Para categoría <strong>ALTA</strong>:</p>
+<ol>
+<li><code>[op.pl.5]</code> Uso de Componentes certificados, sus funcionalidades y nivel de seguridad ha sido
+evaluado conforme a normas europeas o internacionales reconocidas por el Esquema Nacional de Evaluación y Certificación de la Seguridad de las Tecnologías de la Información</li>
+<li><code>[op.ext.9 D]</code> Medios alternativos</li>
+<li><code>[op.cont.2 D]</code> Incluir el sistema dentro del Plan de Continuidad del Organismo</li>
+<li><code>[op.exp.10 T]</code> Protección de los registros de actividad</li>
+</ol>
+<h2 class="anchormark" id="medidas-de-proteccion">
+<a aria-hidden="true" class="anchormark" href="#medidas-de-proteccion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Medidas de protección</h2>
+<ol>
+<li><code>[mp.if.1]</code> Áreas separadas y con control de acceso</li>
+<li><code>[mp.per.3]</code> Concienciación del personal</li>
+<li><code>[mp.com.1]</code> Perímetro seguro con cortafuegos (en <strong>ALTA</strong> serán de distintos fabricantes
+  en cascada y con sistemas redundantes)</li>
+<li><code>[mp.per.4]</code> Formación para evitar riesgos asociados a un mal uso del sistema a causa del desconocimiento de su funcionamiento</li>
+<li><code>[mp.info.1]</code> Cumplir el <a class="abbr eur-lex_europa_eu" href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679" target="_blank" title="Reglamento General de Protección de Datos (Reglamento EU 2016/679)">RGPD</a><sup class="extra_url"><a class="wikipedia" href="https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos" target="_blank">w</a></sup> y <a class="abbr ley boe_es" href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#da" target="_blank" title="DA1 LOPD-GDD: Medidas de seguridad en el ámbito del sector público (Ley Orgánica 3/2018)">LOPD-GDD</a> en cuanto a los Datos de carácter personal</li>
+<li><code>[mp.info.9 D]</code> Copias de seguridad</li>
+</ol>
+<p>Por categoría <strong>MEDIA</strong>:</p>
+<ol>
+<li><code>[mp.com.2 C]</code> Protección de la confidencialidad usando <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Red_privada_virtual" target="_blank" title="Red privada virtual">VPN</a> para la comunicación
+por redes de fuera del propio dominio de seguridad, y usando certificados acreditados por el <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Centro_Criptol%C3%B3gico_Nacional" target="_blank" title="Centro Criptológico Nacional">CCN</a>.
+En el nivel <strong>ALTO</strong> se usará preferentemente dispositivos HW</li>
+<li><code>[mp.sw.1]</code> Desarrollo de aplicaciones en un entorno diferente y separado de producción,
+utilizando una metodología de desarrollo reconocida que tome en consideración
+aspectos de seguridad, datos usados en pruebas y permita inspección de código</li>
+</ol>
+<p>Para categoría <strong>ALTA</strong>:</p>
+<ol>
+<li><code>[mp.com.4]</code> Segregación de redes para tener control de entrada de usuarios y salida de información</li>
+<li><code>[mp.com.9 D]</code> Medios alternativos de comunicación para el caso que fallen los medios habituales</li>
+<li><code>[mp.info.3 C]</code> Cifrado de la información, solo estando en claro mientras se hace uso de ella</li>
+<li><code>[mp.info.5 T]</code> Sellos de tiempo que prevendrán la posibilidad del repudio posterior</li>
+</ol>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/practico/preguntas/seguridad.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

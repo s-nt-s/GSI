@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Tipos y algoritmos</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home apuntes_b3_algoritmos" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="../..">Apuntes GSI</a></li>
+<li><a href="../../category/apuntes.html">Apuntes</a></li>
+<li>Tipos y algoritmos</li>
+</ol>
+</nav>
+</div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<h1 class="anchormark" id="conceptos-basicos">
+<a aria-hidden="true" class="anchormark" href="#conceptos-basicos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Conceptos básicos</h1>
+<p><strong><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tipo_de_dato_abstracto" target="_blank" title="Tipo abstracto de datos">TAD</a></strong>:
+conjunto de valores y de operaciones definidos
+mediante una especificación independiente de cualquier representación.</p>
+<p><strong>Algoritmo</strong>: conjunto de pasos o instrucciones que se deben seguir para realizar
+una determinada tarea.</p>
+<h1 class="anchormark" id="cota-superior-asintotica">
+<a aria-hidden="true" class="anchormark" href="#cota-superior-asintotica"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Cota_superior_asint%C3%B3tica" target="_blank">Cota superior asintótica</a></h1>
+<p>Concepto matemático usado para estimar el <strong>tiempo o coste de ejecución</strong> de un algoritmo
+(también puede aplicar a las operaciones de la implementación de <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tipo_de_dato_abstracto" target="_blank" title="Tipo abstracto de datos">TAD</a>) en función
+del tamaño del dato de entrada.</p>
+<p>Por ejemplo, el <em>ordenamiento por inserción</em> crece cuadráticamente a medida que
+aumenta el tamaño de entrada, por lo tanto este algoritmo es de tipo <code>O(n²)</code>
+(orden de n cuadrado).</p>
+<table class="complejidad_nombre"><caption>Ordenes de complejidad de menor a mayor </caption>
+<thead>
+<tr>
+<th>Notación</th>
+<th>Nombre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O(1)</td>
+<td>Orden constante</td>
+</tr>
+<tr>
+<td>O(log log n)</td>
+<td>Orden sublogarítmico</td>
+</tr>
+<tr>
+<td>O(log n)</td>
+<td>Orden logarítmico</td>
+</tr>
+<tr>
+<td>O(√n)</td>
+<td>Orden sublineal</td>
+</tr>
+<tr>
+<td>O(n)</td>
+<td>Orden lineal o de primer orden</td>
+</tr>
+<tr>
+<td>O(n log n)</td>
+<td>Orden lineal logarítmica</td>
+</tr>
+<tr>
+<td>O(n²)</td>
+<td>Orden cuadrática o de segundo orden</td>
+</tr>
+<tr>
+<td>O(n³), ...</td>
+<td>Orden cúbica o de tercer orden, ...</td>
+</tr>
+<tr>
+<td>O(c^n), n &gt; 1</td>
+<td>Orden exponencial</td>
+</tr>
+<tr>
+<td>O(n!)</td>
+<td>Orden factorial</td>
+</tr>
+</tbody>
+</table>
+<p>Pero la complejidad no solo depende del tamaño del dato de entrada, si no
+de que dato en concreto es, por lo tanto <a class="wikipedia" href="https://es.wikipedia.org/wiki/Casos_peor,_mejor_y_promedio" target="_blank">tenemos 3 casos</a>
+(ej: buscar secuencialmente un elemento en una lista):</p>
+<ul>
+<li>el <strong>caso mejor</strong>: <code>Ω(1)</code> = el elemento buscado es el primero</li>
+<li>el <strong>caso peor</strong>: <code>O(n)</code> = el elemento buscado es el último</li>
+<li>el <strong>caso esperado o promedio</strong>: <code>Θ(n/2)</code> = puesto que todas la posiciones son equiprobables</li>
+</ul>
+<p>Por lo general, se considera el caso promedio.</p>
+<p>También se puede medir la <strong><a class="wikipedia" href="https://en.wikipedia.org/wiki/Space_complexity" target="_blank">complejidad espacial</a></strong>,
+que es la cantidad de memoria requerida para ejecutar el algoritmo.</p>
+<table class="complejidad_ordenacion"><caption>Complejidad de algoritmos de ordenación </caption>
+<thead>
+<tr>
+<th rowspan="2">Algoritmo</th>
+<th colspan="3">Caso</th>
+<th rowspan="2">Observaciones</th>
+</tr>
+<tr>
+<th>mejor</th>
+<th>promedio</th>
+<th>peor</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Quicksort" target="_blank">Quicksort</a></td>
+<td>Ω(n log n)</td>
+<td>Θ(n log n)</td>
+<td>O(n²)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla" target="_blank" title="Ordenación por mezcla">Mergesort</a></td>
+<td>Ω(n log n)</td>
+<td>Θ(n log n)</td>
+<td>O(n log n)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="http://en.wikipedia.org/wiki/Timsort" target="_blank">Timsort</a></td>
+<td>Ω(n)</td>
+<td>Θ(n log n)</td>
+<td>O(n log n)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Heapsort" target="_blank">Heapsort</a></td>
+<td>Ω(n log n)</td>
+<td>Θ(n log n)</td>
+<td>O(n log n)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja" target="_blank" title="Ordenamiento de burbuja">Bubble Sort</a></td>
+<td>Ω(n)</td>
+<td>Θ(n²)</td>
+<td>O(n²)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_inserci%C3%B3n" target="_blank" title="Ordenamiento por inserción">Insertion Sort</a></td>
+<td>Ω(n)</td>
+<td>Θ(n²)</td>
+<td>O(n²)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_selecci%C3%B3n" target="_blank" title="Ordenamiento por selección">Selection Sort</a></td>
+<td>Ω(n²)</td>
+<td>Θ(n²)</td>
+<td>O(n²)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_con_%C3%A1rbol_binario" target="_blank" title="Ordenamiento con árbol binario">Tree Sort</a></td>
+<td>Ω(n log n)</td>
+<td>Θ(n log n)</td>
+<td>O(n²)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_Shell" target="_blank" title="Ordenamiento Shell">Shell Sort</a></td>
+<td>Ω(n log n)</td>
+<td>Θ(n <abbr class="abbr nodecorate" title="(log(n))²">log²n</abbr>)</td>
+<td>O(n <abbr class="abbr nodecorate" title="(log(n))²">log²n</abbr>)</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_casilleros" target="_blank" title="Ordenamiento por casilleros">Bucket Sort</a></td>
+<td>Ω(n+k)</td>
+<td>Θ(n+k)</td>
+<td>O(n²)</td>
+<td>k = nº de buckets</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_Radix" target="_blank" title="Ordenamiento Radix">Radix Sort</a></td>
+<td>Ω(nk)</td>
+<td>Θ(nk)</td>
+<td>O(nk)</td>
+<td>k = nº de digitos</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_cuentas" target="_blank" title="Ordenamiento por cuentas">Counting Sort</a></td>
+<td>Ω(n+k)</td>
+<td>Θ(n+k)</td>
+<td>O(n+k)</td>
+<td>k = max - min</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://en.wikipedia.org/wiki/Cubesort" target="_blank">Cubesort</a></td>
+<td>Ω(n)</td>
+<td>Θ(n log n)</td>
+<td>O(n log n)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="complejidad_tad"><caption>Complejidad de operaciones sobre <a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tipo_de_dato_abstracto" target="_blank" title="Tipo abstracto de datos">TAD</a> (<em>caso peor</em> omitido cuando coincide con el <em>caso promedio</em>)  </caption>
+<thead>
+<tr>
+<th><a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tipo_de_dato_abstracto" target="_blank" title="Tipo abstracto de datos">TAD</a></th>
+<th>Acceso</th>
+<th>Búsqueda</th>
+<th>Inserción</th>
+<th>Borrado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)" target="_blank">Array</a></td>
+<td>Θ(1)</td>
+<td>Θ(n)</td>
+<td>Θ(n)</td>
+<td>Θ(n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Lista_enlazada" target="_blank">Lista enlazada</a></td>
+<td>Θ(n)</td>
+<td>Θ(n)</td>
+<td>Θ(1)</td>
+<td>Θ(1)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Skip_list" target="_blank">Skip List</a></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td>└─ <em>caso peor</em></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Tabla_hash" target="_blank">Tabla Hash</a></td>
+<td></td>
+<td>Θ(1)</td>
+<td>Θ(1)</td>
+<td>Θ(1)</td>
+</tr>
+<tr>
+<td>└─ <em>caso peor</em></td>
+<td></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda" target="_blank">Árbol binario de búsqueda</a></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td>└─ <em>caso peor</em></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_cartesiano" target="_blank">Árbol cartesiano</a></td>
+<td></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td>└─ <em>caso peor</em></td>
+<td></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol-B" target="_blank">B-Tree</a></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_rojo-negro" target="_blank">Árbol rojo-negro</a></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_biselado" target="_blank">Árbol biselado</a></td>
+<td></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_AVL" target="_blank">Árbol AVL</a></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_kd" target="_blank">Árbol KD</a></td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+<td>Θ(log n)</td>
+</tr>
+<tr>
+<td>└─ <em>caso peor</em></td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+<td>O(n)</td>
+</tr>
+</tbody>
+</table>
+<h1 class="anchormark" id="tad">
+<a aria-hidden="true" class="anchormark" href="#tad"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr wikipedia" href="https://es.wikipedia.org/wiki/Tipo_de_dato_abstracto" target="_blank" title="Tipo abstracto de datos">TAD</a></h1>
+<p>Tienen tres tipos de operaciones:</p>
+<ul>
+<li>Creación</li>
+<li>Transformación: asignación de valores, permutas, etc</li>
+<li>Análisis: consultar valor, búsquedas, recorridos, etc</li>
+</ul>
+<h2 class="anchormark" id="array-(o-vector-o-matriz-o-tabla)">
+<a aria-hidden="true" class="anchormark" href="#array-(o-vector-o-matriz-o-tabla)"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)" target="_blank">Array</a> (o vector o matriz o tabla)</h2>
+<p>Estructura homogeneiza que almacena datos del mismo tipo,
+pudiendo ser unidimensional (<code>Array[N]</code>) o multidimensional (<code>Array[N, M, ...]</code>)
+que ocupan posiciones contiguas de memoria.</p>
+<p>Habitualmente son implementados como <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)" target="_blank">Array</a> estáticos (es decir, con longitud fija)
+pero también pueden ser dinámicos.</p>
+<p>La operación fundamental es la de acceso (<code>O(1)</code>) y esta especialmente indicado
+para situaciones en las que se requiere acceso aleatorio.
+En otro caso es probable que sea mejor usar una <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Lista_enlazada" target="_blank">lista enlazada</a>.</p>
+<h2 class="anchormark" id="lista-enlazada">
+<a aria-hidden="true" class="anchormark" href="#lista-enlazada"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Lista_enlazada" target="_blank">Lista enlazada</a></h2>
+<p>Secuencia de nodos, en los que se guardan campos de datos arbitrarios y una o dos
+referencias, enlaces o punteros al nodo anterior o posterior.</p>
+<p>El orden de los elementos enlazados puede ser diferente al orden de almacenamiento
+en la memoria o el disco, permitiendo que el orden de recorrido de la lista sea
+diferente al de almacenamiento.</p>
+<p>Según los enlaces entre nodos pueden ser:</p>
+<ul>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Lista_enlazada" target="_blank">Lista enlazada</a> simple</strong>: cada nodo tiene un único enlace que apunta al siguiente nodo</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Lista_enlazada" target="_blank">Lista enlazada</a> doblemente</strong>: cada nodo tienen dos enlaces, uno al siguiente nodo y otro al anterior</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Skip_list" target="_blank">Skip List</a></strong>: <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Lista_enlazada" target="_blank">lista enlazada</a> que tienen capas de enlaces adicionales para ir
+de un elemento a otro mas alejado de manera directa</li>
+</ul>
+<p>De ambos tipos hay una versión <strong>circular</strong> que consiste en considerar el primer
+nodo como el <em>siguiente</em> del último nodo, y el último nodo como el <em>anterior</em> del primer nodo.</p>
+<p>Las listas no permiten acceso aleatorio (como los <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Vector_(inform%C3%A1tica)" target="_blank">Array</a>) si no acceso secuencial (<code>O(n)</code>),
+a cambio tenemos inserciones y eliminaciones más rápidas (<code>O(1)</code>).</p>
+<p>Las listas que restringen sus operaciones de inserción y eliminación
+a uno de los extremos son:</p>
+<ul>
+<li><strong><a class="wikipedia" href="https://es.wikipedia.org/wiki/Pila_(inform%C3%A1tica)" target="_blank">Pila</a></strong> (<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Last_in,_first_out" target="_blank" title="Last in, first out (pila)">LIFO</a>): El último elemento en entrar es el primero en salir</li>
+<li><strong><a class="wikipedia" href="https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica)" target="_blank">Cola</a></strong> (<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/First_in,_first_out" target="_blank" title="First in, first out (cola)">FIFO</a>): El primer elemento en entrar es el primero en salir</li>
+</ul>
+<h2 class="anchormark" id="grafo">
+<a aria-hidden="true" class="anchormark" href="#grafo"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Grafo</h2>
+<p>Conjunto de nodos (o vértices) cuyas relaciones se establecen por un conjunto de
+aristas (o arcos).</p>
+<p>En función de las aristas pueden:</p>
+<ul>
+<li>ser <strong>dirigidos</strong> (el arco <code>A -&gt; B</code> es distinto al arco <code>B -&gt; A</code>) o <strong>no dirigido</strong></li>
+<li><strong>ponderado</strong> (las aristas tienen un coste o un peso asociado) o <strong>no ponderado</strong></li>
+<li><strong>conexo</strong> cuando si existe un camino entre cualesquiera dos nodos</li>
+<li><strong>completo</strong> si tiene todas las aristas posibles, <strong>disperso</strong> si
+tiene pocas aristas y <strong>denso</strong> si tiene la mayoría</li>
+</ul>
+<p>Además:</p>
+<ul>
+<li>Un <strong>puente</strong> es una arista de un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a> <strong>conexo</strong> que si se elimina deja de serlo</li>
+<li>Un <strong>árbol de expansión</strong> de un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a> es su reducción al árbol con número mínimo
+de aristas que contiene todos los nodos del <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a></li>
+<li>Una <strong>red</strong> es un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a> dirigido y ponderado</li>
+</ul>
+<h2 class="anchormark" id="arbol">
+<a aria-hidden="true" class="anchormark" href="#arbol"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)" target="_blank">Árbol</a></h2>
+<p>Es un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a> conexo dirigido que no tiene ciclos, o lo que es lo mismo, entre cada par de
+nodos solo existe un camino (esto implica que un nodo solo tiene como máximo un padre).
+Se utilizan habitualmente en búsquedas.</p>
+<p>El árbol empieza en el nodo raíz (nivel 0) y acaba en sus hojas (nodos sin hijos).</p>
+<p>Tipos:</p>
+<ul>
+<li><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)" target="_blank">Árbol</a> <strong>binario</strong>: Cada nodo tiene como máximo dos hijos</li>
+<li><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)" target="_blank">Árbol</a> <strong>balanceado</strong>: Entre todos sus nodos hoja no hay una diferencia de nivel superior a 1</li>
+</ul>
+<p>Un <a class="wikipedia" href="https://es.wikipedia.org/wiki/Recorrido_de_%C3%A1rboles" target="_blank">árbol binario se puede recorrer</a>:</p>
+<ul>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario#Recorridos_en_amplitud_(o_por_niveles)" target="_blank">en <strong>amplitud</strong></a> o por niveles:
+empezando por el nivel 1, se recorre todos los nodos de cada nivel de izquierda a derecha
+(se puede implementar con una cola)</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario#Recorridos_en_profundidad" target="_blank">en <strong>profundidad</strong></a>
+(se implementa recursivamente o con una pila):<ul>
+<li><strong>preorden</strong> (primero la raíz): <u>raíz</u>, izquierdo, derecho</li>
+<li><strong>inorden</strong> (la raíz en medio): izquierdo, <u>raíz</u>, derecho</li>
+<li><strong>postorden</strong> (la raíz lo último): izquierdo, derecho, <u>raíz</u></li>
+</ul>
+</li>
+</ul>
+<table><caption><a class="wikipedia" href="https://es.wikipedia.org/wiki/Recorrido_de_%C3%A1rboles" target="_blank">Recorridos de un árbol binario</a></caption>
+<thead>
+<tr>
+<th>Recorrido</th>
+<th colspan="9"><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)" target="_blank">Árbol</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="10"><img alt="Árbol binario de ejemplo" src="https://upload.wikimedia.org/wikipedia/commons/6/67/Sorted_binary_tree.svg" title="Árbol binario de ejemplo"/></td>
+</tr>
+<tr>
+<th>Amplitud</th>
+<td>F</td>
+<td>B</td>
+<td>G</td>
+<td>A</td>
+<td>D</td>
+<td>I</td>
+<td>C</td>
+<td>E</td>
+<td>H</td>
+</tr>
+<tr>
+<th>Preorden</th>
+<td>F</td>
+<td>B</td>
+<td>A</td>
+<td>D</td>
+<td>C</td>
+<td>E</td>
+<td>G</td>
+<td>I</td>
+<td>H</td>
+</tr>
+<tr>
+<th>Inorden</th>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+<td>D</td>
+<td>E</td>
+<td>F</td>
+<td>G</td>
+<td>H</td>
+<td>I</td>
+</tr>
+<tr>
+<th>Postorden</th>
+<td>A</td>
+<td>C</td>
+<td>E</td>
+<td>D</td>
+<td>B</td>
+<td>H</td>
+<td>I</td>
+<td>G</td>
+<td>F</td>
+</tr>
+</tbody>
+</table>
+<p>Nota: Estos métodos de recorrido se puede generalizar para grafos y arboles no binarios.</p>
+<p>Para regenerar un árbol a partir de su recorrido se necesita:</p>
+<ul>
+<li>si no se repiten nodos: 2 recorridos en profundidad</li>
+<li>si se repiten: 3 recorridos en profundidad</li>
+</ul>
+<p>Algunos ejemplos de árboles son:</p>
+<ul>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda" target="_blank">Árbol binario de búsqueda</a></strong>: para cada nodo, el subárbol izquierdo contiene
+valores menores que dicho nodo, y el subárbol derecho contiene valores superiores</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Mont%C3%ADculo_(inform%C3%A1tica)" target="_blank" title="Árbol en el que el nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos">Montículo</a></strong>: <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario" target="_blank">Árbol binario</a> casi completo donde cada nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_cartesiano" target="_blank">Árbol cartesiano</a></strong>: Representación de una lista de elementos mediante un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Mont%C3%ADculo_(inform%C3%A1tica)" target="_blank" title="Árbol en el que el nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos">montículo</a> cuyo recorrido en inorder da dicha lista</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol-B" target="_blank">B-Tree</a></strong>: Como un <em><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda" target="_blank">árbol binario de búsqueda</a></em> pero pudiendo tener más de dos hijos
+(ej, <code>árbol-B 2-3</code> o <code>árbol 2-3</code> es un árbol que cada nodo puede tener 2 o 3 hijos)</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_B%2B" target="_blank">Árbol B+</a></strong>: Un <em><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol-B" target="_blank">B-Tree</a></em> donde la información solo se encuentra en los nodos
+hojas (siendo los demás punteros y claves), las cuales están todas en el mismo nivel
+y estan unidos entre sí como una <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Lista_enlazada" target="_blank">lista enlazada</a></li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol-B*" target="_blank">Árbol-B*</a></strong>: <em><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol-B" target="_blank">B-Tree</a></em> en el que los nodos no raíz deben estar por lo menos a 2/3
+de ocupación en lugar de 1/2</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_AVL" target="_blank">Árbol AVL</a></strong>: <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda_auto-balanceable" target="_blank">Árbol binario de búsqueda equilibrado</a> (se equilibra con rotaciones)</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_rojo-negro" target="_blank">Árbol rojo-negro</a></strong>: <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda_auto-balanceable" target="_blank">Árbol binario de búsqueda equilibrado</a> donde la raíz y
+todas las hojas son <em>negras</em>, todo nodo <em>rojo</em> debe tener dos hijos <em>negros</em>
+y todo camino desde un nodo a sus hojas tiene el mismo número de nodos negros</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_biselado" target="_blank">Árbol biselado</a></strong>: <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda_auto-balanceable" target="_blank">Árbol binario de búsqueda equilibrado</a> pensado para que los
+nodos accedidos recientemente sean más rápidos de volver acceder, es decir,
+cuando se lee un nodo el árbol se reordena (como el AVL) para <em>subir</em> ese nodo de nivel</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_kd" target="_blank">Árbol KD</a></strong>: <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_(inform%C3%A1tica)" target="_blank">Árbol</a> de K dimensiones</li>
+</ul>
+<h2 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h2>
+<ul>
+<li>Conjunto</li>
+<li>Bolsa: Como el conjunto pero puede tener elementos repetidos</li>
+</ul>
+<h1 class="anchormark" id="algoritmos">
+<a aria-hidden="true" class="anchormark" href="#algoritmos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Algoritmos</h1>
+<h2 class="anchormark" id="tecnicas">
+<a aria-hidden="true" class="anchormark" href="#tecnicas"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="wikipedia" href="https://es.wikipedia.org/wiki/Categor%C3%ADa:Algoritmos" target="_blank">Técnicas</a></h2>
+<ul>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_divide_y_vencer%C3%A1s" target="_blank">Divide y vencerás</a></strong></li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_din%C3%A1mica" target="_blank">Programación dinámica</a></strong>: mientras divide el problema en subproblemas guarda
+el resultado de dichos subproblemas para en caso de volver a aparecer no tener
+que repetir el calculo, o incluso precalcular a priori soluciones de subproblemas
+para usarlas luego</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_voraz" target="_blank">Algoritmo voraz</a></strong>: en cada paso se toma el optimo local con la esperanza
+de que eso nos lleve a la mejor solución (lo cual no esta garantizado, pero
+nos conformarnos porque intentar obtener la mejor solución con certeza tendría
+un alto coste)</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Vuelta_atr%C3%A1s" target="_blank">Backtracking</a></strong> o vuelta atrás: se van creando todas las posibles combinaciones
+de elementos para obtener una solución (no tiene porque ser la mejor, basta con
+que cumpla las condiciones exigidas), si se encuentra una alternativa incorrecta,
+la búsqueda retrocede hasta el paso anterior y toma la siguiente alternativa</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ramificaci%C3%B3n_y_poda" target="_blank">Ramificación y poda</a></strong>: como <em><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Vuelta_atr%C3%A1s" target="_blank">Backtracking</a></em> pero optimizado para no probar
+(podar) caminos que se prevén no llevarán a soluciones optimas</li>
+</ul>
+<h2 class="anchormark" id="ordenacion">
+<a aria-hidden="true" class="anchormark" href="#ordenacion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Ordenación</h2>
+<h3 class="anchormark" id="selection-sort">
+<a aria-hidden="true" class="anchormark" href="#selection-sort"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_selecci%C3%B3n" target="_blank" title="Ordenamiento por selección">Selection Sort</a></h3>
+<p>Se busca el elemento más pequeño y se pone en la primera posición, luego,
+entre los restantes, se busca el más pequeño y se coloca en segunda posición,
+y así hasta terminar.</p>
+<p>Si tenemos N elementos, el número de comprobaciones que hay que hacer es de
+<code>N*(N-1)/2</code>, por lo tanto este algoritmo es <code>O(N²)</code>.</p>
+<h3 class="anchormark" id="bubble-sort">
+<a aria-hidden="true" class="anchormark" href="#bubble-sort"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja" target="_blank" title="Ordenamiento de burbuja">Bubble Sort</a></h3>
+<p>Se comparan pares de elementos adyacente intercambiándolos entre si en caso
+de estar desordenados. Tras la primera pasada, el último elemento esta ya
+colocado, así que se vuelve a repetir los pasos hasta el penúltimo elemento,
+y así sucesivamente.</p>
+<figure class="fig"><img alt="Bubble Sort" src="img/bubblesort.gif" title="Bubble Sort"/><figcaption><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja" target="_blank" title="Ordenamiento de burbuja">Bubble Sort</a></figcaption></figure>
+<p>Para completar el algoritmo hay que hacer <code>N-1</code> pasadas, siendo <code>(N-i-1)</code> el
+número de comparaciones en la pasada <code>i</code>, es decir, hay que hacer
+un total de <code>N(N-1)/2</code> compradores, por lo tanto este algoritmo es <code>O(N²)</code>.</p>
+<h3 class="anchormark" id="insertion-sort">
+<a aria-hidden="true" class="anchormark" href="#insertion-sort"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_inserci%C3%B3n" target="_blank" title="Ordenamiento por inserción">Insertion Sort</a></h3>
+<p>Se van recorriendo los elementos y comparándolos con el de su izquierda, de manera
+que si esta mal colocado se inserta en el lugar correcto del inicio de la lista
+desplazando elementos si es necesario.</p>
+<figure class="fig"><img alt="Insertion Sort" src="img/insertionsort.gif" title="Insertion Sort"/><figcaption><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_inserci%C3%B3n" target="_blank" title="Ordenamiento por inserción">Insertion Sort</a></figcaption></figure>
+<p>Se necesitan <code>(N*(N+1)/2)-1</code> comparaciones, por lo tanto este algoritmo es <code>O(n²)</code>.</p>
+<h3 class="anchormark" id="shell-sort">
+<a aria-hidden="true" class="anchormark" href="#shell-sort"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_Shell" target="_blank" title="Ordenamiento Shell">Shell Sort</a></h3>
+<p>Es como el <em><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_inserci%C3%B3n" target="_blank" title="Ordenamiento por inserción">Insertion Sort</a></em> pero en vez de comparar con el elemento adyacente
+a la izquierda, se compara con un elemento X (salto) lugares a la izquierda.
+El <em>salto</em> inicialmente es de N/2 y cuando una pasada no desencadene ningún
+cambio se reduce el <em>salto</em> a la mitad y se vuelve a empezar.</p>
+<p>Esto mejora el rendimiento, siendo el peor caso <code>O(n log²n)</code>.</p>
+<h3 class="anchormark" id="quicksort">
+<a aria-hidden="true" class="anchormark" href="#quicksort"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Quicksort" target="_blank">Quicksort</a></h3>
+<p>Algoritmo recursivo basado en la técnica <em><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_divide_y_vencer%C3%A1s" target="_blank">divide y vencerás</a></em> que consiste en:</p>
+<ol>
+<li>elegir un valor de la lista como <em>pivote</em></li>
+<li>mover los demás elementos de la lista a cada lado del <em>pivote</em>,
+de manera que a un lado queden todos los menores que él, y al otro los mayores</li>
+<li>mover el pivote a la posición que le corresponde (entre las dos grupos que hemos formado en el paso anterior)</li>
+<li>tratar cada lado del <em>pivote</em> como una nueva lista y repetir el proceso con ellas</li>
+</ol>
+<p>La eficiencia del algoritmo depende de la elección del pivote y en el peor caso
+es <code>O(n²)</code>, pero en el promedio es <code>Θ(n log n)</code>.</p>
+<h3 class="anchormark" id="mergesort">
+<a aria-hidden="true" class="anchormark" href="#mergesort"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla" target="_blank" title="Ordenación por mezcla">Mergesort</a></h3>
+<p>Algoritmo recursivo basado en la técnica <em><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_divide_y_vencer%C3%A1s" target="_blank">divide y vencerás</a></em> que consiste en:</p>
+<ol>
+<li>Dividir la lista en dos sublistas de aproximadamente la mitad de tamaño</li>
+<li>Ordenar cada lista con <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla" target="_blank" title="Ordenación por mezcla">mergesort</a></li>
+<li>Mezclar ambas listas en una sola lista ordenada</li>
+</ol>
+<figure class="fig"><img alt="Mergesort" src="img/mergesort.gif" title="Mergesort"/><figcaption><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla" target="_blank" title="Ordenación por mezcla">Mergesort</a></figcaption></figure>
+<p>Su complejidad es <code>O(n log n)</code>.</p>
+<h3 class="anchormark" id="heapsort">
+<a aria-hidden="true" class="anchormark" href="#heapsort"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Heapsort" target="_blank">Heapsort</a></h3>
+<p>Algoritmo recursivo que consiste en almacenar todos los elementos en un
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Mont%C3%ADculo_(inform%C3%A1tica)" target="_blank" title="Árbol en el que el nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos">montículo</a> y luego extraer el nodo raíz en sucesivas iteraciones.</p>
+<p>Su complejidad es <code>O(n log n)</code>.</p>
+<h3 class="anchormark" id="otros">
+<a aria-hidden="true" class="anchormark" href="#otros"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Otros</h3>
+<ul>
+<li><strong><a class="abbr algoritmos wikipedia" href="http://en.wikipedia.org/wiki/Timsort" target="_blank">Timsort</a></strong>: Híbrido de <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_mezcla" target="_blank" title="Ordenación por mezcla">Mergesort</a> e <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_inserci%C3%B3n" target="_blank" title="Ordenamiento por inserción">Insertion Sort</a>. Es el algoritmo por defecto
+en Python y, para arrays de tipos no primitivos, en Java</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_con_%C3%A1rbol_binario" target="_blank" title="Ordenamiento con árbol binario">Tree Sort</a></strong>: Se construye un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/%C3%81rbol_binario_de_b%C3%BAsqueda" target="_blank">árbol binario de búsqueda</a> y luego se recorre en <em>inorder</em></li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_casilleros" target="_blank" title="Ordenamiento por casilleros">Bucket Sort</a></strong>: Se dividen los elementos por intervalos en distintos casilleros,
+luego se ordena cada casillero (repitiendo el proceso o usando otro algoritmo de ordenación)
+y finalmente se devuelve los elementos de cada casillero en orden</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_Radix" target="_blank" title="Ordenamiento Radix">Radix Sort</a></strong>: Ordena número enteros procesando sus dígitos de manera individual</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Ordenamiento_por_cuentas" target="_blank" title="Ordenamiento por cuentas">Counting Sort</a></strong>: Ordena números enteros mediante el conteo de cuantas ocurrencias hay de cada uno</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://en.wikipedia.org/wiki/Cubesort" target="_blank">Cubesort</a></strong>: algoritmo paralelo que usa búsqueda binaria</li>
+</ul>
+<h2 class="anchormark" id="busqueda">
+<a aria-hidden="true" class="anchormark" href="#busqueda"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Búsqueda</h2>
+<ul>
+<li>Búsqueda <strong>secuencial</strong>: complejidad <code>O(N)</code></li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/B%C3%BAsqueda_binaria" target="_blank">Búsqueda <strong>binaria</strong></a>
+o dicotómica: tiene como prerequisito que la lista este ordenada, complejidad <code>O(log n)</code></li>
+<li><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra" target="_blank" title="Encuentra el camino mínimo entre dos nodos de un grafo">Dijkstra</a>: encuentra el camino mínimo entre dos nodos de un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a>, complejidad
+<code>O(|A| + |V| log |V|)</code> usando un <a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Mont%C3%ADculo_(inform%C3%A1tica)" target="_blank" title="Árbol en el que el nodo padre es mayor/menor (heap max/heap min) que cualquier que sus hijos">montículo</a> de Fibonacci</li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/B%C3%BAsquedas_no_informadas" target="_blank"><strong>Búsquedas no informadas</strong></a>:
+se evalúa el siguiente estado sin conocer a priori si este es mejor o peor que el anterior<ul>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_profundidad" target="_blank">Búsqueda en profundidad</a></strong> (DFS): consiste en ir expandiendo todos y cada uno de los
+nodos que va localizando en un camino concreto y cuando no hay más en ese camino,
+regresa (<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Vuelta_atr%C3%A1s" target="_blank">backtracking</a>) para repetir el mismo proceso con cada uno de los hermanos
+del nodo ya procesado, su complejidad es <code>O(b^m)</code> siendo <code>b</code> es el factor de
+ramificación (número promedio de ramificaciones por nodo) y <code>m</code> la máxima profundidad
+del espacio de estados. No es completo ni optimo</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_anchura" target="_blank">Búsqueda en anchura</a></strong> (BFS): se visitan los nodos de izquierda a derecha y al
+terminar se pasa al siguiente nivel. Es completo y optimo</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_profundidad_iterativa" target="_blank">Búsqueda en profundidad iterativa</a></strong> (BPI): como el anterior pero llegando solo hasta
+cierta profundidad limitada que luego se va aumentando sucesivamente hasta alcanzar
+<code>d</code> la profundidad del estado objetivo de menor profundidad. La complejidad es <code>O(b^d)</code>.
+Es completo y optimo</li>
+<li><strong><a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/B%C3%BAsqueda_de_costo_uniforme" target="_blank">Búsqueda de costo uniforme</a></strong> (BCU): busca el camino con costo más bajo en un
+<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Grafo_(tipo_de_dato_abstracto)" target="_blank">grafo</a> ponderado (<a class="abbr algoritmos wikipedia" href="https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra" target="_blank" title="Encuentra el camino mínimo entre dos nodos de un grafo">Dijkstra</a> es igual pero no buscando un nodo en concreto, si no
+trazando caminos mínimos para todos). Solo funciona si todos los pesos son <code>&gt;=0</code></li>
+</ul>
+</li>
+</ul>
+<h1 class="anchormark" id="bibliografia">
+<a aria-hidden="true" class="anchormark" href="#bibliografia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+<path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path>
+</svg></a>
+Bibliografía</h1>
+<ul class="bibliografia">
+<li><a href="../../gsitic.wordpress.com/bloque_3.html#tablas,-listas-y-arboles">gsitic.wordpress.com - B3</a></li>
+<li><a class="webdiis_unizar_es" href="http://webdiis.unizar.es/~elvira/eda/material0304/TADespec/TAD.pdf" target="_blank">webdiis.unizar.es - Los Tipos Abstractos de Datos</a></li>
+<li><a class="cs_us_es" href="https://www.cs.us.es/~jalonso/cursos/i1m-19/temas/tema-28.html" target="_blank">cs.us.es - Análisis de la complejidad de los algoritmos</a></li>
+<li><a class="www2_infor_uva_es" href="https://www2.infor.uva.es/~jvalvarez/docencia/tema5.pdf" target="_blank">infor.uva.es - Complejidad algorítmica</a></li>
+<li><a class="bigocheatsheet_com" href="https://www.bigocheatsheet.com/" target="_blank">bigocheatsheet.com</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=5k2DWMRTXMM" target="_blank">youtube.com - BettaTech - 6 estructuras de datos que todo ingeniero debería conocer</a></li>
+<li><a class="geeks_ms" href="https://geeks.ms/etomas/2019/02/02/que-significa-un-problema-p-o-np/" target="_blank">geeks.ms - ¿Qué significa un problema P o NP?</a></li>
+<li><a class="cs_us_es" href="https://www.cs.us.es/~jalonso/cursos/i1m/temas.php" target="_blank">cs.us.es - Apuntes, temas y códigos de "Informática (2019-20)"</a></li>
+<li><a class="youtube_com" href="https://www.youtube.com/watch?v=78yAPE5TwDI" target="_blank">youtube.com - Rafael Rivera - Búsqueda por costo uniforme</a></li>
+<li><a class="wikipedia" href="https://es.wikipedia.org/wiki/Anexo:Glosario_de_teor%C3%ADa_de_grafos" target="_blank">/es.wikipedia.org- Glosario de teoría de grafos</a></li>
+</ul>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/apuntes/B3/07-algoritmos.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

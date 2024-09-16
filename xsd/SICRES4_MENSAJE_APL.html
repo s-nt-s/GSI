@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>De_Control (SICRES4_MENSAJE_APL)</title>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#da532c" name="msapplication-TileColor"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="../theme/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="../theme/css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="../feeds/all.atom.xml" rel="alternate" title="Apuntes GSI Atom Feed" type="application/atom+xml"/>
+</head>
+<body class="home xsd_sicres4_mensaje_apl" id="index">
+<header id="banner">
+<div class="body">
+<p style="margin: 0px 0px 5px 0px;color: red;">
+        Aviso: Todo el contenido didáctico dejó de actualizarse en marzo de 2022.
+      </p>
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ol>
+<li><a href="..">Apuntes GSI</a></li>
+<li><a href="../category/xsd.html">Diagramas XSD</a></li>
+<li>De_Control (SICRES4_MENSAJE_APL)</li>
+</ol>
+</nav>
+<p>Fuente: <a href="https://administracionelectronica.gob.es/pae_Home/dam/jcr:06f79467-afcc-473a-a6cb-f2d00791ad17/2021-SICRES4_MENSAJE_APL.xsd" target="_blank">administracionelectronica.gob.es/pae_Home/dam/jcr:06f79467-afcc-473a-a6cb-f2d00791ad17/2021-SICRES4_MENSAJE_APL.xsd</a></p> </div>
+</header>
+<main><div class="body">
+<section class="body" id="content">
+<article>
+<div class="widthscroll" id="De_Control">
+<pre><code><a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r De_Control -e 1 -o <a href="SICRES4_MENSAJE_APL/De_Control.csv">De_Control.csv</a> https://administracionelectronica.gob.es/pae_Home/dam/jcr:06f79467-afcc-473a-a6cb-f2d00791ad17/2021-SICRES4_MENSAJE_APL.xsd
+<a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r De_Control -e 1 -o <a href="SICRES4_MENSAJE_APL/De_Control.txt">De_Control.txt</a> https://administracionelectronica.gob.es/pae_Home/dam/jcr:06f79467-afcc-473a-a6cb-f2d00791ad17/2021-SICRES4_MENSAJE_APL.xsd
+<a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r De_Control -e 1 -o <a href="SICRES4_MENSAJE_APL/De_Control.png">De_Control.png</a> https://administracionelectronica.gob.es/pae_Home/dam/jcr:06f79467-afcc-473a-a6cb-f2d00791ad17/2021-SICRES4_MENSAJE_APL.xsd
+<a class="regis_cosnier_free_fr" href="http://regis.cosnier.free.fr/?page=XSDDiagram" target="_blank">xsddiagram</a> -no-gui -y -r De_Control -e 1 -o <a href="SICRES4_MENSAJE_APL/De_Control.svg">De_Control.svg</a> https://administracionelectronica.gob.es/pae_Home/dam/jcr:06f79467-afcc-473a-a6cb-f2d00791ad17/2021-SICRES4_MENSAJE_APL.xsd</code></pre>
+</div>
+<p><img alt="Diagrama de De_Control (SICRES4_MENSAJE_APL.xsd)" src="SICRES4_MENSAJE_APL/De_Control.png" title="Diagrama de De_Control (SICRES4_MENSAJE_APL.xsd)"/></p>
+<div class="highlight"><pre><span></span><code><span class="go">curl -L https://administracionelectronica.gob.es/pae_Home/dam/jcr:06f79467-afcc-473a-a6cb-f2d00791ad17/2021-SICRES4_MENSAJE_APL.xsd</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;xs:schema</span><span class="w"> </span><span class="na">elementFormDefault=</span><span class="s">"qualified"</span><span class="w"> </span><span class="na">xmlns:xs=</span><span class="s">"http://www.w3.org/2001/XMLSchema"</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">name=</span><span class="s">"De_Control"</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xs:complexType&gt;</span>
+<span class="w">      </span><span class="nt">&lt;xs:sequence&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Codigo_Entidad_Registral_Origen"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"21"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Codigo_Entidad_Registral_Destino"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"21"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Identificador_Intercambio"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"33"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Tipo_Mensaje"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"2"</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"01"</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"02"</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"03"</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"04"</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"05"</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"06"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"0"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Descripcion_Mensaje"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"1024"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"0"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Numero_Registro_Entrada_Destino"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"20"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"0"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Fecha_Hora_Entrada_Destino"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"19"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Indicador_Prueba"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"0"</span><span class="nt">/&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:enumeration</span><span class="w"> </span><span class="na">value=</span><span class="s">"1"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"0"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"unbounded"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Identificador_Fichero"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"50"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">        </span><span class="nt">&lt;xs:element</span><span class="w"> </span><span class="na">minOccurs=</span><span class="s">"0"</span><span class="w"> </span><span class="na">maxOccurs=</span><span class="s">"1"</span><span class="w"> </span><span class="na">name=</span><span class="s">"Codigo_Error"</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;xs:simpleType&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xs:restriction</span><span class="w"> </span><span class="na">base=</span><span class="s">"xs:string"</span><span class="nt">&gt;</span>
+<span class="w">              </span><span class="nt">&lt;xs:maxLength</span><span class="w"> </span><span class="na">value=</span><span class="s">"4"</span><span class="nt">/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/xs:restriction&gt;</span>
+<span class="w">          </span><span class="nt">&lt;/xs:simpleType&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/xs:sequence&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xs:complexType&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/xs:element&gt;</span>
+<span class="nt">&lt;/xs:schema&gt;</span>
+</code></pre></div>
+</article>
+</section>
+</div></main>
+<footer id="extras"><div class="body">
+<p>
+      Puedes mejorar o corregir esta página con un <a href="https://docs.github.com/es/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">pull requests</a>
+      sobre
+          su código <a class="urlmd" href="https://github.com/s-nt-s/GSI/tree/master/content/posts/xsd/SICRES4_MENSAJE_APL.md" target="_blank">markdown</a> o
+      su <a href="https://github.com/s-nt-s/GSI/tree/master/themes/mini/templates/article.html" target="_blank">template</a>.
+    </p><p>
+</p><p>También puedes reportar un fallo o dejar alguna sugerencia poniendo un <a href="https://github.com/s-nt-s/GSI/issues" target="_blank">issue</a>.</p>
+<p>
+<a class="logo" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" style="vertical-align: top;" target="_blank">
+<img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+      Esta obra está bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="license" target="_blank">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+    </p>
+<div>
+</div></div></footer></body>
+</html>

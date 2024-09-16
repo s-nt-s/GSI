@@ -1,0 +1,1696 @@
+* [Audioapuntes_Pack1_01.7z](#z1)
+* [Audioapuntes_Pack1_02.7z](#z2)
+* [Audioapuntes_Pack1_03.7z](#z3)
+
+Audioapuntes_Pack1_01.7z
+├── 001 Constitucion I
+│   └── Aspectos importantes
+│       ├── 01 Autoria.mp3
+│       ├── 02 Fecha actualizacion.mp3
+│       ├── 03 Titulo tema.mp3
+│       ├── 04 Tipo de contenido.mp3
+│       ├── 05 Contenido 1 Caracteristicas generales.mp3
+│       ├── 06 Contenido 2 Principios Constitucionales.mp3
+│       ├── 07 Contenido 3 Derechos Deberes Fundamentales.mp3
+│       ├── 08 Contenido 4 Garantias derechos fundamenta.mp3
+│       ├── 09 Contenido 5 Principios politica social.mp3
+│       ├── 10 Contenido 6 Instituciones del Estado.mp3
+│       ├── 11 Contenido 7 Tipos de Leyes.mp3
+│       └── 12 Contenido 8 Elaboracion de las Leyes.mp3
+├── 002 Constitucion II Poder Judicial
+│   └── Resumen
+│       ├── 1 Autoria.mp3
+│       ├── 2 Fecha actualizacion.mp3
+│       ├── 3 Titulo tema.mp3
+│       ├── 4 Tipo de contenido.mp3
+│       ├── 5 Contenido 1.mp3
+│       ├── 6 Contenido 2.mp3
+│       ├── 7 Contenido 3.mp3
+│       └── 8 Contenido 4.mp3
+├── 003 Constitucion III
+│   └── Resumen
+│       ├── 1 Autoria.mp3
+│       ├── 2 Fecha actualizacion.mp3
+│       ├── 3 Titulo tema.mp3
+│       ├── 4 Tipo de contenido.mp3
+│       ├── 5 Contenido 1.mp3
+│       ├── 6 Contenido 2.mp3
+│       └── 7 Contenido 3 articulos Constitucion.mp3
+├── 004 Constitucion IV
+│   └── Contenido
+│       ├── 001. Autoria.mp3
+│       ├── 002. Fecha Actualizacion.mp3
+│       ├── 003. Tema 4.mp3
+│       ├── 004. Constitucion 4.mp3
+│       ├── 005.01. Administracion.mp3
+│       ├── 006.02. Principios Constitucionales.mp3
+│       ├── 007.03.01 Relaciones AAPP.mp3
+│       ├── 007.03. Principios de la Administracion.mp3
+│       ├── 008.04. Organos Administrativos.mp3
+│       ├── 009.05.01 Organos Funcionarios.mp3
+│       ├── 009.05.02 Administracion Periferica y Exterior.mp3
+│       ├── 009.05. AGE.mp3
+│       ├── 010.06. Administracion Periferica.mp3
+│       ├── 011.07. Administracin Exterior.mp3
+│       ├── 012.08.01 Clasificacion Organismos Publicos.mp3
+│       ├── 012.08. Administracion Institucional.mp3
+│       └── 013.09. Derecho Administrativo.mp3
+├── 005 Union Europea
+│   ├── Resumen
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha actualizacion.mp3
+│   │   ├── 03. Tipo de contenido.mp3
+│   │   ├── 04. Titulo.mp3
+│   │   ├── 05. Contenido 1.1.mp3
+│   │   ├── 06. Contenido 1.2.mp3
+│   │   ├── 07. Contenido 1.3.mp3
+│   │   ├── 09. Contenido 3.mp3
+│   │   ├── 10. Contenido 4.mp3
+│   │   ├── 11. Contenido 5.mp3
+│   │   ├── 12. Contenido 6.mp3
+│   │   ├── 13. Contenido 6.1.mp3
+│   │   ├── 14. Contenido 6.2.mp3
+│   │   ├── 15. Contenido 6.3.mp3
+│   │   ├── 16. Contenido 6.4.mp3
+│   │   ├── 17. Contenido 6.5.mp3
+│   │   ├── 18. Contenido 6.6.mp3
+│   │   ├── 19. Contenido 6.7.mp3
+│   │   └── 8. Contenido 2.mp3
+│   └── Resumen express
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha actualizacion.mp3
+│       ├── 03. Tipo de contenido.mp3
+│       ├── 04. Titulo.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       └── 10. Contenido 6.mp3
+├── 006 Administracion Periferica
+│   └── Contenido
+│       ├── 001. Autoria.mp3
+│       ├── 002. Fecha Actualizacion.mp3
+│       ├── 003. Tema 6.mp3
+│       ├── 004. Organizacion Territorial.mp3
+│       ├── 005.01.01 Delegados del Gobierno.mp3
+│       ├── 005.01.02 Subdelegados del Gobierno.mp3
+│       ├── 005.01.03 Directores Insulares.mp3
+│       ├── 005.01.04 Secretarios Generales de la DG-SDG.mp3
+│       ├── 005.01. Administraion Periferica.mp3
+│       ├── 006.02.01 Organismos Autonomos.mp3
+│       ├── 006.02.02 Entidades Publicas Empresariales.mp3
+│       ├── 006.02.03 Agencias Estatales.mp3
+│       ├── 006.02.04 Autoridades Administrativas Independientes.mp3
+│       ├── 006.02.05 Sociedades Mercantiles.mp3
+│       ├── 006.02.06 Consorcios.mp3
+│       ├── 006.02.07 Fundaciones.mp3
+│       ├── 006.02.08 Fondos sin personalidad juridica.mp3
+│       ├── 006.02.09 Universidades.mp3
+│       └── 006.02. Administración Institucional.mp3
+├── 007 Derecho administrativo
+│   ├── 01. Autoria.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo de apuntes y tema.mp3
+│   ├── 04. Titulo de tema.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   ├── 12. Contenido 8.mp3
+│   ├── 13. Contenido 9.mp3
+│   ├── 14. Contenido 10.mp3
+│   ├── 15. Contenido 11.mp3
+│   ├── 16. Contenido 12.mp3
+│   ├── 17. Contenido 13.mp3
+│   ├── 18. Contenido 14.mp3
+│   ├── 19. Contenido 15.mp3
+│   ├── 20. Contenido 16.mp3
+│   └── 21. Contenido 17.mp3
+├── 008 RJSP y PACAP
+│   ├── Administracion Electronica
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Titulo de tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   ├── 11. Contenido 7.mp3
+│   │   ├── 12. Contenido 8.mp3
+│   │   ├── 13. Contenido 9.mp3
+│   │   ├── 14. Contenido 10.mp3
+│   │   ├── 15. Contenido 11.mp3
+│   │   ├── 16. Contenido 12.mp3
+│   │   ├── 17. Contenido 13.mp3
+│   │   ├── 18. Contenido 14.mp3
+│   │   ├── 19. Contenido 15.mp3
+│   │   ├── 20. Contenido 16.mp3
+│   │   ├── 21. Contenido 17.mp3
+│   │   ├── 22. Contenido 18.mp3
+│   │   ├── 23. Contenido 19.mp3
+│   │   ├── 24. Contenido 20.mp3
+│   │   ├── 25. Contenido 21.mp3
+│   │   ├── 26. Contenido 22.mp3
+│   │   ├── 27. Contenido 23.mp3
+│   │   ├── 28. Contenido 24.mp3
+│   │   ├── 29. Contenido 25.mp3
+│   │   ├── 30. Contenido 26.mp3
+│   │   ├── 31. Contenido 27.mp3
+│   │   ├── 32. Contenido 28.mp3
+│   │   ├── 33. Contenido 29.mp3
+│   │   ├── 34. Contenido 30.mp3
+│   │   └── 35. Contenido 31.mp3
+│   └── Regimen Juridico y PAC
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Titulo de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 21. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       ├── 26. Contenido 22.mp3
+│       ├── 27. Contenido 23.mp3
+│       ├── 28. Contenido 24.mp3
+│       ├── 29. Contenido 25.mp3
+│       ├── 30. Contenido 26.mp3
+│       ├── 31. Contenido 27.mp3
+│       ├── 32. Contenido 28.mp3
+│       ├── 33. Contenido 29.mp3
+│       ├── 34. Contenido 30.mp3
+│       ├── 35. Contenido 31.mp3
+│       ├── 36. Contenido 32.mp3
+│       ├── 37. Contenido 33.mp3
+│       ├── 38. Contenido 34.mp3
+│       ├── 39. Contenido 35.mp3
+│       ├── 40. Contenido 36.mp3
+│       ├── 41. Contenido 37.mp3
+│       ├── 42. Contenido 38.mp3
+│       ├── 43. Contenido 39.mp3
+│       ├── 44. Contenido 40.mp3
+│       ├── 45. Contenido 41.mp3
+│       ├── 46. Contenido 42.mp3
+│       ├── 47. Contenido 43.mp3
+│       ├── 48. Contenido 44.mp3
+│       ├── 49. Contenido 45.mp3
+│       ├── 50. Contenido 46.mp3
+│       ├── 51. Contenido 47.mp3
+│       ├── 52. Contenido 48.mp3
+│       ├── 53. Contenido 49.mp3
+│       ├── 54. Contenido 50.mp3
+│       └── 55. Contenido 51.mp3
+├── 009 Actos administrativos
+│   ├── Repaso Express
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Titulo de tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   ├── 11. Contenido 7.mp3
+│   │   ├── 12. Contenido 8.mp3
+│   │   ├── 13. Contenido 9.mp3
+│   │   ├── 14. Contenido 10.mp3
+│   │   ├── 15. Contenido 11.mp3
+│   │   ├── 16. Contenido 12.mp3
+│   │   ├── 17. Contenido 13.mp3
+│   │   ├── 18. Contenido 14.mp3
+│   │   ├── 19. Contenido 15.mp3
+│   │   ├── 20. Contenido 16.mp3
+│   │   └── 21. Contenido 17.mp3
+│   └── Resumen
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Título de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 21. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       ├── 26. Contenido 22.mp3
+│       ├── 27. Contenido 23.mp3
+│       ├── 28. Contenido 24.mp3
+│       ├── 29. Contenido 25.mp3
+│       ├── 30. Contenido 26.mp3
+│       ├── 31. Contenido 27.mp3
+│       ├── 32. Contenido 28.mp3
+│       ├── 33. Contenido 29.mp3
+│       ├── 34. Contenido 30.mp3
+│       ├── 35. Contenido 31.mp3
+│       └── 36. Contenido 32.mp3
+├── 010 Responsabilidad Patrimonial
+│   ├── repaso express
+│   │   ├── 01. Autoría.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Título.mp3
+│   │   └── 05. contenido.mp3
+│   └── resumen
+│       ├── 01. Autoría.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Título de tema.mp3
+│       ├── 05. contenido 1.mp3
+│       ├── 06. contenido 2.mp3
+│       ├── 07. contenido 3.mp3
+│       ├── 08. contenido 4.mp3
+│       ├── 09. contenido 5.mp3
+│       ├── 10. contenido 6.mp3
+│       ├── 11. contenido 7.mp3
+│       ├── 12. contenido 8.mp3
+│       ├── 13 - contenido 9.mp3
+│       ├── 14. contenido 10.mp3
+│       ├── 15. contenido 11.mp3
+│       ├── 16. contenido 12.mp3
+│       ├── 17. contenido 12.mp3
+│       └── 18. contenido13.mp3
+├── 011 Contratacion Facturacion
+│   ├── Resumen
+│   │   ├── 01-Autoría PreparaTIC26.mp3
+│   │   ├── 02-T11. Contratos en las AAPP.mp3
+│   │   ├── 03-Contratos en las AAPP- Audio -actualizacion.mp3
+│   │   ├── 04-Contratos en las AAPP- Audio - Cambio en Contenidos.mp3
+│   │   ├── 05-Contratos en las AAPP- Audio - La Contratacion en la AAPP.mp3
+│   │   ├── 06- Ley de contratos del sector publico.mp3
+│   │   ├── 07-Requisitos tipos de procedimientos y contratos.mp3
+│   │   └── 08-Organos y Aclaraciones.mp3
+│   └── Resumen express
+│       ├── 01-Autoría PreparaTIC26.mp3
+│       ├── 02-actualizacion.mp3
+│       ├── 03-Repaso express.mp3
+│       ├── 04-Contratos en las AAPP.mp3
+│       ├── 05-La Ley de Contratos.mp3
+│       ├── 06-Apartados 2 a 9.mp3
+│       └── 07-Recomendacion.mp3
+├── 012 Presupuestos
+│   └── Contenido
+│       ├── 001. Autoria.mp3
+│       ├── 002. Fecha Actualizacion.mp3
+│       ├── 003. Tema 12.mp3
+│       ├── 004. PGE.mp3
+│       ├── 005.01. Contexto Normativo.mp3
+│       ├── 006.02. Fases Presupuesto.mp3
+│       ├── 007.03. Ley de Sostenibilidad Financiera.mp3
+│       ├── 008.04.01 Composicion.mp3
+│       ├── 008.04.02 Estructura.mp3
+│       ├── 008.04.03 Creditos Presupuestoarios.mp3
+│       ├── 008.04.04 Gasto.mp3
+│       ├── 008.04.05 Gastos Plurianuales.mp3
+│       ├── 008.04.06 Tramitacion Anticipada.mp3
+│       ├── 008.04.07 ACF y Pagos a Justificar.mp3
+│       ├── 008.04.08 Tribunal Cuentas.mp3
+│       ├── 008.04.09 IGAE.mp3
+│       ├── 008.04. Presupuesto.mp3
+│       └── 009.05.10 Elaboracion del Presupuesto.mp3
+├── 013 Convenios Encomiendas CPP Subvenciones
+│   └── Resumen
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Título de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 21. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       ├── 26. Contenido 22.mp3
+│       ├── 27. Contenido 23.mp3
+│       ├── 28. Contenido 24.mp3
+│       ├── 29. Contenido 25.mp3
+│       ├── 30. Contenido 26.mp3
+│       ├── 31. Contenido 27.mp3
+│       ├── 32. Contenido 28.mp3
+│       ├── 33. Contenido 29.mp3
+│       ├── 34. Contenido 30.mp3
+│       ├── 35. Contenido 31.mp3
+│       ├── 36. Contenido 32.mp3
+│       ├── 37. Contenido 33.mp3
+│       ├── 38. Contenido 34.mp3
+│       ├── 39. Contenido 35.mp3
+│       ├── 40. Contenido 36.mp3
+│       ├── 41. Contenido 37.mp3
+│       ├── 42. Contenido 38.mp3
+│       ├── 43. Contenido 39.mp3
+│       ├── 44. Contenido 40.mp3
+│       ├── 45. Contenido 41.mp3
+│       ├── 46. Contenido 42.mp3
+│       ├── 47. Contenido 43.mp3
+│       ├── 48. Contenido 44.mp3
+│       ├── 49. Contenido 45.mp3
+│       ├── 50. Contenido 46.mp3
+│       ├── 51. Contenido 47.mp3
+│       ├── 52. Contenido 48.mp3
+│       ├── 53. Contenido 49.mp3
+│       ├── 54. Contenido 50.mp3
+│       ├── 55. Contenido 51.mp3
+│       ├── 56. Contenido 52.mp3
+│       ├── 57. Contenido 53.mp3
+│       └── 58. Contenido 54.mp3
+├── 014 Modelo economico espanol en la economia mundial
+│   ├── 01. Autoria.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo de apuntes y tema.mp3
+│   ├── 04. Titulo de tema.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   ├── 12. Contenido 8.mp3
+│   ├── 13. Contenido 9.mp3
+│   ├── 14. Contenido 10.mp3
+│   ├── 15. Contenido 11.mp3
+│   ├── 16. Contenido 12.mp3
+│   ├── 17. Contenido 13.mp3
+│   ├── 18. Contenido 14.mp3
+│   ├── 19. Contenido 15.mp3
+│   ├── 20. Contenido 16.mp3
+│   ├── 21. Contenido 17.mp3
+│   ├── 22. Contenido 18.mp3
+│   ├── 23. Contenido 19.mp3
+│   ├── 24. Contenido 20.mp3
+│   ├── 25. Contenido 21.mp3
+│   ├── 26. Contenido 22.mp3
+│   ├── 27. Contenido 23.mp3
+│   ├── 28. Contenido 24.mp3
+│   └── 29. Contenido 25.mp3
+├── 015 Sectores primario secundario y terciario
+│   ├── 01. Autoria.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo de apuntes y tema.mp3
+│   ├── 04. Título de tema.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   ├── 12. Contenido 8.mp3
+│   ├── 13. Contenido 9.mp3
+│   ├── 14. Contenido 10.mp3
+│   ├── 15. Contenido 11.mp3
+│   ├── 16. Contenido 12.mp3
+│   ├── 17. Contenido 13.mp3
+│   ├── 18. Contenido 14.mp3
+│   └── 19. Contenido 15.mp3
+├── 016 Estructura social demografia igualdad
+│   ├── Repaso express
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Título de tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   └── 10. Contenido 6.mp3
+│   └── Resumen
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Título de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 21. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       ├── 26. Contenido 22.mp3
+│       ├── 27. Contenido 23.mp3
+│       ├── 28. Contenido 24.mp3
+│       ├── 29. Contenido 25.mp3
+│       ├── 30. Contenido 26.mp3
+│       └── 31. Contenido 27.mp3
+├── 017 Mercado laboral
+│   ├── Repaso Express
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Titulo de tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   └── 09. Contenido 5.mp3
+│   └── Resumen
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Titulo de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 20. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       ├── 26. Contenido 22.mp3
+│       ├── 27. Contenido 23.mp3
+│       ├── 28. Contenido 24.mp3
+│       ├── 29. Contenido 25.mp3
+│       ├── 30. Contenido 26.mp3
+│       ├── 31. Contenido 27.mp3
+│       └── 32. Contenido 28.mp3
+├── 018 Impacto de las TIC en la Sociedad
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha actualización 210419.mp3
+│   ├── 03. Resumen T18.mp3
+│   ├── 04. Impacto de las TIC en la sociedad.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   ├── 12. Contenido 8.mp3
+│   └── 13. Contenido 9.mp3
+├── 019 Impacto de las TIC en la economía y en el mercado de trabajo
+│   ├── 10. Contenido 5.mp3
+│   ├── 11. Contenido 6.mp3
+│   ├── 12. Contenido 7.mp3
+│   ├── 13. Resumen Express.mp3
+│   ├── 14. Contenido 1.mp3
+│   ├── 15. Contenido 2.mp3
+│   ├── 16. Políticas públicas.mp3
+│   ├── 17. Contenido 1.mp3
+│   ├── 18. Agenda Digital para España.mp3
+│   ├── 19. Contenido 1.mp3
+│   ├── 1. Preparatic 26.mp3
+│   ├── 20. Contenido 2.mp3
+│   ├── 2. Fecha actualización 210419.mp3
+│   ├── 3. Control de cambios.mp3
+│   ├── 4. Resumen T019.mp3
+│   ├── 5. Impacto TIC en economía y mercado de trabajo.mp3
+│   ├── 6. Contenido 1.mp3
+│   ├── 7. Contenido 2.mp3
+│   ├── 8. Contenido 3.mp3
+│   └── 9. Contenido 4.mp3
+├── 020 La funcion gerencial en las AAPP
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha actualización 210419.mp3
+│   ├── 03. Resumen T20.mp3
+│   ├── 04. La función gerencial de las AAPP.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   └── 09. Contenido 5.mp3
+├── 021 Liderazgo
+│   ├── 04. Liderazgo.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 1. Preparatic26.mp3
+│   ├── 2. Fecha 230419.mp3
+│   ├── 3. Resumen Express T21.mp3
+│   ├── 5. Contenido 1.mp3
+│   ├── 6. Contenido 2.mp3
+│   └── 7. Contenido 3.mp3
+├── 022 Calidad servicios publicos y papel de TIC
+│   ├── 01. Autoria.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo de apuntes y tema.mp3
+│   ├── 04. Titulo de tema.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   ├── 12. Contenido 8.mp3
+│   ├── 13. Contenido 9.mp3
+│   ├── 14. Contenido 10.mp3
+│   ├── 15. Contenido 11.mp3
+│   ├── 16. Contenido 12.mp3
+│   ├── 17. Contenido 13.mp3
+│   ├── 18. Contenido 14.mp3
+│   ├── 19. Contenido 15.mp3
+│   ├── 20. Contenido 16.mp3
+│   ├── 21. Contenido 17.mp3
+│   ├── 22. Contenido 18.mp3
+│   ├── 23. Contenido 19.mp3
+│   ├── 24. Contenido 20.mp3
+│   ├── 25. Contenido 21.mp3
+│   ├── 26. Contenido 22.mp3
+│   ├── 27. Contenido 23.mp3
+│   ├── 28. Contenido 24.mp3
+│   ├── 29. Contenido 25.mp3
+│   ├── 30. Contenido 26.mp3
+│   ├── 31. Contenido 27.mp3
+│   ├── 32. Contenido 28.mp3
+│   ├── 33. Contenido 29.mp3
+│   ├── 34. Contenido 30.mp3
+│   ├── 35. Contenido 31.mp3
+│   ├── 36. Contenido 32.mp3
+│   ├── 37. Contenido 33.mp3
+│   ├── 38. Contenido 34.mp3
+│   ├── 39. Contenido 35.mp3
+│   ├── 40. Contenido 36.mp3
+│   ├── 41. Contenido 37.mp3
+│   ├── 42. Contenido 38.mp3
+│   ├── 43. Contenido 39.mp3
+│   └── 44. Contenido 40.mp3
+├── 023 Crisis burocracia
+│   ├── Repaso express
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Titulo de tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   └── 10. Contenido 6.mp3
+│   └── Resumen
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Titulo de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 21. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       └── 26. Contenido 22.mp3
+├── 024 Empleados Publicos
+│   ├── 001. Autoria.mp3
+│   ├── 002. Fecha Actualizacion.mp3
+│   ├── 003. Tema 24.mp3
+│   ├── 004. Empleados Públicos.mp3
+│   ├── 005.01. Legislacion.mp3
+│   ├── 006.02.01 Formas de Seleccion y Provision.mp3
+│   ├── 006.02.02.01 Funcionarios de Carrera.mp3
+│   ├── 006.02.02.02 Funcionarios Interinos.mp3
+│   ├── 006.02.02.03 Personal Laboral.mp3
+│   ├── 006.02.02.04 Personal Eventual.mp3
+│   ├── 006.02.02 Tipos de Empleados Publicos.mp3
+│   ├── 006.02.03 Adquisicion y Perdida de la condicion de funcionario.mp3
+│   ├── 006.02. Empleados Públicos.mp3
+│   ├── 007.03.01 Derechos.mp3
+│   ├── 007.03.02 Deberes.mp3
+│   ├── 007.03. Derechos y Deberes.mp3
+│   ├── 008.04. Retribuciones.mp3
+│   └── 008.05. Personal Directivo.mp3
+└── 026 Apoyo actividad economica
+    └── Resumen
+        ├── 01. Autoría.mp3
+        ├── 02. Fecha.mp3
+        ├── 03. Tipo de apuntes y tema.mp3
+        ├── 04. Título de tema.mp3
+        ├── 05. contenido 1.mp3
+        ├── 06. contenido 2.mp3
+        ├── 07. contenido 3.mp3
+        ├── 08. contenido 4.mp3
+        └── 09. contenido 5.mp3
+
+Audioapuntes_Pack1_02.7z
+├── 027 Protección de datos
+│   ├── Resumen
+│   │   ├── 1-Autoría PreparaTIC26.mp3
+│   │   ├── 2-Fecha actualización.mp3
+│   │   ├── 3-Proteccion de datos.mp3
+│   │   ├── 4-Cambios.mp3
+│   │   ├── 5-Normativa y Politica.mp3
+│   │   ├── 6-RGPD.mp3
+│   │   ├── 7-LOPDGDD.mp3
+│   │   └── 8-Agencia-PAC-DPO.mp3
+│   └── Resumen Express
+│       ├── 1-Autoría PreparaTIC26.mp3
+│       ├── 2-Fecha actualización.mp3
+│       ├── 3-Repaso express.mp3
+│       ├── 4-Proteccion de datos.mp3
+│       ├── 5-RGPD y LOPDGDD.mp3
+│       └── 6-AEPD-PCAP-DPD.mp3
+├── 028 Definición sistemas Información
+│   ├── 01 - Autoría.mp3
+│   ├── 02 - Fecha actualización.mp3
+│   ├── 03 - Tipo contenido.mp3
+│   ├── 04 - Tema 28. Título.mp3
+│   ├── 05 - Tema 28. Contenido 1.mp3
+│   ├── 06 - Tema 28. Contenido 2.mp3
+│   ├── 07 - Tema 28. Contenido 3.mp3
+│   ├── 08 - Tema 28. Contenido 4.mp3
+│   ├── 09 - Tema 28. Contenido 5.mp3
+│   ├── 10 - Tema 28. Contenido 6.mp3
+│   ├── 11 - Tema 28. Contenido 7.mp3
+│   ├── 12 - Tema 28. Contenido 8.mp3
+│   ├── 13 - Tema 28. Contenido 9.mp3
+│   ├── 14 - Tema 28. Contenido 10.mp3
+│   └── 15 - Tema 28. Contenido 11.mp3
+├── 029 La información en las organizaciones
+│   ├── Resumen
+│   │   ├── 01 - Autoría.mp3
+│   │   ├── 02 - Fecha actualización.mp3
+│   │   ├── 03 - Contenido resumen.mp3
+│   │   ├── 04 - Tema 29. Título.mp3
+│   │   ├── 05 - Tema 29. Contenido 1.mp3
+│   │   ├── 06 - Tema 29. Contenido 2.mp3
+│   │   ├── 07 - Tema 29. Contenido 3.mp3
+│   │   ├── 08 - Tema 29. Contenido 4.mp3
+│   │   ├── 09 - Tema 29. Contenido 5.mp3
+│   │   └── 10 - Tema 29. Contenido 6.mp3
+│   └── Resumen express
+│       ├── 01 - Autoría.mp3
+│       ├── 02 - Fecha actualización.mp3
+│       ├── 03 - resumen express.mp3
+│       ├── 04 - Tema 29. Título.mp3
+│       └── 05 - Contenido.mp3
+├── 030 Gobernanza TIC
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 230419.mp3
+│   ├── 03. Resumen T30.mp3
+│   ├── 04. Gobernanza TIC. Transformación Digital AGE.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   └── 11. Contenido 7.mp3
+├── 031 RISP
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 050519.mp3
+│   ├── 03. Resumen Express T31.mp3
+│   ├── 04. RISP.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   └── 08. Contenido 4.mp3
+├── 032 Directivo TIC
+│   ├── 01 - Autoría.mp3
+│   ├── 02 - Fecha actualización.mp3
+│   ├── 03 - Tipo contenido.mp3
+│   ├── 04 - Tema 32. Título.mp3
+│   ├── 05 - Tema 32. Contenido 1.mp3
+│   ├── 06 - Tema 32. Contenido 2.mp3
+│   ├── 07 - Tema 32. Contenido 3.mp3
+│   ├── 08 - Tema 32. Contenido 4.mp3
+│   ├── 09 - Tema 32. Contenido 5.mp3
+│   ├── 10 - Tema 32. Contenido 6.mp3
+│   ├── 11 - Tema 32. Contenido 7.mp3
+│   ├── 12 - Tema 32. Contenido 8.mp3
+│   ├── 13 - Tema 32. Contenido 9.mp3
+│   ├── 14 - Tema 32. Contenido 10.mp3
+│   ├── 15 - Tema 32. Contenido 11.mp3
+│   ├── 16 - Tema 32. Contenido 12.mp3
+│   ├── 17 - Tema 32. Contenido 13.mp3
+│   ├── 18 - Tema 32. Contenido 14.mp3
+│   ├── 19 - Tema 32. Contenido 15.mp3
+│   ├── 20 - Tema 32. Contenido 16.mp3
+│   └── 21 - Tema 32. Contenido 17.mp3
+├── 034 Centro SI
+│   ├── 01 - Autoría.mp3
+│   ├── 02 - Fecha actualización.mp3
+│   ├── 03 - Tipo contenido.mp3
+│   ├── 04 - Tema 34. Título.mp3
+│   ├── 05 - Tema 34. Contenido 1.mp3
+│   ├── 06 - Tema 34. Contenido 2.mp3
+│   ├── 07 - Tema 34. Contenido 3.mp3
+│   └── 08 - Tema 34. Contenido 4.mp3
+├── 035 Gestión de proyectos
+│   ├── 01 - Autoría.mp3
+│   ├── 02 - Fecha actualización.mp3
+│   ├── 03 - Tipo contenido.mp3
+│   ├── 04 - Tema 35. Título.mp3
+│   ├── 05 - Tema 35. Contenido 1.mp3
+│   ├── 06 - Tema 35. Contenido 2.mp3
+│   ├── 07 - Tema 35. Contenido 3.mp3
+│   ├── 08 - Tema 35. Contenido 4.mp3
+│   ├── 09 - Tema 35. Contenido 5.mp3
+│   └── 10 - Tema 35. Contenido 6.mp3
+├── 037 Agilismo
+│   ├── Repaso Express
+│   │   ├── 1. Autoría.mp3
+│   │   ├── 2.Fecha.mp3
+│   │   ├── 3.Tipo de Apuntes y Tema.mp3
+│   │   ├── 4.Título del tema.mp3
+│   │   ├── 5. Contenido 1.mp3
+│   │   ├── 6. Contenido 2.mp3
+│   │   ├── 7. Contenido 3.mp3
+│   │   ├── 8. Contenido 4.mp3
+│   │   └── 9. Contenido 5.mp3
+│   └── Resumen
+│       ├── 10.Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13.Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 1. Autoría.mp3
+│       ├── 2.Fecha.mp3
+│       ├── 3. Tipo de apuntes y tema.mp3
+│       ├── 4.Título del tema.mp3
+│       ├── 5. Contenido 1.mp3
+│       ├── 6. Contenido 2.mp3
+│       ├── 7. Contenido 3.mp3
+│       ├── 8. Contenido 4.mp3
+│       └── 9. Contenido 5.mp3
+├── 038 Auditoría Informática
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 200419.mp3
+│   ├── 03. Resumen Express T38.mp3
+│   ├── 04. Auditoría informática.mp3
+│   ├── 05. contenido 1.mp3
+│   ├── 06. contenido 2.mp3
+│   ├── 07. contenido 3.mp3
+│   ├── 08. contenido 4.mp3
+│   ├── 09. contenido 5.mp3
+│   └── 10. contenido 6.mp3
+├── 040 Adquisicion de sistemas
+│   ├── 01. Autoria.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo de apuntes y tema.mp3
+│   ├── 04. Titulo de tema.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   ├── 12. Contenido 8.mp3
+│   ├── 13. Contenido 9.mp3
+│   ├── 14. Contenido 10.mp3
+│   ├── 15. Contenido 11.mp3
+│   ├── 16. Contenido 12.mp3
+│   ├── 17. Contenido 13.mp3
+│   ├── 18. Contenido 14.mp3
+│   ├── 19. Contenido 15.mp3
+│   ├── 20. Contenido 16.mp3
+│   ├── 21. Contenido 17.mp3
+│   ├── 22. Contenido 18.mp3
+│   ├── 23. Contenido 19.mp3
+│   ├── 24. Contenido 20.mp3
+│   ├── 25. Contenido 21.mp3
+│   ├── 26. Contenido 22.mp3
+│   ├── 27. Contenido 23.mp3
+│   ├── 28. Contenido 24.mp3
+│   └── 29. Contenido 25.mp3
+├── 041 Alternativas decision Hw y Sw
+│   ├── Repaso Express
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Titulo de tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   ├── 11. Contenido 7.mp3
+│   │   ├── 12. Contenido 8.mp3
+│   │   ├── 13. Contenido 9.mp3
+│   │   ├── 14. Contenido 10.mp3
+│   │   ├── 15. Contenido 11.mp3
+│   │   └── 16. Contenido 12.mp3
+│   └── Resumen
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Titulo de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 21. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       ├── 26. Contenido 22.mp3
+│       ├── 27. Contenido 23.mp3
+│       ├── 28. Contenido 24.mp3
+│       └── 29. Contenido 25.mp3
+├── 042 La rentabilidad de las inversiones en los proyectos TIC
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha actualización 23042019.mp3
+│   ├── 03. Resumen T42.mp3
+│   ├── 04. Rentabilidad en los proyectos TIC.mp3
+│   ├── 05. Contenido 1.mp3
+│   └── 06. Contenido 2.mp3
+├── 043 Protección Jurídica de Programas de ordenador
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha actualización 240118.mp3
+│   ├── 03. Resumen T43.mp3
+│   ├── 04. Protección jurídica del SW.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   └── 08. Contenido 4.mp3
+├── 044 Accesibilidad
+│   ├── Resumen
+│   │   ├── 01. Preparatic26.mp3
+│   │   ├── 02. Fecha actualización 120319.mp3
+│   │   ├── 03. Resumen T44.mp3
+│   │   ├── 04. Accesibilidad y Usabilidad.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   └── 11. Contenido 7.mp3
+│   └── Resumen Express
+│       ├── 01. Preparatic26.mp3
+│       ├── 02. Fecha actualización 120319.mp3
+│       ├── 03. Resumen Express T44.mp3
+│       ├── 04. Accesibilidad y Usabilidad.mp3
+│       ├── 05. Contenido 1.mp3
+│       └── 06. Contenido 2.mp3
+├── 045 Interoperabilidad (1). El ENI
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha actualización 260419.mp3
+│   ├── 03. Resumen T45.mp3
+│   ├── 04. Interoperabilidad 1. ENI.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   └── 09. Contenido 5.mp3
+├── 046 Interoperabilidad (2). Las NTIs
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha actualización 200419.mp3
+│   ├── 03. Resumen T46.mp3
+│   ├── 04. Interoperabilidad 2. NTIs.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   ├── 12. Contenido 8.mp3
+│   ├── 13. Contenido 9.mp3
+│   ├── 14. Contenido 10.mp3
+│   ├── 15. Contenido 11.mp3
+│   ├── 16. Contenido 12.mp3
+│   └── 17. Contenido 13.mp3
+├── 047 Análisis y gestión de riesgos
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha actualización 240419.mp3
+│   ├── 03. Resumen T47.mp3
+│   ├── 04. Análisis y gestión de riesgos.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   └── 10. Contenido 6.mp3
+├── 048 ENS-CCN-STIC
+│   ├── Resumen
+│   │   ├── 1-Autoría PreparaTIC26.mp3
+│   │   ├── 2-Fecha Actualizacion.mp3
+│   │   ├── 3-Seguridad de Sistemas-2-ENS.mp3
+│   │   ├── 4-Cambios.mp3
+│   │   ├── 5-Sist afectados y adecuacion.mp3
+│   │   ├── 6-Categorizacion y Medidas.mp3
+│   │   ├── 7-ITS.mp3
+│   │   └── 8-Estrategia de Seguridad Nacional.mp3
+│   └── Resumen Express
+│       ├── 1-Autoría PreparaTIC26.mp3
+│       ├── 2-Fecha de actualización.mp3
+│       ├── 3-Repaso express.mp3
+│       ├── 4-Seguridad de Sistemas-2-ENS.mp3
+│       └── 5-Contenido.mp3
+├── 049 Servicios Comunes
+│   ├── 01. Autoría.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo documento y resumen.mp3
+│   ├── 04. Título tema.mp3
+│   ├── 05. infraestructuras comunes.mp3
+│   ├── 06. red sara.mp3
+│   ├── 07. servicio unificado telecomunicaciones.mp3
+│   ├── 08. servicio de seguridad gestionada.mp3
+│   ├── 09. servicio de alojamiento infraestructuras.mp3
+│   ├── 10. nubesara.mp3
+│   ├── 11. hora oficial.mp3
+│   ├── 12. correo multidominio.mp3
+│   ├── 13. declaración servicios compartidos.mp3
+│   ├── 14. servicios comunes.mp3
+│   ├── 15. sorolla2.mp3
+│   ├── 16. sigp.mp3
+│   ├── 17. nedaes.mp3
+│   ├── 18. 060.mp3
+│   ├── 19. geiser.mp3
+│   ├── 20. Inside.mp3
+│   ├── 21. archive.mp3
+│   └── 22. notifica.mp3
+├── 050 Organismos normalizacion
+│   ├── 01. Autoría.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo de apuntes y tema.mp3
+│   ├── 04. Título del tema.mp3
+│   ├── 05. Definiciones.mp3
+│   ├── 06. organismos internacionales.mp3
+│   ├── 07. ISO.mp3
+│   ├── 08. IEC.mp3
+│   ├── 09. JTC-1.mp3
+│   ├── 10. ITU.mp3
+│   ├── 11. organismos internet.mp3
+│   ├── 12. isoc.mp3
+│   ├── 13. w3c.mp3
+│   ├── 14. icann.mp3
+│   ├── 15. organismos privados.mp3
+│   ├── 16. ieee.mp3
+│   ├── 17. Open Group.mp3
+│   ├── 18. organismos europeos.mp3
+│   ├── 19. CEN.mp3
+│   ├── 20. etsi.mp3
+│   ├── 21. organismos nacionales.mp3
+│   ├── 22. aenor.mp3
+│   ├── 23. sead.mp3
+│   └── 24. pruebas de conformidad.mp3
+├── 051 Agenda digital Mercado unico digital
+│   ├── Repaso express
+│   │   ├── 01. Autoria.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Titulo de tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   ├── 11. Contenido 7.mp3
+│   │   ├── 12. Contenido 8.mp3
+│   │   ├── 13. Contenido 9.mp3
+│   │   ├── 14. Contenido 10.mp3
+│   │   ├── 15. Contenido 11.mp3
+│   │   ├── 16. Contenido 12.mp3
+│   │   ├── 17. Contenido 13.mp3
+│   │   ├── 18. Contenido 14.mp3
+│   │   └── 19. Contenido 15.mp3
+│   └── Resumen
+│       ├── 01. Autoria.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Titulo de tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 13. Contenido 9.mp3
+│       ├── 14. Contenido 10.mp3
+│       ├── 15. Contenido 11.mp3
+│       ├── 16. Contenido 12.mp3
+│       ├── 17. Contenido 13.mp3
+│       ├── 18. Contenido 14.mp3
+│       ├── 19. Contenido 15.mp3
+│       ├── 20. Contenido 16.mp3
+│       ├── 21. Contenido 17.mp3
+│       ├── 22. Contenido 18.mp3
+│       ├── 23. Contenido 19.mp3
+│       ├── 24. Contenido 20.mp3
+│       ├── 25. Contenido 21.mp3
+│       ├── 26. Contenido 22.mp3
+│       ├── 27. Contenido 23.mp3
+│       ├── 28. Contenido 24.mp3
+│       ├── 29. Contenido 25.mp3
+│       ├── 30. Contenido 26.mp3
+│       ├── 31. Contenido 27.mp3
+│       ├── 32. Contenido 28.mp3
+│       ├── 33. Contenido 29.mp3
+│       ├── 34. Contenido 30.mp3
+│       ├── 35. Contenido 31.mp3
+│       ├── 36. Contenido 32.mp3
+│       ├── 37. Contenido 33.mp3
+│       ├── 38. Contenido 34.mp3
+│       ├── 39. Contenido 35.mp3
+│       ├── 40. Contenido 36.mp3
+│       ├── 41. Contenido 37.mp3
+│       ├── 42. Contenido 38.mp3
+│       ├── 43. Contenido 39.mp3
+│       ├── 44. Contenido 40.mp3
+│       ├── 45. Contenido 41.mp3
+│       ├── 46. Contenido 42.mp3
+│       ├── 47. Contenido 43.mp3
+│       ├── 48. Contenido 44.mp3
+│       ├── 49. Contenido 45.mp3
+│       ├── 50. Contenido 46.mp3
+│       ├── 51. Contenido 47.mp3
+│       ├── 52. Contenido 48.mp3
+│       ├── 53. Contenido 49.mp3
+│       ├── 54. Contenido 50.mp3
+│       ├── 55. Contenido 51.mp3
+│       ├── 56. Contenido 52.mp3
+│       ├── 57. Contenido 53.mp3
+│       └── 58. Contenido 54.mp3
+├── 055 Cloud
+│   ├── Repaso express
+│   │   ├── 01. Autoría.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apuntes y tema.mp3
+│   │   ├── 04. Título del tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   └── 10. Contenido 6.mp3
+│   └── Resumen
+│       ├── 01. Autoría.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apunte y tema.mp3
+│       ├── 04. Título del tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       └── 12. Contenido 8.mp3
+├── 056 Sistemas de Almacenamiento
+│   └── Resumen
+│       ├── 01. Autoría.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Título.mp3
+│       ├── 05. contenido 1.mp3
+│       ├── 06. contenido 2.mp3
+│       ├── 07. contenido 3.mp3
+│       ├── 08. contenido 4.mp3
+│       └── 09. contenido 5.mp3
+├── 057 Sistemas multiusuarios
+│   └── Resumen
+│       ├── 01. Autoría.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apuntes y tema.mp3
+│       ├── 04. Título de tema.mp3
+│       ├── 05. contenido 1.mp3
+│       ├── 06. contenido 2.mp3
+│       └── 07. contenido 3.mp3
+├── 060 Sistemas operativos UNIX-LINUX
+│   └── Esquemas
+│       ├── 01 - autoría.mp3
+│       ├── 02 - fecha de actualización.mp3
+│       ├── 03 - linux - tipo de material.mp3
+│       ├── 04 - linux - raíz esquema.mp3
+│       ├── 05 - linux - compuesto por.mp3
+│       ├── 06 - linux - principios.mp3
+│       ├── 07 - linux - jerarquía de ficheros.mp3
+│       ├── 08 - linux - sistemas de ficheros.mp3
+│       ├── 09 - linux - administración.mp3
+│       └── 10 - UNIX.mp3
+├── 061 Sistemas operativos Microsoft
+│   ├── 01 - Hecho por Preparatic.mp3
+│   ├── 02 - Fecha de actualizacion - 17-04-2019.mp3
+│   ├── 03 - Tema 61 - Sistemas Operativos Microsoft.mp3
+│   ├── 04 - Contenido T.61 - 01.mp3
+│   ├── 05 - Contenido T.61 - 02.mp3
+│   └── 06 - Contenido T.61 - 03.mp3
+├── 062 Otros SSOO
+│   ├── 01 - Preparatic 26.mp3
+│   ├── 02 - Fecha de actualizacion - 30-04-2019.mp3
+│   ├── 03 - Titulo - Tema 62 - Otros Sistemas Operativos.mp3
+│   ├── 04 - Contenido T.62 - 01.mp3
+│   ├── 05 - Contenido T.62 - 02.mp3
+│   ├── 06 - Contenido T.62 - 03.mp3
+│   ├── 07 - Contenido T.62 - 04.mp3
+│   ├── 08 - Contenido T.62 - 05.mp3
+│   ├── 09 - Contenido T.62 - 06.mp3
+│   ├── 10 - Contenido T.62 - 07.mp3
+│   ├── 11 - Contenido T.62 - 08.mp3
+│   └── 12 - Contenido T.62 - 09.mp3
+├── 063 SGBD
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 170419.mp3
+│   ├── 03. Resumen T63.mp3
+│   ├── 04. SGBD.mp3
+│   ├── 05. contenido 1.mp3
+│   ├── 06. contenido 2.mp3
+│   ├── 07. contenido 3.mp3
+│   ├── 08. contenido 4.mp3
+│   └── 09. contenido 5.mp3
+├── 064 Modelo relacional
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 170419.mp3
+│   ├── 03. Resumen T64.mp3
+│   ├── 04. Modelo Relacional, SQL, SGBD.mp3
+│   ├── 05. contenido 1.mp3
+│   ├── 06. contenido 2.mp3
+│   ├── 07. contenido 3.mp3
+│   ├── 08. contenido 4.mp3
+│   ├── 09. contenido 5.mp3
+│   ├── 10. contenido 6.mp3
+│   ├── 11. contenido 7.mp3
+│   └── 12. contenido 8.mp3
+└── 069 Software Abierto, Libre
+    ├── 01. Preparatic26.mp3
+    ├── 02. Fecha 300419.mp3
+    ├── 03. Resumen T69.mp3
+    ├── 04. SW Libre.mp3
+    ├── 05. Contenido 1.mp3
+    ├── 06. Contenido 2.mp3
+    ├── 07. Contenido 3.mp3
+    ├── 08. Contenido 4.mp3
+    ├── 09. Contenido 5.mp3
+    └── 10. Contenido 6.mp3
+
+Audioapuntes_Pack1_03.7z
+├── 070 Inteligencia Artificial
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 170419.mp3
+│   ├── 03. Resumen T70.mp3
+│   ├── 04. IA.mp3
+│   ├── 05. contenido 1.mp3
+│   └── 06. contenido 2.mp3
+├── 071 G Conocimiento _ Sistemas Expertos
+│   ├── 1. Autoría.mp3
+│   ├── 2. Fecha.mp3
+│   ├── 3. Tipo de apuntes y tema 71.mp3
+│   ├── 4. Título tema 71.mp3
+│   ├── 5. Representación del conocimiento.mp3
+│   └── 6. Sistemas Expertos.mp3
+├── 072 ERP y CRM
+│   ├── Resumen
+│   │   ├── 01. Autoría.mp3
+│   │   ├── 02. fecha de actualizacion.mp3
+│   │   ├── 03. Tipo de apunte y tema .mp3
+│   │   ├── 04. Titulo de tema.mp3
+│   │   ├── 05. contenidos 1.mp3
+│   │   ├── 06. Contenidos 2.mp3
+│   │   ├── 07. Contenidos 3.mp3
+│   │   ├── 08. Contenidos 4.mp3
+│   │   ├── 09. Contenidos 5.mp3
+│   │   └── 10. Contenidos 6.mp3
+│   └── Resumen express
+│       ├── 1. Autoría.mp3
+│       ├── 2. fecha de actualizacion.mp3
+│       ├── 3. Tipo de apunte y tema .mp3
+│       ├── 3. Tipo de apunte y tema.mp3
+│       ├── 4. Titulo de tema.mp3
+│       └── 5. Contenidos .mp3
+├── 073 ELearning
+│   └── Resumen
+│       ├── 00.1. Preparatic26.mp3
+│       ├── 00.2. Fecha 030519.mp3
+│       ├── 00.3. Resumen T73.mp3
+│       ├── 00.4. Titulo - eLearning.mp3
+│       ├── 01.1 Evolución según medios tecnológicos.mp3
+│       ├── 01 Evolución e-learning.mp3
+│       ├── 02 Variantes e-learning.mp3
+│       ├── 03 Ventajas del e-learning.mp3
+│       ├── 04 Triángulo e-learning.mp3
+│       ├── 05.1 Plataforma.mp3
+│       ├── 05.2 Contenidos.mp3
+│       ├── 05.3 Herramientas de Comunicación.mp3
+│       ├── 05 Componentes del e-learning.mp3
+│       ├── 06.1 SCORM.mp3
+│       ├── 06.2 xAPI.mp3
+│       ├── 06.3 AICC.mp3
+│       ├── 06.4 IEEE LTSC.mp3
+│       ├── 06.5 IMS.mp3
+│       ├── 06.6 Norma UNE 66181.mp3
+│       ├── 06 Estándares de e-learning.mp3
+│       ├── 07 Herramientas de e-learning.mp3
+│       ├── 08 Herramientas Authoring.mp3
+│       ├── 09 e-learning en las AAPP.mp3
+│       └── 10 Tendencias.mp3
+├── 074 GIS
+│   ├── Resumen
+│   │   ├── 01 Preparatic26.mp3
+│   │   ├── 02. Fecha 140519.mp3
+│   │   ├── 03. Tema 74.mp3
+│   │   ├── 04. GIS.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   ├── 11. Contenido 7.mp3
+│   │   ├── 12. Contenido 8.mp3
+│   │   ├── 13. Contenido 9.mp3
+│   │   ├── 14. Contenido 10.mp3
+│   │   ├── 15. Contenido 11.mp3
+│   │   ├── 16. Contenido 12.mp3
+│   │   ├── 17. Contenido 13.mp3
+│   │   ├── 18. Contenido 14.mp3
+│   │   ├── 19. Contenido 15.mp3
+│   │   ├── 20. Contenido 16.mp3
+│   │   ├── 21. Contenido 17.mp3
+│   │   ├── 22. Contenido 18.mp3
+│   │   └── 23. Contenido 19.mp3
+│   └── Resumen Express
+│       ├── 01 Preparatic26.mp3
+│       ├── 02. Fecha 140519.mp3
+│       ├── 03. Tema 74.mp3
+│       ├── 04. GIS.mp3
+│       ├── 05. Resumen Express.mp3
+│       ├── 06. Contenido 1.mp3
+│       ├── 07. Contenido 2.mp3
+│       ├── 08. Contenido 3.mp3
+│       ├── 09. Contenido 4.mp3
+│       ├── 10. Contenido 5.mp3
+│       ├── 11. Contenido 6.mp3
+│       ├── 12. Contenido 7.mp3
+│       ├── 13. Contenido 8.mp3
+│       ├── 14. Contenido 9.mp3
+│       ├── 15. Contenido 10.mp3
+│       ├── 16. Contenido 11.mp3
+│       ├── 17. Contenido 12.mp3
+│       ├── 18. Contenido 13.mp3
+│       ├── 19. Contenido 14.mp3
+│       ├── 20. Contenido 15.mp3
+│       └── 21. Contenido 16.mp3
+├── 075 Gestion de datos corporativos
+│   ├── Resumen
+│   │   ├── 1. Autoría.mp3
+│   │   ├── 2. fecha de actualizacion.mp3
+│   │   ├── 3. tipo de apunte y tema .mp3
+│   │   ├── 4. tema .mp3
+│   │   ├── 5. Contenidos 1.mp3
+│   │   ├── 6. Contenidos 2.mp3
+│   │   ├── 7. Contenidos 3.mp3
+│   │   ├── 8. contenidos 4.mp3
+│   │   └── 9. contenidos 5.mp3
+│   └── Resumen express
+│       ├── 1. Autoría.mp3
+│       ├── 2. fecha de actualizacion.mp3
+│       ├── 3. tipo de apunte y tema .mp3
+│       ├── 4. tema .mp3
+│       ├── 5. contenidos 1.mp3
+│       └── 6. contenidos 2.mp3
+├── 076 Big Data
+│   ├── 01. Autoría.mp3
+│   ├── 02. Fecha.mp3
+│   ├── 03. Tipo de apuntes y tema.mp3
+│   ├── 04. Título del tema.mp3
+│   ├── 05. Contenido-Seccion_1.mp3
+│   ├── 06. Contenido-Seccion_1_1.mp3
+│   ├── 07. Contenido-Seccion_1_2.mp3
+│   ├── 08. Contenido-Seccion_1_3.mp3
+│   ├── 09. Contenido-Seccion_1_4.mp3
+│   ├── 10. Contenido-Seccion_2.mp3
+│   ├── 11. Contenido-Seccion_2_1.mp3
+│   ├── 12. Contenido-Seccion_2_2.mp3
+│   ├── 13. Contenido-Seccion_3.mp3
+│   ├── 14. Contenido-Seccion_3_1.mp3
+│   ├── 15. Contenido-Seccion_3_2.mp3
+│   ├── 16. Contenido-Seccion_3_3.mp3
+│   ├── 17. Contenido-Seccion_3_4.mp3
+│   ├── 18. Contenido-Seccion_4.mp3
+│   └── 19. Contenido-Seccion_4_1.mp3
+├── 078 Factura Electronica Comercio Electrónico
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 300419.mp3
+│   ├── 03. Resumen T78.mp3
+│   ├── 04. Comercio Electrónica y Factura Electrónica.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   └── 12. Contenido 8.mp3
+├── 079 Cifrado, hash y notariado
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 160118.mp3
+│   ├── 03. Resumen Express T79.mp3
+│   ├── 04. El cifrado. Algoritmo HASH.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   └── 07. Contenido 3.mp3
+├── 082 Adaptación apps a RGPD
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 190419.mp3
+│   ├── 03. Resumen T82.mp3
+│   ├── 04. Adaptación apps a LOPD.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   └── 08. Contenido 4.mp3
+├── 083 Tratamiento de Imágenes
+│   ├── Resumen
+│   │   ├── 01 Preparatic26.mp3
+│   │   ├── 02. Fecha 140519.mp3
+│   │   ├── 03. Tema 83.mp3
+│   │   ├── 04. Tratamiento de Imágenes.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   ├── 11. Contenido 7.mp3
+│   │   ├── 12. Contenido 8.mp3
+│   │   ├── 13. Contenido 9.mp3
+│   │   ├── 14. Contenido 10.mp3
+│   │   ├── 15. Contenido 11.mp3
+│   │   ├── 16. Contenido 12.mp3
+│   │   ├── 17. Contenido 13.mp3
+│   │   ├── 18. Contenido 14.mp3
+│   │   └── 19. Contenido 15.mp3
+│   └── Resumen Express
+│       ├── 01 Preparatic26.mp3
+│       ├── 02. Fecha 140519.mp3
+│       ├── 03. Tema 83.mp3
+│       ├── 04. Tratamiento de Imágenes.mp3
+│       ├── 05. Resumen Express.mp3
+│       ├── 06. Contenido 1.mp3
+│       ├── 07. Contenido 2.mp3
+│       ├── 08. Contenido 3.mp3
+│       ├── 09. Contenido 4.mp3
+│       ├── 10. Contenido 5.mp3
+│       ├── 11. Contenido 6.mp3
+│       ├── 12. Contenido 7.mp3
+│       ├── 13. Contenido 8.mp3
+│       ├── 14. Contenido 9.mp3
+│       ├── 15. Contenido 10.mp3
+│       ├── 16. Contenido 11.mp3
+│       └── 17. Contenido 12.mp3
+├── 084 OCR
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 170419.mp3
+│   ├── 03. Resumen T84.mp3
+│   ├── 04. OCR.mp3
+│   ├── 05. contenido 1.mp3
+│   ├── 06. contenido 2.mp3
+│   ├── 07. contenido 3.mp3
+│   └── 08. contenido 4.mp3
+├── 085 Ciclos vida
+│   ├── Repaso Express
+│   │   ├── 01. Autoría.mp3
+│   │   ├── 02. Fecha.mp3
+│   │   ├── 03. Tipo de apunte y tema.mp3
+│   │   ├── 04. Título del tema.mp3
+│   │   ├── 05. Contenido 1.mp3
+│   │   ├── 06. Contenido 2.mp3
+│   │   ├── 07. Contenido 3.mp3
+│   │   ├── 08. Contenido 4.mp3
+│   │   ├── 09. Contenido 5.mp3
+│   │   ├── 10. Contenido 6.mp3
+│   │   ├── 11. Contenido 7.mp3
+│   │   ├── 12. Contenido 8.mp3
+│   │   └── 13. Contenido 9.mp3
+│   └── Resumen
+│       ├── 01. Autoría.mp3
+│       ├── 02. Fecha.mp3
+│       ├── 03. Tipo de apunte y tema.mp3
+│       ├── 04. Título del tema.mp3
+│       ├── 05. Contenido 1.mp3
+│       ├── 06. Contenido 2.mp3
+│       ├── 07. Contenido 3.mp3
+│       ├── 08. Contenido 4.mp3
+│       ├── 09. Contenido 5.mp3
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       └── 13. Contenido 9.mp3
+├── 089 Análisis dinámico de sistemas
+│   ├── Resumen
+│   │   ├── 01-Autoría PreparaTIC26.mp3
+│   │   ├── 02-Fecha de actualizacion.mp3
+│   │   ├── 03-Analisis de Sistemas.mp3
+│   │   ├── 04-cambios y contenidos.mp3
+│   │   ├── 05-análisis estructurado.mp3
+│   │   ├── 06-Resto de apartado 2.mp3
+│   │   ├── 07-apartado 3 primera parte.mp3
+│   │   ├── 08-apartado 3 segunda parte.mp3
+│   │   ├── 09-apartado 3 tercera parte.mp3
+│   │   └── 10-apartado4.mp3
+│   └── Resumen Express
+│       ├── 01-Autoría PreparaTIC26.mp3
+│       ├── 02-Fecha de Actualizacion.mp3
+│       ├── 03-Repaso express.mp3
+│       ├── 04-Analisis de Sistemas.mp3
+│       ├── 05-Contenido 1.mp3
+│       ├── 06-Contenido 2.mp3
+│       └── 07-Contenido 3.mp3
+├── 102 Calidad EFQM ISO 9004
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 010519.mp3
+│   ├── 03. Resumen Express T102.mp3
+│   ├── 04. Calidad, EFQM, ISO 9004.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   └── 11. Contenido 7.mp3
+├── 105 ITIL y COBIT
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 170419.mp3
+│   ├── 03. Repaso Express T105.mp3
+│   ├── 04. Planificación y gestión de servicios TIC. ITIL y COBIT.mp3
+│   └── 05. Contenido 1.mp3
+├── 106 Tecnologias emergentes
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 060519.mp3
+│   ├── 03. Resumen T106.mp3
+│   ├── 04. Tecnologías emergentes.mp3
+│   ├── 05. Contenido 1.mp3
+│   └── 06. Contenido 2.mp3
+├── 108 La Red Internet
+│   ├── 001. Autoria.mp3
+│   ├── 002. Fecha Actualizacion.mp3
+│   ├── 003. Resumen Tema 108.mp3
+│   ├── 004. Internet y Servicios Basicos.mp3
+│   ├── 005.01. Historia de Internet.mp3
+│   ├── 006.02.01.01 IANA.mp3
+│   ├── 006.02.01 ICANN.mp3
+│   ├── 006.02.02.01 Servicios Web.mp3
+│   ├── 006.02.02 W3C.mp3
+│   ├── 006.02.03.01 IAB.mp3
+│   ├── 006.02.03.02 IETF.mp3
+│   ├── 006.02.03.03 IESG.m4a.mp3
+│   ├── 006.02.03.04 RFCs.m4a.mp3
+│   ├── 006.02.03 ISOC.mp3
+│   ├── 006.02.04 RIRs.mp3
+│   ├── 006.02. Organizaciones de Internet.mp3
+│   ├── 007.03. Internet.mp3
+│   ├── 008.04.01 DNS.mp3
+│   ├── 008.04.02 HTTP.mp3
+│   ├── 008.04.03 FTP.mp3
+│   ├── 008.04.04 Otros Servicios.mp3
+│   ├── 008.04. Servicios de Internet.mp3
+│   ├── 009.05. Web 2.0.mp3
+│   ├── 010.06.01 Puertos 1.mp3
+│   ├── 010.06.02 Puertos 2.mp3
+│   ├── 010.06.03 Puertos 3.mp3
+│   ├── 010.06.04 Puertos 4.mp3
+│   └── 010.06. Numeros de Puerto.mp3
+├── 116 Transformacion Digital, Industria 4.0 y IoT
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 040519.mp3
+│   ├── 03. Resumen T116.mp3
+│   ├── 04. Industria 4.0. SmartCities. IoT.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   └── 12. Contenido 8.mp3
+├── 119 Redes publicas. Red SARA
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 040519.mp3
+│   ├── 03. Resumen T119.mp3
+│   ├── 04. Redes públicas de datos.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   └── 11. Contenido 7.mp3
+├── 122 Comunicaciones moviles
+│   └── Resumen
+│       ├── 10. Contenido 6.mp3
+│       ├── 11. Contenido 7.mp3
+│       ├── 12. Contenido 8.mp3
+│       ├── 1. Autoria.mp3
+│       ├── 2. Fecha actualizacion.mp3
+│       ├── 3. Tipo de contenido.mp3
+│       ├── 4. Titulo.mp3
+│       ├── 5. Contenido 1.mp3
+│       ├── 6. Contenido 2.mp3
+│       ├── 7. Contenido 3.mp3
+│       ├── 8. Contenido 4.mp3
+│       └── 9. Contenido 5.mp3
+├── 126 Estrategia de Ciberseguridad
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 280419.mp3
+│   ├── 03. Resumen T126.mp3
+│   ├── 04. Ciberseguridad.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 3.mp3
+│   ├── 09. Contenido 4.mp3
+│   ├── 10. Contenido 5.mp3
+│   ├── 11. Contenido 6.mp3
+│   └── 12. Contenido 7.mp3
+├── 127 Plan de Continuidad de negocio
+│   ├── Resumen
+│   │   ├── 01-Título.mp3
+│   │   └── 02-texto.mp3
+│   └── Resumen Express
+│       ├── 01-Autoría PreparaTIC26.mp3
+│       ├── 02-Fecha de Actualizacion.mp3
+│       ├── 03-Repaso express.mp3
+│       ├── 04-Titulo.mp3
+│       └── 05-Contenido 1.mp3
+├── 128 Normas reguladoras de telecomunicaciones
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 240419.mp3
+│   ├── 03. Resumen T128.mp3
+│   ├── 04. Normas Teleco. CNMC.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   ├── 08. Contenido 4.mp3
+│   ├── 09. Contenido 5.mp3
+│   ├── 10. Contenido 6.mp3
+│   ├── 11. Contenido 7.mp3
+│   └── 12. Contenido 8.mp3
+├── 129 Sistemas de videoconferencia
+│   ├── 01. Preparatic26.mp3
+│   ├── 02. Fecha 030519.mp3
+│   ├── 03. Resumen T129.mp3
+│   ├── 04. Videoconferencia.mp3
+│   ├── 05. Contenido 1.mp3
+│   ├── 06. Contenido 2.mp3
+│   ├── 07. Contenido 3.mp3
+│   └── 08. Contenido 4.mp3
+└── 131 Virtualización
+    ├── 1. Preparatic26.mp3
+    ├── 2. Fecha 120519.mp3
+    ├── 3. Resumen T131.mp3
+    ├── 4. Virtualización.mp3
+    ├── 5. Contenido 1.mp3
+    ├── 6. Contenido 2.mp3
+    ├── 7. Contenido 3.mp3
+    └── 8. Contenido 4.mp3
