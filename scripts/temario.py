@@ -145,6 +145,13 @@ class CrawlTemario:
 
 
 if __name__ == "__main__":
+    c = CrawlTemario("content/posts/temario/", boe="BOE-A-2024-14098", libre="IX", interna="X")
+    c.save(c.anx_libre, status='hidden')
+    c.save(c.anx_interna, status='hidden')
+
+    import sys
+    sys.exit()
+    
     c = CrawlTemario("content/posts/temario/")
     c.save(c.anx_libre, pdf_code='GSI')
     c.save(c.anx_interna, pdf_code='GSI')

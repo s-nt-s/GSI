@@ -7,3 +7,6 @@ pelican==4.7.0
 PyYAML==5.4.1
 requests==2.20.0
 xmltodict==0.12.0
+roman==4.2
+#selenium==4.24.0
+#weasyprint==62.3
